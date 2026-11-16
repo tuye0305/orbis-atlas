@@ -93,8 +93,9 @@ The new Belgrade spans are:
 ## 2026-11 expansion
 
 Added 90 events, 33 people, 12 places and 32 polities (plus four more Venetian doges on
-`polity-republic-of-venice`), and 150 new stories: 44 on existing importance-4/5 events, 39 on new
-importance-4/5 events and 26 on new importance-3 events, 33 on people, 4 on places, 4 on polities.
+`polity-republic-of-venice`), and 153 new stories: 44 on existing importance-4/5 events, 36 on new
+importance-4/5 events (all of them) and 31 on new importance-3 events, 33 on people, 5 on places,
+4 on polities.
 The remaining importance-4/5 records without a story (Constantinople 330 and 1453, Kievan Rus',
 October Revolution, Eastern Front, Stalingrad, dissolution of the USSR) are in the eastern-europe
 agent's scope and were left untouched.
