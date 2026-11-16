@@ -84,3 +84,80 @@ The reasons and sources for each verdict are in the resolutions file.
 - Maldives and Bhutan coverage is still thin.
 - The Ghaznavid and Ghurid polities belong to central-asia and are not duplicated here.
 - The Kakatiya start (1163, Hanamkonda inscription) is given as 1158 or 1162 in some secondary sources.
+
+## 2026-11 review
+
+Reviewer: independent fact-checker, separate from the curator. After the fixes below, `validate-data south-asia` reports 0 errors and the auto-diff 38 differences, 0 open.
+
+**What was sampled and how:**
+- **Stories:** all 69 stories (34 on existing records, 35 on new ones) were read in full in English. The Chinese text of 18 of them was also compared line by line, and those 18 include every story that was corrected.
+- **New records:** all 128 were read, including summaries, stops, `names` ranges and ruler lists. All 125 new QIDs were re-checked with `wd.mjs lookup` (label, description, dates).
+- **Claim-by-claim checks:** 59 new records got these: the 35 new events with stories and all 24 new people. That is 46% of the 128, above the 30% target. Where a claim was doubtful, it was checked against a source the curator did not cite: Wikipedia articles with their footnoted monographs (Sastry 1978; Ramasubramanian et al. 1994), UNESCO, Indian census figures and Nepali press. Britannica pages were blocked to the fetcher (HTTP 403) and were used only through search snippets.
+- **Cross-dataset duplicates:** every new QID was grepped across the other `data/*/` folders. None are duplicated. The Faxian, Ibn Battuta, Mahmud and Timur subjects stay linked to the china, africa and central-asia datasets.
+
+**Placeholder birth years.** The word "placeholder" no longer appears in the dataset. Each estimate now states its basis.
+
+| Record | Old → new | Basis |
+| --- | --- | --- |
+| person-rudrama-devi | born 1240 → **1210**; confidence low | P. V. P. Sastry, *The Kākatīyas of Warangal* (1978), p. 125, puts her at about eighty when she died in 1289. A marriage soon after 1240 (Talbot) is compatible with this. The death stop no longer asserts a death in battle; the inscription only shows she had died before 27 Nov 1289. |
+| person-samudragupta | 318 kept; note rewritten | Inferred from an adult accession c. 335 (Basham c. 335–376; Altekar c. 330–370). The figure 318 itself is uncited in Wikipedia, and the note says so. |
+| person-pulakeshin-ii | 590 kept; note rewritten | He was a minor when Kirtivarman I died (c. 592–597), hence Mangalesha's rule, and he took the throne c. 610. |
+| person-iltutmish | 1180 kept; note rewritten; confidence medium → low | Minhaj says Aibak bought him as a boy c. 1197; he was amir of Gwalior after 1200 and commanded the Badaun troops in 1205–06. Wikidata's uncited 1192 would make him a governor at eight. |
+| Kanishka, Chandragupta II, Rajendra I, Kalidasa, Razia, Muhammad bin Tughluq | values kept; notes rewritten | The word "placeholder" is replaced by the reasoning behind each estimate. |
+
+**Story and summary corrections:**
+
+| Record | Old → new | Reason / source |
+| --- | --- | --- |
+| ev-xuanzang-in-india | He toured the south after the Prayaga assembly → he toured the south c. 638–640, before the Kannauj and Prayaga assemblies (c. 642–643) | Xuanzang's own itinerary (Beal tr.) |
+| ev-vasco-da-gama-calicut | "four ships" reached India → three; the store ship was broken up after the Cape | Velho's *Roteiro* |
+| ev-first-battle-of-panipat | "12,000, memoir puts it higher" → the memoir's own count of about 12,000 includes followers. "Two cannon under Ustad Ali Quli" → cannon under Ustad Ali Quli and Mustafa | *Baburnama* (Thackston tr.) |
+| ev-nepal-earthquake-2015 | Kasthamandap reopened 2021 → April 2022 | *Himalayan Times*, Apr 2022 |
+| ev-hampi-vijayanagara | ruins "some 25 km²" → "more than 40 km²" | UNESCO WHC 241 (4,187 ha) |
+| ev-ambedkar-conversion | Buddhists "a few tens of thousands" → about 180,000 in 1951, about 3.25 million in 1961 | Census of India 1951/1961 |
+| ev-tagore-nobel-prize | "first non-European laureate" → first non-European literature laureate and first Asian laureate | Roosevelt (1906) and Michelson (1907) were earlier non-European laureates |
+| ev-tantrasangraha | "inner planets" circle the sun → the five planets | Ramasubramanian, Srinivas & Sriram, *Current Science* 66 (1994) |
+| ev-battle-of-takkolam | Chola recovery "under Rajaraja I" → under Parantaka II (Sundara Chola) | Nilakanta Sastri, *The Cōḷas* |
+| ev-battle-of-raichur | Nunes "who was present" → his chronicle, written in the 1530s | Sewell, *A Forgotten Empire* (1900), introduction |
+| ev-bhopal-disaster | "3,800 within days by official count … tens of thousands" → about 3,800 by the later Madhya Pradesh figure; about 8,000 in the first days by other estimates | Wording aligned to the sources |
+| ev-chandrayaan-3 | "the closest any spacecraft had come" to the pole → "then the closest … had landed" | IM-1 landed nearer the pole in 2024 |
+| place-anuradhapura | Chola period 1017–1070 → 993–1070; summary "Chola sack of 1017" → "Chola conquest (993–1017)" | The city was sacked in 993, as the dataset's own Chola event says |
+| polity-western-satraps | rulers out of time order | Re-sorted |
+
+**Wording made more careful:**
+- **Bangladesh 1971:** "hundreds of thousands, perhaps far more" now gives the stated range of 300,000 to 3 million. "India invaded" now reads "entered the war openly". The 93,000 are described as prisoners of war.
+- **Partition:** Pakistan "celebrated its independence on 14 August".
+- **Sri Lankan Civil War:** "most ruthless" now reads "dominant, eliminating rival Tamil groups". The UN panel's findings against both sides are added.
+- **Somnath:** the "later national trauma" reading is attributed to Romila Thapar, with the other view noted.
+- **Timur:** the unsourced "a century to recover" is replaced by the chroniclers' description of a deserted city.
+- **Srivijaya raid:** "the only known" overseas campaign now reads "the most far-reaching".
+- **Bakhtiyar Khalji:** the summary no longer claims he "ended Buddhism's institutional life"; Nalanda and Vikramashila were "probably" also struck.
+- **Smaller fixes:** in the Talikota story, the copper-coin grapeshot is marked as a later account. The Nalanda story now credits the Shakraditya attribution to Xuanzang and the seals only with the king's name. The Periplus story no longer has its author advising "which kings to bribe".
+
+Every English change was mirrored in `zh`.
+
+**QIDs:**
+- **Licchavi Nepal:** given Q3242360 ("ancient kingdom of Kathmandu valley").
+- **Searched, no event item:**
+  - Bakhtiyar Khalji's raids: Q2698200 is the man himself and Q27628354 his 1206 Tibet campaign.
+  - Conversion of the Maldives: Q7293385 is the Rannamaari legend and Q3081535 the general topic.
+  - Ceylon's independence: Q2670092 is the polity and Q6016023 the national holiday.
+  - Each of these records says so in its note.
+
+**Additions (9 records, each with at least 2 sources):**
+- **Bhutan:**
+  - `ev-paro-taktsang` (1692, Q2209873)
+  - `ev-duar-war` (1864–65, Q2564664)
+  - `ev-wangchuck-monarchy-1907` (no event item exists)
+  - `ev-bhutan-constitution-2008` (Q4231519)
+  - `person-ugyen-wangchuck` (Q333866)
+- **Maldives:**
+  - `ev-thakurufaanu-expels-portuguese` (1573, no item exists)
+  - `ev-male-friday-mosque` (1658, Q4385992)
+  - `ev-maldives-independence-1965` (Q124692827)
+  - `ev-operation-cactus` (1988, Q1634613)
+
+**Left for a human:**
+- **Rudrama Devi's birth:** c. 1210 rests on a single scholar's estimate as reported secondhand. A reader with Sastry (1978) to hand should confirm p. 125.
+- **Iltutmish and Samudragupta:** their birth years remain inferences; no published estimate was found.
+- **Britannica claims:** these could not be re-opened directly because the site returned 403 to the fetcher.
