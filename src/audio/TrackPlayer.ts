@@ -435,8 +435,9 @@ export class TrackPlayer {
   }
 
   /**
-   * Keep the music where it is for `ms` (e.g. while the intro swings the camera round), so the
-   * regions it sweeps over on the way do not each start a track.
+   * Keep the music where it is for `ms` from now (e.g. while the intro swings the camera round), so
+   * the regions it sweeps over on the way do not each start a track. Calling it again extends or
+   * shortens the hold; a switch already scheduled waits for the latest hold.
    */
   holdFor(ms: number) {
     this.holdUntil = performance.now() + ms;
@@ -484,6 +485,8 @@ export class TrackPlayer {
     const settle = !this.current ? (this.region ? 0 : OCEAN_SETTLE * 1.5) : this.region ? SETTLE : OCEAN_SETTLE;
     this.pending = window.setTimeout(() => {
       if (!this.enabled) return;
+      // The hold was extended meanwhile (the camera is still landing): wait it out.
+      if (this.holdUntil > performance.now()) return this.follow();
       this.switchTo(this.slotFor(this.region), this.current ? FADE : 1.5);
     }, Math.max(hold, settle));
   }

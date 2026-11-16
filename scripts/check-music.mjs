@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Music check. Run `npm run build` first; needs ffmpeg and Playwright's Chromium.
 //   node scripts/check-music.mjs            SHOTS_OUT=dir overrides docs/screenshots/pr-music
+//   BROWSER=webkit node scripts/check-music.mjs   runs the browser part in WebKit (the Safari engine)
 //
 // Offline, with ffmpeg, for every track in public/music/manifest.json:
 //   - the file decodes at its manifest duration, at about -18 LUFS, with no leading silence and
@@ -22,7 +23,7 @@ import { execFileSync, spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { chromium } from 'playwright';
+import { chromium, webkit } from 'playwright';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = process.env.SHOTS_OUT ?? path.join(ROOT, 'docs', 'screenshots', 'pr-music');
@@ -121,7 +122,8 @@ await new Promise((resolve, reject) => {
   server.stdout.on('data', (d) => String(d).includes(String(PORT)) && (clearTimeout(t), resolve()));
 });
 
-const browser = await chromium.launch({
+const ENGINE = process.env.BROWSER === 'webkit' ? 'webkit' : 'chromium';
+const browser = ENGINE === 'webkit' ? await webkit.launch() : await chromium.launch({
   args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--autoplay-policy=no-user-gesture-required'],
 });
 
@@ -131,6 +133,8 @@ async function musicPage() {
   const errors = [];
   const fetched = new Set();
   page.on('pageerror', (e) => errors.push(String(e)));
+  const warns = [];
+  page.on('console', (m) => m.type() === 'warning' && warns.push(m.text()));
   page.on('request', (r) => {
     const m = /\/music\/([^/?#]+\.mp3)/.exec(r.url());
     if (m) fetched.add(m[1]);
@@ -177,7 +181,7 @@ async function musicPage() {
   };
   const label = () => page.locator('.music-label').textContent();
   const session = () => page.evaluate(() => ({ title: navigator.mediaSession.metadata?.title ?? null, state: navigator.mediaSession.playbackState }));
-  return { page, errors, fetched, playing, until, label, session };
+  return { page, errors, warns, fetched, playing, until, label, session };
 }
 
 const slotOf = (src) => src?.replace(/-\d+\.mp3$/, '');
@@ -198,20 +202,22 @@ try {
             }),
           `${BASE}/music/${t.file}`,
         );
-        check(Math.abs(d - t.duration) < 1, `${region}: ${t.file} decodes in Chromium (${d.toFixed(1)}s)`);
+        check(Math.abs(d - t.duration) < 1, `${region}: ${t.file} decodes in ${ENGINE} (${d.toFixed(1)}s)`);
       }
     }
     await page.close();
   }
 
-  const { page, errors, fetched, playing, until, label, session } = await musicPage();
+  const { page, errors, warns, fetched, playing, until, label, session } = await musicPage();
   await page.goto(`${BASE}/?year=1066&lang=en`);
 
   // 2. Enter with music: one track starts, for the region where the intro lands, and no track
   //    starts for the regions the intro swing passes over on the way.
   await page.locator('.intro .btn-primary:not([disabled])').click({ timeout: 30000 });
   const started = new Set();
-  const end = Date.now() + 15000;
+  // Generous upper bounds: the music waits for the intro to land, which under software WebGL on a
+  // busy machine can take many times its 3.2 s. A normal run leaves these loops within seconds.
+  const end = Date.now() + 45000;
   let now = [];
   while (Date.now() < end) {
     now = await playing();
@@ -250,15 +256,15 @@ try {
     const handed = last.length === 1 && slotOf(last[0].src) === slotOf(first) && last[0].t > 1 && last[0].t < 10;
     check(
       Math.min(...counts) >= 1 && overlap && handed && quietest > -50,
-      `loop seam: ${first} → ${last[0]?.src} at ${last[0]?.t}s, overlapped: ${overlap}, never silent: ${Math.min(...counts) >= 1}, quietest output ${quietest.toFixed(1)} dBFS`,
+      `loop seam: ${first} → ${last[0]?.src} at ${last[0]?.t}s, overlapped: ${overlap}, never silent: ${Math.min(...counts) >= 1}, quietest output ${quietest.toFixed(1)} dBFS${handed ? '' : ` (decks over time: ${JSON.stringify(samples.filter((_, i) => i % 15 === 0).map((s) => s.p))}; warnings: ${JSON.stringify(warns)})`}`,
     );
   }
 
   // 4. Fly to East Asia: both regions sound during the crossfade, then only East Asia.
   await page.getByRole('button', { name: 'East Asia', exact: true }).click();
-  const mid = await until((n) => new Set(n.map((x) => slotOf(x.src))).size === 2, 8000);
+  const mid = await until((n) => new Set(n.map((x) => slotOf(x.src))).size === 2, 20000);
   check(new Set(mid.map((x) => slotOf(x.src))).size === 2, `crossfade overlaps both regions: ${JSON.stringify(mid)}`);
-  now = await until((n) => n.length === 1 && n[0].src.startsWith('east-asia'), 10000);
+  now = await until((n) => n.length === 1 && n[0].src.startsWith('east-asia'), 25000);
   check(now.length === 1 && now[0].src.startsWith('east-asia') && slotOf(now[0].src) !== slotOf(first), `after flying to East Asia: ${JSON.stringify(now)}`);
   const lab = await label();
   check(lab === 'Guzheng, dizi & erhu', `label names the music: “${lab}”`);
@@ -270,9 +276,12 @@ try {
   now = await playing();
   check(now.length === 0 && (await session()).state === 'paused', `music off: ${JSON.stringify(now)}, Media Session ${(await session()).state}`);
   await page.getByRole('button', { name: 'Europe', exact: true }).click();
-  await page.waitForTimeout(3500);
+  // Wait for the camera to arrive (the flight is slow under software WebGL), not a fixed time:
+  // turned on mid-flight, the player rightly starts the region the camera is still over.
+  await page.waitForFunction(() => document.querySelector('.region-chip.on')?.textContent?.trim() === 'Europe', null, { timeout: 20000 });
+  await page.waitForTimeout(1000);
   await page.locator('.music-btn').click();
-  now = await until((n) => n.length === 1 && n[0].src.startsWith('europe'), 6000);
+  now = await until((n) => n.length === 1 && n[0].src.startsWith('europe'), 20000);
   check(now.length === 1 && now[0].src.startsWith('europe'), `music on again over Europe: ${JSON.stringify(now)}`);
 
   // 6. Bandwidth: only the regions visited were fetched, through a bounded element pool.
@@ -289,9 +298,9 @@ try {
     await page.route(/\/music\/east-asia-\d+\.mp3/, (r) => r.fulfill({ status: 404, body: 'not found' }));
     await page.goto(`${BASE}/?year=1066&lang=en`);
     await page.locator('.intro .btn-primary:not([disabled])').click({ timeout: 30000 });
-    await until((n) => n.length === 1 && n[0].t > 1, 15000);
+    await until((n) => n.length === 1 && n[0].t > 1, 45000);
     await page.getByRole('button', { name: 'East Asia', exact: true }).click();
-    const fb = await until((n) => n.length === 1 && n[0].src.startsWith('ocean') && n[0].t > 1, 20000);
+    const fb = await until((n) => n.length === 1 && n[0].src.startsWith('ocean') && n[0].t > 1, 40000);
     const lab = await label();
     check(fb.length === 1 && fb[0].src.startsWith('ocean') && lab === 'Open sea', `East Asia 404s: falls back to ${JSON.stringify(fb)}, label “${lab}”`);
     check(errors.length === 0, `no page errors on load failure${errors.length ? `: ${errors.join(' | ')}` : ''}`);

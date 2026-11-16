@@ -5,20 +5,18 @@
    {
     "file": "europe-1.mp3",
     "title": "Orbis · Europe",
-    "duration": 148.63,
-    "model": "elevenlabs/music",
-    "id": "2e7db880be6c4051b72e8868a27f5f84",
+    "duration": 146.82,
+    "crossfadeAt": 141.82,
     "fadeOut": 4,
-    "crossfadeAt": 143.63
+    "model": "elevenlabs/music"
    },
    {
     "file": "europe-2.mp3",
     "title": "Orbis · Europe",
-    "duration": 149.83,
+    "duration": 143.77,
+    "crossfadeAt": 138.77,
     "fadeOut": 4,
-    "model": "elevenlabs/music",
-    "id": "45f668a14d3543a2a66061d9d29bb017",
-    "crossfadeAt": 144.83
+    "model": "elevenlabs/music"
    }
   ],
   "africa": [
@@ -125,20 +123,18 @@
    {
     "file": "southeast-asia-1.mp3",
     "title": "Orbis · Southeast Asia",
-    "duration": 147.93,
-    "model": "elevenlabs/music",
-    "id": "8a392e57c30e47fda5fd696bfc2f9e6c",
+    "duration": 145.68,
+    "crossfadeAt": 140.68,
     "fadeOut": 4,
-    "crossfadeAt": 139.4
+    "model": "elevenlabs/music"
    },
    {
     "file": "southeast-asia-2.mp3",
     "title": "Orbis · Southeast Asia",
-    "duration": 139.4,
+    "duration": 146.56,
+    "crossfadeAt": 141.56,
     "fadeOut": 4,
-    "model": "elevenlabs/music",
-    "id": "8a26884680fa4e6dae9abf0f4cc10b79",
-    "crossfadeAt": 133.4
+    "model": "elevenlabs/music"
    }
   ],
   "ocean": [

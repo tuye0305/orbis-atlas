@@ -222,10 +222,10 @@ kbd {
 .music-btn.on .eq { display: flex; }
 .note-icon { flex: none; }
 .music-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-/* Top-bar squeeze (≈1280–1500 px): the music label gives way first (ellipsis), never the brand or
-   the small buttons, so the brand no longer slides under the search box and 中文 never wraps. */
+/* Top-bar squeeze (≈1360–1500 px): the search hint gives way first, then the music label (ellipsis),
+   never the brand or the small buttons: the brand stays clear of the search box, 中文 never wraps
+   and the last button never runs off the edge. */
 .topbar .brand { flex-shrink: 0; }
-.topbar .controls { min-width: 0; }
 .topbar .controls > * { flex-shrink: 0; }
 .topbar .controls > .music-btn { flex-shrink: 1; min-width: 118px; max-width: clamp(130px, 15vw, 260px); }
 .icon-btn { white-space: nowrap; }
@@ -411,6 +411,11 @@ kbd {
 @media (max-width: 1360px) {
   .region-chip { padding: 6px 9px; font-size: 12.5px; }
   .brand-sub { display: none; }
+}
+/* Too narrow for the search hint to say anything: the button shows its icon and ⌘K (it keeps its aria-label). */
+@media (max-width: 1360px) and (min-width: 1181px) {
+  .search-trigger span { display: none; }
+  .topbar { gap: 10px; }
 }
 @media (max-width: 1180px) and (min-width: 901px) {
   .topbar { flex-wrap: wrap; row-gap: 8px; }

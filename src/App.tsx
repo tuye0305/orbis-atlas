@@ -238,12 +238,28 @@ export default function App() {
     const reduced = prefersReducedMotion();
     if (reduced) engine.current?.flyTo(36, 40, 2.1, 0.01);
     else engine.current?.intro();
-    // Start the music once the intro has landed, not on each region the swing passes over.
+    // Start the music once the intro has landed, not on each region the swing passes over. The hold
+    // follows the camera rather than a fixed time: on a slow device the 3.2 s swing can take far
+    // longer, and a deep link flies on to its target once the swing is done. It never outlasts a
+    // few seconds past the nominal landing, though: GSAP slows tweens down on very slow frames, and
+    // music that starts over the wrong region beats music that never starts.
     const { selection: deepLink } = useStore.getState();
-    // Intro flight 3.2 s + region tracking settle (~0.6 s) + margin; deep links fly on afterwards.
-    const settleMs = reduced ? 900 : deepLink ? 6200 : 4600;
-    if (music && 'holdFor' in music) (music as TrackPlayer).holdFor(settleMs);
-    else void loadMusic().then((m) => 'holdFor' in m && (m as TrackPlayer).holdFor(settleMs));
+    const t0 = performance.now();
+    const flightsFrom = t0 + (reduced ? 100 : deepLink ? 3600 : 0);
+    const giveUpAt = t0 + (reduced ? 1500 : deepLink ? 11000 : 8000);
+    const holdWhileLanding = (m: Music) => {
+      if (!('holdFor' in m)) return;
+      const tick = () => {
+        const now = performance.now();
+        const busy = (!!engine.current?.isFlying() || now < flightsFrom) && now < giveUpAt;
+        // Once landed, region tracking still needs ~0.6 s to name where the camera is.
+        (m as TrackPlayer).holdFor(busy ? 1500 : 800);
+        if (busy) window.setTimeout(tick, 250);
+      };
+      tick();
+    };
+    if (music) holdWhileLanding(music);
+    else void loadMusic().then(holdWhileLanding);
     if (withMusic) useStore.getState().set({ musicOn: true });
     // Warm the lazily-loaded About dialog so “?” opens without a network round trip.
     void loadAbout();
