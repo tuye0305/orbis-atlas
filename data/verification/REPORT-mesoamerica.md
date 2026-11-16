@@ -151,3 +151,157 @@ This is an independent audit. Every check used a source retrieved during the aud
 **Error rate:** 1 of 15 records (about 7%), a minor wording error in an etymology. No date, QID, coordinate or zh name needed changing.
 
 The validator reports 0 errors. Enrich and build are clean, with no new auto-diff and 0 open diffs.
+
+## 2026-11 story verification (web-sourced)
+
+A second pass over the `story` texts, every claim checked against a source retrieved in this pass (Wikipedia article text via WebFetch in en/es, plus museum, university, INAH and press pages; search snippets for Britannica-style facts). Nothing was checked from memory.
+
+- **Scope:** 81 of the 87 stories. Skipped: the 6 stories already checked against retrieved sources in the "2026-11 audit (web-sourced)" above (`ev-execution-of-18-rabbit`, `ev-el-castillo-chichen-itza`, `ev-arrival-of-strangers-tikal`, `ev-decline-of-monte-alban`, `ev-aztec-triple-alliance`, `person-las-casas`). The reviewer's 30 stories were re-checked, because that review relied on Martin & Grube and Wikipedia extracts only for contested dates.
+- **Result:** 39 of 81 stories (48%) needed a correction or a softened claim; 42 were confirmed as written. The 101 edits (en and zh together) cover wrong numbers (Florentine Codex 60 days, not 70; Puebla 131 French dead, not 460; Maine about 260; Moncada 136 attackers), misattributions (Rosalila is a 571 temple of the 10th king, not a building of the founder; Hidalgo's Guadalupe banner came from Atotonilco), unsupported superlatives ("first building dedicated to a woman", "largest English town after Boston", "last Indigenous community", "hero of Jamaican independence"), wrong dates (Ruz found the stair in 1949; Sor Juana's library 1694; last Haitian debt payment 1947) and legend told as fact (the eagle on the cactus).
+- **zh:** every zh story was compared with its en text; each en correction has a matching zh edit. No traditional characters or calques found beyond those fixed.
+- **Not resolved (left as written, plausible but no retrieved source):** Geggus's reading of the Lenormand de Mézy meeting (Bois Caïman); the soldiers in plain clothes (Parsley massacre); Landa's informants' cave find (Maní); Carlota's breakdown in Rome. The web-search quota for this session ran out midway, so later checks relied on fetched pages only.
+- **Pipeline:** `fmt-data`, `validate-data mesoamerica` (0 errors, 32 warnings as before), `build-data` (0 open diffs). No QID, image or date field changed, so no enrich was needed.
+
+### Stories checked and sources
+
+| Record | Result | Source(s) retrieved |
+| --- | --- | --- |
+| ev-pyramid-of-the-sun | ok | en.wikipedia Teotihuacan; Šprajc, Latin American Antiquity (15.5° axis; Heyden cave) |
+| ev-founding-of-copan-dynasty | fixed | Copán Association (Rosalila); Penn Museum Expedition; en.wikipedia Copán Altar Q, K'inich Yax K'uk' Mo'; Science News (isotopes) |
+| ev-tierra-blanca-joven-eruption | ok | en.wikipedia Tierra Blanca Joven eruption (Smith et al. 2020) |
+| ev-burning-of-teotihuacan | ok | en.wikipedia Teotihuacan; phys.org on Manzanilla, PNAS 2015 |
+| ev-caracol-defeats-tikal | ok | en.wikipedia Caracol (553, 556, 562, Altar 21, hiatus, population) |
+| ev-joya-de-ceren-buried | ok | en.wikipedia Joya de Cerén; Discover "New World Pompeii"; Mental Floss |
+| ev-founding-of-dos-pilas | ok | en.wikipedia Dos Pilas (629, 648, 679, 761, Vanderbilt palisades) |
+| ev-tomb-of-pakal | fixed | en.wikipedia Temple of the Inscriptions; INAH Lakamha' and bulletin 372; ArtDaily (lid) |
+| ev-tikal-defeats-calakmul | ok | Mesoweb, "Star War" (Tikal Lintel 3); en.wikipedia Jasaw Chan K'awiil I |
+| ev-yaxchilan-lintels | fixed | en.wikipedia Yaxchilan Lintel 24, Lady Xoc; Mesoweb lintel files |
+| ev-bonampak-murals | fixed | en.wikipedia Bonampak, Giles Healey; mayaruins.com |
+| ev-classic-maya-collapse | ok | Met Heilbrunn timeline (Toniná Mon. 101, 909); en.wikipedia Classic Maya collapse; Cambridge/Hodell drought coverage |
+| ev-rise-of-tula | fixed | en.wikipedia Tula; INAH Tula guide (tzompantli); Toltec Empire |
+| ev-dresden-codex | fixed | en.wikipedia Dresden Codex; Thompson/Goodman base-date literature |
+| ev-fall-of-mayapan | fixed | Archaeology magazine 2022 (Kennett et al.); Sapiens; en.wikipedia Mayapan, Nachi Cocom (Otzmal 1536) |
+| ev-founding-of-tenochtitlan | fixed | en.wikipedia Tenochtitlan; Codex Mendoza |
+| ev-famine-of-one-rabbit | ok | Therrell & Stahle 2004 (Aztec drought and the curse of One Rabbit); INAH bulletin 696 (2024); Hassig 1981 |
+| ev-tarascan-defeat-of-axayacatl | fixed | Encyclopedia.com Axayacatl; en.wikipedia Tangáxuan II, Purépecha Empire |
+| ev-templo-mayor-rededication | fixed | en.wikipedia Templo Mayor; phys.org 2010 (Tlaltecuhtli, found Oct 2006) |
+| ev-founding-of-la-isabela | fixed | en.wikipedia La Isabela; University of Florida news 2007 (Deagan & Cruxent) |
+| ev-montesinos-sermon | ok | en.wikipedia Antonio de Montesinos (21 Dec 1511, Advent IV; Las Casas a witness) |
+| ev-spanish-conquest-of-cuba | ok | en.wikipedia Hatuey (Guahabá, basket of gold, Yara 1512, Las Casas) |
+| ev-balboa-sights-the-pacific | ok | en.wikipedia Vasco Núñez de Balboa; EBSCO research starter; biography.com (Pizarro in 1513) |
+| ev-spanish-conquest-of-the-aztec-empire | fixed | Britannica snippet (22 May–13 Aug 1521); en.wikipedia Fall of Tenochtitlan |
+| ev-toxcatl-massacre | fixed | history.com; worldhistory.org; brewminate (Toxcatl) |
+| ev-noche-triste | ok | en.wikipedia Fall of Tenochtitlan (1 July 1520, 450–860 Spanish dead); worldhistory.org |
+| ev-smallpox-epidemic-of-1520 | fixed | Florentine Codex Bk 12 ch. 29 (wired-humanities); Zócalo Public Square (Bowles) |
+| ev-fall-of-tenochtitlan | ok | en.wikipedia Fall of Tenochtitlan; Britannica snippet; worldhistory.org |
+| ev-spanish-conquest-of-guatemala | fixed | en.wikipedia Spanish conquest of Guatemala; Iximche |
+| ev-apparitions-of-guadalupe | fixed | en.wikipedia Sanctuary of Atotonilco; Our Lady of Guadalupe |
+| ev-viceroyalty-of-new-spain-established | ok | en.wikipedia Antonio de Mendoza; Viceroyalty of New Spain |
+| ev-cocoliztli-epidemic-of-1545 | fixed | en.wikipedia Cocoliztli epidemics (Acuña-Soto; Vågene et al. 2018) |
+| ev-silver-discovered-at-zacatecas | ok | en.wikipedia Zacatecas City (Tolosa, La Bufa, 1546) |
+| ev-popol-vuh-written | ok | en.wikipedia Popol Vuh (Ximénez c. 1701, Newberry, 1554–58) |
+| ev-auto-de-fe-at-mani | fixed | en.wikipedia Diego de Landa; es.wikipedia Auto de fe de Maní |
+| ev-tornaviaje-reaches-acapulco | fixed | en.wikipedia Andrés de Urdaneta |
+| ev-kalinago-genocide-of-1626 | fixed | en.wikipedia Kalinago genocide |
+| ev-sugar-revolution-in-barbados | ok | en.wikipedia History of Barbados (1673/1684 censuses); Barbados Slave Code |
+| ev-morgan-sacks-panama | ok | en.wikipedia Henry Morgan |
+| ev-port-royal-earthquake | fixed | en.wikipedia 1692 Jamaica earthquake |
+| ev-tackys-revolt | fixed | en.wikipedia Tacky's Revolt |
+| ev-british-capture-of-havana | fixed | en.wikipedia Siege of Havana |
+| ev-haitian-revolution | fixed | en.wikipedia Saint-Domingue; Haitian Revolution |
+| ev-haitian-declaration-of-independence | ok | en.wikipedia Haitian Declaration of Independence (Gaffield 2010, Kew) |
+| ev-grito-de-dolores | ok | en.wikipedia Sanctuary of Atotonilco; Grito de Dolores |
+| ev-independence-of-central-america | ok | en.wikipedia Act of Independence of Central America |
+| ev-haiti-independence-debt | fixed | en.wikipedia Haiti indemnity controversy (NYT 2022) |
+| ev-caste-war-of-yucatan | ok | en.wikipedia Caste War of Yucatán |
+| ev-filibuster-war | fixed | en.wikipedia William Walker (filibuster) |
+| ev-execution-of-maximilian | ok | en.wikipedia Maximilian I of Mexico |
+| ev-mexican-muralism | fixed | en.wikipedia Diego Rivera |
+| ev-panama-canal-opens | ok | en.wikipedia Panama Canal; William C. Gorgas |
+| ev-cuban-war-of-independence | ok | en.wikipedia Cuban War of Independence (Tone: 155–170,000 reconcentration deaths) |
+| ev-bois-caiman-ceremony | fixed | en.wikipedia Bois Caïman; Dutty Boukman |
+| ev-battle-of-puebla | fixed | en.wikipedia Battle of Puebla |
+| ev-mexican-war-of-independence | fixed | en.wikipedia Mexican War of Independence |
+| ev-mexican-revolution | ok | en.wikipedia Mexican Revolution |
+| ev-us-occupation-of-haiti | ok | en.wikipedia United States occupation of Haiti |
+| ev-parsley-massacre | fixed | en.wikipedia Parsley massacre (Turits, Derby) |
+| ev-mexican-oil-expropriation | fixed | en.wikipedia Mexican oil expropriation |
+| ev-1954-guatemalan-coup | ok | en.wikipedia 1954 Guatemalan coup d'état |
+| ev-cuban-revolution | fixed | en.wikipedia Attack on the Moncada Barracks; Granma (yacht); Cuban Revolution |
+| ev-cuban-missile-crisis | ok | en.wikipedia Cuban Missile Crisis |
+| ev-guatemalan-civil-war | ok | en.wikipedia Guatemalan genocide (440 villages; CEH 1999; Ríos Montt 2013) |
+| ev-tlatelolco-massacre | ok | en.wikipedia Tlatelolco massacre |
+| ev-nicaraguan-revolution | fixed | en.wikipedia Nicaraguan Revolution |
+| ev-assassination-of-oscar-romero | ok | en.wikipedia Óscar Romero |
+| ev-1985-mexico-city-earthquake | ok | en.wikipedia 1985 Mexico City earthquake |
+| ev-decipherment-of-maya-script | ok | en.wikipedia Maya script; Tatiana Proskouriakoff |
+| ev-zapatista-uprising | ok | en.wikipedia Zapatista uprising |
+| ev-2010-haiti-earthquake | fixed | en.wikipedia 2010 Haiti earthquake; 2010s Haiti cholera outbreak |
+| ev-spanish-american-war-cuba | fixed | en.wikipedia USS Maine (1889); Cuban War of Independence |
+| ev-mount-pelee-eruption-1902 | fixed | en.wikipedia 1902 eruption of Mount Pelée |
+| person-pakal | fixed | en.wikipedia K'inich Janaab' Pakal |
+| person-eight-deer | ok | en.wikipedia Eight Deer Jaguar Claw (legend-based; already framed "according to the codices") |
+| person-malintzin | ok | en.wikipedia La Malinche (Townsend; Cholula plot framed as Spanish claim) |
+| person-sor-juana | fixed | en.wikipedia Juana Inés de la Cruz |
+| person-nanny-of-the-maroons | ok | en.wikipedia Queen Nanny |
+| person-toussaint-louverture | ok | en.wikipedia Toussaint Louverture |
+| person-benito-juarez | ok | en.wikipedia Benito Juárez |
+| person-emiliano-zapata | ok | en.wikipedia Emiliano Zapata |
+
+### Corrections
+
+Each en change has a matching zh change unless noted. Old → new is quoted in short form.
+
+| Record | Old → new | Why | Source |
+| --- | --- | --- | --- |
+| ev-founding-of-copan-dynasty | “Tunnelling inside the Acropolis in the 1990s, archaeologists of the University of Pennsylvania found the founder's own buildings buried u…” → “Tunnelling inside the Acropolis from 1989 on, archaeologists found the brightly painted Rosalila temple, raised by the tenth king in 571 …” | Rosalila is not one of the founder's buildings: it was dedicated in 571 by the 10th ruler (Moon Jaguar) and found by Ricardo Agurcia in 1989; Sharer's Penn team found Hunal and its tomb in 1995 | asociacioncopan.org (The Importance of Rosalila); Penn Museum Expedition (Hunal); en.wikipedia K'inich Yax K'uk' Mo' |
+| ev-tomb-of-pakal | “In 1948 the Mexican archaeologist” → “In 1949 the Mexican archaeologist” | Ruz found the slab and the hidden stairway in 1949, his first season | INAH, Lakamha' (revistas.inah.gob.mx); INAH bulletin 372 (2023) |
+| ev-tomb-of-pakal | “covered by a five-tonne lid” → “covered by a carved lid of five to seven tonnes” | Sources give 5 t or 7 t (INAH's 2010s handling: 7 t) | ArtDaily on INAH lowering the slab; search snippets |
+| ev-yaxchilan-lintels | “is the first Maya building known to have been dedicated to a woman” → “is one of the very few Maya buildings known to have been dedicated to a woman: in 726 Shield Jaguar consecrated it as the house of his wife” | 'first' unsupported; Inomata and Houston list only two buildings owned by women (Structures 11 and 23); dedication 23 June 726 on Lintel 23 | Mesoweb Yaxchilan lintels; en.wikipedia Lady Xoc |
+| ev-yaxchilan-lintels | “in 1882 and shipped Lintels 24 and 25 to London” → “in 1882–83 and shipped Lintels 24 and 25 to London” | Lintel 24 was removed in 1882, Lintel 25 in 1883 | en.wikipedia Yaxchilan Lintel 24 |
+| ev-bonampak-murals | “naked captives, their fingernails torn out and bleeding, plead” → “naked captives, blood dripping from their fingers, plead” | Sources describe bleeding fingers; torn-out nails is an interpretation | en.wikipedia Bonampak; mayaruins.com |
+| ev-bonampak-murals | “The murals were painted around 791, only” → “The murals were painted around 790–791, perhaps never finished, only” | Ceremonies 790–792; Mary Miller argues the murals were left unfinished | en.wikipedia Bonampak; Carnegie/INAH summaries |
+| ev-rise-of-tula | “those of Chichen Itza, 1,200 km away” → “those of Chichen Itza, some 1,100 km away” | Great-circle distance Tula–Chichen Itza is about 1,125 km | coordinates in the dataset (Tula 20.06 N 99.34 W; Chichen Itza 20.68 N 88.57 W) |
+| ev-dresden-codex | “and the Long Count of days from a starting point in 3114 BCE.” → “and the Long Count of days from a fixed base date, 4 Ajaw 8 Kumk'u, which later correlations placed in 3114 BCE.” | Förstemann identified the 4 Ajaw 8 Kumk'u base (1887); the 3114 BCE equivalence comes from the later GMT correlation | Thompson/Goodman priority literature (escholarship); GMT correlation summaries |
+| ev-fall-of-mayapan | “and a mass grave of dismembered bodies near the main temple, dated to the mid-1400s.” → “and mass graves of hacked and burned bodies, one at the foot of the main temple, dated to the decades of the city's fall.” | Radiocarbon dates on the graves fall in the decades before the fall (Kennett et al. 2022 put the killings 50–100 years before abandonment); 'mid-1400s' too precise | Archaeology magazine 2022 (Kennett et al., Nature Communications); Sapiens, Mayapán radiocarbon |
+| ev-founding-of-tenochtitlan | “On a rocky islet in the lake they found the sign the god had promised:” → “On a rocky islet in the lake, the tradition goes, they found the sign the god had promised:” | The eagle-on-cactus sign is founding legend told as fact | en.wikipedia Tenochtitlan; Codex Mendoza fol. 2r |
+| ev-tarascan-defeat-of-axayacatl | “In 1520, when Moctezuma's envoys asked the Tarascans for help” → “In 1520, when Mexica envoys asked the Tarascans for help” | The embassy is variously dated 1519–1520 and, if in late 1520, came after Moctezuma's death; the sender is uncertain | en.wikipedia Tangáxuan II; Purépecha Empire |
+| ev-templo-mayor-rededication | “The Templo Mayor was rebuilt at least seven times,” → “The Templo Mayor was built in seven main stages,” | Seven temples, i.e. rebuilt six times after the first | en.wikipedia Templo Mayor |
+| ev-templo-mayor-rededication | “electricians digging behind the cathedral” → “workers of the electricity company digging behind the cathedral” | They were Comisión Federal de Electricidad workers, not specifically electricians | en.wikipedia Templo Mayor |
+| ev-founding-of-la-isabela | “Excavations led by Kathleen Deagan and José María Cruxent in the 1990s” → “Excavations led by Kathleen Deagan and José María Cruxent from the late 1980s” | Intensive excavation began in the late 1980s | University of Florida news 2007; Florida Museum, La Isabela |
+| ev-spanish-conquest-of-the-aztec-empire | “Cortés besieged the island city for 93 days” → “Cortés besieged the island city for nearly three months” | Siege dates 22 May–13 August 1521 (83 days); the popular '93 days' does not fit those dates | Britannica (22 May–13 Aug 1521, search snippet); worldhistory.org |
+| ev-toxcatl-massacre | “left in command of about 120 Spaniards” → “left in command of a small garrison (80 to 120 Spaniards by different counts)” | Bernal Díaz and others give 80, some accounts 120 | history.com; worldhistory.org; New World Encyclopedia |
+| ev-smallpox-epidemic-of-1520 | “It lasted seventy days in Tenochtitlan.” → “Its full force lasted sixty days before it moved on toward Chalco.” | The Florentine Codex (Book 12, ch. 29) gives sixty days | Florentine Codex Book 12 ch. 29 (enl.wired-humanities.org); Virginia Tech DHR excerpt |
+| ev-spanish-conquest-of-guatemala | “at their capital, Iximché, on 25 July 1524.” → “at their capital, Iximché, in late July 1524.” | Sources differ: 25 July (feast of St James) in tradition, 27 July 1524 in the conquest narratives | en.wikipedia Iximche; Spanish conquest of Guatemala |
+| ev-apparitions-of-guadalupe | “In 1810 Miguel Hidalgo raised a banner of Guadalupe at Dolores,” → “In 1810 Miguel Hidalgo's insurgents took up a banner of Guadalupe at the sanctuary of Atotonilco, days after the cry of Dolores,” | The banner was taken from Atotonilco on 16 September 1810, not raised at Dolores | en.wikipedia Sanctuary of Atotonilco |
+| ev-cocoliztli-epidemic-of-1545 | “bled from the nose, ears and eyes, turned yellow, and died within days. The Franciscan Juan de Torquemada later wrote that in 1545 some 8…” → “bled from the nose, eyes and mouth, turned yellow, and often died within a week. Colonial accounts put the dead at some 800,000 in the Va…” | Symptoms per sources are nose/eyes/mouth; the 800,000 figure is cited from colonial accounts (Warinner et al. 2012) and its attribution to Torquemada could not be confirmed; Europeans had lower, not negligible, mortality | en.wikipedia Cocoliztli epidemics |
+| ev-auto-de-fe-at-mani | “over three months some 4,500 people were questioned under torture” → “over three months, by one historian's count, some 4,500 people were questioned under torture” | 4,500 questioned / 158 dead are a modern historian's (Clendinnen) reckoning, not in the record's other sources | en.wikipedia Diego de Landa (no figures; 'scores of nobles jailed, many examined'); es.wikipedia Auto de fe de Maní |
+| ev-tornaviaje-reaches-acapulco | “Scurvy killed 16 of the crew.” → “Scurvy laid most of the crew low, and only a handful were fit to work the ship.” | No source found for the death toll of 16; Wikipedia says most had scurvy and only 18 could sail the ship | en.wikipedia Andrés de Urdaneta |
+| ev-kalinago-genocide-of-1626 | “the last Indigenous community of the eastern Caribbean.” → “the largest surviving Indigenous community of the eastern Caribbean.” | 'last' overstated (Kalinago/Garifuna descendants also live on St Vincent and elsewhere) | en.wikipedia Kalinago genocide; Kalinago |
+| ev-port-royal-earthquake | “it had grown into the largest English town in the Americas after Boston, with perhaps 6,500 people” → “it had grown into one of the largest English towns in the Americas, with perhaps 6,500 people in some 2,000 buildings” | 'second only to Boston' not found in sources; population and building count confirmed | en.wikipedia 1692 Jamaica earthquake |
+| ev-port-royal-earthquake | “Underwater excavations from the 1960s, and by Texas A&M University in the 1980s,” → “Underwater excavations from 1959 on, notably by Texas A&M University in the 1980s,” | Edwin Link's first excavation, which found the 11:43 watch, was in 1959 | en.wikipedia 1692 Jamaica earthquake |
+| ev-tackys-revolt | “Tacky became a hero of Jamaican independence.” → “Tacky is remembered in Jamaica as a hero of resistance, with a monument at Port Maria.” | He is not one of Jamaica's national heroes and had no role in independence; he is commemorated by a monument | en.wikipedia Tacky's Revolt |
+| ev-tackys-revolt | “he and his followers broke into the fort at Port Maria” → “he and his followers seized the Frontier and Trinity estates and broke into Fort Haldane at Port Maria” | Precision: the rising began on two estates before the fort | en.wikipedia Tacky's Revolt |
+| ev-british-capture-of-havana | “Britain sent more than 50 warships and about 12,000 soldiers.” → “Britain sent some 45 warships, over 160 transports and about 12,800 soldiers.” | 21 ships of the line + 24 lesser warships, 168 other vessels, 12,826 regulars | en.wikipedia Siege of Havana |
+| ev-british-capture-of-havana | “In eleven months British merchants” → “During the occupation British merchants” | Occupation lasted about ten to eleven months (Aug 1762 – mid-1763); wording neutralised | en.wikipedia Siege of Havana |
+| ev-haitian-revolution | “In 1789 Saint-Domingue produced about a third of the world's sugar and much of its coffee, worked by nearly half a million enslaved peopl…” → “In the 1780s Saint-Domingue supplied about 40 per cent of the sugar and 60 per cent of the coffee consumed in Europe, worked by nearly ha…” | Share stated as 'a third of the world's sugar' is not what sources give (40% of Europe's sugar, 60% of its coffee); white population estimates run 30–45,000, free people of colour 28–32,000 | en.wikipedia Saint-Domingue |
+| ev-haiti-independence-debt | “The sum was about ten times Haiti's annual revenue.” → “The first instalment alone was about six times Haiti's annual revenue.” | Sources compare the 30-million first instalment to about six years of revenue; 'ten times' for the total is not supported | en.wikipedia Haiti indemnity controversy (citing NYT 2022) |
+| ev-haiti-independence-debt | “the last payments on the related loans were made only in the 1940s and 1950s.” → “the last payments on the related loans were made only in 1947.” | NYT 2022 dates the last payment to creditors to 1947 | en.wikipedia Haiti indemnity controversy |
+| ev-haiti-independence-debt | “In July 1825 a French squadron of fourteen warships anchored off Port-au-Prince.” → “In July 1825 the French envoy reached Port-au-Prince, soon backed by a squadron of fourteen warships.” | Mackau arrived on 3 July with La Circé and two men-of-war; the fleet grew to fourteen ships | en.wikipedia Haiti indemnity controversy |
+| ev-filibuster-war | “After a third expedition he was captured by the British” → “On a final expedition, in 1860, he was captured by the British” | The 1860 Honduras venture was his fourth (Baja 1853, Nicaragua 1855, 1857 attempt stopped by the US Navy) | en.wikipedia William Walker (filibuster) |
+| ev-mexican-muralism | “covered the ministry's two courtyards with 235 panels:” → “covered the ministry's two courtyards with 124 frescoes (1922–1928):” | Rivera's SEP cycle comprises 124 frescoes, finished 1928 | en.wikipedia Diego Rivera |
+| ev-battle-of-puebla | “had some 4,000 to 5,000 men, many poorly armed.” → “had about 4,000 men, many poorly armed.” | Battle strength tables give about 3,800 Mexican troops | en.wikipedia Battle of Puebla |
+| ev-battle-of-puebla | “Lorencez lost around 460 dead.” → “Lorencez lost some 470 men killed or wounded.” | French losses: 131 killed, 345 wounded (476 casualties), not 460 dead | en.wikipedia Battle of Puebla |
+| ev-mexican-war-of-independence | “Perhaps 200,000 to 500,000 people had died in eleven years of war.” → “Estimates of the dead in eleven years of war run from about 250,000 to 600,000.” | Aligned with the range cited in the standard sources | en.wikipedia Mexican War of Independence (infobox) |
+| ev-bois-caiman-ceremony | “The French colonist Antoine Dalmas, writing in 1793, described the scene:” → “The French colonist Antoine Dalmas, in a history published in 1814, described the scene:” | Dalmas's account appeared in print in 1814 (written in the 1790s) | en.wikipedia Bois Caïman |
+| ev-bois-caiman-ceremony (note) | “(Dalmas, 1793)” → “(Dalmas, published 1814)” | same | same |
+| ev-parsley-massacre | “to pay Haiti 750,000 dollars, of which only a fraction was paid.” → “to pay Haiti 750,000 dollars; 525,000 was paid, and almost none of it reached survivors.” | The Dominican government paid $525,000 (about 70%); survivors received about 2 cents each | en.wikipedia Parsley massacre (Turits) |
+| ev-mexican-oil-expropriation | “Britain broke off relations and the companies organised a boycott,” → “Diplomatic relations with Britain were broken off and the companies organised a boycott,” | Britain withdrew its ambassador and Mexico then broke relations; it was not a unilateral British break | en.wikipedia Mexican oil expropriation |
+| ev-cuban-revolution | “led about 160 young men in an attack on the Moncada barracks in Santiago de Cuba,” → “led some 135 young men in an attack on the Moncada barracks in Santiago de Cuba (two dozen more struck at Bayamo),” | 136 rebels attacked Moncada; 24 more were assigned to Bayamo (160 in all) | en.wikipedia Attack on the Moncada Barracks |
+| ev-nicaraguan-revolution | “and a war costing some 30,000 lives followed.” → “and a war costing some 30,000 to 40,000 lives followed.” | Contra war deaths 1981–1990 are estimated at 32,000–43,000 | en.wikipedia Nicaraguan Revolution |
+| ev-2010-haiti-earthquake | “and lasted about 35 seconds.” → “and lasted less than half a minute.” | Shaking lasted under 30 seconds | en.wikipedia 2010 Haiti earthquake |
+| ev-spanish-american-war-cuba | “killing 266 American sailors.” → “killing some 260 American sailors.” | Counts vary (261 in the casualty breakdown, 266/268 including later deaths) | en.wikipedia USS Maine (1889) |
+| ev-mount-pelee-eruption-1902 | “buried a sugar works and killed dozens of workers.” → “buried a sugar works and killed as many as 150 people.” | The 5 May lahar buried about 150 people at the sugar works | en.wikipedia 1902 eruption of Mount Pelée |
+| person-pakal | “Over seven decades he raised the Palace with its unique four-storey tower, its galleries of stucco and its sculpted captives in the East …” → “Over seven decades he greatly enlarged the Palace, adding houses with stucco galleries and, in the East Court, sculpted captives,” | Pakal built Houses A–E of the Palace; the four-storey tower is not attributed to him in the sources (generally dated to his successors) | en.wikipedia K'inich Janaab' Pakal |
+| person-pakal | “he had outlived most of his children.” → “he had outlived his wife and at least one of his sons.” | Two sons survived him and ruled; he presided over the burial of a third son, Tiwol Chan Mat | en.wikipedia K'inich Janaab' Pakal |
+| person-sor-juana | “she sold her library around 1693, signed a renewal of her vows in blood, and died two years later” → “she gave up her library in 1693–94, renewed her vows in a text signed in her own blood, and died in 1695” | The library and instruments were sold (or confiscated) in 1694; she died in April 1695 | en.wikipedia Juana Inés de la Cruz |
