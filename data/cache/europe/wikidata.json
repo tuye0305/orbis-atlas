@@ -3123,6 +3123,38 @@
   },
   "locationQid": null
  },
+ "Q151983": {
+  "label": {
+   "en": "Pierre Laval",
+   "zh": "皮埃尔·赖伐尔"
+  },
+  "description": "French politician (1883–1945)",
+  "coord": null,
+  "image": "Pierre Laval a Meurisse 1931.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1883,
+   "date": "1883-06-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1945,
+   "date": "1945-10-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pierre Laval",
+   "zh": "皮埃尔·赖伐尔"
+  },
+  "locationQid": null
+ },
  "Q152463": {
   "label": {
    "en": "Louis the German",
@@ -3318,6 +3350,38 @@
    "en": "Habsburg monarchy",
    "zh": "哈布斯堡君主國"
   }
+ },
+ "Q153586": {
+  "label": {
+   "en": "Christian IV of Denmark",
+   "zh": "克里斯蒂安四世"
+  },
+  "description": "king of Denmark and Norway (1577–1648)",
+  "coord": null,
+  "image": "Christian 4 som gammel.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1577,
+   "date": "1577-04-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1648,
+   "date": "1648-02-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Christian IV of Denmark",
+   "zh": "克里斯蒂安四世"
+  },
+  "locationQid": null
  },
  "Q153688": {
   "label": {
@@ -3649,6 +3713,70 @@
   },
   "locationQid": null
  },
+ "Q154998": {
+  "label": {
+   "en": "Christian III of Denmark",
+   "zh": "克里斯蒂安三世"
+  },
+  "description": "king of Denmark and Norway",
+  "coord": null,
+  "image": "Christian III (1503-1559).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1503,
+   "date": "1503-08-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1559,
+   "date": "1559-01-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Christian III of Denmark",
+   "zh": "克里斯蒂安三世"
+  },
+  "locationQid": null
+ },
+ "Q155002": {
+  "label": {
+   "en": "Frederick VI of Denmark",
+   "zh": "弗雷德里克六世"
+  },
+  "description": "King of Denmark and Norway (1768–1839)",
+  "coord": null,
+  "image": "Frederik6coronation.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1768,
+   "date": "1768-01-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1839,
+   "date": "1839-12-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick VI of Denmark",
+   "zh": "腓特烈六世 (丹麦)"
+  },
+  "locationQid": null
+ },
  "Q1552718": {
   "label": {
    "en": "Granada War",
@@ -3777,6 +3905,38 @@
   },
   "locationQid": null
  },
+ "Q156572": {
+  "label": {
+   "en": "Christian VII of Denmark",
+   "zh": "克里斯蒂安七世"
+  },
+  "description": "King of Denmark and Norway (1749–1808)",
+  "coord": null,
+  "image": "Christian VII 1772 by Roslin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1749,
+   "date": "1749-01-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1808,
+   "date": "1808-03-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Christian VII",
+   "zh": "克里斯蒂安七世"
+  },
+  "locationQid": null
+ },
  "Q156799": {
   "label": {
    "en": "Felipe González",
@@ -3801,6 +3961,38 @@
   "wiki": {
    "en": "Felipe González",
    "zh": "费利佩·冈萨雷斯"
+  },
+  "locationQid": null
+ },
+ "Q156916": {
+  "label": {
+   "en": "François Darlan",
+   "zh": "弗朗索瓦·达尔朗"
+  },
+  "description": "French admiral (1881-1942)",
+  "coord": null,
+  "image": "François Darlan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1881,
+   "date": "1881-08-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1942,
+   "date": "1942-12-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "François Darlan",
+   "zh": "弗朗索瓦·达尔朗"
   },
   "locationQid": null
  },
@@ -3895,6 +4087,38 @@
   },
   "locationQid": null
  },
+ "Q157324": {
+  "label": {
+   "en": "François Guizot",
+   "zh": "弗朗索瓦·基佐"
+  },
+  "description": "French historian, orator and statesman (1787–1874)",
+  "coord": null,
+  "image": "François Pierre Guillaume Guizot.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1787,
+   "date": "1787-10-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1874,
+   "date": "1874-09-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "François Guizot",
+   "zh": "弗朗索瓦·基佐"
+  },
+  "locationQid": null
+ },
  "Q157506": {
   "label": {
    "en": "Ninety-five Theses",
@@ -3950,6 +4174,70 @@
   },
   "locationQid": null
  },
+ "Q157793": {
+  "label": {
+   "en": "Christian V of Denmark",
+   "zh": "克里斯蒂安五世"
+  },
+  "description": "king of Denmark and Norway (1646–1699)",
+  "coord": null,
+  "image": "Christian V König – Celler Schloss.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1646,
+   "date": "1646-04-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1699,
+   "date": "1699-08-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Christian V of Denmark",
+   "zh": "克里斯蒂安五世"
+  },
+  "locationQid": null
+ },
+ "Q157812": {
+  "label": {
+   "en": "Frederick III of Denmark",
+   "zh": "弗雷德里克三世"
+  },
+  "description": "King of Denmark and Norway from 1648 to 1670",
+  "coord": null,
+  "image": "Frederik III, 1663.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1609,
+   "date": "1609-03-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1670,
+   "date": "1670-02-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick III of Denmark",
+   "zh": "腓特烈三世 (丹麦)"
+  },
+  "locationQid": null
+ },
  "Q158075": {
   "label": {
    "en": "Gutenberg Bible",
@@ -4002,6 +4290,70 @@
   "wiki": {
    "en": "Albert Lebrun",
    "zh": "阿尔贝·勒布伦"
+  },
+  "locationQid": null
+ },
+ "Q158768": {
+  "label": {
+   "en": "René Coty",
+   "zh": "勒内·科蒂"
+  },
+  "description": "17th President of the French Republic (1882–1962)",
+  "coord": null,
+  "image": "René Coty - 1954.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1882,
+   "date": "1882-03-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1962,
+   "date": "1962-11-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "René Coty",
+   "zh": "勒内·科蒂"
+  },
+  "locationQid": null
+ },
+ "Q158772": {
+  "label": {
+   "en": "Vincent Auriol",
+   "zh": "樊尚·奥里奥尔"
+  },
+  "description": "16th President of the French Republic (1884–1966)",
+  "coord": null,
+  "image": "VincentAuriol (cropped).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1884,
+   "date": "1884-08-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1966,
+   "date": "1966-01-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vincent Auriol",
+   "zh": "樊尚·奥里奥尔"
   },
   "locationQid": null
  },
@@ -4262,6 +4614,38 @@
   "wiki": {
    "en": "Schuman Declaration",
    "zh": "舒曼计划"
+  },
+  "locationQid": null
+ },
+ "Q161059": {
+  "label": {
+   "en": "Frederik IV of Denmark",
+   "zh": "弗雷德里克四世"
+  },
+  "description": "king of Denmark and Norway (1699–1730)",
+  "coord": null,
+  "image": "Balthasar Denner - Portrait of King Frederik IV of Denmark-Norway - NG.M.00176 - National Museum of Art, Architecture and Design.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1671,
+   "date": "1671-10-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1730,
+   "date": "1730-10-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick IV of Denmark",
+   "zh": "腓特烈四世"
   },
   "locationQid": null
  },
@@ -5476,6 +5860,70 @@
   },
   "locationQid": null
  },
+ "Q175250": {
+  "label": {
+   "en": "Vittorio Emanuele I of Sardinia",
+   "zh": "維托里奧·埃馬努埃萊一世"
+  },
+  "description": "King of Sardinia (1802-1821)",
+  "coord": null,
+  "image": "Ritratto di S.M. Vittorio Emanuele I di Savoia.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1759,
+   "date": "1759-07-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1824,
+   "date": "1824-01-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Victor Emmanuel I",
+   "zh": "維托里奧·埃馬努埃萊一世"
+  },
+  "locationQid": null
+ },
+ "Q175544": {
+  "label": {
+   "en": "Carlo Emanuele IV of Sardinia",
+   "zh": "卡洛·艾曼努爾四世"
+  },
+  "description": "King of Sardinia (1751-1819)",
+  "coord": null,
+  "image": "Attributed to Panealbo - Charles Emmanuel IV - Venaria Reale.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1751,
+   "date": "1751-05-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1819,
+   "date": "1819-10-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles Emmanuel IV",
+   "zh": "卡洛·埃馬努埃萊四世"
+  },
+  "locationQid": null
+ },
  "Q1761": {
   "label": {
    "en": "Dublin",
@@ -5835,6 +6283,40 @@
    "zh": "托莱多之围"
   }
  },
+ "Q180393": {
+  "label": {
+   "en": "Kingdom of the Two Sicilies",
+   "zh": "两西西里王国"
+  },
+  "description": "state formed from the kingdoms of Sicily and Naples (1815–1861)",
+  "coord": {
+   "lat": 40.8333,
+   "lon": 14.25
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1738,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1861,
+   "date": "1861-02-21",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of the Two Sicilies",
+   "zh": "兩西西里王國"
+  }
+ },
  "Q180764": {
   "label": {
    "en": "Edict of Milan",
@@ -5855,6 +6337,38 @@
   "wiki": {
    "en": "Edict of Milan",
    "zh": "米兰敕令 (君士坦丁)"
+  },
+  "locationQid": null
+ },
+ "Q181261": {
+  "label": {
+   "en": "Carlo Alberto I of Sardinia",
+   "zh": "卡洛·阿尔贝托"
+  },
+  "description": "King of Sardinia from 1831 to 1849",
+  "coord": null,
+  "image": "Carlo Alberto by Cavalleri.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1798,
+   "date": "1798-10-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1849,
+   "date": "1849-07-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles Albert of Sardinia",
+   "zh": "卡洛·阿尔贝托"
   },
   "locationQid": null
  },
@@ -7521,6 +8035,71 @@
   },
   "locationQid": null
  },
+ "Q206223": {
+  "label": {
+   "en": "Francis II of the Two Sicilies",
+   "zh": "弗朗切斯科二世"
+  },
+  "description": "King of the Two Sicilies (1836-1894) and Servant of God",
+  "coord": null,
+  "image": "FrancescoII.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1836,
+   "date": "1836-01-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1894,
+   "date": "1894-12-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francis II of the Two Sicilies",
+   "zh": "弗朗切斯科二世 (两西西里)"
+  },
+  "locationQid": null
+ },
+ "Q207162": {
+  "label": {
+   "en": "Bourbon Restoration in France",
+   "zh": "波旁复辟"
+  },
+  "description": "period of French history, 1814–1830",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1815,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1830,
+   "date": "1830-08-09",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q5589178"
+  ],
+  "wiki": {
+   "en": "Bourbon Restoration in France",
+   "zh": "法国波旁复辟"
+  },
+  "locationQid": null
+ },
  "Q208082": {
   "label": {
    "en": "Robert I of France",
@@ -7604,6 +8183,38 @@
   "wiki": {
    "en": "Good Friday Agreement",
    "zh": "贝尔法斯特协议"
+  },
+  "locationQid": null
+ },
+ "Q209579": {
+  "label": {
+   "en": "Victor Amadeus II of Savoy",
+   "zh": "维托里奥·阿梅迪奥二世"
+  },
+  "description": "Duke of Savoy and King of Sardinia (1666–1732)",
+  "coord": null,
+  "image": "Vittorio Amedeo II in Maestà - Google Art Project.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1666,
+   "date": "1666-05-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1732,
+   "date": "1732-10-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Victor Amadeus II",
+   "zh": "维托里奥·阿梅迪奥二世"
   },
   "locationQid": null
  },
@@ -7894,6 +8505,40 @@
    "zh": "阿道弗·苏亚雷斯"
   },
   "locationQid": null
+ },
+ "Q215231": {
+  "label": {
+   "en": "Great Fire of Rome",
+   "zh": "罗马大火"
+  },
+  "description": "urban fire in Ancient Rome of July AD 64",
+  "coord": {
+   "lat": 41.8931,
+   "lon": 12.4828
+  },
+  "image": "Karl von Piloty Nero Róma égését szemléli.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 64,
+   "date": "0064-07-19",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 64,
+   "date": "0064-07-26",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q838718"
+  ],
+  "wiki": {
+   "en": "Great Fire of Rome",
+   "zh": "羅馬大火"
+  }
  },
  "Q215443": {
   "label": {
@@ -8356,6 +9001,38 @@
    "en": "Kingdom of Scotland",
    "zh": "苏格兰王国"
   }
+ },
+ "Q2309694": {
+  "label": {
+   "en": "Jacques Charles Dupont de l'Eure",
+   "zh": "雅克-夏尔·杜邦·德勒尔"
+  },
+  "description": "French politician (1767-1855)",
+  "coord": null,
+  "image": "Dupont de l'Eure.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1767,
+   "date": "1767-02-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1855,
+   "date": "1855-03-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jacques-Charles Dupont de l'Eure",
+   "zh": "雅克-夏尔·杜邦·德勒尔"
+  },
+  "locationQid": null
  },
  "Q234816": {
   "label": {
@@ -8957,6 +9634,40 @@
    "zh": "路德维希·范·贝多芬"
   },
   "locationQid": null
+ },
+ "Q2577303": {
+  "label": {
+   "en": "Kingdom of Sardinia",
+   "zh": "撒丁王国"
+  },
+  "description": "kingdom from 1720 to 1861",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1720,
+   "date": "1720-08-24",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1861,
+   "date": "1861-03-17",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1250464",
+   "Q3591895"
+  ],
+  "wiki": {
+   "en": "Kingdom of Sardinia (1720–1861)",
+   "zh": null
+  },
+  "locationQid": "Q1462"
  },
  "Q2602": {
   "label": {
@@ -9579,6 +10290,38 @@
   "wiki": {
    "en": "Al-Hakam I",
    "zh": "哈克木一世"
+  },
+  "locationQid": null
+ },
+ "Q286293": {
+  "label": {
+   "en": "Émile Ollivier",
+   "zh": "埃米尔·奥利维耶"
+  },
+  "description": "French statesman (1825-1913)",
+  "coord": null,
+  "image": "Émile Ollivier by Pierre-Louis Pierson, 1870.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1825,
+   "date": "1825-07-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1913,
+   "date": "1913-08-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Émile Ollivier",
+   "zh": "埃米尔·奥利维耶"
   },
   "locationQid": null
  },
@@ -10353,6 +11096,38 @@
   },
   "locationQid": null
  },
+ "Q312305": {
+  "label": {
+   "en": "Francis I of the Two Sicilies",
+   "zh": "弗朗切斯科一世"
+  },
+  "description": "King of the Two Sicilies (1777-1830)",
+  "coord": null,
+  "image": "Francisco I de las Dos Sicilias (por Vicente López Portaña. 1829. Real Academia de Bellas Artes de San Fernando).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1777,
+   "date": "1777-08-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1830,
+   "date": "1830-11-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francis I of the Two Sicilies",
+   "zh": "弗朗切斯科一世 (两西西里)"
+  },
+  "locationQid": null
+ },
  "Q312311": {
   "label": {
    "en": "Peter III of Aragon",
@@ -10382,6 +11157,38 @@
   "wiki": {
    "en": "Peter III of Aragon",
    "zh": "佩德羅三世 (阿拉貢)"
+  },
+  "locationQid": null
+ },
+ "Q312325": {
+  "label": {
+   "en": "Ferdinand I of the Two Sicilies",
+   "zh": "费迪南多一世"
+  },
+  "description": "King of Naples (1759-1806, 1815-1816), Sicily (1759-1816), and the Two Sicilies (1816-1825)",
+  "coord": null,
+  "image": "Mengs - Ferdinand IV of Naples, Royal Palace of Madrid.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1751,
+   "date": "1751-01-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1825,
+   "date": "1825-01-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ferdinand I of the Two Sicilies",
+   "zh": "费迪南多一世 (两西西里)"
   },
   "locationQid": null
  },
@@ -10505,6 +11312,102 @@
   "wiki": {
    "en": "Rothari",
    "zh": "罗萨里"
+  },
+  "locationQid": null
+ },
+ "Q312670": {
+  "label": {
+   "en": "Carlo Emanuele III of Sardinia",
+   "zh": "卡洛·埃曼努埃萊三世"
+  },
+  "description": "King of Sardinia (1730-1773)",
+  "coord": null,
+  "image": "Clementi - Charles Emmanuel III in coronation robes, Palazzo Madama (1).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1701,
+   "date": "1701-04-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1773,
+   "date": "1773-02-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles Emmanuel III",
+   "zh": "卡洛·埃馬努埃萊三世"
+  },
+  "locationQid": null
+ },
+ "Q312681": {
+  "label": {
+   "en": "Vittorio Amadeo III of Sardinia",
+   "zh": "维托里奥·阿梅迪奥三世"
+  },
+  "description": "King of Sardinia (1773-1796)",
+  "coord": null,
+  "image": "Mengs - Victor Amadeus III of Sardinia - Versailles MV 3963.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1726,
+   "date": "1726-06-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1796,
+   "date": "1796-10-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Victor Amadeus III",
+   "zh": "维托里奥·阿梅迪奥三世"
+  },
+  "locationQid": null
+ },
+ "Q312683": {
+  "label": {
+   "en": "Carlo Felice I of Sardinia",
+   "zh": "卡洛·费利切"
+  },
+  "description": "King of Sardinia (1765-1831)",
+  "coord": null,
+  "image": "Bernero - Charles Felix of Sardinia - Museum of the Risorgimento.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1765,
+   "date": "1765-04-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1831,
+   "date": "1831-04-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles Felix of Sardinia",
+   "zh": "卡洛·費利切"
   },
   "locationQid": null
  },
@@ -10797,6 +11700,38 @@
    "en": "Trier",
    "zh": "特里尔"
   }
+ },
+ "Q314265": {
+  "label": {
+   "en": "Pierre Mendès France",
+   "zh": "皮埃尔·孟戴斯-弗朗斯"
+  },
+  "description": "French politician (1907-1982)",
+  "coord": null,
+  "image": "Pierre Mendès-France 1932.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1907,
+   "date": "1907-01-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1982,
+   "date": "1982-10-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pierre Mendès France",
+   "zh": "皮埃尔·孟戴斯-弗朗斯"
+  },
+  "locationQid": null
  },
  "Q315058": {
   "label": {
@@ -11209,6 +12144,38 @@
    "en": "Mosque–Cathedral of Córdoba",
    "zh": "科尔多瓦主教座堂"
   }
+ },
+ "Q332717": {
+  "label": {
+   "en": "Ferdinand II of the Two Sicilies",
+   "zh": "费迪南多二世"
+  },
+  "description": "King of the Two sicilies",
+  "coord": null,
+  "image": "Raffaele Messina - Ferdinando II in abito di San Gennaro a Palazzo Reale con eruzione del Vesuvio sullo sfondo 1832.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1810,
+   "date": "1810-01-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1859,
+   "date": "1859-05-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ferdinand II of the Two Sicilies",
+   "zh": "费迪南多二世 (两西西里)"
+  },
+  "locationQid": null
  },
  "Q333843": {
   "label": {
@@ -12536,6 +13503,38 @@
   },
   "locationQid": null
  },
+ "Q379702": {
+  "label": {
+   "en": "Louis-Eugène Cavaignac",
+   "zh": "路易-欧仁·卡芬雅克"
+  },
+  "description": "French general and politician (1802-1857)",
+  "coord": null,
+  "image": "Louis Eugène Cavaignac MdesA 2014.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1802,
+   "date": "1802-10-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1857,
+   "date": "1857-10-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis-Eugène Cavaignac",
+   "zh": "路易-欧仁·卡芬雅克"
+  },
+  "locationQid": null
+ },
  "Q38": {
   "label": {
    "en": "Italy",
@@ -13507,6 +14506,38 @@
   },
   "locationQid": null
  },
+ "Q450271": {
+  "label": {
+   "en": "Francisco Pi y Margall",
+   "zh": "弗朗西斯科·皮·马加尔"
+  },
+  "description": "Spanish politician (1824–1901)",
+  "coord": null,
+  "image": "Retrato de Francisco Pi y Margall (1869).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1824,
+   "date": "1824-04-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-11-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francesc Pi i Margall",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q451580": {
   "label": {
    "en": "Ine",
@@ -14197,6 +15228,40 @@
   },
   "locationQid": null
  },
+ "Q497777": {
+  "label": {
+   "en": "First Spanish Republic",
+   "zh": "西班牙第一共和国"
+  },
+  "description": "political regime that existed in Spain between 11 February 1873 and 29 December 1874",
+  "coord": {
+   "lat": 40.2,
+   "lon": -3.5
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1873,
+   "date": "1873-02-11",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1874,
+   "date": "1874-12-29",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "First Spanish Republic",
+   "zh": "西班牙第一共和國"
+  }
+ },
  "Q498871": {
   "label": {
    "en": "Peasants' Revolt of 1381",
@@ -14458,6 +15523,38 @@
    "zh": "意大利統一"
   },
   "locationQid": "Q38"
+ },
+ "Q515741": {
+  "label": {
+   "en": "Francisco Serrano, 1st Duke of la Torre",
+   "zh": "弗朗西斯科·塞拉諾，第一代拉托雷公爵"
+  },
+  "description": "Spanish noble and politician (1810-1885)",
+  "coord": null,
+  "image": "El capitán general Francisco Serrano, duque de la Torre.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1810,
+   "date": "1810-12-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1885,
+   "date": "1885-11-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco Serrano, 1st Duke of la Torre",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q51648": {
   "label": {
@@ -15067,6 +16164,38 @@
   },
   "locationQid": null
  },
+ "Q553120": {
+  "label": {
+   "en": "Estanislao Figueras",
+   "zh": null
+  },
+  "description": "Spanish politician (1819–1882)",
+  "coord": null,
+  "image": "Estanislao Figueras.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1819,
+   "date": "1819-11-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1882,
+   "date": "1882-11-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Estanislao Figueras",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q5592": {
   "label": {
    "en": "Michelangelo",
@@ -15191,6 +16320,40 @@
   },
   "locationQid": null
  },
+ "Q56324566": {
+  "label": {
+   "en": "Boudican revolt",
+   "zh": "卡姆洛多努戰役"
+  },
+  "description": "revolt by Celtic tribes against the Romans (c. 60-61 AD)",
+  "coord": {
+   "lat": 52.2167,
+   "lon": -0.5667
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 60,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 61,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6107280"
+  ],
+  "wiki": {
+   "en": "Boudican revolt",
+   "zh": null
+  }
+ },
  "Q566257": {
   "label": {
    "en": "Friedrich Merz",
@@ -15274,6 +16437,38 @@
   "wiki": {
    "en": "Miguel de Cervantes",
    "zh": "米格尔·德·塞万提斯"
+  },
+  "locationQid": null
+ },
+ "Q5721": {
+  "label": {
+   "en": "Philippe Pétain",
+   "zh": "菲利普·贝当"
+  },
+  "description": "French military and political leader (1856–1951)",
+  "coord": null,
+  "image": "Pétain - portrait photographique.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1856,
+   "date": "1856-04-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1951,
+   "date": "1951-07-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Philippe Pétain",
+   "zh": "菲利普·贝当"
   },
   "locationQid": null
  },
@@ -15484,6 +16679,42 @@
    "zh": "科爾多瓦 (西班牙)"
   }
  },
+ "Q58202": {
+  "label": {
+   "en": "July Monarchy",
+   "zh": "七月王朝"
+  },
+  "description": "kingdom governing France, 1830–1848",
+  "coord": {
+   "lat": 48.8167,
+   "lon": 2.4833
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1830,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1848,
+   "date": "1848-02-24",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q5589178",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "July Monarchy",
+   "zh": "七月王朝"
+  }
+ },
  "Q58296": {
   "label": {
    "en": "French First Republic",
@@ -15552,6 +16783,41 @@
   "wiki": {
    "en": "Ostrogothic Kingdom",
    "zh": "東哥德王國"
+  }
+ },
+ "Q58326": {
+  "label": {
+   "en": "French Second Republic",
+   "zh": "法兰西第二共和国"
+  },
+  "description": "government of France between 1848-1852",
+  "coord": {
+   "lat": 48.8167,
+   "lon": 2.4833
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1848,
+   "date": "1848-02-24",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1852,
+   "date": "1852-12-02",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q17152708"
+  ],
+  "wiki": {
+   "en": "French Second Republic",
+   "zh": "法蘭西第二共和國"
   }
  },
  "Q5836": {
@@ -15943,6 +17209,42 @@
   "wiki": {
    "en": "Kalmar Union",
    "zh": "卡尔马联盟"
+  }
+ },
+ "Q62651": {
+  "label": {
+   "en": "Denmark–Norway",
+   "zh": "丹麥-挪威"
+  },
+  "description": "political union (1524–1814)",
+  "coord": {
+   "lat": 55.6722,
+   "lon": 12.525
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1536,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1814,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q188800",
+   "Q1093720"
+  ],
+  "wiki": {
+   "en": "Denmark–Norway",
+   "zh": "丹麥-挪威"
   }
  },
  "Q649": {
@@ -16368,6 +17670,79 @@
    "zh": "解放巴黎"
   }
  },
+ "Q69808": {
+  "label": {
+   "en": "Vichy France",
+   "zh": "维希法国"
+  },
+  "description": "client state of Nazi Germany, administering the Free Zone in southern France and French colonial possessions (1940–1944)",
+  "coord": {
+   "lat": 46.1667,
+   "lon": 3.4
+  },
+  "image": "Second cabinet of Philippe Pétain, 1940.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1940,
+   "date": "1940-07-10",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1944,
+   "date": "1944-08-29",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q5589178",
+   "Q208164",
+   "Q558566"
+  ],
+  "wiki": {
+   "en": "Vichy France",
+   "zh": "维希法国"
+  }
+ },
+ "Q69829": {
+  "label": {
+   "en": "French Fourth Republic",
+   "zh": "法兰西第四共和国"
+  },
+  "description": "government of France between 1946 and 1958",
+  "coord": {
+   "lat": 48.8667,
+   "lon": 2.3331
+  },
+  "image": "Fourth french republic.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1946,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1958,
+   "date": "1958-10-04",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q17152708",
+   "Q11514315",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "French Fourth Republic",
+   "zh": "法兰西第四共和国"
+  }
+ },
  "Q699511": {
   "label": {
    "en": "Italian Campaign of 1796-1797",
@@ -16542,6 +17917,41 @@
    "zh": "法兰西第一帝国"
   }
  },
+ "Q71092": {
+  "label": {
+   "en": "Second French Empire",
+   "zh": "法兰西第二帝国"
+  },
+  "description": "government of France under Napoleon III, from 1852 to 1870",
+  "coord": {
+   "lat": 48.8564,
+   "lon": 2.3522
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1852,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1870,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q5589178"
+  ],
+  "wiki": {
+   "en": "Second French Empire",
+   "zh": "法蘭西第二帝國"
+  }
+ },
  "Q71231": {
   "label": {
    "en": "Charles the Bald",
@@ -16571,6 +17981,38 @@
   "wiki": {
    "en": "Charles the Bald",
    "zh": "秃头查理"
+  },
+  "locationQid": null
+ },
+ "Q718209": {
+  "label": {
+   "en": "Emilio Castelar",
+   "zh": "埃米利奥·卡斯特拉尔"
+  },
+  "description": "19th-century Spanish politician",
+  "coord": null,
+  "image": "Emilio Castelar Ripoll 1901 Joaquín Sorolla y Bastida.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1832,
+   "date": "1832-09-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1899,
+   "date": "1899-05-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emilio Castelar",
+   "zh": "埃米利奥·卡斯特拉尔"
   },
   "locationQid": null
  },
@@ -16768,6 +18210,38 @@
   },
   "locationQid": null
  },
+ "Q742660": {
+  "label": {
+   "en": null,
+   "zh": "尼古拉斯·薩梅隆"
+  },
+  "description": "Prime Minister of Spain (1838-1908)",
+  "coord": null,
+  "image": "F. de Madrazo - 1879, Nicolás Salmerón (Congreso de los Diputados, Madrid, 131 x 96 cm).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1838,
+   "date": "1838-04-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1908,
+   "date": "1908-09-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nicolás Salmerón",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q762": {
   "label": {
    "en": "Leonardo da Vinci",
@@ -16915,6 +18389,38 @@
   "wiki": {
    "en": "Columbian exchange",
    "zh": "哥倫布大交換"
+  },
+  "locationQid": null
+ },
+ "Q7721": {
+  "label": {
+   "en": "Napoleon III",
+   "zh": "拿破仑三世"
+  },
+  "description": "President of the Second French Republic, Emperor of the Second French Empire and last monarch of France (1808–1873)",
+  "coord": null,
+  "image": "Napoleon III by Mayer & Pierson c1860 (cropped).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1808,
+   "date": "1808-04-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1873,
+   "date": "1873-01-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Napoleon III",
+   "zh": "拿破仑三世"
   },
   "locationQid": null
  },
@@ -17107,6 +18613,102 @@
   "wiki": {
    "en": "Louis XIV",
    "zh": "路易十四"
+  },
+  "locationQid": null
+ },
+ "Q7750": {
+  "label": {
+   "en": "Louis XVIII of France",
+   "zh": "路易十八"
+  },
+  "description": "King of France and Navarre from 1814 to 1815 and from 1815 to 1824 (1755-1824)",
+  "coord": null,
+  "image": "Gérard - Louis XVIII of France in Coronation Robes.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1755,
+   "date": "1755-11-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1824,
+   "date": "1824-09-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis XVIII",
+   "zh": "路易十八"
+  },
+  "locationQid": null
+ },
+ "Q7758": {
+  "label": {
+   "en": "Charles X of France",
+   "zh": "查理十世"
+  },
+  "description": "King of France and Navarre from 1824 to 1830 (1757–1836)",
+  "coord": null,
+  "image": "Sir Thomas Lawrence (1769-1830) - Charles X (1757-1836), King of France - RCIN 405138 - Royal Collection.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1757,
+   "date": "1757-10-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1836,
+   "date": "1836-11-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles X of France",
+   "zh": "查理十世 (法兰西)"
+  },
+  "locationQid": null
+ },
+ "Q7771": {
+  "label": {
+   "en": "Louis-Philippe I",
+   "zh": "路易－菲利普一世"
+  },
+  "description": "King of the French from 1830 to 1848 (1773-1850)",
+  "coord": null,
+  "image": "1841 portrait painting of Louis Philippe I (King of the French) by Winterhalter.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1773,
+   "date": "1773-10-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1850,
+   "date": "1850-08-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis Philippe I",
+   "zh": "路易-腓力一世"
   },
   "locationQid": null
  },
@@ -18665,6 +20267,16 @@
   "label": {
    "en": "France",
    "zh": "法国"
+  }
+ },
+ "loc:Q1462": {
+  "coord": {
+   "lat": 40,
+   "lon": 9
+  },
+  "label": {
+   "en": "Sardinia",
+   "zh": "撒丁"
   }
  },
  "loc:Q15180": {

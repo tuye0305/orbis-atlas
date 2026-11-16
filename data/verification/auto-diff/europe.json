@@ -1053,6 +1053,31 @@
   }
  },
  {
+  "key": "ev-boudican-revolt:coord",
+  "id": "ev-boudican-revolt",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   51.8904,
+   0.9024
+  ],
+  "wikidata": [
+   52.2167,
+   -0.5667
+  ],
+  "qid": "Q56324566",
+  "km": 107,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Camulodunum (Colchester), the first town the rebels destroyed, at the Temple of Claudius under the castle. Wikidata’s point (52.22, −0.57) is a vague location in Bedfordshire with no attested link to the revolt; the final battle site is unknown.",
+   "checked": [
+    "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html",
+    "https://warwick.ac.uk/fac/arts/classics/warwickclassicsnetwork/romancoventry/resources/boudica/revolt"
+   ]
+  }
+ },
+ {
   "key": "person-eleanor-of-aquitaine:born",
   "id": "person-eleanor-of-aquitaine",
   "dataset": "europe",
@@ -1195,6 +1220,24 @@
    "checked": [
     "Paul Preston, The Triumph of Democracy in Spain (1986)",
     "https://www.britannica.com/place/Spain/Spain-since-1975"
+   ]
+  }
+ },
+ {
+  "key": "polity-kingdom-of-the-two-sicilies:from",
+  "id": "polity-kingdom-of-the-two-sicilies",
+  "dataset": "europe",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1816,
+  "wikidata": 1738,
+  "qid": "Q180393",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The unified Kingdom of the Two Sicilies was created by Ferdinand I’s decree of 8 December 1816 merging the crowns of Naples and Sicily (Britannica: the title became official when the two administrations were combined). Wikidata’s 1738 is the start of the separate Bourbon kingdoms of Naples and Sicily under Charles of Bourbon.",
+   "checked": [
+    "https://www.britannica.com/place/Kingdom-of-the-Two-Sicilies",
+    "https://en.wikipedia.org/wiki/Kingdom_of_the_Two_Sicilies"
    ]
   }
  }
