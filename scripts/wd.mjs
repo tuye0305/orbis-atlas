@@ -20,16 +20,23 @@ const UA = 'OrbisAtlas/0.1 (https://github.com/tuye0305/orbis-atlas; open-source
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function getJSON(url, tries = 4) {
+// Retries 429/5xx and network errors with exponential backoff plus jitter (several curators may
+// query Wikidata at once), honouring Retry-After when the server sends it.
+async function getJSON(url, tries = 7) {
   for (let i = 0; i < tries; i++) {
+    let wait = 1000 * 2 ** i + Math.random() * 1000;
     try {
       const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
-      if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
+      if (res.status === 429 || res.status >= 500) {
+        const ra = Number(res.headers.get('retry-after'));
+        if (ra > 0) wait = Math.max(wait, ra * 1000);
+        throw new Error(`HTTP ${res.status}`);
+      }
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
       return await res.json();
     } catch (e) {
       if (i === tries - 1) throw e;
-      await sleep(1000 * 2 ** i);
+      await sleep(Math.min(wait, 60000));
     }
   }
 }

@@ -80,7 +80,8 @@ export interface AtlasEvent extends Base {
 export interface Person extends Base {
   name: L10n;
   born: number;
-  died: number;
+  /** null = still living */
+  died: number | null;
   role: L10n;
   stops: Stop[];
 }

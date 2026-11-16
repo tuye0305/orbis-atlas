@@ -69,7 +69,8 @@ for (const { region: dataset, kind, records } of readCuratedFiles()) {
       }
       if (kind === 'people') {
         if (w.born && w.born.precision >= 9 && Math.abs(w.born.year - r.born) > 1) diff('born', r.born, w.born.year);
-        if (w.died && w.died.precision >= 9 && Math.abs(w.died.year - r.died) > 1) diff('died', r.died, w.died.year);
+        if (w.died && r.died == null) diff('died', null, w.died.year);
+        else if (w.died && w.died.precision >= 9 && Math.abs(w.died.year - r.died) > 1) diff('died', r.died, w.died.year);
       }
       if (kind === 'polities') {
         if (w.start && w.start.precision >= 9 && Math.abs(w.start.year - r.from) > 2) diff('from', r.from, w.start.year);
