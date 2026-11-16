@@ -420,3 +420,4 @@ Skipped (already checked claim by claim in the 2026-11 audit): ev-elmina-castle,
 | person-thomas-sankara | story.zh | “1984年短短几周内，约两百万儿童接种了” → “1984年为期两周的运动中，逾百万儿童（一说250万）接种了” | Match en fix | VoxDev voxdev.org/topic/health/childhood-vaccinations-have-transformative-lifelong-benefits |
 | person-thomas-sankara | story.en | “the banning of unions” → “his clampdown on trade unions” | Unions were harassed and put under CDR authority and leaders arrested, not banned | Thomas Sankara en.wikipedia.org/wiki/Thomas_Sankara |
 | person-thomas-sankara | story.zh | “对工会的禁令” → “对工会的打压” | Match en fix | Thomas Sankara en.wikipedia.org/wiki/Thomas_Sankara |
+| ev-herero-and-nama-genocide | story.zh, summary.zh | “奥马赫凯” / “奥马赫科” → “奥马海凯” | Story and summary used two different renderings of Omaheke; harmonised to the zh Wikipedia form (奥马海凯区, via the en.wikipedia interlanguage link) | zh.wikipedia: 奥马海凯区 |
