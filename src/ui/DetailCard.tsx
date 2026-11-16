@@ -46,14 +46,29 @@ function Sources({ sources, qid, wiki, lang }: { sources?: Source[]; qid?: strin
   );
 }
 
+/**
+ * Confidence flag plus the curator's note. Notes exist only in English, so in the Chinese UI they
+ * are labelled 备注（英文） and marked lang="en" rather than machine-translated. Notes on
+ * high-confidence records used to be hidden; they explain sourcing choices, so show them too.
+ */
 function Confidence({ c, note, lang }: { c?: string; note?: string; lang: Lang }) {
-  if (!c || c === 'high') return null;
+  const flagged = c === 'medium' || c === 'low';
+  if (!flagged && !note) return null;
   const label = lang === 'zh' ? (c === 'medium' ? '存在争议或为约数' : '传统说法 / 可信度较低') : c === 'medium' ? 'Approximate or debated' : 'Traditional / low confidence';
   return (
-    <p className={`confidence c-${c}`}>
-      {label}
-      {note ? ` — ${note}` : ''}
-    </p>
+    <div className={`confidence c-${flagged ? c : 'high'}`}>
+      {flagged && (
+        <p className="conf-label">
+          <span className="sr-only">{s('confidence', lang)}: </span>
+          {label}
+        </p>
+      )}
+      {note && (
+        <p className="note">
+          <span className="note-tag">{s('noteEn', lang)}</span> <span lang="en">{note}</span>
+        </p>
+      )}
+    </div>
   );
 }
 
@@ -62,8 +77,8 @@ function StopList({ stops, lang, active, onPick }: { stops: Stop[]; lang: Lang; 
     <ol className="stops">
       {stops.map((st, i) => (
         <li key={i} className={i === active ? 'on' : ''}>
-          <button onClick={() => onPick(i)}>
-            <b>{i + 1}</b>
+          <button onClick={() => onPick(i)} aria-current={i === active ? 'step' : undefined}>
+            <b aria-hidden>{i + 1}</b>
             <span className="sy">{formatYear(st.year, lang)}</span>
             <span>{t(st.label, lang)}</span>
           </button>
@@ -100,11 +115,13 @@ export function DetailCard() {
         <>
           <Img img={e.image} alt={t(e.name, lang)} />
           <div className="card-kicker" style={{ color: EVENT_COLOR[e.type] }}>
-            {EVENT_GLYPH[e.type]} {EVENT_TYPE_LABEL[e.type][lang]} · {e.date ?? formatYear(e.year, lang)}
+            <span aria-hidden>{EVENT_GLYPH[e.type]}</span> {EVENT_TYPE_LABEL[e.type][lang]} · {e.date ?? formatYear(e.year, lang)}
             {e.endYear && e.endYear !== e.year ? ` – ${formatYear(e.endYear, lang)}` : ''}
           </div>
           <h2>{t(e.name, lang)}</h2>
-          {lang === 'zh' ? <div className="alt-name">{e.name.en}</div> : <div className="alt-name">{e.name.zh}</div>}
+          <div className="alt-name" lang={lang === 'zh' ? 'en' : 'zh'}>
+            {lang === 'zh' ? e.name.en : e.name.zh}
+          </div>
           <p className="summary">{t(e.summary, lang)}</p>
           <Confidence c={e.confidence} note={e.note} lang={lang} />
           {people.length > 0 && (
@@ -140,20 +157,20 @@ export function DetailCard() {
             {t(p.role, lang)} · {formatYear(p.born, lang)} – {formatYear(p.died, lang)}
           </div>
           <h2>{t(p.name, lang)}</h2>
-          <div className="alt-name">{lang === 'zh' ? p.name.en : p.name.zh}</div>
+          <div className="alt-name" lang={lang === 'zh' ? 'en' : 'zh'}>{lang === 'zh' ? p.name.en : p.name.zh}</div>
           <p className="summary">{t(p.summary, lang)}</p>
           <Confidence c={p.confidence} note={p.note} lang={lang} />
           <h4>{s('journey', lang)}</h4>
           <StopList stops={p.stops} lang={lang} active={journeyStop} onPick={(i) => pickStop(p.stops, i)} />
           <div className="stop-nav">
-            <button disabled={journeyStop <= 0} onClick={() => pickStop(p.stops, journeyStop - 1)}>
-              ‹
+            <button disabled={journeyStop <= 0} onClick={() => pickStop(p.stops, journeyStop - 1)} aria-label={s('prevStop', lang)}>
+              <span aria-hidden>‹</span>
             </button>
-            <span>
+            <span aria-live="polite">
               {journeyStop + 1} / {p.stops.length}
             </span>
-            <button disabled={journeyStop >= p.stops.length - 1} onClick={() => pickStop(p.stops, journeyStop + 1)}>
-              ›
+            <button disabled={journeyStop >= p.stops.length - 1} onClick={() => pickStop(p.stops, journeyStop + 1)} aria-label={s('nextStop', lang)}>
+              <span aria-hidden>›</span>
             </button>
           </div>
           <Sources sources={p.sources} qid={p.qid} wiki={p.wiki} lang={lang} />
@@ -198,7 +215,9 @@ export function DetailCard() {
                 {evs.map((e) => (
                   <li key={e.id}>
                     <button onClick={() => select({ kind: 'event', id: e.id })}>
-                      <b style={{ color: EVENT_COLOR[e.type] }}>{EVENT_GLYPH[e.type]}</b>
+                      <b style={{ color: EVENT_COLOR[e.type] }} aria-hidden>
+                        {EVENT_GLYPH[e.type]}
+                      </b>
                       <span className="ey">{e.year}</span>
                       <span className="en">{t(e.name, lang)}</span>
                     </button>
@@ -218,11 +237,11 @@ export function DetailCard() {
       return (
         <>
           <div className="card-kicker">
-            <i className="swatch" style={{ background: p.color }} /> {formatYear(p.from, lang)} – {formatYear(p.to, lang)}
+            <i className="swatch" style={{ background: p.color }} aria-hidden /> {formatYear(p.from, lang)} – {formatYear(p.to, lang)}
             {p.capital ? ` · ${s('capital', lang)} ${t(p.capital, lang)}` : ''}
           </div>
           <h2>{t(p.name, lang)}</h2>
-          <div className="alt-name">{lang === 'zh' ? p.name.en : p.name.zh}</div>
+          <div className="alt-name" lang={lang === 'zh' ? 'en' : 'zh'}>{lang === 'zh' ? p.name.en : p.name.zh}</div>
           <p className="summary">{t(p.summary, lang)}</p>
           {p.rulers && p.rulers.length > 0 && (
             <>
@@ -258,7 +277,7 @@ export function DetailCard() {
             {s('borders', lang)} · {formatYear(year, lang)}
           </div>
           <h2>{lang === 'zh' ? zh || sel.name : sel.name}</h2>
-          <div className="alt-name">{lang === 'zh' ? sel.name : zh}</div>
+          <div className="alt-name" lang={lang === 'zh' ? 'en' : 'zh'}>{lang === 'zh' ? sel.name : zh}</div>
           <p className="summary muted">{s('approx', lang)}</p>
           {match && (
             <button className="link-btn" onClick={() => select({ kind: 'polity', id: match.id })}>
@@ -273,7 +292,7 @@ export function DetailCard() {
   }, [atlas, sel, lang, year, journeyStop]);
 
   return (
-    <aside className={`card ${body ? 'open' : ''}`} aria-hidden={!body}>
+    <aside className={`card ${body ? 'open' : ''}`} aria-hidden={!body} aria-label={s('details', lang)}>
       {body && (
         <>
           <button className="card-close" onClick={() => select(null)} aria-label={s('close', lang)}>

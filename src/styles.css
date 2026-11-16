@@ -2,10 +2,11 @@
   --bg: #05070d;
   --ink: #f2e8d5;
   --ink-2: #c9bba0;
-  --muted: #8c8270;
+  /* #8c8270 fell to ~2.8:1 on the translucent panels over bright parchment land. */
+  --muted: #a3987f;
   --gold: #d9b26a;
   --gold-2: #f3d79a;
-  --panel: rgba(14, 16, 24, 0.72);
+  --panel: rgba(12, 14, 21, 0.84);
   --panel-solid: #0f121b;
   --line: rgba(217, 178, 106, 0.22);
   --line-2: rgba(242, 232, 213, 0.1);
@@ -14,6 +15,7 @@
   --sans: 'Inter', -apple-system, 'PingFang SC', 'Hiragino Sans GB', sans-serif;
   --radius: 14px;
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.55);
+  --focus: #f6dea6;
   color-scheme: dark;
 }
 
@@ -35,6 +37,18 @@ kbd {
 }
 .muted { color: var(--muted); }
 .small { font-size: 12px; }
+
+/* Keyboard focus: one consistent gold ring, never shown for mouse clicks. */
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+.region-chip:focus-visible, .drawer-body :focus-visible, .card-scroll :focus-visible, .search-box :focus-visible, .layers-menu :focus-visible { outline-offset: -2px; }
+.search-box input:focus-visible { outline: none; }
+.tl-track:focus-visible { outline-offset: 4px; border-radius: 8px; }
+.tl-track:focus-visible .tl-head-line b { box-shadow: 0 0 0 3px var(--focus), 0 0 12px var(--gold); }
+.sr-only {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
 
 .app { position: fixed; inset: 0; }
 .globe-host { position: absolute; inset: 0; z-index: 0; isolation: isolate; }
@@ -153,6 +167,15 @@ kbd {
 .intro-lang { margin-top: 26px; display: flex; gap: 6px; justify-content: center; animation: fadein 1s 1.2s both; }
 .intro-lang button { font-size: 12px; padding: 4px 10px; border-radius: 99px; color: var(--muted); }
 .intro-lang button.on { color: var(--gold-2); background: rgba(217, 178, 106, 0.12); }
+.intro-status {
+  min-height: 44px; margin-top: 18px; display: flex; flex-direction: column; align-items: center; gap: 8px;
+  font-size: 13px; color: var(--ink-2); transition: opacity 0.4s;
+}
+.intro-status.done { opacity: 0; }
+.intro-status.err { color: #f0b5a8; }
+.intro-progress { width: 180px; height: 2px; border-radius: 2px; background: rgba(217, 178, 106, 0.18); overflow: hidden; }
+.intro-progress i { display: block; height: 100%; background: linear-gradient(90deg, #d1a457, #f6dea6); transition: width 0.6s ease; animation: shimmer 1.4s ease-in-out infinite alternate; }
+@keyframes shimmer { from { opacity: 0.55; } to { opacity: 1; } }
 @keyframes fadein { from { opacity: 0; } }
 @keyframes rise { from { opacity: 0; transform: translateY(14px); filter: blur(4px); } }
 
@@ -182,15 +205,22 @@ kbd {
 .search-trigger:hover { border-color: var(--line); color: var(--ink-2); }
 
 .regions { display: flex; gap: 4px; margin: 0 auto; padding: 4px; border-radius: 99px; background: var(--panel); border: 1px solid var(--line-2); backdrop-filter: blur(12px); }
-.region-chip { --accent: #d9b26a; padding: 6px 12px; border-radius: 99px; color: var(--ink-2); font-size: 13px; white-space: nowrap; transition: background 0.25s, color 0.25s; }
+.region-chip { --accent: #d9b26a; padding: 6px 12px; border-radius: 99px; color: var(--ink-2); font-size: 13px; white-space: nowrap; }
 .region-chip:hover { color: var(--ink); background: rgba(255, 255, 255, 0.05); }
-.region-chip.on { color: #120d06; background: var(--accent); box-shadow: 0 0 18px color-mix(in srgb, var(--accent) 60%, transparent); }
+.region-chip.on {
+  /* Lightened toward parchment so dark text keeps ≥4.5:1 on every accent (East/South Asia reds were ~3.8:1). */
+  color: #120d06; background: color-mix(in srgb, var(--accent) 76%, #fff3d6);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--accent) 60%, transparent);
+}
 
 .controls { display: flex; gap: 6px; align-items: center; }
 .icon-btn { padding: 7px 11px; border-radius: 99px; background: var(--panel); border: 1px solid var(--line-2); font-size: 13px; color: var(--ink-2); backdrop-filter: blur(12px); }
 .icon-btn:hover { color: var(--ink); border-color: var(--line); }
 .music-btn { display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 99px; background: var(--panel); border: 1px solid var(--line-2); font-size: 12.5px; color: var(--ink-2); backdrop-filter: blur(12px); max-width: 260px; }
 .music-btn.on { border-color: var(--line); color: var(--gold-2); }
+.music-btn .eq, .music-btn.on .note-icon { display: none; }
+.music-btn.on .eq { display: flex; }
+.note-icon { flex: none; }
 .music-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .eq { display: flex; align-items: flex-end; gap: 2px; height: 12px; }
 .eq i { width: 2px; height: 3px; background: currentColor; border-radius: 1px; }
@@ -263,14 +293,23 @@ kbd {
 .card-img { margin: 0 -18px 12px; position: relative; }
 .card-img img { width: 100%; max-height: 260px; object-fit: cover; object-position: 50% 25%; display: block; mask-image: linear-gradient(180deg, #000 70%, transparent); }
 .card-img figcaption { position: absolute; bottom: 4px; right: 10px; font-size: 10px; max-width: 80%; text-align: right; }
-.card-img figcaption a { color: rgba(255, 255, 255, 0.55); text-decoration: none; }
+.card-img figcaption a { color: rgba(255, 255, 255, 0.82); text-decoration: none; text-shadow: 0 1px 2px #000, 0 0 6px #000; }
+.card-img figcaption a:hover { text-decoration: underline; }
 .card-kicker { font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); margin-top: 18px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .card-img + .card-kicker { margin-top: 0; }
 .swatch { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
 .card h2 { font-family: var(--serif); font-size: 30px; line-height: 1.1; margin: 6px 0 2px; font-weight: 700; }
 .alt-name { font-family: var(--serif); color: var(--muted); font-size: 16px; }
 .summary { color: var(--ink-2); line-height: 1.65; font-size: 14.5px; }
-.confidence { font-size: 12px; padding: 8px 10px; border-radius: 8px; background: rgba(217, 178, 106, 0.08); border-left: 2px solid var(--gold); color: var(--ink-2); }
+.confidence { font-size: 12.5px; line-height: 1.55; padding: 8px 10px; border-radius: 8px; background: rgba(217, 178, 106, 0.08); border-left: 2px solid var(--gold); color: var(--ink-2); }
+.confidence p { margin: 0; }
+.confidence .conf-label { font-weight: 600; color: var(--ink); }
+.confidence .conf-label + .note { margin-top: 4px; }
+.confidence.c-high { background: rgba(242, 232, 213, 0.04); border-left-color: var(--line); }
+.note-tag {
+  display: inline-block; margin-right: 4px; padding: 0 6px; border-radius: 99px; font-size: 10.5px; font-weight: 600;
+  letter-spacing: 0.06em; color: var(--gold-2); border: 1px solid var(--line); vertical-align: 1px;
+}
 .confidence.c-low { border-left-color: #c0675a; background: rgba(192, 103, 90, 0.08); }
 .stops li button, .genealogy li button, .rulers li button { display: flex; gap: 8px; width: 100%; text-align: left; padding: 6px; border-radius: 8px; align-items: baseline; }
 .stops li button:hover, .genealogy li button:hover, .rulers li button:hover { background: rgba(255, 255, 255, 0.05); }
@@ -342,6 +381,7 @@ kbd {
 .search-box li b { grid-row: span 2; display: grid; place-items: center; color: var(--gold); }
 .search-box .st { font-weight: 600; }
 .search-box .ss { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.search-empty { margin: 0; padding: 14px 20px; color: var(--muted); }
 .search-hints { display: flex; flex-wrap: wrap; gap: 6px; padding: 12px 14px; }
 .search-hints button { padding: 5px 11px; border-radius: 99px; border: 1px solid var(--line-2); color: var(--ink-2); font-size: 12.5px; }
 .search-hints button:hover { border-color: var(--gold); }
@@ -354,7 +394,7 @@ kbd {
   position: fixed; left: 0; top: 0; z-index: 30; pointer-events: none; padding: 5px 10px; border-radius: 8px; white-space: nowrap;
   font-family: var(--serif); font-size: 15px; font-weight: 600; background: rgba(10, 10, 14, 0.85); border: 1px solid var(--line);
 }
-.disclaimer { position: absolute; bottom: 132px; left: 50%; transform: translateX(-50%); font-size: 10.5px; color: rgba(201, 187, 160, 0.5); z-index: 5; pointer-events: none; white-space: nowrap; }
+.disclaimer { position: absolute; bottom: 132px; left: 50%; transform: translateX(-50%); font-size: 10.5px; color: rgba(222, 208, 180, 0.78); text-shadow: 0 1px 3px #000, 0 0 8px #000; z-index: 5; pointer-events: none; white-space: nowrap; }
 
 /* ---------- responsive ---------- */
 @media (max-width: 1360px) {
@@ -373,12 +413,53 @@ kbd {
 }
 @media (max-width: 900px) {
   .topbar { flex-wrap: wrap; padding: 10px 12px; gap: 8px; }
-  .regions { order: 3; width: 100%; overflow-x: auto; margin: 0; scrollbar-width: none; }
+  .brand { gap: 8px; }
+  .topbar .controls { margin-left: auto; }
+  .search-trigger, .icon-btn, .music-btn { min-height: 36px; min-width: 36px; justify-content: center; }
+  .regions {
+    order: 3; width: 100%; overflow-x: auto; margin: 0; scrollbar-width: none;
+    /* Fade the edge so it is obvious that more regions scroll into view. */
+    mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+  }
   .brand-sub { display: none; }
-  .drawer { display: none; }
-  .card { left: 10px; right: 10px; width: auto; top: auto; bottom: 150px; height: 52vh; }
+  /* The side panel becomes an overlay sheet, closed by default (see store.drawerOpen). */
+  .drawer { left: 8px; top: 118px; bottom: 156px; width: min(300px, calc(100vw - 64px)); z-index: 17; transform: translateX(calc(-100% - 8px)); }
+  .drawer:not(.open) .drawer-toggle { right: -40px; }
+  .drawer-body { background: rgba(12, 14, 21, 0.94); }
+  /* The detail card is a bottom sheet above the timeline; GlobeEngine targets are framed above it. */
+  .card { left: 8px; right: 8px; width: auto; top: auto; bottom: 156px; height: 44vh; transform: translateY(calc(100% + 170px)); }
+  .card-img img { max-height: 150px; }
+  .card h2 { font-size: 26px; }
   .timeline { left: 8px; right: 8px; bottom: 8px; padding: 8px 10px 6px; }
+  .tl-head { gap: 10px; }
+  .year-display { min-width: 0; }
   .year-num { font-size: 30px; }
-  .speed, .tl-ruler { display: none; }
+  .tl-context { flex-direction: column; align-items: flex-start; gap: 0; }
+  .tl-region { font-size: 16px; }
+  .tl-ruler { max-width: 100%; font-size: 12px; }
+  .speed { display: none; }
   .disclaimer { display: none; }
+}
+@media (max-width: 600px) {
+  .brand-title { font-size: 19px; }
+  .app.en .brand-dot, .app.en .brand-han, .app.zh .brand-dot, .app.zh .brand-latin { display: none; }
+  .controls { gap: 5px; }
+  .icon-btn { padding: 7px 10px; }
+  .music-btn { padding: 7px 10px; }
+  .tl-axis span.minor { display: none; }
+  .intro-kicker { letter-spacing: 0.18em; font-size: 11px; }
+}
+@media (pointer: coarse) {
+  .tl-track { padding-bottom: 20px; }
+  .tl-head-line b { top: -8px; left: -8px; width: 18px; height: 18px; }
+}
+
+/* ---------- reduced motion ---------- */
+/* Camera fly-tos become instant cuts in App.tsx; here, drop decorative CSS motion. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; animation-delay: 0s !important;
+    transition-duration: 0.01ms !important; transition-delay: 0s !important; scroll-behavior: auto !important;
+  }
+  .music-btn.on .eq i { animation: none !important; height: 7px; }
 }

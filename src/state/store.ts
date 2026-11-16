@@ -23,10 +23,12 @@ interface State {
   flyRequest: { lat: number; lon: number; altitude?: number; at: number } | null;
   selection: Selection;
   journeyStop: number; // index into the selected person's / war's stops
-  hover: string | null;
+  /** Border polity under the pointer, for the hover tooltip. */
+  hoverBorder: { en: string; zh: string } | null;
   layers: Layers;
   musicOn: boolean;
   searchOpen: boolean;
+  aboutOpen: boolean;
   drawerOpen: boolean;
   set: (patch: Partial<State>) => void;
   setYear: (year: number) => void;
@@ -34,10 +36,14 @@ interface State {
   flyTo: (lat: number, lon: number, altitude?: number) => void;
   select: (sel: Selection) => void;
   toggleLayer: (k: keyof Layers) => void;
+  togglePlay: () => void;
 }
 
 const params = new URLSearchParams(location.search);
 const initialYear = Number(params.get('year'));
+/** Narrow screens start with the side panel closed: it would cover most of the globe. */
+export const isCompact = () => window.matchMedia('(max-width: 900px)').matches;
+export const prefersReducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const initialLang: Lang = params.get('lang') === 'zh' || (!params.get('lang') && navigator.language.startsWith('zh')) ? 'zh' : 'en';
 
 export const useStore = create<State>((set, get) => ({
@@ -51,11 +57,12 @@ export const useStore = create<State>((set, get) => ({
   flyRequest: null,
   selection: null,
   journeyStop: 0,
-  hover: null,
+  hoverBorder: null,
   layers: { borders: true, events: true, people: true, places: true, labels: true },
   musicOn: false,
   searchOpen: false,
-  drawerOpen: true,
+  aboutOpen: false,
+  drawerOpen: !isCompact(),
   set: (patch) => set(patch),
   setYear: (year) => set({ year: Math.round(Math.min(YEAR_MAX, Math.max(YEAR_MIN, year))) }),
   focus: (region) => set({ focusRequest: { region, at: performance.now() } }),
@@ -89,6 +96,12 @@ export const useStore = create<State>((set, get) => ({
     }
   },
   toggleLayer: (k) => set({ layers: { ...get().layers, [k]: !get().layers[k] } }),
+  togglePlay: () => {
+    const { playing, year } = get();
+    // Pressing play at the end of time starts again from the beginning instead of doing nothing.
+    if (!playing && year >= YEAR_MAX) set({ year: YEAR_MIN });
+    set({ playing: !playing });
+  },
 }));
 
 export const t = (v: { en: string; zh: string } | undefined, lang: Lang) => (v ? v[lang] || v.en : '');

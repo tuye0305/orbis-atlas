@@ -1,16 +1,24 @@
+import { useId, useRef } from 'react';
+import { s } from '../i18n';
 import { useStore } from '../state/store';
+import { useModal } from './dialog';
 
-export function About({ onClose }: { onClose: () => void }) {
+export default function About() {
   const lang = useStore((st) => st.lang);
   const atlas = useStore((st) => st.atlas);
+  const set = useStore((st) => st.set);
   const zh = lang === 'zh';
+  const box = useRef<HTMLDivElement>(null);
+  const titleId = useId();
+  const onClose = () => set({ aboutOpen: false });
+  useModal(box, onClose, undefined, '.controls [aria-haspopup="dialog"]');
   return (
     <div className="search-backdrop" onClick={onClose}>
-      <div className="about" onClick={(e) => e.stopPropagation()}>
-        <button className="card-close" onClick={onClose}>
+      <div ref={box} className="about" role="dialog" aria-modal="true" aria-labelledby={titleId} onClick={(e) => e.stopPropagation()}>
+        <button className="card-close" onClick={onClose} aria-label={s('close', lang)}>
           ×
         </button>
-        <h2>Orbis · 寰宇时序</h2>
+        <h2 id={titleId}>Orbis · 寰宇时序</h2>
         <p>
           {zh
             ? '一部开源的三维世界历史地图，涵盖欧洲、非洲与亚洲近两千年的疆域、朝代、战争、人物与地名沿革。'
@@ -60,6 +68,9 @@ export function About({ onClose }: { onClose: () => void }) {
           </li>
           <li>
             <kbd>←</kbd> <kbd>→</kbd> {zh ? '上 / 下一个大事年份或行程站点' : 'previous / next event year or journey stop'} (<kbd>Shift</kbd> ±10)
+          </li>
+          <li>
+            {zh ? '时间轴获得焦点时：' : 'On the focused timeline:'} <kbd>←</kbd> <kbd>→</kbd> ±1 · <kbd>PgUp</kbd> <kbd>PgDn</kbd> ±100 · <kbd>Home</kbd> <kbd>End</kbd>
           </li>
           <li>
             <kbd>Esc</kbd> {zh ? '关闭' : 'close'}

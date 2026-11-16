@@ -1,7 +1,8 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useId, useMemo, useRef, useState } from 'react';
 import { EVENT_GLYPH, s } from '../i18n';
 import { formatYear, useStore } from '../state/store';
 import type { Selection } from '../types';
+import { useModal } from './dialog';
 
 interface Hit {
   sel: Selection;
@@ -13,8 +14,8 @@ interface Hit {
 
 const norm = (x: string) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
-export function Search() {
-  const open = useStore((st) => st.searchOpen);
+/** Search palette. Mounted only while open (see App), so state resets on every open. */
+export default function Search() {
   const atlas = useStore((st) => st.atlas);
   const lang = useStore((st) => st.lang);
   const set = useStore((st) => st.set);
@@ -23,14 +24,10 @@ export function Search() {
   const [q, setQ] = useState('');
   const [cursor, setCursor] = useState(0);
   const input = useRef<HTMLInputElement>(null);
-
-  useEffect(() => {
-    if (open) {
-      setQ('');
-      setCursor(0);
-      setTimeout(() => input.current?.focus(), 30);
-    }
-  }, [open]);
+  const box = useRef<HTMLDivElement>(null);
+  const id = useId();
+  const close = () => set({ searchOpen: false });
+  useModal(box, close, input, '.search-trigger');
 
   const hits = useMemo<Hit[]>(() => {
     if (!atlas || !q.trim()) return [];
@@ -68,45 +65,76 @@ export function Search() {
     return out.sort((a, b) => b.score - a.score).slice(0, 12);
   }, [atlas, q, lang]);
 
-  if (!open) return null;
   const choose = (h: Hit) => {
-    set({ searchOpen: false });
+    close();
     if (h.sel) select(h.sel);
     else setYear(Number(q.trim()));
   };
+  const listId = `${id}-list`;
+  const optId = (i: number) => `${id}-opt-${i}`;
+  const active = hits[cursor] ? optId(cursor) : undefined;
   return (
-    <div className="search-backdrop" onClick={() => set({ searchOpen: false })}>
-      <div className="search-box" onClick={(e) => e.stopPropagation()}>
+    <div className="search-backdrop" onClick={close}>
+      <div ref={box} className="search-box" role="dialog" aria-modal="true" aria-label={s('search', lang)} onClick={(e) => e.stopPropagation()}>
         <input
           ref={input}
           value={q}
           placeholder={s('search', lang)}
+          aria-label={s('search', lang)}
+          role="combobox"
+          aria-expanded={hits.length > 0}
+          aria-controls={listId}
+          aria-autocomplete="list"
+          aria-activedescendant={active}
+          autoComplete="off"
+          spellCheck={false}
           onChange={(e) => {
             setQ(e.target.value);
             setCursor(0);
           }}
           onKeyDown={(e) => {
-            if (e.key === 'ArrowDown') setCursor((c) => Math.min(hits.length - 1, c + 1));
-            else if (e.key === 'ArrowUp') setCursor((c) => Math.max(0, c - 1));
-            else if (e.key === 'Enter' && hits[cursor]) choose(hits[cursor]);
-            else if (e.key === 'Escape') set({ searchOpen: false });
+            if (e.key === 'ArrowDown') {
+              e.preventDefault();
+              setCursor((c) => Math.max(0, Math.min(hits.length - 1, c + 1)));
+            } else if (e.key === 'ArrowUp') {
+              e.preventDefault();
+              setCursor((c) => Math.max(0, c - 1));
+            } else if (e.key === 'Enter' && hits[cursor]) choose(hits[cursor]);
           }}
         />
-        {hits.length > 0 && (
-          <ul>
-            {hits.map((h, i) => (
-              <li key={i} className={i === cursor ? 'on' : ''} onMouseEnter={() => setCursor(i)} onClick={() => choose(h)}>
-                <b>{h.glyph}</b>
-                <span className="st">{h.title}</span>
-                <span className="ss">{h.sub}</span>
-              </li>
-            ))}
-          </ul>
+        <ul id={listId} role="listbox" aria-label={s('results', lang)} hidden={hits.length === 0}>
+          {hits.map((h, i) => (
+            <li
+              key={`${h.sel?.kind ?? 'year'}:${h.sel && 'id' in h.sel ? h.sel.id : h.title}`}
+              id={optId(i)}
+              role="option"
+              aria-selected={i === cursor}
+              className={i === cursor ? 'on' : ''}
+              onMouseEnter={() => setCursor(i)}
+              onClick={() => choose(h)}
+            >
+              <b aria-hidden>{h.glyph}</b>
+              <span className="st">{h.title}</span>
+              <span className="ss">{h.sub}</span>
+            </li>
+          ))}
+        </ul>
+        {q.trim() && hits.length === 0 && (
+          <p className="search-empty" role="status">
+            {s('noResults', lang)}
+          </p>
         )}
         {!q && (
           <div className="search-hints">
             {(lang === 'zh' ? ['君士坦丁堡', '曼萨·穆萨', '长安', '1453', '拿破仑', '玄奘'] : ['Constantinople', 'Mansa Musa', "Chang'an", '1453', 'Napoleon', 'Xuanzang']).map((x) => (
-              <button key={x} onClick={() => setQ(x)}>
+              <button
+                key={x}
+                onClick={() => {
+                  setQ(x);
+                  // The hint buttons disappear once there is a query: keep focus in the field.
+                  input.current?.focus();
+                }}
+              >
                 {x}
               </button>
             ))}

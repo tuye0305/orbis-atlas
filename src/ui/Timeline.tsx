@@ -31,6 +31,7 @@ export function Timeline() {
   const region = useStore((st) => st.region);
   const atlas = useStore((st) => st.atlas);
   const set = useStore((st) => st.set);
+  const togglePlay = useStore((st) => st.togglePlay);
   const setYear = useStore((st) => st.setYear);
   const select = useStore((st) => st.select);
   const track = useRef<HTMLDivElement>(null);
@@ -55,6 +56,20 @@ export function Timeline() {
   const onMove = (e: React.PointerEvent) => {
     if (e.buttons) setYear(yearFromPointer(e.clientX));
   };
+  // Standard slider keys. They stop here, so the app-wide ←/→ (next event) does not also fire.
+  const onKey = (e: React.KeyboardEvent) => {
+    const big = e.shiftKey ? 10 : 1;
+    const step: Record<string, number> = { ArrowLeft: -big, ArrowDown: -big, ArrowRight: big, ArrowUp: big, PageDown: -100, PageUp: 100 };
+    let next: number | null = null;
+    if (e.key in step) next = year + step[e.key];
+    else if (e.key === 'Home') next = YEAR_MIN;
+    else if (e.key === 'End') next = YEAR_MAX;
+    if (next === null) return;
+    e.preventDefault();
+    e.stopPropagation();
+    set({ playing: false });
+    setYear(next);
+  };
 
   const centuries = [];
   for (let c = 100; c <= 2000; c += 100) centuries.push(c);
@@ -63,22 +78,22 @@ export function Timeline() {
     .flatMap((p) => (p.rulers ?? []).filter((r) => year >= r.from && year <= r.to).map((r) => ({ r, p })))[0];
 
   return (
-    <footer className="timeline">
+    <footer className="timeline" aria-label={s('timeline', lang)}>
       <div className="tl-head">
-        <button className="play" onClick={() => set({ playing: !playing })} aria-label={playing ? s('pause', lang) : s('play', lang)}>
+        <button className="play" onClick={togglePlay} aria-label={playing ? s('pause', lang) : s('play', lang)}>
           {playing ? (
-            <svg viewBox="0 0 24 24" width="18" height="18">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden>
               <rect x="6" y="5" width="4" height="14" rx="1" fill="currentColor" />
               <rect x="14" y="5" width="4" height="14" rx="1" fill="currentColor" />
             </svg>
           ) : (
-            <svg viewBox="0 0 24 24" width="18" height="18">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden>
               <path d="M7 5l12 7-12 7z" fill="currentColor" />
             </svg>
           )}
         </button>
-        <div className="year-display" key={Math.floor(year / 100)}>
-          <span className="year-num">{lang === 'zh' ? year : year}</span>
+        <div className="year-display" key={Math.floor(year / 100)} aria-hidden>
+          <span className="year-num">{year}</span>
           <span className="year-era">{lang === 'zh' ? '公元' : 'CE'}</span>
         </div>
         <div className="tl-context">
@@ -90,17 +105,31 @@ export function Timeline() {
             </span>
           )}
         </div>
-        <div className="speed">
+        <div className="speed" role="group" aria-label={s('speedLabel', lang)}>
           {[5, 12, 30].map((v) => (
-            <button key={v} className={speed === v ? 'on' : ''} onClick={() => set({ speed: v })}>
+            <button key={v} className={speed === v ? 'on' : ''} aria-pressed={speed === v} aria-label={`${v} ${s('speed', lang)}`} onClick={() => set({ speed: v })}>
               {v}
             </button>
           ))}
-          <span>{s('speed', lang)}</span>
+          <span aria-hidden>{s('speed', lang)}</span>
         </div>
       </div>
 
-      <div className="tl-track" ref={track} onPointerDown={onDown} onPointerMove={onMove}>
+      <div
+        className="tl-track"
+        ref={track}
+        role="slider"
+        tabIndex={0}
+        aria-label={s('year', lang)}
+        aria-valuemin={YEAR_MIN}
+        aria-valuemax={YEAR_MAX}
+        aria-valuenow={year}
+        aria-valuetext={[formatYear(year, lang), rulerNow && `${t(rulerNow.p.name, lang)} · ${t(rulerNow.r.name, lang)}`].filter(Boolean).join(', ')}
+        aria-orientation="horizontal"
+        onPointerDown={onDown}
+        onPointerMove={onMove}
+        onKeyDown={onKey}
+      >
         <div className="tl-lanes" style={{ height: `${regionPolities.count * 9}px` }}>
           {regionPolities.items.map(({ p, lane }) => (
             <button
@@ -108,6 +137,8 @@ export function Timeline() {
               className={`tl-band ${year >= p.from && year <= p.to ? 'now' : ''}`}
               style={{ left: `${pct(p.from)}%`, width: `${Math.max(0.4, pct(p.to) - pct(p.from))}%`, top: `${lane * 9}px`, background: p.color }}
               title={`${t(p.name, lang)} ${formatYear(p.from, lang)} – ${formatYear(p.to, lang)}`}
+              tabIndex={-1}
+              aria-hidden
               onPointerDown={(e) => e.stopPropagation()}
               onClick={() => select({ kind: 'polity', id: p.id })}
             >
@@ -115,7 +146,7 @@ export function Timeline() {
             </button>
           ))}
         </div>
-        <div className="tl-ticks">
+        <div className="tl-ticks" aria-hidden>
           {ticks.map((e) => (
             <i
               key={e.id}
@@ -124,9 +155,9 @@ export function Timeline() {
             />
           ))}
         </div>
-        <div className="tl-axis">
+        <div className="tl-axis" aria-hidden>
           {centuries.map((c) => (
-            <span key={c} style={{ left: `${pct(c)}%` }}>
+            <span key={c} className={c % 500 ? 'minor' : ''} style={{ left: `${pct(c)}%` }}>
               {c}
             </span>
           ))}

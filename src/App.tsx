@@ -1,35 +1,63 @@
-import { useEffect, useRef, useState } from 'react';
-import { MusicEngine } from './audio/MusicEngine';
-import { GlobeEngine } from './globe/GlobeEngine';
+import { lazy, Suspense, useEffect, useRef, useState } from 'react';
+import type { MusicEngine } from './audio/MusicEngine';
+import type { GlobeEngine } from './globe/GlobeEngine';
 import { s } from './i18n';
 import { REGION_BY_KEY } from './regions';
-import { useStore } from './state/store';
+import { prefersReducedMotion, useStore } from './state/store';
 import type { Atlas, Selection } from './types';
-import { About } from './ui/About';
 import { DetailCard } from './ui/DetailCard';
 import { Drawer } from './ui/Drawer';
-import { Intro } from './ui/Intro';
-import { Search } from './ui/Search';
+import { framedTarget } from './ui/framing';
+import { HoverTip } from './ui/HoverTip';
+import { Intro, type LoadError } from './ui/Intro';
+import Search from './ui/Search';
 import { Timeline } from './ui/Timeline';
 import { TopBar } from './ui/TopBar';
 
-const music = new MusicEngine();
+// Code-split: three.js + three-globe are ~80% of the JS. Start fetching them as soon as the app
+// shell runs, in parallel with atlas.json, while the intro screen is already painted.
+// (Search stays in the main chunk: it is ~3 kB and must focus its field within the `/` keystroke,
+// or the first typed letters are lost.)
+const globeModule = import('./globe/GlobeEngine');
+const loadAbout = () => import('./ui/About');
+const About = lazy(loadAbout);
+
+// The music engine is only needed once someone turns music on. It is fetched in the background
+// after the globe is up, so that enabling music still happens inside the click (autoplay rules).
+let music: MusicEngine | null = null;
+let musicLoading: Promise<MusicEngine> | null = null;
+const loadMusic = () => (musicLoading ??= import('./audio/MusicEngine').then((m) => (music = new m.MusicEngine())));
+
+/** GSAP fly-to duration: an instant cut when the user asked for reduced motion, else the engine default. */
+const flyDuration = () => (prefersReducedMotion() ? 0.01 : undefined);
 
 export default function App() {
   const host = useRef<HTMLDivElement>(null);
   const engine = useRef<GlobeEngine | null>(null);
-  const [hoverName, setHoverName] = useState<{ en: string; zh: string } | null>(null);
-  const [mouse, setMouse] = useState({ x: 0, y: 0 });
+  const enteredRef = useRef(false);
   const [entered, setEntered] = useState(false);
-  const [aboutOpen, setAboutOpen] = useState(false);
+  const [globeReady, setGlobeReady] = useState(false);
+  const [error, setError] = useState<LoadError>(null);
   const atlas = useStore((st) => st.atlas);
   const lang = useStore((st) => st.lang);
+  const searchOpen = useStore((st) => st.searchOpen);
+  const aboutOpen = useStore((st) => st.aboutOpen);
+
+  // Language of the document, for screen readers, hyphenation and the :lang(zh) font rules.
+  useEffect(() => {
+    document.documentElement.lang = lang === 'zh' ? 'zh-Hans' : 'en';
+  }, [lang]);
 
   // Load data once.
   useEffect(() => {
+    let cancelled = false;
     fetch(`${import.meta.env.BASE_URL}data/atlas.json`)
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error(`atlas.json: HTTP ${r.status}`);
+        return r.json();
+      })
       .then((a: Atlas) => {
+        if (cancelled) return;
         useStore.getState().set({ atlas: a });
         // Deep links: ?event=…&person=…&place=…
         const p = new URLSearchParams(location.search);
@@ -37,52 +65,96 @@ export default function App() {
           const id = p.get(kind);
           if (id) useStore.getState().select({ kind, id } as Selection);
         }
+      })
+      .catch((err) => {
+        console.warn(err);
+        if (!cancelled) setError('data');
       });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  // Create the globe engine and wire it to the store.
+  // Create the globe engine (once its chunk arrives) and wire it to the store.
   useEffect(() => {
-    if (!host.current) return;
-    const eng = new GlobeEngine(host.current, {
-      onRegion: (r) => {
-        useStore.getState().set({ region: r });
-        music.setRegion(r);
-      },
-      onSelect: (sel) => useStore.getState().select(sel),
-      onHoverBorder: setHoverName,
-      onReady: () => {},
-    });
-    engine.current = eng;
-    const push = () => {
-      const st = useStore.getState();
-      if (!st.atlas) return;
-      eng.update({ atlas: st.atlas, year: st.year, lang: st.lang, layers: st.layers, selection: st.selection, journeyStop: st.journeyStop });
-    };
-    push();
-    const unsub = useStore.subscribe((st, prev) => {
-      if (
-        st.atlas !== prev.atlas ||
-        st.year !== prev.year ||
-        st.lang !== prev.lang ||
-        st.layers !== prev.layers ||
-        st.selection !== prev.selection ||
-        st.journeyStop !== prev.journeyStop
-      )
+    let cancelled = false;
+    let teardown = () => {};
+    globeModule.then(
+      ({ GlobeEngine }) => {
+        if (cancelled || !host.current) return;
+        let eng: GlobeEngine;
+        try {
+          eng = new GlobeEngine(host.current, {
+            onRegion: (r) => {
+              useStore.getState().set({ region: r });
+              music?.setRegion(r);
+            },
+            onSelect: (sel) => useStore.getState().select(sel),
+            onHoverBorder: (name) => useStore.getState().set({ hoverBorder: name }),
+            onReady: () => {
+              setGlobeReady(true);
+              loadMusic();
+            },
+          });
+        } catch (err) {
+          console.warn(err);
+          setError('webgl');
+          return;
+        }
+        engine.current = eng;
+        const push = () => {
+          const st = useStore.getState();
+          if (!st.atlas) return;
+          eng.update({ atlas: st.atlas, year: st.year, lang: st.lang, layers: st.layers, selection: st.selection, journeyStop: st.journeyStop });
+        };
         push();
-      if (st.focusRequest && st.focusRequest !== prev.focusRequest) {
-        const r = REGION_BY_KEY[st.focusRequest.region];
-        eng.flyTo(r.lat, r.lon, r.altitude);
-      }
-      if (st.flyRequest && st.flyRequest !== prev.flyRequest) {
-        const f = st.flyRequest;
-        eng.flyTo(f.lat, f.lon, f.altitude ?? 1.3);
-      }
-      if (st.musicOn !== prev.musicOn) music.setEnabled(st.musicOn, st.region);
-    });
+        const unsub = useStore.subscribe((st, prev) => {
+          if (
+            st.atlas !== prev.atlas ||
+            st.year !== prev.year ||
+            st.lang !== prev.lang ||
+            st.layers !== prev.layers ||
+            st.selection !== prev.selection ||
+            st.journeyStop !== prev.journeyStop
+          )
+            push();
+          // Aim so the target lands in the part of the screen no panel covers.
+          const cardOpen = !!st.selection && st.selection.kind !== 'border';
+          if (st.focusRequest && st.focusRequest !== prev.focusRequest) {
+            const r = REGION_BY_KEY[st.focusRequest.region];
+            const aim = framedTarget(r.lat, r.lon, r.altitude, cardOpen);
+            eng.flyTo(aim.lat, aim.lon, r.altitude, flyDuration());
+          }
+          if (st.flyRequest && st.flyRequest !== prev.flyRequest) {
+            const f = st.flyRequest;
+            const alt = f.altitude ?? 1.3;
+            const aim = framedTarget(f.lat, f.lon, alt, cardOpen);
+            eng.flyTo(aim.lat, aim.lon, alt, flyDuration());
+          }
+          if (st.musicOn !== prev.musicOn) {
+            // Synchronous when the module is already here, so AudioContext starts inside the click.
+            if (music) music.setEnabled(st.musicOn, st.region);
+            else if (st.musicOn)
+              loadMusic().then((m) => {
+                const now = useStore.getState();
+                m.setEnabled(now.musicOn, now.region);
+              });
+          }
+        });
+        teardown = () => {
+          unsub();
+          eng.dispose();
+          engine.current = null;
+        };
+      },
+      (err) => {
+        console.warn(err);
+        if (!cancelled) setError('webgl');
+      },
+    );
     return () => {
-      unsub();
-      eng.dispose();
-      engine.current = null;
+      cancelled = true;
+      teardown();
     };
   }, []);
 
@@ -114,19 +186,23 @@ export default function App() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const st = useStore.getState();
-      const typing = (e.target as HTMLElement)?.closest('input, textarea');
+      // Nothing to control behind the intro; open dialogs handle their own keys.
+      if (!enteredRef.current || st.searchOpen || st.aboutOpen) return;
+      const el = e.target as HTMLElement | null;
+      const typing = el?.closest?.('input, textarea, select, [contenteditable="true"]');
       if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !typing)) {
         e.preventDefault();
         st.set({ searchOpen: true });
         return;
       }
-      if (typing) return;
+      if (typing || e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.key === 'Escape') {
-        if (st.searchOpen) st.set({ searchOpen: false });
-        else st.select(null);
+        st.select(null);
       } else if (e.key === ' ') {
+        // Space on a focused button or link must activate it, not toggle playback.
+        if (el?.closest?.('button, a[href], summary, [role="button"], label')) return;
         e.preventDefault();
-        st.set({ playing: !st.playing });
+        st.togglePlay();
       } else if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
         e.preventDefault();
         stepEvent(e.key === 'ArrowRight' ? 1 : -1, e.shiftKey);
@@ -137,38 +213,48 @@ export default function App() {
   }, []);
 
   const enter = (withMusic: boolean) => {
+    enteredRef.current = true;
     setEntered(true);
-    engine.current?.intro();
+    const reduced = prefersReducedMotion();
+    if (reduced) engine.current?.flyTo(36, 40, 2.1, 0.01);
+    else engine.current?.intro();
     if (withMusic) useStore.getState().set({ musicOn: true });
+    // Warm the lazily-loaded About dialog so “?” opens without a network round trip.
+    void loadAbout();
     // A deep-linked selection flies to its target once the intro swing has landed.
     const { selection, select, year, setYear } = useStore.getState();
-    if (selection) setTimeout(() => {
-      select(selection);
-      if (selection.kind === 'place') setYear(year);
-    }, 3300);
+    if (selection)
+      setTimeout(
+        () => {
+          select(selection);
+          if (selection.kind === 'place') setYear(year);
+        },
+        reduced ? 100 : 3300,
+      );
   };
 
   return (
-    <div className={`app ${entered ? '' : 'pre'} ${lang}`} onPointerMove={(e) => setMouse({ x: e.clientX, y: e.clientY })}>
-      <div ref={host} className="globe-host" />
-      <div className="vignette" />
+    <div className={`app ${entered ? '' : 'pre'} ${lang}`}>
       {entered && (
         <>
-          <TopBar onAbout={() => setAboutOpen(true)} />
-          <Drawer />
-          <DetailCard />
-          <Timeline />
-          <Search />
+          <TopBar />
+          <main className="ui-main">
+            <h1 className="sr-only">Orbis · 寰宇时序</h1>
+            <Drawer />
+            <DetailCard />
+            <Timeline />
+          </main>
+          {searchOpen && <Search />}
+          <Suspense fallback={null}>{aboutOpen && <About />}</Suspense>
           <div className="disclaimer">{s('approx', lang)}</div>
+          <HoverTip />
         </>
       )}
-      {hoverName && entered && (
-        <div className="hover-tip" style={{ transform: `translate(${mouse.x + 14}px, ${mouse.y + 12}px)` }}>
-          {hoverName[lang]}
-        </div>
-      )}
-      {!entered && <Intro ready={!!atlas} onEnter={enter} />}
-      {aboutOpen && <About onClose={() => setAboutOpen(false)} />}
+      {/* After the panels in DOM order (z-index keeps it underneath), so Tab reaches the controls
+          before the globe's ~200 marker buttons. Inert behind the intro screen. */}
+      <div ref={host} className="globe-host" role="region" aria-label={lang === 'zh' ? '地球' : 'Globe'} inert={!entered} />
+      <div className="vignette" />
+      {!entered && <Intro dataReady={!!atlas} globeReady={globeReady} error={error} onEnter={enter} onRetry={() => location.reload()} />}
     </div>
   );
 }
