@@ -703,7 +703,7 @@ export class GlobeEngine {
     if (layers.people) {
       for (const p of atlas.people) {
         const selected = selection?.kind === 'person' && selection.id === p.id;
-        if (!selected && (year < p.born || year > p.died)) continue;
+        if (!selected && (year < p.born || year > (p.died ?? Infinity))) continue;
         if (!p.stops.length) continue;
         const pos = personPosition(p, year);
         const key = `person:${p.id}`;

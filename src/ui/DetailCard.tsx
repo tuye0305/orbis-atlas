@@ -189,7 +189,7 @@ export function DetailCard() {
         <>
           <Img img={p.image} alt={t(p.name, lang)} />
           <div className="card-kicker">
-            {t(p.role, lang)} · {formatYear(p.born, lang)} – {formatYear(p.died, lang)}
+            {t(p.role, lang)} · {formatYear(p.born, lang)} – {p.died == null ? s('living', lang) : formatYear(p.died, lang)}
           </div>
           <h2>{t(p.name, lang)}</h2>
           <div className="alt-name" lang={lang === 'zh' ? 'en' : 'zh'}>{lang === 'zh' ? p.name.en : p.name.zh}</div>
