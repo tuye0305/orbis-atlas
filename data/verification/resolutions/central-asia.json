@@ -1,0 +1,74 @@
+{
+  "ev-genghis-khan-proclaimed:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is that of the Mongol Empire item (Q12557), not the event. The Secret History (§202) places the 1206 assembly at the source of the Onon; ours approximates that. QID removed from the event since it pointed at the polity.",
+    "checked": [
+      "The Secret History of the Mongols, tr. I. de Rachewiltz (2004), §202",
+      "https://www.britannica.com/biography/Genghis-Khan"
+    ]
+  },
+  "ev-mongol-invasion-of-khwarazm:coord": {
+    "verdict": "keep-ours",
+    "reason": "Q431177 has no coordinate of its own; the diff uses a generic ‘Central Asia’ location point in the Aral steppe. Samarkand, Khwarazm’s capital taken in 1220, is a better anchor; the full route is given separately.",
+    "checked": [
+      "Juvaini, History of the World-Conqueror, tr. J. A. Boyle (1958)",
+      "https://www.britannica.com/place/Khwarezm"
+    ]
+  },
+  "ev-toluid-civil-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is a generic Central Asia location. The war was fought over Karakorum, Ariq Böke’s capital, which Kublai starved by cutting grain shipments; Karakorum is the appropriate anchor.",
+    "checked": [
+      "Morris Rossabi, Khubilai Khan: His Life and Times (1988), ch. 3",
+      "Cambridge History of China vol. 6 (1994)"
+    ]
+  },
+  "ev-bibi-khanym-mosque:year": {
+    "verdict": "keep-ours",
+    "reason": "Timur’s historian Sharaf al-Din Yazdi dates the foundation to May 1399, after the Indian campaign; Clavijo saw it nearly finished in 1404. Our year 1399 is the start; endYear 1404 is the completion that Wikidata records.",
+    "checked": [
+      "Ruy González de Clavijo, Embassy to Tamerlane, tr. G. Le Strange (1928)",
+      "Lisa Golombek & Donald Wilber, The Timurid Architecture of Iran and Turan (1988)"
+    ]
+  },
+  "ev-central-asian-revolt-1916:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is a generic Central Asia location. The revolt began with the Khujand riot of 4 July 1916 (O.S.), which Khalid and the Chokobaeva–Drieu–Morrison volume treat as its start; Khujand is the right anchor.",
+    "checked": [
+      "Adeeb Khalid, Central Asia: A New History (2021)",
+      "A. Chokobaeva, C. Drieu & A. Morrison (eds.), The Central Asian Revolt of 1916 (2019)"
+    ]
+  },
+  "ev-basmachi-movement:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is Tashkent, the Soviet seat the Basmachi fought against. The movement’s heartland was the Fergana valley (and later eastern Bukhara), where ours is plotted.",
+    "checked": [
+      "Adeeb Khalid, Central Asia: A New History (2021)",
+      "https://www.britannica.com/event/Basmachi-Revolt"
+    ]
+  },
+  "ev-tajikistani-civil-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata places the war in the Rasht/Gharm valley, one opposition stronghold. The conflict began with the 1992 Dushanbe demonstrations and centred on control of the capital, with fighting also in Kulob and Qurghonteppa; Dushanbe is a reasonable anchor.",
+    "checked": [
+      "https://www.britannica.com/place/Tajikistan/History",
+      "Shirin Akiner, Tajikistan: Disintegration or Reconciliation? (2001)"
+    ]
+  },
+  "polity-hephthalite:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 408 counts the earliest Hunnic arrivals in Bactria. The Hephthalite empire itself emerges in the mid-5th century (Iranica: Hephthalites); c. 450 is the conventional start. Record is confidence low with note.",
+    "checked": [
+      "Encyclopaedia Iranica: Hephthalites (A. D. H. Bivar)",
+      "Cambridge History of Early Inner Asia (1990), ch. 6"
+    ]
+  },
+  "polity-hephthalite:to": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 670 includes post-imperial Hephthalite principalities. The empire was destroyed by the Turk–Sasanian alliance c. 557–563; c. 560 is the standard date (Iranica, Gol-Zarriun).",
+    "checked": [
+      "Encyclopaedia Iranica: Hephthalites (A. D. H. Bivar)",
+      "Cambridge History of Early Inner Asia (1990), ch. 6"
+    ]
+  }
+}

@@ -511,7 +511,7 @@
     },
     "stops": [
       {
-        "year": 1292,
+        "year": 1291,
         "lat": 25.71,
         "lon": 81.35,
         "label": {
@@ -988,7 +988,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Birth date disputed: 19 February 1630 is officially accepted by the Maharashtra government and most historians; Wikidata’s preferred value is 1627."
+    "note": "Birth date disputed: 19 February 1630 is the date officially adopted by the Maharashtra government and followed by many historians; Jadunath Sarkar and Wikidata prefer 1627, and Britannica gives both."
   },
   {
     "id": "person-tipu-sultan",

@@ -885,7 +885,6 @@
   },
   {
     "id": "ev-founding-of-sui",
-    "qid": "Q7405",
     "type": "founding",
     "year": 581,
     "name": {
@@ -926,7 +925,8 @@
         "url": "https://zh.wikisource.org/wiki/隋書/卷28"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "No Wikidata item exists for this event itself; Q7405 denotes the state and is linked from polity-sui, so no qid is set here."
   },
   {
     "id": "ev-sui-grand-canal",
@@ -1070,7 +1070,6 @@
   },
   {
     "id": "ev-founding-of-tang",
-    "qid": "Q9683",
     "type": "founding",
     "year": 618,
     "name": {
@@ -1115,7 +1114,9 @@
         "url": "https://zh.wikisource.org/wiki/大唐創業起居注/卷三"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "image": "Tang Dynasty circa 700 CE.png",
+    "note": "No Wikidata item exists for this event itself; Q9683 denotes the state and is linked from polity-tang, so no qid is set here."
   },
   {
     "id": "ev-xuanwu-gate-incident",
@@ -1172,8 +1173,8 @@
       "zh": "李靖阴山破东突厥"
     },
     "summary": {
-      "en": "Li Jing's surprise attack in the Yin Mountains destroyed the Eastern Turkic Khaganate and captured Illig Qaghan. The steppe chiefs then hailed Taizong as \"Heavenly Khagan\".",
-      "zh": "李靖率军夜袭阴山，大破东突厥，擒颉利可汗。西北诸部尊唐太宗为“天可汗”。"
+      "en": "Li Jing's surprise attack in the Yin Mountains destroyed the Eastern Turkic Khaganate; the fleeing Illig Qaghan was captured soon after. The steppe chiefs then hailed Taizong as \"Heavenly Khagan\".",
+      "zh": "李靖率军夜袭阴山，大破东突厥，颉利可汗旋即被唐军擒获。西北诸部尊唐太宗为“天可汗”。"
     },
     "lat": 41.201,
     "lon": 110.501,
@@ -1206,7 +1207,6 @@
   },
   {
     "id": "ev-princess-wencheng-to-tibet",
-    "qid": "Q256555",
     "type": "political",
     "year": 641,
     "name": {
@@ -1245,11 +1245,11 @@
       }
     ],
     "confidence": "high",
-    "note": "The Wikidata item is the princess herself; no separate item exists for the marriage."
+    "note": "No Wikidata item exists for the marriage; the princess herself is Q256555, so no qid is set.",
+    "image": "Wencheng.jpg"
   },
   {
     "id": "ev-wu-zetian-proclaims-zhou",
-    "qid": "Q835435",
     "type": "political",
     "year": 690,
     "name": {
@@ -1285,7 +1285,8 @@
         "title": "资治通鉴 卷204 唐纪二十 天授元年"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "No Wikidata item exists for this event itself; Q835435 denotes the state and is linked from polity-wu-zhou, so no qid is set here."
   },
   {
     "id": "ev-an-lushan-rebellion",
@@ -1647,7 +1648,7 @@
     "qid": "Q8012976",
     "type": "founding",
     "year": 960,
-    "date": "0960-02-08",
+    "date": "0960-02-03",
     "name": {
       "en": "Chenqiao Mutiny and founding of Song",
       "zh": "陈桥兵变"
@@ -1758,7 +1759,6 @@
   },
   {
     "id": "ev-founding-of-western-xia",
-    "qid": "Q7427",
     "type": "founding",
     "year": 1038,
     "name": {
@@ -1787,7 +1787,8 @@
         "url": "https://zh.wikisource.org/wiki/宋史/卷485"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "No Wikidata item exists for this event itself; Q7427 denotes the state and is linked from polity-western-xia, so no qid is set here."
   },
   {
     "id": "ev-wang-anshi-new-policies",
@@ -2122,7 +2123,6 @@
   },
   {
     "id": "ev-yuan-dynasty-proclaimed",
-    "qid": "Q7313",
     "type": "founding",
     "year": 1271,
     "name": {
@@ -2155,7 +2155,9 @@
         "url": "https://www.britannica.com/topic/Yuan-dynasty"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "image": "Yuan Provinces.png",
+    "note": "No Wikidata item exists for this event itself; Q7313 denotes the state and is linked from polity-yuan, so no qid is set here."
   },
   {
     "id": "ev-battle-of-yamen",
@@ -2271,7 +2273,6 @@
   },
   {
     "id": "ev-founding-of-ming",
-    "qid": "Q9903",
     "type": "founding",
     "year": 1368,
     "name": {
@@ -2279,7 +2280,7 @@
       "zh": "朱元璋建明"
     },
     "summary": {
-      "en": "Zhu Yuanzhang proclaimed the Ming dynasty at Yingtian (Nanjing); that summer his generals Xu Da and Chang Yuchun took Dadu, and the last Yuan emperor fled to the steppe.",
+      "en": "Zhu Yuanzhang proclaimed the Ming dynasty at Yingtian (Nanjing); in September his generals Xu Da and Chang Yuchun took Dadu, and the last Yuan emperor fled to the steppe.",
       "zh": "朱元璋于应天府称帝建明，同年徐达、常遇春北伐攻克大都，元顺帝北走。"
     },
     "lat": 32.061,
@@ -2308,7 +2309,9 @@
         "url": "https://www.britannica.com/topic/Ming-dynasty-Chinese-history"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "image": "Ming Empire cca 1580 (en).svg",
+    "note": "No Wikidata item exists for this event itself; Q9903 denotes the state and is linked from polity-ming, so no qid is set here."
   },
   {
     "id": "ev-jingnan-campaign",
@@ -2501,7 +2504,7 @@
   },
   {
     "id": "ev-ming-capital-moves-to-beijing",
-    "qid": "Q80290",
+    "qid": "Q11087884",
     "type": "political",
     "year": 1421,
     "name": {
@@ -2535,7 +2538,8 @@
       }
     ],
     "confidence": "high",
-    "note": "The Wikidata item is the Forbidden City (completed 1420)."
+    "note": "Q11087884 (zhwiki 永乐迁都) is the relocation itself; the image shows the Forbidden City, completed in 1420.",
+    "image": "Hall of Supreme Harmony (20241127120000).jpg"
   },
   {
     "id": "ev-tumu-crisis",

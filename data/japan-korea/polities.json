@@ -496,8 +496,8 @@
     "capitalLat": 37.58,
     "capitalLon": 126.9775,
     "summary": {
-      "en": "Korea's longest-ruling dynasty, founded by Yi Seong-gye. A Neo-Confucian state with a literati bureaucracy, it created Hangul, survived the Japanese and Manchu invasions, and was opened by unequal treaties before becoming the Korean Empire in 1897.",
-      "zh": "由李成桂建立，是朝鲜半岛历时最长的王朝。以性理学立国、实行两班文官统治，创制了训民正音，历经壬辰倭乱与丙子胡乱，近代被迫签订不平等条约，1897年改称大韩帝国。"
+      "en": "Korea's last dynasty, founded by Yi Seong-gye and ruling for five centuries. A Neo-Confucian state with a literati bureaucracy, it created Hangul, survived the Japanese and Manchu invasions, and was opened by unequal treaties before becoming the Korean Empire in 1897.",
+      "zh": "由李成桂建立，是朝鲜半岛最后一个王朝，延续五百余年。以性理学立国、实行两班文官统治，创制了训民正音，历经壬辰倭乱与丙子胡乱，近代被迫签订不平等条约，1897年改称大韩帝国。"
     },
     "rulers": [
       {
@@ -805,7 +805,7 @@
         },
         "from": 707,
         "to": 715,
-        "qid": "Q233133"
+        "qid": "Q233224"
       },
       {
         "name": {

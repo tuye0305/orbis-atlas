@@ -36,6 +36,19 @@
       },
       {
         "from": 819,
+        "to": 892,
+        "name": {
+          "en": "Samarqand",
+          "zh": "撒马尔罕"
+        },
+        "polity": {
+          "en": "Samanid Empire",
+          "zh": "萨曼王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 892,
         "to": 999,
         "name": {
           "en": "Samarqand",
@@ -48,6 +61,18 @@
       },
       {
         "from": 999,
+        "to": 1040,
+        "name": {
+          "en": "Samarqand",
+          "zh": "撒马尔罕"
+        },
+        "polity": {
+          "en": "Karakhanid Khanate",
+          "zh": "喀喇汗国"
+        }
+      },
+      {
+        "from": 1040,
         "to": 1212,
         "name": {
           "en": "Samarqand",
@@ -218,6 +243,18 @@
       },
       {
         "from": 819,
+        "to": 892,
+        "name": {
+          "en": "Bukhara",
+          "zh": "布哈拉"
+        },
+        "polity": {
+          "en": "Samanid Empire",
+          "zh": "萨曼王朝"
+        }
+      },
+      {
+        "from": 892,
         "to": 999,
         "name": {
           "en": "Bukhara",
@@ -912,15 +949,28 @@
       },
       {
         "from": 1992,
+        "to": 1997,
+        "name": {
+          "en": "Akmola",
+          "zh": "阿克莫拉"
+        },
+        "polity": {
+          "en": "Kazakhstan",
+          "zh": "哈萨克斯坦"
+        }
+      },
+      {
+        "from": 1997,
         "to": 1998,
         "name": {
           "en": "Akmola",
           "zh": "阿克莫拉"
         },
         "polity": {
-          "en": "Kazakhstan (capital from December 1997)",
-          "zh": "哈萨克斯坦（1997年12月起为首都）"
-        }
+          "en": "Kazakhstan (capital from 10 December 1997)",
+          "zh": "哈萨克斯坦（1997年12月10日起为首都）"
+        },
+        "capital": true
       },
       {
         "from": 1998,

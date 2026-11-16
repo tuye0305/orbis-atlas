@@ -36,7 +36,6 @@
   },
   {
     "id": "ev-gokturk-khaganate-founded",
-    "qid": "Q15146034",
     "type": "founding",
     "year": 552,
     "name": {
@@ -66,14 +65,10 @@
       },
       {
         "title": "Denis Sinor (ed.), The Cambridge History of Early Inner Asia (1990)"
-      },
-      {
-        "title": "Wikidata Q15146034",
-        "url": "https://www.wikidata.org/wiki/Q15146034"
       }
     ],
     "confidence": "medium",
-    "note": "No separate Wikidata item exists for the event; the QID is the khaganate (inception 551 on Wikidata; Chinese sources date the victory over the Rouran to 552). Coordinates approximate the Ötüken uplands."
+    "note": "No separate Wikidata item exists for the event, so no QID is given (Q15146034 is the khaganate itself, inception 551 on Wikidata). Chinese sources (Zhoushu) date the victory over the Rouran to 552. Coordinates approximate the Ötüken uplands."
   },
   {
     "id": "ev-battle-of-gol-zarriun",
@@ -367,7 +362,6 @@
   },
   {
     "id": "ev-genghis-khan-proclaimed",
-    "qid": "Q12557",
     "type": "political",
     "year": 1206,
     "name": {
@@ -398,14 +392,10 @@
       {
         "title": "Encyclopaedia Britannica: Genghis Khan",
         "url": "https://www.britannica.com/biography/Genghis-Khan"
-      },
-      {
-        "title": "Wikidata Q12557",
-        "url": "https://www.wikidata.org/wiki/Q12557"
       }
     ],
     "confidence": "medium",
-    "note": "No separate Wikidata item exists for the 1206 kurultai; the QID is the Mongol Empire (inception 1206). The location near the Onon source is approximate."
+    "note": "No separate Wikidata item exists for the 1206 kurultai, so no QID is given (Q12557 is the Mongol Empire). The location near the Onon source is approximate."
   },
   {
     "id": "ev-otrar-catastrophe",
@@ -1039,7 +1029,6 @@
   },
   {
     "id": "ev-kazakh-khanate-founded",
-    "qid": "Q1433867",
     "type": "founding",
     "year": 1465,
     "name": {
@@ -1063,14 +1052,10 @@
       },
       {
         "title": "Martha Brill Olcott, The Kazakhs, 2nd ed. (1995)"
-      },
-      {
-        "title": "Wikidata Q1433867",
-        "url": "https://www.wikidata.org/wiki/Q1433867"
       }
     ],
     "confidence": "medium",
-    "note": "No separate Wikidata item exists for the event; the QID is the khanate (inception 1465). Mirza Haidar gives AH 870 (1465–66). Coordinates approximate the Chu valley."
+    "note": "No separate Wikidata item exists for the event, so no QID is given (Q1433867 is the khanate, inception 1465). Mirza Haidar gives AH 870 (1465–66); other dates (1456, 1459) are proposed. Coordinates approximate the Chu valley."
   },
   {
     "id": "ev-battle-of-ghazdewan",
@@ -1271,7 +1256,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "The revolt began at Khujand on 4 July 1916; Wikidata’s point in time (1917) reflects its aftermath. Death tolls are estimates."
+    "note": "The revolt began at Khujand on 4 July 1916 (Old Style; 17 July New Style); Wikidata’s point in time (1917) reflects its aftermath. Death tolls are estimates."
   },
   {
     "id": "ev-basmachi-movement",

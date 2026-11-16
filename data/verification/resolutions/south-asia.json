@@ -1,0 +1,91 @@
+{
+  "ev-gupta-era-begins:year": {
+    "verdict": "keep-ours",
+    "reason": "The Gupta era epoch is reckoned as 319–320 CE (Fleet; V. A. Smith; Upinder Singh), tied to Chandragupta I’s accession; Bühler’s 318–19 is a minority reckoning. Wikidata’s 318 is the start of a broad ‘Gupta era’ period item, not the epoch.",
+    "checked": [
+      "Upinder Singh, A History of Ancient and Early Medieval India (2008), ch. 9",
+      "J. F. Fleet, Corpus Inscriptionum Indicarum III (1888), introduction",
+      "https://www.britannica.com/topic/Gupta-dynasty"
+    ]
+  },
+  "ev-xuanzang-in-india:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 646 is the completion date of the Records (the QID’s item), not the journey. Xuanzang left Chang’an in 629, reached the north-western Indian lands c. 630, began his return in 643 and was back in 645 (Britannica).",
+    "checked": [
+      "https://www.britannica.com/biography/Xuanzang",
+      "Huili, Life of Hiuen-Tsiang, tr. S. Beal (1911)"
+    ]
+  },
+  "ev-chola-expedition-srivijaya:coord": {
+    "verdict": "keep-ours",
+    "reason": "The Tanjore inscription says the Chola fleet seized Sangrama-vijayottungavarman, ‘king of Kadaram’, and took Kadaram (Kedah); plotting at Kedah is defensible. Wikidata’s Palembang point reflects Srivijaya’s older capital, which also appears in our route.",
+    "checked": [
+      "K. A. Nilakanta Sastri, The Colas (1955), ch. on Rajendra I",
+      "Hermann Kulke et al. (eds.), Nagapattinam to Suvarnadwipa (2009)"
+    ]
+  },
+  "ev-anglo-mysore-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a rounded generic point (13°N 77°E). Srirangapatna, Mysore’s capital under Hyder Ali and Tipu and the site of the decisive 1792 and 1799 sieges, is a more meaningful anchor 72 km away.",
+    "checked": [
+      "https://www.britannica.com/event/Mysore-Wars",
+      "Kate Brittlebank, Tipu Sultan’s Search for Legitimacy (1997)"
+    ]
+  },
+  "ev-second-anglo-sikh-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 31°N 74°E is a rounded Punjab point. The record is plotted at Gujrat, where the decisive battle of 21 February 1849 ended the war; Britannica confirms the Chillianwala–Gujrat sequence.",
+    "checked": [
+      "https://www.britannica.com/event/Sikh-Wars"
+    ]
+  },
+  "ev-independence-and-partition-1947:coord": {
+    "verdict": "keep-ours",
+    "reason": "Both points are conventional: Wikidata’s Partition item sits at Calcutta. Independence was proclaimed in Delhi on 15 August 1947 (Nehru’s address, flag at the Red Fort), so Delhi is an equally or better-justified anchor.",
+    "checked": [
+      "https://www.britannica.com/event/Partition-of-India",
+      "Yasmin Khan, The Great Partition (2007)"
+    ]
+  },
+  "person-kanishka:born": {
+    "verdict": "keep-ours",
+    "reason": "Kanishka’s birth year is unrecorded; 100 is a labelled placeholder (confidence low, note). Wikidata’s 78 comes from the obsolete equation of his era with the Shaka era; Falk (2001) and Iranica place year 1 in 127/128 CE.",
+    "checked": [
+      "Harry Falk, Silk Road Art and Archaeology 7 (2001)",
+      "Encyclopaedia Iranica: Kushan dynasty i. Dynastic history"
+    ]
+  },
+  "person-kanishka:died": {
+    "verdict": "keep-ours",
+    "reason": "Under the now-standard Falk chronology (era year 1 = 127) Kanishka’s last regnal year 23 falls c. 150; 144 follows no current reckoning. Death year is approximate and flagged in the note.",
+    "checked": [
+      "Harry Falk, Silk Road Art and Archaeology 7 (2001)",
+      "Encyclopaedia Iranica: Kushan dynasty i. Dynastic history"
+    ]
+  },
+  "person-shivaji:born": {
+    "verdict": "disputed",
+    "reason": "Britannica gives ‘February 19, 1630, or April 1627’. 1630 rests on chronicle and horoscope evidence accepted by the Maharashtra government (official date); Jadunath Sarkar and Wikidata prefer 1627. Record kept at 1630, confidence medium with note.",
+    "checked": [
+      "https://www.britannica.com/biography/Shivaji",
+      "Stewart Gordon, The Marathas 1600–1818 (1993)",
+      "Jadunath Sarkar, Shivaji and His Times (1919)"
+    ]
+  },
+  "polity-sikh-empire:from": {
+    "verdict": "keep-ours",
+    "reason": "Britannica: Ranjit Singh seized Lahore in July 1799 and proclaimed himself maharaja in 1801. Wikidata’s 1733 refers to the earlier misl confederacy (Dal Khalsa), not the unified state.",
+    "checked": [
+      "https://www.britannica.com/biography/Ranjit-Singh-Sikh-maharaja",
+      "J. S. Grewal, The Sikhs of the Punjab (New Cambridge History of India II.3, 1990)"
+    ]
+  },
+  "polity-sri-lanka:from": {
+    "verdict": "keep-ours",
+    "reason": "The record deliberately covers the independent state since 4 February 1948 (Dominion of Ceylon, Republic of Sri Lanka from 1972), as its name and note state. Wikidata’s Q854 inception (1972) marks only the republican constitution.",
+    "checked": [
+      "https://www.britannica.com/place/Sri-Lanka",
+      "K. M. de Silva, A History of Sri Lanka (1981)"
+    ]
+  }
+}

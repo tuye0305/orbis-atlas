@@ -1030,8 +1030,8 @@
       "zh": "第二次帕尼帕特战役"
     },
     "summary": {
-      "en": "Akbar’s regent Bairam Khan defeated Hemu, the Sur dynasty general who had just seized Delhi; Hemu was struck by an arrow and captured, restoring Mughal rule under the 13-year-old Akbar.",
-      "zh": "阿克巴的摄政拜拉姆汗击败刚刚夺取德里的苏尔王朝将领希穆；希穆中箭被俘，莫卧儿王朝在13岁的阿克巴治下得以复兴。"
+      "en": "Akbar’s regent Bairam Khan defeated Hemu, the Sur dynasty general who had just seized Delhi; Hemu was struck by an arrow and captured, restoring Mughal rule under the 14-year-old Akbar.",
+      "zh": "阿克巴的摄政拜拉姆汗击败刚刚夺取德里的苏尔王朝将领希穆；希穆中箭被俘，莫卧儿王朝在14岁的阿克巴治下得以复兴。"
     },
     "lat": 29.39,
     "lon": 76.97,
@@ -1833,7 +1833,6 @@
   },
   {
     "id": "ev-ceylon-independence",
-    "qid": "Q2670092",
     "type": "political",
     "year": 1948,
     "date": "1948-02-04",
@@ -1859,13 +1858,10 @@
       },
       {
         "title": "Encyclopaedia Britannica: Sri Lanka"
-      },
-      {
-        "title": "Wikidata Q2670092",
-        "url": "https://www.wikidata.org/wiki/Q2670092"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "No Wikidata item exists for the independence event itself; Q2670092 (Dominion of Ceylon) is the polity, so no QID is given here."
   },
   {
     "id": "ev-constitution-of-india",
@@ -2020,7 +2016,7 @@
     "qid": "Q1534989",
     "type": "political",
     "year": 2008,
-    "date": "2008-04-10",
+    "date": "2008-05-28",
     "name": {
       "en": "Nepal’s Constituent Assembly ends the monarchy",
       "zh": "尼泊尔制宪会议废除君主制"
@@ -2046,6 +2042,6 @@
       }
     ],
     "confidence": "high",
-    "note": "The QID is the April 2008 election; the monarchy was abolished on 28 May 2008."
+    "note": "The date is the Constituent Assembly’s first sitting, which abolished the monarchy (28 May 2008); the QID is the Assembly election of 10 April 2008, as no separate Wikidata item exists for the abolition."
   }
 ]

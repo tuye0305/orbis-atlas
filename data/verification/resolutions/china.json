@@ -1,0 +1,218 @@
+{
+  "ev-yellow-turban-rebellion:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ours is Julu (Hebei), where Zhang Jue rose in 184 (Hou Han shu 71). Wikidata's point near Zhengzhou is a generic placement, not the outbreak site.",
+    "checked": [
+      "范晔《后汉书》卷71 皇甫嵩传",
+      "https://en.wikipedia.org/wiki/Yellow_Turban_Rebellion"
+    ]
+  },
+  "ev-battle-of-guandu:coord": {
+    "verdict": "keep-ours",
+    "reason": "Guandu lies NE of Zhongmu county, Zhengzhou (~34.75N 114.0E). Wikidata's point (114.62E) is east of Kaifeng, ~60 km from the battlefield.",
+    "checked": [
+      "陈寿《三国志》卷1 武帝纪 建安五年",
+      "https://zh.wikipedia.org/wiki/官渡之战"
+    ]
+  },
+  "ev-zhuge-liang-northern-expeditions:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Mount Qi (Li county, Gansu), the first expedition's target; the full route is in route[]. Wikidata's 38N 102E is a rounded placeholder in the Hexi corridor, far from any campaign.",
+    "checked": [
+      "陈寿《三国志》卷35 诸葛亮传",
+      "https://en.wikipedia.org/wiki/Zhuge_Liang%27s_Northern_Expeditions"
+    ]
+  },
+  "ev-battle-of-fei-river:coord": {
+    "verdict": "keep-ours",
+    "reason": "The battle was fought on the Fei River at Shouyang (modern Shou county, 32.58N 116.78E). Wikidata's point is ~95 km south near Lu'an/Hefei.",
+    "checked": [
+      "《资治通鉴》卷105 太元八年",
+      "Britannica: Battle of the Fei River (snippet via search)"
+    ]
+  },
+  "ev-tang-conquest-of-eastern-turks:coord": {
+    "verdict": "keep-ours",
+    "reason": "Both points are in the Yin Mountains and the camp site at Tieshan is not precisely known; ours (north of Baotou) is as defensible as Wikidata's rounded 41N 112E.",
+    "checked": [
+      "刘昫等《旧唐书》卷67 李靖传",
+      "https://en.wikipedia.org/wiki/Tang_campaign_against_the_Eastern_Turks"
+    ]
+  },
+  "ev-an-lushan-rebellion:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Fanyang (Beijing), where An Lushan rose on 16 Dec 755. Wikidata's coordinate is the centroid of China in Gansu, not a historical site.",
+    "checked": [
+      "资治通鉴 卷217 天宝十四载",
+      "https://en.wikipedia.org/wiki/An_Lushan_rebellion"
+    ]
+  },
+  "ev-huang-chao-rebellion:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Yuanqu near Heze (Shandong), Huang Chao's home and where the rising began. Wikidata uses Chang'an, captured only in 881; ours fits the start year.",
+    "checked": [
+      "欧阳修等《新唐书》卷225下 黄巢传",
+      "https://en.wikipedia.org/wiki/Huang_Chao"
+    ]
+  },
+  "ev-treaty-of-shaoxing:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point is Shaoxing city, a misreading of the reign-era name. The treaty had no single signing site; our marker sits on the Huai River boundary it fixed.",
+    "checked": [
+      "脱脱等《宋史》卷29 高宗本纪 绍兴十一年",
+      "https://en.wikipedia.org/wiki/Treaty_of_Shaoxing"
+    ]
+  },
+  "ev-red-turban-rebellion:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ours is Yingzhou (Fuyang, Anhui), where Liu Futong's rising began in 1351. Wikidata's coordinate in central Tibet is plainly wrong.",
+    "checked": [
+      "宋濂等《元史》卷42 顺帝本纪 至正十一年",
+      "https://en.wikipedia.org/wiki/Red_Turban_Rebellions"
+    ]
+  },
+  "ev-founding-of-ming:coord": {
+    "verdict": "keep-ours",
+    "reason": "Zhu Yuanzhang was enthroned at Yingtian (Nanjing) in 1368. Wikidata's point is the Ming state centroid; the state QID has now been removed from this event record.",
+    "checked": [
+      "张廷玉等《明史》卷2 太祖本纪 洪武元年",
+      "https://en.wikipedia.org/wiki/Ming_dynasty"
+    ]
+  },
+  "ev-jingnan-campaign:coord": {
+    "verdict": "keep-ours",
+    "reason": "Zhu Di launched the campaign from Beiping (Beijing) in 1399. Wikidata's point is Jinan, one siege in the war; ours is the origin and the victor's base.",
+    "checked": [
+      "张廷玉等《明史》卷5 成祖本纪",
+      "https://en.wikipedia.org/wiki/Jingnan_campaign"
+    ]
+  },
+  "ev-revolt-of-three-feudatories:year": {
+    "verdict": "keep-ours",
+    "reason": "The revolt broke out in late 1673 (Kangxi 12) and ended in 1681; Wikidata's 1681 is a point-in-time value for the end, while its own start is 1673.",
+    "checked": [
+      "赵尔巽等《清史稿》卷474 吴三桂传",
+      "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories"
+    ]
+  },
+  "ev-revolt-of-three-feudatories:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Kunming, Wu Sangui's seat where the revolt began and ended (1681). Wikidata's coordinate is China's centroid in Gansu.",
+    "checked": [
+      "赵尔巽等《清史稿》卷474 吴三桂传",
+      "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories"
+    ]
+  },
+  "ev-first-opium-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Humen at the Pearl River mouth, where the crisis began and early fighting took place. Wikidata's point is the generic China centroid.",
+    "checked": [
+      "Britannica: Opium Wars (snippet via search)",
+      "https://en.wikipedia.org/wiki/First_Opium_War"
+    ]
+  },
+  "ev-second-opium-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "The record covers the 1860 burning of the Yuanmingyuan; ours is the Old Summer Palace (40.008N 116.30E). Wikidata uses a rounded China centroid.",
+    "checked": [
+      "赵尔巽等《清史稿》卷20 文宗本纪 咸丰十年",
+      "https://en.wikipedia.org/wiki/Old_Summer_Palace"
+    ]
+  },
+  "ev-first-sino-japanese-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ours marks the Battle of the Yalu (Yellow Sea) off Dalu Island, the war's decisive naval action. Wikidata uses Seoul; both are defensible, so the curated marker stands.",
+    "checked": [
+      "Britannica: First Sino-Japanese War (snippet via search)",
+      "https://en.wikipedia.org/wiki/Battle_of_the_Yalu_River_(1894)"
+    ]
+  },
+  "ev-boxer-rebellion:coord": {
+    "verdict": "keep-ours",
+    "reason": "The siege of the legations and the allied capture took place in Beijing. Wikidata's point in Inner Mongolia has no link to the events.",
+    "checked": [
+      "Britannica: Boxer Rebellion (snippet via search)",
+      "https://en.wikipedia.org/wiki/Boxer_Rebellion"
+    ]
+  },
+  "ev-xinhai-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "The record centres on Sun Yat-sen's inauguration as provisional president in Nanjing, 1 Jan 1912. Wikidata uses a generic China centroid.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/1911_Revolution",
+      "《清帝逊位诏书》（1912年2月12日）"
+    ]
+  },
+  "ev-northern-expedition:year": {
+    "verdict": "keep-ours",
+    "reason": "The expedition was launched from Guangzhou in July 1926 and ended in 1928 (Britannica: 1926–28). Wikidata's 1928 is the point-in-time of its end; its own start is 1926.",
+    "checked": [
+      "Britannica: Northern Expedition (snippet via search)",
+      "https://en.wikipedia.org/wiki/Northern_Expedition"
+    ]
+  },
+  "ev-northern-expedition:coord": {
+    "verdict": "keep-ours",
+    "reason": "The expedition set out from Guangzhou. Wikidata's coordinate is China's centroid in Gansu.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Northern_Expedition"
+    ]
+  },
+  "ev-long-march:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Zunyi, site of the January 1935 conference the summary highlights; the march had no single location. Wikidata's point is the China centroid.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Long_March",
+      "中共中央党史和文献研究院《中国共产党一百年大事记》"
+    ]
+  },
+  "ev-retrocession-of-taiwan:coord": {
+    "verdict": "keep-ours",
+    "reason": "The surrender ceremony of 25 Oct 1945 was held at Taipei Public Hall (Zhongshan Hall, 25.04N 121.51E). Wikidata uses the island centroid.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Retrocession_Day",
+      "https://en.wikipedia.org/wiki/Zhongshan_Hall"
+    ]
+  },
+  "ev-huaihai-campaign:coord": {
+    "verdict": "keep-ours",
+    "reason": "The campaign centred on Xuzhou (34.26N 117.20E). Wikidata's point in central Shandong is outside the main theatre.",
+    "checked": [
+      "Britannica: Huai-Hai Campaign (snippet via search)",
+      "https://en.wikipedia.org/wiki/Huaihai_campaign"
+    ]
+  },
+  "ev-first-chinese-nuclear-test:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ground zero of the 596 tower shot is given as 40°48′45″N 89°47′24″E, about 9 km from ours. Wikidata's point is near the Malan base, not the test ground.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Project_596",
+      "https://www.nti.org (Lop Nur test site profile)"
+    ]
+  },
+  "person-wang-xizhi:born": {
+    "verdict": "disputed",
+    "reason": "Scholars split between 303–361 (Britannica c. 303–c. 361; Jin shu age 59 sui) and 321–379. Curated 303 kept; record already has confidence medium and a note explaining both chronologies.",
+    "checked": [
+      "https://www.britannica.com/biography/Wang-Xizhi (via search snippet)",
+      "房玄龄等《晋书》卷80 王羲之传",
+      "https://en.wikipedia.org/wiki/Wang_Xizhi"
+    ]
+  },
+  "polity-eastern-wu:from": {
+    "verdict": "keep-ours",
+    "reason": "Sun Quan became King of Wu in 222, which Britannica and most references use as Wu's start (222–280); 229 is his imperial proclamation. Record note corrected (it wrongly said Wikidata uses 222).",
+    "checked": [
+      "Britannica: Wu kingdom, 222–280 (via search)",
+      "陈寿《三国志》卷47 吴主传"
+    ]
+  },
+  "polity-liang:to": {
+    "verdict": "keep-ours",
+    "reason": "The Liang dynasty proper ended with Chen Baxian's usurpation in 557 (Britannica: 502–557). Wikidata's 587 counts the Western Liang rump state at Jiangling, a separate polity.",
+    "checked": [
+      "Britannica: Liang dynasty (via search)",
+      "姚思廉《梁书》本纪"
+    ]
+  }
+}

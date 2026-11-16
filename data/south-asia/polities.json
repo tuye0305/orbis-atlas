@@ -472,7 +472,8 @@
           "zh": "瞿波罗"
         },
         "from": 750,
-        "to": 770
+        "to": 770,
+        "qid": "Q3352284"
       },
       {
         "name": {
@@ -480,7 +481,8 @@
           "zh": "达摩波罗"
         },
         "from": 770,
-        "to": 810
+        "to": 810,
+        "qid": "Q3183804"
       },
       {
         "name": {
@@ -750,7 +752,8 @@
           "zh": "萨达湿婆·罗耶（摄政罗摩·罗阇）"
         },
         "from": 1542,
-        "to": 1570
+        "to": 1570,
+        "qid": "Q1452340"
       }
     ],
     "sources": [
@@ -947,8 +950,8 @@
     "capitalLat": 18.52,
     "capitalLon": 73.86,
     "summary": {
-      "en": "From Shivaji’s hill-fort kingdom the Marathas expanded under the Peshwas into a confederacy dominating much of India in the 18th century, until defeat at Panipat (1761) and the Anglo-Maratha wars ended their power in 1818.",
-      "zh": "马拉塔人从希瓦吉的山堡王国起家，在佩什瓦领导下扩张为18世纪称雄印度大部的联盟，1761年帕尼帕特之败及其后的英马战争使其势力于1818年终结。"
+      "en": "From Shivaji’s hill-fort kingdom the Marathas expanded under the Peshwas into a confederacy dominating much of India in the 18th century; checked at Panipat in 1761, they recovered, but defeat in the Anglo-Maratha wars ended their power in 1818.",
+      "zh": "马拉塔人从希瓦吉的山堡王国起家，在佩什瓦领导下扩张为18世纪称雄印度大部的联盟；1761年帕尼帕特之败使其受挫，此后虽有恢复，但英马战争的失败使其势力于1818年终结。"
     },
     "rulers": [
       {
@@ -1038,7 +1041,8 @@
           "zh": "罗阇·沃迪亚尔一世"
         },
         "from": 1578,
-        "to": 1617
+        "to": 1617,
+        "qid": "Q15912370"
       },
       {
         "name": {
@@ -1128,7 +1132,8 @@
           "zh": "谢尔·辛格"
         },
         "from": 1841,
-        "to": 1843
+        "to": 1843,
+        "qid": "Q7494639"
       },
       {
         "name": {
@@ -1491,7 +1496,8 @@
           "zh": "D·S·森那那亚克（总理）"
         },
         "from": 1948,
-        "to": 1952
+        "to": 1952,
+        "qid": "Q663001"
       },
       {
         "name": {
@@ -1499,7 +1505,8 @@
           "zh": "西丽玛沃·班达拉奈克（总理）"
         },
         "from": 1960,
-        "to": 1965
+        "to": 1965,
+        "qid": "Q194291"
       },
       {
         "name": {
@@ -1507,7 +1514,8 @@
           "zh": "J·R·贾亚瓦德纳（总统）"
         },
         "from": 1978,
-        "to": 1989
+        "to": 1989,
+        "qid": "Q469661"
       }
     ],
     "sources": [

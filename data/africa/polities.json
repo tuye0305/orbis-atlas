@@ -205,79 +205,6 @@
   },
   {
     "region": "africa",
-    "id": "polity-ayyubid-egypt",
-    "qid": "Q180114",
-    "name": {
-      "en": "Ayyubid Sultanate (Egypt)",
-      "zh": "阿尤布王朝（埃及）"
-    },
-    "from": 1171,
-    "to": 1250,
-    "capital": {
-      "en": "Cairo",
-      "zh": "开罗"
-    },
-    "capitalLat": 30.0299,
-    "capitalLon": 31.2611,
-    "summary": {
-      "en": "Founded by the Kurdish commander Saladin, who abolished the Fatimid caliphate and restored Sunni rule, the Ayyubids united Egypt and Syria, retook Jerusalem in 1187 and built the Cairo Citadel. Their reliance on Mamluk slave-soldiers ended with a Mamluk takeover in 1250.",
-      "zh": "库尔德将领萨拉丁废黜法蒂玛哈里发、恢复逊尼派统治，建立阿尤布王朝，统一埃及与叙利亚，1187年收复耶路撒冷并修建开罗城堡。王朝倚重马穆鲁克奴隶兵，1250年终为马穆鲁克所取代。"
-    },
-    "rulers": [
-      {
-        "name": {
-          "en": "Saladin (Salah al-Din)",
-          "zh": "萨拉丁"
-        },
-        "from": 1171,
-        "to": 1193,
-        "qid": "Q8581"
-      },
-      {
-        "name": {
-          "en": "al-ʿAdil I",
-          "zh": "阿迪勒一世"
-        },
-        "from": 1200,
-        "to": 1218,
-        "qid": "Q285133"
-      },
-      {
-        "name": {
-          "en": "al-Kamil",
-          "zh": "卡米勒"
-        },
-        "from": 1218,
-        "to": 1238,
-        "qid": "Q293464"
-      },
-      {
-        "name": {
-          "en": "al-Salih Ayyub",
-          "zh": "萨利赫·阿尤布"
-        },
-        "from": 1240,
-        "to": 1249,
-        "qid": "Q293559"
-      }
-    ],
-    "sources": [
-      {
-        "title": "Wikipedia: Ayyubid dynasty",
-        "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
-      },
-      {
-        "title": "R. Stephen Humphreys, From Saladin to the Mongols: The Ayyubids of Damascus, 1193–1260 (1977)"
-      },
-      {
-        "title": "Britannica: Ayyūbid dynasty"
-      }
-    ],
-    "confidence": "high",
-    "note": "Covers the Egyptian sultanate only; Wikidata’s end date (1341) includes Syrian branches."
-  },
-  {
-    "region": "africa",
     "id": "polity-mamluk-sultanate",
     "qid": "Q282428",
     "name": {
@@ -573,8 +500,8 @@
       "en": "Njimi (Kanem); Ngazargamu (Bornu, from c. 1470)",
       "zh": "恩吉米（加涅姆）；恩加扎尔加穆（博尔努，约1470年起）"
     },
-    "capitalLat": 13.0472,
-    "capitalLon": 12.2278,
+    "capitalLat": 13.0833,
+    "capitalLon": 12.3667,
     "summary": {
       "en": "One of Africa’s longest-lived states, ruled for about a millennium by the Sayfawa dynasty around Lake Chad. Its kings converted to Islam in the 11th century; driven west of the lake to Bornu in the 14th, it revived under Idris Alooma, whose musketeers dominated the central Sudan.",
       "zh": "加涅姆-博尔努是非洲存续最久的国家之一，赛法瓦王朝在乍得湖周围统治约一千年。其国王于11世纪皈依伊斯兰教；14世纪被迫迁至湖西的博尔努，在伊德里斯·阿卢马时期复兴，其火枪队称雄中苏丹。"
@@ -1557,8 +1484,8 @@
       "en": "Oyo-Ile (Old Oyo)",
       "zh": "奥约-伊莱（旧奥约）"
     },
-    "capitalLat": 8.95,
-    "capitalLon": 4.4,
+    "capitalLat": 8.9747,
+    "capitalLon": 4.3075,
     "summary": {
       "en": "A Yoruba empire of the savanna north of the forest, Oyo built its power on cavalry and the trade between the coast and the Niger, holding Dahomey tributary for much of the 18th century. Internal revolt and the Sokoto jihad caused the abandonment of Oyo-Ile around 1835; a successor state survived at New Oyo.",
       "zh": "奥约是森林以北稀树草原上的约鲁巴帝国，以骑兵和沿海与尼日尔河之间的贸易为基础，18世纪大部分时间使达荷美纳贡。内乱与索科托圣战导致约1835年放弃奥约-伊莱，继承国在新奥约延续。"
@@ -1590,7 +1517,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Origins are traditional; Wikidata ends the polity in 1905, after British conquest. Capital coordinates mark the Old Oyo ruins (approximate); Wikidata’s Oyo-Ile coordinates fall at modern Oyo town."
+    "note": "Origins are traditional; Wikidata ends the polity in 1905, after British conquest. Capital coordinates mark the Oyo-Ile (Old Oyo) ruins in Old Oyo National Park; Wikidata’s Oyo-Ile coordinates fall at modern Oyo town."
   },
   {
     "region": "africa",
@@ -1657,7 +1584,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Early dates traditional (Wikidata start 1170; its description and most accounts give c. 1180); reigns before the 19th century are approximate."
+    "note": "Disputed start: 1180 is the conventional date for Eweka I, first oba of the present dynasty (Egharevba’s chronology); Wikidata gives 1170, Britannica places Eweka in the 13th century, and the earlier Ogiso kingdom goes back to c. 900. Reigns before the 19th century are approximate."
   },
   {
     "region": "africa",
@@ -1767,7 +1694,8 @@
           "zh": "哈里发阿卜杜拉希"
         },
         "from": 1885,
-        "to": 1899
+        "to": 1899,
+        "qid": "Q307678"
       }
     ],
     "sources": [

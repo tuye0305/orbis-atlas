@@ -188,8 +188,8 @@
       "zh": "阿克苏姆国王"
     },
     "summary": {
-      "en": "Ezana ruled Aksum at its height and became the first sub-Saharan monarch known to adopt Christianity. Trilingual inscriptions in Geʿez, Sabaean and Greek record his campaigns, including one against the Noba along the Nile near Meroë.",
-      "zh": "埃扎纳在阿克苏姆鼎盛时期执政，是已知最早皈依基督教的撒哈拉以南君主。其吉兹语、萨巴语和希腊语三语铭文记载了他的征战，包括沿尼罗河在麦罗埃附近对诺巴人的远征。"
+      "en": "Ezana ruled Aksum at its height and became the first sub-Saharan monarch known to adopt Christianity. Trilingual inscriptions in Geʿez, Sabaean and Greek record his campaigns, including one against the Noba near Meroë. His birth and death years are unrecorded; the years shown are placeholders.",
+      "zh": "埃扎纳在阿克苏姆鼎盛时期执政，是已知最早皈依基督教的撒哈拉以南君主。其吉兹语、萨巴语和希腊语三语铭文记载了他的征战，包括在麦罗埃附近对诺巴人的远征。其生卒年不见记载，此处所示年份仅为占位估计。"
     },
     "stops": [
       {
@@ -245,7 +245,7 @@
       }
     ],
     "confidence": "low",
-    "note": "Birth and death years are unknown; the values bracket his reign (c. 330s–c. 360) and are approximations."
+    "note": "Placeholder life dates: no source records Ezana’s birth or death. born=315 merely assumes he was a child at his accession c. 330 (Rufinus); died=360 is shortly after the last firm reference to him (Constantius II’s letter, c. 356). Only the reign (c. 330–c. 360) is attested, and that only approximately."
   },
   {
     "region": "africa",
@@ -1066,7 +1066,7 @@
     "died": 1663,
     "name": {
       "en": "Njinga of Ndongo and Matamba",
-      "zh": "恩东加与马坦巴女王恩津加"
+      "zh": "恩东戈与马坦巴女王恩津加"
     },
     "role": {
       "en": "Queen of Ndongo and Matamba",
@@ -1709,8 +1709,8 @@
       "zh": "瓦苏卢帝国创建者"
     },
     "summary": {
-      "en": "A Maninka trader turned military leader, Samori built the Wassoulou state with a disciplined army equipped with repeating rifles, some made in his own workshops. He resisted French conquest for nearly two decades, relocating his whole state eastward, until his capture in 1898.",
-      "zh": "萨摩里原为马林凯商人，后成为军事领袖，建立瓦苏卢国家，其纪律严明的军队配备连发步枪，部分由自家作坊制造。他抵抗法国征服近二十年，甚至将整个国家东迁，直至1898年被俘。"
+      "en": "A Maninka trader turned military leader, Samori built the Wassoulou state with a disciplined army armed with imported breech-loading and repeating rifles, plus copies made by his own smiths. He resisted French conquest for nearly two decades, relocating his whole state eastward, until his capture in 1898.",
+      "zh": "萨摩里原为马林凯商人，后成为军事领袖，建立瓦苏卢国家，其纪律严明的军队装备进口的后膛枪和连发步枪，并有自家铁匠仿制的枪支。他抵抗法国征服近二十年，甚至将整个国家东迁，直至1898年被俘。"
     },
     "stops": [
       {
@@ -1804,8 +1804,8 @@
     "stops": [
       {
         "year": 1892,
-        "lat": 9.3333,
-        "lon": 42.1667,
+        "lat": 9.4833,
+        "lon": 42.2333,
         "label": {
           "en": "Born at Ejersa Goro near Harar",
           "zh": "生于哈勒尔附近的埃杰尔萨戈罗"
@@ -2179,8 +2179,8 @@
       },
       {
         "year": 1990,
-        "lat": -33.7342,
-        "lon": 18.9622,
+        "lat": -33.8436,
+        "lon": 19.0161,
         "label": {
           "en": "Walks free from Victor Verster Prison, Paarl",
           "zh": "从帕尔的维克托·弗斯特监狱获释"
@@ -2387,11 +2387,11 @@
       },
       {
         "year": 1958,
-        "lat": 33.5138,
-        "lon": 36.2765,
+        "lat": 30.0444,
+        "lon": 31.2358,
         "label": {
-          "en": "Proclaims the United Arab Republic with Syria",
-          "zh": "与叙利亚宣布成立阿拉伯联合共和国"
+          "en": "Proclaims the United Arab Republic with Syria in Cairo",
+          "zh": "在开罗宣布与叙利亚组成阿拉伯联合共和国"
         }
       },
       {

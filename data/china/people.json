@@ -262,8 +262,8 @@
       },
       {
         "year": 645,
-        "lat": 34.05,
-        "lon": 109.35,
+        "lat": 34.26,
+        "lon": 108.94,
         "label": {
           "en": "Chang'an: Triumphal Return to Chang'an & Translation Bureau",
           "zh": "长安·归至京师·开场译经撰记"
@@ -721,8 +721,8 @@
         "lat": 39.9,
         "lon": 116.4,
         "label": {
-          "en": "Jingshi: Investigating Bamboo & Passing the Metropolitan Exam",
-          "zh": "京师·格竹致疾·进士及第"
+          "en": "Jingshi: Investigating the Bamboo (jinshi degree followed in 1499)",
+          "zh": "京师·格竹致疾（1499年方中进士）"
         }
       },
       {
@@ -946,7 +946,7 @@
         }
       },
       {
-        "year": 196,
+        "year": 194,
         "lat": 34.26,
         "lon": 117.18,
         "label": {
@@ -1096,8 +1096,8 @@
       },
       {
         "year": 219,
-        "lat": 29.82,
-        "lon": 113.45,
+        "lat": 30.35,
+        "lon": 112.19,
         "label": {
           "en": "Seizes Jingzhou from Guan Yu",
           "zh": "袭取荆州"
@@ -1899,8 +1899,8 @@
         "url": "https://zh.wikisource.org/wiki/後漢書/卷1上"
       }
     ],
-    "confidence": "medium",
-    "note": "Born in the 12th month of Jianping 1, i.e. 15 January 5 BCE; Wikidata records the date as 5 CE, apparently missing the BCE sign."
+    "confidence": "high",
+    "note": "Born in the 12th month of Jianping 1, i.e. 15 January 5 BCE (Hou Han shu); Wikidata now also gives 5 BCE."
   },
   {
     "id": "person-wang-xizhi",

@@ -15,7 +15,14 @@
   ],
   "qid": "Q317519",
   "km": 239,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's point (28, 32.1) is a generic centroid of Egypt. Our marker at Babylon/Fustat (Old Cairo) is the site of the decisive siege of 640–641 and of the garrison town founded afterwards (Kennedy; Ibn ʿAbd al-Hakam).",
+   "checked": [
+    "Hugh Kennedy, The Great Arab Conquests (2007), ch. 4",
+    "https://en.wikipedia.org/wiki/Arab_conquest_of_Egypt"
+   ]
+  }
  },
  {
   "key": "ev-muslim-conquest-of-the-maghreb:coord",
@@ -33,7 +40,14 @@
   ],
   "qid": "Q925960",
   "km": 790,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's (30, 5) is a point in the Algerian Sahara. Our marker is Kairouan, the base founded by ʿUqba ibn Nafiʿ in 670, and the full campaign path is given as a route.",
+   "checked": [
+    "UNESCO General History of Africa, Vol. III, ch. 9",
+    "https://en.wikipedia.org/wiki/Kairouan"
+   ]
+  }
  },
  {
   "key": "ev-founding-of-marrakesh:year",
@@ -44,7 +58,15 @@
   "ours": 1070,
   "wikidata": 1065,
   "qid": "Q101625",
-  "resolution": null
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "The chronicles disagree: Ibn Abi Zarʿ and Ibn Khaldun give 1062, Ibn ʿIdhari gives 1070. Bennison and most recent scholarship follow 1070, and Britannica says only 'mid-11th century'. Wikidata's 1065 matches neither. We keep 1070 at medium confidence, and the note now states the dispute.",
+   "checked": [
+    "Britannica: Marrakech (search snippet: 'founded in the mid-11th century')",
+    "Amira K. Bennison, The Almoravid and Almohad Empires (2016)",
+    "https://en.wikipedia.org/wiki/History_of_Marrakesh"
+   ]
+  }
  },
  {
   "key": "ev-battle-of-ridaniya:coord",
@@ -62,7 +84,14 @@
   ],
   "qid": "Q537923",
   "km": 408,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The battle was fought at al-Raydaniyya, just north-east of Cairo (modern ʿAbbasiyya). Wikidata's (27, 29) is a point in the Western Desert.",
+   "checked": [
+    "Britannica: Mamluk (Ottoman conquest of Egypt)",
+    "Ibn Iyas, Badaʾiʿ al-Zuhur, as cited in https://en.wikipedia.org/wiki/Battle_of_Ridaniya"
+   ]
+  }
  },
  {
   "key": "ev-ethiopian-adal-war:coord",
@@ -80,36 +109,14 @@
   ],
   "qid": "Q2915203",
   "km": 396,
-  "resolution": null
- },
- {
-  "key": "ev-fula-jihads-sokoto:year",
-  "id": "ev-fula-jihads-sokoto",
-  "dataset": "africa",
-  "kind": "events",
-  "field": "year",
-  "ours": 1804,
-  "wikidata": 1725,
-  "qid": "Q2736105",
-  "resolution": null
- },
- {
-  "key": "ev-fula-jihads-sokoto:coord",
-  "id": "ev-fula-jihads-sokoto",
-  "dataset": "africa",
-  "kind": "events",
-  "field": "coord",
-  "ours": [
-   13.0622,
-   5.2339
-  ],
-  "wikidata": [
-   12,
-   3
-  ],
-  "qid": "Q2736105",
-  "km": 270,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's (9, 40) is a generic Horn of Africa point. Our marker is near Wayna Daga, east of Lake Tana, where the decisive battle of 1543 was fought; the note says the war ranged over the whole highlands.",
+   "checked": [
+    "Richard Pankhurst, The Ethiopians: A History (1998)",
+    "https://en.wikipedia.org/wiki/Battle_of_Wayna_Daga"
+   ]
+  }
  },
  {
   "key": "ev-french-conquest-of-algeria:coord",
@@ -127,7 +134,14 @@
   ],
   "qid": "Q2629782",
   "km": 992,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's (28, 1) is a Saharan centroid. Our marker is Algiers, taken on 5 July 1830 after the landing at Sidi Ferruch on 14 June.",
+   "checked": [
+    "Benjamin Stora, Algeria 1830–2000 (2001)",
+    "https://en.wikipedia.org/wiki/Invasion_of_Algiers_in_1830"
+   ]
+  }
  },
  {
   "key": "ev-scramble-for-africa:year",
@@ -138,7 +152,15 @@
   "ours": 1881,
   "wikidata": 1885,
   "qid": "Q179848",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "1881, the French protectorate over Tunisia, is the start most historians use. Pakenham begins in 1876 and Wikidata starts with the Berlin Act of 1885. The record is already medium confidence with a note on the convention.",
+   "checked": [
+    "Thomas Pakenham, The Scramble for Africa 1876–1912 (1991)",
+    "UNESCO General History of Africa, Vol. VII (1985), ch. 2",
+    "https://africamap.net/history/scramble-for-africa-timeline"
+   ]
+  }
  },
  {
   "key": "ev-second-boer-war:coord",
@@ -156,7 +178,14 @@
   ],
   "qid": "Q215112",
   "km": 549,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's (-29, 24) is a centroid of South Africa. Our marker is Pretoria, capital of the South African Republic, which was taken in June 1900; the Treaty of Vereeniging was signed there in 1902.",
+   "checked": [
+    "Thomas Pakenham, The Boer War (1979)",
+    "https://en.wikipedia.org/wiki/Treaty_of_Vereeniging"
+   ]
+  }
  },
  {
   "key": "ev-herero-and-nama-genocide:coord",
@@ -174,7 +203,14 @@
   ],
   "qid": "Q312492",
   "km": 169,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's (-22, 17) is a centroid of Namibia. Our marker is the Waterberg, site of the battle of 11 August 1904, after which von Trotha drove the Herero into the Omaheke.",
+   "checked": [
+    "Olusoga & Erichsen, The Kaiser's Holocaust (2010)",
+    "https://en.wikipedia.org/wiki/Battle_of_Waterberg"
+   ]
+  }
  },
  {
   "key": "ev-maji-maji-war:coord",
@@ -192,7 +228,14 @@
   ],
   "qid": "Q705553",
   "km": 1146,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's coordinate (-2.41, 30.54) lies in Rwanda, outside the war zone. The rising began in the Matumbi Hills inland from Kilwa in July 1905, and our marker is there.",
+   "checked": [
+    "John Iliffe, A Modern History of Tanganyika (1979), ch. 6",
+    "https://en.wikipedia.org/wiki/Maji_Maji_Rebellion"
+   ]
+  }
  },
  {
   "key": "ev-second-italo-ethiopian-war:coord",
@@ -210,7 +253,14 @@
   ],
   "qid": "Q94916",
   "km": 420,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Addis Ababa, occupied on 5 May 1936, is the natural marker for the capital's fall. Wikidata's point near Gondar is not a defining site of the war. The end year of 1936 also stands: Bahru Zewde dates the conventional war 1935–36.",
+   "checked": [
+    "Bahru Zewde, A History of Modern Ethiopia (2001)",
+    "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War"
+   ]
+  }
  },
  {
   "key": "ev-mau-mau-uprising:coord",
@@ -228,7 +278,14 @@
   ],
   "qid": "Q476855",
   "km": 503,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's point (-4.04, 39.67) is Mombasa, on the coast, outside the conflict zone. The insurgency centred on the central highlands (Nyeri, Aberdares, Mount Kenya), and our marker is at Nyeri.",
+   "checked": [
+    "David Anderson, Histories of the Hanged (2005)",
+    "Caroline Elkins, Imperial Reckoning (2005)"
+   ]
+  }
  },
  {
   "key": "ev-african-union-launched:year",
@@ -239,7 +296,14 @@
   "ours": 2002,
   "wikidata": 1999,
   "qid": "Q7159",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica says the AU officially came into being on 9 July 2002 at the Durban summit. 1999, Wikidata's value, is the Sirte Declaration that proposed it, and the Constitutive Act entered into force in May 2001.",
+   "checked": [
+    "https://www.britannica.com/topic/African-Union",
+    "https://kids.britannica.com/students/article/African-Union/276210"
+   ]
+  }
  },
  {
   "key": "ev-african-union-launched:coord",
@@ -257,7 +321,13 @@
   ],
   "qid": "Q7159",
   "km": 3729,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The event is the launch summit, so it is marked at Durban. Wikidata's (0, 15) is a continental centroid for the organisation, not a site.",
+   "checked": [
+    "https://www.britannica.com/topic/African-Union"
+   ]
+  }
  },
  {
   "key": "ev-tunisian-revolution:coord",
@@ -275,18 +345,14 @@
   ],
   "qid": "Q46959",
   "km": 125,
-  "resolution": null
- },
- {
-  "key": "polity-ayyubid-egypt:to",
-  "id": "polity-ayyubid-egypt",
-  "dataset": "africa",
-  "kind": "polities",
-  "field": "to",
-  "ours": 1250,
-  "wikidata": 1341,
-  "qid": "Q180114",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The revolution began with Bouazizi's self-immolation in Sidi Bouzid; Wikidata's (34, 10) is a national centroid. Separately, the start date was corrected from 18 to 17 December 2010.",
+   "checked": [
+    "Britannica: Jasmine Revolution",
+    "https://en.wikipedia.org/wiki/Tunisian_revolution"
+   ]
+  }
  },
  {
   "key": "polity-ghana-empire:from",
@@ -297,7 +363,14 @@
   "ours": 300,
   "wikidata": 100,
   "qid": "Q206789",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica cites an unconfirmed tradition dating the kingdom's origins to the 4th century CE, which our 300 reflects. Wikidata's c. 100 has weaker support. The record stays low confidence, and its note says the origins are unknown.",
+   "checked": [
+    "https://www.britannica.com/place/Ghana-historical-West-African-empire",
+    "Nehemia Levtzion, Ancient Ghana and Mali (1973)"
+   ]
+  }
  },
  {
   "key": "polity-zagwe:from",
@@ -308,7 +381,15 @@
   "ours": 1137,
   "wikidata": 900,
   "qid": "Q140446",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica places the Zagwe in the 12th–13th centuries, and c. 1137 is the conventional start date. The c. 900 start in Wikidata rests on late Solomonic traditions that give the dynasty a much longer span. The record remains low confidence and its note records the dispute.",
+   "checked": [
+    "https://www.britannica.com/topic/Zagwe-dynasty",
+    "https://www.britannica.com/place/Ethiopia/The-Zagwe-and-Solomonic-dynasties",
+    "Taddesse Tamrat, Church and State in Ethiopia 1270–1527 (1972)"
+   ]
+  }
  },
  {
   "key": "polity-marinid:from",
@@ -319,7 +400,14 @@
   "ours": 1244,
   "wikidata": 1215,
   "qid": "Q582861",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica says the Banu Marin advanced into Morocco in the 1240s, took Fez in 1248 and Marrakesh in 1269. 1244 is the accession of Abu Yahya and the usual start of the dynasty proper; Wikidata's 1215 marks the first tribal incursions.",
+   "checked": [
+    "https://www.britannica.com/topic/Marinid-dynasty",
+    "https://www.britannica.com/place/North-Africa/Political-fragmentation-and-the-triumph-of-Islamic-culture-c-1250-c-1500"
+   ]
+  }
  },
  {
   "key": "polity-benin-kingdom:from",
@@ -330,25 +418,14 @@
   "ours": 1180,
   "wikidata": 1170,
   "qid": "Q171203",
-  "resolution": null
- },
- {
-  "key": "ev-genghis-khan-proclaimed:coord",
-  "id": "ev-genghis-khan-proclaimed",
-  "dataset": "central-asia",
-  "kind": "events",
-  "field": "coord",
-  "ours": [
-   48.9,
-   109
-  ],
-  "wikidata": [
-   47.1,
-   109.1667
-  ],
-  "qid": "Q12557",
-  "km": 201,
-  "resolution": null
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "All the start dates are traditional. 1180 (Eweka I, Egharevba's chronology) and Wikidata's 1170 differ by a decade, Britannica puts Eweka in the 13th century, and the Ogiso kingdom goes back to c. 900. Kept at 1180, medium confidence, with an explicit note.",
+   "checked": [
+    "https://www.britannica.com/place/Benin-historical-kingdom-West-Africa",
+    "https://www.britannica.com/topic/ogiso"
+   ]
+  }
  },
  {
   "key": "ev-mongol-invasion-of-khwarazm:coord",
@@ -366,7 +443,14 @@
   ],
   "qid": "Q431177",
   "km": 676,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Q431177 has no coordinate of its own; the diff uses a generic ‘Central Asia’ location point in the Aral steppe. Samarkand, Khwarazm’s capital taken in 1220, is a better anchor; the full route is given separately.",
+   "checked": [
+    "Juvaini, History of the World-Conqueror, tr. J. A. Boyle (1958)",
+    "https://www.britannica.com/place/Khwarezm"
+   ]
+  }
  },
  {
   "key": "ev-toluid-civil-war:coord",
@@ -384,7 +468,14 @@
   ],
   "qid": "Q16871984",
   "km": 2969,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is a generic Central Asia location. The war was fought over Karakorum, Ariq Böke’s capital, which Kublai starved by cutting grain shipments; Karakorum is the appropriate anchor.",
+   "checked": [
+    "Morris Rossabi, Khubilai Khan: His Life and Times (1988), ch. 3",
+    "Cambridge History of China vol. 6 (1994)"
+   ]
+  }
  },
  {
   "key": "ev-bibi-khanym-mosque:year",
@@ -395,7 +486,14 @@
   "ours": 1399,
   "wikidata": 1404,
   "qid": "Q679218",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Timur’s historian Sharaf al-Din Yazdi dates the foundation to May 1399, after the Indian campaign; Clavijo saw it nearly finished in 1404. Our year 1399 is the start; endYear 1404 is the completion that Wikidata records.",
+   "checked": [
+    "Ruy González de Clavijo, Embassy to Tamerlane, tr. G. Le Strange (1928)",
+    "Lisa Golombek & Donald Wilber, The Timurid Architecture of Iran and Turan (1988)"
+   ]
+  }
  },
  {
   "key": "ev-central-asian-revolt-1916:coord",
@@ -413,7 +511,14 @@
   ],
   "qid": "Q4438492",
   "km": 727,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is a generic Central Asia location. The revolt began with the Khujand riot of 4 July 1916 (O.S.), which Khalid and the Chokobaeva–Drieu–Morrison volume treat as its start; Khujand is the right anchor.",
+   "checked": [
+    "Adeeb Khalid, Central Asia: A New History (2021)",
+    "A. Chokobaeva, C. Drieu & A. Morrison (eds.), The Central Asian Revolt of 1916 (2019)"
+   ]
+  }
  },
  {
   "key": "ev-basmachi-movement:coord",
@@ -431,7 +536,14 @@
   ],
   "qid": "Q255352",
   "km": 238,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is Tashkent, the Soviet seat the Basmachi fought against. The movement’s heartland was the Fergana valley (and later eastern Bukhara), where ours is plotted.",
+   "checked": [
+    "Adeeb Khalid, Central Asia: A New History (2021)",
+    "https://www.britannica.com/event/Basmachi-Revolt"
+   ]
+  }
  },
  {
   "key": "ev-tajikistani-civil-war:coord",
@@ -449,7 +561,14 @@
   ],
   "qid": "Q1122110",
   "km": 224,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata places the war in the Rasht/Gharm valley, one opposition stronghold. The conflict began with the 1992 Dushanbe demonstrations and centred on control of the capital, with fighting also in Kulob and Qurghonteppa; Dushanbe is a reasonable anchor.",
+   "checked": [
+    "https://www.britannica.com/place/Tajikistan/History",
+    "Shirin Akiner, Tajikistan: Disintegration or Reconciliation? (2001)"
+   ]
+  }
  },
  {
   "key": "polity-hephthalite:from",
@@ -460,7 +579,14 @@
   "ours": 450,
   "wikidata": 408,
   "qid": "Q26576",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 408 counts the earliest Hunnic arrivals in Bactria. The Hephthalite empire itself emerges in the mid-5th century (Iranica: Hephthalites); c. 450 is the conventional start. Record is confidence low with note.",
+   "checked": [
+    "Encyclopaedia Iranica: Hephthalites (A. D. H. Bivar)",
+    "Cambridge History of Early Inner Asia (1990), ch. 6"
+   ]
+  }
  },
  {
   "key": "polity-hephthalite:to",
@@ -471,7 +597,14 @@
   "ours": 560,
   "wikidata": 670,
   "qid": "Q26576",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 670 includes post-imperial Hephthalite principalities. The empire was destroyed by the Turk–Sasanian alliance c. 557–563; c. 560 is the standard date (Iranica, Gol-Zarriun).",
+   "checked": [
+    "Encyclopaedia Iranica: Hephthalites (A. D. H. Bivar)",
+    "Cambridge History of Early Inner Asia (1990), ch. 6"
+   ]
+  }
  },
  {
   "key": "ev-yellow-turban-rebellion:coord",
@@ -489,7 +622,14 @@
   ],
   "qid": "Q751743",
   "km": 311,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours is Julu (Hebei), where Zhang Jue rose in 184 (Hou Han shu 71). Wikidata's point near Zhengzhou is a generic placement, not the outbreak site.",
+   "checked": [
+    "范晔《后汉书》卷71 皇甫嵩传",
+    "https://en.wikipedia.org/wiki/Yellow_Turban_Rebellion"
+   ]
+  }
  },
  {
   "key": "ev-battle-of-guandu:coord",
@@ -507,7 +647,14 @@
   ],
   "qid": "Q1057910",
   "km": 59,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Guandu lies NE of Zhongmu county, Zhengzhou (~34.75N 114.0E). Wikidata's point (114.62E) is east of Kaifeng, ~60 km from the battlefield.",
+   "checked": [
+    "陈寿《三国志》卷1 武帝纪 建安五年",
+    "https://zh.wikipedia.org/wiki/官渡之战"
+   ]
+  }
  },
  {
   "key": "ev-zhuge-liang-northern-expeditions:coord",
@@ -525,7 +672,14 @@
   ],
   "qid": "Q1198171",
   "km": 505,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Mount Qi (Li county, Gansu), the first expedition's target; the full route is in route[]. Wikidata's 38N 102E is a rounded placeholder in the Hexi corridor, far from any campaign.",
+   "checked": [
+    "陈寿《三国志》卷35 诸葛亮传",
+    "https://en.wikipedia.org/wiki/Zhuge_Liang%27s_Northern_Expeditions"
+   ]
+  }
  },
  {
   "key": "ev-battle-of-fei-river:coord",
@@ -543,7 +697,14 @@
   ],
   "qid": "Q1333898",
   "km": 97,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The battle was fought on the Fei River at Shouyang (modern Shou county, 32.58N 116.78E). Wikidata's point is ~95 km south near Lu'an/Hefei.",
+   "checked": [
+    "《资治通鉴》卷105 太元八年",
+    "Britannica: Battle of the Fei River (snippet via search)"
+   ]
+  }
  },
  {
   "key": "ev-tang-conquest-of-eastern-turks:coord",
@@ -561,7 +722,14 @@
   ],
   "qid": "Q15911628",
   "km": 128,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Both points are in the Yin Mountains and the camp site at Tieshan is not precisely known; ours (north of Baotou) is as defensible as Wikidata's rounded 41N 112E.",
+   "checked": [
+    "刘昫等《旧唐书》卷67 李靖传",
+    "https://en.wikipedia.org/wiki/Tang_campaign_against_the_Eastern_Turks"
+   ]
+  }
  },
  {
   "key": "ev-an-lushan-rebellion:coord",
@@ -579,7 +747,14 @@
   ],
   "qid": "Q253774",
   "km": 1216,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Fanyang (Beijing), where An Lushan rose on 16 Dec 755. Wikidata's coordinate is the centroid of China in Gansu, not a historical site.",
+   "checked": [
+    "资治通鉴 卷217 天宝十四载",
+    "https://en.wikipedia.org/wiki/An_Lushan_rebellion"
+   ]
+  }
  },
  {
   "key": "ev-huang-chao-rebellion:coord",
@@ -597,7 +772,14 @@
   ],
   "qid": "Q620621",
   "km": 615,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Yuanqu near Heze (Shandong), Huang Chao's home and where the rising began. Wikidata uses Chang'an, captured only in 881; ours fits the start year.",
+   "checked": [
+    "欧阳修等《新唐书》卷225下 黄巢传",
+    "https://en.wikipedia.org/wiki/Huang_Chao"
+   ]
+  }
  },
  {
   "key": "ev-treaty-of-shaoxing:coord",
@@ -615,7 +797,14 @@
   ],
   "qid": "Q842316",
   "km": 525,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's point is Shaoxing city, a misreading of the reign-era name. The treaty had no single signing site; our marker sits on the Huai River boundary it fixed.",
+   "checked": [
+    "脱脱等《宋史》卷29 高宗本纪 绍兴十一年",
+    "https://en.wikipedia.org/wiki/Treaty_of_Shaoxing"
+   ]
+  }
  },
  {
   "key": "ev-red-turban-rebellion:coord",
@@ -633,25 +822,14 @@
   ],
   "qid": "Q112524",
   "km": 2287,
-  "resolution": null
- },
- {
-  "key": "ev-founding-of-ming:coord",
-  "id": "ev-founding-of-ming",
-  "dataset": "china",
-  "kind": "events",
-  "field": "coord",
-  "ours": [
-   32.061,
-   118.801
-  ],
-  "wikidata": [
-   32.8,
-   103.0833
-  ],
-  "qid": "Q9903",
-  "km": 1476,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours is Yingzhou (Fuyang, Anhui), where Liu Futong's rising began in 1351. Wikidata's coordinate in central Tibet is plainly wrong.",
+   "checked": [
+    "宋濂等《元史》卷42 顺帝本纪 至正十一年",
+    "https://en.wikipedia.org/wiki/Red_Turban_Rebellions"
+   ]
+  }
  },
  {
   "key": "ev-jingnan-campaign:coord",
@@ -669,7 +847,14 @@
   ],
   "qid": "Q1207697",
   "km": 375,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Zhu Di launched the campaign from Beiping (Beijing) in 1399. Wikidata's point is Jinan, one siege in the war; ours is the origin and the victor's base.",
+   "checked": [
+    "张廷玉等《明史》卷5 成祖本纪",
+    "https://en.wikipedia.org/wiki/Jingnan_campaign"
+   ]
+  }
  },
  {
   "key": "ev-revolt-of-three-feudatories:year",
@@ -680,7 +865,14 @@
   "ours": 1673,
   "wikidata": 1681,
   "qid": "Q112501",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The revolt broke out in late 1673 (Kangxi 12) and ended in 1681; Wikidata's 1681 is a point-in-time value for the end, while its own start is 1673.",
+   "checked": [
+    "赵尔巽等《清史稿》卷474 吴三桂传",
+    "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories"
+   ]
+  }
  },
  {
   "key": "ev-revolt-of-three-feudatories:coord",
@@ -698,7 +890,14 @@
   ],
   "qid": "Q112501",
   "km": 1202,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Kunming, Wu Sangui's seat where the revolt began and ended (1681). Wikidata's coordinate is China's centroid in Gansu.",
+   "checked": [
+    "赵尔巽等《清史稿》卷474 吴三桂传",
+    "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories"
+   ]
+  }
  },
  {
   "key": "ev-first-opium-war:coord",
@@ -716,7 +915,14 @@
   ],
   "qid": "Q191282",
   "km": 1753,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Humen at the Pearl River mouth, where the crisis began and early fighting took place. Wikidata's point is the generic China centroid.",
+   "checked": [
+    "Britannica: Opium Wars (snippet via search)",
+    "https://en.wikipedia.org/wiki/First_Opium_War"
+   ]
+  }
  },
  {
   "key": "ev-second-opium-war:coord",
@@ -734,7 +940,14 @@
   ],
   "qid": "Q418151",
   "km": 1170,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The record covers the 1860 burning of the Yuanmingyuan; ours is the Old Summer Palace (40.008N 116.30E). Wikidata uses a rounded China centroid.",
+   "checked": [
+    "赵尔巽等《清史稿》卷20 文宗本纪 咸丰十年",
+    "https://en.wikipedia.org/wiki/Old_Summer_Palace"
+   ]
+  }
  },
  {
   "key": "ev-first-sino-japanese-war:coord",
@@ -752,7 +965,14 @@
   ],
   "qid": "Q178687",
   "km": 373,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours marks the Battle of the Yalu (Yellow Sea) off Dalu Island, the war's decisive naval action. Wikidata uses Seoul; both are defensible, so the curated marker stands.",
+   "checked": [
+    "Britannica: First Sino-Japanese War (snippet via search)",
+    "https://en.wikipedia.org/wiki/Battle_of_the_Yalu_River_(1894)"
+   ]
+  }
  },
  {
   "key": "ev-boxer-rebellion:coord",
@@ -770,7 +990,14 @@
   ],
   "qid": "Q150229",
   "km": 967,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The siege of the legations and the allied capture took place in Beijing. Wikidata's point in Inner Mongolia has no link to the events.",
+   "checked": [
+    "Britannica: Boxer Rebellion (snippet via search)",
+    "https://en.wikipedia.org/wiki/Boxer_Rebellion"
+   ]
+  }
  },
  {
   "key": "ev-xinhai-revolution:coord",
@@ -788,7 +1015,14 @@
   ],
   "qid": "Q190517",
   "km": 1580,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The record centres on Sun Yat-sen's inauguration as provisional president in Nanjing, 1 Jan 1912. Wikidata uses a generic China centroid.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/1911_Revolution",
+    "《清帝逊位诏书》（1912年2月12日）"
+   ]
+  }
  },
  {
   "key": "ev-northern-expedition:year",
@@ -799,7 +1033,14 @@
   "ours": 1926,
   "wikidata": 1928,
   "qid": "Q1073476",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The expedition was launched from Guangzhou in July 1926 and ended in 1928 (Britannica: 1926–28). Wikidata's 1928 is the point-in-time of its end; its own start is 1926.",
+   "checked": [
+    "Britannica: Northern Expedition (snippet via search)",
+    "https://en.wikipedia.org/wiki/Northern_Expedition"
+   ]
+  }
  },
  {
   "key": "ev-northern-expedition:coord",
@@ -817,7 +1058,13 @@
   ],
   "qid": "Q1073476",
   "km": 1701,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The expedition set out from Guangzhou. Wikidata's coordinate is China's centroid in Gansu.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Northern_Expedition"
+   ]
+  }
  },
  {
   "key": "ev-long-march:coord",
@@ -835,7 +1082,14 @@
   ],
   "qid": "Q46333",
   "km": 963,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Zunyi, site of the January 1935 conference the summary highlights; the march had no single location. Wikidata's point is the China centroid.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Long_March",
+    "中共中央党史和文献研究院《中国共产党一百年大事记》"
+   ]
+  }
  },
  {
   "key": "ev-retrocession-of-taiwan:coord",
@@ -853,7 +1107,14 @@
   ],
   "qid": "Q13578439",
   "km": 151,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The surrender ceremony of 25 Oct 1945 was held at Taipei Public Hall (Zhongshan Hall, 25.04N 121.51E). Wikidata uses the island centroid.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Retrocession_Day",
+    "https://en.wikipedia.org/wiki/Zhongshan_Hall"
+   ]
+  }
  },
  {
   "key": "ev-huaihai-campaign:coord",
@@ -871,7 +1132,14 @@
   ],
   "qid": "Q372153",
   "km": 262,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The campaign centred on Xuzhou (34.26N 117.20E). Wikidata's point in central Shandong is outside the main theatre.",
+   "checked": [
+    "Britannica: Huai-Hai Campaign (snippet via search)",
+    "https://en.wikipedia.org/wiki/Huaihai_campaign"
+   ]
+  }
  },
  {
   "key": "ev-first-chinese-nuclear-test:coord",
@@ -889,7 +1157,14 @@
   ],
   "qid": "Q2420139",
   "km": 230,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ground zero of the 596 tower shot is given as 40°48′45″N 89°47′24″E, about 9 km from ours. Wikidata's point is near the Malan base, not the test ground.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Project_596",
+    "https://www.nti.org (Lop Nur test site profile)"
+   ]
+  }
  },
  {
   "key": "person-wang-xizhi:born",
@@ -900,7 +1175,15 @@
   "ours": 303,
   "wikidata": 321,
   "qid": "Q378564",
-  "resolution": null
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "Scholars split between 303–361 (Britannica c. 303–c. 361; Jin shu age 59 sui) and 321–379. Curated 303 kept; record already has confidence medium and a note explaining both chronologies.",
+   "checked": [
+    "https://www.britannica.com/biography/Wang-Xizhi (via search snippet)",
+    "房玄龄等《晋书》卷80 王羲之传",
+    "https://en.wikipedia.org/wiki/Wang_Xizhi"
+   ]
+  }
  },
  {
   "key": "polity-eastern-wu:from",
@@ -911,7 +1194,14 @@
   "ours": 222,
   "wikidata": 229,
   "qid": "Q274488",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Sun Quan became King of Wu in 222, which Britannica and most references use as Wu's start (222–280); 229 is his imperial proclamation. Record note corrected (it wrongly said Wikidata uses 222).",
+   "checked": [
+    "Britannica: Wu kingdom, 222–280 (via search)",
+    "陈寿《三国志》卷47 吴主传"
+   ]
+  }
  },
  {
   "key": "polity-liang:to",
@@ -922,7 +1212,14 @@
   "ours": 557,
   "wikidata": 587,
   "qid": "Q1069868",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The Liang dynasty proper ended with Chen Baxian's usurpation in 557 (Britannica: 502–557). Wikidata's 587 counts the Western Liang rump state at Jiangling, a separate polity.",
+   "checked": [
+    "Britannica: Liang dynasty (via search)",
+    "姚思廉《梁书》本纪"
+   ]
+  }
  },
  {
   "key": "ev-dedication-of-hagia-sophia:year",
@@ -933,7 +1230,15 @@
   "ours": 537,
   "wikidata": 532,
   "qid": "Q12506",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is the dedication: the rebuilt church was consecrated on 27 December 537 (Procopius, Buildings I.1; Theophanes). Wikidata's 532 (23 Feb) is the start of rebuilding after the Nika riots.",
+   "checked": [
+    "Procopius, Buildings I.1",
+    "https://www.britannica.com/topic/Hagia-Sophia",
+    "https://www.herodote.net/27_decembre_537-evenement-5371227.php"
+   ]
+  }
  },
  {
   "key": "ev-plague-of-justinian:endYear",
@@ -944,7 +1249,15 @@
   "ours": 549,
   "wikidata": 750,
   "qid": "Q821711",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record covers the first wave (541–549), the sense of 'Plague of Justinian' in Procopius and Britannica; Wikidata's 750 spans the recurrences, which the summary mentions. Wikidata's own description reads '541–549 AD pandemic'.",
+   "checked": [
+    "Procopius, History of the Wars II.22–23",
+    "Lester K. Little (ed.), Plague and the End of Antiquity (2007)",
+    "https://www.britannica.com/event/plague-of-Justinian"
+   ]
+  }
  },
  {
   "key": "ev-umayyad-conquest-of-hispania:coord",
@@ -962,7 +1275,15 @@
   ],
   "qid": "Q1455917",
   "km": 440,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is the opening Battle of Guadalete (July 711) in the Cádiz region; Wikidata's point (40.24, −4.24) is a generic centroid of Iberia, not a site of the conquest.",
+   "checked": [
+    "Chronicle of 754",
+    "Roger Collins, The Arab Conquest of Spain, 710–797 (1989)",
+    "https://www.britannica.com/event/Battle-of-Guadalete"
+   ]
+  }
  },
  {
   "key": "ev-first-crusade:coord",
@@ -980,7 +1301,14 @@
   ],
   "qid": "Q51649",
   "km": 3070,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Clermont, where Urban II preached the crusade (Nov 1095); the full route to Jerusalem is in route[]. Wikidata's (34, 36) is a rounded Levant placeholder.",
+   "checked": [
+    "Fulcher of Chartres, Historia Hierosolymitana I.1–3",
+    "https://www.britannica.com/event/First-Crusade"
+   ]
+  }
  },
  {
   "key": "ev-hundred-years-war:coord",
@@ -998,7 +1326,14 @@
   ],
   "qid": "Q12551",
   "km": 101,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Orléans, the 1429 turning point; Wikidata's (47, 2) is a centroid of France. Both lie in the same theatre; ours is a real historical site.",
+   "checked": [
+    "Jonathan Sumption, The Hundred Years War, vol. 4 (2015)",
+    "https://www.britannica.com/event/Hundred-Years-War"
+   ]
+  }
  },
  {
   "key": "ev-black-death:coord",
@@ -1016,7 +1351,14 @@
   ],
   "qid": "Q42005",
   "km": 7884,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is the European epidemic; plague reached Messina in October 1347 (Michele da Piazza; Benedictow). Wikidata's (35, 108) is in China, a disputed origin outside this record's scope.",
+   "checked": [
+    "Ole J. Benedictow, The Black Death 1346–1353 (2004)",
+    "https://www.britannica.com/event/Black-Death"
+   ]
+  }
  },
  {
   "key": "ev-fall-of-granada:coord",
@@ -1034,7 +1376,14 @@
   ],
   "qid": "Q1552718",
   "km": 360,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Granada surrendered on 2 January 1492 at the city itself (37.18, −3.60). Wikidata's point (40.42, −3.72) is Madrid, unrelated to the Granada War.",
+   "checked": [
+    "L. P. Harvey, Islamic Spain, 1250 to 1500 (1990)",
+    "https://www.britannica.com/place/Granada-Spain"
+   ]
+  }
  },
  {
   "key": "ev-columbus-first-voyage:endYear",
@@ -1045,7 +1394,15 @@
   "ours": 1493,
   "wikidata": 1504,
   "qid": "Q18578423",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is the first voyage only: sailed from Palos 3 Aug 1492, returned 15 Mar 1493. Wikidata's item covers all four voyages (to 1504).",
+   "checked": [
+    "Columbus, Diario (Las Casas abstract)",
+    "Samuel Eliot Morison, Admiral of the Ocean Sea (1942)",
+    "https://www.britannica.com/biography/Christopher-Columbus"
+   ]
+  }
  },
  {
   "key": "ev-columbus-first-voyage:coord",
@@ -1063,7 +1420,14 @@
   ],
   "qid": "Q18578423",
   "km": 7081,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is the departure port, Palos de la Frontera; the Atlantic crossing and landfall are in route[]. Wikidata's (15, −75) is a Caribbean Sea placeholder for all four voyages.",
+   "checked": [
+    "Samuel Eliot Morison, Admiral of the Ocean Sea (1942)",
+    "https://www.britannica.com/biography/Christopher-Columbus"
+   ]
+  }
  },
  {
   "key": "ev-thirty-years-war:coord",
@@ -1081,7 +1445,14 @@
   ],
   "qid": "Q2487",
   "km": 327,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Prague Castle, site of the Defenestration of 23 May 1618 that began the war; Wikidata's (51, 10) is a centroid of Germany.",
+   "checked": [
+    "Peter H. Wilson, Europe's Tragedy (2009)",
+    "https://www.britannica.com/event/Thirty-Years-War"
+   ]
+  }
  },
  {
   "key": "ev-trial-of-galileo:year",
@@ -1092,7 +1463,14 @@
   "ours": 1633,
   "wikidata": 1610,
   "qid": "Q2517983",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is the trial: sentence and abjuration at Santa Maria sopra Minerva, 22 June 1633. Wikidata's 1610 is the start of the wider 'Galileo affair'.",
+   "checked": [
+    "Maurice A. Finocchiaro, The Galileo Affair: A Documentary History (1989)",
+    "https://www.britannica.com/biography/Galileo-Galilei"
+   ]
+  }
  },
  {
   "key": "ev-principia:year",
@@ -1103,7 +1481,14 @@
   "ours": 1687,
   "wikidata": 1680,
   "qid": "Q205921",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Principia was published in London in July 1687 (imprimatur 5 July 1686, publication announced 5 July 1687 O.S.); Wikidata's 1680 inception reflects when Newton's work on it began.",
+   "checked": [
+    "Richard S. Westfall, Never at Rest (1980)",
+    "https://www.britannica.com/topic/Principia"
+   ]
+  }
  },
  {
   "key": "ev-lisbon-earthquake-1755:coord",
@@ -1121,7 +1506,14 @@
   ],
   "qid": "Q191055",
   "km": 344,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is placed at Lisbon, the city destroyed by quake, tsunami and fire; Wikidata's (36, −11) is the estimated offshore epicentre SW of Cape St Vincent. Note states this.",
+   "checked": [
+    "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+    "USGS: Historic Earthquakes – Lisbon 1755"
+   ]
+  }
  },
  {
   "key": "ev-french-revolution:coord",
@@ -1139,7 +1531,14 @@
   ],
   "qid": "Q6534",
   "km": 208,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is the Bastille, stormed 14 July 1789, the Revolution's symbolic opening; Wikidata's (47, 2) is a centroid of France.",
+   "checked": [
+    "William Doyle, The Oxford History of the French Revolution (1989)",
+    "https://www.britannica.com/event/French-Revolution"
+   ]
+  }
  },
  {
   "key": "ev-french-invasion-of-russia:coord",
@@ -1157,7 +1556,14 @@
   ],
   "qid": "Q179250",
   "km": 2078,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Borodino (7 Sept 1812), the campaign's main battle; Wikidata's (58.65, 70.12) lies in western Siberia, which Napoleon never approached.",
+   "checked": [
+    "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+    "https://www.britannica.com/event/Battle-of-Borodino"
+   ]
+  }
  },
  {
   "key": "ev-revolutions-of-1848:coord",
@@ -1175,7 +1581,14 @@
   ],
   "qid": "Q3588",
   "km": 1050,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Paris, whose February Revolution triggered the continent-wide wave (Palermo's January rising is noted). Wikidata's (53.5, 15.5) is a generic central-European point.",
+   "checked": [
+    "Mike Rapport, 1848: Year of Revolution (2008)",
+    "https://www.britannica.com/event/Revolutions-of-1848"
+   ]
+  }
  },
  {
   "key": "ev-unification-of-italy:year",
@@ -1186,7 +1599,14 @@
   "ours": 1861,
   "wikidata": 1815,
   "qid": "Q51122",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is scoped to the political unification: Kingdom of Italy proclaimed in Turin 17 March 1861, Rome capital 1871. Wikidata's 1815 is the start of the wider Risorgimento; the note explains.",
+   "checked": [
+    "Lucy Riall, Risorgimento (2009)",
+    "https://www.britannica.com/event/Risorgimento"
+   ]
+  }
  },
  {
   "key": "ev-unification-of-italy:coord",
@@ -1204,7 +1624,14 @@
   ],
   "qid": "Q51122",
   "km": 480,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Turin, where the kingdom was proclaimed in 1861; Wikidata's (42.5, 12.5) is a centroid of Italy.",
+   "checked": [
+    "https://www.britannica.com/place/Italy/The-Kingdom-of-Italy",
+    "Denis Mack Smith, Modern Italy: A Political History (1997)"
+   ]
+  }
  },
  {
   "key": "ev-world-war-i:year",
@@ -1215,7 +1642,14 @@
   "ours": 1914,
   "wikidata": 1918,
   "qid": "Q361",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The war began 28 July 1914 (Austria-Hungary's declaration on Serbia). Wikidata's 1918 is its point-in-time (Armistice); its own start date is 1914-07-28.",
+   "checked": [
+    "Hew Strachan, The First World War (2003)",
+    "https://www.britannica.com/event/World-War-I"
+   ]
+  }
  },
  {
   "key": "ev-world-war-i:coord",
@@ -1233,7 +1667,14 @@
   ],
   "qid": "Q361",
   "km": 852,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Verdun on the Western Front; Wikidata's (53.5, 15.5) is a generic point in Pomerania with no WWI significance.",
+   "checked": [
+    "https://www.britannica.com/event/Battle-of-Verdun",
+    "Hew Strachan, The First World War (2003)"
+   ]
+  }
  },
  {
   "key": "ev-world-war-ii:coord",
@@ -1251,7 +1692,14 @@
   ],
   "qid": "Q362",
   "km": 4065,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is the war in Europe, placed at Westerplatte (Gdańsk), where German fire opened the invasion of Poland on 1 September 1939. Wikidata's (66.4, 94.3) is central Siberia.",
+   "checked": [
+    "Gerhard L. Weinberg, A World at Arms (1994)",
+    "https://www.britannica.com/event/World-War-II"
+   ]
+  }
  },
  {
   "key": "ev-eastern-front-wwii:coord",
@@ -1269,7 +1717,14 @@
   ],
   "qid": "Q189266",
   "km": 3891,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Brest Fortress, attacked on the first morning of Barbarossa (22 June 1941); Wikidata's (65, 90) is a centroid of the USSR in Siberia, far from the front.",
+   "checked": [
+    "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+    "https://www.britannica.com/event/Operation-Barbarossa"
+   ]
+  }
  },
  {
   "key": "ev-dissolution-of-the-soviet-union:coord",
@@ -1287,7 +1742,32 @@
   ],
   "qid": "Q5167679",
   "km": 2955,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is the Moscow Kremlin, where Gorbachev resigned (25 Dec 1991) and the Soviet flag was lowered; Wikidata's (65, 90) is a USSR centroid.",
+   "checked": [
+    "Serhii Plokhy, The Last Empire (2014)",
+    "https://www.britannica.com/event/the-collapse-of-the-Soviet-Union"
+   ]
+  }
+ },
+ {
+  "key": "person-eleanor-of-aquitaine:born",
+  "id": "person-eleanor-of-aquitaine",
+  "dataset": "europe",
+  "kind": "people",
+  "field": "born",
+  "ours": 1122,
+  "wikidata": 1124,
+  "qid": "Q178525",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Pre-emptive: verifier corrected born 1124 → 1122. Britannica gives c. 1122, consistent with her reported age of 82 at death (1204); Wikidata's 1124 rests on a late 13th-century genealogy. Record is medium with note.",
+   "checked": [
+    "https://www.britannica.com/facts/Eleanor-of-Aquitaine",
+    "Ralph V. Turner, Eleanor of Aquitaine (2009)"
+   ]
+  }
  },
  {
   "key": "polity-visigothic-kingdom:from",
@@ -1298,7 +1778,15 @@
   "ours": 418,
   "wikidata": 476,
   "qid": "Q126936",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The kingdom dates from the 418 foedus settling Wallia's Goths in Aquitania Secunda (Cambridge Medieval History; Collins). Wikidata's 476 (Euric's independence) is a later milestone; Wikidata's own description reads 418–720.",
+   "checked": [
+    "Roger Collins, Visigothic Spain 409–711 (2004)",
+    "Cambridge Medieval History, vol. I, ch. 10",
+    "https://www.britannica.com/topic/Visigoth"
+   ]
+  }
  },
  {
   "key": "polity-visigothic-kingdom:to",
@@ -1309,7 +1797,15 @@
   "ours": 711,
   "wikidata": 718,
   "qid": "Q126936",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Standard end is 711, when Roderic fell at Guadalete and Toledo was taken (Collins, Visigothic Spain 409–711). Wikidata's 718 and others' 720/721 count Septimanian resistance, already in the note; record is medium.",
+   "checked": [
+    "Roger Collins, Visigothic Spain 409–711 (2004)",
+    "Chronicle of 754",
+    "https://www.britannica.com/topic/Visigoth"
+   ]
+  }
  },
  {
   "key": "polity-united-kingdom:from",
@@ -1320,7 +1816,14 @@
   "ours": 1801,
   "wikidata": 1921,
   "qid": "Q145",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The United Kingdom was created on 1 January 1801 by the Acts of Union 1800 with Ireland; 1921–22 only renamed it after Irish independence. Wikidata's Q145 dating is the present-day state; the note explains.",
+   "checked": [
+    "Acts of Union 1800 (39 & 40 Geo. III c. 67)",
+    "https://www.britannica.com/place/United-Kingdom"
+   ]
+  }
  },
  {
   "key": "ev-goguryeo-tang-war:coord",
@@ -1338,7 +1841,14 @@
   ],
   "qid": "Q703179",
   "km": 299,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The record title and summary emphasise the fall of Pyongyang in 668; ours is Pyongyang. Wikidata's point in Liaodong reflects the 645 campaigns; both valid, curated choice stands.",
+   "checked": [
+    "Kim Bu-sik, Samguk sagi",
+    "https://en.wikipedia.org/wiki/Goguryeo%E2%80%93Tang_War"
+   ]
+  }
  },
  {
   "key": "ev-silla-tang-war:coord",
@@ -1356,7 +1866,14 @@
   ],
   "qid": "Q710709",
   "km": 50,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours is the Maeso fortress area (Yeoncheon/Yangju), site of the decisive 675 battle; Wikidata uses Seoul, 50 km away. Curated point is more specific.",
+   "checked": [
+    "Kim Bu-sik, Samguk sagi, Silla bongi (Munmu 15)",
+    "https://en.wikipedia.org/wiki/Battle_of_Maeso_Fortress"
+   ]
+  }
  },
  {
   "key": "ev-mongol-invasions-of-korea:coord",
@@ -1374,7 +1891,14 @@
   ],
   "qid": "Q702266",
   "km": 53,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours is Ganghwa Island, seat of the resisting court (1232–1270). Wikidata uses Seoul, which had no special role; curated point stands.",
+   "checked": [
+    "Goryeosa",
+    "https://en.wikipedia.org/wiki/Mongol_invasions_of_Korea"
+   ]
+  }
  },
  {
   "key": "ev-genpei-war:coord",
@@ -1392,7 +1916,14 @@
   ],
   "qid": "Q737542",
   "km": 476,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours is Dan-no-ura, where the war ended in 1185. Wikidata's rounded 35N 136E is a placeholder near Lake Biwa.",
+   "checked": [
+    "Encyclopaedia Britannica: Gempei War (via search)",
+    "https://en.wikipedia.org/wiki/Battle_of_Dan-no-ura"
+   ]
+  }
  },
  {
   "key": "ev-mongol-invasions-of-japan:coord",
@@ -1410,7 +1941,14 @@
   ],
   "qid": "Q208156",
   "km": 54,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Both landings were at Hakata Bay (33.62N 130.33E). Wikidata's point lies ~54 km inland near Kurume.",
+   "checked": [
+    "Thomas D. Conlan, In Little Need of Divine Intervention (2001)",
+    "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan"
+   ]
+  }
  },
  {
   "key": "ev-jikji:coord",
@@ -1428,25 +1966,14 @@
   ],
   "qid": "Q494611",
   "km": 9076,
-  "resolution": null
- },
- {
-  "key": "ev-founding-of-joseon:coord",
-  "id": "ev-founding-of-joseon",
-  "dataset": "japan-korea",
-  "kind": "events",
-  "field": "coord",
-  "ours": [
-   37.9717,
-   126.5528
-  ],
-  "wikidata": [
-   37.58,
-   126.9775
-  ],
-  "qid": "Q28179",
-  "km": 57,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Jikji was printed at Heungdeok temple, Cheongju, in 1377. Wikidata's coordinate is the BnF in Paris, where the surviving volume is held, not where the event happened.",
+   "checked": [
+    "UNESCO Memory of the World: Jikji",
+    "https://en.wikipedia.org/wiki/Jikji"
+   ]
+  }
  },
  {
   "key": "ev-imjin-war:coord",
@@ -1464,7 +1991,14 @@
   ],
   "qid": "Q576338",
   "km": 323,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours is Busan, where the invasion landed in May 1592. Wikidata uses Seoul; the landing site is the better anchor for the start year, and route[] covers the rest.",
+   "checked": [
+    "Kenneth M. Swope, A Dragon's Head and a Serpent's Tail (2009)",
+    "https://en.wikipedia.org/wiki/Siege_of_Busanjin"
+   ]
+  }
  },
  {
   "key": "ev-donghak-peasant-revolution:coord",
@@ -1482,7 +2016,14 @@
   ],
   "qid": "Q701045",
   "km": 212,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The rising began at Gobu (Jeongeup, North Jeolla) in early 1894. Wikidata's Seoul point is not where the revolt took place.",
+   "checked": [
+    "Encyclopaedia Britannica: Tonghak Uprising (via search)",
+    "https://en.wikipedia.org/wiki/Donghak_Peasant_Revolution"
+   ]
+  }
  },
  {
   "key": "ev-russo-japanese-war:coord",
@@ -1500,7 +2041,14 @@
   ],
   "qid": "Q159950",
   "km": 754,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours is Port Arthur (Lüshun), where the war opened in Feb 1904 and the major siege took place. Wikidata's 45N 125E is a rounded Manchuria placeholder.",
+   "checked": [
+    "Encyclopaedia Britannica: Russo-Japanese War (via search)",
+    "https://en.wikipedia.org/wiki/Siege_of_Port_Arthur"
+   ]
+  }
  },
  {
   "key": "ev-korean-war:coord",
@@ -1518,7 +2066,14 @@
   ],
   "qid": "Q8663",
   "km": 467,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours is Panmunjom on the 38th-parallel front (armistice site). Wikidata's point is in the Korea Strait near Tsushima, which is meaningless for the war.",
+   "checked": [
+    "Encyclopaedia Britannica: Korean War (via search)",
+    "https://en.wikipedia.org/wiki/Panmunjom"
+   ]
+  }
  },
  {
   "key": "polity-silla:to",
@@ -1529,7 +2084,14 @@
   "ours": 935,
   "wikidata": 892,
   "qid": "Q28456",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Silla formally ended when King Gyeongsun surrendered to Goryeo in 935 (Britannica: Unified Silla 668–935). Wikidata's 892 marks the start of the Later Three Kingdoms, not the state's end.",
+   "checked": [
+    "https://www.britannica.com/place/Silla (via search)",
+    "Kim Bu-sik, Samguk sagi, Silla bongi (Gyeongsun 9)"
+   ]
+  }
  },
  {
   "key": "ev-gupta-era-begins:year",
@@ -1540,7 +2102,15 @@
   "ours": 320,
   "wikidata": 318,
   "qid": "Q28174068",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The Gupta era epoch is reckoned as 319–320 CE (Fleet; V. A. Smith; Upinder Singh), tied to Chandragupta I’s accession; Bühler’s 318–19 is a minority reckoning. Wikidata’s 318 is the start of a broad ‘Gupta era’ period item, not the epoch.",
+   "checked": [
+    "Upinder Singh, A History of Ancient and Early Medieval India (2008), ch. 9",
+    "J. F. Fleet, Corpus Inscriptionum Indicarum III (1888), introduction",
+    "https://www.britannica.com/topic/Gupta-dynasty"
+   ]
+  }
  },
  {
   "key": "ev-xuanzang-in-india:year",
@@ -1551,7 +2121,14 @@
   "ours": 630,
   "wikidata": 646,
   "qid": "Q1146069",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 646 is the completion date of the Records (the QID’s item), not the journey. Xuanzang left Chang’an in 629, reached the north-western Indian lands c. 630, began his return in 643 and was back in 645 (Britannica).",
+   "checked": [
+    "https://www.britannica.com/biography/Xuanzang",
+    "Huili, Life of Hiuen-Tsiang, tr. S. Beal (1911)"
+   ]
+  }
  },
  {
   "key": "ev-chola-expedition-srivijaya:coord",
@@ -1569,7 +2146,14 @@
   ],
   "qid": "Q16957926",
   "km": 1082,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The Tanjore inscription says the Chola fleet seized Sangrama-vijayottungavarman, ‘king of Kadaram’, and took Kadaram (Kedah); plotting at Kedah is defensible. Wikidata’s Palembang point reflects Srivijaya’s older capital, which also appears in our route.",
+   "checked": [
+    "K. A. Nilakanta Sastri, The Colas (1955), ch. on Rajendra I",
+    "Hermann Kulke et al. (eds.), Nagapattinam to Suvarnadwipa (2009)"
+   ]
+  }
  },
  {
   "key": "ev-anglo-mysore-wars:coord",
@@ -1587,7 +2171,14 @@
   ],
   "qid": "Q617321",
   "km": 72,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata gives a rounded generic point (13°N 77°E). Srirangapatna, Mysore’s capital under Hyder Ali and Tipu and the site of the decisive 1792 and 1799 sieges, is a more meaningful anchor 72 km away.",
+   "checked": [
+    "https://www.britannica.com/event/Mysore-Wars",
+    "Kate Brittlebank, Tipu Sultan’s Search for Legitimacy (1997)"
+   ]
+  }
  },
  {
   "key": "ev-second-anglo-sikh-war:coord",
@@ -1605,7 +2196,13 @@
   ],
   "qid": "Q243590",
   "km": 175,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 31°N 74°E is a rounded Punjab point. The record is plotted at Gujrat, where the decisive battle of 21 February 1849 ended the war; Britannica confirms the Chillianwala–Gujrat sequence.",
+   "checked": [
+    "https://www.britannica.com/event/Sikh-Wars"
+   ]
+  }
  },
  {
   "key": "ev-independence-and-partition-1947:coord",
@@ -1623,7 +2220,14 @@
   ],
   "qid": "Q129053",
   "km": 1302,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Both points are conventional: Wikidata’s Partition item sits at Calcutta. Independence was proclaimed in Delhi on 15 August 1947 (Nehru’s address, flag at the Red Fort), so Delhi is an equally or better-justified anchor.",
+   "checked": [
+    "https://www.britannica.com/event/Partition-of-India",
+    "Yasmin Khan, The Great Partition (2007)"
+   ]
+  }
  },
  {
   "key": "person-kanishka:born",
@@ -1634,7 +2238,14 @@
   "ours": 100,
   "wikidata": 78,
   "qid": "Q312544",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Kanishka’s birth year is unrecorded; 100 is a labelled placeholder (confidence low, note). Wikidata’s 78 comes from the obsolete equation of his era with the Shaka era; Falk (2001) and Iranica place year 1 in 127/128 CE.",
+   "checked": [
+    "Harry Falk, Silk Road Art and Archaeology 7 (2001)",
+    "Encyclopaedia Iranica: Kushan dynasty i. Dynastic history"
+   ]
+  }
  },
  {
   "key": "person-kanishka:died",
@@ -1645,7 +2256,14 @@
   "ours": 150,
   "wikidata": 144,
   "qid": "Q312544",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Under the now-standard Falk chronology (era year 1 = 127) Kanishka’s last regnal year 23 falls c. 150; 144 follows no current reckoning. Death year is approximate and flagged in the note.",
+   "checked": [
+    "Harry Falk, Silk Road Art and Archaeology 7 (2001)",
+    "Encyclopaedia Iranica: Kushan dynasty i. Dynastic history"
+   ]
+  }
  },
  {
   "key": "person-shivaji:born",
@@ -1656,7 +2274,15 @@
   "ours": 1630,
   "wikidata": 1627,
   "qid": "Q239505",
-  "resolution": null
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "Britannica gives ‘February 19, 1630, or April 1627’. 1630 rests on chronicle and horoscope evidence accepted by the Maharashtra government (official date); Jadunath Sarkar and Wikidata prefer 1627. Record kept at 1630, confidence medium with note.",
+   "checked": [
+    "https://www.britannica.com/biography/Shivaji",
+    "Stewart Gordon, The Marathas 1600–1818 (1993)",
+    "Jadunath Sarkar, Shivaji and His Times (1919)"
+   ]
+  }
  },
  {
   "key": "polity-sikh-empire:from",
@@ -1667,7 +2293,14 @@
   "ours": 1799,
   "wikidata": 1733,
   "qid": "Q83572",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica: Ranjit Singh seized Lahore in July 1799 and proclaimed himself maharaja in 1801. Wikidata’s 1733 refers to the earlier misl confederacy (Dal Khalsa), not the unified state.",
+   "checked": [
+    "https://www.britannica.com/biography/Ranjit-Singh-Sikh-maharaja",
+    "J. S. Grewal, The Sikhs of the Punjab (New Cambridge History of India II.3, 1990)"
+   ]
+  }
  },
  {
   "key": "polity-sri-lanka:from",
@@ -1678,7 +2311,14 @@
   "ours": 1948,
   "wikidata": 1972,
   "qid": "Q854",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The record deliberately covers the independent state since 4 February 1948 (Dominion of Ceylon, Republic of Sri Lanka from 1972), as its name and note state. Wikidata’s Q854 inception (1972) marks only the republican constitution.",
+   "checked": [
+    "https://www.britannica.com/place/Sri-Lanka",
+    "K. M. de Silva, A History of Sri Lanka (1981)"
+   ]
+  }
  },
  {
   "key": "ev-kedukan-bukit-inscription:coord",

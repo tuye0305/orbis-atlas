@@ -704,7 +704,7 @@
     "names": [
       {
         "from": 645,
-        "to": 1496,
+        "to": 655,
         "name": {
           "en": "Naniwa",
           "zh": "难波"
@@ -714,6 +714,18 @@
           "zh": "大和 / 日本"
         },
         "capital": true
+      },
+      {
+        "from": 655,
+        "to": 1496,
+        "name": {
+          "en": "Naniwa",
+          "zh": "难波"
+        },
+        "polity": {
+          "en": "Yamato / Japan",
+          "zh": "大和 / 日本"
+        }
       },
       {
         "from": 1496,

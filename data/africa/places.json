@@ -67,8 +67,8 @@
           "zh": "利奥波德维尔"
         },
         "polity": {
-          "en": "Republic of the Congo (Léopoldville)",
-          "zh": "刚果共和国（利奥波德维尔）"
+          "en": "Republic of the Congo (Léopoldville); Democratic Republic of the Congo from 1964",
+          "zh": "刚果共和国（利奥波德维尔）；1964年起称刚果民主共和国"
         },
         "capital": true
       },
@@ -787,6 +787,18 @@
       },
       {
         "from": 969,
+        "to": 973,
+        "name": {
+          "en": "al-Qahira (Cairo)",
+          "zh": "卡希拉（开罗）"
+        },
+        "polity": {
+          "en": "Fatimid Caliphate",
+          "zh": "法蒂玛王朝"
+        }
+      },
+      {
+        "from": 973,
         "to": 1171,
         "name": {
           "en": "al-Qahira (Cairo)",
@@ -834,7 +846,8 @@
         "polity": {
           "en": "Ottoman Egypt",
           "zh": "奥斯曼埃及"
-        }
+        },
+        "capital": true
       },
       {
         "from": 1805,
@@ -897,7 +910,7 @@
       }
     ],
     "confidence": "high",
-    "note": "Fustat was formally abandoned in 1168; it is treated here as the predecessor settlement of Cairo."
+    "note": "Fustat was formally abandoned in 1168; it is treated here as the predecessor settlement of Cairo. The Fatimid court moved to Cairo only in 973. Under the Ottomans Cairo was the seat of the province (eyalet) of Egypt."
   },
   {
     "region": "africa",
@@ -1437,8 +1450,8 @@
       }
     ],
     "summary": {
-      "en": "Émile Gentil founded Fort-Lamy on 29 May 1900, naming it after Commandant Lamy, killed days earlier at the Battle of Kousséri against Rabih az-Zubayr. President Tombalbaye renamed the capital in 1973 after the nearby Arab village of Niǧāmīnā.",
-      "zh": "1900年5月29日，埃米尔·让蒂尔建立拉密堡，以数日前在与拉比赫·祖拜尔的库塞里之战中阵亡的拉密少校命名。1973年托姆巴巴耶总统以附近阿拉伯村落尼贾米纳之名为首都改名。"
+      "en": "Émile Gentil founded Fort-Lamy on 29 May 1900, naming it after Commandant Lamy, killed five weeks earlier at the Battle of Kousséri against Rabih az-Zubayr. President Tombalbaye renamed the capital in 1973 after the nearby Arab village of Niǧāmīnā.",
+      "zh": "1900年5月29日，埃米尔·让蒂尔建立拉密堡，以五周前在与拉比赫·祖拜尔的库塞里之战中阵亡的拉密少校命名。1973年托姆巴巴耶总统以附近阿拉伯村落尼贾米纳之名为首都改名。"
     },
     "sources": [
       {
@@ -1509,8 +1522,8 @@
           "zh": "斯坦利维尔"
         },
         "polity": {
-          "en": "Republic of the Congo (Léopoldville)",
-          "zh": "刚果共和国（利奥波德维尔）"
+          "en": "Republic of the Congo (Léopoldville); Democratic Republic of the Congo from 1964",
+          "zh": "刚果共和国（利奥波德维尔）；1964年起称刚果民主共和国"
         }
       },
       {
@@ -1588,8 +1601,8 @@
           "zh": "伊丽莎白维尔"
         },
         "polity": {
-          "en": "Republic of the Congo (Léopoldville)",
-          "zh": "刚果共和国（利奥波德维尔）"
+          "en": "Republic of the Congo (Léopoldville); Democratic Republic of the Congo from 1964",
+          "zh": "刚果共和国（利奥波德维尔）；1964年起称刚果民主共和国"
         }
       },
       {

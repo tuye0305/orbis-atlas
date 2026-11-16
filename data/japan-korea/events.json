@@ -372,7 +372,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Kojiki compiled",
+        "title": "Encyclopaedia Britannica: Kojiki",
         "url": "https://www.britannica.com/topic/Kojiki"
       },
       {
@@ -390,7 +390,7 @@
   },
   {
     "id": "ev-todaiji-great-buddha",
-    "qid": "Q460367",
+    "qid": "Q11526469",
     "region": "east-asia",
     "type": "religious",
     "year": 752,
@@ -411,7 +411,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Great Buddha of Tōdai-ji consecrated",
+        "title": "Encyclopaedia Britannica: Tōdai Temple",
         "url": "https://www.britannica.com/topic/Todai-Temple"
       },
       {
@@ -452,7 +452,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Seokguram grotto built",
+        "title": "Encyclopaedia Britannica: Sokkuram",
         "url": "https://www.britannica.com/place/Sokkuram"
       },
       {
@@ -534,7 +534,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Later Three Kingdoms and Goryeo reunification",
+        "title": "Encyclopaedia Britannica: Later Three Kingdoms",
         "url": "https://www.britannica.com/topic/Later-Three-Kingdoms"
       },
       {
@@ -643,8 +643,8 @@
       "zh": "高丽大藏经雕刻"
     },
     "summary": {
-      "en": "During the Mongol invasions Goryeo carved the entire Buddhist canon onto more than 81,000 woodblocks, hoping for divine protection. Completed in 1251, the blocks are preserved at Haeinsa temple.",
-      "zh": "蒙古入侵期间，高丽为祈求佛法护国，将整部大藏经刻于八万一千余块木板之上，1251年完成。经板今藏于海印寺。"
+      "en": "During the Mongol invasions Goryeo carved the entire Buddhist canon onto more than 81,000 woodblocks, hoping for divine protection. Carved under the court in exile on Ganghwa Island and completed in 1251, the blocks were moved to Haeinsa temple in 1398, where they remain.",
+      "zh": "蒙古入侵期间，高丽为祈求佛法护国，将整部大藏经刻于八万一千余块木板之上，由江华岛流亡朝廷主持，1251年完成，1398年移藏海印寺至今。"
     },
     "lat": 35.8017,
     "lon": 128.0986,
@@ -654,7 +654,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Tripitaka Koreana carved",
+        "title": "Encyclopaedia Britannica: Tripitaka Koreana",
         "url": "https://www.britannica.com/topic/Tripitaka-Koreana"
       },
       {
@@ -717,7 +717,6 @@
   },
   {
     "id": "ev-kamakura-shogunate",
-    "qid": "Q736839",
     "region": "east-asia",
     "type": "political",
     "year": 1192,
@@ -741,7 +740,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Kamakura shogunate established",
+        "title": "Encyclopaedia Britannica: Kamakura shogunate",
         "url": "https://www.britannica.com/topic/Kamakura-shogunate"
       },
       {
@@ -756,7 +755,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Historians date the regime variously from 1180, 1185 or 1192; Wikidata gives 1200."
+    "note": "Historians date the regime variously from 1180, 1185 or 1192; Wikidata gives 1200. No Wikidata item exists for this event itself; Q736839 denotes the state and is linked from polity-kamakura, so no qid is set here."
   },
   {
     "id": "ev-mongol-invasions-of-japan",
@@ -770,8 +769,8 @@
       "zh": "元日战争（蒙古袭来）"
     },
     "summary": {
-      "en": "Kublai Khan's Yuan dynasty, with Goryeo ships and troops, twice invaded northern Kyushu. Both attacks at Hakata Bay were contained by samurai defenders and walls, and storms—later called kamikaze—wrecked much of the 1281 fleet.",
-      "zh": "忽必烈的元朝联合高丽船只与兵力两次进攻九州北部。两次在博多湾的登陆都被武士与防垒阻挡，1281年的庞大舰队更多被台风（后称“神风”）摧毁。"
+      "en": "Kublai Khan's Yuan dynasty, with Goryeo ships and troops, twice invaded northern Kyushu. Both attacks at Hakata Bay were contained by samurai defenders (in 1281 also by the new coastal wall), and storms—later called kamikaze—wrecked much of the 1281 fleet.",
+      "zh": "忽必烈的元朝联合高丽船只与兵力两次进攻九州北部。两次在博多湾的登陆都被武士阻挡（1281年另有新筑的石垒），1281年的庞大舰队更多被台风（后称“神风”）摧毁。"
     },
     "lat": 33.618,
     "lon": 130.333,
@@ -907,7 +906,6 @@
   },
   {
     "id": "ev-founding-of-joseon",
-    "qid": "Q28179",
     "region": "east-asia",
     "type": "founding",
     "year": 1392,
@@ -929,7 +927,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Founding of Joseon",
+        "title": "Encyclopaedia Britannica: Chosŏn dynasty",
         "url": "https://www.britannica.com/topic/Choson-dynasty"
       },
       {
@@ -944,7 +942,8 @@
         "url": "https://en.wikipedia.org/wiki/Joseon"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "No Wikidata item exists for this event itself; Q28179 denotes the state and is linked from polity-joseon, so no qid is set here."
   },
   {
     "id": "ev-hangul",
@@ -1421,7 +1420,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Sakoku (maritime restrictions)",
+        "title": "Encyclopaedia Britannica: sakoku",
         "url": "https://www.britannica.com/topic/sakoku"
       },
       {

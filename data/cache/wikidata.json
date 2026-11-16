@@ -1351,6 +1351,26 @@
    "zh": "基辅罗斯"
   }
  },
+ "Q11087884": {
+  "label": {
+   "en": null,
+   "zh": "明成祖迁都北京"
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": null,
+   "zh": "永乐迁都"
+  },
+  "locationQid": null
+ },
  "Q110884": {
   "label": {
    "en": "Alaric II",
@@ -2555,6 +2575,37 @@
    "zh": "澶渊之盟"
   },
   "locationQid": null
+ },
+ "Q11526469": {
+  "label": {
+   "en": "Tōdai-ji Daibutsu",
+   "zh": "東大寺盧舍那佛像"
+  },
+  "description": "statue in Nara, Nara, Japan",
+  "coord": {
+   "lat": 34.6891,
+   "lon": 135.8398
+  },
+  "image": "Nara, todai-ji 03.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 752,
+   "date": "0752-05-26",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1051606",
+   "Q22119607",
+   "Q860861"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  }
  },
  "Q1154406": {
   "label": {
@@ -7105,6 +7156,38 @@
    "zh": "英国"
   }
  },
+ "Q1452340": {
+  "label": {
+   "en": "Sadasiva Raya",
+   "zh": null
+  },
+  "description": "Emperor of the Vijayanagara Empire",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1542,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1569,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sadasiva Raya",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q1455917": {
   "label": {
    "en": "Umayyad conquest of Hispania",
@@ -8806,6 +8889,38 @@
   },
   "locationQid": "Q1152132"
  },
+ "Q15912370": {
+  "label": {
+   "en": "Raja Wodeyar I",
+   "zh": null
+  },
+  "description": "King of Mysore (1552-1617)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1552,
+   "date": "1552-06-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1617,
+   "date": "1617-06-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Raja Wodeyar I",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q159416": {
   "label": {
    "en": "Naser al-Din Shah Qajar",
@@ -9529,6 +9644,43 @@
    "en": "Nanjing",
    "zh": "南京市"
   }
+ },
+ "Q16707899": {
+  "label": {
+   "en": "Sokoto Revolution",
+   "zh": "富拉尼战争"
+  },
+  "description": "Revolution in West Africa 1804",
+  "coord": null,
+  "image": "Sokoto caliphate.png",
+  "pointInTime": {
+   "year": 1804,
+   "date": "1804-02-21",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1804,
+   "date": "1804-02-21",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1808,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Jihad of Usman dan Fodio",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q167457": {
   "label": {
@@ -13402,6 +13554,38 @@
    "zh": "雅尔穆克战役"
   }
  },
+ "Q194291": {
+  "label": {
+   "en": "Sirimavo Bandaranaike",
+   "zh": "西丽玛沃·班达拉奈克"
+  },
+  "description": "Prime Minister of Ceylon (later Sri Lanka) from 1960–65, 1970–77, 1994–2000",
+  "coord": null,
+  "image": "S. Bandaranaike w Polsce (Sirimavo cropped close).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1916,
+   "date": "1916-04-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2000,
+   "date": "2000-10-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sirimavo Bandaranaike",
+   "zh": "西丽玛沃·班达拉奈克"
+  },
+  "locationQid": null
+ },
  "Q1953": {
   "label": {
    "en": "Yerevan",
@@ -15883,6 +16067,38 @@
    "en": "La Teste-de-Buch",
    "zh": "拉泰斯特德比什"
   }
+ },
+ "Q233224": {
+  "label": {
+   "en": "Genmei",
+   "zh": "元明天皇"
+  },
+  "description": "Empress regnant of Japan",
+  "coord": null,
+  "image": "Empress Gemmei.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 661,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 721,
+   "date": "0721-12-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Empress Genmei",
+   "zh": "元明天皇"
+  },
+  "locationQid": null
  },
  "Q233254": {
   "label": {
@@ -20707,6 +20923,38 @@
   },
   "locationQid": null
  },
+ "Q307678": {
+  "label": {
+   "en": "Abdallahi ibn Muhammad",
+   "zh": "哈里發·阿布都拉"
+  },
+  "description": "Sudanese Ansar ruler (1846–1899)",
+  "coord": null,
+  "image": "Abdallahi ibn Muhammad, 1846-1899.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1846,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1899,
+   "date": "1899-11-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abdallahi ibn Muhammad",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q309333": {
   "label": {
    "en": "Mansa Musa",
@@ -20768,6 +21016,33 @@
   "wiki": {
    "en": "Tokhtamysh",
    "zh": "脫脫迷失"
+  },
+  "locationQid": null
+ },
+ "Q3101072": {
+  "label": {
+   "en": "Zhizhi",
+   "zh": "郅支单于"
+  },
+  "description": "supreme ruler of the Xiongnu Empire (d. 36 BCE)",
+  "coord": null,
+  "image": "Hsiung-nu-Empire.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": -35,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhizhi",
+   "zh": "郅支單于"
   },
   "locationQid": null
  },
@@ -21931,6 +22206,33 @@
   },
   "locationQid": null
  },
+ "Q3183804": {
+  "label": {
+   "en": "Dharmapala",
+   "zh": "法护王"
+  },
+  "description": "8th century Pala Emperor of Bengal and Bihar",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 810,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dharmapala of Bengal",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q318811": {
   "label": {
    "en": "Tongzhi Emperor",
@@ -22249,6 +22551,40 @@
    "zh": "阿布賚"
   },
   "locationQid": null
+ },
+ "Q3239600": {
+  "label": {
+   "en": "Sultan Satuq Bughra Khan",
+   "zh": "萨图克·博格拉汗"
+  },
+  "description": "Turkic ruler (920-955)",
+  "coord": {
+   "lat": 39.6877,
+   "lon": 76.1749
+  },
+  "image": "Mausoleum of Satuq Bughra Khan (detail, B&W), Artush (Hercule Louis Catenacci, 1816-1884).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 914,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 955,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sultan Satuq Bughra Khan",
+   "zh": "萨图克·博格拉汗"
+  }
  },
  "Q3244637": {
   "label": {
@@ -23175,6 +23511,28 @@
   "wiki": {
    "en": "Saitō Makoto",
    "zh": "齋藤實"
+  },
+  "locationQid": null
+ },
+ "Q3352284": {
+  "label": {
+   "en": "Gopala",
+   "zh": "瞿波罗一世"
+  },
+  "description": "8th century founder of Indian Pala Dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gopala I",
+   "zh": null
   },
   "locationQid": null
  },
@@ -27021,6 +27379,70 @@
    "zh": "鸣梁海战"
   }
  },
+ "Q3870512": {
+  "label": {
+   "en": "Nasrullah Khan",
+   "zh": "納斯魯拉汗"
+  },
+  "description": "Emir of Bukhara",
+  "coord": null,
+  "image": "Nasrulla.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1806,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1860,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nasrullah Khan (emir of Bukhara)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q387151": {
+  "label": {
+   "en": "Ilterish Qaghan",
+   "zh": "骨咄禄"
+  },
+  "description": "Goturk ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 601,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 693,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ilterish Qaghan",
+   "zh": "骨咄禄"
+  },
+  "locationQid": null
+ },
  "Q387647": {
   "label": {
    "en": "Year of Africa",
@@ -28435,6 +28857,38 @@
    "zh": "土耳其"
   }
  },
+ "Q4305947": {
+  "label": {
+   "en": "Muzaffar bin Nasrullah",
+   "zh": null
+  },
+  "description": "Emir of Bukhara from 1860 to 1885",
+  "coord": null,
+  "image": "Muzaffar.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1834,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1885,
+   "date": "1885-10-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muzaffar bin Nasrullah",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q430964": {
   "label": {
    "en": "Hōjō Tokimune",
@@ -29149,6 +29603,38 @@
    "en": "Battle of Shanhai Pass",
    "zh": "一片石之战"
   }
+ },
+ "Q4521263": {
+  "label": {
+   "en": "Xah Murad",
+   "zh": null
+  },
+  "description": "First Emir of Bukhara from 1785 to 1800",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1749,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1800,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shah Murad",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q45241": {
   "label": {
@@ -30074,6 +30560,38 @@
    "zh": "茉莉花革命"
   },
   "locationQid": "Q948"
+ },
+ "Q469661": {
+  "label": {
+   "en": "Junius Richard Jayewardene",
+   "zh": "朱尼厄斯·理查德·贾亚瓦尔德纳"
+  },
+  "description": "President of Sri Lanka from 1978 to 1989",
+  "coord": null,
+  "image": "J. R. Jayawardene, President of the Democratic Socialist Republic of Sri Lanka on June 20, 1984.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1906,
+   "date": "1906-09-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1996,
+   "date": "1996-11-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "J. R. Jayewardene",
+   "zh": "朱尼厄斯·理查德·贾亚瓦德纳"
+  },
+  "locationQid": null
  },
  "Q470030": {
   "label": {
@@ -36773,6 +37291,38 @@
    "zh": "圣彼得堡"
   }
  },
+ "Q663001": {
+  "label": {
+   "en": "Don Stephen Senanayake",
+   "zh": "斯蒂芬·森纳那亚克"
+  },
+  "description": "Prime Minister of Sri Lanka (1884-1952)",
+  "coord": null,
+  "image": "Official Photographic Portrait of Don Stephen Senanayaka (1884-1952).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1884,
+   "date": "1884-10-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1952,
+   "date": "1952-03-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "D. S. Senanayake",
+   "zh": "斯蒂芬·森纳那亚克"
+  },
+  "locationQid": null
+ },
  "Q668": {
   "label": {
    "en": "India",
@@ -36937,6 +37487,33 @@
   "wiki": {
    "en": "Kutlug I Bilge Qaghan",
    "zh": "怀仁可汗"
+  },
+  "locationQid": null
+ },
+ "Q68234": {
+  "label": {
+   "en": "Bögü Khagan",
+   "zh": "牟羽可汗"
+  },
+  "description": "Uyghur Khan",
+  "coord": null,
+  "image": "Detail of Bögü Qaghan, in Conversion of Bögü Qaghan (759-780 CE) to Manicheism in 762 (8th century Manichean painter).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 780,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bögü Qaghan",
+   "zh": "牟羽可汗"
   },
   "locationQid": null
  },
@@ -41576,6 +42153,38 @@
   "wiki": {
    "en": "Emperor Guangzong of Song",
    "zh": "宋光宗"
+  },
+  "locationQid": null
+ },
+ "Q7494639": {
+  "label": {
+   "en": "Sher Singh",
+   "zh": null
+  },
+  "description": "Fourth Maharaja of the Sikh Empire from 1841–1843",
+  "coord": null,
+  "image": "Painting of Maharaja Sher Singh wearing the Koh-i-Noor diamond, by August Schoefft, ca.1841–42.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1807,
+   "date": "1807-12-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1843,
+   "date": "1843-09-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sher Singh",
+   "zh": null
   },
   "locationQid": null
  },

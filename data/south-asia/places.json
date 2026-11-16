@@ -549,7 +549,7 @@
     "names": [
       {
         "from": 1021,
-        "to": 1186,
+        "to": 1163,
         "name": {
           "en": "Lahawar (Lahore)",
           "zh": "拉哈瓦尔（拉合尔）"
@@ -558,6 +558,19 @@
           "en": "Ghaznavid Empire",
           "zh": "伽色尼王朝"
         }
+      },
+      {
+        "from": 1163,
+        "to": 1186,
+        "name": {
+          "en": "Lahawar (Lahore)",
+          "zh": "拉哈瓦尔（拉合尔）"
+        },
+        "polity": {
+          "en": "Ghaznavid Empire",
+          "zh": "伽色尼王朝"
+        },
+        "capital": true
       },
       {
         "from": 1186,
@@ -961,6 +974,19 @@
       },
       {
         "from": 1972,
+        "to": 1982,
+        "name": {
+          "en": "Colombo",
+          "zh": "科伦坡"
+        },
+        "polity": {
+          "en": "Sri Lanka",
+          "zh": "斯里兰卡"
+        },
+        "capital": true
+      },
+      {
+        "from": 1982,
         "to": null,
         "name": {
           "en": "Colombo",
@@ -992,7 +1018,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "The first name range starts at Ibn Battuta’s mention; the port is older."
+    "note": "The first name range starts at Ibn Battuta’s mention; the port is older. Sri Jayawardenepura Kotte became the official (legislative) capital in 1982; Colombo remains the executive and commercial capital."
   },
   {
     "id": "place-dhaka",

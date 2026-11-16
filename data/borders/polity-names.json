@@ -173,6 +173,10 @@
   "zh": "阿尔巴尼亚",
   "family": "albania"
  },
+ "Alchon Huns": {
+  "zh": "阿尔雄匈人",
+  "family": "alchon"
+ },
  "Algeria": {
   "zh": "阿尔及利亚",
   "family": "algeria"
@@ -590,6 +594,10 @@
  "Ayuukjä'äy (Mixe)": {
   "zh": "米塞人"
  },
+ "Ayyubid Sultanate": {
+  "zh": "阿尤布王朝",
+  "family": "egypt"
+ },
  "Azandes": {
   "zh": "阿赞德人"
  },
@@ -758,6 +766,10 @@
   "zh": "比弗湖克里人",
   "family": "cree"
  },
+ "Bechuanaland": {
+  "zh": "贝专纳兰",
+  "family": "botswana"
+ },
  "Bedouins": {
   "zh": "贝都因人"
  },
@@ -768,6 +780,10 @@
  "Beja people": {
   "zh": "贝贾人",
   "family": "beja"
+ },
+ "Belarus": {
+  "zh": "白俄罗斯",
+  "family": "belarus"
  },
  "Belgian Congo": {
   "zh": "比属刚果",
@@ -977,6 +993,10 @@
   "zh": "英属圭亚那",
   "family": "guyana"
  },
+ "British Malaya": {
+  "zh": "英属马来亚",
+  "family": "malaysia"
+ },
  "British Protectorate": {
   "zh": "英国保护国"
  },
@@ -986,6 +1006,10 @@
  },
  "British Somaliland": {
   "zh": "英属索马里兰"
+ },
+ "Britons": {
+  "zh": "不列颠人（后罗马时代诸王国）",
+  "family": "wales"
  },
  "Brothertown": {
   "zh": "布拉泽敦人"
@@ -1642,6 +1666,14 @@
   "zh": "法属刚果",
   "family": "congo"
  },
+ "Congo Free State": {
+  "zh": "刚果自由邦",
+  "family": "congo-kinshasa"
+ },
+ "Congo-Léopoldville": {
+  "zh": "刚果（利奥波德维尔）",
+  "family": "congo-kinshasa"
+ },
  "Conoy": {
   "zh": "科诺伊人"
  },
@@ -1767,6 +1799,10 @@
   "zh": "昔兰尼加",
   "family": "libya"
  },
+ "Cyrenaica (UK)": {
+  "zh": "昔兰尼加（英属）",
+  "family": "libya"
+ },
  "Czech Republic": {
   "zh": "捷克共和国",
   "family": "czech"
@@ -1843,6 +1879,10 @@
  "Delaware": {
   "zh": "特拉华人（伦尼莱纳佩人）",
   "family": "delaware"
+ },
+ "Democratic Republic of the Congo": {
+  "zh": "刚果民主共和国",
+  "family": "congo-kinshasa"
  },
  "Dena'ina Ełnena": {
   "zh": "德纳伊纳人领地"
@@ -1943,6 +1983,10 @@
  "Dorset": {
   "zh": "多塞特文化"
  },
+ "Duchy of Apulia and Calabria": {
+  "zh": "阿普利亚和卡拉布里亚公国",
+  "family": "sicily"
+ },
  "Duchy of Benevento": {
   "zh": "贝内文托公国"
  },
@@ -1951,6 +1995,10 @@
  },
  "Dumnonia": {
   "zh": "杜姆诺尼亚王国",
+  "family": "dumnonia"
+ },
+ "Dumnonii": {
+  "zh": "杜姆诺尼人",
   "family": "dumnonia"
  },
  "Dumonii": {
@@ -2235,8 +2283,16 @@
   "zh": "法蒂玛王朝",
   "family": "egypt"
  },
+ "Federal Republic of Yugoslavia": {
+  "zh": "南斯拉夫联盟共和国",
+  "family": "serbia"
+ },
  "Fernandeño Tataviam": {
   "zh": "费尔南德尼奥-塔塔维亚姆人"
+ },
+ "Fezzan (France)": {
+  "zh": "费赞（法属）",
+  "family": "libya"
  },
  "Fezzan (Frech Lybia)": {
   "zh": "费赞（法属利比亚）",
@@ -2259,6 +2315,10 @@
  "Finns": {
   "zh": "芬兰人",
   "family": "finland"
+ },
+ "First Bulgarian Empire": {
+  "zh": "第一保加利亚帝国",
+  "family": "bulgaria"
  },
  "First Samori Empire": {
   "zh": "萨摩里帝国（瓦苏卢）",
@@ -2308,6 +2368,10 @@
   "zh": "法属喀麦隆",
   "family": "cameroon"
  },
+ "French Dahomey": {
+  "zh": "法属达荷美",
+  "family": "dahomey"
+ },
  "French Equatorial Africa": {
   "zh": "法属赤道非洲"
  },
@@ -2326,6 +2390,10 @@
  "French Somaliland": {
   "zh": "法属索马里兰",
   "family": "djibouti"
+ },
+ "French Sudan": {
+  "zh": "法属苏丹",
+  "family": "mali"
  },
  "French West Africa": {
   "zh": "法属西非"
@@ -2397,6 +2465,10 @@
  },
  "Garífuna": {
   "zh": "加里富纳人"
+ },
+ "Gauda Kingdom": {
+  "zh": "高达王国（设赏迦）",
+  "family": "bengal"
  },
  "Gaya": {
   "zh": "伽倻"
@@ -2470,6 +2542,10 @@
  "Ghaznavid Emirate": {
   "zh": "伽色尼王朝",
   "family": "ghaznavid"
+ },
+ "Ghurid Sultanate": {
+  "zh": "古尔王朝",
+  "family": "ghurid"
  },
  "Gilbert and Ellice Islands": {
   "zh": "吉尔伯特和埃利斯群岛"
@@ -2805,6 +2881,10 @@
  },
  "Ha Shuta Enima (Mazateco)": {
   "zh": "马萨特克人"
+ },
+ "Habsburg Monarchy": {
+  "zh": "哈布斯堡君主国",
+  "family": "austria"
  },
  "Habsburg Netherlands": {
   "zh": "哈布斯堡尼德兰",
@@ -3373,6 +3453,10 @@
  "Jococobas": {
   "zh": "霍科科巴人"
  },
+ "Johor Sultanate": {
+  "zh": "柔佛苏丹国",
+  "family": "malaysia"
+ },
  "Jordan": {
   "zh": "约旦",
   "family": "jordan"
@@ -3452,6 +3536,10 @@
  "Kalaamaya": {
   "zh": "卡拉马亚人"
  },
+ "Kalachuris": {
+  "zh": "卡拉丘里王朝",
+  "family": "kalachuri"
+ },
  "Kalapalo": {
   "zh": "卡拉帕洛人"
  },
@@ -3489,6 +3577,10 @@
  "Kalmar Union": {
   "zh": "卡尔马联合",
   "family": "denmark"
+ },
+ "Kalmyk Khanate": {
+  "zh": "卡尔梅克汗国",
+  "family": "kalmyk"
  },
  "Kamaiurá": {
   "zh": "卡迈乌拉人"
@@ -3574,6 +3666,10 @@
  },
  "Karakalpaks": {
   "zh": "卡拉卡尔帕克人"
+ },
+ "Karakhanid Khanate": {
+  "zh": "喀喇汗王朝",
+  "family": "karakhanid"
  },
  "Karangpurru": {
   "zh": "卡兰普鲁人"
@@ -3814,9 +3910,17 @@
   "zh": "基马克-钦察汗国",
   "family": "cuman"
  },
+ "Kingdom of Alba": {
+  "zh": "阿尔巴王国",
+  "family": "scotland"
+ },
  "Kingdom of Brazil": {
   "zh": "巴西帝国",
   "family": "brazil"
+ },
+ "Kingdom of Burgundy": {
+  "zh": "勃艮第王国",
+  "family": "burgundy"
  },
  "Kingdom of France": {
   "zh": "法兰西王国",
@@ -3826,9 +3930,17 @@
   "zh": "格鲁吉亚王国",
   "family": "georgia"
  },
+ "Kingdom of Great Britain": {
+  "zh": "大不列颠王国",
+  "family": "england"
+ },
  "Kingdom of Hawaii": {
   "zh": "夏威夷王国",
   "family": "hawaii"
+ },
+ "Kingdom of Hejaz and Nejd": {
+  "zh": "汉志和内志王国",
+  "family": "saudi"
  },
  "Kingdom of Hungary": {
   "zh": "匈牙利王国",
@@ -3860,6 +3972,14 @@
  "Kingdom of Sardinia": {
   "zh": "撒丁王国",
   "family": "italy"
+ },
+ "Kingdom of Serbs, Croats and Slovenes": {
+  "zh": "塞尔维亚人、克罗地亚人和斯洛文尼亚人王国",
+  "family": "serbia"
+ },
+ "Kingdom of Sicily": {
+  "zh": "西西里王国",
+  "family": "sicily"
  },
  "Kingdom of Sind": {
   "zh": "信德王国",
@@ -4487,6 +4607,10 @@
  "Maitraka Kingdom": {
   "zh": "迈特拉卡王朝",
   "family": "maitraka"
+ },
+ "Majapahit": {
+  "zh": "满者伯夷",
+  "family": "majapahit"
  },
  "Makah": {
   "zh": "马卡人"
@@ -6171,6 +6295,10 @@
   "zh": "巴拉圭",
   "family": "paraguay"
  },
+ "Paramaras": {
+  "zh": "帕拉马拉王朝",
+  "family": "paramara"
+ },
  "Paramas": {
   "zh": "帕拉马拉王朝"
  },
@@ -6739,6 +6867,10 @@
  "Rembarnga": {
   "zh": "伦巴恩加人"
  },
+ "Republic of Dahomey": {
+  "zh": "达荷美共和国",
+  "family": "dahomey"
+ },
  "Republic of Kraków": {
   "zh": "克拉科夫自由市"
  },
@@ -6788,6 +6920,10 @@
   "zh": "罗马（君士坦丁）",
   "family": "rome"
  },
+ "Rome (Constantius)": {
+  "zh": "罗马（君士坦提乌斯）",
+  "family": "rome"
+ },
  "Rome (Diocletianus)": {
   "zh": "罗马（戴克里先）",
   "family": "rome"
@@ -6816,6 +6952,10 @@
   "zh": "鲁珀特地",
   "family": "canada"
  },
+ "Rus principalities": {
+  "zh": "罗斯诸公国",
+  "family": "russia"
+ },
  "Rus' Khaganate": {
   "zh": "罗斯汗国",
   "family": "russia"
@@ -6841,6 +6981,10 @@
  },
  "S'Klallam": {
   "zh": "克拉勒姆人"
+ },
+ "Saadi Sultanate": {
+  "zh": "萨阿德王朝",
+  "family": "morocco"
  },
  "Saami": {
   "zh": "萨米人",
@@ -6958,6 +7102,10 @@
  "Samoyèdes": {
   "zh": "萨莫耶德人"
  },
+ "Samudera Pasai": {
+  "zh": "须文答剌-巴赛苏丹国",
+  "family": "pasai"
+ },
  "San Carlos Apache": {
   "zh": "圣卡洛斯阿帕奇人",
   "family": "apache"
@@ -7013,6 +7161,10 @@
  },
  "Sataré-Mawé": {
   "zh": "萨塔雷-马韦人"
+ },
+ "Satavahana Empire": {
+  "zh": "百乘王朝",
+  "family": "satavahana"
  },
  "Satavahanihara": {
   "zh": "百乘王朝"
@@ -7074,6 +7226,10 @@
  },
  "Scythians": {
   "zh": "斯基泰人"
+ },
+ "Second Bulgarian Empire": {
+  "zh": "第二保加利亚帝国",
+  "family": "bulgaria"
  },
  "Second Samori Empire": {
   "zh": "萨摩里帝国（第二）",
@@ -7317,6 +7473,10 @@
   "zh": "信德",
   "family": "sindh"
  },
+ "Singhasari": {
+  "zh": "新柯沙里王国",
+  "family": "singhasari"
+ },
  "Sinhalese kingdom": {
   "zh": "僧伽罗王国",
   "family": "sri-lanka"
@@ -7450,6 +7610,10 @@
  "South Russia": {
   "zh": "南俄罗斯（白军）"
  },
+ "South West Africa": {
+  "zh": "西南非洲",
+  "family": "namibia"
+ },
  "Southeastern Pomo": {
   "zh": "东南波莫人",
   "family": "pomo"
@@ -7472,6 +7636,10 @@
  },
  "Southern Xiongnu": {
   "zh": "南匈奴"
+ },
+ "Soviet Russia": {
+  "zh": "苏维埃俄国",
+  "family": "russia"
  },
  "Spain": {
   "zh": "西班牙",
@@ -7554,6 +7722,10 @@
  "Sultanate of Delhi": {
   "zh": "德里苏丹国",
   "family": "delhi-sultanate"
+ },
+ "Sultanate of Rum": {
+  "zh": "罗姆苏丹国",
+  "family": "seljuk"
  },
  "Sultanate of Utetera": {
   "zh": "乌特泰拉苏丹国"
@@ -7747,6 +7919,10 @@
  "Tang Empire": {
   "zh": "唐朝",
   "family": "china"
+ },
+ "Tanganyika Territory": {
+  "zh": "坦噶尼喀领地",
+  "family": "tanzania"
  },
  "Tanimuka": {
   "zh": "塔尼穆卡人"
@@ -8054,6 +8230,10 @@
   "zh": "图阿雷格人",
   "family": "tuareg"
  },
+ "Transjordan": {
+  "zh": "外约旦",
+  "family": "jordan"
+ },
  "Transvaal": {
   "zh": "德兰士瓦"
  },
@@ -8076,6 +8256,10 @@
  },
  "Tripolitania": {
   "zh": "的黎波里塔尼亚",
+  "family": "libya"
+ },
+ "Tripolitania (UK)": {
+  "zh": "的黎波里塔尼亚（英属）",
   "family": "libya"
  },
  "Trucial Oman": {
@@ -8246,6 +8430,10 @@
   "zh": "苏联",
   "family": "russia"
  },
+ "Ubangi-Shari": {
+  "zh": "乌班吉沙立",
+  "family": "central-african-republic"
+ },
  "Uchucklesaht": {
   "zh": "乌查克尔萨特人"
  },
@@ -8322,6 +8510,10 @@
   "zh": "大不列颠及爱尔兰联合王国",
   "family": "england"
  },
+ "United Kingdom of the Netherlands": {
+  "zh": "尼德兰联合王国",
+  "family": "netherlands"
+ },
  "United Provinces of the Río de la Plata": {
   "zh": "拉普拉塔联合省",
   "family": "argentina"
@@ -8342,6 +8534,10 @@
  },
  "Upper Tanana": {
   "zh": "上塔纳纳人"
+ },
+ "Upper Volta": {
+  "zh": "上沃尔特",
+  "family": "burkina-faso"
  },
  "Uru": {
   "zh": "乌鲁人"
@@ -8577,6 +8773,10 @@
  },
  "Walmatjarri": {
   "zh": "瓦尔马贾里人"
+ },
+ "Walvis Bay": {
+  "zh": "鲸湾",
+  "family": "namibia"
  },
  "Wambaya": {
   "zh": "万巴亚人"
@@ -9317,6 +9517,10 @@
  "Zacatecs": {
   "zh": "萨卡特科人",
   "family": "zacateco"
+ },
+ "Zagwe dynasty": {
+  "zh": "扎格维王朝",
+  "family": "ethiopia"
  },
  "Zaire": {
   "zh": "扎伊尔",

@@ -4,7 +4,7 @@
     "id": "ev-ezana-adopts-christianity",
     "qid": "Q2068595",
     "type": "religious",
-    "year": 330,
+    "year": 340,
     "name": {
       "en": "Ezana of Aksum adopts Christianity",
       "zh": "阿克苏姆国王埃扎纳皈依基督教"
@@ -39,7 +39,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Conversion is dated only approximately (c. 330s–350s). QID is the Ezana Stone, the inscription that records it; Wikidata dates the stone only to the 4th century."
+    "note": "Conversion is dated only approximately (c. 330s–350s). 340 is used because Ezana succeeded as a minor c. 330 and, per Rufinus, adopted the faith after coming of age, when Frumentius returned as bishop. QID is the Ezana Stone, the inscription that records it; Wikidata dates the stone only to the 4th century."
   },
   {
     "region": "africa",
@@ -427,7 +427,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Sources give 1062–1070 for the foundation; Wikidata gives 1065. 1070 follows Bennison and Britannica."
+    "note": "Disputed: Ibn Abi Zarʿ and Ibn Khaldun give 1062 (454 AH); Ibn ʿIdhari gives 1070, followed by Bennison and most recent scholarship. Britannica says only “mid-11th century”; Wikidata gives 1065. The founder may have been Abu Bakr ibn ʿUmar rather than Yusuf."
   },
   {
     "region": "africa",
@@ -875,8 +875,8 @@
       "zh": "埃塞俄比亚—阿达尔战争"
     },
     "summary": {
-      "en": "Imam Ahmad ibn Ibrahim al-Ghazi (“Gran”) of Adal routed Emperor Lebna Dengel at Shimbra Kure in 1529 and overran most of the Christian highlands. With help from 400 Portuguese musketeers, Emperor Gelawdewos killed the imam at Wayna Daga in 1543.",
-      "zh": "阿达尔苏丹国的伊玛目艾哈迈德·伊本·易卜拉欣·加齐（“格兰”）于1529年在申布拉库雷大败皇帝莱布纳·丹格尔，占领基督教高原大部。1543年，格拉德沃斯皇帝在四百名葡萄牙火枪手协助下于韦纳达加击毙伊玛目。"
+      "en": "Imam Ahmad ibn Ibrahim al-Ghazi (“Gran”) of Adal routed Emperor Lebna Dengel at Shimbra Kure in 1529 and overran most of the Christian highlands. Aided by a Portuguese expedition of 400 musketeers that landed in 1541, Emperor Gelawdewos killed the imam at Wayna Daga in 1543.",
+      "zh": "阿达尔苏丹国的伊玛目艾哈迈德·伊本·易卜拉欣·加齐（“格兰”）于1529年在申布拉库雷大败皇帝莱布纳·丹格尔，占领基督教高原大部。1541年四百名葡萄牙火枪手登陆驰援，1543年格拉德沃斯皇帝在其协助下于韦纳达加击毙伊玛目。"
     },
     "lat": 11.9,
     "lon": 37.9,
@@ -1023,7 +1023,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Wikidata has no coordinates; Tondibi lies on the Niger c. 50 km north of Gao (position approximate). The desert route is only partly documented."
+    "note": "Wikidata has no coordinates; Tondibi lies on the Niger c. 50 km north of Gao (position approximate). Date: the Tarikh al-Sudan gives Tuesday 17 Jumada I 999, i.e. 12 March 1591; many accounts give 13 March. The desert route is only partly documented."
   },
   {
     "region": "africa",
@@ -1243,7 +1243,7 @@
   {
     "region": "africa",
     "id": "ev-fula-jihads-sokoto",
-    "qid": "Q2736105",
+    "qid": "Q16707899",
     "type": "religious",
     "year": 1804,
     "endYear": 1808,
@@ -1266,8 +1266,8 @@
     ],
     "sources": [
       {
-        "title": "Wikipedia: Fula jihads",
-        "url": "https://en.wikipedia.org/wiki/Fula_jihads"
+        "title": "Wikipedia: Jihad of Usman dan Fodio",
+        "url": "https://en.wikipedia.org/wiki/Jihad_of_Usman_dan_Fodio"
       },
       {
         "title": "Murray Last, The Sokoto Caliphate (1967)"
@@ -1277,7 +1277,8 @@
       }
     ],
     "confidence": "high",
-    "note": "QID is the wider series of Fula jihads (18th–19th c.); the dates here cover the Sokoto jihad proper (1804–1808)."
+    "note": "QID is the Sokoto jihad proper (Wikidata “Sokoto Revolution”, 1804–1808); Gobir declared war on 21 February 1804, just after the hijra to Gudu. Marker at Sokoto.",
+    "date": "1804-02-21"
   },
   {
     "region": "africa",
@@ -2442,7 +2443,7 @@
     "type": "political",
     "year": 2010,
     "endYear": 2011,
-    "date": "2010-12-18",
+    "date": "2010-12-17",
     "name": {
       "en": "Tunisian revolution",
       "zh": "突尼斯革命"
