@@ -79,3 +79,92 @@ Corrections made during the spot-check:
   after 1989–1991, and no Third Reich polity in any dataset.
 - Ongoing-war content (Russian invasion of Ukraine) is summarised conservatively with UN/OHCHR
   sources and should be revisited as figures change.
+
+## 2026-11 review
+
+Independent reviewer, separate from the curator. Sample chosen to avoid the curator's own
+spot-check list wherever possible.
+
+### What was sampled (about 135 of 173 original records, 78 %)
+
+- **Events (70)**: every summary of the 52 events without a story, plus 37 stories read in full
+  (all importance ≥ 4 events, among them Corpus Juris, Nika, Gothic War, 717, Iconoclasm, Moravian
+  mission, Preslav, Hungarian conquest, baptism of Poland, Stephen I, 1204, Mongol invasion, Mohi,
+  Hussite Wars, Time of Troubles, Khmelnytsky, St Petersburg, Partitions, Crimean War, Emancipation,
+  periodic table, 1905, Sarajevo, February Revolution, Civil War, Holodomor, Great Purge, Auschwitz,
+  Leningrad, 1956, Prague Spring, Solidarity, Baltic Way, Velvet Revolution, Ukrainian
+  independence, Srebrenica, 2022 invasion, plus Kleidion, Kosovo, Mohács).
+- **People (24)** and every journey stop: Theodora, Heraclius, Cyril, Methodius, Olga, Vladimir,
+  Yaroslav, Nevsky, Stephen I, Matthias, Jogaila, Charles IV, Hus, Ivan III, Ivan IV, Khmelnytsky,
+  Kościuszko, Pugachev, Pushkin, Tolstoy, Mendeleev, Stalin, Havel, Gorbachev (plus the stories of
+  Olga, Skanderbeg and Shevchenko).
+- **Places (11)**: Wrocław, Lviv, Vilnius, Bratislava, Plovdiv, Sofia, Tallinn, Nizhny Novgorod,
+  Dnipro, Cluj-Napoca, Ljubljana (name ranges and polities).
+- **Polities (30)**: every ruler list and reign.
+- All 33 resolution verdicts re-read; the reasons hold up.
+- `zh`: all names and roles, and the zh text of every edited record; scanned all zh fields for
+  traditional characters (none).
+
+Checked against: Wikidata items via `wd.mjs lookup` (QIDs, dates and the coordinates of every
+relocated stop), the standard literature cited in the records and beyond it (Britannica, Oxford
+Dictionary of Byzantium, Engel, Davies, Plokhy, Hasegawa, Garton Ash, Leo the Deacon, Thietmar,
+the Primary Chronicle), the UN Human Rights Monitoring Mission in Ukraine (civilian casualty
+updates to October 2025) and the UN Digital Library (A/RES/ES-11/4).
+
+### Cross-dataset duplicates
+
+Compared all eastern-europe QIDs, ids and English names with `origin/data/west-asia` (PR #10) and
+with the Western Europe worktree (including its 88 new work-in-progress events) and every other
+dataset: **no duplicate QID, id or name**. Kosovo, Nicopolis, Varna, Mohács, Auschwitz and the
+Balkan/Eastern Front events exist only here; Vienna 1683, Napoleon in Russia, Stalingrad, the
+Eastern Front, Grunwald, Poltava and Chernobyl exist only in `europe` and are linked, not repeated.
+Near-overlaps left for the Western Europe curator: `ev-the-holocaust` (Q2763) is plotted at the
+Birkenau coordinates (50.0343, 19.1784) already used by `ev-auschwitz` (Q7341), so the two markers
+stack; it would be better placed elsewhere (e.g. Berlin or Wannsee) with Auschwitz linked.
+
+### Corrections
+
+| Record | Old → new | Reason / source |
+| --- | --- | --- |
+| `person-bohdan-khmelnytsky` 1620 | (48.03, 28.07) → (47.13, 27.79) | Cecora is Țuțora near Iași (Wikidata Q2287554) |
+| `person-bohdan-khmelnytsky` 1630 | (49.03, 32.12) → (49.10, 32.56) | Subotiv near Chyhyryn (Q2661769) |
+| `person-bohdan-khmelnytsky` 1651, `ev-khmelnytsky-uprising` route | (50.18, 25.73) → (50.35, 25.12) | Berestechko (Q819126) |
+| `person-jan-zizka` 1360 / 1424 | (49.17, 14.15) → (48.91, 14.60); (49.60, 15.92) → (49.58, 15.74) | Trocnov (Q655554); Přibyslav (Q161060) |
+| `person-ivan-iii` 1471 | (58.3, 31.3) → (58.12, 30.32) | Battle of the Shelon was fought near Soltsy (Q196390) |
+| `person-ivan-iii` 1480, `ev-great-stand-on-the-ugra` | (54.5, 35.75) → (54.57, 36.05) | Ugra crossings near Kaluga (Q25628) |
+| `person-stefan-dusan` 1355 | (42.65, 20.29) → (42.20, 20.76) | Holy Archangels monastery is near Prizren, not Peć (Q1365953) |
+| `person-cyril` 861 | (45, 34) → (44.61, 33.49) | Crimean centroid replaced by Chersonesos, where Cyril stopped (Q638445; Vita Constantini) |
+| `person-john-hunyadi` 1430 | Turin → Milan | Filippo Maria Visconti was duke of Milan |
+| `person-alexander-nevsky` 1242 | aligned with `ev-battle-on-the-ice` (58.23, 27.5) | consistency with the event's Lake Lämmijärv point |
+| `person-kosciuszko` 1746, `person-pushkin` 1830, `person-tolstoy` 1910, `person-shevchenko` 1814 | moved 6–25 km | Mieračoŭščyna (Q2579602), Bolshoye Boldino (Q4092262), Astapovo/Lev Tolstoy (Q599866), Moryntsi (Q2180620) |
+| `ev-great-purge` summary | "680,000 shot … well over a million sent to the Gulag" → "some 1.5 million arrested, about 680,000 of them shot" | NKVD figures for 1937–38 (1.55 m arrests, 682,000 executions; Khlevniuk) |
+| `ev-russian-invasion-of-ukraine-2022` | summary, story, note | brought to late 2025: UN-verified c. 14,500 civilian deaths (Oct 2025), the September 2022 annexation claim and UNGA ES-11/4, 2025 talks with no ceasefire; "recaptured Kharkiv and Kherson regions" → "much of Kharkiv region and the city of Kherson" |
+| `ev-christianization-of-bulgaria` | "autocephalous" → "autonomous" archbishopric (870) | autocephaly came only in the 10th century (Curta) |
+| `ev-oprichnina` | "massacred much of Novgorod's population" → "killed thousands" | estimates for 1570 range from c. 2,000–3,000 to 15,000 (de Madariaga) |
+| `ev-november-uprising` | "including Chopin's circle" → the émigré political and cultural elite | Chopin had left Poland before the rising |
+| `ev-partitions-of-poland` story | abolition of the name Poland dated 1795 → 1797 | St Petersburg convention of January 1797 |
+| `ev-assassination-of-franz-ferdinand` story | archduke "chose" 28 June → the visit "fell on" Vidovdan | the date followed the manoeuvres (Clark) |
+| `ev-solidarity` story | "won all but one of the seats it was allowed to contest" → 160 of 161 Sejm seats and 99 of 100 Senate seats | June 1989 results |
+| `ev-velvet-revolution` story | Civic Forum founded "in the Magic Lantern" → founded at the Drama Club, then headquartered in the Magic Lantern | Garton Ash, Krapfl |
+| `person-olga-of-kiev` story | "three revenges" → four (adds the funeral feast); baptism attributed to the chronicle, reception to the Book of Ceremonies | Primary Chronicle 945–946; De ceremoniis II.15 |
+| `person-taras-shevchenko` story | died "a week after his 47th birthday, days before the serfs were emancipated" → the day after, a week before the emancipation was proclaimed | born 25 Feb / died 26 Feb 1861 O.S.; manifesto signed 19 Feb, proclaimed 5 Mar O.S. |
+| `place-dnipro` zh | 第聂伯 (the river) → 第聂伯罗 | standard zh name of the city |
+| `place-donetsk` 2014– | "under Russian control" → "held by Russian-backed forces since 2014; annexation claimed in 2022" | more precise for 2014–2022 |
+
+### Additions (10 records, 2 stories)
+
+- Events: `ev-codex-theodosianus` (438), `ev-battle-of-nedao` (454, medium), `ev-siege-of-dorostolon`
+  (971, with story), `ev-battle-of-beroia` (1122, medium), `ev-first-mention-of-moscow` (1147, no
+  Wikidata item), `ev-battle-of-sirmium` (1167) — filling the thin 5th, 10th and 12th centuries.
+- Polities: `polity-third-polish-republic` (1989–), `polity-czech-republic` (1993–),
+  `polity-slovakia` (1993–), `polity-belarus` (1991–), rulers = heads of state.
+- Story for `ev-katyn-massacre`.
+- One new auto-diff (`polity-third-polish-republic:from`, Wikidata 1918) resolved `keep-ours`.
+
+### Left for a human
+
+- No Hungarian People's Republic or post-1989 Hungary, Baltic-state or Moldovan polities yet;
+  1956 Hungary is still linked to `polity-kingdom-of-hungary`.
+- The ongoing-war figures in `ev-russian-invasion-of-ukraine-2022` should be refreshed as the UN
+  updates them.
+- `ev-the-holocaust` (europe) stacks on `ev-auschwitz`; see above.
