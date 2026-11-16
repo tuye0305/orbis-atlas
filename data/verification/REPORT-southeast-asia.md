@@ -207,17 +207,17 @@ Independent audit using only pages retrieved during the audit (WebFetch/WebSearc
 | person-naresuan (story) | en.wikipedia Naresuan | OK (story already flags that Burmese chronicles differ on the duel) |
 | ev-zhou-daguan-at-angkor (story) | en.wikipedia Zhou Daguan | OK (left Mingzhou, put to sea at Wenzhou; Aug 1296–Jul 1297; French 1819) |
 | ev-yijing-in-srivijaya (story) | en.wikipedia Yijing; zh.wikipedia 义净 | OK |
-| ev-palapa-oath | (record already flags it as Pararaton-only, low confidence); en.wikipedia Gajah Mada via Majapahit search not needed | OK |
+| ev-palapa-oath | web search: en.wikipedia Palapa oath, UINSA Suluk journal article, detik.com (1336 / 1258 Saka; Pararaton only) | OK (satellite year not checked) |
 | person-jayavarman-ii | en.wikipedia Jayavarman II | OK |
 | place-vientiane | en.wikipedia Vientiane | OK; note now says sources date the capital move to 1560 or 1563 |
 | ev-asian-financial-crisis | web search (baht float 2 Jul 1997; rupiah ~2,600 → ~15,000; Suharto 21 May 1998) | OK |
 | person-nguyen-du | en.wikipedia Nguyễn Du | OK |
-| ev-canggal-inscription | (dated 732, Mount Wukir; consistent with the Medang search results) | OK |
+| ev-canggal-inscription | en.wikipedia Canggal inscription | OK (exact day not in source) |
 | polity-hanthawaddy | en.wikipedia Hanthawaddy kingdom | OK |
 | polity-gowa | en.wikipedia Sultanate of Gowa | OK |
 | ev-trinh-nguyen-war | en.wikipedia Trịnh–Nguyễn War; Vietnamese textbook summary (loigiaihay) | OK (en gives the truce as 1673, Vietnamese sources 1672; kept 1672) |
 | polity-french-indochina (story) | en.wikipedia Phan Bội Châu | **Fixed**: story said Phan Bội Châu "came out of" the colonial schools; he was a classically trained laureate of the 1900 regional exams (en + zh) |
-| place-ayutthaya | (rivers and 1351–1767 span consistent with the Naresuan/Alaungpaya pages) | OK |
+| place-ayutthaya | en.wikipedia Ayutthaya (city) | OK; open point: the pre-1351 'Ayothaya' entry starts at 1100, while the source cites evidence of settlement from the late 13th century (the record's note already calls the date approximate) |
 | ev-my-son-sanctuary | en.wikipedia Mỹ Sơn archaeological site | OK (Bhadravarman I, over 70 temples, bombing Aug 1969) |
 | person-alaungpaya | en.wikipedia Alaungpaya | OK |
 | person-ram-khamhaeng | en.wikipedia Ram Khamhaeng | OK (birth year approximate, as the note says) |
