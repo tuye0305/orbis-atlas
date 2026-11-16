@@ -96,3 +96,52 @@ Most coordinate diffs come from Wikidata placeholders: either the China centroid
 - **Long March:** en says ~10,000 km and zh says 二万五千里; both are conventional figures.
 - **Treaty of Shaoxing:** the marker is symbolic, near the Huai boundary.
 - **Southern Tang end:** 976 in the polity record vs 975 in place-nanjing; the polity note explains the difference.
+
+## 2026-11 expansion
+
+Added 59 events, 37 people, 13 places and 17 polities, plus 103 stories (95 events, 8 people). Every event of importance 4 or 5 now has a story: 70 of these were existing records, 25 are new. The Long March (`ev-long-march`) also gained an 11-stop route.
+
+### Auto-diff
+The build flagged 12 new differences. Each was checked against a second source and recorded in `resolutions/china.json`. Result: 0 open.
+- **keep-ours (9):**
+  - Coordinates where Wikidata uses a country or island centroid, or a museum location: Sino-French War, Second Sino-Japanese War, 228 Incident, Qingming scroll.
+  - Coordinates where Wikidata's point is rounded: Yancheng, Jao Modo.
+  - White Lotus: 1796, following Britannica and Encyclopedia.com.
+  - Rites controversy: the record covers 1704–1742; a note was added for the 1645 start.
+  - Cai Lun: born 62?, following Britannica.
+  - `polity-roc-taiwan`: starts in 1949 by design.
+- **disputed (2):** Qingming scroll date (Huizong-era dating vs Wikidata's 1085) and Cao Xueqin's birth year (1715 vs 1724). Both records carry medium or low confidence and a note.
+
+### Spot-check (29 of 126 new records, 23%)
+| # | Record | Checked | Result |
+| --- | --- | --- | --- |
+| 1 | person-cai-lun | dates (Britannica: 62?–121; entered palace 75; paper c. 105) | ✓ |
+| 2 | person-cao-xueqin | dates (Britannica: 1715?–1763) | ✓, confidence low |
+| 3 | ev-white-lotus-rebellion | 1796–1804, Hubei–Sichuan–Shaanxi highlands | ✓ |
+| 4 | ev-battle-of-penghu | Shi Lang's ~300 ships and 20,000 men | ✓. Story's "nearly 200 Zheng ships lost" not confirmed, so **reworded** |
+| 5 | ev-tangshan-earthquake-1976 | ~85% of buildings collapsed; 242,769 official dead | ✓. The claim that ~10,000 miners were underground conflicts between sources, so **reworded** |
+| 6 | place-yinchuan | Xingzhou 1020; name Yinchuan | **fixed**: named 1944, city 1945 (was 1945 for both) |
+| 7 | person-zu-chongzhi | Nanxu post; Daming calendar 462 | **fixed**: Nanxu stop 459 → 461; note added that the Lou county year is approximate |
+| 8 | ev-zu-chongzhi-daming-calendar | 462 (大明六年) | ✓ |
+| 9 | ev-ming-great-wall | Yu Zijun's Yansui wall completed 1474 (Qingshuiying to Huamachi) | ✓. Length and labour figures follow 《明史·余子俊传》 |
+| 10 | ev-bi-sheng-movable-type | Mengxi bitan is the only source; Bi Sheng was a commoner | ✓. Yingshan tomb identification kept as "debated" |
+| 11 | place-tianjin | Zhigu (early 13th c.), Tianjin Wei 1404, zhou 1725, fu 1731 | ✓. 1316 Haijin not independently confirmed (Yuan shi) |
+| 12 | place-shanghai | Shanghai town 1267, county 1292 (some say 1291) | ✓ |
+| 13 | ev-ricci-in-beijing | arrival 24 Jan 1601; clocks and a keyboard instrument | ✓. Ricci never met Wanli in person; summary says "presented" (sent) |
+| 14–25 | the 12 diff records above | second sources listed in the resolutions file | see the Auto-diff section |
+| 26 | person-qiu-jin | Xu Xilin killed Enming 6 Jul 1907; Qiu Jin executed 15 Jul 1907 at Xuanting Kou | ✓ |
+| 27 | person-cixi | Guangxu died 14 Nov 1908 of arsenic poisoning (2008 tests); Cixi died 15 Nov | ✓ |
+| 28 | person-koxinga | Coyett surrendered 1 Feb 1662; Koxinga died June 1662 | ✓ |
+| 29 | polity-roc-taiwan | presidents and terms, 1950–2024 | ✓ |
+
+Fork-written stories for existing events: the claims their drafters flagged were checked against the sources' own figures:
+- **Fei River:** the Jin shu gives 600,000 infantry and 270,000 cavalry.
+- **Caizhou:** fell on 端平元年正月, i.e. February 1234.
+- **Zhao Bing:** born 1272.
+- **1931 floods:** about 180,000 km² flooded.
+
+All of these are consistent with the stories as written.
+
+### Open issues
+- **Events without a QID:** 13 new events have no matching Wikidata item. Examples are Sui conquest of Chen, Zhu Wen ends the Tang, Bi Sheng's movable type, Aguda founds the Jin and China joins the WTO.
+- **Possible overlaps:** `person-koxinga` (born in Hirado) and `person-kumarajiva` (born in Kucha) may also interest the japan-korea and central-asia curators. Other datasets should link to these ids rather than duplicate them.

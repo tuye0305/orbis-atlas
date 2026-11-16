@@ -303,6 +303,137 @@
   },
   "locationQid": null
  },
+ "Q1062546": {
+  "label": {
+   "en": "Later Jin (1616-1636)",
+   "zh": "后金"
+  },
+  "description": "Jurchen-led dynasty in Manchuria",
+  "coord": {
+   "lat": 43,
+   "lon": 125
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1616,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1636,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q331644"
+  ],
+  "wiki": {
+   "en": "Later Jin (1616–1636)",
+   "zh": "后金"
+  }
+ },
+ "Q1069768": {
+  "label": {
+   "en": "Murong Chui",
+   "zh": "慕容垂"
+  },
+  "description": "Emperor of Later Yan from 384 to 396",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 326,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 396,
+   "date": "0396-06-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Murong Chui",
+   "zh": "慕容垂"
+  },
+  "locationQid": null
+ },
+ "Q1069778": {
+  "label": {
+   "en": "Murong Huang",
+   "zh": "慕容皝"
+  },
+  "description": "Prince of Former Yan from 337 to 348",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 297,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 348,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Murong Huang",
+   "zh": "慕容皝"
+  },
+  "locationQid": null
+ },
+ "Q1069797": {
+  "label": {
+   "en": "Juqu Mengxun",
+   "zh": "沮渠蒙逊"
+  },
+  "description": "Chinese prince",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 368,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 433,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juqu Mengxun",
+   "zh": "沮渠蒙遜"
+  },
+  "locationQid": null
+ },
  "Q1069829": {
   "label": {
    "en": "Later Han dynasty",
@@ -391,6 +522,107 @@
   },
   "locationQid": null
  },
+ "Q1069905": {
+  "label": {
+   "en": "Cheng Han",
+   "zh": "成汉"
+  },
+  "description": "one of the 16 Kingdoms of 4th century China with its capital at Chengdu",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 304,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 347,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Cheng-Han",
+   "zh": "成汉"
+  },
+  "locationQid": null
+ },
+ "Q1071026": {
+  "label": {
+   "en": "Disasters of Partisan Prohibitions",
+   "zh": "党锢之祸"
+  },
+  "description": "anti-eunuch protests by Chinese scholars and students (166 and 169)",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 166,
+   "date": null,
+   "precision": 8,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 166,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 169,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1075020"
+  ],
+  "wiki": {
+   "en": "Disasters of the Partisan Prohibitions",
+   "zh": "党锢之祸"
+  },
+  "locationQid": null
+ },
+ "Q1071329": {
+  "label": {
+   "en": "Murong Jun",
+   "zh": "慕容俊"
+  },
+  "description": "Emperor Jingzhao of Yan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 319,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 360,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Murong Jun",
+   "zh": "慕容儁"
+  },
+  "locationQid": null
+ },
  "Q1071537": {
   "label": {
    "en": "Emperor Xiaowu of Northern Wei",
@@ -420,6 +652,38 @@
   "wiki": {
    "en": "Emperor Xiaowu of Northern Wei",
    "zh": "魏孝武帝"
+  },
+  "locationQid": null
+ },
+ "Q1071544": {
+  "label": {
+   "en": "Murong Xi",
+   "zh": "慕容熙"
+  },
+  "description": "Chinese ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 385,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 407,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Murong Xi",
+   "zh": "慕容熙"
   },
   "locationQid": null
  },
@@ -516,6 +780,38 @@
   "wiki": {
    "en": "Fu Jian (317–355)",
    "zh": "苻健"
+  },
+  "locationQid": null
+ },
+ "Q1071718": {
+  "label": {
+   "en": "Meng Chang",
+   "zh": "孟昶"
+  },
+  "description": "Emperor of Later Shu",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 919,
+   "date": "0919-12-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 965,
+   "date": "0965-07-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Meng Chang",
+   "zh": "孟昶"
   },
   "locationQid": null
  },
@@ -621,6 +917,38 @@
   },
   "locationQid": null
  },
+ "Q1074768": {
+  "label": {
+   "en": "Yao Hong",
+   "zh": "姚泓"
+  },
+  "description": "Later Qin Emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 388,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 417,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yao Hong",
+   "zh": "姚泓"
+  },
+  "locationQid": null
+ },
  "Q1074798": {
   "label": {
    "en": "Emperor Wencheng of Northern Wei",
@@ -650,6 +978,38 @@
   "wiki": {
    "en": "Emperor Wencheng of Northern Wei",
    "zh": "魏文成帝"
+  },
+  "locationQid": null
+ },
+ "Q1074804": {
+  "label": {
+   "en": "Murong Wei",
+   "zh": "慕容暐"
+  },
+  "description": "Emperor You of Former Yan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 350,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 384,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Murong Wei",
+   "zh": "慕容暐"
   },
   "locationQid": null
  },
@@ -685,6 +1045,38 @@
   },
   "locationQid": null
  },
+ "Q1076801": {
+  "label": {
+   "en": "Murong Bao",
+   "zh": "慕容宝"
+  },
+  "description": "Chinese emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 355,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 398,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Murong Bao",
+   "zh": "慕容宝"
+  },
+  "locationQid": null
+ },
  "Q1078359": {
   "label": {
    "en": "Battle of Yamen",
@@ -714,6 +1106,38 @@
    "zh": "崖门海战"
   }
  },
+ "Q1078573": {
+  "label": {
+   "en": "Murong Sheng",
+   "zh": "慕容盛"
+  },
+  "description": "Emperor Zhaowu of Later Yan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 373,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 401,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Murong Sheng",
+   "zh": "慕容盛"
+  },
+  "locationQid": null
+ },
  "Q10872057": {
   "label": {
    "en": "proclamation of the People's Republic of China",
@@ -740,6 +1164,26 @@
    "zh": "中華人民共和國中央人民政府成立典禮"
   },
   "locationQid": "Q164055"
+ },
+ "Q10888147": {
+  "label": {
+   "en": "Altan tribute",
+   "zh": "俺答封贡"
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": null,
+   "zh": "俺答封贡"
+  },
+  "locationQid": null
  },
  "Q10891841": {
   "label": {
@@ -781,6 +1225,28 @@
   },
   "locationQid": null
  },
+ "Q11077930": {
+  "label": {
+   "en": "Shòushí calendar",
+   "zh": "授时历"
+  },
+  "description": "Chinese calendar system from the Yuan dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12132"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "授时历"
+  },
+  "locationQid": null
+ },
  "Q11087884": {
   "label": {
    "en": null,
@@ -798,6 +1264,28 @@
   "wiki": {
    "en": null,
    "zh": "永乐迁都"
+  },
+  "locationQid": null
+ },
+ "Q11088230": {
+  "label": {
+   "en": "Ming Great Wall",
+   "zh": "明长城"
+  },
+  "description": "Greatest wall to have ever lived through history",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1784293"
+  ],
+  "wiki": {
+   "en": "Ming Great Wall",
+   "zh": "明长城"
   },
   "locationQid": null
  },
@@ -903,6 +1391,102 @@
   },
   "locationQid": "Q5413"
  },
+ "Q1129329": {
+  "label": {
+   "en": "Wang Yan",
+   "zh": "王衍"
+  },
+  "description": "former Shu emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 899,
+   "date": "0899-08-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 926,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wang Zongyan",
+   "zh": "王衍 (前蜀)"
+  },
+  "locationQid": null
+ },
+ "Q1131409": {
+  "label": {
+   "en": "Duan Ye",
+   "zh": "段业"
+  },
+  "description": "Chinese king",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 350,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 401,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Duan Ye",
+   "zh": "段業"
+  },
+  "locationQid": null
+ },
+ "Q1132566": {
+  "label": {
+   "en": "Juqu Mujian",
+   "zh": "沮渠牧犍"
+  },
+  "description": "Chinese politician (368-447)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 368,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 447,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juqu Mujian",
+   "zh": "沮渠牧犍"
+  },
+  "locationQid": null
+ },
  "Q1138520": {
   "label": {
    "en": "Zhu Yougui",
@@ -964,6 +1548,38 @@
   "wiki": {
    "en": "Emperor Jianwen of Liang",
    "zh": "梁简文帝"
+  },
+  "locationQid": null
+ },
+ "Q1141471": {
+  "label": {
+   "en": "Northern Han",
+   "zh": "北汉"
+  },
+  "description": "one of the Ten Kingdoms in 10th-century China",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 951,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 979,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Northern Han",
+   "zh": "北汉"
   },
   "locationQid": null
  },
@@ -1196,6 +1812,38 @@
   },
   "locationQid": null
  },
+ "Q1147266": {
+  "label": {
+   "en": "Yao Chang",
+   "zh": "姚苌"
+  },
+  "description": "Later Qin emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 331,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 394,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yao Chang",
+   "zh": "姚苌"
+  },
+  "locationQid": null
+ },
  "Q1149114": {
   "label": {
    "en": "Emperor Yuan of Liang",
@@ -1292,6 +1940,70 @@
   },
   "locationQid": null
  },
+ "Q1149150": {
+  "label": {
+   "en": "Yang Xingmi",
+   "zh": "杨行密"
+  },
+  "description": "Military governor of Huainan Circuit who founded and ruled the Wu Kingdom during the 10th-century Five Dynasties and Ten Kingdoms Period of Chinese history",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 852,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 905,
+   "date": "0905-12-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yang Xingmi",
+   "zh": "楊行密"
+  },
+  "locationQid": null
+ },
+ "Q1149160": {
+  "label": {
+   "en": "Yao Xing",
+   "zh": "姚兴"
+  },
+  "description": "Later Qin emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 366,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 416,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yao Xing",
+   "zh": "姚兴"
+  },
+  "locationQid": null
+ },
  "Q1149178": {
   "label": {
    "en": "Emperor Daowu of Northern Wei",
@@ -1321,6 +2033,38 @@
   "wiki": {
    "en": "Emperor Daowu of Northern Wei",
    "zh": "魏道武帝"
+  },
+  "locationQid": null
+ },
+ "Q1149186": {
+  "label": {
+   "en": "Meng Zhixiang",
+   "zh": "孟知祥"
+  },
+  "description": "general and later founder of the Later Shu kingdom",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 874,
+   "date": "0874-05-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 934,
+   "date": "0934-09-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Meng Zhixiang",
+   "zh": "孟知祥"
   },
   "locationQid": null
  },
@@ -1452,6 +2196,33 @@
   },
   "locationQid": null
  },
+ "Q1149413": {
+  "label": {
+   "en": "Helian Ding",
+   "zh": "赫连定"
+  },
+  "description": "Chinese emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 432,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Helian Ding",
+   "zh": "赫連定"
+  },
+  "locationQid": null
+ },
  "Q1149441": {
   "label": {
    "en": "Shi Hu",
@@ -1481,6 +2252,33 @@
   "wiki": {
    "en": "Shi Hu",
    "zh": "石虎 (後趙)"
+  },
+  "locationQid": null
+ },
+ "Q1149447": {
+  "label": {
+   "en": "Helian Chang",
+   "zh": "赫连昌"
+  },
+  "description": "2nd emperor of Xia (Sixteen Kingdoms of Chinese historical period)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 434,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Helian Chang",
+   "zh": "赫連昌"
   },
   "locationQid": null
  },
@@ -1788,6 +2586,36 @@
    "zh": "重庆市"
   }
  },
+ "Q11736": {
+  "label": {
+   "en": "Tianjin",
+   "zh": "天津市"
+  },
+  "description": "municipality of China",
+  "coord": {
+   "lat": 39.1467,
+   "lon": 117.2056
+  },
+  "image": "Tianjin, China ESA15420167.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1208802",
+   "Q2264924",
+   "Q1066538",
+   "Q1549591",
+   "Q515",
+   "Q174844",
+   "Q1073535"
+  ],
+  "wiki": {
+   "en": "Tianjin",
+   "zh": "天津市"
+  }
+ },
  "Q11746": {
   "label": {
    "en": "Wuhan",
@@ -1913,6 +2741,38 @@
   "wiki": {
    "en": "Emperor He of Southern Qi",
    "zh": "齐和帝"
+  },
+  "locationQid": null
+ },
+ "Q1192067": {
+  "label": {
+   "en": "Min",
+   "zh": "闽"
+  },
+  "description": "one of the Ten Kingdoms of 10th-century China, controlling an area around present-day Fujian Province",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 909,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 945,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Min (Ten Kingdoms)",
+   "zh": "闽国"
   },
   "locationQid": null
  },
@@ -2232,6 +3092,71 @@
    "zh": "土木堡之变"
   }
  },
+ "Q1198071": {
+  "label": {
+   "en": "Southern Han",
+   "zh": "南汉"
+  },
+  "description": "one of the Ten Kingdoms of 10th-century China, centered on Guangdong Province",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 917,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 971,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Southern Han",
+   "zh": "南汉"
+  },
+  "locationQid": null
+ },
+ "Q1198163": {
+  "label": {
+   "en": "Southern Ming dynasty",
+   "zh": "南明"
+  },
+  "description": "dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1644,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1661,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12857432",
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Southern Ming",
+   "zh": "南明"
+  },
+  "locationQid": null
+ },
  "Q1198171": {
   "label": {
    "en": "Zhuge Liang's Northern Expeditions",
@@ -2352,6 +3277,38 @@
    "zh": "靖难之役"
   },
   "locationQid": "Q147304"
+ },
+ "Q12514": {
+  "label": {
+   "en": "Three Gorges Dam",
+   "zh": "长江三峡水利枢纽工程"
+  },
+  "description": "hydroelectric dam that spans the Yangtze River by the town of Sandouping, China",
+  "coord": {
+   "lat": 30.8239,
+   "lon": 111.0037
+  },
+  "image": "ThreeGorgesDam-China2009.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1994,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3497167",
+   "Q14908",
+   "Q15911738",
+   "Q6838244"
+  ],
+  "wiki": {
+   "en": "Three Gorges Dam",
+   "zh": "长江三峡水利枢纽工程"
+  }
  },
  "Q1264618": {
   "label": {
@@ -2569,6 +3526,38 @@
   },
   "locationQid": null
  },
+ "Q1323195": {
+  "label": {
+   "en": "Yang Wu",
+   "zh": "杨吴"
+  },
+  "description": "one of the Ten Kingdoms in 10th-century eastern and central China",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 902,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 937,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Yang Wu",
+   "zh": "杨吴"
+  },
+  "locationQid": null
+ },
  "Q1326742": {
   "label": {
    "en": "Southern Tang",
@@ -2637,6 +3626,38 @@
    "zh": "靖康之变"
   },
   "locationQid": "Q208471"
+ },
+ "Q1326844": {
+  "label": {
+   "en": "Zhu Youlang, Prince of Gui",
+   "zh": "永历帝"
+  },
+  "description": "Chinese Emperor (1623-1662)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1623,
+   "date": "1623-11-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1662,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yongli Emperor",
+   "zh": "永历帝"
+  },
+  "locationQid": null
  },
  "Q1327591": {
   "label": {
@@ -2798,6 +3819,38 @@
    "zh": "中華民國大陸時期"
   }
  },
+ "Q1352743": {
+  "label": {
+   "en": "Zhu Yousong, Prince of Fu",
+   "zh": "弘光帝"
+  },
+  "description": "Southern Ming Emperor from 1644 to 1645",
+  "coord": null,
+  "image": "弘光帝.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1607,
+   "date": "1607-09-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1646,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hongguang Emperor",
+   "zh": "弘光帝"
+  },
+  "locationQid": null
+ },
  "Q13578439": {
   "label": {
    "en": "retrocession of Taiwan",
@@ -2824,6 +3877,91 @@
    "zh": "臺灣光復"
   },
   "locationQid": "Q22502"
+ },
+ "Q1367171": {
+  "label": {
+   "en": "Xu Xiake",
+   "zh": "徐霞客"
+  },
+  "description": "Chinese geographer and traveller",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1587,
+   "date": "1587-01-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1641,
+   "date": "1641-03-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Xu Xiake",
+   "zh": "徐霞客"
+  },
+  "locationQid": null
+ },
+ "Q139932": {
+  "label": {
+   "en": "single whip law",
+   "zh": "一条鞭法"
+  },
+  "description": "fiscal law of the Ming dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7748"
+  ],
+  "wiki": {
+   "en": "Single whip law",
+   "zh": "一条鞭法"
+  },
+  "locationQid": null
+ },
+ "Q140631": {
+  "label": {
+   "en": "Tainan",
+   "zh": "台南市"
+  },
+  "description": "city in southern Taiwan",
+  "coord": {
+   "lat": 22.99,
+   "lon": 120.185
+  },
+  "image": "Downtown Tainan(2012).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 2010,
+   "date": "2010-12-25",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2225003",
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Tainan",
+   "zh": "臺南市"
+  }
  },
  "Q1420392": {
   "label": {
@@ -2884,6 +4022,105 @@
    "zh": "前秦"
   },
   "locationQid": null
+ },
+ "Q1472004": {
+  "label": {
+   "en": "Former Yan",
+   "zh": "前燕"
+  },
+  "description": "Chinese Sixteen Kingdoms dynastic state (337–370)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 337,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 370,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Former Yan",
+   "zh": "前燕"
+  },
+  "locationQid": null
+ },
+ "Q14750447": {
+  "label": {
+   "en": "Mongol conquest of Western Xia",
+   "zh": "蒙滅西夏之戰"
+  },
+  "description": "1205–1227 conquest of the Western Xia dynasty by the Mongol Empire",
+  "coord": null,
+  "image": "Mongol conquest of Western Xia.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1205,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1227,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1361229"
+  ],
+  "wiki": {
+   "en": "Mongol conquest of Western Xia",
+   "zh": "蒙古滅西夏之戰"
+  },
+  "locationQid": "Q7427"
+ },
+ "Q14773": {
+  "label": {
+   "en": "Macau",
+   "zh": "澳门"
+  },
+  "description": "city and special administrative region of China",
+  "coord": {
+   "lat": 22.19,
+   "lon": 113.5381
+  },
+  "image": "Panorama of Macau Peninsula2021.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1999,
+   "date": "1999-12-20",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q779415",
+   "Q133442",
+   "Q1549591",
+   "Q486972",
+   "Q1200957",
+   "Q161243",
+   "Q125470455"
+  ],
+  "wiki": {
+   "en": "Macau",
+   "zh": "澳門"
+  }
  },
  "Q148": {
   "label": {
@@ -3003,6 +4240,35 @@
   },
   "locationQid": null
  },
+ "Q152033": {
+  "label": {
+   "en": "2008 Sichuan earthquake",
+   "zh": "汶川大地震"
+  },
+  "description": "earthquake in China",
+  "coord": {
+   "lat": 31.021,
+   "lon": 103.367
+  },
+  "image": "2008 Sichuan earthquake map no labels.svg",
+  "pointInTime": {
+   "year": 2008,
+   "date": "2008-05-12",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "2008 Sichuan earthquake",
+   "zh": "汶川大地震"
+  }
+ },
  "Q15251": {
   "label": {
    "en": "handover of Hong Kong",
@@ -3030,6 +4296,73 @@
   },
   "locationQid": "Q8646"
  },
+ "Q152855": {
+  "label": {
+   "en": "Kingdom of Tungning",
+   "zh": "明郑时期"
+  },
+  "description": "former country",
+  "coord": {
+   "lat": 23.1044,
+   "lon": 120.2081
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1661,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1683,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Kingdom of Tungning",
+   "zh": "臺灣明鄭時期"
+  }
+ },
+ "Q1534482": {
+  "label": {
+   "en": "Later Yan",
+   "zh": "后燕"
+  },
+  "description": "dynastic state in Northeast China (384-409 CE)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 384,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 409,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Later Yan",
+   "zh": "後燕"
+  },
+  "locationQid": null
+ },
  "Q15391579": {
   "label": {
    "en": "Houfeng Didong Yi",
@@ -3054,6 +4387,39 @@
   "wiki": {
    "en": null,
    "zh": "候風地動儀"
+  },
+  "locationQid": null
+ },
+ "Q1539360": {
+  "label": {
+   "en": "Northern Liang",
+   "zh": "北凉"
+  },
+  "description": "Chinese Sixteen Kingdoms state (397–439)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 397,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 439,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1371288",
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Northern Liang",
+   "zh": "北凉"
   },
   "locationQid": null
  },
@@ -3146,6 +4512,28 @@
   },
   "locationQid": null
  },
+ "Q15911014": {
+  "label": {
+   "en": "Hu Weiyong case",
+   "zh": "胡惟庸案"
+  },
+  "description": "treason against the Hongwu Emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1190554"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "胡惟庸案"
+  },
+  "locationQid": null
+ },
  "Q15911628": {
   "label": {
    "en": "Battle of Yinshan",
@@ -3167,6 +4555,33 @@
    "zh": "阴山之战"
   },
   "locationQid": "Q1152132"
+ },
+ "Q15935579": {
+  "label": {
+   "en": "Mawei incident",
+   "zh": "马嵬驿之变"
+  },
+  "description": "military coup of the Tang dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 756,
+   "date": "0756-07-15",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "馬嵬驛兵變"
+  },
+  "locationQid": null
  },
  "Q16572": {
   "label": {
@@ -3295,6 +4710,31 @@
    "zh": "南京市"
   }
  },
+ "Q16959": {
+  "label": {
+   "en": "Ürümqi",
+   "zh": "乌鲁木齐市"
+  },
+  "description": "capital of Xinjiang Uyghur Autonomous Region, China",
+  "coord": {
+   "lat": 43.8225,
+   "lon": 87.6125
+  },
+  "image": "Urumqi Skyline July 2019.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q748149",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Ürümqi",
+   "zh": "乌鲁木齐市"
+  }
+ },
  "Q16977": {
   "label": {
    "en": "Deng Xiaoping",
@@ -3326,6 +4766,38 @@
    "zh": "邓小平"
   },
   "locationQid": null
+ },
+ "Q170314": {
+  "label": {
+   "en": "Second Sino-Japanese War",
+   "zh": "中国抗日战争"
+  },
+  "description": "Japanese invasion of China (1937–1945)",
+  "coord": null,
+  "image": "Japanese Occupation of China 1940.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1937,
+   "date": "1937-07-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1945,
+   "date": "1945-09-09",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Second Sino-Japanese War",
+   "zh": "中国抗日战争"
+  },
+  "locationQid": "Q29520"
  },
  "Q17035931": {
   "label": {
@@ -3383,6 +4855,95 @@
    "en": "Kashgar",
    "zh": "喀什市"
   }
+ },
+ "Q1730130": {
+  "label": {
+   "en": "Later Qin",
+   "zh": "后秦"
+  },
+  "description": "historical Chinese state (384-417)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 384,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 417,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Later Qin",
+   "zh": "后秦"
+  },
+  "locationQid": null
+ },
+ "Q174091": {
+  "label": {
+   "en": "Changsha",
+   "zh": "长沙市"
+  },
+  "description": "capital of Hunan province, China",
+  "coord": {
+   "lat": 28.1987,
+   "lon": 112.9709
+  },
+  "image": "Helong Stadium.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q748149",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Changsha",
+   "zh": "长沙市"
+  }
+ },
+ "Q17410": {
+  "label": {
+   "en": "Zhou Enlai",
+   "zh": "周恩来"
+  },
+  "description": "1st Premier of the People's Republic of China",
+  "coord": null,
+  "image": "國共內戰時期周恩來.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1898,
+   "date": "1898-03-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1976,
+   "date": "1976-01-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhou Enlai",
+   "zh": "周恩来"
+  },
+  "locationQid": null
  },
  "Q177081": {
   "label": {
@@ -3532,6 +5093,33 @@
    "zh": "昆明市"
   }
  },
+ "Q182874": {
+  "label": {
+   "en": "Cao Xueqin",
+   "zh": "曹雪芹"
+  },
+  "description": "Chinese novelist and poet (1710–1765)",
+  "coord": null,
+  "image": "Statue of Cao Xueqin.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1724,
+   "date": "1724-07-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cao Xueqin",
+   "zh": "曹雪芹"
+  },
+  "locationQid": null
+ },
  "Q184999": {
   "label": {
    "en": "Lin Tse-hsu",
@@ -3596,6 +5184,40 @@
   },
   "locationQid": null
  },
+ "Q1867": {
+  "label": {
+   "en": "Taipei",
+   "zh": "台北市"
+  },
+  "description": "special municipality and capital city of Taiwan",
+  "coord": {
+   "lat": 25.0375,
+   "lon": 121.5625
+  },
+  "image": "20260204 Taipei, Taiwan Skyline.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1967,
+   "date": "1967-07-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q2225003",
+   "Q1549591",
+   "Q10876480",
+   "Q171441",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Taipei",
+   "zh": "臺北市"
+  }
+ },
  "Q187136": {
   "label": {
    "en": "Luoyang",
@@ -3621,6 +5243,38 @@
    "en": "Luoyang",
    "zh": "洛阳市"
   }
+ },
+ "Q189512": {
+  "label": {
+   "en": "Zeng Guofan",
+   "zh": "曾国藩"
+  },
+  "description": "Chinese politician and military commander (1811–1872)",
+  "coord": null,
+  "image": "Tseng Kwo-Fan.tif",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1811,
+   "date": "1811-11-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1872,
+   "date": "1872-03-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zeng Guofan",
+   "zh": "曾国藩"
+  },
+  "locationQid": null
  },
  "Q190517": {
   "label": {
@@ -3752,6 +5406,74 @@
   },
   "locationQid": null
  },
+ "Q192055": {
+  "label": {
+   "en": "Nanjing Massacre",
+   "zh": "南京大屠杀"
+  },
+  "description": "1937 mass murder by the Japanese army",
+  "coord": {
+   "lat": 32.0375,
+   "lon": 118.7375
+  },
+  "image": "Nanking bodies 1937.jpg",
+  "pointInTime": {
+   "year": 1937,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1937,
+   "date": "1937-12-13",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1938,
+   "date": "1938-02-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q701321",
+   "Q3199915",
+   "Q2408310"
+  ],
+  "wiki": {
+   "en": "Nanjing Massacre",
+   "zh": "南京大屠殺"
+  }
+ },
+ "Q19216": {
+  "label": {
+   "en": "Ma Ying-jeou",
+   "zh": "马英九"
+  },
+  "description": "12th and 13th President of Republic of China(Taiwan)",
+  "coord": null,
+  "image": "Ma Ying-jeou election infobox.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1950,
+   "date": "1950-07-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ma Ying-jeou",
+   "zh": "馬英九"
+  },
+  "locationQid": null
+ },
  "Q192408": {
   "label": {
    "en": "Taiping Rebellion",
@@ -3789,6 +5511,102 @@
    "zh": "太平天國之亂"
   },
   "locationQid": "Q2079794"
+ },
+ "Q197206": {
+  "label": {
+   "en": "Zhang Heng",
+   "zh": "张衡"
+  },
+  "description": "Chinese scientist and statesman (78–139)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 78,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 139,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhang Heng",
+   "zh": "张衡"
+  },
+  "locationQid": null
+ },
+ "Q197234": {
+  "label": {
+   "en": "Zhang Juzheng",
+   "zh": "张居正"
+  },
+  "description": "Chinese Grand Secretary (1525-1582)",
+  "coord": null,
+  "image": "Zhangjuzheng.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1525,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1582,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhang Juzheng",
+   "zh": "張居正"
+  },
+  "locationQid": null
+ },
+ "Q197615": {
+  "label": {
+   "en": "Koxinga",
+   "zh": "郑成功"
+  },
+  "description": "17th-century Chinese military leader and first King of Tungning",
+  "coord": null,
+  "image": "The Portrait of Koxinga.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1624,
+   "date": "1624-08-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1662,
+   "date": "1662-06-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Koxinga",
+   "zh": "鄭成功"
+  },
+  "locationQid": null
  },
  "Q198211": {
   "label": {
@@ -3972,6 +5790,58 @@
   },
   "locationQid": null
  },
+ "Q2109927": {
+  "label": {
+   "en": "Wang Yanjun",
+   "zh": "王延钧"
+  },
+  "description": "third ruler of the Chinese Five Dynasties and Ten Kingdoms state Min",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 935,
+   "date": "0935-11-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wang Yanjun",
+   "zh": "王延鈞"
+  },
+  "locationQid": null
+ },
+ "Q211243": {
+  "label": {
+   "en": "Yinchuan",
+   "zh": "银川市"
+  },
+  "description": "prefecture-level city in Ningxia, China",
+  "coord": {
+   "lat": 38.485,
+   "lon": 106.225
+  },
+  "image": "Yinchuan Montage.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q748149",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Yinchuan",
+   "zh": "银川市"
+  }
+ },
  "Q219230": {
   "label": {
    "en": "Marco Polo Bridge incident",
@@ -4065,6 +5935,33 @@
   },
   "locationQid": null
  },
+ "Q22368": {
+  "label": {
+   "en": "Chen Shui-bian",
+   "zh": "陈水扁"
+  },
+  "description": "10th and 11th President of Republic of China(Taiwan) (2000–2008)",
+  "coord": null,
+  "image": "Chen Shui Bian MOD.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1950,
+   "date": "1950-10-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chen Shui-bian",
+   "zh": "陳水扁"
+  },
+  "locationQid": null
+ },
  "Q2268189": {
   "label": {
    "en": "1st National Congress of the Chinese Communist Party",
@@ -4103,6 +6000,102 @@
    "en": "1st National Congress of the Chinese Communist Party",
    "zh": "中国共产党第一次全国代表大会"
   }
+ },
+ "Q227444": {
+  "label": {
+   "en": "Zu Chongzhi",
+   "zh": "祖冲之"
+  },
+  "description": "Chinese mathematician-astronomer",
+  "coord": null,
+  "image": "Beijing Ancient Observatory 20090715-23.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 429,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 501,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zu Chongzhi",
+   "zh": "祖冲之"
+  },
+  "locationQid": null
+ },
+ "Q229235": {
+  "label": {
+   "en": "Cai Lun",
+   "zh": "蔡伦"
+  },
+  "description": "Chinese official credited with inventing paper (died 121)",
+  "coord": null,
+  "image": "Cai-lun.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 48,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 121,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cai Lun",
+   "zh": "蔡伦"
+  },
+  "locationQid": null
+ },
+ "Q23114": {
+  "label": {
+   "en": "Lu Xun",
+   "zh": "鲁迅"
+  },
+  "description": "Chinese novelist and essayist (1881–1936)",
+  "coord": null,
+  "image": "LuXun1930.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1881,
+   "date": "1881-09-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1936,
+   "date": "1936-10-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lu Xun",
+   "zh": "鲁迅"
+  },
+  "locationQid": null
  },
  "Q2314907": {
   "label": {
@@ -4165,6 +6158,60 @@
   "wiki": {
    "en": "Matteo Ricci",
    "zh": "利玛窦"
+  },
+  "locationQid": null
+ },
+ "Q233984": {
+  "label": {
+   "en": "Tsai Ing-wen",
+   "zh": "蔡英文"
+  },
+  "description": "14th and 15th President of Republic of China (Taiwan)",
+  "coord": null,
+  "image": "蔡英文官方元首肖像照.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1956,
+   "date": "1956-08-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tsai Ing-wen",
+   "zh": "蔡英文"
+  },
+  "locationQid": null
+ },
+ "Q23419106": {
+  "label": {
+   "en": "Jiajing wokou raids",
+   "zh": "嘉靖倭乱"
+  },
+  "description": "by Chinese-led international merchant-pirates (including the Japanese) on Ming dynasty China",
+  "coord": null,
+  "image": "Wakou Attack.jpg",
+  "pointInTime": {
+   "year": 1600,
+   "date": null,
+   "precision": 7,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q476807"
+  ],
+  "wiki": {
+   "en": "Jiajing wokou raids",
+   "zh": "嘉靖倭乱"
   },
   "locationQid": null
  },
@@ -4389,6 +6436,42 @@
    "zh": "吐蕃"
   }
  },
+ "Q244939": {
+  "label": {
+   "en": "228 Incident",
+   "zh": "二二八事件"
+  },
+  "description": "1947 uprising in Taiwan",
+  "coord": {
+   "lat": 23.77,
+   "lon": 121
+  },
+  "image": "228 Incident h.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1947,
+   "date": "1947-02-27",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1947,
+   "date": "1947-05-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q273120",
+   "Q3199915",
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "February 28 incident",
+   "zh": "二二八事件"
+  }
+ },
  "Q244941": {
   "label": {
    "en": "Xi'an Incident",
@@ -4458,6 +6541,38 @@
   "wiki": {
    "en": "Liu Bei",
    "zh": "刘备"
+  },
+  "locationQid": null
+ },
+ "Q2454958": {
+  "label": {
+   "en": "Great Chinese Famine",
+   "zh": "三年大饥荒"
+  },
+  "description": "period of widespread famine in the People's Republic of China between the years 1959 and 1961 during the Great Leap Forward",
+  "coord": null,
+  "image": "Total number of deaths by age globally for both sexes combined 1950–2017.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1959,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1961,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q168247"
+  ],
+  "wiki": {
+   "en": "Great Chinese Famine",
+   "zh": "三年困难时期"
   },
   "locationQid": null
  },
@@ -4546,6 +6661,73 @@
    "zh": "安史之亂"
   },
   "locationQid": "Q148"
+ },
+ "Q254599": {
+  "label": {
+   "en": "Battle of Shanghai",
+   "zh": "淞沪会战"
+  },
+  "description": "1937 battle of the Second Sino-Japanese War",
+  "coord": {
+   "lat": 31.2323,
+   "lon": 121.469
+  },
+  "image": "Japanese Special Naval Landing Forces in Battle of Shanghai 1937.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1937,
+   "date": "1937-08-13",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1937,
+   "date": "1937-11-26",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q11371169"
+  ],
+  "wiki": {
+   "en": "Battle of Shanghai",
+   "zh": "淞沪会战"
+  }
+ },
+ "Q254752": {
+  "label": {
+   "en": "Helian Bobo",
+   "zh": "赫连勃勃"
+  },
+  "description": "Hu Xia Emperor from 407 to 425",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 381,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 425,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Helian Bobo",
+   "zh": "赫连勃勃"
+  },
+  "locationQid": null
  },
  "Q26472": {
   "label": {
@@ -4643,6 +6825,63 @@
   },
   "locationQid": null
  },
+ "Q270085": {
+  "label": {
+   "en": "Shen Kuo",
+   "zh": "沈括"
+  },
+  "description": "Chinese scientist and statesman (1031-1095)",
+  "coord": null,
+  "image": "Beijing Ancient Observatory 20090715-19 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1031,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1095,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shen Kuo",
+   "zh": "沈括"
+  },
+  "locationQid": null
+ },
+ "Q273834": {
+  "label": {
+   "en": "Longmen Grottoes",
+   "zh": "龙门石窟"
+  },
+  "description": "cave in People's Republic of China",
+  "coord": {
+   "lat": 34.5556,
+   "lon": 112.4697
+  },
+  "image": "Longmen Grottoes 3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1131329",
+   "Q6838244"
+  ],
+  "wiki": {
+   "en": "Longmen Grottoes",
+   "zh": "龙门石窟"
+  }
+ },
  "Q274488": {
   "label": {
    "en": "Eastern Wu",
@@ -4675,6 +6914,35 @@
   "wiki": {
    "en": "Eastern Wu",
    "zh": "孫吳"
+  }
+ },
+ "Q276656": {
+  "label": {
+   "en": "Battle of Penghu",
+   "zh": "澎湖海战"
+  },
+  "description": "Qing conquest of Taiwan in 1683",
+  "coord": {
+   "lat": 23.39,
+   "lon": 119.53
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1683,
+   "date": "1683-07-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1261499"
+  ],
+  "wiki": {
+   "en": "Battle of Penghu",
+   "zh": "澎湖海战"
   }
  },
  "Q279790": {
@@ -4759,6 +7027,38 @@
   "wiki": {
    "en": "Hong Taiji",
    "zh": "皇太極"
+  },
+  "locationQid": null
+ },
+ "Q298046": {
+  "label": {
+   "en": "Yang Guifei",
+   "zh": "杨贵妃"
+  },
+  "description": "Tang dynasty imperial consort (719–756)",
+  "coord": null,
+  "image": "Yang Guifei by Uemura Shoen (Shohaku Art Museum).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 719,
+   "date": "0719-06-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 756,
+   "date": "0756-07-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yang Guifei",
+   "zh": "杨贵妃"
   },
   "locationQid": null
  },
@@ -4992,6 +7292,31 @@
   },
   "locationQid": null
  },
+ "Q308805": {
+  "label": {
+   "en": "Yungang Grottoes",
+   "zh": "云冈石窟"
+  },
+  "description": "ancient Chinese Buddhist temple grottoes in Shanxi",
+  "coord": {
+   "lat": 40.1097,
+   "lon": 113.1222
+  },
+  "image": "Yungang11 2010.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1131329",
+   "Q6838244"
+  ],
+  "wiki": {
+   "en": "Yungang Grottoes",
+   "zh": "雲岡石窟"
+  }
+ },
  "Q310453": {
   "label": {
    "en": "Shunzhi Emperor",
@@ -5024,6 +7349,38 @@
   },
   "locationQid": null
  },
+ "Q311189": {
+  "label": {
+   "en": "Nurhaci",
+   "zh": "努尔哈赤"
+  },
+  "description": "Jurchen chieftain of Later Jin, founder of Qing Dynasty (1559 - 1626)",
+  "coord": null,
+  "image": "清 佚名 《清太祖天命皇帝朝服像》.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1559,
+   "date": "1559-02-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1626,
+   "date": "1626-09-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nurhaci",
+   "zh": "努尔哈赤"
+  },
+  "locationQid": null
+ },
  "Q312978": {
   "label": {
    "en": "Faxian",
@@ -5053,6 +7410,38 @@
   "wiki": {
    "en": "Faxian",
    "zh": "法显"
+  },
+  "locationQid": null
+ },
+ "Q313324": {
+  "label": {
+   "en": "Bai Juyi",
+   "zh": "白居易"
+  },
+  "description": "Chinese poet of the Tang Dynasty (772-846)",
+  "coord": null,
+  "image": "唐名臣像-21-白樂天.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 772,
+   "date": "0772-02-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 846,
+   "date": "0846-09-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bai Juyi",
+   "zh": "白居易"
   },
   "locationQid": null
  },
@@ -5120,6 +7509,134 @@
   },
   "locationQid": null
  },
+ "Q313598": {
+  "label": {
+   "en": "Chiang Ching-kuo",
+   "zh": "蒋经国"
+  },
+  "description": "6th and 7th President of Republic of China",
+  "coord": null,
+  "image": "第7任總統蔣經國先生玉照.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1910,
+   "date": "1910-04-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1988,
+   "date": "1988-01-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chiang Ching-kuo",
+   "zh": "蔣經國"
+  },
+  "locationQid": null
+ },
+ "Q314210": {
+  "label": {
+   "en": "Tao Yuanming",
+   "zh": "陶渊明"
+  },
+  "description": "Chinese poet (365–427)",
+  "coord": null,
+  "image": "Taoqian1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 365,
+   "date": "0365-02-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 427,
+   "date": "0427-11-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tao Yuanming",
+   "zh": "陶渊明"
+  },
+  "locationQid": null
+ },
+ "Q315528": {
+  "label": {
+   "en": "Lee Teng-hui",
+   "zh": "李登辉"
+  },
+  "description": "7-9th President of Republic of China(Taiwan) (1923-2020)",
+  "coord": null,
+  "image": "Lee Teng-hui official portrait.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1923,
+   "date": "1923-01-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2020,
+   "date": "2020-07-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lee Teng-hui",
+   "zh": "李登輝"
+  },
+  "locationQid": null
+ },
+ "Q31749": {
+  "label": {
+   "en": "Hua Tuo",
+   "zh": "华佗"
+  },
+  "description": "Chinese physician (c. 140–208)",
+  "coord": null,
+  "image": "HuaTuo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 200,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 208,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hua Tuo",
+   "zh": "华佗"
+  },
+  "locationQid": null
+ },
  "Q317839": {
   "label": {
    "en": "Yongzheng Emperor",
@@ -5181,6 +7698,38 @@
   "wiki": {
    "en": "Tongzhi Emperor",
    "zh": "同治帝"
+  },
+  "locationQid": null
+ },
+ "Q318998": {
+  "label": {
+   "en": "Han Yu",
+   "zh": "韩愈"
+  },
+  "description": "Chinese historian, poet, philosopher and politician (768–824)",
+  "coord": null,
+  "image": "Han Yu.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 768,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 824,
+   "date": "0824-12-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Han Yu",
+   "zh": "韩愈"
   },
   "locationQid": null
  },
@@ -5375,6 +7924,33 @@
   },
   "locationQid": null
  },
+ "Q3271041": {
+  "label": {
+   "en": "Battle of Canhe Slope",
+   "zh": "参合陂之战"
+  },
+  "description": "395 battle in China",
+  "coord": null,
+  "image": "Battle of Canhe Slope.jpg",
+  "pointInTime": {
+   "year": 395,
+   "date": "0395-12-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Canhe Slope",
+   "zh": "參合陂之戰"
+  },
+  "locationQid": "Q922785"
+ },
  "Q3272217": {
   "label": {
    "en": "Battle of Kunyang",
@@ -5554,6 +8130,102 @@
   },
   "locationQid": null
  },
+ "Q335219": {
+  "label": {
+   "en": "Yen Chia-kan",
+   "zh": "严家淦"
+  },
+  "description": "President of Taiwan (ROC) from 1975 to 1978",
+  "coord": null,
+  "image": "President Yen Chia-kan.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1905,
+   "date": "1905-10-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1993,
+   "date": "1993-12-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yen Chia-kan",
+   "zh": "嚴家淦"
+  },
+  "locationQid": null
+ },
+ "Q335293": {
+  "label": {
+   "en": "Kumārajīva",
+   "zh": "鸠摩罗什"
+  },
+  "description": "Kuchan Buddhist monk and translator (344-413)",
+  "coord": null,
+  "image": "Kumarajiva at Kizil Caves, Kuqa (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 344,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 413,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kumārajīva",
+   "zh": "鸠摩罗什"
+  },
+  "locationQid": null
+ },
+ "Q33566": {
+  "label": {
+   "en": "Sima Guang",
+   "zh": "司马光"
+  },
+  "description": "Chinese politician, writer, and historian during the Northern Song dynasty (1019–1086)",
+  "coord": null,
+  "image": "Sima Guang 1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1019,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1086,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sima Guang",
+   "zh": "司马光"
+  },
+  "locationQid": null
+ },
  "Q33772": {
   "label": {
    "en": "Du Fu",
@@ -5657,6 +8329,38 @@
   },
   "locationQid": null
  },
+ "Q360135": {
+  "label": {
+   "en": "Kang Youwei",
+   "zh": "康有为"
+  },
+  "description": "Chinese politician and scholar (1858-1927)",
+  "coord": null,
+  "image": "Kang-youwei2-large.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1858,
+   "date": "1858-03-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1927,
+   "date": "1927-03-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kang Youwei",
+   "zh": "康有为"
+  },
+  "locationQid": null
+ },
  "Q36020": {
   "label": {
    "en": "Su Shi",
@@ -5753,6 +8457,30 @@
   },
   "locationQid": "Q43407"
  },
+ "Q378417": {
+  "label": {
+   "en": "Shenzhou 5",
+   "zh": "神舟五号"
+  },
+  "description": "first human spaceflight mission of the Chinese space program",
+  "coord": null,
+  "image": "Shenzhou 5 in space Yang Liwei.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7217761",
+   "Q1138653",
+   "Q752783"
+  ],
+  "wiki": {
+   "en": "Shenzhou 5",
+   "zh": "神舟五号"
+  },
+  "locationQid": null
+ },
  "Q378462": {
   "label": {
    "en": "Wang Yangming",
@@ -5814,6 +8542,38 @@
   "wiki": {
    "en": "Cao Rui",
    "zh": "曹叡"
+  },
+  "locationQid": null
+ },
+ "Q378517": {
+  "label": {
+   "en": "Li Hongzhang",
+   "zh": "李鸿章"
+  },
+  "description": "Chinese politician, general and diplomat; governor of Zhili of the late Qing dynasty; Trade Minister of the Beiyang Government (1823–1901)",
+  "coord": null,
+  "image": "Li Hung Chang in 1896.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1823,
+   "date": "1823-02-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-11-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Li Hongzhang",
+   "zh": "李鴻章"
   },
   "locationQid": null
  },
@@ -5880,6 +8640,128 @@
    "zh": "王羲之"
   },
   "locationQid": null
+ },
+ "Q379836": {
+  "label": {
+   "en": "Liang Chi-chao",
+   "zh": "梁启超"
+  },
+  "description": "Chinese politician, activist and journalist (1873–1929)",
+  "coord": null,
+  "image": "梁启超在日本期间.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1873,
+   "date": "1873-02-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1929,
+   "date": "1929-01-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liang Qichao",
+   "zh": "梁启超"
+  },
+  "locationQid": null
+ },
+ "Q3847080": {
+  "label": {
+   "en": "Lai Ching-te",
+   "zh": "赖清德"
+  },
+  "description": "President of Taiwan (ROC) since 2024",
+  "coord": null,
+  "image": "賴清德總統 1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1959,
+   "date": "1959-10-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lai Ching-te",
+   "zh": "賴清德"
+  },
+  "locationQid": null
+ },
+ "Q3874305": {
+  "label": {
+   "en": "Battle of Jao Modo",
+   "zh": "昭莫多之战"
+  },
+  "description": "1696 battle",
+  "coord": null,
+  "image": "The Emperor at the Kherlen river.jpg",
+  "pointInTime": {
+   "year": 1696,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Jao Modo",
+   "zh": "昭莫多之战"
+  },
+  "locationQid": "Q711"
+ },
+ "Q3916279": {
+  "label": {
+   "en": "Portuguese Macau",
+   "zh": "葡属澳门"
+  },
+  "description": "Portuguese possession in East Asia between 1557 and 1999",
+  "coord": {
+   "lat": 22.2006,
+   "lon": 113.5461
+  },
+  "image": "Panoramic View of Macau from Penha Hill.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1557,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1999,
+   "date": "1999-12-20",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156",
+   "Q333542",
+   "Q19953632"
+  ],
+  "wiki": {
+   "en": "Portuguese Macau",
+   "zh": "葡屬澳門"
+  }
  },
  "Q3916378": {
   "label": {
@@ -5974,6 +8856,38 @@
   },
   "locationQid": "Q8733"
  },
+ "Q420427": {
+  "label": {
+   "en": "Xu Guangqi",
+   "zh": "徐光启"
+  },
+  "description": "late-Ming-dynasty Chinese politician, Scholar, Lay Catholic leader and Servant of God (*1562 – †1633)",
+  "coord": null,
+  "image": "徐光啟.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1562,
+   "date": "1562-04-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1633,
+   "date": "1633-11-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Xu Guangqi",
+   "zh": "徐光启"
+  },
+  "locationQid": null
+ },
  "Q42063": {
   "label": {
    "en": "Xuanzang",
@@ -6031,6 +8945,31 @@
    "zh": "苏州市"
   }
  },
+ "Q42666": {
+  "label": {
+   "en": "Shaoxing",
+   "zh": "绍兴市"
+  },
+  "description": "prefecture-level city in Zhejiang, China",
+  "coord": {
+   "lat": 30,
+   "lon": 120.5833
+  },
+  "image": "Shaoxing Cityscape.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q748149",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Shaoxing",
+   "zh": "绍兴市"
+  }
+ },
  "Q42956": {
   "label": {
    "en": "Harbin",
@@ -6061,6 +9000,33 @@
    "zh": "哈尔滨市"
   }
  },
+ "Q431657": {
+  "label": {
+   "en": "1996 Taiwanese presidential election",
+   "zh": "1996年中华民国总统大选"
+  },
+  "description": "Republic of China presidential election",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1996,
+   "date": "1996-03-23",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19801853"
+  ],
+  "wiki": {
+   "en": "1996 Taiwanese presidential election",
+   "zh": "1996年中華民國總統選舉"
+  },
+  "locationQid": null
+ },
  "Q43286": {
   "label": {
    "en": "Mogao Caves",
@@ -6088,6 +9054,70 @@
    "en": "Mogao Caves",
    "zh": "莫高窟"
   }
+ },
+ "Q439768": {
+  "label": {
+   "en": "Qi Jiguang",
+   "zh": "戚继光"
+  },
+  "description": "Ming Dynasty general",
+  "coord": null,
+  "image": "Qi Jiguang Portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1528,
+   "date": "1528-11-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1588,
+   "date": "1588-01-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Qi Jiguang",
+   "zh": "戚继光"
+  },
+  "locationQid": null
+ },
+ "Q4501943": {
+  "label": {
+   "en": "Martial law in Taiwan",
+   "zh": "台湾省戒严令"
+  },
+  "description": "38 year period of military rule",
+  "coord": null,
+  "image": "Martial law order taiwan may 1949.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1949,
+   "date": "1949-05-20",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1987,
+   "date": "1987-07-15",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q715625"
+  ],
+  "wiki": {
+   "en": "Martial law in Taiwan",
+   "zh": "臺灣省戒嚴令"
+  },
+  "locationQid": null
  },
  "Q4520158": {
   "label": {
@@ -6117,6 +9147,38 @@
    "en": "Battle of Shanhai Pass",
    "zh": "一片石之战"
   }
+ },
+ "Q45697": {
+  "label": {
+   "en": "Zhu Yujian",
+   "zh": "隆武帝"
+  },
+  "description": "Chinese emperor (1602-1646)",
+  "coord": null,
+  "image": "Long-wu.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1602,
+   "date": "1602-05-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1646,
+   "date": "1646-10-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Longwu Emperor",
+   "zh": "隆武帝"
+  },
+  "locationQid": null
  },
  "Q457629": {
   "label": {
@@ -6149,6 +9211,35 @@
    "zh": "义净"
   },
   "locationQid": null
+ },
+ "Q462195": {
+  "label": {
+   "en": "1976 Tangshan earthquake",
+   "zh": "唐山大地震"
+  },
+  "description": "earthquake that occurred in 1976 Tangshan, Hebei, China",
+  "coord": {
+   "lat": 39.664,
+   "lon": 118.401
+  },
+  "image": "Tangshan earthquake.jpg",
+  "pointInTime": {
+   "year": 1976,
+   "date": "1976-07-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "1976 Tangshan earthquake",
+   "zh": "唐山大地震"
+  }
  },
  "Q46333": {
   "label": {
@@ -6211,6 +9302,38 @@
   "wiki": {
    "en": "Li Qingzhao",
    "zh": "李清照"
+  },
+  "locationQid": null
+ },
+ "Q465324": {
+  "label": {
+   "en": "Qiu Jin",
+   "zh": "秋瑾"
+  },
+  "description": "Chinese revolutionary, feminist, and writer (1875-1907)",
+  "coord": null,
+  "image": "Qiu jin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1875,
+   "date": "1875-11-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1907,
+   "date": "1907-07-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Qiu Jin",
+   "zh": "秋瑾"
   },
   "locationQid": null
  },
@@ -6373,6 +9496,94 @@
    "zh": "曹奂"
   },
   "locationQid": null
+ },
+ "Q47842": {
+  "label": {
+   "en": "Empress Dowager Cixi",
+   "zh": "慈禧太后"
+  },
+  "description": "Chinese empress (1835–1908)",
+  "coord": null,
+  "image": "The Ci-Xi Imperial Dowager Empress (9.2).PNG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1835,
+   "date": "1835-11-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1908,
+   "date": "1908-11-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Empress Dowager Cixi",
+   "zh": "慈禧太后"
+  },
+  "locationQid": null
+ },
+ "Q4871081": {
+  "label": {
+   "en": "Battle of Gaoliang River",
+   "zh": "高梁河之战"
+  },
+  "description": "979 battle",
+  "coord": {
+   "lat": 39.9042,
+   "lon": 116.4074
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 979,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Gaoliang River",
+   "zh": "高梁河之战"
+  }
+ },
+ "Q4872768": {
+  "label": {
+   "en": "Battle of Yancheng",
+   "zh": "郾城之戰"
+  },
+  "description": "1140 battle between the Jurchen Jin and the Song",
+  "coord": null,
+  "image": "Jin Dynasty 1141 (no borders).png",
+  "pointInTime": {
+   "year": 1140,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Yancheng",
+   "zh": "郾城之戰"
+  },
+  "locationQid": "Q43684"
  },
  "Q488547": {
   "label": {
@@ -6626,6 +9837,38 @@
   "wiki": {
    "en": "Emperor Wen of Song",
    "zh": "宋文帝"
+  },
+  "locationQid": null
+ },
+ "Q498117": {
+  "label": {
+   "en": "Self-Strengthening Movement",
+   "zh": "洋务运动"
+  },
+  "description": "reform movement",
+  "coord": null,
+  "image": "Foochow Arsenal.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1861,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1895,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1323572"
+  ],
+  "wiki": {
+   "en": "Self-Strengthening Movement",
+   "zh": "洋务运动"
   },
   "locationQid": null
  },
@@ -7175,6 +10418,70 @@
   },
   "locationQid": null
  },
+ "Q525545": {
+  "label": {
+   "en": "Chinese Rites controversy",
+   "zh": "中国礼仪之争"
+  },
+  "description": "17th–18th-century dispute among Roman Catholic missionaries",
+  "coord": null,
+  "image": "Ricci Guangqi 2.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1645,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1742,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1255828"
+  ],
+  "wiki": {
+   "en": "Chinese Rites controversy",
+   "zh": "中国礼仪之争"
+  },
+  "locationQid": null
+ },
+ "Q526507": {
+  "label": {
+   "en": "Later Shu",
+   "zh": "后蜀"
+  },
+  "description": "one of the 10 Kingdoms of 10th-century China, centered in Sichuan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 934,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 965,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Later Shu",
+   "zh": "後蜀"
+  },
+  "locationQid": null
+ },
  "Q535534": {
   "label": {
    "en": "Hohhot",
@@ -7204,6 +10511,60 @@
    "en": "Hohhot",
    "zh": "呼和浩特市"
   }
+ },
+ "Q5369150": {
+  "label": {
+   "en": null,
+   "zh": "大明历"
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12132"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "大明曆 (祖沖之)"
+  },
+  "locationQid": null
+ },
+ "Q546282": {
+  "label": {
+   "en": "Xia",
+   "zh": "胡夏"
+  },
+  "description": "one of the Sixteen Kingdoms of early medieval Chinese history, active 407–431",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 407,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 431,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Xia (Sixteen Kingdoms)",
+   "zh": "夏 (十六国)"
+  },
+  "locationQid": null
  },
  "Q550290": {
   "label": {
@@ -7326,6 +10687,70 @@
   },
   "locationQid": null
  },
+ "Q571453": {
+  "label": {
+   "en": "Former Shu",
+   "zh": "前蜀"
+  },
+  "description": "one of the 10 Kingdoms of 10th-century China, centered on Sichuan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 907,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 925,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Former Shu",
+   "zh": "前蜀"
+  },
+  "locationQid": null
+ },
+ "Q575900": {
+  "label": {
+   "en": "Wen Tianxiang",
+   "zh": "文天祥"
+  },
+  "description": "Chinese politician of the Song Dynasty",
+  "coord": null,
+  "image": "Wentianxiang touxiang.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1236,
+   "date": "1236-06-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1283,
+   "date": "1283-01-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wen Tianxiang",
+   "zh": "文天祥"
+  },
+  "locationQid": null
+ },
  "Q57906": {
   "label": {
    "en": "Yangzhou",
@@ -7349,6 +10774,31 @@
   "wiki": {
    "en": "Yangzhou",
    "zh": "扬州市"
+  }
+ },
+ "Q57958": {
+  "label": {
+   "en": "Zhenjiang",
+   "zh": "镇江市"
+  },
+  "description": "prefecture-level city in Jiangsu, China",
+  "coord": {
+   "lat": 32.2109,
+   "lon": 119.4551
+  },
+  "image": "Zhenjiang Jinshan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q748149",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Zhenjiang",
+   "zh": "镇江市"
   }
  },
  "Q5816": {
@@ -7445,6 +10895,112 @@
    "en": "Lhasa (prefecture-level city)",
    "zh": "拉萨市"
   }
+ },
+ "Q58715": {
+  "label": {
+   "en": "Great Leap Forward",
+   "zh": "大跃进"
+  },
+  "description": "1958–1962 Chinese socioeconomic campaign",
+  "coord": null,
+  "image": "People's commone canteen3.jpg",
+  "pointInTime": {
+   "year": 1958,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1958,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1962,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6056746"
+  ],
+  "wiki": {
+   "en": "Great Leap Forward",
+   "zh": "大跃进"
+  },
+  "locationQid": null
+ },
+ "Q6140819": {
+  "label": {
+   "en": "Qing reconquest of Xinjiang",
+   "zh": "清军收复新疆之战"
+  },
+  "description": "Reconquest of Xinjiang by the Qing dynasty after the Dungan revolt (19th century)",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1876,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1876,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1878,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q180684"
+  ],
+  "wiki": {
+   "en": "Qing reconquest of Xinjiang",
+   "zh": "左宗棠收复新疆"
+  },
+  "locationQid": "Q34800"
+ },
+ "Q6149021": {
+  "label": {
+   "en": "Liu Cheng",
+   "zh": "刘晟"
+  },
+  "description": "ruler of the Southern Han Kingdom during the 10th-century Five Dynasties and Ten Kingdoms Period of Chinese history",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 920,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 958,
+   "date": "0958-09-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liu Sheng (Southern Han)",
+   "zh": "劉晟 (南漢)"
+  },
+  "locationQid": null
  },
  "Q620621": {
   "label": {
@@ -7544,6 +11100,40 @@
   },
   "locationQid": null
  },
+ "Q626796": {
+  "label": {
+   "en": "Battle of Taierzhuang",
+   "zh": "台儿庄战役"
+  },
+  "description": "1938 battle between China and Japan",
+  "coord": {
+   "lat": 34.5573,
+   "lon": 117.7308
+  },
+  "image": "Taierzhuang.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1938,
+   "date": "1938-03-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1938,
+   "date": "1938-04-07",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Taierzhuang",
+   "zh": "台兒莊戰役"
+  }
+ },
  "Q6722675": {
   "label": {
    "en": "Macartney Embassy",
@@ -7592,6 +11182,32 @@
    "zh": "异牟寻"
   },
   "locationQid": null
+ },
+ "Q68481": {
+  "label": {
+   "en": "Fuzhou",
+   "zh": "福州市"
+  },
+  "description": "capital city of Fujian province, China",
+  "coord": {
+   "lat": 26.0769,
+   "lon": 119.2917
+  },
+  "image": "Fuzhou Taixi CBD.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q748149",
+   "Q1549591",
+   "Q2264924"
+  ],
+  "wiki": {
+   "en": "Fuzhou",
+   "zh": "福州市"
+  }
  },
  "Q68695": {
   "label": {
@@ -7714,6 +11330,38 @@
    "zh": "鄭成功攻臺之役"
   }
  },
+ "Q698925": {
+  "label": {
+   "en": "Li Shizhen",
+   "zh": "李时珍"
+  },
+  "description": "Chinese polymath and scientist (1517-1593)",
+  "coord": null,
+  "image": "Li Shizhen portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1517,
+   "date": "1517-07-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1593,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Li Shizhen",
+   "zh": "李时珍"
+  },
+  "locationQid": null
+ },
  "Q699127": {
   "label": {
    "en": "Treasure Voyages",
@@ -7779,6 +11427,38 @@
   "wiki": {
    "en": "Siku Quanshu",
    "zh": "四庫全書"
+  },
+  "locationQid": null
+ },
+ "Q700840": {
+  "label": {
+   "en": "Zhang Gui",
+   "zh": "张轨"
+  },
+  "description": "Chinese politician (255-314)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 255,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 314,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhang Gui",
+   "zh": "張軌"
   },
   "locationQid": null
  },
@@ -7877,6 +11557,38 @@
    "zh": "林森"
   },
   "locationQid": null
+ },
+ "Q706183": {
+  "label": {
+   "en": "Sino-French War",
+   "zh": "中法战争"
+  },
+  "description": "limited conflict (1881–1885) between France and China",
+  "coord": null,
+  "image": "SinoFrenchWar1884-1885-fr.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1884,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1885,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Sino-French War",
+   "zh": "中法战争"
+  },
+  "locationQid": "Q29520"
  },
  "Q706815": {
   "label": {
@@ -8006,6 +11718,38 @@
   },
   "locationQid": null
  },
+ "Q708354": {
+  "label": {
+   "en": "Wang Shenzhi",
+   "zh": "王审知"
+  },
+  "description": "Chinese prince (862-925)",
+  "coord": null,
+  "image": "Uong Sing-di.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 862,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 925,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wang Shenzhi",
+   "zh": "王審知"
+  },
+  "locationQid": null
+ },
  "Q708431": {
   "label": {
    "en": "Emperor Min of Later Tang",
@@ -8067,6 +11811,38 @@
   "wiki": {
    "en": "Liu Zhiyuan",
    "zh": "劉知遠"
+  },
+  "locationQid": null
+ },
+ "Q708651": {
+  "label": {
+   "en": "Wang Jian",
+   "zh": "王建"
+  },
+  "description": "king or emperor of Former Shu (847–918)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 847,
+   "date": "0847-02-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 918,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wang Jian (Former Shu)",
+   "zh": "王建 (前蜀)"
   },
   "locationQid": null
  },
@@ -8134,6 +11910,70 @@
   },
   "locationQid": null
  },
+ "Q712137": {
+  "label": {
+   "en": "Liu Chang",
+   "zh": "刘鋹"
+  },
+  "description": "ruler of the Southern Han Kingdom during the 10th-century Five Dynasties and Ten Kingdoms Period of Chinese history",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 942,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 980,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liu Chang (Southern Han)",
+   "zh": "劉鋹"
+  },
+  "locationQid": null
+ },
+ "Q712330": {
+  "label": {
+   "en": "Li Xiong",
+   "zh": "李雄"
+  },
+  "description": "Cheng-Han dynasty emperor from 303 to 334",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 274,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 334,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Li Xiong",
+   "zh": "李雄 (十六國)"
+  },
+  "locationQid": null
+ },
  "Q712338": {
   "label": {
    "en": "Emperor Wenxuan of Northern Qi",
@@ -8163,6 +12003,223 @@
   "wiki": {
    "en": "Emperor Wenxuan of Northern Qi",
    "zh": "齐文宣帝"
+  },
+  "locationQid": null
+ },
+ "Q71247": {
+  "label": {
+   "en": "Jingzhou",
+   "zh": "荆州市"
+  },
+  "description": "prefecture-level city in Hubei, China",
+  "coord": {
+   "lat": 30.3244,
+   "lon": 112.2361
+  },
+  "image": "Muraille Est de Jingzhou.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q748149",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Jingzhou",
+   "zh": "荆州市"
+  }
+ },
+ "Q712558": {
+  "label": {
+   "en": "Li Shou",
+   "zh": "李寿"
+  },
+  "description": "Chinese emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 300,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 343,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Li Shou",
+   "zh": "李寿"
+  },
+  "locationQid": null
+ },
+ "Q712595": {
+  "label": {
+   "en": "Liu Min",
+   "zh": "刘旻"
+  },
+  "description": "Northern Han emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 895,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 954,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liu Chong",
+   "zh": "劉旻"
+  },
+  "locationQid": null
+ },
+ "Q712747": {
+  "label": {
+   "en": "Zhang Tianxi",
+   "zh": "张天锡"
+  },
+  "description": "Duke of Xiping from 363 to 376",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 346,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 406,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhang Tianxi",
+   "zh": "張天錫 (前涼)"
+  },
+  "locationQid": null
+ },
+ "Q712757": {
+  "label": {
+   "en": "Zhang Jun",
+   "zh": "张骏"
+  },
+  "description": "Ruler of Former Liang",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 307,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 346,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhang Jun (prince)",
+   "zh": "张骏 (十六国)"
+  },
+  "locationQid": null
+ },
+ "Q712766": {
+  "label": {
+   "en": "Zhang Chonghua",
+   "zh": "张重华"
+  },
+  "description": "Ruler of Liang",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 327,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 353,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhang Chonghua",
+   "zh": "张重华"
+  },
+  "locationQid": null
+ },
+ "Q712772": {
+  "label": {
+   "en": "Li Shi",
+   "zh": "李势"
+  },
+  "description": "Emperor of Cheng-Han from 343 to 347",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 350,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 361,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Li Shi (emperor)",
+   "zh": "李势"
   },
   "locationQid": null
  },
@@ -8319,6 +12376,33 @@
   },
   "locationQid": null
  },
+ "Q714802": {
+  "label": {
+   "en": "Along the River During the Qingming Festival",
+   "zh": "清明上河图"
+  },
+  "description": "painting attributed to Zhang Zeduan",
+  "coord": null,
+  "image": "Alongtheriver QingMing.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1085,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2026188"
+  ],
+  "wiki": {
+   "en": "Along the River During the Qingming Festival",
+   "zh": "清明上河圖"
+  },
+  "locationQid": "Q80290"
+ },
  "Q716136": {
   "label": {
    "en": "Li Yuanhong",
@@ -8348,6 +12432,70 @@
   "wiki": {
    "en": "Li Yuanhong",
    "zh": "黎元洪"
+  },
+  "locationQid": null
+ },
+ "Q716217": {
+  "label": {
+   "en": "Song Yingxing",
+   "zh": "宋应星"
+  },
+  "description": "Chinese scholar (1587-1666)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1587,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1666,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Song Yingxing",
+   "zh": "宋应星"
+  },
+  "locationQid": null
+ },
+ "Q717972": {
+  "label": {
+   "en": "Liu Yan",
+   "zh": "刘䶮"
+  },
+  "description": "king of the Southern Han during China's 10th-century Five Dynasties and Ten Kingdoms Era",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 889,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 942,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liu Yan (emperor)",
+   "zh": "劉龑"
   },
   "locationQid": null
  },
@@ -9328,6 +13476,38 @@
   },
   "locationQid": null
  },
+ "Q733082": {
+  "label": {
+   "en": "Guo Shoujing",
+   "zh": "郭守敬"
+  },
+  "description": "Chinese astronomer and mathematician (1231–1316)",
+  "coord": null,
+  "image": "Guo Shoujing-beijing.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1231,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1316,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Guo Shoujing",
+   "zh": "郭守敬"
+  },
+  "locationQid": null
+ },
  "Q7333": {
   "label": {
    "en": "Zheng He",
@@ -9773,6 +13953,38 @@
   "wiki": {
    "en": "Sui dynasty",
    "zh": "隋朝"
+  },
+  "locationQid": null
+ },
+ "Q7408": {
+  "label": {
+   "en": "imperial examination",
+   "zh": "科举"
+  },
+  "description": "system used in appointing officials in dynastic China",
+  "coord": null,
+  "image": "Tiến sĩ xuất thân 進士出身 - Lê dynasty, Vietnam (02).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 605,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1905,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2992127"
+  ],
+  "wiki": {
+   "en": "Imperial examination",
+   "zh": "科举"
   },
   "locationQid": null
  },
@@ -10611,6 +14823,38 @@
   },
   "locationQid": null
  },
+ "Q758566": {
+  "label": {
+   "en": "Yan Zhenqing",
+   "zh": "颜真卿"
+  },
+  "description": "Chinese calligrapher (709-785)",
+  "coord": null,
+  "image": "唐名臣像-13-顔魯公.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 709,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 785,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yan Zhenqing",
+   "zh": "颜真卿"
+  },
+  "locationQid": null
+ },
  "Q770951": {
   "label": {
    "en": "War of the Eight Princes",
@@ -10736,6 +14980,97 @@
   },
   "locationQid": "Q13763349"
  },
+ "Q8012995": {
+  "label": {
+   "en": "Wang Yanzheng",
+   "zh": "王延政"
+  },
+  "description": "politician",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1000,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 951,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wang Yanzheng",
+   "zh": "王延政"
+  },
+  "locationQid": null
+ },
+ "Q80290": {
+  "label": {
+   "en": "Forbidden City",
+   "zh": "故宫"
+  },
+  "description": "Chinese imperial palace in Beijing",
+  "coord": {
+   "lat": 39.9158,
+   "lon": 116.3908
+  },
+  "image": "Hall of Supreme Harmony (20241127120000).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1420,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q16560",
+   "Q1497364",
+   "Q33506",
+   "Q6838244"
+  ],
+  "wiki": {
+   "en": "Forbidden City",
+   "zh": "故宫"
+  }
+ },
+ "Q8048675": {
+  "label": {
+   "en": "Yangzhou massacre",
+   "zh": "扬州十日"
+  },
+  "description": "1645 mass killing of Chinese civilians by Manchu forces",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1645,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Yangzhou massacre",
+   "zh": "扬州十日"
+  },
+  "locationQid": "Q57906"
+ },
  "Q830059": {
   "label": {
    "en": "Battle of Red Cliffs",
@@ -10825,6 +15160,70 @@
   },
   "locationQid": null
  },
+ "Q84015": {
+  "label": {
+   "en": "Zheng Keshuang",
+   "zh": "郑克塽"
+  },
+  "description": "Prince of Yanping (1670-1707)",
+  "coord": null,
+  "image": "鄭克塽畫像.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1670,
+   "date": "1670-08-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1707,
+   "date": "1707-09-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zheng Keshuang",
+   "zh": "鄭克塽"
+  },
+  "locationQid": null
+ },
+ "Q84018": {
+  "label": {
+   "en": "Zheng Jing",
+   "zh": "郑经"
+  },
+  "description": "son of Koxinga (1642-1681)",
+  "coord": null,
+  "image": "鄭經.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1642,
+   "date": "1642-11-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1681,
+   "date": "1681-03-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zheng Jing",
+   "zh": "鄭經"
+  },
+  "locationQid": null
+ },
  "Q842316": {
   "label": {
    "en": "Treaty of Shaoxing",
@@ -10851,6 +15250,38 @@
    "zh": "紹興和議"
   },
   "locationQid": "Q42666"
+ },
+ "Q842954": {
+  "label": {
+   "en": "Liu Jiyuan",
+   "zh": "刘继元"
+  },
+  "description": "Northern Han emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 950,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 992,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liu Jiyuan",
+   "zh": "劉繼元"
+  },
+  "locationQid": null
  },
  "Q8468": {
   "label": {
@@ -10883,6 +15314,33 @@
    "zh": "元成宗"
   },
   "locationQid": null
+ },
+ "Q847839": {
+  "label": {
+   "en": "transfer of sovereignty over Macau",
+   "zh": "澳门回归"
+  },
+  "description": "transfer of sovereignty over Macau from Portugal to China",
+  "coord": null,
+  "image": "PLA Enter Macau.jpg",
+  "pointInTime": {
+   "year": 1999,
+   "date": "1999-12-20",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q25929224"
+  ],
+  "wiki": {
+   "en": "Handover of Macau",
+   "zh": "澳門回歸"
+  },
+  "locationQid": "Q14773"
  },
  "Q8540": {
   "label": {
@@ -11041,6 +15499,77 @@
   },
   "locationQid": null
  },
+ "Q8646": {
+  "label": {
+   "en": "Hong Kong",
+   "zh": "香港"
+  },
+  "description": "city and special administrative region of China",
+  "coord": {
+   "lat": 22.2783,
+   "lon": 114.1586
+  },
+  "image": "Hong Kong from Victoria Peak1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1997,
+   "date": "1997-07-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q779415",
+   "Q515",
+   "Q1549591",
+   "Q200250",
+   "Q208511",
+   "Q161243",
+   "Q133442",
+   "Q125470455",
+   "Q3337001"
+  ],
+  "wiki": {
+   "en": "Hong Kong",
+   "zh": "香港"
+  }
+ },
+ "Q865": {
+  "label": {
+   "en": "Taiwan",
+   "zh": "中华民国"
+  },
+  "description": "country in East Asia",
+  "coord": {
+   "lat": 24,
+   "lon": 121
+  },
+  "image": "Taipei Night Skyline from Hongludi 20240113.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1912,
+   "date": "1912-01-01",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q112099",
+   "Q6501447",
+   "Q3624078",
+   "Q10711424",
+   "Q16562419",
+   "Q25449457"
+  ],
+  "wiki": {
+   "en": "Taiwan",
+   "zh": "中華民國"
+  }
+ },
  "Q8655": {
   "label": {
    "en": "Jayaatu Khan",
@@ -11102,6 +15631,77 @@
   "wiki": {
    "en": "Toghon Temür",
    "zh": "元順帝"
+  },
+  "locationQid": null
+ },
+ "Q8686": {
+  "label": {
+   "en": "Shanghai",
+   "zh": "上海市"
+  },
+  "description": "provincial-level municipality in China",
+  "coord": {
+   "lat": 31.2325,
+   "lon": 121.4692
+  },
+  "image": "上海·上海市·（俯拍）.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1292,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1208802",
+   "Q1066538",
+   "Q1549591",
+   "Q2264924",
+   "Q208511",
+   "Q174844",
+   "Q200250",
+   "Q51929311",
+   "Q1073535"
+  ],
+  "wiki": {
+   "en": "Shanghai",
+   "zh": "上海市"
+  }
+ },
+ "Q8690": {
+  "label": {
+   "en": "Cultural Revolution",
+   "zh": "文化大革命"
+  },
+  "description": "1966–1976 Maoist sociopolitical movement in China",
+  "coord": null,
+  "image": "1967-02 1967年的红卫兵.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1966,
+   "date": "1966-05-16",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1976,
+   "date": "1976-10-06",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931",
+   "Q119328980",
+   "Q5193493"
+  ],
+  "wiki": {
+   "en": "Cultural Revolution",
+   "zh": "文化大革命"
   },
   "locationQid": null
  },
@@ -11230,6 +15830,75 @@
   },
   "locationQid": null
  },
+ "Q917709": {
+  "label": {
+   "en": "Hundred Days' Reform",
+   "zh": "戊戌变法"
+  },
+  "description": "reform movementin China in 1898",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1898,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1898,
+   "date": "1898-06-11",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1898,
+   "date": "1898-09-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1323572"
+  ],
+  "wiki": {
+   "en": "Hundred Days' Reform",
+   "zh": "戊戌变法"
+  },
+  "locationQid": null
+ },
+ "Q9397": {
+  "label": {
+   "en": "Zhu Xi",
+   "zh": "朱熹"
+  },
+  "description": "Chinese historian, neo-Confucian philosopher, poet, and politician during the Song dynasty (1130–1200)",
+  "coord": null,
+  "image": "唯一可靠的朱熹画像.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1130,
+   "date": "1130-10-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1200,
+   "date": "1200-04-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhu Xi",
+   "zh": "朱熹"
+  },
+  "locationQid": null
+ },
  "Q940037": {
   "label": {
    "en": "Emperor Wu of Southern Qi",
@@ -11259,6 +15928,38 @@
   "wiki": {
    "en": "Emperor Wu of Southern Qi",
    "zh": "齐武帝"
+  },
+  "locationQid": null
+ },
+ "Q943392": {
+  "label": {
+   "en": "Former Liang",
+   "zh": "前凉"
+  },
+  "description": "Chinese dynastic state from 301 to 376",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 320,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 376,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Former Liang",
+   "zh": "前凉"
   },
   "locationQid": null
  },
@@ -11867,6 +16568,106 @@
   },
   "locationQid": null
  },
+ "Q9968360": {
+  "label": {
+   "en": "Battle of Dafei River",
+   "zh": "大非川之战"
+  },
+  "description": "archaeological site",
+  "coord": null,
+  "image": "Battle of Dafei River.png",
+  "pointInTime": {
+   "year": 670,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Battle of Dafei River",
+   "zh": "大非川之战"
+  },
+  "locationQid": null
+ },
+ "Q99717": {
+  "label": {
+   "en": "1989 Tiananmen Square protests and massacre",
+   "zh": "六四事件"
+  },
+  "description": "Chinese pro-democracy movement and subsequent massacre",
+  "coord": {
+   "lat": 39.9033,
+   "lon": 116.3917
+  },
+  "image": "蒲志強19890510.jpg",
+  "pointInTime": {
+   "year": 1989,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1989,
+   "date": "1989-04-15",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1989,
+   "date": "1989-06-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q175331",
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "1989 Tiananmen Square protests and massacre",
+   "zh": "六四事件"
+  }
+ },
+ "Q997220": {
+  "label": {
+   "en": "White Lotus Rebellion",
+   "zh": "川楚教乱"
+  },
+  "description": "1794–1804 rebellion in China",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1794,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1804,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "White Lotus Rebellion",
+   "zh": "川楚教乱"
+  },
+  "locationQid": null
+ },
  "Q9977": {
   "label": {
    "en": "Xuande Emperor",
@@ -12023,6 +16824,16 @@
    "zh": "华北平原"
   }
  },
+ "loc:Q14773": {
+  "coord": {
+   "lat": 22.19,
+   "lon": 113.5381
+  },
+  "label": {
+   "en": "Macau",
+   "zh": "澳门"
+  }
+ },
  "loc:Q148": {
   "coord": {
    "lat": 35.8447,
@@ -12110,6 +16921,26 @@
    "zh": "朝鲜王朝"
   }
  },
+ "loc:Q29520": {
+  "coord": {
+   "lat": 35,
+   "lon": 105
+  },
+  "label": {
+   "en": "China",
+   "zh": "中国"
+  }
+ },
+ "loc:Q34800": {
+  "coord": {
+   "lat": 43.8253,
+   "lon": 87.6138
+  },
+  "label": {
+   "en": "Xinjiang",
+   "zh": "新疆维吾尔自治区"
+  }
+ },
  "loc:Q42392": {
   "coord": {
    "lat": 38,
@@ -12140,6 +16971,16 @@
    "zh": "山东省"
   }
  },
+ "loc:Q43684": {
+  "coord": {
+   "lat": 33.9,
+   "lon": 113.5
+  },
+  "label": {
+   "en": "Henan",
+   "zh": "河南省"
+  }
+ },
  "loc:Q5413": {
   "coord": {
    "lat": 33.4289,
@@ -12148,6 +16989,16 @@
   "label": {
    "en": "Yangtze River",
    "zh": "长江"
+  }
+ },
+ "loc:Q57906": {
+  "coord": {
+   "lat": 32.3912,
+   "lon": 119.4363
+  },
+  "label": {
+   "en": "Yangzhou",
+   "zh": "扬州市"
   }
  },
  "loc:Q6501000": {
@@ -12160,6 +17011,26 @@
    "zh": "长安"
   }
  },
+ "loc:Q711": {
+  "coord": {
+   "lat": 46,
+   "lon": 105
+  },
+  "label": {
+   "en": "Mongolia",
+   "zh": "蒙古国"
+  }
+ },
+ "loc:Q7427": {
+  "coord": {
+   "lat": 38.4181,
+   "lon": 106.2241
+  },
+  "label": {
+   "en": "Western Xia",
+   "zh": "西夏"
+  }
+ },
  "loc:Q75026": {
   "coord": {
    "lat": 41.8708,
@@ -12168,6 +17039,16 @@
   "label": {
    "en": "Fushun",
    "zh": "抚顺市"
+  }
+ },
+ "loc:Q80290": {
+  "coord": {
+   "lat": 39.9158,
+   "lon": 116.3908
+  },
+  "label": {
+   "en": "Forbidden City",
+   "zh": "故宫"
   }
  },
  "loc:Q832739": {
@@ -12195,6 +17076,16 @@
   "label": {
    "en": "Qing dynasty",
    "zh": "清朝"
+  }
+ },
+ "loc:Q922785": {
+  "coord": {
+   "lat": 40.5289,
+   "lon": 112.4929
+  },
+  "label": {
+   "en": "Liangcheng County",
+   "zh": "凉城县"
   }
  },
  "loc:Q956": {

@@ -222,5 +222,96 @@
       "https://ebsco.com/research-starters/biography/faxian",
       "https://en.banglapedia.org/index.php/Fa-hien"
     ]
+  },
+  "ev-qingming-scroll:year": {
+    "verdict": "disputed",
+    "reason": "The scroll is undated; the earliest record is Zhang Zhu's Jin colophon of 1186. Most art historians place it in Huizong's reign (1101–1125); Wikidata's 1085 reflects a minority late-11th-century dating. Record is medium confidence with a note.",
+    "checked": [
+      "https://www.britannica.com/biography/Zhang-Zeduan",
+      "https://zh.wikipedia.org/wiki/清明上河图"
+    ]
+  },
+  "ev-qingming-scroll:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's coordinate is the Palace Museum in Beijing, where the scroll is kept. The event marker is Kaifeng, the city it depicts and where it was painted.",
+    "checked": [
+      "https://www.britannica.com/biography/Zhang-Zeduan"
+    ]
+  },
+  "ev-battle-of-yancheng:coord": {
+    "verdict": "keep-ours",
+    "reason": "The battle was fought near Yancheng (now Yancheng district of Luohe, Henan, 33.59N 113.99E) per Song shi 365. Wikidata's 33.9N 113.5E is a rounded point ~57 km away.",
+    "checked": [
+      "脱脱等《宋史》卷365 岳飞传",
+      "https://zh.wikipedia.org/wiki/郾城之战"
+    ]
+  },
+  "ev-battle-of-jao-modo:coord": {
+    "verdict": "keep-ours",
+    "reason": "Jao Modo lies on the upper Tuul River southeast of Ulaanbaatar (Perdue, China Marches West, ch. 5). Wikidata's 46N 105E is a rounded point in central Mongolia far from the river; ours is approximate and the record is medium confidence.",
+    "checked": [
+      "Peter C. Perdue, China Marches West (2005), ch. 5",
+      "https://zh.wikipedia.org/wiki/昭莫多之战"
+    ]
+  },
+  "ev-chinese-rites-controversy:year": {
+    "verdict": "keep-ours",
+    "reason": "The dispute began with the Dominican complaint that led to a 1645 Propaganda decree (Wikidata's start), but the record and summary cover the decisive papal rulings of 1704 and 1715 through Ex quo singulari (1742), following Britannica. Note added to the record.",
+    "checked": [
+      "https://www.britannica.com/topic/Chinese-Rites-Controversy"
+    ]
+  },
+  "ev-white-lotus-rebellion:year": {
+    "verdict": "keep-ours",
+    "reason": "Britannica and Encyclopedia.com date the rebellion 1796–1804 (outbreak in the Hubei–Sichuan–Shaanxi highlands, early 1796). Wikidata's 1794 follows earlier sectarian unrest.",
+    "checked": [
+      "https://britannica.com/facts/White-Lotus-Rebellion",
+      "https://encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/white-lotus-rebellion"
+    ]
+  },
+  "ev-sino-french-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Mawei (Fuzhou), site of the war's decisive naval action on 23 Aug 1884; the full campaign is in route[]. Wikidata's 35N 105E is the generic China centroid.",
+    "checked": [
+      "https://www.britannica.com/event/Sino-French-War"
+    ]
+  },
+  "ev-second-sino-japanese-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Chongqing, the wartime capital; the main campaigns are in route[]. Wikidata's 35N 105E is the generic China centroid.",
+    "checked": [
+      "https://www.britannica.com/event/Second-Sino-Japanese-War"
+    ]
+  },
+  "ev-228-incident:coord": {
+    "verdict": "keep-ours",
+    "reason": "The incident began near the Tianma teahouse in Taipei (25.054N 121.511E) on 27–28 Feb 1947. Wikidata uses the centroid of Taiwan island.",
+    "checked": [
+      "https://www.britannica.com/event/228-Incident",
+      "行政院研究二二八事件小组《二二八事件研究报告》（1992）"
+    ]
+  },
+  "person-cai-lun:born": {
+    "verdict": "keep-ours",
+    "reason": "Britannica gives born 62? CE, died 121; other references give c. 50. The birth year is unknown; ours follows Britannica, and the record is medium confidence with a note.",
+    "checked": [
+      "https://www.britannica.com/biography/Cai-Lun",
+      "https://www.britannica.com/print/article/607565"
+    ]
+  },
+  "person-cao-xueqin:born": {
+    "verdict": "disputed",
+    "reason": "Britannica gives 1715? (Jiangning) – 12 Feb 1763; many Chinese scholars prefer 1724 or c. 1715. No consensus; record has confidence low and a note.",
+    "checked": [
+      "https://www.britannica.com/biography/Cao-Zhan",
+      "https://open.lib.umn.edu/redchamber/chapter/authorship/"
+    ]
+  },
+  "polity-roc-taiwan:from": {
+    "verdict": "keep-ours",
+    "reason": "Q865 is the ROC as a whole (from 1912). This record deliberately covers only the government on Taiwan from December 1949; 1912–1949 is polity-republic-of-china.",
+    "checked": [
+      "https://www.britannica.com/place/Taiwan"
+    ]
   }
 }
