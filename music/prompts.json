@@ -41,6 +41,26 @@
       "label": { "en": "Gamelan & suling flute", "zh": "甘美兰与苏陵竹笛" },
       "style": "Southeast Asian temple music, gentle gamelan bells and gongs with Khmer roneat xylophone, sweet bamboo flute melody, soft hand drum, warm strings underneath, serene and luminous, Angkor at dawn, lyrical memorable melody, warm and consonant, rich but gentle arrangement, continuous with no silences"
     },
+    "north-america": {
+      "title": "Orbis · North America",
+      "label": { "en": "Cedar flute & frame drum", "zh": "雪松长笛与手鼓" },
+      "style": "North American woodland and prairie instrumental, cedar wood flute carrying a slow pentatonic melody, soft frame drum heartbeat, light seed rattle, warm acoustic guitar and low strings underneath, wide open plains at dawn, tall pines and big sky, reverent and tender, lyrical memorable melody, warm and consonant, rich but gentle arrangement, continuous with no silences"
+    },
+    "mesoamerica": {
+      "title": "Orbis · Mesoamerica",
+      "label": { "en": "Clay flutes & teponaztli", "zh": "陶笛与特波纳斯特利木鼓" },
+      "style": "ancient Mesoamerican instrumental, clay ocarina and clay flutes trading a gentle melody, teponaztli wooden slit drum and soft huehuetl drum in a slow pulse, rain stick and seed rattles, warm low strings pad, misty rainforest and stone pyramids at dawn, mysterious and serene, lyrical memorable melody, warm and consonant, rich but gentle arrangement, continuous with no silences"
+    },
+    "south-america": {
+      "title": "Orbis · South America",
+      "label": { "en": "Siku panpipes, charango & bombo", "zh": "排箫、恰朗戈与邦博鼓" },
+      "style": "Andean instrumental, siku panpipes and quena flute singing a lyrical melody, bright charango strumming softly, gentle bombo drum, nylon guitar and warm strings underneath, high altiplano and mountain terraces, condor gliding over the clouds, nostalgic and luminous, lyrical memorable melody, warm and consonant, rich but gentle arrangement, continuous with no silences"
+    },
+    "oceania": {
+      "title": "Orbis · Oceania",
+      "label": { "en": "Didgeridoo drone & clapsticks", "zh": "迪吉里杜管与拍击棒" },
+      "style": "Australian and Pacific instrumental, deep didgeridoo drone, soft clapsticks and Pacific log drum in a slow pulse, warm strings and gentle bells carrying a slow melody above, red desert under the stars and wide ocean horizon, voyaging canoes, ancient and calm, lyrical memorable melody, warm and consonant, rich but gentle arrangement, continuous with no silences"
+    },
     "ocean": {
       "title": "Orbis · Open Sea",
       "label": { "en": "Open sea", "zh": "远洋" },
