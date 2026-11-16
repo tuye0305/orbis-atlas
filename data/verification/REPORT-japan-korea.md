@@ -209,3 +209,30 @@ Most errors were lunar or era dates read as Western months.
 - **The four early Gaya chronology claims** follow the Samguk yusa and are marked low confidence.
 - **Daegaya's last king, Doseolji,** has no Wikidata item and was not added.
 - **Dokdo/Takeshima** is not covered. The San Francisco treaty story mentions only "small disputed islands".
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only pages retrieved during the audit (WebFetch/WebSearch); nothing checked from memory.
+
+- **Seed:** 20261115 (mulberry32 shuffle of the 156 records added or changed against `origin/feat/world-regions`, sorted by id; first 5 records with new stories taken, then filled in shuffle order).
+- **Sample (15, 10 with stories):**
+
+| Record | Source(s) retrieved | Result |
+|---|---|---|
+| ev-taika-reform (story) | en.wikipedia Isshi incident | OK (10 July 645; Tennōki burned, Kokki saved) |
+| ev-goryeo-khitan-war (story) | en.wikipedia Goryeo–Khitan War | OK (cowhide dam and Gang's age not in source; from Goryeosa per story) |
+| ev-perry-expedition (story) | en.wikipedia Perry Expedition | OK |
+| ev-battle-of-myeongnyang (story) | en.wikipedia Battle of Myeongnyang | OK |
+| ev-silla-tang-war (story) | en.wikipedia Silla–Tang War | OK ("some 30,000 horses"; source 30,080) |
+| person-ito-hirobumi | en.wikipedia Itō Hirobumi | OK |
+| place-incheon | en.wikipedia History of Incheon | OK (Maesochol/Soseong not in source; consistent with it) |
+| ev-great-hanshin-earthquake | web search (Wikipedia, Britannica snippets: 5:46, Mw 6.9 / JMA 7.3, 6,434 dead, Route 43 spans) | OK |
+| ev-gapsin-coup | web search (Wikipedia mirror, JACAR glossary: 4 Dec 1884, three days, Yuan Shikai, post office) | OK |
+| ev-daisen-kofun (story) | en.wikipedia Mozu Kofun Group; UNESCO WHC 1593 via search (45 components, 49 kofun) | OK |
+| polity-yamatai | en.wikipedia Yamatai | OK |
+| ev-buddhism-reaches-japan (story) | en.wikipedia Buddhism in Japan; Soga–Mononobe conflict via search (587, Mount Shigi; Asuka-dera begun 588) | OK |
+| ev-imjin-war (story) | en.wikipedia Japanese invasions of Korea | OK (23 May 1592, Konishi; >1 million Korean dead) |
+| ev-korean-armistice (story) | en.wikipedia Korean Armistice Agreement | OK |
+| ev-ako-incident (story) | en.wikipedia Forty-seven rōnin; search (Britannica, Samurai Museum: 21 Apr 1701, same-day sentence) | **zh fixed**: summary 大石内藏助率四十七名浪士 read as 47 plus Ōishi; now 大石内藏助等四十七名浪士 |
+
+**Error rate:** 1 of 15 records (7%), a zh wording ambiguity; no factual errors found. This dataset looks solid.
