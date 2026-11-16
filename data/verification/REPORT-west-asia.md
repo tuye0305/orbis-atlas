@@ -191,7 +191,7 @@ Independent audit using only pages retrieved during the audit (WebFetch/WebSearc
 | polity-ghassanid | en.wikipedia Ghassanids | OK |
 | person-hasan-i-sabbah | en.wikipedia Hasan-i Sabbah | OK |
 | ev-kuwait-independence-1961 | en.wikipedia Operation Vantage | OK |
-| ev-julian-persian-expedition | en.wikipedia Julian's Persian expedition | OK (Nisibis plus Corduene and four others = five provinces with Nisibis) |
+| ev-julian-persian-expedition | en.wikipedia Julian's Persian expedition | OK (five provinces, Corduene among them, plus Nisibis) |
 | ev-treaty-of-georgievsk | en.wikipedia Treaty of Georgievsk; search (Iranica, en.wikipedia Georgia within the Russian Empire: 1787 withdrawal, renunciation of Persian ties) | OK |
 | person-mani | en.wikipedia Mani | OK |
 
