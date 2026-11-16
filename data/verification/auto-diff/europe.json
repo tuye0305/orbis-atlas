@@ -573,6 +573,486 @@
   }
  },
  {
+  "key": "ev-tetrarchy:year",
+  "id": "ev-tetrarchy",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 293,
+  "wikidata": 284,
+  "qid": "Q174450",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is the Tetrarchy itself, created on 1 March 293 when Constantius and Galerius were made Caesars. Wikidata 284 is Diocletian’s accession, which began the reforms but not the four-ruler system.",
+   "checked": [
+    "Lactantius, De mortibus persecutorum 7–8",
+    "https://www.britannica.com/biography/Diocletian"
+   ]
+  }
+ },
+ {
+  "key": "ev-theodoric-takes-ravenna:year",
+  "id": "ev-theodoric-takes-ravenna",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 493,
+  "wikidata": 490,
+  "qid": "Q354560",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is the fall of Ravenna and Odoacer’s murder (Feb–Mar 493), which began Ostrogothic rule. Wikidata Q354560 is the siege of 490–493 and uses its start year.",
+   "checked": [
+    "Anonymus Valesianus II.53–56",
+    "https://www.britannica.com/biography/Theodoric"
+   ]
+  }
+ },
+ {
+  "key": "ev-battle-of-covadonga:year",
+  "id": "ev-battle-of-covadonga",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 722,
+  "wikidata": 718,
+  "qid": "Q957186",
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "Sources give 718 (Wikidata, following the Chronicle of Alfonso III’s chronology) or 722 (most modern historians, e.g. Collins); Britannica says about 720. The record keeps 722 with confidence medium and a note.",
+   "checked": [
+    "https://www.britannica.com/event/Battle-of-Covadonga",
+    "Roger Collins, The Arab Conquest of Spain, 710–797 (1989)"
+   ]
+  }
+ },
+ {
+  "key": "ev-donation-of-pepin:coord",
+  "id": "ev-donation-of-pepin",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   41.9022,
+   12.4539
+  ],
+  "wikidata": [
+   49.5714,
+   3.1442
+  ],
+  "qid": "Q973573",
+  "km": 1116,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Rome, where Fulrad laid the keys of the conquered exarchate towns on the tomb of St Peter in 756. Wikidata’s point is Quierzy, where Pepin made the promise in 754; the note covers both.",
+   "checked": [
+    "Liber Pontificalis, Life of Stephen II",
+    "https://www.britannica.com/event/Donation-of-Pepin"
+   ]
+  }
+ },
+ {
+  "key": "ev-capture-of-toledo-1085:year",
+  "id": "ev-capture-of-toledo-1085",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 1085,
+  "wikidata": 1081,
+  "qid": "Q18008716",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Toledo surrendered in May 1085 (Alfonso VI entered on 25 May). Wikidata 1081 is the start of Alfonso’s campaigns against the taifa, not the capture.",
+   "checked": [
+    "https://www.britannica.com/event/Siege-of-Toledo-1085",
+    "Bernard F. Reilly, The Kingdom of León-Castilla under King Alfonso VI (1988)"
+   ]
+  }
+ },
+ {
+  "key": "ev-albigensian-crusade:coord",
+  "id": "ev-albigensian-crusade",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   43.3442,
+   3.2158
+  ],
+  "wikidata": [
+   43.7075,
+   2.1375
+  ],
+  "qid": "Q51657",
+  "km": 96,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Béziers, sacked on 22 July 1209 in the crusade’s opening action; the later sites are in route[]. Wikidata’s point near Albi is a regional centroid.",
+   "checked": [
+    "Peter of les Vaux-de-Cernay, Historia Albigensis",
+    "https://www.britannica.com/event/Albigensian-Crusade"
+   ]
+  }
+ },
+ {
+  "key": "ev-great-famine-of-1315:coord",
+  "id": "ev-great-famine-of-1315",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   50.8503,
+   2.8851
+  ],
+  "wikidata": [
+   48.691,
+   9.1406
+  ],
+  "qid": "Q1988505",
+  "km": 509,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Ypres, whose surviving accounts record about a tenth of the population buried in 1316, the best-documented urban toll. Wikidata’s point in Württemberg is a generic central-European location.",
+   "checked": [
+    "William Chester Jordan, The Great Famine (1996)",
+    "https://www.britannica.com/event/Great-Famine-European-history"
+   ]
+  }
+ },
+ {
+  "key": "ev-hanseatic-league:year",
+  "id": "ev-hanseatic-league",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 1356,
+  "wikidata": 1358,
+  "qid": "Q42908",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The first general Hanseatic Diet met at Lübeck in 1356 (Britannica, Dollinger). Wikidata’s 1358 is the year the towns first called themselves the “städte von der dudeschen hense”; both are noted, confidence medium.",
+   "checked": [
+    "https://www.britannica.com/topic/Hanseatic-League",
+    "Philippe Dollinger, The German Hansa (1970)"
+   ]
+  }
+ },
+ {
+  "key": "ev-hanseatic-league:endYear",
+  "id": "ev-hanseatic-league",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "endYear",
+  "ours": 1669,
+  "wikidata": 1862,
+  "qid": "Q42908",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The last general Diet met in 1669. Wikidata’s 1862 marks when Lübeck, Hamburg and Bremen ended their residual Hanseatic association; the note mentions it.",
+   "checked": [
+    "https://www.britannica.com/topic/Hanseatic-League",
+    "Philippe Dollinger, The German Hansa (1970)"
+   ]
+  }
+ },
+ {
+  "key": "ev-peasants-revolt-1381:coord",
+  "id": "ev-peasants-revolt-1381",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   51.5186,
+   -0.1007
+  ],
+  "wikidata": [
+   53,
+   -1
+  ],
+  "qid": "Q498871",
+  "km": 176,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Smithfield, London, where Wat Tyler was killed before Richard II on 15 June 1381, the revolt’s climax. Wikidata’s (53, −1) is a centroid of England.",
+   "checked": [
+    "Anonimalle Chronicle",
+    "https://www.britannica.com/event/Peasants-Revolt"
+   ]
+  }
+ },
+ {
+  "key": "ev-eighty-years-war:coord",
+  "id": "ev-eighty-years-war",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   53.157,
+   7
+  ],
+  "wikidata": [
+   52,
+   5
+  ],
+  "qid": "Q164432",
+  "km": 187,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Heiligerlee, the first battle (23 May 1568); the war’s course is in route[]. Wikidata’s (52, 5) is a centroid of the Netherlands.",
+   "checked": [
+    "Geoffrey Parker, The Dutch Revolt (1977)",
+    "https://www.britannica.com/event/Eighty-Years-War"
+   ]
+  }
+ },
+ {
+  "key": "ev-glorious-revolution:coord",
+  "id": "ev-glorious-revolution",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   50.3947,
+   -3.5136
+  ],
+  "wikidata": [
+   55,
+   -4
+  ],
+  "qid": "Q189508",
+  "km": 513,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Brixham, where William of Orange landed on 5 November 1688 (O.S.). Wikidata’s (55, −4) is a point in southern Scotland with no link to the events.",
+   "checked": [
+    "Tim Harris, Revolution: The Great Crisis of the British Monarchy (2006)",
+    "https://www.britannica.com/event/Glorious-Revolution"
+   ]
+  }
+ },
+ {
+  "key": "ev-war-of-the-spanish-succession:coord",
+  "id": "ev-war-of-the-spanish-succession",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   48.632,
+   10.618
+  ],
+  "wikidata": [
+   53.5,
+   15.5
+  ],
+  "qid": "Q150701",
+  "km": 639,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Blenheim (13 Aug 1704), the war’s decisive battle; Wikidata’s (53.5, 15.5) is a generic point in Pomerania far from any theatre.",
+   "checked": [
+    "https://www.britannica.com/event/War-of-the-Spanish-Succession",
+    "J. A. Lynn, The Wars of Louis XIV (1999)"
+   ]
+  }
+ },
+ {
+  "key": "ev-watt-steam-engine:year",
+  "id": "ev-watt-steam-engine",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 1769,
+  "wikidata": 1776,
+  "qid": "Q3099902",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record spans 1769 (Watt’s separate-condenser patent, 5 Jan 1769) to 1776 (first commercial Boulton & Watt engines). Wikidata’s item is the engine type with inception 1776, which is our endYear.",
+   "checked": [
+    "https://www.britannica.com/technology/steam-engine",
+    "Richard L. Hills, Power from Steam (1989)"
+   ]
+  }
+ },
+ {
+  "key": "ev-liverpool-and-manchester-railway:year",
+  "id": "ev-liverpool-and-manchester-railway",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 1830,
+  "wikidata": 1823,
+  "qid": "Q1398696",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The line opened on 15 September 1830, the event recorded. Wikidata’s 1823 is the inception of the promoting committee/company, years before the 1826 Act and construction.",
+   "checked": [
+    "Science and Industry Museum, Manchester: Liverpool and Manchester Railway",
+    "https://www.britannica.com/topic/Liverpool-and-Manchester-Railway"
+   ]
+  }
+ },
+ {
+  "key": "ev-expedition-of-the-thousand:coord",
+  "id": "ev-expedition-of-the-thousand",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   37.7983,
+   12.437
+  ],
+  "wikidata": [
+   37.5667,
+   14.2667
+  ],
+  "qid": "Q228284",
+  "km": 163,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Marsala, where Garibaldi’s volunteers landed on 11 May 1860; the march to Palermo and Naples is in route[]. Wikidata’s point is a centroid of Sicily.",
+   "checked": [
+    "Lucy Riall, Garibaldi: Invention of a Hero (2007)",
+    "https://www.britannica.com/event/Expedition-of-the-Thousand"
+   ]
+  }
+ },
+ {
+  "key": "ev-nazi-seizure-of-power:coord",
+  "id": "ev-nazi-seizure-of-power",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   52.5118,
+   13.3822
+  ],
+  "wikidata": [
+   51,
+   10
+  ],
+  "qid": "Q328271",
+  "km": 287,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is the Reich Chancellery on Wilhelmstrasse, Berlin, where Hitler was appointed on 30 January 1933. Wikidata’s (51, 10) is a centroid of Germany.",
+   "checked": [
+    "Richard J. Evans, The Coming of the Third Reich (2003)",
+    "https://www.britannica.com/biography/Adolf-Hitler"
+   ]
+  }
+ },
+ {
+  "key": "ev-battle-of-britain:coord",
+  "id": "ev-battle-of-britain",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   51.6129,
+   -0.3375
+  ],
+  "wikidata": [
+   54,
+   -2
+  ],
+  "qid": "Q154720",
+  "km": 288,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Bentley Priory, RAF Fighter Command’s headquarters, which directed the battle. Wikidata’s (54, −2) is a centroid of Great Britain.",
+   "checked": [
+    "Richard Overy, The Battle of Britain (2000)",
+    "https://www.britannica.com/event/Battle-of-Britain"
+   ]
+  }
+ },
+ {
+  "key": "ev-may-1968:coord",
+  "id": "ev-may-1968",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   48.8488,
+   2.343
+  ],
+  "wikidata": [
+   47,
+   2
+  ],
+  "qid": "Q6743",
+  "km": 207,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is the Sorbonne and Latin Quarter, centre of the May 1968 student occupations and barricades. Wikidata’s (47, 2) is a centroid of France.",
+   "checked": [
+    "https://www.britannica.com/event/May-1968",
+    "Kristin Ross, May ’68 and Its Afterlives (2002)"
+   ]
+  }
+ },
+ {
+  "key": "ev-german-reunification:coord",
+  "id": "ev-german-reunification",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   52.5186,
+   13.3762
+  ],
+  "wikidata": [
+   52.052,
+   12.389
+  ],
+  "qid": "Q56039",
+  "km": 85,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is the Reichstag, Berlin, where unity was celebrated at midnight on 3 October 1990. Wikidata’s point (52.05, 12.39) is a rural spot in Saxony-Anhalt.",
+   "checked": [
+    "Mary Elise Sarotte, 1989: The Struggle to Create Post-Cold War Europe (2009)",
+    "https://www.britannica.com/event/reunification-of-Germany"
+   ]
+  }
+ },
+ {
+  "key": "ev-euro-introduced:year",
+  "id": "ev-euro-introduced",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 1999,
+  "wikidata": 2002,
+  "qid": "Q4916",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The euro became the legal currency of eleven states on 1 January 1999 (book money); notes and coins followed on 1 January 2002, our endYear. Wikidata Q4916 is the currency, dated by the cash changeover.",
+   "checked": [
+    "European Central Bank: Our money – the euro",
+    "https://www.ecb.europa.eu/euro/intro/html/index.en.html"
+   ]
+  }
+ },
+ {
+  "key": "ev-brexit:year",
+  "id": "ev-brexit",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 2016,
+  "wikidata": 2020,
+  "qid": "Q7888194",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record spans the referendum (23 June 2016) to withdrawal (31 January 2020). Wikidata’s point in time is the withdrawal date, our endYear.",
+   "checked": [
+    "UK Parliament: Brexit timeline",
+    "https://www.britannica.com/topic/Brexit"
+   ]
+  }
+ },
+ {
   "key": "person-eleanor-of-aquitaine:born",
   "id": "person-eleanor-of-aquitaine",
   "dataset": "europe",
@@ -643,6 +1123,78 @@
    "checked": [
     "Acts of Union 1800 (39 & 40 Geo. III c. 67)",
     "https://www.britannica.com/place/United-Kingdom"
+   ]
+  }
+ },
+ {
+  "key": "polity-kingdom-of-castile:to",
+  "id": "polity-kingdom-of-castile",
+  "dataset": "europe",
+  "kind": "polities",
+  "field": "to",
+  "ours": 1230,
+  "wikidata": 1833,
+  "qid": "Q179293",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The separate Kingdom of Castile ended with its permanent union with León in 1230 (Wikidata’s own description reads 1065–1230); its end date of 1833 is the abolition of the old kingdoms as administrative units. The successor is polity-crown-of-castile.",
+   "checked": [
+    "https://www.britannica.com/place/Castile-historical-kingdom-Spain",
+    "Joseph F. O’Callaghan, A History of Medieval Spain (1975)"
+   ]
+  }
+ },
+ {
+  "key": "polity-crown-of-castile:to",
+  "id": "polity-crown-of-castile",
+  "dataset": "europe",
+  "kind": "polities",
+  "field": "to",
+  "ours": 1516,
+  "wikidata": 1715,
+  "qid": "Q217196",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The record stops in 1516, when Charles I inherited both crowns and polity-habsburg-spain takes over the succession band; Wikidata’s 1715 is the Nueva Planta end of Castile’s separate institutions. Stated in the note.",
+   "checked": [
+    "J. H. Elliott, Imperial Spain 1469–1716 (1963)",
+    "https://www.britannica.com/place/Castile-historical-kingdom-Spain"
+   ]
+  }
+ },
+ {
+  "key": "polity-republic-of-florence:to",
+  "id": "polity-republic-of-florence",
+  "dataset": "europe",
+  "kind": "polities",
+  "field": "to",
+  "ours": 1532,
+  "wikidata": 1569,
+  "qid": "Q148540",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The republic ended when Alessandro de’ Medici became Duke of the Florentine Republic in 1532; Wikidata’s 1569 is the creation of the Grand Duchy of Tuscany (its description gives 1532/69).",
+   "checked": [
+    "John M. Najemy, A History of Florence 1200–1575 (2006)",
+    "https://www.britannica.com/place/Florence"
+   ]
+  }
+ },
+ {
+  "key": "polity-kingdom-of-spain:from",
+  "id": "polity-kingdom-of-spain",
+  "dataset": "europe",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1975,
+  "wikidata": 1715,
+  "qid": "Q29",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record is the parliamentary monarchy restored on Juan Carlos I’s proclamation (22 Nov 1975). Wikidata Q29 is Spain the country, whose inception (1715) is unrelated to this regime.",
+   "checked": [
+    "Paul Preston, The Triumph of Democracy in Spain (1986)",
+    "https://www.britannica.com/place/Spain/Spain-since-1975"
    ]
   }
  }
