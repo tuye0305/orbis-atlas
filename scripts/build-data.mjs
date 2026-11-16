@@ -25,11 +25,26 @@ function km(aLat, aLon, bLat, bLon) {
   return 6371 * 2 * Math.asin(Math.sqrt(d));
 }
 
+/**
+ * Commons' Artist field is flattened HTML. It often repeats itself (a visible name plus a hidden
+ * copy: "Unknown authorUnknown author") or carries boilerplate around the real name.
+ */
+export function cleanArtist(raw) {
+  if (!raw) return null;
+  let s = raw.replace(/\s+/g, ' ').trim();
+  const half = s.length / 2;
+  if (Number.isInteger(half) && s.slice(0, half) === s.slice(half)) s = s.slice(0, half).trim();
+  const assumed = /^No machine-readable author provided\.\s*(.+?)\s+assumed\b/i.exec(s);
+  if (assumed) s = assumed[1].replace(/~\w+$/, '');
+  if (s.length > 60) s = `${s.slice(0, 57).replace(/\s+\S*$/, '')}…`;
+  return s || null;
+}
+
 function image(file) {
   if (!file) return undefined;
   const c = commons[file];
   if (!c || c.missing) return undefined;
-  return { file, thumb: c.thumb, page: c.page, license: c.license, artist: c.artist };
+  return { file, thumb: c.thumb, page: c.page, license: c.license, artist: cleanArtist(c.artist) };
 }
 
 const diffs = [];

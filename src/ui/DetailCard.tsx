@@ -1,13 +1,33 @@
-import { useMemo } from 'react';
+import { type CSSProperties, useMemo, useState } from 'react';
 import { EVENT_COLOR, EVENT_GLYPH, EVENT_TYPE_LABEL, s } from '../i18n';
 import { formatYear, t, useStore } from '../state/store';
 import type { ImageRef, Lang, Source, Stop } from '../types';
 
 function Img({ img, alt }: { img?: ImageRef; alt: string }) {
   if (!img) return null;
+  // Keyed by URL so the measured aspect ratio resets when the card switches to another record.
+  return <CardImage key={img.thumb} img={img} alt={alt} />;
+}
+
+/**
+ * The whole picture is always shown (object-fit: contain), never cropped. The frame takes the
+ * image's own aspect ratio, capped by a viewport-relative max height: wide paintings fill the
+ * card edge to edge, and tall portraits sit centred on a blurred copy of themselves.
+ */
+function CardImage({ img, alt }: { img: ImageRef; alt: string }) {
+  const [ratio, setRatio] = useState<number | null>(null);
+  const style = { '--img': `url("${img.thumb}")`, aspectRatio: ratio ? String(ratio) : '4 / 3' } as CSSProperties;
   return (
-    <figure className="card-img">
-      <img src={img.thumb} alt={alt} referrerPolicy="no-referrer" />
+    <figure className={`card-img${ratio && ratio < 1 ? ' tall' : ''}`} style={style}>
+      <img
+        src={img.thumb}
+        alt={alt}
+        referrerPolicy="no-referrer"
+        onLoad={(e) => {
+          const el = e.currentTarget;
+          if (el.naturalWidth && el.naturalHeight) setRatio(el.naturalWidth / el.naturalHeight);
+        }}
+      />
       <figcaption>
         <a href={img.page} target="_blank" rel="noreferrer">
           {img.artist ? `${img.artist} · ` : ''}
