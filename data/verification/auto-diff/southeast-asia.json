@@ -186,6 +186,557 @@
   }
  },
  {
+  "key": "ev-samudera-pasai-islam:year",
+  "id": "ev-samudera-pasai-islam",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1297,
+  "wikidata": 1267,
+  "qid": "Q3284315",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The event is the first datable Muslim ruler: Malik al-Salih’s gravestone is dated 696 AH = 1297 CE. Wikidata’s 1267 is the traditional founding date of the Samudra Pasai kingdom, not of this event.",
+   "checked": [
+    "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (2008)",
+    "Wikipedia: Samudera Pasai Sultanate (https://en.wikipedia.org/wiki/Samudera_Pasai_Sultanate)"
+   ]
+  }
+ },
+ {
+  "key": "ev-canggal-inscription:coord",
+  "id": "ev-canggal-inscription",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -7.6142,
+   110.2919
+  ],
+  "wikidata": [
+   -6.1761,
+   106.8217
+  ],
+  "qid": "Q1874533",
+  "km": 415,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is the National Museum, Jakarta, where the stone is now kept; the inscription was found on Gunung Wukir, Magelang, Central Java, where the point sits.",
+   "checked": [
+    "Wikipedia: Canggal inscription (found at Gunung Wukir, Kadiluwih, Magelang)",
+    "G. Cœdès, The Indianized States of Southeast Asia (1968), p. 87"
+   ]
+  }
+ },
+ {
+  "key": "ev-pyu-ancient-cities:coord",
+  "id": "ev-pyu-ancient-cities",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   18.81,
+   95.29
+  ],
+  "wikidata": [
+   22.47,
+   95.8186
+  ],
+  "qid": "Q17277938",
+  "km": 411,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is Halin, one of the three serial sites; the record is pinned at Sri Ksetra, the largest Pyu city (noted in the record).",
+   "checked": [
+    "UNESCO World Heritage Centre: Pyu Ancient Cities (https://whc.unesco.org/en/list/1444) — Halin, Beikthano and Sri Ksetra"
+   ]
+  }
+ },
+ {
+  "key": "ev-anawrahta-conquers-thaton:year",
+  "id": "ev-anawrahta-conquers-thaton",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1057,
+  "wikidata": -300,
+  "qid": "Q1651832",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s -300 is the legendary start of the Thaton kingdom (its own end date is 17 May 1057); the event is Anawrahta’s conquest of 1057, the chronicle date. Record is low confidence with a note on Aung-Thwin’s critique.",
+   "checked": [
+    "Hmannan Yazawin (Glass Palace Chronicle)",
+    "M. Aung-Thwin, The Mists of Rāmañña (2005)"
+   ]
+  }
+ },
+ {
+  "key": "ev-ananda-temple:year",
+  "id": "ev-ananda-temple",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1105,
+  "wikidata": 1091,
+  "qid": "Q485727",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "1105 is the usual completion date (Luce; Wikipedia gives construction c. 1090–1105); Wikidata’s 1091 is the start of construction. Record is medium with a note.",
+   "checked": [
+    "Wikipedia: Ananda Temple (built c. 1090–1105)",
+    "G. H. Luce, Old Burma–Early Pagán (1969)"
+   ]
+  }
+ },
+ {
+  "key": "ev-founding-of-lan-xang:coord",
+  "id": "ev-founding-of-lan-xang",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   19.8856,
+   102.1347
+  ],
+  "wikidata": [
+   19,
+   102
+  ],
+  "qid": "Q853477",
+  "km": 99,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 19,102 is a generic point for the kingdom; Fa Ngum was crowned at Xieng Dong Xieng Thong (Luang Prabang), where the point sits.",
+   "checked": [
+    "M. Stuart-Fox, The Lao Kingdom of Lān Xāng (1998)",
+    "UNESCO: Town of Luang Prabang (https://whc.unesco.org/en/list/479)"
+   ]
+  }
+ },
+ {
+  "key": "ev-le-thanh-tong-conquers-vijaya:coord",
+  "id": "ev-le-thanh-tong-conquers-vijaya",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   13.9264,
+   109.0708
+  ],
+  "wikidata": [
+   14,
+   108
+  ],
+  "qid": "Q3391315",
+  "km": 116,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 14,108 is a rounded regional point; the decisive event was the storming of Vijaya (Chà Bàn/Đồ Bàn citadel, Bình Định), where the point sits.",
+   "checked": [
+    "K. W. Taylor, A History of the Vietnamese (2013), ch. 5",
+    "Wikipedia: Champa–Đại Việt War (1471)"
+   ]
+  }
+ },
+ {
+  "key": "ev-siege-of-batavia:coord",
+  "id": "ev-siege-of-batavia",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -6.13,
+   106.81
+  ],
+  "wikidata": [
+   -7.4917,
+   110.0044
+  ],
+  "qid": "Q7509865",
+  "km": 384,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The sieges took place at Batavia (Jakarta); Wikidata’s point lies in Central Java near Mataram’s heartland.",
+   "checked": [
+    "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (2008)",
+    "Wikipedia: Siege of Batavia"
+   ]
+  }
+ },
+ {
+  "key": "ev-trinh-nguyen-war:coord",
+  "id": "ev-trinh-nguyen-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   17.47,
+   106.62
+  ],
+  "wikidata": [
+   16,
+   108
+  ],
+  "qid": "Q7849268",
+  "km": 220,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The front line ran along the Gianh river and the Nguyễn walls at Đồng Hới (Quảng Bình), where the point sits; Wikidata’s 16,108 is a country-level point.",
+   "checked": [
+    "Li Tana, Nguyễn Cochinchina (1998)",
+    "Wikipedia: Trịnh–Nguyễn War (Luỹ Thầy, Đồng Hới)"
+   ]
+  }
+ },
+ {
+  "key": "ev-makassar-war:coord",
+  "id": "ev-makassar-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -5.19,
+   119.4
+  ],
+  "wikidata": [
+   -5,
+   120
+  ],
+  "qid": "Q134780471",
+  "km": 70,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The point is Somba Opu/Makassar, where the fighting ended in 1669; Wikidata’s -5,120 is a rounded point in South Sulawesi (70 km).",
+   "checked": [
+    "L. Y. Andaya, The Heritage of Arung Palakka (1981)"
+   ]
+  }
+ },
+ {
+  "key": "ev-nguyen-dynasty-founded:coord",
+  "id": "ev-nguyen-dynasty-founded",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   16.4699,
+   107.5786
+  ],
+  "wikidata": [
+   16,
+   108
+  ],
+  "qid": "Q6500483",
+  "km": 69,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The QID is the dynasty, whose Wikidata point (16,108) is a country centroid; the founding is placed at Huế (Phú Xuân), the capital.",
+   "checked": [
+    "UNESCO: Complex of Huế Monuments (https://whc.unesco.org/en/list/678)"
+   ]
+  }
+ },
+ {
+  "key": "ev-first-anglo-burmese-war:coord",
+  "id": "ev-first-anglo-burmese-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   16.78,
+   96.16
+  ],
+  "wikidata": [
+   22,
+   96
+  ],
+  "qid": "Q29122",
+  "km": 581,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "British forces opened the main campaign by landing at Rangoon in May 1824 (the record also carries a route to Yandabo); Wikidata’s 22,96 is a generic point for Burma.",
+   "checked": [
+    "Thant Myint-U, The River of Lost Footsteps (2006)",
+    "Wikipedia: First Anglo-Burmese War"
+   ]
+  }
+ },
+ {
+  "key": "ev-anglo-dutch-treaty-1824:coord",
+  "id": "ev-anglo-dutch-treaty-1824",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   2.5,
+   101.5
+  ],
+  "wikidata": [
+   51.5072,
+   -0.1275
+  ],
+  "qid": "Q224794",
+  "km": 10589,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Signed in London (Wikidata), but the atlas places treaties where they took effect; the point marks the Strait of Malacca, the line the treaty drew. Noted in the record.",
+   "checked": [
+    "B. W. & L. Y. Andaya, A History of Malaysia (2017)",
+    "Wikipedia: Anglo-Dutch Treaty of 1824"
+   ]
+  }
+ },
+ {
+  "key": "ev-aceh-war:coord",
+  "id": "ev-aceh-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   5.55,
+   95.32
+  ],
+  "wikidata": [
+   4.59,
+   97.41
+  ],
+  "qid": "Q277450",
+  "km": 255,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The war began with the 1873 landings at Kutaraja (Banda Aceh), seat of the sultanate; Wikidata’s point is in central Aceh.",
+   "checked": [
+    "A. Reid, The Contest for North Sumatra (1969)",
+    "Wikipedia: Aceh War"
+   ]
+  }
+ },
+ {
+  "key": "ev-franco-siamese-crisis:coord",
+  "id": "ev-franco-siamese-crisis",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   13.6,
+   100.58
+  ],
+  "wikidata": [
+   21.0333,
+   105.85
+  ],
+  "qid": "Q1359846",
+  "km": 998,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is Hanoi; the crisis came to a head at the Paknam forts at the mouth of the Chao Phraya (13 July 1893), where the point sits.",
+   "checked": [
+    "C. Baker & P. Phongpaichit, A History of Thailand (2009)",
+    "Wikipedia: Franco-Siamese crisis of 1893 (Paknam incident)"
+   ]
+  }
+ },
+ {
+  "key": "ev-malayan-emergency:coord",
+  "id": "ev-malayan-emergency",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   4.82,
+   101.07
+  ],
+  "wikidata": [
+   7,
+   100
+  ],
+  "qid": "Q2354629",
+  "km": 270,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The point is Sungai Siput, Perak, where the killing of three planters on 16 June 1948 led to the emergency (noted); Wikidata’s 7,100 is in southern Thailand.",
+   "checked": [
+    "K. Hack, The Malayan Emergency (2021)",
+    "Wikipedia: Malayan Emergency"
+   ]
+  }
+ },
+ {
+  "key": "ev-singapore-independence:coord",
+  "id": "ev-singapore-independence",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   1.2897,
+   103.8501
+  ],
+  "wikidata": [
+   3.1478,
+   101.6953
+  ],
+  "qid": "Q15991222",
+  "km": 316,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The agreement was signed in Kuala Lumpur (Wikidata), but independence was proclaimed and took effect in Singapore on 9 August 1965.",
+   "checked": [
+    "C. M. Turnbull, A History of Modern Singapore (2009)",
+    "Wikipedia: Independence of Singapore Agreement 1965"
+   ]
+  }
+ },
+ {
+  "key": "ev-indonesian-mass-killings:coord",
+  "id": "ev-indonesian-mass-killings",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -7.3,
+   110.6
+  ],
+  "wikidata": [
+   -2,
+   118
+  ],
+  "qid": "Q799299",
+  "km": 1010,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s -2,118 is Indonesia’s centroid; the record is pinned in Central Java, one of the worst-affected regions with East Java and Bali (noted).",
+   "checked": [
+    "G. Robinson, The Killing Season (2018)"
+   ]
+  }
+ },
+ {
+  "key": "ev-laotian-civil-war:coord",
+  "id": "ev-laotian-civil-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   19.43,
+   103.15
+  ],
+  "wikidata": [
+   17.9667,
+   102.6
+  ],
+  "qid": "Q877450",
+  "km": 173,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is Vientiane; the record marks the Plain of Jars, the main battleground of the war (noted).",
+   "checked": [
+    "M. Stuart-Fox, A History of Laos (1997)"
+   ]
+  }
+ },
+ {
+  "key": "ev-cambodian-vietnamese-war:year",
+  "id": "ev-cambodian-vietnamese-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1978,
+  "wikidata": 1989,
+  "qid": "Q635533",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point in time 1989 is the withdrawal; its own start is 30 April 1977 (border clashes). The record dates the full invasion of 25 December 1978 and notes the 1977 clashes.",
+   "checked": [
+    "N. Chanda, Brother Enemy (1986)",
+    "Wikipedia: Cambodian–Vietnamese War"
+   ]
+  }
+ },
+ {
+  "key": "ev-cambodian-vietnamese-war:endYear",
+  "id": "ev-cambodian-vietnamese-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "endYear",
+  "ours": 1989,
+  "wikidata": 1991,
+  "qid": "Q635533",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Vietnamese troops completed their withdrawal in September 1989; Wikidata’s 1991 is the Paris Peace Agreements, which ended the wider conflict.",
+   "checked": [
+    "N. Chanda, Brother Enemy (1986)",
+    "Wikipedia: Cambodian–Vietnamese War"
+   ]
+  }
+ },
+ {
+  "key": "ev-cambodian-vietnamese-war:coord",
+  "id": "ev-cambodian-vietnamese-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   11.5564,
+   104.9282
+  ],
+  "wikidata": [
+   12.5,
+   105
+  ],
+  "qid": "Q635533",
+  "km": 105,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The decisive event was the capture of Phnom Penh on 7 January 1979; Wikidata’s 12.5,105 is Cambodia’s centroid.",
+   "checked": [
+    "B. Kiernan, The Pol Pot Regime (2008)"
+   ]
+  }
+ },
+ {
+  "key": "ev-rohingya-genocide:coord",
+  "id": "ev-rohingya-genocide",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   20.82,
+   92.37
+  ],
+  "wikidata": [
+   19.5,
+   94
+  ],
+  "qid": "Q28136551",
+  "km": 225,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The clearance operations took place in northern Rakhine (Maungdaw, Buthidaung); Wikidata’s 19.5,94 is in central Myanmar.",
+   "checked": [
+    "UN Fact-Finding Mission on Myanmar, A/HRC/39/64 (2018)"
+   ]
+  }
+ },
+ {
+  "key": "person-cut-nyak-dhien:born",
+  "id": "person-cut-nyak-dhien",
+  "dataset": "southeast-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 1848,
+  "wikidata": 1850,
+  "qid": "Q2183970",
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "Most Indonesian sources give 1848 (Lampadang, Aceh Besar); Wikidata and some references give 1850. Record is medium with a note.",
+   "checked": [
+    "Wikipedia: Cut Nyak Dhien (born 1848)",
+    "Kabar24/Bisnis.com: Cut Nyak Dien, Perjuangan Pahlawan Nasional dari Aceh (https://kabar24.bisnis.com/read/20250721/15/1889418/cut-nyak-dien-perjuangan-pahlawan-nasional-dari-aceh-melawan-belanda)"
+   ]
+  }
+ },
+ {
   "key": "polity-toungoo:from",
   "id": "polity-toungoo",
   "dataset": "southeast-asia",
@@ -200,6 +751,42 @@
    "checked": [
     "Encyclopaedia Britannica: Toungoo dynasty (https://www.britannica.com/topic/Toungoo-dynasty) – 1486–1752 or 1531–1752",
     "Wikipedia: Toungoo dynasty – 1510–1752"
+   ]
+  }
+ },
+ {
+  "key": "polity-pyu:to",
+  "id": "polity-pyu",
+  "dataset": "southeast-asia",
+  "kind": "polities",
+  "field": "to",
+  "ours": 840,
+  "wikidata": 1050,
+  "qid": "Q1627675",
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "Pyu independence ended with the Nanzhao raids of 832 and 835; Wikidata’s 1050 reflects the view that Pyu culture lingered until the Pagan era. Record is low with a note.",
+   "checked": [
+    "Xin Tangshu / Manshu (Nanzhao raids of the 830s)",
+    "UNESCO: Pyu Ancient Cities (https://whc.unesco.org/en/list/1444)"
+   ]
+  }
+ },
+ {
+  "key": "polity-chenla:to",
+  "id": "polity-chenla",
+  "dataset": "southeast-asia",
+  "kind": "polities",
+  "field": "to",
+  "ours": 802,
+  "wikidata": 706,
+  "qid": "Q1057118",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata ends Chenla at 706, when it split into Land and Water Chenla; the record carries the divided Chenla period on to 802 so the Khmer succession has no gap (noted).",
+   "checked": [
+    "G. Cœdès, The Indianized States of Southeast Asia (1968)",
+    "D. Chandler, A History of Cambodia (2008)"
    ]
   }
  }
