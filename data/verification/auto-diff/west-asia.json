@@ -534,6 +534,31 @@
   }
  },
  {
+  "key": "ev-battle-of-avarayr:coord",
+  "id": "ev-battle-of-avarayr",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.83,
+   45.0347
+  ],
+  "wikidata": [
+   39.3388,
+   45.0571
+  ],
+  "qid": "Q734700",
+  "km": 57,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "2026-11 review: the battle was fought on the Avarayr plain by the village of Churs (Chors) in West Azerbaijan, Iran (Wikidata Q5958318: 38.83, 45.035). Wikidata 39.34, 45.06 lies about 57 km further north, near Maku; it was copied from an infobox and does not match the plain the article itself names.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Churs",
+    "https://www.iranicaonline.org/articles/avarayr"
+   ]
+  }
+ },
+ {
   "key": "ev-marib-dam-collapse:year",
   "id": "ev-marib-dam-collapse",
   "dataset": "west-asia",
@@ -991,6 +1016,48 @@
    "reason": "Wikidata 34,36 is in Lebanon. The war is centred on the Gaza Strip; plotted at Gaza City.",
    "checked": [
     "UN OCHA oPt situation reports (https://www.ochaopt.org/)"
+   ]
+  }
+ },
+ {
+  "key": "ev-ghaznavid-capture-of-rayy:year",
+  "id": "ev-ghaznavid-capture-of-rayy",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1029,
+  "wikidata": 1012,
+  "qid": "Q135397374",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The QID is the wider Ghaznavid campaigns in Persia (1012–1034); this record is the capture of Rayy from Majd al-Dawla, dated March–May 1029 (Bosworth; Wikipedia: Majd al-Dawla). Note explains the proxy.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Majd_al-Dawla",
+    "https://en.wikipedia.org/wiki/Ghaznavid_campaigns_in_Persia"
+   ]
+  }
+ },
+ {
+  "key": "ev-ghaznavid-capture-of-rayy:coord",
+  "id": "ev-ghaznavid-capture-of-rayy",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.5958,
+   51.4342
+  ],
+  "wikidata": [
+   30,
+   52
+  ],
+  "qid": "Q135397374",
+  "km": 624,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Rayy (Ray, south of modern Tehran), the city taken in 1029; Wikidata 30,52 is a generic point in Fars for the whole campaign series.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Majd_al-Dawla"
    ]
   }
  },

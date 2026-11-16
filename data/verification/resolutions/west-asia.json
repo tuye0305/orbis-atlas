@@ -395,5 +395,28 @@
       "Saudi Ministry of Foreign Affairs: Founding Day (https://mofa.gov.sa/en/ksa/Pages/foundingday.aspx)",
       "M. Al-Rasheed, A History of Saudi Arabia (2010)"
     ]
+  },
+  "ev-battle-of-avarayr:coord": {
+    "verdict": "keep-ours",
+    "reason": "2026-11 review: the battle was fought on the Avarayr plain by the village of Churs (Chors) in West Azerbaijan, Iran (Wikidata Q5958318: 38.83, 45.035). Wikidata 39.34, 45.06 lies about 57 km further north, near Maku; it was copied from an infobox and does not match the plain the article itself names.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Churs",
+      "https://www.iranicaonline.org/articles/avarayr"
+    ]
+  },
+  "ev-ghaznavid-capture-of-rayy:year": {
+    "verdict": "keep-ours",
+    "reason": "The QID is the wider Ghaznavid campaigns in Persia (1012–1034); this record is the capture of Rayy from Majd al-Dawla, dated March–May 1029 (Bosworth; Wikipedia: Majd al-Dawla). Note explains the proxy.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Majd_al-Dawla",
+      "https://en.wikipedia.org/wiki/Ghaznavid_campaigns_in_Persia"
+    ]
+  },
+  "ev-ghaznavid-capture-of-rayy:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Rayy (Ray, south of modern Tehran), the city taken in 1029; Wikidata 30,52 is a generic point in Fars for the whole campaign series.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Majd_al-Dawla"
+    ]
   }
 }

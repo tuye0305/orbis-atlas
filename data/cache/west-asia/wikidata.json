@@ -619,6 +619,33 @@
    "zh": null
   }
  },
+ "Q12250314": {
+  "label": {
+   "en": "Haitham bin Tarik Al Said",
+   "zh": "海赛姆·本·塔里克·阿勒赛义德"
+  },
+  "description": "Sultan of Oman since 2020 (born 1955)",
+  "coord": null,
+  "image": "Official portrait of Sultan Haitham bin Tariq (2021).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1955,
+   "date": "1955-10-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Haitham bin Tariq",
+   "zh": "海赛姆·本·塔里克·阿勒赛义德"
+  },
+  "locationQid": null
+ },
  "Q122803": {
   "label": {
    "en": "Erzurum",
@@ -1547,6 +1574,38 @@
    "zh": null
   },
   "locationQid": "Q31945"
+ },
+ "Q135397374": {
+  "label": {
+   "en": "Ghaznavid campaigns in Persia",
+   "zh": null
+  },
+  "description": "1012–1034 military campaigns",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1012,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1034,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663"
+  ],
+  "wiki": {
+   "en": "Ghaznavid campaigns in Persia",
+   "zh": null
+  },
+  "locationQid": "Q3746183"
  },
  "Q136344": {
   "label": {
@@ -7447,6 +7506,38 @@
   },
   "locationQid": null
  },
+ "Q400949": {
+  "label": {
+   "en": "Ahmad bin Said Al Busaidi",
+   "zh": "阿布希拉爾·艾哈邁德·本·賽義德"
+  },
+  "description": "Iman of Oman, first ruler from the Al Bu Said dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1694,
+   "date": "1694-03-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1783,
+   "date": "1783-12-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ahmad bin Said al-Busaidi",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q404069": {
   "label": {
    "en": "Jalal al-Din Hassan III",
@@ -7601,6 +7692,33 @@
    "zh": null
   },
   "locationQid": "Q850602"
+ },
+ "Q4117991": {
+  "label": {
+   "en": "Operation Vantage",
+   "zh": null
+  },
+  "description": "1961 defensive British military operation to protect Kuwaiti independence",
+  "coord": null,
+  "image": "HMS Victorious (R38) aerial c1959.jpeg",
+  "pointInTime": {
+   "year": 1961,
+   "date": "1961-07-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q645883"
+  ],
+  "wiki": {
+   "en": "Operation Vantage",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q41183": {
   "label": {
@@ -8269,6 +8387,33 @@
    "zh": "巴德尔之役"
   }
  },
+ "Q48815086": {
+  "label": {
+   "en": "1970 Omani coup d'état",
+   "zh": null
+  },
+  "description": "1970 coup in Oman which led to the bloodless overthrow of the erstwhile ruler by his son",
+  "coord": null,
+  "image": "Oman-map.png",
+  "pointInTime": {
+   "year": 1970,
+   "date": "1970-07-23",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "1970 Omani coup d'état",
+   "zh": null
+  },
+  "locationQid": "Q1294439"
+ },
  "Q49077": {
   "label": {
    "en": "Six-Day War",
@@ -8467,6 +8612,38 @@
    "en": "Siege of Baghdad (1638)",
    "zh": null
   }
+ },
+ "Q506193": {
+  "label": {
+   "en": "Said bin Sultan Al Busaidi",
+   "zh": "赛义德·本·苏尔坦"
+  },
+  "description": "Sultan of Muscat and Oman (1791–1856)",
+  "coord": null,
+  "image": "Said bin Sultan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1791,
+   "date": "1791-06-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1856,
+   "date": "1856-10-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Said bin Sultan",
+   "zh": "赛义德·本·苏丹"
+  },
+  "locationQid": null
  },
  "Q506243": {
   "label": {
@@ -8947,6 +9124,38 @@
   "wiki": {
    "en": "Jahan Shah",
    "zh": "贾汗·沙"
+  },
+  "locationQid": null
+ },
+ "Q57331": {
+  "label": {
+   "en": "Qaboos bin Said Al Said",
+   "zh": "卡布斯·本·赛义德·阿勒赛义德"
+  },
+  "description": "sultan of Oman from 1970 to 2020 (1940–2020)",
+  "coord": null,
+  "image": "Official portrait of Sultan Qaboos bin Said.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1940,
+   "date": "1940-11-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2020,
+   "date": "2020-01-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Qaboos bin Said",
+   "zh": "卡布斯·本·赛义德·阿勒赛义德"
   },
   "locationQid": null
  },
@@ -11082,6 +11291,62 @@
   },
   "locationQid": null
  },
+ "Q879855": {
+  "label": {
+   "en": "Al Bu Said dynasty",
+   "zh": "赛义德王朝"
+  },
+  "description": "current ruling family of Oman and former ruling family of Zanzibar",
+  "coord": null,
+  "image": "Royal Standard of Oman.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q1156073",
+   "Q66480858"
+  ],
+  "wiki": {
+   "en": "Al Bu Said dynasty",
+   "zh": "布賽義德王朝"
+  },
+  "locationQid": null
+ },
+ "Q879869": {
+  "label": {
+   "en": "Said bin Taimur Al Said",
+   "zh": "赛义德·本·泰穆尔"
+  },
+  "description": "Sultan of Muscat and Oman (1910-1972)",
+  "coord": null,
+  "image": "Sultan Wayyid Said Bin Taimur Bin Faisal arriving in Wash. to repay visit made by Edmund Roberts (1832), who was appointed by Pres. Andrew Jackson to negotiate treaties with small nations of LCCN2016878033 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1910,
+   "date": "1910-08-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1972,
+   "date": "1972-10-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Said bin Taimur",
+   "zh": "赛义德·本·泰穆尔"
+  },
+  "locationQid": null
+ },
  "Q881103": {
   "label": {
    "en": "Malichus II",
@@ -11581,6 +11846,16 @@
    "zh": "奥斯曼帝国"
   }
  },
+ "loc:Q1294439": {
+  "coord": {
+   "lat": 17.0197,
+   "lon": 54.0897
+  },
+  "label": {
+   "en": "Salalah",
+   "zh": "塞拉莱"
+  }
+ },
  "loc:Q149805": {
   "coord": {
    "lat": 33.3333,
@@ -11706,6 +11981,16 @@
   "label": {
    "en": "Sinai Peninsula",
    "zh": "西奈半島"
+  }
+ },
+ "loc:Q3746183": {
+  "coord": {
+   "lat": 30,
+   "lon": 52
+  },
+  "label": {
+   "en": "Persis",
+   "zh": "佩里斯"
   }
  },
  "loc:Q48214": {
