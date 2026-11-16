@@ -30,6 +30,8 @@ interface State {
   searchOpen: boolean;
   aboutOpen: boolean;
   drawerOpen: boolean;
+  /** Id of the mini-game open over the globe (see src/games/registry.ts). */
+  game: string | null;
   set: (patch: Partial<State>) => void;
   setYear: (year: number) => void;
   focus: (region: RegionKey) => void;
@@ -63,6 +65,7 @@ export const useStore = create<State>((set, get) => ({
   searchOpen: false,
   aboutOpen: false,
   drawerOpen: !isCompact(),
+  game: null,
   set: (patch) => set(patch),
   setYear: (year) => set({ year: Math.round(Math.min(YEAR_MAX, Math.max(YEAR_MIN, year))) }),
   focus: (region) => set({ focusRequest: { region, at: performance.now() } }),
@@ -121,6 +124,7 @@ useStore.subscribe((s) => {
     if (s.lang === 'zh') p.set('lang', 'zh');
     else p.set('lang', 'en');
     if (s.selection && s.selection.kind !== 'border') p.set(s.selection.kind, s.selection.id);
+    if (s.game) p.set('game', s.game);
     history.replaceState(null, '', `?${p.toString()}`);
   }, 250);
 });

@@ -1,5 +1,6 @@
 import { useEffect, useId, useRef, useState } from 'react';
 import { useNowPlaying } from '../audio/nowPlaying';
+import { GAMES } from '../games/registry';
 import { s } from '../i18n';
 import { REGION_BY_KEY, REGIONS } from '../regions';
 import { type Layers, useStore } from '../state/store';
@@ -13,6 +14,10 @@ export function TopBar() {
   const focus = useStore((st) => st.focus);
   const toggleLayer = useStore((st) => st.toggleLayer);
   const [layersOpen, setLayersOpen] = useState(false);
+  const [gamesOpen, setGamesOpen] = useState(false);
+  const gamesRef = useRef<HTMLDivElement>(null);
+  const gamesBtn = useRef<HTMLButtonElement>(null);
+  const gamesId = useId();
   const layersRef = useRef<HTMLDivElement>(null);
   const layersBtn = useRef<HTMLButtonElement>(null);
   const menuId = useId();
@@ -41,6 +46,33 @@ export function TopBar() {
       document.removeEventListener('keydown', onKey, true);
     };
   }, [layersOpen]);
+
+  useEffect(() => {
+    if (!gamesOpen) return;
+    const onDown = (e: PointerEvent) => {
+      if (!gamesRef.current?.contains(e.target as Node)) setGamesOpen(false);
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Escape') return;
+      e.stopPropagation();
+      setGamesOpen(false);
+      gamesBtn.current?.focus();
+    };
+    document.addEventListener('pointerdown', onDown);
+    document.addEventListener('keydown', onKey, true);
+    return () => {
+      document.removeEventListener('pointerdown', onDown);
+      document.removeEventListener('keydown', onKey, true);
+    };
+  }, [gamesOpen]);
+
+  /** Open a game from the menu: show its event on the globe behind it, then start. */
+  const openGame = (id: string, target: string) => {
+    setGamesOpen(false);
+    const st = useStore.getState();
+    st.select({ kind: target.startsWith('person-') ? 'person' : 'event', id: target });
+    st.set({ game: id, playing: false });
+  };
 
   return (
     <header className="topbar">
@@ -100,6 +132,21 @@ export function TopBar() {
             {musicOn ? track : s('music', lang)}
           </span>
         </button>
+        <div className="layers-wrap" ref={gamesRef}>
+          <button ref={gamesBtn} className="icon-btn games-btn" onClick={() => setGamesOpen(!gamesOpen)} aria-expanded={gamesOpen} aria-controls={gamesId}>
+            {lang === 'zh' ? '小游戏' : 'Games'}
+          </button>
+          {gamesOpen && (
+            <div className="layers-menu games-menu" id={gamesId} role="group" aria-label={lang === 'zh' ? '小游戏' : 'Mini-games'}>
+              {GAMES.map((g) => (
+                <button key={g.id} className="games-item" style={{ ['--accent' as string]: g.accent }} onClick={() => openGame(g.id, g.targets[0])}>
+                  <b>{g.title[lang]}</b>
+                  <small>{g.kicker[lang]}</small>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
         <div className="layers-wrap" ref={layersRef}>
           <button ref={layersBtn} className="icon-btn" onClick={() => setLayersOpen(!layersOpen)} aria-expanded={layersOpen} aria-controls={menuId}>
             {s('layers', lang)}
