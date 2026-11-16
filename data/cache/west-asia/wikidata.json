@@ -1,4 +1,159 @@
 {
+ "Q1031465": {
+  "label": {
+   "en": "Anglo-Persian capture of Hormuz",
+   "zh": "攻占奥尔穆兹"
+  },
+  "description": "1622 Anglo-Persian force taking over the Portuguese garrison at Hormuz Island",
+  "coord": null,
+  "image": "The Portuguese defending the fort at Hormuz. From a Jarūnnāmah by Qadrī. Isfahan - Safavid style, dated 1697.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1622,
+   "date": "1622-02-09",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1622,
+   "date": "1622-04-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1361229"
+  ],
+  "wiki": {
+   "en": "Anglo-Persian capture of Hormuz",
+   "zh": "攻佔奧爾穆茲 (1622年)"
+  },
+  "locationQid": "Q695265"
+ },
+ "Q104804": {
+  "label": {
+   "en": "Mesrop Mashtots",
+   "zh": "圣梅斯罗布"
+  },
+  "description": "Armenian theologian and linguist (362–440)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 362,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 440,
+   "date": "0440-02-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mesrop Mashtots",
+   "zh": "梅斯罗普·马什托茨"
+  },
+  "locationQid": null
+ },
+ "Q1050784": {
+  "label": {
+   "en": "Izz ad-Din Mas'ud",
+   "zh": null
+  },
+  "description": "Zangi emir of Mosul",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1193,
+   "date": "1193-08-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Izz al-Din Mas'ud",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1052771": {
+  "label": {
+   "en": "Celali Revolts",
+   "zh": "傑拉里叛亂"
+  },
+  "description": "rebellions by Anatolian irregular troops against the Ottoman Empire",
+  "coord": null,
+  "image": "The Celali revolt. Şükri-i Bidlisi, Selīmnāme-i Şükrī, probably Maraş-Istanbul, ca. 1525–30, Topkapı Palace Museum Library, Ms. H. 1597-98, fol. 264a.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1519,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1659,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Celali rebellions",
+   "zh": "傑拉里叛亂"
+  },
+  "locationQid": null
+ },
+ "Q1070476": {
+  "label": {
+   "en": "Ahmad Jalayir",
+   "zh": "謝赫·阿赫默德"
+  },
+  "description": "Jalayirid Sultan from 1382 to 1410 (1382–1410)",
+  "coord": null,
+  "image": "Portrait of Sultan Ahmad Jalayir on horse. Khamsah by Khvaju Kirmani - BL Add MS 18113.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1382,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1410,
+   "date": "1410-08-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ahmad Jalayir",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q107258515": {
   "label": {
    "en": "Pahlavi Iran",
@@ -29,6 +184,179 @@
   "wiki": {
    "en": "Pahlavi Iran",
    "zh": "伊朗王國"
+  },
+  "locationQid": null
+ },
+ "Q1099263": {
+  "label": {
+   "en": "Siege of Bursa",
+   "zh": "征服布爾薩"
+  },
+  "description": "1317–1326 capture of the Byzantine city of Prusa",
+  "coord": {
+   "lat": 40.1833,
+   "lon": 29.0667
+  },
+  "image": "Rycaut1694 bd1 9 (187).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1317,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1326,
+   "date": "1326-04-06",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Bursa",
+   "zh": "布爾薩圍城戰"
+  }
+ },
+ "Q11029653": {
+  "label": {
+   "en": "Nabataean kingdom",
+   "zh": "纳巴泰王国"
+  },
+  "description": "ancient Arab Kingdom (3rd century BC - 106 AD)",
+  "coord": {
+   "lat": 30.3286,
+   "lon": 35.4419
+  },
+  "image": "Al-Khazneh, Petra, Jordan.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -400,
+   "date": null,
+   "precision": 7,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 106,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1250464"
+  ],
+  "wiki": {
+   "en": "Nabataean Kingdom",
+   "zh": "纳巴泰王国"
+  }
+ },
+ "Q113380052": {
+  "label": {
+   "en": "Siege of Ani",
+   "zh": null
+  },
+  "description": "1064 battle of the Byzantine–Seljuq wars",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1064,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1064,
+   "date": "1064-08-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Ani (1064)",
+   "zh": null
+  },
+  "locationQid": "Q546010"
+ },
+ "Q114065797": {
+  "label": {
+   "en": "Mahsa Amini protests",
+   "zh": "阿米尼示威"
+  },
+  "description": "Iranian protest movement in 2022–2023",
+  "coord": null,
+  "image": "Amir Kabir University uprising September 2022 (3).jpg",
+  "pointInTime": {
+   "year": 2022,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2022,
+   "date": "2022-09-16",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2023,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q175331",
+   "Q273120",
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Mahsa Amini protests",
+   "zh": "阿米尼示威"
+  },
+  "locationQid": "Q3616"
+ },
+ "Q1144809": {
+  "label": {
+   "en": "Shaykh Uways Jalayir",
+   "zh": "谢赫·乌畏思"
+  },
+  "description": "Jalayirid ruler of Iraq",
+  "coord": null,
+  "image": "Muhammad b. Muhammad al-'Arif presents his work, Farhäd u Gulistan, to Shaikh Uvays Bahadur Khan, from Farhädnäma, Karabagh and Ardabil, 1369-72. Istanbul Topkapi Palace Museum Ms. H. 678 (detail).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1338,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1374,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shaykh Uways Jalayir",
+   "zh": "谢赫·乌畏思"
   },
   "locationQid": null
  },
@@ -150,6 +478,33 @@
    "zh": "迪德格里战役"
   }
  },
+ "Q119295176": {
+  "label": {
+   "en": "Sack of Mecca",
+   "zh": null
+  },
+  "description": "Qarmatian sack of Mecca",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 930,
+   "date": "0930-01-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19841484"
+  ],
+  "wiki": {
+   "en": "Sack of Mecca",
+   "zh": null
+  },
+  "locationQid": "Q5806"
+ },
  "Q11932": {
   "label": {
    "en": "Armenian alphabet",
@@ -176,6 +531,38 @@
   "wiki": {
    "en": "Armenian alphabet",
    "zh": "亞美尼亞字母"
+  },
+  "locationQid": null
+ },
+ "Q1194003": {
+  "label": {
+   "en": "Hasan Buzurg",
+   "zh": "谢赫·大哈散王公"
+  },
+  "description": "1st of several de facto independent Jalayirid rulers of Iraq and central Iran",
+  "coord": null,
+  "image": "Gold dinar of Hasan Buzurg.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1305,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1356,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hasan Buzurg",
+   "zh": "谢赫·大哈散王公"
   },
   "locationQid": null
  },
@@ -207,6 +594,211 @@
    "en": "Jerusalem",
    "zh": "耶路撒冷"
   }
+ },
+ "Q12195463": {
+  "label": {
+   "en": "Prosperity Well No. 7",
+   "zh": null
+  },
+  "description": "first commercial oil well in Saudi Arabia",
+  "coord": {
+   "lat": 26.3211,
+   "lon": 50.1278
+  },
+  "image": "Dammam No. 7 on March 4, 1938.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q211748"
+  ],
+  "wiki": {
+   "en": "Dammam No. 7",
+   "zh": null
+  }
+ },
+ "Q12250314": {
+  "label": {
+   "en": "Haitham bin Tarik Al Said",
+   "zh": "海赛姆·本·塔里克·阿勒赛义德"
+  },
+  "description": "Sultan of Oman since 2020 (born 1955)",
+  "coord": null,
+  "image": "Official portrait of Sultan Haitham bin Tariq (2021).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1955,
+   "date": "1955-10-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Haitham bin Tariq",
+   "zh": "海赛姆·本·塔里克·阿勒赛义德"
+  },
+  "locationQid": null
+ },
+ "Q122803": {
+  "label": {
+   "en": "Erzurum",
+   "zh": "埃尔祖鲁姆"
+  },
+  "description": "city in Turkey",
+  "coord": {
+   "lat": 39.9097,
+   "lon": 41.2756
+  },
+  "image": "Erzurum555.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2716259",
+   "Q1549591",
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Erzurum",
+   "zh": "埃尔祖鲁姆"
+  }
+ },
+ "Q1229305": {
+  "label": {
+   "en": "Julian's Persian expedition",
+   "zh": null
+  },
+  "description": "Emperor Julian's war against Persia",
+  "coord": null,
+  "image": "Taq-e Bostan - High-relief of Ardeshir II investiture.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 363,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 363,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663"
+  ],
+  "wiki": {
+   "en": "Julian's Persian expedition",
+   "zh": null
+  },
+  "locationQid": "Q11767"
+ },
+ "Q122962941": {
+  "label": {
+   "en": "Gaza War",
+   "zh": "加沙战争"
+  },
+  "description": "armed conflict around the Gaza Strip that started on 7 October 2023",
+  "coord": null,
+  "image": "Damage in Gaza Strip during the October 2023 - 29.jpg",
+  "pointInTime": {
+   "year": 2020,
+   "date": null,
+   "precision": 8,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2023,
+   "date": "2023-10-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Gaza war",
+   "zh": "加沙戰爭"
+  },
+  "locationQid": "Q81483"
+ },
+ "Q123037": {
+  "label": {
+   "en": "Mohammad Mosaddegh",
+   "zh": "穆罕默德·摩萨台"
+  },
+  "description": "former Prime Minister of Iran (1882–1967)",
+  "coord": null,
+  "image": "Dr Mohammad Mosaddeq.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1882,
+   "date": "1882-06-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1967,
+   "date": "1967-03-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mohammad Mosaddegh",
+   "zh": "穆罕默德·摩萨台"
+  },
+  "locationQid": null
+ },
+ "Q124745907": {
+  "label": {
+   "en": "Hasan-i Sabbah",
+   "zh": "哈桑·沙巴"
+  },
+  "description": "The founder of the Ismaili state of Alamut and the Imam of the Nizari Ismailis (1081–1124)",
+  "coord": null,
+  "image": "Hassan-i Sabbah-1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1037,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1124,
+   "date": "1124-06-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hasan-i Sabbah",
+   "zh": "哈桑·沙巴"
+  },
+  "locationQid": null
  },
  "Q12490507": {
   "label": {
@@ -347,6 +939,84 @@
   },
   "locationQid": "Q794"
  },
+ "Q126084": {
+  "label": {
+   "en": "Acre",
+   "zh": "阿科"
+  },
+  "description": "city in Israel",
+  "coord": {
+   "lat": 32.9261,
+   "lon": 35.0839
+  },
+  "image": "Aerial view of Acre 1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Acre, Israel",
+   "zh": "阿卡 (以色列)"
+  }
+ },
+ "Q1262004": {
+  "label": {
+   "en": "Jami' al-tawarikh",
+   "zh": "史集"
+  },
+  "description": "work of literature and history, produced in the Mongol Ilkhanate",
+  "coord": null,
+  "image": "Page from the \"Jāmi‘ al-Tavārīkh\" with heading in the hand of Baysunghur.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13136"
+  ],
+  "wiki": {
+   "en": "Jami' al-tawarikh",
+   "zh": "史集"
+  },
+  "locationQid": null
+ },
+ "Q1271038": {
+  "label": {
+   "en": "Imru' al-Qays ibn 'Amr",
+   "zh": "卡伊斯一世"
+  },
+  "description": "Second Lakhmid king",
+  "coord": null,
+  "image": "Epitaph Imru-l-Qays Louvre AO4083.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 328,
+   "date": "0328-12-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Imru al-Qays I ibn Amr",
+   "zh": "卡伊斯一世"
+  },
+  "locationQid": null
+ },
  "Q128245": {
   "label": {
    "en": "Mohammad Reza I of Iran",
@@ -376,6 +1046,38 @@
   "wiki": {
    "en": "Mohammad Reza Pahlavi",
    "zh": "穆罕默德-礼萨·巴列维"
+  },
+  "locationQid": null
+ },
+ "Q1283070": {
+  "label": {
+   "en": "Al-Nu'man III ibn al-Mundhir",
+   "zh": null
+  },
+  "description": "Lakhmid king of al-Hirah (582 – c. 602)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 552,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 609,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Nu'man III ibn al-Mundhir",
+   "zh": null
   },
   "locationQid": null
  },
@@ -470,6 +1172,38 @@
   },
   "locationQid": "Q162411"
  },
+ "Q130873": {
+  "label": {
+   "en": "Menachem Begin",
+   "zh": "梅纳赫姆·贝京"
+  },
+  "description": "Israeli politician and former Prime Minister (1913–1992)",
+  "coord": null,
+  "image": "Menachem Begin, Andrews AFB, 1978.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1913,
+   "date": "1913-08-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1992,
+   "date": "1992-03-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Menachem Begin",
+   "zh": "梅纳赫姆·贝京"
+  },
+  "locationQid": null
+ },
  "Q131002": {
   "label": {
    "en": "Harun al-Rashid",
@@ -501,6 +1235,92 @@
    "zh": "哈伦·拉希德"
   },
   "locationQid": null
+ },
+ "Q131165": {
+  "label": {
+   "en": "Manichaeism",
+   "zh": "摩尼教"
+  },
+  "description": "Persian religion",
+  "coord": null,
+  "image": "Manicheans.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": {
+   "year": 1400,
+   "date": null,
+   "precision": 7,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Manichaeism",
+   "zh": "摩尼教"
+  },
+  "locationQid": null
+ },
+ "Q131290": {
+  "label": {
+   "en": "Ganja",
+   "zh": "占贾"
+  },
+  "description": "city in Azerbaijan",
+  "coord": {
+   "lat": 40.6828,
+   "lon": 46.3606
+  },
+  "image": "Montage of Ganja 2019.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 660,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q56557664",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Ganja, Azerbaijan",
+   "zh": "占贾"
+  }
+ },
+ "Q131301": {
+  "label": {
+   "en": "Homs",
+   "zh": "霍姆斯"
+  },
+  "description": "city in western Syria",
+  "coord": {
+   "lat": 34.7333,
+   "lon": 36.7167
+  },
+  "image": "Homs syria3.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": -2000,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q755017",
+   "Q16127605"
+  ],
+  "wiki": {
+   "en": "Homs",
+   "zh": "霍姆斯 (敘利亞)"
+  }
  },
  "Q131482": {
   "label": {
@@ -540,6 +1360,38 @@
   },
   "locationQid": null
  },
+ "Q1319659": {
+  "label": {
+   "en": "Muhammad bin Saud",
+   "zh": "穆罕默德·賓·沙地"
+  },
+  "description": "Founder of the Emirate of Diriyah and the Al Saud dynasty (1687–1765)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1679,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1765,
+   "date": "1765-08-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad bin Saud Al Muqrin",
+   "zh": "穆罕默德·本·沙特"
+  },
+  "locationQid": null
+ },
  "Q133118": {
   "label": {
    "en": "Şanlıurfa",
@@ -565,6 +1417,60 @@
    "en": "Urfa",
    "zh": "尚勒烏爾法"
   }
+ },
+ "Q1332014": {
+  "label": {
+   "en": "Hatt-i Sharif",
+   "zh": "Gülhane敕令"
+  },
+  "description": "1839 Ottoman edict",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1284645"
+  ],
+  "wiki": {
+   "en": "Edict of Gülhane",
+   "zh": "花厅御诏"
+  },
+  "locationQid": null
+ },
+ "Q133294500": {
+  "label": {
+   "en": "Babak Khorramdin Revolt",
+   "zh": null
+  },
+  "description": "816–837 Persian-Zoroastrian uprising against the Abbasids",
+  "coord": null,
+  "image": "Бабек (конверт) (cropped) (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 816,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 837,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6107280"
+  ],
+  "wiki": {
+   "en": "Babak Khorramdin Revolt",
+   "zh": null
+  },
+  "locationQid": "Q274536"
  },
  "Q133331": {
   "label": {
@@ -637,6 +1543,99 @@
   },
   "locationQid": null
  },
+ "Q1348630": {
+  "label": {
+   "en": "Ridda Wars",
+   "zh": "里达战争"
+  },
+  "description": "series of military campaigns (632–633 CE) launched by Abu Bakr against rebel Arabian tribes soon after Muhammad's death; ended with Muslim victory",
+  "coord": null,
+  "image": "حروب الردة.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 632,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 633,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Ridda Wars",
+   "zh": null
+  },
+  "locationQid": "Q31945"
+ },
+ "Q135397374": {
+  "label": {
+   "en": "Ghaznavid campaigns in Persia",
+   "zh": null
+  },
+  "description": "1012–1034 military campaigns",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1012,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1034,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663"
+  ],
+  "wiki": {
+   "en": "Ghaznavid campaigns in Persia",
+   "zh": null
+  },
+  "locationQid": "Q3746183"
+ },
+ "Q136344": {
+  "label": {
+   "en": "Battle of Köse Dağ",
+   "zh": "克塞山战役"
+  },
+  "description": "1243 Mongol decisive victory over the Seljuq Sultanate",
+  "coord": {
+   "lat": 40.2825,
+   "lon": 39.595
+  },
+  "image": "Bataille de Közä Dagh (1243).jpeg",
+  "pointInTime": {
+   "year": 1243,
+   "date": "1243-06-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Köse Dağ",
+   "zh": "克塞山戰役"
+  }
+ },
  "Q1368440": {
   "label": {
    "en": "Persian Constitutional Revolution",
@@ -673,6 +1672,40 @@
    "zh": "波斯立宪革命"
   },
   "locationQid": "Q794"
+ },
+ "Q1378270": {
+  "label": {
+   "en": "Battle of Jerusalem",
+   "zh": "耶路撒冷戰役"
+  },
+  "description": "1917 battle",
+  "coord": {
+   "lat": 31.7764,
+   "lon": 35.2275
+  },
+  "image": "Palestine-WW1-2.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1917,
+   "date": "1917-11-17",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1917,
+   "date": "1917-12-30",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Jerusalem",
+   "zh": null
+  }
  },
  "Q144565": {
   "label": {
@@ -730,6 +1763,143 @@
   "wiki": {
    "en": "Dead Sea Scrolls",
    "zh": "死海古卷"
+  }
+ },
+ "Q146871": {
+  "label": {
+   "en": "First Saudi State",
+   "zh": "德拉伊耶酋长国"
+  },
+  "description": "1727–1818 included most of Arabian Peninsula",
+  "coord": {
+   "lat": 24.7333,
+   "lon": 46.5756
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1744,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1818,
+   "date": "1818-09-09",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q15893266"
+  ],
+  "wiki": {
+   "en": "First Saudi state",
+   "zh": "德拉伊耶酋长国"
+  }
+ },
+ "Q149724": {
+  "label": {
+   "en": "Faisal II of Iraq",
+   "zh": "费萨尔二世"
+  },
+  "description": "King of Iraq from 4 April 1939 until 1958",
+  "coord": null,
+  "image": "King of Iraq - Faisal II 1953.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1935,
+   "date": "1935-05-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1958,
+   "date": "1958-07-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Faisal II",
+   "zh": "費薩爾二世"
+  },
+  "locationQid": null
+ },
+ "Q149805": {
+  "label": {
+   "en": "Kingdom of Iraq",
+   "zh": "伊拉克王国"
+  },
+  "description": "independent Iraqi monarchy (1932–1958)",
+  "coord": {
+   "lat": 33.3333,
+   "lon": 44.3833
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1921,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1958,
+   "date": "1958-07-14",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q417175"
+  ],
+  "wiki": {
+   "en": "Kingdom of Iraq",
+   "zh": "伊拉克王國"
+  }
+ },
+ "Q150974": {
+  "label": {
+   "en": "Tehran Conference",
+   "zh": "德黑兰会议"
+  },
+  "description": "strategy meeting of the leaders of the USSR, the USA, and the UK in Tehran in 1943 during World War 2",
+  "coord": {
+   "lat": 35.6986,
+   "lon": 51.4144
+  },
+  "image": "Teheran conference-1943.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1943,
+   "date": "1943-11-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1943,
+   "date": "1943-12-01",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625994",
+   "Q1072326"
+  ],
+  "wiki": {
+   "en": "Tehran Conference",
+   "zh": "德黑兰会议"
   }
  },
  "Q151509": {
@@ -825,6 +1995,38 @@
   "wiki": {
    "en": "Kingdom of Georgia",
    "zh": "格鲁吉亚王国"
+  },
+  "locationQid": null
+ },
+ "Q15859": {
+  "label": {
+   "en": "Lotf Ali Khan",
+   "zh": "盧圖夫·阿里汗"
+  },
+  "description": "The seventh and last Khan of Zand Dynasty (1789–1794)",
+  "coord": null,
+  "image": "Lotf Ali Khan Zand.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1769,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1794,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lotf Ali Khan",
+   "zh": "盧圖夫·阿里汗"
   },
   "locationQid": null
  },
@@ -953,6 +2155,38 @@
    "en": "Gallipoli campaign",
    "zh": "加里波利之战"
   }
+ },
+ "Q170302": {
+  "label": {
+   "en": "Saadi",
+   "zh": "萨迪·设拉兹"
+  },
+  "description": "Persian poet",
+  "coord": null,
+  "image": "The poet Sa`di (detail) with his friends in the orchard at night, from Prince Baysunghur's Rose Garden (Gulistan) by Sa`di.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1210,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1292,
+   "date": "1292-12-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Saadi Shirazi",
+   "zh": "萨迪·设拉兹"
+  },
+  "locationQid": null
  },
  "Q170531": {
   "label": {
@@ -1171,6 +2405,33 @@
   },
   "locationQid": null
  },
+ "Q1763700": {
+  "label": {
+   "en": "Qara Iskander",
+   "zh": "卡拉·伊斯坎德爾"
+  },
+  "description": "The second sultan of Qara Qoyunlu dynasty (1420–1435)",
+  "coord": null,
+  "image": "Iskandar ibn Qara Yusuf in battle (frontispiece, Iskandar ibn Qara Yusuf detail) 006r.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1436,
+   "date": "1436-04-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Iskandar (Qara Qoyunlu)",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q177320": {
   "label": {
    "en": "Hulegu Khan",
@@ -1273,6 +2534,38 @@
    "zh": "叙利亚内战"
   }
  },
+ "Q179759": {
+  "label": {
+   "en": "Al-Kindi",
+   "zh": "肯迪"
+  },
+  "description": "Muslim Arab philosopher, mathematician and physician (c.801–873)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 801,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 870,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Kindi",
+   "zh": "肯迪"
+  },
+  "locationQid": null
+ },
  "Q180114": {
   "label": {
    "en": "Ayyubid dynasty",
@@ -1305,6 +2598,38 @@
    "zh": "阿尤布王朝"
   },
   "locationQid": null
+ },
+ "Q1809288": {
+  "label": {
+   "en": "Ottoman–Wahhabi war",
+   "zh": "奥斯曼－沙特战争"
+  },
+  "description": "conflict of 1811-1818",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1811,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1818,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Ottoman–Wahhabi war",
+   "zh": "奥斯曼—沙特战争"
+  },
+  "locationQid": "Q31945"
  },
  "Q181154": {
   "label": {
@@ -1468,6 +2793,129 @@
    "zh": "倭马亚大清真寺"
   }
  },
+ "Q1856007": {
+  "label": {
+   "en": "School of Nisibis",
+   "zh": "尼西比斯学院"
+  },
+  "description": "Christian catechetical school",
+  "coord": {
+   "lat": 37.0667,
+   "lon": 41.2153
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2385804"
+  ],
+  "wiki": {
+   "en": "School of Nisibis",
+   "zh": "尼西比斯學院"
+  }
+ },
+ "Q18701760": {
+  "label": {
+   "en": "Fall of Mosul",
+   "zh": "摩蘇爾陷落"
+  },
+  "description": "battle in June 2014 during which ISIL seized control of the city",
+  "coord": {
+   "lat": 36.3372,
+   "lon": 43.1358
+  },
+  "image": "Humvee down after isis attack.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 2014,
+   "date": "2014-06-04",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2014,
+   "date": "2014-06-10",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q645883"
+  ],
+  "wiki": {
+   "en": "Fall of Mosul",
+   "zh": "摩蘇爾陷落"
+  }
+ },
+ "Q189545": {
+  "label": {
+   "en": "Zengid dynasty",
+   "zh": "赞吉王朝"
+  },
+  "description": "Oghuz Turk dynasty 1127-1250, founded by Imad ad-Din Zengi",
+  "coord": null,
+  "image": "Zengid territory.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1127,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1250,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Zengid dynasty",
+   "zh": "赞吉王朝"
+  },
+  "locationQid": null
+ },
+ "Q189550": {
+  "label": {
+   "en": "Imad ad-Din Zengi",
+   "zh": "伊马德丁·赞吉"
+  },
+  "description": "Zengid ruler",
+  "coord": null,
+  "image": "Histoire dOutremer-Yates Thompson 12-99v.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1087,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1146,
+   "date": "1146-09-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Imad al-Din Zengi",
+   "zh": "伊马德丁·赞吉"
+  },
+  "locationQid": null
+ },
  "Q189705": {
   "label": {
    "en": "Zenobia",
@@ -1500,6 +2948,40 @@
   },
   "locationQid": null
  },
+ "Q19083": {
+  "label": {
+   "en": "Kingdom of Iberia",
+   "zh": "高加索伊比利亞王國"
+  },
+  "description": "ancient Georgian kingdom of Kartli",
+  "coord": {
+   "lat": 41.44,
+   "lon": 43.24
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": -299,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 580,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Iberia",
+   "zh": "伊比利亞王國"
+  }
+ },
  "Q191455": {
   "label": {
    "en": "Shapur I",
@@ -1529,6 +3011,38 @@
   "wiki": {
    "en": "Shapur I",
    "zh": "沙普尔一世"
+  },
+  "locationQid": null
+ },
+ "Q192124": {
+  "label": {
+   "en": "Muhammad ibn Jarir al-Tabari",
+   "zh": "穆罕默德·伊本·贾里尔·塔巴里"
+  },
+  "description": "Iranian scholar, historian and commentator on the Qur'an (839–923)",
+  "coord": null,
+  "image": "الطبري.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 839,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 922,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Tabari",
+   "zh": "塔巴里"
   },
   "locationQid": null
  },
@@ -1599,6 +3113,38 @@
   },
   "locationQid": null
  },
+ "Q192960": {
+  "label": {
+   "en": "Baibars",
+   "zh": "拜巴尔一世"
+  },
+  "description": "4th Sultan of Egypt from 1260 to 1277",
+  "coord": null,
+  "image": "تمثال للسلطان الظاهر بيبرس (cropped).JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1223,
+   "date": "1223-07-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1277,
+   "date": "1277-07-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Baybars",
+   "zh": "拜巴爾"
+  },
+  "locationQid": null
+ },
  "Q194226": {
   "label": {
    "en": "Battle of Yarmouk",
@@ -1663,6 +3209,33 @@
    "en": "Yerevan",
    "zh": "葉里溫"
   }
+ },
+ "Q19686631": {
+  "label": {
+   "en": "Yemeni Civil War",
+   "zh": "2015年也门内战"
+  },
+  "description": "ongoing civil war in the state of Yemen",
+  "coord": null,
+  "image": "Yemeni Civil War.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 2014,
+   "date": "2014-09-16",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Yemeni civil war (2014–present)",
+   "zh": "也门内战 (2014年至今)"
+  },
+  "locationQid": "Q805"
  },
  "Q197884": {
   "label": {
@@ -1730,6 +3303,61 @@
    "zh": "安息帝國"
   }
  },
+ "Q1990627": {
+  "label": {
+   "en": "2003 Bam earthquake",
+   "zh": "2003年巴姆大地震"
+  },
+  "description": "earthquake in Kerman Province, Iran",
+  "coord": {
+   "lat": 29,
+   "lon": 58.55
+  },
+  "image": "Destruction of the Bam Citadel.jpg",
+  "pointInTime": {
+   "year": 2003,
+   "date": "2003-12-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "2003 Bam earthquake",
+   "zh": "2003年巴姆大地震"
+  }
+ },
+ "Q199500": {
+  "label": {
+   "en": "Gyumri",
+   "zh": "久姆里"
+  },
+  "description": "second-largest city in Armenia and capital of Shirak Province in the northwestern part of the country",
+  "coord": {
+   "lat": 40.7833,
+   "lon": 43.8333
+  },
+  "image": "Gyumri (historical center).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20724701",
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Gyumri",
+   "zh": "久姆里"
+  }
+ },
  "Q200032": {
   "label": {
    "en": "Battle of Manzikert",
@@ -1791,6 +3419,181 @@
   },
   "locationQid": null
  },
+ "Q2007212": {
+  "label": {
+   "en": "Battle of Otlukbeli",
+   "zh": "奥特卢克贝利战役"
+  },
+  "description": "1473 battle between the Aq Qoyunlu and the Ottoman Empire",
+  "coord": {
+   "lat": 39.9736,
+   "lon": 40.0222
+  },
+  "image": "Otlukbeli savasi.png",
+  "pointInTime": {
+   "year": 1473,
+   "date": "1473-08-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Otlukbeli",
+   "zh": null
+  }
+ },
+ "Q2010955": {
+  "label": {
+   "en": "Mulla Sadra",
+   "zh": "穆拉 沙扎"
+  },
+  "description": "17th-century Iranian Shia philosopher and theologian",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1571,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1641,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mulla Sadra",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q202308": {
+  "label": {
+   "en": "Evliya Çelebi",
+   "zh": "埃夫利亚·切莱比"
+  },
+  "description": "Turkish traveler and writer (1611–1682)",
+  "coord": null,
+  "image": "Serafimovski - Evliya Çelebi.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1611,
+   "date": "1611-03-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1682,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Evliya Çelebi",
+   "zh": "埃夫利亚·切莱比"
+  },
+  "locationQid": null
+ },
+ "Q203922": {
+  "label": {
+   "en": "Mani",
+   "zh": "摩尼"
+  },
+  "description": "3rd century prophet and founder of Manichaeism",
+  "coord": null,
+  "image": "Mani, the prophet.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 216,
+   "date": "0216-04-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 274,
+   "date": "0274-03-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mani (prophet)",
+   "zh": "摩尼"
+  },
+  "locationQid": null
+ },
+ "Q204128": {
+  "label": {
+   "en": "Bábism",
+   "zh": "巴比教"
+  },
+  "description": "religious movement",
+  "coord": null,
+  "image": "Star of Hykal.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1844,
+   "date": "1844-05-23",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q477544",
+   "Q110961029"
+  ],
+  "wiki": {
+   "en": "Bábism",
+   "zh": "巴比教"
+  },
+  "locationQid": null
+ },
+ "Q204208": {
+  "label": {
+   "en": "The Knight in the Panther's Skin",
+   "zh": "虎皮武士"
+  },
+  "description": "Georgia's national epic poem",
+  "coord": null,
+  "image": "RustaveliManuscript.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "The Knight in the Panther's Skin",
+   "zh": "虎皮武士"
+  },
+  "locationQid": null
+ },
  "Q2060524": {
   "label": {
    "en": "Treaty of Zuhab",
@@ -1817,6 +3620,30 @@
    "zh": "佐哈布條約"
   },
   "locationQid": "Q8139321"
+ },
+ "Q20717633": {
+  "label": {
+   "en": "Abbasid Samarra",
+   "zh": "薩瑪拉"
+  },
+  "description": "Abbasid capital city",
+  "coord": {
+   "lat": 34.3617,
+   "lon": 43.8019
+  },
+  "image": "Malwiya 03.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Abbasid Samarra",
+   "zh": null
+  }
  },
  "Q207381": {
   "label": {
@@ -1847,6 +3674,67 @@
   "wiki": {
    "en": "Khosrow I",
    "zh": "霍斯劳一世"
+  },
+  "locationQid": null
+ },
+ "Q2083368": {
+  "label": {
+   "en": "Siege of Edessa",
+   "zh": "埃德萨之围 (1144年)"
+  },
+  "description": "1144 siege",
+  "coord": {
+   "lat": 37.15,
+   "lon": 38.8
+  },
+  "image": "Urfacastle.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1144,
+   "date": "1144-11-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1144,
+   "date": "1144-12-24",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Edessa (1144)",
+   "zh": "埃德萨之围 (1144年)"
+  }
+ },
+ "Q2083483": {
+  "label": {
+   "en": "Jabalah ibn al-Aiham",
+   "zh": "贾巴拉·伊本·阿尔·艾哈姆"
+  },
+  "description": "Ruler of the Ghassanid state",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 645,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jabala ibn al-Ayham",
+   "zh": null
   },
   "locationQid": null
  },
@@ -1882,6 +3770,38 @@
   },
   "locationQid": null
  },
+ "Q208484": {
+  "label": {
+   "en": "Lebanese Civil War",
+   "zh": "黎巴嫩内战"
+  },
+  "description": "1975–1990 Civil War in Lebanon",
+  "coord": null,
+  "image": "Green Line, Beirut 1982.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1975,
+   "date": "1975-04-13",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1990,
+   "date": "1990-10-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Lebanese Civil War",
+   "zh": "黎巴嫩內戰"
+  },
+  "locationQid": "Q822"
+ },
  "Q2092033": {
   "label": {
    "en": "Conquest of Mecca",
@@ -1911,6 +3831,38 @@
    "zh": null
   }
  },
+ "Q2092950": {
+  "label": {
+   "en": "Hamidian massacres",
+   "zh": "哈米德大屠杀"
+  },
+  "description": "massacres of Armenians in the Ottoman Empire which took place in the mid-1890s",
+  "coord": null,
+  "image": "1895erzurum-victims.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1894,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1897,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Hamidian massacres",
+   "zh": "哈米德大屠殺"
+  },
+  "locationQid": "Q12560"
+ },
  "Q209387": {
   "label": {
    "en": "Battle of Ankara",
@@ -1939,6 +3891,33 @@
    "en": "Battle of Ankara",
    "zh": "安卡拉之战"
   }
+ },
+ "Q21055303": {
+  "label": {
+   "en": "Destruction of the Church of the Holy Sepulchre",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1009,
+   "date": "1009-09-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2111921"
+  ],
+  "wiki": {
+   "en": "Destruction of the Church of the Holy Sepulchre",
+   "zh": null
+  },
+  "locationQid": "Q187702"
  },
  "Q211674": {
   "label": {
@@ -1996,6 +3975,38 @@
   "wiki": {
    "en": "Peace of Amasya",
    "zh": "阿馬西亞和約"
+  },
+  "locationQid": null
+ },
+ "Q212486": {
+  "label": {
+   "en": "Faisal I of Iraq",
+   "zh": "费萨尔一世"
+  },
+  "description": "1st king of Hashemite Iraq from 1921 to 1933",
+  "coord": null,
+  "image": "Faisal I, King of Syria and King of Iraq.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1885,
+   "date": "1885-05-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1933,
+   "date": "1933-09-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Faisal I",
+   "zh": "费萨尔一世"
   },
   "locationQid": null
  },
@@ -2120,6 +4131,252 @@
   },
   "locationQid": null
  },
+ "Q220605": {
+  "label": {
+   "en": "Al-Mundhir III ibn al-Nu'man",
+   "zh": null
+  },
+  "description": "6th-century king of the Lakhmids",
+  "coord": null,
+  "image": "Khosrow I Anushirvan and Al-Mundhir III ibn al-Nu'man.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 500,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 554,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Mundhir III ibn al-Nu'man",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q221353": {
+  "label": {
+   "en": "Arabia Petraea",
+   "zh": "阿拉伯佩特拉"
+  },
+  "description": "Roman province (106–630s)",
+  "coord": {
+   "lat": 30.07,
+   "lon": 35.35
+  },
+  "image": "Arabia SPQR.png",
+  "pointInTime": null,
+  "start": {
+   "year": 106,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q182547"
+  ],
+  "wiki": {
+   "en": "Arabia Petraea",
+   "zh": "佩特拉阿拉伯"
+  }
+ },
+ "Q2227089": {
+  "label": {
+   "en": "Saud al-Kabeer",
+   "zh": "沙特·本·阿卜杜勒·阿齊茲·本·穆罕默德·本·沙特"
+  },
+  "description": "ruler of the Emirate of Diriyah from 1803 to 1814",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1748,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1814,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Saud bin Abdulaziz Al Saud (1748–1814)",
+   "zh": "沙特·本·阿卜杜勒阿齐兹"
+  },
+  "locationQid": null
+ },
+ "Q2276688": {
+  "label": {
+   "en": "Shammar Yahri'sh",
+   "zh": null
+  },
+  "description": "Himyarite king",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 255,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 312,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shammar Yahri'sh",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2299858": {
+  "label": {
+   "en": "Smbat I of Armenia",
+   "zh": "斯姆巴德一世"
+  },
+  "description": "King of Armenia",
+  "coord": null,
+  "image": "Smbat I of Armenia fresco at Ateni Sioni.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 850,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 914,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Smbat I of Armenia",
+   "zh": "斯姆巴特一世"
+  },
+  "locationQid": null
+ },
+ "Q2302690": {
+  "label": {
+   "en": "Tobacco Protest",
+   "zh": "烟草抗议"
+  },
+  "description": "Muslim revolt in Iran against an 1890 tobacco concession granted to Great Britain",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1890,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1892,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Tobacco Protest",
+   "zh": "煙草抗議"
+  },
+  "locationQid": "Q3616"
+ },
+ "Q2303666": {
+  "label": {
+   "en": "Marib Dam",
+   "zh": "馬里卜水壩"
+  },
+  "description": "dam in Yemen",
+  "coord": {
+   "lat": 15.396,
+   "lon": 45.2437
+  },
+  "image": "Marib dam.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1986,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3497167",
+   "Q11350418"
+  ],
+  "wiki": {
+   "en": "Marib Dam",
+   "zh": null
+  }
+ },
+ "Q2304974": {
+  "label": {
+   "en": "Ashot III of Armenia",
+   "zh": "阿绍特三世"
+  },
+  "description": "Armenian king",
+  "coord": null,
+  "image": "Monument knight in Gyumri.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 977,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ashot III of Armenia",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q231360": {
   "label": {
    "en": "Gertrude Bell",
@@ -2218,6 +4475,44 @@
    "zh": "哈丁战役"
   }
  },
+ "Q234738": {
+  "label": {
+   "en": "Turkish War of Independence",
+   "zh": "土耳其独立战争"
+  },
+  "description": "war fought between the Turkish National Movement and the Entente and their proxies",
+  "coord": null,
+  "image": "Turkish War of Independence - collage.jpg",
+  "pointInTime": {
+   "year": 1922,
+   "date": "1922-10-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1919,
+   "date": "1919-05-19",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1923,
+   "date": "1923-07-24",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1006311",
+   "Q21994376"
+  ],
+  "wiki": {
+   "en": "Turkish War of Independence",
+   "zh": "土耳其獨立戰爭"
+  },
+  "locationQid": "Q51614"
+ },
  "Q234860": {
   "label": {
    "en": "Shapur II",
@@ -2287,6 +4582,33 @@
    "zh": "阿拉伯起义"
   },
   "locationQid": "Q3558385"
+ },
+ "Q2412339": {
+  "label": {
+   "en": "Gagik I of Armenia",
+   "zh": "加吉克一世"
+  },
+  "description": "King of Armenia",
+  "coord": null,
+  "image": "Gagik I Bagratuni.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1020,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gagik I of Armenia",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q244007": {
   "label": {
@@ -2448,6 +4770,99 @@
   },
   "locationQid": null
  },
+ "Q2527044": {
+  "label": {
+   "en": "Gagik II of Armenia",
+   "zh": "加吉克二世"
+  },
+  "description": "king of Armenia",
+  "coord": null,
+  "image": "Kakikios surrenders to Constantine IX.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1024,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1076,
+   "date": "1076-03-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gagik II of Armenia",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2530973": {
+  "label": {
+   "en": "Battle of Emesa",
+   "zh": null
+  },
+  "description": "battle between Palmyrene and Roman armies (272)",
+  "coord": {
+   "lat": 34.72,
+   "lon": 36.71
+  },
+  "image": "AurelianusPalmyra272.png",
+  "pointInTime": {
+   "year": 272,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Emesa",
+   "zh": null
+  }
+ },
+ "Q2544585": {
+  "label": {
+   "en": "Sayf al-Dawla",
+   "zh": "道莱"
+  },
+  "description": "Muslim general",
+  "coord": null,
+  "image": "Sayf al-Dawla at his court.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 916,
+   "date": "0916-06-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 967,
+   "date": "0967-02-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sayf al-Dawla",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q25487937": {
   "label": {
    "en": "declaration of Israeli independence",
@@ -2479,6 +4894,38 @@
    "zh": null
   }
  },
+ "Q2553009": {
+  "label": {
+   "en": "Pharasmanes I of Iberia",
+   "zh": "法拉曼尼斯一世"
+  },
+  "description": "1st century AD King of Iberia",
+  "coord": null,
+  "image": "Pharasmanes I, by TAILLASSON, JJ.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -50,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 58,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pharasmanes I",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q256506": {
   "label": {
    "en": "Rabia of Basri",
@@ -2508,6 +4955,193 @@
   "wiki": {
    "en": "Rabia Basri",
    "zh": "拉比雅·巴斯禮"
+  },
+  "locationQid": null
+ },
+ "Q2615347": {
+  "label": {
+   "en": "Battle of Krtsanisi",
+   "zh": "克尔齐尼西战役"
+  },
+  "description": "1795 part of Persian invasion of Kingdom of Kartli-Kakheti",
+  "coord": {
+   "lat": 41.6097,
+   "lon": 44.9028
+  },
+  "image": "Valerian Sidamon-Eristavi 11.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1795,
+   "date": "1795-09-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1795,
+   "date": "1795-09-11",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Krtsanisi",
+   "zh": "克尔齐尼西战役"
+  }
+ },
+ "Q2622868": {
+  "label": {
+   "en": "Bagratid Armenia",
+   "zh": "亚美尼亚"
+  },
+  "description": "Armenian state ruled by the Bagratuni dynasty (885–1045)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 884,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1045,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q417175"
+  ],
+  "wiki": {
+   "en": "Bagratid Armenia",
+   "zh": "巴格拉圖尼亞美尼亞"
+  },
+  "locationQid": null
+ },
+ "Q26918": {
+  "label": {
+   "en": "Khalid ibn al-Walid",
+   "zh": "哈立德·本·瓦利德"
+  },
+  "description": "Arab Muslim military general (d. 642)",
+  "coord": null,
+  "image": "خالد بن الوليد.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 586,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 642,
+   "date": "0642-08-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Khalid ibn al-Walid",
+   "zh": "哈立德·本·瓦利德"
+  },
+  "locationQid": null
+ },
+ "Q269348": {
+  "label": {
+   "en": "Sabbateans",
+   "zh": "沙巴泰运动"
+  },
+  "description": "followers of Sabbatai Zevi",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1826286"
+  ],
+  "wiki": {
+   "en": "Sabbateans",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q273874": {
+  "label": {
+   "en": "Buyid dynasty",
+   "zh": "白益王朝"
+  },
+  "description": "Iranian dynasty ruling of central and western Iran (934–1062)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 934,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1062,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240",
+   "Q417175"
+  ],
+  "wiki": {
+   "en": "Buyid dynasty",
+   "zh": "白益王朝"
+  },
+  "locationQid": null
+ },
+ "Q2745237": {
+  "label": {
+   "en": "Mu'izz al-Dawla",
+   "zh": "艾哈邁德·伊本·白益"
+  },
+  "description": "1st Buyid emir of Iraq from 945 to 967",
+  "coord": null,
+  "image": "Mu'izz al-Dawla coin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 915,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 967,
+   "date": "0967-04-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mu'izz al-Dawla",
+   "zh": null
   },
   "locationQid": null
  },
@@ -2572,6 +5206,99 @@
    "zh": "穆斯林的征服"
   }
  },
+ "Q28135544": {
+  "label": {
+   "en": "Christianization of Iberia",
+   "zh": null
+  },
+  "description": "spread of Christianity in the Kingdom of Iberia",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 400,
+   "date": null,
+   "precision": 7,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q59532"
+  ],
+  "wiki": {
+   "en": "Christianization of the Kingdom of Iberia",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q282475": {
+  "label": {
+   "en": "Kingdom of Kartli-Kakheti",
+   "zh": "卡尔特利-卡赫蒂王国"
+  },
+  "description": "Georgian kingdom",
+  "coord": {
+   "lat": 41.7225,
+   "lon": 44.7925
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1762,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1801,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Kartli-Kakheti",
+   "zh": "卡爾特利-卡赫蒂王國"
+  }
+ },
+ "Q2829247": {
+  "label": {
+   "en": "Al-Mundhir III ibn al-Harith",
+   "zh": null
+  },
+  "description": "King of the Ghassanid Arabs from 569 to 581",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 550,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 602,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Mundhir III ibn al-Harith",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q284003": {
   "label": {
    "en": "Al-Walid I",
@@ -2601,6 +5328,38 @@
   "wiki": {
    "en": "Al-Walid I",
    "zh": "韦立德一世"
+  },
+  "locationQid": null
+ },
+ "Q284542": {
+  "label": {
+   "en": "Al-Mutanabbi",
+   "zh": "穆太奈比"
+  },
+  "description": "Arab poet (c. 915 – 965)",
+  "coord": null,
+  "image": "Al-Mutanabbi by Kahlil Gibran.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 920,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 965,
+   "date": "0965-09-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Mutanabbi",
+   "zh": "穆太奈比"
   },
   "locationQid": null
  },
@@ -2664,6 +5423,38 @@
    "en": "Battle of Hormozdgan",
    "zh": "荷姆茲甘戰役"
   }
+ },
+ "Q289577": {
+  "label": {
+   "en": "Himyarite kingdom",
+   "zh": "希木葉爾"
+  },
+  "description": "former country",
+  "coord": null,
+  "image": "Himyarite Kingdom.png",
+  "pointInTime": null,
+  "start": {
+   "year": -110,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 525,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Himyar",
+   "zh": "希木叶尔王国"
+  },
+  "locationQid": null
  },
  "Q293454": {
   "label": {
@@ -2815,6 +5606,33 @@
   },
   "locationQid": null
  },
+ "Q2988530": {
+  "label": {
+   "en": "Iraqi 14 July revolution",
+   "zh": "1958年伊拉克革命"
+  },
+  "description": "Iraqi military coup in 1958",
+  "coord": null,
+  "image": "Aref with Qasim.png",
+  "pointInTime": {
+   "year": 1958,
+   "date": "1958-07-14",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "14 July Revolution",
+   "zh": "7月14日革命"
+  },
+  "locationQid": "Q149805"
+ },
  "Q302": {
   "label": {
    "en": "Jesus Christ",
@@ -2845,6 +5663,134 @@
   "wiki": {
    "en": "Jesus",
    "zh": "耶稣"
+  },
+  "locationQid": null
+ },
+ "Q302835": {
+  "label": {
+   "en": "Nasir al-Din al-Tusi",
+   "zh": "纳西尔丁·图西"
+  },
+  "description": "Persian astronomer (1201–1274)",
+  "coord": null,
+  "image": "Nasir al-Din Tusi.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1201,
+   "date": "1201-02-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1274,
+   "date": "1274-06-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nasir al-Din al-Tusi",
+   "zh": "奈绥尔丁"
+  },
+  "locationQid": null
+ },
+ "Q302986": {
+  "label": {
+   "en": "Aretas IV Philopatris",
+   "zh": "阿勒塔斯四世"
+  },
+  "description": "King of the Nabataeans (ruled 9 BC-40 AD)",
+  "coord": null,
+  "image": "Bronze Coin of Aretas IV.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -100,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": -60,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Aretas IV Philopatris",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q307187": {
+  "label": {
+   "en": "Abdulaziz bin Mohammed",
+   "zh": "阿卜杜勒·阿齊茲·本·穆罕默德·本·沙特"
+  },
+  "description": "ruler of the Emirate of Diriyah from 1765 to 1803",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1721,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1803,
+   "date": "1803-11-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abdulaziz bin Muhammad Al Saud",
+   "zh": "阿卜杜勒阿齐兹·本·穆罕默德"
+  },
+  "locationQid": null
+ },
+ "Q307587": {
+  "label": {
+   "en": "Abdullah bin Saud Al Kabeer",
+   "zh": "阿卜杜拉·伊本·沙特"
+  },
+  "description": "fourth ruler of the Saudi State (1785-1818)",
+  "coord": null,
+  "image": "Abdullah I of Saudi Arabia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1785,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1818,
+   "date": "1818-12-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abdullah bin Saud Al Saud",
+   "zh": "阿卜杜拉·本·沙特"
   },
   "locationQid": null
  },
@@ -2971,6 +5917,70 @@
   },
   "locationQid": null
  },
+ "Q312973": {
+  "label": {
+   "en": "Nur ad-Din",
+   "zh": "努尔丁"
+  },
+  "description": "Emir of Aleppo (1146–1174) and Damascus (1154–1174)",
+  "coord": null,
+  "image": "Nur ad-Din Zangi2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1118,
+   "date": "1118-02-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1174,
+   "date": "1174-05-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nur al-Din Zengi",
+   "zh": "努爾丁"
+  },
+  "locationQid": null
+ },
+ "Q314784": {
+  "label": {
+   "en": "Ghazi of Iraq",
+   "zh": "加齐·伊本·费萨尔"
+  },
+  "description": "King of the Hashemite Kingdom of Iraq (1912-1939) (ruled 1933-1939)",
+  "coord": null,
+  "image": "Ghazi3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1912,
+   "date": "1912-03-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1939,
+   "date": "1939-04-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ghazi of Iraq",
+   "zh": "加齐·伊本·费萨尔"
+  },
+  "locationQid": null
+ },
  "Q316067": {
   "label": {
    "en": "Artabanus IV of Parthia",
@@ -3035,6 +6045,38 @@
   },
   "locationQid": null
  },
+ "Q324470": {
+  "label": {
+   "en": "Qara Qoyunlu",
+   "zh": "黑羊王朝"
+  },
+  "description": "Persianate Muslim Turkoman monarchy (1374–1468)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1375,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1468,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Qara Qoyunlu",
+   "zh": "黑羊王朝"
+  },
+  "locationQid": null
+ },
  "Q324974": {
   "label": {
    "en": "Agha Mohammad Khan Qajar",
@@ -3064,6 +6106,127 @@
   "wiki": {
    "en": "Agha Mohammad Khan Qajar",
    "zh": "阿迦·穆罕默德汗"
+  },
+  "locationQid": null
+ },
+ "Q325985": {
+  "label": {
+   "en": "Siege of Acre",
+   "zh": "阿卡围城战"
+  },
+  "description": "1291 siege by Egyptian Islamic troops",
+  "coord": {
+   "lat": 32.9333,
+   "lon": 35.0833
+  },
+  "image": "SiegeOfAcre1291.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1291,
+   "date": "1291-04-04",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1291,
+   "date": "1291-05-18",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Acre (1291)",
+   "zh": "阿卡围城战 (1291年)"
+  }
+ },
+ "Q327845": {
+  "label": {
+   "en": "Obodas III",
+   "zh": null
+  },
+  "description": "monarch",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -100,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": -9,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q328782": {
+  "label": {
+   "en": "Rashid-al-Din Hamadani",
+   "zh": "拉施德丁"
+  },
+  "description": "Persian physician and historian (1247-1318)",
+  "coord": null,
+  "image": "Presentation of the book (the author), folio 6 (Bibliothèque nationale de France, Supplément Persan 1113).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1247,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1318,
+   "date": "1318-07-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rashid al-Din Hamadani",
+   "zh": "拉施德丁"
+  },
+  "locationQid": null
+ },
+ "Q3295958": {
+  "label": {
+   "en": "Martyrs of Najran",
+   "zh": null
+  },
+  "description": "Christian saints who were killed under the tyrant Dhu Nuwas of Yemen, while Emperor Justin reigned over the Romans and King Elesbaan (Kaleb) over the Kingdom of Aksum—that is, around C.E.523.",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q16334295"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
   },
   "locationQid": null
  },
@@ -3104,6 +6267,38 @@
    "en": "House of Wisdom",
    "zh": "智慧之家"
   }
+ },
+ "Q332583": {
+  "label": {
+   "en": "Karim Khan zand",
+   "zh": "卡里姆汗"
+  },
+  "description": "founder of the Zand Dynasty (1751–1779)",
+  "coord": null,
+  "image": "Karim Khan-e Zand.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1705,
+   "date": "1705-05-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1779,
+   "date": "1779-03-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Karim Khan Zand",
+   "zh": "卡里姆汗"
+  },
+  "locationQid": null
  },
  "Q334496": {
   "label": {
@@ -3299,6 +6494,38 @@
   },
   "locationQid": null
  },
+ "Q34060": {
+  "label": {
+   "en": "Yitzhak Rabin",
+   "zh": "伊扎克·拉宾"
+  },
+  "description": "Israeli politician, statesman and general (1922–1995)",
+  "coord": null,
+  "image": "Flickr - Israel Defense Forces - Life of Lt. Gen. Yitzhak Rabin, 7th IDF Chief of Staff in photos (11).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1922,
+   "date": "1922-03-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1995,
+   "date": "1995-11-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yitzhak Rabin",
+   "zh": "伊扎克·拉宾"
+  },
+  "locationQid": null
+ },
  "Q34503": {
   "label": {
    "en": "Mehmed II",
@@ -3363,6 +6590,38 @@
   },
   "locationQid": null
  },
+ "Q3460374": {
+  "label": {
+   "en": "Sa'd al-Dawla",
+   "zh": "萨德·达瓦（Sa'd al-Dawla）"
+  },
+  "description": "Hamdanid ruler of Aleppo from 967 to 991",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 952,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 991,
+   "date": "0991-12-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sa'd al-Dawla of Aleppo",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q348583": {
   "label": {
    "en": "Odaenathus",
@@ -3395,6 +6654,41 @@
   },
   "locationQid": null
  },
+ "Q3555020": {
+  "label": {
+   "en": "Siege of Masada",
+   "zh": "馬薩達圍城戰"
+  },
+  "description": "siege marking the end of the First Jewish–Roman War",
+  "coord": {
+   "lat": 31.3156,
+   "lon": 35.3536
+  },
+  "image": "A surprising Roman terrace at the siege of Masada (Histoire de Polybe).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 72,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 73,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q3817498"
+  ],
+  "wiki": {
+   "en": "Siege of Masada",
+   "zh": null
+  }
+ },
  "Q35900": {
   "label": {
    "en": "Omar Khayyám",
@@ -3424,6 +6718,38 @@
   "wiki": {
    "en": "Omar Khayyam",
    "zh": "奥马尔·海亚姆"
+  },
+  "locationQid": null
+ },
+ "Q359956": {
+  "label": {
+   "en": "Vakhtang I of Iberia",
+   "zh": "瓦赫坦格一世"
+  },
+  "description": "King of Iberia (440-502)",
+  "coord": null,
+  "image": "Vakhtang I.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 440,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 502,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vakhtang I",
+   "zh": null
   },
   "locationQid": null
  },
@@ -3512,6 +6838,71 @@
   "wiki": {
    "en": "Ankara",
    "zh": "安卡拉"
+  }
+ },
+ "Q3651751": {
+  "label": {
+   "en": "Trajan's Parthian campaign",
+   "zh": "图拉真讨伐安息帝国"
+  },
+  "description": "conflict between Roman forces under emperor Trajan and the Parthians in Mesopotamia (115-117)",
+  "coord": null,
+  "image": "Trajan RIC 325 - 650918.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 115,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 117,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663",
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Trajan's Parthian campaign",
+   "zh": null
+  },
+  "locationQid": "Q81483"
+ },
+ "Q367449": {
+  "label": {
+   "en": "1999 İzmit earthquake",
+   "zh": "1999年伊茲密特地震"
+  },
+  "description": "August 1999 earthquake in Turkey",
+  "coord": {
+   "lat": 40.702,
+   "lon": 29.987
+  },
+  "image": "Kavaklı.jpg",
+  "pointInTime": {
+   "year": 1999,
+   "date": "1999-08-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944",
+   "Q8065",
+   "Q3839081",
+   "Q8070"
+  ],
+  "wiki": {
+   "en": "1999 İzmit earthquake",
+   "zh": "1999年伊茲密特地震"
   }
  },
  "Q36760": {
@@ -3680,6 +7071,70 @@
   },
   "locationQid": null
  },
+ "Q374468": {
+  "label": {
+   "en": "Uzun Hassan",
+   "zh": "乌尊·哈桑"
+  },
+  "description": "greatest shah of the Turkoman Aq Qoyunlu dynasty (r. 1453–1478)",
+  "coord": null,
+  "image": "Uzun Hasan on horse, 1460s–1470s, Aq Qoyunlu ruler Uzun Hasa hunting (detail).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1423,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1478,
+   "date": "1478-01-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Uzun Hasan",
+   "zh": "烏尊哈桑"
+  },
+  "locationQid": null
+ },
+ "Q37610": {
+  "label": {
+   "en": "David Ben-Gurion",
+   "zh": "戴维·本-古里安"
+  },
+  "description": "Israeli politician, Zionist leader, prime minister of Israel (1948–1953, 1955–1963) - (born1886–1973)",
+  "coord": null,
+  "image": "David Ben-Gurion (D597-087).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1886,
+   "date": "1886-10-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1973,
+   "date": "1973-12-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "David Ben-Gurion",
+   "zh": "大衛·本-古里安"
+  },
+  "locationQid": null
+ },
  "Q37643": {
   "label": {
    "en": "Gulf War",
@@ -3746,6 +7201,38 @@
    "zh": "大马士革"
   }
  },
+ "Q3772246": {
+  "label": {
+   "en": "1860 civil conflict in Mount Lebanon and Damascus",
+   "zh": "黎巴嫩山與大馬士革內戰"
+  },
+  "description": "civil conflict within the Ottoman Empire",
+  "coord": null,
+  "image": "Jean-Baptiste Huysmans 1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1860,
+   "date": "1860-05-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1860,
+   "date": "1860-07-11",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "1860 civil conflict in Mount Lebanon and Damascus",
+   "zh": "1860年黎巴嫩山與大馬士革衝突"
+  },
+  "locationQid": "Q333711"
+ },
  "Q37731": {
   "label": {
    "en": "Uthman ibn Affan",
@@ -3777,6 +7264,122 @@
    "zh": "奥斯曼·本·阿凡"
   },
   "locationQid": null
+ },
+ "Q379624": {
+  "label": {
+   "en": "Heraclius II of Georgia",
+   "zh": "希拉克略二世"
+  },
+  "description": "Georgian monarch; King of Kakheti (1744–62), King of Kartli and Kakheti (1762–98)",
+  "coord": null,
+  "image": "Heraclius II of Eastern Georgia crop.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1720,
+   "date": "1720-11-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1798,
+   "date": "1798-01-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Heraclius II of Georgia",
+   "zh": "希拉克略二世"
+  },
+  "locationQid": null
+ },
+ "Q3805": {
+  "label": {
+   "en": "Amman",
+   "zh": "安曼"
+  },
+  "description": "capital of Jordan",
+  "coord": {
+   "lat": 31.95,
+   "lon": 35.9333
+  },
+  "image": "Amman.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Amman",
+   "zh": "安曼"
+  }
+ },
+ "Q381375": {
+  "label": {
+   "en": "First Nagorno-Karabakh War",
+   "zh": "第一次纳戈尔诺-卡拉巴赫战争"
+  },
+  "description": "armed conflict that took place in the late 1980s to May 1994",
+  "coord": null,
+  "image": "Refugeesaz.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1988,
+   "date": "1988-02-20",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1994,
+   "date": "1994-05-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "First Nagorno-Karabakh War",
+   "zh": "第一次纳戈尔诺-卡拉巴赫战争"
+  },
+  "locationQid": "Q227"
+ },
+ "Q3820": {
+  "label": {
+   "en": "Beirut",
+   "zh": "贝鲁特"
+  },
+  "description": "capital and largest city of Lebanon",
+  "coord": {
+   "lat": 33.8869,
+   "lon": 35.5131
+  },
+  "image": "Beirutcity.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q56061",
+   "Q51929311",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Beirut",
+   "zh": "贝鲁特"
+  }
  },
  "Q38823": {
   "label": {
@@ -3903,6 +7506,166 @@
   },
   "locationQid": null
  },
+ "Q400949": {
+  "label": {
+   "en": "Ahmad bin Said Al Busaidi",
+   "zh": "阿布希拉爾·艾哈邁德·本·賽義德"
+  },
+  "description": "Iman of Oman, first ruler from the Al Bu Said dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1694,
+   "date": "1694-03-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1783,
+   "date": "1783-12-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ahmad bin Said al-Busaidi",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q404069": {
+  "label": {
+   "en": "Jalal al-Din Hassan III",
+   "zh": null
+  },
+  "description": "Nizari Imam of Alamut",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1187,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1221,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hassan III of Alamut",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q404118": {
+  "label": {
+   "en": "Kiya Buzrug-Ummid",
+   "zh": "布祖格·乌米德"
+  },
+  "description": "second Isma'ili ruler of Alamut",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1062,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1138,
+   "date": "1138-02-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kiya Buzurg-Ummid",
+   "zh": "布祖格·乌米德"
+  },
+  "locationQid": null
+ },
+ "Q404123": {
+  "label": {
+   "en": "Rukn al-Din Khurshah",
+   "zh": "鲁克赖丁库沙"
+  },
+  "description": "Nizari Ismaili Imam",
+  "coord": null,
+  "image": "Prise d'Alamût (1256).jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1230,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1257,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rukn al-Din Khurshah",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q40738": {
+  "label": {
+   "en": "Bursa",
+   "zh": "布尔萨"
+  },
+  "description": "city in Bursa province in western Turkey",
+  "coord": {
+   "lat": 40.1913,
+   "lon": 29.0805
+  },
+  "image": "City of Bursa.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 202,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2716259",
+   "Q1549591",
+   "Q6024226",
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Bursa",
+   "zh": "布尔萨"
+  }
+ },
  "Q4115424": {
   "label": {
    "en": "Muhammad's first revelation",
@@ -3929,6 +7692,96 @@
    "zh": null
   },
   "locationQid": "Q850602"
+ },
+ "Q4117991": {
+  "label": {
+   "en": "Operation Vantage",
+   "zh": null
+  },
+  "description": "1961 defensive British military operation to protect Kuwaiti independence",
+  "coord": null,
+  "image": "HMS Victorious (R38) aerial c1959.jpeg",
+  "pointInTime": {
+   "year": 1961,
+   "date": "1961-07-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q645883"
+  ],
+  "wiki": {
+   "en": "Operation Vantage",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q41183": {
+  "label": {
+   "en": "Aleppo",
+   "zh": "阿勒颇"
+  },
+  "description": "city in Aleppo Governorate, Syria",
+  "coord": {
+   "lat": 36.2,
+   "lon": 37.16
+  },
+  "image": "Aleppo, View of the city, Syria.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -5000,
+   "date": null,
+   "precision": 6,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q16127605"
+  ],
+  "wiki": {
+   "en": "Aleppo",
+   "zh": "阿勒颇"
+  }
+ },
+ "Q4164636": {
+  "label": {
+   "en": "Nasir al-Dawla",
+   "zh": "纳西尔·道莱"
+  },
+  "description": "Emir of Mosul from 935 to 967",
+  "coord": null,
+  "image": "Hamdanid gold dinar, Nasir al-Dawla and Sayf al-Dawla.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 901,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 969,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nasir al-Dawla",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q42053": {
   "label": {
@@ -3983,6 +7836,38 @@
    "zh": "青年土耳其党人革命"
   },
   "locationQid": "Q12560"
+ },
+ "Q42992": {
+  "label": {
+   "en": "Golda Meir",
+   "zh": "果尔达·梅厄"
+  },
+  "description": "Prime Minister of Israel from 1969 to 1974",
+  "coord": null,
+  "image": "Golda Meir 03265u-2 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1898,
+   "date": "1898-05-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1978,
+   "date": "1978-12-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Golda Meir",
+   "zh": "果尔达·梅厄"
+  },
+  "locationQid": null
  },
  "Q43": {
   "label": {
@@ -4116,6 +8001,60 @@
   },
   "locationQid": null
  },
+ "Q4349895": {
+  "label": {
+   "en": "Peace of Acilisene",
+   "zh": null
+  },
+  "description": "4th century treaty between the East Roman and Sassanid Empires",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 387,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "Peace of Acilisene",
+   "zh": null
+  },
+  "locationQid": "Q5637035"
+ },
+ "Q43723": {
+  "label": {
+   "en": "Benjamin Netanyahu",
+   "zh": "本雅明·内塔尼亚胡"
+  },
+  "description": "Prime Minister of Israel (born 1949), (1996–1999; 2009–2021; 2022–present)",
+  "coord": null,
+  "image": "Benjamin Netanyahu, February 2023.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1949,
+   "date": "1949-10-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Benjamin Netanyahu",
+   "zh": "本雅明·内塔尼亚胡"
+  },
+  "locationQid": null
+ },
  "Q446965": {
   "label": {
    "en": "Sultan Husayn",
@@ -4240,6 +8179,70 @@
    "zh": "耶路撒冷围城战 (1099年)"
   }
  },
+ "Q463419": {
+  "label": {
+   "en": "Ashot I of Armenia",
+   "zh": "亞美尼亞的阿肖特一世"
+  },
+  "description": "Armenian king",
+  "coord": null,
+  "image": "Ashot Medz.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 820,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 890,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ashot I of Armenia",
+   "zh": "阿碩特一世"
+  },
+  "locationQid": null
+ },
+ "Q464394": {
+  "label": {
+   "en": "Forugh Farrokhzad",
+   "zh": "芙茹弗·法洛克扎德"
+  },
+  "description": "Iranian poet (1935-1967)",
+  "coord": null,
+  "image": "فروغ فرخزاد - مجموعه شعر اسیر، نشر امیرکبیر، ۱۳۳۴.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1935,
+   "date": "1935-01-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1967,
+   "date": "1967-02-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Forugh Farrokhzad",
+   "zh": "芙茹弗·法羅赫扎德"
+  },
+  "locationQid": null
+ },
  "Q466060": {
   "label": {
    "en": "Canon of Medicine",
@@ -4297,6 +8300,64 @@
   },
   "locationQid": null
  },
+ "Q4730963": {
+  "label": {
+   "en": "Aisha",
+   "zh": "阿伊莎"
+  },
+  "description": "Muhammad's third wife (c. 613/614 – 678)",
+  "coord": null,
+  "image": "New York Public Library, Spencer Collection Turk. MS. 3 Siyar-i Nabî fol. 115r Khawlah bint Hakim asks Muhammad to marry Aisha.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 614,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 678,
+   "date": "0678-07-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Aisha",
+   "zh": "阿伊莎"
+  },
+  "locationQid": null
+ },
+ "Q48338": {
+  "label": {
+   "en": "Kayseri",
+   "zh": "开塞利"
+  },
+  "description": "city in Turkey",
+  "coord": {
+   "lat": 38.7225,
+   "lon": 35.4875
+  },
+  "image": "City of Kayseri.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2716259",
+   "Q1549591",
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Kayseri",
+   "zh": "開塞利"
+  }
+ },
  "Q486124": {
   "label": {
    "en": "Battle of Badr",
@@ -4325,6 +8386,166 @@
    "en": "Battle of Badr",
    "zh": "巴德尔之役"
   }
+ },
+ "Q48815086": {
+  "label": {
+   "en": "1970 Omani coup d'état",
+   "zh": null
+  },
+  "description": "1970 coup in Oman which led to the bloodless overthrow of the erstwhile ruler by his son",
+  "coord": null,
+  "image": "Oman-map.png",
+  "pointInTime": {
+   "year": 1970,
+   "date": "1970-07-23",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "1970 Omani coup d'état",
+   "zh": null
+  },
+  "locationQid": "Q1294439"
+ },
+ "Q49077": {
+  "label": {
+   "en": "Six-Day War",
+   "zh": "第三次中东战争"
+  },
+  "description": "1967 war between Israel and Egypt, Jordan, and Syria",
+  "coord": null,
+  "image": "Guèrra dei Sièis Jorns.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1967,
+   "date": "1967-06-05",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1967,
+   "date": "1967-06-10",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Six-Day War",
+   "zh": "第三次中东战争"
+  },
+  "locationQid": "Q7204"
+ },
+ "Q49092": {
+  "label": {
+   "en": "1948 Arab–Israeli War",
+   "zh": "1948年阿拉伯-以色列战争"
+  },
+  "description": "second and final stage of the 1947–1949 Palestine war",
+  "coord": null,
+  "image": "1948 Arab Israeli War - May 15-June 10.svg",
+  "pointInTime": {
+   "year": 1940,
+   "date": null,
+   "precision": 8,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1948,
+   "date": "1948-05-15",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1949,
+   "date": "1949-03-10",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "1948 Arab–Israeli War",
+   "zh": "1948年阿拉伯-以色列戰爭"
+  },
+  "locationQid": "Q36755"
+ },
+ "Q49100": {
+  "label": {
+   "en": "Yom Kippur War",
+   "zh": "第四次中东战争"
+  },
+  "description": "October 1973 war between Egypt and Syria at one side and Israel on the other side",
+  "coord": null,
+  "image": "Yom Kippur War. XXXVI.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1973,
+   "date": "1973-10-06",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1973,
+   "date": "1973-10-26",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Yom Kippur War",
+   "zh": "贖罪日戰爭"
+  },
+  "locationQid": "Q48214"
+ },
+ "Q49105": {
+  "label": {
+   "en": "First Intifada",
+   "zh": "巴勒斯坦大起义"
+  },
+  "description": "1987–1993 Palestinian uprising against Israeli occupation",
+  "coord": null,
+  "image": "Intifada in Gaza Strip, 1987 III Dan Hadani Archive.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1987,
+   "date": "1987-12-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1993,
+   "date": "1993-09-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1753200"
+  ],
+  "wiki": {
+   "en": "First Intifada",
+   "zh": "第一次巴勒斯坦大起義"
+  },
+  "locationQid": "Q36678"
  },
  "Q494660": {
   "label": {
@@ -4355,6 +8576,104 @@
   "wiki": {
    "en": "Selim I",
    "zh": "塞利姆一世"
+  },
+  "locationQid": null
+ },
+ "Q5036981": {
+  "label": {
+   "en": "Capture of Baghdad (1638)",
+   "zh": null
+  },
+  "description": "part of the Ottoman–Safavid War (1623–1639)",
+  "coord": {
+   "lat": 33.35,
+   "lon": 44.4167
+  },
+  "image": "Verovering van Bagdad door de Turken, 1638, RP-P-1896-A-19368-1955.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1638,
+   "date": "1638-11-15",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1638,
+   "date": "1638-12-25",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Baghdad (1638)",
+   "zh": null
+  }
+ },
+ "Q506193": {
+  "label": {
+   "en": "Said bin Sultan Al Busaidi",
+   "zh": "赛义德·本·苏尔坦"
+  },
+  "description": "Sultan of Muscat and Oman (1791–1856)",
+  "coord": null,
+  "image": "Said bin Sultan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1791,
+   "date": "1791-06-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1856,
+   "date": "1856-10-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Said bin Sultan",
+   "zh": "赛义德·本·苏丹"
+  },
+  "locationQid": null
+ },
+ "Q506243": {
+  "label": {
+   "en": "'Adud al-Dawla",
+   "zh": "阿杜德·道莱"
+  },
+  "description": "Buyid dynasty emir (936-983)",
+  "coord": null,
+  "image": "Adud al-Dawla medallion.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 936,
+   "date": "0936-09-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 983,
+   "date": "0983-03-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "'Adud al-Dawla",
+   "zh": "阿杜德·道莱"
   },
   "locationQid": null
  },
@@ -4491,6 +8810,65 @@
   },
   "locationQid": null
  },
+ "Q525997": {
+  "label": {
+   "en": "Treaty of Georgievsk",
+   "zh": "乔治亚夫斯克条约"
+  },
+  "description": "treaty signed by Kartli-Kakheti and the Russian Empire",
+  "coord": null,
+  "image": "Treaty of Georgievsk of 1783 (Esadze, 1913).JPG",
+  "pointInTime": {
+   "year": 1783,
+   "date": "1783-07-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "Treaty of Georgievsk",
+   "zh": "乔治亚夫斯克条约"
+  },
+  "locationQid": "Q105413"
+ },
+ "Q529685": {
+  "label": {
+   "en": "Mirian III of Iberia",
+   "zh": "米利安三世"
+  },
+  "description": "first Iberian king from the Chosroid dynasty",
+  "coord": null,
+  "image": "King Mirian, a 17th-century fresco from Svetitskhoveli Cathedral (Mtskheta, Georgia).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 265,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 361,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mirian III",
+   "zh": "米利安三世"
+  },
+  "locationQid": null
+ },
  "Q541723": {
   "label": {
    "en": "Antioch earthquake of 526",
@@ -4621,6 +8999,166 @@
   },
   "locationQid": null
  },
+ "Q555994": {
+  "label": {
+   "en": "Aq Qoyunlu",
+   "zh": "白羊王朝"
+  },
+  "description": "Historical state that ruled Eastern Anatolia, Azerbaijan, and Iran (1378–1503)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1378,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1508,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Aq Qoyunlu",
+   "zh": "白羊王朝"
+  },
+  "locationQid": null
+ },
+ "Q558770": {
+  "label": {
+   "en": "Aretas III",
+   "zh": "阿雷塔斯三世"
+  },
+  "description": "Nabataean kingdom politician",
+  "coord": null,
+  "image": "Aretas coinage.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -200,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": -100,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Aretas III",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q5600": {
+  "label": {
+   "en": "Mimar Sinan",
+   "zh": "米馬爾·希南"
+  },
+  "description": "16th-century Ottoman chief architect and civil engineer",
+  "coord": null,
+  "image": "Mimar Sinan, architecte de Soliman le Magnifique.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1490,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1588,
+   "date": "1588-07-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mimar Sinan",
+   "zh": "米馬爾·希南"
+  },
+  "locationQid": null
+ },
+ "Q561219": {
+  "label": {
+   "en": "Jahan Shah",
+   "zh": "賈漢沙"
+  },
+  "description": "The third and greatest sultan of Qara Qoyunlu dynasty (1435–1467)",
+  "coord": null,
+  "image": "Jahānshāh escaping under escort. Folio 402v. Rawzat al-Safa, 1599, Turkey (British Library, Or. 5736).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1397,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1467,
+   "date": "1467-11-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jahan Shah",
+   "zh": "贾汗·沙"
+  },
+  "locationQid": null
+ },
+ "Q57331": {
+  "label": {
+   "en": "Qaboos bin Said Al Said",
+   "zh": "卡布斯·本·赛义德·阿勒赛义德"
+  },
+  "description": "sultan of Oman from 1970 to 2020 (1940–2020)",
+  "coord": null,
+  "image": "Official portrait of Sultan Qaboos bin Said.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1940,
+   "date": "1940-11-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2020,
+   "date": "2020-01-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Qaboos bin Said",
+   "zh": "卡布斯·本·赛义德·阿勒赛义德"
+  },
+  "locationQid": null
+ },
  "Q57336": {
   "label": {
    "en": "Ali Khamenei",
@@ -4652,6 +9190,37 @@
    "zh": "阿里·哈梅內伊"
   },
   "locationQid": null
+ },
+ "Q579179": {
+  "label": {
+   "en": "Halabja massacre",
+   "zh": "哈拉布贾化学袭击"
+  },
+  "description": "massacre against the Kurdish people that took place in Halabja, Iraq on March 16, 1988",
+  "coord": {
+   "lat": 35.1833,
+   "lon": 45.9833
+  },
+  "image": "Family Graves for Victims of 1988 Chemical Attack - Halabja - Kurdistan - Iraq.jpg",
+  "pointInTime": {
+   "year": 1988,
+   "date": "1988-03-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q750215",
+   "Q5533440",
+   "Q135010"
+  ],
+  "wiki": {
+   "en": "Halabja massacre",
+   "zh": "哈拉卜贾化学武器袭击"
+  }
  },
  "Q5806": {
   "label": {
@@ -4710,6 +9279,40 @@
    "zh": "基利傑阿爾斯蘭二世"
   },
   "locationQid": null
+ },
+ "Q5913740": {
+  "label": {
+   "en": "Siege of Isfahan",
+   "zh": null
+  },
+  "description": "1722 siege",
+  "coord": {
+   "lat": 32.6447,
+   "lon": 51.6675
+  },
+  "image": "Isfahan to the south side by Eugène Flandin.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1722,
+   "date": "1722-03-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1722,
+   "date": "1722-10-23",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Isfahan",
+   "zh": null
+  }
  },
  "Q5933860": {
   "label": {
@@ -4774,6 +9377,38 @@
    "zh": "1953年伊朗政變"
   },
   "locationQid": "Q3616"
+ },
+ "Q600829": {
+  "label": {
+   "en": "Qara Yuluk Osman Beg",
+   "zh": "卡拉·奥斯曼"
+  },
+  "description": "The first king of Aq Qoyunlu (1378–1435)",
+  "coord": null,
+  "image": "Aq Qoyunlu domains, circa 1435.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1350,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1435,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Qara Yuluk Uthman Beg",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q603549": {
   "label": {
@@ -4868,6 +9503,115 @@
   },
   "locationQid": null
  },
+ "Q616851": {
+  "label": {
+   "en": "Iraqi revolt of 1920",
+   "zh": "伊拉克暴動（1920年）"
+  },
+  "description": "Iraqi uprising against British rule",
+  "coord": null,
+  "image": "Iraq's 1920 Revolution.jpg",
+  "pointInTime": {
+   "year": 1920,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1920,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1920,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6107280"
+  ],
+  "wiki": {
+   "en": "Iraqi Revolt",
+   "zh": "1920年伊拉克起义"
+  },
+  "locationQid": "Q7075820"
+ },
+ "Q620735": {
+  "label": {
+   "en": "Russo-Georgian War",
+   "zh": "2008年南奥塞梯战争"
+  },
+  "description": "2008 Russian invasion of Georgia",
+  "coord": {
+   "lat": 41.9894,
+   "lon": 44.4178
+  },
+  "image": "Tskhinval Yana Amelina 10.jpg",
+  "pointInTime": {
+   "year": 2008,
+   "date": "2008-08-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2008,
+   "date": "2008-08-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2008,
+   "date": "2008-08-12",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q645883"
+  ],
+  "wiki": {
+   "en": "Russo-Georgian War",
+   "zh": "俄格戰爭"
+  }
+ },
+ "Q6240": {
+  "label": {
+   "en": "Hafez",
+   "zh": "哈菲兹"
+  },
+  "description": "Persian poet and mystic (1325–1389)",
+  "coord": null,
+  "image": "Anselm Feuerbach Hafis vor der Schenke (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1325,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1389,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hafez",
+   "zh": "哈菲兹"
+  },
+  "locationQid": null
+ },
  "Q626058": {
   "label": {
    "en": "Battle of Karbala",
@@ -4931,6 +9675,38 @@
    "zh": "伊朗崇高國"
   }
  },
+ "Q643275": {
+  "label": {
+   "en": "Al-Harith ibn Jabalah",
+   "zh": "哈里特·伊本·贾巴拉"
+  },
+  "description": "King of the Ghassanids from c.528 to 569",
+  "coord": null,
+  "image": "Al-Harith.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 600,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 569,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Harith ibn Jabalah",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q6556445": {
   "label": {
    "en": "Masjed Soleyman oil field",
@@ -4954,6 +9730,131 @@
    "en": "Masjed Soleyman oil field",
    "zh": null
   }
+ },
+ "Q6563843": {
+  "label": {
+   "en": "Nizari Ismaili state",
+   "zh": "尼扎里·伊斯瑪儀王朝"
+  },
+  "description": "Nizari Ismaili government with the center of Alamut Castle (1090–1273)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1090,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1256,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q276548",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Nizari Ismaili state",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6670686": {
+  "label": {
+   "en": "Turkish alphabet reform",
+   "zh": null
+  },
+  "description": "part of Atatürk's reforms in Turkey",
+  "coord": null,
+  "image": "Ataturk-September 20, 1928.jpg",
+  "pointInTime": {
+   "year": 1928,
+   "date": "1928-11-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q900406"
+  ],
+  "wiki": {
+   "en": "Turkish alphabet reform",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q668957": {
+  "label": {
+   "en": "George XII of Georgia",
+   "zh": "吉奥尔基十二世"
+  },
+  "description": "king of Georgia (Kingdom of Kartli and Kakheti)",
+  "coord": null,
+  "image": "Giorgi XII of Georgia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1746,
+   "date": "1746-11-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1800,
+   "date": "1800-12-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George XII",
+   "zh": "吉奥尔基十二世"
+  },
+  "locationQid": null
+ },
+ "Q6712721": {
+  "label": {
+   "en": "Yaqub Beg",
+   "zh": "雅各布"
+  },
+  "description": "The fourth Padishah of Aq Qoyunlu (1478–1490)",
+  "coord": null,
+  "image": "Sultan Ya'qub and his courtiers. Fatih Album (TSM H. 2153, 90b-91a) Islamic, Akkoyunlu, Turkmen culture (restored).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1464,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1490,
+   "date": "1490-12-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yaqub Aq Qoyunlu",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q704151": {
   "label": {
@@ -5055,6 +9956,71 @@
   },
   "locationQid": null
  },
+ "Q730299": {
+  "label": {
+   "en": "Qara Yusuf",
+   "zh": "卡拉·优素福"
+  },
+  "description": "The first sultan of Qara Qoyunlu dynasty (1389–1420)",
+  "coord": null,
+  "image": "Qara Yusuf enthroned, 15th century.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1357,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1420,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Qara Yusuf",
+   "zh": "卡拉·優素福"
+  },
+  "locationQid": null
+ },
+ "Q733668": {
+  "label": {
+   "en": "Ghassanids",
+   "zh": "伽珊"
+  },
+  "description": "Arab kingdom",
+  "coord": null,
+  "image": "Ghassanid Kingdom Map.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 220,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 638,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q417175",
+   "Q164950"
+  ],
+  "wiki": {
+   "en": "Ghassanids",
+   "zh": "伽珊尼德"
+  },
+  "locationQid": null
+ },
  "Q733739": {
   "label": {
    "en": "1138 Aleppo earthquake",
@@ -5116,6 +10082,69 @@
   },
   "locationQid": null
  },
+ "Q734700": {
+  "label": {
+   "en": "Battle of Avarayr",
+   "zh": "阿瓦拉尔战役"
+  },
+  "description": "451 battle",
+  "coord": {
+   "lat": 39.3388,
+   "lon": 45.0571
+  },
+  "image": "Vartanantz.jpg",
+  "pointInTime": {
+   "year": 451,
+   "date": "0451-05-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Avarayr",
+   "zh": "阿瓦拉尔战役"
+  }
+ },
+ "Q735876": {
+  "label": {
+   "en": "Battle of Siffin",
+   "zh": "隋芬戰役"
+  },
+  "description": "battle of the First Fitna in 657 AD",
+  "coord": {
+   "lat": 35.95,
+   "lon": 39.0167
+  },
+  "image": "Balami - Tarikhnama - Battle of Siffin (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 657,
+   "date": "0657-07-21",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 657,
+   "date": "0657-07-28",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Siffin",
+   "zh": "隋芬之战"
+  }
+ },
  "Q745110": {
   "label": {
    "en": "Battle of Chaldiran",
@@ -5144,6 +10173,99 @@
    "en": "Battle of Chaldiran",
    "zh": "查尔迪兰战役"
   }
+ },
+ "Q753399": {
+  "label": {
+   "en": "Baha' al-Dawla",
+   "zh": "巴哈 道萊"
+  },
+  "description": "Amir of Iraq from 988 to 1012",
+  "coord": null,
+  "image": "Baha' al-DawlaBuyidCoinHistoryofIran.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 971,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1012,
+   "date": "1012-12-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Baha al-Dawla",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q75583": {
+  "label": {
+   "en": "Al-Malik al-Rahim",
+   "zh": "马利克·赖希姆"
+  },
+  "description": "Buyid Emir of Iraq from 1048 to 1055",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1058,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Malik al-Rahim",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q759988": {
+  "label": {
+   "en": "Zanj Rebellion",
+   "zh": "津芝叛亂"
+  },
+  "description": "slave revolt against the Abbasid Caliphate",
+  "coord": null,
+  "image": "Zanj Rebellion.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 869,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 883,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q124734",
+   "Q1155622"
+  ],
+  "wiki": {
+   "en": "Zanj Rebellion",
+   "zh": "津芝叛亂"
+  },
+  "locationQid": "Q170366"
  },
  "Q76721": {
   "label": {
@@ -5238,6 +10360,37 @@
    "zh": "伊朗"
   }
  },
+ "Q79857": {
+  "label": {
+   "en": "Konya",
+   "zh": "科尼亚"
+  },
+  "description": "metropolitan municipality in Central Anatolia, Turkey",
+  "coord": {
+   "lat": 37.8728,
+   "lon": 32.4921
+  },
+  "image": "City of Konya.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -700,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q6024226"
+  ],
+  "wiki": {
+   "en": "Konya",
+   "zh": "科尼亞"
+  }
+ },
  "Q80034": {
   "label": {
    "en": "Armenian Genocide",
@@ -5299,6 +10452,39 @@
   "wiki": {
    "en": "Tabriz",
    "zh": "大不里士"
+  }
+ },
+ "Q801": {
+  "label": {
+   "en": "Israel",
+   "zh": "以色列"
+  },
+  "description": "country in West Asia",
+  "coord": {
+   "lat": 31,
+   "lon": 35
+  },
+  "image": "Часовая башня султана Абдул Хамида II - panoramio.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1948,
+   "date": "1948-05-14",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q51576574",
+   "Q6256",
+   "Q82794",
+   "Q3624078",
+   "Q10711424"
+  ],
+  "wiki": {
+   "en": "Israel",
+   "zh": "以色列"
   }
  },
  "Q8011": {
@@ -5363,6 +10549,74 @@
    "zh": "安塔基亞"
   }
  },
+ "Q815116": {
+  "label": {
+   "en": "Siege of Acre",
+   "zh": "阿卡围城战"
+  },
+  "description": "1189–1191 Ayyubid   siege of Acre",
+  "coord": {
+   "lat": 32.9275,
+   "lon": 35.0817
+  },
+  "image": "Philippe Auguste et Richard Acre.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1189,
+   "date": "1189-08-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1191,
+   "date": "1191-07-12",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Acre (1189–1191)",
+   "zh": "阿卡圍城戰 (1189年—1191年)"
+  }
+ },
+ "Q815166": {
+  "label": {
+   "en": "Siege of Kut",
+   "zh": "卡塔之圍"
+  },
+  "description": "1915 siege in the First World War",
+  "coord": {
+   "lat": 32.5056,
+   "lon": 45.8247
+  },
+  "image": "Townshend, Khalil Pasha after Fall of Kut.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1915,
+   "date": "1915-12-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1916,
+   "date": "1916-04-29",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Kut",
+   "zh": "庫特之圍"
+  }
+ },
  "Q81627": {
   "label": {
    "en": "al-Jazari",
@@ -5394,6 +10648,35 @@
    "zh": "加扎利"
   },
   "locationQid": null
+ },
+ "Q826083": {
+  "label": {
+   "en": "Battle of the Trench",
+   "zh": "塹壕之戰"
+  },
+  "description": "failed besieging of early Muslims by Arab and Jewish forces in 627 CE",
+  "coord": {
+   "lat": 24.4667,
+   "lon": 39.6
+  },
+  "image": "Trench.jpeg",
+  "pointInTime": {
+   "year": 627,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of the Trench",
+   "zh": "塹壕之戰"
+  }
  },
  "Q82664": {
   "label": {
@@ -5512,6 +10795,32 @@
    "zh": "摩苏尔"
   }
  },
+ "Q83387": {
+  "label": {
+   "en": "Diyarbakır",
+   "zh": "迪亚巴克尔"
+  },
+  "description": "city in Southeastern Anatolia, Turkey",
+  "coord": {
+   "lat": 37.9108,
+   "lon": 40.2367
+  },
+  "image": "City of Diyarbakır.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2716259",
+   "Q1549591",
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Diyarbakır",
+   "zh": "迪亚巴克尔"
+  }
+ },
  "Q836844": {
   "label": {
    "en": "Battle of al-Qadisiyyah",
@@ -5566,6 +10875,39 @@
   "wiki": {
    "en": "Al-Jabr",
    "zh": "代数学 (花拉子米)"
+  },
+  "locationQid": null
+ },
+ "Q837187": {
+  "label": {
+   "en": "Hamdanid dynasty",
+   "zh": "汉达尼德王朝"
+  },
+  "description": "Shia Islamic state in northern Mesopotamia and Syria from 890 to 1004",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 890,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1004,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Hamdanid dynasty",
+   "zh": "哈姆丹王朝"
   },
   "locationQid": null
  },
@@ -5798,6 +11140,39 @@
   },
   "locationQid": null
  },
+ "Q866716": {
+  "label": {
+   "en": "Jalayirid Sultanate",
+   "zh": "札剌亦儿王朝"
+  },
+  "description": "Shia Muslim Turco-Mongol Sultanate",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1335,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1432,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q12759805"
+  ],
+  "wiki": {
+   "en": "Jalayirid Sultanate",
+   "zh": "札剌亦兒王朝"
+  },
+  "locationQid": null
+ },
  "Q875512": {
   "label": {
    "en": "Treaty of Turkmenchay",
@@ -5859,6 +11234,178 @@
    "zh": "帕米拉帝國"
   }
  },
+ "Q878": {
+  "label": {
+   "en": "United Arab Emirates",
+   "zh": "阿拉伯联合酋长国"
+  },
+  "description": "country in Western Asia",
+  "coord": {
+   "lat": 24.4,
+   "lon": 54.3
+  },
+  "image": "Souq Al Bahar From Burj Khalifa, Dubai (7997597156).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1971,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "United Arab Emirates",
+   "zh": "阿拉伯联合酋长国"
+  }
+ },
+ "Q878766": {
+  "label": {
+   "en": "Dhu Nuwas",
+   "zh": "祖怒·华兹"
+  },
+  "description": "Yemeni king, last ruler of Himyarite Kingdom",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 530,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dhu Nuwas",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q879855": {
+  "label": {
+   "en": "Al Bu Said dynasty",
+   "zh": "赛义德王朝"
+  },
+  "description": "current ruling family of Oman and former ruling family of Zanzibar",
+  "coord": null,
+  "image": "Royal Standard of Oman.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q1156073",
+   "Q66480858"
+  ],
+  "wiki": {
+   "en": "Al Bu Said dynasty",
+   "zh": "布賽義德王朝"
+  },
+  "locationQid": null
+ },
+ "Q879869": {
+  "label": {
+   "en": "Said bin Taimur Al Said",
+   "zh": "赛义德·本·泰穆尔"
+  },
+  "description": "Sultan of Muscat and Oman (1910-1972)",
+  "coord": null,
+  "image": "Sultan Wayyid Said Bin Taimur Bin Faisal arriving in Wash. to repay visit made by Edmund Roberts (1832), who was appointed by Pres. Andrew Jackson to negotiate treaties with small nations of LCCN2016878033 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1910,
+   "date": "1910-08-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1972,
+   "date": "1972-10-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Said bin Taimur",
+   "zh": "赛义德·本·泰穆尔"
+  },
+  "locationQid": null
+ },
+ "Q881103": {
+  "label": {
+   "en": "Malichus II",
+   "zh": null
+  },
+  "description": "Ruler of Nabatea from 40 to 70 AD",
+  "coord": null,
+  "image": "Malichos II silver drachm.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 100,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Malichus II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q887060": {
+  "label": {
+   "en": "Rabbel II Soter",
+   "zh": "拉贝尔二世"
+  },
+  "description": "King of the Nabataean Kingdom (ruled AD 70-106)",
+  "coord": null,
+  "image": "Silver drachm of Rabbel 2 with Gamilat.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 100,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 106,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rabbel II Soter",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q9038": {
   "label": {
    "en": "Muḥammad ibn Musa al-Khwarizmi",
@@ -5888,6 +11435,38 @@
   "wiki": {
    "en": "Al-Khwarizmi",
    "zh": "花拉子米"
+  },
+  "locationQid": null
+ },
+ "Q912259": {
+  "label": {
+   "en": "'Imad al-Dawla",
+   "zh": "阿里·伊本·白益"
+  },
+  "description": "Founder of Buyid dynasty in Iran (c.891/2–949)",
+  "coord": null,
+  "image": "Imad al-Dawla coin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 892,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 949,
+   "date": "0949-12-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Imad al-Dawla",
+   "zh": null
   },
   "locationQid": null
  },
@@ -5947,6 +11526,33 @@
    "zh": "汉志铁路"
   }
  },
+ "Q926447": {
+  "label": {
+   "en": "Treaty of Gulistan",
+   "zh": "古力斯坦條約"
+  },
+  "description": "truce agreement signed on October 24, 1813, between the Russian Empire and the Khajar state",
+  "coord": null,
+  "image": "Gulistan-Treaty.jpg",
+  "pointInTime": {
+   "year": 1813,
+   "date": "1813-10-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625298"
+  ],
+  "wiki": {
+   "en": "Treaty of Gulistan",
+   "zh": "古利斯坦条约"
+  },
+  "locationQid": null
+ },
  "Q9366875": {
   "label": {
    "en": "Siege of Trebizond in 1461",
@@ -5979,6 +11585,41 @@
   "wiki": {
    "en": "Siege of Trebizond (1461)",
    "zh": null
+  }
+ },
+ "Q943191": {
+  "label": {
+   "en": "Lakhmids",
+   "zh": "拉赫姆王国"
+  },
+  "description": "ancient Arab monarchy",
+  "coord": {
+   "lat": 31.8833,
+   "lon": 44.45
+  },
+  "image": "LakhmidsVassal.png",
+  "pointInTime": null,
+  "start": {
+   "year": 268,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 602,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133311",
+   "Q13417114"
+  ],
+  "wiki": {
+   "en": "Lakhmid kingdom",
+   "zh": "拉赫姆王國"
   }
  },
  "Q9458": {
@@ -6077,6 +11718,60 @@
   },
   "locationQid": null
  },
+ "Q97629053": {
+  "label": {
+   "en": "Zand dynasty",
+   "zh": null
+  },
+  "description": "Iranian royal dynasty (1751–1794)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950"
+  ],
+  "wiki": {
+   "en": "Zand dynasty",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q983411": {
+  "label": {
+   "en": "Saif ad-Din Ghazi I",
+   "zh": null
+  },
+  "description": "Emir of Mosul",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1200,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1149,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sayf al-Din Ghazi I",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q994": {
   "label": {
    "en": "Tbilisi",
@@ -6121,6 +11816,16 @@
    "zh": "犹太"
   }
  },
+ "loc:Q105413": {
+  "coord": {
+   "lat": 44.15,
+   "lon": 43.4667
+  },
+  "label": {
+   "en": "Georgiyevsk",
+   "zh": "格奥尔吉耶夫斯克"
+  }
+ },
  "loc:Q11767": {
   "coord": {
    "lat": 33.7,
@@ -6141,6 +11846,26 @@
    "zh": "奥斯曼帝国"
   }
  },
+ "loc:Q1294439": {
+  "coord": {
+   "lat": 17.0197,
+   "lon": 54.0897
+  },
+  "label": {
+   "en": "Salalah",
+   "zh": "塞拉莱"
+  }
+ },
+ "loc:Q149805": {
+  "coord": {
+   "lat": 33.3333,
+   "lon": 44.3833
+  },
+  "label": {
+   "en": "Kingdom of Iraq",
+   "zh": "伊拉克王国"
+  }
+ },
  "loc:Q162411": {
   "coord": {
    "lat": 39.5506,
@@ -6149,6 +11874,36 @@
   "label": {
    "en": "Sharur",
    "zh": "沙鲁尔"
+  }
+ },
+ "loc:Q170366": {
+  "coord": {
+   "lat": 31.3189,
+   "lon": 48.6842
+  },
+  "label": {
+   "en": "Ahvaz",
+   "zh": "阿瓦士"
+  }
+ },
+ "loc:Q187702": {
+  "coord": {
+   "lat": 31.7784,
+   "lon": 35.2298
+  },
+  "label": {
+   "en": "Church of the Holy Sepulchre",
+   "zh": "圣墓教堂"
+  }
+ },
+ "loc:Q227": {
+  "coord": {
+   "lat": 40.3,
+   "lon": 47.7
+  },
+  "label": {
+   "en": "Azerbaijan",
+   "zh": "阿塞拜疆"
   }
  },
  "loc:Q2352322": {
@@ -6161,6 +11916,16 @@
    "zh": "呼罗珊"
   }
  },
+ "loc:Q274536": {
+  "coord": {
+   "lat": 37.6,
+   "lon": 47
+  },
+  "label": {
+   "en": "Azerbaijan (Iran)",
+   "zh": "伊朗阿塞拜疆"
+  }
+ },
  "loc:Q31945": {
   "coord": {
    "lat": 23,
@@ -6169,6 +11934,16 @@
   "label": {
    "en": "Arabian Peninsula",
    "zh": "阿拉伯半岛"
+  }
+ },
+ "loc:Q333711": {
+  "coord": {
+   "lat": 34.3008,
+   "lon": 36.1158
+  },
+  "label": {
+   "en": "Mount Lebanon",
+   "zh": "黎巴嫩山"
   }
  },
  "loc:Q3558385": {
@@ -6188,6 +11963,46 @@
    "zh": "德黑兰"
   }
  },
+ "loc:Q36678": {
+  "coord": {
+   "lat": 32,
+   "lon": 35.35
+  },
+  "label": {
+   "en": "West Bank",
+   "zh": "约旦河西岸地区"
+  }
+ },
+ "loc:Q36755": {
+  "coord": {
+   "lat": 29.5,
+   "lon": 34
+  },
+  "label": {
+   "en": "Sinai Peninsula",
+   "zh": "西奈半島"
+  }
+ },
+ "loc:Q3746183": {
+  "coord": {
+   "lat": 30,
+   "lon": 52
+  },
+  "label": {
+   "en": "Persis",
+   "zh": "佩里斯"
+  }
+ },
+ "loc:Q48214": {
+  "coord": {
+   "lat": 32.8,
+   "lon": 35.6
+  },
+  "label": {
+   "en": "Near East",
+   "zh": "近东"
+  }
+ },
  "loc:Q51614": {
   "coord": {
    "lat": 39,
@@ -6196,6 +12011,66 @@
   "label": {
    "en": "Anatolia",
    "zh": "安纳托利亚"
+  }
+ },
+ "loc:Q546010": {
+  "coord": {
+   "lat": 40.5075,
+   "lon": 43.5728
+  },
+  "label": {
+   "en": "Ani",
+   "zh": "阿尼"
+  }
+ },
+ "loc:Q5637035": {
+  "coord": {
+   "lat": 39.4939,
+   "lon": 39.2987
+  },
+  "label": {
+   "en": "Acilisene",
+   "zh": null
+  }
+ },
+ "loc:Q5806": {
+  "coord": {
+   "lat": 21.4225,
+   "lon": 39.8261
+  },
+  "label": {
+   "en": "Mecca",
+   "zh": "麦加"
+  }
+ },
+ "loc:Q695265": {
+  "coord": {
+   "lat": 27.0675,
+   "lon": 56.46
+  },
+  "label": {
+   "en": "Hormuz Island",
+   "zh": "霍爾木茲島"
+  }
+ },
+ "loc:Q7075820": {
+  "coord": {
+   "lat": 33.8333,
+   "lon": 35.8333
+  },
+  "label": {
+   "en": "Occupied Enemy Territory Administration",
+   "zh": "占領區管理局"
+  }
+ },
+ "loc:Q7204": {
+  "coord": {
+   "lat": 28,
+   "lon": 45
+  },
+  "label": {
+   "en": "Middle East",
+   "zh": "中东"
   }
  },
  "loc:Q794": {
@@ -6228,6 +12103,16 @@
    "zh": "大不里士"
   }
  },
+ "loc:Q805": {
+  "coord": {
+   "lat": 15.5,
+   "lon": 48
+  },
+  "label": {
+   "en": "Yemen",
+   "zh": "也门"
+  }
+ },
  "loc:Q8139321": {
   "coord": {
    "lat": 34.5156,
@@ -6256,6 +12141,16 @@
   "label": {
    "en": "Kuwait",
    "zh": "科威特"
+  }
+ },
+ "loc:Q822": {
+  "coord": {
+   "lat": 33.8333,
+   "lon": 35.7667
+  },
+  "label": {
+   "en": "Lebanon",
+   "zh": "黎巴嫩"
   }
  },
  "loc:Q850602": {
