@@ -196,3 +196,57 @@ Independent audit using only pages retrieved during the audit (WebFetch/WebSearc
 | person-mani | en.wikipedia Mani | OK |
 
 **Error rate:** 1 of 15 records (7%), a zh rendering inconsistency; no factual errors.
+
+## 2026-11 story verification (web-sourced)
+
+Scope: the 16 stories on records new in this PR, minus the two whose stories were already checked against retrieved pages (ev-dammam-oil-1938, ev-gaza-war-2023, in "2026-11 expansion"). The 43 stories on existing events were checked by the 2026-11 review and audit. Each claim was checked against pages fetched in this pass. The shared WebSearch quota ran out early, so most stories rest on the en.wikipedia article(s) for the event and its main actors (plus zh.wikipedia for names), not on a second, independent source.
+
+- **Stories checked:** 14.
+- **Result:** 10 stories (71%) had a factual error or an overstated claim; 2 more needed only zh fixes. 2 were correct as written.
+- validate-data: 0 errors; build-data: 0 open diffs.
+
+### Stories and sources
+
+| Story | Sources retrieved | Result |
+| --- | --- | --- |
+| ev-siege-of-masada | Siege of Masada (en.wikipedia.org); Masada (en.wikipedia.org) | **fixed** |
+| ev-battle-of-emesa | Zenobia (en.wikipedia.org); Battle of Emesa (en.wikipedia.org) | **fixed** |
+| ev-battle-of-avarayr | Battle of Avarayr (en.wikipedia.org); Yeghishe (en.wikipedia.org); Vahan Mamikonian (en.wikipedia.org) | **fixed** |
+| ev-najran-massacre | Martyrs of Najran (en.wikipedia.org) | OK |
+| ev-battle-of-siffin | Battle of Siffin (en.wikipedia.org); 隋芬之战 (zh.wikipedia.org); 穆阿维叶一世 (zh.wikipedia.org) | **fixed** |
+| ev-siege-of-edessa-1144 | Siege of Edessa (1144) (en.wikipedia.org) | zh fixed |
+| ev-siege-of-acre-1189 | Siege of Acre (1189–1191) (en.wikipedia.org); Baha ad-Din ibn Shaddad (en.wikipedia.org) | **fixed** |
+| ev-battle-of-kose-dag | Battle of Köse Dağ (en.wikipedia.org) | **fixed** |
+| ev-fall-of-acre-1291 | Siege of Acre (1291) (en.wikipedia.org) | OK |
+| ev-turkish-war-of-independence | Turkish War of Independence (en.wikipedia.org); Misak-ı Milli (en.wikipedia.org); Population exchange between Greece and Turkey (en.wikipedia.org); Battle of Sakarya (en.wikipedia.org) | **fixed** |
+| ev-1948-arab-israeli-war | 1948 Arab–Israeli War (en.wikipedia.org) | **fixed** |
+| ev-six-day-war | Six-Day War (en.wikipedia.org) | **fixed** |
+| ev-yom-kippur-war | Yom Kippur War (en.wikipedia.org) | **fixed** |
+| ev-seljuk-entry-into-baghdad | Tughril (en.wikipedia.org) | zh fixed |
+
+### Corrections (en text; each has a matching zh fix unless the row is zh)
+
+| Story | Lang | Old → new | Reason / source |
+| --- | --- | --- | --- |
+| ev-siege-of-masada | en | persuaded the 960 defenders to kill their families and then themselves → persuaded the defenders to kill their families and then themselves, 960 people in all | Josephus' 960 is the total of men, women and children, not the number of defenders (en.wikipedia Masada) |
+| ev-battle-of-emesa | en | By 270 her armies had taken Egypt and much of Anatolia, and in 271–272 her mints → By 271 her armies had taken Egypt and much of Anatolia, and in 272 her mints | Egypt fell in 270 but the Anatolian campaign (to Ancyra) was in 271; imperial titles/Augusta coinage date to 272 (en.wikipedia Zenobia) |
+| ev-battle-of-emesa | en | a second battle outside Emesa ended the same way → outside Emesa Aurelian tried the ruse again, and when the Palmyrene horsemen scattered in pursuit his infantry cut them down | At Emesa the Palmyrene cavalry actually repelled the Roman horse; the victory came from Roman infantry and Palestinian clubmen (en.wikipedia Battle of Emesa) |
+| ev-battle-of-avarayr | en | Guerrilla resistance continued for a generation under Vardan's nephew Vahan. In 484 → Unrest continued for a generation, and in 481 Vardan's nephew Vahan led a new revolt. In 484 | Vahan's revolt ran 481–484 (en.wikipedia Vahan Mamikonian); he did not lead resistance for a generation after 451 |
+| ev-battle-of-siffin | en | In the summer of 657 their armies faced each other at Siffin on the Euphrates. After weeks of skirmishes and negotiation, a full battle broke out. → In 657 their armies faced each other at Siffin on the Euphrates. After some three months of skirmishes and negotiation, a full battle broke out in late July. | en.wikipedia: about three months of skirmishing and talks before the main battle of 26–28 July 657 |
+| ev-siege-of-edessa-1144 | zh | 教皇尤金三世颁布诏书， → 教皇尤金三世颁布诏书《Quantum praedecessores》， | en names the bull Quantum praedecessores (1 Dec 1145); zh omitted it |
+| ev-siege-of-acre-1189 | en | Saladin's secretary Baha' al-Din → Saladin's army judge and biographer Baha' al-Din | Baha al-Din ibn Shaddad was qadi al-'askar and biographer, not Saladin's secretary (en.wikipedia) |
+| ev-battle-of-kose-dag | en | including Georgian, Armenian and Frankish mercenaries → including Georgian knights and Frankish and other mercenaries | The Cilician Armenian contingent arrived only after the battle, and Armenian auxiliaries fought on the Mongol side (en.wikipedia) |
+| ev-turkish-war-of-independence | en | organised resistance around a "National Pact" for an undivided Turkish homeland. → organised resistance for an undivided Turkish homeland, aims that the last Ottoman parliament adopted as the "National Pact" in early 1920. | The National Pact was adopted by the Ottoman parliament in Jan–Feb 1920, not at the Erzurum/Sivas congresses (en.wikipedia Misak-ı Milli) |
+| ev-turkish-war-of-independence | en | recognised the new Turkey and provided for a compulsory exchange → recognised the new Turkey; a convention signed there that January had already provided for a compulsory exchange | The exchange convention was signed separately at Lausanne on 30 Jan 1923; the peace treaty came on 24 Jul 1923 |
+| ev-1948-arab-israeli-war | en | more than 700,000 Palestinian Arabs had fled → an estimated 700,000 to 750,000 Palestinian Arabs had fled | The refugee figure is an estimate (en.wikipedia infobox 750,000+; common range 700,000–750,000), so it should be given as one, not stated flatly |
+| ev-six-day-war | en | under military occupation, while some 250,000 more fled, many for the second time → under military occupation; an estimated 280,000 to 325,000 fled or were driven out, many for the second time | en.wikipedia: of about one million Palestinians in the West Bank and Gaza, an estimated 280,000–325,000 were displaced (they were not additional to the million); should be given as an estimate |
+| ev-yom-kippur-war | en | In the third week Israeli forces crossed the canal and encircled Egypt's Third Army → In the second week Israeli forces crossed the canal, and by 24 October they had encircled Egypt's Third Army | The Israeli crossing (Operation Abirey-Halev / Gazelle) began 15–16 October, day 10 of the war; the encirclement was complete around 22–24 October (en.wikipedia) |
+| ev-seljuk-entry-into-baghdad | zh | 突厥蛮人 → 土库曼人 | the form used everywhere else in the dataset |
+
+### Doubts left (not changed)
+
+- ev-six-day-war: "tripled the territory" may understate the gain (about 70,000 km² taken on top of about 20,000); not on the fetched page.
+- ev-yom-kippur-war: the embargo also hit Portugal, Rhodesia and South Africa; the story names only the US and the Netherlands.
+- ev-siege-of-acre-1189: Guy's force ("a few thousand") is low against 7,000–9,000 infantry plus knights; the swimmer and Greek-fire anecdotes are not on a fetched page.
+- ev-najran-massacre: zh.wikipedia spells the city 奈季兰; the dataset uses 纳季兰.
+- Kaleb's c. 525 campaign, the Köse Dağ treasure, the Basasiri episode of 1058–59 and the razing of Acre's walls are standard accounts, but none of them appears on a page fetched in this pass.
