@@ -75,3 +75,66 @@ Silla: 892 marks the start of the Later Three Kingdoms; the formal end was 935.
 | 25 | polity-goryeo / polity-balhae / polity-goguryeo / polity-baekje | rulers | ✓ |
 | 26 | all 60 Britannica citations | titles vs URLs | 8 fixed |
 | 27 | zh terminology, 25 summaries | terms | ✓ |
+
+## 2026-11 expansion
+
+Checked 2026-11-16. The dataset grew from 55 events, 15 people, 9 places and 16 polities to 117 events, 48 people, 18 places and 29 polities. That is +62 events, +33 people, +9 places and +13 polities. The occupation-era governors-general also gained four rulers (Ugaki, Minami, Koiso, Abe). There are 81 stories in all: 32 on existing importance-4/5 events and 49 on new records. Every importance-4/5 event now has a story, and every story is between 80 and 220 words.
+
+**Pipeline.** `validate-data.mjs` reports 0 errors. The only warnings are known `no qid` items (ev-buddhism-reaches-japan, ev-ryukyu-unification). `wd.mjs enrich` resolved 297 QIDs. `build-data.mjs` produced 153 diffs; the 11 left open were all resolved as keep-ours (see `resolutions/japan-korea.json`), leaving 0 open. No new id or QID duplicates any record in the other regional datasets.
+
+**Resolved diffs.** Most were Wikidata coordinate placeholders:
+
+- Tenmei famine: generic centre of Japan.
+- Satsuma Rebellion: 33N 131E.
+- Pacific War: 0N 160W.
+- Goryeo–Khitan War: Seoul.
+- May 16 coup: centroid of South Korea.
+
+Two coordinates were real places, but not where the event happened:
+
+- Wihwado retreat: Wikidata uses Kaesong, but the retreat was on Wihwa Island in the Yalu.
+- Korean Provisional Government: Wikidata uses Seoul, but the government sat in Shanghai.
+
+The remaining diffs were dates:
+
+- Kōyasan: 816 grant, not 810.
+- Goryeo–Khitan War: ends 1019 at Gwiju; the peace of 1022 is in the note.
+- Azuchi–Momoyama period: ends 1603 to join the Tokugawa band.
+- Satsuma Rebellion: Wikidata has an erroneous start year of 2005.
+
+**Spot-checks (30 of 128 new records, 23%).** Each was checked against at least two sources (Britannica, UNESCO, Encyclopedia of Korean Culture, university and museum pages, and Wikipedia):
+
+| # | Record | Checked | Result |
+|---|---|---|---|
+| 1 | ev-shakushain-revolt | 1669–72, killed at the peace banquet | ✓ |
+| 2 | ev-koshamain-war | 1456 incident, 1457 rising, Takeda Nobuhiro | ✓ |
+| 3 | person-sho-hashi | 1416 Hokuzan, 1429 Nanzan (Ming records 1415) | ✓, noted |
+| 4 | ev-ryukyu-unification | 1429 | ✓ (no QID exists) |
+| 5 | ev-satsuma-invasion-of-ryukyu | 1609, Shō Nei taken to Kagoshima | ✓ |
+| 6 | person-jang-bogo | Cheonghaejin 828; death 846 (Samguk sagi) vs 841 (Japanese records) | ✓, noted |
+| 7 | ev-cheonghaejin | 828, Wando | ✓ |
+| 8 | ev-goryeo-khitan-war | Gwiju 1019, Heunghwajin dam | ✓ |
+| 9 | person-gang-gam-chan | 948–1031 | ✓ |
+| 10 | ev-hwaseong-fortress | 1794–96, Jeong Yak-yong's crane, Uigwe 1801, UNESCO 1997 | ✓ |
+| 11 | ev-mount-koya | 816 grant | ✓ |
+| 12 | ev-wihwado-retreat | 1388, island in the Yalu | ✓ |
+| 13 | person-jang-yeong-sil | birth unknown; c. 1390 vs Wikidata 1400 | low confidence, noted |
+| 14 | person-yi-hwang | 1501–1570 | ✓ |
+| 15 | person-jeon-bong-jun | 1855–1895 | ✓ |
+| 16 | ev-gapsin-coup | 4–6 Dec 1884 | ✓ |
+| 17 | ev-eulmi-incident | 8 Oct 1895 | ✓ |
+| 18 | ev-assassination-of-ito-hirobumi | 26 Oct 1909, Harbin | ✓ |
+| 19 | ev-jeju-uprising | 3 Apr 1948 | ✓ |
+| 20 | ev-gwangju-uprising | 18–27 May 1980 | ✓ |
+| 21 | ev-dejima | 1636 built, Dutch from 1641 | ✓ |
+| 22 | ev-ryukyu-disposition | 1879 | ✓ |
+| 23 | ev-okinawa-reversion | 15 May 1972 | ✓ |
+| 24 | ev-battle-of-okinawa | Apr–Jun 1945 | ✓ |
+| 25 | ev-boshin-war | 1868–69, ends at Hakodate | ✓ |
+| 26 | place-sapporo / place-hakodate | Ainu names, Kaitakushi dates | ✓ |
+| 27 | polity-chuzan / polity-ryukyu | 1314–1429 / 1429–1879 | ✓ |
+| 28 | polity-yamatai | 3rd century, location disputed | low confidence |
+| 29 | polity-japanese-korea | governors-general succession | ✓ |
+| 30 | all new people | born/died vs Wikidata | ✓ (only Jang Yeong-sil differs) |
+
+**Gaps that remain.** Buddhism in Goguryeo (372) and Gaya are thin. The Ainu are not covered after 1899. The Gaya, Balhae and Ryukyu second Shō dynasty records have no ruler lists beyond the major kings.
