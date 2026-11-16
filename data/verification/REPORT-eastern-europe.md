@@ -200,7 +200,7 @@ Independent audit using only sources retrieved during the audit (web search resu
 
 Checked 2026-11-16. Every story not already checked against a retrieved web source (the 2026-11 audit covered 5 stories, which were skipped) was re-read claim by claim against pages retrieved during this check (WebFetch; WebSearch snippets where available). Nothing was accepted from memory. Fixes keep ids; en and zh were corrected together.
 
-**Result:** 41 stories checked; 26 needed a correction or a hedge (63%); 74 text edits (en and zh counted separately). Of the 26, 1 had only a zh fix (polity-novgorod-republic: Vsevolod was prince, not grand prince, of Novgorod); 25 had a factual error or an unsupported claim in en (61%).
+**Result:** 41 stories checked; 26 needed a correction or a hedge (63%); 76 text edits (en and zh counted separately). Of the 26, 1 had only a zh fix (polity-novgorod-republic: Vsevolod was prince, not grand prince, of Novgorod); 25 had a factual error or an unsupported claim in en (61%).
 
 Skipped (already checked claim by claim in the 2026-11 audit): ev-coronation-of-stephen-i, ev-srebrenica-massacre, person-olga-of-kiev, ev-battle-of-kosovo, ev-velvet-revolution.
 
@@ -328,3 +328,5 @@ Skipped (already checked claim by claim in the 2026-11 audit): ev-coronation-of-
 | person-skanderbeg | story.zh | “格尔吉·卡斯特里奥蒂幼年被身为阿尔巴尼亚领主的父亲送给苏丹穆拉德二世作人质。他在奥斯曼宫廷长大，改信伊斯兰教” → “格尔吉·卡斯特里奥蒂大约十八岁时被身为阿尔巴尼亚领主的父亲送到苏丹穆拉德二世的宫廷，传统说法称是作为人质。他在那里改信伊斯兰教” | 同上 | en.wikipedia: Skanderbeg en.wikipedia.org/wiki/Skanderbeg |
 | person-skanderbeg | summary.en | “George Kastrioti was taken as a hostage to the Ottoman court,” → “George Kastrioti was sent to the Ottoman court, traditionally as a hostage,” | Hostage status disputed | en.wikipedia: Skanderbeg en.wikipedia.org/wiki/Skanderbeg |
 | person-skanderbeg | summary.zh | “幼年被送往奥斯曼宫廷为人质，” → “被送往奥斯曼宫廷（传统说法称是作为人质），” | 同上 | en.wikipedia: Skanderbeg en.wikipedia.org/wiki/Skanderbeg |
+| ev-crimean-war | story.en | “alarmed at Russian power at the Straits, declared war.” → “… declared war in March 1854.” | The sentence (and the zh “随即宣战”) implied war was declared in 1853, right after Sinop; Britain and France declared war on 27–28 March 1854 (added by the coordinator from the batch's logged doubt) | Crimean War en.wikipedia.org/wiki/Crimean_War |
+| ev-crimean-war | story.zh | “英国和法国随即宣战” → “英国和法国于1854年3月宣战” | Match en fix | Crimean War en.wikipedia.org/wiki/Crimean_War |
