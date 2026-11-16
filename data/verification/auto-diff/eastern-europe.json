@@ -714,5 +714,23 @@
     "https://en.wikipedia.org/wiki/Russia"
    ]
   }
+ },
+ {
+  "key": "polity-third-polish-republic:from",
+  "id": "polity-third-polish-republic",
+  "dataset": "eastern-europe",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1989,
+  "wikidata": 1918,
+  "qid": "Q36",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The record is the post-communist Third Republic, conventionally dated from the Round Table, the June 1989 elections and the restoration of the name Republic of Poland on 29 December 1989. Wikidata gives 1918 because its item covers the modern country as a whole; 1918–1939 and 1947–1989 have their own records (polity-second-polish-republic, polity-polish-peoples-republic).",
+   "checked": [
+    "https://www.britannica.com/place/Poland",
+    "https://en.wikipedia.org/wiki/History_of_Poland_(1989%E2%80%93present)"
+   ]
+  }
  }
 ]

@@ -449,6 +449,33 @@
    "zh": "十二月党人起义"
   }
  },
+ "Q12762303": {
+  "label": {
+   "en": "Andrej Kiska",
+   "zh": "安德烈·基斯卡"
+  },
+  "description": "4th President of Slovakia",
+  "coord": null,
+  "image": "Andrej Kiska, President of Slovakia (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1963,
+   "date": "1963-02-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrej Kiska",
+   "zh": "安德烈·基斯卡"
+  },
+  "locationQid": null
+ },
  "Q1281955": {
   "label": {
    "en": "Christianization of Bulgaria",
@@ -1194,6 +1221,35 @@
   },
   "locationQid": null
  },
+ "Q153702": {
+  "label": {
+   "en": "Battle of Beroia",
+   "zh": "韦里亚战役"
+  },
+  "description": "1122 battle between Pecheneg and Byzantine armies",
+  "coord": {
+   "lat": 42.4333,
+   "lon": 25.65
+  },
+  "image": "John II Komnenos.jpg",
+  "pointInTime": {
+   "year": 1122,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Beroia",
+   "zh": null
+  }
+ },
  "Q154100": {
   "label": {
    "en": "Pugachev's Rebellion",
@@ -1843,6 +1899,33 @@
   },
   "locationQid": "Q16869"
  },
+ "Q163813": {
+  "label": {
+   "en": "Rudolf Schuster",
+   "zh": "鲁道夫·舒斯特"
+  },
+  "description": "Slovak President, head of Slovak National Council and politician",
+  "coord": null,
+  "image": "Pres. Rudolf Schuster.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1934,
+   "date": "1934-01-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rudolf Schuster",
+   "zh": "鲁道夫·舒斯特"
+  },
+  "locationQid": null
+ },
  "Q164348": {
   "label": {
    "en": "Hungarian Revolution of 1956",
@@ -2123,6 +2206,60 @@
   },
   "locationQid": null
  },
+ "Q172368": {
+  "label": {
+   "en": "Battle of Sirmium",
+   "zh": null
+  },
+  "description": "1167 battle",
+  "coord": null,
+  "image": "Battle of Sirmium, 8 July 1167 - battle map.jpg",
+  "pointInTime": {
+   "year": 1167,
+   "date": "1167-07-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Sirmium",
+   "zh": null
+  },
+  "locationQid": "Q833060"
+ },
+ "Q17330556": {
+  "label": {
+   "en": "Peter Pellegrini",
+   "zh": "彼得·佩列格里尼"
+  },
+  "description": "President of Slovakia",
+  "coord": null,
+  "image": "Peter Pellegrini, 2024 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1975,
+   "date": "1975-10-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter Pellegrini",
+   "zh": "彼得·佩莱格里尼"
+  },
+  "locationQid": null
+ },
  "Q174044": {
   "label": {
    "en": "Alexander Nevsky",
@@ -2243,6 +2380,33 @@
    "en": "Tallinn",
    "zh": "塔林"
   }
+ },
+ "Q17704749": {
+  "label": {
+   "en": "Karol Nawrocki",
+   "zh": "卡罗尔·纳瓦罗基"
+  },
+  "description": "Polish politician and historian, President of the Republic of Poland since 2025",
+  "coord": null,
+  "image": "Karol Nawrocki i Roberta Metsola (2026) (cropped2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1983,
+   "date": "1983-03-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Karol Nawrocki",
+   "zh": "卡罗尔·纳夫罗茨基"
+  },
+  "locationQid": null
  },
  "Q177903": {
   "label": {
@@ -2494,6 +2658,39 @@
    "zh": "天鵝絨革命"
   },
   "locationQid": "Q33946"
+ },
+ "Q184": {
+  "label": {
+   "en": "Belarus",
+   "zh": "白俄罗斯"
+  },
+  "description": "country in Eastern Europe",
+  "coord": {
+   "lat": 53.5283,
+   "lon": 28.0467
+  },
+  "image": "Satellite image of Belarus in December 2002.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1991,
+   "date": "1991-08-25",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q179164",
+   "Q619610",
+   "Q6256",
+   "Q123480"
+  ],
+  "wiki": {
+   "en": "Belarus",
+   "zh": "白俄罗斯"
+  }
  },
  "Q184928": {
   "label": {
@@ -3218,6 +3415,33 @@
   },
   "locationQid": null
  },
+ "Q2080040": {
+  "label": {
+   "en": "Petr Pavel",
+   "zh": "彼得·帕維爾"
+  },
+  "description": "Czech general and statesman, 4th president of the Czech Republic (born 1961)",
+  "coord": null,
+  "image": "Petr Pavel.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1961,
+   "date": "1961-11-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Petr Pavel",
+   "zh": "彼得·帕維爾"
+  },
+  "locationQid": null
+ },
  "Q210207": {
   "label": {
    "en": "Árpád",
@@ -3410,6 +3634,39 @@
   },
   "locationQid": null
  },
+ "Q213": {
+  "label": {
+   "en": "Czech Republic",
+   "zh": "捷克"
+  },
+  "description": "country in Central Europe",
+  "coord": {
+   "lat": 50,
+   "lon": 15
+  },
+  "image": "Czechia Montage.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1993,
+   "date": "1993-01-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6256",
+   "Q3624078",
+   "Q123480",
+   "Q7270",
+   "Q127693126"
+  ],
+  "wiki": {
+   "en": "Czech Republic",
+   "zh": "捷克"
+  }
+ },
  "Q213061": {
   "label": {
    "en": "Charles I of Hungary",
@@ -3441,6 +3698,39 @@
    "zh": "卡罗伊一世"
   },
   "locationQid": null
+ },
+ "Q214": {
+  "label": {
+   "en": "Slovakia",
+   "zh": "斯洛伐克"
+  },
+  "description": "country in Central Europe",
+  "coord": {
+   "lat": 48.7,
+   "lon": 19.7
+  },
+  "image": "000 Sllovakia harta.PNG",
+  "pointInTime": null,
+  "start": {
+   "year": 1993,
+   "date": "1993-01-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q7270",
+   "Q123480",
+   "Q6256",
+   "Q127693126"
+  ],
+  "wiki": {
+   "en": "Slovakia",
+   "zh": "斯洛伐克"
+  }
  },
  "Q215968": {
   "label": {
@@ -4103,6 +4393,33 @@
    "zh": "烏格拉河對峙"
   }
  },
+ "Q26273268": {
+  "label": {
+   "en": "Zuzana Čaputová",
+   "zh": "苏珊娜·查普托娃"
+  },
+  "description": "Slovak lawyer, environmental activist and politician",
+  "coord": null,
+  "image": "Zuzana Čaputová (20.6.2019) VIII.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1973,
+   "date": "1973-06-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zuzana Čaputová",
+   "zh": "苏珊娜·恰普托娃"
+  },
+  "locationQid": null
+ },
  "Q26486": {
   "label": {
    "en": "Ladislaus I of Hungary",
@@ -4302,6 +4619,38 @@
   },
   "locationQid": null
  },
+ "Q2757": {
+  "label": {
+   "en": "Lech Kaczyński",
+   "zh": "莱赫·卡钦斯基"
+  },
+  "description": "Polish politician, democratic oppositionist, ministry of justice, president of Poland (1949–2010)",
+  "coord": null,
+  "image": "Lech Kaczyński.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1949,
+   "date": "1949-06-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2010,
+   "date": "2010-04-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lech Kaczyński",
+   "zh": "萊赫·卡欽斯基"
+  },
+  "locationQid": null
+ },
  "Q277182": {
   "label": {
    "en": "Declaration of Independence of Ukraine",
@@ -4420,6 +4769,33 @@
   },
   "locationQid": null
  },
+ "Q2866": {
+  "label": {
+   "en": "Alexander Lukashenka",
+   "zh": "亚历山大·卢卡申科"
+  },
+  "description": "President of the Republic of Belarus",
+  "coord": null,
+  "image": "Александр Лукашенко (13-04-2023) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1954,
+   "date": "1954-08-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander Lukashenko",
+   "zh": "亚历山大·卢卡申科"
+  },
+  "locationQid": null
+ },
  "Q2899771": {
   "label": {
    "en": "Principality of Hungary",
@@ -4449,6 +4825,33 @@
   "wiki": {
    "en": "Principality of Hungary",
    "zh": "匈牙利公國"
+  },
+  "locationQid": null
+ },
+ "Q29032": {
+  "label": {
+   "en": "Miloš Zeman",
+   "zh": "米洛什·泽曼"
+  },
+  "description": "Czech politician, president of the Czech Republic from 2013 to 2023",
+  "coord": null,
+  "image": "Miloš Zeman 2022.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1944,
+   "date": "1944-09-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Miloš Zeman",
+   "zh": "米洛什·泽曼"
   },
   "locationQid": null
  },
@@ -4927,6 +5330,38 @@
   "wiki": {
    "en": "Ivan Asen II",
    "zh": "伊凡·阿森二世"
+  },
+  "locationQid": null
+ },
+ "Q314338": {
+  "label": {
+   "en": "Stanislaw Shushkievich",
+   "zh": "斯坦尼斯拉夫·舒什克维奇"
+  },
+  "description": "Belarusian nuclear physicist and politician (1934—2022)",
+  "coord": null,
+  "image": "Šuškievič bchd.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1934,
+   "date": "1934-12-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2022,
+   "date": "2022-05-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stanislav Shushkevich",
+   "zh": "斯坦尼斯拉夫·舒什克维奇"
   },
   "locationQid": null
  },
@@ -5649,6 +6084,38 @@
   },
   "locationQid": null
  },
+ "Q356990": {
+  "label": {
+   "en": "Michal Kováč",
+   "zh": "米哈尔·科瓦奇"
+  },
+  "description": "Slovak economist, politician, president of the Slovakia (1993–1998)",
+  "coord": null,
+  "image": "Michal Kováč.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1930,
+   "date": "1930-08-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2016,
+   "date": "2016-10-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Michal Kováč",
+   "zh": "米哈尔·科瓦奇"
+  },
+  "locationQid": null
+ },
  "Q359396": {
   "label": {
    "en": "Yaroslav II of Vladimir",
@@ -5680,6 +6147,36 @@
    "zh": "雅罗斯拉夫二世·弗谢沃洛多维奇"
   },
   "locationQid": null
+ },
+ "Q36": {
+  "label": {
+   "en": "Poland",
+   "zh": "波兰"
+  },
+  "description": "country in Central Europe",
+  "coord": {
+   "lat": 52,
+   "lon": 19
+  },
+  "image": "Warsaw Old Town Market Square 10.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1918,
+   "date": "1918-11-11",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Poland",
+   "zh": "波兰"
+  }
  },
  "Q360112": {
   "label": {
@@ -6419,6 +6916,55 @@
    "zh": "波希米亞王國"
   }
  },
+ "Q42939": {
+  "label": {
+   "en": "Bronisław Komorowski",
+   "zh": "布羅尼斯瓦夫·科莫羅夫斯基"
+  },
+  "description": "Polish politician; President of Poland (2010–2015)",
+  "coord": null,
+  "image": "Bronisław Komorowski (2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1952,
+   "date": "1952-06-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bronisław Komorowski",
+   "zh": "布羅尼斯瓦夫·科莫羅夫斯基"
+  },
+  "locationQid": null
+ },
+ "Q4300": {
+  "label": {
+   "en": "Codex Theodosianus",
+   "zh": "狄奥多西法典"
+  },
+  "description": "Compilation of laws of Roman Empire (438)",
+  "coord": null,
+  "image": "Codex Theodosianus.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q922203"
+  ],
+  "wiki": {
+   "en": "Codex Theodosianus",
+   "zh": "狄奥多西法典"
+  },
+  "locationQid": null
+ },
  "Q43070": {
   "label": {
    "en": "Donetsk",
@@ -6718,6 +7264,33 @@
   "wiki": {
    "en": "Jan Hus",
    "zh": "扬·胡斯"
+  },
+  "locationQid": null
+ },
+ "Q444": {
+  "label": {
+   "en": "Lech Wałęsa",
+   "zh": "莱赫·瓦文萨"
+  },
+  "description": "President of Poland from 1990 to 1995 (born 1943)",
+  "coord": null,
+  "image": "Lech Walesa - 2009.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1943,
+   "date": "1943-09-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lech Wałęsa",
+   "zh": "莱赫·瓦文萨"
   },
   "locationQid": null
  },
@@ -7681,6 +8254,33 @@
   },
   "locationQid": null
  },
+ "Q55758": {
+  "label": {
+   "en": "Aleksander Kwaśniewski",
+   "zh": "亚历山大·克瓦希涅夫斯基"
+  },
+  "description": "President of Poland from 1995 to 2005",
+  "coord": null,
+  "image": "Aleksander Kwaśniewski (grudzień, 2025) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1954,
+   "date": "1954-11-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Aleksander Kwaśniewski",
+   "zh": "亞歷山大·克瓦希涅夫斯基"
+  },
+  "locationQid": null
+ },
  "Q55832": {
   "label": {
    "en": "Bolesław Bierut",
@@ -7838,6 +8438,60 @@
   "wiki": {
    "en": "Sigismund, Holy Roman Emperor",
    "zh": "西吉斯蒙德 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q57295": {
+  "label": {
+   "en": "Ivan Gašparovič",
+   "zh": "伊万·加什帕罗维奇"
+  },
+  "description": "Slovak politician and lawyer",
+  "coord": null,
+  "image": "Ivan Gašparovič.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1941,
+   "date": "1941-03-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan Gašparovič",
+   "zh": "伊万·加什帕罗维奇"
+  },
+  "locationQid": null
+ },
+ "Q57434": {
+  "label": {
+   "en": "Václav Klaus",
+   "zh": "瓦茨拉夫·克劳斯"
+  },
+  "description": "President of the Czech Republic from 2003 to 2013",
+  "coord": null,
+  "image": "Václav Klaus (2022).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1941,
+   "date": "1941-06-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Václav Klaus",
+   "zh": "瓦茨拉夫·克劳斯"
   },
   "locationQid": null
  },
@@ -8440,6 +9094,46 @@
   },
   "locationQid": null
  },
+ "Q737655": {
+  "label": {
+   "en": "Siege of Dorostolon",
+   "zh": "多洛斯特隆要塞"
+  },
+  "description": "byzantine military investment of the Kievan Rus in Dorostolon",
+  "coord": {
+   "lat": 44.1186,
+   "lon": 27.2603
+  },
+  "image": "BelagerungvonDorostolon.jpg",
+  "pointInTime": {
+   "year": 971,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 971,
+   "date": "0971-04-25",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 971,
+   "date": "0971-07-24",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Dorostolon",
+   "zh": null
+  }
+ },
  "Q73810": {
   "label": {
    "en": "Stephen Uroš I of Serbia",
@@ -8768,6 +9462,35 @@
   "wiki": {
    "en": "Vladimir-Suzdal",
    "zh": "弗拉基米尔-苏兹达尔大公国"
+  }
+ },
+ "Q841211": {
+  "label": {
+   "en": "Battle of Nedao",
+   "zh": "尼達歐之戰"
+  },
+  "description": "5th-century internal battle in the Hunnic Empire",
+  "coord": {
+   "lat": 44.9333,
+   "lon": 19.0167
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 454,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Nedao",
+   "zh": null
   }
  },
  "Q845668": {
@@ -9202,6 +9925,33 @@
   },
   "locationQid": null
  },
+ "Q9151911": {
+  "label": {
+   "en": null,
+   "zh": "安杰伊·杜达"
+  },
+  "description": "politician and lawyer, president of Poland from 2015 to 2025",
+  "coord": null,
+  "image": "President of Poland Andrzej Duda Full Resolution (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1972,
+   "date": "1972-05-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrzej Duda",
+   "zh": "安杰伊·杜达"
+  },
+  "locationQid": null
+ },
  "Q9161": {
   "label": {
    "en": "Josip Broz Tito",
@@ -9597,6 +10347,16 @@
   "label": {
    "en": "Crimea",
    "zh": "克里米亚"
+  }
+ },
+ "loc:Q833060": {
+  "coord": {
+   "lat": 44.9661,
+   "lon": 19.6106
+  },
+  "label": {
+   "en": "Sirmium",
+   "zh": "塞尔曼"
   }
  }
 }
