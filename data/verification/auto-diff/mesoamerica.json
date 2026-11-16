@@ -324,9 +324,10 @@
   "km": 3313,
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "Wikidata's point (50N, 110W) is in Canada, which is wrong. Our marker is at Guanajuato in the Bajío, the first theatre of the war.",
+   "reason": "Wikidata has no coordinate for the war itself; the point (50N, 110W) comes from its location item Q19464773, the macro-region \"Northern America and Mexico\", whose centroid lies in Canada. Our marker is at Guanajuato in the Bajío, the first theatre of the war (reviewer, 2026-11).",
    "checked": [
-    "https://www.britannica.com/biography/Miguel-Hidalgo-y-Costilla"
+    "https://www.britannica.com/biography/Miguel-Hidalgo-y-Costilla",
+    "https://www.wikidata.org/wiki/Q19464773"
    ]
   }
  },
@@ -758,6 +759,54 @@
   }
  },
  {
+  "key": "ev-spanish-american-war-cuba:coord",
+  "id": "ev-spanish-american-war-cuba",
+  "dataset": "mesoamerica",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   20.0217,
+   -75.8294
+  ],
+  "wikidata": [
+   15,
+   -75
+  ],
+  "qid": "Q12583",
+  "km": 565,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata gives a generic Caribbean point (15N, 75W) at sea. This record is the Cuban theatre; the marker is Santiago de Cuba, where the land and naval campaign was decided.",
+   "checked": [
+    "https://www.britannica.com/event/Spanish-American-War"
+   ]
+  }
+ },
+ {
+  "key": "ev-codex-zouche-nuttall:coord",
+  "id": "ev-codex-zouche-nuttall",
+  "dataset": "mesoamerica",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   17.25,
+   -97.3
+  ],
+  "wikidata": [
+   51.5294,
+   -0.1269
+  ],
+  "qid": "Q1106134",
+  "km": 8997,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata locates the manuscript object at the British Museum in London. The record is the painting of the codex in the Mixteca Alta of Oaxaca, so the marker is near Tilantongo, whose dynasty it records.",
+   "checked": [
+    "https://www.britishmuseum.org/collection/object/E_Am1902-0308-1"
+   ]
+  }
+ },
+ {
   "key": "person-lady-six-sky:born",
   "id": "person-lady-six-sky",
   "dataset": "mesoamerica",
@@ -992,15 +1041,15 @@
   "dataset": "mesoamerica",
   "kind": "polities",
   "field": "from",
-  "ours": 1841,
+  "ours": 1839,
   "wikidata": 1821,
   "qid": "Q774",
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "Wikidata's 1821 is independence from Spain. Guatemala was part of the Mexican Empire and then the Central American Federation (a separate polity here) until 1839–1841, and proclaimed itself a republic in 1847.",
+   "reason": "Wikidata 1821 is independence from Spain. Guatemala was part of the Mexican Empire and then the Central American Federation (a separate polity here) and declared itself separate from the federation on 17 April 1839 (reviewer corrected our start from 1841 to 1839); it proclaimed itself a republic in 1847.",
    "checked": [
     "https://www.britannica.com/place/Guatemala",
-    "https://www.britannica.com/place/United-Provinces-of-Central-America"
+    "Ralph Lee Woodward Jr., Central America: A Nation Divided (3rd ed., 1999)"
    ]
   }
  },
@@ -1019,6 +1068,77 @@
    "checked": [
     "https://www.britannica.com/place/Cuba",
     "Pérez, Cuba: Between Reform and Revolution (2015)"
+   ]
+  }
+ },
+ {
+  "key": "polity-honduras:from",
+  "id": "polity-honduras",
+  "dataset": "mesoamerica",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1838,
+  "wikidata": 1821,
+  "qid": "Q783",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata 1821 is independence from Spain. Until 1838 the state belonged to the Mexican Empire and then the Federal Republic of Central America, a separate polity here; it left the federation in October–November 1838.",
+   "checked": [
+    "https://www.britannica.com/place/Honduras",
+    "Ralph Lee Woodward Jr., Central America: A Nation Divided (3rd ed., 1999)"
+   ]
+  }
+ },
+ {
+  "key": "polity-nicaragua:from",
+  "id": "polity-nicaragua",
+  "dataset": "mesoamerica",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1838,
+  "wikidata": 1821,
+  "qid": "Q811",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata 1821 is independence from Spain. Until 1838 the state belonged to the Mexican Empire and then the Federal Republic of Central America, a separate polity here; it left the federation on 30 April 1838.",
+   "checked": [
+    "https://www.britannica.com/place/Nicaragua",
+    "Ralph Lee Woodward Jr., Central America: A Nation Divided (3rd ed., 1999)"
+   ]
+  }
+ },
+ {
+  "key": "polity-costa-rica:from",
+  "id": "polity-costa-rica",
+  "dataset": "mesoamerica",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1838,
+  "wikidata": 1821,
+  "qid": "Q800",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata 1821 is independence from Spain. Until 1838 the state belonged to the Mexican Empire and then the Federal Republic of Central America, a separate polity here; it left the federation in November 1838 under Braulio Carrillo.",
+   "checked": [
+    "https://www.britannica.com/place/Costa-Rica",
+    "Ralph Lee Woodward Jr., Central America: A Nation Divided (3rd ed., 1999)"
+   ]
+  }
+ },
+ {
+  "key": "polity-martinique:from",
+  "id": "polity-martinique",
+  "dataset": "mesoamerica",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1635,
+  "wikidata": 1946,
+  "qid": "Q17054",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata Q17054 is the present territory, whose inception (1946) is the creation of the overseas department. The polity covers French rule from d’Esnambuc’s settlement in 1635 to the present.",
+   "checked": [
+    "https://www.britannica.com/place/Martinique"
    ]
   }
  }

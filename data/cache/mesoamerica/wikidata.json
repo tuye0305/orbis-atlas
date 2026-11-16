@@ -138,6 +138,28 @@
   },
   "locationQid": null
  },
+ "Q1106134": {
+  "label": {
+   "en": "Codex Zouche-Nuttall",
+   "zh": null
+  },
+  "description": "manuscript",
+  "coord": null,
+  "image": "Codex Zouche-Nuttall, page 20.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q87167"
+  ],
+  "wiki": {
+   "en": "Codex Zouche-Nuttall",
+   "zh": null
+  },
+  "locationQid": "Q23308"
+ },
  "Q111168991": {
   "label": {
    "en": "Tzitzipandáquare",
@@ -366,6 +388,38 @@
   "wiki": {
    "en": "2024 Mexican general election",
    "zh": "2024年墨西哥大选"
+  },
+  "locationQid": null
+ },
+ "Q114142": {
+  "label": {
+   "en": "Violeta Barrios de Chamorro",
+   "zh": "比奥莱塔·查莫罗"
+  },
+  "description": "Nicaraguan publisher of La Prensa and the first woman elected president of Nicaragua, in office from 1990 to 1997 (1929–2025)",
+  "coord": null,
+  "image": "Violeta Chamorro 1993.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1929,
+   "date": "1929-10-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2025,
+   "date": "2025-06-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Violeta Chamorro",
+   "zh": "比奥莱塔·查莫罗"
   },
   "locationQid": null
  },
@@ -685,6 +739,43 @@
    "zh": "香菜大屠殺"
   }
  },
+ "Q12583": {
+  "label": {
+   "en": "Spanish–American War",
+   "zh": "美西战争"
+  },
+  "description": "1898 conflict between Spain and the United States",
+  "coord": null,
+  "image": "Maine explosion.jpg",
+  "pointInTime": {
+   "year": 1898,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1898,
+   "date": "1898-04-25",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1898,
+   "date": "1898-08-11",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Spanish–American War",
+   "zh": "美西战争"
+  },
+  "locationQid": "Q1247"
+ },
  "Q128160": {
   "label": {
    "en": "Cuban Missile Crisis",
@@ -915,6 +1006,38 @@
   "wiki": {
    "en": "Agustín de Iturbide",
    "zh": "阿古斯丁一世 (墨西哥)"
+  },
+  "locationQid": null
+ },
+ "Q1339565": {
+  "label": {
+   "en": "Pierre Belain d'Esnambuc",
+   "zh": "皮埃尔·贝兰·德南比克"
+  },
+  "description": "governor of St. Christopher",
+  "coord": null,
+  "image": "La fondation de la Martinique en 1635.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1585,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1636,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pierre Belain d'Esnambuc",
+   "zh": null
   },
   "locationQid": null
  },
@@ -1516,6 +1639,69 @@
   },
   "locationQid": null
  },
+ "Q16848165": {
+  "label": {
+   "en": "Edward Trelawny",
+   "zh": null
+  },
+  "description": "British colonial administrator",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1699,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1754,
+   "date": "1754-01-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Edward Trelawny (colonial administrator)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q17054": {
+  "label": {
+   "en": "Martinique",
+   "zh": "马提尼克"
+  },
+  "description": "island in the Lesser Antilles, overseas region and department of France",
+  "coord": {
+   "lat": 14.65,
+   "lon": -61.015
+  },
+  "image": "Martinique 14.6346N 61.0051W Landsat7.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1946,
+   "date": "1946-03-21",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q36784",
+   "Q202216",
+   "Q161243"
+  ],
+  "wiki": {
+   "en": "Martinique",
+   "zh": "馬提尼克"
+  }
+ },
  "Q170603": {
   "label": {
    "en": "New Spain",
@@ -1750,6 +1936,33 @@
   "wiki": {
    "en": "Miguel Tacón y Rosique",
    "zh": null
+  },
+  "locationQid": null
+ },
+ "Q17712353": {
+  "label": {
+   "en": "Nayib Bukele",
+   "zh": "納伊布·布克萊"
+  },
+  "description": "President of El Salvador since 2019",
+  "coord": null,
+  "image": "Nayib Bukele in the White House, 2025 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1981,
+   "date": "1981-07-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nayib Bukele",
+   "zh": "納伊布·布克萊"
   },
   "locationQid": null
  },
@@ -2168,6 +2381,33 @@
   "wiki": {
    "en": "Vasco Núñez de Balboa",
    "zh": "瓦斯科·努涅斯·德·巴尔沃亚"
+  },
+  "locationQid": null
+ },
+ "Q191060": {
+  "label": {
+   "en": "Manuel Zelaya",
+   "zh": "曼努埃尔·塞拉亚"
+  },
+  "description": "Honduran politician and businessman (born 1952)",
+  "coord": null,
+  "image": "Manuel Zelaya 2022.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1952,
+   "date": "1952-09-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel Zelaya",
+   "zh": "曼努埃尔·塞拉亚"
   },
   "locationQid": null
  },
@@ -3053,6 +3293,38 @@
   },
   "locationQid": null
  },
+ "Q218443": {
+  "label": {
+   "en": "Anastasio Somoza Debayle",
+   "zh": "安纳斯塔西奥·索摩查·德瓦伊莱"
+  },
+  "description": "Nicaraguan National Guard commander and president of Nicaragua from 1967 to 1972 and from 1974 to 1979, the last ruler of the Somoza dynasty (1925–1980)",
+  "coord": null,
+  "image": "1975 Press Photo Nicaragua President Anastasio Somoza (cropped).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1925,
+   "date": "1925-12-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1980,
+   "date": "1980-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anastasio Somoza Debayle",
+   "zh": "安纳斯塔西奥·索摩查·德瓦伊莱"
+  },
+  "locationQid": null
+ },
  "Q220264": {
   "label": {
    "en": "Popol Vuh",
@@ -3380,6 +3652,41 @@
    "zh": "韦尔蒂埃尔战役"
   }
  },
+ "Q2526023": {
+  "label": {
+   "en": "Colony of Jamaica",
+   "zh": "英屬牙買加"
+  },
+  "description": "British colony on the island of Jamaica, 1655–1962",
+  "coord": {
+   "lat": 17.9833,
+   "lon": -76.8
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1655,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1962,
+   "date": "1962-08-06",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q133156"
+  ],
+  "wiki": {
+   "en": "Colony of Jamaica",
+   "zh": null
+  }
+ },
  "Q2532976": {
   "label": {
    "en": "Congress of Chilpancingo",
@@ -3438,6 +3745,38 @@
   ],
   "wiki": {
    "en": "Tangáxuan I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q255874": {
+  "label": {
+   "en": "Sir Thomas Modyford, 1st Baronet",
+   "zh": null
+  },
+  "description": "British Baronet",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1620,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1679,
+   "date": "1679-09-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Thomas Modyford",
    "zh": null
   },
   "locationQid": null
@@ -4378,6 +4717,38 @@
   },
   "locationQid": null
  },
+ "Q311126": {
+  "label": {
+   "en": "José Figueres Ferrer",
+   "zh": "何塞·菲格雷斯·费雷尔"
+  },
+  "description": "Costa Rican politician (1906–1990)",
+  "coord": null,
+  "image": "José Figueres Ferrer 1.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1906,
+   "date": "1906-09-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1990,
+   "date": "1990-06-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Figueres Ferrer",
+   "zh": "何塞·菲格雷斯·费雷尔"
+  },
+  "locationQid": null
+ },
  "Q311425": {
   "label": {
    "en": null,
@@ -4410,6 +4781,38 @@
   },
   "locationQid": null
  },
+ "Q312622": {
+  "label": {
+   "en": "Anastasio Somoza García",
+   "zh": "安纳斯塔西奥·索摩查·加西亚"
+  },
+  "description": "former President of Nicaragua (1896–1956)",
+  "coord": null,
+  "image": "Anastasio Somoza García.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1896,
+   "date": "1896-02-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1956,
+   "date": "1956-09-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anastasio Somoza García",
+   "zh": "安纳斯塔西奥·索摩查·加西亚"
+  },
+  "locationQid": null
+ },
  "Q315628": {
   "label": {
    "en": "Cuitláhuac",
@@ -4439,6 +4842,70 @@
   "wiki": {
    "en": "Cuitláhuac",
    "zh": "奎特拉瓦克"
+  },
+  "locationQid": null
+ },
+ "Q3158836": {
+  "label": {
+   "en": "Jacques Dyel du Parquet",
+   "zh": "雅克·迪耶尔·迪帕尔凯"
+  },
+  "description": "French colonial governor and slave plantations owner",
+  "coord": null,
+  "image": "Dyel du Parquet.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1606,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1658,
+   "date": "1658-01-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jacques Dyel du Parquet",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3164708": {
+  "label": {
+   "en": "Jean-Charles de Baas",
+   "zh": "让-夏尔·德巴斯"
+  },
+  "description": "French colonial administrator",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1650,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1677,
+   "date": "1677-01-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jean-Charles de Baas",
+   "zh": null
   },
   "locationQid": null
  },
@@ -4557,6 +5024,38 @@
    "en": "Our Lady of Guadalupe",
    "zh": "瓜達露佩聖母"
   }
+ },
+ "Q319419": {
+  "label": {
+   "en": "Maximiliano Hernández Martínez",
+   "zh": "马克西米亚诺·埃尔南德斯·马丁内斯"
+  },
+  "description": "president of El Salvador (1882–1966)",
+  "coord": null,
+  "image": "General Maximiliano Hernández Martínez, President of El Salvador.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1882,
+   "date": "1882-10-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1966,
+   "date": "1966-05-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Maximiliano Hernández Martínez",
+   "zh": "马克西米利亚诺·埃尔南德斯·马丁内斯"
+  },
+  "locationQid": null
  },
  "Q322173": {
   "label": {
@@ -4837,6 +5336,38 @@
   ],
   "wiki": {
    "en": "Juan Diego",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3366368": {
+  "label": {
+   "en": "Kenneth Blackburne",
+   "zh": null
+  },
+  "description": "British colonial administrator (1907–1980)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1907,
+   "date": "1907-12-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1980,
+   "date": "1980-11-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kenneth Blackburne",
    "zh": null
   },
   "locationQid": null
@@ -5154,6 +5685,97 @@
   },
   "locationQid": null
  },
+ "Q357792": {
+  "label": {
+   "en": "Edward John Eyre",
+   "zh": "爱德华·约翰·艾尔"
+  },
+  "description": "British explorer and colonial administrator (1815–1901)",
+  "coord": null,
+  "image": "Edward John Eyre.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1815,
+   "date": "1815-08-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-11-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Edward John Eyre",
+   "zh": "爱德华·约翰·艾尔"
+  },
+  "locationQid": null
+ },
+ "Q360283": {
+  "label": {
+   "en": "José Napoleón Duarte",
+   "zh": "何塞·纳波莱昂·杜阿尔特"
+  },
+  "description": "President of El Salvador (1925-1990)",
+  "coord": null,
+  "image": "José Napoleón Duarte 1987c.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1925,
+   "date": "1925-11-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1990,
+   "date": "1990-02-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Napoleón Duarte",
+   "zh": "何塞·纳波莱昂·杜阿尔特"
+  },
+  "locationQid": null
+ },
+ "Q365374": {
+  "label": {
+   "en": "Alfredo Cristiani",
+   "zh": "阿尔弗雷多·克里斯蒂亚尼·布尔卡德"
+  },
+  "description": "President of El Salvador",
+  "coord": null,
+  "image": "Alfredo Cristiani.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1947,
+   "date": "1947-11-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alfredo Cristiani",
+   "zh": "阿尔弗雷多·克里斯蒂亚尼"
+  },
+  "locationQid": null
+ },
  "Q365381": {
   "label": {
    "en": "Rafael Carrera",
@@ -5215,6 +5837,38 @@
   "wiki": {
    "en": "Gerardo Machado",
    "zh": "格拉多·马查多"
+  },
+  "locationQid": null
+ },
+ "Q371186": {
+  "label": {
+   "en": "Oswaldo López Arellano",
+   "zh": "奥斯瓦尔多·洛佩斯·阿雷利亚诺"
+  },
+  "description": "President of Honduras from 1963–71 and 1972–75",
+  "coord": null,
+  "image": "Oswaldo López Arellano in 1965.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1921,
+   "date": "1921-06-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2010,
+   "date": "2010-05-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Oswaldo López Arellano",
+   "zh": "奧斯瓦爾多·羅培茲·阿雷利亞諾"
   },
   "locationQid": null
  },
@@ -5502,6 +6156,42 @@
    "zh": "维齐利维特尔"
   },
   "locationQid": null
+ },
+ "Q386230": {
+  "label": {
+   "en": "1902 eruption of Mount Pelée",
+   "zh": null
+  },
+  "description": "1902 volcanic eruption of Mount Pelée that destroyed the town of Saint Pierre",
+  "coord": {
+   "lat": 14.8075,
+   "lon": -61.1675
+  },
+  "image": "The National geographic magazine (1902) (14595295848).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1902,
+   "date": "1902-04-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1905,
+   "date": "1905-10-05",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7692360",
+   "Q1067217",
+   "Q2703194"
+  ],
+  "wiki": {
+   "en": "1902 eruption of Mount Pelée",
+   "zh": null
+  }
  },
  "Q386687": {
   "label": {
@@ -5838,6 +6528,38 @@
   "wiki": {
    "en": "Juan Bosch (politician)",
    "zh": "胡安·博什"
+  },
+  "locationQid": null
+ },
+ "Q440671": {
+  "label": {
+   "en": "Tomás Guardia Gutierrez",
+   "zh": "托馬斯·古鐵雷斯"
+  },
+  "description": "President of Costa Rica (1831-1882)",
+  "coord": null,
+  "image": "Tomás Guardia Gutiérrez.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1831,
+   "date": "1831-12-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1882,
+   "date": "1882-07-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tomás Guardia Gutiérrez",
+   "zh": "托馬斯·瓜迪亞·古鐵雷斯"
   },
   "locationQid": null
  },
@@ -6194,6 +6916,33 @@
   },
   "locationQid": null
  },
+ "Q49344": {
+  "label": {
+   "en": "Óscar Arias Sánchez",
+   "zh": "奥斯卡·阿里亚斯·桑切斯"
+  },
+  "description": "President of Costa Rica (1986–1990, 2006–2010)",
+  "coord": null,
+  "image": "Óscar Arias (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1941,
+   "date": "1941-09-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Óscar Arias",
+   "zh": "奥斯卡·阿里亚斯"
+  },
+  "locationQid": null
+ },
  "Q5027839": {
   "label": {
    "en": "Filibuster War",
@@ -6476,6 +7225,38 @@
   },
   "locationQid": null
  },
+ "Q554264": {
+  "label": {
+   "en": "Antonio Maceo",
+   "zh": "安东尼奥·马塞奥·格拉哈莱斯"
+  },
+  "description": "Cuban general (1845-1896)",
+  "coord": null,
+  "image": "Antonio Maceo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1845,
+   "date": "1845-06-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1896,
+   "date": "1896-12-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Antonio Maceo",
+   "zh": "安东尼奥·马塞奥"
+  },
+  "locationQid": null
+ },
  "Q55636": {
   "label": {
    "en": "Miguel Hidalgo Y Costilla",
@@ -6631,6 +7412,70 @@
   },
   "locationQid": null
  },
+ "Q560938": {
+  "label": {
+   "en": "José Santos Zelayo",
+   "zh": "何塞·桑托斯·塞拉亚"
+  },
+  "description": "President of Nicaragua from 1893 to 1909",
+  "coord": null,
+  "image": "JZelaya.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1853,
+   "date": "1853-11-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1919,
+   "date": "1919-05-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Santos Zelaya",
+   "zh": "何塞·桑托斯·塞拉亚"
+  },
+  "locationQid": null
+ },
+ "Q562044": {
+  "label": {
+   "en": "Tiburcio Carías",
+   "zh": "蒂武西奧·卡里亚斯·安迪诺"
+  },
+  "description": "President of Honduras (1876–1969)",
+  "coord": null,
+  "image": "Pres. Andino of Honduras LCCN2016878325.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1876,
+   "date": "1876-03-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1969,
+   "date": "1969-12-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tiburcio Carías Andino",
+   "zh": "蒂武西奥·卡里亚斯·安迪诺"
+  },
+  "locationQid": null
+ },
  "Q562277": {
   "label": {
    "en": "Battle of Havana",
@@ -6767,6 +7612,33 @@
    "en": "Tula (Mesoamerican site)",
    "zh": "图拉 (中部美洲遗址)"
   }
+ },
+ "Q57402": {
+  "label": {
+   "en": "Daniel Ortega",
+   "zh": "丹尼尔·奥尔特加"
+  },
+  "description": "Leader of Nicaragua (1979–1990; 2007–present)",
+  "coord": null,
+  "image": "Daniel Ortega on July 20, 2024.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1945,
+   "date": "1945-11-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Daniel Ortega",
+   "zh": "丹尼尔·奥尔特加"
+  },
+  "locationQid": null
  },
  "Q5771800": {
   "label": {
@@ -7197,6 +8069,38 @@
   "wiki": {
    "en": "Uaxaclajuun Ubʼaah Kʼawiil",
    "zh": "瓦沙克拉洪·乌巴·卡维尔"
+  },
+  "locationQid": null
+ },
+ "Q671414": {
+  "label": {
+   "en": "Gerardo Barrios",
+   "zh": "赫拉多·巴里奥斯"
+  },
+  "description": "Salvadoran politician (1813-1865)",
+  "coord": null,
+  "image": "GBarrios.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1813,
+   "date": "1813-09-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1865,
+   "date": "1865-08-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gerardo Barrios",
+   "zh": null
   },
   "locationQid": null
  },
@@ -7738,6 +8642,68 @@
   },
   "locationQid": null
  },
+ "Q783": {
+  "label": {
+   "en": "Honduras",
+   "zh": "洪都拉斯"
+  },
+  "description": "sovereign state in Central America",
+  "coord": {
+   "lat": 14.6333,
+   "lon": -86.8167
+  },
+  "image": "Copan sculpture.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Honduras",
+   "zh": "洪都拉斯"
+  }
+ },
+ "Q783111": {
+  "label": {
+   "en": "Ramón Villeda Morales",
+   "zh": "拉蒙·比列达·莫拉莱斯"
+  },
+  "description": "President of Honduras from 1957 to 1963",
+  "coord": null,
+  "image": "Vilmorstamp.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1909,
+   "date": "1909-11-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1971,
+   "date": "1971-10-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ramón Villeda Morales",
+   "zh": "拉蒙·比列達·莫拉萊斯"
+  },
+  "locationQid": null
+ },
  "Q786": {
   "label": {
    "en": "Dominican Republic",
@@ -7828,6 +8794,36 @@
    "zh": "海地"
   }
  },
+ "Q792": {
+  "label": {
+   "en": "El Salvador",
+   "zh": "萨尔瓦多"
+  },
+  "description": "sovereign state in Central America",
+  "coord": {
+   "lat": 13.6689,
+   "lon": -88.8661
+  },
+  "image": "ES JoyadeCeren 06 2011 Estructura 9 Area 2 Tamazcal 2106 zoom out.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1841,
+   "date": "1841-02-02",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "El Salvador",
+   "zh": "萨尔瓦多"
+  }
+ },
  "Q794210": {
   "label": {
    "en": "Aztec Triple Alliance",
@@ -7894,6 +8890,36 @@
   },
   "locationQid": null
  },
+ "Q800": {
+  "label": {
+   "en": "Costa Rica",
+   "zh": "哥斯达黎加"
+  },
+  "description": "country in Central America",
+  "coord": {
+   "lat": 10,
+   "lon": -84
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Costa Rica",
+   "zh": "哥斯达黎加"
+  }
+ },
  "Q804": {
   "label": {
    "en": "Panama",
@@ -7924,6 +8950,33 @@
    "en": "Panama",
    "zh": "巴拿马"
   }
+ },
+ "Q8044708": {
+  "label": {
+   "en": "Xiomara Castro",
+   "zh": "希奥玛拉·卡斯特罗"
+  },
+  "description": "Honduran politician and businesswoman (born 1959)",
+  "coord": null,
+  "image": "Xiomara Castro 2024 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1959,
+   "date": "1959-09-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Xiomara Castro",
+   "zh": "希奥玛拉·卡斯特罗"
+  },
+  "locationQid": null
  },
  "Q8046995": {
   "label": {
@@ -8042,6 +9095,36 @@
    "zh": null
   },
   "locationQid": null
+ },
+ "Q811": {
+  "label": {
+   "en": "Nicaragua",
+   "zh": "尼加拉瓜"
+  },
+  "description": "sovereign state in Central America",
+  "coord": {
+   "lat": 13,
+   "lon": -85
+  },
+  "image": "Кафедральный собор в Манагуа.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Nicaragua",
+   "zh": "尼加拉瓜"
+  }
  },
  "Q8244123": {
   "label": {
@@ -8273,6 +9356,70 @@
   },
   "locationQid": null
  },
+ "Q880785": {
+  "label": {
+   "en": "Juan Rafael Mora Porras",
+   "zh": "胡安·拉斐尔·莫拉·波拉斯"
+  },
+  "description": "President of Costa Rica (1814–1860)",
+  "coord": null,
+  "image": "Juan Rafael Mora Porras.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1814,
+   "date": "1814-02-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1860,
+   "date": "1860-09-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Rafael Mora Porras",
+   "zh": "胡安·拉斐爾·莫拉·波拉斯"
+  },
+  "locationQid": null
+ },
+ "Q881007": {
+  "label": {
+   "en": "José Trinidad Cabañas",
+   "zh": "何塞·特立尼达·卡瓦尼亚斯"
+  },
+  "description": "President of Honduras (1805-1871)",
+  "coord": null,
+  "image": "José Trinidad Cabañas in 1855.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1805,
+   "date": "1805-06-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1871,
+   "date": "1871-01-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Trinidad Cabañas",
+   "zh": "何塞·特立尼达·卡瓦尼亚斯"
+  },
+  "locationQid": null
+ },
  "Q881158": {
   "label": {
    "en": "Juan José Arévalo",
@@ -8366,6 +9513,166 @@
   "wiki": {
    "en": "Pedro Santana",
    "zh": "佩德罗·桑塔纳"
+  },
+  "locationQid": null
+ },
+ "Q887531": {
+  "label": {
+   "en": "Francisco Ferrera",
+   "zh": "弗朗西斯科·费雷拉"
+  },
+  "description": "president of Honduras (1794-1851)",
+  "coord": null,
+  "image": "Francisco-Ferrera.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1794,
+   "date": "1794-01-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1851,
+   "date": "1851-04-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco Ferrera",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q887755": {
+  "label": {
+   "en": "Fruto Chamorro",
+   "zh": "弗鲁托·查莫罗·佩雷斯"
+  },
+  "description": "1st President of Nicaragua (1804-1855)",
+  "coord": null,
+  "image": "01 Fruto Chamorro Pérez 1854-1855.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1804,
+   "date": "1804-10-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1855,
+   "date": "1855-03-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fruto Chamorro",
+   "zh": "弗鲁托·查莫罗"
+  },
+  "locationQid": null
+ },
+ "Q887758": {
+  "label": {
+   "en": "Rafael Zaldívar",
+   "zh": "拉斐尔·萨尔迪瓦"
+  },
+  "description": "President of El Salvador (1834-1903)",
+  "coord": null,
+  "image": "Zaldívar.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1834,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1903,
+   "date": "1903-03-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rafael Zaldívar",
+   "zh": "拉斐尔·萨尔迪瓦"
+  },
+  "locationQid": null
+ },
+ "Q888054": {
+  "label": {
+   "en": "Marco Aurelio Soto",
+   "zh": "马尔科·奥雷利奥·索托"
+  },
+  "description": "President of Honduras (1846-1908)",
+  "coord": null,
+  "image": "Doctor Marco Aurelio Soto.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1846,
+   "date": "1846-11-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1908,
+   "date": "1908-02-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Marco Aurelio Soto",
+   "zh": "马尔科·奥雷利奥·索托"
+  },
+  "locationQid": null
+ },
+ "Q888888": {
+  "label": {
+   "en": "Braulio Carrillo Colina",
+   "zh": "布勞略·卡里略·科利納"
+  },
+  "description": "Head of State of Costa Rica (1800-1845)",
+  "coord": null,
+  "image": "Braulio Carrillo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1800,
+   "date": "1800-03-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1845,
+   "date": "1845-05-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Braulio Carrillo Colina",
+   "zh": null
   },
   "locationQid": null
  },
@@ -8619,6 +9926,33 @@
   },
   "locationQid": "Q774"
  },
+ "Q98017689": {
+  "label": {
+   "en": "Rodrigo Chaves",
+   "zh": "罗德里戈·查韦斯·罗夫莱斯"
+  },
+  "description": "49th president of Costa Rica",
+  "coord": null,
+  "image": "Rodrigo Chaves 2022-5-16 Foto by Julieth Mendez (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1961,
+   "date": "1961-06-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rodrigo Chaves",
+   "zh": "羅德里戈·查韋斯·羅夫萊斯"
+  },
+  "locationQid": null
+ },
  "Q982515": {
   "label": {
    "en": "Maxtla",
@@ -8651,6 +9985,16 @@
   },
   "locationQid": null
  },
+ "loc:Q1247": {
+  "coord": {
+   "lat": 15,
+   "lon": -75
+  },
+  "label": {
+   "en": "Caribbean Sea",
+   "zh": "加勒比海"
+  }
+ },
  "loc:Q130978": {
   "coord": {
    "lat": 19.5511,
@@ -8679,6 +10023,16 @@
   "label": {
    "en": "Northern America and Mexico",
    "zh": null
+  }
+ },
+ "loc:Q23308": {
+  "coord": {
+   "lat": 51.5294,
+   "lon": -0.1269
+  },
+  "label": {
+   "en": "British Library",
+   "zh": "大英图书馆"
   }
  },
  "loc:Q241": {
