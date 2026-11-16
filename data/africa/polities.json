@@ -702,7 +702,7 @@
       "zh": "刚果王国"
     },
     "from": 1395,
-    "to": 1888,
+    "to": 1914,
     "capital": {
       "en": "Mbanza Kongo (São Salvador)",
       "zh": "姆班扎刚果（圣萨尔瓦多）"
@@ -710,8 +710,8 @@
     "capitalLat": -6.2667,
     "capitalLon": 14.25,
     "summary": {
-      "en": "A centralised kingdom south of the lower Congo River, Kongo adopted Catholicism after contact with Portugal in 1483 and exchanged ambassadors with Lisbon and the Vatican. The Atlantic slave trade and defeat at Mbwila in 1665 brought civil war; it became a Portuguese vassal in the 19th century.",
-      "zh": "刚果王国是刚果河下游以南的中央集权王国，1483年与葡萄牙接触后接受天主教，并与里斯本和梵蒂冈互派使节。大西洋奴隶贸易及1665年姆布维拉之败导致内战；19世纪沦为葡萄牙附庸。"
+      "en": "A centralised kingdom south of the lower Congo River, Kongo adopted Catholicism after contact with Portugal in 1483 and exchanged ambassadors with Lisbon and the Vatican. The Atlantic slave trade and defeat at Mbwila in 1665 brought civil war; it became a Portuguese vassal in the later 19th century, and Portugal abolished the titular monarchy in 1914.",
+      "zh": "刚果王国是刚果河下游以南的中央集权王国，1483年与葡萄牙接触后接受天主教，并与里斯本和梵蒂冈互派使节。大西洋奴隶贸易及1665年姆布维拉之败导致内战；19世纪后期沦为葡萄牙附庸，1914年葡萄牙废除其名义上的王位。"
     },
     "rulers": [
       {
@@ -774,10 +774,14 @@
       },
       {
         "title": "UNESCO General History of Africa, Vol. V: Africa from the Sixteenth to the Eighteenth Century (ed. B. A. Ogot, 1992)"
+      },
+      {
+        "title": "Britannica: Kongo",
+        "url": "https://www.britannica.com/place/Kongo-historical-kingdom-Africa"
       }
     ],
     "confidence": "medium",
-    "note": "End follows Wikidata (1888, Portuguese vassalage); the titular monarchy lasted until 1914. Founding date approximate."
+    "note": "End is 1914, when Portugal abolished the titular monarchy after suppressing the 1913–14 revolt; Wikidata gives 1888, the year of formal Portuguese vassalage. Founding date approximate."
   },
   {
     "region": "africa",

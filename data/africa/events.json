@@ -2469,5 +2469,239 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-book-of-optics",
+    "qid": "Q264562",
+    "type": "science",
+    "year": 1011,
+    "endYear": 1021,
+    "name": {
+      "en": "Ibn al-Haytham's Book of Optics",
+      "zh": "伊本·海什木著《光学之书》"
+    },
+    "summary": {
+      "en": "Working in Fatimid Cairo, Ibn al-Haytham wrote the Kitab al-Manazir, arguing that vision results from light entering the eye and testing his claims with controlled experiments. Translated into Latin around 1200, it shaped European optics from Roger Bacon to Kepler.",
+      "zh": "伊本·海什木在法蒂玛王朝治下的开罗撰写《光学之书》，主张视觉源于光线进入眼睛，并以可控实验检验自己的论断。约1200年该书被译为拉丁文，影响了从罗吉尔·培根到开普勒的欧洲光学。"
+    },
+    "lat": 30.0444,
+    "lon": 31.2358,
+    "importance": 4,
+    "people": [
+      "person-ibn-al-haytham"
+    ],
+    "place": "place-cairo",
+    "polities": [
+      "polity-fatimid-caliphate"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Kitab al-manazir",
+        "url": "https://www.britannica.com/topic/Kitab-al-manazir"
+      },
+      {
+        "title": "Britannica: Ibn al-Haytham",
+        "url": "https://www.britannica.com/biography/Ibn-al-Haytham"
+      },
+      {
+        "title": "Wikipedia: Book of Optics",
+        "url": "https://en.wikipedia.org/wiki/Book_of_Optics"
+      },
+      {
+        "title": "A. I. Sabra (trans.), The Optics of Ibn al-Haytham, Books I–III (1989)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Composed c. 1011–1021, mostly after the death of the caliph al-Hakim; exact dates are uncertain."
+  },
+  {
+    "region": "africa",
+    "id": "ev-trans-saharan-gold-trade",
+    "qid": "Q465279",
+    "type": "cultural",
+    "year": 757,
+    "endYear": 1591,
+    "name": {
+      "en": "Trans-Saharan gold and salt trade",
+      "zh": "跨撒哈拉黄金与食盐贸易"
+    },
+    "summary": {
+      "en": "Camel caravans linked the Maghreb with the West African Sahel, exchanging salt, textiles and horses for gold, ivory and slaves. Sijilmasa, founded in 757, was a leading northern terminus; the trade financed Ghana, Mali and Songhai and carried Islam and Arabic literacy south.",
+      "zh": "骆驼商队连接马格里布与西非萨赫勒地区，以食盐、纺织品和马匹换取黄金、象牙和奴隶。757年建立的西吉尔马萨是主要的北端枢纽；这一贸易支撑了加纳、马里和桑海帝国，并把伊斯兰教和阿拉伯文读写带往南方。"
+    },
+    "lat": 31.28,
+    "lon": -4.28,
+    "importance": 4,
+    "polities": [
+      "polity-ghana-empire",
+      "polity-mali-empire",
+      "polity-songhai-empire"
+    ],
+    "sources": [
+      {
+        "title": "The Met, Heilbrunn Timeline of Art History: The Trans-Saharan Gold Trade (7th–14th Century)",
+        "url": "https://www.metmuseum.org/toah/hd/gold/hd_gold.htm"
+      },
+      {
+        "title": "Wikipedia: Sijilmasa",
+        "url": "https://en.wikipedia.org/wiki/Sijilmasa"
+      },
+      {
+        "title": "Wikipedia: Trans-Saharan trade",
+        "url": "https://en.wikipedia.org/wiki/Trans-Saharan_trade"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Span is conventional: from the founding of Sijilmasa (757) to the Moroccan conquest of Songhai (1591), after which Atlantic trade eclipsed the caravans. Marker at Sijilmasa."
+  },
+  {
+    "region": "africa",
+    "id": "ev-timbuktu-manuscripts",
+    "qid": "Q2209578",
+    "type": "cultural",
+    "year": 1450,
+    "endYear": 1591,
+    "name": {
+      "en": "Timbuktu's manuscript libraries",
+      "zh": "廷巴克图手稿"
+    },
+    "summary": {
+      "en": "Under Mali and Songhai rule, scholars of the Sankore, Djinguereber and Sidi Yahya mosques built family libraries of Arabic and Ajami manuscripts on law, theology, astronomy, medicine and history. Hundreds of thousands survive; many were smuggled to Bamako during the 2012 occupation.",
+      "zh": "在马里和桑海统治下，桑科雷、津加里贝尔和西迪·叶海亚清真寺的学者建立家族图书馆，收藏以阿拉伯文和阿贾米文书写的法学、神学、天文、医学和历史手稿。存世手稿数以十万计，2012年城市被占领期间许多被秘密转移到巴马科。"
+    },
+    "lat": 16.7733,
+    "lon": -2.9994,
+    "importance": 4,
+    "people": [
+      "person-ahmad-baba"
+    ],
+    "place": "place-timbuktu",
+    "polities": [
+      "polity-mali-empire",
+      "polity-songhai-empire"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Timbuktu",
+        "url": "https://whc.unesco.org/en/list/119"
+      },
+      {
+        "title": "Britannica: Timbuktu",
+        "url": "https://www.britannica.com/place/Timbuktu-Mali"
+      },
+      {
+        "title": "Wikipedia: Timbuktu Manuscripts",
+        "url": "https://en.wikipedia.org/wiki/Timbuktu_Manuscripts"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Span is conventional: the scholarly peak from the mid-15th century to the Moroccan conquest of 1591. Most surviving manuscripts were copied later, in the 16th–19th centuries."
+  },
+  {
+    "region": "africa",
+    "id": "ev-saint-catherines-monastery",
+    "qid": "Q185362",
+    "type": "religious",
+    "year": 548,
+    "endYear": 565,
+    "name": {
+      "en": "Saint Catherine's Monastery built at Sinai",
+      "zh": "西奈圣凯瑟琳修道院建成"
+    },
+    "summary": {
+      "en": "Justinian I had a fortified monastery built at the foot of Mount Sinai around the traditional site of the Burning Bush. Never destroyed, it is among the oldest continuously inhabited Christian monasteries, and its library holds one of the largest collections of early manuscripts and icons.",
+      "zh": "查士丁尼一世在西奈山麓传统认定的燃烧荆棘之处修建了一座设防修道院。它从未被毁，是持续有人居住的最古老基督教修道院之一，其图书馆收藏着数量极多的早期抄本和圣像。"
+    },
+    "lat": 28.5558,
+    "lon": 33.9756,
+    "importance": 3,
+    "polities": [
+      "polity-byzantine-empire"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Saint Catherine Area",
+        "url": "https://whc.unesco.org/en/list/954"
+      },
+      {
+        "title": "Britannica: Saint Catherine's Monastery",
+        "url": "https://www.britannica.com/topic/Saint-Catherines-Monastery"
+      },
+      {
+        "title": "Wikipedia: Saint Catherine's Monastery",
+        "url": "https://en.wikipedia.org/wiki/Saint_Catherine's_Monastery"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Built between 548 and 565: the church's roof-beam inscriptions commemorate Justinian and the late empress Theodora (d. 548)."
+  },
+  {
+    "region": "africa",
+    "id": "ev-lake-nyos-disaster",
+    "qid": "Q11737225",
+    "type": "disaster",
+    "year": 1986,
+    "date": "1986-08-21",
+    "name": {
+      "en": "Lake Nyos disaster",
+      "zh": "尼奥斯湖灾难"
+    },
+    "summary": {
+      "en": "A sudden release of carbon dioxide from the volcanic crater lake of Nyos in Cameroon flowed down the surrounding valleys at night, suffocating about 1,700 people and thousands of cattle. The rare limnic eruption led to degassing pipes being installed in the lake from 2001.",
+      "zh": "喀麦隆火山口湖尼奥斯湖夜间突然释放大量二氧化碳，气体沿周围山谷下沉，令约1700人和数千头牲畜窒息死亡。这次罕见的湖底喷发促使人们自2001年起在湖中安装排气管。"
+    },
+    "lat": 6.4375,
+    "lon": 10.2975,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "G. W. Kling et al., \"The 1986 Lake Nyos Gas Disaster in Cameroon, West Africa\", Science 236 (1987)",
+        "url": "https://doi.org/10.1126/science.236.4798.169"
+      },
+      {
+        "title": "Britannica: Lake Nyos",
+        "url": "https://www.britannica.com/place/Lake-Nyos"
+      },
+      {
+        "title": "Wikipedia: Lake Nyos disaster",
+        "url": "https://en.wikipedia.org/wiki/Lake_Nyos_disaster"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-first-heart-transplant",
+    "type": "science",
+    "year": 1967,
+    "date": "1967-12-03",
+    "name": {
+      "en": "First human-to-human heart transplant",
+      "zh": "首例人体心脏移植手术"
+    },
+    "summary": {
+      "en": "At Groote Schuur Hospital in Cape Town, Christiaan Barnard's team transplanted the heart of a young road-accident victim, Denise Darvall, into Louis Washkansky, who lived for 18 days. The operation made heart transplantation a worldwide clinical goal.",
+      "zh": "在开普敦格罗特·舒尔医院，克里斯蒂安·巴纳德的团队将车祸遇难的年轻女子丹妮丝·达瓦尔的心脏移植给路易斯·沃什坎斯基，后者存活了18天。这次手术使心脏移植成为全球医学界追求的临床目标。"
+    },
+    "lat": -33.9414,
+    "lon": 18.4628,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Britannica: Christiaan Barnard",
+        "url": "https://www.britannica.com/biography/Christiaan-Barnard"
+      },
+      {
+        "title": "C. N. Barnard, \"The operation. A human cardiac transplant\", South African Medical Journal 41 (1967) (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4170370/"
+      },
+      {
+        "title": "Wikipedia: Louis Washkansky",
+        "url": "https://en.wikipedia.org/wiki/Louis_Washkansky"
+      }
+    ],
+    "confidence": "high",
+    "note": "No Wikidata item exists for the operation itself; the QID is omitted rather than borrowing the surgeon's or patient's item."
   }
 ]

@@ -214,5 +214,13 @@
       "Britannica: Liang dynasty (via search)",
       "姚思廉《梁书》本纪"
     ]
+  },
+  "person-faxian:born": {
+    "verdict": "keep-ours",
+    "reason": "Standard references give c. 337 (EBSCO research starter; Banglapedia). Wikidata's 340 is a rounded value. Both are approximate; record is medium confidence with a note.",
+    "checked": [
+      "https://ebsco.com/research-starters/biography/faxian",
+      "https://en.banglapedia.org/index.php/Fa-hien"
+    ]
   }
 }

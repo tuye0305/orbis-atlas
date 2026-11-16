@@ -784,6 +784,28 @@
   },
   "locationQid": null
  },
+ "Q1069875": {
+  "label": {
+   "en": "Dream Pool Essays",
+   "zh": "梦溪笔谈"
+  },
+  "description": "non-fiction work by Shen Kuo",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Dream Pool Essays",
+   "zh": "梦溪笔谈"
+  },
+  "locationQid": null
+ },
  "Q10701282": {
   "label": {
    "en": "Atlantic slave trade",
@@ -1431,6 +1453,38 @@
    "en": "Siege of Bukhara",
    "zh": "不花剌之战"
   }
+ },
+ "Q11104": {
+  "label": {
+   "en": "Ibn al-Haytham",
+   "zh": "海什木"
+  },
+  "description": "Arab physicist, mathematician and astronomer (c. 965 – c. 1040)",
+  "coord": null,
+  "image": "Ibn Al-Haytham portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 965,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1039,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ibn al-Haytham",
+   "zh": "伊本·海什木"
+  },
+  "locationQid": null
  },
  "Q11125562": {
   "label": {
@@ -2455,6 +2509,35 @@
   },
   "locationQid": null
  },
+ "Q1150973": {
+  "label": {
+   "en": "1931 China floods",
+   "zh": "1931年江淮大水"
+  },
+  "description": "series of devastating floods",
+  "coord": {
+   "lat": 30.5812,
+   "lon": 114.273
+  },
+  "image": "Hankow city hall.jpg",
+  "pointInTime": {
+   "year": 1931,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8068"
+  ],
+  "wiki": {
+   "en": "1931 China floods",
+   "zh": "1931年江淮水災"
+  }
+ },
  "Q1151096": {
   "label": {
    "en": "Conquest of Wu by Jin",
@@ -2941,6 +3024,36 @@
   "wiki": {
    "en": "Chongqing",
    "zh": "重庆市"
+  }
+ },
+ "Q11737225": {
+  "label": {
+   "en": "Lake Nyos disaster",
+   "zh": "尼奧斯湖災難"
+  },
+  "description": "1986 disaster in Cameroon due to a limnic eruption of Lake Nyos",
+  "coord": {
+   "lat": 6.4375,
+   "lon": 10.2975
+  },
+  "image": "Tml15-16 Nc.jpg",
+  "pointInTime": {
+   "year": 1986,
+   "date": "1986-08-21",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8065",
+   "Q925246"
+  ],
+  "wiki": {
+   "en": "Lake Nyos disaster",
+   "zh": "尼奧斯湖災難"
   }
  },
  "Q11739": {
@@ -3908,6 +4021,26 @@
   },
   "locationQid": "Q147304"
  },
+ "Q120776459": {
+  "label": {
+   "en": "Discovery of penicillin",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Discovery of penicillin",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q121235": {
   "label": {
    "en": "Sri Krishnadevaraya",
@@ -4003,6 +4136,42 @@
    "en": "Jerusalem",
    "zh": "耶路撒冷"
   }
+ },
+ "Q1225170": {
+  "label": {
+   "en": "Magellan-Elcano expedition",
+   "zh": "斐迪南·麥哲倫環球航海時間軸"
+  },
+  "description": "16th-century Spanish maritime expedition",
+  "coord": null,
+  "image": "Detail from a map of Ortelius - Magellan's ship Victoria.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1519,
+   "date": "1519-08-10",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1522,
+   "date": "1522-09-08",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2401485",
+   "Q210272",
+   "Q189524",
+   "Q3337280",
+   "Q3533809"
+  ],
+  "wiki": {
+   "en": "Magellan expedition",
+   "zh": "麥哲倫探險隊"
+  },
+  "locationQid": null
  },
  "Q123179707": {
   "label": {
@@ -4523,6 +4692,36 @@
    "zh": "白马寺"
   }
  },
+ "Q1268562": {
+  "label": {
+   "en": "Kailasa Temple, Ellora",
+   "zh": "凱拉薩神廟"
+  },
+  "description": "temple in Ellora, India",
+  "coord": {
+   "lat": 20.0239,
+   "lon": 75.1792
+  },
+  "image": "Ellora Cave 16 si0308.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 773,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q842402",
+   "Q653208"
+  ],
+  "wiki": {
+   "en": "Kailasa Temple, Ellora",
+   "zh": "凱拉薩神廟"
+  }
+ },
  "Q1268850": {
   "label": {
    "en": "Samanid Mausoleum",
@@ -5007,6 +5206,33 @@
    "zh": null
   },
   "locationQid": "Q162411"
+ },
+ "Q1290001": {
+  "label": {
+   "en": "Brāhmasphuṭasiddhānta",
+   "zh": "婆罗摩历算书"
+  },
+  "description": "Indian mathematics treatise",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 628,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q384515"
+  ],
+  "wiki": {
+   "en": "Brāhmasphuṭasiddhānta",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q129029": {
   "label": {
@@ -6125,6 +6351,45 @@
   },
   "locationQid": null
  },
+ "Q1336847": {
+  "label": {
+   "en": "Great Fire of Meireki",
+   "zh": "明历大火"
+  },
+  "description": "conflagration",
+  "coord": {
+   "lat": 35.7357,
+   "lon": 139.7351
+  },
+  "image": "Meireki fire.JPG",
+  "pointInTime": {
+   "year": 1657,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1657,
+   "date": "1657-03-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1657,
+   "date": "1657-03-05",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3149858"
+  ],
+  "wiki": {
+   "en": "Great Fire of Meireki",
+   "zh": "明曆大火"
+  }
+ },
  "Q134128": {
   "label": {
    "en": "Cnut the Great",
@@ -6555,6 +6820,38 @@
    "en": "Battle of Bạch Đằng (1288)",
    "zh": "白藤江之战 (1288年)"
   }
+ },
+ "Q1373764": {
+  "label": {
+   "en": "Kartini",
+   "zh": "卡蒂妮"
+  },
+  "description": "Indonesian heroine, feminist (1879–1904)",
+  "coord": null,
+  "image": "COLLECTIE TROPENMUSEUM Portret van Raden Ajeng Kartini TMnr 10018776.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1879,
+   "date": "1879-04-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1904,
+   "date": "1904-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kartini",
+   "zh": "卡蒂妮"
+  },
+  "locationQid": null
  },
  "Q138733": {
   "label": {
@@ -9185,6 +9482,33 @@
   },
   "locationQid": null
  },
+ "Q16127829": {
+  "label": {
+   "en": "Al-Biruni's India",
+   "zh": null
+  },
+  "description": "book by Al-Biruni",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1017,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "India (Al-Biruni)",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q161672": {
   "label": {
    "en": "Patrice Lumumba",
@@ -9419,6 +9743,40 @@
    "zh": null
   },
   "locationQid": null
+ },
+ "Q164679": {
+  "label": {
+   "en": "Great Fire of London",
+   "zh": "伦敦大火"
+  },
+  "description": "disaster in 17th century England",
+  "coord": {
+   "lat": 51.5157,
+   "lon": -0.0921
+  },
+  "image": "Great Fire London.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1666,
+   "date": "1666-09-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1666,
+   "date": "1666-09-06",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q838718"
+  ],
+  "wiki": {
+   "en": "Great Fire of London",
+   "zh": "倫敦大火"
+  }
  },
  "Q16470": {
   "label": {
@@ -10956,6 +11314,38 @@
   },
   "locationQid": null
  },
+ "Q177081": {
+  "label": {
+   "en": "Ban Zhao",
+   "zh": "班昭"
+  },
+  "description": "late 1st/early 2nd century Chinese historian, philosopher and scholar",
+  "coord": null,
+  "image": "Banzhao.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 45,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 116,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ban Zhao",
+   "zh": "班昭"
+  },
+  "locationQid": null
+ },
  "Q1771050": {
   "label": {
    "en": "Lê Thánh Tông",
@@ -12292,6 +12682,30 @@
   },
   "locationQid": null
  },
+ "Q185362": {
+  "label": {
+   "en": "Saint Catherine Monastery",
+   "zh": "圣凯瑟琳修道院"
+  },
+  "description": "Greek Orthodox monastery (the oldest) at the foot of Mount Sinai, Egypt",
+  "coord": {
+   "lat": 28.5558,
+   "lon": 33.9756
+  },
+  "image": "Katharinenkloster Sinai BW 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q44613"
+  ],
+  "wiki": {
+   "en": "Saint Catherine's Monastery",
+   "zh": "圣凯瑟琳修道院"
+  }
+ },
  "Q1854": {
   "label": {
    "en": "Ho Chi Minh City",
@@ -12627,6 +13041,40 @@
   "wiki": {
    "en": "Pyongyang",
    "zh": "平壤市"
+  }
+ },
+ "Q188371": {
+  "label": {
+   "en": "Great Irish Famine",
+   "zh": "爱尔兰大饥荒"
+  },
+  "description": "1845–1852 famine in Ireland",
+  "coord": {
+   "lat": 53.351,
+   "lon": -7.921
+  },
+  "image": "Irish potato famine Bridget O'Donnel.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1845,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1852,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q168247"
+  ],
+  "wiki": {
+   "en": "Great Famine (Ireland)",
+   "zh": "爱尔兰大饥荒"
   }
  },
  "Q188712": {
@@ -13079,6 +13527,35 @@
    "zh": "第一次鸦片战争"
   },
   "locationQid": "Q148"
+ },
+ "Q191293": {
+  "label": {
+   "en": "1556 Shaanxi earthquake",
+   "zh": "嘉靖大地震"
+  },
+  "description": "Magnitude 8 Earthquake (23 Janaury 1556) in Shaanxi, China; regarded as deadliest earthquake in recorded history",
+  "coord": {
+   "lat": 34.5,
+   "lon": 109.7
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1556,
+   "date": "1556-01-23",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "1556 Shaanxi earthquake",
+   "zh": "嘉靖大地震"
+  }
  },
  "Q19133": {
   "label": {
@@ -15720,6 +16197,33 @@
    "zh": "罗马"
   }
  },
+ "Q2209578": {
+  "label": {
+   "en": "Timbuktu Manuscripts",
+   "zh": "廷巴克图手稿项目"
+  },
+  "description": "Manuscripts preserved in Timbuktu, Mali",
+  "coord": null,
+  "image": "Loc timbuktu manuscripts amm0001rs.jpg",
+  "pointInTime": {
+   "year": 1700,
+   "date": null,
+   "precision": 7,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q87167"
+  ],
+  "wiki": {
+   "en": "Timbuktu Manuscripts",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q2213643": {
   "label": {
    "en": "Duan Yu",
@@ -15849,6 +16353,38 @@
    "en": "1st National Congress of the Chinese Communist Party",
    "zh": "中国共产党第一次全国代表大会"
   }
+ },
+ "Q2269": {
+  "label": {
+   "en": "Industrial Revolution",
+   "zh": "第一次工業革命"
+  },
+  "description": "transition to new manufacturing processes in Europe and the United States, in the 18th-19th centuries",
+  "coord": null,
+  "image": "Mémoires de la Société géologique de France (IA meymoiresdelaso00socig).pdf",
+  "pointInTime": null,
+  "start": {
+   "year": 1760,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1820,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Industrial Revolution",
+   "zh": "第一次工业革命"
+  },
+  "locationQid": null
  },
  "Q2277": {
   "label": {
@@ -16165,6 +16701,38 @@
   },
   "locationQid": null
  },
+ "Q233340": {
+  "label": {
+   "en": "Matteo Ricci",
+   "zh": "利玛窦"
+  },
+  "description": "Italian Catholic missionary (1552–1610)",
+  "coord": null,
+  "image": "利玛窦像，游文辉绘.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1552,
+   "date": "1552-10-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1610,
+   "date": "1610-05-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Matteo Ricci",
+   "zh": "利玛窦"
+  },
+  "locationQid": null
+ },
  "Q233414": {
   "label": {
    "en": "Battle of Panipat",
@@ -16347,6 +16915,31 @@
   "wiki": {
    "en": "Ulaanbaatar",
    "zh": "乌兰巴托"
+  }
+ },
+ "Q2344822": {
+  "label": {
+   "en": "Óc Eo",
+   "zh": "澳盖文化"
+  },
+  "description": "archaeological site in An Giang province, Vietnam",
+  "coord": {
+   "lat": 10.2329,
+   "lon": 105.163
+  },
+  "image": "Ruins of Nam Linh Son archaeological site, Oc Eo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q811430",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Óc Eo",
+   "zh": null
   }
  },
  "Q234860": {
@@ -17179,6 +17772,43 @@
   },
   "locationQid": null
  },
+ "Q245551": {
+  "label": {
+   "en": "1970 Bhola cyclone",
+   "zh": "1970年波拉氣旋"
+  },
+  "description": "North Indian cyclone in 1970",
+  "coord": null,
+  "image": "15B 1970-11-12 0956Z.png",
+  "pointInTime": {
+   "year": 1970,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1970,
+   "date": "1970-11-03",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1970,
+   "date": "1970-11-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8092"
+  ],
+  "wiki": {
+   "en": "1970 Bhola cyclone",
+   "zh": "1970年波拉气旋"
+  },
+  "locationQid": "Q842931"
+ },
  "Q2461462": {
   "label": {
    "en": "Maragheh Observatory",
@@ -17805,6 +18435,38 @@
   },
   "locationQid": "Q1501849"
  },
+ "Q256506": {
+  "label": {
+   "en": "Rabia of Basri",
+   "zh": "拉比雅·巴斯禮"
+  },
+  "description": "Iraqi sufi and poet",
+  "coord": null,
+  "image": "Rabia al-Adawiyya.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 710,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 801,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rabia Basri",
+   "zh": "拉比雅·巴斯禮"
+  },
+  "locationQid": null
+ },
  "Q256555": {
   "label": {
    "en": "Princess Wencheng",
@@ -18028,6 +18690,28 @@
   "wiki": {
    "en": "Prince Shōtoku",
    "zh": "聖德太子"
+  },
+  "locationQid": null
+ },
+ "Q264562": {
+  "label": {
+   "en": "Book of Optics",
+   "zh": "光学之书"
+  },
+  "description": "11th century treatise on optics by Ibn al-Haytham",
+  "coord": null,
+  "image": "Thesaurus opticus Titelblatt.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47461344"
+  ],
+  "wiki": {
+   "en": "Book of Optics",
+   "zh": null
   },
   "locationQid": null
  },
@@ -18755,6 +19439,33 @@
    "zh": "關東大地震"
   }
  },
+ "Q2747862": {
+  "label": {
+   "en": "Babylonian Talmud",
+   "zh": null
+  },
+  "description": "Talmud written in Babylonia",
+  "coord": null,
+  "image": "Prostory a zazemi Husitske teologicke fakulty UK (HTF UK) v Praze (ilustracni fotografie) (UK0391).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 300,
+   "date": null,
+   "precision": 7,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q179461"
+  ],
+  "wiki": {
+   "en": "Babylonian Talmud",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q2749271": {
   "label": {
    "en": "Ala-ud-Din Bahman Shah",
@@ -18916,6 +19627,29 @@
    "en": "Kaya confederacy",
    "zh": "伽倻"
   }
+ },
+ "Q28097186": {
+  "label": {
+   "en": "Dunhuang Diamond Sutra",
+   "zh": null
+  },
+  "description": "edition of the Diamond Sutra dated to 868",
+  "coord": null,
+  "image": "Jingangjing.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11060274",
+   "Q53731850"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q28174068": {
   "label": {
@@ -21303,6 +22037,45 @@
   },
   "locationQid": null
  },
+ "Q31191031": {
+  "label": {
+   "en": "1991 eruption of Mount Pinatubo",
+   "zh": "1991年皮納圖博火山噴發"
+  },
+  "description": "volcanic eruption in the Philippines in 1991",
+  "coord": {
+   "lat": 15.1417,
+   "lon": 120.35
+  },
+  "image": "VulcanoPinatuboJune1991.gif",
+  "pointInTime": {
+   "year": 1991,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1991,
+   "date": "1991-04-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1991,
+   "date": "1991-09-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1067217"
+  ],
+  "wiki": {
+   "en": "1991 eruption of Mount Pinatubo",
+   "zh": null
+  }
+ },
  "Q312342": {
   "label": {
    "en": "al-Azhar Mosque",
@@ -21499,6 +22272,70 @@
   "wiki": {
    "en": "Mongkut",
    "zh": "拉玛四世"
+  },
+  "locationQid": null
+ },
+ "Q312954": {
+  "label": {
+   "en": "Rudaki",
+   "zh": "鲁达基"
+  },
+  "description": "Persian poet, the father of Persian poetry",
+  "coord": null,
+  "image": "Miniature of Rudaki by Hossein Behzad.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 859,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 941,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rudaki",
+   "zh": "鲁达基"
+  },
+  "locationQid": null
+ },
+ "Q312978": {
+  "label": {
+   "en": "Faxian",
+   "zh": "法显"
+  },
+  "description": "Chinese Buddhist monk (bhikkhu), pilgrim to India, and travelogue author during the Jin and Liu Song dynasties",
+  "coord": null,
+  "image": "Faxian statue in Maritime Experiential Museum & Aquarium Singapore.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 340,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 422,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Faxian",
+   "zh": "法显"
   },
   "locationQid": null
  },
@@ -22740,6 +23577,28 @@
    "zh": "昆陽之戰"
   }
  },
+ "Q3275026": {
+  "label": {
+   "en": "Tiangong Kaiwu",
+   "zh": "天工开物"
+  },
+  "description": "book by Song Yingxing",
+  "coord": null,
+  "image": "Casting a Tripod, Bell, and Statue.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Tiangong Kaiwu",
+   "zh": "天工开物"
+  },
+  "locationQid": null
+ },
  "Q329792": {
   "label": {
    "en": "Kinmei",
@@ -23001,6 +23860,42 @@
    "zh": null
   },
   "locationQid": null
+ },
+ "Q334051": {
+  "label": {
+   "en": "Abbey of Monte Cassino",
+   "zh": "蒙特卡西諾修道院"
+  },
+  "description": "abbey",
+  "coord": {
+   "lat": 41.49,
+   "lon": 13.814
+  },
+  "image": "Abbazia Montecassino.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 530,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q817056",
+   "Q233324",
+   "Q2742167",
+   "Q92755865",
+   "Q3867560",
+   "Q124830411",
+   "Q56242215",
+   "Q1497364"
+  ],
+  "wiki": {
+   "en": "Abbey of Monte Cassino",
+   "zh": null
+  }
  },
  "Q334111": {
   "label": {
@@ -25423,6 +26318,29 @@
    "zh": "亚的斯亚贝巴"
   }
  },
+ "Q36288": {
+  "label": {
+   "en": "Silk Road",
+   "zh": "丝绸之路"
+  },
+  "description": "trade routes through Asia connecting China to the Mediterranean Sea",
+  "coord": null,
+  "image": "Silk road Kazakhstan.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q405155",
+   "Q445741"
+  ],
+  "wiki": {
+   "en": "Silk Road",
+   "zh": "丝绸之路"
+  },
+  "locationQid": null
+ },
  "Q3630": {
   "label": {
    "en": "Jakarta",
@@ -26336,6 +27254,36 @@
    "zh": "巴赫曼尼苏丹国"
   },
   "locationQid": null
+ },
+ "Q374902": {
+  "label": {
+   "en": "The Asiatic Society",
+   "zh": "亞洲公會"
+  },
+  "description": "learned society founded by Sir William Jones in 1784",
+  "coord": {
+   "lat": 22.5552,
+   "lon": 88.3505
+  },
+  "image": "Asiatic Society of Bengal logo.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1784,
+   "date": "1784-01-15",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q48204",
+   "Q748019"
+  ],
+  "wiki": {
+   "en": "The Asiatic Society",
+   "zh": null
+  }
  },
  "Q37594": {
   "label": {
@@ -29014,6 +29962,34 @@
   },
   "locationQid": null
  },
+ "Q43286": {
+  "label": {
+   "en": "Mogao Caves",
+   "zh": "莫高窟"
+  },
+  "description": "caves in Dunhuang City, Gansu, China",
+  "coord": {
+   "lat": 40.0372,
+   "lon": 94.8042
+  },
+  "image": "Dunhuang Mogao Ku 2013.12.31 12-30-18.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q35509",
+   "Q1497364",
+   "Q1497375",
+   "Q839954",
+   "Q9259"
+  ],
+  "wiki": {
+   "en": "Mogao Caves",
+   "zh": "莫高窟"
+  }
+ },
  "Q43287": {
   "label": {
    "en": "German Empire",
@@ -29859,6 +30835,38 @@
    "zh": "耶路撒冷围城战 (1099年)"
   }
  },
+ "Q457629": {
+  "label": {
+   "en": "Yijing",
+   "zh": "义净"
+  },
+  "description": "(635–713), Chinese Buddhist monk, traveler, and writer",
+  "coord": null,
+  "image": "Yi Jing.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 635,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 713,
+   "date": "0713-02-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yijing (monk)",
+   "zh": "义净"
+  },
+  "locationQid": null
+ },
  "Q458677": {
   "label": {
    "en": "Ludovico Manin",
@@ -30025,6 +31033,70 @@
    "zh": "维也纳会议"
   }
  },
+ "Q464470": {
+  "label": {
+   "en": "Li Qingzhao",
+   "zh": "李清照"
+  },
+  "description": "Chinese Song Dynasty poet, known as \"the most talented woman in all ages\"",
+  "coord": null,
+  "image": "Li Qingzhao statue.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1084,
+   "date": "1084-03-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1155,
+   "date": "1155-05-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Li Qingzhao",
+   "zh": "李清照"
+  },
+  "locationQid": null
+ },
+ "Q464485": {
+  "label": {
+   "en": "Shin Saimdang",
+   "zh": "申师任堂"
+  },
+  "description": "calligraphist and noted poet (1504-1551)",
+  "coord": null,
+  "image": "50000 won banknote (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1504,
+   "date": "1504-10-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1551,
+   "date": "1551-05-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shin Saimdang",
+   "zh": "申師任堂"
+  },
+  "locationQid": null
+ },
  "Q464695": {
   "label": {
    "en": "Fasil Ghebbi",
@@ -30077,6 +31149,51 @@
   },
   "locationQid": null
  },
+ "Q465279": {
+  "label": {
+   "en": "trans-Saharan trade",
+   "zh": "跨撒哈拉贸易"
+  },
+  "description": "trade between sub-Saharan Africa and North Africa",
+  "coord": null,
+  "image": "French language map of Central and Eastern Africa 1862.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q601401"
+  ],
+  "wiki": {
+   "en": "Trans-Saharan trade",
+   "zh": "跨撒哈拉贸易"
+  },
+  "locationQid": null
+ },
+ "Q466": {
+  "label": {
+   "en": "World Wide Web",
+   "zh": "万维网"
+  },
+  "description": "global system of interlinked hypertext documents accessed via the Internet",
+  "coord": null,
+  "image": "Alcalá de Henares (RPS 08-04-2017) Calle WWW, indicador.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q121182",
+   "Q65966993"
+  ],
+  "wiki": {
+   "en": "World Wide Web",
+   "zh": "万维网"
+  },
+  "locationQid": null
+ },
  "Q466060": {
   "label": {
    "en": "Canon of Medicine",
@@ -30096,6 +31213,38 @@
   "wiki": {
    "en": "The Canon of Medicine",
    "zh": "医典"
+  },
+  "locationQid": null
+ },
+ "Q466330": {
+  "label": {
+   "en": "Meera",
+   "zh": "米拉巴伊"
+  },
+  "description": "16th-century Hindu mystic poet, saint and devotee of the god Krishna",
+  "coord": null,
+  "image": "Meerabai painting.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1498,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1546,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mirabai",
+   "zh": "米拉拜"
   },
   "locationQid": null
  },
@@ -30721,6 +31870,41 @@
   },
   "locationQid": null
  },
+ "Q4703031": {
+  "label": {
+   "en": "Nizamiyya of Baghdad",
+   "zh": "巴格達尼扎姆神學院"
+  },
+  "description": "medieval university",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1065,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1258,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q132834",
+   "Q3914",
+   "Q1432028",
+   "Q414147"
+  ],
+  "wiki": {
+   "en": "Nizamiyya of Baghdad",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q470715": {
   "label": {
    "en": "Kumaragupta I",
@@ -31301,6 +32485,34 @@
    "zh": "朝鮮宣祖"
   },
   "locationQid": null
+ },
+ "Q484458": {
+  "label": {
+   "en": "Buddhas of Bamiyan",
+   "zh": "巴米扬大佛"
+  },
+  "description": "sculptures in Afghanistan before 2001",
+  "coord": {
+   "lat": 34.832,
+   "lon": 67.8268
+  },
+  "image": "Buddha of Bamiyan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q26883973",
+   "Q21745157",
+   "Q839954",
+   "Q1051606",
+   "Q6505852"
+  ],
+  "wiki": {
+   "en": "Buddhas of Bamiyan",
+   "zh": "巴米揚大佛"
+  }
  },
  "Q484898": {
   "label": {
@@ -32099,6 +33311,35 @@
   },
   "locationQid": null
  },
+ "Q49335": {
+  "label": {
+   "en": "Nagarakretagama",
+   "zh": "那加克塔加瑪"
+  },
+  "description": "Old Javanese eulogy",
+  "coord": {
+   "lat": -6.1726,
+   "lon": 106.8215
+  },
+  "image": "Nagarakertagama.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1365,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1641020"
+  ],
+  "wiki": {
+   "en": "Nagarakretagama",
+   "zh": "爪哇史頌"
+  }
+ },
  "Q493702": {
   "label": {
    "en": "Seongjong",
@@ -32197,6 +33438,33 @@
    "zh": "喀喇汗国"
   },
   "locationQid": null
+ },
+ "Q494387": {
+  "label": {
+   "en": "Dongui Bogam",
+   "zh": "东医宝鉴"
+  },
+  "description": "compendium of traditional Korean medicine published in 1613",
+  "coord": null,
+  "image": "Dongibogam.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1613,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Donguibogam",
+   "zh": "東醫寶鑑"
+  },
+  "locationQid": "Q495005"
  },
  "Q494501": {
   "label": {
@@ -34162,6 +35430,40 @@
   },
   "locationQid": null
  },
+ "Q522837": {
+  "label": {
+   "en": "Bengal famine of 1943",
+   "zh": "1943年孟加拉饥荒"
+  },
+  "description": "Famine in British India during World War II",
+  "coord": {
+   "lat": 23.9888,
+   "lon": 88.7311
+  },
+  "image": "Bengal famine 1943 photo.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1943,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1944,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q168247"
+  ],
+  "wiki": {
+   "en": "Bengal famine of 1943",
+   "zh": "1943年孟加拉饥荒"
+  }
+ },
  "Q5257": {
   "label": {
    "en": "Satavahana dynasty",
@@ -35201,6 +36503,36 @@
   },
   "locationQid": null
  },
+ "Q562765": {
+  "label": {
+   "en": "Cheomseongdae",
+   "zh": "瞻星台"
+  },
+  "description": "astronomical observatory in Gyeongju, South Korea",
+  "coord": {
+   "lat": 35.8347,
+   "lon": 129.219
+  },
+  "image": "Korea-Gyeongju-Cheomseongdae-04.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 700,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486245",
+   "Q811979"
+  ],
+  "wiki": {
+   "en": "Cheomseongdae",
+   "zh": "瞻星臺"
+  }
+ },
  "Q56558925": {
   "label": {
    "en": "national delimitation in the Soviet Union",
@@ -35220,6 +36552,38 @@
   "wiki": {
    "en": "National delimitation in the Soviet Union",
    "zh": "苏联的民族划界"
+  },
+  "locationQid": null
+ },
+ "Q5676": {
+  "label": {
+   "en": "Matsuo Bashō",
+   "zh": "松尾芭蕉"
+  },
+  "description": "Japanese poet（1644–1694）",
+  "coord": null,
+  "image": "Basho by Buson.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1644,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1694,
+   "date": "1694-11-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Matsuo Bashō",
+   "zh": "松尾芭蕉"
   },
   "locationQid": null
  },
@@ -37291,6 +38655,33 @@
    "zh": "圣彼得堡"
   }
  },
+ "Q660895": {
+  "label": {
+   "en": "Tōkaidō Shinkansen",
+   "zh": "东海道新干线"
+  },
+  "description": "high-speed railway line in Japan servicing between Tokyo and Shin-Ōsaka (through to Hakata) stations",
+  "coord": null,
+  "image": "Series-N700a-Mt.Fuji.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1964,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q858485"
+  ],
+  "wiki": {
+   "en": "Tokaido Shinkansen",
+   "zh": "東海道新幹線"
+  },
+  "locationQid": null
+ },
  "Q663001": {
   "label": {
    "en": "Don Stephen Senanayake",
@@ -37320,6 +38711,33 @@
   "wiki": {
    "en": "D. S. Senanayake",
    "zh": "斯蒂芬·森纳那亚克"
+  },
+  "locationQid": null
+ },
+ "Q664162": {
+  "label": {
+   "en": "Periplus of the Erythraean Sea",
+   "zh": "爱利脱利亚海周航记"
+  },
+  "description": "1st century Greco-Roman periplus",
+  "coord": null,
+  "image": "Periplus Erythraen Sea.png",
+  "pointInTime": null,
+  "start": {
+   "year": 100,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Periplus of the Erythraean Sea",
+   "zh": "爱利脱利亚海周航记"
   },
   "locationQid": null
  },
@@ -37545,6 +38963,38 @@
    "en": "Great Mosque of Djenné",
    "zh": "杰内大清真寺"
   }
+ },
+ "Q683846": {
+  "label": {
+   "en": "Manila galleon",
+   "zh": "马尼拉邮船"
+  },
+  "description": "Royal Spanish trading ships, 1565–1815",
+  "coord": null,
+  "image": "16th century Portuguese Spanish trade routes.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1565,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1815,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1757209"
+  ],
+  "wiki": {
+   "en": "Manila galleon",
+   "zh": "马尼拉大帆船"
+  },
+  "locationQid": null
  },
  "Q68398": {
   "label": {
@@ -38761,6 +40211,38 @@
    "en": "Kingdom of France",
    "zh": "法蘭西王國"
   }
+ },
+ "Q70991": {
+  "label": {
+   "en": "Hildegard of Bingen",
+   "zh": "宾根的希尔德加德"
+  },
+  "description": "German Benedictine abbess, polymath, mystic and Doctor of Church (1098–1179)",
+  "coord": null,
+  "image": "Hildegard von Bingen. Line engraving by W. Marshall (3x4 cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1098,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1179,
+   "date": "1179-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hildegard of Bingen",
+   "zh": "赫德嘉·馮·賓根"
+  },
+  "locationQid": null
  },
  "Q710709": {
   "label": {
@@ -40871,6 +42353,35 @@
   },
   "locationQid": null
  },
+ "Q733739": {
+  "label": {
+   "en": "1138 Aleppo earthquake",
+   "zh": "1138年阿勒颇大地震"
+  },
+  "description": "earthquake in 12th century Syria",
+  "coord": {
+   "lat": 36.2167,
+   "lon": 37.1667
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1138,
+   "date": "1138-10-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "1138 Aleppo earthquake",
+   "zh": "1138年阿勒颇大地震"
+  }
+ },
  "Q733854": {
   "label": {
    "en": "Hethum I",
@@ -42768,6 +44279,28 @@
   },
   "locationQid": null
  },
+ "Q767253": {
+  "label": {
+   "en": "Columbian Exchange",
+   "zh": "哥伦布大交换"
+  },
+  "description": "biological exchange across Atlantic Ocean",
+  "coord": null,
+  "image": "New World Domesticated plants.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2245405"
+  ],
+  "wiki": {
+   "en": "Columbian exchange",
+   "zh": "哥倫布大交換"
+  },
+  "locationQid": null
+ },
  "Q7676751": {
   "label": {
    "en": "Taj ud-Din Firuz Shah",
@@ -43697,6 +45230,28 @@
    "zh": "安塔基亞"
   }
  },
+ "Q80811": {
+  "label": {
+   "en": "Sputnik 1",
+   "zh": "斯普特尼克1号"
+  },
+  "description": "first artificial Earth satellite",
+  "coord": null,
+  "image": "Sputnik 1 satellite model.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12832168"
+  ],
+  "wiki": {
+   "en": "Sputnik 1",
+   "zh": "史普尼克1號"
+  },
+  "locationQid": null
+ },
  "Q8094772": {
   "label": {
    "en": "1883 eruption of Krakatoa",
@@ -43908,6 +45463,38 @@
    "en": "Siege of Seringapatam (1799)",
    "zh": null
   }
+ },
+ "Q81627": {
+  "label": {
+   "en": "al-Jazari",
+   "zh": "加扎利"
+  },
+  "description": "mathematician and engineer from Jazira, Artuqid State (1164–1206)",
+  "coord": null,
+  "image": "Ismail al jazari.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1136,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1206,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ismail al-Jazari",
+   "zh": "加扎利"
+  },
+  "locationQid": null
  },
  "Q81731": {
   "label": {
@@ -44315,6 +45902,38 @@
   },
   "locationQid": null
  },
+ "Q83163": {
+  "label": {
+   "en": "Srinivasa Ramanujan",
+   "zh": "拉马努金"
+  },
+  "description": "Indian mathematician (1887–1920)",
+  "coord": null,
+  "image": "Srinivasa Ramanujan - OPC - 2 (cleaned).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1887,
+   "date": "1887-12-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1920,
+   "date": "1920-04-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Srinivasa Ramanujan",
+   "zh": "斯里尼瓦瑟·拉马努金"
+  },
+  "locationQid": null
+ },
  "Q83171": {
   "label": {
    "en": "Alexander II of Russia",
@@ -44400,6 +46019,67 @@
    "en": "Mosul",
    "zh": "摩苏尔"
   }
+ },
+ "Q83322": {
+  "label": {
+   "en": "Guru Nanak",
+   "zh": "拿那克"
+  },
+  "description": "First Sikh Guru and founder of Sikhism",
+  "coord": null,
+  "image": "Mural painting of Guru Nanak from Gurdwara Baba Atal Rai.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1469,
+   "date": "1469-04-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1539,
+   "date": "1539-09-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Guru Nanak",
+   "zh": "古魯那納克"
+  },
+  "locationQid": null
+ },
+ "Q834321": {
+  "label": {
+   "en": "Man'yōshū",
+   "zh": "万叶集"
+  },
+  "description": "the oldest existing collection of Japanese poetry, compiled sometime after 759 AD during the Nara period.",
+  "coord": null,
+  "image": "Genryaku Manyosyu.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 759,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634",
+   "Q11417718",
+   "Q541923"
+  ],
+  "wiki": {
+   "en": "Man'yōshū",
+   "zh": "萬葉集"
+  },
+  "locationQid": null
  },
  "Q835435": {
   "label": {
@@ -44595,6 +46275,29 @@
    "en": "Battle of al-Qadisiyyah",
    "zh": "卡迪西亚战役"
   }
+ },
+ "Q8369": {
+  "label": {
+   "en": "Al-Jabr",
+   "zh": "代數學"
+  },
+  "description": "Arabic mathematical treatise of algebra",
+  "coord": null,
+  "image": "Image-Al-Kitāb al-muḫtaṣar fī ḥisāb al-ğabr wa-l-muqābala.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10383930",
+   "Q13136"
+  ],
+  "wiki": {
+   "en": "Al-Jabr",
+   "zh": "代数学 (花拉子米)"
+  },
+  "locationQid": null
  },
  "Q83891": {
   "label": {
@@ -47006,6 +48709,30 @@
   },
   "locationQid": null
  },
+ "Q924225": {
+  "label": {
+   "en": "Hejaz Railway",
+   "zh": "汉志铁路"
+  },
+  "description": "railway line built in the Ottoman Empire",
+  "coord": {
+   "lat": 32.6298,
+   "lon": 36.1037
+  },
+  "image": "Wadi Rum railway track, Hejaz railway, Jordan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q728937"
+  ],
+  "wiki": {
+   "en": "Hejaz railway",
+   "zh": "汉志铁路"
+  }
+ },
  "Q925960": {
   "label": {
    "en": "Muslim conquest of the Maghreb",
@@ -49253,6 +50980,16 @@
   "label": {
    "en": "Ganghwa Island",
    "zh": "江华岛"
+  }
+ },
+ "loc:Q495005": {
+  "coord": {
+   "lat": 37.4975,
+   "lon": 127.0033
+  },
+  "label": {
+   "en": "National Library of Korea",
+   "zh": "韩国国立中央图书馆"
   }
  },
  "loc:Q499266": {

@@ -2763,5 +2763,207 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "ev-al-jabr",
+    "qid": "Q8369",
+    "type": "science",
+    "year": 820,
+    "name": {
+      "en": "al-Khwarizmi's book on al-jabr",
+      "zh": "花剌子密著《还原与对消计算概要》"
+    },
+    "summary": {
+      "en": "In Baghdad al-Khwarizmi wrote a handbook for solving linear and quadratic equations by 'restoring' (al-jabr) and 'balancing', with geometric proofs and practical problems of inheritance and trade. Its title gave algebra its name, and 12th-century Latin translations spread the method in Europe.",
+      "zh": "花剌子密在巴格达撰写了一部以“还原”（al-jabr）与“对消”求解一次和二次方程的手册，附有几何证明以及遗产分配和商贸等实际问题。书名成为“代数”一词的来源，12世纪的拉丁文译本将这一方法传入欧洲。"
+    },
+    "lat": 33.3153,
+    "lon": 44.3661,
+    "region": "west-asia",
+    "importance": 5,
+    "people": [
+      "person-al-khwarizmi"
+    ],
+    "place": "place-baghdad",
+    "polities": [
+      "polity-abbasid"
+    ],
+    "sources": [
+      {
+        "title": "MacTutor History of Mathematics: Abu Ja'far Muhammad ibn Musa Al-Khwarizmi",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/"
+      },
+      {
+        "title": "Britannica: The Book of Restoring and Balancing",
+        "url": "https://www.britannica.com/topic/Book-of-Restoring-and-Balancing"
+      },
+      {
+        "title": "Britannica: al-Khwarizmi",
+        "url": "https://www.britannica.com/biography/al-Khwarizmi"
+      },
+      {
+        "title": "Wikipedia: Al-Jabr",
+        "url": "https://en.wikipedia.org/wiki/Al-Jabr"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Written under al-Ma'mun (r. 813–833), to whom it is dedicated; c. 820 is a conventional date."
+  },
+  {
+    "id": "ev-babylonian-talmud",
+    "qid": "Q2747862",
+    "type": "religious",
+    "year": 500,
+    "name": {
+      "en": "Babylonian Talmud compiled",
+      "zh": "《巴比伦塔木德》编成"
+    },
+    "summary": {
+      "en": "Generations of rabbis at the academies of Sura and Pumbedita in Sasanian Mesopotamia debated and expanded the Mishnah; their discussions were redacted into the Babylonian Talmud around 500. It became the central text of rabbinic Judaism, studied and commented on ever since.",
+      "zh": "在萨珊波斯治下美索不达米亚的苏拉和蓬贝迪塔经学院，历代拉比对《密西拿》展开辩论和阐发；这些讨论约在500年前后被编订为《巴比伦塔木德》，成为拉比犹太教的核心经典，此后一直被研习和注释。"
+    },
+    "lat": 31.8667,
+    "lon": 44.45,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-sasanian"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Bavli (Babylonian Talmud)",
+        "url": "https://www.britannica.com/topic/Bavli"
+      },
+      {
+        "title": "Britannica: Talmud and Midrash",
+        "url": "https://www.britannica.com/topic/Talmud"
+      },
+      {
+        "title": "Wikipedia: Talmud",
+        "url": "https://en.wikipedia.org/wiki/Talmud"
+      },
+      {
+        "title": "Wikipedia: Sura Academy",
+        "url": "https://en.wikipedia.org/wiki/Sura_Academy"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Redaction was gradual (c. 450–550, with later Savoraic editing); 500 is conventional. Marker at Sura."
+  },
+  {
+    "id": "ev-nizamiyya-baghdad",
+    "qid": "Q4703031",
+    "type": "cultural",
+    "year": 1067,
+    "name": {
+      "en": "Nizamiyya madrasa of Baghdad opens",
+      "zh": "巴格达尼扎米亚学院开办"
+    },
+    "summary": {
+      "en": "The Seljuk vizier Nizam al-Mulk founded a network of endowed colleges teaching Shafi'i law and Ash'ari theology. The Baghdad Nizamiyya, opened in 1067, became the most famous, with al-Ghazali among its teachers, and the endowed madrasa spread across the Islamic world.",
+      "zh": "塞尔柱首相尼扎姆·穆尔克创办了一批由宗教基金资助、讲授沙斐仪派法学和艾什尔里派教义的学院。1067年开办的巴格达尼扎米亚学院最为著名，安萨里曾在此任教，这种由基金资助的经学院随后遍及伊斯兰世界。"
+    },
+    "lat": 33.3153,
+    "lon": 44.3661,
+    "region": "west-asia",
+    "importance": 3,
+    "people": [
+      "person-al-ghazali"
+    ],
+    "place": "place-baghdad",
+    "polities": [
+      "polity-great-seljuk",
+      "polity-abbasid"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Nizam al-Mulk",
+        "url": "https://www.britannica.com/biography/Nizam-al-Mulk-Seljuq-vizier"
+      },
+      {
+        "title": "Wikipedia: Nizamiyya of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Nizamiyya_of_Baghdad"
+      },
+      {
+        "title": "Wikipedia: Nizamiyya",
+        "url": "https://en.wikipedia.org/wiki/Nizamiyya"
+      },
+      {
+        "title": "George Makdisi, The Rise of Colleges: Institutions of Learning in Islam and the West (1981)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Founded in 457 AH (1065) and inaugurated in Dhu al-Qa'da 459 AH (September 1067); the record marks the opening."
+  },
+  {
+    "id": "ev-aleppo-earthquake-1138",
+    "qid": "Q733739",
+    "type": "disaster",
+    "year": 1138,
+    "date": "1138-10-11",
+    "name": {
+      "en": "Aleppo earthquake",
+      "zh": "阿勒颇大地震"
+    },
+    "summary": {
+      "en": "A series of strong earthquakes struck northern Syria in October 1138, wrecking the citadel of Aleppo and nearby fortresses such as Harim and Atharib, held by Muslim and Crusader garrisons alike. Chroniclers reported heavy losses; the often-quoted toll of 230,000 rests on a later conflation with other quakes.",
+      "zh": "1138年10月，一系列强烈地震袭击叙利亚北部，阿勒颇城堡及哈里姆、阿塔里卜等分别由穆斯林和十字军驻守的要塞遭到严重破坏。编年史家记载伤亡惨重；常被引用的23万死亡人数源于后世与其他地震的混淆。"
+    },
+    "lat": 36.1994,
+    "lon": 37.163,
+    "region": "west-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: 1138 Aleppo earthquake",
+        "url": "https://en.wikipedia.org/wiki/1138_Aleppo_earthquake"
+      },
+      {
+        "title": "M. Sbeinati, R. Darawcheh & M. Mouty, \"The historical earthquakes of Syria: an analysis of large and moderate earthquakes from 1365 B.C. to 1900 A.D.\", Annals of Geophysics 48 (2005)",
+        "url": "https://doi.org/10.4401/ag-3206"
+      },
+      {
+        "title": "N. N. Ambraseys, Earthquakes in the Mediterranean and Middle East (2009)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 230,000 figure comes from Ibn Taghribirdi (15th c.) and probably merges this event with the 1137 Jazira and 1139 Ganja earthquakes."
+  },
+  {
+    "id": "ev-hejaz-railway",
+    "qid": "Q924225",
+    "type": "science",
+    "year": 1908,
+    "date": "1908-09-01",
+    "name": {
+      "en": "Hejaz Railway reaches Medina",
+      "zh": "汉志铁路通抵麦地那"
+    },
+    "summary": {
+      "en": "Built by the Ottoman state largely with donations from Muslims worldwide, the narrow-gauge line from Damascus reached Medina in 1908, cutting the pilgrimage journey from weeks to days. Repeatedly attacked during the Arab Revolt of 1916–18, its southern section was never restored.",
+      "zh": "汉志铁路由奥斯曼政府主要依靠世界各地穆斯林的捐款修建，这条窄轨铁路自大马士革南下，1908年通抵麦地那，使朝觐旅程由数周缩短为数日。1916至1918年阿拉伯起义期间屡遭袭击，其南段此后再未恢复。"
+    },
+    "lat": 24.4672,
+    "lon": 39.6024,
+    "region": "west-asia",
+    "importance": 3,
+    "polities": [
+      "polity-ottoman"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Hejaz Railway",
+        "url": "https://www.britannica.com/topic/Hejaz-Railway"
+      },
+      {
+        "title": "Wikipedia: Hejaz railway",
+        "url": "https://en.wikipedia.org/wiki/Hejaz_railway"
+      },
+      {
+        "title": "W. Ochsenwald, The Hijaz Railroad (1980)"
+      }
+    ],
+    "confidence": "high",
+    "note": "The first train reached Medina on 22 August 1908; the line was formally opened on 1 September 1908, the anniversary of Abdulhamid II's accession. Marker at the Medina terminus."
   }
 ]

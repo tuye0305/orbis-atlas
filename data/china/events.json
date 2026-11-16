@@ -3752,5 +3752,260 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "ev-cai-lun-paper",
+    "type": "science",
+    "year": 105,
+    "name": {
+      "en": "Cai Lun presents paper to the Han court",
+      "zh": "蔡伦造纸"
+    },
+    "summary": {
+      "en": "The eunuch official Cai Lun reported to Emperor He a method of making paper from tree bark, hemp waste, rags and old fishing nets. Paper fragments from earlier Han sites show the craft was older, but his cheap, standardised process spread writing paper across China and eventually the world.",
+      "zh": "宦官蔡伦向汉和帝奏上以树皮、麻头、敝布和旧渔网造纸的方法。出土的西汉纸片表明造纸术早已有之，但他改进的廉价规范工艺使书写用纸在中国普及，并最终传遍世界。"
+    },
+    "lat": 34.72,
+    "lon": 112.62,
+    "region": "east-asia",
+    "importance": 5,
+    "place": "place-luoyang",
+    "polities": [
+      "polity-eastern-han"
+    ],
+    "sources": [
+      {
+        "title": "范晔《后汉书》卷78 宦者列传·蔡伦",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷78"
+      },
+      {
+        "title": "Britannica: Cai Lun",
+        "url": "https://www.britannica.com/biography/Cai-Lun"
+      },
+      {
+        "title": "Wikipedia: Cai Lun",
+        "url": "https://en.wikipedia.org/wiki/Cai_Lun"
+      }
+    ],
+    "confidence": "high",
+    "note": "Hou Han shu dates the memorial to the first year of Yuanxing (105). No Wikidata item exists for the event; the QID is omitted rather than reusing Cai Lun's."
+  },
+  {
+    "id": "ev-mogao-caves",
+    "qid": "Q43286",
+    "type": "religious",
+    "year": 366,
+    "name": {
+      "en": "First caves cut at Mogao",
+      "zh": "莫高窟始凿"
+    },
+    "summary": {
+      "en": "According to a Tang inscription, the monk Lezun began cutting meditation caves into the cliffs near Dunhuang in 366. Over the next thousand years nearly 500 painted grottoes were added, making Mogao the largest treasury of Buddhist art on the Silk Road.",
+      "zh": "据唐代碑记，366年僧人乐僔在敦煌附近崖壁上开凿禅窟。此后千年间陆续开凿近五百个彩绘洞窟，使莫高窟成为丝绸之路上规模最大的佛教艺术宝库。"
+    },
+    "lat": 40.0372,
+    "lon": 94.8042,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-dunhuang",
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Mogao Caves",
+        "url": "https://whc.unesco.org/en/list/440"
+      },
+      {
+        "title": "Britannica: Mogao Caves",
+        "url": "https://www.britannica.com/place/Mogao-Caves"
+      },
+      {
+        "title": "Wikipedia: Mogao Caves",
+        "url": "https://en.wikipedia.org/wiki/Mogao_Caves"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The date 366 comes from Li Huairang's stele of 698 (《李君莫高窟佛龛碑》); no caves that early have been securely identified."
+  },
+  {
+    "id": "ev-dunhuang-diamond-sutra",
+    "qid": "Q28097186",
+    "type": "science",
+    "year": 868,
+    "date": "0868-05-11",
+    "name": {
+      "en": "Diamond Sutra printed",
+      "zh": "咸通九年《金刚经》刻印"
+    },
+    "summary": {
+      "en": "A woodblock-printed scroll of the Diamond Sutra, dedicated by one Wang Jie on behalf of his parents, carries the date 11 May 868. Sealed in the Library Cave at Mogao and found in 1900, it is the earliest complete printed book with a date; it is now in the British Library.",
+      "zh": "一卷雕版印刷的《金刚经》由王玠为其父母敬造，题记为咸通九年四月十五日（868年5月11日）。它被封存于莫高窟藏经洞，1900年被发现，是现存最早有明确纪年的完整印本书籍，现藏大英图书馆。"
+    },
+    "lat": 40.0372,
+    "lon": 94.8042,
+    "region": "east-asia",
+    "importance": 5,
+    "place": "place-dunhuang",
+    "polities": [
+      "polity-tang"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Diamond Sutra",
+        "url": "https://www.britannica.com/topic/Diamond-Sutra"
+      },
+      {
+        "title": "Frances Wood & Mark Barnard, The Diamond Sutra: The Story of the World's Earliest Dated Printed Book (2010)"
+      },
+      {
+        "title": "Wikipedia: Diamond Sutra",
+        "url": "https://en.wikipedia.org/wiki/Diamond_Sutra"
+      }
+    ],
+    "confidence": "high",
+    "note": "Where it was printed is unknown; marker at the Mogao Library Cave (Cave 17), where it was found."
+  },
+  {
+    "id": "ev-dream-pool-essays",
+    "qid": "Q1069875",
+    "type": "science",
+    "year": 1088,
+    "name": {
+      "en": "Shen Kuo's Dream Pool Essays",
+      "zh": "沈括著《梦溪笔谈》"
+    },
+    "summary": {
+      "en": "Written in retirement at his Mengxi garden in Runzhou (Zhenjiang), Shen Kuo's notebook records the magnetic needle compass and magnetic declination, Bi Sheng's movable clay type and ideas on land formation drawn from fossils. It is a key source for Song science and technology.",
+      "zh": "沈括退居润州（今镇江）梦溪园时撰写的这部笔记，记载了磁针指南及磁偏角、毕昇的泥活字印刷术以及依据化石推断地貌变迁等内容，是研究宋代科学技术的重要史料。"
+    },
+    "lat": 32.188,
+    "lon": 119.424,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-northern-song"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Shen Kuo",
+        "url": "https://www.britannica.com/biography/Shen-Kuo"
+      },
+      {
+        "title": "沈括《梦溪笔谈》（维基文库）",
+        "url": "https://zh.wikisource.org/wiki/夢溪筆談"
+      },
+      {
+        "title": "Wikipedia: Dream Pool Essays",
+        "url": "https://en.wikipedia.org/wiki/Dream_Pool_Essays"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Written c. 1088 onward; Bi Sheng's movable type, which it describes, dates from the Qingli era (1041–1048)."
+  },
+  {
+    "id": "ev-shaanxi-earthquake-1556",
+    "qid": "Q191293",
+    "type": "disaster",
+    "year": 1556,
+    "date": "1556-01-23",
+    "name": {
+      "en": "Jiajing earthquake in Shaanxi",
+      "zh": "嘉靖关中大地震"
+    },
+    "summary": {
+      "en": "On the night of 23 January 1556 an earthquake centred near Huazhou in the Wei River valley devastated Shaanxi, Shanxi and Henan. Ming records put the dead at more than 830,000, many in collapsed loess cave dwellings, making it the deadliest earthquake on record.",
+      "zh": "1556年1月23日夜，以渭河谷地华州附近为震中的大地震重创陕西、山西和河南。明代史料载死者逾83万，许多人死于黄土窑洞坍塌，这是有记载以来死亡人数最多的地震。"
+    },
+    "lat": 34.5,
+    "lon": 109.7,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-ming"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Shaanxi province earthquake of 1556",
+        "url": "https://www.britannica.com/event/Shaanxi-province-earthquake-of-1556"
+      },
+      {
+        "title": "《明史》卷30 五行志三",
+        "url": "https://zh.wikisource.org/wiki/明史/卷30"
+      },
+      {
+        "title": "Wikipedia: 1556 Shaanxi earthquake",
+        "url": "https://en.wikipedia.org/wiki/1556_Shaanxi_earthquake"
+      }
+    ],
+    "confidence": "high",
+    "note": "Julian date; the Chinese date is the 12th day of the 12th month of Jiajing 34 (嘉靖三十四年十二月十二日)."
+  },
+  {
+    "id": "ev-tiangong-kaiwu",
+    "qid": "Q3275026",
+    "type": "science",
+    "year": 1637,
+    "name": {
+      "en": "Song Yingxing's Tiangong Kaiwu",
+      "zh": "宋应星《天工开物》刊行"
+    },
+    "summary": {
+      "en": "Written while Song Yingxing was a county instructor at Fenyi in Jiangxi and printed in 1637, this illustrated encyclopedia describes farming, textiles, salt, ceramics, metallurgy, weapons and papermaking. Little circulated in Qing China, it was later valued in Japan and Europe as a record of Ming technology.",
+      "zh": "宋应星任江西分宜县教谕期间撰成此书，1637年刊行。这部附有插图的百科全书记述了农业、纺织、制盐、陶瓷、冶金、兵器和造纸等工艺。该书在清代流传不广，后来在日本和欧洲作为明代技术的记录而受到重视。"
+    },
+    "lat": 27.8148,
+    "lon": 114.6921,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-ming"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Tiangong kaiwu",
+        "url": "https://www.britannica.com/topic/Tiangong-kaiwu"
+      },
+      {
+        "title": "宋应星《天工开物》（维基文库）",
+        "url": "https://zh.wikisource.org/wiki/天工開物"
+      },
+      {
+        "title": "Wikipedia: Tiangong Kaiwu",
+        "url": "https://en.wikipedia.org/wiki/Tiangong_Kaiwu"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-1931-china-floods",
+    "qid": "Q1150973",
+    "type": "disaster",
+    "year": 1931,
+    "name": {
+      "en": "Central China floods of 1931",
+      "zh": "1931年江淮大水"
+    },
+    "summary": {
+      "en": "After heavy winter snow and months of torrential rain, the Yangtze, Huai and Yellow rivers overflowed in summer 1931, flooding a vast area and leaving Wuhan under water for weeks. Estimates of deaths from drowning, famine and disease range from about 400,000 to several million.",
+      "zh": "1930年冬季大雪及随后连月暴雨之后，长江、淮河和黄河于1931年夏相继泛滥，大片地区被淹，武汉城内积水数周。溺亡及随后的饥荒和疫病造成的死亡人数估计从约40万到数百万不等。"
+    },
+    "lat": 30.5812,
+    "lon": 114.273,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-wuhan",
+    "polities": [
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Chris Courtney, The Nature of Disaster in China: The 1931 Yangzi River Flood (2018)",
+        "url": "https://doi.org/10.1017/9781108278362"
+      },
+      {
+        "title": "Wikipedia: 1931 China floods",
+        "url": "https://en.wikipedia.org/wiki/1931_China_floods"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Death tolls are highly uncertain: the 1932 University of Nanking survey gives about 150,000 drowned in the surveyed area; some estimates including famine and disease reach 3.7 million."
   }
 ]

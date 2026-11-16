@@ -1423,8 +1423,8 @@
       "zh": "奥斯曼埃及总督（瓦利）"
     },
     "summary": {
-      "en": "An Albanian officer sent against the French, Muhammad Ali seized power in Egypt, destroyed the Mamluk elite and built a conscript army, state monopolies and factories. His campaigns reached Arabia, Sudan and Syria, and his dynasty ruled Egypt until 1952.",
-      "zh": "穆罕默德·阿里原为奉派抗击法军的阿尔巴尼亚军官，夺取埃及政权后消灭马穆鲁克精英，建立征兵制军队、国家专营和工厂。其征战远及阿拉伯半岛、苏丹和叙利亚，他的王朝统治埃及直至1952年。"
+      "en": "An Albanian officer sent against the French, Muhammad Ali seized power in Egypt, destroyed the Mamluk elite and built a conscript army, state monopolies and factories. His campaigns reached Arabia, Sudan and Syria, and his dynasty ruled Egypt until the monarchy was abolished in 1953.",
+      "zh": "穆罕默德·阿里原为奉派抗击法军的阿尔巴尼亚军官，夺取埃及政权后消灭马穆鲁克精英，建立征兵制军队、国家专营和工厂。其征战远及阿拉伯半岛、苏丹和叙利亚，他的王朝统治埃及，直至1953年君主制被废除。"
     },
     "stops": [
       {
@@ -2417,5 +2417,78 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "person-ibn-al-haytham",
+    "qid": "Q11104",
+    "name": {
+      "en": "Ibn al-Haytham (Alhazen)",
+      "zh": "伊本·海什木"
+    },
+    "born": 965,
+    "died": 1040,
+    "role": {
+      "en": "Physicist, mathematician and astronomer",
+      "zh": "物理学家、数学家、天文学家"
+    },
+    "summary": {
+      "en": "Born in Basra, Ibn al-Haytham moved to Fatimid Cairo, where his Book of Optics combined mathematics with experiment to explain vision, reflection and refraction. He also critiqued Ptolemy's astronomy and wrote on geometry; in Latin translation 'Alhazen' became an authority in medieval Europe.",
+      "zh": "伊本·海什木生于巴士拉，后迁居法蒂玛王朝的开罗，其《光学之书》结合数学与实验解释视觉、反射和折射。他还批评托勒密的天文学并著有几何学著作；经拉丁文翻译，“阿尔哈曾”成为中世纪欧洲的学术权威。"
+    },
+    "stops": [
+      {
+        "year": 965,
+        "lat": 30.515,
+        "lon": 47.81,
+        "label": {
+          "en": "Born in Basra",
+          "zh": "生于巴士拉"
+        }
+      },
+      {
+        "year": 1010,
+        "lat": 30.0444,
+        "lon": 31.2358,
+        "label": {
+          "en": "Moves to Fatimid Cairo",
+          "zh": "迁居法蒂玛王朝的开罗"
+        }
+      },
+      {
+        "year": 1015,
+        "lat": 30.0444,
+        "lon": 31.2358,
+        "label": {
+          "en": "Writes the Book of Optics",
+          "zh": "撰写《光学之书》"
+        }
+      },
+      {
+        "year": 1040,
+        "lat": 30.0444,
+        "lon": 31.2358,
+        "label": {
+          "en": "Dies in Cairo",
+          "zh": "卒于开罗"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Ibn al-Haytham",
+        "url": "https://www.britannica.com/biography/Ibn-al-Haytham"
+      },
+      {
+        "title": "MacTutor History of Mathematics: Abu Ali al-Hasan ibn al-Haytham",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/"
+      },
+      {
+        "title": "Wikipedia: Ibn al-Haytham",
+        "url": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Life dates c. 965–c. 1040; the date of the move to Cairo and the story of his feigned madness before al-Hakim are traditional."
   }
 ]

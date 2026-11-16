@@ -87,5 +87,21 @@
       "https://www.britannica.com/place/Sri-Lanka",
       "K. M. de Silva, A History of Sri Lanka (1981)"
     ]
+  },
+  "ev-kailasa-temple-ellora:year": {
+    "verdict": "keep-ours",
+    "reason": "The temple has no dedicatory inscription; two epigraphs credit 'Krishnaraja', i.e. Krishna I (r. c. 756–773), with most of it. The record spans his reign (756–773); Wikidata's 773 is only the end of that reign. Medium confidence with a note.",
+    "checked": [
+      "https://www.britannica.com/biography/Krishna-I (via search)",
+      "https://www.worldhistory.org/article/874/ellora-caves/"
+    ]
+  },
+  "ev-bhola-cyclone:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point is the centroid of Bangladesh (via its location property). The storm surge struck the coast and islands; Bhola Island, which gave the storm its name, was devastated across its southern half. Marker at Bhola Island.",
+    "checked": [
+      "https://www.britannica.com/print/article/1471692",
+      "https://scroll.in/article/1011059/in-1970-a-cyclone-in-the-bay-of-bengal-claimed-5-lakh-lives-and-changed-the-course-of-a-nation"
+    ]
   }
 }

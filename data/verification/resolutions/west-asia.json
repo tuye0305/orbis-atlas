@@ -175,5 +175,21 @@
       "Encyclopaedia Britannica: Saudi Arabia",
       "M. al-Rasheed, A History of Saudi Arabia (2010)"
     ]
+  },
+  "ev-nizamiyya-baghdad:year": {
+    "verdict": "keep-ours",
+    "reason": "The college was founded in 457 AH/1065 and inaugurated in Dhu al-Qa'da 459 AH/September 1067 (Makdisi; Britannica 'Nizamiyyah' gives 1067). The record marks the opening; Wikidata's 1065 is the founding. Note added.",
+    "checked": [
+      "https://www.britannica.com/place/Nizamiyyah (via search)",
+      "https://www.ilmgate.org/wp-content/uploads/2011/02/Muslim-Institutions-of-Learning-in-Eleventh-Century-Baghdad.pdf"
+    ]
+  },
+  "ev-hejaz-railway:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point (32.63, 36.10) is near Daraa on the northern section. The event is the line reaching Medina, its terminus, formally opened on 1 September 1908 (Otago Witness, 21 Oct 1908; The Spectator, 5 Sep 1908).",
+    "checked": [
+      "https://paperspast.natlib.govt.nz/newspapers/OW19081021.2.225.3",
+      "https://archive.spectator.co.uk/article/5th-september-1908/2/the-times-of-thursday-published-an-extremely-inter"
+    ]
   }
 }

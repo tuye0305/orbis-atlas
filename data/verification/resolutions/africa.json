@@ -108,5 +108,10 @@
     "verdict": "disputed",
     "reason": "All the start dates are traditional. 1180 (Eweka I, Egharevba's chronology) and Wikidata's 1170 differ by a decade, Britannica puts Eweka in the 13th century, and the Ogiso kingdom goes back to c. 900. Kept at 1180, medium confidence, with an explicit note.",
     "checked": ["https://www.britannica.com/place/Benin-historical-kingdom-West-Africa", "https://www.britannica.com/topic/ogiso"]
+  },
+  "polity-kongo:to": {
+    "verdict": "keep-ours",
+    "reason": "Curator moved the end from 1888 to 1914 (REPORT-africa note). Portugal abolished the titular Kongo monarchy in 1914 after suppressing the 1913–14 revolt; Wikidata's 1888 is the date of formal vassalage, when the kingdom still existed. Record is medium with a note.",
+    "checked": ["https://www.ebsco.com/research-starters/history/kongo-historical-kingdom", "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"]
   }
 }

@@ -738,7 +738,8 @@
         "url": "https://en.wikipedia.org/wiki/Battle_of_Mactan"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "QID Q2091449 is the correct item, but its English label on Wikidata is currently vandalised (\"Battle of Six Seven\"); this record does not use the Wikidata label, and the label should be reverted on Wikidata."
   },
   {
     "id": "ev-spanish-manila",
@@ -1588,5 +1589,182 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "ev-oc-eo-port",
+    "qid": "Q2344822",
+    "type": "cultural",
+    "year": 150,
+    "endYear": 550,
+    "name": {
+      "en": "Óc Eo, port of Funan",
+      "zh": "扶南港口俄厄"
+    },
+    "summary": {
+      "en": "Excavations at Óc Eo in the Mekong delta revealed a canal-linked port city of Funan with Roman coins, including a gold piece of Antoninus Pius, Indian seals, Chinese bronze mirrors and local goldwork. It shows the maritime trade that linked the Indian Ocean with the South China Sea from the 2nd to 6th centuries.",
+      "zh": "在湄公河三角洲俄厄的发掘揭示出一座以运河相连的扶南港口城市，出土有罗马钱币（包括安敦宁·毕尤的金币）、印度印章、中国铜镜和本地金饰，展现了2至6世纪连接印度洋与南海的海上贸易。"
+    },
+    "lat": 10.2329,
+    "lon": 105.163,
+    "region": "southeast-asia",
+    "importance": 3,
+    "polities": [
+      "polity-funan"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Oc Eo",
+        "url": "https://www.britannica.com/place/Oc-Eo"
+      },
+      {
+        "title": "Wikipedia: Óc Eo",
+        "url": "https://en.wikipedia.org/wiki/Óc_Eo"
+      },
+      {
+        "title": "Louis Malleret, L'Archéologie du delta du Mékong (1959–63)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Span approximate: the Antoninus Pius coin is dated 152; the site declined with Funan in the 6th century."
+  },
+  {
+    "id": "ev-nagarakretagama",
+    "qid": "Q49335",
+    "type": "cultural",
+    "year": 1365,
+    "name": {
+      "en": "Nagarakretagama composed",
+      "zh": "《爪哇史颂》成书"
+    },
+    "summary": {
+      "en": "The court poet Mpu Prapanca composed this Old Javanese eulogy of King Hayam Wuruk in 1365, describing the Majapahit capital, royal progresses and a list of tributary lands across the archipelago. A palm-leaf copy found at Cakranegara on Lombok in 1894 is on the UNESCO Memory of the World Register.",
+      "zh": "宫廷诗人普拉潘扎于1365年用古爪哇语创作这部颂扬国王哈奄·武禄的长诗，描述满者伯夷都城、王室巡游以及遍布群岛的属地名单。1894年在龙目岛查克拉内加拉发现的贝叶抄本已列入联合国教科文组织《世界记忆名录》。"
+    },
+    "lat": -7.5419,
+    "lon": 112.391,
+    "region": "southeast-asia",
+    "importance": 3,
+    "polities": [
+      "polity-majapahit"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Memory of the World: Nāgarakrětāgama or Description of the Country (1365 AD)",
+        "url": "https://www.unesco.org/en/memory-world/nagarakretagama-or-description-country-1365-ad"
+      },
+      {
+        "title": "Wikipedia: Nagarakretagama",
+        "url": "https://en.wikipedia.org/wiki/Nagarakretagama"
+      },
+      {
+        "title": "Th. G. Th. Pigeaud, Java in the 14th Century: A Study in Cultural History (1960–63)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Marker at Trowulan, generally identified as the Majapahit capital the poem describes (the identification is not proven archaeologically); Wikidata's coordinates are those of the National Library in Jakarta, which holds the manuscript."
+  },
+  {
+    "id": "ev-manila-galleon",
+    "qid": "Q683846",
+    "type": "cultural",
+    "year": 1565,
+    "endYear": 1815,
+    "name": {
+      "en": "Manila galleon trade",
+      "zh": "马尼拉大帆船贸易"
+    },
+    "summary": {
+      "en": "After Andrés de Urdaneta found the eastward return route across the Pacific in 1565, Spanish galleons sailed between Manila and Acapulco for 250 years, exchanging Chinese silk and porcelain for Mexican and Peruvian silver. The trade tied Asia to the Americas and made silver a global currency.",
+      "zh": "1565年乌尔达内塔找到横渡太平洋东返的航线后，西班牙大帆船250年间往返于马尼拉和阿卡普尔科之间，以中国丝绸和瓷器换取墨西哥和秘鲁的白银。这一贸易把亚洲与美洲连接起来，使白银成为全球通货。"
+    },
+    "lat": 14.5958,
+    "lon": 120.9772,
+    "region": "southeast-asia",
+    "importance": 4,
+    "place": "place-manila",
+    "sources": [
+      {
+        "title": "Britannica: Manila galleon",
+        "url": "https://www.britannica.com/technology/Manila-galleon"
+      },
+      {
+        "title": "Wikipedia: Manila galleon",
+        "url": "https://en.wikipedia.org/wiki/Manila_galleon"
+      },
+      {
+        "title": "Dennis O. Flynn & Arturo Giráldez, \"Born with a Silver Spoon: The Origin of World Trade in 1571\", Journal of World History 6 (1995)"
+      }
+    ],
+    "confidence": "high",
+    "note": "The first return voyage left Cebu in 1565; Manila became the Asian terminus after its founding in 1571, and the last galleon sailed in 1815."
+  },
+  {
+    "id": "ev-pinatubo-1991",
+    "qid": "Q31191031",
+    "type": "disaster",
+    "year": 1991,
+    "date": "1991-06-15",
+    "name": {
+      "en": "Eruption of Mount Pinatubo",
+      "zh": "皮纳图博火山喷发"
+    },
+    "summary": {
+      "en": "After reawakening in April, Pinatubo on Luzon produced the second-largest eruption of the 20th century on 15 June 1991, as a typhoon passed. Forecasts by Philippine and US volcanologists allowed mass evacuations that saved thousands of lives; the sulphur cloud cooled the globe by about 0.5 °C.",
+      "zh": "皮纳图博火山于4月重新活跃，1991年6月15日在台风过境时发生20世纪第二大规模的喷发。菲律宾和美国火山学家的预报促成了大规模疏散，挽救了数以千计的生命；喷出的硫化物云使全球气温下降约0.5°C。"
+    },
+    "lat": 15.1417,
+    "lon": 120.35,
+    "region": "southeast-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "USGS Fact Sheet 113-97: The Cataclysmic 1991 Eruption of Mount Pinatubo, Philippines",
+        "url": "https://pubs.usgs.gov/fs/1997/fs113-97/"
+      },
+      {
+        "title": "Britannica: Mount Pinatubo",
+        "url": "https://www.britannica.com/place/Mount-Pinatubo"
+      },
+      {
+        "title": "Wikipedia: 1991 eruption of Mount Pinatubo",
+        "url": "https://en.wikipedia.org/wiki/1991_eruption_of_Mount_Pinatubo"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-samudera-pasai-islam",
+    "type": "religious",
+    "year": 1297,
+    "name": {
+      "en": "Tomb of Sultan Malik al-Salih of Samudera Pasai",
+      "zh": "须文答剌-巴赛苏丹马利克·萨利赫墓"
+    },
+    "summary": {
+      "en": "The gravestone of Malik al-Salih, first Muslim ruler of Samudera Pasai in northern Sumatra, is dated 696 AH (1297). Marco Polo, passing in 1292, found nearby Perlak already Muslim; Pasai became the first major Islamic sultanate of Southeast Asia, visited by Ibn Battuta in 1345.",
+      "zh": "苏门答腊北部须文答剌-巴赛首位穆斯林统治者马利克·萨利赫的墓碑纪年为伊斯兰历696年（1297年）。1292年途经此地的马可·波罗记载附近的八儿剌（佩尔拉克）已信奉伊斯兰教；巴赛成为东南亚第一个重要的伊斯兰苏丹国，1345年伊本·白图泰曾到访。"
+    },
+    "lat": 5.149,
+    "lon": 97.226,
+    "region": "southeast-asia",
+    "importance": 4,
+    "people": [
+      "person-ibn-battuta"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Samudera Pasai Sultanate",
+        "url": "https://en.wikipedia.org/wiki/Samudera_Pasai_Sultanate"
+      },
+      {
+        "title": "Britannica: Samudra-Pasai",
+        "url": "https://www.britannica.com/place/Samudra-Pasai"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (4th ed., 2008)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "No Wikidata item exists for the tomb or the conversion; the sultanate's QID (a polity) is not reused. Marker at the tomb site at Beuringin, Samudera (Aceh Utara), approximate."
   }
 ]

@@ -2203,5 +2203,131 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "person-rabia-of-basra",
+    "qid": "Q256506",
+    "name": {
+      "en": "Rabi'a al-Adawiyya",
+      "zh": "拉比雅·阿达维娅"
+    },
+    "born": 714,
+    "died": 801,
+    "role": {
+      "en": "Sufi mystic and poet",
+      "zh": "苏菲派神秘主义者、诗人"
+    },
+    "region": "west-asia",
+    "summary": {
+      "en": "Born into poverty in Basra and, by tradition, sold into slavery before being freed, Rabi'a became a celebrated ascetic. She taught that God should be loved for His own sake, not from fear of hell or hope of paradise, a doctrine of divine love central to later Sufism.",
+      "zh": "拉比雅生于巴士拉的贫寒之家，据传曾被卖为奴，后获自由，成为著名的苦行者。她主张爱真主应出于真主本身，而非畏惧火狱或渴望天园，这种神爱学说成为后世苏菲主义的核心。"
+    },
+    "stops": [
+      {
+        "year": 714,
+        "lat": 30.515,
+        "lon": 47.81,
+        "label": {
+          "en": "Born in Basra",
+          "zh": "生于巴士拉"
+        }
+      },
+      {
+        "year": 760,
+        "lat": 30.515,
+        "lon": 47.81,
+        "label": {
+          "en": "Ascetic and teacher in Basra",
+          "zh": "在巴士拉修行并授徒"
+        }
+      },
+      {
+        "year": 801,
+        "lat": 30.515,
+        "lon": 47.81,
+        "label": {
+          "en": "Dies in Basra",
+          "zh": "卒于巴士拉"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Rabi'ah al-'Adawiyah",
+        "url": "https://www.britannica.com/biography/Rabiah-al-Adawiyah"
+      },
+      {
+        "title": "Wikipedia: Rabia Basri",
+        "url": "https://en.wikipedia.org/wiki/Rabia_Basri"
+      },
+      {
+        "title": "Margaret Smith, Rabi'a the Mystic and Her Fellow-Saints in Islam (1928)"
+      }
+    ],
+    "confidence": "low",
+    "note": "Her biography is known mainly from later hagiography (Attar); birth dates of 714, 717 and 718 are given. A tomb on the Mount of Olives attributed to her belongs to a different woman."
+  },
+  {
+    "id": "person-al-jazari",
+    "qid": "Q81627",
+    "name": {
+      "en": "Ismail al-Jazari",
+      "zh": "加扎利"
+    },
+    "born": 1136,
+    "died": 1206,
+    "role": {
+      "en": "Engineer and inventor",
+      "zh": "工程师、发明家"
+    },
+    "region": "west-asia",
+    "summary": {
+      "en": "Chief engineer to the Artuqid rulers of Diyarbakır, al-Jazari completed in 1206 his Book of Knowledge of Ingenious Mechanical Devices, describing water clocks, automata, pumps and a water-raising machine driven by a crank, with careful construction drawings.",
+      "zh": "加扎利是迪亚巴克尔阿尔图格王朝统治者的首席工程师，1206年完成《精巧机械装置知识之书》，书中以精细的制图描述了水钟、自动机、水泵以及由曲柄驱动的提水机械。"
+    },
+    "stops": [
+      {
+        "year": 1136,
+        "lat": 37.332,
+        "lon": 42.187,
+        "label": {
+          "en": "Born at Jazirat ibn Umar (Cizre)",
+          "zh": "生于伊本·欧麦尔岛（吉兹雷）"
+        }
+      },
+      {
+        "year": 1174,
+        "lat": 37.91,
+        "lon": 40.24,
+        "label": {
+          "en": "Enters Artuqid service at Diyarbakır",
+          "zh": "在迪亚巴克尔为阿尔图格王朝效力"
+        }
+      },
+      {
+        "year": 1206,
+        "lat": 37.91,
+        "lon": 40.24,
+        "label": {
+          "en": "Completes his book of mechanical devices",
+          "zh": "完成机械装置之书"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: al-Jazari",
+        "url": "https://www.britannica.com/biography/al-Jazari"
+      },
+      {
+        "title": "Wikipedia: Ismail al-Jazari",
+        "url": "https://en.wikipedia.org/wiki/Ismail_al-Jazari"
+      },
+      {
+        "title": "Donald R. Hill (trans.), The Book of Knowledge of Ingenious Mechanical Devices (1974)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth year is inferred from his statement of 25 years in Artuqid service; 1206 is the date of the book, and his death is usually placed in the same year."
   }
 ]

@@ -2698,5 +2698,503 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "person-ban-zhao",
+    "qid": "Q177081",
+    "name": {
+      "en": "Ban Zhao",
+      "zh": "班昭"
+    },
+    "born": 45,
+    "died": 116,
+    "role": {
+      "en": "Historian and scholar",
+      "zh": "史学家、学者"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Sister of the historian Ban Gu and the general Ban Chao, Ban Zhao completed the Book of Han after her brother's death and taught Empress Deng and the palace women. Her Lessons for Women shaped Confucian ideals of female conduct for centuries; she is China's first known woman historian.",
+      "zh": "班昭是史学家班固和名将班超之妹，在其兄死后续成《汉书》，并入宫教授邓皇后及宫中女眷，号“曹大家”。她所著《女诫》影响了此后数百年儒家的女德观念；她是中国已知最早的女史学家。"
+    },
+    "stops": [
+      {
+        "year": 45,
+        "lat": 34.38,
+        "lon": 108.73,
+        "label": {
+          "en": "Born at Anling, Fufeng commandery",
+          "zh": "生于扶风安陵"
+        }
+      },
+      {
+        "year": 92,
+        "lat": 34.72,
+        "lon": 112.62,
+        "label": {
+          "en": "Continues the Book of Han after Ban Gu dies",
+          "zh": "班固死后续修《汉书》"
+        }
+      },
+      {
+        "year": 106,
+        "lat": 34.72,
+        "lon": 112.62,
+        "label": {
+          "en": "Advises Empress Dowager Deng in Luoyang",
+          "zh": "在洛阳辅佐邓太后"
+        }
+      },
+      {
+        "year": 116,
+        "lat": 34.72,
+        "lon": 112.62,
+        "label": {
+          "en": "Dies in Luoyang",
+          "zh": "卒于洛阳"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "范晔《后汉书》卷84 列女传·曹世叔妻",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷84"
+      },
+      {
+        "title": "Britannica: Ban Zhao",
+        "url": "https://www.britannica.com/biography/Ban-Zhao"
+      },
+      {
+        "title": "Wikipedia: Ban Zhao",
+        "url": "https://en.wikipedia.org/wiki/Ban_Zhao"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Life dates are approximate (c. 45–c. 116; some give c. 49–c. 120); she died aged about 70 according to the Hou Han shu."
+  },
+  {
+    "id": "person-li-qingzhao",
+    "qid": "Q464470",
+    "name": {
+      "en": "Li Qingzhao",
+      "zh": "李清照"
+    },
+    "born": 1084,
+    "died": 1155,
+    "role": {
+      "en": "Poet",
+      "zh": "词人"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Born in Jinan to a scholar-official family, Li Qingzhao became the most celebrated woman poet of the ci lyric. With her husband Zhao Mingcheng she collected bronzes and inscriptions; the Jurchen invasion of 1127 drove her south, and widowhood and exile darkened her later poems.",
+      "zh": "李清照生于济南士大夫家庭，号易安居士，是最负盛名的女词人。她与丈夫赵明诚共同收藏金石铭刻；1127年金兵南下迫使她南渡，丧夫与流离使其晚年词作转为沉郁。"
+    },
+    "stops": [
+      {
+        "year": 1084,
+        "lat": 36.693,
+        "lon": 117.518,
+        "label": {
+          "en": "Born at Zhangqiu, Jinan",
+          "zh": "生于济南章丘"
+        }
+      },
+      {
+        "year": 1101,
+        "lat": 34.79,
+        "lon": 114.35,
+        "label": {
+          "en": "Marries Zhao Mingcheng in Kaifeng",
+          "zh": "在汴京嫁赵明诚"
+        }
+      },
+      {
+        "year": 1107,
+        "lat": 36.6853,
+        "lon": 118.4796,
+        "label": {
+          "en": "Lives with her husband at Qingzhou",
+          "zh": "随夫屏居青州"
+        }
+      },
+      {
+        "year": 1129,
+        "lat": 32.06,
+        "lon": 118.8,
+        "label": {
+          "en": "Zhao Mingcheng dies at Jiankang",
+          "zh": "赵明诚卒于建康"
+        }
+      },
+      {
+        "year": 1134,
+        "lat": 29.079,
+        "lon": 119.647,
+        "label": {
+          "en": "Takes refuge in Jinhua",
+          "zh": "避难金华"
+        }
+      },
+      {
+        "year": 1155,
+        "lat": 30.27,
+        "lon": 120.15,
+        "label": {
+          "en": "Dies, probably in Lin'an (Hangzhou)",
+          "zh": "约卒于临安（杭州）"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Li Qingzhao",
+        "url": "https://www.britannica.com/biography/Li-Qingzhao"
+      },
+      {
+        "title": "李清照《金石录后序》（维基文库）",
+        "url": "https://zh.wikisource.org/wiki/金石錄後序_(李清照)"
+      },
+      {
+        "title": "Wikipedia: Li Qingzhao",
+        "url": "https://en.wikipedia.org/wiki/Li_Qingzhao"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Death year uncertain (c. 1151–1156); the place of death is not recorded."
+  },
+  {
+    "id": "person-faxian",
+    "qid": "Q312978",
+    "name": {
+      "en": "Faxian",
+      "zh": "法显"
+    },
+    "born": 337,
+    "died": 422,
+    "role": {
+      "en": "Buddhist monk and pilgrim",
+      "zh": "僧人、西行求法者"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "In 399, already in his sixties, Faxian left Chang'an to seek complete monastic rules in India. He crossed the Taklamakan and the Pamirs, studied in the Ganges valley and Sri Lanka, and returned by sea via Java in 412; his Record of Buddhist Kingdoms is a key source for Gupta India.",
+      "zh": "399年，年逾六旬的法显从长安出发赴天竺寻求完整戒律。他穿越塔克拉玛干沙漠和葱岭，在恒河流域和师子国（斯里兰卡）求学，412年经耶婆提由海路回国；其《佛国记》是研究笈多时代印度的重要史料。"
+    },
+    "stops": [
+      {
+        "year": 399,
+        "lat": 34.26,
+        "lon": 108.94,
+        "label": {
+          "en": "Sets out from Chang'an",
+          "zh": "从长安出发"
+        }
+      },
+      {
+        "year": 400,
+        "lat": 40.14,
+        "lon": 94.66,
+        "label": {
+          "en": "Crosses the desert from Dunhuang",
+          "zh": "自敦煌渡流沙"
+        }
+      },
+      {
+        "year": 401,
+        "lat": 37.1167,
+        "lon": 79.9167,
+        "label": {
+          "en": "Khotan",
+          "zh": "于阗"
+        }
+      },
+      {
+        "year": 402,
+        "lat": 34.01,
+        "lon": 71.58,
+        "label": {
+          "en": "Gandhara (Purushapura)",
+          "zh": "犍陀罗（弗楼沙）"
+        }
+      },
+      {
+        "year": 405,
+        "lat": 25.61,
+        "lon": 85.1414,
+        "label": {
+          "en": "Copies Vinaya texts at Pataliputra",
+          "zh": "在巴连弗邑抄写律藏"
+        }
+      },
+      {
+        "year": 410,
+        "lat": 8.335,
+        "lon": 80.4108,
+        "label": {
+          "en": "Two years in Sri Lanka",
+          "zh": "在师子国停留两年"
+        }
+      },
+      {
+        "year": 412,
+        "lat": 36.15,
+        "lon": 120.6,
+        "label": {
+          "en": "Lands at Laoshan, Shandong",
+          "zh": "在青州牢山登岸"
+        }
+      },
+      {
+        "year": 413,
+        "lat": 32.06,
+        "lon": 118.8,
+        "label": {
+          "en": "Translates scriptures at Jiankang",
+          "zh": "在建康译经"
+        }
+      },
+      {
+        "year": 422,
+        "lat": 30.35,
+        "lon": 112.19,
+        "label": {
+          "en": "Dies at Jingzhou",
+          "zh": "卒于荆州"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Faxian",
+        "url": "https://www.britannica.com/biography/Faxian"
+      },
+      {
+        "title": "法显《佛国记》（维基文库）",
+        "url": "https://zh.wikisource.org/wiki/佛國記"
+      },
+      {
+        "title": "Wikipedia: Faxian",
+        "url": "https://en.wikipedia.org/wiki/Faxian"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth year c. 337 (Wikidata 340) and death c. 422 are approximate; the Gaoseng zhuan says he died at Jingzhou aged 86."
+  },
+  {
+    "id": "person-yijing",
+    "qid": "Q457629",
+    "name": {
+      "en": "Yijing",
+      "zh": "义净"
+    },
+    "born": 635,
+    "died": 713,
+    "role": {
+      "en": "Buddhist monk, pilgrim and translator",
+      "zh": "僧人、求法者、译经师"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Yijing sailed from Guangzhou in 671, studied Sanskrit at Srivijaya and spent about ten years at Nalanda. On his way back he wrote, at Srivijaya, accounts of Buddhist practice in India and the Southern Seas and of pilgrim monks, then translated dozens of texts in Luoyang and Chang'an.",
+      "zh": "义净于671年从广州乘船出发，在室利佛逝学习梵文，又在那烂陀寺求学约十年。回程途经室利佛逝时撰成《南海寄归内法传》和《大唐西域求法高僧传》，归国后在洛阳和长安译出数十部经典。"
+    },
+    "stops": [
+      {
+        "year": 635,
+        "lat": 36.67,
+        "lon": 117,
+        "label": {
+          "en": "Born in Qizhou (Jinan)",
+          "zh": "生于齐州（今济南）"
+        }
+      },
+      {
+        "year": 671,
+        "lat": 23.13,
+        "lon": 113.26,
+        "label": {
+          "en": "Sails from Guangzhou",
+          "zh": "从广州启航"
+        }
+      },
+      {
+        "year": 671,
+        "lat": -2.9861,
+        "lon": 104.7556,
+        "label": {
+          "en": "Six months at Srivijaya (Palembang)",
+          "zh": "在室利佛逝（巨港）停留六个月"
+        }
+      },
+      {
+        "year": 673,
+        "lat": 22.3,
+        "lon": 87.92,
+        "label": {
+          "en": "Lands at Tamralipti",
+          "zh": "抵达耽摩立底"
+        }
+      },
+      {
+        "year": 675,
+        "lat": 25.136,
+        "lon": 85.443,
+        "label": {
+          "en": "Studies at Nalanda",
+          "zh": "在那烂陀寺求学"
+        }
+      },
+      {
+        "year": 687,
+        "lat": -2.9861,
+        "lon": 104.7556,
+        "label": {
+          "en": "Back at Srivijaya, writes his records",
+          "zh": "返回室利佛逝撰写著述"
+        }
+      },
+      {
+        "year": 695,
+        "lat": 34.62,
+        "lon": 112.45,
+        "label": {
+          "en": "Welcomed by Wu Zetian at Luoyang",
+          "zh": "在洛阳受武则天迎接"
+        }
+      },
+      {
+        "year": 713,
+        "lat": 34.26,
+        "lon": 108.94,
+        "label": {
+          "en": "Dies in Chang'an",
+          "zh": "卒于长安"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "赞宁《宋高僧传》卷1 唐京兆大荐福寺义净传",
+        "url": "https://zh.wikisource.org/wiki/宋高僧傳/卷01"
+      },
+      {
+        "title": "义净《南海寄归内法传》（维基文库）",
+        "url": "https://zh.wikisource.org/wiki/南海寄歸內法傳"
+      },
+      {
+        "title": "Wikipedia: Yijing (monk)",
+        "url": "https://en.wikipedia.org/wiki/Yijing_(monk)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Tamralipti and Nalanda positions are approximate site locations."
+  },
+  {
+    "id": "person-matteo-ricci",
+    "qid": "Q233340",
+    "name": {
+      "en": "Matteo Ricci",
+      "zh": "利玛窦"
+    },
+    "born": 1552,
+    "died": 1610,
+    "role": {
+      "en": "Jesuit missionary and scholar",
+      "zh": "耶稣会传教士、学者"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "An Italian Jesuit trained in Rome, Ricci reached Macau in 1582, adopted the dress of a Confucian scholar and mastered classical Chinese. His world map and his translation of Euclid with Xu Guangqi introduced European science, and he became the first European granted burial in Beijing by the emperor.",
+      "zh": "利玛窦是在罗马受训的意大利耶稣会士，1582年抵达澳门，改穿儒服并精通古典汉文。他绘制的《坤舆万国全图》以及与徐光启合译的《几何原本》把欧洲科学引入中国，他是第一位获皇帝恩准葬于北京的欧洲人。"
+    },
+    "stops": [
+      {
+        "year": 1552,
+        "lat": 43.3003,
+        "lon": 13.4533,
+        "label": {
+          "en": "Born in Macerata",
+          "zh": "生于马切拉塔"
+        }
+      },
+      {
+        "year": 1571,
+        "lat": 41.8931,
+        "lon": 12.4828,
+        "label": {
+          "en": "Joins the Jesuits in Rome",
+          "zh": "在罗马加入耶稣会"
+        }
+      },
+      {
+        "year": 1578,
+        "lat": 15.5,
+        "lon": 73.91,
+        "label": {
+          "en": "Sails to Goa",
+          "zh": "航行至果阿"
+        }
+      },
+      {
+        "year": 1582,
+        "lat": 22.19,
+        "lon": 113.54,
+        "label": {
+          "en": "Arrives at Macau",
+          "zh": "抵达澳门"
+        }
+      },
+      {
+        "year": 1583,
+        "lat": 23.05,
+        "lon": 112.47,
+        "label": {
+          "en": "Founds the mission at Zhaoqing",
+          "zh": "在肇庆建立传教点"
+        }
+      },
+      {
+        "year": 1599,
+        "lat": 32.06,
+        "lon": 118.8,
+        "label": {
+          "en": "Settles in Nanjing",
+          "zh": "定居南京"
+        }
+      },
+      {
+        "year": 1601,
+        "lat": 39.9,
+        "lon": 116.4,
+        "label": {
+          "en": "Received at the Wanli court in Beijing",
+          "zh": "入北京觐见万历皇帝"
+        }
+      },
+      {
+        "year": 1610,
+        "lat": 39.9,
+        "lon": 116.4,
+        "label": {
+          "en": "Dies; buried at Zhalan",
+          "zh": "卒于北京，葬于栅栏墓地"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Matteo Ricci",
+        "url": "https://www.britannica.com/biography/Matteo-Ricci"
+      },
+      {
+        "title": "Wikipedia: Matteo Ricci",
+        "url": "https://en.wikipedia.org/wiki/Matteo_Ricci"
+      },
+      {
+        "title": "R. Po-chia Hsia, A Jesuit in the Forbidden City: Matteo Ricci, 1552–1610 (2010)"
+      }
+    ],
+    "confidence": "high"
   }
 ]
