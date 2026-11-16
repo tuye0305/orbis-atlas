@@ -1,0 +1,416 @@
+{
+  "ev-yaxchilan-lintels:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata Q3241673 is Lintel 24 as an object, located at the British Museum in London. The record is the dedication of the lintels at Yaxchilan, Chiapas.",
+    "checked": [
+      "https://www.britishmuseum.org/collection/object/E_Am1923-Maud-4",
+      "https://whc.unesco.org/en/list/411",
+      "https://en.wikipedia.org/wiki/Yaxchilan_Lintel_24"
+    ]
+  },
+  "ev-classic-maya-collapse:coord": {
+    "verdict": "keep-ours",
+    "reason": "The collapse was centred on the southern lowlands; we place the marker at Tikal. Wikidata's point is in northern Yucatán, which flourished longest.",
+    "checked": [
+      "Sharer & Traxler, The Ancient Maya (2006), ch. 9",
+      "https://www.britannica.com/place/Tikal"
+    ]
+  },
+  "ev-noche-triste:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's coordinate is in Sonora, which is clearly wrong. The retreat happened on the Tlacopan (Tacuba) causeway out of Tenochtitlan, in present-day Mexico City.",
+    "checked": [
+      "https://www.britannica.com/topic/Aztec",
+      "Hugh Thomas, Conquest (1993), ch. 30"
+    ]
+  },
+  "ev-spanish-conquest-of-guatemala:endYear": {
+    "verdict": "keep-ours",
+    "reason": "The record covers Alvarado's main highland campaign (1524–1527, ending with the founding of Santiago). Wikidata runs to 1697, the fall of the Itza at Nojpetén, and the record note says so.",
+    "checked": [
+      "https://www.britannica.com/place/Guatemala",
+      "https://en.wikipedia.org/wiki/Spanish_conquest_of_Guatemala"
+    ]
+  },
+  "ev-spanish-conquest-of-guatemala:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our marker is at Q'umarkaj, the K'iche' capital Alvarado burned in 1524. Wikidata gives a centroid of Guatemala.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Kʼicheʼ_kingdom_of_Qʼumarkaj",
+      "R. Carmack, The Quiché Mayas of Utatlán (1981)"
+    ]
+  },
+  "ev-cocoliztli-epidemic-of-1545:endYear": {
+    "verdict": "keep-ours",
+    "reason": "The record is the 1545–1548 outbreak. Wikidata Q63472138 groups all the 16th–17th-century cocoliztli epidemics (1545–1631).",
+    "checked": [
+      "Vågene et al., \"Salmonella enterica genomes from victims of a major sixteenth-century epidemic in Mexico\", Nature Ecology & Evolution 2 (2018)",
+      "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
+    ]
+  },
+  "ev-cocoliztli-epidemic-of-1545:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point is in Nicaragua and is generic. Our marker is at Teposcolula-Yucundaa, Oaxaca, the excavated epidemic cemetery whose DNA was studied.",
+    "checked": [
+      "Vågene et al., Nature Ecology & Evolution 2 (2018), on the Teposcolula-Yucundaa cemetery",
+      "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
+    ]
+  },
+  "ev-first-maroon-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "The war was fought in the Cockpit Country and the Blue Mountains. Our marker is in the Leeward (Cudjoe's) territory; Wikidata's point is near Kingston.",
+    "checked": [
+      "https://www.britannica.com/place/Jamaica",
+      "https://en.wikipedia.org/wiki/First_Maroon_War"
+    ]
+  },
+  "ev-tackys-revolt:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's coordinate is in Amapá, Brazil, which is wrong. The revolt began in St Mary Parish, Jamaica.",
+    "checked": [
+      "https://www.britannica.com/place/Jamaica",
+      "https://en.wikipedia.org/wiki/Tacky's_Revolt"
+    ]
+  },
+  "ev-haitian-revolution:year": {
+    "verdict": "keep-ours",
+    "reason": "The revolution began with the uprising of August 1791. Wikidata's point in time (1804) is the declaration of independence, which we record as endYear and as a separate event.",
+    "checked": [
+      "https://www.britannica.com/topic/Haitian-Revolution",
+      "Dubois, Avengers of the New World (2004)"
+    ]
+  },
+  "ev-haitian-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our marker is at Cap-Français, at the centre of the 1791 uprising of the Northern Plain. Wikidata gives a centroid of Haiti.",
+    "checked": [
+      "https://www.britannica.com/topic/Haitian-Revolution"
+    ]
+  },
+  "ev-citadelle-laferriere:year": {
+    "verdict": "keep-ours",
+    "reason": "Construction began in 1805 under Dessalines. Wikidata's inception (1820) is the completion date, which we use as endYear.",
+    "checked": [
+      "https://whc.unesco.org/en/list/180"
+    ]
+  },
+  "ev-citadelle-laferriere:endYear": {
+    "verdict": "keep-ours",
+    "reason": "We end the event when building largely stopped with Christophe's death in 1820. Wikidata's 1842 refers to the earthquake damage and abandonment.",
+    "checked": [
+      "https://whc.unesco.org/en/list/180",
+      "https://en.wikipedia.org/wiki/Citadelle_Laferrière"
+    ]
+  },
+  "ev-mexican-war-of-independence:year": {
+    "verdict": "keep-ours",
+    "reason": "The war began with the Grito de Dolores on 16 September 1810. Wikidata's start year of 1800 is an error.",
+    "checked": [
+      "https://www.britannica.com/biography/Miguel-Hidalgo-y-Costilla",
+      "Hamnett, A Concise History of Mexico (2019)"
+    ]
+  },
+  "ev-mexican-war-of-independence:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata has no coordinate for the war itself; the point (50N, 110W) comes from its location item Q19464773, the macro-region \"Northern America and Mexico\", whose centroid lies in Canada. Our marker is at Guanajuato in the Bajío, the first theatre of the war (reviewer, 2026-11).",
+    "checked": [
+      "https://www.britannica.com/biography/Miguel-Hidalgo-y-Costilla",
+      "https://www.wikidata.org/wiki/Q19464773"
+    ]
+  },
+  "ev-dominican-independence:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). The independence movement began at the Puerta del Conde in Santo Domingo.",
+    "checked": [
+      "https://www.britannica.com/place/Dominican-Republic"
+    ]
+  },
+  "ev-filibuster-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). Our marker is at Rivas, where Walker's decisive battles were fought.",
+    "checked": [
+      "https://www.britannica.com/place/Nicaragua",
+      "https://en.wikipedia.org/wiki/Filibuster_War"
+    ]
+  },
+  "ev-reform-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). Our marker is at Veracruz, the seat of Juárez's liberal government during the war.",
+    "checked": [
+      "https://www.britannica.com/biography/Benito-Juarez"
+    ]
+  },
+  "ev-ten-years-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). The war began at La Demajagua near Manzanillo, Oriente.",
+    "checked": [
+      "https://www.britannica.com/place/Cuba",
+      "https://en.wikipedia.org/wiki/Ten_Years'_War"
+    ]
+  },
+  "ev-cuban-war-of-independence:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). Our marker is at Dos Ríos in Oriente, where Martí fell at the start of the war.",
+    "checked": [
+      "https://www.britannica.com/biography/Jose-Marti"
+    ]
+  },
+  "ev-mexican-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). Our marker is Mexico City, the seat of power fought over throughout the Revolution.",
+    "checked": [
+      "https://www.britannica.com/event/Mexican-Revolution"
+    ]
+  },
+  "ev-us-occupation-of-haiti:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). The Marines landed at Port-au-Prince in July 1915.",
+    "checked": [
+      "https://www.britannica.com/place/Haiti",
+      "https://history.state.gov/milestones/1914-1920/haiti"
+    ]
+  },
+  "ev-cristero-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). Our marker is at Guadalajara, Jalisco, at the heart of the Cristero region.",
+    "checked": [
+      "https://www.britannica.com/place/Mexico",
+      "Jean Meyer, The Cristero Rebellion (1976)"
+    ]
+  },
+  "ev-parsley-massacre:coord": {
+    "verdict": "keep-ours",
+    "reason": "The killings were concentrated along the northern border, especially around Dajabón, where our marker sits. Wikidata's point is near Santiago.",
+    "checked": [
+      "https://www.britannica.com/place/Dominican-Republic",
+      "https://en.wikipedia.org/wiki/Parsley_massacre"
+    ]
+  },
+  "ev-1954-guatemalan-coup:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). The coup forced Árbenz out of the National Palace in Guatemala City.",
+    "checked": [
+      "https://www.britannica.com/biography/Jacobo-Arbenz",
+      "https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d'état"
+    ]
+  },
+  "ev-cuban-revolution:year": {
+    "verdict": "keep-ours",
+    "reason": "The record runs from the Moncada attack (26 July 1953) to Batista's flight on 1 January 1959. Wikidata's point in time is the 1959 victory.",
+    "checked": [
+      "https://www.britannica.com/biography/Fidel-Castro"
+    ]
+  },
+  "ev-cuban-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). Our marker is at Havana, where the revolution triumphed in January 1959.",
+    "checked": [
+      "https://www.britannica.com/biography/Fidel-Castro"
+    ]
+  },
+  "ev-cuban-missile-crisis:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our marker is at San Cristóbal, Pinar del Río, where the U-2 photographed the MRBM sites on 14 October 1962. Wikidata's point is Havana.",
+    "checked": [
+      "https://nsarchive2.gwu.edu/nsa/cuba_mis_cri/",
+      "https://www.britannica.com/event/Cuban-missile-crisis"
+    ]
+  },
+  "ev-guatemalan-civil-war:year": {
+    "verdict": "keep-ours",
+    "reason": "The war is conventionally dated from the officers' revolt of 13 November 1960, as the peace accords and the CEH truth commission count it (36 years, 1960–1996). Wikidata uses 1965.",
+    "checked": [
+      "https://www.britannica.com/place/Guatemala",
+      "https://en.wikipedia.org/wiki/Guatemalan_Civil_War"
+    ]
+  },
+  "ev-guatemalan-civil-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our marker is at Nebaj in the Ixil region, the area worst hit by the 1981–1983 scorched-earth campaigns. Wikidata's point is Guatemala City.",
+    "checked": [
+      "CEH, Guatemala: Memoria del Silencio (1999)"
+    ]
+  },
+  "ev-nicaraguan-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). Our marker is at Managua, which the Sandinistas entered on 19 July 1979.",
+    "checked": [
+      "https://www.britannica.com/place/Nicaragua"
+    ]
+  },
+  "ev-1985-mexico-city-earthquake:coord": {
+    "verdict": "keep-ours",
+    "reason": "The epicentre was off the Michoacán coast (Wikidata's point). The record is about the destruction in Mexico City, about 350 km away, so the marker stays on the city; the summary mentions the epicentre.",
+    "checked": [
+      "https://earthquake.usgs.gov/earthquakes/eventpage/usp0002pgn/executive"
+    ]
+  },
+  "ev-us-invasion-of-panama:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a country centroid; our marker sits where the events actually began or were concentrated (see the record note/summary). The main attack targeted the Comandancia in El Chorrillo, Panama City.",
+    "checked": [
+      "https://www.britannica.com/place/Panama",
+      "https://en.wikipedia.org/wiki/United_States_invasion_of_Panama"
+    ]
+  },
+  "person-lady-six-sky:born": {
+    "verdict": "disputed",
+    "reason": "Her birth date is not recorded. Wikidata's 682 is actually the date she arrived at Naranjo (Naranjo Stela 24). We estimate c. 665 because she arrived as a young woman of marriageable age; the record carries confidence medium and a note.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Lady_Six_Sky",
+      "Martin & Grube, Chronicle of the Maya Kings and Queens (2008), Naranjo chapter"
+    ]
+  },
+  "person-malintzin:died": {
+    "verdict": "disputed",
+    "reason": "Modern scholarship (Camilla Townsend, Malintzin's Choices, 2006) places her death around 1529: a legal document of that year refers to her as dead. Wikidata's 1551 follows an older tradition. We give confidence medium and a note.",
+    "checked": [
+      "https://muse.jhu.edu/article/223762",
+      "https://www.rutgers.edu/news/two-lovers-language-meet-across-centuries"
+    ]
+  },
+  "person-sor-juana:born": {
+    "verdict": "disputed",
+    "reason": "A baptismal record from Chimalhuacán suggests 1648; her first biographer, Calleja, gave 1651, which Wikidata follows. Octavio Paz and most modern scholars prefer 1648. The record has confidence medium and a note.",
+    "checked": [
+      "https://www.britannica.com/biography/Sor-Juana-Ines-de-la-Cruz",
+      "Octavio Paz, Sor Juana, or the Traps of Faith (1988)"
+    ]
+  },
+  "person-henry-morgan:born": {
+    "verdict": "keep-ours",
+    "reason": "Britannica gives Morgan's birth as c. 1635. Wikidata's 1631 rests on no firm record. The record notes the uncertainty and has confidence medium.",
+    "checked": [
+      "https://www.britannica.com/biography/Henry-Morgan-Welsh-buccaneer"
+    ]
+  },
+  "polity-teotihuacan:from": {
+    "verdict": "disputed",
+    "reason": "Monumental Teotihuacan dates from c. 100 BCE to 1 CE, when the Pyramid of the Sun was begun. Wikidata uses an earlier settlement phase (c. 180 BCE). The polity has confidence medium and a note.",
+    "checked": [
+      "https://whc.unesco.org/en/list/414",
+      "https://www.britannica.com/place/Teotihuacan"
+    ]
+  },
+  "polity-teotihuacan:to": {
+    "verdict": "disputed",
+    "reason": "The ceremonial centre was burned around 550, which ended Teotihuacan as a power; a reduced city survived until about 650–750 (Wikidata's 750). The polity has confidence medium and a note.",
+    "checked": [
+      "https://www.britannica.com/place/Teotihuacan",
+      "Coe & Koontz, Mexico (2013)"
+    ]
+  },
+  "polity-chichen-itza:from": {
+    "verdict": "disputed",
+    "reason": "Chichen Itza's period as a regional power is usually placed c. 750/800–1100/1200. Wikidata's 455 is an early, legendary founding date from the Chilam Balam. The chronology is debated; the polity has confidence low and a note.",
+    "checked": [
+      "https://whc.unesco.org/en/list/483",
+      "Sharer & Traxler, The Ancient Maya (2006)"
+    ]
+  },
+  "polity-chichen-itza:to": {
+    "verdict": "disputed",
+    "reason": "Chichen Itza's decline is placed between 1100 and 1250 depending on the chronology used; Wikidata gives 1178. The polity has confidence low and a note.",
+    "checked": [
+      "https://whc.unesco.org/en/list/483"
+    ]
+  },
+  "polity-tututepec:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's 1063 is the birth year of Lord Eight Deer. In the Mixtec codices the kingdom of Tututepec is founded when he takes it as his seat, c. 1083.",
+    "checked": [
+      "Jansen & Pérez Jiménez, The Mixtec Pictorial Manuscripts (2011)",
+      "https://en.wikipedia.org/wiki/Eight_Deer_Jaguar_Claw"
+    ]
+  },
+  "polity-new-spain:from": {
+    "verdict": "keep-ours",
+    "reason": "The viceroyalty was created by royal decree in 1535 with Antonio de Mendoza as first viceroy. Wikidata's 1521 is the fall of Tenochtitlan; Cortés governed without the title.",
+    "checked": [
+      "https://www.britannica.com/place/Viceroyalty-of-New-Spain"
+    ]
+  },
+  "polity-saint-domingue:from": {
+    "verdict": "keep-ours",
+    "reason": "Spain formally ceded western Hispaniola to France in the Treaty of Ryswick (1697). Wikidata's 1626 reflects early buccaneer settlement on Tortuga, which the record notes.",
+    "checked": [
+      "https://www.britannica.com/place/Saint-Domingue"
+    ]
+  },
+  "polity-captaincy-general-of-cuba:from": {
+    "verdict": "keep-ours",
+    "reason": "The polity covers Spanish Cuba from Velázquez's conquest (1511). The captaincy general proper dates from 1607, as the note explains.",
+    "checked": [
+      "https://www.britannica.com/place/Cuba"
+    ]
+  },
+  "polity-mexico:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's 1810 is the start of the independence war. Independent Mexico is split here into the First Mexican Empire (1821–1823) and the federal republic proclaimed in 1823–1824.",
+    "checked": [
+      "https://www.britannica.com/place/Mexico",
+      "Hamnett, A Concise History of Mexico (2019)"
+    ]
+  },
+  "polity-guatemala:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 1821 is independence from Spain. Guatemala was part of the Mexican Empire and then the Central American Federation (a separate polity here) and declared itself separate from the federation on 17 April 1839 (reviewer corrected our start from 1841 to 1839); it proclaimed itself a republic in 1847.",
+    "checked": [
+      "https://www.britannica.com/place/Guatemala",
+      "Ralph Lee Woodward Jr., Central America: A Nation Divided (3rd ed., 1999)"
+    ]
+  },
+  "polity-cuba:from": {
+    "verdict": "keep-ours",
+    "reason": "The Republic of Cuba was inaugurated on 20 May 1902. Wikidata's 1898 is the end of Spanish rule, followed by US military government from 1898 to 1902.",
+    "checked": [
+      "https://www.britannica.com/place/Cuba",
+      "Pérez, Cuba: Between Reform and Revolution (2015)"
+    ]
+  },
+  "ev-spanish-american-war-cuba:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a generic Caribbean point (15N, 75W) at sea. This record is the Cuban theatre; the marker is Santiago de Cuba, where the land and naval campaign was decided.",
+    "checked": [
+      "https://www.britannica.com/event/Spanish-American-War"
+    ]
+  },
+  "ev-codex-zouche-nuttall:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata locates the manuscript object at the British Museum in London. The record is the painting of the codex in the Mixteca Alta of Oaxaca, so the marker is near Tilantongo, whose dynasty it records.",
+    "checked": [
+      "https://www.britishmuseum.org/collection/object/E_Am1902-0308-1"
+    ]
+  },
+  "polity-honduras:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 1821 is independence from Spain. Until 1838 the state belonged to the Mexican Empire and then the Federal Republic of Central America, a separate polity here; it left the federation in October–November 1838.",
+    "checked": [
+      "https://www.britannica.com/place/Honduras",
+      "Ralph Lee Woodward Jr., Central America: A Nation Divided (3rd ed., 1999)"
+    ]
+  },
+  "polity-nicaragua:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 1821 is independence from Spain. Until 1838 the state belonged to the Mexican Empire and then the Federal Republic of Central America, a separate polity here; it left the federation on 30 April 1838.",
+    "checked": [
+      "https://www.britannica.com/place/Nicaragua",
+      "Ralph Lee Woodward Jr., Central America: A Nation Divided (3rd ed., 1999)"
+    ]
+  },
+  "polity-costa-rica:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 1821 is independence from Spain. Until 1838 the state belonged to the Mexican Empire and then the Federal Republic of Central America, a separate polity here; it left the federation in November 1838 under Braulio Carrillo.",
+    "checked": [
+      "https://www.britannica.com/place/Costa-Rica",
+      "Ralph Lee Woodward Jr., Central America: A Nation Divided (3rd ed., 1999)"
+    ]
+  },
+  "polity-martinique:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata Q17054 is the present territory, whose inception (1946) is the creation of the overseas department. The polity covers French rule from d’Esnambuc’s settlement in 1635 to the present.",
+    "checked": [
+      "https://www.britannica.com/place/Martinique"
+    ]
+  }
+}
