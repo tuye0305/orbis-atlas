@@ -42,3 +42,45 @@ The reasons and sources for each verdict are in the resolutions file.
   - Mumbai, Chennai, Kolkata, Dhaka, Prayagraj, Varanasi
   - Delhi: the Lodi capital at Agra (1506–26) is left simplified
 - **Polities:** reigns for the Mughal, Delhi Sultanate, Vijayanagara, Gupta, Chola and Pakistan rulers. All ruler QIDs were looked up; Bahmani Muhammad Shah III has no clear item, so it is left blank.
+
+## 2026-11 expansion
+
+**New records:** 70 events, 24 people, 12 places (with name genealogies) and 22 polities (with rulers), for 128 in total. 69 stories were added: 35 on new events and 34 on existing importance-4/5 events, so every importance-4/5 record now has one.
+
+**Auto-diff:** the build reported 38 differences against Wikidata, and all are resolved (0 open).
+- **Fixed in the data:** Polonnaruwa now ends in 1236 rather than 1215, and Gangaikonda Cholapuram is dated 1022–1035, from Rajendra's Ganges expedition to the temple's first endowment.
+- **Kept ours (with reasons):**
+  - Wikidata's QID refers to a different referent: Faxian's book rather than the journey; the Changu Narayan temple rather than the inscription; the GIPR company (1849) rather than the first train (1853); modern Bhutan (1949) rather than the Zhabdrung state (1616); Chola Polonnaruwa.
+  - The start date falls before the atlas floor: Pandya and Anuradhapura.
+  - The birth year is unrecorded, and Wikidata gives the accession year instead: Pulakeshin II, Samudragupta, Iltutmish and Rudrama Devi. Each of these records carries a labelled placeholder.
+  - The marker sits at a better anchor: Nalapani, Srinagar, Chawinda, Kargil, Galle and Murshidabad.
+- **Disputed:** Samudragupta's death year, which is 375 or 380.
+
+**Spot-check:** 33 of 128 new records were checked against a second source (26%). The second source was always outside Wikipedia and Wikidata: Britannica entries via search, UNESCO, or standard monographs.
+- **Polities:** Polonnaruwa, Pandya, Chera, Anuradhapura, Bhutan, Ahom, Kandy, Golconda, Kakatiya and Hyderabad State.
+- **People:** Samudragupta, Pulakeshin II, Iltutmish, Rudrama Devi, Madhava, Nur Jahan and Prithvi Narayan Shah.
+- **Events:** Changu Narayan inscription, Gangaikonda, Faxian, Unification of Nepal, Bengal famine of 1770, GIPR first train, Ibn Battuta in Bengal, Dharmasvamin at Nalanda, Tarain, Talikota, Lachit and Saraighat, Language Movement and the 2015 Nepal earthquake.
+- **Places:** Thanjavur, Peshawar and Kandy.
+
+**Corrections made:**
+- **Changu Narayan inscription:** the summary was rewritten. It is no longer called the oldest inscription in Nepal, because older finds exist.
+- **Ibn Battuta:** his route now runs Sudkawan → Sylhet → Sonargaon.
+- **Dharmasvamin:** "about seventy students".
+- **Smaller fixes:**
+  - The Bengal Language Movement event is now dated 1952.
+  - The Tarain anecdote is now attributed to Firishta.
+  - Vasco da Gama's crossing is given as "nearly four weeks".
+  - Rama Raya is now described as "aged".
+  - Lachit "died the following year".
+  - The 2015 Nepal earthquake zh text had a border error, now fixed.
+- **Removed as unverified:**
+  - A Maldives "national day" claim.
+  - The claim that Jung Bahadur was the first South Asian ruler in Europe.
+  - A dangling polity link.
+- **Weak citations replaced:** for Thanjavur and Peshawar.
+
+**Known gaps:**
+- No QID exists for the Licchavis of Nepal, Bakhtiyar's raids, the Maldives conversion or Ibn Battuta's South Asian leg.
+- Maldives and Bhutan coverage is still thin.
+- The Ghaznavid and Ghurid polities belong to central-asia and are not duplicated here.
+- The Kakatiya start (1163, Hanamkonda inscription) is given as 1158 or 1162 in some secondary sources.
