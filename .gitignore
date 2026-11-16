@@ -26,3 +26,4 @@ dist-ssr
 # local tooling
 .claude/
 test-results/
+music/raw/

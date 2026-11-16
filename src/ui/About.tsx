@@ -77,7 +77,9 @@ export default function About() {
           </li>
         </ul>
         <p className="muted small">
-          {zh ? '音乐为浏览器实时合成，每个地区一种调式与音色。' : 'Music is synthesised live in the browser: one mode and timbre per region.'}{' '}
+          {zh
+            ? '每个地区一首原创配乐，由 ElevenLabs Music（经 WaveSpeed）生成，转动地球时交叉淡入淡出。'
+            : 'Each region has its own original score, generated with ElevenLabs Music (via WaveSpeed); it crossfades as you turn the globe.'}{' '}
           <a href="https://github.com/tuye0305/orbis-atlas" target="_blank" rel="noreferrer">
             GitHub
           </a>{' '}

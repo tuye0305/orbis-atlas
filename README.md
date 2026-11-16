@@ -4,7 +4,7 @@
 Turn the globe, fly to a region, scrub the timeline from 1 CE to today, and watch borders shift,
 dynasties rise and fall, wars march across the map, famous people travel their lives, and city
 names change with their rulers (Byzantion → Constantinople → Istanbul; 长安 → 西安). Each region
-has its own synthesised soundtrack, and the music crossfades as you turn the globe.
+has its own soundtrack, and the music crossfades as you turn the globe.
 
 **Live site: <https://tuye0305.github.io/orbis-atlas/>** (deployed from `main` by `.github/workflows/pages.yml`).
 
@@ -21,7 +21,7 @@ has its own synthesised soundtrack, and the music crossfades as you turn the glo
 | **Events** | Battles, wars, foundings and falls, treaties, religion, science, exploration and disasters. Pins glow near their year, and wars and expeditions draw animated campaign routes. |
 | **People** | Portraits stand where each person was in the current year. Opening a biography draws the numbered journey; step through it with ‹ › and the year follows. |
 | **Place genealogy** | City labels change as you scrub. A city's card lists every historical name, the polity that ruled it, its capital periods and the events that happened there. |
-| **Music** | Code-synthesised Web Audio, one score per region, all on a D tonic so crossfades stay consonant: guzheng pentatonic, Dorian organ and lute, maqam Hijaz oud and daf, tanpura and sitar, kora and djembe, steppe overtone drone and dombra, slendro gamelan. |
+| **Music** | One original instrumental score per region (plus an open-sea track), generated with ElevenLabs Music via WaveSpeed from the prompts in `music/prompts.json`: lute, viol and harp for Europe, kora and balafon for Africa, oud and ney for West Asia, dombra and horse-head fiddle for the steppe, sitar over tanpura for South Asia, guzheng and dizi for East Asia, gamelan and suling flute for Southeast Asia. The player streams `public/music/*.mp3` and crossfades over 3.5 s when the region under the camera changes. Regenerate with `node scripts/gen-music.mjs` (see the script header for providers and keys). To choose between takes, `scripts/score-music.py` rates each one with Meta’s Audiobox Aesthetics model; keep the higher “content enjoyment”. The procedural Web Audio score remains only as a fallback for builds without tracks. |
 | **Bilingual** | English / 简体中文 (`?lang=zh`). |
 | **Deep links** | `?year=1453&place=place-istanbul`, `?person=person-ibn-battuta`, `?event=…`, `?polity=…` |
 
