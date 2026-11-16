@@ -223,3 +223,144 @@ Independent audit using only pages retrieved during the audit (WebFetch/WebSearc
 | person-ram-khamhaeng | en.wikipedia Ram Khamhaeng | OK (birth year approximate, as the note says) |
 
 **Error rate:** 3 of 20 records (15%) needed a fix: 2 factual (division count, Phan Bội Châu's schooling) and 1 zh rendering inconsistency. Not systematic.
+
+## 2026-11 story verification (web-sourced)
+
+Every story not already checked against a retrieved page (the 7 in the "2026-11 audit": Diponegoro, Fall of Saigon, Philippine Revolution, Naresuan, Zhou Daguan, Yijing, French Indochina) was checked claim by claim against pages retrieved for this pass (WebFetch/WebSearch: en.wikipedia plus a second source such as zh/vi/id/nl.wikipedia, Britannica snippets, UNESCO, asean.org, the German Angkor Imagery Project, museum or university pages). zh names were checked against zh.wikipedia titles via the Wikipedia/Wikidata APIs.
+
+- **Stories checked:** 50 of 57.
+- **Result:** 24 stories (48%) had a factual error, an overstated claim or unflagged legend; 5 more (10%) needed only zh fixes (names, consistency). 21 were correct as written.
+- validate-data: 0 errors; build-data: 0 open diffs.
+
+### Stories and sources
+
+| Story | Sources retrieved | Result |
+| --- | --- | --- |
+| ev-trung-sisters-rebellion | Trưng sisters (en.wikipedia.org); Web search: Battle of Lãng Bạc 42 AD Ma Yuan (Trưng sisters' rebellion, en.wikipedia snippets) (en.wikipedia.org) | **fixed** |
+| ev-borobudur | Borobudur (en.wikipedia.org) | OK |
+| ev-battle-of-bach-dang-938 | Battle of Bạch Đằng (938) (en.wikipedia.org); Web search: Battle of Bạch Đằng 981 Lê Hoàn stakes (Bạch Đằng River, en.wikipedia; 'Understanding the Bach Dang Battlefield from recent research results') (en.wikipedia.org) | OK |
+| ev-angkor-wat | Angkor Wat (en.wikipedia.org); Angkor Wat (German Angkor Imagery Project) (khmer-heritage.de); Angkor Wat – The Bas-Relief Galleries (helloangkor.com) | **fixed** |
+| ev-mongol-invasions-of-vietnam | Mongol invasions of Vietnam (en.wikipedia.org); Hội nghị Diên Hồng (vi.wikipedia.org) | **fixed** |
+| ev-battle-of-bach-dang-1288 | Battle of Bạch Đằng (1288) (en.wikipedia.org); Archeological dig unearths evidence relevant to iconic Vietnamese battle (Tuoi Tre News, 2019) (news.tuoitre.vn) | **fixed** |
+| ev-founding-of-malacca | Parameswara (king) (en.wikipedia.org); Web search: Strait of Malacca narrowest point (Phillips Channel, ~2.8 km) (clarksons.com) | **fixed** |
+| ev-capture-of-malacca | Capture of Malacca (1511) (en.wikipedia.org) | OK |
+| ev-battle-of-mactan | Battle of Mactan (en.wikipedia.org); Massacre in Cebu (Inquirer Opinion) (opinion.inquirer.net) | **fixed** |
+| ev-spanish-manila | History of Manila (en.wikipedia.org); Intramuros (en.wikipedia.org) | OK |
+| ev-founding-of-batavia | Batavia, Dutch East Indies (en.wikipedia.org); en.wikipedia langlinks API (zh titles: 揚·彼得生·庫恩, 馬爾迪吉基爾人) (en.wikipedia.org) | **fixed** |
+| ev-fall-of-ayutthaya | Burmese–Siamese War (1765–1767) (en.wikipedia.org); Web search: Ekkathat tributary offer refused (Fall of Ayutthaya / Ekkathat, en.wikipedia snippets) (wikipedia.org) | OK |
+| ev-tambora-eruption | 1815 eruption of Mount Tambora (en.wikipedia.org); Web search: Tambora death estimates, Raffles, kingdoms Tambora and Pekat (wikiwand mirror) (wikiwand.com); Culture destroyed by 1815 volcano rediscovered (NPR, 2006) (npr.org); Scientist Discovers Lost Kingdom Of Tambora (TerraDaily) (terradaily.com) | **fixed** |
+| ev-krakatoa-eruption | 1883 eruption of Krakatoa (en.wikipedia.org); Web search: Berouw / 165 villages destroyed, 132 damaged (archived en.wikipedia Krakatoa, UCSB volcanology) (webarchive.library.unt.edu); Web search: Anak Krakatau emergence 1927 (Britannica snippet, NASA) (britannica.com) | **fixed** |
+| ev-indonesian-independence | Proclamation of Indonesian Independence (en.wikipedia.org); Rengasdengklok Incident (en.wikipedia.org) | OK |
+| ev-vietnam-declaration-of-independence | Proclamation of Independence of the DRV (en.wikipedia.org); August 30, 1945: King Bao Dai abdicates (Nhan Dan) (en.nhandan.vn); On this day, September 2, 1945 (P-38s over Ba Dinh) (advance.hr) | OK |
+| ev-battle-of-dien-bien-phu | Battle of Dien Bien Phu (en.wikipedia.org) | OK |
+| ev-vietnam-war | Vietnam War (en.wikipedia.org); U.S. Marines Arrive at Da Nang (Vietnam War 50th Commemoration) (vietnamwar50th.com) | OK |
+| ev-asean-founded | ASEAN Declaration (en.wikipedia.org); The Founding of ASEAN (asean.org) (asean.org) | **fixed** |
+| ev-tet-offensive | Tet Offensive (en.wikipedia.org); Massacre at Huế (en.wikipedia.org); Web search: US embassy attack, Cronkite 27 Feb 1968 (history.com, National Archives) (history.com) | OK |
+| ev-cambodian-genocide | Khmer Rouge rule of Cambodia (en.wikipedia.org); Tuol Sleng Genocide Museum (en.wikipedia.org); Last Khmer Rouge leaders guilty of genocide (AP via WJLA) (wjla.com); 康克由 (zh.wikipedia.org); 琼邑克 (zh.wikipedia.org) | **fixed** |
+| ev-indian-ocean-tsunami-2004 | 2004 Indian Ocean earthquake and tsunami (en.wikipedia.org); Web search: Aceh Helsinki MoU 15 Aug 2005 and Indonesian toll (Jakarta Post, climate-diplomacy.org) (climate-diplomacy.org) | OK |
+| ev-manila-galleon | Manila galleon (en.wikipedia.org); Andrés de Urdaneta (en.wikipedia.org); Web search: Manila galleon San José lost July 1694 off the Philippines (Guam Recorder, Legion Magazine) (issuu.com) | **fixed** |
+| ev-samudera-pasai-islam | Samudera Pasai Sultanate (en.wikipedia.org); Hikayat Raja-raja Pasai / Malikussaleh (en.wikipedia.org); Through the Strait of Malacca to China: 1345–1346 (UC Berkeley ORIAS) (orias.berkeley.edu); The Explorer Marco Polo (Aramco World) (archive.aramcoworld.com); 苏木都剌国 (zh.wikipedia.org) | zh fixed |
+| ev-jayavarman-ii-phnom-kulen | Sdok Kak Thom (en.wikipedia.org); Jayavarman II (en.wikipedia.org); Mahendraparvata lidar (Antiquity 2019; Live Science 2013) (livescience.com) | **fixed** |
+| ev-anawrahta-conquers-thaton | Anawrahta (en.wikipedia.org); Manuha (en.wikipedia.org); King Anawrahta (factsanddetails) (factsanddetails.com) | OK |
+| ev-battle-of-nhu-nguyet | Battle of Như Nguyệt River (1077) (en.wikipedia.org); WebSearch: Lý–Song War (Qinzhou, Lianzhou, 42-day Yongzhou siege, Guo Kui keeps five districts) (ipfs.ssi.eecc.de) | OK |
+| ev-ram-khamhaeng-inscription | Ram Khamhaeng Inscription (en.wikipedia.org) | OK |
+| ev-le-thanh-tong-conquers-vijaya | Cham–Vietnamese War (1471) (en.wikipedia.org); Lê Thánh Tông (vi) (vi.wikipedia.org); jst-ud.vn article on the 1470-71 campaign (Trà Toàn died on the way to Thăng Long) (jst-ud.vn) | OK |
+| ev-banda-massacre | Dutch conquest of the Banda Islands (en.wikipedia.org); Banda Islands (en.wikipedia.org); Jan Pieterszoon Coen (nl) (nl.wikipedia.org); Jan Pieterszoon Coen (en) (en.wikipedia.org) | **fixed** |
+| ev-siege-of-batavia | Siege of Batavia (en.wikipedia.org); Sultan Agung dari Mataram (id) (id.wikipedia.org); Jan Pieterszoon Coen (nl) (nl.wikipedia.org); WebSearch: Sultan Agung / Blambangan (Britannica snippet, fr wiki) (en.wikipedia.org) | **fixed** |
+| ev-batavia-massacre-1740 | 1740 Batavia massacre (en.wikipedia.org) | **fixed** |
+| ev-founding-of-singapore-1819 | Founding of modern Singapore (en.wikipedia.org) | OK |
+| ev-aceh-war | Aceh War (en.wikipedia.org); Cut Nyak Dhien (en.wikipedia.org); 亚齐战争 (zh) (zh.wikipedia.org) | OK |
+| ev-philippine-american-war | Philippine–American War (en.wikipedia.org); WebSearch: first-shot marker moved from San Juan Bridge to Sociego St, Santa Mesa (2003) (en.wikipedia.org); WebSearch: Britannica snippet on Funston's ruse (britannica.com) | **fixed** |
+| ev-fall-of-singapore | NLB Infopedia / Roots.gov.sg Former Ford Factory (WebSearch) (roots.gov.sg); WebSearch: chronology of Japanese invasion of Singapore (bukitbrown.com) | OK |
+| ev-first-indochina-war | First Indochina War (en.wikipedia.org); Battle of Route Coloniale 4 (en.wikipedia.org); Parallel Narratives: French defeats along RC 4 (Bernard Fall quote) (parallelnarratives.com) | **fixed** |
+| ev-burmese-independence | Burma Independence Act 1947 (en.wikipedia.org); CVCE: Anglo-Burmese Treaty, 17 Oct 1947 (cvce.eu); Papers Past: 'Britain Hands Over In Burma' (1948) (paperspast.natlib.govt.nz) | **fixed** |
+| ev-bandung-conference | Bandung Conference (en.wikipedia.org); Sukarno opening address (Fordham Modern History Sourcebook / CVCE, via WebSearch) (sourcebooks.web.fordham.edu) | OK |
+| ev-indonesian-mass-killings | Indonesian mass killings of 1965–66 (en.wikipedia.org); Operation Merapi / Sarwo Edhie Wibowo (search results) (en.wikipedia.org); Sciences Po Mass Violence: The Indonesian Killings of 1965-1966 (sciencespo.fr) | OK |
+| person-andres-bonifacio | Andrés Bonifacio (en.wikipedia.org); ABS-CBN ANCX: Andres Bonifacio lost everything but died for something (news2.abs-cbn.com) | **fixed** |
+| person-aung-san | Aung San (en.wikipedia.org); Burma National Army (Wikiwand) (wikiwand.com); New Mandala: Burma in limbo part 1 (newmandala.org) | **fixed** |
+| polity-champa | Champa (en.wikipedia.org); 占婆 (zh.wikipedia.org); Nhan Dan: Cham ethnic minority group (2019 census 178,948) (special.nhandan.vn) | zh fixed |
+| polity-srivijaya | Srivijaya (en.wikipedia.org); Zabag (ancient territory) (en.wikipedia.org); Univ. Hamburg, Materials for the Medieval History of Indonesia: Abu Zaid (spaetmittelalter.uni-hamburg.de); Wikipedia langlinks API (Nagapattinam, Rajendra I zh titles) (en.wikipedia.org) | **fixed** |
+| polity-khmer | EurekAlert: Archaeologists pinpoint population for Greater Angkor (Klassen et al. 2021) (eurekalert.org); Archaeology magazine: Cambodia Angkor population (archaeology.org) | OK |
+| polity-majapahit | Majapahit (en.wikipedia.org); 满者伯夷 (zh.wikipedia.org); Flag of Indonesia (en.wikipedia.org); Wikipedia langlinks API (Raden Wijaya, Tribhuwana zh titles) (en.wikipedia.org) | zh fixed |
+| polity-ayutthaya | Ayutthaya Kingdom (en.wikipedia.org); Yamada Nagamasa (en.wikipedia.org); Search: Ayutthaya distance (Rough Guides / Wikivoyage: 64–85 km north of Bangkok) (roughguides.com) | **fixed** |
+| polity-pyu | Pyu city-states (en.wikipedia.org) | **fixed** |
+| polity-singhasari | Ken Arok (en.wikipedia.org); Kertanegara of Singhasari (en.wikipedia.org); Pamalayu expedition (en.wikipedia.org); Mojok: Mencurigai kutukan keris Mpu Gandring (Pararaton text 'olih ratu pipitu') (mojok.co) | zh fixed |
+| polity-lan-xang | Fa Ngum (en.wikipedia.org); Lan Xang (en.wikipedia.org); Wikipedia langlinks API (Setthathirath, Sourigna Vongsa zh titles) (en.wikipedia.org) | zh fixed |
+
+### Corrections (en text; each has a matching zh fix unless the row is zh)
+
+| Story | Lang | Old → new | Reason / source |
+| --- | --- | --- | --- |
+| ev-trung-sisters-rebellion | en | The sisters' forces were defeated at Lãng Bạc in 43. → The sisters' forces were defeated at Lãng Bạc in the spring of 42, and the last resistance was crushed in 43. | Both the Hou Hanshu (Jianwu 18) and the Complete Annals place the Lãng Bạc battle in spring 42; the sisters died in 43 (en.wikipedia Trưng sisters). |
+| ev-trung-sisters-rebellion | en | honoured with temples, a national holiday and streets in every city → honoured with temples, an annual commemoration and streets in most cities | en.wikipedia: the February commemoration 'is observed by many Vietnamese' but is not an official public holiday; 'every city' is overstated. |
+| ev-angkor-wat | en | some 800 metres of bas-reliefs → some 600 metres of bas-reliefs | The outer-gallery relief panels total about 600 m (German Angkor Imagery Project; 'nearly 600 metres'); 800 m appears only in a travel site. |
+| ev-angkor-wat | en | Henri Mouhot's account of 1860 made it famous in Europe → Henri Mouhot's account of his 1860 visit, published after his death, made it famous in Europe | Mouhot visited in 1860; his account was published posthumously in 1863–64 (en.wikipedia Angkor Wat). |
+| ev-mongol-invasions-of-vietnam | en | summoned village elders to the Diên Hồng conference → summoned elders from across the country to the Diên Hồng conference | Đại Việt sử ký toàn thư: 'triệu phụ lão trong nước' (elders of the whole country), not specifically village elders (vi.wikipedia). zh already reads 召集各地父老, so no zh change needed. |
+| ev-battle-of-bach-dang-1288 | en | in the fields that now cover the old riverbed near Quảng Ninh → in the fields that now cover the old riverbed in Quảng Ninh and Hải Phòng | Quảng Ninh is a province, not a place 'near' the site; the 2019 stake find was at Cao Quỳ, Thủy Nguyên, Hải Phòng (Tuoi Tre); the river runs through Quảng Yên (Quảng Ninh) and Thủy Nguyên (Hải Phòng). |
+| ev-battle-of-bach-dang-1288 | en | the battle remains the most celebrated in Vietnamese history → the battle remains one of the most celebrated in Vietnamese history | Unsupported superlative. |
+| ev-founding-of-malacca | en | According to the Malay Annals, Parameswara was a prince of Palembang → According to the Portuguese writer Tomé Pires, Parameswara was a prince of Palembang | The revolt against Javanese/Majapahit rule and flight to Temasek under the name Parameswara come from Pires's Suma Oriental (and Barros); the Malay Annals call the founder Iskandar Shah and tell it differently (en.wikipedia Parameswara). |
+| ev-founding-of-malacca | en | Resting by a river, he saw → The Malay Annals add that, resting by a river, the founder saw | The mouse-deer founding legend is from the Malay Annals; keep it attributed after the source change above. |
+| ev-founding-of-malacca | en | at the narrowest part of the strait → on a narrow stretch of the strait | The strait's narrowest point is the Phillips Channel near Singapore (~2.8 km), not at Malacca. |
+| ev-battle-of-mactan | en | accepted baptism with hundreds of his people and received an image of the Christ Child → accepted baptism with hundreds of his people, and his queen received an image of the Christ Child | Magellan gave the Santo Niño to Humabon's queen (baptised Juana), not to Humabon (en.wikipedia Battle of Mactan). |
+| ev-founding-of-batavia | en | earning it the name "graveyard of the Dutch" → earning it the name "graveyard of Europeans" | en.wikipedia: malaria epidemics made Batavia known as the 'cemetery of Europeans'. |
+| ev-founding-of-batavia | zh | “马尔代克人” → “马尔迪吉基尔人” | zh.wikipedia title for Mardijker people is 馬爾迪吉基爾人 (simplified 马尔迪吉基尔人). |
+| ev-tambora-eruption | en | On the evening of 10 April 1815 it exploded. → Its first great blast came on 5 April 1815, and on the evening of 10 April it exploded. | The major eruption began on 5 April; 10 April was the climax (en.wikipedia). |
+| ev-tambora-eruption | en | , and British officers in Java thought they were hearing cannon → ; in Java the British had taken the first blasts for cannon fire | The cannon-fire confusion in Java (troops sent out, boats dispatched) followed the 5 April explosions, not the 10 April climax (en.wikipedia). |
+| ev-tambora-eruption | en | Raffles's government later estimated that tens of thousands died of starvation and disease → later estimates put the deaths from starvation and disease in the tens of thousands | The death-toll estimates come from Zollinger (1855), Petroeschevsky, Tanguy and others, not Raffles's government; Raffles mainly collected eyewitness reports. |
+| ev-krakatoa-eruption | en | The last was heard on Rodrigues island → The third and greatest, just after 10 a.m., was heard on Rodrigues island | Wikipedia: the third and largest explosion (10:02) was heard on Rodrigues; a later explosion/collapse followed, so it was not 'the last'. |
+| ev-krakatoa-eruption | en | tsunamis up to 30 metres high → tsunamis more than 30 metres high in places | Wikipedia gives waves over 30 m, up to c. 42 m on Java's west coast (46 m cited at Merak); 30 m is not the maximum. |
+| ev-krakatoa-eruption | en | and nearly 300 villages → and some 165 villages, badly damaging 132 more | Colonial records cited by Wikipedia: 165 villages and towns destroyed and 132 seriously damaged; ~300 conflates destroyed and damaged. |
+| ev-krakatoa-eruption | en | making Krakatoa the first global media disaster → making Krakatoa one of the first disasters the world followed almost as it happened | Wikipedia only says telegraph spread the news faster than earlier events; 'the first' is an unsupported superlative. |
+| ev-asean-founded | en | In August 1967 the foreign ministers of five countries met → In August 1967 ministers from five countries, four of them foreign ministers, met | asean.org and Wikipedia: Malaysia's signatory Tun Abdul Razak was Deputy Prime Minister (and defence minister), not foreign minister. |
+| ev-asean-founded | en | signed a two-page Bangkok Declaration → signed a short, five-article Bangkok Declaration | asean.org describes it as a concise document of five articles; no source found for 'two-page'. |
+| ev-cambodian-genocide | en | some two million people swollen by refugees → two million or more people swollen by refugees | Wikipedia (Khmer Rouge rule) puts Phnom Penh at about 2.5 million with refugees; 'some two million' understates it. |
+| ev-cambodian-genocide | en | some 14,000 people were photographed → an estimated 14,000 to 20,000 people were photographed | Tuol Sleng article: an estimated 20,000 prisoners (ECCC list of 18,145, probably more); 14,000 is an older low figure. |
+| ev-cambodian-genocide | zh | 钟屋克 → 琼邑克 | zh.wikipedia title for Choeung Ek is 琼邑克 (alternative 钟屋); 钟屋克 is a nonstandard hybrid. |
+| ev-cambodian-genocide | zh | 监狱长杜赫 → 监狱长康克由（杜赫） | zh.wikipedia lists Duch under his real name 康克由; give it, with the alias in brackets. |
+| ev-manila-galleon | en | sailed north to about 40 degrees → sailed north to about 38 degrees | en.wikipedia (Urdaneta): the San Pedro sailed north-east to the 38th parallel to catch the westerlies. |
+| ev-jayavarman-ii-phnom-kulen | en | Almost everything known about the founding of Angkor comes from one stone. → Most of what is known about the founding of Angkor comes from one stone. | No inscriptions of Jayavarman II survive and accounts rest on later inscriptions, Sdok Kak Thom chief among them but not alone (Jayavarman II article). |
+| ev-banda-massacre | en | Their elected elders, the orang kaya, → Their leading men, the orang kaya ("rich men"), | Sources describe the orang kaya as 'rich men' heading districts; nothing supports that they were elected (en.wikipedia Banda Islands). |
+| ev-banda-massacre | en | Even the Heeren XVII in Amsterdam rebuked Coen for his methods. → Even some of Coen's contemporaries condemned his methods, though the Heeren XVII in Amsterdam had themselves ordered the conquest. | en.wikipedia (Dutch conquest of the Banda Islands) says the Heeren XVII instructed Coen to subjugate Banda and records no rebuke; nl.wikipedia mentions no reprimand over Banda. Contemporary condemnation of 'Iron Jan' is attested. |
+| ev-siege-of-batavia | en | ruled almost all of Java except two places: the old port of Banten and the Dutch fort at Batavia → ruled most of Java; apart from Balinese-backed Blambangan in the far east, the holdouts were the old port of Banten and the Dutch fort at Batavia | Blambangan, a vassal of Bali, remained outside Mataram's control until Agung's campaigns of the later 1630s (Britannica snippet; en.wikipedia Siege of Batavia). |
+| ev-siege-of-batavia | en | probably of dysentery → of disease, probably dysentery or cholera | Sources differ: en.wikipedia says probably cholera; nl.wikipedia says acute gastro-enteritis after long-standing dysentery. |
+| ev-batavia-massacre-1740 | en | and led to the division of Mataram → and helped set the stage for the later partition of Mataram | The Java War of 1741-43 weakened Mataram, but the partition came only in 1755 (Giyanti) after a separate war of succession; en.wikipedia links the massacre to the 1741-43 war and some 17 years of conflict, not directly to the division. |
+| ev-philippine-american-war | en | near the San Juan bridge in Manila → in the Santa Mesa district of Manila | The first shot (Pvt. Grayson) was fired at Sociego Street, Santa Mesa; the National Historical Institute moved the marker off San Juan Bridge in 2003 because the incident did not happen there. |
+| ev-philippine-american-war | en | by Frederick Funston, whose men posed as prisoners of Macabebe scouts → by Frederick Funston, who with a few fellow officers posed as prisoners of Macabebe scouts disguised as rebels | Funston and a handful of US officers posed as prisoners; the Macabebe scouts were disguised as insurgents (Britannica snippet, HistoryNet). |
+| ev-first-indochina-war | en | France's worst colonial defeat since Montcalm → which the historian Bernard Fall called France's worst colonial defeat since Montcalm | The Montcalm comparison is Bernard Fall's judgement and should be attributed, not stated as fact. |
+| ev-burmese-independence | en | Burma chose to leave the Commonwealth altogether, the first former colony to do so. → Unlike most other former British colonies, Burma chose to become independent outside the Commonwealth. | Sources confirm independence outside the Commonwealth 'unlike most other former British colonies', but none supports 'the first former colony to do so'. |
+| ev-burmese-independence | en | an hour fixed by court astrologers as auspicious → an hour fixed by astrologers as auspicious | Burma had no royal court in 1948; contemporary reports speak of (Buddhist) astrologers. |
+| person-andres-bonifacio | en | Andrés Bonifacio was orphaned at fourteen and supported → According to traditional accounts, Andrés Bonifacio was orphaned at fourteen and supported | Wikipedia: orphaned-at-14 claim is disputed (an 1881 record lists his parents living in Tondo; other research dates their deaths to 1883/1885). |
+| person-aung-san | en | On 27 March 1945, now commander of the Burma National Army, Aung San led his troops out of Rangoon in an apparent parade and turned them against the Japanese, a date still marked as Armed Forces Day. → In March 1945, now commander of the Burma National Army, Aung San paraded his troops in Rangoon and marched them out as if to fight the British; on 27 March they turned against the Japanese, a date still marked as Armed Forces Day. | Wikipedia/New Mandala: the Rangoon parade and march-out came days before the revolt; 27 March is the date the BNA turned on the Japanese, not the parade date. |
+| polity-champa | zh | 阿摩罗缽底 → 阿摩罗波胝 | '缽' is a traditional character; zh.wikipedia 占婆 renders Amaravati as 阿摩罗波胝. |
+| polity-srivijaya | en | Arab geographers knew it as Zabag, ruled by a maharaja so rich that he threw a gold brick into a pond every day. → Arab writers described a realm called Zabag, usually identified with Srivijaya, whose maharaja was said to have a gold brick thrown into a pond every morning. | The gold-brick ritual is an anecdote from Abu Zayd / Ibn Khurdadhbih, regarded as moralising rather than historical; Zabag's identification with Srivijaya is debated (Zabag article). |
+| polity-srivijaya | zh | 那格伯蒂纳姆 → 纳加帕蒂南 | zh.wikipedia title for Nagapattinam is 纳加帕蒂南. |
+| polity-srivijaya | zh | 拉金德拉一世 → 拉真陀罗一世 | zh.wikipedia title for Rajendra I is 拉真陀罗一世. |
+| polity-majapahit | zh | 罗登·威查耶 → 罗登·韦查耶 | zh.wikipedia title for Raden Wijaya is 罗登·韦查耶. |
+| polity-majapahit | zh | 特里布瓦纳女王 → 特里布婆那女王 | zh.wikipedia title for Tribhuwana Wijayatunggadewi is 特里布婆那·毗阇耶顿遮提毗. |
+| polity-ayutthaya | en | about 80 km up the Chao Phraya from the sea → about 80 km north of present-day Bangkok | 80 km is the distance from Bangkok, which itself lies ~30 km inland; the city is well over 100 km up the river from the Gulf. |
+| polity-ayutthaya | en | commanded the royal guard in the 1620s → led the king's Japanese volunteer troops in the 1620s | Wikipedia: Yamada headed the Japanese village and the 'Department of Japanese Volunteers' fighting for King Songtham; not described as commander of the royal guard. |
+| polity-pyu | en | a land of round brick cities → a land of walled brick cities | Only Sri Ksetra (and Maingmaw) are circular; Halin is rectangular with rounded corners and Beikthano roughly rectangular (Wikipedia). |
+| polity-pyu | en | buried the ashes in inscribed urns → buried the ashes in urns, some of them inscribed | Wikipedia: hundreds/thousands of cremation urns at Sri Ksetra; only a few (royal) urns bear inscriptions. |
+| polity-singhasari | zh | 罗登·威查耶 → 罗登·韦查耶 | zh.wikipedia title for Raden Wijaya is 罗登·韦查耶 (same fix as Majapahit for consistency). |
+| polity-lan-xang | zh | 塞塔提拉王 → 赛塔提拉王 | zh.wikipedia title for Setthathirath is 赛塔提拉. |
+| polity-lan-xang | zh | 苏里亚旺萨 → 苏里雅·翁萨 | zh.wikipedia title for Sourigna Vongsa is 蘇里雅·翁薩 (simplified 苏里雅·翁萨). |
+| ev-founding-of-malacca | en, zh | after the Pires fix, second mention "The Portuguese apothecary Tomé Pires wrote" → "Pires also wrote" | avoids naming him twice |
+| ev-jayavarman-ii-phnom-kulen | en, zh | Sdok Kak Thom "In 1052" → "In 1052 or 1053" | Saka 974; en.wikipedia gives 8 Feb 1053, other sources 1052 |
+| ev-samudera-pasai-islam | zh | story 须文达那 → 须文答剌 | matches the record name |
+| dataset-wide | zh | 罗登·威查耶 → 罗登·韦查耶 (also ev-mongol-invasion-of-java); 塞塔提拉 → 赛塔提拉 (also place-vientiane, polity-kingdom-of-vientiane) | zh.wikipedia titles, kept consistent across records |
+
+Rejected suggestion: ev-aceh-war zh 朱月婷 → a phonetic rendering. 朱月婷 is the zh.wikipedia title for Cut Nyak Dhien (Wikidata Q2183970 sitelink; label 朱月亭, aliases 朱月婷, 朱亞典), so it stays. Champa: 阿摩罗缽底 (traditional 缽) → 阿摩罗波胝, the form zh.wikipedia 占婆 uses.
+
+### Doubts left (not changed)
+
+- ev-angkor-wat: the "fifteen parasols" over Suryavarman II not confirmed in a retrieved page.
+- ev-manila-galleon: Arellano's San Lucas reached Mexico before Urdaneta in 1565; Urdaneta is kept as the conventional pioneer.
+- ev-battle-of-dien-bien-phu: 55 days (en.wikipedia count) vs the Vietnamese "56 days and nights" the story uses.
+- ev-samudera-pasai-islam: "remembered as the first sultanate" is hedged, but Perlak also claims priority.
+- ev-banda-massacre: Coen landing on Lonthor himself (nl.wikipedia credits Martinus Sonck); the bamboo enclosure and the witnessing officer rest on narrative histories.
+- ev-siege-of-batavia: Tegal as a Mataram rice depot (Wikipedia names Cirebon and Karawang).
+- ev-le-thanh-tong-conquers-vijaya: army 260,000 (Phan Huy Chú, vi.wikipedia) vs 250,000 (en.wikipedia).
+- person-aung-san: exact date of the Rangoon parade varies by source.
+- polity-champa: Linyi founding 192 (en) vs 137 (zh.wikipedia body).
+- polity-lan-xang: Fa Ngum deposed 1373 (text) vs 1372 (infobox).
+- ev-vietnam-declaration-of-independence: P-38 flyover rests on one retrieved source.
