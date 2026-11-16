@@ -1,0 +1,269 @@
+{
+  "ev-trajans-dacian-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Sarmizegetusa Regia, the Dacian capital whose fall in 106 ended the wars (route gives the campaign). Wikidata's point (45.7, 26.5) lies in eastern Romania, outside the main theatre.",
+    "checked": [
+      "Cassius Dio, Roman History LXVIII.14",
+      "https://en.wikipedia.org/wiki/Sarmizegetusa_Regia",
+      "https://www.britannica.com/place/Dacia"
+    ]
+  },
+  "ev-diocletians-palace:year": {
+    "verdict": "keep-ours",
+    "reason": "Construction is generally dated c. 295–305 (UNESCO: 'built between the late 3rd and early 4th centuries'); 293 is an early estimate for the start. The record is marked medium confidence with a note.",
+    "checked": [
+      "https://whc.unesco.org/en/list/97/",
+      "https://en.wikipedia.org/wiki/Diocletian's_Palace"
+    ]
+  },
+  "ev-gothic-war-535:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Ravenna, the Ostrogothic capital whose surrender in 540 was the war's turning point; the route covers Sicily, Naples and Rome. Wikidata's point is in Sicily, where the campaign merely began.",
+    "checked": [
+      "Procopius, Wars VI.29",
+      "https://en.wikipedia.org/wiki/Gothic_War_(535–554)"
+    ]
+  },
+  "ev-moravian-mission:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Mikulčice, a principal Great Moravian centre where the mission is usually placed (Velehrad/Staré Město is the alternative); Wikidata's point (49.60, 18.15) is a generic location in north-eastern Moravia.",
+    "checked": [
+      "https://www.britannica.com/biography/Saints-Cyril-and-Methodius",
+      "Lumír Poláček, Great Moravia (Archaeological Institute, Brno)"
+    ]
+  },
+  "ev-hungarian-conquest:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is the Verecke Pass, where Hungarian tradition places the crossing of the Carpathians; Wikidata's (47, 19) is the centre of modern Hungary. The route shows the subsequent settlement.",
+    "checked": [
+      "Pál Engel, The Realm of St Stephen (2001), ch. 1",
+      "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin"
+    ]
+  },
+  "ev-saint-sophia-kyiv:year": {
+    "verdict": "disputed",
+    "reason": "The Primary Chronicle places the foundation in 1037; several art historians (e.g. Nadia Nikitenko) argue for 1011–1018 from architectural and graffiti evidence. The record keeps 1037, is marked medium confidence and notes the alternative.",
+    "checked": [
+      "The Russian Primary Chronicle, s.a. 6545 (1037)",
+      "https://whc.unesco.org/en/list/527/",
+      "https://en.wikipedia.org/wiki/Saint_Sophia_Cathedral,_Kyiv"
+    ]
+  },
+  "ev-tale-of-igors-campaign:year": {
+    "verdict": "keep-ours",
+    "reason": "The record is dated to the campaign of 1185 that the poem describes; composition is usually placed between 1185 and 1187, and the note explains the dating debate.",
+    "checked": [
+      "Hypatian Chronicle, s.a. 1185",
+      "https://en.wikipedia.org/wiki/The_Tale_of_Igor's_Campaign"
+    ]
+  },
+  "ev-mongol-invasion-of-rus:year": {
+    "verdict": "keep-ours",
+    "reason": "The record covers Batu's invasion of 1237–1240 (Ryazan to Kyiv). Wikidata's 1223 includes the earlier Kalka reconnaissance, which has its own record (ev-battle-of-the-kalka-river, central-asia).",
+    "checked": [
+      "Laurentian Chronicle, s.a. 1237–1238",
+      "Peter Jackson, The Mongols and the West (2005), ch. 3"
+    ]
+  },
+  "ev-hussite-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Tábor, the radical Hussite centre; the route covers Prague and the battles. Wikidata's (51, 10) lies in Thuringia, outside Bohemia.",
+    "checked": [
+      "František Šmahel, Die Hussitische Revolution (2002)",
+      "https://en.wikipedia.org/wiki/Hussite_Wars"
+    ]
+  },
+  "ev-khmelnytsky-uprising:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is in central Ukraine between Korsun and Chyhyryn, the heart of the uprising; Wikidata's (49, 32) is a generic point 100 km south. Both are approximate; the route gives the actual sites.",
+    "checked": [
+      "Paul Robert Magocsi, A History of Ukraine (2010), ch. 17",
+      "https://en.wikipedia.org/wiki/Khmelnytsky_Uprising"
+    ]
+  },
+  "ev-crimean-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Sevastopol, whose year-long siege was the war's central event; Wikidata's (45, 34) is the centre of the Crimean peninsula.",
+    "checked": [
+      "Orlando Figes, Crimea (2010)",
+      "https://www.britannica.com/event/Crimean-War"
+    ]
+  },
+  "ev-russian-revolution-1905:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is the Winter Palace, St Petersburg, scene of Bloody Sunday; Wikidata's point (66.4, 94.3) is the geographic centre of Russia.",
+    "checked": [
+      "Abraham Ascher, The Revolution of 1905: A Short History (2004)",
+      "https://en.wikipedia.org/wiki/Bloody_Sunday_(1905)"
+    ]
+  },
+  "ev-balkan-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Adrianople (Edirne), whose siege and fall in March 1913 was the decisive event of the First Balkan War; Wikidata's (42, 22) is a generic point in North Macedonia.",
+    "checked": [
+      "Richard C. Hall, The Balkan Wars 1912–1913 (2000)",
+      "https://en.wikipedia.org/wiki/Siege_of_Adrianople_(1912–1913)"
+    ]
+  },
+  "ev-russian-civil-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Moscow, the Bolshevik capital from March 1918 through the war; Wikidata gives Petrograd. Both are defensible; the route shows the fronts.",
+    "checked": [
+      "Evan Mawdsley, The Russian Civil War (2007)",
+      "https://www.britannica.com/event/Russian-Civil-War"
+    ]
+  },
+  "ev-holodomor:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Poltava, in one of the worst-affected regions (Applebaum, Red Famine); Wikidata's (49, 32) is a generic point in central Ukraine. The famine affected the whole republic.",
+    "checked": [
+      "Anne Applebaum, Red Famine (2017)",
+      "https://en.wikipedia.org/wiki/Holodomor"
+    ]
+  },
+  "ev-great-purge:year": {
+    "verdict": "keep-ours",
+    "reason": "The Great Purge is conventionally dated 1936–1938 (Zinoviev–Kamenev trial August 1936 to the end of the mass operations November 1938); Wikidata's 1938 point-in-time is the end date.",
+    "checked": [
+      "https://www.britannica.com/event/purge-Soviet-history",
+      "Oleg V. Khlevniuk, The History of the Gulag (2004)"
+    ]
+  },
+  "ev-great-purge:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Moscow (Lubyanka/show-trial venue); Wikidata's (65, 90) is the centre of Siberia.",
+    "checked": [
+      "Robert Conquest, The Great Terror: A Reassessment (1990)",
+      "https://en.wikipedia.org/wiki/Moscow_trials"
+    ]
+  },
+  "ev-hungarian-revolution-1956:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Budapest, where the revolution began and was fought; Wikidata's (47, 19) is a generic point south of the city.",
+    "checked": [
+      "Victor Sebestyen, Twelve Days (2006)",
+      "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956"
+    ]
+  },
+  "ev-baltic-way:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Riga, the midpoint of the Tallinn–Riga–Vilnius chain; Wikidata's (57, 25) is a rural point in Latvia 55 km away.",
+    "checked": [
+      "Anatol Lieven, The Baltic Revolution (1993)",
+      "https://en.wikipedia.org/wiki/Baltic_Way"
+    ]
+  },
+  "ev-russian-invasion-of-ukraine-2022:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Kyiv, the principal objective of the February 2022 offensive and the seat of the government; Wikidata's (49, 31) is a generic point in central Ukraine. The route shows the main fronts.",
+    "checked": [
+      "Serhii Plokhy, The Russo-Ukrainian War (2023)",
+      "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+    ]
+  },
+  "ev-marcomannic-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Carnuntum, Marcus Aurelius's main base on the middle Danube; Wikidata's point (45.2, 29.7) is in the Danube delta, far from the Marcomanni and Quadi.",
+    "checked": [
+      "Cassius Dio, Roman History LXXII",
+      "Anthony R. Birley, Marcus Aurelius (2000)",
+      "https://en.wikipedia.org/wiki/Marcomannic_Wars"
+    ]
+  },
+  "ev-uprising-of-asen-and-peter:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Tarnovo, where the brothers proclaimed independence and which became the Second Bulgarian Empire's capital; Wikidata's (42, 22) is a generic point in North Macedonia.",
+    "checked": [
+      "Paul Stephenson, Byzantium's Balkan Frontier (2000)",
+      "https://en.wikipedia.org/wiki/Uprising_of_Asen_and_Peter"
+    ]
+  },
+  "person-theodora:born": {
+    "verdict": "keep-ours",
+    "reason": "Birth year is uncertain; Britannica and Potter (2015) give c. 497, Wikidata c. 500. Kept with medium confidence and a note.",
+    "checked": [
+      "https://www.britannica.com/biography/Theodora-Byzantine-empress-died-548",
+      "David Potter, Theodora: Actress, Empress, Saint (2015)"
+    ]
+  },
+  "polity-kingdom-of-hungary:to": {
+    "verdict": "keep-ours",
+    "reason": "This record ends with the dissolution of Austria-Hungary in 1918; the interwar Kingdom (1920–1946) under Regent Horthy is a distinct state with its own Wikidata item (Q600018). Note added.",
+    "checked": [
+      "László Kontler, A History of Hungary (2002)",
+      "https://en.wikipedia.org/wiki/Kingdom_of_Hungary"
+    ]
+  },
+  "polity-piast-poland:from": {
+    "verdict": "keep-ours",
+    "reason": "The record includes Mieszko I's duchy (Civitas Schinesghe) from c. 960, before Bolesław I's coronation in 1025 where the Wikidata item begins; the note explains this.",
+    "checked": [
+      "Norman Davies, God's Playground, vol. 1 (2005)",
+      "https://en.wikipedia.org/wiki/Civitas_Schinesghe"
+    ]
+  },
+  "polity-crown-of-poland:to": {
+    "verdict": "keep-ours",
+    "reason": "Ended at the Union of Lublin (1569) so as not to overlap polity-polish-lithuanian-commonwealth (1569–1795); the Crown continued as a constituent part, which the note records.",
+    "checked": [
+      "https://www.britannica.com/event/Union-of-Lublin",
+      "https://en.wikipedia.org/wiki/Crown_of_the_Kingdom_of_Poland"
+    ]
+  },
+  "polity-grand-duchy-of-lithuania:to": {
+    "verdict": "keep-ours",
+    "reason": "Ended at the Union of Lublin (1569) so as not to overlap polity-polish-lithuanian-commonwealth; the Grand Duchy survived as a constituent until 1795, as the note records.",
+    "checked": [
+      "Zigmantas Kiaupa et al., The History of Lithuania before 1795 (2000)",
+      "https://en.wikipedia.org/wiki/Grand_Duchy_of_Lithuania"
+    ]
+  },
+  "polity-moravian-serbia:from": {
+    "verdict": "keep-ours",
+    "reason": "Lazar's independent principality is dated from the collapse of the Serbian Empire after the Battle of the Maritsa (1371); Wikidata's 1365 reflects the start of his career as a regional lord under Uroš V.",
+    "checked": [
+      "John V. A. Fine, The Late Medieval Balkans (1987), pp. 374–389",
+      "https://en.wikipedia.org/wiki/Moravian_Serbia"
+    ]
+  },
+  "polity-serbian-despotate:to": {
+    "verdict": "keep-ours",
+    "reason": "The Despotate ended with the Ottoman capture of Smederevo in 1459; Wikidata's 1537 counts titular despots in Hungarian service, which are not a state.",
+    "checked": [
+      "John V. A. Fine, The Late Medieval Balkans (1987)",
+      "https://en.wikipedia.org/wiki/Serbian_Despotate"
+    ]
+  },
+  "polity-vladimir-suzdal:from": {
+    "verdict": "keep-ours",
+    "reason": "The grand principality of Vladimir is dated from Andrey Bogolyubsky's transfer of the senior seat to Vladimir (1157); Wikidata's 1125 is when Yuri Dolgoruky moved his seat from Rostov to Suzdal (Rostov-Suzdal).",
+    "checked": [
+      "Janet Martin, Medieval Russia, 980–1584 (2007)",
+      "https://en.wikipedia.org/wiki/Vladimir-Suzdal"
+    ]
+  },
+  "polity-vladimir-suzdal:to": {
+    "verdict": "keep-ours",
+    "reason": "From Ivan I's patent of c. 1331–1332 the grand-princely title stayed with Moscow (polity-grand-principality-of-moscow, from 1263); Wikidata's 1389 is Dmitry Donskoy's testament formally merging the title. The note explains the convention.",
+    "checked": [
+      "Janet Martin, Medieval Russia, 980–1584 (2007)",
+      "https://en.wikipedia.org/wiki/Vladimir-Suzdal"
+    ]
+  },
+  "polity-polish-peoples-republic:from": {
+    "verdict": "keep-ours",
+    "reason": "Kept 1947 (the rigged elections of January 1947 and Bierut's election as president), as the note explains; communist-led governments existed from 1944 and the name was adopted in 1952.",
+    "checked": [
+      "Andrzej Paczkowski, The Spring Will Be Ours (2003)",
+      "https://en.wikipedia.org/wiki/Polish_People's_Republic"
+    ]
+  },
+  "polity-russian-federation:from": {
+    "verdict": "keep-ours",
+    "reason": "The record is the post-Soviet state from December 1991; Wikidata's 1263 inception on the item 'Russia' refers to the Principality of Moscow, which has its own record.",
+    "checked": [
+      "https://www.britannica.com/place/Russia",
+      "https://en.wikipedia.org/wiki/Russia"
+    ]
+  }
+}
