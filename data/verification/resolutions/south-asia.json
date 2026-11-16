@@ -103,5 +103,194 @@
       "https://www.britannica.com/print/article/1471692",
       "https://scroll.in/article/1011059/in-1970-a-cyclone-in-the-bay-of-bengal-claimed-5-lakh-lives-and-changed-the-course-of-a-nation"
     ]
+  },
+  "ev-faxian-in-india:year": {
+    "verdict": "keep-ours",
+    "reason": "The QID is Faxian’s Record of Buddhist Kingdoms, finished c. 414–416 (Wikidata 414). The record dates the journey in India itself, c. 402–411, from Faxian’s own itinerary (Legge tr. 1886): Gandhara c. 402, Pataliputra 405–407, Tamralipti 408–409, Sri Lanka 410–411.",
+    "checked": [
+      "https://www.britannica.com/biography/Faxian",
+      "Faxian, A Record of Buddhistic Kingdoms, tr. J. Legge (1886)"
+    ]
+  },
+  "ev-changu-narayan-inscription:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 325 is the traditional founding date of the temple (the QID). The event is Manadeva’s pillar inscription, dated Samvat 386 = 464 CE (Riccardi 1989; Vajracharya 1973).",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Changu_Narayan_Temple",
+      "T. Riccardi, JAOS 109 (1989)"
+    ]
+  },
+  "ev-gangaikonda-cholapuram:year": {
+    "verdict": "keep-ours",
+    "reason": "The QID is the temple, whose first recorded endowment is of 1035. The record starts with Rajendra’s Ganges expedition, first mentioned in inscriptions of 1023 and dated c. 1021–1023 (Nilakanta Sastri), and spans to 1035 via endYear.",
+    "checked": [
+      "K. A. Nilakanta Sastri, The Cōḷas (1955), ch. 9",
+      "https://whc.unesco.org/en/list/250/"
+    ]
+  },
+  "ev-dutch-ceylon:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata places the Dutch Ceylon item at Colombo. The marker is at Galle, the first Dutch conquest (1640) and site of the best-preserved Dutch fort (UNESCO); both are defensible anchors.",
+    "checked": [
+      "https://whc.unesco.org/en/list/451/"
+    ]
+  },
+  "ev-unification-of-nepal:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s campaign item runs to 1816 (Treaty of Sugauli) and includes the expansion under Prithvi Narayan Shah’s successors. This record covers his conquest of the Kathmandu Valley, completed with the fall of Bhaktapur in 1769 (Stiller; Whelpton).",
+    "checked": [
+      "J. Whelpton, A History of Nepal (2005), ch. 2",
+      "https://www.britannica.com/biography/Prithvi-Narayan-Shah"
+    ]
+  },
+  "ev-great-bengal-famine-1770:year": {
+    "verdict": "keep-ours",
+    "reason": "The monsoon failure that caused the famine came in 1769 and mortality peaked in 1770 (Hunter; Datta). Wikidata’s 1767 has no support in the standard accounts, which date the famine 1769–1773.",
+    "checked": [
+      "W. W. Hunter, The Annals of Rural Bengal (1868), ch. 1",
+      "https://www.britannica.com/event/Bengal-famine-of-1770"
+    ]
+  },
+  "ev-great-bengal-famine-1770:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker at Murshidabad, then the provincial capital where contemporaries described the worst scenes; Wikidata’s point is a rural spot 51 km east. Both lie in the affected region.",
+    "checked": [
+      "W. W. Hunter, The Annals of Rural Bengal (1868)"
+    ]
+  },
+  "ev-anglo-nepalese-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata puts the war at Kathmandu, which was never fought over. The marker is at Nalapani (Khalanga fort, Dehradun), the war’s best-known siege, as the note says.",
+    "checked": [
+      "J. Pemble, Britain’s Gurkha War (2008)",
+      "https://www.britannica.com/event/Anglo-Nepalese-War"
+    ]
+  },
+  "ev-first-train-bombay-thane:year": {
+    "verdict": "keep-ours",
+    "reason": "The QID is the Great Indian Peninsula Railway company, incorporated in 1849. The event is the first passenger service Bombay–Thane on 16 April 1853 (Kerr, Engines of Change).",
+    "checked": [
+      "I. J. Kerr, Engines of Change (2007)",
+      "https://www.britannica.com/topic/Indian-Railways"
+    ]
+  },
+  "ev-first-kashmir-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 34.5°N 76°E is a rounded point in Ladakh. The marker is at Srinagar, where Indian troops landed on 27 October 1947 and the decisive early fighting took place.",
+    "checked": [
+      "S. Raghavan, War and Peace in Modern India (2010), ch. 4"
+    ]
+  },
+  "ev-operation-polo:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is a rounded location in the former state; the marker is the capital Hyderabad, where the Nizam surrendered on 17 September 1948. 56 km apart.",
+    "checked": [
+      "https://www.britannica.com/place/Hyderabad-historical-state-India"
+    ]
+  },
+  "ev-indo-pakistani-war-1965:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata uses a generic Kashmir point (34.5, 76). The marker is at Chawinda in the Sialkot sector, scene of the war’s largest tank battle, as the note explains.",
+    "checked": [
+      "https://www.britannica.com/event/Indo-Pakistani-War-of-1965"
+    ]
+  },
+  "ev-kargil-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker at Kargil town, after which the war is named; Wikidata’s point lies 65 km south-east in the same sector of the Line of Control.",
+    "checked": [
+      "https://www.britannica.com/event/Kargil-War"
+    ]
+  },
+  "person-samudragupta:born": {
+    "verdict": "keep-ours",
+    "reason": "Samudragupta’s birth year is not recorded; Wikidata’s 335 is the conventional start of his reign, which would make him a newborn king. 318 is a labelled placeholder (confidence low, note).",
+    "checked": [
+      "https://www.britannica.com/biography/Samudra-Gupta",
+      "U. Singh, A History of Ancient and Early Medieval India (2008), ch. 9"
+    ]
+  },
+  "person-samudragupta:died": {
+    "verdict": "disputed",
+    "reason": "Britannica gives c. 330–380 (died 380); Upinder Singh and the existing Gupta ruler list use c. 335–375, with Chandragupta II from c. 375. Kept 375 for consistency; confidence low with note.",
+    "checked": [
+      "https://www.britannica.com/biography/Samudra-Gupta",
+      "U. Singh (2008), ch. 9"
+    ]
+  },
+  "person-pulakeshin-ii:born": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 610 is his accession, not his birth, which is unrecorded. 590 is a labelled placeholder (note).",
+    "checked": [
+      "https://www.britannica.com/biography/Pulakeshin-II"
+    ]
+  },
+  "person-iltutmish:born": {
+    "verdict": "keep-ours",
+    "reason": "No contemporary source gives Iltutmish’s birth year; Britannica gives only his death (29 April 1236). He was bought as a youth c. 1200 and was already a governor by 1206, so 1192 (Wikidata) is too late; 1180 is a labelled placeholder.",
+    "checked": [
+      "https://www.britannica.com/biography/Iltutmish",
+      "P. Jackson, The Delhi Sultanate (1999)"
+    ]
+  },
+  "person-rudrama-devi:born": {
+    "verdict": "keep-ours",
+    "reason": "Her birth year is unrecorded. Wikidata’s 1259 would make her three years old when she began to rule (1262); 1240 is a labelled placeholder (confidence low). The Chandupatla inscription confirms her death shortly before 27 November 1289.",
+    "checked": [
+      "C. Talbot, Precolonial India in Practice (2001)",
+      "https://en.wikipedia.org/wiki/Rudrama_Devi"
+    ]
+  },
+  "polity-pandya:from": {
+    "verdict": "keep-ours",
+    "reason": "The Pandyas are attested from the 3rd century BCE (Wikidata −300), but the atlas floor is 50 BCE; the band starts there, as the note says.",
+    "checked": [
+      "https://www.britannica.com/topic/Pandya-dynasty"
+    ]
+  },
+  "polity-pandya:to": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 1650 counts the minor Tenkasi Pandya line. The Pandya kingdom as a regional power ended with the Khalji raid (1311) and the founding of the Madurai Sultanate (1335); 1345 marks that end (Nilakanta Sastri).",
+    "checked": [
+      "K. A. Nilakanta Sastri, The Pandyan Kingdom (1929)",
+      "https://www.britannica.com/topic/Pandya-dynasty"
+    ]
+  },
+  "polity-chera:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s item starts with the Chera Perumals (800). This record also covers the Sangam-age Cheras of the early centuries CE, attested in Sangam poetry and Ashoka’s edicts; it starts at the atlas floor. Confidence low with note.",
+    "checked": [
+      "https://www.britannica.com/topic/Chera-dynasty"
+    ]
+  },
+  "polity-chera:to": {
+    "verdict": "keep-ours",
+    "reason": "M. G. S. Narayanan dates the end of the Chera Perumal kingdom of Mahodayapuram to 1122–1124 under Rama Kulasekhara; Wikidata’s 1102 is an older estimate.",
+    "checked": [
+      "M. G. S. Narayanan, Perumāḷs of Kerala (2013)"
+    ]
+  },
+  "polity-anuradhapura:from": {
+    "verdict": "keep-ours",
+    "reason": "Founded by tradition in 377 BCE (Wikidata −377), before the atlas floor of 50 BCE; the band starts there, as the note says.",
+    "checked": [
+      "https://whc.unesco.org/en/list/200/"
+    ]
+  },
+  "polity-polonnaruwa:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 1017 is the start of Chola rule at Polonnaruwa. The Sinhalese Kingdom of Polonnaruwa dates from Vijayabahu I (r. 1055 from Ruhuna; Polonnaruwa taken 1070), per the Culavamsa and de Silva.",
+    "checked": [
+      "K. M. de Silva, A History of Sri Lanka (2005)",
+      "https://www.britannica.com/place/Polonnaruwa"
+    ]
+  },
+  "polity-bhutan:from": {
+    "verdict": "keep-ours",
+    "reason": "The QID is the present country, whose Wikidata inception (1949) is the Indo-Bhutan treaty. The Bhutanese state was founded by Zhabdrung Ngawang Namgyal from 1616 (Karma Phuntsho; Aris).",
+    "checked": [
+      "Karma Phuntsho, The History of Bhutan (2013)",
+      "https://www.britannica.com/place/Bhutan/History"
+    ]
   }
 }
