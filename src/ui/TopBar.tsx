@@ -1,4 +1,5 @@
 import { useEffect, useId, useRef, useState } from 'react';
+import { useNowPlaying } from '../audio/nowPlaying';
 import { s } from '../i18n';
 import { REGION_BY_KEY, REGIONS } from '../regions';
 import { type Layers, useStore } from '../state/store';
@@ -16,7 +17,10 @@ export function TopBar() {
   const layersBtn = useRef<HTMLButtonElement>(null);
   const menuId = useId();
   const cur = region ? REGION_BY_KEY[region] : null;
-  const track = cur ? cur.music[lang] : lang === 'zh' ? '远洋 · 琴声' : 'Open sea · bells';
+  // Name the music you hear, which can lag the camera (it settles first) or fall back to open sea.
+  const playing = useNowPlaying();
+  const heard = playing ? (playing === 'ocean' ? null : REGION_BY_KEY[playing]) : cur;
+  const track = heard ? heard.music[lang] : lang === 'zh' ? '远洋' : 'Open sea';
 
   // The layers popover closes on outside click and on Escape (returning focus to its button).
   useEffect(() => {
@@ -79,7 +83,7 @@ export function TopBar() {
           onClick={() => set({ musicOn: !musicOn })}
           aria-pressed={musicOn}
           aria-label={musicOn ? `${s('musicOn', lang)} (${s('regionMusic', lang)}: ${track})` : s('musicOff', lang)}
-          title={cur ? `${s('regionMusic', lang)}: ${cur.music[lang]}` : s('music', lang)}
+          title={musicOn ? `${s('regionMusic', lang)}: ${track}` : cur ? `${s('regionMusic', lang)}: ${cur.music[lang]}` : s('music', lang)}
         >
           <svg className="note-icon" viewBox="0 0 24 24" width="14" height="14" aria-hidden>
             <path d="M9 18V6l10-2v12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />

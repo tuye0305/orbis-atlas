@@ -369,6 +369,11 @@ export class GlobeEngine {
     this.container.innerHTML = '';
   }
 
+  /** A fly-to (or the intro swing) is under way. */
+  isFlying() {
+    return this.flying !== null;
+  }
+
   private cancelFlight() {
     if (!this.flying) return;
     this.flying.kill();
