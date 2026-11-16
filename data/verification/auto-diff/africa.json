@@ -506,6 +506,24 @@
   }
  },
  {
+  "key": "ev-franco-hova-war-1895:endYear",
+  "id": "ev-franco-hova-war-1895",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "endYear",
+  "ours": 1897,
+  "wikidata": 1895,
+  "qid": "Q4127978",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Reviewer switched the QID from the combined Franco-Hova Wars item to the second Madagascar expedition (1894–95), which Wikidata ends in 1895 with the fall of Antananarivo. This record deliberately runs on through the menalamba rising, the annexation of 1896 and Gallieni’s abolition of the monarchy in February 1897 (Britannica: Madagascar, history; Brown, A History of Madagascar).",
+   "checked": [
+    "https://www.britannica.com/place/Madagascar/History",
+    "https://en.wikipedia.org/wiki/Second_Madagascar_expedition"
+   ]
+  }
+ },
+ {
   "key": "ev-franco-hova-war-1895:coord",
   "id": "ev-franco-hova-war-1895",
   "dataset": "africa",
@@ -519,7 +537,7 @@
    -20,
    47
   ],
-  "qid": "Q2638505",
+  "qid": "Q4127978",
   "km": 133,
   "resolution": {
    "verdict": "keep-ours",
@@ -903,6 +921,23 @@
    "checked": [
     "M. S. M. Semakula Kiwanuka, A History of Buganda (1972)",
     "https://www.britannica.com/place/Buganda"
+   ]
+  }
+ },
+ {
+  "key": "polity-lunda:to",
+  "id": "polity-lunda",
+  "dataset": "africa",
+  "kind": "polities",
+  "field": "to",
+  "ours": 1887,
+  "wikidata": 1884,
+  "qid": "Q1796223",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 1884 is the start of the colonial partition. The Lunda state kept its Musumba and Mwaant Yav until Chokwe invaders took the capital in 1887 (Wikipedia infobox; Vansina, Kingdoms of the Savanna); partition between Angola, the Congo Free State and Rhodesia ran 1884–1891. Record is low confidence with a note.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Lunda_Empire"
    ]
   }
  }

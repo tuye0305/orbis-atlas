@@ -239,13 +239,6 @@
       "Richard Pankhurst, The Napier Expedition and the Loot from Maqdala (1985)"
     ]
   },
-  "ev-franco-hova-war-1895:coord": {
-    "verdict": "keep-ours",
-    "reason": "Wikidata’s (-20, 47) is a centroid of Madagascar. Our marker is Antananarivo, whose surrender on 30 September 1895 ended the campaign; the route gives the march from Mahajanga.",
-    "checked": [
-      "Stephen Ellis, The Rising of the Red Shawls (1985)"
-    ]
-  },
   "ev-angolan-civil-war:coord": {
     "verdict": "keep-ours",
     "reason": "Wikidata’s (-12.35, 17.35) is a centroid of Angola. Our marker is Luanda, where independence was proclaimed under fire on 11 November 1975 and which the MPLA held throughout.",
@@ -359,6 +352,28 @@
     "checked": [
       "M. S. M. Semakula Kiwanuka, A History of Buganda (1972)",
       "https://www.britannica.com/place/Buganda"
+    ]
+  },
+  "ev-franco-hova-war-1895:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Reviewer switched the QID from the combined Franco-Hova Wars item to the second Madagascar expedition (1894–95), which Wikidata ends in 1895 with the fall of Antananarivo. This record deliberately runs on through the menalamba rising, the annexation of 1896 and Gallieni’s abolition of the monarchy in February 1897 (Britannica: Madagascar, history; Brown, A History of Madagascar).",
+    "checked": [
+      "https://www.britannica.com/place/Madagascar/History",
+      "https://en.wikipedia.org/wiki/Second_Madagascar_expedition"
+    ]
+  },
+  "polity-lunda:to": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 1884 is the start of the colonial partition. The Lunda state kept its Musumba and Mwaant Yav until Chokwe invaders took the capital in 1887 (Wikipedia infobox; Vansina, Kingdoms of the Savanna); partition between Angola, the Congo Free State and Rhodesia ran 1884–1891. Record is low confidence with a note.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Lunda_Empire"
+    ]
+  },
+  "ev-franco-hova-war-1895:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s (-20, 47) is a centroid of Madagascar. Our marker is Antananarivo, whose surrender on 30 September 1895 ended the campaign; the route gives the march from Mahajanga.",
+    "checked": [
+      "Stephen Ellis, The Rising of the Red Shawls (1985)"
     ]
   }
 }

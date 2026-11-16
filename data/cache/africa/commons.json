@@ -29,6 +29,12 @@
   "license": "CC BY-SA 3.0",
   "artist": "UNESCO"
  },
+ "9th century bronze ceremonial pot, Igbo-Ukwu, Nigeria.JPG": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/9th_century_bronze_ceremonial_pot%2C_Igbo-Ukwu%2C_Nigeria.JPG/500px-9th_century_bronze_ceremonial_pot%2C_Igbo-Ukwu%2C_Nigeria.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:9th_century_bronze_ceremonial_pot,_Igbo-Ukwu,_Nigeria.JPG",
+  "license": "CC BY-SA 3.0",
+  "artist": "Ochiwar"
+ },
  "AddisView.jpg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/AddisView.jpg/500px-AddisView.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "page": "https://commons.wikimedia.org/wiki/File:AddisView.jpg",
@@ -341,11 +347,23 @@
   "license": "Public domain",
   "artist": "Pierre Trémaux"
  },
+ "FrenchTroopsMadagasgar.jpg": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/FrenchTroopsMadagasgar.jpg/500px-FrenchTroopsMadagasgar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:FrenchTroopsMadagasgar.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Capitaine Humbert (d. 1921)"
+ },
  "Gees van eMakhosini-monument, eMakhosini.jpg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Gees_van_eMakhosini-monument%2C_eMakhosini.jpg/500px-Gees_van_eMakhosini-monument%2C_eMakhosini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "page": "https://commons.wikimedia.org/wiki/File:Gees_van_eMakhosini-monument,_eMakhosini.jpg",
   "license": "CC BY-SA 3.0",
   "artist": "JMK"
+ },
+ "Germa - Garamantengräber.jpg": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Germa_-_Garamantengr%C3%A4ber.jpg/500px-Germa_-_Garamantengr%C3%A4ber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Germa_-_Garamantengr%C3%A4ber.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Franzfoto"
  },
  "Ghana (orthographic projection).svg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Ghana_%28orthographic_projection%29.svg/500px-Ghana_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -502,12 +520,6 @@
   "page": "https://commons.wikimedia.org/wiki/File:La_prise_de_Constantine_1837_par_Horace_Vernet.jpg",
   "license": "Public domain",
   "artist": "Horace Vernet"
- },
- "LaGuerreAMadagascar.jpg": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/LaGuerreAMadagascar.jpg/500px-LaGuerreAMadagascar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:LaGuerreAMadagascar.jpg",
-  "license": "Public domain",
-  "artist": "Louis Bombled / Henri Galli"
  },
  "Lagos46 kopie.jpg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Lagos46_kopie.jpg/500px-Lagos46_kopie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -833,6 +845,18 @@
   "license": "Public domain",
   "artist": "Thomas Astley"
  },
+ "The Mock Grave of the 1929 Women Riot.jpg": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/The_Mock_Grave_of_the_1929_Women_Riot.jpg/500px-The_Mock_Grave_of_the_1929_Women_Riot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Mock_Grave_of_the_1929_Women_Riot.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dappa Solomon"
+ },
+ "The Ottoman fleet attacking Tunis at La Goulette Braun and Hogenberg 1574.jpg": {
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/The_Ottoman_fleet_attacking_Tunis_at_La_Goulette_Braun_and_Hogenberg_1574.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Ottoman_fleet_attacking_Tunis_at_La_Goulette_Braun_and_Hogenberg_1574.jpg",
+  "license": "Public domain",
+  "artist": "Braun_and_Hogenberg"
+ },
  "The Second Anglo - Boer War, South Africa 1899 - 1902 Q82943.jpg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/The_Second_Anglo_-_Boer_War%2C_South_Africa_1899_-_1902_Q82943.jpg/500px-The_Second_Anglo_-_Boer_War%2C_South_Africa_1899_-_1902_Q82943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "page": "https://commons.wikimedia.org/wiki/File:The_Second_Anglo_-_Boer_War,_South_Africa_1899_-_1902_Q82943.jpg",
@@ -910,6 +934,12 @@
   "page": "https://commons.wikimedia.org/wiki/File:Usman_Ibn_Fodio_Calligraphy_02.png",
   "license": "CC BY-SA 4.0",
   "artist": "Anasskoko"
+ },
+ "Vandal cavalryman, c. AD 500, from a mosaic pavement at Bordj Djedid near Carthage.jpg": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Vandal_cavalryman%2C_c._AD_500%2C_from_a_mosaic_pavement_at_Bordj_Djedid_near_Carthage.jpg/500px-Vandal_cavalryman%2C_c._AD_500%2C_from_a_mosaic_pavement_at_Bordj_Djedid_near_Carthage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Vandal_cavalryman,_c._AD_500,_from_a_mosaic_pavement_at_Bordj_Djedid_near_Carthage.jpg",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author"
  },
  "View of Sokoto (1890).jpg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/View_of_Sokoto_%281890%29.jpg/500px-View_of_Sokoto_%281890%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
