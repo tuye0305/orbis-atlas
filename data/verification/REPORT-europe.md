@@ -147,3 +147,85 @@ source (dates, coordinates, story claims, stops, name ranges, reigns): 35 ok, 2 
 - Few new records for the 1st–2nd and 7th centuries; Scandinavia beyond the Kalmar Union,
   Swedish Empire, Althing and Oslo is still thin.
 - `ev-magellan-elcano-circumnavigation` links `person-lapulapu`, which no dataset defines yet.
+
+## 2026-11 review
+
+Independent reviewer (separate from the curator and its checker). Every check below used a
+fetched or searched web source, not reference knowledge: Wikidata `wbgetentities` for QIDs, and
+for claims Wikipedia plus at least one other site (USHMM, Yad Vashem, Anne Frank House, Fordham
+Medieval Sourcebook, LacusCurtius texts of Tacitus, Bundestag, CVCE, CAIN, CWGC/IWM, English
+Heritage, Encyclopaedia Romana, university and museum pages, Britannica search snippets).
+
+### Sample
+- **124 of the 169 new records (73%)** checked: 116 that the earlier report does not name
+  (62 events, 22 people, 8 places, 24 polities) plus the 8 importance-4/5 events it only covered
+  through auto-diffs (Las Navas, Hanse, Trent, Eighty Years' War, Glorious Revolution, Watt,
+  Holocaust, Berlin airlift). All new importance ≥4 records are now covered.
+- **90 stories read in full** (en) and checked claim by claim; zh skimmed for every sampled record
+  (a script scan found no traditional characters).
+- **QIDs:** about 330 (records plus every ruler of the sampled polities) resolved on Wikidata; all
+  are the intended subjects. `ev-the-holocaust` is Q2763 (the genocide) and the eastern-europe
+  dataset's `ev-auschwitz` is Q7341 (the camp), so they are distinct items. `person-lapulapu`
+  (linked from `ev-magellan-elcano-circumnavigation`) is defined on `data/southeast-asia` as
+  Q216275, "Lapulapu, ruler of Mactan", so the link resolves once that PR merges.
+
+### Corrections
+| Record | Field | Old → new | Source |
+| --- | --- | --- | --- |
+| ev-nazi-seizure-of-power | story en/zh | Enabling Act "441 votes to 94" → 444 to 94 | Bundestag text archive; Wikipedia *Enabling Act of 1933* |
+| ev-march-on-rome | summary en/zh | king asked Mussolini "on 30 October" → invited 29 Oct, appointed 30 Oct | Papers Past (NZ Herald, 31 Oct 1922); Wikipedia |
+| polity-dutch-republic | story en/zh, zh | "Grand Pensionary Oldenbarnevelt" → Land's Advocate of Holland (the title Grand Pensionary dates from after 1619); States General zh 三级会议 → 联省议会 | Wikipedia *Land's Advocate of Holland*, *Grand pensionary* |
+| ev-battle-of-verdun | story en/zh | "Nine villages … were never rebuilt" → nine destroyed, six never rebuilt; "more than a thousand guns" → some 1,200 massed guns | Connexion France; Wikipedia |
+| ev-dunkirk-evacuation | summary en/zh | destroyers carried "most" → "the largest share" | Wikipedia (239,555 from the harbour by many ship types) |
+| person-christine-de-pizan | stops | widowed 1390 → 1389 | Wikipedia; Encyclopedia.com |
+| person-louis-xiv | stops | 1643 accession stop at the Louvre → Saint-Germain-en-Laye, where Louis XIII died | Britannica facts: Louis XIII; Wikipedia |
+| person-otto-von-bismarck | summary en/zh | "Junker from Brandenburg" → from the Altmark in Prussian Saxony (Schönhausen) | Wikipedia |
+| place-cordoba | names 1031–1236 polity | adds Abbadid Seville (1070–91) between the taifa and the Almoravids | Wikipedia *Córdoba, Spain* |
+| ev-the-holocaust | story en/zh | Anne Frank "was betrayed" → "was discovered and arrested on 4 August 1944" (betrayal unproven) | Anne Frank House |
+| ev-watt-steam-engine | story en/zh | first engines "pumping water from mines" → one colliery pump (Tipton), one blowing Wilkinson's furnaces | Grace's Guide (Smiles, *Lives of Boulton and Watt*); the record's own note |
+| ev-domesday-book | summary en/zh | results "compiled in 1086" → survey completed 1086, then written up | Wikipedia *Domesday Book* (date of writing-up uncertain) |
+| ev-execution-of-charles-i | summary en/zh | Commonwealth "within weeks" → within months (declared 19 May 1649) | Wikipedia |
+| ev-first-battle-of-the-marne | summary en/zh | Germans "within about 50 km" of Paris → about 40 km | Wikipedia |
+| ev-gregorian-mission | story zh | Augustine 院长 (abbot) → 会长（副院长） (prior) | Wikipedia *Augustine of Canterbury* |
+| ev-coronation-of-otto-i | story zh | Adelaide 王太后 (queen mother) → 洛泰尔的遗孀 (King Lothair's widow) | Wikipedia *Otto the Great* |
+| person-voltaire | story en | "From Ferney he published Candide" → Candide 1759 (written at Les Délices), Calas case from Ferney | Wikipedia; Britannica |
+| place-lisbon | story en/zh | "second city of a Spanish-ruled Iberian Union" (unsupported) → ruled by the Spanish Habsburgs | — (claim removed) |
+| polity-swedish-empire | summary en/zh | Baltic and German provinces both credited to the Thirty Years' War → Ingria and Livonia by Gustavus's wars, German provinces in 1648 | Wikipedia *Swedish Empire* |
+| polity-papal-states | story en/zh | "swallowed by the new Kingdom of Italy in 1860, leaving only Rome" → lost to Piedmont-Sardinia in 1860, leaving Rome and Lazio | Wikipedia |
+| polity-republic-of-genoa | summary en/zh | "colonies … to the Atlantic" → colonies to Chios, merchants and fleets to Seville, Lisbon, Flanders | Wikipedia |
+| ev-glorious-revolution | story en | "bloodless in England" → "largely bloodless" | Wikipedia |
+| ev-great-mosque-of-cordoba | story en/zh | "the only prominent Umayyad prince to escape" → the most prominent | Wikipedia |
+| ev-sutton-hoo-ship-burial | story en/zh | Pretty asked Brown "in the summer of 1939" → Brown (hired 1938) opened Mound 1 in 1939 | Wikipedia *Sutton Hoo*, *Edith Pretty* |
+| ev-dutch-east-india-company | note | Oost-Indisch Huis "acquired 1606" → built for the company in 1606 | Wikipedia *Oost-Indisch Huis* |
+| ev-lombard-invasion-of-italy | note | Narses' invitation "generally regarded as legend" → contested tradition | Wikipedia *Alboin* |
+| ev-expedition-of-the-thousand | polities | `polity-kingdom-of-italy` (anachronistic in 1860) → new `polity-kingdom-of-sardinia`, `polity-kingdom-of-the-two-sicilies` | — |
+
+### Holocaust and Auschwitz
+`ev-the-holocaust` (Q2763) stacked exactly on `ev-auschwitz` (Q7341, eastern-europe). Its
+marker now sits at the Wannsee villa in Berlin (52.4331, 13.1658; Wikidata Q28144141), where
+the deportation of Europe's Jews was coordinated on 20 January 1942. The story names
+Auschwitz-Birkenau with its toll (about 1.1 million, nearly a million of them Jews; USHMM,
+Auschwitz Museum), and the note points to `ev-auschwitz`. zh 奥斯威辛 → 奥斯维辛 to match the
+eastern-europe record. The other branch was not edited.
+
+### Additions (12 records, each with ≥2 sources checked on the web)
+- **Polities:** `polity-bourbon-restoration-france` (1814–1830), `polity-july-monarchy`
+  (1830–48), `polity-french-second-republic` (1848–52), `polity-second-french-empire`
+  (1852–70), `polity-vichy-france` (1940–44), `polity-french-fourth-republic` (1946–58),
+  `polity-first-spanish-republic` (1873–74), `polity-kingdom-of-sardinia` (1720–1861, Q2577303),
+  `polity-kingdom-of-the-two-sicilies` (1816–61), `polity-denmark-norway` (1536–1814, medium).
+  Ruler QIDs were looked up with `wd.mjs search`.
+- **Events (1st century):** `ev-boudican-revolt` (60–61, medium: Tacitus gives 61) and
+  `ev-great-fire-of-rome` (64), both with stories drawn from Tacitus (LacusCurtius) and a modern
+  account (Warwick, Encyclopaedia Romana, Cambridge Companion to the Age of Nero).
+- **Auto-diffs:** two new, both keep-ours: Boudica's marker at Camulodunum (Wikidata's point is in
+  Bedfordshire) and the Two Sicilies from 1816 (Wikidata's 1738 is the earlier separate crowns).
+  0 open.
+
+### Left for a human
+- The 7th century is still thin (Sutton Hoo, Whitby); Scandinavia now has Kalmar,
+  Denmark–Norway and the Swedish Empire but no Danish or Norwegian medieval kingdom.
+- Notes not acted on: West Francia and Ostrogoths omit some short reigns (by design: notable
+  rulers only); Dutch-language and Portuguese zh renderings (迪尼什一世) follow 中文维基.
+- Britannica URLs for the new polities were confirmed through Britannica's own search; older
+  Britannica URLs in the dataset are still unopened (403 to scripts).
