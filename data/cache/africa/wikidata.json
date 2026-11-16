@@ -1,4 +1,36 @@
 {
+ "Q1004719": {
+  "label": {
+   "en": "Bologhine ibn Ziri",
+   "zh": "布卢金·本·齐里"
+  },
+  "description": "First leader of the Sanhaja Berber dynasty of Zirids (r. 972–984)",
+  "coord": null,
+  "image": "Statue de Bologhine ibn Ziri (Alger).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 920,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 984,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Buluggin ibn Ziri",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q101625": {
   "label": {
    "en": "Marrakech",
@@ -28,6 +60,38 @@
    "zh": "马拉喀什"
   }
  },
+ "Q102390302": {
+  "label": {
+   "en": "Atiba Atobatele",
+   "zh": null
+  },
+  "description": "prince of the Oyo Empire",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1800,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1800,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Atiba Atobatele",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q103135597": {
   "label": {
    "en": "Qalidurut",
@@ -46,6 +110,145 @@
   ],
   "wiki": {
    "en": "Qalidurut",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q104092030": {
+  "label": {
+   "en": "Muhammad Tayrab",
+   "zh": null
+  },
+  "description": "sultan of the Sudanese kingdom of Darfur",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1785,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad Tayrab",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q10416611": {
+  "label": {
+   "en": "Vandal Kingdom",
+   "zh": "汪达尔-阿兰王国"
+  },
+  "description": "Germanic Kingdom (435-534)",
+  "coord": {
+   "lat": 36.8867,
+   "lon": 10.3147
+  },
+  "image": "500 fall-roman-empire-ca.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 435,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 534,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1250464",
+   "Q5402094"
+  ],
+  "wiki": {
+   "en": "Vandal Kingdom",
+   "zh": "汪达尔王国"
+  }
+ },
+ "Q104652420": {
+  "label": {
+   "en": "Mavura Mhande Felipe",
+   "zh": null
+  },
+  "description": "King of Mutapa",
+  "coord": null,
+  "image": "Le grand Roy du Mono-Motapa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1560,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1652,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mavura Mhande Felipe",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q104776483": {
+  "label": {
+   "en": "Ngola Kiluanji kia Ndambi",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q104776642": {
+  "label": {
+   "en": "Ngola Mbandi",
+   "zh": null
+  },
+  "description": "king of the Ambundu",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
    "zh": null
   },
   "locationQid": null
@@ -71,6 +274,67 @@
    "zh": "大西洋奴隸貿易"
   },
   "locationQid": null
+ },
+ "Q1071439": {
+  "label": {
+   "en": "Merina Kingdom",
+   "zh": "伊默里纳王国"
+  },
+  "description": "former country",
+  "coord": {
+   "lat": -18.9236,
+   "lon": 47.5322
+  },
+  "image": "Temple du rova d'Antananarivo.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1540,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1897,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Imerina",
+   "zh": "伊默里纳王国"
+  }
+ },
+ "Q108757675": {
+  "label": {
+   "en": "Battle of Haydaran",
+   "zh": null
+  },
+  "description": "1052 battle in Tunisia",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1052,
+   "date": "1052-04-14",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Haydaran",
+   "zh": null
+  },
+  "locationQid": "Q242263"
  },
  "Q11104": {
   "label": {
@@ -155,6 +419,33 @@
   },
   "locationQid": null
  },
+ "Q1129036": {
+  "label": {
+   "en": "'Alawi dynasty",
+   "zh": "阿拉维王朝"
+  },
+  "description": "ruling dynasty of Morocco since 1666",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1666,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950"
+  ],
+  "wiki": {
+   "en": "Alawi dynasty",
+   "zh": "阿拉维王朝"
+  },
+  "locationQid": null
+ },
  "Q1136188": {
   "label": {
    "en": "Saadi dynasty",
@@ -187,6 +478,67 @@
    "zh": "薩阿德蘇丹國"
   },
   "locationQid": null
+ },
+ "Q1136575": {
+  "label": {
+   "en": "Vandalic War",
+   "zh": "汪达尔战争"
+  },
+  "description": "6th-century war of reconquest by the Eastern Roman Empire in North Africa",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 533,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 534,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Vandalic War",
+   "zh": "汪达尔战争"
+  },
+  "locationQid": "Q27381"
+ },
+ "Q1137302": {
+  "label": {
+   "en": "Battle of Omdurman",
+   "zh": "恩图曼战役"
+  },
+  "description": "battle between the Mahdists and Anglo-Sudanse in 1898.",
+  "coord": {
+   "lat": 15.7519,
+   "lon": 32.5201
+  },
+  "image": "21lancers.JPG",
+  "pointInTime": {
+   "year": 1898,
+   "date": "1898-09-02",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Omdurman",
+   "zh": "恩圖曼戰役"
+  }
  },
  "Q1139762": {
   "label": {
@@ -284,6 +636,125 @@
   },
   "locationQid": null
  },
+ "Q12055176": {
+  "label": {
+   "en": "Angolan Civil War",
+   "zh": "安哥拉内战"
+  },
+  "description": "armed conflict in Angola between 1975 and 2002",
+  "coord": null,
+  "image": "Cuban PT-76 Angola.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1975,
+   "date": "1975-11-11",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2002,
+   "date": "2002-04-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Angolan Civil War",
+   "zh": "安哥拉内战"
+  },
+  "locationQid": "Q916"
+ },
+ "Q125434": {
+  "label": {
+   "en": "Gqeberha",
+   "zh": "吉科巴哈"
+  },
+  "description": "city in the Eastern Cape, South Africa",
+  "coord": {
+   "lat": -33.9581,
+   "lon": 25.6
+  },
+  "image": "City Hall Port Elizabeth-003.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1820,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q2264924",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Gqeberha",
+   "zh": "格貝哈"
+  }
+ },
+ "Q1255269": {
+  "label": {
+   "en": "Great Mosque of Kairouan",
+   "zh": "乌克巴清真寺"
+  },
+  "description": "Tunisian religious building and site of Islamic worship",
+  "coord": {
+   "lat": 35.6814,
+   "lon": 10.1039
+  },
+  "image": "Grande Mosquée de Kairouan, vue d'ensemble.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 670,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q32815"
+  ],
+  "wiki": {
+   "en": "Great Mosque of Kairouan",
+   "zh": "凯鲁万大清真寺"
+  }
+ },
+ "Q1255896": {
+  "label": {
+   "en": "1948 South African general election",
+   "zh": "1948年南非总统选举"
+  },
+  "description": "election of the Herenigde Nasionale Party to government",
+  "coord": null,
+  "image": "South African Election 1948.png",
+  "pointInTime": {
+   "year": 1948,
+   "date": "1948-05-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q17317625"
+  ],
+  "wiki": {
+   "en": "1948 South African general election",
+   "zh": "1948年南非大选"
+  },
+  "locationQid": null
+ },
  "Q1259616": {
   "label": {
    "en": "Muqaddimah",
@@ -334,6 +805,38 @@
   },
   "locationQid": null
  },
+ "Q12967": {
+  "label": {
+   "en": "Leopold II of Belgium",
+   "zh": "利奥波德二世"
+  },
+  "description": "King of the Belgians from 1865 to 1909 (1835–1909)",
+  "coord": null,
+  "image": "Leopold ii garter knight.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1835,
+   "date": "1835-04-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1909,
+   "date": "1909-12-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Leopold II of Belgium",
+   "zh": "利奥波德二世 (比利时)"
+  },
+  "locationQid": null
+ },
  "Q131297": {
   "label": {
    "en": "1994 Genocide against Tutsi",
@@ -372,6 +875,33 @@
   },
   "locationQid": "Q1037"
  },
+ "Q131459949": {
+  "label": {
+   "en": "Sack of Kilwa",
+   "zh": null
+  },
+  "description": "1505 sack",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1505,
+   "date": "1505-07-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19841484"
+  ],
+  "wiki": {
+   "en": "Sack of Kilwa",
+   "zh": null
+  },
+  "locationQid": "Q1741475"
+ },
  "Q1319855": {
   "label": {
    "en": "Battle of Kirina",
@@ -400,6 +930,38 @@
    "en": "Battle of Kirina",
    "zh": null
   }
+ },
+ "Q13523003": {
+  "label": {
+   "en": "Camille Janssen",
+   "zh": null
+  },
+  "description": "Belgian colonial civil servant and lawyer",
+  "coord": null,
+  "image": "Camille Janssen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1837,
+   "date": "1837-12-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1926,
+   "date": "1926-04-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Camille Janssen",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q13582": {
   "label": {
@@ -469,6 +1031,38 @@
    "zh": "阿克苏姆王国"
   }
  },
+ "Q1394917": {
+  "label": {
+   "en": "Tamim ibn al-Mu'izz",
+   "zh": null
+  },
+  "description": "Ruler of the Zirids",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1031,
+   "date": "1031-11-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1108,
+   "date": "1108-02-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tamim ibn al-Mu'izz",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q140446": {
   "label": {
    "en": "Zagwe dynasty",
@@ -502,6 +1096,65 @@
   },
   "locationQid": null
  },
+ "Q142913": {
+  "label": {
+   "en": "Muhammad Ali dynasty",
+   "zh": "穆罕默德·阿里王朝"
+  },
+  "description": "ruling dynasty of Egypt and Sudan from the 19th to the mid-20th century",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1805,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950"
+  ],
+  "wiki": {
+   "en": "Muhammad Ali dynasty",
+   "zh": "穆罕默德·阿里王朝"
+  },
+  "locationQid": null
+ },
+ "Q146256": {
+  "label": {
+   "en": "Miriam Makeba",
+   "zh": "米瑞安·马卡贝"
+  },
+  "description": "South African singer and civil rights activist (1932–2008)",
+  "coord": null,
+  "image": "Miriam Makeba (1968).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1932,
+   "date": "1932-03-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2008,
+   "date": "2008-11-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Miriam Makeba",
+   "zh": "米瑞安·馬卡貝"
+  },
+  "locationQid": null
+ },
  "Q146723": {
   "label": {
    "en": "Kisangani",
@@ -525,6 +1178,72 @@
   "wiki": {
    "en": "Kisangani",
    "zh": "基桑加尼"
+  }
+ },
+ "Q1474791": {
+  "label": {
+   "en": "Sultanate of Darfur",
+   "zh": "达尔富尔苏丹国"
+  },
+  "description": "former country",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1603,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1874,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Sultanate of Darfur",
+   "zh": "達爾富爾蘇丹國"
+  },
+  "locationQid": null
+ },
+ "Q1475713": {
+  "label": {
+   "en": "Sennar Sultanate",
+   "zh": "丰吉苏丹国"
+  },
+  "description": "sultanate",
+  "coord": {
+   "lat": 15.6572,
+   "lon": 32.348
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1505,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12759805"
+  ],
+  "wiki": {
+   "en": "Funj Sultanate",
+   "zh": "丰吉苏丹国"
   }
  },
  "Q147677": {
@@ -556,6 +1275,38 @@
   "wiki": {
    "en": "Zara Yaqob",
    "zh": "扎拉·雅各布"
+  },
+  "locationQid": null
+ },
+ "Q152127": {
+  "label": {
+   "en": "Geiseric",
+   "zh": "盖萨里克"
+  },
+  "description": "King of the Vandals and Alans",
+  "coord": null,
+  "image": "Siliqua Vandals Honorius.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 389,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 477,
+   "date": "0477-01-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gaiseric",
+   "zh": "蓋薩里克"
   },
   "locationQid": null
  },
@@ -651,6 +1402,170 @@
   },
   "locationQid": "Q217426"
  },
+ "Q155845": {
+  "label": {
+   "en": "Chinua Achebe",
+   "zh": "钦努阿·阿契贝"
+  },
+  "description": "Nigerian novelist, poet, professor, and critic (1930-2013)",
+  "coord": null,
+  "image": "Chinua Achebe, 1966 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1930,
+   "date": "1930-11-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2013,
+   "date": "2013-03-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chinua Achebe",
+   "zh": "钦努阿·阿契贝"
+  },
+  "locationQid": null
+ },
+ "Q157159": {
+  "label": {
+   "en": "Abbas II",
+   "zh": "阿拔斯二世"
+  },
+  "description": "Khedive of Egypt (1874-1944) (r. 1892-1914)",
+  "coord": null,
+  "image": "His Highness Abbas Hilmy II.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1874,
+   "date": "1874-07-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1944,
+   "date": "1944-12-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abbas II of Egypt",
+   "zh": "阿拔斯二世·希尔米帕夏"
+  },
+  "locationQid": null
+ },
+ "Q157904": {
+  "label": {
+   "en": "Sultanate of Zanzibar",
+   "zh": "桑给巴尔苏丹国"
+  },
+  "description": "1856–1964 monarchy in the Indian Ocean",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1856,
+   "date": "1856-10-19",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1964,
+   "date": "1964-01-12",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q12759805",
+   "Q48349"
+  ],
+  "wiki": {
+   "en": "Sultanate of Zanzibar",
+   "zh": "桑给巴尔苏丹国"
+  },
+  "locationQid": null
+ },
+ "Q159378": {
+  "label": {
+   "en": "Isma'il Pasha",
+   "zh": "伊斯梅尔帕夏"
+  },
+  "description": "Khedive of Egypt from 1863 to 1879",
+  "coord": null,
+  "image": "Isma'il Pasha.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1830,
+   "date": "1830-12-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1895,
+   "date": "1895-03-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Isma'il Pasha of Egypt",
+   "zh": "伊斯梅爾帕夏"
+  },
+  "locationQid": null
+ },
+ "Q15989108": {
+  "label": {
+   "en": "Western African Ebola virus epidemic",
+   "zh": "2014年西非伊波拉病毒疫情"
+  },
+  "description": "2014-15 Ebola virus disease epidemic in West Africa",
+  "coord": null,
+  "image": "2014 ebola virus epidemic in West Africa simplified.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 2013,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2016,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q44512",
+   "Q17076801",
+   "Q3241045"
+  ],
+  "wiki": {
+   "en": "Western African Ebola epidemic",
+   "zh": "西非伊波拉病毒疫症"
+  },
+  "locationQid": "Q4412"
+ },
  "Q160307": {
   "label": {
    "en": "Fatimid Caliphate",
@@ -718,6 +1633,72 @@
   },
   "locationQid": null
  },
+ "Q1637896": {
+  "label": {
+   "en": "1983–1985 famine in Ethiopia",
+   "zh": "埃塞俄比亚饥荒"
+  },
+  "description": "1983–1985 famine in Ethiopia",
+  "coord": null,
+  "image": "Opbushel.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1983,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1985,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q168247"
+  ],
+  "wiki": {
+   "en": "1983–1985 famine in Ethiopia",
+   "zh": "1983年—1985年埃塞俄比亚饥荒"
+  },
+  "locationQid": null
+ },
+ "Q1639868": {
+  "label": {
+   "en": "Rivonia Trial",
+   "zh": "里沃尼亞審判"
+  },
+  "description": "South Africa trial which imprisoned Nelson Mandela",
+  "coord": {
+   "lat": -25.7475,
+   "lon": 28.1878
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1963,
+   "date": "1963-10-09",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1964,
+   "date": "1964-06-12",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8016240"
+  ],
+  "wiki": {
+   "en": "Rivonia Trial",
+   "zh": null
+  }
+ },
  "Q1646477": {
   "label": {
    "en": "Esigie",
@@ -782,6 +1763,33 @@
   },
   "locationQid": null
  },
+ "Q16736128": {
+  "label": {
+   "en": "Muhammad Alwali II",
+   "zh": null
+  },
+  "description": "Sultan of Kano",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1807,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad Alwali II",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q16845540": {
   "label": {
    "en": "Hummay",
@@ -813,6 +1821,133 @@
    "zh": "胡迈"
   },
   "locationQid": null
+ },
+ "Q16887134": {
+  "label": {
+   "en": "Yaji I",
+   "zh": null
+  },
+  "description": "Nigerian Emir",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yaji I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q169794": {
+  "label": {
+   "en": "Ranavalona I",
+   "zh": "腊纳瓦洛娜二世"
+  },
+  "description": "queen of Imerina (1828-1861)",
+  "coord": null,
+  "image": "Ranavalona I.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1788,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1861,
+   "date": "1861-08-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ranavalona I",
+   "zh": "腊纳瓦洛娜一世"
+  },
+  "locationQid": null
+ },
+ "Q17070460": {
+  "label": {
+   "en": "Siege of Mombasa",
+   "zh": null
+  },
+  "description": "1696–1698 siege",
+  "coord": {
+   "lat": -4.05,
+   "lon": 39.6667
+  },
+  "image": "Fort JesusMombasa.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1696,
+   "date": "1696-03-13",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1698,
+   "date": "1698-12-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Mombasa (1696–1698)",
+   "zh": null
+  }
+ },
+ "Q170850": {
+  "label": {
+   "en": "Anglo-Zanzibar War",
+   "zh": "英桑战争"
+  },
+  "description": "colonial war by the United Kingdom in East-Africa",
+  "coord": {
+   "lat": -6.1406,
+   "lon": 39.3365
+  },
+  "image": "AngloZanzibarWar.jpg",
+  "pointInTime": {
+   "year": 1896,
+   "date": "1896-08-27",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1896,
+   "date": "1896-08-27",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1896,
+   "date": "1896-08-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2659056"
+  ],
+  "wiki": {
+   "en": "Anglo-Zanzibar War",
+   "zh": "英桑战争"
+  }
  },
  "Q171203": {
   "label": {
@@ -944,6 +2079,33 @@
   },
   "locationQid": null
  },
+ "Q175784": {
+  "label": {
+   "en": "Amanirenas",
+   "zh": null
+  },
+  "description": "queen of the Meroitic Kingdom of Kush",
+  "coord": null,
+  "image": "Stele hamadab.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -50,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Amanirenas",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q17635890": {
   "label": {
    "en": "Nyatsimba Mutota",
@@ -1068,6 +2230,98 @@
   },
   "locationQid": "Q124943"
  },
+ "Q1781531": {
+  "label": {
+   "en": "Atrocities in the Congo Free State",
+   "zh": "刚果自由邦的暴行"
+  },
+  "description": "atrocities perpetrated in the Congo Free State (today the Democratic Republic of the Congo) which, at the time, was a colony under the personal rule of King Leopold II of Belgium",
+  "coord": null,
+  "image": "MutilatedChildrenFromCongo.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1885,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1908,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4817637",
+   "Q41397",
+   "Q28464887"
+  ],
+  "wiki": {
+   "en": "Atrocities in the Congo Free State",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q178663": {
+  "label": {
+   "en": "Meknes",
+   "zh": "梅克内斯"
+  },
+  "description": "city in Morocco",
+  "coord": {
+   "lat": 33.8833,
+   "lon": -5.55
+  },
+  "image": "Meknes.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q3327862"
+  ],
+  "wiki": {
+   "en": "Meknes",
+   "zh": "梅克内斯"
+  }
+ },
+ "Q1796232": {
+  "label": {
+   "en": "Kingdom of Ndongo",
+   "zh": "恩東戈王國"
+  },
+  "description": "which preceded Portuguese rule",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1518,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1683,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Ndongo",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q179848": {
   "label": {
    "en": "Scramble for Africa",
@@ -1099,6 +2353,30 @@
    "zh": "瓜分非洲"
   },
   "locationQid": null
+ },
+ "Q180717": {
+  "label": {
+   "en": "Sousse",
+   "zh": "苏塞"
+  },
+  "description": "city in Tunisia",
+  "coord": {
+   "lat": 35.8333,
+   "lon": 10.6333
+  },
+  "image": "Sousse Kasbah.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q41067667"
+  ],
+  "wiki": {
+   "en": "Sousse",
+   "zh": "苏塞"
+  }
  },
  "Q182781": {
   "label": {
@@ -1188,6 +2466,64 @@
    "zh": "圣凯瑟琳修道院"
   }
  },
+ "Q186525": {
+  "label": {
+   "en": "Julius Nyerere",
+   "zh": "朱利叶斯·尼雷尔"
+  },
+  "description": "Tanzanian politician and writer, first Prime Minister and President of Tanzania (1922–1999)",
+  "coord": null,
+  "image": "President Nyerere van Tanzania, koppen, Bestanddeelnr 928-2879 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1922,
+   "date": "1922-04-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1999,
+   "date": "1999-10-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Julius Nyerere",
+   "zh": "朱利叶斯·尼雷尔"
+  },
+  "locationQid": null
+ },
+ "Q187346": {
+  "label": {
+   "en": "Constantine",
+   "zh": "君士坦丁"
+  },
+  "description": "city in Algeria",
+  "coord": {
+   "lat": 36.365,
+   "lon": 6.6147
+  },
+  "image": "Magnia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q2989398",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Constantine, Algeria",
+   "zh": "君士坦丁 (阿尔及利亚)"
+  }
+ },
  "Q187593": {
   "label": {
    "en": "Lubumbashi",
@@ -1216,6 +2552,68 @@
   "wiki": {
    "en": "Lubumbashi",
    "zh": "盧本巴希"
+  }
+ },
+ "Q189297": {
+  "label": {
+   "en": "Zemene Mesafint",
+   "zh": "王子时代"
+  },
+  "description": "1769–1855 period of Ethiopian history",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1769,
+   "date": "1769-05-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1855,
+   "date": "1855-02-11",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Zemene Mesafint",
+   "zh": "王子时代"
+  },
+  "locationQid": null
+ },
+ "Q19040": {
+  "label": {
+   "en": "Big Hole",
+   "zh": "金伯利大洞"
+  },
+  "description": "open-pit and underground mine in Kimberley, South Africa",
+  "coord": {
+   "lat": -28.7389,
+   "lon": 24.7589
+  },
+  "image": "Open pit mine.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1871,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2387901",
+   "Q820477"
+  ],
+  "wiki": {
+   "en": "Big Hole",
+   "zh": "金伯利大洞"
   }
  },
  "Q191703": {
@@ -1280,6 +2678,167 @@
   "wiki": {
    "en": "Baybars",
    "zh": "拜巴爾"
+  },
+  "locationQid": null
+ },
+ "Q193874": {
+  "label": {
+   "en": "Mohammed V of Morocco",
+   "zh": "穆罕默德五世"
+  },
+  "description": "King of Morocco (1909-1961)",
+  "coord": null,
+  "image": "محمد بن يوسف العلوي.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1909,
+   "date": "1909-08-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1961,
+   "date": "1961-02-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad V of Morocco",
+   "zh": "穆罕默德五世 (摩洛哥)"
+  },
+  "locationQid": null
+ },
+ "Q1951858": {
+  "label": {
+   "en": "Muhammad I al-Mustansir",
+   "zh": "穆罕默德一世·穆斯坦綏爾"
+  },
+  "description": "Hafsid ruler of Ifriqiya from 1249 to 1277",
+  "coord": null,
+  "image": "Hafsid dinar - Tunisia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1228,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1277,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad I al-Mustansir",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1951892": {
+  "label": {
+   "en": "Muhammad al-Shaykh",
+   "zh": "穆罕默德·謝伊赫"
+  },
+  "description": "Saadian dynasty Sultan of Morocco (1490–1557)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1490,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1557,
+   "date": "1557-11-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mohammed al-Shaykh",
+   "zh": "穆罕默德·謝赫"
+  },
+  "locationQid": null
+ },
+ "Q1960": {
+  "label": {
+   "en": "Dar es Salaam",
+   "zh": "达累斯萨拉姆"
+  },
+  "description": "largest city in Tanzania and capital of Dar es Salaam Region",
+  "coord": {
+   "lat": -6.8161,
+   "lon": 39.2803
+  },
+  "image": "Dar es Salaam before dusk.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1862,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q2264924",
+   "Q51929311",
+   "Q108178728",
+   "Q129268952"
+  ],
+  "wiki": {
+   "en": "Dar es Salaam",
+   "zh": "达累斯萨拉姆"
+  }
+ },
+ "Q19873354": {
+  "label": {
+   "en": "Francis de Winton",
+   "zh": null
+  },
+  "description": "British officer (1835-1901)",
+  "coord": null,
+  "image": "Colonel Sir Francis de Winton (1885).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1835,
+   "date": "1835-06-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-12-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francis de Winton",
+   "zh": null
   },
   "locationQid": null
  },
@@ -1349,6 +2908,38 @@
   },
   "locationQid": "Q218272"
  },
+ "Q202155": {
+  "label": {
+   "en": "Thomas Sankara",
+   "zh": "托马·桑卡拉"
+  },
+  "description": "President of Burkina Faso from 1983 to 1987",
+  "coord": null,
+  "image": "Thomas Sankara in Harlem (1984).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1949,
+   "date": "1949-12-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1987,
+   "date": "1987-10-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Thomas Sankara",
+   "zh": "托马·桑卡拉"
+  },
+  "locationQid": null
+ },
  "Q202687": {
   "label": {
    "en": "Songhai Empire",
@@ -1383,6 +2974,38 @@
    "zh": "桑海帝国"
   }
  },
+ "Q2029666": {
+  "label": {
+   "en": "Jamshid bin Abdullah Al Busaidi",
+   "zh": "贾姆希德·本·阿卜杜拉"
+  },
+  "description": "Sultan of Zanzibar (1929–2024)",
+  "coord": null,
+  "image": "Jamshid bin Abdullah of Zanzibar.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1929,
+   "date": "1929-09-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2024,
+   "date": "2024-12-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jamshid bin Abdullah",
+   "zh": "贾姆希德·本·阿卜杜拉"
+  },
+  "locationQid": null
+ },
  "Q2030595": {
   "label": {
    "en": "Idris Alooma",
@@ -1412,6 +3035,72 @@
   "wiki": {
    "en": "Idris Alooma",
    "zh": "伊德里斯·阿劳马"
+  },
+  "locationQid": null
+ },
+ "Q2031919": {
+  "label": {
+   "en": "Zidan al-Nasir",
+   "zh": null
+  },
+  "description": "ruler of Saadi Dynasty Morocco from 1603 to 1627",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1560,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1627,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zidan Abu Maali",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q205718": {
+  "label": {
+   "en": "Zirid Dynasty",
+   "zh": "兹里德王朝"
+  },
+  "description": "Sanhaja Berber dynasty 972-1148",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 972,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1148,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q8436",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Zirid dynasty",
+   "zh": "齐里王朝"
   },
   "locationQid": null
  },
@@ -1479,6 +3168,70 @@
    "zh": null
   }
  },
+ "Q207019": {
+  "label": {
+   "en": "Ziyadat Allah III of Ifriqiya",
+   "zh": "阿布·穆德哈·兹亚达特·安拉三世·伊本·阿卜达拉"
+  },
+  "description": "Emir of Ifriqiya from 903 to 909",
+  "coord": null,
+  "image": "Aghlabid dinar - Ziyadat Allah III.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 881,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 916,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ziyadat Allah III of Ifriqiya",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q207052": {
+  "label": {
+   "en": "Ziyadat Allah I of Ifriqiya",
+   "zh": "兹亚达特·安拉一世"
+  },
+  "description": "Aghlabid emir of Ifriqiya",
+  "coord": null,
+  "image": "Aghlabid dirham - Ziyadat Allah I.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 788,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 838,
+   "date": "0838-06-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ziyadat Allah I of Ifriqiya",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q207521": {
   "label": {
    "en": "Ethiopian Empire",
@@ -1513,6 +3266,40 @@
    "zh": "埃塞俄比亚帝国"
   }
  },
+ "Q207600": {
+  "label": {
+   "en": "Aghlabids",
+   "zh": "阿格拉布王朝"
+  },
+  "description": "dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 800,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 909,
+   "date": "0909-03-21",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240",
+   "Q189898"
+  ],
+  "wiki": {
+   "en": "Aghlabid dynasty",
+   "zh": "阿格拉布王朝"
+  },
+  "locationQid": null
+ },
  "Q209217": {
   "label": {
    "en": "Great Zimbabwe",
@@ -1538,6 +3325,38 @@
    "en": "Great Zimbabwe",
    "zh": "大津巴布韦"
   }
+ },
+ "Q213001": {
+  "label": {
+   "en": "Farouk I of Egypt",
+   "zh": "法鲁克一世"
+  },
+  "description": "King of Egypt 1936 to 1952",
+  "coord": null,
+  "image": "Farouk-King-.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1920,
+   "date": "1920-02-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1965,
+   "date": "1965-03-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Farouk of Egypt",
+   "zh": "法鲁克一世"
+  },
+  "locationQid": null
  },
  "Q213507": {
   "label": {
@@ -1627,6 +3446,70 @@
   },
   "locationQid": "Q258"
  },
+ "Q218622": {
+  "label": {
+   "en": "King Andrianampoinimerina",
+   "zh": "安德里亚纳姆波伊尼梅里纳"
+  },
+  "description": "King of Imerina",
+  "coord": null,
+  "image": "Andrianampoinimerina HQ.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1745,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1810,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrianampoinimerina",
+   "zh": "安德里亚南普伊奈梅里纳"
+  },
+  "locationQid": null
+ },
+ "Q218628": {
+  "label": {
+   "en": "Radama II",
+   "zh": "拉達馬二世"
+  },
+  "description": "King of Madagascar",
+  "coord": null,
+  "image": "Radama II with crown.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1829,
+   "date": "1829-09-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1863,
+   "date": "1863-05-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Radama II",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q218861": {
   "label": {
    "en": "Gondar",
@@ -1681,6 +3564,127 @@
   "wiki": {
    "en": "Timbuktu Manuscripts",
    "zh": null
+  },
+  "locationQid": null
+ },
+ "Q221283": {
+  "label": {
+   "en": "Cape Coast",
+   "zh": "海岸角"
+  },
+  "description": "capital city of Central Region in Ghana",
+  "coord": {
+   "lat": 5.1,
+   "lon": -1.25
+  },
+  "image": "St Francis de Sales Cathedral CapeCoast.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q1907114"
+  ],
+  "wiki": {
+   "en": "Cape Coast",
+   "zh": "海岸角"
+  }
+ },
+ "Q225533": {
+  "label": {
+   "en": "Rasoherina I of Madagascar",
+   "zh": "臘左赫里納"
+  },
+  "description": "queen of Madagascar (1863-1868)",
+  "coord": null,
+  "image": "Rasoherina.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1814,
+   "date": "1814-09-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1868,
+   "date": "1868-04-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rasoherina",
+   "zh": "腊佐赫里纳"
+  },
+  "locationQid": null
+ },
+ "Q226122": {
+  "label": {
+   "en": "Funmilayo Ransome-Kuti",
+   "zh": "丰米拉约·兰塞姆-库蒂"
+  },
+  "description": "Nigerian educator, political campaigner, suffragist, and women's rights activist",
+  "coord": null,
+  "image": "70 year old Funmilayo Ransome-Kuti on her birthday.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1900,
+   "date": "1900-10-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1978,
+   "date": "1978-04-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Funmilayo Ransome-Kuti",
+   "zh": "弗恩米拉约·兰塞姆—库蒂"
+  },
+  "locationQid": null
+ },
+ "Q233326": {
+  "label": {
+   "en": "Ranavalona III",
+   "zh": "腊纳瓦洛娜三世"
+  },
+  "description": "last sovereign of the Kingdom of Madagascar (1861-1917)",
+  "coord": null,
+  "image": "Ranavalona.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1861,
+   "date": "1861-11-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1917,
+   "date": "1917-05-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ranavalona III",
+   "zh": "腊纳瓦洛娜三世"
   },
   "locationQid": null
  },
@@ -1750,6 +3754,105 @@
   },
   "locationQid": null
  },
+ "Q240168": {
+  "label": {
+   "en": "Ranavalona II",
+   "zh": "腊纳瓦洛娜二世"
+  },
+  "description": "Queen of Imerina (1868-1883)",
+  "coord": null,
+  "image": "Ranavalona II.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1829,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1883,
+   "date": "1883-07-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ranavalona II",
+   "zh": "腊纳瓦洛娜二世"
+  },
+  "locationQid": null
+ },
+ "Q2404226": {
+  "label": {
+   "en": "Teqorideamani",
+   "zh": null
+  },
+  "description": "Kushite King",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 200,
+   "date": null,
+   "precision": 6,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 300,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Teqorideamani",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q241790": {
+  "label": {
+   "en": "Kingdom of Kush",
+   "zh": "库施"
+  },
+  "description": "c. 1070 BCE – c. CE 350 / kingdom in Nubia (modern-day Sudan), northeast Africa",
+  "coord": {
+   "lat": 17.18,
+   "lon": 33.83
+  },
+  "image": "Nubia NASA-WW places german.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -2180,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 350,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q417175",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Kush",
+   "zh": "庫施王國"
+  }
+ },
  "Q244748": {
   "label": {
    "en": "Menilek II",
@@ -1781,6 +3884,63 @@
    "zh": "孟尼利克二世"
   },
   "locationQid": null
+ },
+ "Q245388": {
+  "label": {
+   "en": "Lucy",
+   "zh": "露西"
+  },
+  "description": "fossilized skeleton of a female Australopithecus afarensis",
+  "coord": null,
+  "image": "Reconstruction of the fossil skeleton of \"Lucy\" the Australopithecus afarensis.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -3200000,
+   "date": null,
+   "precision": 4,
+   "pid": "P569"
+  },
+  "died": {
+   "year": -3200000,
+   "date": null,
+   "precision": 4,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q26401003",
+   "Q18347143"
+  ],
+  "wiki": {
+   "en": "Lucy (hominid)",
+   "zh": "露西 (南方古猿)"
+  },
+  "locationQid": null
+ },
+ "Q2478752": {
+  "label": {
+   "en": "Tabenna",
+   "zh": null
+  },
+  "description": "Christian community founded in Upper Egypt around 320 by Saint Pachomius.",
+  "coord": {
+   "lat": 26.0997,
+   "lon": 32.3802
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486972"
+  ],
+  "wiki": {
+   "en": "Tabenna",
+   "zh": null
+  }
  },
  "Q2480949": {
   "label": {
@@ -1842,6 +4002,94 @@
    "zh": "嘉拉溫"
   },
   "locationQid": null
+ },
+ "Q257004": {
+  "label": {
+   "en": "Amanitore",
+   "zh": "阿曼尼托尔"
+  },
+  "description": "queen of the ancient Kushitic Kingdom of Meroë or Nubia",
+  "coord": null,
+  "image": "Amanitore.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 30,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 80,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Amanitore",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2593986": {
+  "label": {
+   "en": "Nur ibn Mujahid",
+   "zh": null
+  },
+  "description": "sultan",
+  "coord": null,
+  "image": "Harar, tomba dell'emiro nur bin mujahi 08.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1567,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nur ibn Mujahid",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2604396": {
+  "label": {
+   "en": "Witwatersrand Gold Rush",
+   "zh": "威特沃特斯兰德淘金热"
+  },
+  "description": "Gold rush in Johannesburg, South Africa",
+  "coord": {
+   "lat": -26.2103,
+   "lon": 27.9878
+  },
+  "image": "Witwatersrand gold.png",
+  "pointInTime": {
+   "year": 1886,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q273182"
+  ],
+  "wiki": {
+   "en": "Witwatersrand Gold Rush",
+   "zh": null
+  }
  },
  "Q262589": {
   "label": {
@@ -1907,6 +4155,33 @@
   },
   "locationQid": "Q262"
  },
+ "Q2638505": {
+  "label": {
+   "en": "Franco-Hova Wars",
+   "zh": "法國-馬達加斯加戰爭"
+  },
+  "description": "1883–1896 pair of French colonial invasions of Madagascar",
+  "coord": null,
+  "image": "LaGuerreAMadagascar.jpg",
+  "pointInTime": {
+   "year": 1895,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Franco-Hova Wars",
+   "zh": "法國—馬達加斯加戰爭"
+  },
+  "locationQid": "Q1019"
+ },
  "Q264562": {
   "label": {
    "en": "Book of Optics",
@@ -1958,6 +4233,70 @@
   "wiki": {
    "en": "António I of Kongo",
    "zh": null
+  },
+  "locationQid": null
+ },
+ "Q275888": {
+  "label": {
+   "en": "Amanishakheto",
+   "zh": "阿瑪尼沙克托"
+  },
+  "description": "Nubian queen",
+  "coord": null,
+  "image": "Osiris and the Egyptian resurrection 1911 cropped.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -100,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 100,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Amanishakheto",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q276938": {
+  "label": {
+   "en": "Ismail Ibn Sharif",
+   "zh": "伊斯梅尔"
+  },
+  "description": "Sultan of Morocco from 1672 to 1727",
+  "coord": null,
+  "image": "Ismail Ibn Sharif.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1645,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1727,
+   "date": "1727-03-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ismail Ibn Sharif",
+   "zh": "穆萊·伊斯梅爾"
   },
   "locationQid": null
  },
@@ -2089,6 +4428,38 @@
   ],
   "wiki": {
    "en": "Álvaro I of Kongo",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q284295": {
+  "label": {
+   "en": "Dihya",
+   "zh": "卡西奈"
+  },
+  "description": "Auresian Zenati Amazigh queen",
+  "coord": null,
+  "image": "Dihya Berber Queen of the Aurès by Vernet-Lecomte.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 668,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 703,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kahina",
    "zh": null
   },
   "locationQid": null
@@ -2270,6 +4641,102 @@
   },
   "locationQid": null
  },
+ "Q293658": {
+  "label": {
+   "en": "Al-Mu'izz ibn Badis",
+   "zh": null
+  },
+  "description": "ruler of the Zirids",
+  "coord": null,
+  "image": "Dinar of the Zirid emir al-Mu'izz ibn Badis.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1008,
+   "date": "1008-01-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1062,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Mu'izz ibn Badis",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q294777": {
+  "label": {
+   "en": "Gelimer",
+   "zh": "盖利摩"
+  },
+  "description": "King of the Vandals",
+  "coord": null,
+  "image": "AR 50 Denarii - Vandals - Gelimer - Carthage.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 480,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 553,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gelimer",
+   "zh": "盖利默"
+  },
+  "locationQid": null
+ },
+ "Q29480": {
+  "label": {
+   "en": "Mohammad Abu Zakariya Yahya",
+   "zh": "阿布-扎卡里亞"
+  },
+  "description": "Hafsid sultan of Tunis (1203-1249)",
+  "coord": null,
+  "image": "Abu Zakariyya' Yahya I - Hafsids AV Double Dinar 10000506.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1203,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1249,
+   "date": "1249-10-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abu Zakariya Yahya",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q298216": {
   "label": {
    "en": "Taytu Betul",
@@ -2395,6 +4862,38 @@
   },
   "locationQid": null
  },
+ "Q303729": {
+  "label": {
+   "en": "Al-Rashid of Morocco",
+   "zh": null
+  },
+  "description": "Sultan of Morocco (1631-1672)",
+  "coord": null,
+  "image": "Cherif Muleÿ-Arxid, PA07431.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1631,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1672,
+   "date": "1672-04-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Rashid of Morocco",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q3038134": {
   "label": {
    "en": "Dunama Dabbalemi",
@@ -2419,6 +4918,70 @@
   "wiki": {
    "en": "Dunama II Dibalemi",
    "zh": "杜纳马·迪巴拉米"
+  },
+  "locationQid": null
+ },
+ "Q305882": {
+  "label": {
+   "en": "Abbas I of Egypt",
+   "zh": "阿拔斯一世 (埃及)"
+  },
+  "description": "Wāli of Egypt from 1848 to 1854",
+  "coord": null,
+  "image": "Abbas I1.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1812,
+   "date": "1812-07-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1854,
+   "date": "1854-07-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abbas I of Egypt",
+   "zh": "阿拔斯一世·希尔米帕夏"
+  },
+  "locationQid": null
+ },
+ "Q307147": {
+  "label": {
+   "en": "Abu Faris Abd al-Aziz II Tunisian Caliph of Ifriqiya",
+   "zh": null
+  },
+  "description": "Hafsid Sultanate Caliph from 1394 to 1434",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1361,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1434,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abu Faris Abd al-Aziz II",
+   "zh": null
   },
   "locationQid": null
  },
@@ -2451,6 +5014,70 @@
   "wiki": {
    "en": "Abd al-Mu'min",
    "zh": "阿卜杜勒·慕敏"
+  },
+  "locationQid": null
+ },
+ "Q307599": {
+  "label": {
+   "en": "Abu Abd Allah al-Burtuqali Muhammad ibn Muhammad",
+   "zh": null
+  },
+  "description": "Wattasid ruler from 1504 to 1526",
+  "coord": null,
+  "image": "Muhammad al-Burtugali coin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1464,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1526,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abu Abd Allah al-Burtuqali Muhammad ibn Muhammad",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q307619": {
+  "label": {
+   "en": "Abdallah al-Ghalib",
+   "zh": null
+  },
+  "description": "Moroccan Saadi Dynasty ruler from 1557 to 1574",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1517,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1574,
+   "date": "1574-02-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abdallah al-Ghalib",
+   "zh": null
   },
   "locationQid": null
  },
@@ -2585,6 +5212,134 @@
    "zh": "基爾瓦蘇丹國"
   }
  },
+ "Q310962": {
+  "label": {
+   "en": "Hilderic",
+   "zh": "希尔德里克"
+  },
+  "description": "King of the Vandals",
+  "coord": null,
+  "image": "Vandal Kingdom Hilderic Denarius.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 460,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 533,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hilderic",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q311789": {
+  "label": {
+   "en": "Ibrahim Pasha of Egypt",
+   "zh": "易卜拉欣帕夏"
+  },
+  "description": "Egyptian general and Wāli of Egypt (1789–1848)",
+  "coord": null,
+  "image": "Ibrahim Pasha, Larivière.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1789,
+   "date": "1789-03-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1848,
+   "date": "1848-11-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ibrahim Pasha of Egypt",
+   "zh": "易卜拉欣帕夏"
+  },
+  "locationQid": null
+ },
+ "Q311839": {
+  "label": {
+   "en": "Fuad I of Egypt",
+   "zh": "福阿德一世"
+  },
+  "description": "Egyptian former King and former Sultan",
+  "coord": null,
+  "image": "Fuad I of Egypt.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1868,
+   "date": "1868-03-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1936,
+   "date": "1936-04-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fuad I of Egypt",
+   "zh": "福阿德一世"
+  },
+  "locationQid": null
+ },
+ "Q311888": {
+  "label": {
+   "en": "Thrasamund",
+   "zh": null
+  },
+  "description": "King of the Vandals",
+  "coord": null,
+  "image": "Denarius of Thrasamund.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 450,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 523,
+   "date": "0523-05-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Thrasamund",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q312342": {
   "label": {
    "en": "al-Azhar Mosque",
@@ -2687,6 +5442,38 @@
    "en": "Mahdist State",
    "zh": "馬赫迪國"
   }
+ },
+ "Q312604": {
+  "label": {
+   "en": "Gunthamund",
+   "zh": null
+  },
+  "description": "King of the Vandals",
+  "coord": null,
+  "image": "Genseric.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 450,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 496,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gunthamund",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q315659": {
   "label": {
@@ -2912,6 +5699,38 @@
   },
   "locationQid": null
  },
+ "Q335546": {
+  "label": {
+   "en": "Abu al-Abbas Ahmad ibn Muhammad",
+   "zh": "阿布·阿拔斯·艾哈邁德·伊本·穆罕默德"
+  },
+  "description": "16th-century Wattasid sultan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1480,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1549,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abu al-Abbas Ahmad ibn Muhammad",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q335620": {
   "label": {
    "en": "Abu al-Hasan Ali ibn Uthman",
@@ -3005,6 +5824,38 @@
   "wiki": {
    "en": "Abu Inan Faris",
    "zh": "阿布·伊南·法里斯"
+  },
+  "locationQid": null
+ },
+ "Q336991": {
+  "label": {
+   "en": "Ibn al-Aghlab",
+   "zh": "阿布·伊沙克·易卜拉欣二世·伊本·艾哈迈德"
+  },
+  "description": "Emir of Ifriqiya from 875 to 902",
+  "coord": null,
+  "image": "Aghlabid dinar - Ibrahim II.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 850,
+   "date": "0850-06-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 902,
+   "date": "0902-10-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ibrahim II of Ifriqiya",
+   "zh": "易弗里基叶的易卜拉欣二世"
   },
   "locationQid": null
  },
@@ -3126,6 +5977,101 @@
   },
   "locationQid": null
  },
+ "Q3526700": {
+  "label": {
+   "en": "Théophile Wahis",
+   "zh": null
+  },
+  "description": "Governor-General of the Congo (1844-1921)",
+  "coord": null,
+  "image": "Théophile Wahis.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1844,
+   "date": "1844-04-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1921,
+   "date": "1921-01-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Théophile Wahis",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q356026": {
+  "label": {
+   "en": "Muteesa II of Buganda",
+   "zh": "穆特萨二世"
+  },
+  "description": "Kabaka of the Kingdom of Buganda from 1939 to 1969 and the first President of Uganda in 1962",
+  "coord": null,
+  "image": "Sir. Edward Fredrick Mutesa, The President of Uganda.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1924,
+   "date": "1924-11-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1969,
+   "date": "1969-11-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mutesa II of Buganda",
+   "zh": "穆特萨二世"
+  },
+  "locationQid": null
+ },
+ "Q3561": {
+  "label": {
+   "en": "Algiers",
+   "zh": "阿尔及尔"
+  },
+  "description": "capital city of Algeria",
+  "coord": {
+   "lat": 36.7764,
+   "lon": 3.0586
+  },
+  "image": "Argel 3.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 944,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486972",
+   "Q515",
+   "Q5119"
+  ],
+  "wiki": {
+   "en": "Algiers",
+   "zh": "阿爾及爾"
+  }
+ },
  "Q356920": {
   "label": {
    "en": "War of the Golden Stool",
@@ -3181,6 +6127,39 @@
   "wiki": {
    "en": "Tunis",
    "zh": "突尼斯市"
+  }
+ },
+ "Q3579": {
+  "label": {
+   "en": "Tripoli",
+   "zh": "的黎波里"
+  },
+  "description": "capital city of Libya",
+  "coord": {
+   "lat": 32.8875,
+   "lon": 13.1875
+  },
+  "image": "Marcus Aurelius Arch Tripoli Libya.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -601,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q2264924",
+   "Q16124843",
+   "Q1549591",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Tripoli, Libya",
+   "zh": "的黎波里"
   }
  },
  "Q3624": {
@@ -3246,6 +6225,33 @@
   },
   "locationQid": null
  },
+ "Q3632772": {
+  "label": {
+   "en": "Badi II",
+   "zh": null
+  },
+  "description": "Ruler of Sennar",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1681,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Badi II",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q3659": {
   "label": {
    "en": "N'Djamena",
@@ -3279,6 +6285,38 @@
    "zh": "恩賈梅納"
   }
  },
+ "Q366744": {
+  "label": {
+   "en": "Sa'id of Egypt",
+   "zh": "赛义德帕夏"
+  },
+  "description": "Wāli of Egypt (1822–1863)",
+  "coord": null,
+  "image": "Muhammad Said Pascha 1855 Nadar (edited).JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1822,
+   "date": "1822-03-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1863,
+   "date": "1863-01-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sa'id of Egypt",
+   "zh": "赛义德帕夏"
+  },
+  "locationQid": null
+ },
  "Q369981": {
   "label": {
    "en": "Youssef ibn Tashfin",
@@ -3308,6 +6346,101 @@
   "wiki": {
    "en": "Yusuf ibn Tashfin",
    "zh": "优素福·本·塔什芬"
+  },
+  "locationQid": null
+ },
+ "Q3726": {
+  "label": {
+   "en": "Banjul",
+   "zh": "班珠尔"
+  },
+  "description": "capital of The Gambia",
+  "coord": {
+   "lat": 13.4531,
+   "lon": -16.5775
+  },
+  "image": "Banjul Gambia skyline.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1816,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q15646510"
+  ],
+  "wiki": {
+   "en": "Banjul",
+   "zh": "班竹"
+  }
+ },
+ "Q373032": {
+  "label": {
+   "en": "Truth and Reconciliation Commission",
+   "zh": "南非真相与和解委员会"
+  },
+  "description": "restorative justice tribunal in post-apartheid South Africa, founded to inquire state crimes and crimes of resistance movements etc. during the Apartheid era",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1996,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 2002,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q28169384",
+   "Q1501336"
+  ],
+  "wiki": {
+   "en": "Truth and Reconciliation Commission (South Africa)",
+   "zh": "真相与和解委员会 (南非)"
+  },
+  "locationQid": null
+ },
+ "Q374306": {
+  "label": {
+   "en": "Tevfik Paşa",
+   "zh": "陶菲克帕夏"
+  },
+  "description": "Khedive of Egypt and Sudan from 1879 to 1892",
+  "coord": null,
+  "image": "MohamedTewfik.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1852,
+   "date": "1852-11-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1892,
+   "date": "1892-01-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tewfik Pasha",
+   "zh": "陶菲克帕夏"
   },
   "locationQid": null
  },
@@ -3490,6 +6623,38 @@
   },
   "locationQid": null
  },
+ "Q3818737": {
+  "label": {
+   "en": "Ali Dinar",
+   "zh": null
+  },
+  "description": "Sultan of Darfur",
+  "coord": null,
+  "image": "Ali Dinar.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1860,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1916,
+   "date": "1916-11-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ali Dinar",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q383455": {
   "label": {
    "en": "Afonso I of Kongo",
@@ -3615,6 +6780,99 @@
    "zh": "马普托"
   }
  },
+ "Q38891": {
+  "label": {
+   "en": "Aswan Dam",
+   "zh": "阿斯旺水坝"
+  },
+  "description": "dam in Aswan, Egypt",
+  "coord": {
+   "lat": 23.9714,
+   "lon": 32.8802
+  },
+  "image": "Aswan High Dam-1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1960,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3497167",
+   "Q1244922",
+   "Q15911738"
+  ],
+  "wiki": {
+   "en": "Aswan High Dam",
+   "zh": "阿斯旺水坝"
+  }
+ },
+ "Q3897": {
+  "label": {
+   "en": "Luanda",
+   "zh": "罗安达"
+  },
+  "description": "capital of Angola",
+  "coord": {
+   "lat": -8.815,
+   "lon": 13.23
+  },
+  "image": "Luanda feb09 ost01.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1575,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q2264924",
+   "Q1549591",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Luanda",
+   "zh": "罗安达"
+  }
+ },
+ "Q3915": {
+  "label": {
+   "en": "Antananarivo",
+   "zh": "塔那那利佛"
+  },
+  "description": "capital and largest city of Madagascar",
+  "coord": {
+   "lat": -18.91,
+   "lon": 47.525
+  },
+  "image": "Lake Anosy, Central Antananarivo, Capital of Madagascar, Photo by Sascha Grabow.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1625,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Antananarivo",
+   "zh": "塔那那利佛"
+  }
+ },
  "Q3921": {
   "label": {
    "en": "Harare",
@@ -3674,6 +6932,40 @@
   "wiki": {
    "en": "Gamal Abdel Nasser",
    "zh": "加麦尔·阿卜杜勒·纳赛尔"
+  },
+  "locationQid": null
+ },
+ "Q3966451": {
+  "label": {
+   "en": "Benin Expedition of 1897",
+   "zh": "1897年貝寧遠征"
+  },
+  "description": "British invasion of the Kingdom of Benin in 1897",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1897,
+   "date": "1897-02-09",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1897,
+   "date": "1897-02-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q582956",
+   "Q645883",
+   "Q2659056"
+  ],
+  "wiki": {
+   "en": "Benin Expedition of 1897",
+   "zh": "1897年貝寧遠征"
   },
   "locationQid": null
  },
@@ -3741,6 +7033,38 @@
   },
   "locationQid": null
  },
+ "Q423630": {
+  "label": {
+   "en": "Ali bin Hamud Al Busaidi",
+   "zh": "阿里·本·哈穆德"
+  },
+  "description": "Sultan of Zanzibar (1884-1918)",
+  "coord": null,
+  "image": "Ali bin Hamud 6.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1884,
+   "date": "1884-06-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1918,
+   "date": "1918-12-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ali bin Hamud of Zanzibar",
+   "zh": "阿里·本·哈穆德"
+  },
+  "locationQid": null
+ },
  "Q428770": {
   "label": {
    "en": "Sultan al-Hasan ibn Sulaiman",
@@ -3773,6 +7097,71 @@
   },
   "locationQid": null
  },
+ "Q43033": {
+  "label": {
+   "en": "Desmond Tutu",
+   "zh": "德斯蒙德·图图"
+  },
+  "description": "South African churchman, politician, archbishop, Nobel Prize winner (1931–2021)",
+  "coord": null,
+  "image": "Archbishop-Tutu-medium.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1931,
+   "date": "1931-10-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2021,
+   "date": "2021-12-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Desmond Tutu",
+   "zh": "戴斯蒙·屠圖"
+  },
+  "locationQid": null
+ },
+ "Q431575": {
+  "label": {
+   "en": "Idrisid dynasty",
+   "zh": "伊德里斯王朝"
+  },
+  "description": "Arab Muslim dynasty that ruled parts of present-day Morocco and parts of western Algeria",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 788,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 974,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Idrisid dynasty",
+   "zh": "伊德里斯王朝"
+  },
+  "locationQid": null
+ },
  "Q437100": {
   "label": {
    "en": "Prempeh I",
@@ -3801,6 +7190,97 @@
   ],
   "wiki": {
    "en": "Prempeh I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q438601": {
+  "label": {
+   "en": "Idris Ibn Abdallah",
+   "zh": "伊德里斯一世 (伊德里斯王朝)"
+  },
+  "description": "Idrisid ruler (r. 788–791)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 791,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Idris I of Morocco",
+   "zh": "伊德里斯一世 (摩洛哥)"
+  },
+  "locationQid": null
+ },
+ "Q44024": {
+  "label": {
+   "en": "Athanasius of Alexandria",
+   "zh": "亚他那修"
+  },
+  "description": "Pope of Alexandria from 328 to 373 (296–373)",
+  "coord": null,
+  "image": "Ikone Athanasius von Alexandria.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 296,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 373,
+   "date": "0373-05-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Athanasius of Alexandria",
+   "zh": "亚他那修"
+  },
+  "locationQid": null
+ },
+ "Q454385": {
+  "label": {
+   "en": "Amanikhatashan",
+   "zh": null
+  },
+  "description": "Queen of Kush",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 100,
+   "date": null,
+   "precision": 6,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 85,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Amanikhatashan",
    "zh": null
   },
   "locationQid": null
@@ -3868,6 +7348,64 @@
    "zh": "伊本·图马特"
   },
   "locationQid": null
+ },
+ "Q458421": {
+  "label": {
+   "en": "Tippu Tip",
+   "zh": null
+  },
+  "description": "Swahili slave and ivory trader (c. 1832/7–1905)",
+  "coord": null,
+  "image": "Tipoo tib NNP.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1837,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1905,
+   "date": "1905-06-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tippu Tip",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q45942": {
+  "label": {
+   "en": "Annaba",
+   "zh": "安纳巴"
+  },
+  "description": "city in Algeria",
+  "coord": {
+   "lat": 36.9,
+   "lon": 7.7667
+  },
+  "image": "Annaba, algeria04.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2989398",
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Annaba",
+   "zh": "安纳巴"
+  }
  },
  "Q460342": {
   "label": {
@@ -4007,6 +7545,38 @@
   },
   "locationQid": null
  },
+ "Q4670092": {
+  "label": {
+   "en": "Abu Bakr Atiku",
+   "zh": "阿布巴克尔·阿蒂库"
+  },
+  "description": "Sultan of Sokoto",
+  "coord": null,
+  "image": "Abu Bakr Atiku Calligraphy 02.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1782,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1842,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abu Bakr Atiku",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q467347": {
   "label": {
    "en": "Dona Beatriz Kimpa Vita",
@@ -4068,6 +7638,38 @@
   "wiki": {
    "en": "Nzinga of Ndongo and Matamba",
    "zh": "恩津加"
+  },
+  "locationQid": null
+ },
+ "Q467803": {
+  "label": {
+   "en": "Yaa Asantewaa",
+   "zh": "雅·阿散蒂娃"
+  },
+  "description": "Ashanti Queen Mother and military leader",
+  "coord": null,
+  "image": "Ejisu Roundabout.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1832,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1921,
+   "date": "1921-10-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yaa Asantewaa",
+   "zh": null
   },
   "locationQid": null
  },
@@ -4208,6 +7810,38 @@
   },
   "locationQid": "Q948"
  },
+ "Q469775": {
+  "label": {
+   "en": "Moshoeshoe I",
+   "zh": "莫舒舒一世"
+  },
+  "description": "King of Lesotho from 1822 to 1870",
+  "coord": null,
+  "image": "Moshoeshoe.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1786,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1870,
+   "date": "1870-03-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Moshoeshoe I",
+   "zh": "莫舒舒一世"
+  },
+  "locationQid": null
+ },
  "Q470145": {
   "label": {
    "en": "Dingane kaSenzangakhona",
@@ -4270,6 +7904,67 @@
   "wiki": {
    "en": "Gebre Meskel Lalibela",
    "zh": "加布雷·梅斯凯尔·拉利贝拉"
+  },
+  "locationQid": null
+ },
+ "Q473748": {
+  "label": {
+   "en": "Buganda",
+   "zh": "布干达"
+  },
+  "description": "a Bantu kingdom within Uganda, the kingdom of Baganda people",
+  "coord": {
+   "lat": 0.3319,
+   "lon": 32.4181
+  },
+  "image": "Buganda map.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1420,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1966,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Buganda",
+   "zh": "布干达"
+  }
+ },
+ "Q4740071": {
+  "label": {
+   "en": "Amara Dunqas",
+   "zh": null
+  },
+  "description": "First ruler of the Funj Sultanate from 1504 to 1533/4",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1535,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Amara Dunqas",
+   "zh": null
   },
   "locationQid": null
  },
@@ -4344,6 +8039,183 @@
    "zh": "荷屬好望角殖民地"
   }
  },
+ "Q4840906": {
+  "label": {
+   "en": "Badi III",
+   "zh": null
+  },
+  "description": "ruler of the Kingdom of Sennar (1692–1716)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1692,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1716,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Badi III",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q4840911": {
+  "label": {
+   "en": "Badi IV",
+   "zh": null
+  },
+  "description": "Ruler of Sennar",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1764,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Badi IV",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q48584": {
+  "label": {
+   "en": "Rosetta Stone",
+   "zh": "羅塞塔石碑"
+  },
+  "description": "ancient Egyptian stele with inscriptions in three writing systems",
+  "coord": null,
+  "image": "Rosetta Stone - front face - corrected image.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -196,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q333109",
+   "Q861809",
+   "Q178743",
+   "Q139591219"
+  ],
+  "wiki": {
+   "en": "Rosetta Stone",
+   "zh": "羅塞塔石碑"
+  },
+  "locationQid": "Q6373"
+ },
+ "Q496845": {
+  "label": {
+   "en": "Hassan I of Morocco",
+   "zh": "哈桑一世"
+  },
+  "description": "Moroccan Sultan (1836-1894)",
+  "coord": null,
+  "image": "Hassan I of Morocco.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1836,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1894,
+   "date": "1894-06-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hassan I of Morocco",
+   "zh": "哈桑一世"
+  },
+  "locationQid": null
+ },
+ "Q500189": {
+  "label": {
+   "en": "M'banza-Kongo",
+   "zh": "姆班扎刚果"
+  },
+  "description": "capital of Angola's northwestern Zaire Province",
+  "coord": {
+   "lat": -6.2667,
+   "lon": 14.25
+  },
+  "image": "The Bansa, or residence of the King of Kongo, called St. Salvador (M'Banza Kongo), Astley 1745.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515"
+  ],
+  "wiki": {
+   "en": "M'banza-Kongo",
+   "zh": "姆班扎剛果"
+  }
+ },
+ "Q508985": {
+  "label": {
+   "en": "Muhammad asch-Schaich al-Mahdi",
+   "zh": null
+  },
+  "description": "Wattasid Sultan from 1472 to 1504",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1430,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1504,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abu Abd Allah al-Sheikh Muhammad ibn Yahya",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q518753": {
   "label": {
    "en": "Sharpeville massacre",
@@ -4373,6 +8245,70 @@
    "zh": "沙佩维尔屠杀"
   }
  },
+ "Q520226": {
+  "label": {
+   "en": "Samuel Maharero",
+   "zh": "塞缪尔·马亚雷罗"
+  },
+  "description": "Herero chief (1856–1923)",
+  "coord": null,
+  "image": "SamuelMaharero.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1856,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1923,
+   "date": "1923-03-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Samuel Maharero",
+   "zh": "塞缪尔·马亚雷罗"
+  },
+  "locationQid": null
+ },
+ "Q525141": {
+  "label": {
+   "en": "Radama I the Great",
+   "zh": "拉达马一世"
+  },
+  "description": "King of Imerina (1793–1828)",
+  "coord": null,
+  "image": "Radama I, portrait by Ramanankirahina.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1793,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1828,
+   "date": "1828-07-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Radama I",
+   "zh": "拉達馬一世"
+  },
+  "locationQid": null
+ },
  "Q537923": {
   "label": {
    "en": "Battle of Ridaniya",
@@ -4399,6 +8335,38 @@
    "zh": "里達尼亞之戰"
   },
   "locationQid": "Q79"
+ },
+ "Q548563": {
+  "label": {
+   "en": "Mohammed ben Abdallah",
+   "zh": "穆罕默德三世 (摩洛哥)"
+  },
+  "description": "Sultan of Morocco (1710–1790)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1710,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1790,
+   "date": "1790-04-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad III of Morocco",
+   "zh": "穆罕默德三世 (摩洛哥)"
+  },
+  "locationQid": null
  },
  "Q552458": {
   "label": {
@@ -4431,6 +8399,38 @@
    "zh": "阿里·本·优素福"
   },
   "locationQid": null
+ },
+ "Q55264655": {
+  "label": {
+   "en": "Elmina Castle",
+   "zh": "埃爾米納城堡"
+  },
+  "description": "fortified colonial trading post in Ghana",
+  "coord": {
+   "lat": 5.0827,
+   "lon": -1.3482
+  },
+  "image": "Castle of St. George’s 03.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1482,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1785071",
+   "Q210272",
+   "Q23413",
+   "Q1393765"
+  ],
+  "wiki": {
+   "en": "Elmina Castle",
+   "zh": "埃爾米納城堡"
+  }
  },
  "Q5555325": {
   "label": {
@@ -4592,6 +8592,65 @@
   },
   "locationQid": null
  },
+ "Q56823671": {
+  "label": {
+   "en": "Muhammad Abu Likaylik",
+   "zh": null
+  },
+  "description": "Sudanese ruler, founded the patrilineage of Hamaj lords",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1777,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q56823673": {
+  "label": {
+   "en": "Muhammad al-Fadl",
+   "zh": null
+  },
+  "description": "sultan of the Sudanese kingdom of Darfur",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1787,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1838,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q568712": {
   "label": {
    "en": "Samorian state",
@@ -4625,6 +8684,33 @@
    "en": "Samorian State",
    "zh": "瓦蘇盧帝國"
   }
+ },
+ "Q57553": {
+  "label": {
+   "en": "Mohammed VI of Morocco",
+   "zh": "穆罕默德六世"
+  },
+  "description": "king of Morocco since 1999",
+  "coord": null,
+  "image": "King Mohammed VI (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1963,
+   "date": "1963-08-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mohammed VI of Morocco",
+   "zh": "穆罕默德六世 (摩洛哥)"
+  },
+  "locationQid": null
  },
  "Q582861": {
   "label": {
@@ -4785,6 +8871,28 @@
   },
   "locationQid": null
  },
+ "Q622400": {
+  "label": {
+   "en": "Things Fall Apart",
+   "zh": "這個世界土崩瓦解了"
+  },
+  "description": "1958 novel by Chinua Achebe",
+  "coord": null,
+  "image": "Things Fall Apart books 02.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Things Fall Apart",
+   "zh": "这个世界土崩瓦解了"
+  },
+  "locationQid": null
+ },
  "Q6343": {
   "label": {
    "en": "Carthage",
@@ -4819,6 +8927,40 @@
   "wiki": {
    "en": "Carthage",
    "zh": "迦太基"
+  }
+ },
+ "Q6412613": {
+  "label": {
+   "en": "Kingdom of Kano",
+   "zh": "卡諾王國"
+  },
+  "description": "hausa kingdom",
+  "coord": {
+   "lat": 12,
+   "lon": 8.5167
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 999,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1349,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Kano",
+   "zh": null
   }
  },
  "Q642265": {
@@ -4884,6 +9026,28 @@
    "zh": "拉利贝拉岩石教堂"
   }
  },
+ "Q6541120": {
+  "label": {
+   "en": "Liberian Declaration of Independence",
+   "zh": null
+  },
+  "description": "document written by Hilary Teague and adopted by the Liberian Constitutional Convention on 26 July 1847 to announce the independence of Liberia from the US",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916"
+  ],
+  "wiki": {
+   "en": "Liberian Declaration of Independence",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q683632": {
   "label": {
    "en": "Great Mosque of Djenné",
@@ -4912,6 +9076,215 @@
    "en": "Great Mosque of Djenné",
    "zh": "杰内大清真寺"
   }
+ },
+ "Q69103": {
+  "label": {
+   "en": "Hassan II",
+   "zh": "哈桑二世"
+  },
+  "description": "King of Morocco from 1961 to 1999",
+  "coord": null,
+  "image": "Hassan II (1983).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1929,
+   "date": "1929-07-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1999,
+   "date": "1999-07-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hassan II",
+   "zh": "哈桑二世"
+  },
+  "locationQid": null
+ },
+ "Q692718": {
+  "label": {
+   "en": "Ibrahim Aghlab",
+   "zh": "易卜拉欣一世·伊本·阿格拉布·伊本·萨里木"
+  },
+  "description": "Aghlabid emir of Ifriqiya Tunisia (756-812)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 756,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 812,
+   "date": "0812-07-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ibrahim I ibn al-Aghlab",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6932682": {
+  "label": {
+   "en": "Muhammad Rumfa",
+   "zh": null
+  },
+  "description": "Nigerian politician, Emir of Kano",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad Rumfa",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6932864": {
+  "label": {
+   "en": "Muhammad ibn Badlay",
+   "zh": null
+  },
+  "description": "Sultan of Adal",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1472,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad ibn Badlay",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6932914": {
+  "label": {
+   "en": "Muhammadu Attahiru I",
+   "zh": "穆罕默德·阿塔希鲁一世"
+  },
+  "description": "Sultan of Sokoto",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1801,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1903,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammadu Attahiru I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q703018": {
+  "label": {
+   "en": "Barghash bin Said Al Busaidi",
+   "zh": "巴伽什·本·赛义德"
+  },
+  "description": "Sultan of Zanzibar (1837–1888)",
+  "coord": null,
+  "image": "Barghash.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1837,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1888,
+   "date": "1888-03-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Barghash bin Said of Zanzibar",
+   "zh": "巴爾加什·本·賽義德"
+  },
+  "locationQid": null
+ },
+ "Q705143": {
+  "label": {
+   "en": "Majid bin Said Al Busaidi",
+   "zh": "马吉德·本·赛义德"
+  },
+  "description": "Sultan of Zanzibar (1834-1870)",
+  "coord": null,
+  "image": "Majid Bin Saiid2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1834,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1870,
+   "date": "1870-10-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Majid bin Said",
+   "zh": "馬吉德·本·賽義德"
+  },
+  "locationQid": null
  },
  "Q705378": {
   "label": {
@@ -4983,6 +9356,102 @@
    "zh": "马及马及叛乱"
   },
   "locationQid": "Q153963"
+ },
+ "Q705556": {
+  "label": {
+   "en": "Uthman",
+   "zh": null
+  },
+  "description": "Hafsid Sultanate Caliph from 1435 to 1488",
+  "coord": null,
+  "image": "Hafsid Dinar - Abu Amr Othman.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1418,
+   "date": "1418-10-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1488,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abu 'Amr 'Uthman",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q707775": {
+  "label": {
+   "en": "Mwanga II",
+   "zh": "姆旺加二世"
+  },
+  "description": "Kabaka of Uganda",
+  "coord": null,
+  "image": "King Mwanga II Buganda.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1868,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1903,
+   "date": "1903-05-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mwanga II of Buganda",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q708027": {
+  "label": {
+   "en": "Daudi Cwa II of Buganda",
+   "zh": null
+  },
+  "description": "Kabaka of Buganda (1896–1939)",
+  "coord": null,
+  "image": "Daudi Cwa of Buganda.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1896,
+   "date": "1896-08-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1939,
+   "date": "1939-11-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Daudi Cwa II of Buganda",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q7114198": {
   "label": {
@@ -5109,6 +9578,55 @@
   },
   "locationQid": "Q15"
  },
+ "Q716109": {
+  "label": {
+   "en": "Yemrehana Krestos",
+   "zh": null
+  },
+  "description": "ruler of Ethiopia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1100,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yemrehana Krestos",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q716791": {
+  "label": {
+   "en": "Arusha Declaration",
+   "zh": "阿鲁沙宣言"
+  },
+  "description": "political statement by Julius Nyerere",
+  "coord": null,
+  "image": "Uhuru Monument Aug 2011.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7225113"
+  ],
+  "wiki": {
+   "en": "Arusha Declaration",
+   "zh": null
+  },
+  "locationQid": "Q4301"
+ },
  "Q718588": {
   "label": {
    "en": "Glele",
@@ -5175,6 +9693,41 @@
    "zh": "阿散蒂帝国"
   }
  },
+ "Q722699": {
+  "label": {
+   "en": "Fashoda Incident",
+   "zh": "法绍达事件"
+  },
+  "description": "imperial territorial disputes between Britain and France in Eastern Africa",
+  "coord": {
+   "lat": 9.8875,
+   "lon": 32.1103
+  },
+  "image": "Fashoda Incident map - en.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1898,
+   "date": "1898-09-18",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1898,
+   "date": "1898-11-03",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5791104",
+   "Q42750320"
+  ],
+  "wiki": {
+   "en": "Fashoda Incident",
+   "zh": "法绍达事件"
+  }
+ },
  "Q729768": {
   "label": {
    "en": "Zulu Kingdom",
@@ -5209,6 +9762,33 @@
    "zh": "祖鲁王国"
   }
  },
+ "Q7321053": {
+  "label": {
+   "en": "Rhodesia's Unilateral Declaration of Independence",
+   "zh": "单边独立宣言"
+  },
+  "description": "Declaration of independence from the United Kingdom",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1965,
+   "date": "1965-11-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3884316"
+  ],
+  "wiki": {
+   "en": "Rhodesia's Unilateral Declaration of Independence",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q7331": {
   "label": {
    "en": "Ibn Battuta",
@@ -5238,6 +9818,38 @@
   "wiki": {
    "en": "Ibn Battuta",
    "zh": "伊本·白图泰"
+  },
+  "locationQid": null
+ },
+ "Q736179": {
+  "label": {
+   "en": "Na'akueto La'ab",
+   "zh": null
+  },
+  "description": "ruler of Ethiopia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1200,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1300,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Na'akueto La'ab",
+   "zh": null
   },
   "locationQid": null
  },
@@ -5272,6 +9884,44 @@
    "zh": "姆潘德"
   },
   "locationQid": null
+ },
+ "Q743652": {
+  "label": {
+   "en": "British expedition to Abyssinia",
+   "zh": "1868年英国远征阿比西尼亚"
+  },
+  "description": "punitive expedition by the British to Abyssinia 1867-1868",
+  "coord": null,
+  "image": "1867-68 Abyssinia Expedition, (47), Magdala, sentry post over gate, (Custom).jpg",
+  "pointInTime": {
+   "year": 1868,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1867,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1868,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q582956",
+   "Q366301"
+  ],
+  "wiki": {
+   "en": "British expedition to Abyssinia",
+   "zh": null
+  },
+  "locationQid": "Q207521"
  },
  "Q744343": {
   "label": {
@@ -5334,6 +9984,40 @@
    "zh": "伊散德爾瓦納戰役"
   }
  },
+ "Q752662": {
+  "label": {
+   "en": "Hafsid dynasty",
+   "zh": "哈夫斯王朝"
+  },
+  "description": "Sunni Muslim dynasty of Amazigh (Berber) descent",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1229,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1574,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240",
+   "Q12759805"
+  ],
+  "wiki": {
+   "en": "Hafsid dynasty",
+   "zh": "哈夫斯王朝"
+  },
+  "locationQid": null
+ },
  "Q75613": {
   "label": {
    "en": "Almoravid dynasty",
@@ -5364,6 +10048,67 @@
   "wiki": {
    "en": "Almoravid dynasty",
    "zh": "穆拉比特王朝"
+  },
+  "locationQid": null
+ },
+ "Q76048": {
+  "label": {
+   "en": "Congo Free State",
+   "zh": "剛果自由邦"
+  },
+  "description": "area in Central Africa controlled by Leopold II of Belgium (1885–1908)",
+  "coord": {
+   "lat": -5.8547,
+   "lon": 13.0567
+  },
+  "image": "Belgian Congo Railway Network pre-1960.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1885,
+   "date": "1885-07-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1908,
+   "date": "1908-04-02",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Congo Free State",
+   "zh": "剛果自由邦"
+  }
+ },
+ "Q771956": {
+  "label": {
+   "en": "Perpetua and Felicity",
+   "zh": "聖佩爾佩圖阿幻覺"
+  },
+  "description": "early 3rd century Carthaginian Christian martyrs",
+  "coord": null,
+  "image": "Perpetua, Felicitas, Revocatus, Saturninus and Secundulus (Menologion of Basil II).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 203,
+   "date": "0203-03-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q109289221"
+  ],
+  "wiki": {
+   "en": "Perpetua and Felicity",
+   "zh": null
   },
   "locationQid": null
  },
@@ -5500,6 +10245,67 @@
   },
   "locationQid": null
  },
+ "Q80985": {
+  "label": {
+   "en": "Fez",
+   "zh": "非斯"
+  },
+  "description": "city in Morocco",
+  "coord": {
+   "lat": 34.0433,
+   "lon": -5.0033
+  },
+  "image": "Medina of Fes, Marocco.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 789,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Fez, Morocco",
+   "zh": "非斯"
+  }
+ },
+ "Q81140": {
+  "label": {
+   "en": "Huneric",
+   "zh": "胡内里克"
+  },
+  "description": "King of the Vandals",
+  "coord": null,
+  "image": "Huneric BMC 012 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 411,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 484,
+   "date": "0484-12-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Huneric",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q815159": {
   "label": {
    "en": "Siege of Khartoum",
@@ -5600,6 +10406,33 @@
    "zh": "尼日利亚内战"
   },
   "locationQid": "Q7569493"
+ },
+ "Q83162": {
+  "label": {
+   "en": "African National Congress",
+   "zh": "非洲人国民大会"
+  },
+  "description": "left-wing nationalist political party in South Africa",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1912,
+   "date": "1912-01-08",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7278"
+  ],
+  "wiki": {
+   "en": "African National Congress",
+   "zh": "非洲人国民大会"
+  },
+  "locationQid": null
  },
  "Q849623": {
   "label": {
@@ -5888,6 +10721,38 @@
   },
   "locationQid": null
  },
+ "Q887963": {
+  "label": {
+   "en": "Natakamani",
+   "zh": "纳塔卡玛尼"
+  },
+  "description": "Kushite King",
+  "coord": null,
+  "image": "Statue, claimed to depict Natakamani found in Tabo on the isle of Argo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -100,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 20,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Natakamani",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q888003": {
   "label": {
    "en": "Yekuno Amlak",
@@ -5979,6 +10844,38 @@
   },
   "locationQid": null
  },
+ "Q889311": {
+  "label": {
+   "en": "Muteesa I",
+   "zh": "穆特萨一世"
+  },
+  "description": "King of Buganda (1837–1884)",
+  "coord": null,
+  "image": "Mutesa I.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1837,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1884,
+   "date": "1884-10-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muteesa I of Buganda",
+   "zh": "穆特萨一世"
+  },
+  "locationQid": null
+ },
  "Q899": {
   "label": {
    "en": "Suez Canal",
@@ -6002,6 +10899,65 @@
    "en": "Suez Canal",
    "zh": "苏伊士运河"
   }
+ },
+ "Q9068538": {
+  "label": {
+   "en": "Ethiopian Revolution",
+   "zh": "埃塞俄比亚革命"
+  },
+  "description": "1974 period of sociopolitical upheaval in Ethiopia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1974,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Ethiopian Revolution",
+   "zh": "埃塞俄比亚革命"
+  },
+  "locationQid": null
+ },
+ "Q922653": {
+  "label": {
+   "en": "Idris II",
+   "zh": "伊德里斯二世"
+  },
+  "description": "Idrisid ruler from 803 to 828",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 791,
+   "date": "0791-10-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 828,
+   "date": "0828-08-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Idris II of Morocco",
+   "zh": "伊德里斯二世"
+  },
+  "locationQid": null
  },
  "Q925960": {
   "label": {
@@ -6194,6 +11150,99 @@
   },
   "locationQid": null
  },
+ "Q958": {
+  "label": {
+   "en": "South Sudan",
+   "zh": "南苏丹"
+  },
+  "description": "country in East Africa",
+  "coord": {
+   "lat": 7,
+   "lon": 30
+  },
+  "image": "South Sudan topographic map.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 2011,
+   "date": "2011-07-09",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q123480",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "South Sudan",
+   "zh": "南蘇丹"
+  }
+ },
+ "Q970799": {
+  "label": {
+   "en": "Wattasid dynasty",
+   "zh": "瓦塔斯王朝"
+  },
+  "description": "Ruling dynasty of Morocco (1472-1554)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1472,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1554,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Wattasid dynasty",
+   "zh": "瓦塔斯王朝"
+  },
+  "locationQid": null
+ },
+ "Q97376349": {
+  "label": {
+   "en": "Ife Heads",
+   "zh": null
+  },
+  "description": "group of visual artworks from Yoruba culture",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1100,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q838948",
+   "Q17489659",
+   "Q124336457"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": "Q1033"
+ },
  "Q98085401": {
   "label": {
    "en": "Kingdom of Mapungubwe",
@@ -6227,6 +11276,90 @@
   "wiki": {
    "en": "Kingdom of Mapungubwe",
    "zh": "马蓬古布韦"
+  }
+ },
+ "Q982863": {
+  "label": {
+   "en": "Khalifa bin Harub Al Busaidi",
+   "zh": "哈利法·本·哈魯布"
+  },
+  "description": "Sultan of Zanzibar (1879-1960)",
+  "coord": null,
+  "image": "Khalifa bin Hareb (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1879,
+   "date": "1879-08-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1960,
+   "date": "1960-10-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Khalifa bin Harub",
+   "zh": "哈利法·本·哈鲁卜"
+  },
+  "locationQid": null
+ },
+ "Q997320": {
+  "label": {
+   "en": "Ali Abu Hassun",
+   "zh": "阿里·阿布·哈松"
+  },
+  "description": "16th-century regent of the Crown of Morocco",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1450,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1554,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ali Abu Hassun",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "loc:Q1019": {
+  "coord": {
+   "lat": -20,
+   "lon": 47
+  },
+  "label": {
+   "en": "Madagascar",
+   "zh": "马达加斯加"
+  }
+ },
+ "loc:Q1033": {
+  "coord": {
+   "lat": 9,
+   "lon": 8
+  },
+  "label": {
+   "en": "Nigeria",
+   "zh": "尼日利亚"
   }
  },
  "loc:Q1037": {
@@ -6299,6 +11432,16 @@
    "zh": "德属东非"
   }
  },
+ "loc:Q1741475": {
+  "coord": {
+   "lat": -8.9817,
+   "lon": 39.5172
+  },
+  "label": {
+   "en": "Kilwa Kisiwani",
+   "zh": "基尔瓦基斯瓦尼"
+  }
+ },
  "loc:Q202311": {
   "coord": {
    "lat": 28,
@@ -6339,6 +11482,16 @@
    "zh": "法属阿尔及利亚"
   }
  },
+ "loc:Q242263": {
+  "coord": {
+   "lat": 33.8833,
+   "lon": 10.1167
+  },
+  "label": {
+   "en": "Gabès Governorate",
+   "zh": "加贝斯省"
+  }
+ },
  "loc:Q2538511": {
   "coord": {
    "lat": -4.0437,
@@ -6369,6 +11522,16 @@
    "zh": "阿尔及利亚"
   }
  },
+ "loc:Q27381": {
+  "coord": {
+   "lat": 30.4407,
+   "lon": 9.6817
+  },
+  "label": {
+   "en": "North Africa",
+   "zh": "北部非洲"
+  }
+ },
  "loc:Q28227": {
   "coord": {
    "lat": 30,
@@ -6389,6 +11552,26 @@
    "zh": "阿散蒂地区"
   }
  },
+ "loc:Q4301": {
+  "coord": {
+   "lat": -3.3667,
+   "lon": 36.6833
+  },
+  "label": {
+   "en": "Arusha",
+   "zh": "阿鲁沙"
+  }
+ },
+ "loc:Q4412": {
+  "coord": {
+   "lat": 12,
+   "lon": 3
+  },
+  "label": {
+   "en": "West Africa",
+   "zh": "西非"
+  }
+ },
  "loc:Q618399": {
   "coord": {
    "lat": -4.4,
@@ -6397,6 +11580,16 @@
   "label": {
    "en": "Republic of the Congo (Léopoldville)",
    "zh": "刚果共和国（利奥波德维尔）"
+  }
+ },
+ "loc:Q6373": {
+  "coord": {
+   "lat": 51.5194,
+   "lon": -0.1269
+  },
+  "label": {
+   "en": "British Museum",
+   "zh": "大英博物馆"
   }
  },
  "loc:Q6799844": {
@@ -6421,6 +11614,16 @@
   "label": {
    "en": "Egypt",
    "zh": "埃及"
+  }
+ },
+ "loc:Q916": {
+  "coord": {
+   "lat": -12.35,
+   "lon": 17.35
+  },
+  "label": {
+   "en": "Angola",
+   "zh": "安哥拉"
   }
  },
  "loc:Q948": {
