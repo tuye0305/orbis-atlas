@@ -74,7 +74,7 @@ Curator: west-asia deepening agent. Added 66 events, 28 people, 12 places and 18
   - Osman I died 1324 (Britannica; tradition says 1326; low confidence).
   - First Saudi State from 1727 (2022 Founding Day decree; note gives 1744).
 
-### Spot-check: 31 of 124 new records (25%) checked against a second source
+### Spot-check: 26 of 124 new records (21%) checked against a second source
 | Record | Checked | Result |
 | --- | --- | --- |
 | person-al-mutanabbi | Britannica (born 915 Kufa, died 23 Sep 965 near Dayr al-ʿAqul) | matches |
@@ -93,13 +93,16 @@ Curator: west-asia deepening agent. Added 66 events, 28 people, 12 places and 18
 | person-mesrop-mashtots | Koriun via World History Encyclopedia, encyclopedia.com: Edessa 404, refined at Samosata with the scribe Rufinus 405/406, 36 letters | matches |
 | person-baybars, person-nur-al-din | Siege of Antioch 18 May 1268; Krak 1271 (HistoryNet); Inab 29 June 1149 | matches |
 | person-mimar-sinan | ArchEyes timeline, B-TU lexicon: Ağırnas, chief architect 1538, Süleymaniye 1557, Selimiye 1575, died 17 Jul 1588 | matches |
-| person-hafez, person-saadi, person-rashid-al-din, person-mani | Iranica entries (death 1389/90; Bustan 1257 and Gulistan 1258; vizier 1298, executed 1318; Mani's death 274/277) | match, flagged medium where approximate |
-| ev-siege-of-acre-1189, ev-fall-of-acre-1291 | Ibn Shaddad trans. Richards; Abu al-Fida memoir (surrender 12 Jul 1191; ~2,700 prisoners killed Aug 1191; walls breached 18 May 1291, Templar keep held ~10 days) | matches |
-| ev-masada, ev-najran-massacre | Josephus BJ 7 (960 defenders); Book of the Himyarites, Robin 2015 (c. 523) | matches; legend flagged |
-| polity-zand, polity-qara-qoyunlu, polity-aq-qoyunlu (ruler reigns) | Bosworth, New Islamic Dynasties; Woods, Aqquyunlu | match |
+| ev-siege-of-acre-1189 | HistoryofWar.org, Medievalists.net: surrender 12 Jul 1191; Muslim prisoners (c. 2,500–3,000) killed 20 Aug 1191 at Ayyadieh | matches (story says "some 2,700") |
+| ev-treaty-of-georgievsk, polity-kartli-kakheti | New World Encyclopedia, Georgian Encyclopedia: signed 24 Jul 1783 at Georgievsk; Russia gave no help in 1795 | matches |
+| ev-battle-of-krtsanisi | Wikipedia, Georgian Encyclopedia: 8–11 Sep 1795; Tbilisi sacked | matches (Georgian sources call the field battle a draw; the sack is undisputed) |
+| ev-halabja-chemical-attack | PBS Frontline, Human Rights Watch via Tufts Atrocity Endings: 16 Mar 1988, 3,200–5,000 dead; often treated as separate from Anfal | **corrected**: 3,000–5,000 became 3,200–5,000; Anfal wording hedged |
+| ev-tobacco-protest | encyclopedia.com, Iranica: Talbot concession of 1890; Shirazi fatwa Dec 1891; concession cancelled | matches |
+
+Count: 26 records checked against a fresh web source (21% of 124). A further set was checked against the cited reference works without a new fetch, so it is not counted above: Hafez, Saadi, Rashid al-Din and Mani dates (Iranica), the 1291 siege of Acre, Masada, Najran, and the Zand and Turkmen ruler reigns (Bosworth, Woods).
 
 ### Story review
-The fork-written stories for existing events (43) were read for consistency with each record's summary and note. Contested topics are framed with attribution: the Armenian genocide gives the scholarly consensus and Turkey's official denial; Israel 1948 and 1967 cover both Israeli and Palestinian narratives; the Gaza war attributes casualty figures. Legends are flagged as legends: Valerian as footstool, the Tigris running black with ink, Bayezid's cage, the speech at Masada, Hunayn paid in gold.
+A parallel drafting pass wrote the 43 stories for existing events from each record's summary, sources and note. Four were read in full (Edessa 260, House of Wisdom, Armenian genocide, Masjed Soleyman), and all 58 pass the length and format checks. Their specific details have not been re-checked line by line; they are listed as a follow-up for a verifier. Contested topics are framed with attribution: the Armenian genocide gives the scholarly consensus and Turkey's official denial; Israel 1948 and 1967 cover both Israeli and Palestinian narratives; the Gaza war attributes casualty figures. Legends are flagged as legends: Valerian as footstool, the Tigris running black with ink, Bayezid's cage, the speech at Masada, Hunayn paid in gold.
 
 ### Known gaps
 - No standalone records yet for the Seljuk entry into Baghdad (1055), Timur's Syrian campaign (1400–01; left to central-asia), the Ghaznavids in Iran, the Muzaffarids, the Afsharid–Zand transition at Mashhad, the Kurdish emirates, or the modern Gulf states besides the UAE.
