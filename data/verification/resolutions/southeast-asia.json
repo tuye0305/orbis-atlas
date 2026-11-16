@@ -271,5 +271,13 @@
       "G. Cœdès, The Indianized States of Southeast Asia (1968)",
       "D. Chandler, A History of Cambodia (2008)"
     ]
+  },
+  "polity-kingdom-of-luang-prabang:to": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata ends the kingdom on 3 October 1893, when France took the Mekong left bank and Luang Prabang became a French protectorate; the kingdom and its royal line continued under the protectorate until it was merged with Vientiane and Champasak into the Kingdom of Laos on 11 May 1947 (Wikipedia infobox 1707–1947; Stuart-Fox). Noted in the record.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Kingdom_of_Luang_Phrabang",
+      "M. Stuart-Fox, A History of Laos (1997)"
+    ]
   }
 }
