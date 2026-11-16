@@ -169,3 +169,30 @@ No new West Asia record shares an id or QID with any other dataset on this branc
 They are not yet linked to `polity-ghaznavid`, `person-mahmud-of-ghazni` or `polity-zanzibar-sultanate`, because those ids exist only in the unmerged Central Asia (#16) and Africa (#14) PRs.
 
 `validate-data` gives 0 errors; the only new West Asia warning is the missing QID above. The build reports 0 open diffs.
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only pages retrieved during the audit (WebFetch/WebSearch); nothing checked from memory.
+
+- **Seed:** 20261118 (mulberry32 shuffle of the 176 records added or changed against `origin/feat/world-regions`, sorted by id; first 5 records with new stories taken, then filled in shuffle order).
+- **Sample (15, 5 with stories):**
+
+| Record | Source(s) retrieved | Result |
+|---|---|---|
+| ev-battle-of-edessa (story) | en.wikipedia Battle of Edessa | OK (source names Bishapur and Band-e Kaisar; Gundeshapur from the wider tradition) |
+| ev-babylonian-talmud (story) | en.wikipedia Babylonian Talmud | OK; **zh fixed**: story rendered the Mishnah 《密释纳》 while the summary uses 《密西拿》 |
+| ev-dome-of-the-rock (story) | en.wikipedia Dome of the Rock | OK |
+| ev-oil-masjed-soleyman (story) | en.wikipedia William Knox D'Arcy | OK (1914 government stake not in that page) |
+| ev-founding-of-baghdad (story) | en.wikipedia Round city of Baghdad | OK (c. 1 km radius; four gates; 100,000 workers per the chroniclers) |
+| ev-oman-coup-1970 | en.wikipedia 1970 Omani coup d'état | OK |
+| ev-samarra-capital | en.wikipedia Great Mosque of Samarra | OK |
+| ev-tehran-conference | en.wikipedia Tehran Conference | OK |
+| ev-hamidian-massacres | web search (Études arméniennes contemporaines 2022, Facing History, Wikipedia mirrors) | OK |
+| polity-ghassanid | en.wikipedia Ghassanids | OK |
+| person-hasan-i-sabbah | en.wikipedia Hasan-i Sabbah | OK |
+| ev-kuwait-independence-1961 | en.wikipedia Operation Vantage | OK |
+| ev-julian-persian-expedition | en.wikipedia Julian's Persian expedition | OK (Nisibis plus Corduene and four others = five provinces with Nisibis) |
+| ev-treaty-of-georgievsk | en.wikipedia Treaty of Georgievsk; search (Iranica, en.wikipedia Georgia within the Russian Empire: 1787 withdrawal, renunciation of Persian ties) | OK |
+| person-mani | en.wikipedia Mani | OK |
+
+**Error rate:** 1 of 15 records (7%), a zh rendering inconsistency; no factual errors.
