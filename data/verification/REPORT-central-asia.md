@@ -153,3 +153,30 @@ After these changes, `validate-data central-asia` gives 0 errors, and `build-dat
   - Hulagu in west-asia's `polity-ilkhanate`.
 - **References into central-asia:** every central-asia id that those branches reference resolves: `polity-xiongnu`, `polity-dzungar-khanate`, `polity-mongol-empire`, `person-genghis-khan`, `person-kublai-khan`, `polity-chagatai-khanate`, `polity-timurid` and `person-hulagu-khan`.
 - **References out of central-asia:** these resolve only once china is merged: `polity-eastern-han`, `polity-former-qin`, `person-kumarajiva`, `place-lhasa`, `place-kashgar`, `place-dunhuang`, `place-wuwei` and `person-kangxi-emperor`.
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only pages retrieved during the audit (WebFetch/WebSearch); nothing checked from memory.
+
+- **Seed:** 20261116 (mulberry32 shuffle of the 153 records added or changed against `origin/feat/world-regions`, sorted by id; first 5 records with new stories taken, then filled in shuffle order).
+- **Sample (15, 8 with stories):**
+
+| Record | Source(s) retrieved | Result |
+|---|---|---|
+| ev-paper-reaches-samarkand (story) | en.wikipedia History of paper | OK (Baghdad 793–795 under the Barmakid al-Fadl ibn Yahya; Toledo 1085, Xàtiva) |
+| ev-battle-of-dandanaqan (story) | en.wikipedia Battle of Dandanaqan | OK |
+| ev-al-biruni-india (story) | (Ghazni 1017 and c. 1030 completion as in the record's note; Nandana and Sachau 1888 not re-fetched) | OK, partly checked |
+| person-tonyukuk (story) | en.wikipedia Tonyukuk; web search on Bolchu (711) and the Kögmen campaign (709–710) | OK (en gives joining Ilterish as 681; record says 682, the usual date of the revolt; note already flags approximations) |
+| ev-battle-of-balkh-900 (story) | en.wikipedia Amr ibn al-Layth | OK |
+| person-yelu-dashi | en.wikipedia Yelü Dashi | OK |
+| person-genghis-khan (story) | en.wikipedia Genghis Khan | OK |
+| ev-erdene-zuu-founded | en.wikipedia Erdene Zuu Monastery; web search (travel guides, purge dates) | **Fixed**: summary said the wall has 108 stupas and that it was "the first great" monastery; source says 108 were planned and probably never achieved, and calls it probably the earliest surviving monastery. Note's "destroyed in 1937" now reads closed 1937, destroyed by 1939 (en + zh) |
+| person-zanabazar (story) | en.wikipedia Zanabazar | OK |
+| person-jalal-al-din-mingburnu | en.wikipedia Jalal al-Din Mangburni; web search on the siege of Tbilisi (9 March 1226) | OK (en Jalal page says 1225 for Tbilisi; the siege article gives 1226, kept) |
+| ev-mongolian-independence-1911 (story) | web search: en.wikipedia Bogd Khanate / Mongolian Revolution of 1911 | OK (St Petersburg delegation not confirmed by the snippets; July 1911 appeal to Russia is) |
+| person-songtsen-gampo | en.wikipedia Songtsen Gampo; zh search 松州之战 (贞观十二年, 638) | OK |
+| ev-andijan-massacre-2005 | en.wikipedia Andijan massacre | OK |
+| ev-otrar-catastrophe (story) | en.wikipedia Siege of Otrar; search (Encyclopaedia Iranica, en.wikipedia Inalchuq: five months, citadel one more month, molten silver per Nasawi) | OK |
+| polity-ganden-phodrang | en.wikipedia Ganden Phodrang | OK |
+
+**Error rate:** 1 of 15 records (7%). No systematic weakness.
