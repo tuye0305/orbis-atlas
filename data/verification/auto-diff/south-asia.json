@@ -179,6 +179,283 @@
   }
  },
  {
+  "key": "ev-faxian-in-india:year",
+  "id": "ev-faxian-in-india",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 402,
+  "wikidata": 414,
+  "qid": "Q11143573",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The QID is Faxian’s Record of Buddhist Kingdoms, finished c. 414–416 (Wikidata 414). The record dates the journey in India itself, c. 402–411, from Faxian’s own itinerary (Legge tr. 1886): Gandhara c. 402, Pataliputra 405–407, Tamralipti 408–409, Sri Lanka 410–411.",
+   "checked": [
+    "https://www.britannica.com/biography/Faxian",
+    "Faxian, A Record of Buddhistic Kingdoms, tr. J. Legge (1886)"
+   ]
+  }
+ },
+ {
+  "key": "ev-changu-narayan-inscription:year",
+  "id": "ev-changu-narayan-inscription",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 464,
+  "wikidata": 325,
+  "qid": "Q1062150",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 325 is the traditional founding date of the temple (the QID). The event is Manadeva’s pillar inscription, dated Samvat 386 = 464 CE (Riccardi 1989; Vajracharya 1973).",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Changu_Narayan_Temple",
+    "T. Riccardi, JAOS 109 (1989)"
+   ]
+  }
+ },
+ {
+  "key": "ev-gangaikonda-cholapuram:year",
+  "id": "ev-gangaikonda-cholapuram",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1022,
+  "wikidata": 1035,
+  "qid": "Q5521034",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The QID is the temple, whose first recorded endowment is of 1035. The record starts with Rajendra’s Ganges expedition, first mentioned in inscriptions of 1023 and dated c. 1021–1023 (Nilakanta Sastri), and spans to 1035 via endYear.",
+   "checked": [
+    "K. A. Nilakanta Sastri, The Cōḷas (1955), ch. 9",
+    "https://whc.unesco.org/en/list/250/"
+   ]
+  }
+ },
+ {
+  "key": "ev-dutch-ceylon:coord",
+  "id": "ev-dutch-ceylon",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   6.0329,
+   80.2168
+  ],
+  "wikidata": [
+   6.9271,
+   79.8612
+  ],
+  "qid": "Q1841483",
+  "km": 107,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata places the Dutch Ceylon item at Colombo. The marker is at Galle, the first Dutch conquest (1640) and site of the best-preserved Dutch fort (UNESCO); both are defensible anchors.",
+   "checked": [
+    "https://whc.unesco.org/en/list/451/"
+   ]
+  }
+ },
+ {
+  "key": "ev-unification-of-nepal:endYear",
+  "id": "ev-unification-of-nepal",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "endYear",
+  "ours": 1769,
+  "wikidata": 1816,
+  "qid": "Q7884900",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s campaign item runs to 1816 (Treaty of Sugauli) and includes the expansion under Prithvi Narayan Shah’s successors. This record covers his conquest of the Kathmandu Valley, completed with the fall of Bhaktapur in 1769 (Stiller; Whelpton).",
+   "checked": [
+    "J. Whelpton, A History of Nepal (2005), ch. 2",
+    "https://www.britannica.com/biography/Prithvi-Narayan-Shah"
+   ]
+  }
+ },
+ {
+  "key": "ev-great-bengal-famine-1770:year",
+  "id": "ev-great-bengal-famine-1770",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1769,
+  "wikidata": 1767,
+  "qid": "Q2477522",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The monsoon failure that caused the famine came in 1769 and mortality peaked in 1770 (Hunter; Datta). Wikidata’s 1767 has no support in the standard accounts, which date the famine 1769–1773.",
+   "checked": [
+    "W. W. Hunter, The Annals of Rural Bengal (1868), ch. 1",
+    "https://www.britannica.com/event/Bengal-famine-of-1770"
+   ]
+  }
+ },
+ {
+  "key": "ev-great-bengal-famine-1770:coord",
+  "id": "ev-great-bengal-famine-1770",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   24.18,
+   88.27
+  ],
+  "wikidata": [
+   23.9888,
+   88.7311
+  ],
+  "qid": "Q2477522",
+  "km": 51,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker at Murshidabad, then the provincial capital where contemporaries described the worst scenes; Wikidata’s point is a rural spot 51 km east. Both lie in the affected region.",
+   "checked": [
+    "W. W. Hunter, The Annals of Rural Bengal (1868)"
+   ]
+  }
+ },
+ {
+  "key": "ev-anglo-nepalese-war:coord",
+  "id": "ev-anglo-nepalese-war",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   30.333,
+   78.083
+  ],
+  "wikidata": [
+   27.7,
+   85.3167
+  ],
+  "qid": "Q195378",
+  "km": 762,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata puts the war at Kathmandu, which was never fought over. The marker is at Nalapani (Khalanga fort, Dehradun), the war’s best-known siege, as the note says.",
+   "checked": [
+    "J. Pemble, Britain’s Gurkha War (2008)",
+    "https://www.britannica.com/event/Anglo-Nepalese-War"
+   ]
+  }
+ },
+ {
+  "key": "ev-first-train-bombay-thane:year",
+  "id": "ev-first-train-bombay-thane",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1853,
+  "wikidata": 1849,
+  "qid": "Q3360189",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The QID is the Great Indian Peninsula Railway company, incorporated in 1849. The event is the first passenger service Bombay–Thane on 16 April 1853 (Kerr, Engines of Change).",
+   "checked": [
+    "I. J. Kerr, Engines of Change (2007)",
+    "https://www.britannica.com/topic/Indian-Railways"
+   ]
+  }
+ },
+ {
+  "key": "ev-first-kashmir-war:coord",
+  "id": "ev-first-kashmir-war",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   34.0837,
+   74.7973
+  ],
+  "wikidata": [
+   34.5,
+   76
+  ],
+  "qid": "Q652285",
+  "km": 120,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 34.5°N 76°E is a rounded point in Ladakh. The marker is at Srinagar, where Indian troops landed on 27 October 1947 and the decisive early fighting took place.",
+   "checked": [
+    "S. Raghavan, War and Peace in Modern India (2010), ch. 4"
+   ]
+  }
+ },
+ {
+  "key": "ev-operation-polo:coord",
+  "id": "ev-operation-polo",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   17.385,
+   78.4867
+  ],
+  "wikidata": [
+   17,
+   78.8333
+  ],
+  "qid": "Q2992979",
+  "km": 56,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is a rounded location in the former state; the marker is the capital Hyderabad, where the Nizam surrendered on 17 September 1948. 56 km apart.",
+   "checked": [
+    "https://www.britannica.com/place/Hyderabad-historical-state-India"
+   ]
+  }
+ },
+ {
+  "key": "ev-indo-pakistani-war-1965:coord",
+  "id": "ev-indo-pakistani-war-1965",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   32.37,
+   74.68
+  ],
+  "wikidata": [
+   34.5,
+   76
+  ],
+  "qid": "Q233583",
+  "km": 267,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata uses a generic Kashmir point (34.5, 76). The marker is at Chawinda in the Sialkot sector, scene of the war’s largest tank battle, as the note explains.",
+   "checked": [
+    "https://www.britannica.com/event/Indo-Pakistani-War-of-1965"
+   ]
+  }
+ },
+ {
+  "key": "ev-kargil-war:coord",
+  "id": "ev-kargil-war",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   34.5539,
+   76.1349
+  ],
+  "wikidata": [
+   34.0167,
+   76.4
+  ],
+  "qid": "Q404517",
+  "km": 65,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker at Kargil town, after which the war is named; Wikidata’s point lies 65 km south-east in the same sector of the Line of Control.",
+   "checked": [
+    "https://www.britannica.com/event/Kargil-War"
+   ]
+  }
+ },
+ {
   "key": "person-kanishka:born",
   "id": "person-kanishka",
   "dataset": "south-asia",
@@ -189,7 +466,7 @@
   "qid": "Q312544",
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "Kanishka’s birth year is unrecorded; 100 is a labelled placeholder (confidence low, note). Wikidata’s 78 comes from the obsolete equation of his era with the Shaka era; Falk (2001) and Iranica place year 1 in 127/128 CE.",
+   "reason": "Kanishka’s birth year is unrecorded; 100 is an estimate that makes him an adult at the start of his era in 127/128 (Falk; Iranica), explained in the note (confidence low). Wikidata’s 78 comes from the obsolete equation of his era with the Shaka era.",
    "checked": [
     "Harry Falk, Silk Road Art and Archaeology 7 (2001)",
     "Encyclopaedia Iranica: Kushan dynasty i. Dynastic history"
@@ -234,6 +511,99 @@
   }
  },
  {
+  "key": "person-samudragupta:born",
+  "id": "person-samudragupta",
+  "dataset": "south-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 318,
+  "wikidata": 335,
+  "qid": "Q1133363",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Samudragupta’s birth year is not recorded; Wikidata’s 335 is the conventional start of his reign. 318 is an inference from his adult accession c. 335 (Basham c. 335–376), explained in the record note (confidence low).",
+   "checked": [
+    "https://www.britannica.com/biography/Samudra-Gupta",
+    "U. Singh, A History of Ancient and Early Medieval India (2008), ch. 9",
+    "https://en.wikipedia.org/wiki/Samudragupta"
+   ]
+  }
+ },
+ {
+  "key": "person-samudragupta:died",
+  "id": "person-samudragupta",
+  "dataset": "south-asia",
+  "kind": "people",
+  "field": "died",
+  "ours": 375,
+  "wikidata": 380,
+  "qid": "Q1133363",
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "Britannica gives c. 330–380 (died 380); Upinder Singh and the existing Gupta ruler list use c. 335–375, with Chandragupta II from c. 375. Kept 375 for consistency; confidence low with note.",
+   "checked": [
+    "https://www.britannica.com/biography/Samudra-Gupta",
+    "U. Singh (2008), ch. 9"
+   ]
+  }
+ },
+ {
+  "key": "person-pulakeshin-ii:born",
+  "id": "person-pulakeshin-ii",
+  "dataset": "south-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 590,
+  "wikidata": 610,
+  "qid": "Q708370",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 610 is his accession, not his birth, which is unrecorded. c. 590 is inferred from his minority at his father Kirtivarman I’s death (c. 592–597) and his overthrow of Mangalesha c. 610; reasoning in the note.",
+   "checked": [
+    "https://www.britannica.com/biography/Pulakeshin-II",
+    "https://en.wikipedia.org/wiki/Mangalesha"
+   ]
+  }
+ },
+ {
+  "key": "person-iltutmish:born",
+  "id": "person-iltutmish",
+  "dataset": "south-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 1180,
+  "wikidata": 1192,
+  "qid": "Q336312",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "No contemporary source gives Iltutmish’s birth year; Britannica gives only his death (29 April 1236). Minhaj has him bought as a boy by Aibak c. 1197, amir of Gwalior after 1200 and commanding the Badaun troops in 1205–06, so Wikidata’s uncited 1192 is too late; c. 1180 is the inferred estimate (confidence low, note).",
+   "checked": [
+    "https://www.britannica.com/biography/Iltutmish",
+    "P. Jackson, The Delhi Sultanate (1999)",
+    "https://en.wikipedia.org/wiki/Iltutmish"
+   ]
+  }
+ },
+ {
+  "key": "person-rudrama-devi:born",
+  "id": "person-rudrama-devi",
+  "dataset": "south-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 1210,
+  "wikidata": 1259,
+  "qid": "Q3523666",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Her birth year is unrecorded. Wikidata’s 1259 would make her a baby when she became co-regent (c. 1260). The record now follows P. V. P. Sastry (1978, p. 125), who put her at about eighty at her death in 1289, i.e. born c. 1210 (confidence low, note). The Chandupatla inscription confirms her death shortly before 27 November 1289.",
+   "checked": [
+    "C. Talbot, Precolonial India in Practice (2001)",
+    "https://en.wikipedia.org/wiki/Rudrama_Devi",
+    "P. V. P. Sastry, The Kākatīyas of Warangal (1978), p. 125"
+   ]
+  }
+ },
+ {
   "key": "polity-sikh-empire:from",
   "id": "polity-sikh-empire",
   "dataset": "south-asia",
@@ -266,6 +636,128 @@
    "checked": [
     "https://www.britannica.com/place/Sri-Lanka",
     "K. M. de Silva, A History of Sri Lanka (1981)"
+   ]
+  }
+ },
+ {
+  "key": "polity-pandya:from",
+  "id": "polity-pandya",
+  "dataset": "south-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": -50,
+  "wikidata": -300,
+  "qid": "Q844910",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The Pandyas are attested from the 3rd century BCE (Wikidata −300), but the atlas floor is 50 BCE; the band starts there, as the note says.",
+   "checked": [
+    "https://www.britannica.com/topic/Pandya-dynasty"
+   ]
+  }
+ },
+ {
+  "key": "polity-pandya:to",
+  "id": "polity-pandya",
+  "dataset": "south-asia",
+  "kind": "polities",
+  "field": "to",
+  "ours": 1345,
+  "wikidata": 1650,
+  "qid": "Q844910",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 1650 counts the minor Tenkasi Pandya line. The Pandya kingdom as a regional power ended with the Khalji raid (1311) and the founding of the Madurai Sultanate (1335); 1345 marks that end (Nilakanta Sastri).",
+   "checked": [
+    "K. A. Nilakanta Sastri, The Pandyan Kingdom (1929)",
+    "https://www.britannica.com/topic/Pandya-dynasty"
+   ]
+  }
+ },
+ {
+  "key": "polity-chera:from",
+  "id": "polity-chera",
+  "dataset": "south-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": -50,
+  "wikidata": 800,
+  "qid": "Q877155",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s item starts with the Chera Perumals (800). This record also covers the Sangam-age Cheras of the early centuries CE, attested in Sangam poetry and Ashoka’s edicts; it starts at the atlas floor. Confidence low with note.",
+   "checked": [
+    "https://www.britannica.com/topic/Chera-dynasty"
+   ]
+  }
+ },
+ {
+  "key": "polity-chera:to",
+  "id": "polity-chera",
+  "dataset": "south-asia",
+  "kind": "polities",
+  "field": "to",
+  "ours": 1124,
+  "wikidata": 1102,
+  "qid": "Q877155",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "M. G. S. Narayanan dates the end of the Chera Perumal kingdom of Mahodayapuram to 1122–1124 under Rama Kulasekhara; Wikidata’s 1102 is an older estimate.",
+   "checked": [
+    "M. G. S. Narayanan, Perumāḷs of Kerala (2013)"
+   ]
+  }
+ },
+ {
+  "key": "polity-anuradhapura:from",
+  "id": "polity-anuradhapura",
+  "dataset": "south-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": -50,
+  "wikidata": -377,
+  "qid": "Q1965597",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Founded by tradition in 377 BCE (Wikidata −377), before the atlas floor of 50 BCE; the band starts there, as the note says.",
+   "checked": [
+    "https://whc.unesco.org/en/list/200/"
+   ]
+  }
+ },
+ {
+  "key": "polity-polonnaruwa:from",
+  "id": "polity-polonnaruwa",
+  "dataset": "south-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1055,
+  "wikidata": 1017,
+  "qid": "Q3167772",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 1017 is the start of Chola rule at Polonnaruwa. The Sinhalese Kingdom of Polonnaruwa dates from Vijayabahu I (r. 1055 from Ruhuna; Polonnaruwa taken 1070), per the Culavamsa and de Silva.",
+   "checked": [
+    "K. M. de Silva, A History of Sri Lanka (2005)",
+    "https://www.britannica.com/place/Polonnaruwa"
+   ]
+  }
+ },
+ {
+  "key": "polity-bhutan:from",
+  "id": "polity-bhutan",
+  "dataset": "south-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1616,
+  "wikidata": 1949,
+  "qid": "Q917",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The QID is the present country, whose Wikidata inception (1949) is the Indo-Bhutan treaty. The Bhutanese state was founded by Zhabdrung Ngawang Namgyal from 1616 (Karma Phuntsho; Aris).",
+   "checked": [
+    "Karma Phuntsho, The History of Bhutan (2013)",
+    "https://www.britannica.com/place/Bhutan/History"
    ]
   }
  }
