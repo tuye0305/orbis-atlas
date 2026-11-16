@@ -122,3 +122,32 @@ Independent reviewer, branch `data/mesoamerica` (PR #21). The branch was merged 
 - The Maya day-date convention (Gregorian/584285, as in Martin & Grube) is now applied to the three day-dated Classic events. Readers used to Wikipedia's Julian dates will see a 3–4-day offset.
 - Barbados and Saint-Domingue-era French Antilles beyond Martinique still have no polity; the 12th–14th centuries remain thin.
 - UNESCO, British Museum, Library of Congress and Smithsonian URLs return HTTP 403 to automated fetches. Their IDs were checked against the site names, not opened.
+
+## 2026-11 audit (web-sourced)
+
+This is an independent audit. Every check used a source retrieved during the audit (web search results or fetched pages); nothing was checked from memory.
+
+- Seed: `20261118`. A mulberry32 shuffle ran over the 221 records new in this PR, and the first 15 were kept; 6 of them have stories.
+- Sample: 15 records (9 events, 3 people, 2 places, 2 polities).
+
+| Record | Claims checked | Source(s) retrieved | Result |
+| --- | --- | --- | --- |
+| ev-execution-of-18-rabbit | 13th king of Copán; installed K'ak' Tiliw in 724; captured/beheaded 3 May 738; Quiriguá ~48–50 km north; Motagua jade route; Calakmul suspicion; Copán's terse "flint and shield" record; Stela E ~10.6 m | en.wikipedia Uaxaclajuun Ubʼaah Kʼawiil; Quiriguá; Kʼakʼ Tiliw Chan Yopaat; search snippets (Martin & Grube via secondary sites) | Confirmed. The story compresses the taking of the gods (c. 27 Apr) and the beheading (3 May) into one day, which is acceptable at story level |
+| polity-chichen-itza | c. 750–1200, dominance to c. 1100, council hypothesis (hedged), K'ak'upakal 869–890 | en.wikipedia Chichen Itza; K'ak'upakal; Penn Museum *Expedition* | Confirmed |
+| ev-el-castillo-chichen-itza | 4×91 steps + platform = 365, nine terraces / 18 sections, equinox serpent, 10th–11th c., inner pyramid with chacmool and red jaguar throne inlaid with jade (1930s), Great Ballcourt 168 m, Caracol and Venus, cenote offerings | en.wikipedia El Castillo; Chichen Itza; Lonely Planet | Confirmed |
+| person-siyaj-kahk | "Fire Is Born"; Tikal in Jan 378 on the day of the king's death; El Perú, Uaxactun; Yax Nuun Ahiin installed 379 | en.wikipedia Siyaj Kʼakʼ; Chak Tok Ichʼaak I; Stuart, "The Arrival of Strangers" (Mesoweb) | Confirmed. The "last mentioned c. 402" placeholder is not corroborated, but it is already flagged low confidence in the note |
+| ev-hieroglyphic-stairway-copan | Temple 26, 62 steps, ~2,200 glyphs, longest Maya text, K'ak' Yipyaj Chan K'awiil, 755 | en.wikipedia Copán; Kʼakʼ Yipyaj Chan Kʼawiil | Confirmed |
+| ev-abandonment-of-el-mirador | La Danta among largest by volume; abandonment c. 150 CE; environmental causes | en.wikipedia El Mirador; Guinness (La Danta) | Confirmed |
+| ev-arrival-of-strangers-tikal | 8.17.1.4.12, mid-Jan 378, El Perú earlier, "entered the water", Yax Nuun Ahiin 379, Spearthrower Owl, Uaxactun | Stuart (Mesoweb); en.wikipedia Chak Tok Ichʼaak I; Spearthrower Owl; El Perú | Confirmed. Sources put the El Perú arrival 8 or 10 days earlier; the story's "eight days" is within that range |
+| ev-founding-of-santo-domingo | 1496 Bartholomew Columbus, east bank of the Ozama, 1502 hurricane and Ovando's move to the west bank, Audiencia 1511 | en.wikipedia Santo Domingo; es.wikipedia Real Audiencia de Santo Domingo (real cédula 5 Oct 1511) | Confirmed |
+| place-oaxaca | Huaxyacac garrison 1486, Antequera 1529, Oaxaca after 1821, "de Juárez" 1872 | INAH *Lugares*; en.wikipedia Oaxaca City; Oaxaca | Fixed: the summary glossed Huaxyacac as "among the gourd trees". The tree is the huaje (*Leucaena leucocephala*), so the gloss now reads "among the huaje trees" (zh 瓦赫树（银合欢）之间) |
+| person-las-casas | Seville 1484; Hispaniola 1502; Caonao 1513 as chaplain; renunciation at Sancti Spíritus 1514 (Pentecost sermon, Sirach 34); Dominican 1522; Cumaná; Verapaz; Chiapas 1545–46, refusal of absolution; Valladolid 1550–51; *Brevísima* 1552; Madrid 1566; regret over African slavery | en.wikipedia Bartolomé de las Casas; es.wikipedia Matanza de Caonao; Cervantes Virtual; Las Casas timeline | Confirmed |
+| ev-decline-of-monte-alban | founded c. 500 BCE, 400 m above the valley, Building J, Danzantes, ~25,000 at peak, Oaxacan barrio at Teotihuacan, decline c. 750–850, Zaachila/Mitla/Lambityeco, Tomb 7 (Caso 1932) | en.wikipedia Monte Albán; EBSCO research starter | Confirmed. Decline dates vary by phase scheme, and the note already says so |
+| person-jose-maria-morelos | Valladolid 1765, muleteer, Carácuaro 1799, met Hidalgo at Charo/Indaparapeo on 20 Oct 1810, Cuautla breakout 2 May 1812, Oaxaca Nov 1812, Acapulco 1813, Chilpancingo 1813, shot at San Cristóbal Ecatepec on 22 Dec 1815 | en.wikipedia José María Morelos; Encyclopedia.com ("mestizo"); Mexican commemorative pages on the Charo meeting | Confirmed. His caste label is debated; "mestizo" follows Encyclopedia.com and Oxford Reference |
+| polity-guatemala | Secession 17 Apr 1839, republic 21 Mar 1847, rulers' terms, 1944–54, 1954 coup, civil war 1960–96 | en.wikipedia History of Guatemala; Guatemala; Encyclopedia.com | Confirmed |
+| place-port-royal | 1655, Cagway, renamed c. 1660 at the Restoration, buccaneers and Morgan, wealth, 7 Jun 1692 earthquake (about two-thirds lost) | en.wikipedia Port Royal; Pitt *Names* journal (1988) | Confirmed |
+| ev-aztec-triple-alliance | 1428, Itzcoatl/Nezahualcoyotl/Tlacopan vs Maxtla, Tezozomoc died 1426, Chimalpopoca, siege of more than 100 days, 2:2:1 tribute, Huexotzinco, burning of the histories, Ixtlilxochitl killed in 1418 | en.wikipedia Aztec Triple Alliance; Itzcoatl; Ixtlilxochitl I; History Crunch | Confirmed |
+
+**Error rate:** 1 of 15 records (about 7%), a minor wording error in an etymology. No date, QID, coordinate or zh name needed changing.
+
+The validator reports 0 errors. Enrich and build are clean, with no new auto-diff and 0 open diffs.
