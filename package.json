@@ -1,17 +1,18 @@
 {
   "name": "orbis-atlas",
-  "description": "Orbis · 寰宇时序 — an interactive 3D historical atlas of Europe, Africa and Asia over 2,000 years",
+  "description": "Orbis · 寰宇时序 — an interactive 3D historical atlas of the whole world over 2,000 years",
   "license": "GPL-3.0-or-later",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "node scripts/build-data.mjs && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "data": "node scripts/validate-data.mjs && node scripts/wd.mjs enrich && node scripts/build-data.mjs",
-    "shots": "node scripts/shots.mjs"
+    "shots": "node scripts/shots.mjs",
+    "predev": "node scripts/build-data.mjs"
   },
   "dependencies": {
     "d3-geo": "^3.1.2",

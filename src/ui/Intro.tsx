@@ -20,7 +20,7 @@ export function Intro({ dataReady, globeReady, error, onEnter, onRetry }: Props)
   return (
     <div className="intro">
       <div className="intro-inner">
-        <div className="intro-kicker">{lang === 'zh' ? '欧洲 · 非洲 · 亚洲 · 公元 1 — 2025' : 'Europe · Africa · Asia · 1 — 2025 CE'}</div>
+        <div className="intro-kicker">{lang === 'zh' ? '亚欧非 · 美洲 · 大洋洲 · 公元 1 — 2025' : 'Afro-Eurasia · Americas · Oceania · 1 — 2025 CE'}</div>
         <h1 className="intro-title">
           <span className="latin" lang="la">
             Orbis

@@ -1,16 +1,22 @@
 #!/usr/bin/env node
-// Merge curated data + Wikidata/Commons cache → public/data/atlas.json,
-// and write the auto-diff report (curated value vs Wikidata) to data/verification/.
-//   node scripts/build-data.mjs
+// Merge curated data + Wikidata/Commons cache → public/data/atlas.json (+ details.json: stories,
+// sources, notes and Wikipedia links, which only the detail card needs and loads lazily), and write
+// the auto-diff report (curated value vs Wikidata) per dataset to data/verification/auto-diff/<dataset>.{json,md}.
+//   node scripts/build-data.mjs              → also fetches pixel sizes for new Commons files
+//   node scripts/build-data.mjs --offline    → never touches the network (unsized images still work)
+// Both public files are build outputs (git-ignored); `npm run dev` and `npm run build` regenerate them.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { readCuratedFiles } from './wd.mjs';
+import { loadAllCaches, readCuratedFiles } from './wd.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p, fallback) => (fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : fallback);
-const wd = read(path.join(ROOT, 'data/cache/wikidata.json'), {});
-const commons = read(path.join(ROOT, 'data/cache/commons.json'), {});
+const { wd, img: commons } = loadAllCaches();
+// Original pixel size per Commons file ([width, height]). Kept in its own cache rather than in
+// commons.json, so the shared wd.mjs cache shape (and its re-fetch) is untouched.
+const SIZE_CACHE = path.join(ROOT, 'data/cache/commons-size.json');
+const sizes = read(SIZE_CACHE, {});
 // One resolutions file per dataset (data/verification/resolutions/<dataset>.json) so verifiers never collide.
 const resDir = path.join(ROOT, 'data/verification/resolutions');
 const resolutions = {};
@@ -25,20 +31,75 @@ function km(aLat, aLon, bLat, bLon) {
   return 6371 * 2 * Math.asin(Math.sqrt(d));
 }
 
+/**
+ * Commons' Artist field is flattened HTML. It often repeats itself (a visible name plus a hidden
+ * copy: "Unknown authorUnknown author") or carries boilerplate around the real name.
+ */
+export function cleanArtist(raw) {
+  if (!raw) return null;
+  let s = raw.replace(/&amp;/g, '&').replace(/\[\d+\]/g, '').replace(/\s+/g, ' ').trim();
+  const half = s.length / 2;
+  if (Number.isInteger(half) && s.slice(0, half) === s.slice(half)) s = s.slice(0, half).trim();
+  // A repeated lead-in ("Unknown authorUnknown author Cambridge…"), or a label glued to it ("AnonymousUnknown author").
+  s = s.replace(/^(.{4,40}?)\1(?=\s|$)/, '$1').replace(/^(?:Anonymous|Unknown)\s*(Unknown (?:author|artist))\b/i, '$1');
+  const assumed = /^No machine-readable author provided\.\s*(.+?)\s+assumed\b/i.exec(s);
+  if (assumed) s = assumed[1].replace(/~\w+$/, '');
+  // "Source.png: <author> derivative work: …" names the source file first; "User:" is wiki syntax.
+  s = s.replace(/^[^:]{1,80}\.(?:png|jpe?g|svg|gif|tiff?):\s*/i, '').replace(/^User:\s*/, '').replace(/\s+User:\s*/g, ', ').trim();
+  if (s.length > 60) s = `${s.slice(0, 57).replace(/\s+\S*$/, '')}…`;
+  return s || null;
+}
+
+/** Fill `sizes` for Commons files it lacks, 50 titles per request. Network failure is not fatal. */
+async function fetchSizes(files) {
+  const todo = files.filter((f) => !sizes[f]);
+  if (!todo.length || process.argv.includes('--offline')) return;
+  const UA = 'OrbisAtlas/0.1 (https://github.com/tuye0305/orbis-atlas; open-source historical atlas)';
+  try {
+    for (let i = 0; i < todo.length; i += 50) {
+      const batch = todo.slice(i, i + 50);
+      const url =
+        'https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=size' +
+        `&titles=${encodeURIComponent(batch.map((f) => `File:${f}`).join('|'))}`;
+      const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const norm = new Map((data.query?.normalized ?? []).map((n) => [n.to, n.from]));
+      for (const page of Object.values(data.query?.pages ?? {})) {
+        const ii = page.imageinfo?.[0];
+        const original = (norm.get(page.title) ?? page.title).replace(/^File:/, '');
+        if (ii?.width && ii?.height) sizes[original] = [ii.width, ii.height];
+      }
+    }
+  } catch (e) {
+    console.warn(`commons sizes: ${e.message}; images without a size fall back to measuring on load`);
+  }
+  const sorted = Object.fromEntries(Object.entries(sizes).sort(([a], [b]) => (a < b ? -1 : 1)));
+  fs.writeFileSync(SIZE_CACHE, `${JSON.stringify(sorted, null, 0).replace(/\],"/g, '],\n"')}\n`);
+}
+await fetchSizes(Object.entries(commons).filter(([, c]) => !c.missing).map(([f]) => f));
+
 function image(file) {
   if (!file) return undefined;
   const c = commons[file];
   if (!c || c.missing) return undefined;
-  return { file, thumb: c.thumb, page: c.page, license: c.license, artist: c.artist };
+  // The Commons page URL is derived from `file` client-side. w/h: the original's pixel size, so the
+  // card can reserve the frame before the picture loads and only offer widths Commons can render.
+  const [w, h] = sizes[file] ?? [];
+  return { file, thumb: c.thumb, license: c.license, artist: cleanArtist(c.artist), ...(w && h ? { w, h } : {}) };
 }
 
 const diffs = [];
 const seen = new Map();
 const out = { events: [], people: [], places: [], polities: [] };
+const details = {};
+const DETAIL_FIELDS = ['story', 'sources', 'note', 'wiki'];
+const datasets = new Set();
 
 for (const { region: dataset, kind, records } of readCuratedFiles()) {
   for (const raw of records) {
     const r = { ...raw, dataset };
+    datasets.add(dataset);
     if (seen.has(r.id)) {
       console.warn(`duplicate id ${r.id} in ${dataset} (also in ${seen.get(r.id)}); skipped — run validate-data`);
       continue;
@@ -65,7 +126,8 @@ for (const { region: dataset, kind, records } of readCuratedFiles()) {
       }
       if (kind === 'people') {
         if (w.born && w.born.precision >= 9 && Math.abs(w.born.year - r.born) > 1) diff('born', r.born, w.born.year);
-        if (w.died && w.died.precision >= 9 && Math.abs(w.died.year - r.died) > 1) diff('died', r.died, w.died.year);
+        if (w.died && r.died == null) diff('died', null, w.died.year);
+        else if (w.died && w.died.precision >= 9 && Math.abs(w.died.year - r.died) > 1) diff('died', r.died, w.died.year);
       }
       if (kind === 'polities') {
         if (w.start && w.start.precision >= 9 && Math.abs(w.start.year - r.from) > 2) diff('from', r.from, w.start.year);
@@ -83,6 +145,12 @@ for (const { region: dataset, kind, records } of readCuratedFiles()) {
     if (img) r.image = img;
     else delete r.image;
     if (kind === 'polities' && !r.color) r.color = PALETTE[hash(r.id) % PALETTE.length];
+    const d = {};
+    for (const f of DETAIL_FIELDS) {
+      if (r[f] !== undefined && r[f] !== null) d[f] = r[f];
+      delete r[f];
+    }
+    if (Object.keys(d).length) details[r.id] = d;
     out[kind].push(r);
   }
 }
@@ -95,27 +163,35 @@ const polityNames = read(path.join(ROOT, 'data/borders/polity-names.json'), {});
 const atlas = { generated: new Date().toISOString().slice(0, 10), ...out, polityNames };
 fs.mkdirSync(path.join(ROOT, 'public/data'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, 'public/data/atlas.json'), JSON.stringify(atlas));
+fs.writeFileSync(path.join(ROOT, 'public/data/details.json'), JSON.stringify(details));
+fs.rmSync(path.join(ROOT, 'public/data/stories.json'), { force: true });
 
-// Report
-fs.mkdirSync(path.join(ROOT, 'data/verification'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'data/verification/auto-diff.json'), `${JSON.stringify(diffs, null, 1)}\n`);
+// Report: one file pair per dataset, so pull requests on different datasets never collide.
+const diffDir = path.join(ROOT, 'data/verification/auto-diff');
+fs.rmSync(diffDir, { recursive: true, force: true });
+fs.mkdirSync(diffDir, { recursive: true });
+for (const dataset of [...datasets].sort()) {
+  const mine = diffs.filter((d) => d.dataset === dataset);
+  const open = mine.filter((d) => !d.resolution);
+  fs.writeFileSync(path.join(diffDir, `${dataset}.json`), `${JSON.stringify(mine, null, 1)}\n`);
+  const lines = [
+    `# Auto-diff: ${dataset} — curated values vs Wikidata`,
+    '',
+    `Generated by \`scripts/build-data.mjs\`. ${mine.length} differences, ${open.length} unresolved.`,
+    `Each difference is resolved in \`../resolutions/${dataset}.json\` by a verifier after checking a second independent source.`,
+    '',
+    '| Record | Field | Ours | Wikidata | Resolution |',
+    '| --- | --- | --- | --- | --- |',
+    ...mine.map(
+      (d) =>
+        `| \`${d.id}\` ([${d.qid}](https://www.wikidata.org/wiki/${d.qid})) | ${d.field}${d.km ? ` (${d.km} km)` : ''} | ${JSON.stringify(d.ours)} | ${JSON.stringify(d.wikidata)} | ${d.resolution ? `${d.resolution.verdict}: ${(d.resolution.reason ?? '').replace(/\|/g, '\\|')}` : '**open**'} |`,
+    ),
+  ];
+  fs.writeFileSync(path.join(diffDir, `${dataset}.md`), `${lines.join('\n')}\n`);
+}
 const open = diffs.filter((d) => !d.resolution);
-const lines = [
-  '# Auto-diff: curated values vs Wikidata',
-  '',
-  `Generated by \`scripts/build-data.mjs\`. ${diffs.length} differences, ${open.length} unresolved.`,
-  'Each difference is resolved in `resolutions/<dataset>.json` by a verifier after checking a second independent source.',
-  '',
-  '| Record | Field | Ours | Wikidata | Resolution |',
-  '| --- | --- | --- | --- | --- |',
-  ...diffs.map(
-    (d) =>
-      `| \`${d.id}\` ([${d.qid}](https://www.wikidata.org/wiki/${d.qid})) | ${d.field}${d.km ? ` (${d.km} km)` : ''} | ${JSON.stringify(d.ours)} | ${JSON.stringify(d.wikidata)} | ${d.resolution ? `${d.resolution.verdict}: ${d.resolution.reason ?? ''}` : '**open**'} |`,
-  ),
-];
-fs.writeFileSync(path.join(ROOT, 'data/verification/AUTO-DIFF.md'), `${lines.join('\n')}\n`);
 
-const size = Math.round(fs.statSync(path.join(ROOT, 'public/data/atlas.json')).size / 1024);
+const kb = (f) => Math.round(fs.statSync(path.join(ROOT, 'public/data', f)).size / 1024);
 console.log(
-  `atlas.json ${size} KB · ${out.events.length} events, ${out.people.length} people, ${out.places.length} places, ${out.polities.length} polities · ${diffs.length} diffs (${open.length} open) · ${Object.keys(polityNames).length} border names`,
+  `atlas.json ${kb('atlas.json')} KB, details.json ${kb('details.json')} KB (${Object.values(details).filter((d) => d.story).length} stories) · ${out.events.length} events, ${out.people.length} people, ${out.places.length} places, ${out.polities.length} polities · ${diffs.length} diffs (${open.length} open) · ${Object.keys(polityNames).length} border names`,
 );

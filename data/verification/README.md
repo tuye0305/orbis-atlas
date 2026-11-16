@@ -7,7 +7,7 @@ How Orbis checks its facts.
    explains the choice in `note`.
 2. **Auto-diff.** `node scripts/build-data.mjs` compares each curated year, birth/death year,
    start/end year and coordinate with Wikidata (tolerance: 1 year, 2 for polities, 50 km), then
-   writes `auto-diff.json` and `AUTO-DIFF.md`.
+   writes `auto-diff/<dataset>.json` and `auto-diff/<dataset>.md`.
 3. **Resolve.** A verifier agent, separate from the curator, checks every open difference against at
    least one independent source (Britannica, a standard reference work, or a primary text) and
    records the verdict in `resolutions.json`:

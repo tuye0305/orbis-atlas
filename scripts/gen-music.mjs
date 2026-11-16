@@ -10,12 +10,19 @@
 //
 //   node scripts/gen-music.mjs                         every region missing from the manifest
 //   node scripts/gen-music.mjs --only europe,africa --force [--takes 2] [--seconds 150]
+//   node scripts/gen-music.mjs --only europe --append  add take(s) to a region that already has some
 //   node scripts/gen-music.mjs import europe track.mp3 [--title "…"]   add a track made elsewhere
+//   node scripts/gen-music.mjs reencode                re-encode every track from music/raw/
 //   node scripts/gen-music.mjs status
+// Generation prints its cost estimate first and refuses to start above --budget (default $15).
 //
 // Prompts live in music/prompts.json. Raw downloads are kept in music/raw/ (gitignored).
-// Every track is loudness-normalised (-18 LUFS), given short fades and encoded as 128 kbps MP3.
-import { execFileSync } from 'node:child_process';
+// Every track has its leading and trailing silence trimmed (generated pieces often end a few
+// seconds early and then sit in silence), is loudness-normalised (-18 LUFS), given a short
+// FADE_IN and a FADE_OUT, and is encoded as 128 kbps MP3. The manifest records `crossfadeAt` for
+// each track: where its ending has died away, at the latest where the fade-out begins. The player
+// starts the next take there, so the takes overlap instead of leaving a gap.
+import { execFileSync, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -147,15 +154,80 @@ function saveManifest(m) {
 
 const probe = (file) => Number.parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', file], { encoding: 'utf8' }));
 
-/** Normalise loudness, add fades, encode MP3. Returns the encoded duration in seconds. */
+// The fade-in only guards against a click: with the leading silence trimmed, the first note is
+// right at the start, and a long fade would swallow its attack. Region changes and the first
+// start fade in through Web Audio anyway.
+const FADE_IN = 0.3;
+// The next take starts this long before the current one has died away, so its first notes land
+// while the last ones still ring.
+const LEAD = 1;
+const FADE_OUT = 4;
+
+/** Silent stretches of a file as [start, end] pairs (ffmpeg silencedetect). */
+function silences(file, { db = -45, min = 2 } = {}) {
+  const r = spawnSync('ffmpeg', ['-hide_banner', '-i', file, '-af', `silencedetect=n=${db}dB:d=${min}`, '-f', 'null', '-'], { encoding: 'utf8' });
+  const out = [];
+  for (const m of r.stderr.matchAll(/silence_(start|end): (-?[0-9.]+)/g)) {
+    if (m[1] === 'start') out.push([Math.max(0, +m[2]), Number.POSITIVE_INFINITY]);
+    else if (out.length) out[out.length - 1][1] = +m[2];
+  }
+  return out;
+}
+
+/**
+ * Trim leading and trailing silence, normalise loudness, add fades, encode MP3. Returns the
+ * encoded duration, the seconds trimmed at each end, and any silent gap (≥ 2 s) left mid-track.
+ */
 function encode(src, dst) {
-  const fadeOut = Math.max(0, probe(src) - 4);
+  const len = probe(src);
+  const quiet = silences(src, { db: -50, min: 0.25 });
+  // Keep a breath either side (0.05 s before the first note, 0.3 s of the last decay).
+  const head = quiet[0] && quiet[0][0] < 0.05 ? Math.max(0, quiet[0][1] - 0.05) : 0;
+  const last = quiet.at(-1);
+  const tail = last && last[1] >= len - 0.05 && last[0] > head ? Math.min(len, last[0] + 0.3) : len;
+  const dur = tail - head;
   execFileSync('ffmpeg', [
     '-y', '-v', 'error', '-i', src,
-    '-af', `loudnorm=I=-18:TP=-1.5:LRA=11,afade=t=in:d=1.5,afade=t=out:st=${fadeOut.toFixed(2)}:d=4`,
+    '-af', [
+      `atrim=start=${head.toFixed(3)}:end=${tail.toFixed(3)}`,
+      'asetpts=PTS-STARTPTS',
+      'loudnorm=I=-18:TP=-1.5:LRA=11',
+      `afade=t=in:d=${FADE_IN}`,
+      `afade=t=out:st=${Math.max(0, dur - FADE_OUT).toFixed(2)}:d=${FADE_OUT}`,
+    ].join(','),
     '-ac', '2', '-ar', '44100', '-codec:a', 'libmp3lame', '-b:a', '128k', dst,
   ]);
-  return Math.round(probe(dst));
+  const duration = probe(dst);
+  const gaps = silences(dst, { db: -45, min: 2 }).filter(([a]) => a < duration - FADE_OUT - 0.5);
+  return { duration: Math.round(duration * 100) / 100, crossfadeAt: crossfadePoint(dst, duration), trimmed: [+head.toFixed(2), +(len - tail).toFixed(2)], gaps };
+}
+
+/** RMS level (dBFS) of a file in `win`-second windows. */
+function levels(file, win = 0.2) {
+  const r = spawnSync('ffmpeg', ['-hide_banner', '-nostats', '-i', file, '-af', `asetnsamples=n=${Math.round(44100 * win)},astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level:file=-`, '-f', 'null', '-'], { encoding: 'utf8', maxBuffer: 64 << 20 });
+  return [...r.stdout.matchAll(/RMS_level=(-?[\d.]+|-inf)/g)].map((m) => (m[1] === '-inf' ? -120 : Math.max(-120, +m[1])));
+}
+
+/**
+ * When the player should start the next take: LEAD seconds before this one's ending has died
+ * away (its 1 s peak level last falls 8 dB under the track's median), and at the latest LEAD
+ * before the baked fade-out begins. Generated pieces end with a ritardando and a long decay, so a
+ * fixed point would leave a soft hole between the last chord and the next take's first note.
+ */
+function crossfadePoint(file, duration) {
+  const win = 0.2;
+  const lv = levels(file, win);
+  const median = [...lv].sort((a, b) => a - b)[lv.length >> 1];
+  const peak = (i) => Math.max(...lv.slice(Math.max(0, i - 4), i + 1)); // trailing 1 s
+  let i = lv.length - 1;
+  while (i > 0 && peak(i) < median - 8) i--;
+  const at = Math.min(duration - FADE_OUT - LEAD, Math.max(duration - 15, (i + 1) * win - LEAD));
+  return Math.round(at * 100) / 100;
+}
+
+function report(region, file, enc) {
+  const gaps = enc.gaps.map(([a, b]) => `${a.toFixed(1)}–${b.toFixed(1)}s`).join(', ');
+  console.log(`${gaps ? '⚠' : '✓'} ${region}: ${file} (${enc.duration}s, next take at ${enc.crossfadeAt}s, trimmed ${enc.trimmed[0]}s + ${enc.trimmed[1]}s)${gaps ? `, silent gaps ${gaps}` : ''}`);
 }
 
 async function download(url, file) {
@@ -180,12 +252,20 @@ async function generate(args) {
   if (!key) throw new Error(`${provider.keyVar} is not set (put it in .env.local)`);
   const only = flag(args, '--only', null)?.split(',');
   const force = args.includes('--force');
+  const append = args.includes('--append');
+  if (force && append) throw new Error('--force replaces a region’s tracks and --append adds to them: pick one');
   const takes = Number(flag(args, '--takes', 1));
   const seconds = Number(flag(args, '--seconds', PROMPTS.defaults.duration));
+  const budget = Number(flag(args, '--budget', 15));
   const manifest = loadManifest();
-  const regions = Object.keys(PROMPTS.regions).filter((k) => !only || only.includes(k)).filter((k) => force || !manifest.regions[k]?.length);
-  if (!regions.length) return console.log('Nothing to generate: every region already has tracks (use --force).');
-  console.log(`${provider.label()}: ${regions.join(', ')} · ${takes} take(s) × ${seconds}s`);
+  const regions = Object.keys(PROMPTS.regions)
+    .filter((k) => !only || only.includes(k))
+    .filter((k) => force || append || !manifest.regions[k]?.length);
+  if (!regions.length) return console.log('Nothing to generate: every region already has tracks (use --force or --append).');
+  // Billed per second of audio (about $0.01/s for ElevenLabs Music on WaveSpeed).
+  const cost = regions.length * takes * seconds * 0.01;
+  console.log(`${provider.label()}: ${regions.join(', ')} · ${takes} take(s) × ${seconds}s ≈ $${cost.toFixed(2)}`);
+  if (cost > budget) throw new Error(`estimated $${cost.toFixed(2)} is over the --budget of $${budget}`);
   fs.mkdirSync(RAW, { recursive: true });
 
   // Submit everything first so the provider works in parallel, then collect.
@@ -219,9 +299,9 @@ async function generate(args) {
       const raw = path.join(RAW, `${region}-${o.id}.mp3`);
       await download(o.url, raw);
       const file = nextFile(manifest, region);
-      const duration = encode(raw, path.join(OUT, file));
-      (manifest.regions[region] ??= []).push({ file, title: o.title || PROMPTS.regions[region].title, duration, model: provider.model, id: o.id });
-      console.log(`✓ ${region}: ${file} (${duration}s)`);
+      const enc = encode(raw, path.join(OUT, file));
+      (manifest.regions[region] ??= []).push({ file, title: o.title || PROMPTS.regions[region].title, duration: enc.duration, crossfadeAt: enc.crossfadeAt, fadeOut: FADE_OUT, model: provider.model, id: o.id });
+      report(region, file, enc);
       ok++;
     }
   }
@@ -236,10 +316,28 @@ function importTrack([region, src, ...rest]) {
   const manifest = loadManifest();
   const file = nextFile(manifest, region);
   fs.mkdirSync(OUT, { recursive: true });
-  const duration = encode(src, path.join(OUT, file));
-  (manifest.regions[region] ??= []).push({ file, title: flag(rest, '--title', PROMPTS.regions[region].title), duration, model: 'imported' });
+  const enc = encode(src, path.join(OUT, file));
+  (manifest.regions[region] ??= []).push({ file, title: flag(rest, '--title', PROMPTS.regions[region].title), duration: enc.duration, crossfadeAt: enc.crossfadeAt, fadeOut: FADE_OUT, model: 'imported' });
   saveManifest(manifest);
-  console.log(`✓ ${region}: ${file} (${duration}s)`);
+  report(region, file, enc);
+}
+
+/** Re-encode every generated track from its raw download in music/raw/ (after changing encode()). */
+function reencode() {
+  const manifest = loadManifest();
+  for (const [region, tracks] of Object.entries(manifest.regions)) {
+    for (const t of tracks) {
+      const raw = path.join(RAW, `${region}-${t.id}.mp3`);
+      if (!t.id || !fs.existsSync(raw)) {
+        console.log(`· ${region}: ${t.file} has no raw download in music/raw/, left as it is`);
+        continue;
+      }
+      const enc = encode(raw, path.join(OUT, t.file));
+      Object.assign(t, { duration: enc.duration, crossfadeAt: enc.crossfadeAt, fadeOut: FADE_OUT });
+      report(region, t.file, enc);
+    }
+  }
+  saveManifest(manifest);
 }
 
 function status() {
@@ -253,6 +351,7 @@ function status() {
 const [cmd, ...args] = process.argv.slice(2);
 try {
   if (cmd === 'import') importTrack(args);
+  else if (cmd === 'reencode') reencode();
   else if (cmd === 'status') status();
   else await generate(cmd ? [cmd, ...args] : args);
 } catch (e) {

@@ -3,7 +3,11 @@
 //
 //   node scripts/wd.mjs search "Battle of Hastings"     → candidate QIDs with descriptions
 //   node scripts/wd.mjs lookup Q83224 Q7331              → canonical facts per QID
-//   node scripts/wd.mjs enrich                           → fetch every QID in data/**.json into data/cache/
+//   node scripts/wd.mjs enrich [dataset…]                → fetch every QID in data/<dataset>/*.json into
+//                                                          data/cache/<dataset>/{wikidata,commons}.json
+//
+// Caches are split per dataset so that parallel pull requests on different datasets never touch
+// the same cache file. A QID used by several datasets is simply stored in each of their caches.
 //
 // Facts come from Wikidata (CC0). Image metadata (license, author) comes from Commons.
 import fs from 'node:fs';
@@ -12,22 +16,27 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CACHE_DIR = path.join(ROOT, 'data', 'cache');
-const WD_CACHE = path.join(CACHE_DIR, 'wikidata.json');
-const IMG_CACHE = path.join(CACHE_DIR, 'commons.json');
 const UA = 'OrbisAtlas/0.1 (https://github.com/tuye0305/orbis-atlas; open-source historical atlas)';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function getJSON(url, tries = 4) {
+// Retries 429/5xx and network errors with exponential backoff plus jitter (several curators may
+// query Wikidata at once), honouring Retry-After when the server sends it.
+async function getJSON(url, tries = 7) {
   for (let i = 0; i < tries; i++) {
+    let wait = 1000 * 2 ** i + Math.random() * 1000;
     try {
       const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
-      if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
+      if (res.status === 429 || res.status >= 500) {
+        const ra = Number(res.headers.get('retry-after'));
+        if (ra > 0) wait = Math.max(wait, ra * 1000);
+        throw new Error(`HTTP ${res.status}`);
+      }
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
       return await res.json();
     } catch (e) {
       if (i === tries - 1) throw e;
-      await sleep(1000 * 2 ** i);
+      await sleep(Math.min(wait, 60000));
     }
   }
 }
@@ -167,38 +176,83 @@ function saveCache(file, obj) {
   fs.writeFileSync(file, `${JSON.stringify(sorted, null, 1)}\n`);
 }
 
-async function enrich({ refresh = false } = {}) {
-  const wd = refresh ? {} : loadCache(WD_CACHE);
-  const qids = new Set();
-  for (const { records } of readCuratedFiles()) {
-    for (const r of records) {
-      if (r.qid) qids.add(r.qid);
-      for (const ru of r.rulers ?? []) if (ru.qid) qids.add(ru.qid);
+/** Every cached Wikidata entity and Commons file, merged across datasets (plus the legacy single-file cache). */
+export function loadAllCaches() {
+  const wd = {};
+  const img = {};
+  const legacyWd = path.join(CACHE_DIR, 'wikidata.json');
+  const legacyImg = path.join(CACHE_DIR, 'commons.json');
+  Object.assign(wd, loadCache(legacyWd));
+  Object.assign(img, loadCache(legacyImg));
+  if (fs.existsSync(CACHE_DIR)) {
+    for (const d of fs.readdirSync(CACHE_DIR)) {
+      const dir = path.join(CACHE_DIR, d);
+      if (!fs.statSync(dir).isDirectory()) continue;
+      Object.assign(wd, loadCache(path.join(dir, 'wikidata.json')));
+      Object.assign(img, loadCache(path.join(dir, 'commons.json')));
     }
   }
-  const todo = [...qids].filter((q) => /^Q\d+$/.test(q) && !wd[q]);
-  console.log(`Wikidata: ${qids.size} QIDs, fetching ${todo.length}`);
+  return { wd, img, legacy: [legacyWd, legacyImg].filter((f) => fs.existsSync(f)) };
+}
+
+function qidsOf(records) {
+  const qids = new Set();
+  for (const r of records) {
+    if (r.qid) qids.add(r.qid);
+    for (const ru of r.rulers ?? []) if (ru.qid) qids.add(ru.qid);
+  }
+  return [...qids].filter((q) => /^Q\d+$/.test(q));
+}
+
+async function enrich({ refresh = false, only = [] } = {}) {
+  const pool = refresh ? { wd: {}, img: {}, legacy: [] } : loadAllCaches();
+  const { wd, img } = pool;
+  const byDataset = new Map();
+  for (const { region: dataset, records } of readCuratedFiles()) {
+    if (only.length && !only.includes(dataset)) continue;
+    if (!byDataset.has(dataset)) byDataset.set(dataset, []);
+    byDataset.get(dataset).push(...records);
+  }
+  const allQids = new Set([...byDataset.values()].flatMap(qidsOf));
+  const todo = [...allQids].filter((q) => !wd[q]);
+  console.log(`Wikidata: ${allQids.size} QIDs, fetching ${todo.length}`);
   Object.assign(wd, await fetchEntities(todo));
   // Resolve P276 location coordinates one hop away.
-  const locs = [...new Set(Object.values(wd).map((e) => e.locationQid).filter((q) => q && !wd[`loc:${q}`]))];
+  const locs = [...new Set([...allQids].map((q) => wd[q]?.locationQid).filter((q) => q && !wd[`loc:${q}`]))];
   if (locs.length) {
     const loc = await fetchEntities(locs);
     for (const [q, e] of Object.entries(loc)) wd[`loc:${q}`] = { coord: e.coord, label: e.label };
   }
-  saveCache(WD_CACHE, wd);
 
-  const img = loadCache(IMG_CACHE);
-  const files = new Set();
-  for (const { records } of readCuratedFiles()) {
+  const filesOf = (records) => {
+    const files = new Set();
     for (const r of records) {
       const f = r.image || (r.qid && wd[r.qid]?.image);
       if (f) files.add(f);
     }
-  }
-  const imgTodo = [...files].filter((f) => !img[f]);
-  console.log(`Commons: ${files.size} images, fetching ${imgTodo.length}`);
+    return files;
+  };
+  const allFiles = new Set([...byDataset.values()].flatMap((rs) => [...filesOf(rs)]));
+  const imgTodo = [...allFiles].filter((f) => !img[f]);
+  console.log(`Commons: ${allFiles.size} images, fetching ${imgTodo.length}`);
   Object.assign(img, await fetchCommons(imgTodo));
-  saveCache(IMG_CACHE, img);
+
+  for (const [dataset, records] of byDataset) {
+    const subWd = {};
+    for (const q of qidsOf(records)) {
+      if (!wd[q]) continue;
+      subWd[q] = wd[q];
+      const lq = wd[q].locationQid;
+      if (lq && wd[`loc:${lq}`]) subWd[`loc:${lq}`] = wd[`loc:${lq}`];
+    }
+    const subImg = {};
+    for (const f of filesOf(records)) if (img[f]) subImg[f] = img[f];
+    saveCache(path.join(CACHE_DIR, dataset, 'wikidata.json'), subWd);
+    saveCache(path.join(CACHE_DIR, dataset, 'commons.json'), subImg);
+    console.log(`  ${dataset}: ${Object.keys(subWd).length} entities, ${Object.keys(subImg).length} images`);
+  }
+  // Once every dataset has its own cache, the legacy single-file cache is redundant.
+  if (!only.length) for (const f of pool.legacy) fs.rmSync(f);
 }
 
 async function main() {
@@ -214,9 +268,9 @@ async function main() {
     const res = await fetchEntities(args);
     for (const [q, e] of Object.entries(res)) console.log(q, JSON.stringify(e));
   } else if (cmd === 'enrich') {
-    await enrich({ refresh: args.includes('--refresh') });
+    await enrich({ refresh: args.includes('--refresh'), only: args.filter((a) => !a.startsWith('--')) });
   } else {
-    console.log('usage: wd.mjs search <text> | lookup <QID…> | enrich [--refresh]');
+    console.log('usage: wd.mjs search <text> | lookup <QID…> | enrich [dataset…] [--refresh]');
     process.exit(1);
   }
 }

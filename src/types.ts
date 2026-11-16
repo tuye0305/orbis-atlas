@@ -1,7 +1,18 @@
 export type Lang = 'en' | 'zh';
 export type L10n = { en: string; zh: string };
 
-export type RegionKey = 'europe' | 'africa' | 'west-asia' | 'south-asia' | 'central-asia' | 'east-asia' | 'southeast-asia';
+export type RegionKey =
+  | 'europe'
+  | 'africa'
+  | 'west-asia'
+  | 'south-asia'
+  | 'central-asia'
+  | 'east-asia'
+  | 'southeast-asia'
+  | 'north-america'
+  | 'mesoamerica'
+  | 'south-america'
+  | 'oceania';
 
 export interface Source {
   title: string;
@@ -11,7 +22,6 @@ export interface Source {
 export interface ImageRef {
   file: string;
   thumb: string;
-  page: string;
   license: string | null;
   artist: string | null;
 }
@@ -22,10 +32,16 @@ interface Base {
   region: RegionKey;
   dataset: string;
   summary?: L10n;
-  sources?: Source[];
   confidence?: 'high' | 'medium' | 'low';
-  note?: string;
   image?: ImageRef;
+}
+
+/** Per-record fields only the detail card needs; built into details.json and loaded lazily. */
+export interface Details {
+  /** Longer narrative (stories, anecdotes, context). */
+  story?: L10n;
+  sources?: Source[];
+  note?: string;
   wiki?: { en: string | null; zh: string | null };
 }
 
@@ -67,7 +83,8 @@ export interface AtlasEvent extends Base {
 export interface Person extends Base {
   name: L10n;
   born: number;
-  died: number;
+  /** null = still living */
+  died: number | null;
   role: L10n;
   stops: Stop[];
 }

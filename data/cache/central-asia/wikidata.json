@@ -1,0 +1,7312 @@
+{
+ "Q1058965": {
+  "label": {
+   "en": "Erdene Zuu Monastery",
+   "zh": "额尔德尼召"
+  },
+  "description": "monastery",
+  "coord": {
+   "lat": 47.2017,
+   "lon": 102.8433
+  },
+  "image": "Niebo nad budynkami klasztoru Erdene Dzuu 02.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1586,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q44613",
+   "Q54074585"
+  ],
+  "wiki": {
+   "en": "Erdene Zuu Monastery",
+   "zh": "光顯寺"
+  }
+ },
+ "Q1071957": {
+  "label": {
+   "en": "Kuchlug",
+   "zh": "屈出律"
+  },
+  "description": "Mongol Khan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1156,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1218,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kuchlug",
+   "zh": "屈出律"
+  },
+  "locationQid": null
+ },
+ "Q108102583": {
+  "label": {
+   "en": "Fall of Kabul",
+   "zh": "攻佔喀布爾"
+  },
+  "description": "Taliban capture of the capital of Afghanistan in 2021",
+  "coord": {
+   "lat": 34.5,
+   "lon": 69.1667
+  },
+  "image": "Crowds in front of Kabul International Airport.jpg",
+  "pointInTime": {
+   "year": 2021,
+   "date": "2021-08-15",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Fall of Kabul (2021)",
+   "zh": "喀布爾戰役 (2021年)"
+  }
+ },
+ "Q110413718": {
+  "label": {
+   "en": "2022 Kazakh unrest",
+   "zh": "2022年哈萨克斯坦抗议"
+  },
+  "description": "series of protests in Kazakhstan that began on 2 January 2022 after an LPG price increase",
+  "coord": null,
+  "image": "2022 Kazakhstan protests — Aqtobe, January 4 (01).jpg",
+  "pointInTime": {
+   "year": 2022,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2022,
+   "date": "2022-01-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2022,
+   "date": "2022-01-11",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q273120",
+   "Q686984"
+  ],
+  "wiki": {
+   "en": "2022 Kazakh unrest",
+   "zh": "2022年哈薩克斯坦抗議"
+  },
+  "locationQid": "Q232"
+ },
+ "Q110970851": {
+  "label": {
+   "en": "Siege of Bukhara (1220)",
+   "zh": "不花剌之战"
+  },
+  "description": "seizure and destruction of Bukhara by Genghis Khan's Mongol army",
+  "coord": {
+   "lat": 39.7778,
+   "lon": 64.4103
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1220,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Bukhara",
+   "zh": "不花剌之战"
+  }
+ },
+ "Q111943842": {
+  "label": {
+   "en": "Otrar Catastrophe",
+   "zh": null
+  },
+  "description": "1219 siege and capture of Otrar by Mongol Empire",
+  "coord": {
+   "lat": 42.85,
+   "lon": 68.3
+  },
+  "image": "Otrar aerial view-Aug-2018.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1219,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1220,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Otrar Catastrophe",
+   "zh": null
+  }
+ },
+ "Q1122110": {
+  "label": {
+   "en": "Tajikistani Civil War",
+   "zh": "塔吉克斯坦内战"
+  },
+  "description": "1992–1997 civil war in Tajikistan",
+  "coord": null,
+  "image": "Spetsnaz troopers during the 1992 Tajik war.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1992,
+   "date": "1992-05-05",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1997,
+   "date": "1997-06-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Tajikistani Civil War",
+   "zh": "塔吉克斯坦内战"
+  },
+  "locationQid": "Q863"
+ },
+ "Q1129893": {
+  "label": {
+   "en": "Anglo-Russian Entente",
+   "zh": "英俄条约"
+  },
+  "description": "treaty between the British and Russian Empires, signed on 1907 in St. Petersburg, ending their rivalry in Central Asia to unite against Germany, in which southern Persia, Tibet, and Afghanistan were acknowledged as British sphere of influence",
+  "coord": null,
+  "image": "Map Iran 1900-en.png",
+  "pointInTime": {
+   "year": 1907,
+   "date": "1907-08-31",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19869179"
+  ],
+  "wiki": {
+   "en": "Anglo–Russian Entente",
+   "zh": "英俄條約"
+  },
+  "locationQid": "Q656"
+ },
+ "Q1138904": {
+  "label": {
+   "en": "Kingdom of Afghanistan",
+   "zh": "阿富汗王国"
+  },
+  "description": "kingdom in Central Asia between 1926–1973",
+  "coord": {
+   "lat": 33,
+   "lon": 65
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1926,
+   "date": "1926-06-09",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1973,
+   "date": "1973-07-17",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1250464"
+  ],
+  "wiki": {
+   "en": "Kingdom of Afghanistan",
+   "zh": "阿富汗王國"
+  }
+ },
+ "Q11826": {
+  "label": {
+   "en": "Al-Biruni",
+   "zh": "比魯尼"
+  },
+  "description": "11th-century Khwarazmian scholar and polymath (973–1048)",
+  "coord": null,
+  "image": "Al-Biruni Portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 973,
+   "date": "0973-09-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1048,
+   "date": "1048-12-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Biruni",
+   "zh": "比魯尼"
+  },
+  "locationQid": null
+ },
+ "Q1192519": {
+  "label": {
+   "en": "Abu Sa'id Mirza",
+   "zh": "卜撒因"
+  },
+  "description": "Timurid Empire ruler (1424-1469)",
+  "coord": null,
+  "image": "Jam’i Jam (The Cup of Jamshid) 22.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1424,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1469,
+   "date": "1469-02-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abu Sa'id Mirza",
+   "zh": "卜撒因"
+  },
+  "locationQid": null
+ },
+ "Q1194934": {
+  "label": {
+   "en": "Tughlugh Timur",
+   "zh": "秃忽鲁帖木儿"
+  },
+  "description": "Khan of the Chagatai Khanate from c.1360 to 1363",
+  "coord": null,
+  "image": "Tughlugh Timur Mausoleum - exterior.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1329,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1363,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tughlugh Timur",
+   "zh": "禿忽魯帖木兒"
+  },
+  "locationQid": null
+ },
+ "Q12150341": {
+  "label": {
+   "en": "Samanid Empire",
+   "zh": "萨曼帝國"
+  },
+  "description": "former state in Central Asia",
+  "coord": {
+   "lat": 34,
+   "lon": 66
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 819,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 999,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q12536"
+  ],
+  "wiki": {
+   "en": "Samanid Empire",
+   "zh": null
+  }
+ },
+ "Q12532135": {
+  "label": {
+   "en": "Barefooted Flight",
+   "zh": "赤腳逃亡"
+  },
+  "description": "18th-century expulsion of Kazakhs from parts of southern Kazakhstan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Barefooted Flight",
+   "zh": "赤腳逃亡"
+  },
+  "locationQid": null
+ },
+ "Q12557": {
+  "label": {
+   "en": "Mongol Empire",
+   "zh": "蒙古帝国"
+  },
+  "description": "13th- and 14th-century empire originating in Mongolia",
+  "coord": {
+   "lat": 47.1,
+   "lon": 109.1667
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1206,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1368,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Mongol Empire",
+   "zh": "蒙古帝国"
+  }
+ },
+ "Q1256223": {
+  "label": {
+   "en": "Gur-e Amir",
+   "zh": "帖木儿陵"
+  },
+  "description": "mausoleum in Samarkand, Uzbekistan",
+  "coord": {
+   "lat": 39.6483,
+   "lon": 66.9689
+  },
+  "image": "Вечерний Гур-Эмир.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1403,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q162875"
+  ],
+  "wiki": {
+   "en": "Gur-e-Amir",
+   "zh": "古尔-埃米尔陵"
+  }
+ },
+ "Q1259237": {
+  "label": {
+   "en": "Third Anglo-Afghan War",
+   "zh": "第三次英阿战争"
+  },
+  "description": "1919 war between the British Empire (India) and the Emirate of Afghanistan",
+  "coord": null,
+  "image": "Soldiers in action at Kohat during the Third Anglo-Afghan War.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1919,
+   "date": "1919-05-06",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1919,
+   "date": "1919-08-08",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Third Anglo-Afghan War",
+   "zh": "第三次英国—阿富汗战争"
+  },
+  "locationQid": "Q16880532"
+ },
+ "Q1268850": {
+  "label": {
+   "en": "Samanid Mausoleum",
+   "zh": "萨曼尼德陵墓"
+  },
+  "description": "mausoleum",
+  "coord": {
+   "lat": 39.777,
+   "lon": 64.4006
+  },
+  "image": "Samanid mausoleum bukhara.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 892,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q162875",
+   "Q2319498"
+  ],
+  "wiki": {
+   "en": "Samanid Mausoleum",
+   "zh": "萨曼王陵"
+  }
+ },
+ "Q1330091": {
+  "label": {
+   "en": "Yelü Dashi",
+   "zh": "耶律大石"
+  },
+  "description": "founder of the Western Liao dynasty, or the Kara-Khitan Khanate",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1087,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1143,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yelü Dashi",
+   "zh": "耶律大石"
+  },
+  "locationQid": null
+ },
+ "Q1335260": {
+  "label": {
+   "en": "Emirate of Afghanistan",
+   "zh": "阿富汗酋长国"
+  },
+  "description": "monarchy in Central Asia from 1823 to 1926",
+  "coord": {
+   "lat": 34.54,
+   "lon": 69.13
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1823,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1926,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Emirate of Afghanistan",
+   "zh": "阿富汗酋长国"
+  }
+ },
+ "Q1341539": {
+  "label": {
+   "en": "Saur Revolution",
+   "zh": "四月革命"
+  },
+  "description": "April 1978 coup in Afghanistan",
+  "coord": {
+   "lat": 34.5253,
+   "lon": 69.1783
+  },
+  "image": "Day after Saur revolution.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1978,
+   "date": "1978-04-27",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1978,
+   "date": "1978-04-28",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Saur Revolution",
+   "zh": "四月革命 (阿富汗)"
+  }
+ },
+ "Q134700035": {
+  "label": {
+   "en": "Gawhar Shad Mosque",
+   "zh": null
+  },
+  "description": "Mosque in Herat, Afghanistan",
+  "coord": {
+   "lat": 34.3557,
+   "lon": 62.1847
+  },
+  "image": "Gawhar Shad Mosque, Herat, published in “The Illustrated London News”, June 13, 1863 (Modern colorization).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q32815"
+  ],
+  "wiki": {
+   "en": "Gawhar Shad Mosque",
+   "zh": null
+  }
+ },
+ "Q13600791": {
+  "label": {
+   "en": "Battle of Gol-Zarriun",
+   "zh": "布哈拉之战"
+  },
+  "description": "battle that dissolved the Hephthalite Empire",
+  "coord": {
+   "lat": 39.7667,
+   "lon": 64.4333
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 560,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Gol-Zarriun",
+   "zh": "布哈拉之戰"
+  }
+ },
+ "Q1387854": {
+  "label": {
+   "en": "Desi Sangye Gyatso",
+   "zh": "桑结嘉错"
+  },
+  "description": "Tibetan regent",
+  "coord": null,
+  "image": "Sangs-rgyas rgya-mtsho.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1653,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1705,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Desi Sangye Gyatso",
+   "zh": "桑结嘉错"
+  },
+  "locationQid": null
+ },
+ "Q1395045": {
+  "label": {
+   "en": "Galdan Boshugtu Khan",
+   "zh": "噶尔丹"
+  },
+  "description": "First Khan and founder of the Dzungar Khanate",
+  "coord": null,
+  "image": "Statue of Galdan Boshughtu Khan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1644,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1697,
+   "date": "1697-04-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Galdan Boshugtu Khan",
+   "zh": "噶尔丹"
+  },
+  "locationQid": null
+ },
+ "Q1398132": {
+  "label": {
+   "en": "Tsewang Rabtan Khan",
+   "zh": "策妄阿拉布坦"
+  },
+  "description": "Khong tayiji or Khan of the Dzungar Khanate",
+  "coord": null,
+  "image": "Modern illustration of Tsewang Rabtan Khan.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1663,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1727,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tsewang Rabtan Khan",
+   "zh": "策妄阿拉布坦"
+  },
+  "locationQid": null
+ },
+ "Q141055": {
+  "label": {
+   "en": "Ibrahim of Ghazna",
+   "zh": "易卜拉欣"
+  },
+  "description": "sultan of the Ghaznavid Empire",
+  "coord": null,
+  "image": "IbrahimGhaznavidCoin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1032,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1099,
+   "date": "1099-08-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ibrahim of Ghazna",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1430211": {
+  "label": {
+   "en": "Samye",
+   "zh": "桑耶寺"
+  },
+  "description": "Buddhist monastery in Samye, Zhanang, Shannan, Tibet, China",
+  "coord": {
+   "lat": 29.3264,
+   "lon": 91.5042
+  },
+  "image": "Samye-94-Hauptgebaeude-2014-gje.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 779,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5393308",
+   "Q54074585",
+   "Q10300916"
+  ],
+  "wiki": {
+   "en": "Samye",
+   "zh": "桑耶寺"
+  }
+ },
+ "Q1433867": {
+  "label": {
+   "en": "Kazakh Khanate",
+   "zh": "哈萨克汗国"
+  },
+  "description": "former Islamic monarchy in Central Asia, a successor to the Golden Horde",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1465,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1847,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q331644"
+  ],
+  "wiki": {
+   "en": "Kazakh Khanate",
+   "zh": "哈萨克汗国"
+  },
+  "locationQid": null
+ },
+ "Q145401": {
+  "label": {
+   "en": "Zaman Shah Durrani",
+   "zh": "扎曼沙·杜兰尼"
+  },
+  "description": "Emir of Afghanistan1793 to 1801",
+  "coord": null,
+  "image": "Shah-Zaman-Khan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1770,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1845,
+   "date": "1845-09-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zaman Shah Durrani",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q15146034": {
+  "label": {
+   "en": "First Turkic Khaganate",
+   "zh": "突厥汗国"
+  },
+  "description": "khaganate established by the Ashina clan of the Göktürks in medieval Inner Asia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 551,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 603,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q331644",
+   "Q26883974"
+  ],
+  "wiki": {
+   "en": "First Turkic Khaganate",
+   "zh": "突厥汗国"
+  },
+  "locationQid": null
+ },
+ "Q1520": {
+  "label": {
+   "en": "Astana",
+   "zh": "阿斯塔纳"
+  },
+  "description": "capital of Kazakhstan",
+  "coord": {
+   "lat": 51.1333,
+   "lon": 71.4333
+  },
+  "image": "Trip to Astana (2015-10-24) 01.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1830,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7930989",
+   "Q1549591",
+   "Q12266391",
+   "Q108178728",
+   "Q15840617"
+  ],
+  "wiki": {
+   "en": "Astana",
+   "zh": "阿斯塔納"
+  }
+ },
+ "Q152265": {
+  "label": {
+   "en": "Mohammed Zahir Shah",
+   "zh": "穆罕默德·查希尔沙"
+  },
+  "description": "King of Afghanistan (1933-1973)",
+  "coord": null,
+  "image": "King Zahir Shah of Afghanistan in 1963.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1914,
+   "date": "1914-10-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2007,
+   "date": "2007-07-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mohammad Zahir Shah",
+   "zh": "穆罕默德·查希尔·沙阿"
+  },
+  "locationQid": null
+ },
+ "Q153620": {
+  "label": {
+   "en": "Amanullah Khan",
+   "zh": "阿曼诺拉汗"
+  },
+  "description": "King and Emir of Afghanistan (1892-1960)",
+  "coord": null,
+  "image": "King Amanullah Khan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1892,
+   "date": "1892-06-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1960,
+   "date": "1960-04-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Amanullah Khan",
+   "zh": "阿曼諾拉汗"
+  },
+  "locationQid": null
+ },
+ "Q154875": {
+  "label": {
+   "en": "Göktürk Civil War",
+   "zh": "突厥內戰"
+  },
+  "description": "583-603 civil war in the Göktürk Empire",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 583,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 603,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Göktürk civil war",
+   "zh": "突厥內戰"
+  },
+  "locationQid": null
+ },
+ "Q154891": {
+  "label": {
+   "en": "Tardu",
+   "zh": "达头可汗"
+  },
+  "description": "Gokturk Kagan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 550,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 603,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tardu",
+   "zh": "达头可汗"
+  },
+  "locationQid": null
+ },
+ "Q155361": {
+  "label": {
+   "en": "Rouran Khaganate",
+   "zh": "柔然"
+  },
+  "description": "state established by proto-Mongols, from the late 4th century until the middle 6th century",
+  "coord": {
+   "lat": 47.5567,
+   "lon": 102.8314
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 330,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 555,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Rouran Khaganate",
+   "zh": "柔然"
+  }
+ },
+ "Q160460": {
+  "label": {
+   "en": "Farabi",
+   "zh": "法拉比"
+  },
+  "description": "10th century Persian philosopher and jurist",
+  "coord": null,
+  "image": "Farabi.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 870,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 951,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Farabi",
+   "zh": "法拉比"
+  },
+  "locationQid": null
+ },
+ "Q16127829": {
+  "label": {
+   "en": "Al-Biruni's India",
+   "zh": null
+  },
+  "description": "book by Al-Biruni",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1017,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "India (Al-Biruni)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q162217": {
+  "label": {
+   "en": "Subutai",
+   "zh": "速不台"
+  },
+  "description": "primary military strategist and general under Genghis Khan and Ögedei Khan",
+  "coord": null,
+  "image": "Subudei.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1175,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1248,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Subutai",
+   "zh": "速不台"
+  },
+  "locationQid": null
+ },
+ "Q167283": {
+  "label": {
+   "en": "Timur Shah Durrani",
+   "zh": "帖木兒·沙·杜蘭尼"
+  },
+  "description": "Emir of Afghanistan (1746 , 1793)",
+  "coord": null,
+  "image": "Temur-Shah.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1746,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1793,
+   "date": "1793-05-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Timur Shah Durrani",
+   "zh": "帖木兒沙·杜蘭尼"
+  },
+  "locationQid": null
+ },
+ "Q16871984": {
+  "label": {
+   "en": "Toluid Civil War",
+   "zh": "拖雷家族內戰"
+  },
+  "description": "13th-century war of succession in the Mongol Empire",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1260,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1264,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465",
+   "Q1348385"
+  ],
+  "wiki": {
+   "en": "Toluid Civil War",
+   "zh": "拖雷家族內戰"
+  },
+  "locationQid": "Q27275"
+ },
+ "Q1688526": {
+  "label": {
+   "en": "Yettishar",
+   "zh": "毕杜勒特汗国"
+  },
+  "description": "turkic state ruled from Kashgar, 1865-1877",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1865,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1877,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q189898"
+  ],
+  "wiki": {
+   "en": "Yettishar",
+   "zh": "哲德沙尔汗国"
+  },
+  "locationQid": null
+ },
+ "Q17293": {
+  "label": {
+   "en": "Tenzin Gyatso",
+   "zh": "第十四世达赖喇嘛"
+  },
+  "description": "14th Dalai Lama, the spiritual and temporal leader of Tibetans",
+  "coord": null,
+  "image": "The Dalai Lama in 2012.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1935,
+   "date": "1935-07-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "14th Dalai Lama",
+   "zh": "第十四世达赖喇嘛"
+  },
+  "locationQid": null
+ },
+ "Q17500081": {
+  "label": {
+   "en": "Ganden Phodrang",
+   "zh": "甘丹颇章"
+  },
+  "description": "last period of monarchic and theocratic Tibet",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1642,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1959,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q43229",
+   "Q11514315",
+   "Q44405"
+  ],
+  "wiki": {
+   "en": "Ganden Phodrang",
+   "zh": "甘丹颇章"
+  },
+  "locationQid": null
+ },
+ "Q175138": {
+  "label": {
+   "en": "Batu Khan",
+   "zh": "拔都"
+  },
+  "description": "Khan of the Golden Horde",
+  "coord": null,
+  "image": "Batu Khan on the Throne by Rashid al-Din (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1205,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1255,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Batu Khan",
+   "zh": "拔都"
+  },
+  "locationQid": null
+ },
+ "Q1753178": {
+  "label": {
+   "en": "Kutadgu Bilig",
+   "zh": "福乐智慧"
+  },
+  "description": "11th century work written by Yūsuf Balasaguni",
+  "coord": null,
+  "image": "QutadughuBiliq wien p.10.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47461344"
+  ],
+  "wiki": {
+   "en": "Kutadgu Bilig",
+   "zh": "福乐智慧"
+  },
+  "locationQid": null
+ },
+ "Q177320": {
+  "label": {
+   "en": "Hulegu Khan",
+   "zh": "旭烈兀"
+  },
+  "description": "Western Asian Mongol ruler (c. 1217–1265)",
+  "coord": null,
+  "image": "Representation of Hulagu Khan (1217-1265) Persian miniature taken from Jami al-tawarikh (Jami al-tawarikh) or Universal History by historian Rashid al-din (al din) (1247-1318) Around 1430. Paris, B.N (portrait).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1217,
+   "date": "1217-02-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1265,
+   "date": "1265-02-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hulegu Khan",
+   "zh": "旭烈兀"
+  },
+  "locationQid": null
+ },
+ "Q1786449": {
+  "label": {
+   "en": "Alma-Ata Protocol",
+   "zh": "阿拉木图宣言"
+  },
+  "description": "founding declarations and principles of the Commonwealth of Independent States",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q116741026"
+  ],
+  "wiki": {
+   "en": "Alma-Ata Protocol",
+   "zh": "阿拉木图宣言 (1991年)"
+  },
+  "locationQid": null
+ },
+ "Q1799031": {
+  "label": {
+   "en": "Bayanchur Khan",
+   "zh": "英武可汗"
+  },
+  "description": "Turkic ruler of the second Uyghur Khaganate",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 716,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 759,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bayanchur Khan",
+   "zh": "英武可汗"
+  },
+  "locationQid": null
+ },
+ "Q1799523": {
+  "label": {
+   "en": "Surkh Kotal",
+   "zh": "紅柱"
+  },
+  "description": "archaeological site in Afghanistan",
+  "coord": {
+   "lat": 36.05,
+   "lon": 68.5667
+  },
+  "image": "Staircase, Surkh Kotal, 2–4 century CE.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Surkh Kotal",
+   "zh": null
+  }
+ },
+ "Q182159": {
+  "label": {
+   "en": "Balkh",
+   "zh": "巴尔赫"
+  },
+  "description": "capital of Balkh District, Afghanistan",
+  "coord": {
+   "lat": 36.7581,
+   "lon": 66.8989
+  },
+  "image": "15c green mosque.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3957"
+  ],
+  "wiki": {
+   "en": "Balkh",
+   "zh": "巴尔赫"
+  }
+ },
+ "Q182524": {
+  "label": {
+   "en": "Vostok 1",
+   "zh": "东方一号"
+  },
+  "description": "spaceflight of the Vostok programme",
+  "coord": null,
+  "image": "Vostokpanel.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q752783",
+   "Q624038"
+  ],
+  "wiki": {
+   "en": "Vostok 1",
+   "zh": "東方一號"
+  },
+  "locationQid": null
+ },
+ "Q182865": {
+  "label": {
+   "en": "War in Afghanistan (2001–2021)",
+   "zh": "阿富汗战争"
+  },
+  "description": "armed conflict between NATO countries and Afghanistan from 2001 to 2021",
+  "coord": null,
+  "image": "Collage of the War in Afghanistan (2001-2021).png",
+  "pointInTime": null,
+  "start": {
+   "year": 2001,
+   "date": "2001-10-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2021,
+   "date": "2021-08-30",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "War in Afghanistan (2001–2021)",
+   "zh": "阿富汗戰爭 (2001年—2021年)"
+  },
+  "locationQid": "Q889"
+ },
+ "Q188836": {
+  "label": {
+   "en": "Xiongnu",
+   "zh": "匈奴"
+  },
+  "description": "Ancient steppe empire north of China.",
+  "coord": {
+   "lat": 48,
+   "lon": 105
+  },
+  "image": "Xiongnu chieftain (black backgrouond).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -300,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 500,
+   "date": null,
+   "precision": 7,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q4204501"
+  ],
+  "wiki": {
+   "en": "Xiongnu",
+   "zh": "匈奴"
+  }
+ },
+ "Q188925": {
+  "label": {
+   "en": "Battles of Khalkhin Gol",
+   "zh": "哈拉哈河战役"
+  },
+  "description": "1939 Soviet–Japanese battle in Mongolia",
+  "coord": {
+   "lat": 47.7303,
+   "lon": 118.59
+  },
+  "image": "MNRA soldiers 1939.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1939,
+   "date": "1939-05-11",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1939,
+   "date": "1939-09-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battles of Khalkhin Gol",
+   "zh": "諾門罕戰役"
+  }
+ },
+ "Q189271": {
+  "label": {
+   "en": "Mahmud of Ghazni",
+   "zh": "加兹尼的马哈茂德"
+  },
+  "description": "Sultan of the Ghaznavid Empire from 998 to 1030",
+  "coord": null,
+  "image": "Likely idealized depiction of Sultan Mahmud of Ghazni in the pose of a Sasanian hero-king. Early 11th century, Hermitage Museum, St Petersburg.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 971,
+   "date": "0971-11-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1030,
+   "date": "1030-04-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mahmud of Ghazni",
+   "zh": "加兹尼的马哈茂德"
+  },
+  "locationQid": null
+ },
+ "Q19089744": {
+  "label": {
+   "en": "Durand Line Agreement",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1893,
+   "date": "1893-11-12",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q131569"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": "Q5838"
+ },
+ "Q191267": {
+  "label": {
+   "en": "Tong Yabghu Qaghan",
+   "zh": "统叶护"
+  },
+  "description": "Was khagan of the Western Turkic Khaganate from 618 to 628",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 630,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tong Yabghu",
+   "zh": "统叶护可汗"
+  },
+  "locationQid": null
+ },
+ "Q1923401": {
+  "label": {
+   "en": "Dzungar Khanate",
+   "zh": "准噶尔汗国"
+  },
+  "description": "Oirat Mongolian Khanate based in Dzungaria from 1634–1758, referred as the Last great Nomadic empire",
+  "coord": {
+   "lat": 43.9,
+   "lon": 81.3
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1634,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1758,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Dzungar Khanate",
+   "zh": "准噶尔汗国"
+  }
+ },
+ "Q192453": {
+  "label": {
+   "en": "Ishbara Qaghan",
+   "zh": "阿史那贺鲁"
+  },
+  "description": "tenth (last) Qaghan of the Western Turkic Khaganate (r. 651–658)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 659,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ashina Helu",
+   "zh": "阿史那贺鲁"
+  },
+  "locationQid": null
+ },
+ "Q193325": {
+  "label": {
+   "en": "Merv",
+   "zh": "梅尔夫"
+  },
+  "description": "archaeological site in Turkmenistan",
+  "coord": {
+   "lat": 37.6628,
+   "lon": 62.1925
+  },
+  "image": "Merv City Walls (10) (44747325714).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q15661340"
+  ],
+  "wiki": {
+   "en": "Merv",
+   "zh": "梅尔夫"
+  }
+ },
+ "Q2006581": {
+  "label": {
+   "en": "Virgin Lands campaign",
+   "zh": "处女地运动"
+  },
+  "description": "political campaign in the USSR",
+  "coord": null,
+  "image": "25th anniversary of conquering virgin land. USSR block. 1979.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q170584"
+  ],
+  "wiki": {
+   "en": "Virgin Lands campaign",
+   "zh": "處女地運動"
+  },
+  "locationQid": null
+ },
+ "Q2081446": {
+  "label": {
+   "en": "Outer Mongolian Revolution of 1921",
+   "zh": "1921年蒙古革命"
+  },
+  "description": "Military and political event which led to the creation of the Mongolian People's Republic",
+  "coord": null,
+  "image": "Mongolian Revolutionaries.jpg",
+  "pointInTime": {
+   "year": 1921,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Mongolian Revolution of 1921",
+   "zh": "1921年蒙古革命"
+  },
+  "locationQid": "Q909566"
+ },
+ "Q212056": {
+  "label": {
+   "en": "Mongolian People's Republic",
+   "zh": "蒙古人民共和国"
+  },
+  "description": "1924–1992 communist republic in East Asia",
+  "coord": null,
+  "image": "Дархан 1985.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1924,
+   "date": "1924-11-26",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1992,
+   "date": "1992-02-12",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Mongolian People's Republic",
+   "zh": "蒙古人民共和国"
+  },
+  "locationQid": null
+ },
+ "Q2278212": {
+  "label": {
+   "en": "Sherdar Madrasa",
+   "zh": null
+  },
+  "description": "madrasa  in Samarkand",
+  "coord": {
+   "lat": 39.6549,
+   "lon": 66.9763
+  },
+  "image": "Samarkand, Registan, Sher Dor Medressa (6237690265).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1619,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q132834"
+  ],
+  "wiki": {
+   "en": "Sherdar Madrasa",
+   "zh": null
+  }
+ },
+ "Q2302974": {
+  "label": {
+   "en": "Mongolian Revolution of 1990",
+   "zh": "1990年蒙古民主革命"
+  },
+  "description": "Mongolian protests for democracy and subsequent transition from communism to democracy",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1990,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5255897"
+  ],
+  "wiki": {
+   "en": "Mongolian Revolution of 1990",
+   "zh": "1990年蒙古革命"
+  },
+  "locationQid": "Q1348864"
+ },
+ "Q233507": {
+  "label": {
+   "en": "Second Anglo-Afghan War",
+   "zh": "第二次英国-阿富汗战争"
+  },
+  "description": "1878–1880 war between the British Empire and the Emirate of Afghanistan",
+  "coord": null,
+  "image": "Kandahar 92nd Highlanders.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1878,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1880,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Second Anglo-Afghan War",
+   "zh": "第二次英国—阿富汗战争"
+  },
+  "locationQid": "Q1335260"
+ },
+ "Q23430": {
+  "label": {
+   "en": "Ulaanbaatar",
+   "zh": "乌兰巴托"
+  },
+  "description": "capital and largest city of Mongolia",
+  "coord": {
+   "lat": 47.9214,
+   "lon": 106.9055
+  },
+  "image": "UB downtown.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1639,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10864048",
+   "Q5119",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Ulaanbaatar",
+   "zh": "乌兰巴托"
+  }
+ },
+ "Q23438": {
+  "label": {
+   "en": "Ashgabat",
+   "zh": "阿什哈巴德"
+  },
+  "description": "capital city of Turkmenistan",
+  "coord": {
+   "lat": 37.95,
+   "lon": 58.3833
+  },
+  "image": "Neutrality-Road-Ashgabat-2015.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1881,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q842412",
+   "Q828658",
+   "Q10864048",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Ashgabat",
+   "zh": "阿什哈巴德"
+  }
+ },
+ "Q2384764": {
+  "label": {
+   "en": "Tonyukuk",
+   "zh": "暾欲谷"
+  },
+  "description": "Gokturk army commander",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 646,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 724,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tonyukuk",
+   "zh": "暾欲谷"
+  },
+  "locationQid": null
+ },
+ "Q2475401": {
+  "label": {
+   "en": "Ordu-Baliq",
+   "zh": "牙帐"
+  },
+  "description": "archaeological site in Mongolia",
+  "coord": {
+   "lat": 47.4311,
+   "lon": 102.6594
+  },
+  "image": "Ordu-baliq.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q486972"
+  ],
+  "wiki": {
+   "en": "Ordu-Baliq",
+   "zh": "窩魯朵八里"
+  }
+ },
+ "Q2475921": {
+  "label": {
+   "en": "Bogd Khanate of Mongolia",
+   "zh": "博克多汗国"
+  },
+  "description": "khanate ruled by bogd khan on Outer Mongolia from 1911 to 1919 and 1921 to 1924",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1911,
+   "date": "1911-12-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1924,
+   "date": "1924-11-26",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Bogd Khanate of Mongolia",
+   "zh": "博克多汗国"
+  },
+  "locationQid": null
+ },
+ "Q249578": {
+  "label": {
+   "en": "Ghaznavid Empire",
+   "zh": "加茲尼帝國"
+  },
+  "description": "former country",
+  "coord": {
+   "lat": 33.5492,
+   "lon": 68.4233
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 962,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1187,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Ghaznavid Empire",
+   "zh": "伽色尼王國"
+  }
+ },
+ "Q2497155": {
+  "label": {
+   "en": "Tauke Khan",
+   "zh": "头克汗"
+  },
+  "description": "Kazakh Khanate ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1635,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1718,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tauke Khan",
+   "zh": "头克汗"
+  },
+  "locationQid": null
+ },
+ "Q2511932": {
+  "label": {
+   "en": "Samye Debate",
+   "zh": "拉萨法诤"
+  },
+  "description": "8th century disputation between Chinese and Indian Buddhists",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10551516"
+  ],
+  "wiki": {
+   "en": "Samye Debate",
+   "zh": "拉萨法诤"
+  },
+  "locationQid": null
+ },
+ "Q25238": {
+  "label": {
+   "en": "Thubten Gyatso",
+   "zh": "土登嘉措"
+  },
+  "description": "13th Dalai Lama of Tibet (1876-1933)",
+  "coord": null,
+  "image": "13th Dalai Lama Thubten Gyatso.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1876,
+   "date": "1876-02-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1933,
+   "date": "1933-12-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "13th Dalai Lama",
+   "zh": "第十三世達賴喇嘛"
+  },
+  "locationQid": null
+ },
+ "Q25249": {
+  "label": {
+   "en": "Kelzang Gyatso",
+   "zh": "第七世达赖喇嘛"
+  },
+  "description": "7th Dalai Lama",
+  "coord": null,
+  "image": "7DalaiLama.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1708,
+   "date": "1708-09-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1757,
+   "date": "1757-03-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "7th Dalai Lama",
+   "zh": "第七世达赖喇嘛"
+  },
+  "locationQid": null
+ },
+ "Q25252": {
+  "label": {
+   "en": "Ngawang Lobzang Gyatso",
+   "zh": "第五世达赖喇嘛"
+  },
+  "description": "political and religious leader of Tibet (1617–1682)",
+  "coord": null,
+  "image": "Lozang Gyatso.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1617,
+   "date": "1617-10-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1682,
+   "date": "1682-04-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "5th Dalai Lama",
+   "zh": "第五世达赖喇嘛"
+  },
+  "locationQid": null
+ },
+ "Q255352": {
+  "label": {
+   "en": "Basmachi movement",
+   "zh": "巴斯马奇运动"
+  },
+  "description": "decentralized decolonial movement which undertook a uprising against Russian Imperial and Soviet rule by the Muslim peoples of Central Asia (1916–1934)",
+  "coord": null,
+  "image": "Flag of Turkestan.svg",
+  "pointInTime": {
+   "year": 1916,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1916,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1934,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q138796",
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Basmachi movement",
+   "zh": "巴斯玛奇运动"
+  },
+  "locationQid": "Q1501849"
+ },
+ "Q2586994": {
+  "label": {
+   "en": "Muqan Qaghan",
+   "zh": "木杆可汗"
+  },
+  "description": "khagan of the Göktürks",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 500,
+   "date": null,
+   "precision": 6,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 572,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muqan Qaghan",
+   "zh": "木杆可汗"
+  },
+  "locationQid": null
+ },
+ "Q26493": {
+  "label": {
+   "en": "Battle of Dandanaqan",
+   "zh": "丹丹納干戰役"
+  },
+  "description": "1040 battle of the Seljuk-Ghaznavid Wars",
+  "coord": {
+   "lat": 37.3919,
+   "lon": 61.3454
+  },
+  "image": "Gaznaly-seljuk Dandanaqan.jpg",
+  "pointInTime": {
+   "year": 1040,
+   "date": "1040-05-23",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Dandanaqan",
+   "zh": "丹丹納干戰役"
+  }
+ },
+ "Q26576": {
+  "label": {
+   "en": "Hephthalites",
+   "zh": "嚈噠人"
+  },
+  "description": "nomadic confederation in Central Asia during the late antiquity period",
+  "coord": null,
+  "image": "Эфталитское государство.png",
+  "pointInTime": null,
+  "start": {
+   "year": 408,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 670,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4204501",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Hephthalites",
+   "zh": "嚈噠"
+  },
+  "locationQid": null
+ },
+ "Q2658842": {
+  "label": {
+   "en": "Janybek Khan",
+   "zh": "贾尼别克"
+  },
+  "description": "Kazakh khan",
+  "coord": null,
+  "image": "KZ-2015-500tenge-Khanate-b.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1428,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1480,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Janibek Khan",
+   "zh": "賈尼別克"
+  },
+  "locationQid": null
+ },
+ "Q2662180": {
+  "label": {
+   "en": "Qocho",
+   "zh": "畏兀儿"
+  },
+  "description": "Uyghur kingdom (832-1132)",
+  "coord": null,
+  "image": "Central Asian Buddhist Monks.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": {
+   "year": 1335,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Qocho",
+   "zh": "高昌回鶻"
+  },
+  "locationQid": null
+ },
+ "Q269": {
+  "label": {
+   "en": "Tashkent",
+   "zh": "塔什干"
+  },
+  "description": "capital of Uzbekistan",
+  "coord": {
+   "lat": 41.3111,
+   "lon": 69.2797
+  },
+  "image": "Aerial view of Tashkent, Uzbekistan.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q7631083",
+   "Q10864048",
+   "Q5119"
+  ],
+  "wiki": {
+   "en": "Tashkent",
+   "zh": "塔什干"
+  }
+ },
+ "Q275025": {
+  "label": {
+   "en": "Yumjaagiin Tsedenbal",
+   "zh": "尤睦佳·泽登巴尔"
+  },
+  "description": "Prime Minister and President of Mongolia (1916-1991)",
+  "coord": null,
+  "image": "Altered portrait of Yumjaagiin Tsedenbal.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1916,
+   "date": "1916-09-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1991,
+   "date": "1991-04-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yumjaagiin Tsedenbal",
+   "zh": "尤睦佳·泽登巴尔"
+  },
+  "locationQid": null
+ },
+ "Q29001": {
+  "label": {
+   "en": "Bumin Qaghan",
+   "zh": "阿史那土门"
+  },
+  "description": "founder of the Turkic Khaganate",
+  "coord": null,
+  "image": "Pınarbaşı 16.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 490,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 552,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bumin Qaghan",
+   "zh": "土门"
+  },
+  "locationQid": null
+ },
+ "Q29039": {
+  "label": {
+   "en": "Kebek",
+   "zh": "怯别"
+  },
+  "description": "khan of the Chagatai Khanate",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1201,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1326,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kebek",
+   "zh": "怯别"
+  },
+  "locationQid": null
+ },
+ "Q2986904": {
+  "label": {
+   "en": "Huhanye",
+   "zh": "呼韩邪单于"
+  },
+  "description": "Chanyu of the Xiongnu Empire from 59 to 31 BC",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": -30,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Huhanye",
+   "zh": "呼韓邪單于"
+  },
+  "locationQid": null
+ },
+ "Q2993585": {
+  "label": {
+   "en": "Panjdeh Incident",
+   "zh": "潘杰德"
+  },
+  "description": "1885 battle between Russian Empire and Emirate of Afghanistan",
+  "coord": {
+   "lat": 35.2758,
+   "lon": 62.3417
+  },
+  "image": "Иллюстрация к статье «Кушка». Военная энциклопедия Сытина (Санкт-Петербург, 1911-1915).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1885,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1885,
+   "date": "1885-03-30",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q42750320"
+  ],
+  "wiki": {
+   "en": "Panjdeh incident",
+   "zh": null
+  }
+ },
+ "Q304890": {
+  "label": {
+   "en": "Abay Kunanbaiuly",
+   "zh": "阿拜·庫南巴耶夫"
+  },
+  "description": "Kazakh poet, philosopher and composer (1845-1904)",
+  "coord": null,
+  "image": "Abai Kunanbaev.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1845,
+   "date": "1845-07-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1904,
+   "date": "1904-06-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abai Qunanbaiuly",
+   "zh": "阿拜·庫南拜吾勒"
+  },
+  "locationQid": null
+ },
+ "Q309585": {
+  "label": {
+   "en": "Tokhtamysh",
+   "zh": "脱脱迷失"
+  },
+  "description": "Khan of the Golden Horde",
+  "coord": null,
+  "image": "Battle between Timur and Toqtamish Khan in 1391. Zafarnama of 1436 (Toqtamish detail).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1342,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1406,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tokhtamysh",
+   "zh": "脫脫迷失"
+  },
+  "locationQid": null
+ },
+ "Q3101072": {
+  "label": {
+   "en": "Zhizhi",
+   "zh": "郅支单于"
+  },
+  "description": "supreme ruler of the Xiongnu Empire (d. 36 BCE)",
+  "coord": null,
+  "image": "Hsiung-nu-Empire.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": -35,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zhizhi",
+   "zh": "郅支單于"
+  },
+  "locationQid": null
+ },
+ "Q311488": {
+  "label": {
+   "en": "Khorloogiin Choibalsan",
+   "zh": "霍尔洛·乔巴山"
+  },
+  "description": "Mongolian general and political leader from the 1930s to 1952",
+  "coord": null,
+  "image": "Horloogiyn Choybalsan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1895,
+   "date": "1895-02-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1952,
+   "date": "1952-01-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Khorloogiin Choibalsan",
+   "zh": "霍尔洛·乔巴山"
+  },
+  "locationQid": null
+ },
+ "Q312954": {
+  "label": {
+   "en": "Rudaki",
+   "zh": "鲁达基"
+  },
+  "description": "Persian poet, the father of Persian poetry",
+  "coord": null,
+  "image": "Miniature of Rudaki by Hossein Behzad.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 859,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 941,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rudaki",
+   "zh": "鲁达基"
+  },
+  "locationQid": null
+ },
+ "Q314105": {
+  "label": {
+   "en": "Damdin Sükhbaatar",
+   "zh": "达木丁·苏赫巴托尔"
+  },
+  "description": "Mongolian military leader (1893-1923)",
+  "coord": null,
+  "image": "Sukhbaatar.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1893,
+   "date": "1893-02-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1923,
+   "date": "1923-02-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Damdin Sükhbaatar",
+   "zh": "达木丁·苏赫巴托尔"
+  },
+  "locationQid": null
+ },
+ "Q316083": {
+  "label": {
+   "en": "William of Rubruck",
+   "zh": "鲁不鲁乞"
+  },
+  "description": "Flemish Franciscan missionary and explorer",
+  "coord": null,
+  "image": "Guillaume de Rubrouck detail.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1220,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1293,
+   "date": null,
+   "precision": 8,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "William of Rubruck",
+   "zh": "鲁不鲁乞"
+  },
+  "locationQid": null
+ },
+ "Q31649": {
+  "label": {
+   "en": "Abdur Rahman Khan",
+   "zh": "阿布杜爾·拉赫曼汗"
+  },
+  "description": "Emir of Afghanistan from 1880 to 1901",
+  "coord": null,
+  "image": "Painting of Abdur Rahman Khan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1840,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-10-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abdur Rahman Khan",
+   "zh": "阿布杜爾·拉赫曼汗"
+  },
+  "locationQid": null
+ },
+ "Q317649": {
+  "label": {
+   "en": "Abdullah Khan II",
+   "zh": "阿卜杜拉汗二世"
+  },
+  "description": "Shaybanid Khan of Bukhara from 1583 to 1598",
+  "coord": null,
+  "image": "AbdullakhanII.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1533,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1598,
+   "date": "1598-02-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abdullah Khan II",
+   "zh": "阿卜杜拉汗二世"
+  },
+  "locationQid": null
+ },
+ "Q320122": {
+  "label": {
+   "en": "Songtsän Gampo",
+   "zh": "松赞干布"
+  },
+  "description": "Tibetan emperor (604-650)",
+  "coord": null,
+  "image": "King Songsten Gampo's statue in his meditation cave at Yerpa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 604,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 650,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Songtsen Gampo",
+   "zh": "松赞干布"
+  },
+  "locationQid": null
+ },
+ "Q32027": {
+  "label": {
+   "en": "Dost Mohammad Khan",
+   "zh": "多斯特·穆罕默德汗"
+  },
+  "description": "first Emir of Afghanistan (1823-1863)",
+  "coord": null,
+  "image": "Dost Mohammad Khan of Afghanistan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1793,
+   "date": "1793-12-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1863,
+   "date": "1863-06-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dost Mohammad Khan",
+   "zh": "多斯特·穆罕默德汗"
+  },
+  "locationQid": null
+ },
+ "Q322100": {
+  "label": {
+   "en": "Ablai Khan",
+   "zh": "阿布賚"
+  },
+  "description": "Kazakh khan",
+  "coord": null,
+  "image": "2000 Stamp of Kazakhstan - Abylai Khan (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1711,
+   "date": "1711-05-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1781,
+   "date": "1781-05-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ablai Khan",
+   "zh": "阿布賚"
+  },
+  "locationQid": null
+ },
+ "Q323439": {
+  "label": {
+   "en": "Tsongkhapa",
+   "zh": "宗喀巴"
+  },
+  "description": "Tibetan Buddhist monk, philosopher, and guru (c. 1357–1419)",
+  "coord": null,
+  "image": "རྗེ་ཙོང་ཁ་པ།.webp",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1357,
+   "date": "1357-11-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1419,
+   "date": "1419-11-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Je Tsongkhapa",
+   "zh": "宗喀巴"
+  },
+  "locationQid": null
+ },
+ "Q3239600": {
+  "label": {
+   "en": "Sultan Satuq Bughra Khan",
+   "zh": "萨图克·博格拉汗"
+  },
+  "description": "Turkic ruler (920-955)",
+  "coord": {
+   "lat": 39.6877,
+   "lon": 76.1749
+  },
+  "image": "Mausoleum of Satuq Bughra Khan (detail, B&W), Artush (Hercule Louis Catenacci, 1816-1884).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 914,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 955,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sultan Satuq Bughra Khan",
+   "zh": "萨图克·博格拉汗"
+  }
+ },
+ "Q3269760": {
+  "label": {
+   "en": "Battle of Indus",
+   "zh": "印度河之战"
+  },
+  "description": "battle fought at the Indust river between Khwarazm and the Mongols (1221 AD)",
+  "coord": {
+   "lat": 33.77,
+   "lon": 72.18
+  },
+  "image": "During the battle of Indus.jpg",
+  "pointInTime": {
+   "year": 1221,
+   "date": "1221-11-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of the Indus",
+   "zh": "印度河之戰"
+  }
+ },
+ "Q32853": {
+  "label": {
+   "en": "Sabuktigin",
+   "zh": "苏布克特勤"
+  },
+  "description": "Founder of the Ghaznavid Empire (c.942–997)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 942,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 997,
+   "date": "0997-08-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sabuktigin",
+   "zh": "蘇布克特勤"
+  },
+  "locationQid": null
+ },
+ "Q334704": {
+  "label": {
+   "en": "Orkhon inscriptions",
+   "zh": "鄂尔浑碑铭"
+  },
+  "description": "Göktürk inscriptions dating to the 8th century",
+  "coord": {
+   "lat": 47.5606,
+   "lon": 102.8411
+  },
+  "image": "Kyzyl orkhon inscription.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 800,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178743",
+   "Q1640824"
+  ],
+  "wiki": {
+   "en": "Orkhon inscriptions",
+   "zh": "鄂尔浑碑铭"
+  }
+ },
+ "Q334869": {
+  "label": {
+   "en": "Habibullah Khan",
+   "zh": "哈比卜拉汗"
+  },
+  "description": "Emir of Afghanistan (1901-1919)",
+  "coord": null,
+  "image": "Habibullah.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1872,
+   "date": "1872-06-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1919,
+   "date": "1919-02-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Habibullah Khan",
+   "zh": "哈比布拉汗"
+  },
+  "locationQid": null
+ },
+ "Q335097": {
+  "label": {
+   "en": "Öz Beg Khan",
+   "zh": "月即别"
+  },
+  "description": "Khan of the Golden Horde",
+  "coord": null,
+  "image": "Portrait of Khan Uzbek.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1282,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1341,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Özbeg Khan",
+   "zh": "月即别"
+  },
+  "locationQid": null
+ },
+ "Q336146": {
+  "label": {
+   "en": "Abu al-Ghazi Bahadur",
+   "zh": "阿布勒哈兹·巴哈杜尔"
+  },
+  "description": "Khan of Khiva from 1643 to 1663",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1603,
+   "date": "1603-08-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1664,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abu al-Ghazi Bahadur",
+   "zh": "阿布勒哈兹·巴哈杜尔"
+  },
+  "locationQid": null
+ },
+ "Q353547": {
+  "label": {
+   "en": "Bogd Khan",
+   "zh": "第八世哲布尊丹巴呼图克图"
+  },
+  "description": "Great Khan of Outer Mongolia (1869–1924)",
+  "coord": null,
+  "image": "Sharav bogd khan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1869,
+   "date": "1869-10-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1924,
+   "date": "1924-04-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bogd Khan",
+   "zh": "第八世哲布尊丹巴呼圖克圖"
+  },
+  "locationQid": null
+ },
+ "Q35493": {
+  "label": {
+   "en": "Almaty",
+   "zh": "阿拉木图"
+  },
+  "description": "largest city of Kazakhstan",
+  "coord": {
+   "lat": 43.24,
+   "lon": 76.915
+  },
+  "image": "13 Вид на Алма-Ату с горы Кок Тюбе.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1854,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q51929311",
+   "Q12266391",
+   "Q129268952"
+  ],
+  "wiki": {
+   "en": "Almaty",
+   "zh": "阿拉木圖"
+  }
+ },
+ "Q355610": {
+  "label": {
+   "en": "Mohammed Nadir Shah",
+   "zh": "穆罕默德·纳第尔·沙阿"
+  },
+  "description": "King of Afghanistan from 1929 to 1933",
+  "coord": null,
+  "image": "Nadir Khan of Afghanistan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1883,
+   "date": "1883-04-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1933,
+   "date": "1933-11-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mohammad Nadir Shah",
+   "zh": "穆罕默德·纳第尔·沙阿"
+  },
+  "locationQid": null
+ },
+ "Q35883": {
+  "label": {
+   "en": "Aral Sea",
+   "zh": "鹹海"
+  },
+  "description": "Formerly a salt lake in Central Asia",
+  "coord": {
+   "lat": 45,
+   "lon": 60
+  },
+  "image": "Aral Sea 1989-2008.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47486890"
+  ],
+  "wiki": {
+   "en": "Aral Sea",
+   "zh": "咸海"
+  }
+ },
+ "Q36288": {
+  "label": {
+   "en": "Silk Road",
+   "zh": "丝绸之路"
+  },
+  "description": "trade routes through Asia connecting China to the Mediterranean Sea",
+  "coord": null,
+  "image": "Silk road Kazakhstan.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q405155",
+   "Q445741"
+  ],
+  "wiki": {
+   "en": "Silk Road",
+   "zh": "丝绸之路"
+  },
+  "locationQid": null
+ },
+ "Q3636447": {
+  "label": {
+   "en": "Battle of Geok Tepe",
+   "zh": "格奥克捷佩战役"
+  },
+  "description": "battle between the Russian Empire and Turkmens (1881)",
+  "coord": {
+   "lat": 38.1578,
+   "lon": 57.9664
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1880,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1881,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Battle of Geok Tepe",
+   "zh": "第二次盖奥克泰佩战役"
+  }
+ },
+ "Q366132": {
+  "label": {
+   "en": "Ban Chao",
+   "zh": "班超"
+  },
+  "description": "Chinese military general, explorer and diplomat (32–102 CE)",
+  "coord": null,
+  "image": "Statue commemorating Ban Chao, Kashgar.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 32,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 102,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ban Chao",
+   "zh": "班超"
+  },
+  "locationQid": null
+ },
+ "Q366661": {
+  "label": {
+   "en": "Tri Songdetsen",
+   "zh": "赤松德赞"
+  },
+  "description": "Emperor of Tibet",
+  "coord": null,
+  "image": "Emperor Trisong Detsen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 742,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 797,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Trisong Detsen",
+   "zh": "赤松德贊"
+  },
+  "locationQid": null
+ },
+ "Q372192": {
+  "label": {
+   "en": "Amursana",
+   "zh": "阿睦尔撒纳"
+  },
+  "description": "Dzungarian khan (1722-1757)",
+  "coord": null,
+  "image": "Amursana.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1722,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1757,
+   "date": "1757-09-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Amursana",
+   "zh": "阿睦尔撒纳"
+  },
+  "locationQid": null
+ },
+ "Q373808": {
+  "label": {
+   "en": "Khujand",
+   "zh": "苦盏"
+  },
+  "description": "city in Tajikistan",
+  "coord": {
+   "lat": 40.2794,
+   "lon": 69.6319
+  },
+  "image": "View to Khujand.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": -530,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1306755",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Khujand",
+   "zh": "苦盏"
+  }
+ },
+ "Q381125": {
+  "label": {
+   "en": "Bilge Qaghan",
+   "zh": "毗伽可汗"
+  },
+  "description": "Khan of Gokturk",
+  "coord": null,
+  "image": "Turkic 8th Century Marble Statue of Bilge Khan (35580731981).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 683,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 734,
+   "date": "0734-11-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bilge Qaghan",
+   "zh": "毗伽可汗"
+  },
+  "locationQid": null
+ },
+ "Q3826541": {
+  "label": {
+   "en": "Karai Khan",
+   "zh": "克列汗"
+  },
+  "description": "khan of the Kazakh Khanate (15th century)",
+  "coord": null,
+  "image": "KZ-2015-500tenge-Khanate-b.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1425,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1473,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kerei Khan",
+   "zh": "克列汗"
+  },
+  "locationQid": null
+ },
+ "Q3827276": {
+  "label": {
+   "en": "Isfandiyar Jurji Bahadur Khan",
+   "zh": "阿斯凡迪亞爾汗"
+  },
+  "description": "53rd Khan of Khiva (1871–1918)",
+  "coord": null,
+  "image": "Isfandiyar Jurji Bahadur.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1871,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1918,
+   "date": "1918-10-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Isfandiyar Khan",
+   "zh": "阿斯凡迪亞爾汗"
+  },
+  "locationQid": null
+ },
+ "Q3827288": {
+  "label": {
+   "en": "Muhammad Rahim Bahadur Khan II",
+   "zh": "穆罕默德·拉希姆·巴哈杜爾汗二世"
+  },
+  "description": "Uzbekistani poet (1845–1910)",
+  "coord": null,
+  "image": "Хан Хивинского ханства.PNG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1845,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1910,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad Rahim Khan II of Khiva",
+   "zh": "穆罕默德·拉希姆二世"
+  },
+  "locationQid": null
+ },
+ "Q3827295": {
+  "label": {
+   "en": "Ilbars Khan I",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1456,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1525,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q382816": {
+  "label": {
+   "en": "Modu Chanyu",
+   "zh": "冒顿"
+  },
+  "description": "Chanyu of the Xiongnu Empire from 209 to 174 BCE",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -234,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": -174,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Modu Chanyu",
+   "zh": "冒顿"
+  },
+  "locationQid": null
+ },
+ "Q3870512": {
+  "label": {
+   "en": "Nasrullah Khan",
+   "zh": "納斯魯拉汗"
+  },
+  "description": "Emir of Bukhara",
+  "coord": null,
+  "image": "Nasrulla.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1806,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1860,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nasrullah Khan (emir of Bukhara)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q387151": {
+  "label": {
+   "en": "Ilterish Qaghan",
+   "zh": "骨咄禄"
+  },
+  "description": "Goturk ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 601,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 693,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ilterish Qaghan",
+   "zh": "骨咄禄"
+  },
+  "locationQid": null
+ },
+ "Q39081822": {
+  "label": {
+   "en": "Siege of Merv",
+   "zh": null
+  },
+  "description": "1221 Mongol invasion of Khwarezmia and Eastern Iran",
+  "coord": {
+   "lat": 37.6628,
+   "lon": 62.1925
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1221,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Merv (1221)",
+   "zh": null
+  }
+ },
+ "Q3950956": {
+  "label": {
+   "en": "Battle of Qatwan",
+   "zh": "卡特万之战"
+  },
+  "description": "1141 battle in Central Asia",
+  "coord": {
+   "lat": 39.8,
+   "lon": 66.9
+  },
+  "image": "Battle of Qatwan.png",
+  "pointInTime": {
+   "year": 1141,
+   "date": "1141-09-09",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Qatwan",
+   "zh": "卡特万之战"
+  }
+ },
+ "Q40427": {
+  "label": {
+   "en": "Sher Ali Khan",
+   "zh": "谢尔·阿里汗"
+  },
+  "description": "Emir of Afghanistan (1863-1879)",
+  "coord": null,
+  "image": "Sher Ali (1825-1879) Amir of Afghanistan, photographed in 1869 by John Burke.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1825,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1879,
+   "date": "1879-02-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sher Ali Khan",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q4087412": {
+  "label": {
+   "en": "Battle of Balkh",
+   "zh": "巴爾赫之战"
+  },
+  "description": "900 battle",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 900,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Balkh",
+   "zh": null
+  },
+  "locationQid": "Q182159"
+ },
+ "Q4120993": {
+  "label": {
+   "en": "Tashkent earthquake (1966)",
+   "zh": "1966年塔什干地震"
+  },
+  "description": "1966 earthquake centered in Tashkent, Uzbek SSR",
+  "coord": {
+   "lat": 41.3239,
+   "lon": 69.2722
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1966,
+   "date": "1966-04-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944",
+   "Q8065",
+   "Q3839081"
+  ],
+  "wiki": {
+   "en": "1966 Tashkent earthquake",
+   "zh": "1966年塔什干地震"
+  }
+ },
+ "Q4138186": {
+  "label": {
+   "en": "Battle of Ghazdewan",
+   "zh": null
+  },
+  "description": "1512 battle of Timurid-Uzbek wars",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1512,
+   "date": "1512-11-12",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Ghazdewan",
+   "zh": null
+  },
+  "locationQid": "Q1027045"
+ },
+ "Q4142069": {
+  "label": {
+   "en": "Kazakh famine of 1930–1933",
+   "zh": "1932年哈萨克斯坦大饥荒"
+  },
+  "description": "1930–1933 man-made famine that affected Soviet Kazakhstan",
+  "coord": null,
+  "image": "ALAGolod.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1930,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1933,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q168247"
+  ],
+  "wiki": {
+   "en": "Kazakh famine of 1930–1933",
+   "zh": "1932年哈萨克斯坦大饥荒"
+  },
+  "locationQid": null
+ },
+ "Q4305947": {
+  "label": {
+   "en": "Muzaffar bin Nasrullah",
+   "zh": null
+  },
+  "description": "Emir of Bukhara from 1860 to 1885",
+  "coord": null,
+  "image": "Muzaffar.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1834,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1885,
+   "date": "1885-10-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muzaffar bin Nasrullah",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q431177": {
+  "label": {
+   "en": "Mongol invasion of Khwarazmian Empire and Eastern Iran",
+   "zh": "蒙古征服花剌子模"
+  },
+  "description": "1219–1221 military campaign",
+  "coord": null,
+  "image": "Khwarezmian Empire 1190 - 1220 (AD).PNG",
+  "pointInTime": null,
+  "start": {
+   "year": 1219,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1221,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q831663"
+  ],
+  "wiki": {
+   "en": "Mongol invasion of the Khwarazmian Empire",
+   "zh": "蒙古征服花剌子模"
+  },
+  "locationQid": "Q27275"
+ },
+ "Q434393": {
+  "label": {
+   "en": "Altan Khan",
+   "zh": "俺答汗"
+  },
+  "description": "leader of the Tümed Mongols",
+  "coord": null,
+  "image": "Altan Khan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1507,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1582,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Altan Khan",
+   "zh": "俺答汗"
+  },
+  "locationQid": null
+ },
+ "Q4438492": {
+  "label": {
+   "en": "Central Asian revolt of 1916",
+   "zh": "1916年中亚起义"
+  },
+  "description": "Muslim revolt against Russian conscription in WWI",
+  "coord": null,
+  "image": "Kyrgyz fleeing to China after the 1916 Central Asian revolt.jpg",
+  "pointInTime": {
+   "year": 1917,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Central Asian revolt of 1916",
+   "zh": null
+  },
+  "locationQid": "Q27275"
+ },
+ "Q4462644": {
+  "label": {
+   "en": "Zunghar genocide",
+   "zh": "准噶尔灭族"
+  },
+  "description": "mass extermination of the Mongol Dzungar people",
+  "coord": null,
+  "image": "Dzungar Tribe Genocide.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1755,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1758,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q41397"
+  ],
+  "wiki": {
+   "en": "Dzungar genocide",
+   "zh": "准噶尔灭族"
+  },
+  "locationQid": "Q1923401"
+ },
+ "Q4521263": {
+  "label": {
+   "en": "Xah Murad",
+   "zh": null
+  },
+  "description": "First Emir of Bukhara from 1785 to 1800",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1749,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1800,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shah Murad",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q4527027": {
+  "label": {
+   "en": "Battle of Tashkent",
+   "zh": "塔什干之戰"
+  },
+  "description": "siege during the Russian conquest of Central Asia",
+  "coord": {
+   "lat": 41.3398,
+   "lon": 69.3792
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1865,
+   "date": "1865-05-09",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1865,
+   "date": "1865-06-17",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Tashkent",
+   "zh": null
+  }
+ },
+ "Q45313": {
+  "label": {
+   "en": "Herat",
+   "zh": "赫拉特"
+  },
+  "description": "capital of Herat Province, Afghanistan",
+  "coord": {
+   "lat": 34.3419,
+   "lon": 62.2031
+  },
+  "image": "View of Herat in 2009.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Herat",
+   "zh": "赫拉特"
+  }
+ },
+ "Q45604": {
+  "label": {
+   "en": "Kandahar",
+   "zh": "坎大哈"
+  },
+  "description": "city in Kandahar Province, Afghanistan",
+  "coord": {
+   "lat": 31.6207,
+   "lon": 65.7159
+  },
+  "image": "Aerial view of a section of Kandahar in 2013.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Kandahar",
+   "zh": "坎大哈"
+  }
+ },
+ "Q457944": {
+  "label": {
+   "en": "Shah Shujah Durrani",
+   "zh": "舒亚·沙阿·杜拉尼"
+  },
+  "description": "Emir of Afghanistan (1839-1842) and ruler of the Durrani Empire (1803-1809)",
+  "coord": null,
+  "image": "Shah-Shuja-ul-Mulk.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1780,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1842,
+   "date": "1842-04-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shuja Shah Durrani",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q464986": {
+  "label": {
+   "en": "Goharshad",
+   "zh": "高哈爾紹德"
+  },
+  "description": "queen and chief consort of Shah Rukh, the emperor of the Timurid Empire",
+  "coord": null,
+  "image": "Herat Gawhar Shad mausoleum.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1378,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1457,
+   "date": "1457-07-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gawhar Shad",
+   "zh": "高哈爾紹德"
+  },
+  "locationQid": null
+ },
+ "Q467627": {
+  "label": {
+   "en": "Durrani Empire",
+   "zh": "杜兰尼帝国"
+  },
+  "description": "1747–1823 Afghan empire founded by Ahmad Shah Durrani",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1747,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1826,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Durrani Empire",
+   "zh": "杜兰尼帝国"
+  },
+  "locationQid": null
+ },
+ "Q46798": {
+  "label": {
+   "en": "Ahmed Shahe Durrani",
+   "zh": "艾哈迈德沙·杜兰尼"
+  },
+  "description": "founder of the Afghan Durrani Empire (r. 1747–1772)",
+  "coord": null,
+  "image": "Portrait of Ahmad-Shah Durrani. Mughal miniature. ca. 1757, Bibliothèque nationale de France.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1722,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1772,
+   "date": "1772-10-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ahmad Shah Durrani",
+   "zh": "艾哈迈德沙·杜兰尼"
+  },
+  "locationQid": null
+ },
+ "Q4817850": {
+  "label": {
+   "en": "Muslim conquest of Transoxiana",
+   "zh": "穆斯林征服河中地區"
+  },
+  "description": "7th and 8th-century conquests by the Arabs in Asia",
+  "coord": null,
+  "image": "فتوح قتيبة بن مسلم ومحمد بن القاسم.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 673,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 751,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1361229",
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Muslim conquest of Transoxiana",
+   "zh": "穆斯林征服外索克薩尼亞"
+  },
+  "locationQid": "Q183324"
+ },
+ "Q4833446": {
+  "label": {
+   "en": "Second Turkic Khaganate",
+   "zh": "后突厥汗国"
+  },
+  "description": "Turkic state that ruled in the 7th and 8th centuries",
+  "coord": {
+   "lat": 46,
+   "lon": 110
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 682,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 744,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q331644"
+  ],
+  "wiki": {
+   "en": "Second Turkic Khaganate",
+   "zh": "后突厥汗国"
+  }
+ },
+ "Q484195": {
+  "label": {
+   "en": "Timurid Empire",
+   "zh": "帖木儿帝国"
+  },
+  "description": "Central Asian Persianate Turco-Mongol empire (1370–1507)",
+  "coord": {
+   "lat": 34.341,
+   "lon": 62.203
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1370,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1507,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Timurid Empire",
+   "zh": "帖木儿帝国"
+  }
+ },
+ "Q484458": {
+  "label": {
+   "en": "Buddhas of Bamiyan",
+   "zh": "巴米扬大佛"
+  },
+  "description": "sculptures in Afghanistan before 2001",
+  "coord": {
+   "lat": 34.832,
+   "lon": 67.8268
+  },
+  "image": "Buddha of Bamiyan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q26883973",
+   "Q21745157",
+   "Q839954",
+   "Q1051606",
+   "Q6505852"
+  ],
+  "wiki": {
+   "en": "Buddhas of Bamiyan",
+   "zh": "巴米揚大佛"
+  }
+ },
+ "Q486088": {
+  "label": {
+   "en": "Ulugh Beg",
+   "zh": "乌鲁伯格"
+  },
+  "description": "Timurid sultan, astronomer and mathematician (1394–1449)",
+  "coord": null,
+  "image": "Ulugh Beg, Timurid painting 1425-50.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1394,
+   "date": "1394-03-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1449,
+   "date": "1449-10-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ulugh Beg",
+   "zh": "兀鲁伯"
+  },
+  "locationQid": null
+ },
+ "Q487543": {
+  "label": {
+   "en": "Chagatai Khan",
+   "zh": "察合台"
+  },
+  "description": "second son of Genghis Khan and Börte (1183–1242)",
+  "coord": null,
+  "image": "Chagatai Khan.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1183,
+   "date": "1183-12-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1242,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chagatai Khan",
+   "zh": "察合台"
+  },
+  "locationQid": null
+ },
+ "Q487829": {
+  "label": {
+   "en": "Chagatai Khanate",
+   "zh": "察合台汗国"
+  },
+  "description": "1226–1347 Turkicized Mongol khanate in Central Asia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1225,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1687,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q331644",
+   "Q1345055"
+  ],
+  "wiki": {
+   "en": "Chagatai Khanate",
+   "zh": "察合台汗國"
+  },
+  "locationQid": null
+ },
+ "Q491106": {
+  "label": {
+   "en": "Khanate of Khiva",
+   "zh": "希瓦汗国"
+  },
+  "description": "former country",
+  "coord": {
+   "lat": 41.3783,
+   "lon": 60.3639
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1511,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1920,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Khanate of Khiva",
+   "zh": "希瓦汗国"
+  }
+ },
+ "Q491123": {
+  "label": {
+   "en": "Kyzylorda",
+   "zh": "克孜勒奥尔达"
+  },
+  "description": "city in Kazakhstan",
+  "coord": {
+   "lat": 44.8479,
+   "lon": 65.4999
+  },
+  "image": "Qyzylorda station.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1820,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q129725870"
+  ],
+  "wiki": {
+   "en": "Kyzylorda",
+   "zh": "克孜勒奧爾達"
+  }
+ },
+ "Q492144": {
+  "label": {
+   "en": "Ulugh Beg Madrasa",
+   "zh": "烏魯伯格經學院"
+  },
+  "description": "madrasa in Samarkand, Uzbekistan",
+  "coord": {
+   "lat": 39.6547,
+   "lon": 66.9747
+  },
+  "image": "Ulugh-beg Madrassa courtyard.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1417,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q132834"
+  ],
+  "wiki": {
+   "en": "Ulugh Beg Madrasa",
+   "zh": "烏魯伯格經學院"
+  }
+ },
+ "Q492415": {
+  "label": {
+   "en": "Battle of Talas",
+   "zh": "怛罗斯战役"
+  },
+  "description": "751 battle between the Abbasid Caliphate and the Chinese Tang dynasty",
+  "coord": {
+   "lat": 42.525,
+   "lon": 72.2333
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 751,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 751,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Talas",
+   "zh": "怛罗斯战役"
+  }
+ },
+ "Q494354": {
+  "label": {
+   "en": "Karakhanid Khanate",
+   "zh": "喀喇汗国"
+  },
+  "description": "Turkic dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 840,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1212,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q26883974",
+   "Q331644",
+   "Q8436"
+  ],
+  "wiki": {
+   "en": "Kara-Khanid Khanate",
+   "zh": "喀喇汗国"
+  },
+  "locationQid": null
+ },
+ "Q503340": {
+  "label": {
+   "en": "Ali-Shir Nava'i",
+   "zh": "纳瓦依,"
+  },
+  "description": "Turkic poet and politician (1441–1501)",
+  "coord": null,
+  "image": "Amir Ali-Shir Nava'i before Sultan Husayn Bayqara in 1486 Herat.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1441,
+   "date": "1441-02-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1501,
+   "date": "1501-01-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ali-Shir Nava'i",
+   "zh": "阿里希尔·纳沃伊"
+  },
+  "locationQid": null
+ },
+ "Q520090": {
+  "label": {
+   "en": "Muhammad II of Khwarazm",
+   "zh": "阿拉乌丁·摩诃末"
+  },
+  "description": "Soltan of Khwarezm Empire (1200–1220)",
+  "coord": null,
+  "image": "Muhammad II portrait in a 1430 manuscript of the Jami' al-tawarikh by Rashid-al-Din Hamadani.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1170,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1220,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad II of Khwarazm",
+   "zh": "穆罕默德二世 (花剌子模)"
+  },
+  "locationQid": null
+ },
+ "Q537570": {
+  "label": {
+   "en": "Husayn Bayqarah",
+   "zh": "忽辛·拜哈拉"
+  },
+  "description": "Timurid monarch",
+  "coord": null,
+  "image": "Husayn Bayqarah in the Golestan of Saadi, 1486.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1438,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1506,
+   "date": "1506-05-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Husayn Bayqara",
+   "zh": "忽辛·拜哈拉"
+  },
+  "locationQid": null
+ },
+ "Q553193": {
+  "label": {
+   "en": "Muhammad Shaybani",
+   "zh": "穆罕默德·昔班尼"
+  },
+  "description": "The founder of Shaybanid Dynasty, Khanate of Bukhara",
+  "coord": null,
+  "image": "Muhammad Shaybani.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1451,
+   "date": "1451-01-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1510,
+   "date": "1510-12-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad Shaybani",
+   "zh": "穆罕默德·昔班尼"
+  },
+  "locationQid": null
+ },
+ "Q553204": {
+  "label": {
+   "en": "Shah Rukh",
+   "zh": "沙哈鲁"
+  },
+  "description": "Timurid ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1377,
+   "date": "1377-08-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1447,
+   "date": "1447-03-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shah Rukh",
+   "zh": "沙哈鲁"
+  },
+  "locationQid": null
+ },
+ "Q558247": {
+  "label": {
+   "en": "Yakub Beg",
+   "zh": "阿古柏"
+  },
+  "description": "King of Kashgaria (1820–1877)",
+  "coord": null,
+  "image": "Veselovski-1898-Yakub-Bek.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1820,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1877,
+   "date": "1877-05-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yakub Beg of Yettishar",
+   "zh": "阿古柏"
+  },
+  "locationQid": null
+ },
+ "Q558626": {
+  "label": {
+   "en": "Mohammed Alim Khan",
+   "zh": "穆罕默德·阿里木"
+  },
+  "description": "The last Amir of Emirate of Bukhara (1911–1920)",
+  "coord": null,
+  "image": "Prokudin-Gorskii-19-v2 (cropped).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1880,
+   "date": "1880-01-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1944,
+   "date": "1944-04-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sayyid Mir Muhammad Alim Khan",
+   "zh": "穆罕默德·阿利姆汗"
+  },
+  "locationQid": null
+ },
+ "Q558640": {
+  "label": {
+   "en": "Peljidiin Genden",
+   "zh": "博勒吉德·根登"
+  },
+  "description": "Mongolian politician (1892-1937)",
+  "coord": null,
+  "image": "Genden.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1892,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1937,
+   "date": "1937-11-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peljidiin Genden",
+   "zh": "博勒吉德·根登"
+  },
+  "locationQid": null
+ },
+ "Q559416": {
+  "label": {
+   "en": "Jalal ad-Din Mingburnu",
+   "zh": "札兰丁"
+  },
+  "description": "Ruler of the Khwarazmian Empire",
+  "coord": null,
+  "image": "Jalal al-Din Khwarazmshah confronts Chinggis Khan across the Indus. Rashid al-Din, Jami‘ al-tawarikh, National Library of Russia, St Petersburg, MS. Dorn 289, fols. 125v–126r (Jalal al-Din Khwarazmshah with weapons).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1199,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1231,
+   "date": "1231-08-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jalal al-Din Mangburni",
+   "zh": "札蘭丁"
+  },
+  "locationQid": null
+ },
+ "Q563564": {
+  "label": {
+   "en": "Mahmud al-Kashgari",
+   "zh": "麻赫穆德·喀什噶里"
+  },
+  "description": "11th-century Turkic scholar and lexicographer",
+  "coord": null,
+  "image": "2015-09-11-080312 - Upal, Mausoleum des Uigurischen Philologen Muhamad Al Kashgari.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1029,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1101,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mahmud al-Kashgari",
+   "zh": "麻赫穆德·喀什噶里"
+  },
+  "locationQid": null
+ },
+ "Q56558925": {
+  "label": {
+   "en": "national delimitation in the Soviet Union",
+   "zh": "苏联民族识别"
+  },
+  "description": "process of allocating national administrative-territorial units",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4157074"
+  ],
+  "wiki": {
+   "en": "National delimitation in the Soviet Union",
+   "zh": "苏联的民族划界"
+  },
+  "locationQid": null
+ },
+ "Q570204": {
+  "label": {
+   "en": "Battle of the Kalka River",
+   "zh": "迦勒迦河之战"
+  },
+  "description": "1223 middle ages battle",
+  "coord": {
+   "lat": 47.2508,
+   "lon": 37.4957
+  },
+  "image": "Битва на Калке.png",
+  "pointInTime": {
+   "year": 1223,
+   "date": "1223-05-31",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of the Kalka River",
+   "zh": "迦勒迦河之战"
+  }
+ },
+ "Q57394": {
+  "label": {
+   "en": "Nursultan Nazarbayev",
+   "zh": "努尔苏丹·纳扎尔巴耶夫"
+  },
+  "description": "President of Kazakhstan from 1991 to 2019",
+  "coord": null,
+  "image": "Nursultan Nazarbayev (2020-03-10) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1940,
+   "date": "1940-07-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nursultan Nazarbayev",
+   "zh": "努尔苏丹·纳扎尔巴耶夫"
+  },
+  "locationQid": null
+ },
+ "Q5753": {
+  "label": {
+   "en": "Samarkand",
+   "zh": "撒马尔罕"
+  },
+  "description": "city in southeastern Uzbekistan",
+  "coord": {
+   "lat": 39.6547,
+   "lon": 66.9758
+  },
+  "image": "Sherdor madrasah 3.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -800,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q56061"
+  ],
+  "wiki": {
+   "en": "Samarkand",
+   "zh": "撒馬爾罕"
+  }
+ },
+ "Q5764": {
+  "label": {
+   "en": "Bukhara",
+   "zh": "布哈拉"
+  },
+  "description": "city in Bukhara Province of Uzbekistan",
+  "coord": {
+   "lat": 39.7747,
+   "lon": 64.4286
+  },
+  "image": "Kalon-Ensemble Buchara.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q163359",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Bukhara",
+   "zh": "布哈拉"
+  }
+ },
+ "Q577668": {
+  "label": {
+   "en": "Khanate of Bukhara",
+   "zh": "布哈拉汗国"
+  },
+  "description": "former state (16th–18th century) in Central Asia, centered on Bukhara",
+  "coord": {
+   "lat": 39.7747,
+   "lon": 64.4286
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1785,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q331644"
+  ],
+  "wiki": {
+   "en": "Khanate of Bukhara",
+   "zh": "布哈拉汗国"
+  }
+ },
+ "Q5838": {
+  "label": {
+   "en": "Kabul",
+   "zh": "喀布尔"
+  },
+  "description": "capital and the largest city of Afghanistan",
+  "coord": {
+   "lat": 34.5328,
+   "lon": 69.1658
+  },
+  "image": "Kabul TV Hill view.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1200,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q108178728",
+   "Q56061",
+   "Q51929311",
+   "Q486972"
+  ],
+  "wiki": {
+   "en": "Kabul",
+   "zh": "喀布尔"
+  }
+ },
+ "Q586755": {
+  "label": {
+   "en": "RDS-1",
+   "zh": "RDS-1原子彈"
+  },
+  "description": "type of nuclear weapon",
+  "coord": {
+   "lat": 50.4375,
+   "lon": 77.8142
+  },
+  "image": "A-bomb (RDS-1).jpg",
+  "pointInTime": {
+   "year": 1949,
+   "date": "1949-08-29",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q42314054"
+  ],
+  "wiki": {
+   "en": "RDS-1",
+   "zh": "RDS-1原子彈"
+  }
+ },
+ "Q592550": {
+  "label": {
+   "en": "British expedition to Tibet",
+   "zh": "英國侵藏戰爭"
+  },
+  "description": "expedition to and invasion of Tibet 1903-1904",
+  "coord": {
+   "lat": 26.0889,
+   "lon": 89.2769
+  },
+  "image": "Younghusband-team-1904.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1903,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1904,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663",
+   "Q1384277",
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "British expedition to Tibet",
+   "zh": "英國侵藏戰爭"
+  }
+ },
+ "Q5935362": {
+  "label": {
+   "en": "Hujum",
+   "zh": "胡居姆運動"
+  },
+  "description": "Soviet policies encouraging women in Uzbek SSR to remove veil and become literate",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Hujum",
+   "zh": "胡居姆運動"
+  },
+  "locationQid": null
+ },
+ "Q608580": {
+  "label": {
+   "en": "Ulugh Beg Observatory",
+   "zh": "兀鲁伯天文台"
+  },
+  "description": "observatory in Samarkand, Uzbekistan, built in the 1420s",
+  "coord": {
+   "lat": 39.6747,
+   "lon": 67.0056
+  },
+  "image": "Обсерватория Улугбека, Самарканд (Ulugh Beg Observatory, Samarkand).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1420,
+   "date": null,
+   "precision": 8,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1449,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1254933"
+  ],
+  "wiki": {
+   "en": "Ulugh Beg Observatory",
+   "zh": null
+  }
+ },
+ "Q61944": {
+  "label": {
+   "en": "Semey",
+   "zh": "塞米伊"
+  },
+  "description": "city in Eastern Kazakhstan, capital of Abay Region",
+  "coord": {
+   "lat": 50.4111,
+   "lon": 80.2275
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1718,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q129725870"
+  ],
+  "wiki": {
+   "en": "Semey",
+   "zh": "塞梅伊"
+  }
+ },
+ "Q62677": {
+  "label": {
+   "en": "Karakorum",
+   "zh": "哈拉和林"
+  },
+  "description": "first capital of the Mongol empire, established in 1220",
+  "coord": {
+   "lat": 47.1975,
+   "lon": 102.8238
+  },
+  "image": "Karakorum Silver Tree.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1220,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15661340",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Karakorum",
+   "zh": "哈拉和林"
+  }
+ },
+ "Q63134381": {
+  "label": {
+   "en": "Khwarazmian Empire",
+   "zh": "花剌子模帝国"
+  },
+  "description": "former empire in Central Asia",
+  "coord": {
+   "lat": 36.2133,
+   "lon": 58.7958
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1077,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1231,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Khwarazmian Empire",
+   "zh": "花剌子模帝國"
+  }
+ },
+ "Q632026": {
+  "label": {
+   "en": "Istämi",
+   "zh": "室点密"
+  },
+  "description": "Turkic khan, brother of Bumin Khagan, founder of the Western Turkic Khaganate",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 600,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 576,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Istämi",
+   "zh": "室点密"
+  },
+  "locationQid": null
+ },
+ "Q6402843": {
+  "label": {
+   "en": "Muhammad Khudayar Khan",
+   "zh": "穆罕默德·胡達雅爾汗"
+  },
+  "description": "Khan of Kokand four times",
+  "coord": null,
+  "image": "Sayid Muhammad Khudayar Khan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1835,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1886,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad Khudayar Khan",
+   "zh": "穆罕默德·胡達雅爾汗"
+  },
+  "locationQid": null
+ },
+ "Q679218": {
+  "label": {
+   "en": "Bibi-Khanym Mosque",
+   "zh": "撒马尔罕比比哈努姆清真寺"
+  },
+  "description": "historical mosque in Samarkand, Uzbekistan",
+  "coord": {
+   "lat": 39.6606,
+   "lon": 66.9797
+  },
+  "image": "Bibi-Khanym Mosque (8145400614).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1404,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q32815"
+  ],
+  "wiki": {
+   "en": "Bibi-Khanym Mosque",
+   "zh": "比比哈奴清真寺"
+  }
+ },
+ "Q68221": {
+  "label": {
+   "en": "Kutlug I Bilge Kagan",
+   "zh": "怀仁可汗"
+  },
+  "description": "Khan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 747,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kutlug I Bilge Qaghan",
+   "zh": "怀仁可汗"
+  },
+  "locationQid": null
+ },
+ "Q68234": {
+  "label": {
+   "en": "Bögü Khagan",
+   "zh": "牟羽可汗"
+  },
+  "description": "Uyghur Khan",
+  "coord": null,
+  "image": "Detail of Bögü Qaghan, in Conversion of Bögü Qaghan (759-780 CE) to Manicheism in 762 (8th century Manichean painter).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 780,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bögü Qaghan",
+   "zh": "牟羽可汗"
+  },
+  "locationQid": null
+ },
+ "Q693686": {
+  "label": {
+   "en": "Nasr II",
+   "zh": "納斯爾二世"
+  },
+  "description": "the fourth king of Samanid dynasty (914–943)",
+  "coord": null,
+  "image": "NasrIISamanidCoinHistoryofIran.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 906,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 943,
+   "date": "0943-04-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nasr II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q696241": {
+  "label": {
+   "en": "Khanate of Kokand",
+   "zh": "浩罕汗国"
+  },
+  "description": "former state in Central Asia",
+  "coord": {
+   "lat": 40.5286,
+   "lon": 70.9425
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1709,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1876,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q331644"
+  ],
+  "wiki": {
+   "en": "Khanate of Kokand",
+   "zh": "浩罕汗国"
+  }
+ },
+ "Q71229": {
+  "label": {
+   "en": "Potala Palace",
+   "zh": "布达拉宫"
+  },
+  "description": "7th-century Tibetan fortress and palace in Lhasa, rebuilt in the 17th century as the winter seat of the Dalai Lamas",
+  "coord": {
+   "lat": 29.6578,
+   "lon": 91.1169
+  },
+  "image": "Potala.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 637,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q16560",
+   "Q5393308",
+   "Q4588528",
+   "Q6838244"
+  ],
+  "wiki": {
+   "en": "Potala Palace",
+   "zh": "布达拉宫"
+  }
+ },
+ "Q716521": {
+  "label": {
+   "en": "deportation of Koreans in the Soviet Union",
+   "zh": "高丽人集体流配"
+  },
+  "description": "ethnic cleansing of Koreans in the Soviet Union",
+  "coord": null,
+  "image": "Deported-Koreans-Fall-193.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1937,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1937,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q379693",
+   "Q837556"
+  ],
+  "wiki": {
+   "en": "Deportation of Koreans in the Soviet Union",
+   "zh": "蘇聯高麗人集體流配"
+  },
+  "locationQid": null
+ },
+ "Q720": {
+  "label": {
+   "en": "Genghis Khan",
+   "zh": "成吉思汗"
+  },
+  "description": "founder and first khan of the Mongol Empire (1162–1227)",
+  "coord": null,
+  "image": "YuanEmperorAlbumGenghisPortrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1162,
+   "date": "1162-05-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1227,
+   "date": "1227-08-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Genghis Khan",
+   "zh": "成吉思汗"
+  },
+  "locationQid": null
+ },
+ "Q723036": {
+  "label": {
+   "en": "Ala ad-Din Tekish",
+   "zh": "塔乞失"
+  },
+  "description": "12th-century Khwarazm Shah",
+  "coord": null,
+  "image": "Takash, Sultan of Khwarazm, Congratulated by Rashid al-Din-i Vatvat, Yale University Art Gallery, accession number 1983-94-10 (Takash portrait) Contrast.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1132,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1200,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ala al-Din Tekish",
+   "zh": "塔乞失"
+  },
+  "locationQid": null
+ },
+ "Q735871": {
+  "label": {
+   "en": "Zanabazar",
+   "zh": "第一世哲布尊丹巴呼图克图"
+  },
+  "description": "Tibetan Buddhist spiritual leader",
+  "coord": null,
+  "image": "YesheDorje.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1635,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1723,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zanabazar",
+   "zh": "第一世哲布尊丹巴呼图克图"
+  },
+  "locationQid": null
+ },
+ "Q735914": {
+  "label": {
+   "en": "Jokhang",
+   "zh": "大昭寺"
+  },
+  "description": "Buddhist temple in Barkhor Square in Lhasa",
+  "coord": {
+   "lat": 29.6531,
+   "lon": 91.1322
+  },
+  "image": "Jokhang Temple in Tibet.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 639,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5393308",
+   "Q10300916",
+   "Q6838244"
+  ],
+  "wiki": {
+   "en": "Jokhang",
+   "zh": "大昭寺"
+  }
+ },
+ "Q737625": {
+  "label": {
+   "en": "Dīwān ul-Lughat al-Turk",
+   "zh": "突厥语大词典"
+  },
+  "description": "earliest known dictionary of Turkic Languages",
+  "coord": null,
+  "image": "Kashgari map.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1266,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634",
+   "Q23622",
+   "Q17537576"
+  ],
+  "wiki": {
+   "en": "Dīwān Lughāt al-Turk",
+   "zh": "突厥语大词典"
+  },
+  "locationQid": "Q6585222"
+ },
+ "Q746558": {
+  "label": {
+   "en": "Emirate of Bukhara",
+   "zh": "布哈拉埃米尔国"
+  },
+  "description": "1785–1920 state in Central Asia",
+  "coord": {
+   "lat": 39.7747,
+   "lon": 64.4286
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1785,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1920,
+   "date": "1920-10-07",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7275",
+   "Q3024240",
+   "Q189898",
+   "Q164142"
+  ],
+  "wiki": {
+   "en": "Emirate of Bukhara",
+   "zh": "布哈拉酋長國"
+  }
+ },
+ "Q7510363": {
+  "label": {
+   "en": "Siege of Samarkand",
+   "zh": "撒马尔罕围城战"
+  },
+  "description": "1220 seizure and destruction of Samarkand by Genghis Khan's Mongol army",
+  "coord": {
+   "lat": 39.6542,
+   "lon": 66.9597
+  },
+  "image": "Storks on Tupchiboshi Madrasa, Bukhara.jpg",
+  "pointInTime": {
+   "year": 1220,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Samarkand (1220)",
+   "zh": "撒马尔罕之战"
+  }
+ },
+ "Q7519": {
+  "label": {
+   "en": "Ögedei Khan",
+   "zh": "窝阔台"
+  },
+  "description": "Khan of the Mongol Empire (c.1186-1241) (r. 1229-1241)",
+  "coord": null,
+  "image": "YuanEmperorAlbumOgedeiPortrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1186,
+   "date": "1186-11-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1241,
+   "date": "1241-12-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ögedei Khan",
+   "zh": "窝阔台"
+  },
+  "locationQid": null
+ },
+ "Q7520": {
+  "label": {
+   "en": "Güyük Khan",
+   "zh": "贵由"
+  },
+  "description": "Third Great Khan of the Mongol Empire",
+  "coord": null,
+  "image": "Guyuk khan from Persian miniature.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1206,
+   "date": "1206-03-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1248,
+   "date": "1248-04-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Güyük Khan",
+   "zh": "贵由"
+  },
+  "locationQid": null
+ },
+ "Q7521": {
+  "label": {
+   "en": "Möngke Khan",
+   "zh": "蒙哥"
+  },
+  "description": "Fourth Great Khan of the Mongol Empire",
+  "coord": null,
+  "image": "Möngke Khan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1209,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1259,
+   "date": "1259-08-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Möngke Khan",
+   "zh": "蒙哥"
+  },
+  "locationQid": null
+ },
+ "Q7523": {
+  "label": {
+   "en": "Kublai Khan",
+   "zh": "忽必烈"
+  },
+  "description": "founding emperor of the Yuan dynasty, grandson of Genghis Khan (1215–1294)",
+  "coord": null,
+  "image": "YuanEmperorAlbumKhubilaiPortrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1215,
+   "date": "1215-09-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1294,
+   "date": "1294-02-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kublai Khan",
+   "zh": "忽必烈"
+  },
+  "locationQid": null
+ },
+ "Q764967": {
+  "label": {
+   "en": "Andijan massacre",
+   "zh": "安集延事件"
+  },
+  "description": "violent incident in Andijan, Uzbekistan",
+  "coord": {
+   "lat": 40.7831,
+   "lon": 72.35
+  },
+  "image": "Panorama of Navoi Square (Formerly Bobur Square) - Where 2005 Massacre Took Place - Andijon - Uzbekistan - 01 (7543269364) (cropped).jpg",
+  "pointInTime": {
+   "year": 2005,
+   "date": "2005-05-13",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q750215",
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Andijan massacre",
+   "zh": "安集延事件"
+  }
+ },
+ "Q7813573": {
+  "label": {
+   "en": "Tokhtamysh–Timur War",
+   "zh": "脱脱迷失-帖木儿战争"
+  },
+  "description": "war between Tokhtamysh of the Golden Horde and Timur the warlord",
+  "coord": null,
+  "image": "Battle between Timur and Toqtamish Khan in 18 June 1391. Zafarnama of 1436, facing folios 208v-207r.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1386,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1395,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Tokhtamysh–Timur war",
+   "zh": "脱脱迷失-帖木儿战争"
+  },
+  "locationQid": "Q1315785"
+ },
+ "Q79965": {
+  "label": {
+   "en": "Golden Horde",
+   "zh": "金帳汗國"
+  },
+  "description": "medieval state in Eurasia",
+  "coord": {
+   "lat": 52,
+   "lon": 60
+  },
+  "image": "Golden Horde in the Catalan Atlas (1375).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1243,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1502,
+   "date": "1502-06-28",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Golden Horde",
+   "zh": "欽察汗國"
+  }
+ },
+ "Q80811": {
+  "label": {
+   "en": "Sputnik 1",
+   "zh": "斯普特尼克1号"
+  },
+  "description": "first artificial Earth satellite",
+  "coord": null,
+  "image": "Sputnik 1 satellite model.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12832168"
+  ],
+  "wiki": {
+   "en": "Sputnik 1",
+   "zh": "史普尼克1號"
+  },
+  "locationQid": null
+ },
+ "Q83085": {
+  "label": {
+   "en": "Soviet-Afghan War",
+   "zh": "阿富汗战争"
+  },
+  "description": "1979–1989 war between the Soviet Union and Afghan insurgents",
+  "coord": null,
+  "image": "Afghan-Soviet war.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1979,
+   "date": "1979-12-25",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1989,
+   "date": "1989-02-15",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Soviet–Afghan War",
+   "zh": "苏阿战争"
+  },
+  "locationQid": "Q476757"
+ },
+ "Q831218": {
+  "label": {
+   "en": "Uyghur Khaganate",
+   "zh": "回鹘"
+  },
+  "description": "former country",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 744,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 840,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Uyghur Khaganate",
+   "zh": "回鹘汗国"
+  },
+  "locationQid": null
+ },
+ "Q8462": {
+  "label": {
+   "en": "Timur",
+   "zh": "帖木尔"
+  },
+  "description": "the founder of the Timurid Empire (1370–1405)",
+  "coord": null,
+  "image": "Timur seated (earliest known portrait), Timurid genealogy, 1405-1409, Samarkand (TSMK, H2152).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1336,
+   "date": "1336-04-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1405,
+   "date": "1405-02-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Timur",
+   "zh": "帖木儿"
+  },
+  "locationQid": null
+ },
+ "Q852171": {
+  "label": {
+   "en": "Mongol invasion of Europe",
+   "zh": "蒙古侵略欧洲"
+  },
+  "description": "13th century conquests by the Mongol Empire",
+  "coord": null,
+  "image": "Genghis Khan empire (mul).svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1223,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1242,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Mongol invasion of Europe",
+   "zh": "蒙古入侵歐洲"
+  },
+  "locationQid": "Q27468"
+ },
+ "Q862304": {
+  "label": {
+   "en": "Qara Khitai",
+   "zh": "西辽"
+  },
+  "description": "former country in Central Asia",
+  "coord": null,
+  "image": "CEM-19-Asiae-nova-description-1610-Jodocus-Hondius-2538.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1124,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1218,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q331644",
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Qara Khitai",
+   "zh": "西辽"
+  },
+  "locationQid": null
+ },
+ "Q862648": {
+  "label": {
+   "en": "Ismail Samani",
+   "zh": "伊斯梅尔·本·艾哈迈德"
+  },
+  "description": "Amir of the Samanid Empire from 892 to 907",
+  "coord": null,
+  "image": "TajikistanP19-100Somoni-1999(2000)-donatedeh f.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 849,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 907,
+   "date": "0907-11-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ismail Samani",
+   "zh": "伊斯梅尔·萨马尼"
+  },
+  "locationQid": null
+ },
+ "Q8666": {
+  "label": {
+   "en": "Toghon Temür",
+   "zh": "元顺帝"
+  },
+  "description": "Yuan and Northern Yuan emperor from 1333 to 1370",
+  "coord": null,
+  "image": "Toghon Temur.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1320,
+   "date": "1320-05-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1370,
+   "date": "1370-05-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Toghon Temür",
+   "zh": "元順帝"
+  },
+  "locationQid": null
+ },
+ "Q870947": {
+  "label": {
+   "en": "Battle of Zhizhi",
+   "zh": "郅支之战"
+  },
+  "description": "battle in 36 BC between the Han dynasty and the Xiongnu chieftain Zhizhi Chanyu",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": -36,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": -36,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Zhizhi",
+   "zh": "郅支围城战"
+  },
+  "locationQid": "Q486545"
+ },
+ "Q874357": {
+  "label": {
+   "en": "Western Turkic Khaganate",
+   "zh": "西突厥"
+  },
+  "description": "former Khaganate",
+  "coord": null,
+  "image": "Батыс Түрік Қағанаты.png",
+  "pointInTime": null,
+  "start": {
+   "year": 581,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 659,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q331644"
+  ],
+  "wiki": {
+   "en": "Western Turkic Khaganate",
+   "zh": "西突厥"
+  },
+  "locationQid": null
+ },
+ "Q877381": {
+  "label": {
+   "en": "Gaochang",
+   "zh": "高昌"
+  },
+  "description": "site of historical ruins in Xinjiang",
+  "coord": {
+   "lat": 42.8528,
+   "lon": 89.5292
+  },
+  "image": "Turpan-gaochang-d10.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q43742",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Gaochang",
+   "zh": "高昌國"
+  }
+ },
+ "Q883298": {
+  "label": {
+   "en": "Jeltoqsan",
+   "zh": "杰勒托克桑事件"
+  },
+  "description": "1986 Alma-Ata protests and riots that resulted in massacre",
+  "coord": null,
+  "image": "Republic Square, Almaty 1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1986,
+   "date": "1986-12-16",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1986,
+   "date": "1986-12-19",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3588250",
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Jeltoqsan",
+   "zh": "杰勒托克桑事件"
+  },
+  "locationQid": "Q35493"
+ },
+ "Q8959": {
+  "label": {
+   "en": "Northern Yuan dynasty",
+   "zh": "北元"
+  },
+  "description": "former empire in East Asia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1368,
+   "date": "1368-01-23",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1691,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12857432",
+   "Q50068795"
+  ],
+  "wiki": {
+   "en": "Northern Yuan",
+   "zh": "北元"
+  },
+  "locationQid": null
+ },
+ "Q9304": {
+  "label": {
+   "en": "Dayan Khan",
+   "zh": "达延汗"
+  },
+  "description": "Khaan of the Northern Yuan Dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1472,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1517,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dayan Khan",
+   "zh": "达延汗"
+  },
+  "locationQid": null
+ },
+ "Q932446": {
+  "label": {
+   "en": "Ganden Monastery",
+   "zh": "甘丹寺"
+  },
+  "description": "monastery in Dagzê District, Lhasa, Tibet, China",
+  "coord": {
+   "lat": 29.7585,
+   "lon": 91.4763
+  },
+  "image": "Ganden monastery.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q44613",
+   "Q10300916"
+  ],
+  "wiki": {
+   "en": "Ganden Monastery",
+   "zh": "甘丹寺"
+  }
+ },
+ "Q9341": {
+  "label": {
+   "en": "Ligdan Khan",
+   "zh": "林丹汗"
+  },
+  "description": "Khagan of the Mongols",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1588,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1634,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ligdan Khan",
+   "zh": "林丹汗"
+  },
+  "locationQid": null
+ },
+ "Q9361": {
+  "label": {
+   "en": "Bishkek",
+   "zh": "比什凯克"
+  },
+  "description": "capital city of Kyrgyzstan",
+  "coord": {
+   "lat": 42.8667,
+   "lon": 74.5667
+  },
+  "image": "Bishkek City's business center.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1825,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10864048",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Bishkek",
+   "zh": "比什凯克"
+  }
+ },
+ "Q9365": {
+  "label": {
+   "en": "Dushanbe",
+   "zh": "杜尚别"
+  },
+  "description": "capital of Tajikistan",
+  "coord": {
+   "lat": 38.5731,
+   "lon": 68.7864
+  },
+  "image": "Tehron Street Dushanbe.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1700,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5119"
+  ],
+  "wiki": {
+   "en": "Dushanbe",
+   "zh": "杜尚别"
+  }
+ },
+ "Q936594": {
+  "label": {
+   "en": "Mas'ud I",
+   "zh": "馬蘇德一世"
+  },
+  "description": "Ruler of the Ghaznavid Empire",
+  "coord": null,
+  "image": "MassudOfGhazniCoin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 998,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1041,
+   "date": "1041-01-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Masʽud I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q980774": {
+  "label": {
+   "en": "Bezeklik Thousand Buddha Caves",
+   "zh": "柏孜克里克千佛洞"
+  },
+  "description": "cave in People's Republic of China",
+  "coord": {
+   "lat": 42.9554,
+   "lon": 89.5397
+  },
+  "image": "Turpan-bezeklik-cuevas-d01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1131329",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Bezeklik Thousand Buddha Caves",
+   "zh": "柏孜克里克千佛洞"
+  }
+ },
+ "Q981162": {
+  "label": {
+   "en": "Galdan Tseren Khan",
+   "zh": "噶尔丹策零"
+  },
+  "description": "Khan of the Dzungar Khanate",
+  "coord": null,
+  "image": "Modern illustration of Galdan Tseren Khan as an equestrian portrait.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1695,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1745,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Galdan Tseren Khan",
+   "zh": "噶尔丹策零"
+  },
+  "locationQid": null
+ },
+ "Q989092": {
+  "label": {
+   "en": "First Anglo-Afghan War",
+   "zh": "第一次英阿战争"
+  },
+  "description": "1838–1842 war between the British Empire and the Emirate of Afghanistan",
+  "coord": null,
+  "image": "The army of the Indus entering Kandahar.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1839,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1842,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "First Anglo-Afghan War",
+   "zh": "第一次英国—阿富汗战争"
+  },
+  "locationQid": "Q889"
+ },
+ "loc:Q1027045": {
+  "coord": {
+   "lat": 40.1,
+   "lon": 64.6667
+  },
+  "label": {
+   "en": "Gijduvan",
+   "zh": "吉日杜万"
+  }
+ },
+ "loc:Q1315785": {
+  "coord": {
+   "lat": 39.3657,
+   "lon": 67.9556
+  },
+  "label": {
+   "en": "Turkestan",
+   "zh": "突厥斯坦"
+  }
+ },
+ "loc:Q1335260": {
+  "coord": {
+   "lat": 34.54,
+   "lon": 69.13
+  },
+  "label": {
+   "en": "Emirate of Afghanistan",
+   "zh": "阿富汗酋长国"
+  }
+ },
+ "loc:Q1348864": {
+  "coord": {
+   "lat": 47.9189,
+   "lon": 106.918
+  },
+  "label": {
+   "en": "Sükhbaatar Square",
+   "zh": "苏赫巴托尔广场"
+  }
+ },
+ "loc:Q1501849": {
+  "coord": {
+   "lat": 41.2667,
+   "lon": 69.2167
+  },
+  "label": {
+   "en": "Russian Turkestan",
+   "zh": "西突厥斯坦"
+  }
+ },
+ "loc:Q16880532": {
+  "coord": null,
+  "label": {
+   "en": "North-West Frontier Province (1901–1955)",
+   "zh": null
+  }
+ },
+ "loc:Q182159": {
+  "coord": {
+   "lat": 36.7581,
+   "lon": 66.8989
+  },
+  "label": {
+   "en": "Balkh",
+   "zh": "巴尔赫"
+  }
+ },
+ "loc:Q183324": {
+  "coord": {
+   "lat": 42.4303,
+   "lon": 63.8996
+  },
+  "label": {
+   "en": "Transoxiana",
+   "zh": "河中地区"
+  }
+ },
+ "loc:Q1923401": {
+  "coord": {
+   "lat": 43.9,
+   "lon": 81.3
+  },
+  "label": {
+   "en": "Dzungar Khanate",
+   "zh": "准噶尔汗国"
+  }
+ },
+ "loc:Q232": {
+  "coord": {
+   "lat": 48,
+   "lon": 68
+  },
+  "label": {
+   "en": "Kazakhstan",
+   "zh": "哈萨克斯坦"
+  }
+ },
+ "loc:Q27275": {
+  "coord": {
+   "lat": 45.3,
+   "lon": 63.9
+  },
+  "label": {
+   "en": "Central Asia",
+   "zh": "中亚"
+  }
+ },
+ "loc:Q27468": {
+  "coord": {
+   "lat": 49,
+   "lon": 31
+  },
+  "label": {
+   "en": "Eastern Europe",
+   "zh": "东欧"
+  }
+ },
+ "loc:Q35493": {
+  "coord": {
+   "lat": 43.24,
+   "lon": 76.915
+  },
+  "label": {
+   "en": "Almaty",
+   "zh": "阿拉木图"
+  }
+ },
+ "loc:Q476757": {
+  "coord": {
+   "lat": 34.5167,
+   "lon": 69.1333
+  },
+  "label": {
+   "en": "Democratic Republic of Afghanistan",
+   "zh": "阿富汗民主共和国"
+  }
+ },
+ "loc:Q486545": {
+  "coord": {
+   "lat": 42.8833,
+   "lon": 71.3667
+  },
+  "label": {
+   "en": "Taraz",
+   "zh": "塔拉兹"
+  }
+ },
+ "loc:Q5838": {
+  "coord": {
+   "lat": 34.5328,
+   "lon": 69.1658
+  },
+  "label": {
+   "en": "Kabul",
+   "zh": "喀布尔"
+  }
+ },
+ "loc:Q656": {
+  "coord": {
+   "lat": 59.95,
+   "lon": 30.3167
+  },
+  "label": {
+   "en": "Saint Petersburg",
+   "zh": "圣彼得堡"
+  }
+ },
+ "loc:Q6585222": {
+  "coord": {
+   "lat": 41.0174,
+   "lon": 28.9498
+  },
+  "label": {
+   "en": "Millet Library",
+   "zh": null
+  }
+ },
+ "loc:Q863": {
+  "coord": {
+   "lat": 38.5833,
+   "lon": 71.3667
+  },
+  "label": {
+   "en": "Tajikistan",
+   "zh": "塔吉克斯坦"
+  }
+ },
+ "loc:Q889": {
+  "coord": {
+   "lat": 33,
+   "lon": 66
+  },
+  "label": {
+   "en": "Afghanistan",
+   "zh": "阿富汗"
+  }
+ },
+ "loc:Q909566": {
+  "coord": {
+   "lat": 47.9167,
+   "lon": 106.9167
+  },
+  "label": {
+   "en": "Outer Mongolia",
+   "zh": "外蒙古"
+  }
+ }
+}

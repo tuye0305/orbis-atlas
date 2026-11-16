@@ -78,5 +78,143 @@
       "https://encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/biruni-al",
       "https://www.britannica.com/topic/Tahqiq-ma-li-l-hind-min-maqulah-maqbulah-fi-al-aql-aw-mardhulah (via search)"
     ]
+  },
+  "ev-arab-conquest-of-transoxiana:year": {
+    "verdict": "keep-ours",
+    "reason": "The record covers the decisive phase under Qutayba ibn Muslim, who took Bukhara and Samarkand between 705 and 715; Wikidata’s 673 is the first Arab raid across the Oxus for the whole, longer conquest.",
+    "checked": [
+      "al-Tabari, History, vols. 23–24 (SUNY tr.)",
+      "Hugh Kennedy, The Great Arab Conquests (2007), ch. 8",
+      "https://www.wikidata.org/wiki/Q4817850"
+    ]
+  },
+  "ev-arab-conquest-of-transoxiana:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Qutayba’s campaigns ended with his death in 715; Wikidata’s 751 (Talas) ends the wider conquest, which is recorded as a separate event.",
+    "checked": [
+      "Hugh Kennedy, The Great Arab Conquests (2007), ch. 8",
+      "https://www.wikidata.org/wiki/Q4817850"
+    ]
+  },
+  "ev-arab-conquest-of-transoxiana:coord": {
+    "verdict": "keep-ours",
+    "reason": "Samarkand, taken by Qutayba in 712, is the conquest’s centre; Wikidata’s point lies in Khwarazm. The full route is given separately.",
+    "checked": [
+      "Hugh Kennedy, The Great Arab Conquests (2007)",
+      "https://www.wikidata.org/wiki/Q4817850"
+    ]
+  },
+  "ev-diwan-lughat-al-turk:year": {
+    "verdict": "keep-ours",
+    "reason": "Al-Kashgari completed the Diwan in Baghdad in 1072–77; Wikidata’s 1266 is the date of the only surviving manuscript copy.",
+    "checked": [
+      "Robert Dankoff and James Kelly, Compendium of the Turkic Dialects (1982–85), introduction",
+      "https://en.wikipedia.org/wiki/D%C4%ABw%C4%81n_Lugh%C4%81t_al-Turk"
+    ]
+  },
+  "ev-diwan-lughat-al-turk:coord": {
+    "verdict": "keep-ours",
+    "reason": "The marker is at Baghdad, where the book was written; Wikidata’s Istanbul point is where the manuscript is kept (Millet Library).",
+    "checked": [
+      "Robert Dankoff and James Kelly, Compendium of the Turkic Dialects (1982–85)",
+      "https://www.wikidata.org/wiki/Q737625"
+    ]
+  },
+  "ev-batu-western-campaign:year": {
+    "verdict": "keep-ours",
+    "reason": "The western campaign was launched in 1236 with the attack on Volga Bulgaria; Wikidata’s item begins with the 1223 Kalka raid, which is recorded separately (ev-battle-of-the-kalka-river).",
+    "checked": [
+      "Peter Jackson, The Mongols and the West (2005), ch. 3",
+      "https://www.britannica.com/biography/Batu-Mongol-ruler"
+    ]
+  },
+  "ev-batu-western-campaign:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is a generic location in Ukraine; the marker is at Bilär, the first great city taken, and the route covers Rus’, Poland and Hungary.",
+    "checked": [
+      "Peter Jackson, The Mongols and the West (2005)",
+      "https://www.wikidata.org/wiki/Q852171"
+    ]
+  },
+  "ev-tokhtamysh-timur-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "The marker is at the Terek battlefield of 1395, the decisive battle; Wikidata’s point lies in Transoxiana, where only the early raids took place.",
+    "checked": [
+      "Beatrice Forbes Manz, The Rise and Rule of Tamerlane (1989)",
+      "https://www.wikidata.org/wiki/Q7813573"
+    ]
+  },
+  "ev-potala-palace-built:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata dates the site to Songtsen Gampo’s 7th-century palace; the present palace was built from 1645 (White Palace) to 1694 (Red Palace) under the Fifth Dalai Lama and Desi Sangye Gyatso.",
+    "checked": [
+      "UNESCO World Heritage List: Historic Ensemble of the Potala Palace, Lhasa",
+      "https://whc.unesco.org/en/list/707",
+      "https://www.britannica.com/topic/Potala-Palace"
+    ]
+  },
+  "ev-first-anglo-afghan-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is the centroid of Afghanistan; the war centred on Kabul, which the British occupied in 1839 and evacuated in the disastrous retreat of 1842.",
+    "checked": [
+      "William Dalrymple, Return of a King (2013)",
+      "https://www.wikidata.org/wiki/Q989092"
+    ]
+  },
+  "ev-second-anglo-afghan-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker deliberately placed at Maiwand, the war’s best-known battle; Wikidata uses Kabul. The route covers Kabul and Kandahar.",
+    "checked": [
+      "Brian Robson, The Road to Kabul: The Second Afghan War 1878–1881 (1986)",
+      "https://www.wikidata.org/wiki/Q233507"
+    ]
+  },
+  "ev-british-expedition-to-tibet:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point lies in the Bengal plains far south of the theatre; the marker is at Gyantse, the expedition’s main battle, and the route runs to Lhasa.",
+    "checked": [
+      "Charles Allen, Duel in the Snows (2004)",
+      "https://www.britannica.com/topic/Anglo-Tibetan-Treaty"
+    ]
+  },
+  "ev-war-in-afghanistan-2001:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is the centroid of Afghanistan; Kabul, taken in November 2001 and abandoned in August 2021, is the war’s focus.",
+    "checked": [
+      "https://www.britannica.com/event/Afghanistan-War",
+      "https://www.wikidata.org/wiki/Q182865"
+    ]
+  },
+  "ev-kazakh-unrest-2022:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is the centroid of Kazakhstan; the protests began in Zhanaozen but the deadly violence was concentrated in Almaty, where the marker stands.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/2022_Kazakh_unrest",
+      "Human Rights Watch, Kazakhstan: Killings, Excessive Use of Force in Almaty (2022)"
+    ]
+  },
+  "polity-rouran:from": {
+    "verdict": "keep-ours",
+    "reason": "The Rouran confederation formed in the 4th century (Wikidata’s 330), but it became a steppe khaganate when Shelun took the title khagan in 402, the start date used by most histories.",
+    "checked": [
+      "Wei Shou, Weishu, ch. 103",
+      "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+    ]
+  },
+  "polity-ghaznavid:from": {
+    "verdict": "keep-ours",
+    "reason": "Alptigin seized Ghazni in 962 (Wikidata), but as a Samanid commander; the dynasty is dated from Sabuktigin’s accession in 977.",
+    "checked": [
+      "C. E. Bosworth, The Ghaznavids (1963)",
+      "https://www.britannica.com/topic/Ghaznavid-dynasty"
+    ]
+  },
+  "polity-northern-yuan:to": {
+    "verdict": "keep-ours",
+    "reason": "Ligdan Khan’s heir surrendered the Yuan seal to the Manchus in 1635, the usual end date; Wikidata’s 1691 marks the Khalkha submission at Dolon Nor, which is recorded as a separate event.",
+    "checked": [
+      "Johan Elverskog, Our Great Qing (2006)",
+      "Christopher P. Atwood, Encyclopedia of Mongolia and the Mongol Empire (2004)"
+    ]
   }
 }

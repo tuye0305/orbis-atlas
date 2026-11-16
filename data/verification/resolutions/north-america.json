@@ -1,0 +1,402 @@
+{
+  "ev-hohokam-canals:year": {
+    "verdict": "keep-ours",
+    "reason": "The record is the canal system, not the Hohokam culture (the QID): main canal building in the Salt River valley is usually dated from c. AD 600, while 300 is the conventional start of the culture.",
+    "checked": [
+      "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/hohokam-canal-system",
+      "https://www.usbr.gov/lc/phoenix/AZ100/1899/firstfarmers.html"
+    ]
+  },
+  "ev-hohokam-canals:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Abandonment of the Salt and Gila valley canal communities is placed c. 1450 (ASCE landmark gives 1450); Wikidata 1500 is the culture's rounded end.",
+    "checked": [
+      "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/hohokam-canal-system",
+      "https://www.nps.gov/cagr/"
+    ]
+  },
+  "ev-haudenosaunee-great-law:year": {
+    "verdict": "disputed",
+    "reason": "No consensus: an eclipse-based 1451 date has the widest support, Mann and Fields argue for 1142 (Wikidata 1190 reflects the early school), and archaeologists such as Dean Snow put it later. Kept at c. 1450 with low confidence and a note.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/iroquois",
+      "https://www.britannica.com/topic/Iroquois-Confederacy"
+    ]
+  },
+  "ev-beaver-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Huronia (Wendake) near Georgian Bay, where the 1649 destruction of the Wendat towns took place.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/iroquois-wars",
+      "https://www.britannica.com/event/Beaver-Wars"
+    ]
+  },
+  "ev-pequot-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at the Mystic fort massacre (Connecticut); the Wikidata coordinate falls in Maine, outside the war zone.",
+    "checked": [
+      "https://www.britannica.com/event/Pequot-War",
+      "https://www.pequotmuseum.org/"
+    ]
+  },
+  "ev-hudsons-bay-company-chartered:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at York Factory, the company's main Hudson Bay post; Wikidata gives the modern Toronto head office.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/hudsons-bay-company",
+      "https://parks.canada.ca/lhn-nhs/mb/yorkfactory"
+    ]
+  },
+  "ev-king-philips-war:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Fighting in southern New England ended with Metacom's death in August 1676; Wikidata 1678 follows the Treaty of Casco that ended the related war in Maine. The summary covers the southern war.",
+    "checked": [
+      "https://www.history.com/articles/king-philips-war",
+      "https://en.wikipedia.org/wiki/Treaty_of_Casco_(1678)"
+    ]
+  },
+  "ev-bering-chirikov-reach-alaska:year": {
+    "verdict": "keep-ours",
+    "reason": "The record is the 1741 landfall in Alaska; the QID is the whole Great Northern Expedition (1733–1743).",
+    "checked": [
+      "https://www.britannica.com/biography/Vitus-Bering",
+      "https://en.wikipedia.org/wiki/Great_Northern_Expedition"
+    ]
+  },
+  "ev-french-and-indian-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at the Forks of the Ohio, where the war began; Wikidata 47,-105 is a continental centroid.",
+    "checked": [
+      "https://www.britannica.com/event/French-and-Indian-War",
+      "https://www.battlefields.org/learn/french-indian-war"
+    ]
+  },
+  "ev-expulsion-of-the-acadians:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata has only a point in time of 1764 (the end); the deportations began in 1755. The record spans 1755–1764.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/acadia",
+      "https://www.britannica.com/topic/Acadian"
+    ]
+  },
+  "ev-expulsion-of-the-acadians:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Grand-Pré, the best-known deportation site (UNESCO), about 100 km from the Wikidata point.",
+    "checked": [
+      "https://whc.unesco.org/en/list/1404",
+      "https://www.thecanadianencyclopedia.ca/en/article/acadia"
+    ]
+  },
+  "ev-pontiacs-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at the siege of Detroit, the war's central action.",
+    "checked": [
+      "https://www.britannica.com/event/Pontiacs-War",
+      "https://www.thecanadianencyclopedia.ca/en/article/pontiac"
+    ]
+  },
+  "ev-american-revolutionary-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Philadelphia, seat of the Continental Congress.",
+    "checked": [
+      "https://www.britannica.com/event/American-Revolution",
+      "https://www.nps.gov/inde/"
+    ]
+  },
+  "ev-us-constitution:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's 2026 is a bad value; the Constitution was signed on 17 September 1787 and took effect in 1789.",
+    "checked": [
+      "https://www.archives.gov/founding-docs/constitution",
+      "https://www.britannica.com/topic/Constitution-of-the-United-States"
+    ]
+  },
+  "ev-war-of-1812:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Wikidata 0,-30 is a mid-Atlantic placeholder; pinned at the Niagara frontier, the most fought-over front.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/war-of-1812",
+      "https://www.britannica.com/event/War-of-1812"
+    ]
+  },
+  "ev-texas-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at San Antonio (the Alamo).",
+    "checked": [
+      "https://www.tshaonline.org/handbook/entries/texas-revolution",
+      "https://www.britannica.com/event/Texas-Revolution"
+    ]
+  },
+  "ev-oregon-trail:year": {
+    "verdict": "keep-ours",
+    "reason": "The record is the emigrant migration, which began with the first wagon party (Bartleson–Bidwell) in 1841; 1811–12 is when the Astorians found the route.",
+    "checked": [
+      "https://www.blm.gov/learn/interpretive-centers/national-historic-oregon-trail-interpretive-center/explore/facts",
+      "https://historytogo.utah.gov/bartleson-bidwell/"
+    ]
+  },
+  "ev-mexican-american-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Palo Alto near the Rio Grande, the opening battle, on the boundary that the war was fought over; Wikidata is a Mexico centroid.",
+    "checked": [
+      "https://www.nps.gov/paal/",
+      "https://www.britannica.com/event/Mexican-American-War"
+    ]
+  },
+  "ev-california-gold-rush:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point in time (1855) is the end; its own start is 1848, matching ours (gold found at Sutter's Mill, January 1848).",
+    "checked": [
+      "https://www.britannica.com/topic/California-Gold-Rush",
+      "https://www.parks.ca.gov/?page_id=484"
+    ]
+  },
+  "ev-american-civil-war:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point in time (1865) is the end; the war began at Fort Sumter in April 1861 (Wikidata start 1861).",
+    "checked": [
+      "https://www.britannica.com/event/American-Civil-War",
+      "https://www.battlefields.org/learn/articles/civil-war-facts"
+    ]
+  },
+  "ev-american-civil-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Washington, D.C., the Union capital.",
+    "checked": [
+      "https://www.britannica.com/event/American-Civil-War",
+      "https://www.nps.gov/civilwar/"
+    ]
+  },
+  "ev-alaska-purchase:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. The treaty was signed in Washington, but the record pins the transfer ceremony at Sitka (18 October 1867).",
+    "checked": [
+      "https://www.nps.gov/sitk/",
+      "https://history.state.gov/milestones/1866-1898/alaska-purchase"
+    ]
+  },
+  "ev-reconstruction-era:year": {
+    "verdict": "keep-ours",
+    "reason": "Britannica and most surveys date Reconstruction 1865–1877; Wikidata 1863 follows Lincoln's December 1863 Proclamation of Amnesty and Reconstruction.",
+    "checked": [
+      "https://www.britannica.com/event/Reconstruction-United-States-history",
+      "https://www.nps.gov/subjects/reconstruction/"
+    ]
+  },
+  "ev-reconstruction-era:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Charleston, South Carolina, a centre of Reconstruction politics (NPS Reconstruction Era National Historical Park is nearby in Beaufort).",
+    "checked": [
+      "https://www.nps.gov/reer/",
+      "https://www.britannica.com/event/Reconstruction-United-States-history"
+    ]
+  },
+  "ev-first-transcontinental-railroad:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Promontory Summit, Utah, site of the golden spike (1869); Wikidata points to the Sierra Nevada.",
+    "checked": [
+      "https://www.nps.gov/gosp/",
+      "https://www.britannica.com/topic/transcontinental-railroad"
+    ]
+  },
+  "ev-red-river-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Palo Duro Canyon, the decisive 1874 battle.",
+    "checked": [
+      "https://www.tshaonline.org/handbook/entries/red-river-war",
+      "https://www.britannica.com/event/Red-River-War"
+    ]
+  },
+  "ev-canadian-pacific-last-spike:year": {
+    "verdict": "keep-ours",
+    "reason": "The QID is the railway company (founded 1881); the record is the last spike, driven on 7 November 1885.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/canadian-pacific-railway",
+      "https://www.thecanadianencyclopedia.ca/en/article/the-last-spike"
+    ]
+  },
+  "ev-canadian-pacific-last-spike:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Craigellachie, British Columbia, where the last spike was driven; Wikidata gives the Calgary head office.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/canadian-pacific-railway",
+      "https://www.britannica.com/topic/Canadian-Pacific-Railway"
+    ]
+  },
+  "ev-north-west-resistance:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Batoche, the Métis headquarters and decisive battle (May 1885).",
+    "checked": [
+      "https://parks.canada.ca/lhn-nhs/sk/batoche",
+      "https://www.thecanadianencyclopedia.ca/en/article/north-west-rebellion"
+    ]
+  },
+  "ev-ford-assembly-line:year": {
+    "verdict": "keep-ours",
+    "reason": "The QID is the Model T (launched 1908, noted in the summary); the record is the moving assembly line, introduced at Highland Park from October 1913.",
+    "checked": [
+      "https://www.history.com/this-day-in-history/october-7/moving-assembly-line-at-ford",
+      "https://www.thehenryford.org/collections-and-research/digital-collections/"
+    ]
+  },
+  "ev-wall-street-crash-and-depression:endYear": {
+    "verdict": "keep-ours",
+    "reason": "The QID is the October 1929 crash; the record deliberately covers the crash and the Great Depression that followed, through 1939.",
+    "checked": [
+      "https://www.britannica.com/event/stock-market-crash-of-1929",
+      "https://www.britannica.com/event/Great-Depression"
+    ]
+  },
+  "ev-wall-street-crash-and-depression:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at the New York Stock Exchange on Wall Street.",
+    "checked": [
+      "https://www.britannica.com/event/stock-market-crash-of-1929",
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ]
+  },
+  "ev-new-deal:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at the White House, where the programmes were launched.",
+    "checked": [
+      "https://www.britannica.com/event/New-Deal",
+      "https://www.fdrlibrary.org/"
+    ]
+  },
+  "ev-manhattan-project:year": {
+    "verdict": "keep-ours",
+    "reason": "The Army's Manhattan Engineer District was set up in mid-1942 (named in August); 1939 is the Einstein–Szilard letter and the start of the Uranium Committee, which the summary mentions.",
+    "checked": [
+      "https://www.osti.gov/opennet/manhattan-project-history/Events/1939-1942/einstein_letter.htm",
+      "https://www.energy.gov/management/articles/manhattan-project-making-atomic-bomb"
+    ]
+  },
+  "ev-manhattan-project:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Los Alamos, the bomb-design laboratory; Wikidata gives Oak Ridge. Both are parts of the Manhattan Project National Historical Park.",
+    "checked": [
+      "https://www.nps.gov/mapr/",
+      "https://www.energy.gov/management/articles/manhattan-project-making-atomic-bomb"
+    ]
+  },
+  "ev-october-crisis:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Montréal, where the kidnappings took place; Wikidata 52,-72 is a Quebec centroid.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/october-crisis",
+      "https://www.britannica.com/event/October-Crisis"
+    ]
+  },
+  "ev-quebec-referendum-1980:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Québec City, seat of the National Assembly and the PQ government that called the vote.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/quebec-referendum-1980",
+      "https://www.britannica.com/place/Quebec-province/History"
+    ]
+  },
+  "ev-creation-of-nunavut:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at Iqaluit, the capital, where the territory was inaugurated on 1 April 1999; Wikidata gives the territory centroid.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/nunavut",
+      "https://www.britannica.com/place/Nunavut"
+    ]
+  },
+  "ev-september-11-attacks:coord": {
+    "verdict": "keep-ours",
+    "reason": "Our pin is a representative site for the event; the Wikidata coordinate is a regional centroid or a different site. Pinned at the World Trade Center; Wikidata gives the Pentagon.",
+    "checked": [
+      "https://www.911memorial.org/",
+      "https://www.britannica.com/event/September-11-attacks"
+    ]
+  },
+  "ev-effigy-mounds:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 1949 is the founding of Effigy Mounds National Monument; the record is mound building, c. AD 700–1100.",
+    "checked": [
+      "https://www.nps.gov/efmo/",
+      "https://www.britannica.com/topic/Effigy-Mound-culture"
+    ]
+  },
+  "person-leif-erikson:born": {
+    "verdict": "disputed",
+    "reason": "His birth year is unrecorded; c. 970 is the usual estimate (Britannica Kids, Mariners' Museum), while Wikidata gives 972 and some sources say the 970s. Kept at c. 970.",
+    "checked": [
+      "https://exploration.marinersmuseum.org/subject/leif-eriksson/",
+      "https://kids.britannica.com/students/article/Leif-Eriksson/274197"
+    ]
+  },
+  "polity-spanish-florida:from": {
+    "verdict": "keep-ours",
+    "reason": "Spanish claims date from Ponce de León in 1513, but the first lasting settlement and government was St. Augustine in 1565; noted on the record.",
+    "checked": [
+      "https://www.nps.gov/casa/",
+      "https://www.britannica.com/place/Florida/History"
+    ]
+  },
+  "polity-spanish-florida:to": {
+    "verdict": "keep-ours",
+    "reason": "The Adams–Onís Treaty was signed in 1819 and ratified in 1821, when the US took formal possession; Wikidata 1818 reflects Jackson's invasion.",
+    "checked": [
+      "https://history.state.gov/milestones/1801-1829/florida",
+      "https://www.britannica.com/event/Adams-Onis-Treaty"
+    ]
+  },
+  "polity-nuevo-mexico:to": {
+    "verdict": "keep-ours",
+    "reason": "This record ends at Mexican independence (1821); Wikidata 1824 is when Mexico made it a federal territory. After 1821 the region falls under polity-mexico (mesoamerica).",
+    "checked": [
+      "https://www.britannica.com/place/New-Mexico-state/History",
+      "https://newmexicohistory.org/"
+    ]
+  },
+  "polity-new-netherland:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 1609 is Hudson's voyage; the first Dutch post (Fort Nassau) dates from 1614 and the New Netherland Company charter from 1614.",
+    "checked": [
+      "https://www.newnetherlandinstitute.org/history-and-heritage/",
+      "https://www.britannica.com/place/New-Netherland"
+    ]
+  },
+  "polity-new-netherland:to": {
+    "verdict": "keep-ours",
+    "reason": "The English took New Amsterdam in 1664; Wikidata 1667 is the Treaty of Breda that confirmed it. The Dutch reoccupation of 1673–74 is noted.",
+    "checked": [
+      "https://www.newnetherlandinstitute.org/history-and-heritage/",
+      "https://www.britannica.com/place/New-Netherland"
+    ]
+  },
+  "polity-russian-america:from": {
+    "verdict": "keep-ours",
+    "reason": "The first permanent Russian settlement was Shelikhov's Three Saints Bay on Kodiak (1784); Wikidata 1772 is an earlier seasonal trading post at Unalaska.",
+    "checked": [
+      "https://www.nps.gov/sitk/",
+      "https://www.britannica.com/place/Alaska/History"
+    ]
+  },
+  "polity-united-states:from": {
+    "verdict": "keep-ours",
+    "reason": "Declaration of Independence, 4 July 1776; Wikidata 1784 is ratification of the Treaty of Paris.",
+    "checked": [
+      "https://www.archives.gov/founding-docs/declaration",
+      "https://history.state.gov/milestones/1776-1783/declaration"
+    ]
+  },
+  "polity-british-north-america:to": {
+    "verdict": "keep-ours",
+    "reason": "This record ends at Confederation (1867), when the core colonies became Canada; Wikidata 1907 counts Newfoundland, which stayed outside Canada until 1949. Noted on the record.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/british-north-america",
+      "https://www.britannica.com/place/Canada/History"
+    ]
+  },
+  "polity-tecumseh-confederacy:to": {
+    "verdict": "keep-ours",
+    "reason": "The confederacy collapsed with Tecumseh's death at the Thames (October 1813); Wikidata 1824 is not supported by the sources we checked.",
+    "checked": [
+      "https://www.thecanadianencyclopedia.ca/en/article/tecumseh",
+      "https://www.britannica.com/biography/Tecumseh"
+    ]
+  }
+}

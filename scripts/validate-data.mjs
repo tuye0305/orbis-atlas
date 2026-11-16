@@ -4,7 +4,10 @@
 //   node scripts/validate-data.mjs europe     one dataset folder
 import { readCuratedFiles } from './wd.mjs';
 
-const REGIONS = new Set(['europe', 'africa', 'west-asia', 'south-asia', 'central-asia', 'east-asia', 'southeast-asia']);
+const REGIONS = new Set([
+  'europe', 'africa', 'west-asia', 'south-asia', 'central-asia', 'east-asia', 'southeast-asia',
+  'north-america', 'mesoamerica', 'south-america', 'oceania',
+]);
 const EVENT_TYPES = new Set([
   'battle', 'war', 'political', 'founding', 'fall', 'cultural', 'religious', 'science', 'exploration', 'disaster', 'treaty',
 ]);
@@ -39,6 +42,8 @@ for (const { region: folder, kind, records } of files) {
     if (!isL10n(r.name ?? r.modern)) err('name/modern must be {en, zh}');
     if (r.summary && !isL10n(r.summary)) err('summary must be {en, zh}');
     if (!r.summary) warn('no summary');
+    if (r.story !== undefined && !isL10n(r.story)) err('story must be {en, zh}');
+    if (r.story && r.story.en.split(/\s+/).length > 260) warn('story longer than 260 words');
     if (!Array.isArray(r.sources) || r.sources.length < 2) warn('fewer than 2 sources');
     for (const s of r.sources ?? []) if (!s.title) err('source without title');
     if (r.confidence && !CONF.has(r.confidence)) err('bad confidence');
@@ -51,7 +56,7 @@ for (const { region: folder, kind, records } of files) {
       for (const s of r.route ?? []) if (!isYear(s.year) || !isLat(s.lat) || !isLon(s.lon) || !isL10n(s.label)) err('bad route stop');
     }
     if (kind === 'people') {
-      if (!isYear(r.born) || !isYear(r.died) || r.died < r.born) err('bad born/died');
+      if (!isYear(r.born) || (r.died !== null && (!isYear(r.died) || r.died < r.born))) err('bad born/died (died: null = living)');
       if (!isL10n(r.role)) err('role must be {en, zh}');
       if (!Array.isArray(r.stops) || r.stops.length < 2) warn('fewer than 2 stops');
       let prev = -Infinity;

@@ -1,15 +1,15 @@
 {
-  "_doc": "Suno prompts for the per-region soundtrack. Edit a style and re-run `node scripts/gen-music.mjs --only <region>`. All tracks are instrumental, calm and loopable, so they sit under the map instead of competing with it.",
+  "_doc": "Prompts for the per-region soundtrack (scripts/gen-music.mjs; ElevenLabs Music via WaveSpeed by default). Edit a style and re-run `node scripts/gen-music.mjs --only <region> --force`, or add a take with `--append`. All tracks are instrumental, calm and loopable, so they sit under the map instead of competing with it.",
   "defaults": {
-    "duration": 180,
+    "duration": 150,
     "negativeTags": "vocals, singing, lyrics, choir words, rap, spoken word, EDM, dubstep, trap beat, heavy drums, distorted guitar, harsh, aggressive, lo-fi hiss",
     "styleSuffix": "instrumental, no vocals, cinematic ambient underscore for a historical atlas, calm and spacious, slow tempo, warm natural reverb, gentle dynamics, seamless loop, high fidelity"
   },
   "regions": {
     "europe": {
       "title": "Orbis · Europe",
-      "label": { "en": "Lute, viol & organ", "zh": "鲁特琴、古提琴与管风琴" },
-      "style": "medieval and renaissance European chamber music, lute, recorder, viola da gamba, soft pipe organ pad, Dorian mode, contemplative, candlelit cathedral"
+      "label": { "en": "Lute, viol & harp", "zh": "鲁特琴、古提琴与竖琴" },
+      "style": "Renaissance European consort, lute and viola da gamba playing a lyrical singing melody over a warm string ensemble and soft harp, recorder answering, Dorian mode, noble and tender, candlelit great hall, lyrical memorable melody, warm and consonant, rich but gentle arrangement, continuous with no silences"
     },
     "africa": {
       "title": "Orbis · Africa",
@@ -38,8 +38,8 @@
     },
     "southeast-asia": {
       "title": "Orbis · Southeast Asia",
-      "label": { "en": "Gamelan", "zh": "甘美兰" },
-      "style": "Javanese and Balinese gamelan, bronze metallophones, gongs, soft kendang drum, slendro scale, shimmering, meditative, tropical temple at dawn"
+      "label": { "en": "Gamelan & suling flute", "zh": "甘美兰与苏陵竹笛" },
+      "style": "Southeast Asian temple music, gentle gamelan bells and gongs with Khmer roneat xylophone, sweet bamboo flute melody, soft hand drum, warm strings underneath, serene and luminous, Angkor at dawn, lyrical memorable melody, warm and consonant, rich but gentle arrangement, continuous with no silences"
     },
     "ocean": {
       "title": "Orbis · Open Sea",
