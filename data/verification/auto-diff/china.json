@@ -560,6 +560,231 @@
   }
  },
  {
+  "key": "ev-qingming-scroll:year",
+  "id": "ev-qingming-scroll",
+  "dataset": "china",
+  "kind": "events",
+  "field": "year",
+  "ours": 1101,
+  "wikidata": 1085,
+  "qid": "Q714802",
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "The scroll is undated; the earliest record is Zhang Zhu's Jin colophon of 1186. Most art historians place it in Huizong's reign (1101–1125); Wikidata's 1085 reflects a minority late-11th-century dating. Record is medium confidence with a note.",
+   "checked": [
+    "https://www.britannica.com/biography/Zhang-Zeduan",
+    "https://zh.wikipedia.org/wiki/清明上河图"
+   ]
+  }
+ },
+ {
+  "key": "ev-qingming-scroll:coord",
+  "id": "ev-qingming-scroll",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   34.797,
+   114.348
+  ],
+  "wikidata": [
+   39.9158,
+   116.3908
+  ],
+  "qid": "Q714802",
+  "km": 597,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's coordinate is the Palace Museum in Beijing, where the scroll is kept. The event marker is Kaifeng, the city it depicts and where it was painted.",
+   "checked": [
+    "https://www.britannica.com/biography/Zhang-Zeduan"
+   ]
+  }
+ },
+ {
+  "key": "ev-battle-of-yancheng:coord",
+  "id": "ev-battle-of-yancheng",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.59,
+   113.99
+  ],
+  "wikidata": [
+   33.9,
+   113.5
+  ],
+  "qid": "Q4872768",
+  "km": 57,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The battle was fought near Yancheng (now Yancheng district of Luohe, Henan, 33.59N 113.99E) per Song shi 365. Wikidata's 33.9N 113.5E is a rounded point ~57 km away.",
+   "checked": [
+    "脱脱等《宋史》卷365 岳飞传",
+    "https://zh.wikipedia.org/wiki/郾城之战"
+   ]
+  }
+ },
+ {
+  "key": "ev-battle-of-jao-modo:coord",
+  "id": "ev-battle-of-jao-modo",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   47.8,
+   107.3
+  ],
+  "wikidata": [
+   46,
+   105
+  ],
+  "qid": "Q3874305",
+  "km": 266,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Jao Modo lies on the upper Tuul River southeast of Ulaanbaatar (Perdue, China Marches West, ch. 5). Wikidata's 46N 105E is a rounded point in central Mongolia far from the river; ours is approximate and the record is medium confidence.",
+   "checked": [
+    "Peter C. Perdue, China Marches West (2005), ch. 5",
+    "https://zh.wikipedia.org/wiki/昭莫多之战"
+   ]
+  }
+ },
+ {
+  "key": "ev-chinese-rites-controversy:year",
+  "id": "ev-chinese-rites-controversy",
+  "dataset": "china",
+  "kind": "events",
+  "field": "year",
+  "ours": 1704,
+  "wikidata": 1645,
+  "qid": "Q525545",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The dispute began with the Dominican complaint that led to a 1645 Propaganda decree (Wikidata's start), but the record and summary cover the decisive papal rulings of 1704 and 1715 through Ex quo singulari (1742), following Britannica. Note added to the record.",
+   "checked": [
+    "https://www.britannica.com/topic/Chinese-Rites-Controversy"
+   ]
+  }
+ },
+ {
+  "key": "ev-white-lotus-rebellion:year",
+  "id": "ev-white-lotus-rebellion",
+  "dataset": "china",
+  "kind": "events",
+  "field": "year",
+  "ours": 1796,
+  "wikidata": 1794,
+  "qid": "Q997220",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica and Encyclopedia.com date the rebellion 1796–1804 (outbreak in the Hubei–Sichuan–Shaanxi highlands, early 1796). Wikidata's 1794 follows earlier sectarian unrest.",
+   "checked": [
+    "https://britannica.com/facts/White-Lotus-Rebellion",
+    "https://encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/white-lotus-rebellion"
+   ]
+  }
+ },
+ {
+  "key": "ev-sino-french-war:coord",
+  "id": "ev-sino-french-war",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   25.99,
+   119.45
+  ],
+  "wikidata": [
+   35,
+   105
+  ],
+  "qid": "Q706183",
+  "km": 1706,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Mawei (Fuzhou), site of the war's decisive naval action on 23 Aug 1884; the full campaign is in route[]. Wikidata's 35N 105E is the generic China centroid.",
+   "checked": [
+    "https://www.britannica.com/event/Sino-French-War"
+   ]
+  }
+ },
+ {
+  "key": "ev-second-sino-japanese-war:coord",
+  "id": "ev-second-sino-japanese-war",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   29.56,
+   106.55
+  ],
+  "wikidata": [
+   35,
+   105
+  ],
+  "qid": "Q170314",
+  "km": 622,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Marker is Chongqing, the wartime capital; the main campaigns are in route[]. Wikidata's 35N 105E is the generic China centroid.",
+   "checked": [
+    "https://www.britannica.com/event/Second-Sino-Japanese-War"
+   ]
+  }
+ },
+ {
+  "key": "ev-228-incident:coord",
+  "id": "ev-228-incident",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   25.054,
+   121.511
+  ],
+  "wikidata": [
+   23.77,
+   121
+  ],
+  "qid": "Q244939",
+  "km": 152,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The incident began near the Tianma teahouse in Taipei (25.054N 121.511E) on 27–28 Feb 1947. Wikidata uses the centroid of Taiwan island.",
+   "checked": [
+    "https://www.britannica.com/event/228-Incident",
+    "行政院研究二二八事件小组《二二八事件研究报告》（1992）"
+   ]
+  }
+ },
+ {
+  "key": "ev-roc-retreat-to-taiwan:coord",
+  "id": "ev-roc-retreat-to-taiwan",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   25.04,
+   121.51
+  ],
+  "wikidata": [
+   23.7667,
+   121
+  ],
+  "qid": "Q16165653",
+  "km": 151,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The government moved to Taipei (25.04N 121.51E), where the Executive Yuan reconvened in December 1949. Wikidata uses the centroid of Taiwan island, as for the 228 Incident.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Retreat_of_the_government_of_the_Republic_of_China_to_Taiwan",
+    "https://www.wikidata.org/wiki/Q16165653 (coordinate 23.77N 121E, the island centroid)"
+   ]
+  }
+ },
+ {
   "key": "person-wang-xizhi:born",
   "id": "person-wang-xizhi",
   "dataset": "china",
@@ -597,6 +822,42 @@
   }
  },
  {
+  "key": "person-cai-lun:born",
+  "id": "person-cai-lun",
+  "dataset": "china",
+  "kind": "people",
+  "field": "born",
+  "ours": 62,
+  "wikidata": 48,
+  "qid": "Q229235",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica gives born 62? CE, died 121; other references give c. 50. The birth year is unknown; ours follows Britannica, and the record is medium confidence with a note.",
+   "checked": [
+    "https://www.britannica.com/biography/Cai-Lun",
+    "https://www.britannica.com/print/article/607565"
+   ]
+  }
+ },
+ {
+  "key": "person-cao-xueqin:born",
+  "id": "person-cao-xueqin",
+  "dataset": "china",
+  "kind": "people",
+  "field": "born",
+  "ours": 1715,
+  "wikidata": 1724,
+  "qid": "Q182874",
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "Britannica gives 1715? (Jiangning) – 12 Feb 1763; many Chinese scholars prefer 1724 or c. 1715. No consensus; record has confidence low and a note.",
+   "checked": [
+    "https://www.britannica.com/biography/Cao-Zhan",
+    "https://open.lib.umn.edu/redchamber/chapter/authorship/"
+   ]
+  }
+ },
+ {
   "key": "polity-eastern-wu:from",
   "id": "polity-eastern-wu",
   "dataset": "china",
@@ -629,6 +890,23 @@
    "checked": [
     "Britannica: Liang dynasty (via search)",
     "姚思廉《梁书》本纪"
+   ]
+  }
+ },
+ {
+  "key": "polity-roc-taiwan:from",
+  "id": "polity-roc-taiwan",
+  "dataset": "china",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1949,
+  "wikidata": 1912,
+  "qid": "Q865",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Q865 is the ROC as a whole (from 1912). This record deliberately covers only the government on Taiwan from December 1949; 1912–1949 is polity-republic-of-china.",
+   "checked": [
+    "https://www.britannica.com/place/Taiwan"
    ]
   }
  }
