@@ -161,3 +161,30 @@ Every English change was mirrored in `zh`.
 - **Rudrama Devi's birth:** c. 1210 rests on a single scholar's estimate as reported secondhand. A reader with Sastry (1978) to hand should confirm p. 125.
 - **Iltutmish and Samudragupta:** their birth years remain inferences; no published estimate was found.
 - **Britannica claims:** these could not be re-opened directly because the site returned 403 to the fetcher.
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only pages retrieved during the audit (WebFetch/WebSearch); nothing checked from memory.
+
+- **Seed:** 20261117 (mulberry32 shuffle of the 175 records added or changed against `origin/feat/world-regions`, sorted by id; first 5 records with new stories taken, then filled in shuffle order).
+- **Sample (15, 6 with stories):**
+
+| Record | Source(s) retrieved | Result |
+|---|---|---|
+| ev-chola-conquest-of-anuradhapura (story) | en.wikipedia Chola conquest of Anuradhapura | OK (source spells the province Mummudi-sola-mandalam) |
+| ev-ibn-battuta-in-south-asia (story) | en.wikipedia Ibn Battuta; web search (Britannica, The Wire, 1911 encyclopedia: six to eight years in Delhi, embassy 1341/1342) | OK, within the spread of sources; note already says dates follow Dunn |
+| ev-portuguese-conquest-of-goa (story) | en.wikipedia Portuguese conquest of Goa; web search (Britannica: first capture March 1510; en/Herald Goa: 17 Feb 1510) | OK (first-capture month disputed between sources) |
+| ev-kailasa-temple-ellora (story) | en.wikipedia Kailasa temple, Ellora | OK (rock-removal figure not in source) |
+| ev-maldives-conversion-to-islam (story) | en.wikipedia Islam in the Maldives | OK (source dates the oldest mosque to 1656; record says the Old Friday Mosque 1658, its usual completion date) |
+| person-ram-mohan-roy | en.wikipedia Ram Mohan Roy | OK (Atmiya Sabha 1814 in en, 1815 in record; sailed 1830, in London 1831) |
+| polity-western-chalukya | en.wikipedia Western Chalukya Empire; web search | OK |
+| polity-pandya | en.wikipedia Pandya dynasty; web search (Kadungon, Arikesari chronologies) | OK (record follows the 590–620 / 670–700 chronology, one of two in use) |
+| person-sher-shah-suri | en.wikipedia Sher Shah Suri | OK |
+| person-guru-gobind-singh | en.wikipedia Guru Gobind Singh | OK |
+| ev-thakurufaanu-expels-portuguese | web search: en.wikipedia Muhammad Thakurufaanu al-Auzam and National Day (Maldives), PSM News | OK |
+| person-samudragupta | en.wikipedia Samudragupta | OK |
+| ev-faxian-in-india | en.wikipedia Faxian | OK |
+| ev-the-emergency (story) | en.wikipedia The Emergency (India) | OK |
+| person-kalidasa | (record already marks dates and stops as inferred; nothing checkable beyond the works listed) | OK |
+
+**Error rate:** 0 of 15 records. No fixes needed; data unchanged.
