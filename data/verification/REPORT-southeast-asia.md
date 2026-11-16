@@ -94,3 +94,100 @@ Added 66 events, 33 people (all with stops), 12 places (all with name/capital sp
 - Pyu chronology (urn dates, end date) and the Thaton conquest remain low confidence.
 - Several Wikidata items use country centroids for events (see resolutions); worth fixing upstream.
 - Web search quota ran out before Taksin, the Mạc end date (1677) and Hayam Wuruk were checked a second time; their records rest on Wikidata plus standard histories.
+
+## 2026-11 review
+
+Reviewer: independent fact-checker (second pass, separate from the curator and the first verifier).
+`validate-data southeast-asia`: 0 errors (warnings: cross-dataset ids that live in other datasets,
+and one new event without a Wikidata item). `build-data`: 0 open diffs.
+
+### What was sampled
+
+- **All 144 new records read field by field** (dates, reigns, stops, place-name spans, coordinates,
+  summaries, zh). Their QIDs were compared with the Wikidata label, description and dates (cache), and
+  every zh name with the 中文维基 title Wikidata links to.
+- **Records not covered by the first report** checked in detail against standard references
+  (Britannica, Wikipedia, 中文维基, standard histories): about 115 of 144 (80%), including all
+  importance-4 records. Live web look-ups for the ones in doubt: Taksin, Thonburi, the Mạc end date,
+  Hayam Wuruk, Cut Nyak Dhien, the Malayan Emergency, Diponegoro, the Bandung Conference, the
+  Indochinese Union, Ram Khamhaeng, plus the five additions below.
+- **Stories:** all 57 read in full in English (26 on new records, 31 on existing ones); the zh text of
+  the 26 new-record stories read as well.
+- **Coordinates:** every event checked against its site; coarse or generic points listed and reviewed.
+- **Cross-dataset links:** `person-yijing`, `person-zheng-he` (china), `person-ibn-battuta` (africa)
+  and `person-kublai-khan` (central-asia) all exist on `feat/world-regions` and on the pushed
+  `data/china`, `data/africa` and `data/central-asia` branches. No QID or subject duplicates another
+  dataset (checked against feat/world-regions and every pushed data branch).
+
+### Taksin, the Mạc end date, Hayam Wuruk (left open by the first pass)
+
+- **Taksin:** born 17 April 1734, died 7 April 1782 (Wikidata, 中文维基); took Chanthaburi June 1767,
+  beat the Burmese at Pho Sam Ton in November, crowned at Thonburi on **28 December 1767**. The stop
+  "Crowned at Thonburi" said 1768 → **1767** (R1).
+- **Mạc dynasty:** 1677 holds. Trịnh forces took Cao Bằng in 1667, the Qing had it returned to Mạc
+  Kính Vũ in 1669, and the Trịnh took it for good in August 1677 (Wikipedia: Lê–Mạc War; Battle of Cao
+  Bằng 1677; Trịnh Tạc). Note rewritten; summary "fought him for sixty years" → "fought the Mạc" (Mạc
+  Đăng Dung died in 1541) (R2).
+- **Hayam Wuruk:** b. 1334, king 1350 as Rajasanagara, d. 1389 (Britannica: Hayam Wuruk; The
+  Majapahit era); Gajah Mada d. 1364; Nagarakretagama 1365, royal progress of 1359. Facts ✓; zh name
+  aligned with 中文维基 (R3).
+
+### Disputed verdicts
+
+- `person-cut-nyak-dhien:born` (1848 vs 1850): genuinely disputed; Indonesian sources (and 中文维基)
+  give 1848, Wikidata and some references 1850. Record is medium with a note. Capture 1905 and death at
+  Sumedang on 6 November 1908 confirmed.
+- `polity-pyu:to` (840 vs 1050): genuinely disputed (Nanzhao raids of 832/835 vs Pyu towns lasting into
+  the Pagan era). The record's note only discussed the urn dates; a sentence on the end date was added.
+- `polity-chenla:to` is **keep-ours**, not disputed: 706 (the Land/Water split) versus 802 is a matter
+  of periodisation, explained in the note. Left as is.
+- `polity-toungoo:from` (older verdict) still holds.
+
+### Corrections
+
+| # | Record | Old → new | Reason / source |
+| --- | --- | --- | --- |
+| R1 | person-taksin | coronation stop 1768 → 1767; zh 郑信（达信大帝）→ 郑信（郑昭）; Pho Sam Ton zh 三菩提树营 → 朴讪东 | 中文维基 鄭昭; Wikipedia: Thonburi Kingdom |
+| R2 | polity-mac | "fought him" → "fought the Mạc"; note on 1667/1669/1677 | Wikipedia: Lê–Mạc War, Battle of Cao Bằng (1677) |
+| R3 | Hayam Wuruk (5 records) | 哈奄·武禄 → 哈亚·乌鲁克 | 中文维基 哈亞·烏魯克 |
+| R4 | Iskandar Muda; Coen; Cut Nyak Dhien; Kahuripan; Dvaravati | zh 伊斯坎达·慕达 → 伊斯干达·穆达; 燕·彼得逊·昆 / 昆 → 扬·彼得生·库恩 / 库恩 (all records); 朱·娘·典 → 朱月婷（朱亚典）; 卡胡里潘 → 固里班（卡胡里潘）; 堕罗钵底 → 陀罗钵地（堕罗钵底） | 中文维基 titles |
+| R5 | ev-malayan-emergency | zh 双溪大年 (Sungai Petani, Kedah) → 和丰 (Sungai Siput, Perak) | 中文维基 和丰 |
+| R6 | person-ram-khamhaeng | zh label "难府昆三春" (Nan) → 乔城（今达府一带）坤三春; Mueang Chot is near Tak, not Nan | 中文维基 兰甘亨 |
+| R7 | ev-bandung-conference (story) | Nkrumah listed as attending → Kojo Botsio for the Gold Coast | Final communiqué; Nkrumah did not attend |
+| R8 | ev-french-indochina-formed, polity-french-indochina (summary, story) | Laos "added in 1893" → protectorate 1893, formally added 1899 | Wikipedia: French Indochina; WorldStatesmen |
+| R9 | person-diponegoro | Makassar stop 1834 → 1833 | Carey (via Kompas); GNFI |
+| R10 | place-george-town | 1957–present "Malaysia" → 1957–1963 Federation of Malaya, 1963– Malaysia; zh 1946 span 马来亚联邦，后为马来亚联合邦 | same fix as S5 for Malacca |
+| R11 | ev-burmese-independence | "within weeks communist and Karen insurgencies" → communists within three months (March 1948), Karen within a year (Jan 1949) | Thant Myint-U; Smith |
+| R12 | ev-philippine-american-war | route out of order (Balangiga Sept 1901 before Palanan March 1901) → reordered; Spanish-Philippines polity tag (wrong after 1898) removed | Linn |
+| R13 | ev-bataan-death-march, ev-philippine-independence-1946 | Spanish-Philippines stand-in → new `polity-philippine-commonwealth` | — |
+| R14 | ev-tet-offensive | generic point (11, 107) → US embassy, Saigon (10.7826, 106.7005); note | closes the open note |
+| R15 | ev-vietnamese-boat-people | "The UN estimates 200,000–400,000 died" → deaths unknown, estimates as high as 200,000–400,000; "expelled" → "pressed … to leave" | estimates vary widely (UNHCR 2000; Robinson 1998) |
+| R16 | ev-vietnam-war (story) | "Some three million Vietnamese … died" → estimates from about one million to more than three million | Hirschman et al. 1995; Vietnamese government 1995 |
+| R17 | ev-cambodian-genocide (story) | 1.5–2 million stated flatly → "by most estimates" | Kiernan; DC-Cam |
+| R18 | ev-indonesian-mass-killings | "murky" → "still-debated"; story "knew and helped" → attributed to declassified records studied by Robinson | Robinson 2018 |
+| R19 | ev-8888-uprising | toll attached to the September crackdown → coup of 18 September; "perhaps 3,000 killed in all" | Lintner |
+| R20 | ev-doi-moi | "second-largest rice exporter within a few years" → "one of the largest" | third by 1989, second only later |
+| R21 | person-vo-nguyen-giap | "directed North Vietnam's war" → defence minister, with Lê Duẩn increasingly setting strategy; 1968 stop "oversees Tet" → "defence minister during Tet" | Lien-Hang Nguyen, Hanoi's War (2012) |
+| R22 | person-lee-kuan-yew | Cambridge stop 1946 → 1947 (LSE first, Cambridge from 1947) | Lee, The Singapore Story |
+| R23 | person-gia-long | "sole survivor of the Nguyễn lords' family" → only Nguyễn prince to escape 1777 | Taylor |
+| R24 | ev-yijing-in-srivijaya (story) | Kedukan Bukit (683, a military record) cited for Buddhist learning → Talang Tuwo (684, Buddhist park) | Cœdès |
+| R25 | person-aung-san (story) | "He and thirty young Burmese" → "twenty-nine other" (he was one of the thirty) | — |
+| R26 | small wording | Trịnh–Nguyễn walls "built with" → "armed with" Portuguese-made cannon; Java Man "first early human fossil outside Europe" → first fossil of the species; Hồ dynasty "Vietnamese-script examinations" → promotion of Nôm; Lan Xang zh 万象之国 → 百万大象之国; Straits Settlements "run by the East India Company until 1867" → governed from British India; Ayutthaya founding "ruler of a Tai-Chinese trading family" → "possibly of a Chinese merchant family"; Tây Sơn route 1802 label (Phú Xuân fell in 1801); Naresuan's weapon; Champa story 160,000 → 180,000 Cham (2019 census) | Britannica; Wikipedia; census |
+
+### Added (5, each with ≥2 sources)
+
+- `polity-sulu` (Q422065), Sultanate of Sulu 1405–1915: Majul 1973; Warren 1981.
+- `polity-gowa` (Q1408641), Sultanate of Gowa 1320–1911: Reid 1983; Andaya 1981; Cummings 2002.
+  Tagged on `ev-makassar-war`.
+- `polity-kingdom-of-luang-prabang` (Q338248), 1707–1947: Stuart-Fox 1997, 2008. New diff
+  `:to` (Wikidata 1893) resolved keep-ours.
+- `polity-philippine-commonwealth` (Q146328), 1935–1946: Agoncillo; Brands 1992.
+- `ev-ternate-expels-portuguese` (1575, no Wikidata item; point at Benteng Kastela): Andaya 1993;
+  Ricklefs.
+
+### Left for a human
+
+- The Mactan item's vandalised English label on Wikidata (from the first pass) and several centroid
+  coordinates are worth fixing upstream.
+- 雍籍牙 (Alaungpaya) is kept for consistency with the existing Konbaung ruler list; 中文维基 uses 雍笈牙.
+- Taksin's and Thonburi's Britannica sources still have no URL (Britannica blocks automated fetches).
