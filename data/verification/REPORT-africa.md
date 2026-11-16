@@ -126,3 +126,30 @@ polity-nobatia (Q568523), polity-alodia (Q449639), polity-garamantes (Q839034), 
 ### Cross-dataset
 
 The West Asia branch has `person-baybars` (a ruler entry of the Mamluk polity here, not a duplicate record), `person-selim-i` and `ev-ottoman-mamluk-war`. Africa has no duplicate Mamluk or Fatimid person or event records; `ev-battle-of-ridaniya` (a battle within that war, its own QID) now links `person-selim-i`, which will resolve when West Asia merges (validator warning until then, like Justinian and Napoleon from Europe).
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only sources retrieved during the audit (web search results and fetched pages); nothing checked from memory.
+
+- Seed: `20261114` (mulberry32 shuffle over the 163 records that are new in this PR or gained a story; first 15 kept, 10 of them with stories).
+- Sample: 15 records (9 events, 3 people, 2 places, 2 polities; overlap counted once).
+
+| Record | Claims checked | Source(s) retrieved | Result |
+| --- | --- | --- | --- |
+| ev-elmina-castle | Azambuja, Dec 1481 / Jan 1482, ~600 men, Caramansa and the sacred rock, Dutch 1637, Britain 1872 | en.wikipedia Elmina Castle; History of Elmina; colonialvoyage.com | Fixed: “the walls rose in about three weeks” overstated; the sources say the first tower was finished in about twenty days |
+| ev-benin-expedition-1897 | Phillips party ambushed Jan 1897, Igue/Ague festival, ~1,200 men, entry 18 Feb, palace fire 21 Feb, Ovonramwen’s surrender (Aug) and exile to Calabar, died 1914 | en.wikipedia Benin Expedition of 1897; Ovonramwen; Art Institute of Chicago Benin pages | Confirmed |
+| ev-south-sudan-independence | CPA 2005, Jan 2011 referendum (98.83%), 9 Jul 2011, war from Dec 2013 | Al Jazeera timeline; en.wikipedia 2011 referendum | Confirmed |
+| ev-battle-of-haydaran | Break with Fatimids (1048), al-Yazuri, camel-and-money story, 14 Apr 1052, Kairouan abandoned 1057, move to Mahdia | en.wikipedia Battle of Haydaran; Hilalian invasion of Ifriqiya; Zirid dynasty; Univ. of Wisconsin digitised *Cambridge History* chapter | Confirmed (the per-man gold coin is only in the chronicle tradition, which the story already flags) |
+| ev-founding-of-cairo | Jawhar, 6 Jul 969 (17 Shaʿban 358), raven-and-bells legend, al-Azhar 970, al-Muʿizz 973 with his predecessors’ coffins | Ismaili heritage pages; MIT 4.615 notes; Institute of Ismaili Studies | Confirmed |
+| place-mbanza-kongo | São Salvador from c. 1570, cathedral name, abandoned in the civil wars, Pedro IV 1709, name restored 1975, UNESCO 2017 | en.wikipedia M’banza-Kongo; Pedro IV of Kongo; Battle of São Salvador; dzieje.pl | Confirmed |
+| polity-zirid | 972–1148, ruler dates, Mahdia 1057, Normans 1148 | en.wikipedia Zirid dynasty; Wikidata Q3571331, Q13195390 | Fixed: ruler list jumped from Tamim (to 1108) to al-Hasan (from 1121); added Yahya ibn Tamim 1108–1116 and Ali ibn Yahya 1116–1121 |
+| person-nzinga | Born c. 1582/83, Luanda embassy to Correia de Sousa, mat-and-servant anecdote, baptism as Ana de Sousa, 1624, Matamba 1631, Dutch 1641–48, peace 1656/57, sister Barbara, died 1663, Kinaxixi statue | en.wikipedia Nzinga of Ndongo and Matamba; Mukambu of Matamba; History Hit | Confirmed (sources split 1621/1622 for the embassy and 1656/1657 for the peace; the record’s years are within the range) |
+| ev-pachomius-founds-tabennisi | Conscription, Christians feeding conscripts at Thebes, Tabennisi c. 318–323, died 346, nine monasteries, Jerome’s Latin rule (404), Benedict | en.wikipedia Pachomius the Great; Britannica snippet (died 346); Cambridge Medieval History excerpt (nine men’s houses); encyclopedia.com | Confirmed (Wikipedia gives 348 and eight houses; Britannica and the Cambridge history support the record) |
+| person-muhammad-ahmad-mahdi | Born 1844 on Labab island, boat-builders, Sammaniyya, quarrel over the circumcision feast, 29 Jun 1881, Aba, Jebel Qadir, Shaykan (Nov 1883, c. 8,000 men), Khartoum 26 Jan 1885, relief two days later, typhus, June 1885 | en.wikipedia Muhammad Ahmad; Battle of Shaykan; New World Encyclopedia | Confirmed (Wikipedia says 1843, most sources 1844) |
+| ev-scramble-for-africa | Tunisia 1881, Egypt 1882, Angra Pequena 1884, Belloc 1898, Omdurman dead, Adwa, Liberia/Ethiopia | en.wikipedia Battle of Omdurman; World History Encyclopedia; warhistoryonline | Confirmed (Omdurman estimates run c. 9,700–12,000; “some 10,000” is within) |
+| person-shaka | Born 1787, chief 1816, Port Natal traders, Nandi’s death 1827, killed Sept 1828 by Dingane and Mhlangana at KwaDukuza | history.com; countrystudies.us (Library of Congress); BlackPast | Confirmed |
+| place-luanda | 1576 Dias de Novais, Dutch 1641–48, Correia de Sá’s Brazilian fleet 1648, capital since 1975 | en.wikipedia Timeline of Luanda; Infopedia; EBSCO | Confirmed |
+| polity-ndongo | Ngola title, ruler dates, Hari client kings, Pungo Andongo 1671 | countrystudies.us; en.wikipedia List of Ngolas of Ndongo; Battle of Pungo Andongo; EBSCO | Confirmed |
+| ev-muslim-conquest-of-the-maghreb | Kairouan 670, ʿUqba’s death at Vescera, Carthage 698, Dihya c. 701–703, Musa by 709 | en.wikipedia Battle of Vescera; Kusaila; Uqba ibn Nafi | Fixed: route point dated ʿUqba’s death 682 while the story says 683; route aligned to 683 (sources give 682 or 683) |
+
+**Error rate:** 3 of 15 records needed a fix (20%); 1 substantive (the Zirid ruler gap), 2 minor (an overstated building time, an internal date mismatch). No wrong QIDs, names or zh renderings found. Validator 0 errors; enrich and build clean; 0 open diffs.

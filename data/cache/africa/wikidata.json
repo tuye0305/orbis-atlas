@@ -970,6 +970,38 @@
   },
   "locationQid": "Q1741475"
  },
+ "Q13195390": {
+  "label": {
+   "en": "Ali ibn Yahya",
+   "zh": null
+  },
+  "description": "Zirid emir of Ifriqiya",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1086,
+   "date": "1086-06-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1121,
+   "date": "1121-07-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ali ibn Yahya",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q1319855": {
   "label": {
    "en": "Battle of Kirina",
@@ -6789,6 +6821,38 @@
    "zh": "金凳子之戰"
   },
   "locationQid": "Q398417"
+ },
+ "Q3571331": {
+  "label": {
+   "en": "Yahya ibn Tamim",
+   "zh": null
+  },
+  "description": "viceroy of Ifrique",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1065,
+   "date": "1065-02-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1116,
+   "date": "1116-01-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yahya ibn Tamim",
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q3572": {
   "label": {
