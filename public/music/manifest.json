@@ -5,72 +5,160 @@
    {
     "file": "europe-1.mp3",
     "title": "Orbis · Europe",
-    "duration": 150,
+    "duration": 148.63,
     "model": "elevenlabs/music",
-    "id": "2e7db880be6c4051b72e8868a27f5f84"
+    "id": "2e7db880be6c4051b72e8868a27f5f84",
+    "fadeOut": 4,
+    "crossfadeAt": 143.63
+   },
+   {
+    "file": "europe-2.mp3",
+    "title": "Orbis · Europe",
+    "duration": 149.83,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "45f668a14d3543a2a66061d9d29bb017",
+    "crossfadeAt": 144.83
    }
   ],
   "africa": [
    {
     "file": "africa-1.mp3",
     "title": "Orbis · Africa",
-    "duration": 150,
+    "duration": 142.71,
     "model": "elevenlabs/music",
-    "id": "95c7e5fecf754b8eace89959cf4beb1f"
+    "id": "95c7e5fecf754b8eace89959cf4beb1f",
+    "fadeOut": 4,
+    "crossfadeAt": 132
+   },
+   {
+    "file": "africa-2.mp3",
+    "title": "Orbis · Africa",
+    "duration": 142.86,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "2a2d46d0b2f4485eb63c28968e97aca3",
+    "crossfadeAt": 137.86
    }
   ],
   "west-asia": [
    {
     "file": "west-asia-1.mp3",
     "title": "Orbis · West Asia",
-    "duration": 150,
+    "duration": 146.5,
     "model": "elevenlabs/music",
-    "id": "1ae138738441409c94f08f73679dc604"
+    "id": "1ae138738441409c94f08f73679dc604",
+    "fadeOut": 4,
+    "crossfadeAt": 141.5
+   },
+   {
+    "file": "west-asia-2.mp3",
+    "title": "Orbis · West Asia",
+    "duration": 148.38,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "d93c3c807cf646ec9dbf3da4edc459c8",
+    "crossfadeAt": 143.38
    }
   ],
   "central-asia": [
    {
     "file": "central-asia-1.mp3",
     "title": "Orbis · Central Asia",
-    "duration": 150,
+    "duration": 143.54,
     "model": "elevenlabs/music",
-    "id": "aeb8044222bc443a8f210efb199c4a36"
+    "id": "aeb8044222bc443a8f210efb199c4a36",
+    "fadeOut": 4,
+    "crossfadeAt": 137
+   },
+   {
+    "file": "central-asia-2.mp3",
+    "title": "Orbis · Central Asia",
+    "duration": 140.01,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "3d1cc3e734c945e2b7e219c381cd77e2",
+    "crossfadeAt": 134.2
    }
   ],
   "south-asia": [
    {
     "file": "south-asia-1.mp3",
     "title": "Orbis · South Asia",
-    "duration": 150,
+    "duration": 146.01,
     "model": "elevenlabs/music",
-    "id": "d89857731bcb4e4588d3def0b609e869"
+    "id": "d89857731bcb4e4588d3def0b609e869",
+    "fadeOut": 4,
+    "crossfadeAt": 141.01
+   },
+   {
+    "file": "south-asia-2.mp3",
+    "title": "Orbis · South Asia",
+    "duration": 145.93,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "5d9411db0b874f619cda3544b1ce3005",
+    "crossfadeAt": 140.4
    }
   ],
   "east-asia": [
    {
     "file": "east-asia-1.mp3",
     "title": "Orbis · East Asia",
-    "duration": 150,
+    "duration": 147.54,
     "model": "elevenlabs/music",
-    "id": "95bec3c3bd08452aa2d757fa24643451"
+    "id": "95bec3c3bd08452aa2d757fa24643451",
+    "fadeOut": 4,
+    "crossfadeAt": 142.54
+   },
+   {
+    "file": "east-asia-2.mp3",
+    "title": "Orbis · East Asia",
+    "duration": 145.64,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "353f3d37e4cf4333862c4628df7b1759",
+    "crossfadeAt": 140.64
    }
   ],
   "southeast-asia": [
    {
     "file": "southeast-asia-1.mp3",
     "title": "Orbis · Southeast Asia",
-    "duration": 150,
+    "duration": 147.93,
     "model": "elevenlabs/music",
-    "id": "8a392e57c30e47fda5fd696bfc2f9e6c"
+    "id": "8a392e57c30e47fda5fd696bfc2f9e6c",
+    "fadeOut": 4,
+    "crossfadeAt": 139.4
+   },
+   {
+    "file": "southeast-asia-2.mp3",
+    "title": "Orbis · Southeast Asia",
+    "duration": 139.4,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "8a26884680fa4e6dae9abf0f4cc10b79",
+    "crossfadeAt": 133.4
    }
   ],
   "ocean": [
    {
     "file": "ocean-1.mp3",
     "title": "Orbis · Open Sea",
-    "duration": 150,
+    "duration": 148.87,
     "model": "elevenlabs/music",
-    "id": "1283ad83e80644b7b09b2473e26f46b2"
+    "id": "1283ad83e80644b7b09b2473e26f46b2",
+    "fadeOut": 4,
+    "crossfadeAt": 143.87
+   },
+   {
+    "file": "ocean-2.mp3",
+    "title": "Orbis · Open Sea",
+    "duration": 148.42,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "c624373d65054ee583f1339e70e5da11",
+    "crossfadeAt": 143.42
    }
   ]
  }

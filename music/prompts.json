@@ -1,7 +1,7 @@
 {
-  "_doc": "Suno prompts for the per-region soundtrack. Edit a style and re-run `node scripts/gen-music.mjs --only <region>`. All tracks are instrumental, calm and loopable, so they sit under the map instead of competing with it.",
+  "_doc": "Prompts for the per-region soundtrack (scripts/gen-music.mjs; ElevenLabs Music via WaveSpeed by default). Edit a style and re-run `node scripts/gen-music.mjs --only <region> --force`, or add a take with `--append`. All tracks are instrumental, calm and loopable, so they sit under the map instead of competing with it.",
   "defaults": {
-    "duration": 180,
+    "duration": 150,
     "negativeTags": "vocals, singing, lyrics, choir words, rap, spoken word, EDM, dubstep, trap beat, heavy drums, distorted guitar, harsh, aggressive, lo-fi hiss",
     "styleSuffix": "instrumental, no vocals, cinematic ambient underscore for a historical atlas, calm and spacious, slow tempo, warm natural reverb, gentle dynamics, seamless loop, high fidelity"
   },

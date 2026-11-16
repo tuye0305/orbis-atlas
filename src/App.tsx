@@ -33,7 +33,12 @@ let musicLoading: Promise<Music> | null = null;
 const loadMusic = () =>
   (musicLoading ??= import('./audio/TrackPlayer').then(async ({ TrackPlayer, loadManifest }) => {
     const manifest = await loadManifest();
-    if (manifest) return (music = new TrackPlayer(manifest));
+    if (manifest) {
+      const player = new TrackPlayer(manifest);
+      // Play/pause from the OS media controls goes through the store, so the top bar follows.
+      player.onRemote = (on) => useStore.getState().set({ musicOn: on });
+      return (music = player);
+    }
     const { MusicEngine } = await import('./audio/MusicEngine');
     return (music = new MusicEngine());
   }));
@@ -238,7 +243,7 @@ export default function App() {
     // Intro flight 3.2 s + region tracking settle (~0.6 s) + margin; deep links fly on afterwards.
     const settleMs = reduced ? 900 : deepLink ? 6200 : 4600;
     if (music && 'holdFor' in music) (music as TrackPlayer).holdFor(settleMs);
-    else musicLoading?.then((m) => 'holdFor' in m && (m as TrackPlayer).holdFor(settleMs));
+    else void loadMusic().then((m) => 'holdFor' in m && (m as TrackPlayer).holdFor(settleMs));
     if (withMusic) useStore.getState().set({ musicOn: true });
     // Warm the lazily-loaded About dialog so “?” opens without a network round trip.
     void loadAbout();
