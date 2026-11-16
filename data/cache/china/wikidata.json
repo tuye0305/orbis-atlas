@@ -2432,6 +2432,38 @@
   },
   "locationQid": null
  },
+ "Q1152735": {
+  "label": {
+   "en": "Liu Can",
+   "zh": "刘粲"
+  },
+  "description": "emperor of Han Zhao",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 250,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 318,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liu Can",
+   "zh": "刘粲"
+  },
+  "locationQid": null
+ },
  "Q1154540": {
   "label": {
    "en": "Later Jin dynasty",
@@ -12435,6 +12467,38 @@
   },
   "locationQid": null
  },
+ "Q714140": {
+  "label": {
+   "en": "Liu He",
+   "zh": "刘和"
+  },
+  "description": "emperor of Han Zhao",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 250,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 310,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liu He (Han-Zhao)",
+   "zh": "劉和 (漢趙)"
+  },
+  "locationQid": null
+ },
  "Q714159": {
   "label": {
    "en": "Liu Yuan",
@@ -13195,6 +13259,38 @@
   "wiki": {
    "en": "Wang Mang",
    "zh": "王莽"
+  },
+  "locationQid": null
+ },
+ "Q7263510": {
+  "label": {
+   "en": "Shilong",
+   "zh": "世隆"
+  },
+  "description": "king of Nanzhao",
+  "coord": null,
+  "image": "King Shilong of Nanzhao.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 844,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 877,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "世隆"
   },
   "locationQid": null
  },
