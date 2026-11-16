@@ -157,13 +157,13 @@ Medieval Sourcebook, LacusCurtius texts of Tacitus, Bundestag, CVCE, CAIN, CWGC/
 Heritage, Encyclopaedia Romana, university and museum pages, Britannica search snippets).
 
 ### Sample
-- **124 of the 169 new records (73%)** checked: 116 that the earlier report does not name
+- **124 of the curator's 167 new records (74%)** checked: 116 that the earlier report does not name
   (62 events, 22 people, 8 places, 24 polities) plus the 8 importance-4/5 events it only covered
   through auto-diffs (Las Navas, Hanse, Trent, Eighty Years' War, Glorious Revolution, Watt,
   Holocaust, Berlin airlift). All new importance ≥4 records are now covered.
 - **90 stories read in full** (en) and checked claim by claim; zh skimmed for every sampled record
   (a script scan found no traditional characters).
-- **QIDs:** about 330 (records plus every ruler of the sampled polities) resolved on Wikidata; all
+- **QIDs:** about 270 (sampled records, every ruler of the sampled polities, and the 12 additions with their rulers) resolved on Wikidata; all
   are the intended subjects. `ev-the-holocaust` is Q2763 (the genocide) and the eastern-europe
   dataset's `ev-auschwitz` is Q7341 (the camp), so they are distinct items. `person-lapulapu`
   (linked from `ev-magellan-elcano-circumnavigation`) is defined on `data/southeast-asia` as
@@ -226,6 +226,6 @@ eastern-europe record. The other branch was not edited.
 - The 7th century is still thin (Sutton Hoo, Whitby); Scandinavia now has Kalmar,
   Denmark–Norway and the Swedish Empire but no Danish or Norwegian medieval kingdom.
 - Notes not acted on: West Francia and Ostrogoths omit some short reigns (by design: notable
-  rulers only); Dutch-language and Portuguese zh renderings (迪尼什一世) follow 中文维基.
+  rulers only); the zh rendering 迪尼什一世 (Denis of Portugal) was kept; 阿奎斯格拉尼 for Aquae Granni is a loose transliteration.
 - Britannica URLs for the new polities were confirmed through Britannica's own search; older
   Britannica URLs in the dataset are still unopened (403 to scripts).
