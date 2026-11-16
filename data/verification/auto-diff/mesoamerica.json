@@ -131,7 +131,7 @@
    "verdict": "keep-ours",
    "reason": "The record is the 1545–1548 outbreak. Wikidata Q63472138 groups all the 16th–17th-century cocoliztli epidemics (1545–1631).",
    "checked": [
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7584997/",
+    "Vågene et al., \"Salmonella enterica genomes from victims of a major sixteenth-century epidemic in Mexico\", Nature Ecology & Evolution 2 (2018)",
     "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
    ]
   }
@@ -156,7 +156,8 @@
    "verdict": "keep-ours",
    "reason": "Wikidata's point is in Nicaragua and is generic. Our marker is at Teposcolula-Yucundaa, Oaxaca, the excavated epidemic cemetery whose DNA was studied.",
    "checked": [
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7584997/"
+    "Vågene et al., Nature Ecology & Evolution 2 (2018), on the Teposcolula-Yucundaa cemetery",
+    "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
    ]
   }
  },
