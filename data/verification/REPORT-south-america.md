@@ -133,3 +133,32 @@ The Peru-centroid items (Q2890406, Q1763918, Q152004, Q852133, and Q923516 for p
 - `person-charles-darwin` is on the Europe branch. Merge both branches before release, or the Beagle link stays a validator warning.
 - ev-columbus-reaches-paria links `person-christopher-columbus`, which another dataset defines.
 - The modern state polities (Paraguay to Brazil) were checked for dates only.
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only sources retrieved during the audit (web search results and fetched pages); nothing checked from memory. UNESCO pages returned HTTP 403 to fetches, so UNESCO figures were read through search snippets and the Wikipedia pages that cite them.
+
+- Seed: `20261117` (mulberry32 shuffle over the 178 records new in this PR; first 15 kept, 5 of them with stories).
+- Sample: 15 records (7 events, 3 people, 1 place, 4 polities).
+
+| Record | Claims checked | Source(s) retrieved | Result |
+| --- | --- | --- | --- |
+| ev-kuhikugu-xingu | c. 1250–1650 settlements, plazas, roads, moats, collapse after contact, Heckenberger, Fawcett 1925 | en.wikipedia Kuhikugu; Heckenberger et al. (Science 2003/2008) via search; history.com and National Geographic (Fawcett) | Fixed: the summary said "a population of thousands"; sources put it at perhaps tens of thousands (Wikipedia: up to about 50,000). en and zh |
+| person-gabriel-garcia-marquez | Aracataca 1927, El Espectador, El Independiente closed Apr 1956, *Cien años* (Sudamericana, Buenos Aires, May 1967), Nobel 1982, died Mexico City 2014 | en.wikipedia; NobelPrize.org; es.wikipedia | Confirmed |
+| ev-proclamation-of-the-republic-brazil | 15 Nov 1889, Deodoro da Fonseca, imperial family sailed 17 Nov | en.wikipedia Proclamation of the Republic (Brazil); pt.wikipedia | Confirmed |
+| ev-rebellion-of-tupac-amaru-ii | Arriaga seized 4 Nov and hanged 10 Nov 1780, Sangarará 18 Nov, execution 18 May 1781, ~100,000 dead, Areche's decrees, *Comentarios Reales* banned 1782 | en.wikipedia Rebellion of Túpac Amaru II; es.wikipedia; Real Cédula of 21 Apr 1782 via search | Confirmed |
+| place-santiago | Founded 12 Feb 1541 by Valdivia on the Mapocho, Michimalonco's attack 11 Sep 1541, Inés de Suárez | en.wikipedia Santiago; es.wikipedia Fundación de Santiago; Memoria Chilena | Confirmed |
+| person-pedro-alvares-cabral | 1500 fleet, Porto Seguro 22 Apr, Calicut, Sofala; later career | en.wikipedia Pedro Álvares Cabral | Fixed: the summary said he was "never given another command"; he was offered the next India fleet on restricted terms, withdrew, and Vasco da Gama took it. en and zh |
+| person-bernardo-ohiggins | Chillán 1778, Richmond 1795–99, Rancagua Oct 1814, Chacabuco, 1818 independence, abdication 28 Jan 1823, died Lima 24 Oct 1842 | en.wikipedia Bernardo O'Higgins; en.wikipedia Chilean Declaration of Independence; Memoria Chilena | Fixed: the 1818 stop put the signing of the Act of Independence in Santiago; O'Higgins signed it at Talca. Stop moved to Talca, label en and zh |
+| polity-chachapoya | Cloud-forest culture, Kuélap, Inca conquest in the 1470s | en.wikipedia Chachapoya culture; Cieza via search | Confirmed |
+| ev-qhapaq-nan | 30,000+ km network, UNESCO 2014, six countries, 616 km and 308 sites inscribed, chaski relays ~240 km/day | en.wikipedia Inca road system (UNESCO figures); UNESCO WHC 1459 snippet | Confirmed |
+| polity-wari | c. 500–1000 CE, Ayacucho, Huari capital (20,000–70,000 estimates), administrative centres | en.wikipedia Wari culture; es.wikipedia | Confirmed |
+| ev-conquest-of-the-desert | 1878–1885, Roca, Choele Choel, area taken, deaths and deportations | CONICET/Nagy via search; en.wikipedia Conquest of the Desert; es.wikipedia | Fixed: "some 15 million hectares" changed to about 14 million (zh 1400万); the story's arrival at Choele Choel now reads 24 May 1879, in time for the 25 May holiday (note added). en and zh |
+| polity-nazca | c. 100 BCE–800 CE, Cahuachi, geoglyphs, puquios | en.wikipedia Nazca culture; Nazca Lines | Confirmed |
+| ev-huaca-pucllana | Lima culture c. 200–700, Miraflores, "bookshelf" vertical adobe bricks | en.wikipedia Huaca Pucllana; es.wikipedia | Confirmed |
+| ev-crossing-of-the-andes | Mendoza, Beltrán's foundry, six columns, ~5,000 men, ~9,300 mules and 1,200–1,600 horses, freed slaves in the infantry, Chacabuco 12 Feb 1817 (O'Higgins's early charge; ~500 killed, 600 prisoners) | es.wikipedia Cruce de los Andes; en.wikipedia Battle of Chacabuco; es.wikipedia Ejército de los Andes and Kiddle (2,000–3,000 Afro-descendant soldiers in battalions 7, 8 and 11) | Confirmed |
+| polity-argentina | Modern state from 1816/1853, ruler list and terms | Georgetown PDBA list of Argentine presidents; en.wikipedia List of heads of state of Argentina | Confirmed |
+
+**Error rate:** 4 of 15 records (about 27%). None changed a headline date or a QID: one place error (O'Higgins at Talca, not Santiago), one wrong career claim (Cabral), one understated population (Kuhikugu) and one inflated area plus a vague date (Conquest of the Desert). The zh renderings matched the corrected English.
+
+Validator: 0 errors. Enrich and build are clean, with no new auto-diff and 0 open diffs.
