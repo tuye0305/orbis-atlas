@@ -229,3 +229,122 @@ eastern-europe record. The other branch was not edited.
   rulers only); the zh rendering 迪尼什一世 (Denis of Portugal) was kept; 阿奎斯格拉尼 for Aquae Granni is a loose transliteration.
 - Britannica URLs for the new polities were confirmed through Britannica's own search; older
   Britannica URLs in the dataset are still unopened (403 to scripts).
+
+## 2026-11 story verification (web-sourced)
+
+A second pass over the `story` texts. Every checkable claim (dates, numbers, names, places, order of events, attributions, superlatives) was checked against a source retrieved in this pass: Wikipedia article text in en/es/de/it via WebFetch, plus Wikisource (Tacitus, *Annals* 15), Wikimedia Commons, PMC (Riedel 2005 on Jenner), the US National Archives and historyplace.com. Nothing was checked from memory.
+
+- **Scope:** 66 of the 156 stories. Skipped: the 90 stories the 2026-11 reviewer had already checked against retrieved web sources (review batches A–E). All the others were checked, including the 1st-century and expansion records.
+- **Result:** 15 of 66 stories (23%) needed a correction or a softened claim. The other 51 were confirmed as written. There are 48 edits (24 en, each with a matching zh edit).
+  - **Wrong numbers or dates:** the Seven Weeks' War actually lasted under six weeks. The Nazi–Soviet pact was signed nine days before 1 September 1939, not a week. The Santa María ran aground early on Christmas Day. About three-quarters of Ireland's 1846 potato crop was lost, not nearly all. The figure of 7,000 D-Day vessels is not supported.
+  - **Overreach:** horses did not reach the Great Plains "within a century" of 1493; they arrived in the 1700s. Toledo became the Visigothic capital under Leovigild, not Athanagild. Prasutagus named Nero co-heir; the "half each" split is not in the sources. The idea that Prussia was "merged" into Germany is gone. Avicenna was dropped from Gerard of Cremona's translations.
+  - **Softened to match the sources:** Ball's release from Maidstone, Richard II's "I will be your leader", Michelangelo's scaffold and the secret removal of his body, the number of shots Cervantes took, and the Cummins letter's addressee.
+- **zh:** every zh story was compared with its en text. Each en change has a matching zh change. No traditional characters, calques or mismatches were found beyond those fixed.
+- **Not resolved** (left as written or softened; plausible, but no retrieved source):
+  - Wilhelm I snubbing Bismarck at Versailles. It is kept as "reportedly".
+  - Fleming's 1929 remark on white blood cells, which was removed.
+  - The Cummins letter's addressee (the Duke of Wellington) and its printing in *The Times*, both removed.
+  - Whether the landslide at Covadonga is in the Chronicle of Alfonso III itself or is a later gloss.
+- **Pipeline:** `fmt-data`, then `validate-data europe` (0 errors, 4 warnings as before), then `build-data` (0 open diffs). No QID, image or date field changed, so no enrich run was needed.
+
+### Stories checked and sources
+
+| Record | Result | Source(s) retrieved |
+| --- | --- | --- |
+| ev-battle-of-teutoburg-forest | fixed | en.wikipedia Battle of the Teutoburg Forest |
+| ev-eruption-of-vesuvius-79 | ok | en.wikipedia Eruption of Mount Vesuvius in 79 AD |
+| ev-edict-of-milan | ok | en.wikipedia Edict of Milan |
+| ev-battle-of-adrianople | ok | en.wikipedia Battle of Adrianople |
+| ev-sack-of-rome-410 | ok | en.wikipedia Sack of Rome (410) |
+| ev-battle-of-the-catalaunian-plains | ok | en.wikipedia Battle of the Catalaunian Plains |
+| ev-fall-of-the-western-roman-empire | ok | en.wikipedia Romulus Augustulus; Odoacer (Anonymus Valesianus, Placentia) |
+| ev-umayyad-conquest-of-hispania | ok | en.wikipedia Umayyad conquest of Hispania |
+| ev-battle-of-tours | ok | en.wikipedia Battle of Tours |
+| ev-viking-expansion | ok | en.wikipedia Viking Age |
+| ev-coronation-of-charlemagne | ok | en.wikipedia Coronation of Charlemagne |
+| ev-treaty-of-verdun | ok | en.wikipedia Treaty of Verdun; Oaths of Strasbourg |
+| ev-east-west-schism | ok | en.wikipedia East–West Schism |
+| ev-battle-of-hastings | ok | en.wikipedia Battle of Hastings |
+| ev-first-crusade | ok | en.wikipedia First Crusade |
+| ev-magna-carta | fixed | en.wikipedia Magna Carta |
+| ev-hundred-years-war | ok | en.wikipedia Hundred Years' War; Burghers of Calais |
+| ev-black-death | ok | en.wikipedia Black Death |
+| ev-gutenberg-bible | ok | en.wikipedia Gutenberg Bible |
+| ev-columbus-first-voyage | fixed | en.wikipedia Voyages of Christopher Columbus |
+| ev-ninety-five-theses | ok | en.wikipedia Ninety-five Theses |
+| ev-de-revolutionibus | ok | en.wikipedia De revolutionibus orbium coelestium |
+| ev-thirty-years-war | ok | en.wikipedia Defenestrations of Prague; Thirty Years' War |
+| ev-peace-of-westphalia | ok | en.wikipedia Peace of Westphalia |
+| ev-principia | ok | en.wikipedia Philosophiæ Naturalis Principia Mathematica |
+| ev-french-revolution | ok | en.wikipedia Storming of the Bastille; French Revolution |
+| ev-french-invasion-of-russia | ok | en.wikipedia French invasion of Russia |
+| ev-congress-of-vienna | ok | en.wikipedia Congress of Vienna |
+| ev-battle-of-waterloo | ok | en.wikipedia Battle of Waterloo; Thomas Creevey |
+| ev-origin-of-species | ok | en.wikipedia On the Origin of Species; 1860 Oxford evolution debate |
+| ev-unification-of-italy | ok | en.wikipedia Italian unification; Giuseppe Garibaldi; Camillo Benso, Count of Cavour; Capture of Rome; en.wikiquote Metternich |
+| ev-unification-of-germany | fixed | en.wikipedia Austro-Prussian War; Blood and Iron (speech); Ems Dispatch; Proclamation of the German Empire; Wilhelm I; de.wikipedia Deutsche Reichsgründung |
+| ev-world-war-i | ok | en.wikipedia World War I; First day on the Somme; Battle of Verdun; Armistice of 11 November 1918; UK declaration of war on Germany (1914) |
+| ev-treaty-of-versailles | ok | en.wikipedia Treaty of Versailles; Scuttling of the German fleet at Scapa Flow |
+| ev-world-war-ii | fixed | en.wikipedia Molotov–Ribbentrop Pact; Battle of Westerplatte; Dunkirk evacuation; German Instrument of Surrender; World War II casualties of the Soviet Union |
+| ev-normandy-landings | fixed | en.wikipedia Normandy landings; Operation Neptune; James Stagg; archives.gov D-Day lesson ("In Case of Failure" note) |
+| ev-fall-of-the-berlin-wall | ok | en.wikipedia Fall of the Berlin Wall; Berlin Wall; Pan-European Picnic; Harald Jäger; de.wikipedia Todesopfer an der Berliner Mauer; Mauerfall |
+| ev-monte-cassino | ok | en.wikipedia Monte Cassino; Benedict of Nursia; Saint Scholastica; Rule of Saint Benedict |
+| ev-columbian-exchange | fixed | en.wikipedia Columbian exchange; History of sugar; Mustang; Horses in the United States; es.wikipedia Segundo viaje de Colón |
+| ev-magellan-elcano-circumnavigation | ok | en.wikipedia Magellan expedition; Battle of Mactan |
+| ev-industrial-revolution | ok | en.wikipedia Industrial Revolution; Watt steam engine; Robert C. Allen |
+| ev-jenner-smallpox-vaccination | ok | en.wikipedia Edward Jenner; James Phipps; Riedel 2005 (PMC1200696) |
+| ev-great-irish-famine | fixed | en.wikipedia Great Famine (Ireland); historyplace.com Irish Potato Famine |
+| ev-discovery-of-penicillin | fixed | en.wikipedia Discovery of penicillin; Penicillin; Norman Heatley; Alexander Fleming |
+| ev-world-wide-web | ok | en.wikipedia History of the World Wide Web; Tim Berners-Lee; Robert Cailliau; commons File:First Web Server.jpg |
+| ev-theodoric-takes-ravenna | ok | en.wikipedia Odoacer; Theodoric the Great |
+| ev-battle-of-covadonga | ok | en.wikipedia Battle of Covadonga; es.wikipedia Batalla de Covadonga |
+| ev-lindisfarne-raid | ok | en.wikipedia Lindisfarne; Viking raid on Lindisfarne |
+| ev-albigensian-crusade | ok | en.wikipedia Albigensian Crusade; Caedite eos. Novit enim Dominus qui sunt eius. |
+| ev-peasants-revolt-1381 | fixed | en.wikipedia Peasants' Revolt |
+| ev-liverpool-and-manchester-railway | ok | en.wikipedia Liverpool and Manchester Railway; Chat Moss; Rainhill trials; William Huskisson |
+| ev-boudican-revolt | fixed | en.wikipedia Boudica; Battle of Watling Street |
+| ev-great-fire-of-rome | ok | en.wikipedia Great Fire of Rome; en.wikisource Tacitus, Annals Book 15 |
+| person-michelangelo | fixed | en.wikipedia Michelangelo; Pietà (Michelangelo); Sistine Chapel ceiling; it.wikipedia Michelangelo Buonarroti |
+| person-miguel-de-cervantes | fixed | en.wikipedia Miguel de Cervantes; es.wikipedia Miguel de Cervantes |
+| person-william-shakespeare | ok | en.wikipedia William Shakespeare; The Theatre; First Folio |
+| person-oliver-cromwell | ok | en.wikipedia Oliver Cromwell |
+| person-wolfgang-amadeus-mozart | ok | en.wikipedia Wolfgang Amadeus Mozart |
+| person-james-watt | ok | en.wikipedia James Watt; Watt steam engine |
+| person-charles-darwin | ok | en.wikipedia Charles Darwin; On the Origin of Species |
+| person-karl-marx | ok | en.wikipedia Karl Marx; Rheinische Zeitung; Das Kapital |
+| person-emmeline-pankhurst | ok | en.wikipedia Emmeline Pankhurst; Richard Pankhurst (politician) |
+| person-albert-einstein | ok | en.wikipedia Albert Einstein; Eddington experiment |
+| person-adolf-hitler | ok | en.wikipedia Adolf Hitler; Gleichschaltung |
+| place-toledo | fixed | en.wikipedia History of Toledo, Spain; Toledo, Spain; Taifa of Toledo; Gerard of Cremona; es.wikipedia Toledo |
+| polity-nasrid-granada | fixed | en.wikipedia Emirate of Granada; Alhambra |
+
+### Corrections
+
+Each en change has a matching zh change unless noted. Old → new is quoted in short form.
+
+| Record | Old → new | Why | Source |
+| --- | --- | --- | --- |
+| ev-battle-of-teutoburg-forest | “Rome never again tried to rule east of the Rhine.” → “After Germanicus's punitive campaigns of 14–16, Rome gave up the province and made the Rhine its frontier.” | Overstated: Germanicus campaigned east of the Rhine until 16, and Rome later held the Agri Decumates east of the upper Rhine; what ended was the planned province to the Elbe | en.wikipedia Battle of the Teutoburg Forest |
+| ev-magna-carta | “and the 1225 version became part of English law.” → “and the 1225 version, confirmed as statute in 1297, became part of English law.” | The 1225 reissue was granted for a tax; it entered statute law through Edward I's confirmation of 1297 | en.wikipedia Magna Carta |
+| ev-columbus-first-voyage | “On Christmas Eve the Santa María ran aground off Hispaniola,” → “In the early hours of Christmas Day the Santa María ran aground off Hispaniola,” | The grounding is dated 25 December 1492 (just after midnight) | en.wikipedia Voyages of Christopher Columbus |
+| ev-unification-of-germany | “in a war of seven weeks” → “in a war of barely six weeks” | The 'Seven Weeks' War' ran 14 June to 22 July 1866, about five and a half weeks | en.wikipedia Austro-Prussian War |
+| ev-unification-of-germany | “unhappy with the title and with seeing Prussia merged into Germany,” → “unhappy with the title and with seeing his Prussian crown overshadowed,” | Wilhelm's complaint was that the imperial title eclipsed the Prussian crown; Prussia was not merged into the federal Reich | en.wikipedia Wilhelm I; de.wikipedia Deutsche Reichsgründung |
+| ev-world-war-ii | “A week after Nazi Germany and the Soviet Union signed” → “Nine days after Nazi Germany and the Soviet Union signed” | Pact signed 23 August 1939; attack began 1 September | en.wikipedia Molotov–Ribbentrop Pact |
+| ev-normandy-landings | “a fleet of some 7,000 vessels carried troops” → “a fleet of thousands of warships, transports and landing craft carried troops” | Counts vary (Wikipedia gives about 5,000 ships); the 7,000 figure is not supported | en.wikipedia Normandy landings; Operation Neptune |
+| ev-columbian-exchange | “brought horses, cattle, pigs, wheat and sugar cane to Hispaniola. Within a century there were horses on the Great Plains and the pampas,” → “brought horses, livestock, seeds and sugar-cane cuttings to Hispaniola. Horses later ran wild on the pampas and, by the 18th century, had…” | Horses reached the Great Plains in numbers only after the 1680 Pueblo Revolt (1700s), not within a century of 1493; the voyage's cargo list is only partly documented | en.wikipedia Mustang; History of sugar; Horses in the United States; es.wikipedia Segundo viaje de Colón |
+| ev-great-irish-famine | “in 1846 it destroyed nearly all of it.” → “in 1846 it destroyed about three-quarters of it.” | Wikipedia gives a loss of three-quarters of the 1846 harvest | en.wikipedia Great Famine (Ireland) |
+| ev-great-irish-famine | “described starving families in the cabins around Skibbereen in a letter to the Duke of Wellington that was printed in The Times.” → “described in a letter the starving families he had found in the cabins around Skibbereen.” | Cummins's Skibbereen account is confirmed; the addressee and newspaper could not be confirmed in a retrieved source | historyplace.com Irish Potato Famine (Cummins at Skibbereen) |
+| ev-discovery-of-penicillin | “reported that it killed many disease-causing bacteria without harming white blood cells.” → “reported that it killed many disease-causing bacteria.” | The white-blood-cell claim could not be confirmed in a retrieved source; the antibacterial range is confirmed | en.wikipedia Alexander Fleming; Discovery of penicillin |
+| ev-peasants-revolt-1381 | “and freed the radical priest John Ball from prison in Maidstone.” → “and, by most accounts, freed the radical priest John Ball from prison in Maidstone.” | Ball's release from Maidstone is reported but uncertain; he may already have been free | en.wikipedia Peasants' Revolt |
+| ev-peasants-revolt-1381 | “Richard rode forward, told the rebels he would be their leader, and led them away.” → “Richard rode forward and, the chroniclers say, told the rebels he would be their leader, then led them away to Clerkenwell.” | The offer to lead them rests on chronicle accounts that differ | en.wikipedia Peasants' Revolt |
+| ev-boudican-revolt | “he left half his kingdom to the emperor Nero and half to his two daughters, hoping to protect his family.” → “he named the emperor Nero co-heir with his two daughters, hoping to protect his family.” | Tacitus says Prasutagus made the emperor joint heir with his daughters; no half-and-half split is recorded | en.wikipedia Boudica; Battle of Watling Street |
+| ev-boudican-revolt | “Rome sent an inquiry, recalled Suetonius,” → “Nero sent an inquiry and soon replaced Suetonius,” | Suetonius was replaced by Petronius Turpilianus after Polyclitus's inquiry | en.wikipedia Battle of Watling Street |
+| person-michelangelo | “standing on a scaffold of his own design rather than lying on his back, as legend has it.” → “standing on a free-standing scaffold rather than lying on his back, as legend has it.” | The free-standing scaffold replaced Bramante's and was built by Piero Roselli; 'his own design' is not supported | en.wikipedia Sistine Chapel ceiling |
+| person-michelangelo | “his nephew had the body carried secretly to Florence for burial in Santa Croce.” → “his nephew Lionardo had the body taken to Florence, reportedly in secret, for burial in Santa Croce.” | Transfer to Santa Croce confirmed; the secret removal is a report not confirmed in retrieved sources | en.wikipedia Michelangelo |
+| person-miguel-de-cervantes | “was hit by three arquebus shots, losing the use of his left hand,” → “was wounded by arquebus fire in the chest and left hand, losing the use of that hand,” | Sources differ on the number of shots (two per the 1571 testimony, three wounds in other accounts) | es.wikipedia Miguel de Cervantes; en.wikipedia Miguel de Cervantes |
+| person-miguel-de-cervantes | “and, according to fellow captives, took the blame each time;” → “and took the blame on himself each time to shield his companions;” | Sources say he made himself responsible to protect the others; testimony by fellow captives was not confirmed | es.wikipedia Miguel de Cervantes |
+| place-toledo | “King Athanagild made it the Visigothic capital in the 560s,” → “King Athanagild set up his court there in the 560s, and under Leovigild it became the Visigothic capital;” | Athanagild based his court in Toledo, but it became the kingdom's capital under Leovigild | es.wikipedia Toledo; en.wikipedia History of Toledo, Spain |
+| place-toledo | “and from 1035 the capital of its own taifa kingdom.” → “and in the 11th century the capital of its own taifa kingdom.” | Founding dates for the taifa vary (de facto independence 1018; Dhu l-Nunid rule later); 1035 is not supported | en.wikipedia Taifa of Toledo; es.wikipedia Toledo |
+| place-toledo | “he guaranteed its Muslim and Jewish inhabitants their property and worship, a promise later only partly kept.” → “he guaranteed its Muslim inhabitants their lives and property, but the tolerance did not last: the main mosque soon became the cathedral.” | The capitulation guaranteed Muslims' persons and property; Jewish and worship guarantees are not in retrieved sources; the cathedral replaced the main mosque | es.wikipedia Toledo |
+| place-toledo | “rendered Ptolemy, Avicenna and al-Khwarizmi into Latin,” → “rendered Ptolemy's Almagest and al-Khwarizmi's algebra into Latin,” | The Latin Canon of Avicenna is attributed by some to a later 'second Gerard'; Almagest and al-Khwarizmi are confirmed | en.wikipedia Gerard of Cremona |
+| polity-nasrid-granada | “Yusuf I and Muhammad V built most of the palaces visitors see today,” → “Building on the work of Ismail I, Yusuf I and Muhammad V created most of the palaces visitors see today,” | Ismail I began the Comares Palace; Yusuf I and Muhammad V extended and built most of the rest | en.wikipedia Alhambra; Emirate of Granada |
