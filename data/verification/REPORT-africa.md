@@ -99,7 +99,7 @@ Independent reviewer, separate from the curator. Checked against Britannica (sea
 | ev-battle-of-isandlwana | story | “As ammunition ran short” → line fell back; ammunition story “now doubted” | Ammunition-supply myth questioned by modern historians (Knight) |
 | ev-battle-of-adwa | story | “Around 6,000 … killed” → “More than 6,000” | Britannica: more than 6,000 dead, 3,000–4,000 captured |
 | ev-rwandan-genocide | story | gacaca tried “hundreds of thousands” → “nearly two million” cases | Gacaca handled about 1.96 million cases |
-| ev-first-heart-transplant | story | Washkansky 54 → 53 | Most sources (history.com, Barnard’s accounts) give 53; birth year uncertain |
+| ev-first-heart-transplant | story | Washkansky 54 → 53 | Most reports (e.g. history.com) give 53; his birth year is uncertain (1912 or 1913) |
 | person-hypatia | story | Synesius’s letters ask advice on “an astrolabe and a hydroscope” → asks her to have a hydroscope made; credits her teaching for his astrolabe | Letter 15 (hydroscope); the astrolabe is in *On the Gift* to Paeonius |
 | ev-martyrdom-of-perpetua | story | Felicity gave birth “two days” → “three days” before the games | *Passio* 15 (prayer three days before the games, labour followed) |
 | ev-elmina-castle | story | “ten caravels carrying 600 men” → about a dozen ships (nine caravels and two transports by one count), some 600 soldiers and craftsmen; “Britain bought” → “The Dutch handed it to Britain” (1872) | Fleet counts differ (Pina; secondary sources); 1871 Anglo-Dutch treaty |
