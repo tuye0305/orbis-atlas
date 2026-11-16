@@ -145,3 +145,69 @@ All of these are consistent with the stories as written.
 ### Open issues
 - **Events without a QID:** 13 new events have no matching Wikidata item. Examples are Sui conquest of Chen, Zhu Wen ends the Tang, Bi Sheng's movable type, Aguda founds the Jin and China joins the WTO.
 - **Possible overlaps:** `person-koxinga` (born in Hirado) and `person-kumarajiva` (born in Kucha) may also interest the japan-korea and central-asia curators. Other datasets should link to these ids rather than duplicate them.
+
+## 2026-11 review
+
+Independent reviewer (separate from the curator and from the earlier verifier). Scope: the 2026-11 expansion on `data/china` (126 new records, 70 new stories on existing events, 3 changed records).
+
+### What was checked
+- **All 70 fork-written stories on existing events**, line by line (en and zh): dates, numbers (army sizes, death tolls, distances), names, causality, and legend vs history (e.g. 演义 vs 正史 at Red Cliffs and the Northern Expeditions). Checked against the dynastic histories as I know them (《后汉书》《三国志》及裴注、《晋书》《资治通鉴》《旧唐书》《宋史》《明史》《清史稿》) and the standard en/zh reference articles; disputed points were looked up on the web (see Sources).
+- **All 126 new records** (100%, above the 30% target) at summary level, with every ruler reign (17 polities), every journey stop (37 people), every name range (13 places), and the routes of the Long March, Ban Chao, the Sino-French War and the 1937–45 war. All 25 new-event and 8 new-person stories were read in both languages, with particular care for the Great Leap famine, the Cultural Revolution, 1989, 228, the ROC retreat, martial law and the 1996 election: the wording is factual, sourced and neutral in both languages, and the estimates are given as ranges.
+- **zh quality:** a script listed every CJK character outside GB2312. All 46 hits are legitimate rare name characters in standard simplified use (儁 朱儁, 縯 刘縯, 濬 王濬, 綎 刘綎, 訢 奕訢, 澂 瑞澂, 鋹 刘鋹, etc.). There are no traditional characters. Lunar months written in Chinese numerals but holding Gregorian values were changed to Arabic numerals (see below).
+- **Cross-dataset duplicates:** the QIDs were compared with every other dataset on this branch and on the other `origin/data/*` branches. None found.
+
+### Corrections (old → new, reason)
+| Record | Field | Old → New | Reason / source |
+| --- | --- | --- | --- |
+| ev-battle-of-kunyang | story.en | Wang Yi/Xun "his cousins" → "his generals"; "Thousands drowned" → "Tens of thousands" | Not cousins; 《后汉书·光武帝纪》"溺死者以万数" |
+| ev-conquest-of-shu-by-wei | story en/zh | Deng Ai "a few thousand men / 数千人" → "a picked force / 精兵" | The Sanguozhi gives no figure for the Yinping force |
+| ev-conquest-of-wu-by-jin | story.zh | 吴彦 → 吾彦 | 《晋书·王濬传》: the Jianping governor was 吾彦 |
+| ev-founding-of-tang | story.en | "defeated Xue Ju" → "crushed the Xue family's state" | Li Shimin lost to Xue Ju in 618 and then beat his son Xue Rengao |
+| ev-tang-conquest-of-eastern-turks | story en/zh | "weeks after the Xuanwu Gate coup" → "less than three weeks after Taizong's accession" | Coup on 2 Jul 626, accession on 4 Sep, Illig at the Wei bridge on 23 Sep (《资治通鉴》卷191) |
+| ev-wu-zetian-proclaims-zhou | story en/zh | Zhongzong deposed "within weeks / 一个多月" → "within two months / 次年二月"; Luoyang named Divine Capital "in 690" → "in 684"; 曌 coined "the year before" | Gaozong died Dec 683 and Zhongzong was deposed Feb 684; 神都 dates from 光宅元年 (684); 曌 from 载初元年 (689) |
+| ev-huang-chao-rebellion | story.zh | 881年正月 → 881年1月（广明元年十二月） | Chang'an fell in the lunar 12th month, not the 1st |
+| ev-cession-of-sixteen-prefectures | story.en | son-in-law of "the Later Tang founder" → "the Later Tang emperor Mingzong" | The founder was Zhuangzong (zh already said 明宗) |
+| ev-chenqiao-mutiny | story en/zh | the army left "that night" → "two days later" / 初三 | The alarm came on the 1st and the army marched on the 3rd; the mutiny was at dawn on the 4th |
+| ev-wang-anshi-new-policies | story en/zh | "a chief minister" → vice chief councillor, chief councillor the next year; 三司条例司 → 制置三司条例司 | 参知政事 in 1069, 同平章事 in 1070 (《宋史·王安石传》) |
+| ev-jingkang-incident | story.zh | 1127年六月 → 1127年6月 | Zhao Gou was enthroned on 建炎元年五月初一 (lunar), i.e. 12 June |
+| ev-treaty-of-shaoxing | story en/zh | iron figures of "Qin Hui and his wife" → four figures (with 万俟卨 and 张俊) | Yue Fei temple, Hangzhou |
+| ev-battle-of-xiangyang | story en/zh | "the brothers Zhang Shun and Zhang Gui / 张顺、张贵兄弟" → "militia leaders" | 《宋史·忠义传》 calls them 民兵部辖 and gives no kinship; "brothers" reflects the Water Margin |
+| ev-yuan-dynasty-proclaimed | story.en | Kaidu "his cousin" → "his kinsman, a grandson of Ögedei" | Kaidu was Kublai's first cousin once removed (zh 堂侄 was already right) |
+| ev-battle-of-lake-poyang | story.zh | 八月底 / 十月初 → 8月底 / 10月初 | These are Gregorian dates; the lunar months were 七月 / 八月 |
+| ev-founding-of-ming | story en/zh | "his parents and brothers" → "parents and eldest brother" | 《明史·太祖本纪》: his father, mother and eldest brother died in 1344 |
+| ev-battle-of-sarhu | story en/zh | 四月中旬 → 4月中旬; "the Manchus / 满洲" → Later Jin (后金) | Lunar 三月初; the name Manchu dates only from 1635 |
+| ev-revolt-of-three-feudatories | story.en | "proclaiming a new Zhou dynasty" (1673) → "soon styling himself King of Zhou" | He took the imperial title only in 1678 (the zh already said 周王) |
+| ev-first-opium-war | story.zh | Nemesis 铁甲蒸汽舰 → 铁壳蒸汽舰 | The ship was iron-hulled, not an armoured ironclad |
+| ev-treaty-of-nanjing | story en/zh | "Asia's greatest port / 亚洲第一大港" → "one of Asia's greatest ports" | Overstatement |
+| ev-first-sino-japanese-war | story.zh | 日本暴徒 → 日本刺客小山丰太郎 | More precise and neutral |
+| ev-wuchang-uprising | story en/zh | "six weeks" → "seven weeks"; 台湾的"国庆日" → 至今在台湾作为国庆日纪念 | Sichuan declared on 27 Nov; the zh used scare quotes |
+| ev-huaihai-campaign | story.en | "along the Huai River plain" → "on the plains north of the Huai River" | Matches the zh and the geography |
+| ev-reform-and-opening-up | story.zh | 当年粮食大幅增产 → 次年 | The Xiaogang pact was signed in Nov 1978; the bumper harvest came in 1979 |
+| ev-dream-pool-essays | story en/zh | Shen Kuo "coined the term shiyou" → "described the 'rock oil' and predicted it would be widely used" (此物后必大行于世) | The coinage claim is unsafe; the prediction is in the text |
+| person-li-hongzhang | stop 1896 | St Petersburg → Moscow (55.75, 37.62) | The Li–Lobanov treaty was signed in Moscow on 3 Jun 1896, at Nicholas II's coronation |
+| person-qi-jiguang | stop 1559 | 29.87, 121.55 (Ningbo) → 29.31, 120.07 (Yiwu) | The label says Yiwu |
+| person-liang-qichao | stop 1898 | 横滨创办《新民丛报》 → 《清议报》 | Qingyi bao 1898; Xinmin congbao 1902 |
+| polity-hu-xia | summary | "destroyed by Northern Wei in 427–431" → Tongwan lost in 427; in 431 the Tuyuhun captured Helian Ding and handed him to Wei | 《魏书》; en Wikipedia: Helian Ding |
+| polity-later-jin-manchu | summary | Manchu name "1636" → 1635 (state Qing 1636) | 天聪九年 (1635) decree |
+| polity-cheng-han | summary | "the first of the Sixteen Kingdoms" → "with Liu Yuan's Han the first, both in 304" | Both states were founded in 304 |
+| ev-roc-retreat-to-taiwan | summary.en | "divided two Chinese states" → "the two sides have been governed separately ever since" | Neutral wording, matching the zh 两岸分治 |
+
+### QIDs (13 events lacked one)
+Searched again with `wd.mjs search` (en and zh) and through zh.wikipedia pageprops:
+- **Added:**
+  - ev-sui-conquest-of-chen → Q15897055 (隋灭陈之战)
+  - ev-mongol-conquest-of-dali → Q11660013 (蒙古灭大理之战)
+  - ev-roc-retreat-to-taiwan → Q16165653
+  - ev-yuan-dynasty-proclaimed (an older record) → Q60990943 (建国号诏, the edict itself); its note was updated.
+- **Still none:**
+  - Wang Mang founds Xin, Ban Chao, Northern Wei unifies the north, Tibetan capture of Chang'an, Zhu Wen ends Tang, Abaoji, Bi Sheng, Aguda, Ricci in Beijing and abolition of the exams have no item of their own.
+  - China joins the WTO was left without one: Q5099981 ("China and the WTO") is a topic item, not the event.
+- The new ROC-retreat coordinate diff is resolved keep-ours (Taipei vs the island centroid).
+
+### Added
+- Stories for Chang'an/Xi'an, Kaifeng, Nanjing and Beijing (places), and for Tang, Northern Song, Ming and Qing (polities). These are the first place and polity stories in the dataset.
+
+### Left for a human
+- Yan Zhenqing's death: kept as 785 (Wikidata, Britannica); the 旧唐书 gives 兴元元年 (784).
+- Kaidu, Qiu Jin's "cousin" Xu Xilin (表兄), and Kumārajīva's dates follow common usage; specialists may differ.
+- Tiananmen, the famine and the Cultural Revolution give death tolls as ranges with named sources. A reader from either side may want different emphasis, but the facts are as stated.

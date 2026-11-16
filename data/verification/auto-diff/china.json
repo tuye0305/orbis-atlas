@@ -760,6 +760,31 @@
   }
  },
  {
+  "key": "ev-roc-retreat-to-taiwan:coord",
+  "id": "ev-roc-retreat-to-taiwan",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   25.04,
+   121.51
+  ],
+  "wikidata": [
+   23.7667,
+   121
+  ],
+  "qid": "Q16165653",
+  "km": 151,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The government moved to Taipei (25.04N 121.51E), where the Executive Yuan reconvened in December 1949. Wikidata uses the centroid of Taiwan island, as for the 228 Incident.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Retreat_of_the_government_of_the_Republic_of_China_to_Taiwan",
+    "https://www.wikidata.org/wiki/Q16165653 (coordinate 23.77N 121E, the island centroid)"
+   ]
+  }
+ },
+ {
   "key": "person-wang-xizhi:born",
   "id": "person-wang-xizhi",
   "dataset": "china",

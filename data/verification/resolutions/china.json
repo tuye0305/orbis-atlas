@@ -313,5 +313,13 @@
     "checked": [
       "https://www.britannica.com/place/Taiwan"
     ]
+  },
+  "ev-roc-retreat-to-taiwan:coord": {
+    "verdict": "keep-ours",
+    "reason": "The government moved to Taipei (25.04N 121.51E), where the Executive Yuan reconvened in December 1949. Wikidata uses the centroid of Taiwan island, as for the 228 Incident.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Retreat_of_the_government_of_the_Republic_of_China_to_Taiwan",
+      "https://www.wikidata.org/wiki/Q16165653 (coordinate 23.77N 121E, the island centroid)"
+    ]
   }
 }
