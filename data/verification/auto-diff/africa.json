@@ -564,7 +564,7 @@
   "qid": "Q373032",
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "1998 is the year the commission’s hearings ended and its five-volume report was presented to President Mandela (29 October 1998). The amnesty committee worked on until 2001 and the final volumes were published in 2003; Wikidata’s 2002 is one of these later milestones. The note-free 1998 follows Britannica.",
+   "reason": "1998 is the year the commission’s hearings ended and its five-volume report was presented to President Mandela (29 October 1998). The amnesty committee worked on until 2001 and the final volumes were published in 2003; Wikidata’s 2002 is one of these later milestones.",
    "checked": [
     "https://www.britannica.com/topic/Truth-and-Reconciliation-Commission-South-Africa",
     "https://www.justice.gov.za/trc/"
@@ -864,7 +864,7 @@
   "qid": "Q1796232",
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "Traditional start dates vary (1515–1518) and fall within the 2-year tolerance’s spirit; we use 1515, the year Ndongo’s king first sent an embassy to Portugal according to Heywood.",
+   "reason": "Both dates are conventional: c. 1515 is the usual date for Ngola Kiluanje kia Samba’s break from Kongo overlordship, and 1518 is the year of Ndongo’s first embassy to Portugal. We keep 1515 at medium confidence.",
    "checked": [
     "Linda M. Heywood, Njinga of Angola (2017)"
    ]

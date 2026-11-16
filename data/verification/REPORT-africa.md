@@ -59,3 +59,21 @@ Verifier: independent fact-checker agent (separate from the curator).
 - The schema should allow omitting `born`/`died` for people whose life dates are unknown.
 - Kongo's end date of 1888 is the date of Portuguese vassalage; the kingdom lasted in name until 1914.
 - Muhammad Ali's dynasty is given as ruling "until 1952", but the monarchy was formally abolished in 1953.
+
+## 2026-11 expansion
+
+Added 56 events, 23 people, 12 places and 17 polities (108 records), filled ruler gaps in 6 existing polities (Saadi, Zagwe, Mutapa, Adal, Oyo, Sokoto) and wrote 101 stories (52 on new records, 49 on existing importance-4/5 events and key people). Diffs: 23 new auto-diffs, all resolved (0 open); most were generic country centroids in Wikidata or QIDs for objects (Rosetta Stone, Lucy) whose Wikidata dates are the object's age, not the event.
+
+### Spot-checks (28 of 108 new records, 26%, against a second source)
+
+- **Places:** Mbanza Kongo (name São Salvador first used by Álvaro I, c. 1570; reverted 1975), Sousse (Hadrumetum → Hunericopolis → Justinianopolis → Susa; Vandal/Byzantine dates uncertain, noted), Luanda (Dutch 1641–48), Gqeberha (renamed 2021), Banjul (Bathurst 1816–1973).
+- **Polities:** Ndongo capital Kabasa near N'dalatando (approximate coords, noted); Ndongo end 1671 at Pungo Andongo (Lara 2016, EBSCO): last ruler corrected to João Hari II, who turned against Portugal; Vandal kings; Hafsid and Alaouite reigns; Zanzibar sultans; Muhammad Ali dynasty (abolition 1953 noted).
+- **People:** Tippu Tip birth corrected 1832 → 1837 (Britannica); Yaa Asantewaa c. 1840 kept (sources range 1832–1850, disputed); Sunni Ali, Idris Alooma and Dihya birth years marked as placeholders (Wikidata gives accession or impossible years); Funmilayo Ransome-Kuti's visit to China and meeting with Mao confirmed.
+- **Event stories:** Fort Jesus: "eleven men and two women" at the fall was not supported; corrected to the captain, nine soldiers and a priest, with the relief fleet arriving a week later. French conquest of Madagascar: combat deaths corrected to "about twenty to twenty-five" (6,000 died of disease). Napier's 44 elephants confirmed (Hansard gives 42; kept 44, the usual figure). Rosetta Stone: "nephew's account" softened to "family story"; an unsupported "since 1972" date for Egypt's restitution requests removed. Rhodesian UDI wording ("phrase by phrase") softened to "deliberately echoed". Haydaran moved to Wikidata's site near Gabès.
+- **Stories on existing records:** Mansa Musa, Tondibi, Adwa, Isandlwana, Great Zimbabwe and Dias were re-read against Britannica; no changes needed. Nkrumah's "PG" cap and Barnard's words were web-checked when written.
+
+### Known gaps
+
+- No Nubian polity records for Nobatia and Alodia yet (only Makuria); Garamantes covered by one event, not a polity (no named rulers).
+- Hausa states other than Kano, Ife, Luba/Lunda, Rozvi, Ajuran and the Swahili city-states beyond Kilwa have no polity records.
+- Several new events have no Wikidata item (e.g. Kanem's conversion, the Nubian missions, Afonso's letters).
