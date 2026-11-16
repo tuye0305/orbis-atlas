@@ -107,3 +107,65 @@ A parallel drafting pass wrote the 43 stories for existing events from each reco
 ### Known gaps
 - No standalone records yet for the Seljuk entry into Baghdad (1055), Timur's Syrian campaign (1400–01; left to central-asia), the Ghaznavids in Iran, the Muzaffarids, the Afsharid–Zand transition at Mashhad, the Kurdish emirates, or the modern Gulf states besides the UAE.
 - The early Nabataean, Himyarite, Lakhmid and Iberian reign dates are approximate.
+
+## 2026-11 review
+
+Reviewer: independent fact-checker (not the curator). I read every one of the 43 stories that the drafting pass added to existing importance-4/5 events, and checked them claim by claim. I then sampled 48 of the 124 new records (39%) against sources other than the ones the curator cited. Together with the curator's 26, which do not overlap with mine, 74 of 124 new records (60%) now have a second-source check. I also compared the zh name of every new record with its Wikidata or Chinese Wikipedia label. Britannica blocks fetching, so I used search snippets from Britannica and Iranica, World History Encyclopedia, university and museum pages, UN and CIA documents, and Wikipedia together with a second source.
+
+### Corrections to the drafted stories (43 read, 11 corrected)
+| Record | Old → New | Reason / source |
+| --- | --- | --- |
+| ev-first-crusade-levant | "founded four Latin states" → Edessa, Antioch and Jerusalem, with Tripoli added in 1109 | Tripoli was founded after the crusade (standard chronology) |
+| ev-hulagu-campaign | Khurshah "surrendered Alamut" → surrendered at Maymun-Diz in Nov 1256, Alamut followed in Dec; "next eighty years" → "until the 1330s" | Wikipedia: Siege of Maymun-Diz / Siege of Alamut (1256); Ilkhanate ended 1335 |
+| ev-battle-of-ain-jalut | "roughly equal numbers" → Mamluk army at least as large by most modern estimates | Amitai's estimates as summarised by Medievalists.net and Wikipedia |
+| ev-ottoman-mamluk-war | "doubled the Muslim population" (unsupported) → brought Syria, Egypt and the Hejaz under Ottoman rule | No source found for the population claim |
+| ev-gallipoli-campaign | French "landed at Cape Helles" on 25 April → diversionary landing at Kum Kale on the Asian shore | AWM "Dawn of the Legend"; Wikipedia: Battle of Kumkale |
+| ev-republic-of-turkey | İnönü PM "that same night" → İsmet Pasha (later İnönü) PM the next day | He was appointed on 30 Oct 1923; the surname came in 1934 |
+| ev-syrian-civil-war | "UN-documented deaths exceeded 300,000" → OHCHR estimate of ~307,000 *civilian* deaths in 2011–21 | UN News, 28 Jun 2022 |
+| ev-battle-of-edessa | "had already beaten two Roman emperors" → defeated Gordian III's army and made Philip pay for peace | Res Gestae Divi Saporis; Philip bought peace and was not beaten |
+| ev-battle-of-ankara | cage "is a later embellishment" → "widely doubted by historians as a later embellishment" | JRAS 2011, "Bayezid's Cage" (the question is still debated) |
+| ev-iraq-war | "about 100,000 to several hundred thousand" → from 100,000+ documented civilian deaths to survey figures of half a million or more | IBC vs PLOS Medicine 2013 / Lancet 2006 |
+| ev-christianization-of-armenia | Rome "still pagan at the time" → Rome, "where Christianity was at best newly tolerated" | With the c. 314 dating, the event falls after the Edict of Milan (313) |
+
+The other 32 stories check out, including every date, number and name in them. Contested topics (Israel 1948, the Armenian genocide, the Iran–Iraq, Gulf, Iraq and Syrian wars, Karbala) are attributed and balanced, and legends are marked as legends.
+
+### Corrections to sampled new records
+| Record | Field | Old → New | Source |
+| --- | --- | --- | --- |
+| ev-samarra-capital | lat/lon; summary | 34.3617, 43.8019 (Abu Dulaf Mosque, 15 km north) → 34.2062, 43.8798 (Great Mosque); "was the largest mosque" → "then the largest", built 848–851 | Wikidata Q593115; Archnet |
+| ev-battle-of-avarayr | lat/lon; note | 39.34, 45.06 → 38.83, 45.035 (Churs, on the Avarayr plain); note adds Iranica's 2 June date | Wikidata Q5958318; Iranica "Avarayr" |
+| place-kayseri | names | Mazaca/Eusebeia until 17 → Mazaca until c. 12 BCE, then Caesarea under Archelaus (client kingdom), then Roman from 17 | Wikipedia: Caesarea (Cappadocia); Britannica |
+| place-erzurum | names | Karin, Kingdom of Armenia −50–415 → split at 387 (Roman sector after the partition) | Wikipedia: Erzurum; Peace of Acilisene |
+| ev-fall-of-mosul-2014 | summary | Baghdadi "proclaimed a caliphate" from the mosque → first appeared as caliph there after IS declared it | The caliphate was declared on 29 Jun, the sermon given on 4 Jul 2014 |
+| ev-roman-arabia-annexed | summary | "province of Arabia Petraea, capital Bostra" → province of Arabia (later called Petraea); governor at Bostra, Petra kept the title metropolis | World History Encyclopedia; Karak Resources Project |
+| ev-battle-of-emesa | story | Augusta coins "by 270" → 271–272 | RIC (ric.mom.fr) |
+| ev-julian-persian-expedition | summary | "some 65,000 men" → "usually estimated at 65,000 or more" | HistoryNet; Iranica "Jovian" |
+| ev-najran-massacre | story | Abraha as "one of" the installed rulers → the commander who overthrew the first one | Wikipedia: Christian community of Najran |
+| ev-babak-revolt | summary | executed at Samarra → handed over by an Armenian prince and executed at Samarra in 838 | al-Tabari vol. 33 |
+| ev-siege-of-edessa-1144 | story | Edessa "on the upper Euphrates" → east of it | Edessa lies ~45 km from the river |
+| ev-battle-of-kose-dag | summary, story | "east of Sivas" → north-east, toward Erzincan; Erzurum taken "1243" → winter 1242–43; Kaykubad's gains made specific (Alanya, Sudak) | Wikipedia: Mongol conquest of Anatolia |
+| ev-fall-of-acre-1291 | summary | added that the Templars held Ruad until 1302 | history.co.uk; AramcoWorld review |
+| ev-capture-of-hormuz-1622 | summary | "new port of Bandar Abbas" → Gombroon, renamed Bandar Abbas | Kerr, Voyages vol. 9 |
+| ev-mount-lebanon-1860 | summary | Mutasarrifate 1861–1915 → 1861–1915, formally until 1918 | Kramer, France and Lebanon |
+| ev-iraq-14-july-revolution | summary | left the Baghdad Pact → left it in 1959 | Withdrawal formalised in March 1959 |
+| ev-lebanese-civil-war | summary | "some 150,000 … before Taif ended the war" → an estimated 120,000–150,000; Taif 1989, fighting ended Oct 1990 | Wikipedia: War of Liberation (1989–1990); Geopolitical Monitor |
+| person-ibn-saud | stops | Kuwait exile 1891 → 1893 (the family left Riyadh in 1891 and reached Kuwait by way of Qatar and Bahrain) | Saudipedia; AramcoWorld |
+| person-david-iv-of-georgia | stops | "Crowned at Kutaisi" → "Becomes king at sixteen (capital Kutaisi)" | No source places the coronation there |
+| place-konya | summary | Ottomans "absorbed the Karamanid beylik in the 1460s" → took Konya in the 1460s, during their long conquest of Karaman (completed 1474–87) | Wikipedia: Konya |
+| polity-nizari-ismaili | summary | Mongols "took its strongholds in 1256" → Alamut and most strongholds; Gerdkuh held out until 1270 | Institute of Ismaili Studies |
+| zh names | name.zh | 哈桑·萨巴 → 哈桑·沙巴; 莱赫米王国 → 拉赫姆王国; 加萨尼王国 → 伽珊王国; 巴格拉提德 → 巴格拉图尼; 艾弗里雅·切莱比 → 埃夫利亚·切莱比; 梅斯罗布 → 梅斯罗普 | Chinese Wikipedia titles |
+
+Sampled and confirmed without change: Masada, Zanj, Qarmatians 930, Baghdad 1638, Isfahan 1722, Gulistan, Hamidian massacres, First Nagorno-Karabakh War, Ani 1064 (16 Aug), Holy Sepulchre 1009, Selim I ("nearly doubling" the empire; the Setton/Wisconsin Crusades history gives "doubling"), Ardashir I, Khalid ibn al-Walid, al-Tabari, al-Tusi, Saadi, Rashid al-Din, Evliya Çelebi, Faisal I, Forough Farrokhzad, Mosaddegh (doctorate 1913/14; thesis published 1914), Aleppo, Beirut, Qara Qoyunlu, Zand (a Lak branch of the Lurs), Bagratid Armenia, Lakhmids and Hamdanids.
+
+### Cross-dataset check
+No new West Asia record shares an id or QID with any other dataset on this branch, or in the other dataset worktrees (pending PRs). `person-baybars` (Q192960) exists only here. The Africa PR (#14) names Baybars only as a ruler, by QID, inside its Mamluk polity, so there is no duplicate.
+
+### Added (5 records, ≥2 sources each)
+- `ev-seljuk-entry-into-baghdad` (1055, importance 4, with story). Wikidata has no item for it, so the record carries one "no qid" warning.
+- `ev-ghaznavid-capture-of-rayy` (1029). Its QID is a proxy for the Ghaznavid campaigns in Persia; the year and coordinate diffs are resolved.
+- `ev-kuwait-independence-1961`. Its QID is a proxy for Operation Vantage.
+- `ev-oman-coup-1970`.
+- `polity-al-bu-said` (Oman, 1744–present).
+They are not yet linked to `polity-ghaznavid`, `person-mahmud-of-ghazni` or `polity-zanzibar-sultanate`, because those ids exist only in the unmerged Central Asia (#16) and Africa (#14) PRs.
+
+`validate-data` gives 0 errors; the only new West Asia warning is the missing QID above. The build reports 0 open diffs.
