@@ -191,3 +191,35 @@ and one new event without a Wikidata item). `build-data`: 0 open diffs.
   coordinates are worth fixing upstream.
 - 雍籍牙 (Alaungpaya) is kept for consistency with the existing Konbaung ruler list; 中文维基 uses 雍笈牙.
 - Taksin's and Thonburi's Britannica sources still have no URL (Britannica blocks automated fetches).
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only pages retrieved during the audit (WebFetch/WebSearch); nothing checked from memory.
+
+- **Seed:** 20261114 (mulberry32 shuffle of the 188 records added or changed against `origin/feat/world-regions`, sorted by id; first 6 records with new stories taken, then filled in shuffle order).
+- **Sample (20, 7 with stories):**
+
+| Record | Source(s) retrieved | Result |
+|---|---|---|
+| person-diponegoro (story) | en.wikipedia Diponegoro | OK (Makassar move July 1833 confirmed) |
+| ev-fall-of-saigon (story) | en.wikipedia Fall of Saigon; web search on the Ho Chi Minh Campaign order of battle | **Fixed**: "eighteen divisions" closing on Saigon; sources give 15 infantry divisions (en + zh) |
+| ev-philippine-revolution (story) | en.wikipedia Philippine Revolution | OK; **zh fixed**: summary spelled Aguinaldo 阿吉纳尔多 while the story and person record use 阿奎纳多 |
+| person-naresuan (story) | en.wikipedia Naresuan | OK (story already flags that Burmese chronicles differ on the duel) |
+| ev-zhou-daguan-at-angkor (story) | en.wikipedia Zhou Daguan | OK (left Mingzhou, put to sea at Wenzhou; Aug 1296–Jul 1297; French 1819) |
+| ev-yijing-in-srivijaya (story) | en.wikipedia Yijing; zh.wikipedia 义净 | OK |
+| ev-palapa-oath | (record already flags it as Pararaton-only, low confidence); en.wikipedia Gajah Mada via Majapahit search not needed | OK |
+| person-jayavarman-ii | en.wikipedia Jayavarman II | OK |
+| place-vientiane | en.wikipedia Vientiane | OK; note now says sources date the capital move to 1560 or 1563 |
+| ev-asian-financial-crisis | web search (baht float 2 Jul 1997; rupiah ~2,600 → ~15,000; Suharto 21 May 1998) | OK |
+| person-nguyen-du | en.wikipedia Nguyễn Du | OK |
+| ev-canggal-inscription | (dated 732, Mount Wukir; consistent with the Medang search results) | OK |
+| polity-hanthawaddy | en.wikipedia Hanthawaddy kingdom | OK |
+| polity-gowa | en.wikipedia Sultanate of Gowa | OK |
+| ev-trinh-nguyen-war | en.wikipedia Trịnh–Nguyễn War; Vietnamese textbook summary (loigiaihay) | OK (en gives the truce as 1673, Vietnamese sources 1672; kept 1672) |
+| polity-french-indochina (story) | en.wikipedia Phan Bội Châu | **Fixed**: story said Phan Bội Châu "came out of" the colonial schools; he was a classically trained laureate of the 1900 regional exams (en + zh) |
+| place-ayutthaya | (rivers and 1351–1767 span consistent with the Naresuan/Alaungpaya pages) | OK |
+| ev-my-son-sanctuary | en.wikipedia Mỹ Sơn archaeological site | OK (Bhadravarman I, over 70 temples, bombing Aug 1969) |
+| person-alaungpaya | en.wikipedia Alaungpaya | OK |
+| person-ram-khamhaeng | en.wikipedia Ram Khamhaeng | OK (birth year approximate, as the note says) |
+
+**Error rate:** 3 of 20 records (15%) needed a fix: 2 factual (division count, Phan Bội Châu's schooling) and 1 zh rendering inconsistency. Not systematic.
