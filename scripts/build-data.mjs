@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Merge curated data + Wikidata/Commons cache → public/data/atlas.json,
 // and write the auto-diff report (curated value vs Wikidata) to data/verification/.
-//   node scripts/build-data.mjs
+//   node scripts/build-data.mjs              → also fetches pixel sizes for new Commons files
+//   node scripts/build-data.mjs --offline    → never touches the network (unsized images still work)
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -11,6 +12,10 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p, fallback) => (fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : fallback);
 const wd = read(path.join(ROOT, 'data/cache/wikidata.json'), {});
 const commons = read(path.join(ROOT, 'data/cache/commons.json'), {});
+// Original pixel size per Commons file ([width, height]). Kept in its own cache rather than in
+// commons.json, so the shared wd.mjs cache shape (and its re-fetch) is untouched.
+const SIZE_CACHE = path.join(ROOT, 'data/cache/commons-size.json');
+const sizes = read(SIZE_CACHE, {});
 // One resolutions file per dataset (data/verification/resolutions/<dataset>.json) so verifiers never collide.
 const resDir = path.join(ROOT, 'data/verification/resolutions');
 const resolutions = {};
@@ -25,11 +30,62 @@ function km(aLat, aLon, bLat, bLon) {
   return 6371 * 2 * Math.asin(Math.sqrt(d));
 }
 
+/**
+ * Commons' Artist field is flattened HTML. It often repeats itself (a visible name plus a hidden
+ * copy: "Unknown authorUnknown author") or carries boilerplate around the real name.
+ */
+export function cleanArtist(raw) {
+  if (!raw) return null;
+  let s = raw.replace(/&amp;/g, '&').replace(/\[\d+\]/g, '').replace(/\s+/g, ' ').trim();
+  const half = s.length / 2;
+  if (Number.isInteger(half) && s.slice(0, half) === s.slice(half)) s = s.slice(0, half).trim();
+  // A repeated lead-in ("Unknown authorUnknown author Cambridge…"), or a label glued to it ("AnonymousUnknown author").
+  s = s.replace(/^(.{4,40}?)\1(?=\s|$)/, '$1').replace(/^(?:Anonymous|Unknown)\s*(Unknown (?:author|artist))\b/i, '$1');
+  const assumed = /^No machine-readable author provided\.\s*(.+?)\s+assumed\b/i.exec(s);
+  if (assumed) s = assumed[1].replace(/~\w+$/, '');
+  // "Source.png: <author> derivative work: …" names the source file first; "User:" is wiki syntax.
+  s = s.replace(/^[^:]{1,80}\.(?:png|jpe?g|svg|gif|tiff?):\s*/i, '').replace(/^User:\s*/, '').replace(/\s+User:\s*/g, ', ').trim();
+  if (s.length > 60) s = `${s.slice(0, 57).replace(/\s+\S*$/, '')}…`;
+  return s || null;
+}
+
+/** Fill `sizes` for Commons files it lacks, 50 titles per request. Network failure is not fatal. */
+async function fetchSizes(files) {
+  const todo = files.filter((f) => !sizes[f]);
+  if (!todo.length || process.argv.includes('--offline')) return;
+  const UA = 'OrbisAtlas/0.1 (https://github.com/tuye0305/orbis-atlas; open-source historical atlas)';
+  try {
+    for (let i = 0; i < todo.length; i += 50) {
+      const batch = todo.slice(i, i + 50);
+      const url =
+        'https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=size' +
+        `&titles=${encodeURIComponent(batch.map((f) => `File:${f}`).join('|'))}`;
+      const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const norm = new Map((data.query?.normalized ?? []).map((n) => [n.to, n.from]));
+      for (const page of Object.values(data.query?.pages ?? {})) {
+        const ii = page.imageinfo?.[0];
+        const original = (norm.get(page.title) ?? page.title).replace(/^File:/, '');
+        if (ii?.width && ii?.height) sizes[original] = [ii.width, ii.height];
+      }
+    }
+  } catch (e) {
+    console.warn(`commons sizes: ${e.message}; images without a size fall back to measuring on load`);
+  }
+  const sorted = Object.fromEntries(Object.entries(sizes).sort(([a], [b]) => (a < b ? -1 : 1)));
+  fs.writeFileSync(SIZE_CACHE, `${JSON.stringify(sorted, null, 0).replace(/\],"/g, '],\n"')}\n`);
+}
+await fetchSizes(Object.entries(commons).filter(([, c]) => !c.missing).map(([f]) => f));
+
 function image(file) {
   if (!file) return undefined;
   const c = commons[file];
   if (!c || c.missing) return undefined;
-  return { file, thumb: c.thumb, page: c.page, license: c.license, artist: c.artist };
+  // w/h: the original's pixel size, so the card can reserve the frame before the picture loads
+  // and only offer thumbnail widths Commons can actually render (it never upscales).
+  const [w, h] = sizes[file] ?? [];
+  return { file, thumb: c.thumb, page: c.page, license: c.license, artist: cleanArtist(c.artist), ...(w && h ? { w, h } : {}) };
 }
 
 const diffs = [];
