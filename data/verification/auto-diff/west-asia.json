@@ -484,6 +484,400 @@
   }
  },
  {
+  "key": "ev-trajan-parthian-campaign:coord",
+  "id": "ev-trajan-parthian-campaign",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.0936,
+   44.5808
+  ],
+  "wikidata": [
+   34,
+   36
+  ],
+  "qid": "Q3651751",
+  "km": 801,
+  "resolution": null
+ },
+ {
+  "key": "ev-julian-persian-expedition:coord",
+  "id": "ev-julian-persian-expedition",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.0936,
+   44.5808
+  ],
+  "wikidata": [
+   33.7,
+   43.5
+  ],
+  "qid": "Q1229305",
+  "km": 121,
+  "resolution": null
+ },
+ {
+  "key": "ev-marib-dam-collapse:year",
+  "id": "ev-marib-dam-collapse",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 570,
+  "wikidata": 1986,
+  "qid": "Q2303666",
+  "resolution": null
+ },
+ {
+  "key": "ev-ridda-wars:coord",
+  "id": "ev-ridda-wars",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   24.9,
+   46.45
+  ],
+  "wikidata": [
+   23,
+   46
+  ],
+  "qid": "Q1348630",
+  "km": 216,
+  "resolution": null
+ },
+ {
+  "key": "ev-babak-revolt:coord",
+  "id": "ev-babak-revolt",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.83,
+   47.03
+  ],
+  "wikidata": [
+   37.6,
+   47
+  ],
+  "qid": "Q133294500",
+  "km": 137,
+  "resolution": null
+ },
+ {
+  "key": "ev-zanj-rebellion:coord",
+  "id": "ev-zanj-rebellion",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   30.508,
+   47.783
+  ],
+  "wikidata": [
+   31.3189,
+   48.6842
+  ],
+  "qid": "Q759988",
+  "km": 125,
+  "resolution": null
+ },
+ {
+  "key": "ev-ottoman-capture-of-bursa:year",
+  "id": "ev-ottoman-capture-of-bursa",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1326,
+  "wikidata": 1317,
+  "qid": "Q1099263",
+  "resolution": null
+ },
+ {
+  "key": "ev-celali-revolts:year",
+  "id": "ev-celali-revolts",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1595,
+  "wikidata": 1519,
+  "qid": "Q1052771",
+  "resolution": null
+ },
+ {
+  "key": "ev-celali-revolts:endYear",
+  "id": "ev-celali-revolts",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "endYear",
+  "ours": 1610,
+  "wikidata": 1659,
+  "qid": "Q1052771",
+  "resolution": null
+ },
+ {
+  "key": "ev-ottoman-wahhabi-war:coord",
+  "id": "ev-ottoman-wahhabi-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   24.7333,
+   46.5756
+  ],
+  "wikidata": [
+   23,
+   46
+  ],
+  "qid": "Q1809288",
+  "km": 201,
+  "resolution": null
+ },
+ {
+  "key": "ev-mount-lebanon-1860:coord",
+  "id": "ev-mount-lebanon-1860",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.6967,
+   35.5803
+  ],
+  "wikidata": [
+   34.3008,
+   36.1158
+  ],
+  "qid": "Q3772246",
+  "km": 83,
+  "resolution": null
+ },
+ {
+  "key": "ev-hamidian-massacres:coord",
+  "id": "ev-hamidian-massacres",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.33,
+   41.42
+  ],
+  "wikidata": [
+   41,
+   29
+  ],
+  "qid": "Q2092950",
+  "km": 1103,
+  "resolution": null
+ },
+ {
+  "key": "ev-turkish-war-of-independence:year",
+  "id": "ev-turkish-war-of-independence",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1919,
+  "wikidata": 1922,
+  "qid": "Q234738",
+  "resolution": null
+ },
+ {
+  "key": "ev-turkish-war-of-independence:coord",
+  "id": "ev-turkish-war-of-independence",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.9334,
+   32.8597
+  ],
+  "wikidata": [
+   39,
+   35
+  ],
+  "qid": "Q234738",
+  "km": 211,
+  "resolution": null
+ },
+ {
+  "key": "ev-iraqi-revolt-1920:coord",
+  "id": "ev-iraqi-revolt-1920",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.53,
+   45.2
+  ],
+  "wikidata": [
+   33.8333,
+   35.8333
+  ],
+  "qid": "Q616851",
+  "km": 913,
+  "resolution": null
+ },
+ {
+  "key": "ev-1948-arab-israeli-war:coord",
+  "id": "ev-1948-arab-israeli-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.84,
+   34.98
+  ],
+  "wikidata": [
+   29.5,
+   34
+  ],
+  "qid": "Q49092",
+  "km": 277,
+  "resolution": null
+ },
+ {
+  "key": "ev-six-day-war:coord",
+  "id": "ev-six-day-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.7767,
+   35.2342
+  ],
+  "wikidata": [
+   28,
+   45
+  ],
+  "qid": "Q49077",
+  "km": 1030,
+  "resolution": null
+ },
+ {
+  "key": "ev-uae-formed:coord",
+  "id": "ev-uae-formed",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   25.2397,
+   55.2708
+  ],
+  "wikidata": [
+   24.4,
+   54.3
+  ],
+  "qid": "Q878",
+  "km": 135,
+  "resolution": null
+ },
+ {
+  "key": "ev-first-intifada:coord",
+  "id": "ev-first-intifada",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.5314,
+   34.4836
+  ],
+  "wikidata": [
+   32,
+   35.35
+  ],
+  "qid": "Q49105",
+  "km": 97,
+  "resolution": null
+ },
+ {
+  "key": "ev-first-nagorno-karabakh-war:coord",
+  "id": "ev-first-nagorno-karabakh-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.8153,
+   46.7519
+  ],
+  "wikidata": [
+   40.3,
+   47.7
+  ],
+  "qid": "Q381375",
+  "km": 97,
+  "resolution": null
+ },
+ {
+  "key": "ev-yemeni-civil-war:coord",
+  "id": "ev-yemeni-civil-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   15.3694,
+   44.191
+  ],
+  "wikidata": [
+   15.5,
+   48
+  ],
+  "qid": "Q19686631",
+  "km": 409,
+  "resolution": null
+ },
+ {
+  "key": "ev-gaza-war-2023:coord",
+  "id": "ev-gaza-war-2023",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.5017,
+   34.4668
+  ],
+  "wikidata": [
+   34,
+   36
+  ],
+  "qid": "Q122962941",
+  "km": 313,
+  "resolution": null
+ },
+ {
+  "key": "person-al-mutanabbi:born",
+  "id": "person-al-mutanabbi",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 915,
+  "wikidata": 920,
+  "qid": "Q284542",
+  "resolution": null
+ },
+ {
+  "key": "person-hasan-i-sabbah:born",
+  "id": "person-hasan-i-sabbah",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 1050,
+  "wikidata": 1037,
+  "qid": "Q124745907",
+  "resolution": null
+ },
+ {
+  "key": "person-osman-i:died",
+  "id": "person-osman-i",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "died",
+  "ours": 1324,
+  "wikidata": 1326,
+  "qid": "Q83100",
+  "resolution": null
+ },
+ {
   "key": "polity-arsacid-armenia:from",
   "id": "polity-arsacid-armenia",
   "dataset": "west-asia",
@@ -536,5 +930,16 @@
     "M. al-Rasheed, A History of Saudi Arabia (2010)"
    ]
   }
+ },
+ {
+  "key": "polity-first-saudi-state:from",
+  "id": "polity-first-saudi-state",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1727,
+  "wikidata": 1744,
+  "qid": "Q146871",
+  "resolution": null
  }
 ]
