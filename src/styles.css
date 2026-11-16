@@ -71,7 +71,7 @@ kbd {
   width: 6px; height: 6px; transform: rotate(45deg); background: #f1e3c2; box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.6);
 }
 .mk-place i.cap { width: 9px; height: 9px; background: var(--gold); box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.55), 0 0 12px rgba(217, 178, 106, 0.8); }
-.mk-place span { transform: translateX(50%); padding-left: 2px; }
+.mk-place span { position: absolute; left: calc(100% + 4px); top: 50%; transform: translateY(-50%); white-space: nowrap; }
 .mk-place.renamed span { animation: rename 0.9s ease; }
 .mk-place.selected span { color: var(--gold-2); }
 @keyframes rename {
@@ -90,15 +90,18 @@ kbd {
 }
 .mk-event.major b { width: 26px; height: 26px; font-size: 14px; }
 .mk-event span {
-  display: none; font-size: 12px; font-weight: 600; color: #fff; text-shadow: 0 1px 3px #000;
+  display: none; position: absolute; left: calc(100% + 6px); top: 50%; transform: translateY(-50%);
+  font-size: 12px; font-weight: 600; color: #fff; text-shadow: 0 1px 3px #000;
   background: rgba(10, 10, 14, 0.6); padding: 2px 7px; border-radius: 99px; border: 1px solid rgba(255, 255, 255, 0.08);
 }
 .mk-event.now span, .mk-event:hover span, .mk-event.selected span { display: inline-block; }
+.mk-event.quiet span, .mk-person.quiet span { display: none; }
 .mk-event.now b { animation: pulse 2.2s ease-in-out infinite; }
 .mk-event.selected b { outline: 2px solid #fff; outline-offset: 2px; }
 @keyframes pulse { 50% { box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.55), 0 0 26px 6px var(--c); } }
 
-.mk-person { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+.mk-person { display: block; }
+.mk-person span { position: absolute; left: 50%; top: calc(100% + 3px); transform: translateX(-50%); }
 .mk-person img, .mk-person em {
   width: 38px; height: 38px; border-radius: 50%; object-fit: cover; object-position: 50% 20%;
   border: 2px solid var(--gold); box-shadow: 0 4px 14px rgba(0, 0, 0, 0.7), 0 0 0 3px rgba(0, 0, 0, 0.35);

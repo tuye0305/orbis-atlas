@@ -140,6 +140,12 @@ export default function App() {
     setEntered(true);
     engine.current?.intro();
     if (withMusic) useStore.getState().set({ musicOn: true });
+    // A deep-linked selection flies to its target once the intro swing has landed.
+    const { selection, select, year, setYear } = useStore.getState();
+    if (selection) setTimeout(() => {
+      select(selection);
+      if (selection.kind === 'place') setYear(year);
+    }, 3300);
   };
 
   return (

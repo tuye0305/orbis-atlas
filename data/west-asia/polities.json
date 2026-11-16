@@ -132,7 +132,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Arsacid rule was intermittent before 66 CE; reign dates are approximate."
+    "note": "Start date disputed: 12 CE counts the Parthian prince Vonones I; Encyclopaedia Iranica dates the dynasty proper from Tiridates I (installed 52/53, recognised 63, crowned by Nero 66; Wikidata 66). Arsacid rule was intermittent before 66; reign dates are approximate."
   },
   {
     "id": "polity-palmyrene",
@@ -1515,10 +1515,14 @@
       {
         "title": "Wikipedia: Iran",
         "url": "https://en.wikipedia.org/wiki/Iran"
+      },
+      {
+        "title": "Axios: Iranian state media confirms Supreme Leader Khamenei is dead (28 February 2026)",
+        "url": "https://www.axios.com/2026/02/28/iran-khamenei-killed-israel"
       }
     ],
     "confidence": "high",
-    "note": "\"to\" 2025 marks the end of the atlas period. Khamenei's end year (2026) follows Wikidata's date of death."
+    "note": "\"to\" 2025 marks the end of the atlas period. Khamenei's end year 2026: he was killed in a US–Israeli strike on Tehran on 28 February 2026 (confirmed by Iranian state media; AP, Axios)."
   },
   {
     "id": "polity-saudi-arabia",

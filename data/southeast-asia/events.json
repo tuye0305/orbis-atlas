@@ -48,8 +48,8 @@
       "zh": "格杜干武吉碑：室利佛逝兴起"
     },
     "summary": {
-      "en": "This Old Malay inscription found at Palembang records a sacred expedition by Dapunta Hyang with an army of thousands in 683, commonly read as the founding of the Srivijaya polity that soon dominated the Strait of Malacca.",
-      "zh": "在巨港发现的这块古马来语碑铭，记载了683年达本达·希扬率数万大军进行的神圣远征，通常被解读为室利佛逝政权的建立；此后不久它便称霸马六甲海峡。"
+      "en": "This Old Malay inscription found at Palembang records a sacred expedition by Dapunta Hyang with an army of some 20,000 in 683, commonly read as the founding of the Srivijaya polity that soon dominated the Strait of Malacca.",
+      "zh": "在巨港发现的这块古马来语碑铭，记载了683年达本达·希扬率两万大军进行的神圣远征，通常被解读为室利佛逝政权的建立；此后不久它便称霸马六甲海峡。"
     },
     "lat": -2.99,
     "lon": 104.76,
@@ -91,7 +91,7 @@
     "importance": 4,
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Borobudur built",
+        "title": "Encyclopaedia Britannica: Borobudur",
         "url": "https://www.britannica.com/topic/Borobudur"
       },
       {
@@ -128,7 +128,7 @@
     "importance": 3,
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Prambanan temple consecrated",
+        "title": "Encyclopaedia Britannica: Prambanan",
         "url": "https://www.britannica.com/place/Prambanan"
       },
       {
@@ -243,7 +243,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Angkor Wat built",
+        "title": "Encyclopaedia Britannica: Angkor Wat",
         "url": "https://www.britannica.com/topic/Angkor-Wat"
       },
       {
@@ -287,7 +287,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Bayon temple built",
+        "title": "Encyclopaedia Britannica: the Bayon",
         "url": "https://www.britannica.com/topic/the-Bayon"
       },
       {
@@ -590,7 +590,7 @@
     ],
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Founding of the Malacca Sultanate",
+        "title": "Encyclopaedia Britannica: Sultanate of Malacca",
         "url": "https://www.britannica.com/place/sultanate-of-Malacca"
       },
       {
@@ -761,7 +761,7 @@
     "place": "place-manila",
     "sources": [
       {
-        "title": "Encyclopaedia Britannica: Spanish Manila founded",
+        "title": "Encyclopaedia Britannica: Intramuros",
         "url": "https://www.britannica.com/place/Intramuros"
       },
       {
@@ -1221,8 +1221,8 @@
       "zh": "越南战争"
     },
     "summary": {
-      "en": "A war between communist North Vietnam with the southern National Liberation Front and the US-backed South Vietnam. US combat involvement peaked at over 500,000 troops in 1968; after the US withdrawal of 1973, Saigon fell in April 1975 and Vietnam was reunified.",
-      "zh": "以越南北方及南方民族解放阵线为一方、美国支持的南越为另一方的战争。1968年美军在越兵力超过五十万；1973年美军撤出后，西贡于1975年4月陷落，越南实现统一。"
+      "en": "A war between communist North Vietnam with the southern National Liberation Front and the US-backed South Vietnam. US troop strength passed 500,000 in 1968 and peaked at about 543,000 in 1969; after the US withdrawal of 1973, Saigon fell in April 1975 and Vietnam was reunified.",
+      "zh": "以越南北方及南方民族解放阵线为一方、美国支持的南越为另一方的战争。美军在越兵力于1968年超过五十万，1969年达到约54.3万的峰值；1973年美军撤出后，西贡于1975年4月陷落，越南实现统一。"
     },
     "lat": 16.4637,
     "lon": 107.5909,
@@ -1338,7 +1338,8 @@
         "url": "https://en.wikipedia.org/wiki/Vietnam_War"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "Point plotted at Huế, near the former partition line; the war was fought across Vietnam, Laos and Cambodia."
   },
   {
     "id": "ev-gulf-of-tonkin-incident",
@@ -1444,7 +1445,8 @@
         "url": "https://en.wikipedia.org/wiki/Tet_Offensive"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "Point is a generic location in southern South Vietnam; attacks struck more than 100 towns, notably Saigon and Huế."
   },
   {
     "id": "ev-cambodian-genocide",

@@ -739,7 +739,7 @@
         "to": 1204,
         "name": {
           "en": "Trebizond (Trapezous)",
-          "zh": "特拉比宗"
+          "zh": "特拉比松"
         },
         "polity": {
           "en": "Byzantine Empire",
@@ -751,11 +751,11 @@
         "to": 1461,
         "name": {
           "en": "Trebizond",
-          "zh": "特拉比宗"
+          "zh": "特拉比松"
         },
         "polity": {
           "en": "Empire of Trebizond",
-          "zh": "特拉比宗帝国"
+          "zh": "特拉比松帝国"
         },
         "capital": true
       },
@@ -786,7 +786,7 @@
     ],
     "summary": {
       "en": "A Greek colony on the Black Sea, Trapezus was a Roman port and later a Byzantine stronghold. From 1204 it was capital of the Komnenian Empire of Trebizond, the last Byzantine successor state, until Mehmed II took it in 1461.",
-      "zh": "黑海沿岸的希腊殖民城市特拉佩祖斯，曾为罗马港口和拜占庭要塞。1204年起为科穆宁家族特拉比宗帝国的首都，这是最后一个拜占庭继承国，1461年被穆罕默德二世攻占。"
+      "zh": "黑海沿岸的希腊殖民城市特拉佩祖斯，曾为罗马港口和拜占庭要塞。1204年起为科穆宁家族特拉比松帝国的首都，这是最后一个拜占庭继承国，1461年被穆罕默德二世攻占。"
     },
     "sources": [
       {
@@ -825,8 +825,7 @@
         "polity": {
           "en": "Roman Empire (capital of Syria)",
           "zh": "罗马帝国（叙利亚行省首府）"
-        },
-        "capital": true
+        }
       },
       {
         "from": 395,
@@ -1978,7 +1977,7 @@
       },
       {
         "from": 1265,
-        "to": 1335,
+        "to": 1313,
         "name": {
           "en": "Tabriz",
           "zh": "大不里士"
@@ -1988,6 +1987,18 @@
           "zh": "伊利汗国"
         },
         "capital": true
+      },
+      {
+        "from": 1313,
+        "to": 1335,
+        "name": {
+          "en": "Tabriz",
+          "zh": "大不里士"
+        },
+        "polity": {
+          "en": "Ilkhanate",
+          "zh": "伊利汗国"
+        }
       },
       {
         "from": 1335,
@@ -2055,9 +2066,13 @@
       {
         "title": "Wikipedia: Tabriz",
         "url": "https://en.wikipedia.org/wiki/Tabriz"
+      },
+      {
+        "title": "Leiden University, Iran–Turan: Sultaniyya (dedicated as Ilkhanid capital 1313)",
+        "url": "https://iranturan.leiden.edu/cities/sultaniyya/"
       }
     ],
     "confidence": "medium",
-    "note": "The Safavid move to Qazvin is dated 1548–1555; Ottoman occupations (e.g. 1585–1603) are not shown."
+    "note": "The Safavid move to Qazvin is dated 1548–1555; Ottoman occupations (e.g. 1585–1603) are not shown. Ilkhanid capital until Öljeitü made Soltaniyeh the capital (dedicated 1313)."
   }
 ]

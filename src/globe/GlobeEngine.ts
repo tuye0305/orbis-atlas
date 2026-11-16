@@ -201,6 +201,9 @@ export class GlobeEngine {
   flyTo(lat: number, lon: number, altitude = 1.4, duration?: number, ease = 'power2.inOut') {
     this.flying?.kill();
     this.lastInteraction = performance.now();
+    // Portrait screens have a narrow horizontal field of view: pull back so the region fits.
+    const aspect = this.camera.aspect;
+    if (aspect < 1) altitude *= 1 + (1 - aspect) * 1.2;
     const from = this.camera.position.clone();
     const fromLen = from.length();
     const fromAlt = fromLen / R - 1;
@@ -577,7 +580,7 @@ export class GlobeEngine {
     const time = this.clock.elapsedTime;
     if (!this.flying) {
       // Gentle drift when idle, like a slowly turning library globe.
-      if (performance.now() - this.lastInteraction > 25000) {
+      if (!this.state?.selection && performance.now() - this.lastInteraction > 40000) {
         this.camera.position.applyAxisAngle(new THREE.Vector3(0, 1, 0), dt * 0.035);
       }
       this.controls.rotateSpeed = THREE.MathUtils.clamp((this.camera.position.length() / R - 1) * 0.35, 0.08, 0.6);
@@ -594,8 +597,12 @@ export class GlobeEngine {
     this.renderer.render(this.scene, this.camera);
     this.layoutOverlay();
 
-    if (this.frame++ % 10 === 0) this.trackRegion();
-    if (this.frame === 2) this.cb.onReady();
+    const now = performance.now();
+    if (now - this.lastTrack > 150) {
+      this.lastTrack = now;
+      this.trackRegion();
+    }
+    if (++this.frame === 2) this.cb.onReady();
   };
 
   private trackRegion() {
@@ -615,6 +622,7 @@ export class GlobeEngine {
     }
   }
   private altBand = -1;
+  private lastTrack = 0;
 
   private layoutOverlay() {
     const w = this.container.clientWidth;
@@ -638,7 +646,27 @@ export class GlobeEngine {
       const x = (v.x * 0.5 + 0.5) * w;
       const y = (-v.y * 0.5 + 0.5) * h;
       let show = true;
-      if (m.collides && m.w) {
+      if (m.kind === 'event' || m.kind === 'person') {
+        // The icon always shows; its text label yields to anything already placed.
+        placed.push([x - 13, y - 13, x + 13, y + 13]);
+        const label = m.el.querySelector('span');
+        const text = label?.textContent ?? '';
+        const tw = [...text].reduce((a, ch) => a + (ch.charCodeAt(0) > 0x2e80 ? 12.5 : 6.8), 0) + 14;
+        const box: [number, number, number, number] =
+          m.kind === 'event' ? [x + 15, y - 10, x + 15 + tw, y + 10] : [x - tw / 2, y + 20, x + tw / 2, y + 36];
+        const wantsText = m.kind === 'person' || m.el.matches('.now, .selected, :hover');
+        let free = true;
+        if (wantsText) {
+          for (const p of placed) {
+            if (box[0] < p[2] && box[2] > p[0] && box[1] < p[3] && box[3] > p[1]) {
+              free = false;
+              break;
+            }
+          }
+          if (free) placed.push(box);
+        }
+        m.el.classList.toggle('quiet', !free && !m.el.matches('.selected, :hover'));
+      } else if (m.collides && m.w) {
         const box: [number, number, number, number] = [x - m.w / 2 - 2, y - m.h / 2 - 2, x + m.w / 2 + 2, y + m.h / 2 + 2];
         for (const p of placed) {
           if (box[0] < p[2] && box[2] > p[0] && box[1] < p[3] && box[3] > p[1]) {

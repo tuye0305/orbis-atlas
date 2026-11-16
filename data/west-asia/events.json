@@ -64,7 +64,8 @@
         "url": "https://en.wikipedia.org/wiki/Bar_Kokhba_Revolt"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "Plotted at Betar (modern Battir), the revolt's last stronghold, taken in 135/136."
   },
   {
     "id": "ev-battle-of-hormozdgan",
@@ -467,7 +468,7 @@
     "year": 630,
     "name": {
       "en": "Conquest of Mecca",
-      "zh": "光复麦加"
+      "zh": "征服麦加"
     },
     "summary": {
       "en": "Muhammad entered Mecca with a large army almost without bloodshed. The idols around the Kaaba were removed and most of the Quraysh accepted Islam, making Mecca the religious centre of the new faith.",
@@ -948,7 +949,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Open revolt began 9 June 747 (25 Ramadan 129 AH); Wikidata gives 746."
+    "note": "Open revolt began 9 June 747 (25 Ramadan 129 AH); Wikidata gives 746. Point placed at Kufa, where al-Saffah was proclaimed caliph in 749; the revolt itself began near Merv (first route stop)."
   },
   {
     "id": "ev-founding-of-baghdad",
@@ -1138,7 +1139,7 @@
     "confidence": "high"
   },
   {
-    "id": "ev-first-crusade",
+    "id": "ev-first-crusade-levant",
     "qid": "Q51649",
     "type": "war",
     "year": 1096,
@@ -1639,7 +1640,7 @@
     },
     "summary": {
       "en": "Mehmed II besieged Trebizond, capital of the last Byzantine successor state, and Emperor David Komnenos surrendered in August 1461. Its fall ended the Empire of Trebizond, founded in 1204, and the last Byzantine rule in Anatolia.",
-      "zh": "穆罕默德二世围攻最后一个拜占庭继承国的首都特拉布宗，皇帝大卫·科穆宁于1461年8月投降。特拉布宗帝国（建于1204年）随之灭亡，拜占庭在安纳托利亚的统治宣告终结。"
+      "zh": "穆罕默德二世围攻最后一个拜占庭继承国的首都特拉布宗，皇帝大卫·科穆宁于1461年8月投降。特拉比松帝国（建于1204年）随之灭亡，拜占庭在安纳托利亚的统治宣告终结。"
     },
     "lat": 41.005,
     "lon": 39.73,
@@ -2462,7 +2463,6 @@
     "lon": 34.7709,
     "region": "west-asia",
     "importance": 5,
-    "place": "place-jerusalem",
     "sources": [
       {
         "title": "Encyclopaedia Britannica: Israel",
@@ -2731,7 +2731,8 @@
         "url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
       }
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "note": "Point is a generic location in central Syria; the conflict was country-wide."
   },
   {
     "id": "ev-2023-earthquake",

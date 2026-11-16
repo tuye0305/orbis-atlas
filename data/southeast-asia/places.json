@@ -454,7 +454,7 @@
         "to": 1932,
         "name": {
           "en": "Krung Thep (Bangkok)",
-          "zh": "军贴（曼谷）"
+          "zh": "恭贴（曼谷）"
         },
         "polity": {
           "en": "Rattanakosin Kingdom (Siam)",
@@ -467,7 +467,7 @@
         "to": null,
         "name": {
           "en": "Bangkok (Krung Thep Maha Nakhon)",
-          "zh": "曼谷（军贴玛哈那空）"
+          "zh": "曼谷（恭贴玛哈那空）"
         },
         "polity": {
           "en": "Thailand",
@@ -550,6 +550,31 @@
       },
       {
         "from": 1946,
+        "to": 1948,
+        "name": {
+          "en": "Manila",
+          "zh": "马尼拉"
+        },
+        "polity": {
+          "en": "Philippines",
+          "zh": "菲律宾"
+        },
+        "capital": true
+      },
+      {
+        "from": 1948,
+        "to": 1976,
+        "name": {
+          "en": "Manila",
+          "zh": "马尼拉"
+        },
+        "polity": {
+          "en": "Philippines (Quezon City the official capital)",
+          "zh": "菲律宾（法定首都为奎松城）"
+        }
+      },
+      {
+        "from": 1976,
         "to": null,
         "name": {
           "en": "Manila",
@@ -563,8 +588,8 @@
       }
     ],
     "summary": {
-      "en": "A fortified Muslim trading settlement on Manila Bay, Maynila was taken by Legazpi, who founded the Spanish city in 1571. It was the hub of the trans-Pacific galleon trade and has remained the Philippine capital.",
-      "zh": "马尼拉湾畔设防的穆斯林贸易聚落，被黎牙实比攻取后于1571年建立西班牙城市。这里是跨太平洋大帆船贸易的枢纽，并一直是菲律宾的首都。"
+      "en": "A fortified Muslim trading settlement on Manila Bay, Maynila was taken by Legazpi, who founded the Spanish city in 1571. It was the hub of the trans-Pacific galleon trade and has been the Philippine capital except in 1948–1976, when Quezon City held the title.",
+      "zh": "马尼拉湾畔设防的穆斯林贸易聚落，被黎牙实比攻取后于1571年建立西班牙城市。这里是跨太平洋大帆船贸易的枢纽，除1948—1976年奎松城为法定首都外，一直是菲律宾首都。"
     },
     "sources": [
       {
@@ -576,10 +601,14 @@
       {
         "title": "Wikipedia: Manila",
         "url": "https://en.wikipedia.org/wiki/Manila"
+      },
+      {
+        "title": "Philippine News Agency/PTV: How QC became biggest LGU in Metro Manila (RA 333 of 1948; PD 940 of 1976)",
+        "url": "https://ptvnews.ph/qc-became-biggest-lgu-metro-manila/"
       }
     ],
     "confidence": "medium",
-    "note": "The pre-Hispanic polity's origins are not precisely dated."
+    "note": "The pre-Hispanic polity's origins are not precisely dated. Republic Act 333 (1948) made Quezon City the capital; Presidential Decree 940 (1976) restored Manila."
   },
   {
     "id": "place-malacca",
@@ -649,8 +678,8 @@
           "zh": "马六甲"
         },
         "polity": {
-          "en": "Malaysia",
-          "zh": "马来西亚"
+          "en": "Federation of Malaya; Malaysia from 1963",
+          "zh": "马来亚联合邦；1963年起为马来西亚"
         }
       }
     ],

@@ -1,0 +1,2472 @@
+[
+  {
+    "region": "africa",
+    "id": "ev-ezana-adopts-christianity",
+    "qid": "Q2068595",
+    "type": "religious",
+    "year": 330,
+    "name": {
+      "en": "Ezana of Aksum adopts Christianity",
+      "zh": "阿克苏姆国王埃扎纳皈依基督教"
+    },
+    "summary": {
+      "en": "Instructed by the Syrian captive Frumentius, later consecrated bishop by Athanasius of Alexandria, King Ezana embraced Christianity. His later stone inscriptions and coins replace the disc-and-crescent with the cross, making Aksum one of the first states to adopt the faith officially.",
+      "zh": "国王埃扎纳受叙利亚俘虏弗鲁门修斯（后由亚历山大城的亚他那修祝圣为主教）影响皈依基督教。其后期石刻铭文与钱币以十字架取代日月纹，使阿克苏姆成为最早正式接受基督教的国家之一。"
+    },
+    "lat": 14.1379,
+    "lon": 38.7229,
+    "importance": 4,
+    "people": [
+      "person-ezana"
+    ],
+    "polities": [
+      "polity-aksum"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Ezana Stone",
+        "url": "https://en.wikipedia.org/wiki/Ezana_Stone"
+      },
+      {
+        "title": "S. Munro-Hay, Aksum: An African Civilisation of Late Antiquity (1991)"
+      },
+      {
+        "title": "Rufinus of Aquileia, Ecclesiastical History, X.9–10 (account of Frumentius)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Aksum",
+        "url": "https://whc.unesco.org/en/list/15"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Conversion is dated only approximately (c. 330s–350s). QID is the Ezana Stone, the inscription that records it; Wikidata dates the stone only to the 4th century."
+  },
+  {
+    "region": "africa",
+    "id": "ev-vandals-capture-carthage",
+    "type": "fall",
+    "year": 439,
+    "date": "0439-10-19",
+    "name": {
+      "en": "Vandals capture Carthage",
+      "zh": "汪达尔人攻占迦太基"
+    },
+    "summary": {
+      "en": "Geiseric’s Vandals and Alans, who had crossed from Spain in 429, seized Carthage by surprise, breaking a treaty with Rome. The city became capital of a Vandal kingdom whose fleet dominated the western Mediterranean and sacked Rome in 455.",
+      "zh": "429年自西班牙渡海的盖萨里克所率汪达尔人与阿兰人突袭攻占迦太基，撕毁了与罗马的条约。迦太基成为汪达尔王国都城，其舰队称霸西地中海，并于455年洗劫罗马。"
+    },
+    "lat": 36.8526,
+    "lon": 10.3235,
+    "importance": 4,
+    "place": "place-carthage",
+    "sources": [
+      {
+        "title": "Wikipedia: Vandal Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Vandal_Kingdom"
+      },
+      {
+        "title": "Victor of Vita, History of the Vandal Persecution (c. 484)"
+      },
+      {
+        "title": "Procopius, History of the Wars, Book III"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-arab-conquest-of-egypt",
+    "qid": "Q317519",
+    "type": "war",
+    "year": 639,
+    "endYear": 642,
+    "name": {
+      "en": "Arab conquest of Egypt",
+      "zh": "阿拉伯人征服埃及"
+    },
+    "summary": {
+      "en": "An army of the Rashidun Caliphate under ʿAmr ibn al-ʿAs entered Egypt in 639, took the Byzantine fortress of Babylon in 641 and received Alexandria by treaty, ending nearly a millennium of Greco-Roman rule. The new garrison town of Fustat became the seat of Islamic Egypt.",
+      "zh": "639年，阿慕尔·伊本·阿斯率正统哈里发国军队进入埃及，641年攻克拜占庭的巴比伦要塞，并以条约接收亚历山大港，结束了近千年的希腊—罗马统治。新建的军镇福斯塔特成为伊斯兰埃及的治所。"
+    },
+    "lat": 30.0061,
+    "lon": 31.2297,
+    "importance": 5,
+    "place": "place-cairo",
+    "sources": [
+      {
+        "title": "Wikipedia: Arab conquest of Egypt",
+        "url": "https://en.wikipedia.org/wiki/Arab_conquest_of_Egypt"
+      },
+      {
+        "title": "Hugh Kennedy, The Great Arab Conquests (2007)"
+      },
+      {
+        "title": "John of Nikiu, Chronicle (late 7th century)"
+      },
+      {
+        "title": "Ibn ʿAbd al-Hakam, Futuh Misr (9th century)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-baqt-treaty",
+    "qid": "Q1283007",
+    "type": "treaty",
+    "year": 652,
+    "name": {
+      "en": "Baqt treaty between Makuria and Muslim Egypt",
+      "zh": "马库里亚与穆斯林埃及的巴克特条约"
+    },
+    "summary": {
+      "en": "After Nubian archers repulsed an Arab siege of Dongola, King Qalidurut of Makuria and ʿAbdallah ibn Saʿd agreed the Baqt, an exchange of goods and non-aggression pact. It kept Christian Nubia independent for some six centuries, an exceptional arrangement in early Islamic history.",
+      "zh": "努比亚弓箭手击退阿拉伯军队对栋古拉的围攻后，马库里亚国王卡利杜鲁特与阿卜杜拉·伊本·赛义德订立巴克特条约，约定互换物资、互不侵犯。该条约使基督教努比亚保持独立约六百年，在早期伊斯兰史上极为罕见。"
+    },
+    "lat": 18.2231,
+    "lon": 30.7439,
+    "importance": 3,
+    "polities": [
+      "polity-makuria"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Baqt",
+        "url": "https://en.wikipedia.org/wiki/Baqt"
+      },
+      {
+        "title": "Derek A. Welsby, The Medieval Kingdoms of Nubia (2002)"
+      },
+      {
+        "title": "al-Maqrizi, al-Khitat (15th century; preserves the treaty terms)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. III: Africa from the Seventh to the Eleventh Century (ed. M. El Fasi & I. Hrbek, 1988)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Traditionally dated 651/652 (AH 31); Wikidata gives only a century. The original text survives only in later Arabic authors."
+  },
+  {
+    "region": "africa",
+    "id": "ev-muslim-conquest-of-the-maghreb",
+    "qid": "Q925960",
+    "type": "war",
+    "year": 647,
+    "endYear": 709,
+    "name": {
+      "en": "Muslim conquest of the Maghreb",
+      "zh": "穆斯林征服马格里布"
+    },
+    "summary": {
+      "en": "Over six decades Arab armies advanced from Egypt across North Africa against Byzantine garrisons and fierce Amazigh (Berber) resistance led by Kusayla and Queen Dihya (al-Kahina). Kairouan became the base, Carthage fell in 698, and by 709 the conquest reached the Atlantic, preparing the invasion of Iberia.",
+      "zh": "六十余年间，阿拉伯军队自埃及向西推进，对抗拜占庭守军及由库赛拉和女王狄希雅（卡希娜）领导的阿马齐格（柏柏尔）人顽强抵抗。凯鲁万成为大本营，迦太基于698年陷落，至709年征服推进至大西洋沿岸，为进军伊比利亚铺路。"
+    },
+    "lat": 35.6781,
+    "lon": 10.0963,
+    "importance": 4,
+    "route": [
+      {
+        "year": 647,
+        "lat": 35.2404,
+        "lon": 9.1203,
+        "label": {
+          "en": "Battle of Sufetula: Exarch Gregory defeated",
+          "zh": "苏费图拉之战：总督格列高利战败"
+        }
+      },
+      {
+        "year": 670,
+        "lat": 35.6781,
+        "lon": 10.0963,
+        "label": {
+          "en": "ʿUqba ibn Nafiʿ founds Kairouan",
+          "zh": "欧格白·伊本·纳菲建凯鲁万"
+        }
+      },
+      {
+        "year": 682,
+        "lat": 34.85,
+        "lon": 5.73,
+        "label": {
+          "en": "ʿUqba killed near Vescera (Biskra) by Kusayla",
+          "zh": "欧格白在韦斯凯拉（比斯克拉）附近为库赛拉所杀"
+        }
+      },
+      {
+        "year": 698,
+        "lat": 36.8526,
+        "lon": 10.3235,
+        "label": {
+          "en": "Hassan ibn al-Nuʿman takes Carthage",
+          "zh": "哈桑·伊本·努曼攻占迦太基"
+        }
+      },
+      {
+        "year": 701,
+        "lat": 35.3,
+        "lon": 6.6,
+        "label": {
+          "en": "Queen Dihya defeated in the Aurès (c. 698–703)",
+          "zh": "女王狄希雅在奥雷斯山区战败（约698–703年）"
+        }
+      },
+      {
+        "year": 709,
+        "lat": 35.7595,
+        "lon": -5.834,
+        "label": {
+          "en": "Musa ibn Nusayr reaches Tangier",
+          "zh": "穆萨·伊本·努赛尔抵达丹吉尔"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Muslim conquest of the Maghreb",
+        "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Maghreb"
+      },
+      {
+        "title": "Hugh Kennedy, The Great Arab Conquests (2007)"
+      },
+      {
+        "title": "Ibn ʿAbd al-Hakam, Futuh Misr wa'l-Maghrib (9th century)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. III: Africa from the Seventh to the Eleventh Century (ed. M. El Fasi & I. Hrbek, 1988)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Dates of individual episodes (especially Dihya’s defeat) vary by source; route points are approximate."
+  },
+  {
+    "region": "africa",
+    "id": "ev-founding-of-al-qarawiyyin",
+    "qid": "Q378014",
+    "type": "cultural",
+    "year": 859,
+    "name": {
+      "en": "Founding of al-Qarawiyyin in Fez",
+      "zh": "非斯卡拉维因清真寺（大学）创建"
+    },
+    "summary": {
+      "en": "Fatima al-Fihri, daughter of a merchant from Kairouan, endowed a mosque in Fez that grew into a major centre of Maliki law, theology and science. Al-Qarawiyyin is often cited as the oldest continuously operating institution of higher learning in the world.",
+      "zh": "来自凯鲁万的商人之女法蒂玛·菲赫里在非斯捐建清真寺，后发展为马利克派法学、神学与科学的重要中心。卡拉维因常被视为世界上持续办学最久的高等学府。"
+    },
+    "lat": 34.0644,
+    "lon": -4.9733,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: University of al-Qarawiyyin",
+        "url": "https://en.wikipedia.org/wiki/University_of_al-Qarawiyyin"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Medina of Fez",
+        "url": "https://whc.unesco.org/en/list/170"
+      },
+      {
+        "title": "Ibn Abi Zarʿ, Rawd al-Qirtas (c. 1326)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 859 date and Fatima al-Fihri’s role rest on 14th-century chronicles."
+  },
+  {
+    "region": "africa",
+    "id": "ev-founding-of-kilwa-sultanate",
+    "qid": "Q3107156",
+    "type": "founding",
+    "year": 957,
+    "name": {
+      "en": "Founding of the Kilwa Sultanate",
+      "zh": "基尔瓦苏丹国建立"
+    },
+    "summary": {
+      "en": "According to the Kilwa Chronicle, ʿAli ibn al-Hassan, a “Shirazi” prince, acquired the island of Kilwa Kisiwani. The Swahili city-state grew rich controlling the gold trade from Sofala and Great Zimbabwe and minted its own coins.",
+      "zh": "据《基尔瓦编年史》，“设拉子”王子阿里·伊本·哈桑取得基尔瓦基西瓦尼岛。这一斯瓦希里城邦借控制来自索法拉和大津巴布韦的黄金贸易而致富，并自铸钱币。"
+    },
+    "lat": -8.9578,
+    "lon": 39.5228,
+    "importance": 3,
+    "place": "place-kilwa-kisiwani",
+    "polities": [
+      "polity-kilwa-sultanate"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Kilwa Sultanate",
+        "url": "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
+      },
+      {
+        "title": "Kilwa Chronicle (Kitab al-Sulwa fi akhbar Kilwa, 16th century)"
+      },
+      {
+        "title": "H. Neville Chittick, Kilwa: An Islamic Trading City on the East African Coast (1974)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+        "url": "https://whc.unesco.org/en/list/144"
+      }
+    ],
+    "confidence": "low",
+    "note": "The 10th-century date is traditional; archaeology suggests the Shirazi dynasty emerged c. 1000–1100."
+  },
+  {
+    "region": "africa",
+    "id": "ev-founding-of-cairo",
+    "qid": "Q85",
+    "type": "founding",
+    "year": 969,
+    "date": "0969-07-06",
+    "name": {
+      "en": "Fatimids found al-Qahira (Cairo)",
+      "zh": "法蒂玛王朝建立开罗"
+    },
+    "summary": {
+      "en": "After conquering Egypt, the Fatimid general Jawhar al-Siqilli laid out a walled palace city north of Fustat named al-Qahira, “the Victorious”. Caliph al-Muʿizz moved his court there in 973, and Cairo became the capital of a Shiʿi empire rivalling Abbasid Baghdad.",
+      "zh": "法蒂玛王朝将领昭海尔·西西里征服埃及后，在福斯塔特以北修建城墙环绕的宫城，名为“卡希拉”（胜利者）。973年哈里发穆伊兹迁都于此，开罗成为与阿拔斯王朝巴格达相抗衡的什叶派帝国首都。"
+    },
+    "lat": 30.0444,
+    "lon": 31.2358,
+    "importance": 5,
+    "place": "place-cairo",
+    "polities": [
+      "polity-fatimid-caliphate"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Cairo",
+        "url": "https://en.wikipedia.org/wiki/Cairo"
+      },
+      {
+        "title": "Michael Brett, The Fatimid Empire (2017)"
+      },
+      {
+        "title": "al-Maqrizi, al-Mawaʿiz wa al-Iʿtibar (al-Khitat), 15th century"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Historic Cairo",
+        "url": "https://whc.unesco.org/en/list/89"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-founding-of-al-azhar",
+    "qid": "Q312342",
+    "type": "cultural",
+    "year": 970,
+    "endYear": 972,
+    "name": {
+      "en": "Founding of al-Azhar Mosque",
+      "zh": "爱资哈尔清真寺创建"
+    },
+    "summary": {
+      "en": "Built by the Fatimids in their new capital and first used for prayer in 972, al-Azhar became a teaching mosque. After the Ayyubids restored Sunnism it evolved into the leading centre of Sunni learning, and it remains one of the world’s oldest universities.",
+      "zh": "法蒂玛王朝在新都修建爱资哈尔清真寺，972年首次举行礼拜，随后成为讲学之所。阿尤布王朝恢复逊尼派后，它发展为逊尼派最重要的学术中心，至今仍是世界上最古老的大学之一。"
+    },
+    "lat": 30.0457,
+    "lon": 31.2627,
+    "importance": 3,
+    "place": "place-cairo",
+    "polities": [
+      "polity-fatimid-caliphate"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Al-Azhar Mosque",
+        "url": "https://en.wikipedia.org/wiki/Al-Azhar_Mosque"
+      },
+      {
+        "title": "Britannica: al-Azhar University"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Historic Cairo",
+        "url": "https://whc.unesco.org/en/list/89"
+      }
+    ],
+    "confidence": "high",
+    "note": "Built 970–972 (Wikidata gives 971 for inception)."
+  },
+  {
+    "region": "africa",
+    "id": "ev-founding-of-marrakesh",
+    "qid": "Q101625",
+    "type": "founding",
+    "year": 1070,
+    "name": {
+      "en": "Almoravids found Marrakesh",
+      "zh": "穆拉比特王朝建立马拉喀什"
+    },
+    "summary": {
+      "en": "The Saharan Almoravid movement established Marrakesh as a fortified camp below the High Atlas, and Yusuf ibn Tashfin made it the capital of an empire stretching from Senegal to al-Andalus. The city later served the Almohads and Saadians as capital.",
+      "zh": "来自撒哈拉的穆拉比特运动在阿特拉斯山脚建起马拉喀什营地，优素福·伊本·塔什芬以之为帝国首都，疆域从塞内加尔延伸至安达卢斯。此后穆瓦希德王朝和萨阿德王朝也定都于此。"
+    },
+    "lat": 31.6295,
+    "lon": -7.9811,
+    "importance": 3,
+    "people": [
+      "person-yusuf-ibn-tashfin"
+    ],
+    "polities": [
+      "polity-almoravid"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Marrakesh",
+        "url": "https://en.wikipedia.org/wiki/Marrakesh"
+      },
+      {
+        "title": "Amira K. Bennison, The Almoravid and Almohad Empires (2016)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Medina of Marrakesh",
+        "url": "https://whc.unesco.org/en/list/331"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Sources give 1062–1070 for the foundation; Wikidata gives 1065. 1070 follows Bennison and Britannica."
+  },
+  {
+    "region": "africa",
+    "id": "ev-mapungubwe-kingdom",
+    "qid": "Q98085401",
+    "type": "founding",
+    "year": 1075,
+    "endYear": 1220,
+    "name": {
+      "en": "Kingdom of Mapungubwe",
+      "zh": "马蓬古布韦王国"
+    },
+    "summary": {
+      "en": "At the Shashe–Limpopo confluence, Mapungubwe became southern Africa’s first class-stratified state, trading gold and ivory to the Indian Ocean for glass beads. Its elite hilltop burials, including the famous gold rhinoceros, precede the rise of Great Zimbabwe.",
+      "zh": "马蓬古布韦位于沙谢河与林波波河交汇处，是南部非洲首个阶层分化的国家，以黄金、象牙与印度洋贸易换取玻璃珠。其山顶精英墓葬（包括著名的金犀牛）早于大津巴布韦的兴起。"
+    },
+    "lat": -22.1925,
+    "lon": 29.2389,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: Kingdom of Mapungubwe",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Mapungubwe"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Mapungubwe Cultural Landscape",
+        "url": "https://whc.unesco.org/en/list/1099"
+      },
+      {
+        "title": "Thomas N. Huffman, Mapungubwe: Ancient African Civilisation on the Limpopo (2005)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Dates are archaeological (radiocarbon) estimates."
+  },
+  {
+    "region": "africa",
+    "id": "ev-rock-hewn-churches-of-lalibela",
+    "qid": "Q642979",
+    "type": "religious",
+    "year": 1200,
+    "name": {
+      "en": "Rock-hewn churches of Lalibela",
+      "zh": "拉利贝拉岩石教堂"
+    },
+    "summary": {
+      "en": "Eleven monolithic churches were carved down into volcanic rock at Roha, the Zagwe capital, traditionally under King Gebre Mesqel Lalibela as a “New Jerusalem”. They remain an active Ethiopian Orthodox pilgrimage centre.",
+      "zh": "扎格维王朝都城罗哈的十一座独石教堂由火山岩向下凿成，传统上认为是国王盖布雷·梅斯克尔·拉利贝拉为建造“新耶路撒冷”而修。至今仍是埃塞俄比亚正教的朝圣中心。"
+    },
+    "lat": 12.0294,
+    "lon": 39.0404,
+    "importance": 4,
+    "polities": [
+      "polity-zagwe"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Rock-Hewn Churches, Lalibela",
+        "url": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Rock-Hewn Churches, Lalibela",
+        "url": "https://whc.unesco.org/en/list/18"
+      },
+      {
+        "title": "David W. Phillipson, Ancient Churches of Ethiopia (2009)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Attributed to Lalibela’s reign (c. 1181–1221); Phillipson argues some churches are older. Wikidata dates the complex to the 13th century."
+  },
+  {
+    "region": "africa",
+    "id": "ev-great-zimbabwe",
+    "qid": "Q209217",
+    "type": "founding",
+    "year": 1220,
+    "endYear": 1450,
+    "name": {
+      "en": "Great Zimbabwe at its height",
+      "zh": "大津巴布韦鼎盛时期"
+    },
+    "summary": {
+      "en": "The Shona-speaking capital of the Kingdom of Zimbabwe built the largest dry-stone structures in sub-Saharan Africa, including the Great Enclosure. Wealth from cattle and gold exported via Sofala and Kilwa sustained perhaps 10,000–18,000 people before the site declined in the 15th century.",
+      "zh": "说绍纳语的津巴布韦王国都城修建了撒哈拉以南非洲最大的干砌石构建筑群，包括“大围场”。牛群与经索法拉、基尔瓦出口的黄金带来财富，城中人口或达一万至一万八千人，15世纪后衰落。"
+    },
+    "lat": -20.27,
+    "lon": 30.933,
+    "importance": 4,
+    "polities": [
+      "polity-kingdom-of-zimbabwe"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Great Zimbabwe",
+        "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Great Zimbabwe National Monument",
+        "url": "https://whc.unesco.org/en/list/364"
+      },
+      {
+        "title": "Innocent Pikirayi, The Zimbabwe Culture: Origins and Decline of Southern Zambezian States (2001)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Chronology from archaeology; population estimates vary widely."
+  },
+  {
+    "region": "africa",
+    "id": "ev-battle-of-kirina",
+    "qid": "Q1319855",
+    "type": "battle",
+    "year": 1235,
+    "name": {
+      "en": "Battle of Kirina",
+      "zh": "基里纳战役"
+    },
+    "summary": {
+      "en": "Sundiata Keita, leading a coalition of Mande clans, defeated the Sosso king Sumanguru Kanté. The victory, celebrated in the griots’ Sunjata epic, founded the Mali Empire, whose constitution tradition ascribes to the assembly at Kurukan Fuga.",
+      "zh": "松迪亚塔·凯塔率曼丁各氏族联盟击败索索国王苏曼古鲁·坎特。这一胜利为格里奥传唱的《松迪亚塔史诗》所颂扬，奠定了马里帝国，传统认为其制度确立于库鲁坎富加大会。"
+    },
+    "lat": 12.3064,
+    "lon": -8.1517,
+    "importance": 4,
+    "people": [
+      "person-sundiata-keita"
+    ],
+    "polities": [
+      "polity-mali-empire"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Battle of Kirina",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kirina"
+      },
+      {
+        "title": "D. T. Niane, Sundiata: An Epic of Old Mali (trans. G. D. Pickett, 1965)"
+      },
+      {
+        "title": "Ibn Khaldun, Kitab al-ʿIbar (in Levtzion & Hopkins, Corpus)"
+      },
+      {
+        "title": "Nehemia Levtzion, Ancient Ghana and Mali (1973)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Known mainly from oral tradition; c. 1235 is the conventional date."
+  },
+  {
+    "region": "africa",
+    "id": "ev-kebra-nagast",
+    "qid": "Q1123371",
+    "type": "cultural",
+    "year": 1320,
+    "name": {
+      "en": "Compilation of the Kebra Nagast",
+      "zh": "《列王的荣耀》编成"
+    },
+    "summary": {
+      "en": "The Geʿez “Glory of the Kings”, compiled under the early Solomonic dynasty, tells how Menelik I, son of Solomon and the Queen of Sheba, brought the Ark of the Covenant to Aksum. It became Ethiopia’s national epic and the ideological charter of Solomonic kingship.",
+      "zh": "吉兹语《列王的荣耀》编成于所罗门王朝初期，讲述所罗门与示巴女王之子孟尼利克一世将约柜带到阿克苏姆的故事。它成为埃塞俄比亚的民族史诗和所罗门王朝君权的意识形态依据。"
+    },
+    "lat": 14.1167,
+    "lon": 38.7333,
+    "importance": 3,
+    "polities": [
+      "polity-ethiopian-empire"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Kebra Nagast",
+        "url": "https://en.wikipedia.org/wiki/Kebra_Nagast"
+      },
+      {
+        "title": "E. A. Wallis Budge (trans.), The Queen of Sheba and Her Only Son Menyelek (Kebra Nagast) (1922)"
+      },
+      {
+        "title": "Britannica: Kebra Nagast"
+      },
+      {
+        "title": "Richard Pankhurst, The Ethiopians: A History (1998)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The colophon names Yeshaq of Aksum and implies c. 1314–1322; the text draws on older traditions and is treated here as tradition, not history."
+  },
+  {
+    "region": "africa",
+    "id": "ev-mansa-musa-hajj",
+    "type": "religious",
+    "year": 1324,
+    "endYear": 1325,
+    "name": {
+      "en": "Mansa Musa’s pilgrimage to Mecca",
+      "zh": "曼萨·穆萨朝觐麦加"
+    },
+    "summary": {
+      "en": "Mansa Musa of Mali crossed the Sahara with a vast retinue and so much gold that, al-ʿUmari reports, its value fell in Cairo for years. The hajj put Mali on Mediterranean maps such as the 1375 Catalan Atlas and brought scholars and architects back to the Sahel.",
+      "zh": "马里的曼萨·穆萨率庞大随从穿越撒哈拉，携带黄金之多，据乌马里记载使开罗金价多年低落。这次朝觐使马里出现在1375年《加泰罗尼亚地图集》等地中海地图上，并带回学者与建筑师。"
+    },
+    "lat": 30.0444,
+    "lon": 31.2358,
+    "importance": 5,
+    "people": [
+      "person-mansa-musa"
+    ],
+    "polities": [
+      "polity-mali-empire",
+      "polity-mamluk-sultanate"
+    ],
+    "route": [
+      {
+        "year": 1324,
+        "lat": 11.3797,
+        "lon": -8.3842,
+        "label": {
+          "en": "Departs the Mali capital (traditionally Niani)",
+          "zh": "从马里都城出发（传统认为在尼亚尼）"
+        }
+      },
+      {
+        "year": 1324,
+        "lat": 27.87,
+        "lon": -0.29,
+        "label": {
+          "en": "Tuat oases (probable route)",
+          "zh": "图瓦特绿洲（可能路线）"
+        }
+      },
+      {
+        "year": 1324,
+        "lat": 30.0444,
+        "lon": 31.2358,
+        "label": {
+          "en": "Cairo: meets Sultan al-Nasir Muhammad",
+          "zh": "开罗：会见苏丹纳西尔·穆罕默德"
+        }
+      },
+      {
+        "year": 1324,
+        "lat": 21.4225,
+        "lon": 39.8262,
+        "label": {
+          "en": "Performs the hajj at Mecca",
+          "zh": "在麦加完成朝觐"
+        }
+      },
+      {
+        "year": 1325,
+        "lat": 30.0444,
+        "lon": 31.2358,
+        "label": {
+          "en": "Returns through Cairo, borrowing money",
+          "zh": "经开罗返回，举债而归"
+        }
+      },
+      {
+        "year": 1325,
+        "lat": 16.2667,
+        "lon": -0.05,
+        "label": {
+          "en": "Gao acknowledges Mali",
+          "zh": "加奥归附马里"
+        }
+      },
+      {
+        "year": 1325,
+        "lat": 16.7733,
+        "lon": -2.9994,
+        "label": {
+          "en": "Timbuktu: brings the poet-architect al-Sahili",
+          "zh": "廷巴克图：带回诗人兼建筑师萨赫利"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Mansa Musa",
+        "url": "https://en.wikipedia.org/wiki/Mansa_Musa"
+      },
+      {
+        "title": "al-ʿUmari, Masalik al-Absar (c. 1340), in Levtzion & Hopkins, Corpus"
+      },
+      {
+        "title": "al-Sa'di, Tarikh al-Sudan (c. 1655), trans. J. O. Hunwick, Timbuktu and the Songhay Empire (2003)"
+      },
+      {
+        "title": "Nehemia Levtzion, Ancient Ghana and Mali (1973)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "No Wikidata item for the pilgrimage itself. The trans-Saharan route is not recorded precisely; Tuat is a probable stage. Some historians date the hajj 1324–1325, Ibn Khaldun’s informants slightly differently."
+  },
+  {
+    "region": "africa",
+    "id": "ev-djinguereber-mosque",
+    "qid": "Q2480949",
+    "type": "religious",
+    "year": 1327,
+    "name": {
+      "en": "Djinguereber Mosque built in Timbuktu",
+      "zh": "廷巴克图津加雷贝尔清真寺落成"
+    },
+    "summary": {
+      "en": "On his return from Mecca, Mansa Musa commissioned the Andalusi poet Abu Ishaq al-Sahili to build a great mosque of earth and timber in Timbuktu. Rebuilt many times, it anchored the city’s growth as a centre of Islamic scholarship.",
+      "zh": "曼萨·穆萨朝觐归来后，委托安达卢斯诗人阿布·伊斯哈格·萨赫利在廷巴克图用泥土和木材建造大清真寺。该寺历经多次重建，成为廷巴克图发展为伊斯兰学术中心的支柱。"
+    },
+    "lat": 16.7714,
+    "lon": -3.01,
+    "importance": 3,
+    "people": [
+      "person-mansa-musa"
+    ],
+    "place": "place-timbuktu",
+    "polities": [
+      "polity-mali-empire"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Djinguereber Mosque",
+        "url": "https://en.wikipedia.org/wiki/Djinguereber_Mosque"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Timbuktu",
+        "url": "https://whc.unesco.org/en/list/119"
+      },
+      {
+        "title": "al-Sa'di, Tarikh al-Sudan (c. 1655), trans. J. O. Hunwick, Timbuktu and the Songhay Empire (2003)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Construction usually dated 1325–1327."
+  },
+  {
+    "region": "africa",
+    "id": "ev-ibn-khaldun-muqaddimah",
+    "qid": "Q1259616",
+    "type": "science",
+    "year": 1377,
+    "name": {
+      "en": "Ibn Khaldun completes the Muqaddimah",
+      "zh": "伊本·赫勒敦完成《历史绪论》"
+    },
+    "summary": {
+      "en": "In retreat at Qalʿat Ibn Salama in present-day Algeria, Ibn Khaldun drafted the introduction to his universal history. Its theory of ʿasabiyya (group solidarity) and the rise and fall of dynasties is regarded as a founding work of historiography and sociology.",
+      "zh": "伊本·赫勒敦隐居于今阿尔及利亚的伊本·萨拉马堡，写成其通史的绪论。书中关于“阿萨比亚”（群体凝聚力）与王朝兴衰的理论被视为历史学和社会学的奠基之作。"
+    },
+    "lat": 35.07,
+    "lon": 1.04,
+    "importance": 3,
+    "people": [
+      "person-ibn-khaldun"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Muqaddimah",
+        "url": "https://en.wikipedia.org/wiki/Muqaddimah"
+      },
+      {
+        "title": "Ibn Khaldun, The Muqaddimah, trans. Franz Rosenthal (1958)"
+      },
+      {
+        "title": "Robert Irwin, Ibn Khaldun: An Intellectual Biography (2018)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-dias-reaches-mossel-bay",
+    "type": "exploration",
+    "year": 1488,
+    "date": "1488-02-03",
+    "name": {
+      "en": "Bartolomeu Dias rounds the Cape",
+      "zh": "迪亚士绕过好望角"
+    },
+    "summary": {
+      "en": "Blown south past the continent’s tip, Bartolomeu Dias’s Portuguese ships landed at Mossel Bay, where Khoikhoi herders resisted them, and sailed on to the Bushmans River before turning back, sighting the Cape of Good Hope on the return. The voyage proved a sea route to the Indian Ocean.",
+      "zh": "迪亚士的葡萄牙船队被风吹过大陆南端，在莫塞尔湾登陆并遭科伊科伊牧民抵抗，继续航行至布须曼河后折返，归途中望见好望角。此行证明了通往印度洋的海路。"
+    },
+    "lat": -34.18,
+    "lon": 22.13,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Wikipedia: Bartolomeu Dias",
+        "url": "https://en.wikipedia.org/wiki/Bartolomeu_Dias"
+      },
+      {
+        "title": "João de Barros, Décadas da Ásia, I (1552)"
+      },
+      {
+        "title": "Britannica: Bartolomeu Dias"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-battle-of-ridaniya",
+    "qid": "Q537923",
+    "type": "battle",
+    "year": 1517,
+    "date": "1517-01-22",
+    "name": {
+      "en": "Battle of Ridaniya: Ottomans take Egypt",
+      "zh": "里达尼亚战役：奥斯曼征服埃及"
+    },
+    "summary": {
+      "en": "Selim I’s Ottoman army, using field artillery and muskets, defeated the Mamluk sultan Tuman bay II outside Cairo. Tuman bay was hanged at the Zuwayla gate, ending the Mamluk Sultanate; Egypt became an Ottoman province for three centuries.",
+      "zh": "塞利姆一世的奥斯曼军队凭借野战火炮与火枪在开罗城外击败马穆鲁克苏丹图曼贝伊二世。图曼贝伊被吊死于祖韦拉门，马穆鲁克王朝灭亡，埃及此后三个世纪为奥斯曼行省。"
+    },
+    "lat": 30.07,
+    "lon": 31.29,
+    "importance": 3,
+    "place": "place-cairo",
+    "polities": [
+      "polity-mamluk-sultanate"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Battle of Ridaniya",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ridaniya"
+      },
+      {
+        "title": "Ibn Iyas, Badaʾiʿ al-Zuhur (early 16th century)"
+      },
+      {
+        "title": "Britannica: Mamluk"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-ethiopian-adal-war",
+    "qid": "Q2915203",
+    "type": "war",
+    "year": 1529,
+    "endYear": 1543,
+    "name": {
+      "en": "Ethiopian–Adal War",
+      "zh": "埃塞俄比亚—阿达尔战争"
+    },
+    "summary": {
+      "en": "Imam Ahmad ibn Ibrahim al-Ghazi (“Gran”) of Adal routed Emperor Lebna Dengel at Shimbra Kure in 1529 and overran most of the Christian highlands. With help from 400 Portuguese musketeers, Emperor Gelawdewos killed the imam at Wayna Daga in 1543.",
+      "zh": "阿达尔苏丹国的伊玛目艾哈迈德·伊本·易卜拉欣·加齐（“格兰”）于1529年在申布拉库雷大败皇帝莱布纳·丹格尔，占领基督教高原大部。1543年，格拉德沃斯皇帝在四百名葡萄牙火枪手协助下于韦纳达加击毙伊玛目。"
+    },
+    "lat": 11.9,
+    "lon": 37.9,
+    "importance": 4,
+    "polities": [
+      "polity-ethiopian-empire",
+      "polity-adal-sultanate"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Ethiopian–Adal War",
+        "url": "https://en.wikipedia.org/wiki/Ethiopian%E2%80%93Adal_War"
+      },
+      {
+        "title": "Shihab al-Din ʿArab Faqih, Futuh al-Habasha (c. 1559)"
+      },
+      {
+        "title": "Miguel de Castanhoso, account of the Portuguese expedition to Abyssinia (1564)"
+      },
+      {
+        "title": "Richard Pankhurst, The Ethiopians: A History (1998)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Marker placed near Wayna Daga (east of Lake Tana); the war ranged across the whole highlands."
+  },
+  {
+    "region": "africa",
+    "id": "ev-battle-of-alcacer-quibir",
+    "qid": "Q1121532",
+    "type": "battle",
+    "year": 1578,
+    "date": "1578-08-04",
+    "name": {
+      "en": "Battle of Alcácer Quibir (Battle of the Three Kings)",
+      "zh": "阿尔卡塞尔基比尔战役（三王之战）"
+    },
+    "summary": {
+      "en": "The Saadian sultan ʿAbd al-Malik crushed the invading army of King Sebastian of Portugal and his ally al-Mutawakkil. All three kings died; Ahmad al-Mansur took the Moroccan throne enriched by ransoms, while Portugal’s succession crisis led to union with Spain in 1580.",
+      "zh": "萨阿德王朝苏丹阿卜杜勒·马利克大败入侵的葡萄牙国王塞巴斯蒂昂及其盟友穆塔瓦基勒。三位君主皆死于此役；艾哈迈德·曼苏尔凭赎金之利继承摩洛哥王位，而葡萄牙的继承危机导致其1580年与西班牙合并。"
+    },
+    "lat": 35.0167,
+    "lon": -5.9,
+    "importance": 4,
+    "polities": [
+      "polity-saadi"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Battle of Alcácer Quibir",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Alc%C3%A1cer_Quibir"
+      },
+      {
+        "title": "E. W. Bovill, The Battle of Alcazar (1952)"
+      },
+      {
+        "title": "Britannica: Battle of Alcácer Quibir"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-battle-of-tondibi",
+    "qid": "Q589285",
+    "type": "battle",
+    "year": 1591,
+    "date": "1591-03-12",
+    "name": {
+      "en": "Battle of Tondibi",
+      "zh": "汤迪比战役"
+    },
+    "summary": {
+      "en": "After a gruelling Saharan crossing, a Moroccan army of musketeers under Judar Pasha, sent by Ahmad al-Mansur, routed the much larger Songhai host of Askia Ishaq II near Gao. The Songhai Empire collapsed and Timbuktu came under Moroccan pashas.",
+      "zh": "艾哈迈德·曼苏尔派遣朱达尔帕夏率火枪部队艰苦穿越撒哈拉，在加奥附近击溃阿斯基亚·伊斯哈格二世人数远多于己的桑海大军。桑海帝国随之崩溃，廷巴克图落入摩洛哥帕夏统治之下。"
+    },
+    "lat": 16.66,
+    "lon": -0.24,
+    "importance": 4,
+    "polities": [
+      "polity-songhai-empire",
+      "polity-saadi"
+    ],
+    "route": [
+      {
+        "year": 1590,
+        "lat": 31.6295,
+        "lon": -7.9811,
+        "label": {
+          "en": "Judar Pasha’s army leaves Marrakesh",
+          "zh": "朱达尔帕夏的军队离开马拉喀什"
+        }
+      },
+      {
+        "year": 1591,
+        "lat": 23,
+        "lon": -4.2,
+        "label": {
+          "en": "Crosses the Sahara via the salt mines (approx.)",
+          "zh": "经盐矿穿越撒哈拉（大致路线）"
+        }
+      },
+      {
+        "year": 1591,
+        "lat": 16.66,
+        "lon": -0.24,
+        "label": {
+          "en": "Victory at Tondibi",
+          "zh": "汤迪比之胜"
+        }
+      },
+      {
+        "year": 1591,
+        "lat": 16.2667,
+        "lon": -0.05,
+        "label": {
+          "en": "Occupies Gao",
+          "zh": "占领加奥"
+        }
+      },
+      {
+        "year": 1591,
+        "lat": 16.7733,
+        "lon": -2.9994,
+        "label": {
+          "en": "Occupies Timbuktu",
+          "zh": "占领廷巴克图"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Battle of Tondibi",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+      },
+      {
+        "title": "al-Sa'di, Tarikh al-Sudan (c. 1655), trans. J. O. Hunwick, Timbuktu and the Songhay Empire (2003)"
+      },
+      {
+        "title": "E. W. Bovill, The Golden Trade of the Moors (2nd ed., 1968)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. V: Africa from the Sixteenth to the Eighteenth Century (ed. B. A. Ogot, 1992)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata has no coordinates; Tondibi lies on the Niger c. 50 km north of Gao (position approximate). The desert route is only partly documented."
+  },
+  {
+    "region": "africa",
+    "id": "ev-founding-of-gondar",
+    "qid": "Q464695",
+    "type": "founding",
+    "year": 1636,
+    "name": {
+      "en": "Fasilides makes Gondar the imperial capital",
+      "zh": "法西利达斯定都贡德尔"
+    },
+    "summary": {
+      "en": "Emperor Fasilides ended the roving royal camps of the Ethiopian monarchy by founding a permanent capital at Gondar, north of Lake Tana. His castle began the Fasil Ghebbi compound, whose palaces blend Aksumite, Indian and Portuguese-influenced styles.",
+      "zh": "皇帝法西利达斯结束了埃塞俄比亚君主四处移驻的营帐制度，在塔纳湖以北的贡德尔建立永久都城。其城堡开启了法西尔盖比王宫建筑群，融合了阿克苏姆、印度与葡萄牙影响的风格。"
+    },
+    "lat": 12.6081,
+    "lon": 37.4697,
+    "importance": 3,
+    "place": "place-gondar",
+    "polities": [
+      "polity-ethiopian-empire"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Fasil Ghebbi",
+        "url": "https://en.wikipedia.org/wiki/Fasil_Ghebbi"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Fasil Ghebbi, Gondar Region",
+        "url": "https://whc.unesco.org/en/list/19"
+      },
+      {
+        "title": "Richard Pankhurst, The Ethiopians: A History (1998)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Foundation dated 1635 (Wikidata, for the city) or 1636."
+  },
+  {
+    "region": "africa",
+    "id": "ev-dutch-cape-settlement",
+    "qid": "Q4807130",
+    "type": "founding",
+    "year": 1652,
+    "date": "1652-04-06",
+    "name": {
+      "en": "Dutch East India Company settles at the Cape",
+      "zh": "荷兰东印度公司在开普建立据点"
+    },
+    "summary": {
+      "en": "Jan van Riebeeck landed at Table Bay to found a provisioning station for VOC ships. Expansion of free burgher farms dispossessed Khoikhoi herders, and enslaved people from Asia and Africa formed much of the labour force, laying foundations of later South African society.",
+      "zh": "扬·范里贝克在桌湾登陆，为东印度公司船只建立补给站。自由市民农场的扩张夺走了科伊科伊牧民的土地，来自亚洲和非洲的奴隶构成主要劳动力，奠定了后来南非社会的基础。"
+    },
+    "lat": -33.9167,
+    "lon": 18.4167,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: Dutch Cape Colony",
+        "url": "https://en.wikipedia.org/wiki/Dutch_Cape_Colony"
+      },
+      {
+        "title": "Hermann Giliomee, The Afrikaners: Biography of a People (2003)"
+      },
+      {
+        "title": "Richard Elphick, Khoikhoi and the Founding of White South Africa (1985)"
+      },
+      {
+        "title": "Journal of Jan van Riebeeck, 1651–1662 (Van Riebeeck Society ed., 1952–58)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-battle-of-mbwila",
+    "qid": "Q1752752",
+    "type": "battle",
+    "year": 1665,
+    "date": "1665-10-29",
+    "name": {
+      "en": "Battle of Mbwila",
+      "zh": "姆布维拉战役"
+    },
+    "summary": {
+      "en": "Forces of Portuguese Angola and their Imbangala allies defeated the army of the Kingdom of Kongo; King António I was killed and beheaded. The defeat plunged Kongo into decades of civil war between rival royal houses.",
+      "zh": "葡属安哥拉军队及其因班加拉盟军击败刚果王国军队，国王安东尼奥一世阵亡并被斩首。此役使刚果陷入敌对王族之间长达数十年的内战。"
+    },
+    "lat": -7.6,
+    "lon": 15,
+    "importance": 3,
+    "polities": [
+      "polity-kongo"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Battle of Mbwila",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mbwila"
+      },
+      {
+        "title": "John K. Thornton, A History of West Central Africa to 1850 (2020)"
+      },
+      {
+        "title": "António de Oliveira de Cadornega, História Geral das Guerras Angolanas (1680)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Battlefield location approximate."
+  },
+  {
+    "region": "africa",
+    "id": "ev-battle-of-feyiase",
+    "qid": "Q2888493",
+    "type": "battle",
+    "year": 1701,
+    "name": {
+      "en": "Battle of Feyiase: rise of Asante",
+      "zh": "费亚斯战役：阿散蒂崛起"
+    },
+    "summary": {
+      "en": "The Asante confederacy under Osei Tutu, united by the priest Okomfo Anokye around the Golden Stool, defeated its overlord Denkyira. Independence gave Asante control of gold and trade routes to the coast and launched its expansion into a major West African empire.",
+      "zh": "奥塞·图图领导、由祭司奥孔福·阿诺基以“金凳子”凝聚的阿散蒂联盟击败宗主国登基拉。独立使阿散蒂掌握了黄金与通往海岸的商路，开始扩张为西非强国。"
+    },
+    "lat": 6.6,
+    "lon": -1.6,
+    "importance": 3,
+    "polities": [
+      "polity-asante"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Battle of Feyiase",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Feyiase"
+      },
+      {
+        "title": "Ivor Wilks, Asante in the Nineteenth Century (1975)"
+      },
+      {
+        "title": "T. C. McCaskie, State and Society in Pre-Colonial Asante (1995)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Dated 1701 (some accounts 1699–1701); site near Kumasi, coordinates approximate."
+  },
+  {
+    "region": "africa",
+    "id": "ev-atlantic-slave-trade-africa",
+    "qid": "Q10701282",
+    "type": "political",
+    "year": 1501,
+    "endYear": 1867,
+    "name": {
+      "en": "Atlantic slave trade",
+      "zh": "大西洋奴隶贸易"
+    },
+    "summary": {
+      "en": "Over three and a half centuries about 12.5 million Africans were forced aboard ships for the Americas, of whom some 10.7 million survived the Middle Passage. Ports such as Ouidah, Luanda and Bonny were central; the trade reshaped African states and demography until its suppression in the 19th century.",
+      "zh": "三个半世纪间，约1250万非洲人被强行押上驶往美洲的船只，约1070万人在“中间航程”中幸存。维达、罗安达、邦尼等港口为其中心；这一贸易深刻改变了非洲的国家与人口，直至19世纪被禁绝。"
+    },
+    "lat": 6.3667,
+    "lon": 2.0833,
+    "importance": 5,
+    "polities": [
+      "polity-dahomey",
+      "polity-kongo"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Atlantic slave trade",
+        "url": "https://en.wikipedia.org/wiki/Atlantic_slave_trade"
+      },
+      {
+        "title": "SlaveVoyages: Trans-Atlantic Slave Trade Database",
+        "url": "https://www.slavevoyages.org/"
+      },
+      {
+        "title": "Herbert S. Klein, The Atlantic Slave Trade (2nd ed., 2010)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. V: Africa from the Sixteenth to the Eighteenth Century (ed. B. A. Ogot, 1992)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Start and end years are conventions (first direct Africa–Americas voyages c. 1501–1525; last documented voyages 1866–67). Marker placed at Ouidah, a leading embarkation port. Estimates from SlaveVoyages."
+  },
+  {
+    "region": "africa",
+    "id": "ev-founding-of-freetown",
+    "qid": "Q3780",
+    "type": "founding",
+    "year": 1792,
+    "name": {
+      "en": "Founding of Freetown",
+      "zh": "弗里敦建城"
+    },
+    "summary": {
+      "en": "About 1,100 Black Loyalists from Nova Scotia, freed for serving Britain in the American war, founded Freetown under the abolitionist Sierra Leone Company. It later became the base of the Royal Navy’s anti-slavery squadron and home to tens of thousands of liberated Africans.",
+      "zh": "约1100名来自新斯科舍的黑人效忠派（因在美国独立战争中为英国作战而获自由）在废奴主义的塞拉利昂公司支持下建立弗里敦。此后它成为英国皇家海军反奴隶贸易舰队的基地，数万名获释非洲人在此定居。"
+    },
+    "lat": 8.4872,
+    "lon": -13.2356,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: Freetown",
+        "url": "https://en.wikipedia.org/wiki/Freetown"
+      },
+      {
+        "title": "Christopher Fyfe, A History of Sierra Leone (1962)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VI: Africa in the Nineteenth Century until the 1880s (ed. J. F. Ade Ajayi, 1989)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-fula-jihads-sokoto",
+    "qid": "Q2736105",
+    "type": "religious",
+    "year": 1804,
+    "endYear": 1808,
+    "name": {
+      "en": "Sokoto jihad of Usman dan Fodio",
+      "zh": "奥斯曼·丹·福迪奥的索科托圣战"
+    },
+    "summary": {
+      "en": "The Fulani scholar Usman dan Fodio declared jihad against the Hausa king of Gobir, accusing rulers of injustice and syncretism. By 1808 his followers had toppled most Hausa kingdoms, forming the Sokoto Caliphate, the largest state in 19th-century West Africa and a centre of Islamic scholarship.",
+      "zh": "富拉尼学者奥斯曼·丹·福迪奥指责豪萨统治者暴虐、信仰混杂，向戈比尔国王宣布圣战。至1808年其追随者推翻大部分豪萨王国，建立索科托哈里发国——19世纪西非最大的国家和伊斯兰学术中心。"
+    },
+    "lat": 13.0622,
+    "lon": 5.2339,
+    "importance": 4,
+    "people": [
+      "person-usman-dan-fodio"
+    ],
+    "polities": [
+      "polity-sokoto-caliphate"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Fula jihads",
+        "url": "https://en.wikipedia.org/wiki/Fula_jihads"
+      },
+      {
+        "title": "Murray Last, The Sokoto Caliphate (1967)"
+      },
+      {
+        "title": "Mervyn Hiskett, The Sword of Truth: The Life and Times of the Shehu Usuman dan Fodio (1973)"
+      }
+    ],
+    "confidence": "high",
+    "note": "QID is the wider series of Fula jihads (18th–19th c.); the dates here cover the Sokoto jihad proper (1804–1808)."
+  },
+  {
+    "region": "africa",
+    "id": "ev-mfecane",
+    "qid": "Q865081",
+    "type": "war",
+    "year": 1815,
+    "endYear": 1840,
+    "name": {
+      "en": "Mfecane (Difaqane)",
+      "zh": "姆菲卡尼（大动乱）"
+    },
+    "summary": {
+      "en": "A period of wars, migrations and state formation in southern Africa accompanied the rise of the Zulu kingdom. New polities such as Moshoeshoe’s Lesotho, the Ndebele and the Gaza emerged; historians debate how far drought, the Delagoa Bay trade and colonial slaving drove the upheaval.",
+      "zh": "祖鲁王国崛起期间，南部非洲经历了战争、迁徙与新国家形成的时期。莫舒舒的莱索托、恩德贝莱、加扎等新政权相继出现；干旱、德拉瓜湾贸易与殖民掠奴各在多大程度上推动了这一动乱，史学界仍有争论。"
+    },
+    "lat": -28.3,
+    "lon": 31.4,
+    "importance": 3,
+    "people": [
+      "person-shaka"
+    ],
+    "polities": [
+      "polity-zulu-kingdom"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Mfecane",
+        "url": "https://en.wikipedia.org/wiki/Mfecane"
+      },
+      {
+        "title": "Carolyn Hamilton (ed.), The Mfecane Aftermath: Reconstructive Debates in Southern African History (1995)"
+      },
+      {
+        "title": "J. D. Omer-Cooper, The Zulu Aftermath (1966)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VI: Africa in the Nineteenth Century until the 1880s (ed. J. F. Ade Ajayi, 1989)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Both the concept and its dates are contested (Cobbing critique, 1988)."
+  },
+  {
+    "region": "africa",
+    "id": "ev-french-conquest-of-algeria",
+    "qid": "Q2629782",
+    "type": "war",
+    "year": 1830,
+    "endYear": 1903,
+    "date": "1830-06-14",
+    "name": {
+      "en": "French conquest of Algeria",
+      "zh": "法国征服阿尔及利亚"
+    },
+    "summary": {
+      "en": "France landed at Sidi Ferruch and took Algiers from its Ottoman dey in 1830. Emir ʿAbd al-Qadir led organised resistance until 1847, and Kabylia rose again in 1871; the long, brutal conquest made Algeria a settler colony annexed to France.",
+      "zh": "1830年法国在西迪费鲁什登陆，从奥斯曼的德伊手中夺取阿尔及尔。埃米尔阿卜杜·卡迪尔领导有组织的抵抗直至1847年，卡比利亚于1871年再度起义；漫长而残酷的征服使阿尔及利亚成为并入法国的移民殖民地。"
+    },
+    "lat": 36.7538,
+    "lon": 3.0588,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Wikipedia: French conquest of Algeria",
+        "url": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria"
+      },
+      {
+        "title": "Benjamin Stora, Algeria 1830–2000: A Short History (2001)"
+      },
+      {
+        "title": "Britannica: ʿAbd al-Qādir"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VI: Africa in the Nineteenth Century until the 1880s (ed. J. F. Ade Ajayi, 1989)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "End date conventional: Wikidata gives 1904, many accounts 1903 (Saharan campaigns)."
+  },
+  {
+    "region": "africa",
+    "id": "ev-great-trek",
+    "qid": "Q338949",
+    "type": "political",
+    "year": 1836,
+    "endYear": 1852,
+    "name": {
+      "en": "Great Trek",
+      "zh": "布尔人大迁徙"
+    },
+    "summary": {
+      "en": "Thousands of Dutch-speaking Boers left the British Cape Colony with their servants and herds, moving onto the highveld and into Natal. Clashes with the Ndebele and Zulu, including Blood River in 1838, led to the Boer republics of Transvaal and Orange Free State.",
+      "zh": "数千名讲荷兰语的布尔人携仆从与牲畜离开英属开普殖民地，迁入高地草原与纳塔尔。他们与恩德贝莱人、祖鲁人发生冲突（包括1838年血河之战），最终建立德兰士瓦和奥兰治自由邦两个布尔共和国。"
+    },
+    "lat": -29.2,
+    "lon": 26.8333,
+    "importance": 4,
+    "polities": [
+      "polity-zulu-kingdom"
+    ],
+    "route": [
+      {
+        "year": 1836,
+        "lat": -33.31,
+        "lon": 26.53,
+        "label": {
+          "en": "Parties leave the eastern Cape frontier",
+          "zh": "各队离开开普东部边疆"
+        }
+      },
+      {
+        "year": 1836,
+        "lat": -29.2,
+        "lon": 26.8333,
+        "label": {
+          "en": "Gather at Thaba Nchu with Barolong aid",
+          "zh": "在塔巴恩丘集结，得巴罗隆人援助"
+        }
+      },
+      {
+        "year": 1838,
+        "lat": -26.715,
+        "lon": 27.1033,
+        "label": {
+          "en": "Potchefstroom founded",
+          "zh": "建立波切夫斯特鲁姆"
+        }
+      },
+      {
+        "year": 1838,
+        "lat": -28.1053,
+        "lon": 30.5417,
+        "label": {
+          "en": "Battle at Ncome (Blood) River",
+          "zh": "恩科梅河（血河）之战"
+        }
+      },
+      {
+        "year": 1839,
+        "lat": -29.6006,
+        "lon": 30.3794,
+        "label": {
+          "en": "Pietermaritzburg: Republic of Natalia",
+          "zh": "彼得马里茨堡：纳塔利亚共和国"
+        }
+      },
+      {
+        "year": 1845,
+        "lat": -24.75,
+        "lon": 30.5667,
+        "label": {
+          "en": "Ohrigstad settled in the Transvaal",
+          "zh": "在德兰士瓦建立奥里赫斯塔德"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Great Trek",
+        "url": "https://en.wikipedia.org/wiki/Great_Trek"
+      },
+      {
+        "title": "Hermann Giliomee, The Afrikaners: Biography of a People (2003)"
+      },
+      {
+        "title": "Norman Etherington, The Great Treks: The Transformation of Southern Africa, 1815–1854 (2001)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Date range follows Wikidata (1836–1852, to the Sand River Convention); many accounts date the main movement 1835–1840s."
+  },
+  {
+    "region": "africa",
+    "id": "ev-suez-canal-opening",
+    "qid": "Q899",
+    "type": "founding",
+    "year": 1869,
+    "date": "1869-11-17",
+    "name": {
+      "en": "Opening of the Suez Canal",
+      "zh": "苏伊士运河通航"
+    },
+    "summary": {
+      "en": "Built from 1859 by Ferdinand de Lesseps’s company with the forced labour of tens of thousands of Egyptian peasants, the canal opened under Khedive Ismaʿil, linking the Mediterranean and Red Sea. Egypt’s debts soon led it to sell its shares to Britain (1875).",
+      "zh": "运河自1859年由斐迪南·德·雷赛布的公司修建，数万埃及农民被强征服役，在赫迪夫伊斯梅尔治下通航，连通地中海与红海。埃及因债务很快于1875年将其股份售予英国。"
+    },
+    "lat": 30.705,
+    "lon": 32.3442,
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Wikipedia: Suez Canal",
+        "url": "https://en.wikipedia.org/wiki/Suez_Canal"
+      },
+      {
+        "title": "Zachary Karabell, Parting the Desert: The Creation of the Suez Canal (2003)"
+      },
+      {
+        "title": "Britannica: Suez Canal"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-battle-of-isandlwana",
+    "qid": "Q747589",
+    "type": "battle",
+    "year": 1879,
+    "date": "1879-01-22",
+    "name": {
+      "en": "Battle of Isandlwana",
+      "zh": "伊散德尔瓦纳战役"
+    },
+    "summary": {
+      "en": "A Zulu army of about 20,000 under Ntshingwayo kaMahole overwhelmed the camp of a British column invading King Cetshwayo’s kingdom, killing over 1,300 soldiers. It was among the heaviest defeats of a modern army by an African force, though Britain went on to take Ulundi that July.",
+      "zh": "恩茨欣瓦约·卡马霍莱率约两万祖鲁大军攻破入侵塞奇瓦约国王领地的英军营地，击毙一千三百余人。这是非洲军队对近代军队取得的最惨重胜利之一，但英军仍于同年7月攻占乌伦迪。"
+    },
+    "lat": -28.3564,
+    "lon": 30.6525,
+    "importance": 4,
+    "polities": [
+      "polity-zulu-kingdom"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Battle of Isandlwana",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Isandlwana"
+      },
+      {
+        "title": "Jeff Guy, The Destruction of the Zulu Kingdom (1979)"
+      },
+      {
+        "title": "Ian Knight, Zulu Rising: The Epic Story of iSandlwana and Rorke’s Drift (2010)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-urabi-revolt",
+    "qid": "Q2143253",
+    "type": "political",
+    "year": 1879,
+    "endYear": 1882,
+    "name": {
+      "en": "ʿUrabi revolt and British occupation of Egypt",
+      "zh": "奥拉比起义与英国占领埃及"
+    },
+    "summary": {
+      "en": "Colonel Ahmad ʿUrabi led Egyptian officers and notables against foreign financial control and the Turco-Circassian elite under the slogan “Egypt for the Egyptians”. Britain bombarded Alexandria and defeated ʿUrabi at Tel el-Kebir in 1882, beginning an occupation that lasted until 1956.",
+      "zh": "艾哈迈德·奥拉比上校率埃及军官与士绅，以“埃及人的埃及”为口号反对外国财政控制和土耳其—切尔克斯精英。1882年英国炮击亚历山大港，并在泰勒凯比尔击败奥拉比，开始了持续至1956年的占领。"
+    },
+    "lat": 30.0444,
+    "lon": 31.2358,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: Urabi revolt",
+        "url": "https://en.wikipedia.org/wiki/Urabi_revolt"
+      },
+      {
+        "title": "Juan R. I. Cole, Colonialism and Revolution in the Middle East: Social and Cultural Origins of Egypt’s ʿUrabi Movement (1993)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VII: Africa under Colonial Domination 1880–1935 (ed. A. Adu Boahen, 1985)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-berlin-west-africa-conference",
+    "qid": "Q13582",
+    "type": "treaty",
+    "year": 1884,
+    "endYear": 1885,
+    "date": "1884-11-15",
+    "name": {
+      "en": "Berlin Conference",
+      "zh": "柏林会议"
+    },
+    "summary": {
+      "en": "Fourteen states, with no African representatives, met in Bismarck’s Berlin to regulate European claims in Africa. The General Act recognised Leopold II’s Congo association, declared free trade on the Congo and Niger, and set “effective occupation” as the test of a claim, accelerating partition.",
+      "zh": "十四国在俾斯麦主持下于柏林开会，规范欧洲在非洲的领土主张，没有任何非洲代表。总议定书承认利奥波德二世的刚果协会，宣布刚果河与尼日尔河自由通商，并以“有效占领”作为主张依据，加速了瓜分。"
+    },
+    "lat": 52.5125,
+    "lon": 13.3825,
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Wikipedia: Berlin Conference",
+        "url": "https://en.wikipedia.org/wiki/Berlin_Conference"
+      },
+      {
+        "title": "General Act of the Conference of Berlin (26 February 1885)"
+      },
+      {
+        "title": "S. Förster, W. J. Mommsen & R. Robinson (eds.), Bismarck, Europe and Africa: The Berlin Africa Conference 1884–1885 (1988)"
+      },
+      {
+        "title": "Thomas Pakenham, The Scramble for Africa (1991)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-siege-of-khartoum",
+    "qid": "Q815159",
+    "type": "battle",
+    "year": 1884,
+    "endYear": 1885,
+    "date": "1884-03-13",
+    "name": {
+      "en": "Mahdist siege and capture of Khartoum",
+      "zh": "马赫迪军围攻并攻克喀土穆"
+    },
+    "summary": {
+      "en": "Forces of Muhammad Ahmad, the self-proclaimed Mahdi, besieged the Egyptian-held capital of Sudan for ten months and stormed it on 26 January 1885, killing Governor-General Charles Gordon. The Mahdist state ruled Sudan from Omdurman until 1898.",
+      "zh": "自称马赫迪的穆罕默德·艾哈迈德的军队围困埃及控制下的苏丹首府十个月，于1885年1月26日破城，总督查尔斯·戈登被杀。马赫迪国家以恩图曼为中心统治苏丹至1898年。"
+    },
+    "lat": 15.61,
+    "lon": 32.53,
+    "importance": 3,
+    "polities": [
+      "polity-mahdist-sudan"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Siege of Khartoum",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Khartoum"
+      },
+      {
+        "title": "P. M. Holt, The Mahdist State in the Sudan, 1881–1898 (1958)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VI: Africa in the Nineteenth Century until the 1880s (ed. J. F. Ade Ajayi, 1989)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-scramble-for-africa",
+    "qid": "Q179848",
+    "type": "political",
+    "year": 1881,
+    "endYear": 1914,
+    "name": {
+      "en": "Scramble for Africa",
+      "zh": "瓜分非洲"
+    },
+    "summary": {
+      "en": "In barely three decades European powers claimed almost the whole continent through treaties, chartered companies and military conquest. Only Ethiopia, which defeated Italy, and Liberia remained independent, while resistance from Morocco to the Cape was widespread.",
+      "zh": "短短三十余年间，欧洲列强通过条约、特许公司和军事征服瓜分了几乎整个非洲大陆。只有击败意大利的埃塞俄比亚和利比里亚保持独立，而从摩洛哥到开普，各地抵抗此起彼伏。"
+    },
+    "lat": -5.85,
+    "lon": 13.05,
+    "importance": 4,
+    "route": [
+      {
+        "year": 1881,
+        "lat": 36.8008,
+        "lon": 10.18,
+        "label": {
+          "en": "French protectorate over Tunisia",
+          "zh": "法国确立对突尼斯的保护"
+        }
+      },
+      {
+        "year": 1882,
+        "lat": 30.53,
+        "lon": 31.83,
+        "label": {
+          "en": "British occupation of Egypt (Tel el-Kebir)",
+          "zh": "英国占领埃及（泰勒凯比尔）"
+        }
+      },
+      {
+        "year": 1884,
+        "lat": -26.648,
+        "lon": 15.154,
+        "label": {
+          "en": "German protectorate at Angra Pequena",
+          "zh": "德国在安格拉佩奎纳建立保护地"
+        }
+      },
+      {
+        "year": 1885,
+        "lat": -5.85,
+        "lon": 13.05,
+        "label": {
+          "en": "Congo Free State proclaimed",
+          "zh": "刚果自由邦宣告成立"
+        }
+      },
+      {
+        "year": 1890,
+        "lat": -17.8292,
+        "lon": 31.0522,
+        "label": {
+          "en": "Pioneer Column founds Fort Salisbury",
+          "zh": "先锋纵队建立索尔兹伯里堡"
+        }
+      },
+      {
+        "year": 1894,
+        "lat": 7.1853,
+        "lon": 1.9914,
+        "label": {
+          "en": "France completes conquest of Dahomey",
+          "zh": "法国完成对达荷美的征服"
+        }
+      },
+      {
+        "year": 1896,
+        "lat": 14.0189,
+        "lon": 38.9733,
+        "label": {
+          "en": "Ethiopia defeats Italy at Adwa",
+          "zh": "埃塞俄比亚在阿杜瓦击败意大利"
+        }
+      },
+      {
+        "year": 1898,
+        "lat": 9.8875,
+        "lon": 32.1103,
+        "label": {
+          "en": "Anglo-French Fashoda crisis",
+          "zh": "英法法绍达危机"
+        }
+      },
+      {
+        "year": 1912,
+        "lat": 34.0433,
+        "lon": -5.0033,
+        "label": {
+          "en": "Treaty of Fes: French protectorate over Morocco",
+          "zh": "《非斯条约》：法国保护摩洛哥"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Scramble for Africa",
+        "url": "https://en.wikipedia.org/wiki/Scramble_for_Africa"
+      },
+      {
+        "title": "Thomas Pakenham, The Scramble for Africa (1991)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VII: Africa under Colonial Domination 1880–1935 (ed. A. Adu Boahen, 1985)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata starts the Scramble in 1885; many historians begin with the French move on Tunisia (1881). Marker at Boma, first capital of the Congo Free State."
+  },
+  {
+    "region": "africa",
+    "id": "ev-battle-of-adwa",
+    "qid": "Q302519",
+    "type": "battle",
+    "year": 1896,
+    "date": "1896-03-01",
+    "name": {
+      "en": "Battle of Adwa",
+      "zh": "阿杜瓦战役"
+    },
+    "summary": {
+      "en": "Emperor Menelik II and Empress Taytu’s army of perhaps 100,000 decisively defeated an Italian invasion force under General Baratieri. Italy recognised Ethiopian independence in the Treaty of Addis Ababa, and Adwa became an enduring symbol of African resistance to colonialism.",
+      "zh": "孟尼利克二世皇帝与泰图皇后率领约十万大军，决定性地击败巴拉蒂耶里将军指挥的意大利入侵军。意大利在《亚的斯亚贝巴条约》中承认埃塞俄比亚独立，阿杜瓦成为非洲反殖民抵抗的不朽象征。"
+    },
+    "lat": 14.0189,
+    "lon": 38.9733,
+    "importance": 5,
+    "people": [
+      "person-menelik-ii",
+      "person-taytu-betul"
+    ],
+    "polities": [
+      "polity-ethiopian-empire"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Battle of Adwa",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Adwa"
+      },
+      {
+        "title": "Raymond Jonas, The Battle of Adwa: African Victory in the Age of Empire (2011)"
+      },
+      {
+        "title": "Bahru Zewde, A History of Modern Ethiopia, 1855–1991 (2nd ed., 2001)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-second-boer-war",
+    "qid": "Q215112",
+    "type": "war",
+    "year": 1899,
+    "endYear": 1902,
+    "date": "1899-10-11",
+    "name": {
+      "en": "South African War (Second Boer War)",
+      "zh": "南非战争（第二次布尔战争）"
+    },
+    "summary": {
+      "en": "Britain fought the Transvaal and Orange Free State over control of the gold-rich interior. Its scorched-earth tactics and concentration camps killed tens of thousands of Boer and Black African civilians; the Treaty of Vereeniging (1902) led to the Union of South Africa in 1910.",
+      "zh": "英国与德兰士瓦和奥兰治自由邦为争夺富含黄金的内陆而战。英军的焦土战术与集中营造成数万布尔人和非洲黑人平民死亡；1902年《弗里尼欣和约》之后，1910年成立南非联邦。"
+    },
+    "lat": -25.7461,
+    "lon": 28.1881,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Wikipedia: Second Boer War",
+        "url": "https://en.wikipedia.org/wiki/Second_Boer_War"
+      },
+      {
+        "title": "Thomas Pakenham, The Boer War (1979)"
+      },
+      {
+        "title": "Peter Warwick, Black People and the South African War, 1899–1902 (1983)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-war-of-the-golden-stool",
+    "qid": "Q356920",
+    "type": "war",
+    "year": 1900,
+    "name": {
+      "en": "War of the Golden Stool",
+      "zh": "金凳子战争"
+    },
+    "summary": {
+      "en": "When the British governor demanded to sit on the Golden Stool, the sacred symbol of Asante nationhood, Queen Mother Yaa Asantewaa of Ejisu led an uprising that besieged the British fort at Kumasi. The rising was crushed and Asante annexed, but the Stool itself was never surrendered.",
+      "zh": "英国总督要求坐上阿散蒂民族的神圣象征“金凳子”，埃吉苏王太后雅阿·阿散蒂瓦随即领导起义，围攻库马西的英军堡垒。起义被镇压、阿散蒂遭吞并，但金凳子始终未被交出。"
+    },
+    "lat": 6.7,
+    "lon": -1.625,
+    "importance": 3,
+    "polities": [
+      "polity-asante"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: War of the Golden Stool",
+        "url": "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool"
+      },
+      {
+        "title": "A. Adu Boahen, Yaa Asantewaa and the Asante–British War of 1900–1 (2003)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VII: Africa under Colonial Domination 1880–1935 (ed. A. Adu Boahen, 1985)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-herero-and-nama-genocide",
+    "qid": "Q312492",
+    "type": "disaster",
+    "year": 1904,
+    "endYear": 1908,
+    "name": {
+      "en": "Herero and Nama genocide",
+      "zh": "赫雷罗人和纳马人种族灭绝"
+    },
+    "summary": {
+      "en": "After the Herero and Nama rose against German rule in South West Africa, General von Trotha issued an extermination order; survivors were driven into the Omaheke desert or concentration camps. Most Herero and about half the Nama died. Germany acknowledged the events as genocide in 2021.",
+      "zh": "赫雷罗人和纳马人起义反抗德属西南非洲统治后，冯·特罗塔将军下达灭绝令，幸存者被驱入奥马赫科沙漠或集中营。大多数赫雷罗人和约半数纳马人死亡。德国于2021年承认其为种族灭绝。"
+    },
+    "lat": -20.5,
+    "lon": 17.24,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Wikipedia: Herero and Nama genocide",
+        "url": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide"
+      },
+      {
+        "title": "David Olusoga & Casper W. Erichsen, The Kaiser’s Holocaust (2010)"
+      },
+      {
+        "title": "Jürgen Zimmerer & Joachim Zeller (eds.), Genocide in German South-West Africa (2008)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Marker at the Waterberg, site of the decisive battle of August 1904 (approximate)."
+  },
+  {
+    "region": "africa",
+    "id": "ev-maji-maji-war",
+    "qid": "Q705553",
+    "type": "war",
+    "year": 1905,
+    "endYear": 1907,
+    "name": {
+      "en": "Maji Maji War",
+      "zh": "马及马及起义"
+    },
+    "summary": {
+      "en": "Peoples of southern German East Africa, resisting forced cotton cultivation and taxes, rose together, many trusting sacred water (maji) from the prophet Kinjikitile to turn bullets. German famine tactics left perhaps 75,000–300,000 dead.",
+      "zh": "德属东非南部各族因反抗强制种植棉花和苛税而联合起义，许多人相信先知金吉基提勒所赐的圣水（“马及”）能化解子弹。德军的饥荒战术造成约7.5万至30万人死亡。"
+    },
+    "lat": -8.5,
+    "lon": 38.9,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: Maji Maji Rebellion",
+        "url": "https://en.wikipedia.org/wiki/Maji_Maji_Rebellion"
+      },
+      {
+        "title": "John Iliffe, A Modern History of Tanganyika (1979)"
+      },
+      {
+        "title": "G. C. K. Gwassa & John Iliffe (eds.), Records of the Maji Maji Rising (1967)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Marker in the Matumbi Hills where the rising began (approximate); death toll estimates vary widely."
+  },
+  {
+    "region": "africa",
+    "id": "ev-great-mosque-of-djenne-rebuilt",
+    "qid": "Q683632",
+    "type": "cultural",
+    "year": 1906,
+    "endYear": 1907,
+    "name": {
+      "en": "Great Mosque of Djenné rebuilt",
+      "zh": "杰内大清真寺重建"
+    },
+    "summary": {
+      "en": "The Djenné masons’ guild under master builder Ismaila Traoré raised the present mud-brick mosque on the site of the medieval original. Re-plastered by the whole town each year, it is the largest earthen building in the world and an emblem of Sudano-Sahelian architecture.",
+      "zh": "杰内泥瓦匠行会在建筑大师伊斯梅拉·特拉奥雷主持下，于中世纪原寺旧址上建起现今的泥砖清真寺。全城居民每年为之重新抹泥，它是世界上最大的土建筑，也是苏丹—萨赫勒建筑风格的象征。"
+    },
+    "lat": 13.9053,
+    "lon": -4.5556,
+    "importance": 3,
+    "place": "place-djenne",
+    "sources": [
+      {
+        "title": "Wikipedia: Great Mosque of Djenné",
+        "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Old Towns of Djenné",
+        "url": "https://whc.unesco.org/en/list/116"
+      },
+      {
+        "title": "Jean-Louis Bourgeois, “The History of the Great Mosques of Djenné”, African Arts 20/3 (1987)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-second-italo-ethiopian-war",
+    "qid": "Q94916",
+    "type": "war",
+    "year": 1935,
+    "endYear": 1936,
+    "date": "1935-10-03",
+    "name": {
+      "en": "Italian invasion of Ethiopia",
+      "zh": "意大利入侵埃塞俄比亚"
+    },
+    "summary": {
+      "en": "Mussolini’s Italy invaded Ethiopia, using poison gas against soldiers and civilians, and took Addis Ababa in May 1936. Haile Selassie’s appeal to the League of Nations went unanswered, but Ethiopian patriots kept fighting until liberation with British help in 1941.",
+      "zh": "墨索里尼的意大利入侵埃塞俄比亚，对军民使用毒气，1936年5月攻占亚的斯亚贝巴。海尔·塞拉西向国际联盟的呼吁未获回应，但埃塞俄比亚爱国者坚持抗战，1941年在英国协助下光复。"
+    },
+    "lat": 9.0358,
+    "lon": 38.7525,
+    "importance": 4,
+    "people": [
+      "person-haile-selassie"
+    ],
+    "polities": [
+      "polity-ethiopian-empire"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Second Italo-Ethiopian War",
+        "url": "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War"
+      },
+      {
+        "title": "Bahru Zewde, A History of Modern Ethiopia, 1855–1991 (2nd ed., 2001)"
+      },
+      {
+        "title": "Haile Selassie I, Appeal to the League of Nations (30 June 1936)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata ends the war in February 1937 (last regular resistance); most accounts date the conventional war 1935–36."
+  },
+  {
+    "region": "africa",
+    "id": "ev-egyptian-revolution-1952",
+    "qid": "Q1780431",
+    "type": "political",
+    "year": 1952,
+    "date": "1952-07-23",
+    "name": {
+      "en": "Egyptian revolution of 1952",
+      "zh": "1952年埃及革命"
+    },
+    "summary": {
+      "en": "The Free Officers led by Gamal Abdel Nasser and Muhammad Naguib seized power in a bloodless coup, forcing King Farouk to abdicate. The monarchy was abolished in 1953, land reform followed, and Nasser emerged as leader of Arab nationalism and the non-aligned world.",
+      "zh": "以纳赛尔和纳吉布为首的“自由军官组织”发动不流血政变，迫使法鲁克国王退位。1953年废除君主制，随后推行土地改革，纳赛尔成为阿拉伯民族主义和不结盟运动的领袖。"
+    },
+    "lat": 30.0444,
+    "lon": 31.2358,
+    "importance": 4,
+    "people": [
+      "person-gamal-abdel-nasser"
+    ],
+    "place": "place-cairo",
+    "sources": [
+      {
+        "title": "Wikipedia: Egyptian revolution of 1952",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_revolution_of_1952"
+      },
+      {
+        "title": "Joel Gordon, Nasser’s Blessed Movement: Egypt’s Free Officers and the July Revolution (1992)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VIII: Africa since 1935 (ed. A. A. Mazrui, 1993)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-mau-mau-uprising",
+    "qid": "Q476855",
+    "type": "war",
+    "year": 1952,
+    "endYear": 1960,
+    "name": {
+      "en": "Mau Mau uprising",
+      "zh": "茅茅起义"
+    },
+    "summary": {
+      "en": "The Kenya Land and Freedom Army, mainly Kikuyu, fought British colonial rule and settler land seizure in the central highlands. Britain declared an emergency and detained some tens of thousands in camps where abuse was systematic; the struggle hastened Kenyan independence in 1963.",
+      "zh": "以基库尤人为主的“肯尼亚土地与自由军”在中部高原反抗英国殖民统治和移民夺地。英国宣布紧急状态，将数以万计的人关入系统性施虐的拘留营；这一斗争加速了肯尼亚于1963年独立。"
+    },
+    "lat": -0.42,
+    "lon": 36.95,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: Mau Mau rebellion",
+        "url": "https://en.wikipedia.org/wiki/Mau_Mau_rebellion"
+      },
+      {
+        "title": "Caroline Elkins, Imperial Reckoning: The Untold Story of Britain’s Gulag in Kenya (2005)"
+      },
+      {
+        "title": "David Anderson, Histories of the Hanged (2005)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Marker at Nyeri in the central highlands."
+  },
+  {
+    "region": "africa",
+    "id": "ev-algerian-war-of-independence",
+    "qid": "Q200790",
+    "type": "war",
+    "year": 1954,
+    "endYear": 1962,
+    "date": "1954-11-01",
+    "name": {
+      "en": "Algerian War of Independence",
+      "zh": "阿尔及利亚独立战争"
+    },
+    "summary": {
+      "en": "The National Liberation Front (FLN) launched coordinated attacks on 1 November 1954. France answered with mass troop deployments, torture and resettlement camps; after hundreds of thousands of deaths the Évian Accords led to Algerian independence on 5 July 1962.",
+      "zh": "民族解放阵线于1954年11月1日发动协同袭击。法国以大规模派兵、酷刑和强制安置营回应；在数十万人死亡后，《埃维昂协议》促成阿尔及利亚于1962年7月5日独立。"
+    },
+    "lat": 36.7538,
+    "lon": 3.0588,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Wikipedia: Algerian War",
+        "url": "https://en.wikipedia.org/wiki/Algerian_War"
+      },
+      {
+        "title": "Alistair Horne, A Savage War of Peace: Algeria 1954–1962 (1977)"
+      },
+      {
+        "title": "Benjamin Stora, Algeria 1830–2000: A Short History (2001)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-ghana-independence",
+    "qid": "Q5555325",
+    "type": "political",
+    "year": 1957,
+    "date": "1957-03-06",
+    "name": {
+      "en": "Independence of Ghana",
+      "zh": "加纳独立"
+    },
+    "summary": {
+      "en": "The Gold Coast became independent as Ghana under Kwame Nkrumah, one of the first sub-Saharan colonies to end European rule. At midnight Nkrumah declared that Ghana’s independence was meaningless unless linked to the total liberation of Africa; Accra became a hub of pan-Africanism.",
+      "zh": "黄金海岸在克瓦米·恩克鲁玛领导下独立为加纳，是撒哈拉以南最早摆脱欧洲统治的殖民地之一。午夜时分恩克鲁玛宣告，除非与整个非洲的解放相联系，加纳的独立便毫无意义；阿克拉由此成为泛非主义中心。"
+    },
+    "lat": 5.5502,
+    "lon": -0.2174,
+    "importance": 5,
+    "people": [
+      "person-kwame-nkrumah"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Dominion of Ghana",
+        "url": "https://en.wikipedia.org/wiki/Dominion_of_Ghana"
+      },
+      {
+        "title": "Kwame Nkrumah, Ghana: The Autobiography of Kwame Nkrumah (1957)"
+      },
+      {
+        "title": "Britannica: Ghana: Independence"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VIII: Africa since 1935 (ed. A. A. Mazrui, 1993)"
+      }
+    ],
+    "confidence": "high",
+    "note": "QID is the Dominion of Ghana (1957–1960), the state created on independence day."
+  },
+  {
+    "region": "africa",
+    "id": "ev-year-of-africa",
+    "qid": "Q387647",
+    "type": "political",
+    "year": 1960,
+    "name": {
+      "en": "Year of Africa",
+      "zh": "非洲年"
+    },
+    "summary": {
+      "en": "Seventeen African states, including Nigeria, the Congo and most of French West and Equatorial Africa, gained independence in 1960. In December the UN General Assembly adopted Resolution 1514 declaring colonialism a denial of human rights.",
+      "zh": "1960年，包括尼日利亚、刚果以及法属西非和赤道非洲大部在内的十七个非洲国家获得独立。同年12月，联合国大会通过第1514号决议，宣布殖民主义是对基本人权的否定。"
+    },
+    "lat": 6.4561,
+    "lon": 3.3936,
+    "importance": 5,
+    "people": [
+      "person-patrice-lumumba"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Year of Africa",
+        "url": "https://en.wikipedia.org/wiki/Year_of_Africa"
+      },
+      {
+        "title": "UN General Assembly Resolution 1514 (XV), Declaration on the Granting of Independence to Colonial Countries and Peoples (14 Dec 1960)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VIII: Africa since 1935 (ed. A. A. Mazrui, 1993)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Marker placed at Lagos (Nigeria, independent 1 October 1960) as a symbolic location."
+  },
+  {
+    "region": "africa",
+    "id": "ev-sharpeville-massacre",
+    "qid": "Q518753",
+    "type": "political",
+    "year": 1960,
+    "date": "1960-03-21",
+    "name": {
+      "en": "Sharpeville massacre",
+      "zh": "沙佩维尔惨案"
+    },
+    "summary": {
+      "en": "South African police opened fire on a crowd protesting the pass laws at Sharpeville, killing 69 people. The government banned the ANC and PAC, which turned to armed struggle; 21 March is now Human Rights Day in South Africa and the UN day against racial discrimination.",
+      "zh": "南非警察向沙佩维尔抗议通行证法的人群开枪，打死69人。政府随即取缔非国大和泛非大，两者转向武装斗争；3月21日现为南非人权日和联合国消除种族歧视国际日。"
+    },
+    "lat": -26.6883,
+    "lon": 27.8719,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: Sharpeville massacre",
+        "url": "https://en.wikipedia.org/wiki/Sharpeville_massacre"
+      },
+      {
+        "title": "Tom Lodge, Sharpeville: An Apartheid Massacre and Its Consequences (2011)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VIII: Africa since 1935 (ed. A. A. Mazrui, 1993)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-congo-crisis",
+    "qid": "Q1773926",
+    "type": "war",
+    "year": 1960,
+    "endYear": 1965,
+    "name": {
+      "en": "Congo Crisis",
+      "zh": "刚果危机"
+    },
+    "summary": {
+      "en": "Days after independence from Belgium, the Congo faced an army mutiny and the Belgian-backed secessions of Katanga and South Kasai. Prime Minister Lumumba was deposed and murdered in 1961; UN intervention, Cold War rivalry and rebellions ended with Mobutu’s coup in 1965.",
+      "zh": "刚果脱离比利时独立数日后即遭遇军队哗变，以及比利时支持的加丹加和南开赛分裂。卢蒙巴总理于1961年被推翻并遇害；联合国干预、冷战角力和多次叛乱最终以1965年蒙博托政变告终。"
+    },
+    "lat": -4.3219,
+    "lon": 15.3119,
+    "importance": 4,
+    "people": [
+      "person-patrice-lumumba"
+    ],
+    "place": "place-kinshasa",
+    "sources": [
+      {
+        "title": "Wikipedia: Congo Crisis",
+        "url": "https://en.wikipedia.org/wiki/Congo_Crisis"
+      },
+      {
+        "title": "Georges Nzongola-Ntalaja, The Congo from Leopold to Kabila: A People’s History (2002)"
+      },
+      {
+        "title": "Ludo De Witte, The Assassination of Lumumba (2001)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata ends the crisis in 1966; most accounts close it with Mobutu’s coup of November 1965."
+  },
+  {
+    "region": "africa",
+    "id": "ev-founding-of-the-oau",
+    "qid": "Q191703",
+    "type": "founding",
+    "year": 1963,
+    "date": "1963-05-25",
+    "name": {
+      "en": "Organisation of African Unity founded",
+      "zh": "非洲统一组织成立"
+    },
+    "summary": {
+      "en": "Thirty-two independent African states signed the OAU Charter in Addis Ababa, hosted by Haile Selassie. The organisation backed liberation movements against colonial and white-minority rule while upholding inherited borders; 25 May is celebrated as Africa Day.",
+      "zh": "三十二个独立非洲国家在海尔·塞拉西主持下于亚的斯亚贝巴签署《非洲统一组织宪章》。该组织支持反对殖民和白人少数统治的解放运动，同时维护殖民时期遗留的边界；5月25日被定为“非洲日”。"
+    },
+    "lat": 9.0358,
+    "lon": 38.7525,
+    "importance": 4,
+    "people": [
+      "person-haile-selassie",
+      "person-kwame-nkrumah"
+    ],
+    "place": "place-addis-ababa",
+    "sources": [
+      {
+        "title": "Wikipedia: Organisation of African Unity",
+        "url": "https://en.wikipedia.org/wiki/Organisation_of_African_Unity"
+      },
+      {
+        "title": "Charter of the Organization of African Unity (Addis Ababa, 25 May 1963)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VIII: Africa since 1935 (ed. A. A. Mazrui, 1993)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-nigerian-civil-war",
+    "qid": "Q829875",
+    "type": "war",
+    "year": 1967,
+    "endYear": 1970,
+    "date": "1967-07-06",
+    "name": {
+      "en": "Nigerian Civil War (Biafran War)",
+      "zh": "尼日利亚内战（比夫拉战争）"
+    },
+    "summary": {
+      "en": "After massacres of Igbo in the north, the Eastern Region seceded as the Republic of Biafra under Odumegwu Ojukwu. A federal blockade caused mass famine; estimates of deaths, mostly civilian, range from about one to two million before Biafra surrendered in January 1970.",
+      "zh": "北方发生针对伊博人的屠杀后，东区在奥朱古领导下宣布独立为比夫拉共和国。联邦封锁造成大饥荒；至1970年1月比夫拉投降，估计约一百万至两百万人死亡，多为平民。"
+    },
+    "lat": 6.4584,
+    "lon": 7.5464,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Wikipedia: Nigerian Civil War",
+        "url": "https://en.wikipedia.org/wiki/Nigerian_Civil_War"
+      },
+      {
+        "title": "John de St. Jorre, The Nigerian Civil War (1972)"
+      },
+      {
+        "title": "Chinua Achebe, There Was a Country: A Personal History of Biafra (2012)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Marker at Enugu, first capital of Biafra."
+  },
+  {
+    "region": "africa",
+    "id": "ev-soweto-uprising",
+    "qid": "Q153081",
+    "type": "political",
+    "year": 1976,
+    "date": "1976-06-16",
+    "name": {
+      "en": "Soweto uprising",
+      "zh": "索韦托起义"
+    },
+    "summary": {
+      "en": "Thousands of Black schoolchildren in Soweto marched against compulsory Afrikaans instruction; police fired on them, killing Hector Pieterson among many others. Unrest spread nationwide and a new generation joined the liberation movements; 16 June is now Youth Day.",
+      "zh": "索韦托数千名黑人学生游行反对强制以阿非利卡语授课，警察向他们开枪，赫克托·彼得森等多人遇难。动荡蔓延全国，新一代青年投身解放运动；6月16日现为南非青年节。"
+    },
+    "lat": -26.2485,
+    "lon": 27.854,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: Soweto uprising",
+        "url": "https://en.wikipedia.org/wiki/Soweto_uprising"
+      },
+      {
+        "title": "Baruch Hirson, Year of Fire, Year of Ash: The Soweto Revolt (1979)"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VIII: Africa since 1935 (ed. A. A. Mazrui, 1993)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-rwandan-genocide",
+    "qid": "Q131297",
+    "type": "disaster",
+    "year": 1994,
+    "date": "1994-04-07",
+    "name": {
+      "en": "Genocide against the Tutsi in Rwanda",
+      "zh": "卢旺达图西族种族灭绝"
+    },
+    "summary": {
+      "en": "After President Habyarimana’s plane was shot down, Hutu extremist militias and soldiers killed some 800,000 people, mostly Tutsi and also moderate Hutu, in about 100 days. The UN withdrew most peacekeepers; the killing ended when the Rwandan Patriotic Front took Kigali in July.",
+      "zh": "哈比亚利马纳总统座机被击落后，胡图极端民兵与士兵在约一百天内杀害约八十万人，主要是图西族，也有温和派胡图族。联合国撤走大部分维和人员；7月卢旺达爱国阵线攻占基加利，屠杀才告结束。"
+    },
+    "lat": -1.9441,
+    "lon": 30.0619,
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Wikipedia: Rwandan genocide",
+        "url": "https://en.wikipedia.org/wiki/Rwandan_genocide"
+      },
+      {
+        "title": "Alison Des Forges, Leave None to Tell the Story: Genocide in Rwanda (Human Rights Watch, 1999)",
+        "url": "https://www.hrw.org/reports/1999/rwanda/"
+      },
+      {
+        "title": "Report of the Independent Inquiry into the Actions of the United Nations during the 1994 Genocide in Rwanda (1999)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-south-africa-1994-election",
+    "qid": "Q957012",
+    "type": "political",
+    "year": 1994,
+    "date": "1994-04-27",
+    "name": {
+      "en": "South Africa’s first democratic election",
+      "zh": "南非首次民主选举"
+    },
+    "summary": {
+      "en": "After negotiations that ended apartheid, South Africans of all races voted for the first time; the ANC won 62.6 percent. Nelson Mandela was inaugurated as president at the Union Buildings in Pretoria on 10 May 1994, heading a government of national unity.",
+      "zh": "在终结种族隔离的谈判之后，南非各种族民众首次共同投票，非国大获得62.6%的选票。1994年5月10日，纳尔逊·曼德拉在比勒陀利亚联合大厦宣誓就任总统，领导民族团结政府。"
+    },
+    "lat": -25.7402,
+    "lon": 28.2121,
+    "importance": 5,
+    "people": [
+      "person-nelson-mandela"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: 1994 South African general election",
+        "url": "https://en.wikipedia.org/wiki/1994_South_African_general_election"
+      },
+      {
+        "title": "Nelson Mandela, Long Walk to Freedom (1994)"
+      },
+      {
+        "title": "Britannica: South Africa: The end of apartheid"
+      },
+      {
+        "title": "UNESCO General History of Africa, Vol. VIII: Africa since 1935 (ed. A. A. Mazrui, 1993)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "region": "africa",
+    "id": "ev-african-union-launched",
+    "qid": "Q7159",
+    "type": "founding",
+    "year": 2002,
+    "date": "2002-07-09",
+    "name": {
+      "en": "African Union launched",
+      "zh": "非洲联盟成立"
+    },
+    "summary": {
+      "en": "The African Union replaced the OAU at a summit in Durban, with a mandate for deeper integration, a Pan-African Parliament and a Peace and Security Council. Unlike its predecessor, its Constitutive Act allows intervention in member states in cases of genocide and war crimes.",
+      "zh": "非洲联盟在德班峰会上取代非洲统一组织，以深化一体化为宗旨，设立泛非议会和和平与安全理事会。与前身不同，其《组织法》允许在发生种族灭绝和战争罪时干预成员国。"
+    },
+    "lat": -29.8587,
+    "lon": 31.0218,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: African Union",
+        "url": "https://en.wikipedia.org/wiki/African_Union"
+      },
+      {
+        "title": "Constitutive Act of the African Union (Lomé, 2000)"
+      },
+      {
+        "title": "Corinne A. A. Packer & Donald Rukare, “The New African Union and Its Constitutive Act”, American Journal of International Law 96/2 (2002)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata’s inception date (9 September 1999) is the Sirte Declaration; the AU was formally launched in Durban on 9 July 2002."
+  },
+  {
+    "region": "africa",
+    "id": "ev-tunisian-revolution",
+    "qid": "Q46959",
+    "type": "political",
+    "year": 2010,
+    "endYear": 2011,
+    "date": "2010-12-18",
+    "name": {
+      "en": "Tunisian revolution",
+      "zh": "突尼斯革命"
+    },
+    "summary": {
+      "en": "The self-immolation of street vendor Mohamed Bouazizi in Sidi Bouzid sparked nationwide protests that forced President Ben Ali to flee on 14 January 2011, igniting the Arab Spring. Tunisia’s National Dialogue Quartet received the 2015 Nobel Peace Prize for guiding a democratic transition.",
+      "zh": "西迪布济德街头小贩穆罕默德·布瓦吉吉自焚，引发全国抗议，迫使本·阿里总统于2011年1月14日出逃，点燃“阿拉伯之春”。突尼斯全国对话四方机制因引导民主转型而获2015年诺贝尔和平奖。"
+    },
+    "lat": 35.0382,
+    "lon": 9.4849,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Wikipedia: Tunisian revolution",
+        "url": "https://en.wikipedia.org/wiki/Tunisian_revolution"
+      },
+      {
+        "title": "Britannica: Jasmine Revolution"
+      },
+      {
+        "title": "Nobel Peace Prize 2015: National Dialogue Quartet",
+        "url": "https://www.nobelprize.org/prizes/peace/2015/summary/"
+      }
+    ],
+    "confidence": "high"
+  }
+]

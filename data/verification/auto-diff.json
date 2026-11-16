@@ -1,5 +1,479 @@
 [
  {
+  "key": "ev-arab-conquest-of-egypt:coord",
+  "id": "ev-arab-conquest-of-egypt",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   30.0061,
+   31.2297
+  ],
+  "wikidata": [
+   28,
+   32.1
+  ],
+  "qid": "Q317519",
+  "km": 239,
+  "resolution": null
+ },
+ {
+  "key": "ev-muslim-conquest-of-the-maghreb:coord",
+  "id": "ev-muslim-conquest-of-the-maghreb",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.6781,
+   10.0963
+  ],
+  "wikidata": [
+   30,
+   5
+  ],
+  "qid": "Q925960",
+  "km": 790,
+  "resolution": null
+ },
+ {
+  "key": "ev-founding-of-marrakesh:year",
+  "id": "ev-founding-of-marrakesh",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "year",
+  "ours": 1070,
+  "wikidata": 1065,
+  "qid": "Q101625",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-ridaniya:coord",
+  "id": "ev-battle-of-ridaniya",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   30.07,
+   31.29
+  ],
+  "wikidata": [
+   27,
+   29
+  ],
+  "qid": "Q537923",
+  "km": 408,
+  "resolution": null
+ },
+ {
+  "key": "ev-ethiopian-adal-war:coord",
+  "id": "ev-ethiopian-adal-war",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   11.9,
+   37.9
+  ],
+  "wikidata": [
+   9,
+   40
+  ],
+  "qid": "Q2915203",
+  "km": 396,
+  "resolution": null
+ },
+ {
+  "key": "ev-fula-jihads-sokoto:year",
+  "id": "ev-fula-jihads-sokoto",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "year",
+  "ours": 1804,
+  "wikidata": 1725,
+  "qid": "Q2736105",
+  "resolution": null
+ },
+ {
+  "key": "ev-fula-jihads-sokoto:coord",
+  "id": "ev-fula-jihads-sokoto",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   13.0622,
+   5.2339
+  ],
+  "wikidata": [
+   12,
+   3
+  ],
+  "qid": "Q2736105",
+  "km": 270,
+  "resolution": null
+ },
+ {
+  "key": "ev-french-conquest-of-algeria:coord",
+  "id": "ev-french-conquest-of-algeria",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   36.7538,
+   3.0588
+  ],
+  "wikidata": [
+   28,
+   1
+  ],
+  "qid": "Q2629782",
+  "km": 992,
+  "resolution": null
+ },
+ {
+  "key": "ev-scramble-for-africa:year",
+  "id": "ev-scramble-for-africa",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "year",
+  "ours": 1881,
+  "wikidata": 1885,
+  "qid": "Q179848",
+  "resolution": null
+ },
+ {
+  "key": "ev-second-boer-war:coord",
+  "id": "ev-second-boer-war",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -25.7461,
+   28.1881
+  ],
+  "wikidata": [
+   -29,
+   24
+  ],
+  "qid": "Q215112",
+  "km": 549,
+  "resolution": null
+ },
+ {
+  "key": "ev-herero-and-nama-genocide:coord",
+  "id": "ev-herero-and-nama-genocide",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -20.5,
+   17.24
+  ],
+  "wikidata": [
+   -22,
+   17
+  ],
+  "qid": "Q312492",
+  "km": 169,
+  "resolution": null
+ },
+ {
+  "key": "ev-maji-maji-war:coord",
+  "id": "ev-maji-maji-war",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -8.5,
+   38.9
+  ],
+  "wikidata": [
+   -2.4131,
+   30.5436
+  ],
+  "qid": "Q705553",
+  "km": 1146,
+  "resolution": null
+ },
+ {
+  "key": "ev-second-italo-ethiopian-war:coord",
+  "id": "ev-second-italo-ethiopian-war",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   9.0358,
+   38.7525
+  ],
+  "wikidata": [
+   12.6,
+   37.4667
+  ],
+  "qid": "Q94916",
+  "km": 420,
+  "resolution": null
+ },
+ {
+  "key": "ev-mau-mau-uprising:coord",
+  "id": "ev-mau-mau-uprising",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -0.42,
+   36.95
+  ],
+  "wikidata": [
+   -4.0437,
+   39.6668
+  ],
+  "qid": "Q476855",
+  "km": 503,
+  "resolution": null
+ },
+ {
+  "key": "ev-african-union-launched:year",
+  "id": "ev-african-union-launched",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "year",
+  "ours": 2002,
+  "wikidata": 1999,
+  "qid": "Q7159",
+  "resolution": null
+ },
+ {
+  "key": "ev-african-union-launched:coord",
+  "id": "ev-african-union-launched",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -29.8587,
+   31.0218
+  ],
+  "wikidata": [
+   0,
+   15
+  ],
+  "qid": "Q7159",
+  "km": 3729,
+  "resolution": null
+ },
+ {
+  "key": "ev-tunisian-revolution:coord",
+  "id": "ev-tunisian-revolution",
+  "dataset": "africa",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.0382,
+   9.4849
+  ],
+  "wikidata": [
+   34,
+   10
+  ],
+  "qid": "Q46959",
+  "km": 125,
+  "resolution": null
+ },
+ {
+  "key": "polity-ayyubid-egypt:to",
+  "id": "polity-ayyubid-egypt",
+  "dataset": "africa",
+  "kind": "polities",
+  "field": "to",
+  "ours": 1250,
+  "wikidata": 1341,
+  "qid": "Q180114",
+  "resolution": null
+ },
+ {
+  "key": "polity-ghana-empire:from",
+  "id": "polity-ghana-empire",
+  "dataset": "africa",
+  "kind": "polities",
+  "field": "from",
+  "ours": 300,
+  "wikidata": 100,
+  "qid": "Q206789",
+  "resolution": null
+ },
+ {
+  "key": "polity-zagwe:from",
+  "id": "polity-zagwe",
+  "dataset": "africa",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1137,
+  "wikidata": 900,
+  "qid": "Q140446",
+  "resolution": null
+ },
+ {
+  "key": "polity-marinid:from",
+  "id": "polity-marinid",
+  "dataset": "africa",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1244,
+  "wikidata": 1215,
+  "qid": "Q582861",
+  "resolution": null
+ },
+ {
+  "key": "polity-benin-kingdom:from",
+  "id": "polity-benin-kingdom",
+  "dataset": "africa",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1180,
+  "wikidata": 1170,
+  "qid": "Q171203",
+  "resolution": null
+ },
+ {
+  "key": "ev-genghis-khan-proclaimed:coord",
+  "id": "ev-genghis-khan-proclaimed",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   48.9,
+   109
+  ],
+  "wikidata": [
+   47.1,
+   109.1667
+  ],
+  "qid": "Q12557",
+  "km": 201,
+  "resolution": null
+ },
+ {
+  "key": "ev-mongol-invasion-of-khwarazm:coord",
+  "id": "ev-mongol-invasion-of-khwarazm",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.6542,
+   66.9597
+  ],
+  "wikidata": [
+   45.3,
+   63.9
+  ],
+  "qid": "Q431177",
+  "km": 676,
+  "resolution": null
+ },
+ {
+  "key": "ev-toluid-civil-war:coord",
+  "id": "ev-toluid-civil-war",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   47.1975,
+   102.8238
+  ],
+  "wikidata": [
+   45.3,
+   63.9
+  ],
+  "qid": "Q16871984",
+  "km": 2969,
+  "resolution": null
+ },
+ {
+  "key": "ev-bibi-khanym-mosque:year",
+  "id": "ev-bibi-khanym-mosque",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1399,
+  "wikidata": 1404,
+  "qid": "Q679218",
+  "resolution": null
+ },
+ {
+  "key": "ev-central-asian-revolt-1916:coord",
+  "id": "ev-central-asian-revolt-1916",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   40.28,
+   69.62
+  ],
+  "wikidata": [
+   45.3,
+   63.9
+  ],
+  "qid": "Q4438492",
+  "km": 727,
+  "resolution": null
+ },
+ {
+  "key": "ev-basmachi-movement:coord",
+  "id": "ev-basmachi-movement",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   40.4,
+   71.8
+  ],
+  "wikidata": [
+   41.2667,
+   69.2167
+  ],
+  "qid": "Q255352",
+  "km": 238,
+  "resolution": null
+ },
+ {
+  "key": "ev-tajikistani-civil-war:coord",
+  "id": "ev-tajikistani-civil-war",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.5731,
+   68.7864
+  ],
+  "wikidata": [
+   38.5833,
+   71.3667
+  ],
+  "qid": "Q1122110",
+  "km": 224,
+  "resolution": null
+ },
+ {
+  "key": "polity-hephthalite:from",
+  "id": "polity-hephthalite",
+  "dataset": "central-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 450,
+  "wikidata": 408,
+  "qid": "Q26576",
+  "resolution": null
+ },
+ {
+  "key": "polity-hephthalite:to",
+  "id": "polity-hephthalite",
+  "dataset": "central-asia",
+  "kind": "polities",
+  "field": "to",
+  "ours": 560,
+  "wikidata": 670,
+  "qid": "Q26576",
+  "resolution": null
+ },
+ {
   "key": "ev-yellow-turban-rebellion:coord",
   "id": "ev-yellow-turban-rebellion",
   "dataset": "china",
@@ -816,6 +1290,39 @@
   "resolution": null
  },
  {
+  "key": "polity-visigothic-kingdom:from",
+  "id": "polity-visigothic-kingdom",
+  "dataset": "europe",
+  "kind": "polities",
+  "field": "from",
+  "ours": 418,
+  "wikidata": 476,
+  "qid": "Q126936",
+  "resolution": null
+ },
+ {
+  "key": "polity-visigothic-kingdom:to",
+  "id": "polity-visigothic-kingdom",
+  "dataset": "europe",
+  "kind": "polities",
+  "field": "to",
+  "ours": 711,
+  "wikidata": 718,
+  "qid": "Q126936",
+  "resolution": null
+ },
+ {
+  "key": "polity-united-kingdom:from",
+  "id": "polity-united-kingdom",
+  "dataset": "europe",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1801,
+  "wikidata": 1921,
+  "qid": "Q145",
+  "resolution": null
+ },
+ {
   "key": "ev-goguryeo-tang-war:coord",
   "id": "ev-goguryeo-tang-war",
   "dataset": "japan-korea",
@@ -1189,7 +1696,14 @@
   ],
   "qid": "Q6382635",
   "km": 422,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's coordinate is the National Museum, Jakarta, where the stone is kept; the inscription was found in 1920 at Kedukan Bukit on the Tatang river, Palembang, where the curated point sits.",
+   "checked": [
+    "Wikipedia: Kedukan Bukit inscription (found 1920 at Kedukan Bukit, Palembang; now in the National Museum, Jakarta)",
+    "ANU Press, Śrīwijaya: A Centre of Learning? (https://press-files.anu.edu.au/downloads/press/p69411/html/ch15s05.html)"
+   ]
+  }
  },
  {
   "key": "ev-prambanan:year",
@@ -1200,7 +1714,14 @@
   "ours": 856,
   "wikidata": 850,
   "qid": "Q47721",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The event is the consecration recorded by the Shivagrha inscription, dated Śaka 778 = 12 November 856; Wikidata's c. 850 is the approximate start of construction under Rakai Pikatan. Record medium with note.",
+   "checked": [
+    "Wikipedia: Shivagrha inscription (Śaka 778 = 856; issued by Dyah Lokapala after Rakai Pikatan)",
+    "UNESCO World Heritage Centre: Prambanan Temple Compounds (https://whc.unesco.org/en/list/642)"
+   ]
+  }
  },
  {
   "key": "ev-fall-of-ayutthaya:coord",
@@ -1218,7 +1739,14 @@
   ],
   "qid": "Q31307",
   "km": 248,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The war culminated in the siege and sack of Ayutthaya city (7 April 1767), where the point sits; Wikidata's 13,98.75 is a generic point on the Tenasserim border.",
+   "checked": [
+    "C. Baker & P. Phongpaichit, A History of Thailand (2009)",
+    "V. Lieberman, Strange Parallels, vol. 1 (2003)"
+   ]
+  }
  },
  {
   "key": "ev-philippine-revolution:coord",
@@ -1236,7 +1764,14 @@
   ],
   "qid": "Q422082",
   "km": 365,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Point marks Pugad Lawin/Balintawak (Quezon City), site of the Katipunan's 'Cry' of August 1896; Wikidata's 12,123 is the archipelago centroid.",
+   "checked": [
+    "T. A. Agoncillo, The Revolt of the Masses (1956)",
+    "Encyclopaedia Britannica: Philippine Revolution"
+   ]
+  }
  },
  {
   "key": "ev-vietnam-war:year",
@@ -1247,7 +1782,14 @@
   "ours": 1955,
   "wikidata": 1975,
   "qid": "Q8740",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's own P580 is 1 November 1955 (US MAAG Vietnam date); the 1975 value is a misused point-in-time. Britannica dates the war 1954–75, within tolerance of 1955.",
+   "checked": [
+    "Encyclopaedia Britannica: Vietnam War",
+    "S. Karnow, Vietnam: A History (1983)"
+   ]
+  }
  },
  {
   "key": "ev-vietnam-war:coord",
@@ -1265,7 +1807,14 @@
   ],
   "qid": "Q8740",
   "km": 418,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Huế, near the 17th-parallel partition and site of the 1968 battle, is a reasonable anchor; Wikidata's 18.2,104.1 lies in Laos. Note added explaining the symbolic placement.",
+   "checked": [
+    "Encyclopaedia Britannica: Vietnam War",
+    "F. Logevall, Embers of War (2012)"
+   ]
+  }
  },
  {
   "key": "ev-cambodian-genocide:coord",
@@ -1283,7 +1832,14 @@
   ],
   "qid": "Q2885072",
   "km": 114,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Point is the Choeung Ek killing field outside Phnom Penh, the principal memorial site (noted); Wikidata's 12.25,105.6 is Cambodia's centroid.",
+   "checked": [
+    "Documentation Center of Cambodia (DC-Cam)",
+    "B. Kiernan, The Pol Pot Regime (1996)"
+   ]
+  }
  },
  {
   "key": "polity-toungoo:from",
@@ -1294,308 +1850,154 @@
   "ours": 1510,
   "wikidata": 1485,
   "qid": "Q519718",
-  "resolution": null
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "Britannica dates the dynasty 1486–1752 (or 1531–1752 from Tabinshwehti); Wikipedia uses 1510, when Toungoo broke with Ava; Wikidata 1485. Record medium; note updated.",
+   "checked": [
+    "Encyclopaedia Britannica: Toungoo dynasty (https://www.britannica.com/topic/Toungoo-dynasty) – 1486–1752 or 1531–1752",
+    "Wikipedia: Toungoo dynasty – 1510–1752"
+   ]
+  }
  },
  {
-  "key": "ev-siege-of-jerusalem-70:qid",
-  "id": "ev-siege-of-jerusalem-70",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q844886",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q844886",
-  "resolution": null
- },
- {
-  "key": "ev-bar-kokhba-revolt:qid",
+  "key": "ev-bar-kokhba-revolt:coord",
   "id": "ev-bar-kokhba-revolt",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q334502",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   31.7311,
+   35.1358
+  ],
+  "wikidata": [
+   32.5,
+   34.9
+  ],
   "qid": "Q334502",
-  "resolution": null
+  "km": 88,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours marks Betar (Battir), the revolt's last stronghold per Cassius Dio and Eusebius; Wikidata's 32.5,34.9 is a generic point on the coastal plain. Note added.",
+   "checked": [
+    "Encyclopaedia Britannica: Second Jewish Revolt (https://www.britannica.com/event/Second-Jewish-Revolt)",
+    "Cassius Dio, Roman History 69.12–14"
+   ]
+  }
  },
  {
-  "key": "ev-battle-of-hormozdgan:qid",
-  "id": "ev-battle-of-hormozdgan",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q2887977",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q2887977",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-edessa:qid",
-  "id": "ev-battle-of-edessa",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q1165502",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q1165502",
-  "resolution": null
- },
- {
-  "key": "ev-christianization-of-armenia:qid",
-  "id": "ev-christianization-of-armenia",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q16402123",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q16402123",
-  "resolution": null
- },
- {
-  "key": "ev-first-council-of-nicaea:qid",
-  "id": "ev-first-council-of-nicaea",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q133331",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q133331",
-  "resolution": null
- },
- {
-  "key": "ev-armenian-alphabet:qid",
-  "id": "ev-armenian-alphabet",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q11932",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q11932",
-  "resolution": null
- },
- {
-  "key": "ev-council-of-chalcedon:qid",
-  "id": "ev-council-of-chalcedon",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q170531",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q170531",
-  "resolution": null
- },
- {
-  "key": "ev-antioch-earthquake-526:qid",
-  "id": "ev-antioch-earthquake-526",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q541723",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q541723",
-  "resolution": null
- },
- {
-  "key": "ev-byzantine-sasanian-war-602:qid",
+  "key": "ev-byzantine-sasanian-war-602:coord",
   "id": "ev-byzantine-sasanian-war-602",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q2326099",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   36.36,
+   43.15
+  ],
+  "wikidata": [
+   33.7,
+   43.5
+  ],
   "qid": "Q2326099",
-  "resolution": null
+  "km": 297,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Nineveh, site of Heraclius' decisive victory in December 627 (noted in record); Wikidata's 33.7,43.5 is an arbitrary central-Iraq point.",
+   "checked": [
+    "J. Howard-Johnston, The Last Great War of Antiquity (2021)",
+    "Encyclopaedia Britannica: Heraclius"
+   ]
+  }
  },
  {
-  "key": "ev-first-revelation:qid",
-  "id": "ev-first-revelation",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q4115424",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q4115424",
-  "resolution": null
- },
- {
-  "key": "ev-hijra:qid",
-  "id": "ev-hijra",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q131482",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q131482",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-badr:qid",
-  "id": "ev-battle-of-badr",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q486124",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q486124",
-  "resolution": null
- },
- {
-  "key": "ev-conquest-of-mecca:qid",
-  "id": "ev-conquest-of-mecca",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q2092033",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q2092033",
-  "resolution": null
- },
- {
-  "key": "ev-early-muslim-conquests:qid",
+  "key": "ev-early-muslim-conquests:year",
   "id": "ev-early-muslim-conquests",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q275918",
-  "wikidata": "missing on Wikidata",
+  "field": "year",
+  "ours": 632,
+  "wikidata": 622,
   "qid": "Q275918",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Expansion beyond Arabia begins after Muhammad's death in 632 (Ridda wars, 633 Iraq campaign); Wikidata's 622 folds in Muhammad's own Arabian campaigns. Kennedy and Britannica start the conquests in 632/633.",
+   "checked": [
+    "H. Kennedy, The Great Arab Conquests (2007)",
+    "Encyclopaedia Britannica: Islamic world – the conquests"
+   ]
+  }
  },
  {
-  "key": "ev-battle-of-yarmouk:qid",
-  "id": "ev-battle-of-yarmouk",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q194226",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q194226",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-qadisiyyah:qid",
-  "id": "ev-battle-of-qadisiyyah",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q836844",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q836844",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-nahavand:qid",
+  "key": "ev-battle-of-nahavand:coord",
   "id": "ev-battle-of-nahavand",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q603549",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   34.19,
+   48.37
+  ],
+  "wikidata": [
+   31.583,
+   44.5
+  ],
   "qid": "Q603549",
-  "resolution": null
+  "km": 463,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's 31.583,44.5 duplicates the al-Qadisiyyah coordinate in Iraq. Nahavand lies in the Zagros at c. 34.19 N, 48.37 E, where the curated point sits.",
+   "checked": [
+    "Encyclopaedia Britannica: Battle of Nahavand (https://www.britannica.com/event/Battle-of-Nahavand)",
+    "Wikidata Q836844 (al-Qadisiyyah): identical coordinates 31.583,44.5"
+   ]
+  }
  },
  {
-  "key": "ev-battle-of-karbala:qid",
-  "id": "ev-battle-of-karbala",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q626058",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q626058",
-  "resolution": null
- },
- {
-  "key": "ev-dome-of-the-rock:qid",
-  "id": "ev-dome-of-the-rock",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q172077",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q172077",
-  "resolution": null
- },
- {
-  "key": "ev-umayyad-mosque:qid",
-  "id": "ev-umayyad-mosque",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q183562",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q183562",
-  "resolution": null
- },
- {
-  "key": "ev-abbasid-revolution:qid",
+  "key": "ev-abbasid-revolution:coord",
   "id": "ev-abbasid-revolution",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q5933860",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   32.0288,
+   44.4011
+  ],
+  "wikidata": [
+   36,
+   62
+  ],
   "qid": "Q5933860",
-  "resolution": null
+  "km": 1678,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Movement spanned Khorasan to Iraq; curated point is Kufa, where al-Saffah was proclaimed caliph (749); the route starts near Merv (June 747, Iranica). Wikidata's 36,62 is a vague Khorasan point. Note added.",
+   "checked": [
+    "Encyclopaedia Iranica: Abū Moslem (https://www.iranicaonline.org/?p=47484) – declaration Ramaḍān/Šawwāl 129 = June 747 near Merv",
+    "Encyclopaedia Britannica: Abbasid caliphate"
+   ]
+  }
  },
  {
-  "key": "ev-founding-of-baghdad:qid",
-  "id": "ev-founding-of-baghdad",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q1191316",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q1191316",
-  "resolution": null
- },
- {
-  "key": "ev-house-of-wisdom:qid",
-  "id": "ev-house-of-wisdom",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q33018",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q33018",
-  "resolution": null
- },
- {
-  "key": "ev-shahnameh:qid",
+  "key": "ev-shahnameh:year",
   "id": "ev-shahnameh",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q8279",
-  "wikidata": "missing on Wikidata",
+  "field": "year",
+  "ours": 1010,
+  "wikidata": 1000,
   "qid": "Q8279",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Iranica (Ferdowsi, i. Life) dates the completed second redaction to 25 Esfand 378 Š. / 400 AH = 8 March 1010; c. 1000 on Wikidata is a vague floruit. A first version was finished in 384/994.",
+   "checked": [
+    "Encyclopaedia Iranica: Ferdowsi, Abu'l-Qāsem i. Life (https://www.iranicaonline.org/articles/ferdowsi-i)",
+    "Review of A. Khatibi in Al-ʿUṣūr al-Wusṭā (Columbia)"
+   ]
+  }
  },
  {
-  "key": "ev-canon-of-medicine:qid",
-  "id": "ev-canon-of-medicine",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q466060",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q466060",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-manzikert:qid",
-  "id": "ev-battle-of-manzikert",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q200032",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q200032",
-  "resolution": null
- },
- {
-  "key": "ev-first-crusade:coord",
-  "id": "ev-first-crusade",
+  "key": "ev-first-crusade-levant:coord",
+  "id": "ev-first-crusade-levant",
   "dataset": "west-asia",
   "kind": "events",
   "field": "coord",
@@ -1609,1073 +2011,347 @@
   ],
   "qid": "Q51649",
   "km": 245,
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record renamed from ev-first-crusade (id collided with data/europe). Point at Antioch, the crusade's longest siege (1097–98), is defensible; Wikidata's 34,36 is a generic Levant point. Old key not used, to avoid resolving the Europe record's diff.",
+   "checked": [
+    "Encyclopaedia Britannica: First Crusade",
+    "T. Asbridge, The First Crusade: A New History (2004)"
+   ]
+  }
  },
  {
-  "key": "ev-siege-of-jerusalem-1099:qid",
-  "id": "ev-siege-of-jerusalem-1099",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q456993",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q456993",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-didgori:qid",
-  "id": "ev-battle-of-didgori",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q1192616",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q1192616",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-hattin:qid",
-  "id": "ev-battle-of-hattin",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q233568",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q233568",
-  "resolution": null
- },
- {
-  "key": "ev-hulagu-campaign:qid",
-  "id": "ev-hulagu-campaign",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q17215083",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q17215083",
-  "resolution": null
- },
- {
-  "key": "ev-siege-of-baghdad-1258:qid",
-  "id": "ev-siege-of-baghdad-1258",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q369560",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q369560",
-  "resolution": null
- },
- {
-  "key": "ev-maragheh-observatory:qid",
-  "id": "ev-maragheh-observatory",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q2461462",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q2461462",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-ain-jalut:qid",
-  "id": "ev-battle-of-ain-jalut",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q244356",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q244356",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-ankara:qid",
-  "id": "ev-battle-of-ankara",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q209387",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q209387",
-  "resolution": null
- },
- {
-  "key": "ev-fall-of-trebizond:qid",
-  "id": "ev-fall-of-trebizond",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q9366875",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q9366875",
-  "resolution": null
- },
- {
-  "key": "ev-safavid-founding:qid",
-  "id": "ev-safavid-founding",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q12849799",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q12849799",
-  "resolution": null
- },
- {
-  "key": "ev-battle-of-chaldiran:qid",
-  "id": "ev-battle-of-chaldiran",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q745110",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q745110",
-  "resolution": null
- },
- {
-  "key": "ev-ottoman-mamluk-war:qid",
+  "key": "ev-ottoman-mamluk-war:coord",
   "id": "ev-ottoman-mamluk-war",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q4338038",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   36.53,
+   37.27
+  ],
+  "wikidata": [
+   39,
+   35
+  ],
   "qid": "Q4338038",
-  "resolution": null
+  "km": 339,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Point is Marj Dabiq (Dabiq village, c. 36.53 N 37.27 E), the decisive battle of 24 August 1516; Wikidata's 39,35 is a central-Anatolia centroid.",
+   "checked": [
+    "Encyclopaedia Britannica: Ottoman Empire – Selim I",
+    "Ibn Iyas, Bada'i al-Zuhur"
+   ]
+  }
  },
  {
-  "key": "ev-peace-of-amasya:qid",
-  "id": "ev-peace-of-amasya",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q2119319",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q2119319",
-  "resolution": null
- },
- {
-  "key": "ev-isfahan-capital:qid",
+  "key": "ev-isfahan-capital:year",
   "id": "ev-isfahan-capital",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q4519",
-  "wikidata": "missing on Wikidata",
+  "field": "year",
+  "ours": 1598,
+  "wikidata": 1591,
   "qid": "Q4519",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's 1591 is the inception of Naqsh-e Jahan Square (the linked item), not the transfer. Iranica: most scholars date the move from Qazvin to Isfahan to 1006/1598, though it was gradual.",
+   "checked": [
+    "Encyclopaedia Iranica: Isfahan vii. Safavid period (https://iranicaonline.org/articles/isfahan-vii-safavid-period)",
+    "Encyclopaedia Iranica: Abbas I",
+    "De Gruyter/Edinburgh UP chronology: 1598 official transfer of capital to Isfahan (https://www.degruyterbrill.com/document/doi/10.1515/9780748633760-007/pdf)"
+   ]
+  }
  },
  {
-  "key": "ev-treaty-of-zuhab:qid",
-  "id": "ev-treaty-of-zuhab",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q2060524",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q2060524",
-  "resolution": null
- },
- {
-  "key": "ev-treaty-of-turkmenchay:qid",
+  "key": "ev-treaty-of-turkmenchay:coord",
   "id": "ev-treaty-of-turkmenchay",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q875512",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   37.6,
+   47.39
+  ],
+  "wikidata": [
+   38.0739,
+   46.2961
+  ],
   "qid": "Q875512",
-  "resolution": null
+  "km": 110,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Treaty was signed at the village of Torkamanchay (c. 37.60 N, 47.39 E) in East Azerbaijan; Wikidata's coordinate is Tabriz, ~110 km away.",
+   "checked": [
+    "Georgian Encyclopedia: Treaty of Turkmenchay (https://georgianencyclopedia.ge/ka/form_eng/943)",
+    "APA: city which hosted Turkmenchay treaty (https://en.apa.az/south-azerbaijan/city-which-hosted-turkmenchay-treaty-research-416201)"
+   ]
+  }
  },
  {
-  "key": "ev-persian-constitutional-revolution:qid",
+  "key": "ev-persian-constitutional-revolution:coord",
   "id": "ev-persian-constitutional-revolution",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q1368440",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   35.6889,
+   51.3897
+  ],
+  "wikidata": [
+   32,
+   53
+  ],
   "qid": "Q1368440",
-  "resolution": null
+  "km": 436,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The bast protests, the Majles and the 1906 constitution were centred in Tehran; Wikidata's 32,53 is Iran's centroid.",
+   "checked": [
+    "Encyclopaedia Britannica: Constitutional Revolution",
+    "E. Abrahamian, Iran Between Two Revolutions (1982)"
+   ]
+  }
  },
  {
-  "key": "ev-oil-masjed-soleyman:qid",
-  "id": "ev-oil-masjed-soleyman",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q6556445",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q6556445",
-  "resolution": null
- },
- {
-  "key": "ev-young-turk-revolution:qid",
+  "key": "ev-young-turk-revolution:coord",
   "id": "ev-young-turk-revolution",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q4298662",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   40.6401,
+   22.9444
+  ],
+  "wikidata": [
+   41,
+   29
+  ],
   "qid": "Q4298662",
-  "resolution": null
+  "km": 511,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The CUP was headquartered in Salonica and the July 1908 revolt began in Ottoman Macedonia (Resne, Monastir); Wikidata's 41,29 is a generic Istanbul-area point. Symbolic placement noted in record.",
+   "checked": [
+    "Encyclopaedia Britannica: Young Turk Revolution of 1908",
+    "F. Ahmad, The Young Turks (1969)"
+   ]
+  }
  },
  {
-  "key": "ev-armenian-genocide:qid",
+  "key": "ev-armenian-genocide:coord",
   "id": "ev-armenian-genocide",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q80034",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   35.336,
+   40.14
+  ],
+  "wikidata": [
+   41,
+   29
+  ],
   "qid": "Q80034",
-  "resolution": null
+  "km": 1158,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Deir ez-Zor was the terminus of the deportation routes and the site of the largest massacres of 1916; Wikidata's 41,29 (Istanbul area) marks only the 24 April arrests. Symbolic placement noted.",
+   "checked": [
+    "R. G. Suny, They Can Live in the Desert but Nowhere Else (2015)",
+    "Encyclopaedia Britannica: Armenian Genocide"
+   ]
+  }
  },
  {
-  "key": "ev-gallipoli-campaign:qid",
-  "id": "ev-gallipoli-campaign",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q164983",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q164983",
-  "resolution": null
- },
- {
-  "key": "ev-sykes-picot:qid",
-  "id": "ev-sykes-picot",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q211674",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q211674",
-  "resolution": null
- },
- {
-  "key": "ev-arab-revolt:qid",
+  "key": "ev-arab-revolt:year",
   "id": "ev-arab-revolt",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q239060",
-  "wikidata": "missing on Wikidata",
+  "field": "year",
+  "ours": 1916,
+  "wikidata": 1918,
   "qid": "Q239060",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The revolt was proclaimed at Mecca on 10 June 1916 and ended with the entry into Damascus in October 1918; Wikidata's start-type value 1918 conflicts with its own 1916 start.",
+   "checked": [
+    "Encyclopaedia Britannica: Arab Revolt",
+    "E. Rogan, The Fall of the Ottomans (2015)"
+   ]
+  }
  },
  {
-  "key": "ev-republic-of-turkey:qid",
-  "id": "ev-republic-of-turkey",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q31187690",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q31187690",
-  "resolution": null
- },
- {
-  "key": "ev-saudi-arabia-1932:qid",
+  "key": "ev-saudi-arabia-1932:year",
   "id": "ev-saudi-arabia-1932",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q251600",
-  "wikidata": "missing on Wikidata",
+  "field": "year",
+  "ours": 1932,
+  "wikidata": 1902,
   "qid": "Q251600",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The Wikidata item is the 1902–1932 unification process; the event plotted is the royal decree proclaiming the Kingdom of Saudi Arabia, effective 23 September 1932 (National Day).",
+   "checked": [
+    "Encyclopaedia Britannica: Saudi Arabia – the kingdom of Saudi Arabia",
+    "M. al-Rasheed, A History of Saudi Arabia (2010)"
+   ]
+  }
  },
  {
-  "key": "ev-dead-sea-scrolls:qid",
-  "id": "ev-dead-sea-scrolls",
+  "key": "ev-saudi-arabia-1932:coord",
+  "id": "ev-saudi-arabia-1932",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q145780",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q145780",
-  "resolution": null
+  "field": "coord",
+  "ours": [
+   24.6333,
+   46.7167
+  ],
+  "wikidata": [
+   23,
+   46
+  ],
+  "qid": "Q251600",
+  "km": 196,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Riyadh was Ibn Saud's capital and seat of the proclamation; Wikidata's 23,46 is a generic central-Arabia point.",
+   "checked": [
+    "Encyclopaedia Britannica: Riyadh",
+    "M. al-Rasheed, A History of Saudi Arabia (2010)"
+   ]
+  }
  },
  {
-  "key": "ev-israel-independence:qid",
-  "id": "ev-israel-independence",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q25487937",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q25487937",
-  "resolution": null
- },
- {
-  "key": "ev-opec:qid",
-  "id": "ev-opec",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q7795",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q7795",
-  "resolution": null
- },
- {
-  "key": "ev-1953-coup:qid",
-  "id": "ev-1953-coup",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q593774",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q593774",
-  "resolution": null
- },
- {
-  "key": "ev-iranian-revolution:qid",
+  "key": "ev-iranian-revolution:coord",
   "id": "ev-iranian-revolution",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q126065",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   35.6889,
+   51.3897
+  ],
+  "wikidata": [
+   32,
+   53
+  ],
   "qid": "Q126065",
-  "resolution": null
+  "km": 436,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The decisive demonstrations, Khomeini's return and the February 1979 collapse of the monarchy took place in Tehran; Wikidata gives Iran's centroid.",
+   "checked": [
+    "Encyclopaedia Britannica: Iranian Revolution of 1978–79",
+    "E. Abrahamian, A History of Modern Iran (2008)"
+   ]
+  }
  },
  {
-  "key": "ev-iran-iraq-war:qid",
+  "key": "ev-iran-iraq-war:coord",
   "id": "ev-iran-iraq-war",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q82664",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   30.4397,
+   48.1664
+  ],
+  "wikidata": [
+   32,
+   53
+  ],
   "qid": "Q82664",
-  "resolution": null
+  "km": 491,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Khorramshahr on the Shatt al-Arab was the war's emblematic front (taken 1980, retaken 1982); Wikidata gives Iran's centroid, far from the fighting.",
+   "checked": [
+    "Encyclopaedia Britannica: Iran-Iraq War",
+    "P. Razoux, The Iran–Iraq War (2015)"
+   ]
+  }
  },
  {
-  "key": "ev-gulf-war:qid",
-  "id": "ev-gulf-war",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q37643",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q37643",
-  "resolution": null
- },
- {
-  "key": "ev-iraq-war:qid",
+  "key": "ev-iraq-war:coord",
   "id": "ev-iraq-war",
   "dataset": "west-asia",
   "kind": "events",
-  "field": "qid",
-  "ours": "Q545449",
-  "wikidata": "missing on Wikidata",
+  "field": "coord",
+  "ours": [
+   33.3153,
+   44.3661
+  ],
+  "wikidata": [
+   33,
+   43
+  ],
   "qid": "Q545449",
-  "resolution": null
+  "km": 132,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Baghdad, whose fall on 9 April 2003 ended Saddam's government, is a better anchor than Wikidata's 33,43 desert point west of the capital.",
+   "checked": [
+    "Encyclopaedia Britannica: Iraq War",
+    "T. E. Ricks, Fiasco (2006)"
+   ]
+  }
  },
  {
-  "key": "ev-syrian-civil-war:qid",
-  "id": "ev-syrian-civil-war",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q178810",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q178810",
-  "resolution": null
- },
- {
-  "key": "ev-2023-earthquake:qid",
-  "id": "ev-2023-earthquake",
-  "dataset": "west-asia",
-  "kind": "events",
-  "field": "qid",
-  "ours": "Q116691303",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q116691303",
-  "resolution": null
- },
- {
-  "key": "person-jesus:qid",
-  "id": "person-jesus",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q302",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q302",
-  "resolution": null
- },
- {
-  "key": "person-paul-the-apostle:qid",
-  "id": "person-paul-the-apostle",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q9200",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q9200",
-  "resolution": null
- },
- {
-  "key": "person-zenobia:qid",
-  "id": "person-zenobia",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q189705",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q189705",
-  "resolution": null
- },
- {
-  "key": "person-shapur-i:qid",
-  "id": "person-shapur-i",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q191455",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q191455",
-  "resolution": null
- },
- {
-  "key": "person-khosrow-i:qid",
-  "id": "person-khosrow-i",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q207381",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q207381",
-  "resolution": null
- },
- {
-  "key": "person-muhammad:qid",
-  "id": "person-muhammad",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q9458",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q9458",
-  "resolution": null
- },
- {
-  "key": "person-ali-ibn-abi-talib:qid",
-  "id": "person-ali-ibn-abi-talib",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q39619",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q39619",
-  "resolution": null
- },
- {
-  "key": "person-harun-al-rashid:qid",
-  "id": "person-harun-al-rashid",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q131002",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q131002",
-  "resolution": null
- },
- {
-  "key": "person-al-khwarizmi:qid",
-  "id": "person-al-khwarizmi",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q9038",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q9038",
-  "resolution": null
- },
- {
-  "key": "person-ferdowsi:qid",
-  "id": "person-ferdowsi",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q43459",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q43459",
-  "resolution": null
- },
- {
-  "key": "person-avicenna:qid",
-  "id": "person-avicenna",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q8011",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q8011",
-  "resolution": null
- },
- {
-  "key": "person-al-ghazali:qid",
-  "id": "person-al-ghazali",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q9546",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q9546",
-  "resolution": null
- },
- {
-  "key": "person-omar-khayyam:qid",
-  "id": "person-omar-khayyam",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q35900",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q35900",
-  "resolution": null
- },
- {
-  "key": "person-saladin:qid",
-  "id": "person-saladin",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q8581",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q8581",
-  "resolution": null
- },
- {
-  "key": "person-tamar-of-georgia:qid",
-  "id": "person-tamar-of-georgia",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q244007",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q244007",
-  "resolution": null
- },
- {
-  "key": "person-rumi:qid",
-  "id": "person-rumi",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q43347",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q43347",
-  "resolution": null
- },
- {
-  "key": "person-mehmed-ii:qid",
-  "id": "person-mehmed-ii",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q34503",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q34503",
-  "resolution": null
- },
- {
-  "key": "person-ismail-i:qid",
-  "id": "person-ismail-i",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q214559",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q214559",
-  "resolution": null
- },
- {
-  "key": "person-suleiman-the-magnificent:qid",
-  "id": "person-suleiman-the-magnificent",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q8474",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q8474",
-  "resolution": null
- },
- {
-  "key": "person-abbas-i:qid",
-  "id": "person-abbas-i",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q171349",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q171349",
-  "resolution": null
- },
- {
-  "key": "person-nader-shah:qid",
-  "id": "person-nader-shah",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q192868",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q192868",
-  "resolution": null
- },
- {
-  "key": "person-ataturk:qid",
-  "id": "person-ataturk",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q5152",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q5152",
-  "resolution": null
- },
- {
-  "key": "person-gertrude-bell:qid",
-  "id": "person-gertrude-bell",
-  "dataset": "west-asia",
-  "kind": "people",
-  "field": "qid",
-  "ours": "Q231360",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q231360",
-  "resolution": null
- },
- {
-  "key": "place-jerusalem:qid",
-  "id": "place-jerusalem",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q1218",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q1218",
-  "resolution": null
- },
- {
-  "key": "place-baghdad:qid",
-  "id": "place-baghdad",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q1530",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q1530",
-  "resolution": null
- },
- {
-  "key": "place-isfahan:qid",
-  "id": "place-isfahan",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q42053",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q42053",
-  "resolution": null
- },
- {
-  "key": "place-tbilisi:qid",
-  "id": "place-tbilisi",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q994",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q994",
-  "resolution": null
- },
- {
-  "key": "place-ankara:qid",
-  "id": "place-ankara",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q3640",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q3640",
-  "resolution": null
- },
- {
-  "key": "place-izmir:qid",
-  "id": "place-izmir",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q35997",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q35997",
-  "resolution": null
- },
- {
-  "key": "place-trabzon:qid",
-  "id": "place-trabzon",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q45301",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q45301",
-  "resolution": null
- },
- {
-  "key": "place-antakya:qid",
-  "id": "place-antakya",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q80561",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q80561",
-  "resolution": null
- },
- {
-  "key": "place-urfa:qid",
-  "id": "place-urfa",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q133118",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q133118",
-  "resolution": null
- },
- {
-  "key": "place-mosul:qid",
-  "id": "place-mosul",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q83317",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q83317",
-  "resolution": null
- },
- {
-  "key": "place-tehran:qid",
-  "id": "place-tehran",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q3616",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q3616",
-  "resolution": null
- },
- {
-  "key": "place-ctesiphon:qid",
-  "id": "place-ctesiphon",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q192541",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q192541",
-  "resolution": null
- },
- {
-  "key": "place-damascus:qid",
-  "id": "place-damascus",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q3766",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q3766",
-  "resolution": null
- },
- {
-  "key": "place-mecca:qid",
-  "id": "place-mecca",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q5806",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q5806",
-  "resolution": null
- },
- {
-  "key": "place-yerevan:qid",
-  "id": "place-yerevan",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q1953",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q1953",
-  "resolution": null
- },
- {
-  "key": "place-iznik:qid",
-  "id": "place-iznik",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q217125",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q217125",
-  "resolution": null
- },
- {
-  "key": "place-tabriz:qid",
-  "id": "place-tabriz",
-  "dataset": "west-asia",
-  "kind": "places",
-  "field": "qid",
-  "ours": "Q80053",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q80053",
-  "resolution": null
- },
- {
-  "key": "polity-parthian:qid",
-  "id": "polity-parthian",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q1986139",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q1986139",
-  "resolution": null
- },
- {
-  "key": "polity-arsacid-armenia:qid",
+  "key": "polity-arsacid-armenia:from",
   "id": "polity-arsacid-armenia",
   "dataset": "west-asia",
   "kind": "polities",
-  "field": "qid",
-  "ours": "Q704151",
-  "wikidata": "missing on Wikidata",
+  "field": "from",
+  "ours": 12,
+  "wikidata": 66,
   "qid": "Q704151",
-  "resolution": null
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "12 CE (Vonones I, Wikipedia) vs. 52/53–66 for Tiridates I; Iranica says he was recognised in 63, crowned by Nero in 66, and no stable line formed until Vologases II. Record medium, note updated.",
+   "checked": [
+    "Encyclopaedia Iranica: Arsacids vii. The Arsacid dynasty of Armenia (https://iranicaonline.org/articles/arsacids-vii)",
+    "World History Encyclopedia: Arsacid Dynasty of Armenia (https://www.worldhistory.org/Arsacid_Dynasty_of_Armenia/)"
+   ]
+  }
  },
  {
-  "key": "polity-palmyrene:qid",
-  "id": "polity-palmyrene",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q877875",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q877875",
-  "resolution": null
- },
- {
-  "key": "polity-sasanian:qid",
-  "id": "polity-sasanian",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q83891",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q83891",
-  "resolution": null
- },
- {
-  "key": "polity-rashidun:qid",
-  "id": "polity-rashidun",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q12490507",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q12490507",
-  "resolution": null
- },
- {
-  "key": "polity-umayyad:qid",
-  "id": "polity-umayyad",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q8575586",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q8575586",
-  "resolution": null
- },
- {
-  "key": "polity-abbasid:qid",
-  "id": "polity-abbasid",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q12536",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q12536",
-  "resolution": null
- },
- {
-  "key": "polity-great-seljuk:qid",
-  "id": "polity-great-seljuk",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q3708094",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q3708094",
-  "resolution": null
- },
- {
-  "key": "polity-rum-seljuk:qid",
-  "id": "polity-rum-seljuk",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q975405",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q975405",
-  "resolution": null
- },
- {
-  "key": "polity-kingdom-of-georgia:qid",
+  "key": "polity-kingdom-of-georgia:to",
   "id": "polity-kingdom-of-georgia",
   "dataset": "west-asia",
   "kind": "polities",
-  "field": "qid",
-  "ours": "Q154667",
-  "wikidata": "missing on Wikidata",
+  "field": "to",
+  "ours": 1490,
+  "wikidata": 1466,
   "qid": "Q154667",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "1466 marks Bagrat VI's seizure of Imereti during the civil war; the unified kingdom ended with the formal partition of 1490–91, when Constantine II recognised Kakheti and Imereti. Record already medium with note.",
+   "checked": [
+    "D. Rayfield, Edge of Empires: A History of Georgia (2012)",
+    "Wikipedia: Collapse of the Georgian realm; Constantine II of Georgia (recognition of Kakheti and Imereti, 1490–91)"
+   ]
+  }
  },
  {
-  "key": "polity-kingdom-of-jerusalem:qid",
-  "id": "polity-kingdom-of-jerusalem",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q55502",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q55502",
-  "resolution": null
- },
- {
-  "key": "polity-cilician-armenia:qid",
-  "id": "polity-cilician-armenia",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q335088",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q335088",
-  "resolution": null
- },
- {
-  "key": "polity-ayyubid:qid",
-  "id": "polity-ayyubid",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q180114",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q180114",
-  "resolution": null
- },
- {
-  "key": "polity-ilkhanate:qid",
-  "id": "polity-ilkhanate",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q178084",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q178084",
-  "resolution": null
- },
- {
-  "key": "polity-ottoman:qid",
-  "id": "polity-ottoman",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q12560",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q12560",
-  "resolution": null
- },
- {
-  "key": "polity-safavid:qid",
-  "id": "polity-safavid",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q18234383",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q18234383",
-  "resolution": null
- },
- {
-  "key": "polity-afsharid:qid",
-  "id": "polity-afsharid",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q388739",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q388739",
-  "resolution": null
- },
- {
-  "key": "polity-qajar:qid",
-  "id": "polity-qajar",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q63158027",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q63158027",
-  "resolution": null
- },
- {
-  "key": "polity-pahlavi:qid",
-  "id": "polity-pahlavi",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q107258515",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q107258515",
-  "resolution": null
- },
- {
-  "key": "polity-turkey:qid",
-  "id": "polity-turkey",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q43",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q43",
-  "resolution": null
- },
- {
-  "key": "polity-islamic-republic-of-iran:qid",
-  "id": "polity-islamic-republic-of-iran",
-  "dataset": "west-asia",
-  "kind": "polities",
-  "field": "qid",
-  "ours": "Q794",
-  "wikidata": "missing on Wikidata",
-  "qid": "Q794",
-  "resolution": null
- },
- {
-  "key": "polity-saudi-arabia:qid",
+  "key": "polity-saudi-arabia:from",
   "id": "polity-saudi-arabia",
   "dataset": "west-asia",
   "kind": "polities",
-  "field": "qid",
-  "ours": "Q851",
-  "wikidata": "missing on Wikidata",
+  "field": "from",
+  "ours": 1932,
+  "wikidata": 1727,
   "qid": "Q851",
-  "resolution": null
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's 1727 is the founding of the Emirate of Diriyah (first Saudi state); this record is the Kingdom of Saudi Arabia, proclaimed 1932.",
+   "checked": [
+    "Encyclopaedia Britannica: Saudi Arabia",
+    "M. al-Rasheed, A History of Saudi Arabia (2010)"
+   ]
+  }
  }
 ]
