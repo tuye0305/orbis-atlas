@@ -1,0 +1,8302 @@
+{
+ "Q1055970": {
+  "label": {
+   "en": "Cerro Rico",
+   "zh": "里科山"
+  },
+  "description": "mountain in the Andes near the Bolivian city of Potosí",
+  "coord": {
+   "lat": -19.6189,
+   "lon": -65.7497
+  },
+  "image": "Cerro ricco.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8502",
+   "Q820477"
+  ],
+  "wiki": {
+   "en": "Cerro Rico",
+   "zh": "里科山"
+  }
+ },
+ "Q10715354": {
+  "label": {
+   "en": "Neo-Inca State",
+   "zh": "新印加国"
+  },
+  "description": "1537–1572 rump state of the Inca Empire",
+  "coord": {
+   "lat": -12.9028,
+   "lon": -73.2058
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1537,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1572,
+   "date": "1572-06-24",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1088391"
+  ],
+  "wiki": {
+   "en": "Neo-Inca State",
+   "zh": "新印加国"
+  }
+ },
+ "Q1073849": {
+  "label": {
+   "en": "Battle of Maipú",
+   "zh": "邁普之戰"
+  },
+  "description": "battle of the Chilean War of Independence",
+  "coord": {
+   "lat": -33.5011,
+   "lon": -70.7719
+  },
+  "image": "BatallaDeMaipu.jpg",
+  "pointInTime": {
+   "year": 1818,
+   "date": "1818-04-05",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Maipú",
+   "zh": null
+  }
+ },
+ "Q1094367": {
+  "label": {
+   "en": "Ciudad Perdida",
+   "zh": "迷城"
+  },
+  "description": "lost city",
+  "coord": {
+   "lat": 11.038,
+   "lon": -73.9252
+  },
+  "image": "Lost City Ruins.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Ciudad Perdida",
+   "zh": "迷城 (哥伦比亚)"
+  }
+ },
+ "Q10950082": {
+  "label": {
+   "en": "Saguamanchica",
+   "zh": "萨瓜曼奇卡"
+  },
+  "description": "second ruler (zipa) of the southern Muisca in central Colombia",
+  "coord": null,
+  "image": "Saguamachica2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1401,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1490,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Saguamanchica",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1150410": {
+  "label": {
+   "en": "Battle of Boyacá",
+   "zh": "波亚卡战役"
+  },
+  "description": "1819 battle",
+  "coord": {
+   "lat": 5.45,
+   "lon": -73.4292
+  },
+  "image": "Batalla de Boyaca de Martin Tovar y Tovar.jpg",
+  "pointInTime": {
+   "year": 1819,
+   "date": "1819-08-07",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Boyacá",
+   "zh": null
+  }
+ },
+ "Q122876914": {
+  "label": {
+   "en": "Yale Peruvian expedition of 1911",
+   "zh": null
+  },
+  "description": "expedition to Peru undertaken by Yale University employees in 1911",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1911,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q366301"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1276292": {
+  "label": {
+   "en": "Muisca raft",
+   "zh": "穆伊斯卡筏"
+  },
+  "description": "Pre-Columbian votive piece",
+  "coord": null,
+  "image": "Muisca raft Legend of El Dorado Offerings of gold.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1600,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q860861"
+  ],
+  "wiki": {
+   "en": "Muisca raft",
+   "zh": "穆伊斯卡筏"
+  },
+  "locationQid": "Q1109031"
+ },
+ "Q130639025": {
+  "label": {
+   "en": "Spanish American expedition, 1799–1804",
+   "zh": null
+  },
+  "description": "research expedition in the Americas (1799-1804)",
+  "coord": null,
+  "image": "Humboldt-Bonpland Chimborazo.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1799,
+   "date": "1799-06-05",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1804,
+   "date": "1804-08-03",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q366301"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1307407": {
+  "label": {
+   "en": "Tiwanaku polity",
+   "zh": "蒂亞瓦納科文化"
+  },
+  "description": "Pre-Columbian polity based in the city of Tiwanaku in western Bolivia that extended around Lake Titicaca and Peru",
+  "coord": {
+   "lat": -16.5565,
+   "lon": -68.6739
+  },
+  "image": "Centro Espiritual y Político de la Cultura Tiahuanaco.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 300,
+   "date": null,
+   "precision": 8,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1150,
+   "date": null,
+   "precision": 8,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q465299",
+   "Q3024240",
+   "Q8432"
+  ],
+  "wiki": {
+   "en": "Tiwanaku polity",
+   "zh": "蒂亞瓦納科文化"
+  }
+ },
+ "Q131010": {
+  "label": {
+   "en": "Augusto Leguía",
+   "zh": "奥古斯托·贝纳尔迪诺·莱基亚·伊·萨尔塞多"
+  },
+  "description": "President of Peru (1863-1932)",
+  "coord": null,
+  "image": "Augusto B. Leguía Salcedo (crop).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1863,
+   "date": "1863-02-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1932,
+   "date": "1932-02-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Augusto B. Leguía",
+   "zh": "奧古斯托·萊吉亞"
+  },
+  "locationQid": null
+ },
+ "Q1322": {
+  "label": {
+   "en": "José Manuel Balmaceda",
+   "zh": "何塞·曼努埃尔·巴尔马塞达·费尔南德斯"
+  },
+  "description": "Chilean politician and President (1840-1891)",
+  "coord": null,
+  "image": "JoseManuelBalmaceda.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1840,
+   "date": "1840-07-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1891,
+   "date": "1891-09-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Manuel Balmaceda",
+   "zh": "何塞·曼努埃尔·巴尔马塞达"
+  },
+  "locationQid": null
+ },
+ "Q1328": {
+  "label": {
+   "en": "Manuel Montt",
+   "zh": "曼努埃尔·蒙特·托雷斯"
+  },
+  "description": "Chilean politician (1809–1880)",
+  "coord": null,
+  "image": "Manuel Montt presidente-2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1809,
+   "date": "1809-09-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1880,
+   "date": "1880-09-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel Montt",
+   "zh": "曼努埃爾·蒙特"
+  },
+  "locationQid": null
+ },
+ "Q1329": {
+  "label": {
+   "en": "Manuel Bulnes",
+   "zh": "曼努埃尔·布尔内斯·普列托"
+  },
+  "description": "Chilean politician and President (1799-1866)",
+  "coord": null,
+  "image": "ManuelBulnes.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1799,
+   "date": "1799-12-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1866,
+   "date": "1866-10-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel Bulnes",
+   "zh": "曼努埃爾·布爾內斯"
+  },
+  "locationQid": null
+ },
+ "Q133040": {
+  "label": {
+   "en": "Alberto Fujimori",
+   "zh": "阿尔韦托·藤森"
+  },
+  "description": "President of Peru from 1990 to 2000",
+  "coord": null,
+  "image": "Alberto Fujimori en 1991.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1938,
+   "date": "1938-07-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2024,
+   "date": "2024-09-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alberto Fujimori",
+   "zh": "藤森謙也"
+  },
+  "locationQid": null
+ },
+ "Q1335": {
+  "label": {
+   "en": "Montevideo",
+   "zh": "蒙得维的亚"
+  },
+  "description": "capital and largest city of Uruguay",
+  "coord": {
+   "lat": -34.9059,
+   "lon": -56.1913
+  },
+  "image": "The City (198895997).jpeg",
+  "pointInTime": null,
+  "start": {
+   "year": 1726,
+   "date": "1726-12-24",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q108178728",
+   "Q51929311",
+   "Q1422929",
+   "Q1637706"
+  ],
+  "wiki": {
+   "en": "Montevideo",
+   "zh": "蒙得维的亚"
+  }
+ },
+ "Q134076814": {
+  "label": {
+   "en": null,
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": "Fundación de Lima Effio.jpg",
+  "pointInTime": {
+   "year": 1535,
+   "date": "1535-01-18",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3075355"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q134160": {
+  "label": {
+   "en": "José de San Martín",
+   "zh": "何塞·德·圣马丁"
+  },
+  "description": "Argentine general and independence leader (1778–1850)",
+  "coord": null,
+  "image": "José de San Martín (retrato, c.1828).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1778,
+   "date": "1778-02-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1850,
+   "date": "1850-08-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José de San Martín",
+   "zh": "何塞·德·圣马丁"
+  },
+  "locationQid": null
+ },
+ "Q134165": {
+  "label": {
+   "en": "Oscar Niemeyer",
+   "zh": "奥斯卡·尼迈耶"
+  },
+  "description": "Brazilian architect (1907–2012)",
+  "coord": null,
+  "image": "Oscar Niemeyer 1968b.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1907,
+   "date": "1907-12-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2012,
+   "date": "2012-12-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Oscar Niemeyer",
+   "zh": "奧斯卡·尼邁耶"
+  },
+  "locationQid": null
+ },
+ "Q1348983": {
+  "label": {
+   "en": "Conquest of the Desert",
+   "zh": "第二次征服沙漠"
+  },
+  "description": "1870's-80's Argentine campaign in Patagonia",
+  "coord": null,
+  "image": "La conquista del desierto.jpg",
+  "pointInTime": {
+   "year": 1884,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663"
+  ],
+  "wiki": {
+   "en": "Conquest of the Desert",
+   "zh": "第二次荒漠远征"
+  },
+  "locationQid": "Q1507"
+ },
+ "Q1353142": {
+  "label": {
+   "en": "García Hurtado de Mendoza, 5th Marquis of Cañete",
+   "zh": null
+  },
+  "description": "Royal Governor of Chile (1535-1609)",
+  "coord": null,
+  "image": "Garcia Hurtado de Mendoza 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1535,
+   "date": "1535-07-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1609,
+   "date": "1609-05-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "García Hurtado de Mendoza, 5th Marquis of Cañete",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1353951": {
+  "label": {
+   "en": "Antarctic France",
+   "zh": "法屬南境"
+  },
+  "description": "French colony in present-day Rio de Janeiro, Brazil (1555-67)",
+  "coord": {
+   "lat": -22.9139,
+   "lon": -43.1597
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1555,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1567,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13418847",
+   "Q133156"
+  ],
+  "wiki": {
+   "en": "France Antarctique",
+   "zh": null
+  }
+ },
+ "Q1361820": {
+  "label": {
+   "en": "Kuelap",
+   "zh": "魁拉"
+  },
+  "description": "archaeological site",
+  "coord": {
+   "lat": -6.4179,
+   "lon": -77.9233
+  },
+  "image": "Kuelap.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q57831"
+  ],
+  "wiki": {
+   "en": "Kuélap",
+   "zh": "奎拉普"
+  }
+ },
+ "Q1365783": {
+  "label": {
+   "en": "Pedro de Cevallos",
+   "zh": "佩德罗·德·塞瓦洛斯"
+  },
+  "description": "Spanish military governor (1715-1778)",
+  "coord": null,
+  "image": "Pedro de Cevallos.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1715,
+   "date": "1715-06-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1778,
+   "date": "1778-12-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro de Cevallos",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1367274": {
+  "label": {
+   "en": "Joaquín Mosquera y Arboleda",
+   "zh": "华金·德·莫斯克拉"
+  },
+  "description": "Colombian politician (1787-1878)",
+  "coord": null,
+  "image": "JoaquínMosquera2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1787,
+   "date": "1787-12-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1878,
+   "date": "1878-04-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Joaquín Mosquera",
+   "zh": "華金·莫斯克拉"
+  },
+  "locationQid": null
+ },
+ "Q1388469": {
+  "label": {
+   "en": "Ambrosio O'Higgins, 1st Marquis of Osorno",
+   "zh": "第一代Osorno侯爵Ambrosio O'Higgins"
+  },
+  "description": "Irish-Spanish colonial administrator (1720-1801)",
+  "coord": null,
+  "image": "Portrait of Ambrosio O'Higgins.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1720,
+   "date": "1720-02-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1801,
+   "date": "1801-03-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ambrosio O'Higgins, 1st Marquess of Osorno",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1391356": {
+  "label": {
+   "en": "Juan José de Vértiz y Salcedo",
+   "zh": null
+  },
+  "description": "Spanish viceroy (1719-1799)",
+  "coord": null,
+  "image": "Virrey vertiz.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1719,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1799,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan José de Vértiz y Salcedo",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1394060": {
+  "label": {
+   "en": "José de La Serna",
+   "zh": "约瑟·德·拉·塞尔纳"
+  },
+  "description": "Viceroy of Peru",
+  "coord": null,
+  "image": "Retrato del conde de los Andes.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1770,
+   "date": "1770-07-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1832,
+   "date": "1832-07-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José de la Serna, 1st Count of the Andes",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1402751": {
+  "label": {
+   "en": "Battle of Pichincha",
+   "zh": "皮钦查战役"
+  },
+  "description": "battle of the Ecuadorian War of Independence on the slopes of the Pichincha volcano overlooking Quito, resulting in a final victory for the independence movement a",
+  "coord": {
+   "lat": -0.2191,
+   "lon": -78.5273
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1822,
+   "date": "1822-05-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Pichincha",
+   "zh": "皮钦查战役"
+  }
+ },
+ "Q1425362": {
+  "label": {
+   "en": "Battle of Cajamarca",
+   "zh": "卡哈马尔之战"
+  },
+  "description": "1532 battle",
+  "coord": {
+   "lat": -7.1569,
+   "lon": -78.5175
+  },
+  "image": "La Captura de Atahualpa - Juan Lepiani 1920s.png",
+  "pointInTime": {
+   "year": 1532,
+   "date": "1532-11-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Cajamarca",
+   "zh": "卡哈马卡战役"
+  }
+ },
+ "Q1425658": {
+  "label": {
+   "en": "Battle of Chacabuco",
+   "zh": "查卡布科戰役"
+  },
+  "description": "1817 battle of the Spanish American wars of independence",
+  "coord": {
+   "lat": -32.9931,
+   "lon": -70.6839
+  },
+  "image": "Battle of Chacabuco.jpg",
+  "pointInTime": {
+   "year": 1817,
+   "date": "1817-02-12",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Chacabuco",
+   "zh": "查卡布科戰役"
+  }
+ },
+ "Q1441451": {
+  "label": {
+   "en": "Guayaquil Conference",
+   "zh": "瓜亚基尔会谈"
+  },
+  "description": "meeting between Simón Bolívar and José de San Martín",
+  "coord": null,
+  "image": "Guayaquil 5.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1822,
+   "date": "1822-07-26",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1822,
+   "date": "1822-07-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178651",
+   "Q625994"
+  ],
+  "wiki": {
+   "en": "Guayaquil Conference",
+   "zh": "瓜亚基尔会谈"
+  },
+  "locationQid": "Q43509"
+ },
+ "Q1442287": {
+  "label": {
+   "en": "Francisco de Borja y Aragón",
+   "zh": null
+  },
+  "description": "(1581-1658) Spanish poet and royal official",
+  "coord": null,
+  "image": "Principe de Esquilache.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1581,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1658,
+   "date": "1658-09-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco de Borja y Aragón",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1486": {
+  "label": {
+   "en": "Buenos Aires",
+   "zh": "布宜诺斯艾利斯"
+  },
+  "description": "capital and largest city of Argentina",
+  "coord": {
+   "lat": -34.5997,
+   "lon": -58.3819
+  },
+  "image": "Vista aérea de la Plaza del Congreso 10.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1580,
+   "date": "1580-06-11",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5770918",
+   "Q192611",
+   "Q475050",
+   "Q10864048",
+   "Q1094397",
+   "Q56061",
+   "Q108178728",
+   "Q257391",
+   "Q1422929",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Buenos Aires",
+   "zh": "布宜諾斯艾利斯"
+  }
+ },
+ "Q14954327": {
+  "label": {
+   "en": "El Castillo de Huarmey",
+   "zh": null
+  },
+  "description": "cultural heritage site in Peru",
+  "coord": {
+   "lat": -10.0633,
+   "lon": -78.1381
+  },
+  "image": "Castillo de Huarmey.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q162875"
+  ],
+  "wiki": {
+   "en": "El Castillo de Huarmey",
+   "zh": null
+  }
+ },
+ "Q15145": {
+  "label": {
+   "en": "José Batlle y Ordóñez",
+   "zh": "何塞·巴特列-奥多涅斯"
+  },
+  "description": "president of Uruguay in 1903-1907 and 1911-1915 (1856-1929)",
+  "coord": null,
+  "image": "JoseBatlle1900.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1856,
+   "date": "1856-05-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1929,
+   "date": "1929-10-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Batlle y Ordóñez",
+   "zh": "何塞·巴特列-奥多涅斯"
+  },
+  "locationQid": null
+ },
+ "Q1519167": {
+  "label": {
+   "en": "Lei Áurea",
+   "zh": null
+  },
+  "description": "1888 law abolishing slavery in Brazil",
+  "coord": null,
+  "image": "Mostra Brasilis a Brasília 03.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q820655"
+  ],
+  "wiki": {
+   "en": "Lei Áurea",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q152004": {
+  "label": {
+   "en": "War of the Pacific",
+   "zh": "硝石战争"
+  },
+  "description": "war between Chile and a Bolivian-Peruvian alliance, 1879-1884",
+  "coord": null,
+  "image": "Sinking of the Esmeralda during the battle of Iquique.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1879,
+   "date": "1879-04-05",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1884,
+   "date": "1884-04-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "War of the Pacific",
+   "zh": "硝石战争"
+  },
+  "locationQid": "Q419"
+ },
+ "Q152534": {
+  "label": {
+   "en": "Alfredo Stroessner",
+   "zh": "阿尔弗雷多·斯特罗斯纳"
+  },
+  "description": "military dictator of Paraguay from 1954 to 1989",
+  "coord": null,
+  "image": "Alfredo Stroessner at desk (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1912,
+   "date": "1912-11-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2006,
+   "date": "2006-08-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alfredo Stroessner",
+   "zh": "阿尔弗雷多·斯特罗斯纳"
+  },
+  "locationQid": null
+ },
+ "Q1533": {
+  "label": {
+   "en": "Caracas",
+   "zh": "加拉加斯"
+  },
+  "description": "capital and largest city of Venezuela",
+  "coord": {
+   "lat": 10.5061,
+   "lon": -66.9144
+  },
+  "image": "Caracas desde el ávila.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1567,
+   "date": "1567-07-25",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q51929311",
+   "Q257391",
+   "Q56061"
+  ],
+  "wiki": {
+   "en": "Caracas",
+   "zh": "卡拉卡斯"
+  }
+ },
+ "Q1542741": {
+  "label": {
+   "en": "Palmares",
+   "zh": "帕尔马雷斯基隆波"
+  },
+  "description": "maroon community of escaped slaves in colonial Brazil",
+  "coord": {
+   "lat": -9.1706,
+   "lon": -36.0839
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1605,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1710,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1415423"
+  ],
+  "wiki": {
+   "en": "Palmares (quilombo)",
+   "zh": "帕尔马雷斯"
+  }
+ },
+ "Q1544441": {
+  "label": {
+   "en": "Huaca de la Luna",
+   "zh": null
+  },
+  "description": "archaeological site in Peru",
+  "coord": {
+   "lat": -8.135,
+   "lon": -78.9914
+  },
+  "image": "Ausgrabungsstätte Huaca de la Luna 44.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q473972",
+   "Q839954",
+   "Q12516",
+   "Q1456099"
+  ],
+  "wiki": {
+   "en": "Huaca de la Luna",
+   "zh": null
+  }
+ },
+ "Q15475785": {
+  "label": {
+   "en": null,
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": "Amazon CIAT (3).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1541,
+   "date": "1541-02-04",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1541,
+   "date": "1541-08-26",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2401485"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q155": {
+  "label": {
+   "en": "Brazil",
+   "zh": "巴西"
+  },
+  "description": "country in South America",
+  "coord": {
+   "lat": -14,
+   "lon": -53
+  },
+  "image": "Cidade Maravilhosa.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1822,
+   "date": "1822-09-07",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q859563",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Brazil",
+   "zh": "巴西"
+  }
+ },
+ "Q155824": {
+  "label": {
+   "en": "Juscelino Kubitschek",
+   "zh": "儒塞利诺·库比契克"
+  },
+  "description": "President of Brazil from 1956 to 1961",
+  "coord": null,
+  "image": "Juscelino Kubitschek in 1956.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1902,
+   "date": "1902-09-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1976,
+   "date": "1976-08-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juscelino Kubitschek",
+   "zh": "儒塞利諾·庫比契克"
+  },
+  "locationQid": null
+ },
+ "Q1564366": {
+  "label": {
+   "en": "Second voyage of HMS Beagle",
+   "zh": null
+  },
+  "description": "exploration associated with the theory of evolution (1831-1836)",
+  "coord": null,
+  "image": "HMS Beagle by Conrad Martens.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1831,
+   "date": "1831-12-27",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1836,
+   "date": "1836-10-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q366301",
+   "Q1135885",
+   "Q3563335"
+  ],
+  "wiki": {
+   "en": "Second voyage of HMS Beagle",
+   "zh": null
+  },
+  "locationQid": "Q664"
+ },
+ "Q156774": {
+  "label": {
+   "en": "Pedro II of Brazil",
+   "zh": "佩德罗二世"
+  },
+  "description": "2nd and final Emperor of Brazil (r. 1831–89)",
+  "coord": null,
+  "image": "Pedro II circa 1887b transparent.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1825,
+   "date": "1825-12-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1891,
+   "date": "1891-12-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro II of Brazil",
+   "zh": "佩德罗二世 (巴西)"
+  },
+  "locationQid": null
+ },
+ "Q156844": {
+  "label": {
+   "en": "Getúlio Vargas",
+   "zh": "热图利奥·瓦加斯"
+  },
+  "description": "President of Brazil (1930–1945; 1951–1954)",
+  "coord": null,
+  "image": "Getulio Vargas (1930).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1882,
+   "date": "1882-04-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1954,
+   "date": "1954-08-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Getúlio Vargas",
+   "zh": "热图利奥·瓦加斯"
+  },
+  "locationQid": null
+ },
+ "Q1607862": {
+  "label": {
+   "en": "Antonio Caballero y Góngora",
+   "zh": null
+  },
+  "description": "Catholic bishop (1723-1796)",
+  "coord": null,
+  "image": "Antonio Caballero y Góngora.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1723,
+   "date": "1723-05-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1796,
+   "date": "1796-03-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Antonio Caballero y Góngora",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1629355": {
+  "label": {
+   "en": "Disaster of Curalaba",
+   "zh": null
+  },
+  "description": "indigenous 1598 uprising against Hispanics in Chile",
+  "coord": {
+   "lat": -37.9167,
+   "lon": -72.8833
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1598,
+   "date": "1598-12-23",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Curalaba",
+   "zh": null
+  }
+ },
+ "Q1639205": {
+  "label": {
+   "en": "Juan José de Sámano y Uribarri",
+   "zh": null
+  },
+  "description": "Viceroy of New Granada (1753-1821)",
+  "coord": null,
+  "image": "Juan de Sámano.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1753,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1821,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan de Sámano",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1645057": {
+  "label": {
+   "en": "Tairona",
+   "zh": "泰罗纳"
+  },
+  "description": "pre-Columbian culture/civilisation of Colombia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2472587"
+  ],
+  "wiki": {
+   "en": "Tairona",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q165968": {
+  "label": {
+   "en": "Manco Capac",
+   "zh": "曼科·卡帕克"
+  },
+  "description": "1st ruler of the Kingdom of Cuzco (Inca Emperor)",
+  "coord": null,
+  "image": "Ayarmanco1.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1200,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1230,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5",
+   "Q21070568"
+  ],
+  "wiki": {
+   "en": "Manco Cápac",
+   "zh": "曼科·卡帕克"
+  },
+  "locationQid": null
+ },
+ "Q165971": {
+  "label": {
+   "en": "Sinchi Roca",
+   "zh": "辛奇·羅卡"
+  },
+  "description": "2nd ruler of the Kingdom of Cuzco (Inca Emperor)",
+  "coord": null,
+  "image": "Brooklyn Museum - Sinchi Roca, Second Inca, 1 of 14 Portraits of Inca Kings - restoration.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1230,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1260,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sinchi Roca",
+   "zh": "辛奇·羅卡"
+  },
+  "locationQid": null
+ },
+ "Q1708955": {
+  "label": {
+   "en": "José Manso de Velasco, 1st Count of Superunda",
+   "zh": null
+  },
+  "description": "Royal Governor of Chile",
+  "coord": null,
+  "image": "Conde de Superunda.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1689,
+   "date": "1689-05-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1767,
+   "date": "1767-01-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Manso de Velasco, 1st Count of Superunda",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q170899": {
+  "label": {
+   "en": "Néstor Kirchner",
+   "zh": "内斯托尔·基什内尔"
+  },
+  "description": "President of Argentina from 2003 to 2007",
+  "coord": null,
+  "image": "Presidente Nestor Kirchner (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1950,
+   "date": "1950-02-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2010,
+   "date": "2010-10-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Néstor Kirchner",
+   "zh": "内斯托尔·基什内尔"
+  },
+  "locationQid": null
+ },
+ "Q1737205": {
+  "label": {
+   "en": "Rubber boom",
+   "zh": "亞馬遜橡膠熱潮"
+  },
+  "description": "historical period of Brazil",
+  "coord": null,
+  "image": "Electric tram in Manaus, Brazil.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2154740",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Amazon rubber cycle",
+   "zh": "亚马逊橡胶热潮"
+  },
+  "locationQid": "Q177567"
+ },
+ "Q174432": {
+  "label": {
+   "en": "Pedro Álvares Cabral",
+   "zh": "佩德罗·阿尔瓦雷斯·卡布拉尔"
+  },
+  "description": "Portuguese military commander and explorer (c.1467/8 – c.1521)",
+  "coord": null,
+  "image": "Pedro Álvares Cabral - steel engraving by American Bank Note Company.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1467,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1520,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro Álvares Cabral",
+   "zh": "佩德罗·阿尔瓦雷斯·卡布拉尔"
+  },
+  "locationQid": null
+ },
+ "Q1747803": {
+  "label": {
+   "en": "Sebastián de Eslava",
+   "zh": null
+  },
+  "description": "Viceroy of New Grenada (1685-1759)",
+  "coord": null,
+  "image": "Virrey Sebastián de Eslava.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1685,
+   "date": "1685-01-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1759,
+   "date": "1759-06-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sebastián de Eslava",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q175801": {
+  "label": {
+   "en": "Sican culture",
+   "zh": "兰巴耶克文化"
+  },
+  "description": "archaeological culture",
+  "coord": null,
+  "image": "Ceremonial Knife (Tumi) MET DP214165.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 700,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1375,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q465299",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Sican culture",
+   "zh": "兰巴耶克文化"
+  },
+  "locationQid": "Q419"
+ },
+ "Q1763351": {
+  "label": {
+   "en": "Ramón Castilla",
+   "zh": "拉蒙·卡斯蒂利亞"
+  },
+  "description": "president of Peru (1797-1867)",
+  "coord": null,
+  "image": "Castilla1 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1797,
+   "date": "1797-08-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1867,
+   "date": "1867-05-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ramón Castilla",
+   "zh": "拉蒙·卡斯蒂利亚"
+  },
+  "locationQid": null
+ },
+ "Q1763918": {
+  "label": {
+   "en": "Inca Civil War",
+   "zh": "印加内战"
+  },
+  "description": "war of succession just before the Spanish conquest",
+  "coord": {
+   "lat": -9.4,
+   "lon": -76
+  },
+  "image": "Mapa de la guerra civil Inca, Atahualpa al norte y Huáscar al sur.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1529,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1532,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1348385"
+  ],
+  "wiki": {
+   "en": "Inca Civil War",
+   "zh": "印加内战"
+  }
+ },
+ "Q178869": {
+  "label": {
+   "en": "One Hundred Years of Solitude",
+   "zh": "百年孤独"
+  },
+  "description": "1967 novel by Gabriel García Márquez",
+  "coord": null,
+  "image": "Cien años de soledad.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1960,
+   "date": null,
+   "precision": 8,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "One Hundred Years of Solitude",
+   "zh": "百年孤独"
+  },
+  "locationQid": null
+ },
+ "Q1791593": {
+  "label": {
+   "en": "Diogo Antônio Feijó",
+   "zh": null
+  },
+  "description": "Regent of the Empire of Brazil (1784-1843)",
+  "coord": null,
+  "image": "Oscar Pereira da Silva - Retrato do Padre Diogo Antônio Feijó, Acervo do Museu Paulista da USP.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1784,
+   "date": "1784-08-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1843,
+   "date": "1843-11-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Diogo Feijó",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q179577": {
+  "label": {
+   "en": "Atahualpa",
+   "zh": "阿塔瓦爾帕"
+  },
+  "description": "Last Incan emperor",
+  "coord": null,
+  "image": "Atahuallpa, Inca XIIII From Berlin Ethnologisches Museum, Staatliche Museen, Berlin, Germany.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1533,
+   "date": "1533-08-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Atahualpa",
+   "zh": "阿塔瓦爾帕"
+  },
+  "locationQid": null
+ },
+ "Q1806552": {
+  "label": {
+   "en": "Rebellion of Túpac Amaru II",
+   "zh": "图帕克·阿马鲁"
+  },
+  "description": "uprising of native and mestizo peasants against the Bourbon reforms in the Spanish Viceroyalty of Peru",
+  "coord": null,
+  "image": "Rebelión de Tupac Amaru, de Tadeo Escalante (1802-1840).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1780,
+   "date": "1780-11-04",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1783,
+   "date": "1783-03-15",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Rebellion of Túpac Amaru II",
+   "zh": null
+  },
+  "locationQid": "Q211435"
+ },
+ "Q186805": {
+  "label": {
+   "en": "Francisco de Toledo, Count of Oropesa",
+   "zh": "弗朗西斯科·德·托莱多"
+  },
+  "description": "Viceroy of Peru (1515-1582)",
+  "coord": null,
+  "image": "Francisco de Toledo Virrey.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1515,
+   "date": "1515-07-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1582,
+   "date": "1582-04-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco de Toledo",
+   "zh": "福朗西斯科·托萊多"
+  },
+  "locationQid": null
+ },
+ "Q188891": {
+  "label": {
+   "en": "Bernardino Rivadavia",
+   "zh": "贝纳迪诺·里瓦达维亚"
+  },
+  "description": "First President of Argentina (born 1780-1845)",
+  "coord": null,
+  "image": "Bernardino Rivadavia 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1780,
+   "date": "1780-05-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1845,
+   "date": "1845-09-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bernardino Rivadavia",
+   "zh": "贝纳迪诺·里瓦达维亚"
+  },
+  "locationQid": null
+ },
+ "Q1891800": {
+  "label": {
+   "en": "Manuel d'Amat i de Junyent",
+   "zh": null
+  },
+  "description": "governor, viceroy (1707-1782)",
+  "coord": null,
+  "image": "Pedro Díaz - Manuel d'Amat i de Junyent.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1707,
+   "date": "1707-03-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1782,
+   "date": "1782-02-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel de Amat y Junyent",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q189779": {
+  "label": {
+   "en": "Antonio José de Sucre",
+   "zh": "安东尼奥·何塞·苏克雷"
+  },
+  "description": "Venezuelan military and politician (1795–1830)",
+  "coord": null,
+  "image": "Martin Tovar y Tovar 12.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1795,
+   "date": "1795-02-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1830,
+   "date": "1830-06-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Antonio José de Sucre",
+   "zh": "安東尼奧·何塞·德·蘇克雷"
+  },
+  "locationQid": null
+ },
+ "Q193062": {
+  "label": {
+   "en": "Raúl Alfonsín",
+   "zh": "劳尔·阿方辛"
+  },
+  "description": "Argentine politician",
+  "coord": null,
+  "image": "Argentina.RaulAlfonsin.01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1927,
+   "date": "1927-03-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2009,
+   "date": "2009-03-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Raúl Alfonsín",
+   "zh": "劳尔·阿方辛"
+  },
+  "locationQid": null
+ },
+ "Q199821": {
+  "label": {
+   "en": "Gran Colombia",
+   "zh": "大哥伦比亚共和国"
+  },
+  "description": "republic in South and Central America from 1819 to 1831",
+  "coord": {
+   "lat": 4.65,
+   "lon": -74.05
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1819,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1831,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Gran Colombia",
+   "zh": "大哥倫比亞"
+  }
+ },
+ "Q200812": {
+  "label": {
+   "en": "Deodoro da Fonseca",
+   "zh": "德奥多罗·达·丰塞卡"
+  },
+  "description": "President of Brazil (1827-1892)",
+  "coord": null,
+  "image": "Deodoro da Fonseca sak.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1827,
+   "date": "1827-08-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1892,
+   "date": "1892-08-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Deodoro da Fonseca",
+   "zh": "德奧多羅·達·豐塞卡"
+  },
+  "locationQid": null
+ },
+ "Q203534": {
+  "label": {
+   "en": "Pedro de Valdivia",
+   "zh": "佩德罗·德·瓦尔迪维亚"
+  },
+  "description": "Spanish conquistador, first royal governor of Chile (1497–1553)",
+  "coord": null,
+  "image": "Pedro de Valdivia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1497,
+   "date": "1497-04-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1553,
+   "date": "1553-12-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro de Valdivia",
+   "zh": "佩德羅·德·巴爾迪維亞"
+  },
+  "locationQid": null
+ },
+ "Q207901": {
+  "label": {
+   "en": "Francisco de Orellana",
+   "zh": "法兰西斯科·德·奥雷亚纳"
+  },
+  "description": "Spanish explorer and conquistador",
+  "coord": null,
+  "image": "Francisco de Orellana Portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1511,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1546,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco de Orellana",
+   "zh": "法蘭西斯科·德·奧雷亞納"
+  },
+  "locationQid": null
+ },
+ "Q208188": {
+  "label": {
+   "en": "Moche culture",
+   "zh": "莫切文化"
+  },
+  "description": "culture that flourished 100 to 700 during the Regional Development Epoch in modern Peru",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 700,
+   "date": null,
+   "precision": 8,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q465299",
+   "Q1292119",
+   "Q11042",
+   "Q8432"
+  ],
+  "wiki": {
+   "en": "Moche culture",
+   "zh": "莫切文化"
+  },
+  "locationQid": null
+ },
+ "Q2088324": {
+  "label": {
+   "en": "Colonial Brazil",
+   "zh": "巴西殖民地"
+  },
+  "description": "Portuguese possession in South America (1500–1808)",
+  "coord": {
+   "lat": -12.9708,
+   "lon": -38.5108
+  },
+  "image": "Engenho com capela.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1815,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156"
+  ],
+  "wiki": {
+   "en": "Colonial Brazil",
+   "zh": "巴西殖民地"
+  }
+ },
+ "Q210551": {
+  "label": {
+   "en": "Viceroyalty of the Río de la Plata",
+   "zh": "拉普拉塔总督辖区"
+  },
+  "description": "(1776-1814) Viceroyalty of the Spanish Empire in America",
+  "coord": {
+   "lat": -34.6667,
+   "lon": -58.4
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1776,
+   "date": "1776-08-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1810,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20203507"
+  ],
+  "wiki": {
+   "en": "Viceroyalty of the Río de la Plata",
+   "zh": "拉普拉塔总督辖区"
+  }
+ },
+ "Q210570": {
+  "label": {
+   "en": "Nazca culture",
+   "zh": "纳斯卡文明"
+  },
+  "description": "civilization",
+  "coord": {
+   "lat": -14.7167,
+   "lon": -75.1333
+  },
+  "image": "Nazca-pottery-(01).png",
+  "pointInTime": null,
+  "start": {
+   "year": 100,
+   "date": null,
+   "precision": 7,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 700,
+   "date": null,
+   "precision": 7,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8432",
+   "Q465299"
+  ],
+  "wiki": {
+   "en": "Nazca culture",
+   "zh": "納斯卡文明"
+  }
+ },
+ "Q211435": {
+  "label": {
+   "en": "Viceroyalty of Peru",
+   "zh": "秘鲁总督区"
+  },
+  "description": "viceroyalty of the Spanish Empire",
+  "coord": {
+   "lat": -12.06,
+   "lon": -77.0375
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1542,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1824,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20203507"
+  ],
+  "wiki": {
+   "en": "Viceroyalty of Peru",
+   "zh": "秘魯總督轄區"
+  }
+ },
+ "Q212618": {
+  "label": {
+   "en": "1960 Valdivia earthquake",
+   "zh": "1960年智利大地震"
+  },
+  "description": "9.4–9.6 magnitude earthquake in Chile",
+  "coord": {
+   "lat": -38.143,
+   "lon": -73.407
+  },
+  "image": "Destroyed steel factory near Corral - Photo from the autumn of 1960.png",
+  "pointInTime": {
+   "year": 1960,
+   "date": "1960-05-21",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944",
+   "Q3839081",
+   "Q8065"
+  ],
+  "wiki": {
+   "en": "1960 Valdivia earthquake",
+   "zh": "1960年智利大地震"
+  }
+ },
+ "Q213749": {
+  "label": {
+   "en": "Huascar",
+   "zh": "瓦斯卡尔"
+  },
+  "description": "14th Inca Emperor",
+  "coord": null,
+  "image": "Brooklyn Museum - Huascar, Thirteenth Inca, 1 of 14 Portraits of Inca Kings - overall.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1490,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1532,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Huáscar",
+   "zh": "瓦斯卡爾"
+  },
+  "locationQid": null
+ },
+ "Q213758": {
+  "label": {
+   "en": "Pachacútec",
+   "zh": "帕查库特克"
+  },
+  "description": "11th Inca Emperor",
+  "coord": null,
+  "image": "Brooklyn Museum - Pachacuti, Tenth Inca, 1 of 14 Portraits of Inca Kings (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1391,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1471,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pachacuti",
+   "zh": "帕查庫特克"
+  },
+  "locationQid": null
+ },
+ "Q214790": {
+  "label": {
+   "en": "2010 Copiapó mining accident",
+   "zh": "2010年科皮亚波矿难"
+  },
+  "description": "mine collapse in Chile in 2010",
+  "coord": {
+   "lat": -27.1603,
+   "lon": -70.4967
+  },
+  "image": "Mina San José de Copiapó en 2010.jpg",
+  "pointInTime": {
+   "year": 2010,
+   "date": "2010-08-05",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2010,
+   "date": "2010-08-05",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2010,
+   "date": "2010-10-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1550225"
+  ],
+  "wiki": {
+   "en": "2010 Copiapó mining accident",
+   "zh": "2010年科皮亞波礦難"
+  }
+ },
+ "Q217230": {
+  "label": {
+   "en": "Empire of Brazil",
+   "zh": "巴西帝国"
+  },
+  "description": "empire in South America between 1822 and 1889",
+  "coord": {
+   "lat": -22.9054,
+   "lon": -43.1771
+  },
+  "image": "Paço imperial 1840.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1822,
+   "date": "1822-09-07",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1889,
+   "date": "1889-11-15",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Empire of Brazil",
+   "zh": "巴西帝國"
+  }
+ },
+ "Q221357": {
+  "label": {
+   "en": "Dutch Brazil",
+   "zh": "荷属巴西"
+  },
+  "description": "Dutch possession in South America between 1630-1654",
+  "coord": {
+   "lat": -8.0637,
+   "lon": -34.8743
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1630,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1654,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Dutch Brazil",
+   "zh": "荷屬巴西"
+  }
+ },
+ "Q223126": {
+  "label": {
+   "en": "Chaco War",
+   "zh": "大厦谷战争"
+  },
+  "description": "war between Bolivia and Paraguay",
+  "coord": {
+   "lat": -21.3272,
+   "lon": -59.7367
+  },
+  "image": "Disputed Bolivia Paraguay.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1932,
+   "date": "1932-09-09",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1935,
+   "date": "1935-06-12",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Chaco War",
+   "zh": "查科战争"
+  }
+ },
+ "Q2294549": {
+  "label": {
+   "en": "Proclamation of the Republic",
+   "zh": "巴西共和國宣布成立"
+  },
+  "description": "November 1889 historical event in Brazil",
+  "coord": {
+   "lat": -22.9067,
+   "lon": -43.1886
+  },
+  "image": "Proclamação da República by Benedito Calixto 1893.jpg",
+  "pointInTime": {
+   "year": 1889,
+   "date": "1889-11-15",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3449092",
+   "Q7995869"
+  ],
+  "wiki": {
+   "en": "Proclamation of the Republic (Brazil)",
+   "zh": "巴西共和国成立"
+  }
+ },
+ "Q229682": {
+  "label": {
+   "en": "Zumbi",
+   "zh": "祖比·帕尔马雷斯"
+  },
+  "description": "leader of the Quilombo dos Palmares",
+  "coord": null,
+  "image": "Antônio Parreiras - Zumbi 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1655,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1695,
+   "date": "1695-11-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zumbi",
+   "zh": "祖比·多斯帕尔马雷斯"
+  },
+  "locationQid": null
+ },
+ "Q230578": {
+  "label": {
+   "en": "Fernando Henrique Cardoso",
+   "zh": "费尔南多·恩里克·卡多佐"
+  },
+  "description": "President of Brazil from 1995 to 2003",
+  "coord": null,
+  "image": "FHC 2019.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1931,
+   "date": "1931-06-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fernando Henrique Cardoso",
+   "zh": "费尔南多·恩里克·卡多佐"
+  },
+  "locationQid": null
+ },
+ "Q2314963": {
+  "label": {
+   "en": "Kingdom of Cusco",
+   "zh": "庫斯科王國"
+  },
+  "description": "former kingdom and city state",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1197,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1438,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1250464"
+  ],
+  "wiki": {
+   "en": "Kingdom of Cusco",
+   "zh": "库斯科王国"
+  },
+  "locationQid": null
+ },
+ "Q2350166": {
+  "label": {
+   "en": "War of Canudos",
+   "zh": "卡努杜斯农民起义"
+  },
+  "description": "1895–1898 internal conflict in Brazil",
+  "coord": {
+   "lat": -9.9639,
+   "lon": -39.1639
+  },
+  "image": "Canudos-map.jpg",
+  "pointInTime": {
+   "year": 1897,
+   "date": "1897-10-02",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1893,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1897,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "War of Canudos",
+   "zh": "卡努杜斯农民起义"
+  }
+ },
+ "Q235648": {
+  "label": {
+   "en": "Carlos Antonio López",
+   "zh": "卡洛斯·安东尼奥·洛佩斯"
+  },
+  "description": "President of Paraguay (1792-1862)",
+  "coord": null,
+  "image": "Carlos Antonio López retrato.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1792,
+   "date": "1792-11-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1862,
+   "date": "1862-09-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Carlos Antonio López",
+   "zh": "卡洛斯·安东尼奥·洛佩斯"
+  },
+  "locationQid": null
+ },
+ "Q2366970": {
+  "label": {
+   "en": "Battle of Cartagena de Indias",
+   "zh": "印度卡塔赫纳战役"
+  },
+  "description": "1741 battle during the War of Jenkins' Ear",
+  "coord": {
+   "lat": 10.3853,
+   "lon": -75.5386
+  },
+  "image": "Ataque Cartagena de Indias.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1741,
+   "date": "1741-03-13",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1741,
+   "date": "1741-05-20",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1261499",
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Battle of Cartagena de Indias",
+   "zh": null
+  }
+ },
+ "Q237220": {
+  "label": {
+   "en": "Hiram Bingham III",
+   "zh": "海勒姆·宾厄姆三世"
+  },
+  "description": "American academic, explorer, treasure hunter and politician (1875–1956)",
+  "coord": null,
+  "image": "Senator Hiram Bingham of Conn., (1-9-25) LCCN2016839105 (3x4a).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1875,
+   "date": "1875-11-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1956,
+   "date": "1956-06-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hiram Bingham III",
+   "zh": "海勒姆·宾厄姆三世"
+  },
+  "locationQid": null
+ },
+ "Q238688": {
+  "label": {
+   "en": "Floriano Peixoto",
+   "zh": "佩绍托"
+  },
+  "description": "Brazilian politician (1839-1895)",
+  "coord": null,
+  "image": "Florianovieirapeixoto.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1839,
+   "date": "1839-04-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1895,
+   "date": "1895-07-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Floriano Peixoto",
+   "zh": "弗洛里亚诺·佩绍托"
+  },
+  "locationQid": null
+ },
+ "Q2398589": {
+  "label": {
+   "en": "Siege of Cusco",
+   "zh": "庫斯科圍城戰"
+  },
+  "description": "1536–1537 siege in South America",
+  "coord": {
+   "lat": -13.5167,
+   "lon": -71.9781
+  },
+  "image": "POMA0402v.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1536,
+   "date": "1536-05-06",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1537,
+   "date": "1537-04-18",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Cusco",
+   "zh": null
+  }
+ },
+ "Q2414171": {
+  "label": {
+   "en": "First Brazilian Republic",
+   "zh": "巴西第一共和国"
+  },
+  "description": "1889–1930 federal republic in South America",
+  "coord": {
+   "lat": -14,
+   "lon": -53
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1889,
+   "date": "1889-11-15",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1930,
+   "date": "1930-10-24",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q11514315",
+   "Q859563"
+  ],
+  "wiki": {
+   "en": "First Brazilian Republic",
+   "zh": "巴西第一共和国"
+  }
+ },
+ "Q2422135": {
+  "label": {
+   "en": "occupation of Araucanía",
+   "zh": "占领阿劳卡尼亚"
+  },
+  "description": "series of military campaigns, agreements and penetrations to incorporate the southern part of Chile",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1861,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1883,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Occupation of Araucanía",
+   "zh": "占领阿劳卡尼亚"
+  },
+  "locationQid": "Q2176"
+ },
+ "Q2427419": {
+  "label": {
+   "en": "Guaraní War",
+   "zh": "瓜拉尼戰爭"
+  },
+  "description": "1754–1756 war in South America",
+  "coord": null,
+  "image": "Reducciones.PNG",
+  "pointInTime": null,
+  "start": {
+   "year": 1754,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1756,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Guaraní War",
+   "zh": null
+  },
+  "locationQid": "Q2628446"
+ },
+ "Q244383": {
+  "label": {
+   "en": "Rose of Lima",
+   "zh": "利马的圣罗撒"
+  },
+  "description": "Dominican saint from Peru",
+  "coord": null,
+  "image": "Santa Rosa de Lima Ebrafol.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1586,
+   "date": "1586-04-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1617,
+   "date": "1617-08-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rose of Lima",
+   "zh": "利馬的羅撒"
+  },
+  "locationQid": null
+ },
+ "Q2460861": {
+  "label": {
+   "en": "Lima culture",
+   "zh": "利馬文化"
+  },
+  "description": "pre-Incan civilization that existed on the central coast of ancient Peru",
+  "coord": null,
+  "image": "Ceramio estilo interlocking Lima.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 100,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 650,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q465299"
+  ],
+  "wiki": {
+   "en": "Lima culture",
+   "zh": null
+  },
+  "locationQid": "Q419"
+ },
+ "Q254041": {
+  "label": {
+   "en": "Domingo Faustino Sarmiento",
+   "zh": "多明戈·福斯蒂诺·萨米恩托"
+  },
+  "description": "Argentinian politician and writer (1811-1888)",
+  "coord": null,
+  "image": "Sarmiento.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1811,
+   "date": "1811-02-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1888,
+   "date": "1888-09-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Domingo Faustino Sarmiento",
+   "zh": "多明戈·福斯蒂诺·萨米恩托"
+  },
+  "locationQid": null
+ },
+ "Q2554759": {
+  "label": {
+   "en": "Tomé de Sousa",
+   "zh": "多美·蘇薩"
+  },
+  "description": "Governor General of Brazil",
+  "coord": null,
+  "image": "ThomeSousa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1503,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1579,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tomé de Sousa",
+   "zh": "托梅·德索萨"
+  },
+  "locationQid": null
+ },
+ "Q2558843": {
+  "label": {
+   "en": "Minas Gerais Conspiracy",
+   "zh": "米纳斯密谋"
+  },
+  "description": "unsuccessful 18th century separatist movement in Brazil",
+  "coord": {
+   "lat": -20.4,
+   "lon": -43.5
+  },
+  "image": "Figueiredo-MHN-Tiradentes.jpg",
+  "pointInTime": {
+   "year": 1789,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Inconfidência Mineira",
+   "zh": null
+  }
+ },
+ "Q2595754": {
+  "label": {
+   "en": "Lord of Sipán",
+   "zh": "西潘王"
+  },
+  "description": "ruler of the Mochica culture",
+  "coord": null,
+  "image": "Señor de Sípan - Reconstrucción Facial Forense.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5",
+   "Q43616"
+  ],
+  "wiki": {
+   "en": "Lord of Sipán",
+   "zh": "西潘王"
+  },
+  "locationQid": null
+ },
+ "Q2620036": {
+  "label": {
+   "en": "Nazca Lines",
+   "zh": "纳斯卡线条"
+  },
+  "description": "large geoglyphs made in the soil of the Nazca Desert in Peru",
+  "coord": {
+   "lat": -14.6975,
+   "lon": -75.135
+  },
+  "image": "Líneas de Nazca, Nazca, Perú, 2015-07-29, DD 58.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": -200,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45791",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Nazca lines",
+   "zh": "纳斯卡线条"
+  }
+ },
+ "Q2624476": {
+  "label": {
+   "en": "Marajoara culture",
+   "zh": "馬拉若文化"
+  },
+  "description": "indigenous Amazon-river society",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 800,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1400,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19958368",
+   "Q465299",
+   "Q103817"
+  ],
+  "wiki": {
+   "en": "Marajoara culture",
+   "zh": "馬拉若文化"
+  },
+  "locationQid": "Q193264"
+ },
+ "Q2633080": {
+  "label": {
+   "en": "Modern Art Week",
+   "zh": null
+  },
+  "description": "1922 Arts festival in São Paulo, Brazil",
+  "coord": null,
+  "image": "Stamp of Brazil - 1972 - Colnect 187538 - Poster for Modern Art Week.jpeg",
+  "pointInTime": null,
+  "start": {
+   "year": 1922,
+   "date": "1922-02-11",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1922,
+   "date": "1922-02-18",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4801521"
+  ],
+  "wiki": {
+   "en": "Modern Art Week",
+   "zh": null
+  },
+  "locationQid": "Q2297627"
+ },
+ "Q2634783": {
+  "label": {
+   "en": "Revolution of 1930",
+   "zh": "1930年革命"
+  },
+  "description": "October 1930 government overthrow in Brazil",
+  "coord": null,
+  "image": "Revolução de 1930.jpg",
+  "pointInTime": {
+   "year": 1930,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "Revolution of 1930",
+   "zh": "1930年巴西革命"
+  },
+  "locationQid": null
+ },
+ "Q2665757": {
+  "label": {
+   "en": "Piquillacta",
+   "zh": null
+  },
+  "description": "cultural heritage site in Peru",
+  "coord": {
+   "lat": -13.6167,
+   "lon": -71.7147
+  },
+  "image": "Piquillacta Archaeological site - street.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 500,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1200,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q486972"
+  ],
+  "wiki": {
+   "en": "Pikillaqta",
+   "zh": null
+  }
+ },
+ "Q2669375": {
+  "label": {
+   "en": "Gate of the Sun",
+   "zh": "太阳门"
+  },
+  "description": "megalithic solid stone arch or gateway constructed by the ancient Tiwanaku culture of Peru and Bolivia",
+  "coord": {
+   "lat": -16.5544,
+   "lon": -68.6741
+  },
+  "image": "Bol-tihuanaco-sonnentor.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4989906"
+  ],
+  "wiki": {
+   "en": "Gate of the Sun",
+   "zh": "太陽門 (蒂亞瓦納科)"
+  }
+ },
+ "Q2670007": {
+  "label": {
+   "en": "transfer of the Portuguese Court to Brazil",
+   "zh": "葡萄牙王室迁至巴西"
+  },
+  "description": "escape of the Braganza royal family and its court of nearly 15,000 people from Lisbon on November 29, 1807",
+  "coord": null,
+  "image": "Embarque da Família Real para o Brasil - Nicolas-Louis-Albert Delerive, attrib. (Museu Nacional dos Coches).png",
+  "pointInTime": null,
+  "start": {
+   "year": 1807,
+   "date": "1807-11-29",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1821,
+   "date": "1821-04-26",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q558566"
+  ],
+  "wiki": {
+   "en": "Transfer of the Portuguese court to Brazil",
+   "zh": "葡萄牙王室播遷巴西"
+  },
+  "locationQid": null
+ },
+ "Q26906": {
+  "label": {
+   "en": "Ciudad Bolívar",
+   "zh": "玻利瓦尔城"
+  },
+  "description": "city in Bolívar, Venezuela",
+  "coord": {
+   "lat": 8.1029,
+   "lon": -63.547
+  },
+  "image": "Ciudad Bolívar historical zone.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1764,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Ciudad Bolívar",
+   "zh": "玻利瓦尔城"
+  }
+ },
+ "Q270145": {
+  "label": {
+   "en": "National University of San Marcos",
+   "zh": "国立圣马尔科斯大学"
+  },
+  "description": "public research university in Lima, Peru",
+  "coord": {
+   "lat": -12.0583,
+   "lon": -77.0833
+  },
+  "image": "UNMSM sedes principales.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1551,
+   "date": "1551-05-12",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q62078547",
+   "Q2065736",
+   "Q358",
+   "Q45400320"
+  ],
+  "wiki": {
+   "en": "National University of San Marcos",
+   "zh": "国立圣马尔科斯大学"
+  }
+ },
+ "Q2716571": {
+  "label": {
+   "en": "Huaca Rajada",
+   "zh": "西潘"
+  },
+  "description": "archaeological site in northern Peru",
+  "coord": {
+   "lat": -6.8013,
+   "lon": -79.6019
+  },
+  "image": "HuacaRajada3.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q12516"
+  ],
+  "wiki": {
+   "en": "Huaca Rajada",
+   "zh": null
+  }
+ },
+ "Q27230923": {
+  "label": {
+   "en": "Spanish conquest of the Muisca",
+   "zh": "西班牙对穆伊斯卡的征服"
+  },
+  "description": "part of the Spanish conquest of Colombia",
+  "coord": null,
+  "image": "Don Gonzalo Jiménez de Quesada.JPG",
+  "pointInTime": {
+   "year": 1537,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Spanish conquest of the Muisca",
+   "zh": null
+  },
+  "locationQid": "Q3362189"
+ },
+ "Q277540": {
+  "label": {
+   "en": "Chan Chan",
+   "zh": "昌昌"
+  },
+  "description": "archaeological site in Peru",
+  "coord": {
+   "lat": -8.1106,
+   "lon": -79.075
+  },
+  "image": "Chan Chan, 2023 (32).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 850,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Chan Chan",
+   "zh": "昌昌"
+  }
+ },
+ "Q2841": {
+  "label": {
+   "en": "Bogotá",
+   "zh": "波哥大"
+  },
+  "description": "capital city of Colombia",
+  "coord": {
+   "lat": 4.6097,
+   "lon": -74.0817
+  },
+  "image": "Centro internacional.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1538,
+   "date": "1538-08-06",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2555896",
+   "Q10864048",
+   "Q395994",
+   "Q1549591",
+   "Q499073",
+   "Q486972",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Bogotá",
+   "zh": "波哥大"
+  }
+ },
+ "Q2843133": {
+  "label": {
+   "en": null,
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1498,
+   "date": "1498-05-30",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1500,
+   "date": "1500-11-20",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3337280",
+   "Q2401485"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2844": {
+  "label": {
+   "en": "Brasília",
+   "zh": "巴西利亚"
+  },
+  "description": "federal capital of Brazil",
+  "coord": {
+   "lat": -15.7939,
+   "lon": -47.8828
+  },
+  "image": "Planalto Central (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1960,
+   "date": "1960-04-21",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q15840617",
+   "Q114496982",
+   "Q257391",
+   "Q56061",
+   "Q3184121"
+  ],
+  "wiki": {
+   "en": "Brasília",
+   "zh": "巴西利亚"
+  }
+ },
+ "Q28573": {
+  "label": {
+   "en": "Inca Empire",
+   "zh": "印加帝國"
+  },
+  "description": "1438–1533 empire in South America",
+  "coord": {
+   "lat": -13.5167,
+   "lon": -71.9667
+  },
+  "image": "80 - Machu Picchu - Juin 2009 - edit.2.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1438,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1533,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Inca Empire",
+   "zh": "印加帝國"
+  }
+ },
+ "Q2857786": {
+  "label": {
+   "en": "Antônio Álvares da Cunha",
+   "zh": null
+  },
+  "description": "Portuguese colonial administrator (1700-1791)",
+  "coord": null,
+  "image": "Conde da Cunha (Hospital Frei Antônio do Desterro).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1700,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1791,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2868": {
+  "label": {
+   "en": "Lima",
+   "zh": "利马"
+  },
+  "description": "capital and largest city of Peru",
+  "coord": {
+   "lat": -12.06,
+   "lon": -77.0375
+  },
+  "image": "Plaza Mayor de Lima-1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1535,
+   "date": "1535-01-18",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q618123",
+   "Q174844",
+   "Q51929311",
+   "Q56061"
+  ],
+  "wiki": {
+   "en": "Lima",
+   "zh": "利馬"
+  }
+ },
+ "Q2887": {
+  "label": {
+   "en": "Santiago",
+   "zh": "圣地亚哥"
+  },
+  "description": "capital city of Chile",
+  "coord": {
+   "lat": -33.4375,
+   "lon": -70.65
+  },
+  "image": "Santiago de Chile, Desde Cerro San Cristóbal (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1541,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q25412763",
+   "Q1549591",
+   "Q51929311",
+   "Q208511"
+  ],
+  "wiki": {
+   "en": "Santiago",
+   "zh": "圣地亚哥 (智利)"
+  }
+ },
+ "Q2887224": {
+  "label": {
+   "en": "San Agustin archeological park",
+   "zh": "圣阿古斯丁考古公园"
+  },
+  "description": "in San Agustin, Huila, Colombia",
+  "coord": {
+   "lat": 1.8844,
+   "lon": -76.2961
+  },
+  "image": "Parque Arqueológico de San Agustín-Mesita A 12.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2065736",
+   "Q3363945",
+   "Q33506"
+  ],
+  "wiki": {
+   "en": "San Agustín Archaeological Park",
+   "zh": "圣阿古斯丁考古公园"
+  }
+ },
+ "Q2890406": {
+  "label": {
+   "en": "Battle of Yahuarpampa",
+   "zh": null
+  },
+  "description": "1438 mythical-historical military confrontation between Chancas and the Kingdom of Cusco",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1438,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": "Q419"
+ },
+ "Q28930": {
+  "label": {
+   "en": "Bernardo O'Higgins",
+   "zh": "贝尔纳多·奥希金斯"
+  },
+  "description": "Chilean independence leader (1778–1842)",
+  "coord": null,
+  "image": "Ohiggins.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1778,
+   "date": "1778-08-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1842,
+   "date": "1842-10-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bernardo O'Higgins",
+   "zh": "贝尔纳多·奥希金斯"
+  },
+  "locationQid": null
+ },
+ "Q2900": {
+  "label": {
+   "en": "Quito",
+   "zh": "基多"
+  },
+  "description": "capital of Ecuador",
+  "coord": {
+   "lat": -0.22,
+   "lon": -78.5125
+  },
+  "image": "FACHADA ASAMBLEA NACIONAL. QUITO, 20 DE FEBRERO 2020. 01.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1534,
+   "date": "1534-12-06",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Quito",
+   "zh": "基多"
+  }
+ },
+ "Q2907": {
+  "label": {
+   "en": "Sucre",
+   "zh": "苏克雷"
+  },
+  "description": "constitutional capital of Bolivia",
+  "coord": {
+   "lat": -19.0475,
+   "lon": -65.26
+  },
+  "image": "Sucre Square.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1538,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Sucre",
+   "zh": "苏克雷"
+  }
+ },
+ "Q2933": {
+  "label": {
+   "en": "Asunción",
+   "zh": "亚松森"
+  },
+  "description": "capital of Paraguay",
+  "coord": {
+   "lat": -25.28,
+   "lon": -57.6344
+  },
+  "image": "Asunción Paraguay.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1537,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1062177",
+   "Q515",
+   "Q1549591",
+   "Q902814",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Asunción",
+   "zh": "亞松森"
+  }
+ },
+ "Q296269": {
+  "label": {
+   "en": "Túpac Amaru",
+   "zh": "图帕克·阿马鲁"
+  },
+  "description": "4th and last Inca Emperor of the Kingdom of Vilcabamba",
+  "coord": null,
+  "image": "TupacamaruI.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1545,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1572,
+   "date": "1572-09-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Túpac Amaru",
+   "zh": "圖帕克·阿馬魯"
+  },
+  "locationQid": null
+ },
+ "Q297134": {
+  "label": {
+   "en": "Hipólito Yrigoyen",
+   "zh": "伊波利托·伊里戈延"
+  },
+  "description": "president of Argentina (1852-1937)",
+  "coord": null,
+  "image": "\"Retrato del Presidente Hipolito Yrigoyen\" (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1850,
+   "date": "1850-07-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1933,
+   "date": "1933-07-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hipólito Yrigoyen",
+   "zh": "伊波利托·伊里戈延"
+  },
+  "locationQid": null
+ },
+ "Q298": {
+  "label": {
+   "en": "Chile",
+   "zh": "智利"
+  },
+  "description": "country in South America",
+  "coord": {
+   "lat": -33,
+   "lon": -71
+  },
+  "image": "Macizo Paine al Amanecer Torres del Paine.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1810,
+   "date": "1810-09-18",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256",
+   "Q6266",
+   "Q5255892",
+   "Q1323642"
+  ],
+  "wiki": {
+   "en": "Chile",
+   "zh": "智利"
+  }
+ },
+ "Q3040480": {
+  "label": {
+   "en": "Duarte da Costa",
+   "zh": null
+  },
+  "description": "Portiguese governor of Brazil",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1505,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1560,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3042917": {
+  "label": {
+   "en": "discovery of Brazil",
+   "zh": null
+  },
+  "description": "Portuguese discovery in 1500",
+  "coord": null,
+  "image": "Desembarque de Pedro Álvares Cabral em Porto Seguro em 1500 by Oscar Pereira da Silva (1865–1939).jpg",
+  "pointInTime": {
+   "year": 1500,
+   "date": "1500-04-22",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12772819"
+  ],
+  "wiki": {
+   "en": "Discovery of Brazil",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q304900": {
+  "label": {
+   "en": "José Antonio Páez",
+   "zh": "何塞·安东尼奥·派斯·埃雷拉"
+  },
+  "description": "president of Venezuela (1790-1873)",
+  "coord": null,
+  "image": "Jose Antonio Páez restored.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1790,
+   "date": "1790-06-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1873,
+   "date": "1873-05-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Antonio Páez",
+   "zh": "何塞·安东尼奥·派斯"
+  },
+  "locationQid": null
+ },
+ "Q3050351": {
+  "label": {
+   "en": "El primer nueva corónica y buen gobierno",
+   "zh": null
+  },
+  "description": "Peruvian chronicle finished around 1615 by Felipe Huamán Poma de Ayala",
+  "coord": null,
+  "image": "El primer nueva corónica y buen gobierno i KBs udstilling 27112012.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1616,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634",
+   "Q87167",
+   "Q2891173"
+  ],
+  "wiki": {
+   "en": "El primer nueva corónica y buen gobierno",
+   "zh": null
+  },
+  "locationQid": "Q867885"
+ },
+ "Q3054170": {
+  "label": {
+   "en": "Mummies of Llullaillaco",
+   "zh": null
+  },
+  "description": "mummies discovered in 1999 at Mount Llullaillaco, on the border of Chile and Argentina",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q43616"
+  ],
+  "wiki": {
+   "en": "Children of Llullaillaco",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q311415": {
+  "label": {
+   "en": "Túpac Inca Yupanqui",
+   "zh": "图帕克·印卡·尤潘基"
+  },
+  "description": "12th Inca Emperor",
+  "coord": null,
+  "image": "Brooklyn Museum - Tupac Yupanqui, Eleventh Inca, 1 of 14 Portraits of Inca Kings - overall.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1441,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1493,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Topa Inca Yupanqui",
+   "zh": "圖帕克·印卡·尤潘基"
+  },
+  "locationQid": null
+ },
+ "Q311431": {
+  "label": {
+   "en": "Juan Velasco Alvarado",
+   "zh": "胡安·贝拉斯科·阿尔瓦拉多"
+  },
+  "description": "50th President of Peru (1910-1977)",
+  "coord": null,
+  "image": "Juan Velasco Alvarado 1971.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1910,
+   "date": "1910-06-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1977,
+   "date": "1977-12-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Velasco Alvarado",
+   "zh": "胡安·贝拉斯科·阿尔瓦拉多"
+  },
+  "locationQid": null
+ },
+ "Q311433": {
+  "label": {
+   "en": "Huayna Capac",
+   "zh": "瓦伊纳·卡帕克"
+  },
+  "description": "13th Inca Emperor",
+  "coord": null,
+  "image": "Brooklyn Museum - Huayna Capac, Twelfth Inca.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1464,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1527,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Huayna Capac",
+   "zh": "瓦伊納·卡帕克"
+  },
+  "locationQid": null
+ },
+ "Q311436": {
+  "label": {
+   "en": "Juan Manuel de Rosas meow",
+   "zh": "胡安·曼努埃尔·德·罗萨斯"
+  },
+  "description": "Argentine politician (1793-1877)",
+  "coord": null,
+  "image": "Juan Manuel de Rosas.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1793,
+   "date": "1793-03-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1877,
+   "date": "1877-03-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Manuel de Rosas",
+   "zh": "胡安·曼努埃尔·德罗萨斯"
+  },
+  "locationQid": null
+ },
+ "Q312055": {
+  "label": {
+   "en": "Víctor Paz Estenssoro",
+   "zh": "维克托·帕斯·埃斯登索罗"
+  },
+  "description": "45th President of Bolivia",
+  "coord": null,
+  "image": "Victor Paz Estenssoro 1958.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1907,
+   "date": "1907-10-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2001,
+   "date": "2001-06-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Víctor Paz Estenssoro",
+   "zh": "维克托·帕斯·埃斯登索罗"
+  },
+  "locationQid": null
+ },
+ "Q3135880": {
+  "label": {
+   "en": "Tomás Cipriano de Mosquera",
+   "zh": "托马斯·西普里亚诺·德·莫斯克拉"
+  },
+  "description": "Colombian general and political figure (1798-1878)",
+  "coord": null,
+  "image": "Portrait of Tomás Cipriano de Mosquera.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1798,
+   "date": "1798-09-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1878,
+   "date": "1878-10-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tomás Cipriano de Mosquera",
+   "zh": "托马斯·西普里亚诺·德·莫斯克拉"
+  },
+  "locationQid": null
+ },
+ "Q314362": {
+  "label": {
+   "en": "Bartolomé Mitre",
+   "zh": "巴托洛梅·米特雷"
+  },
+  "description": "president of Argentina (1821-1906), writer, politician",
+  "coord": null,
+  "image": "Bartolomé Mitre 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1821,
+   "date": "1821-06-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1906,
+   "date": "1906-01-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bartolomé Mitre",
+   "zh": "巴托洛梅·米特雷"
+  },
+  "locationQid": null
+ },
+ "Q315937": {
+  "label": {
+   "en": "Túpac Amaru II",
+   "zh": "图帕克·阿马鲁"
+  },
+  "description": "leader of a large Andean uprising against the Spanish in Peru (1738-1781)",
+  "coord": null,
+  "image": "Acuarela de Túpac Amaru II crop.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1738,
+   "date": "1738-03-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1781,
+   "date": "1781-05-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Túpac Amaru II",
+   "zh": "何塞·加夫列尔·孔多尔坎基"
+  },
+  "locationQid": null
+ },
+ "Q317990": {
+  "label": {
+   "en": "Juan Vicente Gómez",
+   "zh": "胡安·比森特·戈麦斯"
+  },
+  "description": "Venezuelan general and dictator (1857-1935)",
+  "coord": null,
+  "image": "Juan Vicente Gómez.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1857,
+   "date": "1857-07-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1935,
+   "date": "1935-12-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Vicente Gómez",
+   "zh": "胡安·比森特·戈麦斯"
+  },
+  "locationQid": null
+ },
+ "Q320": {
+  "label": {
+   "en": "Michelle Bachelet",
+   "zh": "米歇尔·巴切莱特"
+  },
+  "description": "president of Chile from (2006–2010; 2014–2018)",
+  "coord": null,
+  "image": "Retrato oficial Michelle Bachelet 2014-2018, segundo período.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1951,
+   "date": "1951-09-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Michelle Bachelet",
+   "zh": "蜜雪兒·巴舍萊"
+  },
+  "locationQid": null
+ },
+ "Q321492": {
+  "label": {
+   "en": "John Maurice, Prince of Nassau-Siegen",
+   "zh": "拿骚-锡根的约翰·毛里茨"
+  },
+  "description": "Dutch soldier and administrator (1604–1679)",
+  "coord": null,
+  "image": "Portrait of Johan Maurits (1604-1679), Count of Nassau-Siegen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1604,
+   "date": "1604-06-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1679,
+   "date": "1679-12-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John Maurice, Prince of Nassau-Siegen",
+   "zh": "拿骚-锡根的约翰·毛里茨"
+  },
+  "locationQid": null
+ },
+ "Q3248484": {
+  "label": {
+   "en": "Argentine Declaration of Independence",
+   "zh": "阿根廷独立宣言"
+  },
+  "description": "historical proclamation of Argentinean independence",
+  "coord": {
+   "lat": -26.8333,
+   "lon": -65.2033
+  },
+  "image": "Argentina. Acta de Independencia (Provincias Unidas en Sud-América).jpg",
+  "pointInTime": {
+   "year": 1816,
+   "date": "1816-07-09",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916",
+   "Q13418847"
+  ],
+  "wiki": {
+   "en": "Argentine Declaration of Independence",
+   "zh": null
+  }
+ },
+ "Q332049": {
+  "label": {
+   "en": "Manco Inca",
+   "zh": "曼科·印卡·尤潘基"
+  },
+  "description": "17th Inca Emperor under the crown of Spain and 1st Emperor Inca of the Kingdom of Vilcabamba",
+  "coord": null,
+  "image": "POMA0400v.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1515,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1544,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manco Inca Yupanqui",
+   "zh": "曼科·印卡·尤潘基"
+  },
+  "locationQid": null
+ },
+ "Q332081": {
+  "label": {
+   "en": "Rómulo Betancourt",
+   "zh": "罗慕洛·贝坦科尔特"
+  },
+  "description": "President of Venezuela (1908-1981)",
+  "coord": null,
+  "image": "Foto oficial Rómulo Betancourt 1959.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1908,
+   "date": "1908-02-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1981,
+   "date": "1981-09-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rómulo Betancourt",
+   "zh": "罗慕洛·贝坦科尔特"
+  },
+  "locationQid": null
+ },
+ "Q334711": {
+  "label": {
+   "en": "Inca Garcilaso de la Vega",
+   "zh": "印卡·加西拉索·德拉維加"
+  },
+  "description": "Spanish chronicler (1539-1616)",
+  "coord": null,
+  "image": "Inca Garcilaso 1879.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1539,
+   "date": "1539-04-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1616,
+   "date": "1616-04-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Inca Garcilaso de la Vega",
+   "zh": "印加·加西拉索·德拉維加"
+  },
+  "locationQid": null
+ },
+ "Q335": {
+  "label": {
+   "en": "Patricio Aylwin",
+   "zh": "帕特里西奥·艾尔文"
+  },
+  "description": "Chilean politician and former president (1918–2016)",
+  "coord": null,
+  "image": "Patricio Aylwin (1990).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1918,
+   "date": "1918-11-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2016,
+   "date": "2016-04-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Patricio Aylwin",
+   "zh": "帕特里西奥·艾尔文"
+  },
+  "locationQid": null
+ },
+ "Q3382350": {
+  "label": {
+   "en": "Venezuela Declaration of Independence",
+   "zh": "委內瑞拉独立宣言"
+  },
+  "description": "the declaration of independence from the Spanish monarchy",
+  "coord": {
+   "lat": 10.5055,
+   "lon": -66.9149
+  },
+  "image": "Cinco de julio de 1811 por Juan Lovera.jpg",
+  "pointInTime": {
+   "year": 1811,
+   "date": "1811-07-05",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1811,
+   "date": "1811-07-05",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916",
+   "Q421829"
+  ],
+  "wiki": {
+   "en": "Venezuelan Declaration of Independence",
+   "zh": null
+  }
+ },
+ "Q34063": {
+  "label": {
+   "en": "José Gaspar Rodríguez de Francia",
+   "zh": "何塞·加斯帕尔·罗德里格斯·德·弗朗西亚"
+  },
+  "description": "Paraguayan lawyer, politician and dictator (1766-1840)",
+  "coord": null,
+  "image": "Dr francia.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1766,
+   "date": "1766-01-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1840,
+   "date": "1840-09-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Gaspar Rodríguez de Francia",
+   "zh": "何塞·加斯帕尔·罗德里格斯·德·弗朗西亚"
+  },
+  "locationQid": null
+ },
+ "Q34189": {
+  "label": {
+   "en": "Pablo Neruda",
+   "zh": "巴勃罗·聂鲁达"
+  },
+  "description": "Chilean poet and politician (1904-1973)",
+  "coord": null,
+  "image": "Pablo Neruda 1963.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1904,
+   "date": "1904-07-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1973,
+   "date": "1973-09-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pablo Neruda",
+   "zh": "巴勃罗·聂鲁达"
+  },
+  "locationQid": null
+ },
+ "Q3454843": {
+  "label": {
+   "en": "Chilean national plebiscite, 1988",
+   "zh": "1988年智利公投"
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1988,
+   "date": "1988-10-05",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q43109"
+  ],
+  "wiki": {
+   "en": "1988 Chilean presidential referendum",
+   "zh": "1988年智利總統公投"
+  },
+  "locationQid": null
+ },
+ "Q35045": {
+  "label": {
+   "en": "Potosí",
+   "zh": "波托西"
+  },
+  "description": "city ​​in Bolivia",
+  "coord": {
+   "lat": -19.5892,
+   "lon": -65.7533
+  },
+  "image": "Vista de la Villa Imperial de Potosí.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1545,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q702492"
+  ],
+  "wiki": {
+   "en": "Potosí",
+   "zh": "波托西"
+  }
+ },
+ "Q356659": {
+  "label": {
+   "en": "Julio Argentino Roca",
+   "zh": "胡利奥·阿亨蒂诺·罗加"
+  },
+  "description": "Argentine politician and general, former president of Argentina (1843–1914)",
+  "coord": null,
+  "image": "Julio roca portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1843,
+   "date": "1843-07-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1914,
+   "date": "1914-10-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Julio Argentino Roca",
+   "zh": "胡利奥·阿亨蒂诺·罗加"
+  },
+  "locationQid": null
+ },
+ "Q368": {
+  "label": {
+   "en": "Augusto Pinochet",
+   "zh": "奥古斯托·皮诺切特"
+  },
+  "description": "Chilean military officer and politician (1915–2006)",
+  "coord": null,
+  "image": "Augusto Pinochet foto oficial (cropped)(2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1915,
+   "date": "1915-11-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2006,
+   "date": "2006-12-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Augusto Pinochet",
+   "zh": "奥古斯托·皮诺切特"
+  },
+  "locationQid": null
+ },
+ "Q36947": {
+  "label": {
+   "en": "Salvador",
+   "zh": "萨尔瓦多"
+  },
+  "description": "municipality of Bahia state, Brazil",
+  "coord": {
+   "lat": -12.9831,
+   "lon": -38.4928
+  },
+  "image": "SalvadorDaBahiaPalacioRioBranco.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1549,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3184121",
+   "Q71144301"
+  ],
+  "wiki": {
+   "en": "Salvador, Bahia",
+   "zh": "萨尔瓦多 (巴西)"
+  }
+ },
+ "Q37181": {
+  "label": {
+   "en": "Luiz Inácio Lula da Silva",
+   "zh": "路易斯·伊纳西奥·卢拉·达席尔瓦"
+  },
+  "description": "president of Brazil from 2003 to 2011 and since 2023",
+  "coord": null,
+  "image": "Foto oficial de Luiz Inácio Lula da Silva (estreita).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1945,
+   "date": "1945-10-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Luiz Inácio Lula da Silva",
+   "zh": "路易斯·伊纳西奥·卢拉·达席尔瓦"
+  },
+  "locationQid": null
+ },
+ "Q372074": {
+  "label": {
+   "en": "Manuela Sáenz",
+   "zh": "玛努埃拉·萨恩斯"
+  },
+  "description": "Ecuadorian revolutionary heroine (1797-1856)",
+  "coord": null,
+  "image": "Manuela Sáenz.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1797,
+   "date": "1797-12-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1856,
+   "date": "1856-11-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuela Sáenz",
+   "zh": "曼努埃拉·薩恩斯"
+  },
+  "locationQid": null
+ },
+ "Q37677": {
+  "label": {
+   "en": "Francisco Solano López",
+   "zh": "弗朗西斯科·索拉诺·洛佩斯"
+  },
+  "description": "2nd president of Paraguay (1826-1870)",
+  "coord": null,
+  "image": "Solano Lopez 1866 by Garcia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1826,
+   "date": "1826-07-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1870,
+   "date": "1870-03-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco Solano López",
+   "zh": "弗朗西斯科·索拉诺·洛佩斯"
+  },
+  "locationQid": null
+ },
+ "Q377927": {
+  "label": {
+   "en": "Yáhuar Huácac",
+   "zh": "亚瓦尔·瓦卡克"
+  },
+  "description": "Inca emperor",
+  "coord": null,
+  "image": "Brooklyn Museum - Yahuar Huacac Yupanqui, Seventh Inca, 1 of 14 Portraits of Inca Kings - overall.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1360,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1410,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yawar Waqaq",
+   "zh": "亞瓦爾·瓦卡克"
+  },
+  "locationQid": null
+ },
+ "Q377942": {
+  "label": {
+   "en": "Inca Roca",
+   "zh": "印卡·罗卡"
+  },
+  "description": "7th Inca Emperor",
+  "coord": null,
+  "image": "Brooklyn Museum - Inca Roca, Sixth Inca, 1 of 14 Portraits of Inca Kings.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1330,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1380,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Inca Roca",
+   "zh": "印卡·羅卡"
+  },
+  "locationQid": null
+ },
+ "Q377964": {
+  "label": {
+   "en": "Wiracocha Inca",
+   "zh": "维拉科查"
+  },
+  "description": "9th Inca Emperor",
+  "coord": null,
+  "image": "Brooklyn Museum - Viracocha, Eighth Inca, 1 of 14 Portraits of Inca Kings - overall.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1500,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1448,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Viracocha Inca",
+   "zh": "維拉科查"
+  },
+  "locationQid": null
+ },
+ "Q378158": {
+  "label": {
+   "en": "Eloy Alfaro",
+   "zh": "埃洛伊·阿尔法罗"
+  },
+  "description": "president of Ecuador (1897-1901) / (1906-1914)",
+  "coord": null,
+  "image": "Eloy Alfaro2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1842,
+   "date": "1842-06-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1912,
+   "date": "1912-01-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Eloy Alfaro",
+   "zh": "埃洛伊·阿尔法罗"
+  },
+  "locationQid": null
+ },
+ "Q379714": {
+  "label": {
+   "en": "Aleijadinho",
+   "zh": "阿莱雅迪尼奥"
+  },
+  "description": "Colonial Brazil-born sculptor and architect (c.1738-1814)",
+  "coord": null,
+  "image": "H Bernardelli - Retrato de Aleijadinho.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1730,
+   "date": "1730-08-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1814,
+   "date": "1814-11-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Aleijadinho",
+   "zh": "阿莱雅迪尼奥"
+  },
+  "locationQid": null
+ },
+ "Q381752": {
+  "label": {
+   "en": "Titu Cusi Yupanqui",
+   "zh": "蒂圖·庫西·尤潘基"
+  },
+  "description": "3rd Emperor Inca of the Kingdom of Vilcabamba and author",
+  "coord": null,
+  "image": "SAHUARAURA p118 - TTUPAC AMARO.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1526,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1571,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Titu Cusi",
+   "zh": "蒂圖·庫西·尤潘基"
+  },
+  "locationQid": null
+ },
+ "Q3826495": {
+  "label": {
+   "en": "Micaela Bastidas",
+   "zh": "米卡埃拉·巴斯蒂達斯·普尤卡瓦"
+  },
+  "description": "martyr of Peruvian independence",
+  "coord": null,
+  "image": "Bastidas.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1744,
+   "date": "1744-06-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1781,
+   "date": "1781-05-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Micaela Bastidas",
+   "zh": "米卡埃拉·巴斯蒂達斯·普尤卡瓦"
+  },
+  "locationQid": null
+ },
+ "Q388210": {
+  "label": {
+   "en": "Battle of Carabobo",
+   "zh": "卡拉沃沃战役"
+  },
+  "description": "1821 decisive battle of the Venezuelan War of Independence",
+  "coord": {
+   "lat": 10.0045,
+   "lon": -68.1657
+  },
+  "image": "BatallaCarabobo01.JPG",
+  "pointInTime": {
+   "year": 1821,
+   "date": "1821-06-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Carabobo",
+   "zh": null
+  }
+ },
+ "Q3898690": {
+  "label": {
+   "en": "Pedro Messía de la Cerda, 2nd Marquis of Vega de Armijo",
+   "zh": "佩德羅·梅西亞·德拉·塞爾達"
+  },
+  "description": "Viceroy of New Granada (1700-1783)",
+  "coord": null,
+  "image": "Pedro Messía de la Cerda (3).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1700,
+   "date": "1700-02-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1783,
+   "date": "1783-04-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro Messía de la Cerda, 5th Marquis of Vega de Armijo",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q40236": {
+  "label": {
+   "en": "Manaus",
+   "zh": "马瑙斯"
+  },
+  "description": "municipality of Amazonas state, Brazil",
+  "coord": {
+   "lat": -3.1189,
+   "lon": -60.0217
+  },
+  "image": "Collage Manaus.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1669,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3184121",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Manaus",
+   "zh": "马瑙斯"
+  }
+ },
+ "Q40933": {
+  "label": {
+   "en": "Eva Perón",
+   "zh": "伊娃·裴隆"
+  },
+  "description": "Argentine actress and politician (1919–1952)",
+  "coord": null,
+  "image": "Evita (cropped2).JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1919,
+   "date": "1919-05-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1952,
+   "date": "1952-07-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Eva Perón",
+   "zh": "伊娃·裴隆"
+  },
+  "locationQid": null
+ },
+ "Q414": {
+  "label": {
+   "en": "Argentina",
+   "zh": "阿根廷"
+  },
+  "description": "country in South America",
+  "coord": {
+   "lat": -34,
+   "lon": -64
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1816,
+   "date": "1816-07-09",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256",
+   "Q6266",
+   "Q10551526",
+   "Q140892892"
+  ],
+  "wiki": {
+   "en": "Argentina",
+   "zh": "阿根廷"
+  }
+ },
+ "Q419": {
+  "label": {
+   "en": "Peru",
+   "zh": "秘鲁"
+  },
+  "description": "sovereign state in South America",
+  "coord": {
+   "lat": -9.4,
+   "lon": -76
+  },
+  "image": "Cuarentena Lima (19 de marzo 2).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1821,
+   "date": "1821-07-28",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Peru",
+   "zh": "秘鲁"
+  }
+ },
+ "Q42410": {
+  "label": {
+   "en": "Evo Morales",
+   "zh": "埃沃·莫拉莱斯"
+  },
+  "description": "president of Bolivia from 2006 to 2019",
+  "coord": null,
+  "image": "Evo Morales Ayma (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1959,
+   "date": "1959-10-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Evo Morales",
+   "zh": "埃沃·莫拉莱斯"
+  },
+  "locationQid": null
+ },
+ "Q428969": {
+  "label": {
+   "en": "Lady of Cao",
+   "zh": null
+  },
+  "description": "mummy",
+  "coord": null,
+  "image": "Reconstitution de la Dame de Cao (Musée du quai Branly - Jacques Chirac, Paris).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5",
+   "Q43616"
+  ],
+  "wiki": {
+   "en": "Lady of Cao",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q431806": {
+  "label": {
+   "en": "Arauco War",
+   "zh": "阿劳卡尼亚战争"
+  },
+  "description": "war between Spaniards and Mapuche people in Chile",
+  "coord": null,
+  "image": "Guerra Arauco.jpg",
+  "pointInTime": {
+   "year": 1546,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": {
+   "year": 1609,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Arauco War",
+   "zh": "阿劳卡尼亚战争"
+  },
+  "locationQid": "Q298"
+ },
+ "Q434730": {
+  "label": {
+   "en": "Gabriel García Moreno",
+   "zh": "加布里埃尔·加西亚·莫雷诺"
+  },
+  "description": "President of Ecuador (1860-1865; 1869; 1869-1875)",
+  "coord": null,
+  "image": "Gabriel García Moreno.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1821,
+   "date": "1821-12-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1875,
+   "date": "1875-08-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gabriel García Moreno",
+   "zh": "加布里埃尔·加西亚·莫雷诺"
+  },
+  "locationQid": null
+ },
+ "Q440": {
+  "label": {
+   "en": "Salvador Allende",
+   "zh": "萨尔瓦多·阿连德"
+  },
+  "description": "28th president of Chile (1908–1973)",
+  "coord": null,
+  "image": "Salvador Allende, President of Chile, gtfy.00154.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1908,
+   "date": "1908-06-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1973,
+   "date": "1973-09-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Salvador Allende",
+   "zh": "萨尔瓦多·阿连德"
+  },
+  "locationQid": null
+ },
+ "Q44741": {
+  "label": {
+   "en": "Francisco Pizarro",
+   "zh": "法兰西斯克·皮泽洛"
+  },
+  "description": "Spanish conquistador who conquered the Inca Empire",
+  "coord": null,
+  "image": "Portrait of Francisco Pizarro.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1478,
+   "date": "1478-03-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1541,
+   "date": "1541-06-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco Pizarro",
+   "zh": "法蘭西斯克·皮澤洛"
+  },
+  "locationQid": null
+ },
+ "Q452017": {
+  "label": {
+   "en": "Francisco de Paula Santander",
+   "zh": "弗朗西斯科·德保拉·桑坦德"
+  },
+  "description": "Colombian military and political leader (1792-1840)",
+  "coord": null,
+  "image": "Santander by Acevedo Bernal.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1792,
+   "date": "1792-04-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1840,
+   "date": "1840-03-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco de Paula Santander",
+   "zh": "弗朗西斯科·德保拉·桑坦德"
+  },
+  "locationQid": null
+ },
+ "Q453156": {
+  "label": {
+   "en": "Lautaro",
+   "zh": "莱夫扎茹"
+  },
+  "description": "leader of Mapuche people",
+  "coord": null,
+  "image": "Lautaro (de Pedro Subercaseaux).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1535,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1557,
+   "date": "1557-04-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lautaro",
+   "zh": "劳塔罗"
+  },
+  "locationQid": null
+ },
+ "Q4552798": {
+  "label": {
+   "en": "1746 Lima - Callao earthquake",
+   "zh": "1746年利馬-卡亞俄地震"
+  },
+  "description": "earthquake and tsunami in Peru",
+  "coord": {
+   "lat": -11.35,
+   "lon": -77.28
+  },
+  "image": "Catedral de Lima 1746.jpg",
+  "pointInTime": {
+   "year": 1746,
+   "date": "1746-10-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "1746 Lima–Callao earthquake",
+   "zh": null
+  }
+ },
+ "Q464449": {
+  "label": {
+   "en": "Isabel, Princess Imperial of Brazil",
+   "zh": "伊莎贝尔"
+  },
+  "description": "Princess Imperial of the Empire of Brazil (1846-1921)",
+  "coord": null,
+  "image": "Isabel Princess Imperial of Brazil c 1887.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1846,
+   "date": "1846-07-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1921,
+   "date": "1921-11-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Isabel, Princess Imperial of Brazil",
+   "zh": "伊莎贝尔 (巴西)"
+  },
+  "locationQid": null
+ },
+ "Q465960": {
+  "label": {
+   "en": "Jesuit missions among the Guaraní",
+   "zh": "瓜拉尼人聚居地的耶稣会传教区"
+  },
+  "description": "Catholic missionary initiative and set of missions in Paraguay, Argentina and Brazil",
+  "coord": {
+   "lat": -27.2553,
+   "lon": -55.5317
+  },
+  "image": "Ruinas de Sao Miguel das Missoes.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1609,
+   "date": "1609-12-29",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1564373",
+   "Q107637871",
+   "Q210272"
+  ],
+  "wiki": {
+   "en": "Jesuit missions among the Guaraní",
+   "zh": "瓜拉尼人聚居地的耶穌會傳教區"
+  }
+ },
+ "Q467934": {
+  "label": {
+   "en": "Sayri Túpac",
+   "zh": "塞里·圖帕克"
+  },
+  "description": "2nd Emperor Inca of the Kingdom of Vilcabamba",
+  "coord": null,
+  "image": "Hurtado de Mendoza and Sayri Tupac Inka.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1535,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1561,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sayri Túpac",
+   "zh": "塞里·圖帕克"
+  },
+  "locationQid": null
+ },
+ "Q467959": {
+  "label": {
+   "en": "Andrés de Santa Cruz",
+   "zh": "安德烈斯·德·圣克鲁斯"
+  },
+  "description": "Supreme protector of the Peru–Bolivian Confederation",
+  "coord": null,
+  "image": "Andrés de Santa Cruz. Ugalde, Manuel. c. 1835, Andrés de Santa Cruz collection, La Paz.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1792,
+   "date": "1792-12-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1865,
+   "date": "1865-09-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrés de Santa Cruz",
+   "zh": "安德烈斯·德·圣克鲁斯"
+  },
+  "locationQid": null
+ },
+ "Q467976": {
+  "label": {
+   "en": "Fructuoso Rivera",
+   "zh": "弗鲁克图奥索·里维拉"
+  },
+  "description": "president of Uruguay (1784-1854)",
+  "coord": null,
+  "image": "Fructuoso Rivera.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1784,
+   "date": "1784-10-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1854,
+   "date": "1854-01-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fructuoso Rivera",
+   "zh": "弗鲁克图奥索·里维拉"
+  },
+  "locationQid": null
+ },
+ "Q473217": {
+  "label": {
+   "en": "Felipe Huaman Puma de Ayala",
+   "zh": "瓜曼·波马"
+  },
+  "description": "Incan scholar and noble",
+  "coord": null,
+  "image": "Arica por Guamán Poma.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1534,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1615,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Felipe Guaman Poma de Ayala",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q48249": {
+  "label": {
+   "en": "Falklands War",
+   "zh": "马岛战争"
+  },
+  "description": "undeclared war between Argentina and the United Kingdom in 1982",
+  "coord": {
+   "lat": -51.75,
+   "lon": -59
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1982,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1982,
+   "date": "1982-04-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1982,
+   "date": "1982-06-14",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7883019"
+  ],
+  "wiki": {
+   "en": "Falklands War",
+   "zh": "福克兰战争"
+  }
+ },
+ "Q48344": {
+  "label": {
+   "en": "Recife",
+   "zh": "累西腓"
+  },
+  "description": "municipality of Pernambuco state, Brazil",
+  "coord": {
+   "lat": -8.0539,
+   "lon": -34.8808
+  },
+  "image": "Recife - Início da Avenida Boa Viagem.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1537,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3184121",
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Recife",
+   "zh": "累西腓"
+  }
+ },
+ "Q486263": {
+  "label": {
+   "en": "bossa nova",
+   "zh": "巴萨诺瓦"
+  },
+  "description": "style of Brazilian music",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1958,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188451"
+  ],
+  "wiki": {
+   "en": "Bossa nova",
+   "zh": "巴薩諾瓦"
+  },
+  "locationQid": null
+ },
+ "Q48838712": {
+  "label": {
+   "en": "Parliament of Quillín",
+   "zh": null
+  },
+  "description": "1641",
+  "coord": null,
+  "image": "Parlamento de Quilin 1641 - Alonso de Ovalle.JPG",
+  "pointInTime": {
+   "year": 1641,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625298"
+  ],
+  "wiki": {
+   "en": "Parliament of Quillín",
+   "zh": null
+  },
+  "locationQid": "Q6115585"
+ },
+ "Q48899": {
+  "label": {
+   "en": "Cry of Ipiranga",
+   "zh": null
+  },
+  "description": "Call to arms triggering the Independence of Brazil",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1822,
+   "date": "1822-09-07",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q4958632": {
+  "label": {
+   "en": "Brazil Gold Rush",
+   "zh": "巴西淘金潮"
+  },
+  "description": "1690s to late 19th century event",
+  "coord": null,
+  "image": "Ouro Preto November 2009-7.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q273182"
+  ],
+  "wiki": {
+   "en": "Brazilian gold rush",
+   "zh": null
+  },
+  "locationQid": "Q188905"
+ },
+ "Q554933": {
+  "label": {
+   "en": "Juan José Flores",
+   "zh": "胡安·何塞·弗洛雷斯"
+  },
+  "description": "president of Ecuador (1800–1864)",
+  "coord": null,
+  "image": "Flórez, Juan José.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1800,
+   "date": "1800-07-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1864,
+   "date": "1864-10-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan José Flores",
+   "zh": "胡安·何塞·弗洛雷斯"
+  },
+  "locationQid": null
+ },
+ "Q5582862": {
+  "label": {
+   "en": "Cusco",
+   "zh": "库斯科"
+  },
+  "description": "historic city of Peru, capital of the Department of Cusco",
+  "coord": {
+   "lat": -13.5169,
+   "lon": -71.9786
+  },
+  "image": "Cusco, Sacsayhuamán - panoramio.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1534,
+   "date": "1534-03-23",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q15243209",
+   "Q702492"
+  ],
+  "wiki": {
+   "en": "Cusco",
+   "zh": "庫斯科"
+  }
+ },
+ "Q57311": {
+  "label": {
+   "en": "Juan Manuel Santos",
+   "zh": "胡安·曼努埃尔·桑托斯"
+  },
+  "description": "president of Colombia from 2010 to 2018",
+  "coord": null,
+  "image": "Juan Manuel Santos and Lula (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1951,
+   "date": "1951-08-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Manuel Santos",
+   "zh": "胡安·曼努埃尔·桑托斯"
+  },
+  "locationQid": null
+ },
+ "Q5782830": {
+  "label": {
+   "en": "Muisca Confederations",
+   "zh": "穆伊斯卡联盟"
+  },
+  "description": "loose confederations of different Muisca rulers (Bogota, Tunja, Duitama and Sogamoso) in the central Andean highlands of present-day Colombia before the Spanish conquest of northern South America",
+  "coord": {
+   "lat": 4.7175,
+   "lon": -74.2094
+  },
+  "image": "Templo del sol.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 800,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1540,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q170156",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Muisca Confederations (political units)",
+   "zh": "穆伊斯卡联盟"
+  }
+ },
+ "Q581741": {
+  "label": {
+   "en": "Chimor",
+   "zh": "奇穆王國"
+  },
+  "description": "political grouping of the Chimú culture that ruled the northern coast of Peru beginning around 850 and ending around 1470",
+  "coord": null,
+  "image": "Photomontage Chimu Culture.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 900,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1470,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Chimor",
+   "zh": "奇姆文化"
+  },
+  "locationQid": null
+ },
+ "Q5838985": {
+  "label": {
+   "en": "Tisquesusa",
+   "zh": "蒂斯克苏萨"
+  },
+  "description": "tribal ruler of muiscas",
+  "coord": null,
+  "image": "TISQUESUSA1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1401,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1537,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tisquesusa",
+   "zh": "蒂斯克苏萨"
+  },
+  "locationQid": null
+ },
+ "Q5858325": {
+  "label": {
+   "en": "Colombian peace process",
+   "zh": "哥倫比亞和平進程"
+  },
+  "description": "peace negotiations between the Colombian government and FARC (2012-16)",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 2016,
+   "date": "2016-09-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2012,
+   "date": "2012-09-04",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "Colombian peace process",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q5878": {
+  "label": {
+   "en": "Gabriel García Márquez",
+   "zh": "加夫列尔·加西亚·马尔克斯"
+  },
+  "description": "Colombian writer and Nobel laureate (1927–2014)",
+  "coord": null,
+  "image": "Gabriel Garcia Marquez.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1927,
+   "date": "1927-03-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2014,
+   "date": "2014-04-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gabriel García Márquez",
+   "zh": "加夫列尔·加西亚·马尔克斯"
+  },
+  "locationQid": null
+ },
+ "Q58947": {
+  "label": {
+   "en": "Paraguayan War",
+   "zh": "巴拉圭战争"
+  },
+  "description": "large-scale conflict in South America (1864–1870)",
+  "coord": null,
+  "image": "Tuyuti1.jpg",
+  "pointInTime": {
+   "year": 1864,
+   "date": "1864-10-12",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1864,
+   "date": "1864-12-27",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1870,
+   "date": "1870-03-01",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Paraguayan War",
+   "zh": "巴拉圭战争"
+  },
+  "locationQid": "Q236118"
+ },
+ "Q602420": {
+  "label": {
+   "en": "Antonio Guzmán Blanco",
+   "zh": "安東尼奧·古斯曼·布蘭科"
+  },
+  "description": "President of Venezuela (1829–1899)",
+  "coord": null,
+  "image": "Martin Tovar y Tovar 20 restored.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1829,
+   "date": "1829-02-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1899,
+   "date": "1899-07-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Antonio Guzmán Blanco",
+   "zh": "安東尼奧·古斯曼·布蘭科"
+  },
+  "locationQid": null
+ },
+ "Q6039756": {
+  "label": {
+   "en": "Nemequene",
+   "zh": "内梅克内"
+  },
+  "description": "tribal ruler",
+  "coord": null,
+  "image": "Nemequene.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1401,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1514,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nemequene",
+   "zh": "内梅克内"
+  },
+  "locationQid": null
+ },
+ "Q6137880": {
+  "label": {
+   "en": "Taycanamo",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q636771": {
+  "label": {
+   "en": "Spanish conquest of the Inca Empire",
+   "zh": "西班牙征服印加帝国"
+  },
+  "description": "1532 period of Spanish conquest in South America",
+  "coord": {
+   "lat": -13.5222,
+   "lon": -71.9833
+  },
+  "image": "Inca-Spanish confrontation.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1532,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1572,
+   "date": "1572-06-24",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1361229"
+  ],
+  "wiki": {
+   "en": "Spanish conquest of the Inca Empire",
+   "zh": "西班牙征服印加帝国"
+  }
+ },
+ "Q6442109": {
+  "label": {
+   "en": "Kuhikugu",
+   "zh": "庫西庫古遺址"
+  },
+  "description": "archaeological site located in the Amazon Rainforest",
+  "coord": {
+   "lat": -12.5583,
+   "lon": -53.1111
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Kuhikugu",
+   "zh": null
+  }
+ },
+ "Q645257": {
+  "label": {
+   "en": "Battle of Tucapel",
+   "zh": "图卡佩尔战役"
+  },
+  "description": "1554 battle",
+  "coord": {
+   "lat": -37.7961,
+   "lon": -73.4008
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1553,
+   "date": "1553-12-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Tucapel",
+   "zh": "图卡佩尔战役"
+  }
+ },
+ "Q657461": {
+  "label": {
+   "en": "Cartagena",
+   "zh": "卡塔赫纳"
+  },
+  "description": "city in Bolívar Department, Colombia",
+  "coord": {
+   "lat": 10.4236,
+   "lon": -75.5253
+  },
+  "image": "View of Cartagena from Convento de Santa Cruz de la Popa 01.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1533,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2555896",
+   "Q63209072",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Cartagena, Colombia",
+   "zh": "卡塔赫纳 (哥伦比亚)"
+  }
+ },
+ "Q6694482": {
+  "label": {
+   "en": "Loyalty Day",
+   "zh": "忠诚日"
+  },
+  "description": "Peronist commemoration in Argentina",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1190554",
+   "Q180684"
+  ],
+  "wiki": {
+   "en": "Loyalty Day (Argentina)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q676203": {
+  "label": {
+   "en": "Machu Picchu",
+   "zh": "馬丘比丘"
+  },
+  "description": "15th-century Inca citadel in the Peruvian Andes and UNESCO World Heritage Site",
+  "coord": {
+   "lat": -13.1633,
+   "lon": -72.5456
+  },
+  "image": "Machu Picchu, 2023 (012).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1450,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1572,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15661340",
+   "Q839954",
+   "Q9259"
+  ],
+  "wiki": {
+   "en": "Machu Picchu",
+   "zh": "马丘比丘"
+  }
+ },
+ "Q676301": {
+  "label": {
+   "en": "John VI of Portugal",
+   "zh": "若昂六世"
+  },
+  "description": "King of the United Kingdom of Portugal, Brazil and the Algarves from 1816 to 1825",
+  "coord": null,
+  "image": "Retrato D. Joao (Henri-François Riesener).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1767,
+   "date": "1767-05-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1826,
+   "date": "1826-03-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John VI of Portugal",
+   "zh": "若昂六世"
+  },
+  "locationQid": null
+ },
+ "Q677387": {
+  "label": {
+   "en": null,
+   "zh": null
+  },
+  "description": "archaeological site",
+  "coord": {
+   "lat": -12.1111,
+   "lon": -77.0339
+  },
+  "image": "Huaca Pucllana Miraflores.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Huaca Pucllana",
+   "zh": null
+  }
+ },
+ "Q683532": {
+  "label": {
+   "en": "Rafael Núñez",
+   "zh": "拉斐尔·努涅斯"
+  },
+  "description": "author, lawyer, journalist, politician and President of Colombia (1825-1894)",
+  "coord": null,
+  "image": "Rafael Núñez, ca.1885.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1825,
+   "date": "1825-09-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1894,
+   "date": "1894-09-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rafael Núñez",
+   "zh": "拉斐尔·努涅斯"
+  },
+  "locationQid": null
+ },
+ "Q717": {
+  "label": {
+   "en": "Venezuela",
+   "zh": "委内瑞拉"
+  },
+  "description": "country in South America",
+  "coord": {
+   "lat": 8,
+   "lon": -67
+  },
+  "image": "Embalse la Vueltosa 2022.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1811,
+   "date": "1811-07-05",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Venezuela",
+   "zh": "委內瑞拉"
+  }
+ },
+ "Q726514": {
+  "label": {
+   "en": "Baltasar Hidalgo de Cisneros",
+   "zh": "巴尔塔萨·伊达尔戈·德西斯内罗斯"
+  },
+  "description": "Spanish naval officer (1756–1829)",
+  "coord": null,
+  "image": "BaltasarHidalgoDeCisnerosDeLaTorreTenienteGeneralDeLaArmadaMinistroDeMarina 1222562.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1758,
+   "date": "1758-01-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1829,
+   "date": "1829-06-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Baltasar Hidalgo de Cisneros",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q727099": {
+  "label": {
+   "en": "Alfonso López Pumarejo",
+   "zh": "阿方索·洛佩斯·普雷马霍"
+  },
+  "description": "Colombian politician (1886-1959)",
+  "coord": null,
+  "image": "Alfonso Lopez Pumarejo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1886,
+   "date": "1886-01-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1959,
+   "date": "1959-11-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alfonso López Pumarejo",
+   "zh": "阿方索·洛佩斯·普马雷霍"
+  },
+  "locationQid": null
+ },
+ "Q727121": {
+  "label": {
+   "en": "Mothers of the Plaza de Mayo",
+   "zh": "五月廣場母親"
+  },
+  "description": "movement of Argentine mothers who campaigned for their children who had been \"disappeared\"",
+  "coord": null,
+  "image": "2ª Marcha de la Resistencia 9 y 10 diciembre 1982.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1977,
+   "date": "1977-04-30",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1920810",
+   "Q1451906"
+  ],
+  "wiki": {
+   "en": "Mothers of Plaza de Mayo",
+   "zh": "五月廣場母親"
+  },
+  "locationQid": "Q1126357"
+ },
+ "Q733": {
+  "label": {
+   "en": "Paraguay",
+   "zh": "巴拉圭"
+  },
+  "description": "sovereign state in South America",
+  "coord": {
+   "lat": -23.5,
+   "lon": -58
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1811,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Paraguay",
+   "zh": "巴拉圭"
+  }
+ },
+ "Q736": {
+  "label": {
+   "en": "Ecuador",
+   "zh": "厄瓜多尔"
+  },
+  "description": "sovereign state in South America",
+  "coord": {
+   "lat": -1,
+   "lon": -78
+  },
+  "image": "Ecuador Blue Marble.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1840,
+   "date": "1840-02-16",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Ecuador",
+   "zh": "厄瓜多尔"
+  }
+ },
+ "Q739": {
+  "label": {
+   "en": "Colombia",
+   "zh": "哥伦比亚"
+  },
+  "description": "country in South America",
+  "coord": {
+   "lat": 4,
+   "lon": -73.25
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1810,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q7270",
+   "Q859563",
+   "Q6256",
+   "Q140892892"
+  ],
+  "wiki": {
+   "en": "Colombia",
+   "zh": "哥伦比亚"
+  }
+ },
+ "Q750": {
+  "label": {
+   "en": "Bolivia",
+   "zh": "玻利维亚"
+  },
+  "description": "sovereign state in South America",
+  "coord": {
+   "lat": -17.0569,
+   "lon": -64.9912
+  },
+  "image": "LagunaChiarKhota2013.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1825,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q123480",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Bolivia",
+   "zh": "玻利維亞"
+  }
+ },
+ "Q751149": {
+  "label": {
+   "en": "Earth Summit",
+   "zh": "地球高峰会"
+  },
+  "description": "international conference in Rio de Janeiro, Brazil in June 1992",
+  "coord": {
+   "lat": -22.9098,
+   "lon": -43.1763
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1992,
+   "date": "1992-06-03",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1992,
+   "date": "1992-06-14",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625994"
+  ],
+  "wiki": {
+   "en": "Earth Summit",
+   "zh": "地球高峰會"
+  }
+ },
+ "Q752688": {
+  "label": {
+   "en": "Chachapoya culture",
+   "zh": "查查波亚文化"
+  },
+  "description": "Peruvian nation and culture",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1000,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1476,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8432",
+   "Q465299"
+  ],
+  "wiki": {
+   "en": "Chachapoya culture",
+   "zh": "查查波亚文化"
+  },
+  "locationQid": null
+ },
+ "Q754483": {
+  "label": {
+   "en": "Uruguay v Brazil 1950",
+   "zh": "烏拉圭VS巴西"
+  },
+  "description": "1950 FIFA World Cup Match",
+  "coord": {
+   "lat": -22.9122,
+   "lon": -43.2302
+  },
+  "image": "Gol ghiggia vs brasil.jpg",
+  "pointInTime": {
+   "year": 1950,
+   "date": "1950-07-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q17315159"
+  ],
+  "wiki": {
+   "en": "Uruguay v Brazil (1950 FIFA World Cup)",
+   "zh": "烏拉圭對巴西 (1950年國際足協世界盃)"
+  }
+ },
+ "Q763808": {
+  "label": {
+   "en": "Captaincy General of Chile",
+   "zh": "智利都督轄區"
+  },
+  "description": "Spanish 1541-1818 possession in South America",
+  "coord": {
+   "lat": -33.45,
+   "lon": -70.6667
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1541,
+   "date": "1541-02-12",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1818,
+   "date": "1818-02-12",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5036886"
+  ],
+  "wiki": {
+   "en": "Captaincy General of Chile",
+   "zh": "智利都督府"
+  }
+ },
+ "Q77": {
+  "label": {
+   "en": "Uruguay",
+   "zh": "乌拉圭"
+  },
+  "description": "sovereign state in South America",
+  "coord": {
+   "lat": -33,
+   "lon": -56
+  },
+  "image": "Uruguay - Location Map (2013) - URY - UNOCHA.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1825,
+   "date": "1825-08-25",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q859563",
+   "Q6256",
+   "Q1520223"
+  ],
+  "wiki": {
+   "en": "Uruguay",
+   "zh": "乌拉圭"
+  }
+ },
+ "Q79961": {
+  "label": {
+   "en": "Christ the Redeemer",
+   "zh": "里約熱內盧基督像"
+  },
+  "description": "colossal statue of Jesus in Rio de Janeiro, Brazil",
+  "coord": {
+   "lat": -22.9519,
+   "lon": -43.2105
+  },
+  "image": "Christ the Redeemer - Cristo Redentor.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1920,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q29168169",
+   "Q15135589",
+   "Q1779653",
+   "Q179700",
+   "Q4989906"
+  ],
+  "wiki": {
+   "en": "Christ the Redeemer (statue)",
+   "zh": "救世基督像"
+  }
+ },
+ "Q80871": {
+  "label": {
+   "en": "Gabriela Mistral",
+   "zh": "加夫列拉·米斯特拉尔"
+  },
+  "description": "Chilean poet, diplomat and educator (1889–1957)",
+  "coord": null,
+  "image": "Gabriela Mistral 1945.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1889,
+   "date": "1889-04-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1957,
+   "date": "1957-01-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gabriela Mistral",
+   "zh": "加夫列拉·米斯特拉爾"
+  },
+  "locationQid": null
+ },
+ "Q817594": {
+  "label": {
+   "en": "Coricancha",
+   "zh": "太阳神殿"
+  },
+  "description": "sun temple",
+  "coord": {
+   "lat": -13.5201,
+   "lon": -71.9757
+  },
+  "image": "Cuzco, Coricancha, 2023 (01).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1201,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1922704",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Coricancha",
+   "zh": "太阳神殿 (库斯科)"
+  }
+ },
+ "Q8202889": {
+  "label": {
+   "en": "Aquiminzaque",
+   "zh": "阿基明萨克"
+  },
+  "description": "tribal ruler",
+  "coord": null,
+  "image": "AQUIMINZAQUE.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1518,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1540,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Aquiminzaque",
+   "zh": "阿基明萨克"
+  },
+  "locationQid": null
+ },
+ "Q838980": {
+  "label": {
+   "en": "May Revolution",
+   "zh": "五月革命"
+  },
+  "description": "1810 revolution in Buenos Aires",
+  "coord": null,
+  "image": "Cabildoabierto-Subercaseaux.jpg",
+  "pointInTime": {
+   "year": 1810,
+   "date": "1810-05-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "May Revolution",
+   "zh": "五月革命"
+  },
+  "locationQid": "Q1486"
+ },
+ "Q8440": {
+  "label": {
+   "en": "Hugo Chávez",
+   "zh": "乌戈·查韦斯"
+  },
+  "description": "30th and 33rd President of Venezuela",
+  "coord": null,
+  "image": "Hugo Chávez in Brasília 2011 (3x4 cropped) (2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1954,
+   "date": "1954-07-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2013,
+   "date": "2013-03-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hugo Chávez",
+   "zh": "烏戈·查維茲"
+  },
+  "locationQid": null
+ },
+ "Q847056": {
+  "label": {
+   "en": "Congress of Angostura",
+   "zh": "安格斯特拉議會"
+  },
+  "description": "South American revolutionary congress",
+  "coord": null,
+  "image": "House of the Congress of Angostura.jpg",
+  "pointInTime": {
+   "year": 1819,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1819,
+   "date": "1819-02-15",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1821,
+   "date": "1821-07-31",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2495862",
+   "Q1900755"
+  ],
+  "wiki": {
+   "en": "Congress of Angostura",
+   "zh": null
+  },
+  "locationQid": "Q26906"
+ },
+ "Q848": {
+  "label": {
+   "en": "Arturo Alessandri",
+   "zh": "阿图罗·亚历山德里·帕尔马"
+  },
+  "description": "Chilean politician and President (1868–1950)",
+  "coord": null,
+  "image": "Arturo Alessandri Palma (1925).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1868,
+   "date": "1868-12-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1950,
+   "date": "1950-08-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Arturo Alessandri",
+   "zh": "阿圖羅·亞歷山德里"
+  },
+  "locationQid": null
+ },
+ "Q852133": {
+  "label": {
+   "en": "internal conflict in Peru",
+   "zh": "秘魯內亂"
+  },
+  "description": "armed conflict in Peru during 1980-2000 of left insurgent groups (Shining Path and MRTA) against Peruvian governments and far-right death squats",
+  "coord": {
+   "lat": -9.4,
+   "lon": -76
+  },
+  "image": "Zones registering Sendero Luminoso (Shining Path) activity.svg",
+  "pointInTime": {
+   "year": 2002,
+   "date": "2002-06-22",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1980,
+   "date": "1980-05-17",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q109311521"
+  ],
+  "wiki": {
+   "en": "Internal conflict in Peru",
+   "zh": "秘鲁内部冲突"
+  }
+ },
+ "Q856670": {
+  "label": {
+   "en": "1973 Chilean coup d'état",
+   "zh": "1973年智利政变"
+  },
+  "description": "military overthrow of the Popular Unity coalition government in 1973 in Chile",
+  "coord": null,
+  "image": "Golpe de Estado 1973.jpg",
+  "pointInTime": {
+   "year": 1973,
+   "date": "1973-09-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "1973 Chilean coup d'état",
+   "zh": "1973年智利政變"
+  },
+  "locationQid": "Q298"
+ },
+ "Q8605": {
+  "label": {
+   "en": "Simón Bolívar",
+   "zh": "西蒙·玻利瓦尔"
+  },
+  "description": "Venezuelan statesman and military officer (1783–1830)",
+  "coord": null,
+  "image": "Simón Bolívar by Acevedo Bernal, 1922.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1783,
+   "date": "1783-07-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1830,
+   "date": "1830-12-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Simón Bolívar",
+   "zh": "西蒙·玻利瓦尔"
+  },
+  "locationQid": null
+ },
+ "Q8678": {
+  "label": {
+   "en": "Rio de Janeiro",
+   "zh": "里约热内卢"
+  },
+  "description": "city of Rio de Janeiro state, Brazil",
+  "coord": {
+   "lat": -22.9111,
+   "lon": -43.2056
+  },
+  "image": "Cidade Maravilhosa.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1565,
+   "date": "1565-03-11",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3184121",
+   "Q1549591",
+   "Q174844",
+   "Q129268952"
+  ],
+  "wiki": {
+   "en": "Rio de Janeiro",
+   "zh": "里约热内卢"
+  }
+ },
+ "Q881775": {
+  "label": {
+   "en": "Blasco Núñez Vela",
+   "zh": "布拉斯科·努涅斯·維拉"
+  },
+  "description": "First viceroy of Peru (1490-1546)",
+  "coord": null,
+  "image": "Nuñez Vela1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1490,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1546,
+   "date": "1546-01-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Blasco Núñez Vela",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q8965": {
+  "label": {
+   "en": "Viceroyalty of New Granada",
+   "zh": "新格拉納達總督轄區"
+  },
+  "description": "viceroyalty of the Spanish Empire in the Americas (1717-1819)",
+  "coord": {
+   "lat": 4.65,
+   "lon": -74.05
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1717,
+   "date": "1717-10-12",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1819,
+   "date": "1819-09-27",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20203507",
+   "Q15893266"
+  ],
+  "wiki": {
+   "en": "Viceroyalty of New Granada",
+   "zh": "新格拉納達總督轄區"
+  }
+ },
+ "Q9033295": {
+  "label": {
+   "en": "Minchançaman",
+   "zh": null
+  },
+  "description": "Chimor politician",
+  "coord": null,
+  "image": "Minchancaman.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1450,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1476,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q9065173": {
+  "label": {
+   "en": "Quemuenchatocha",
+   "zh": "克穆恩查托查"
+  },
+  "description": "tribal ruler",
+  "coord": null,
+  "image": "QUEMUENCHATOCHA.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1472,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1537,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Quemuenchatocha",
+   "zh": "克穆恩查托查"
+  },
+  "locationQid": null
+ },
+ "Q9072590": {
+  "label": {
+   "en": "Sagipa",
+   "zh": "萨希帕"
+  },
+  "description": "ruler in pre-Spanish Colombia",
+  "coord": null,
+  "image": "4 Zaquesazipa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1539,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sagipa",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q9094": {
+  "label": {
+   "en": "José Mujica",
+   "zh": "何塞·穆希卡"
+  },
+  "description": "Uruguayan guerrilla fighter and politician",
+  "coord": null,
+  "image": "13.07.2023 - 59º Congresso da União Nacional dos Estudantes – UNE (53044654694) (cropped2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1935,
+   "date": "1935-05-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2025,
+   "date": "2025-05-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Mujica",
+   "zh": "何塞·穆希卡"
+  },
+  "locationQid": null
+ },
+ "Q923516": {
+  "label": {
+   "en": "Wari Empire",
+   "zh": "瓦里帝国"
+  },
+  "description": "former country",
+  "coord": {
+   "lat": -9.3689,
+   "lon": -77.2369
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 600,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1100,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q48349"
+  ],
+  "wiki": {
+   "en": "Wari Empire",
+   "zh": "瓦里帝国"
+  }
+ },
+ "Q93330": {
+  "label": {
+   "en": "Juan Perón",
+   "zh": "胡安·庇隆"
+  },
+  "description": "president of Argentina (1946–55, 1973–74)",
+  "coord": null,
+  "image": "Juan Domingo Perón (cropped 2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1895,
+   "date": "1895-10-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1974,
+   "date": "1974-07-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Perón",
+   "zh": "胡安·裴隆"
+  },
+  "locationQid": null
+ },
+ "Q934157": {
+  "label": {
+   "en": "Battle of Ayacucho",
+   "zh": "阿亚库乔战役"
+  },
+  "description": "1824 battle of the Peruvian War of Independence",
+  "coord": {
+   "lat": -13.0425,
+   "lon": -74.1317
+  },
+  "image": "Batalla de Ayacucho by Martín Tovar y Tovar (1827 - 1902).jpg",
+  "pointInTime": {
+   "year": 1824,
+   "date": "1824-12-09",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Ayacucho",
+   "zh": "阿亚库乔战役"
+  }
+ },
+ "Q935696": {
+  "label": {
+   "en": "Mateo de Toro Zambrano, 1st Count of La Conquista",
+   "zh": null
+  },
+  "description": "Royal Governor of Chile",
+  "coord": null,
+  "image": "Mateo de Toro y Zambrano.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1727,
+   "date": "1727-09-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1811,
+   "date": "1811-02-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mateo de Toro Zambrano",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q939": {
+  "label": {
+   "en": "Pedro I of Brazil",
+   "zh": "佩德罗一世"
+  },
+  "description": "Emperor of Brazil from 1822 to 1831 and King of Portugal in 1826 (1798-1834)",
+  "coord": null,
+  "image": "DpedroI-brasil-full.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1798,
+   "date": "1798-10-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1834,
+   "date": "1834-09-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro I of Brazil",
+   "zh": "佩德罗一世 (巴西)"
+  },
+  "locationQid": null
+ },
+ "Q948975": {
+  "label": {
+   "en": "Inca road system",
+   "zh": "印加路网"
+  },
+  "description": "transportation system of the Inca empire",
+  "coord": {
+   "lat": -18.25,
+   "lon": -69.5917
+  },
+  "image": "The Inka coastal road at Pachacamac DSC 0318.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q358078"
+  ],
+  "wiki": {
+   "en": "Inca road system",
+   "zh": "印加路网"
+  }
+ },
+ "Q960685": {
+  "label": {
+   "en": "Santiago de Liniers, 1st Count of Buenos Aires",
+   "zh": "雅各·德·利涅"
+  },
+  "description": "Spanish army officer (1753-1810) and 10th viceroy of the Spanish Viceroyalty of the River Plat",
+  "coord": null,
+  "image": "Santiago de Liniers.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1753,
+   "date": "1753-07-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1810,
+   "date": "1810-08-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Santiago de Liniers, 1st Count of Buenos Aires",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q981309": {
+  "label": {
+   "en": "José Fernando de Abascal y Sousa",
+   "zh": "阿巴斯卡爾和索薩的何塞·費爾南多"
+  },
+  "description": "Spanish military officer and viceroyal administrator (1743-1821)",
+  "coord": null,
+  "image": "Pedro Díaz - José Fernando de Abascal.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1743,
+   "date": "1743-06-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1821,
+   "date": "1821-06-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Fernando de Abascal y Sousa",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "loc:Q1109031": {
+  "coord": {
+   "lat": 4.6019,
+   "lon": -74.072
+  },
+  "label": {
+   "en": "Gold Museum",
+   "zh": "波哥大黄金博物馆"
+  }
+ },
+ "loc:Q1126357": {
+  "coord": {
+   "lat": -34.6083,
+   "lon": -58.3719
+  },
+  "label": {
+   "en": "Plaza de Mayo",
+   "zh": "五月广场"
+  }
+ },
+ "loc:Q1486": {
+  "coord": {
+   "lat": -34.5997,
+   "lon": -58.3819
+  },
+  "label": {
+   "en": "Buenos Aires",
+   "zh": "布宜诺斯艾利斯"
+  }
+ },
+ "loc:Q1507": {
+  "coord": {
+   "lat": -41.8102,
+   "lon": -68.9063
+  },
+  "label": {
+   "en": "Patagonia",
+   "zh": "巴塔哥尼亞"
+  }
+ },
+ "loc:Q177567": {
+  "coord": {
+   "lat": -3.16,
+   "lon": -60.03
+  },
+  "label": {
+   "en": "Amazon rainforest",
+   "zh": "亚马孙雨林"
+  }
+ },
+ "loc:Q188905": {
+  "coord": {
+   "lat": -20.3853,
+   "lon": -43.5036
+  },
+  "label": {
+   "en": "Ouro Preto",
+   "zh": "欧鲁普雷图"
+  }
+ },
+ "loc:Q193264": {
+  "coord": {
+   "lat": -0.9786,
+   "lon": -49.5817
+  },
+  "label": {
+   "en": "Marajó",
+   "zh": "马拉若岛"
+  }
+ },
+ "loc:Q211435": {
+  "coord": {
+   "lat": -12.06,
+   "lon": -77.0375
+  },
+  "label": {
+   "en": "Viceroyalty of Peru",
+   "zh": "秘鲁总督区"
+  }
+ },
+ "loc:Q2176": {
+  "coord": {
+   "lat": -38.9,
+   "lon": -72.6667
+  },
+  "label": {
+   "en": "Araucanía Region",
+   "zh": "阿劳卡尼亚大区"
+  }
+ },
+ "loc:Q2297627": {
+  "coord": {
+   "lat": -23.5453,
+   "lon": -46.6386
+  },
+  "label": {
+   "en": "Municipal Theater of São Paulo",
+   "zh": "圣保罗市立剧院"
+  }
+ },
+ "loc:Q236118": {
+  "coord": {
+   "lat": -39.1,
+   "lon": -67.9
+  },
+  "label": {
+   "en": "Southern Cone",
+   "zh": "南锥体"
+  }
+ },
+ "loc:Q2628446": {
+  "coord": {
+   "lat": -26.7,
+   "lon": -51.4
+  },
+  "label": {
+   "en": "Misiones Orientales",
+   "zh": "東方傳教區"
+  }
+ },
+ "loc:Q26906": {
+  "coord": {
+   "lat": 8.1029,
+   "lon": -63.547
+  },
+  "label": {
+   "en": "Ciudad Bolívar",
+   "zh": "玻利瓦尔城"
+  }
+ },
+ "loc:Q298": {
+  "coord": {
+   "lat": -33,
+   "lon": -71
+  },
+  "label": {
+   "en": "Chile",
+   "zh": "智利"
+  }
+ },
+ "loc:Q3362189": {
+  "coord": {
+   "lat": 5.5322,
+   "lon": -73.3629
+  },
+  "label": {
+   "en": "Altiplano Cundiboyacense",
+   "zh": "昆迪博亚卡高原"
+  }
+ },
+ "loc:Q419": {
+  "coord": {
+   "lat": -9.4,
+   "lon": -76
+  },
+  "label": {
+   "en": "Peru",
+   "zh": "秘鲁"
+  }
+ },
+ "loc:Q43509": {
+  "coord": {
+   "lat": -2.19,
+   "lon": -79.8875
+  },
+  "label": {
+   "en": "Guayaquil",
+   "zh": "瓜亚基尔"
+  }
+ },
+ "loc:Q6115585": {
+  "coord": {
+   "lat": -38.445,
+   "lon": -72.9122
+  },
+  "label": {
+   "en": "Quillen River",
+   "zh": null
+  }
+ },
+ "loc:Q664": {
+  "coord": {
+   "lat": -41.2,
+   "lon": 174
+  },
+  "label": {
+   "en": "New Zealand",
+   "zh": "新西兰"
+  }
+ },
+ "loc:Q867885": {
+  "coord": {
+   "lat": 55.6738,
+   "lon": 12.5822
+  },
+  "label": {
+   "en": "Royal Danish Library",
+   "zh": "丹麦皇家图书馆"
+  }
+ }
+}
