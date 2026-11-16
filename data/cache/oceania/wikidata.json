@@ -1,0 +1,6027 @@
+{
+ "Q1012971": {
+  "label": {
+   "en": "Lahaina",
+   "zh": "拉海纳"
+  },
+  "description": "census designated place in West Maui, Maui County, Hawaii, United States",
+  "coord": {
+   "lat": 20.8861,
+   "lon": -156.6747
+  },
+  "image": "Lāhainā oceanfront.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q498162",
+   "Q17343829"
+  ],
+  "wiki": {
+   "en": "Lahaina, Hawaii",
+   "zh": "拉海納"
+  }
+ },
+ "Q10360270": {
+  "label": {
+   "en": "Bougainville conflict",
+   "zh": "布干維爾內戰"
+  },
+  "description": "armed conflict in the North Solomons",
+  "coord": {
+   "lat": -6,
+   "lon": 155
+  },
+  "image": "Bvdistricts.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1988,
+   "date": "1988-12-01",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1998,
+   "date": "1998-04-20",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q180684",
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Bougainville conflict",
+   "zh": "布干维尔内战"
+  }
+ },
+ "Q105973572": {
+  "label": {
+   "en": "Spanish–Chamorro Wars",
+   "zh": "西班牙-查莫羅戰爭"
+  },
+  "description": "era of civil unrest",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1670,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1699,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Spanish–Chamorro Wars",
+   "zh": null
+  },
+  "locationQid": "Q153732"
+ },
+ "Q107288": {
+  "label": {
+   "en": "Liliʻuokalani",
+   "zh": "莉莉乌欧卡拉尼"
+  },
+  "description": "monarch of the Hawaiian Kingdom (1838–1917)",
+  "coord": null,
+  "image": "Liliʻuokalani.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1838,
+   "date": "1838-09-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1917,
+   "date": "1917-11-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liliʻuokalani",
+   "zh": "莉莉烏歐卡拉尼"
+  },
+  "locationQid": null
+ },
+ "Q10931943": {
+  "label": {
+   "en": "Overthrow of the Hawaiian Kingdom",
+   "zh": "夏威夷王国覆灭"
+  },
+  "description": "overthrow of government",
+  "coord": null,
+  "image": "USS Boston landing force, 1893 (PP-36-3-002).jpg",
+  "pointInTime": {
+   "year": 1893,
+   "date": "1893-01-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "Overthrow of the Hawaiian Kingdom",
+   "zh": "夏威夷王国的覆灭"
+  },
+  "locationQid": "Q18094"
+ },
+ "Q110567218": {
+  "label": {
+   "en": "2022 Hunga Tonga–Hunga Haʻapai eruption and tsunami",
+   "zh": "2022年汤加火山喷发"
+  },
+  "description": "major volcanic eruption in Tonga that occurred on 15 January 2022",
+  "coord": {
+   "lat": -20.546,
+   "lon": -175.39
+  },
+  "image": "Tonga Volcano Eruption 2022-01-15 0320Z to 0610Z Himawari-8 visible.gif",
+  "pointInTime": {
+   "year": 2022,
+   "date": "2022-01-15",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1060842",
+   "Q747501"
+  ],
+  "wiki": {
+   "en": "2022 Hunga Tonga–Hunga Haʻapai eruption and tsunami",
+   "zh": "2022年汤加海底火山喷发"
+  }
+ },
+ "Q11568": {
+  "label": {
+   "en": "Darwin",
+   "zh": "达尔文市"
+  },
+  "description": "capital city of the Northern Territory, Australia, and the surrounding area",
+  "coord": {
+   "lat": -12.4381,
+   "lon": 130.8411
+  },
+  "image": "00 2474 Darwin (Northern Territory, Australien).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1869,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Darwin, Northern Territory",
+   "zh": "达尔文 (澳大利亚)"
+  }
+ },
+ "Q1179068": {
+  "label": {
+   "en": "Day of Mourning",
+   "zh": "哀悼日"
+  },
+  "description": "Australian protest",
+  "coord": null,
+  "image": "A blackboard displayed outside the hall proclaims, \"Day of Mourning\" (12097105666).jpg",
+  "pointInTime": {
+   "year": 1938,
+   "date": "1938-01-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q422695",
+   "Q81859300"
+  ],
+  "wiki": {
+   "en": "Day of Mourning (Australia)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1182065": {
+  "label": {
+   "en": "The Declaration of the Independence of New Zealand",
+   "zh": "新西兰独立宣言"
+  },
+  "description": "proclamation of sovereignty by United Tribes of New Zealand, created 1835, ratified 1836",
+  "coord": null,
+  "image": "He Whakaputanga o te Rangatiratanga o Nu Tireni (known as The Declaration of Independence) (Page 1 of 3), 1835 (10430000633).jpg",
+  "pointInTime": {
+   "year": 1835,
+   "date": "1835-10-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916"
+  ],
+  "wiki": {
+   "en": "He Whakaputanga",
+   "zh": "新西兰独立宣言"
+  },
+  "locationQid": "Q65643398"
+ },
+ "Q1192398": {
+  "label": {
+   "en": "Musket Wars",
+   "zh": "火槍戰爭"
+  },
+  "description": "armed conflicts between Māori tribes in New Zealand between 1807 and 1842",
+  "coord": null,
+  "image": "MaoriWardanceKahuroa.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1807,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1842,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Musket Wars",
+   "zh": "火槍戰爭"
+  },
+  "locationQid": "Q664"
+ },
+ "Q121324595": {
+  "label": {
+   "en": "2023 Hawaii wildfires",
+   "zh": "2023年夏威夷山火"
+  },
+  "description": "2023 wildfires in the state of Hawaii",
+  "coord": {
+   "lat": 20.8824,
+   "lon": -156.6816
+  },
+  "image": "Os-lahaina-town-fire.jpg",
+  "pointInTime": {
+   "year": 2023,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q169950"
+  ],
+  "wiki": {
+   "en": "2023 Hawaii wildfires",
+   "zh": "2023年夏威夷山火"
+  }
+ },
+ "Q1235723": {
+  "label": {
+   "en": "Māori King Movement",
+   "zh": "毛利國王運動"
+  },
+  "description": "shared monarchy of numerous iwi (Māori tribes) of New Zealand",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1858,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q49773",
+   "Q1063239"
+  ],
+  "wiki": {
+   "en": "Māori King movement",
+   "zh": "毛利国王运动"
+  },
+  "locationQid": null
+ },
+ "Q1245849": {
+  "label": {
+   "en": "'Aho'eitu",
+   "zh": "阿霍埃图"
+  },
+  "description": "son of the god Tangaloa ʻEitumātupuʻa and a mortal woman",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6949213"
+  ],
+  "wiki": {
+   "en": "ʻAhoʻeitu",
+   "zh": "阿霍埃图"
+  },
+  "locationQid": null
+ },
+ "Q130085565": {
+  "label": {
+   "en": null,
+   "zh": "娜薇·荷諾·伊特波"
+  },
+  "description": "Monarch of the Kīngitanga (Māori king movement) since 2024",
+  "coord": null,
+  "image": "Te Arikinui Kuini Nga wai hono i te po at Koroneihana 2026 (further cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1997,
+   "date": "1997-01-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nga wai hono i te po",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q130800": {
+  "label": {
+   "en": "Papeete",
+   "zh": "帕皮提"
+  },
+  "description": "capital of French Polynesia",
+  "coord": {
+   "lat": -17.5397,
+   "lon": -149.5689
+  },
+  "image": "Papeete - Marina Taina.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1818,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q84598477",
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Papeete",
+   "zh": "帕皮提"
+  }
+ },
+ "Q1353724": {
+  "label": {
+   "en": "John Hunter",
+   "zh": "約翰·杭特 (英國海軍軍官)"
+  },
+  "description": "Royal Navy officer and governor (1737-1821)",
+  "coord": null,
+  "image": "Gouverneur John Hunter.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1737,
+   "date": "1737-08-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1821,
+   "date": "1821-03-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John Hunter (Royal Navy officer)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q13605720": {
+  "label": {
+   "en": "Kalaniʻōpuʻu",
+   "zh": "卡拉尼奧普烏"
+  },
+  "description": "18th-century Hawaiian monarch",
+  "coord": null,
+  "image": "Kalaniʻōpuʻu ʻAhu ʻula and mahiole.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1729,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1782,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kalaniʻōpuʻu",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1365838": {
+  "label": {
+   "en": "Ralph Darling",
+   "zh": "芮福·达令"
+  },
+  "description": "British Army general (1772-1858)",
+  "coord": null,
+  "image": "Ralph Darling.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1772,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1858,
+   "date": "1858-04-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ralph Darling",
+   "zh": "芮福·達令"
+  },
+  "locationQid": null
+ },
+ "Q1371015": {
+  "label": {
+   "en": "Michael Joseph Savage",
+   "zh": "迈克尔·约瑟夫·萨瓦奇"
+  },
+  "description": "first Labour Prime Minister of New Zealand (1872-1940)",
+  "coord": null,
+  "image": "Michael Joseph Savage Portrait (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1872,
+   "date": "1872-03-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1940,
+   "date": "1940-03-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Michael Joseph Savage",
+   "zh": "迈克尔·约瑟夫·萨瓦奇"
+  },
+  "locationQid": null
+ },
+ "Q1396584": {
+  "label": {
+   "en": "Te Rauparaha",
+   "zh": null
+  },
+  "description": "Māori chief and war leader of Ngāti Toa",
+  "coord": null,
+  "image": "Te Raparaha, chief of the Kawias, watercolour by R. Hall, c. 1840s.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1760,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1849,
+   "date": "1849-11-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Te Rauparaha",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1396620": {
+  "label": {
+   "en": "George Gipps",
+   "zh": "乔治·吉普斯"
+  },
+  "description": "British colonial administrator (1791-1847)",
+  "coord": null,
+  "image": "George Gipps.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1791,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1847,
+   "date": "1847-02-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George Gipps",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1400226": {
+  "label": {
+   "en": "Peter Fraser",
+   "zh": "彼得·弗雷泽"
+  },
+  "description": "New Zealand politician (1884–1950)",
+  "coord": null,
+  "image": "Peter Fraser.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1884,
+   "date": "1884-08-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1950,
+   "date": "1950-12-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter Fraser",
+   "zh": "彼得·弗雷泽"
+  },
+  "locationQid": null
+ },
+ "Q1419429": {
+  "label": {
+   "en": "First Fleet",
+   "zh": "首批船队"
+  },
+  "description": "11 ships that left Great Britain to found the penal colony that became the first European settlement in Australia",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1787,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q370330",
+   "Q2401485"
+  ],
+  "wiki": {
+   "en": "First Fleet",
+   "zh": "第一艦隊 (大不列顛王國)"
+  },
+  "locationQid": null
+ },
+ "Q1433433": {
+  "label": {
+   "en": "Ha'amonga 'a Maui",
+   "zh": null
+  },
+  "description": "a stone trilithon located in Tonga",
+  "coord": {
+   "lat": -21.1367,
+   "lon": -175.0481
+  },
+  "image": "Haʻamonga.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1300,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q120312"
+  ],
+  "wiki": {
+   "en": "Haʻamonga ʻa Maui",
+   "zh": null
+  }
+ },
+ "Q14452": {
+  "label": {
+   "en": "Easter Island",
+   "zh": "复活节岛"
+  },
+  "description": "Polynesian island and special territory of Chile",
+  "coord": {
+   "lat": -27.12,
+   "lon": -109.35
+  },
+  "image": "Easter Island 5.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q23442"
+  ],
+  "wiki": {
+   "en": "Easter Island",
+   "zh": "復活節島"
+  }
+ },
+ "Q1501525": {
+  "label": {
+   "en": "Mabo v Queensland (No 2)",
+   "zh": "馬伯訴昆士蘭（第二次）（1992年）"
+  },
+  "description": "legal case heard in the High Court of Australia in 1992",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1992,
+   "date": "1992-05-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1992,
+   "date": "1992-06-03",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2334719"
+  ],
+  "wiki": {
+   "en": "Mabo v Queensland (No 2)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q152666": {
+  "label": {
+   "en": "Billy Hughes",
+   "zh": "比利·休斯"
+  },
+  "description": "Australian politician (1862–1952), 7th Prime Minister of Australia from 1915 to 1923",
+  "coord": null,
+  "image": "Billy Hughes 1919.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1862,
+   "date": "1862-09-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1952,
+   "date": "1952-10-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Billy Hughes",
+   "zh": "比利·休斯 (澳大利亚)"
+  },
+  "locationQid": null
+ },
+ "Q153911": {
+  "label": {
+   "en": "Louis-Antoine de Bougainville",
+   "zh": "路易·安托万·德·布干维尔"
+  },
+  "description": "French admiral and explorer (1729–1811)",
+  "coord": null,
+  "image": "Ducreux - Louis Antoine de Bougainville.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1729,
+   "date": "1729-11-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1811,
+   "date": "1811-08-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis Antoine de Bougainville",
+   "zh": "路易·安托万·德·布干维尔"
+  },
+  "locationQid": null
+ },
+ "Q1545405": {
+  "label": {
+   "en": "New Zealand Wars",
+   "zh": "新西兰土地战争"
+  },
+  "description": "1845–1872 armed conflicts in New Zealand",
+  "coord": null,
+  "image": "Newzealandwarsmemorial.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1845,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1872,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "New Zealand Wars",
+   "zh": "新西兰战争"
+  },
+  "locationQid": "Q664"
+ },
+ "Q156418": {
+  "label": {
+   "en": "Kingdom of Hawaiʻi",
+   "zh": "夏威夷王国"
+  },
+  "description": "historical kingdom in the Hawaiian Islands (1778–1893)",
+  "coord": {
+   "lat": 20.987,
+   "lon": -157.863
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1795,
+   "date": null,
+   "precision": 10,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1895,
+   "date": "1895-01-24",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Hawaiian Kingdom",
+   "zh": "夏威夷王國"
+  }
+ },
+ "Q1607505": {
+  "label": {
+   "en": "Saudeleur dynasty",
+   "zh": "绍德雷尔王朝"
+  },
+  "description": "dynasty",
+  "coord": {
+   "lat": 6.85,
+   "lon": 158.2167
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950"
+  ],
+  "wiki": {
+   "en": "Saudeleur dynasty",
+   "zh": "绍德雷尔王朝"
+  }
+ },
+ "Q1627025": {
+  "label": {
+   "en": "Hongi Hika",
+   "zh": null
+  },
+  "description": "New Zealand Maori chief",
+  "coord": null,
+  "image": "Hongi Hika.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1772,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1828,
+   "date": "1828-03-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hongi Hika",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q163080": {
+  "label": {
+   "en": "Kalākaua",
+   "zh": "卡拉卡瓦"
+  },
+  "description": "last reigning king of the Kingdom of Hawaii (1836–1891)",
+  "coord": null,
+  "image": "Kalakaua dust & scratches.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1836,
+   "date": "1836-11-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1891,
+   "date": "1891-01-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kalākaua",
+   "zh": "卡拉卡瓦"
+  },
+  "locationQid": null
+ },
+ "Q16734600": {
+  "label": {
+   "en": "Laʻauli Leuatea Schmidt",
+   "zh": "拉乌利"
+  },
+  "description": "Samoan politician",
+  "coord": null,
+  "image": "Laʻauli Leuatea Schmidt in 2023.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1966,
+   "date": "1966-04-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Laʻauli Leuatea Schmidt",
+   "zh": "拉乌利·莱瓦蒂亚·波拉塔伊瓦奥"
+  },
+  "locationQid": null
+ },
+ "Q17194312": {
+  "label": {
+   "en": "nuclear testing at Bikini Atoll",
+   "zh": "比基尼环礁核试验"
+  },
+  "description": "67 nuclear weapons tests, with 23 detonations at seven sites, by the USA, 1946—1958",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13406463"
+  ],
+  "wiki": {
+   "en": "Nuclear testing at Bikini Atoll",
+   "zh": "比基尼环礁核试验"
+  },
+  "locationQid": "Q152225"
+ },
+ "Q1729807": {
+  "label": {
+   "en": "Tupaia",
+   "zh": "圖帕伊亞"
+  },
+  "description": "Polynesian navigator",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1725,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1770,
+   "date": "1770-11-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tupaia (navigator)",
+   "zh": "圖帕伊亞"
+  },
+  "locationQid": null
+ },
+ "Q17366581": {
+  "label": {
+   "en": "Leluh",
+   "zh": null
+  },
+  "description": "ruined city in Kosrae, Federated States of Micronesia",
+  "coord": {
+   "lat": 5.3325,
+   "lon": 163.025
+  },
+  "image": "Lelu Ruins, Kosrae, Micronesia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486972",
+   "Q109607",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Leluh archaeological site",
+   "zh": null
+  }
+ },
+ "Q17515160": {
+  "label": {
+   "en": "Kingdom of Fiji",
+   "zh": "斐济王国"
+  },
+  "description": "monarchy in Fiji from 1871 to 1874",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1871,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1874,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1250464"
+  ],
+  "wiki": {
+   "en": "Kingdom of Fiji",
+   "zh": "斐济王国"
+  },
+  "locationQid": null
+ },
+ "Q1758372": {
+  "label": {
+   "en": "Moriori people",
+   "zh": "莫里奧里人"
+  },
+  "description": "indigenous Polynesian people of the Chatham Islands",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q41710"
+  ],
+  "wiki": {
+   "en": "Moriori",
+   "zh": "莫里奧里人"
+  },
+  "locationQid": null
+ },
+ "Q1785309": {
+  "label": {
+   "en": "Myall Creek massacre",
+   "zh": null
+  },
+  "description": "massacre in Australia",
+  "coord": {
+   "lat": -29.7813,
+   "lon": 150.7127
+  },
+  "image": "Massacre @ Myall Creek - Invasion of the Settlers.png",
+  "pointInTime": {
+   "year": 1838,
+   "date": "1838-06-10",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1838,
+   "date": "1838-06-10",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915",
+   "Q10431430"
+  ],
+  "wiki": {
+   "en": "Myall Creek massacre",
+   "zh": null
+  }
+ },
+ "Q18005": {
+  "label": {
+   "en": "Papunya Tula",
+   "zh": "帕普尼亞圖拉"
+  },
+  "description": "Aboriginal Australian artists' cooperative",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1972,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4801240"
+  ],
+  "wiki": {
+   "en": "Papunya Tula",
+   "zh": "帕普尼亞圖拉"
+  },
+  "locationQid": null
+ },
+ "Q180383": {
+  "label": {
+   "en": "Helen Clark",
+   "zh": "海伦·克拉克"
+  },
+  "description": "Prime Minister of New Zealand from 1999 to 2008",
+  "coord": null,
+  "image": "Helen Clark official photo (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1950,
+   "date": "1950-02-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Helen Clark",
+   "zh": "海伦·克拉克"
+  },
+  "locationQid": null
+ },
+ "Q18094": {
+  "label": {
+   "en": "Honolulu",
+   "zh": "火奴鲁鲁"
+  },
+  "description": "capital city of the U.S. state of Hawaii and seat of Honolulu County",
+  "coord": {
+   "lat": 21.3047,
+   "lon": -157.8572
+  },
+  "image": "2022 Views from Diamond Head 02.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q62049",
+   "Q1549591",
+   "Q3301053"
+  ],
+  "wiki": {
+   "en": "Honolulu",
+   "zh": "檀香山"
+  }
+ },
+ "Q18348382": {
+  "label": {
+   "en": "Colony of New South Wales",
+   "zh": "新南威爾斯殖民地"
+  },
+  "description": "British colony which later became a state of Australia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1788,
+   "date": "1788-01-18",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1901,
+   "date": "1901-01-01",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1351282",
+   "Q1140316",
+   "Q7448101",
+   "Q1620908"
+  ],
+  "wiki": {
+   "en": "Colony of New South Wales",
+   "zh": "新南威尔士殖民地"
+  },
+  "locationQid": null
+ },
+ "Q1952802": {
+  "label": {
+   "en": "Lake Mungo remains",
+   "zh": "蒙哥湖遗骨"
+  },
+  "description": "prehistoric human remains found in Australia",
+  "coord": null,
+  "image": "Mungo Man.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q16334295"
+  ],
+  "wiki": {
+   "en": "Lake Mungo remains",
+   "zh": "蒙哥湖遗骨"
+  },
+  "locationQid": "Q452812"
+ },
+ "Q2003366": {
+  "label": {
+   "en": "Rabbie Namaliu",
+   "zh": "拉比·纳马柳"
+  },
+  "description": "Prime Minister of Papua New Guinea from 1988 to 1992",
+  "coord": null,
+  "image": "Sir Rabbie Namaliu profile 2020.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1947,
+   "date": "1947-04-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2023,
+   "date": "2023-03-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rabbie Namaliu",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q20350": {
+  "label": {
+   "en": "moai",
+   "zh": "摩艾石像"
+  },
+  "description": "monolithic humanoid figures",
+  "coord": null,
+  "image": "Ahu Tongariki.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Moai",
+   "zh": "摩艾石像"
+  },
+  "locationQid": null
+ },
+ "Q20526124": {
+  "label": {
+   "en": "Umi-a-Liloa",
+   "zh": null
+  },
+  "description": "king of the island of Hawaii",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1470,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "ʻUmi-a-Līloa",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2067627": {
+  "label": {
+   "en": "Richard Bourke",
+   "zh": "理查德·布尔克"
+  },
+  "description": "British Army general and colonial administrator",
+  "coord": null,
+  "image": "Richard Bourke c. 1835.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1777,
+   "date": "1777-05-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1855,
+   "date": "1855-08-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Richard Bourke",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2076561": {
+  "label": {
+   "en": "Peter Lalor",
+   "zh": "彼得·羅勒"
+  },
+  "description": "Australian politician (1827-1889)",
+  "coord": null,
+  "image": "Peter Lalor as Speaker.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1827,
+   "date": "1827-02-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1889,
+   "date": "1889-02-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter Lalor",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q208497": {
+  "label": {
+   "en": "Tupou VI of Tonga",
+   "zh": "图普六世"
+  },
+  "description": "King of Tonga",
+  "coord": null,
+  "image": "Tupou VI 2025.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1959,
+   "date": "1959-07-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tupou VI",
+   "zh": "圖普六世"
+  },
+  "locationQid": null
+ },
+ "Q2096366": {
+  "label": {
+   "en": "Victorian gold rush",
+   "zh": "維多利亞淘金潮"
+  },
+  "description": "period in the history of Victoria, Australia",
+  "coord": null,
+  "image": "Nerrena Fossickers in the Creek Nerrena.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1851,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q273182"
+  ],
+  "wiki": {
+   "en": "Victorian gold rush",
+   "zh": "维多利亚州淘金潮"
+  },
+  "locationQid": "Q36687"
+ },
+ "Q2097052": {
+  "label": {
+   "en": "Timoci Bavadra",
+   "zh": "蒂莫西·巴万德拉"
+  },
+  "description": "Fijian politician (1934-1989)",
+  "coord": null,
+  "image": "Bavadra in Sydney, April 1988 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1934,
+   "date": "1934-09-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1989,
+   "date": "1989-11-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Timoci Bavadra",
+   "zh": "蒂莫西·巴万德拉"
+  },
+  "locationQid": null
+ },
+ "Q214438": {
+  "label": {
+   "en": "Robert Menzies",
+   "zh": "羅伯特·孟席斯"
+  },
+  "description": "Australian politician, 12th Prime Minister of Australia (1894-1978)",
+  "coord": null,
+  "image": "Portrait Menzies 1950s.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1894,
+   "date": "1894-12-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1978,
+   "date": "1978-05-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Robert Menzies",
+   "zh": "羅伯特·孟席斯"
+  },
+  "locationQid": null
+ },
+ "Q214910": {
+  "label": {
+   "en": "Kamehameha I",
+   "zh": "卡美哈梅哈一世"
+  },
+  "description": "founder and ruler of the Kingdom of Hawaii",
+  "coord": null,
+  "image": "Kamehameha I, portrait by James Gay Sawkins.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1800,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1819,
+   "date": "1819-05-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kamehameha I",
+   "zh": "卡美哈梅哈一世"
+  },
+  "locationQid": null
+ },
+ "Q2164870": {
+  "label": {
+   "en": "Eureka Rebellion",
+   "zh": "尤利卡起事"
+  },
+  "description": "1854 miners' revolt in Victoria, Australia",
+  "coord": {
+   "lat": -37.5651,
+   "lon": 143.8842
+  },
+  "image": "Doudiet Swearing allegiance to the Southern Cross.jpg",
+  "pointInTime": {
+   "year": 1854,
+   "date": "1854-12-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734",
+   "Q12909644"
+  ],
+  "wiki": {
+   "en": "Eureka Rebellion",
+   "zh": "尤利卡起事"
+  }
+ },
+ "Q217145": {
+  "label": {
+   "en": "Guadalcanal campaign",
+   "zh": "瓜达尔卡纳尔岛战役"
+  },
+  "description": "1942-1943 series of battles fought on and around Guadalcanal as part of World War II",
+  "coord": {
+   "lat": -9.4167,
+   "lon": 160
+  },
+  "image": "Solomon Islands-CIA WFB Map.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1942,
+   "date": "1942-08-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1943,
+   "date": "1943-02-09",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663"
+  ],
+  "wiki": {
+   "en": "Guadalcanal campaign",
+   "zh": "瓜達爾卡納爾島戰役"
+  }
+ },
+ "Q21836971": {
+  "label": {
+   "en": "1878 Kanak rebellion",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": "A long columm of men... (Souvenirs de la Nouvelle Calédonie, 1881).jpg",
+  "pointInTime": {
+   "year": 1878,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1190554"
+  ],
+  "wiki": {
+   "en": "1878 Kanak revolt",
+   "zh": null
+  },
+  "locationQid": "Q33788"
+ },
+ "Q227716": {
+  "label": {
+   "en": "George Tupou V of Tonga",
+   "zh": "乔治·图普五世"
+  },
+  "description": "King of Tonga",
+  "coord": null,
+  "image": "George Tupou V of Tonga, 2011 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1948,
+   "date": "1948-05-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2012,
+   "date": "2012-03-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George Tupou V",
+   "zh": "乔治·图普五世"
+  },
+  "locationQid": null
+ },
+ "Q2299343": {
+  "label": {
+   "en": "Kokoda Track campaign",
+   "zh": "科科达小径战役"
+  },
+  "description": "part of the Pacific War of World War II",
+  "coord": {
+   "lat": -8.8778,
+   "lon": 147.7375
+  },
+  "image": "Australian 39th Battalion after the Kokoda Track campaign 1942 (AWM 013289).jpg",
+  "pointInTime": {
+   "year": 1942,
+   "date": "1942-11-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1942,
+   "date": "1942-07-21",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1942,
+   "date": "1942-11-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663"
+  ],
+  "wiki": {
+   "en": "Kokoda Track campaign",
+   "zh": "科科達小徑戰役"
+  }
+ },
+ "Q232871": {
+  "label": {
+   "en": "Kaʻahumanu",
+   "zh": "卡阿胡玛努"
+  },
+  "description": "Queen consort of Hawaii (1768–1832)",
+  "coord": null,
+  "image": "Queen Ka'ahumanu.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1768,
+   "date": "1768-03-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1832,
+   "date": "1832-06-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kaʻahumanu",
+   "zh": "卡阿胡玛努"
+  },
+  "locationQid": null
+ },
+ "Q23333": {
+  "label": {
+   "en": "Gough Whitlam",
+   "zh": "高夫·惠特拉姆"
+  },
+  "description": "Australian politician, 21st Prime Minister of Australia (1916–2014)",
+  "coord": null,
+  "image": "Gough Whitlam - ACF - crop.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1916,
+   "date": "1916-07-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2014,
+   "date": "2014-10-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gough Whitlam",
+   "zh": "高夫·惠特蘭"
+  },
+  "locationQid": null
+ },
+ "Q23342": {
+  "label": {
+   "en": "Edmund Barton",
+   "zh": "埃德蒙·巴顿"
+  },
+  "description": "Australian politician, first Prime Minister of Australia and founding justice of the High Court of Australia (1849-1920)",
+  "coord": null,
+  "image": "Edmund Barton, Q.C., M.L.C., ca. 1889 - unknown photographer (5932628140).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1849,
+   "date": "1849-01-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1920,
+   "date": "1920-01-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Edmund Barton",
+   "zh": "埃德蒙·巴顿"
+  },
+  "locationQid": null
+ },
+ "Q23375": {
+  "label": {
+   "en": "John Curtin",
+   "zh": "約翰·柯廷"
+  },
+  "description": "Australian politician, 14th Prime Minister of Australia (1885-1945)",
+  "coord": null,
+  "image": "JohnCurtin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1885,
+   "date": "1885-01-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1945,
+   "date": "1945-07-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John Curtin",
+   "zh": "約翰·柯廷"
+  },
+  "locationQid": null
+ },
+ "Q2351246": {
+  "label": {
+   "en": "British nuclear tests at Maralinga",
+   "zh": "英國在馬拉林加的核試驗"
+  },
+  "description": "Atomic weapons tests in Australia, 1956-1963",
+  "coord": null,
+  "image": "Op hurricane.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1955,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1963,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13406463"
+  ],
+  "wiki": {
+   "en": "British nuclear tests at Maralinga",
+   "zh": null
+  },
+  "locationQid": "Q255890"
+ },
+ "Q23661": {
+  "label": {
+   "en": "Wellington",
+   "zh": "惠灵顿"
+  },
+  "description": "capital city of New Zealand; urban area of the cities of Wellington, Lower Hutt, Upper Hutt, and Porirua",
+  "coord": {
+   "lat": -41.2889,
+   "lon": 174.7772
+  },
+  "image": "WellingtonPanorama.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1839,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q702492",
+   "Q1549591",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Wellington",
+   "zh": "惠灵顿"
+  }
+ },
+ "Q242064": {
+  "label": {
+   "en": "Truganini",
+   "zh": "楚格尼尼"
+  },
+  "description": "last full-blooded Palawa person",
+  "coord": null,
+  "image": "Truganini - Charles Woolley (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1812,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1876,
+   "date": "1876-05-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Truganini",
+   "zh": "楚格尼尼"
+  },
+  "locationQid": null
+ },
+ "Q242654": {
+  "label": {
+   "en": "Paul Keating",
+   "zh": "保罗·基廷"
+  },
+  "description": "Australian politician, 24th Prime Minister of Australia",
+  "coord": null,
+  "image": "Paul Keating 2017 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1944,
+   "date": "1944-01-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Paul Keating",
+   "zh": "保羅·基廷"
+  },
+  "locationQid": null
+ },
+ "Q246080": {
+  "label": {
+   "en": "Gurindji strike",
+   "zh": null
+  },
+  "description": "1966 strike by Aboriginal Australians on a cattle station in the Northern Territory",
+  "coord": {
+   "lat": -17.387,
+   "lon": 131.116
+  },
+  "image": "Cattle Creek outstation, Wave Hill.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1966,
+   "date": "1966-08-26",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1971,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q49776"
+  ],
+  "wiki": {
+   "en": "Wave Hill walk-off",
+   "zh": null
+  }
+ },
+ "Q2526670": {
+  "label": {
+   "en": "Vincent Lingiari",
+   "zh": "文生·林嘉利"
+  },
+  "description": "Aboriginal rights activist",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1908,
+   "date": "1908-06-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1988,
+   "date": "1988-01-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vincent Lingiari",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q25701327": {
+  "label": {
+   "en": "Takalaua",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q25701335": {
+  "label": {
+   "en": "Talakaifaiki",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1300,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1300,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2665700": {
+  "label": {
+   "en": "French nuclear tests",
+   "zh": null
+  },
+  "description": "Nuclear weapons tests carried out by France in Algeria and French Polynesia from 1960 to 1996",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13406463"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q26692": {
+  "label": {
+   "en": "Levuka",
+   "zh": "莱武卡"
+  },
+  "description": "town in Fiji",
+  "coord": {
+   "lat": -17.684,
+   "lon": 178.8401
+  },
+  "image": "BeachStreetLevuka.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3957"
+  ],
+  "wiki": {
+   "en": "Levuka",
+   "zh": "莱武卡"
+  }
+ },
+ "Q269163": {
+  "label": {
+   "en": "Murujuga",
+   "zh": null
+  },
+  "description": "Burrup Peninsula on the Pilbara coastline of Western Australia",
+  "coord": {
+   "lat": -20.581,
+   "lon": 116.808
+  },
+  "image": "ISS026-E-12539 - View of Western Australia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q34763"
+  ],
+  "wiki": {
+   "en": "Burrup Peninsula",
+   "zh": null
+  }
+ },
+ "Q269372": {
+  "label": {
+   "en": "Bob Hawke",
+   "zh": "鮑勃·霍克"
+  },
+  "description": "Australian politician, 23rd Prime Minister of Australia (1929-2019)",
+  "coord": null,
+  "image": "Bob Hawke-1983.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1929,
+   "date": "1929-12-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2019,
+   "date": "2019-05-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bob Hawke",
+   "zh": "鮑勃·霍克"
+  },
+  "locationQid": null
+ },
+ "Q2728219": {
+  "label": {
+   "en": "Hōkūleʻa",
+   "zh": null
+  },
+  "description": "name of a canoe",
+  "coord": null,
+  "image": "Hokule'a.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q440985",
+   "Q171529",
+   "Q130326199"
+  ],
+  "wiki": {
+   "en": "Hōkūleʻa",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q273739": {
+  "label": {
+   "en": "Tāufaʻāhau Tupou IV of Tonga",
+   "zh": "陶法阿豪·图普四世"
+  },
+  "description": "King of Tonga (1918–2006)",
+  "coord": null,
+  "image": "Tāufaʻāhau Tupou IV - ETH-Bibliothek Com LC1500-0777-001.tif",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1918,
+   "date": "1918-07-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2006,
+   "date": "2006-09-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tāufaʻāhau Tupou IV",
+   "zh": "陶法阿豪·圖普四世"
+  },
+  "locationQid": null
+ },
+ "Q2750283": {
+  "label": {
+   "en": "third voyage of James Cook",
+   "zh": "詹姆斯·庫克第三次遠航"
+  },
+  "description": "Royal Navy exploration voyage to the North Pacific from 1776 to 1780",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1776,
+   "date": "1776-07-12",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1780,
+   "date": "1780-10-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q366301"
+  ],
+  "wiki": {
+   "en": "Third voyage of James Cook",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q28104354": {
+  "label": {
+   "en": "Franco-Tahitian War",
+   "zh": "法国—塔希提战争"
+  },
+  "description": "1844–1847 military conflict in modern-day French Polynesia",
+  "coord": null,
+  "image": "Prise du fort de Fautahua à Tahiti, 17 décembre 1846, Charles Giraud, 1855.jpg",
+  "pointInTime": {
+   "year": 1844,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1844,
+   "date": "1844-03-13",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1847,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Franco-Tahitian War",
+   "zh": "法国-塔希提战争"
+  },
+  "locationQid": "Q118920"
+ },
+ "Q2881842": {
+  "label": {
+   "en": "second voyage of James Cook",
+   "zh": "詹姆斯·庫克第二次航行"
+  },
+  "description": "exploration voyage from 1772 to 1775",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1772,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1775,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q366301"
+  ],
+  "wiki": {
+   "en": "Second voyage of James Cook",
+   "zh": "詹姆士·庫克的第二次探險"
+  },
+  "locationQid": null
+ },
+ "Q294147": {
+  "label": {
+   "en": "William Bligh",
+   "zh": "威廉·布莱"
+  },
+  "description": "officer of the British Royal Navy and colonial administrator (1754-1817)",
+  "coord": null,
+  "image": "WilliamBligh.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1754,
+   "date": "1754-09-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1817,
+   "date": "1817-12-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "William Bligh",
+   "zh": "威廉·布莱"
+  },
+  "locationQid": null
+ },
+ "Q295859": {
+  "label": {
+   "en": "Anzac Day",
+   "zh": "澳新军团日"
+  },
+  "description": "national day of remembrance in Australia and New Zealand on April 25",
+  "coord": null,
+  "image": "2017 Anzac Day parade, Warwick 07.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1916,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1197685",
+   "Q110628558"
+  ],
+  "wiki": {
+   "en": "Anzac Day",
+   "zh": "澳新军团日"
+  },
+  "locationQid": null
+ },
+ "Q2998924": {
+  "label": {
+   "en": "1987 Fijian coups d'état",
+   "zh": "1987年斐济军事政变"
+  },
+  "description": "Two coups that overthrew Prime Minister Timoci Bavadra and the monarchy",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1987,
+   "date": "1987-05-14",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "1987 Fijian coups d'état",
+   "zh": "1987年斐濟軍事政變"
+  },
+  "locationQid": null
+ },
+ "Q3028514": {
+  "label": {
+   "en": "Kingdom of Tahiti",
+   "zh": "塔希提王国"
+  },
+  "description": "former kingdom",
+  "coord": {
+   "lat": -17.5333,
+   "lon": -149.5667
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1788,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1880,
+   "date": "1880-06-29",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q164142"
+  ],
+  "wiki": {
+   "en": "Kingdom of Tahiti",
+   "zh": "塔希提王国"
+  }
+ },
+ "Q3114": {
+  "label": {
+   "en": "Canberra",
+   "zh": "堪培拉"
+  },
+  "description": "capital city of Australia",
+  "coord": {
+   "lat": -35.2931,
+   "lon": 149.1269
+  },
+  "image": "Canberra from Mt Ainslie (5642431515).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1913,
+   "date": "1913-03-12",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q114496982",
+   "Q15840617",
+   "Q257391"
+  ],
+  "wiki": {
+   "en": "Canberra",
+   "zh": "堪培拉"
+  }
+ },
+ "Q311548": {
+  "label": {
+   "en": "Arthur Phillip",
+   "zh": "亚瑟·菲利普"
+  },
+  "description": "British naval officer and first Governor of New South Wales (1738-1814)",
+  "coord": null,
+  "image": "Arthur Phillip - Wheatley ML124 (face).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1738,
+   "date": "1738-10-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1814,
+   "date": "1814-08-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Arthur Phillip",
+   "zh": "亚瑟·菲利普"
+  },
+  "locationQid": null
+ },
+ "Q3130": {
+  "label": {
+   "en": "Sydney",
+   "zh": "悉尼"
+  },
+  "description": "capital city of New South Wales, Australia",
+  "coord": {
+   "lat": -33.8678,
+   "lon": 151.21
+  },
+  "image": "00 3178 Sydney, Australia.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1788,
+   "date": "1788-01-26",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q200250",
+   "Q1549591",
+   "Q51929311",
+   "Q11271835",
+   "Q208511",
+   "Q1066984"
+  ],
+  "wiki": {
+   "en": "Sydney",
+   "zh": "悉尼"
+  }
+ },
+ "Q313273": {
+  "label": {
+   "en": "Álvaro de Mendaña de Neira",
+   "zh": "阿尔瓦罗·德·门达尼亚"
+  },
+  "description": "Spanish explorer",
+  "coord": null,
+  "image": "Alvaro de Mendaña de Neyra.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1542,
+   "date": "1542-10-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1595,
+   "date": "1595-10-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Álvaro de Mendaña de Neira",
+   "zh": "阿尔瓦罗·德·门达尼亚"
+  },
+  "locationQid": null
+ },
+ "Q313805": {
+  "label": {
+   "en": "Alfred Deakin",
+   "zh": "艾尔弗雷德·迪金"
+  },
+  "description": "Australian politician (1856–1919)",
+  "coord": null,
+  "image": "AlfredDeakin.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1856,
+   "date": "1856-08-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1919,
+   "date": "1919-10-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alfred Deakin",
+   "zh": "阿尔弗雷德·迪金"
+  },
+  "locationQid": null
+ },
+ "Q314016": {
+  "label": {
+   "en": "Andrew Fisher",
+   "zh": "安德鲁·费希尔"
+  },
+  "description": "Australian politician, fifth Prime Minister of Australia (1862-1928)",
+  "coord": null,
+  "image": "Andrew Fisher 1912 (b&w).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1862,
+   "date": "1862-08-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1928,
+   "date": "1928-10-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrew Fisher",
+   "zh": "安德魯·費希爾"
+  },
+  "locationQid": null
+ },
+ "Q3141": {
+  "label": {
+   "en": "Melbourne",
+   "zh": "墨尔本"
+  },
+  "description": "capital city of Victoria, Australia",
+  "coord": {
+   "lat": -37.8142,
+   "lon": 144.9631
+  },
+  "image": "Melbourne CBD and Ceremonial Avenue (in 2024) as seen from the rooftop of Shrine of Remembrance.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1835,
+   "date": "1835-08-30",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q7309306",
+   "Q1549591",
+   "Q1907114",
+   "Q11271835",
+   "Q1066984",
+   "Q200250"
+  ],
+  "wiki": {
+   "en": "Melbourne",
+   "zh": "墨尔本"
+  }
+ },
+ "Q316264": {
+  "label": {
+   "en": "Michael Somare",
+   "zh": "迈克尔·索马雷"
+  },
+  "description": "Papua New Guinean political figure, former prime minister",
+  "coord": null,
+  "image": "Michael Somare 2014.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1936,
+   "date": "1936-04-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2021,
+   "date": "2021-02-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Michael Somare",
+   "zh": "迈克尔·索马雷"
+  },
+  "locationQid": null
+ },
+ "Q317378": {
+  "label": {
+   "en": "Malietoa Tanumafili II",
+   "zh": "马列托亚·塔努马菲利二世"
+  },
+  "description": "Malietoa in Samoa (1913-2007)",
+  "coord": null,
+  "image": "Malietoa Tanumafili II (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1913,
+   "date": "1913-01-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2007,
+   "date": "2007-05-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Malietoa Tanumafili II",
+   "zh": "马列托亚·塔努马菲利二世"
+  },
+  "locationQid": null
+ },
+ "Q3178839": {
+  "label": {
+   "en": "first voyage of James Cook",
+   "zh": "库克首次环球航行"
+  },
+  "description": "combined Royal Navy and Royal Society expedition to the south Pacific",
+  "coord": null,
+  "image": "Landing of Lieutenant James Cook at Botany Bay, 29 April 1770 (painting by E Phillips Fox).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1768,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1771,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q366301"
+  ],
+  "wiki": {
+   "en": "First voyage of James Cook",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3258400": {
+  "label": {
+   "en": "Immigration Restriction Act 1901",
+   "zh": "1901移民限制条例"
+  },
+  "description": "act of parliament of Australia",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1901,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q56731284"
+  ],
+  "wiki": {
+   "en": "Immigration Restriction Act 1901",
+   "zh": "1901年移民限制法令"
+  },
+  "locationQid": null
+ },
+ "Q3287362": {
+  "label": {
+   "en": "Taputapuatea marae",
+   "zh": null
+  },
+  "description": "large marae complex at Opoa in Taputapuatea, on the south eastern coast of Raiatea",
+  "coord": {
+   "lat": -16.8361,
+   "lon": -151.3592
+  },
+  "image": "Taputapu marae Raiatea little man.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q186685"
+  ],
+  "wiki": {
+   "en": "Taputapuatea marae",
+   "zh": null
+  }
+ },
+ "Q3310872": {
+  "label": {
+   "en": "Federation of Australia",
+   "zh": "澳大利亚联邦化"
+  },
+  "description": "process by which six separate British self-governing colonies became the country of Australia",
+  "coord": null,
+  "image": "Tasparliament1901.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q43702"
+  ],
+  "wiki": {
+   "en": "Federation of Australia",
+   "zh": "澳大利亚联邦运动"
+  },
+  "locationQid": null
+ },
+ "Q335510": {
+  "label": {
+   "en": "Arthur Hamilton-Gordon, 1st Baron Stanmore",
+   "zh": "亞瑟·咸美頓-歌頓，第一代史丹摩男爵"
+  },
+  "description": "British politician and colonial administrator (1829-1912)",
+  "coord": null,
+  "image": "Sir Arthur Hamilton Gordon.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1829,
+   "date": "1829-11-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1912,
+   "date": "1912-01-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Arthur Hamilton-Gordon, 1st Baron Stanmore",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3447247": {
+  "label": {
+   "en": "women's suffrage in New Zealand",
+   "zh": null
+  },
+  "description": "overview of women's voting rights in New Zealand",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q74817647"
+  ],
+  "wiki": {
+   "en": "Women's suffrage in New Zealand",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3473052": {
+  "label": {
+   "en": "Laufilitonga",
+   "zh": null
+  },
+  "description": "Tongan king (1797-1865)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1797,
+   "date": "1797-08-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1865,
+   "date": "1865-12-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Laufilitonga",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q34932": {
+  "label": {
+   "en": "Brisbane",
+   "zh": "布里斯班"
+  },
+  "description": "capital city of Queensland, Australia",
+  "coord": {
+   "lat": -27.4678,
+   "lon": 153.0278
+  },
+  "image": "Skyline of Brisbane from Kangaroo Point Cliffs Park, Nov 2020, 05.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1824,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q11271835",
+   "Q56061"
+  ],
+  "wiki": {
+   "en": "Brisbane",
+   "zh": "布里斯班"
+  }
+ },
+ "Q3542230": {
+  "label": {
+   "en": "Tupua Tamasese Lealofi III",
+   "zh": "图普奧·塔马塞塞·莱阿洛菲三世"
+  },
+  "description": "Samoan independence leader (1901-1929)",
+  "coord": null,
+  "image": "Tupua Tamasese Lealofi III.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1901,
+   "date": "1901-05-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1929,
+   "date": "1929-12-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tupua Tamasese Lealofi III",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3547056": {
+  "label": {
+   "en": "Tāwhiao",
+   "zh": null
+  },
+  "description": "Maori king",
+  "coord": null,
+  "image": "TawhiaoNLA.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1825,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1894,
+   "date": "1894-08-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tāwhiao",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3606816": {
+  "label": {
+   "en": "Jacinda Ardern",
+   "zh": "杰辛达·阿德恩"
+  },
+  "description": "Prime Minister of New Zealand (2017–2023)",
+  "coord": null,
+  "image": "Jacinda Ardern - Waitangi 2022 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1980,
+   "date": "1980-07-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jacinda Ardern",
+   "zh": "傑辛達·阿德恩"
+  },
+  "locationQid": null
+ },
+ "Q36260": {
+  "label": {
+   "en": "Apia",
+   "zh": "阿皮亚"
+  },
+  "description": "capital of Samoa",
+  "coord": {
+   "lat": -13.8333,
+   "lon": -171.8333
+  },
+  "image": "Samoa - Apia Govt buildings.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1850,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Apia",
+   "zh": "阿皮亚"
+  }
+ },
+ "Q367589": {
+  "label": {
+   "en": "David Lange",
+   "zh": "戴维·朗伊"
+  },
+  "description": "Prime Minister of New Zealand from 1984 to 1989",
+  "coord": null,
+  "image": "David Lange (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1942,
+   "date": "1942-08-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2005,
+   "date": "2005-08-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "David Lange",
+   "zh": "戴维·朗伊"
+  },
+  "locationQid": null
+ },
+ "Q37100": {
+  "label": {
+   "en": "Auckland",
+   "zh": "奥克兰都会区"
+  },
+  "description": "city on the North Island, New Zealand",
+  "coord": {
+   "lat": -36.8492,
+   "lon": 174.7653
+  },
+  "image": "Auckland CBD.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1840,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q2264924",
+   "Q51929311",
+   "Q208511",
+   "Q200250"
+  ],
+  "wiki": {
+   "en": "Auckland",
+   "zh": "奧克蘭"
+  }
+ },
+ "Q3711216": {
+  "label": {
+   "en": "Tu'itatui",
+   "zh": null
+  },
+  "description": "Tongan ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1150,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tuʻi-tā-tui",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q375273": {
+  "label": {
+   "en": "Kula ring",
+   "zh": "庫拉環"
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q179941"
+  ],
+  "wiki": {
+   "en": "Kula ring",
+   "zh": "庫拉環"
+  },
+  "locationQid": null
+ },
+ "Q376367": {
+  "label": {
+   "en": "Thomas Brisbane",
+   "zh": "湯瑪斯·布里斯班"
+  },
+  "description": "British Army general",
+  "coord": null,
+  "image": "Thomasbrisbane.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1773,
+   "date": "1773-07-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1860,
+   "date": "1860-01-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Thomas Brisbane",
+   "zh": "托馬斯·布里斯班"
+  },
+  "locationQid": null
+ },
+ "Q379840": {
+  "label": {
+   "en": "George Tupou I",
+   "zh": "喬治·圖普一世"
+  },
+  "description": "Monarch of Tonga (1797–1893)",
+  "coord": null,
+  "image": "George Tupou I, engraving by John Cochran (1904).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1797,
+   "date": "1797-12-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1893,
+   "date": "1893-02-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George Tupou I",
+   "zh": "喬治·圖普一世"
+  },
+  "locationQid": null
+ },
+ "Q379844": {
+  "label": {
+   "en": "George Tupou II",
+   "zh": "喬治·圖普二世"
+  },
+  "description": "King of Tonga (1874-1918)",
+  "coord": null,
+  "image": "George Tupou II, photograph by Herman John Schmidt (Flipped and Cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1874,
+   "date": "1874-06-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1918,
+   "date": "1918-04-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George Tupou II",
+   "zh": "喬治·圖普二世"
+  },
+  "locationQid": null
+ },
+ "Q380341": {
+  "label": {
+   "en": "Kamehameha II",
+   "zh": "卡美哈梅哈二世"
+  },
+  "description": "Monarch of the Hawaiian Islands (1797–1824)",
+  "coord": null,
+  "image": "Kamehamehaii.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1797,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1824,
+   "date": "1824-07-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kamehameha II",
+   "zh": "卡美哈梅哈二世"
+  },
+  "locationQid": null
+ },
+ "Q40191": {
+  "label": {
+   "en": "Hobart",
+   "zh": "霍巴特"
+  },
+  "description": "capital city of Tasmania, Australia",
+  "coord": {
+   "lat": -42.8833,
+   "lon": 147.3167
+  },
+  "image": "Franklin Wharf 2015.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1803,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5119"
+  ],
+  "wiki": {
+   "en": "Hobart",
+   "zh": "荷巴特"
+  }
+ },
+ "Q408": {
+  "label": {
+   "en": "Australia",
+   "zh": "澳大利亚"
+  },
+  "description": "country in Oceania",
+  "coord": {
+   "lat": -25,
+   "lon": 133
+  },
+  "image": "Australia satellite plane.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1901,
+   "date": "1901-01-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q43702",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Australia",
+   "zh": "澳大利亚"
+  }
+ },
+ "Q4198391": {
+  "label": {
+   "en": "Hatepe eruption",
+   "zh": null
+  },
+  "description": "major volcanic eruption in New Zealand",
+  "coord": {
+   "lat": -38.8167,
+   "lon": 175.9167
+  },
+  "image": "Lake taupo landsat.jpg",
+  "pointInTime": {
+   "year": 180,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1639789"
+  ],
+  "wiki": {
+   "en": "Hatepe eruption",
+   "zh": null
+  }
+ },
+ "Q42188": {
+  "label": {
+   "en": "Abel Tasman",
+   "zh": "阿贝尔·塔斯曼"
+  },
+  "description": "Dutch seafarer, explorer and merchant (1603–1659)",
+  "coord": null,
+  "image": "Abel Tasman Navigateur en Australie (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1603,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1659,
+   "date": "1659-10-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abel Tasman",
+   "zh": "阿贝尔·塔斯曼"
+  },
+  "locationQid": null
+ },
+ "Q4351728": {
+  "label": {
+   "en": "Korokī Mahuta",
+   "zh": null
+  },
+  "description": "Māori King, Ngāti Mahuta (1906–1966)",
+  "coord": null,
+  "image": "Koroki1930.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1906,
+   "date": "1906-06-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1966,
+   "date": "1966-05-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Korokī",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q45178": {
+  "label": {
+   "en": "Sydney Opera House",
+   "zh": "悉尼歌剧院"
+  },
+  "description": "multi-venue performing arts centre in Sydney, New South Wales, Australia",
+  "coord": {
+   "lat": -33.8571,
+   "lon": 151.2149
+  },
+  "image": "Sydney Opera House Sails.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1973,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q153562",
+   "Q2319498",
+   "Q38048707"
+  ],
+  "wiki": {
+   "en": "Sydney Opera House",
+   "zh": "悉尼歌剧院"
+  }
+ },
+ "Q452969": {
+  "label": {
+   "en": "Dinornithiformes",
+   "zh": "恐鳥"
+  },
+  "description": "extinct order of birds",
+  "coord": null,
+  "image": "Giant Haasts eagle attacking New Zealand moa.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -17000000,
+   "date": null,
+   "precision": 3,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q98961713"
+  ],
+  "wiki": {
+   "en": "Moa",
+   "zh": "恐鳥"
+  },
+  "locationQid": null
+ },
+ "Q455072": {
+  "label": {
+   "en": "Kate Sheppard",
+   "zh": "凯特·谢泼德"
+  },
+  "description": "prominent member of New Zealand's women's suffrage (1848–1934)",
+  "coord": null,
+  "image": "Mrs. K. W. Sheppard (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1847,
+   "date": "1847-03-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1934,
+   "date": "1934-07-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kate Sheppard",
+   "zh": "凯特·谢泼德"
+  },
+  "locationQid": null
+ },
+ "Q455795": {
+  "label": {
+   "en": "Kamehameha III",
+   "zh": "卡美哈梅哈三世"
+  },
+  "description": "King of the Hawaiian Islands from 1825 to 1854",
+  "coord": null,
+  "image": "Photo of Kamehameha III (PP-97-7-003, monochrome version).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1814,
+   "date": "1814-03-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1854,
+   "date": "1854-12-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kamehameha III",
+   "zh": "卡美哈梅哈三世"
+  },
+  "locationQid": null
+ },
+ "Q457278": {
+  "label": {
+   "en": "Oodgeroo Noonuccal",
+   "zh": "烏哲魯·露娜可"
+  },
+  "description": "Aboriginal Australian poet, artist, teacher and campaigner for Indigenous rights (1920–1993)",
+  "coord": null,
+  "image": "Oodgeroo Noonuccal 1970 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1920,
+   "date": "1920-11-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1993,
+   "date": "1993-09-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Oodgeroo Noonuccal",
+   "zh": "烏哲魯·露娜可"
+  },
+  "locationQid": null
+ },
+ "Q460731": {
+  "label": {
+   "en": "sinking of the Rainbow Warrior",
+   "zh": null
+  },
+  "description": "1985 covert attack by French foreign intelligence service on a Greenpeace ship in Auckland, New Zealand",
+  "coord": {
+   "lat": -36.8422,
+   "lon": 174.7717
+  },
+  "image": "Pacific Nuclear Testing- a French letter to the NZ Embassy in Paris (27726454900).jpg",
+  "pointInTime": {
+   "year": 1985,
+   "date": "1985-07-10",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q891854",
+   "Q2620513",
+   "Q3882220",
+   "Q1546073"
+  ],
+  "wiki": {
+   "en": "Sinking of the Rainbow Warrior",
+   "zh": null
+  }
+ },
+ "Q466125": {
+  "label": {
+   "en": "Te Atairangikaahu",
+   "zh": null
+  },
+  "description": "Māori Queen (1931–2006)",
+  "coord": null,
+  "image": "Dame Te-Atairangikaahu 1975 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1931,
+   "date": "1931-07-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2006,
+   "date": "2006-08-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Te Atairangikaahu",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q466142": {
+  "label": {
+   "en": "Whina Cooper",
+   "zh": null
+  },
+  "description": "Māori leader (1895–1994)",
+  "coord": null,
+  "image": "Whina Cooper 1975 (facecrop).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1895,
+   "date": "1895-12-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1994,
+   "date": "1994-03-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Whina Cooper",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q466838": {
+  "label": {
+   "en": "Pōmare IV",
+   "zh": "波马雷四世"
+  },
+  "description": "Queen of Tahiti (1813-1877)",
+  "coord": null,
+  "image": "Pomare IV Queen of Tahiti.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1813,
+   "date": "1813-02-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1877,
+   "date": "1877-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pōmare IV",
+   "zh": "波马雷四世"
+  },
+  "locationQid": null
+ },
+ "Q467694": {
+  "label": {
+   "en": "Lachlan Macquarie",
+   "zh": "拉克伦·麦觉理"
+  },
+  "description": "Scottish British army officer and New South Wales colonial administrator (1762-1824)",
+  "coord": null,
+  "image": "Ln-Governor-Lachlan macquarie.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1762,
+   "date": "1762-01-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1824,
+   "date": "1824-07-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lachlan Macquarie",
+   "zh": "拉克倫·麥覺理"
+  },
+  "locationQid": null
+ },
+ "Q469507": {
+  "label": {
+   "en": "Kamisese Mara",
+   "zh": "卡米塞塞·马拉"
+  },
+  "description": "President of Fiji (1920-2004)",
+  "coord": null,
+  "image": "Kamisese Mara.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1920,
+   "date": "1920-05-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2004,
+   "date": "2004-04-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kamisese Mara",
+   "zh": "卡米塞塞·马拉"
+  },
+  "locationQid": null
+ },
+ "Q470398": {
+  "label": {
+   "en": "Kamehameha IV",
+   "zh": "卡美哈梅哈四世"
+  },
+  "description": "King of the Hawaiian Islands (1834–1863)",
+  "coord": null,
+  "image": "Kamehameha IV (PNLPC-9-07749).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1834,
+   "date": "1834-02-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1863,
+   "date": "1863-11-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kamehameha IV",
+   "zh": "卡美哈梅哈四世"
+  },
+  "locationQid": null
+ },
+ "Q4708320": {
+  "label": {
+   "en": "Alapainui",
+   "zh": null
+  },
+  "description": "Hawaiian High Chief",
+  "coord": null,
+  "image": "Julia Alapai (poor quality).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1754,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alapaʻi",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q472802": {
+  "label": {
+   "en": "Treaty of Waitangi",
+   "zh": "怀唐伊条约"
+  },
+  "description": "1840 treaty between the British Crown and various Māori chiefs of New Zealand",
+  "coord": {
+   "lat": -35.2662,
+   "lon": 174.0819
+  },
+  "image": "Treatyofwaitangi.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1840,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q93288"
+  ],
+  "wiki": {
+   "en": "Treaty of Waitangi",
+   "zh": "懷唐伊條約"
+  }
+ },
+ "Q473214": {
+  "label": {
+   "en": "Laisenia Qarase",
+   "zh": "莱塞尼亚·恩加拉塞"
+  },
+  "description": "Prime Minister of Fiji (1941-2020)",
+  "coord": null,
+  "image": "Laisenia Qarase 2005.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1941,
+   "date": "1941-02-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2020,
+   "date": "2020-04-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Laisenia Qarase",
+   "zh": "莱塞尼亚·恩加拉塞"
+  },
+  "locationQid": null
+ },
+ "Q4825132": {
+  "label": {
+   "en": "1967 Australian referendum (Aboriginals)",
+   "zh": "1967年澳大利亞全民公決"
+  },
+  "description": "Successful proposal to give the Commonwealth power to make special laws for Aboriginal people and to count them for the purposes of the Constitution",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1967,
+   "date": "1967-05-27",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q43109"
+  ],
+  "wiki": {
+   "en": "1967 Australian referendum (Aboriginals)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q4871927": {
+  "label": {
+   "en": "Battle of Nuʻuanu",
+   "zh": null
+  },
+  "description": "1795 battle",
+  "coord": {
+   "lat": 21.3671,
+   "lon": -157.7931
+  },
+  "image": "Nuuanu Pali (1258).JPG",
+  "pointInTime": {
+   "year": 1795,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Nuʻuanu",
+   "zh": null
+  }
+ },
+ "Q499103": {
+  "label": {
+   "en": "Lunalilo",
+   "zh": "路纳利罗"
+  },
+  "description": "Sixth monarch of the Kingdom of Hawaii (1835-1874)",
+  "coord": null,
+  "image": "Lunalilo, retouched photo by J. J. Williams (PP-98-15-011).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1835,
+   "date": "1835-01-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1874,
+   "date": "1874-02-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lunalilo",
+   "zh": "路納利羅"
+  },
+  "locationQid": null
+ },
+ "Q51330": {
+  "label": {
+   "en": "John Howard",
+   "zh": "約翰·霍華德"
+  },
+  "description": "Prime Minister of Australia from 1996 to 2007",
+  "coord": null,
+  "image": "Howard John BANNER.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1939,
+   "date": "1939-07-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John Howard",
+   "zh": "約翰·霍華德"
+  },
+  "locationQid": null
+ },
+ "Q5148320": {
+  "label": {
+   "en": "Colony of Fiji",
+   "zh": "斐济殖民地"
+  },
+  "description": "British Crown colony (1874–1970), which is now the present-day nation of Fiji",
+  "coord": {
+   "lat": -17.684,
+   "lon": 178.8401
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1874,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1970,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1351282"
+  ],
+  "wiki": {
+   "en": "Colony of Fiji",
+   "zh": "斐济殖民地"
+  }
+ },
+ "Q5164236": {
+  "label": {
+   "en": "Constitution of Tonga",
+   "zh": null
+  },
+  "description": "supreme law of Tonga",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7755"
+  ],
+  "wiki": {
+   "en": "Constitution of Tonga",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q541570": {
+  "label": {
+   "en": "Sālote Tupou III of Tonga",
+   "zh": "萨洛特·图普三世"
+  },
+  "description": "Monarch of Tonga (1918-1965)",
+  "coord": null,
+  "image": "Salote Tupou III of Tonga in coronation robe-crop.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1900,
+   "date": "1900-03-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1965,
+   "date": "1965-12-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sālote Tupou III",
+   "zh": "萨洛特·图普三世"
+  },
+  "locationQid": null
+ },
+ "Q5446290": {
+  "label": {
+   "en": "Fiamē Naomi Mataʻafa",
+   "zh": "菲婭梅·內奧米·馬塔阿法"
+  },
+  "description": "Prime Minister of Samoa from 2021 to 2025",
+  "coord": null,
+  "image": "Fiamē Naomi Mataʻafa in 2024 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1957,
+   "date": "1957-04-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fiamē Naomi Mataʻafa",
+   "zh": "菲婭梅·內奧米·馬塔阿法"
+  },
+  "locationQid": null
+ },
+ "Q5451268": {
+  "label": {
+   "en": "Fire-stick farming",
+   "zh": "火棍农耕"
+  },
+  "description": "Aboriginal Australian practice of the regular burning of vegetables and plants",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Fire-stick farming",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q55604095": {
+  "label": {
+   "en": "apology to Australia's Indigenous peoples",
+   "zh": null
+  },
+  "description": "overview about the apology to Australia's Indigenous peoples",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Apology to Australia's Indigenous peoples",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q55636501": {
+  "label": {
+   "en": "Uluru Statement from the Heart",
+   "zh": "發自內心的烏魯魯宣言"
+  },
+  "description": "2017 statement by Indigenous Australians seeking constitutional recognition and reform",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q46337"
+  ],
+  "wiki": {
+   "en": "Uluru Statement from the Heart",
+   "zh": "發自內心的烏魯魯宣言"
+  },
+  "locationQid": null
+ },
+ "Q5564731": {
+  "label": {
+   "en": "Girmityas",
+   "zh": null
+  },
+  "description": "indentured laborers from British India",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4663903"
+  ],
+  "wiki": {
+   "en": "Girmitiyas",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q558880": {
+  "label": {
+   "en": "Mahendra Chaudhry",
+   "zh": "马亨德拉·乔杜里"
+  },
+  "description": "Prime Minister of Fiji (1999-2000)",
+  "coord": null,
+  "image": "Mahendra Chaudhry 2023.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1942,
+   "date": "1942-02-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mahendra Chaudhry",
+   "zh": "马亨德拉·乔杜里"
+  },
+  "locationQid": null
+ },
+ "Q559640": {
+  "label": {
+   "en": "Richard Seddon",
+   "zh": "理查德·塞登"
+  },
+  "description": "New Zealand politician and Prime Minister (1845–1906)",
+  "coord": null,
+  "image": "RichardSeddon1905.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1845,
+   "date": "1845-06-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1906,
+   "date": "1906-06-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Richard Seddon",
+   "zh": "理查德·塞登"
+  },
+  "locationQid": null
+ },
+ "Q559857": {
+  "label": {
+   "en": "William Hobson",
+   "zh": "威廉·霍布森"
+  },
+  "description": "first Governor of New Zealand and co-author of the Treaty of Waitangi (1792-1842)",
+  "coord": null,
+  "image": "William Hobson portrait by James Ingram McDonald 1913.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1792,
+   "date": "1792-09-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1842,
+   "date": "1842-09-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "William Hobson",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q560086": {
+  "label": {
+   "en": "Albert Namatjira",
+   "zh": "艾爾伯特·納瑪芝拉"
+  },
+  "description": "Australian painter (1902-1959)",
+  "coord": null,
+  "image": "Albert Namatjira portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1902,
+   "date": "1902-07-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1959,
+   "date": "1959-08-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Albert Namatjira",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q57723": {
+  "label": {
+   "en": "Tuilaʻepa Saʻilele Malielegaoi",
+   "zh": "图伊拉埃帕·萨伊莱莱·马利埃莱额奥伊"
+  },
+  "description": "Prime Minister of Samoa from 1998 to 2021",
+  "coord": null,
+  "image": "Tuilaepa Aiono Sailele Malielegaoi 2014 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1945,
+   "date": "1945-04-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tuilaʻepa Saʻilele Malielegaoi",
+   "zh": "图伊拉埃帕·萨伊莱莱·马利埃莱额奥伊"
+  },
+  "locationQid": null
+ },
+ "Q57830": {
+  "label": {
+   "en": "Frank Bainimarama",
+   "zh": "弗兰克·姆拜尼马拉马"
+  },
+  "description": "Prime Minister of Fiji from 2007 to 2022 (born 1954)",
+  "coord": null,
+  "image": "Frank Bainimarama September 2014.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1954,
+   "date": "1954-04-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frank Bainimarama",
+   "zh": "弗兰克·姆拜尼马拉马"
+  },
+  "locationQid": null
+ },
+ "Q57892": {
+  "label": {
+   "en": "Peter O'Neill",
+   "zh": "彼得·奥尼尔"
+  },
+  "description": "Prime Minister of Papua New Guinea from 2011 to 2019",
+  "coord": null,
+  "image": "Peter O'Neill May 2015.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1965,
+   "date": "1965-02-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter O'Neill",
+   "zh": "彼得·奥尼尔"
+  },
+  "locationQid": null
+ },
+ "Q6138903": {
+  "label": {
+   "en": "James Marape",
+   "zh": "詹姆斯·马拉佩"
+  },
+  "description": "Papua New Guinea politician",
+  "coord": null,
+  "image": "Papua New Guinea Prime Minister James Marape in Port Moresby, Papua New Guinea on July 27, 2023 - 230727-D-TT977-0140 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1971,
+   "date": "1971-04-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "James Marape",
+   "zh": "詹姆斯·马拉佩"
+  },
+  "locationQid": null
+ },
+ "Q616662": {
+  "label": {
+   "en": "Mangareva",
+   "zh": "芒阿雷瓦岛"
+  },
+  "description": "central and largest island of the Gambier Islands in French Polynesia",
+  "coord": {
+   "lat": -23.1,
+   "lon": -134.95
+  },
+  "image": "Mangareva.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q23442",
+   "Q1161185"
+  ],
+  "wiki": {
+   "en": "Mangareva",
+   "zh": "芒阿雷瓦岛"
+  }
+ },
+ "Q6221079": {
+  "label": {
+   "en": "John Bates Thurston",
+   "zh": "约翰·贝茨·瑟斯顿"
+  },
+  "description": "Governor of Fiji",
+  "coord": null,
+  "image": "John Bates Thurston (1836–1897).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1836,
+   "date": "1836-01-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1897,
+   "date": "1897-02-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John Bates Thurston",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6382362": {
+  "label": {
+   "en": "Keaweikekahialiʻiokamoku",
+   "zh": null
+  },
+  "description": "king of the island of Hawaii in the late 17th century; great-grandfather of Kamehameha I",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1665,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1725,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Keaweʻīkekahialiʻiokamoku",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6454637": {
+  "label": {
+   "en": "Kīwalaʻō",
+   "zh": null
+  },
+  "description": "Ruler of the island of Hawaii in 1782 until killed by a warrior of Kamehameha I",
+  "coord": null,
+  "image": "Cloak of Kiwalao (1899).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1760,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1782,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kīwalaʻō",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q664": {
+  "label": {
+   "en": "New Zealand",
+   "zh": "新西兰"
+  },
+  "description": "island country in the southwest Pacific Ocean",
+  "coord": {
+   "lat": -41.2,
+   "lon": 174
+  },
+  "image": "New Zealand Topography.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1907,
+   "date": "1907-09-26",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q202686",
+   "Q3624078",
+   "Q6256",
+   "Q112099"
+  ],
+  "wiki": {
+   "en": "New Zealand",
+   "zh": "新西兰"
+  }
+ },
+ "Q6735018": {
+  "label": {
+   "en": "Mahuta Tāwhiao",
+   "zh": null
+  },
+  "description": "Ngāti Mahuta; Māori King, politician",
+  "coord": null,
+  "image": "King mahuta - page 316.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1854,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1912,
+   "date": "1912-11-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mahuta Tāwhiao",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6738834": {
+  "label": {
+   "en": "Makassan contact with Australia",
+   "zh": "望加錫人與澳洲的接觸"
+  },
+  "description": "historical contact between two people groups",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Makassan contact with Australia",
+   "zh": "望加錫人與澳洲的接觸"
+  },
+  "locationQid": null
+ },
+ "Q678": {
+  "label": {
+   "en": "Tonga",
+   "zh": "汤加"
+  },
+  "description": "sovereign state in Oceania, situated on an archipelago",
+  "coord": {
+   "lat": -20.5878,
+   "lon": -174.8103
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1970,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6256",
+   "Q3624078",
+   "Q112099",
+   "Q918240"
+  ],
+  "wiki": {
+   "en": "Tonga",
+   "zh": "東加"
+  }
+ },
+ "Q6792168": {
+  "label": {
+   "en": "Mau Piailug",
+   "zh": null
+  },
+  "description": "Micronesian navigator from the Carolinian island of Satawal and a teacher of traditional, non-instrument wayfinding methods for deep-sea voyaging",
+  "coord": null,
+  "image": "Mau Piailug.gif",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1932,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2010,
+   "date": "2010-07-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mau Piailug",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q681408": {
+  "label": {
+   "en": "Seru Epenisa Cakobau",
+   "zh": "塞鲁·埃佩尼萨·萨空鲍"
+  },
+  "description": "King of Fiji (1815–1883)",
+  "coord": null,
+  "image": "Cakobau, died February 1883, photograph by Francis H. Dufty.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1815,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1883,
+   "date": "1883-02-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Seru Epenisa Cakobau",
+   "zh": "塞鲁·埃佩尼萨·萨空鲍"
+  },
+  "locationQid": null
+ },
+ "Q683": {
+  "label": {
+   "en": "Samoa",
+   "zh": "萨摩亚"
+  },
+  "description": "sovereign state made up of six islands in the Pacific Ocean",
+  "coord": {
+   "lat": -13.745,
+   "lon": -172.2175
+  },
+  "image": "Beach on Upolu Island, Samoa, 2009.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1962,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q112099",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Samoa",
+   "zh": "萨摩亚"
+  }
+ },
+ "Q691": {
+  "label": {
+   "en": "Papua New Guinea",
+   "zh": "巴布亚新几内亚"
+  },
+  "description": "country in Oceania",
+  "coord": {
+   "lat": -6.3,
+   "lon": 147
+  },
+  "image": "Papua New Guinea map.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1975,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q202686",
+   "Q112099",
+   "Q6256",
+   "Q3624078",
+   "Q11815167",
+   "Q41614"
+  ],
+  "wiki": {
+   "en": "Papua New Guinea",
+   "zh": "巴布亚新几内亚"
+  }
+ },
+ "Q696557": {
+  "label": {
+   "en": "Bombing of Darwin",
+   "zh": "达尔文空袭"
+  },
+  "description": "Japanese attack on Darwin, Australia during World War II",
+  "coord": {
+   "lat": -12.475,
+   "lon": 130.85
+  },
+  "image": "Darwin 42.jpg",
+  "pointInTime": {
+   "year": 1942,
+   "date": "1942-02-19",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q4688003"
+  ],
+  "wiki": {
+   "en": "Bombing of Darwin",
+   "zh": "达尔文空袭"
+  }
+ },
+ "Q712": {
+  "label": {
+   "en": "Fiji",
+   "zh": "斐济"
+  },
+  "description": "island sovereign state in Oceania",
+  "coord": {
+   "lat": -18,
+   "lon": 178
+  },
+  "image": "Куинс-роуд, город Нанди (Queens Rd., Nadi).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1970,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q112099",
+   "Q3624078",
+   "Q179164",
+   "Q11815167",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Fiji",
+   "zh": "斐濟"
+  }
+ },
+ "Q717391": {
+  "label": {
+   "en": "Everard F. im Thurn",
+   "zh": "埃弗拉·在·圖爾恩"
+  },
+  "description": "British colonial administrator, explorer and author (1852-1932)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1852,
+   "date": "1852-05-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1932,
+   "date": "1932-10-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Everard im Thurn",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q725880": {
+  "label": {
+   "en": "Philip Gidley King",
+   "zh": "菲利普·吉德利·金"
+  },
+  "description": "British Colonial governor (1758-1808)",
+  "coord": null,
+  "image": "Philip Gidley King - Project Gutenberg eText 12992.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1758,
+   "date": "1758-04-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1808,
+   "date": "1808-09-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Philip Gidley King",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7324": {
+  "label": {
+   "en": "James Cook",
+   "zh": "詹姆斯·库克"
+  },
+  "description": "British explorer, cartographer and naval officer (1728–1779)",
+  "coord": null,
+  "image": "Captainjamescookportrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1728,
+   "date": "1728-10-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1779,
+   "date": "1779-02-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "James Cook",
+   "zh": "詹姆斯·庫克"
+  },
+  "locationQid": null
+ },
+ "Q749811": {
+  "label": {
+   "en": "Mutiny on the Bounty",
+   "zh": "邦蒂号叛变事件"
+  },
+  "description": "1789 mutiny aboard the British Royal Navy ship HMS Bounty",
+  "coord": {
+   "lat": -47.75,
+   "lon": 179.05
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1789,
+   "date": "1789-04-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q511866"
+  ],
+  "wiki": {
+   "en": "Mutiny on the Bounty",
+   "zh": "邦蒂號叛變事件"
+  }
+ },
+ "Q764609": {
+  "label": {
+   "en": "Russell",
+   "zh": "羅素"
+  },
+  "description": "locality in Far North District, Northland Region, New Zealand",
+  "coord": {
+   "lat": -35.261,
+   "lon": 174.122
+  },
+  "image": "00 26 0874 Russell Neuseeland - Bay of Islands.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3257686"
+  ],
+  "wiki": {
+   "en": "Russell, New Zealand",
+   "zh": "羅素 (紐西蘭)"
+  }
+ },
+ "Q76821": {
+  "label": {
+   "en": "George Grey",
+   "zh": "乔治·格雷"
+  },
+  "description": "British soldier, explorer, colonial administrator and writer (1812–1898)",
+  "coord": null,
+  "image": "GeorgeEdwardGrey02.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1812,
+   "date": "1812-04-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1898,
+   "date": "1898-09-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George Grey",
+   "zh": "乔治·格雷"
+  },
+  "locationQid": null
+ },
+ "Q7690953": {
+  "label": {
+   "en": "Te Rata",
+   "zh": null
+  },
+  "description": "Third Māori King",
+  "coord": null,
+  "image": "Te Rata Mahuta in 1914.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1880,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1933,
+   "date": "1933-10-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Te Rata",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7691036": {
+  "label": {
+   "en": "Te Whiti o Rongomai",
+   "zh": null
+  },
+  "description": "Māori spiritual leader from New Zealand",
+  "coord": null,
+  "image": "Whiti.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1830,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1907,
+   "date": "1907-11-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Te Whiti o Rongomai",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q78800501": {
+  "label": {
+   "en": "1975 Māori land march",
+   "zh": null
+  },
+  "description": "protest",
+  "coord": null,
+  "image": "Māori Land March - 13 October 1975, Ngauranga Gorge, Wellington (21226613305).jpg",
+  "pointInTime": {
+   "year": 1975,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Māori land march",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q8083949": {
+  "label": {
+   "en": "ʻAi Noa",
+   "zh": "阿伊·諾阿"
+  },
+  "description": "1819 social upheaval in Hawaii",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1819,
+   "date": null,
+   "precision": 10,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13418847"
+  ],
+  "wiki": {
+   "en": "ʻAi Noa",
+   "zh": null
+  },
+  "locationQid": "Q782"
+ },
+ "Q810735": {
+  "label": {
+   "en": "Batavia",
+   "zh": "巴達維亞號海難"
+  },
+  "description": "ship wrecked in 1629 on Houtman Abrolhos with at least 110 men, women and children being murdered during subsequent mutiny",
+  "coord": {
+   "lat": -28.4916,
+   "lon": 113.7919
+  },
+  "image": "Ongeluckige voyagie 02.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q852190",
+   "Q170483",
+   "Q848944"
+  ],
+  "wiki": {
+   "en": "Batavia (1628 ship)",
+   "zh": "巴達維亞號帆船"
+  }
+ },
+ "Q817828": {
+  "label": {
+   "en": "Bennelong",
+   "zh": null
+  },
+  "description": "Eora interlocutor with the British in Australia and the United Kingdom",
+  "coord": null,
+  "image": "Bennelong.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1764,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1813,
+   "date": "1813-01-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bennelong",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q834318": {
+  "label": {
+   "en": "Mau movement",
+   "zh": "坚定运动"
+  },
+  "description": "Samoan political movement",
+  "coord": null,
+  "image": "Women's Mau leaders and committee in front of octagonal Mau office ca 1930 - AJ Tattersall.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13418847"
+  ],
+  "wiki": {
+   "en": "Mau movement",
+   "zh": "茅运动"
+  },
+  "locationQid": null
+ },
+ "Q842390": {
+  "label": {
+   "en": "Tuʻi Tonga Empire",
+   "zh": "图依汤加帝国"
+  },
+  "description": "former country",
+  "coord": {
+   "lat": -21.179,
+   "lon": -175.116
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 951,
+   "date": null,
+   "precision": 8,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1826,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Tuʻi Tonga Empire",
+   "zh": "图伊汤加帝国"
+  }
+ },
+ "Q846967": {
+  "label": {
+   "en": "Nan Madol",
+   "zh": "南马都尔"
+  },
+  "description": "ruined city of Federated States of Micronesesia",
+  "coord": {
+   "lat": 6.8419,
+   "lon": 158.3322
+  },
+  "image": "Nan madol.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q109607",
+   "Q839954",
+   "Q13691"
+  ],
+  "wiki": {
+   "en": "Nan Madol",
+   "zh": "南馬都爾"
+  }
+ },
+ "Q879812": {
+  "label": {
+   "en": "Pōmare V",
+   "zh": "波马雷五世"
+  },
+  "description": "King of Tahiti (1839-1891)",
+  "coord": null,
+  "image": "Pomare V.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1839,
+   "date": "1839-11-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1891,
+   "date": "1891-06-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pōmare V",
+   "zh": "波马雷五世"
+  },
+  "locationQid": null
+ },
+ "Q880629": {
+  "label": {
+   "en": "Black War",
+   "zh": "黑色戰爭"
+  },
+  "description": "period of violent conflict between British colonists and Aboriginal Australians in Tasmania",
+  "coord": null,
+  "image": "Benjamin Duterrau - Timmy, a Tasmanian Aboriginal, throwing a spear - Google Art Project.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1820,
+   "date": null,
+   "precision": 8,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1832,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q3199915",
+   "Q41397"
+  ],
+  "wiki": {
+   "en": "Black War",
+   "zh": "黑色戰爭"
+  },
+  "locationQid": "Q34366"
+ },
+ "Q880704": {
+  "label": {
+   "en": "blackbirding",
+   "zh": "黑人奴隶贩卖活动"
+  },
+  "description": "coerced labour, mainly in the south-east Pacific area",
+  "coord": null,
+  "image": "Groupe de Kanakas dans une exploitation de canne à sucre du Queensland.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q181784"
+  ],
+  "wiki": {
+   "en": "Blackbirding",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q887354": {
+  "label": {
+   "en": "Kamehameha V",
+   "zh": "卡美哈梅哈五世"
+  },
+  "description": "King of Hawaii from 1863 to 1872",
+  "coord": null,
+  "image": "Kamehameha V in chair, photograph by Charles L. Weed (PP-97-9-008, cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1830,
+   "date": "1830-12-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1872,
+   "date": "1872-12-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kamehameha V",
+   "zh": "卡美哈梅哈五世"
+  },
+  "locationQid": null
+ },
+ "Q887437": {
+  "label": {
+   "en": "Pōtatau Te Wherowhero",
+   "zh": null
+  },
+  "description": "The first Māori king",
+  "coord": null,
+  "image": "Pōtatau Te Wherowhero by George French Angas.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1775,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1860,
+   "date": "1860-06-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pōtatau Te Wherowhero",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q887744": {
+  "label": {
+   "en": "Pōmare II",
+   "zh": "波马雷二世"
+  },
+  "description": "King of Tahiti",
+  "coord": null,
+  "image": "Pomare II, sketch by Daniel Tyerman, Voyages and Travels Round the World (1840).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1782,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1821,
+   "date": "1821-12-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pōmare II",
+   "zh": "波马雷二世"
+  },
+  "locationQid": null
+ },
+ "Q887971": {
+  "label": {
+   "en": "Pōmare I",
+   "zh": "波马雷一世"
+  },
+  "description": "King of Tahiti",
+  "coord": null,
+  "image": "John Webber's oil painting of Otoo, 1777sq.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1742,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1803,
+   "date": "1803-09-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pōmare I",
+   "zh": "波马雷一世"
+  },
+  "locationQid": null
+ },
+ "Q887977": {
+  "label": {
+   "en": "Pōmare III",
+   "zh": "波马雷三世"
+  },
+  "description": "King of Tahiti (1820–1827)",
+  "coord": null,
+  "image": "Pomare III or Prince Ariiaue, La Famille Royale de Tahiti, Te Papa Tongarewa.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1820,
+   "date": "1820-06-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1827,
+   "date": "1827-01-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pōmare III",
+   "zh": "波马雷三世"
+  },
+  "locationQid": null
+ },
+ "Q888020": {
+  "label": {
+   "en": "Tūheitia",
+   "zh": "图希提亚·帕基"
+  },
+  "description": "Monarch of the Kīngitanga (Māori king movement) from 2006 to 2024",
+  "coord": null,
+  "image": "Kiingi Tuheitia Potatau Te Wherowhero (cropped 3 by 4).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1955,
+   "date": "1955-04-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2024,
+   "date": "2024-08-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tūheitia",
+   "zh": "圖伊提亞·帕基"
+  },
+  "locationQid": null
+ },
+ "Q941321": {
+  "label": {
+   "en": "Pemulwuy",
+   "zh": null
+  },
+  "description": "Aboriginal Australian political leader (c 1750-1802)",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1000,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1750,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1802,
+   "date": "1802-06-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pemulwuy",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q950406": {
+  "label": {
+   "en": "Julius Chan",
+   "zh": "陈仲民"
+  },
+  "description": "Papua New Guinean politician (1939–2025)",
+  "coord": null,
+  "image": "Sir Julius Chan (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1939,
+   "date": "1939-08-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2025,
+   "date": "2025-01-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Julius Chan",
+   "zh": "陳仲民"
+  },
+  "locationQid": null
+ },
+ "Q954235": {
+  "label": {
+   "en": "Great Mahele",
+   "zh": null
+  },
+  "description": "Royal Hawaiian land redistribution program",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q208128"
+  ],
+  "wiki": {
+   "en": "Great Māhele",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q9733": {
+  "label": {
+   "en": "Nouméa",
+   "zh": "努美阿"
+  },
+  "description": "capital city of the French special collectivity of New Caledonia",
+  "coord": {
+   "lat": -22.2667,
+   "lon": 166.45
+  },
+  "image": "NouméaCentre.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1854,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q84669937",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Nouméa",
+   "zh": "努美阿"
+  }
+ },
+ "Q975866": {
+  "label": {
+   "en": "Eddie Mabo",
+   "zh": null
+  },
+  "description": "Indigenous Australian activist (1936–1992)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1936,
+   "date": "1936-06-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1992,
+   "date": "1992-01-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Eddie Mabo",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q981549": {
+  "label": {
+   "en": "Sitiveni Rabuka",
+   "zh": "西蒂韦尼·兰布卡"
+  },
+  "description": "Prime Minister of Fiji from 1992 to 1999 and from 2022-",
+  "coord": null,
+  "image": "2025 Sitiveni Rabuka (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1948,
+   "date": "1948-09-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sitiveni Rabuka",
+   "zh": "西蒂韦尼·兰布卡"
+  },
+  "locationQid": null
+ },
+ "loc:Q118920": {
+  "coord": {
+   "lat": -16.85,
+   "lon": -151.4
+  },
+  "label": {
+   "en": "Society Islands",
+   "zh": "社会群岛"
+  }
+ },
+ "loc:Q152225": {
+  "coord": {
+   "lat": 11.6,
+   "lon": 165.4
+  },
+  "label": {
+   "en": "Bikini Atoll",
+   "zh": "比基尼环礁"
+  }
+ },
+ "loc:Q153732": {
+  "coord": {
+   "lat": 16.7,
+   "lon": 145.78
+  },
+  "label": {
+   "en": "Mariana Islands",
+   "zh": "马里亚纳群岛"
+  }
+ },
+ "loc:Q18094": {
+  "coord": {
+   "lat": 21.3047,
+   "lon": -157.8572
+  },
+  "label": {
+   "en": "Honolulu",
+   "zh": "火奴鲁鲁"
+  }
+ },
+ "loc:Q255890": {
+  "coord": {
+   "lat": -30.15,
+   "lon": 131.583
+  },
+  "label": {
+   "en": "Maralinga",
+   "zh": null
+  }
+ },
+ "loc:Q33788": {
+  "coord": {
+   "lat": -21.25,
+   "lon": 165.3
+  },
+  "label": {
+   "en": "New Caledonia",
+   "zh": "新喀里多尼亚"
+  }
+ },
+ "loc:Q34366": {
+  "coord": {
+   "lat": -42,
+   "lon": 147
+  },
+  "label": {
+   "en": "Tasmania",
+   "zh": "塔斯马尼亚州"
+  }
+ },
+ "loc:Q36687": {
+  "coord": {
+   "lat": -36.8542,
+   "lon": 144.2811
+  },
+  "label": {
+   "en": "Victoria",
+   "zh": "维多利亚州"
+  }
+ },
+ "loc:Q452812": {
+  "coord": {
+   "lat": -33.75,
+   "lon": 143.0833
+  },
+  "label": {
+   "en": "Lake Mungo",
+   "zh": "蒙哥湖"
+  }
+ },
+ "loc:Q65643398": {
+  "coord": {
+   "lat": -41.2771,
+   "lon": 174.78
+  },
+  "label": {
+   "en": "Archives New Zealand National Office",
+   "zh": null
+  }
+ },
+ "loc:Q664": {
+  "coord": {
+   "lat": -41.2,
+   "lon": 174
+  },
+  "label": {
+   "en": "New Zealand",
+   "zh": "新西兰"
+  }
+ },
+ "loc:Q782": {
+  "coord": {
+   "lat": 21.5,
+   "lon": -158
+  },
+  "label": {
+   "en": "Hawaii",
+   "zh": "夏威夷州"
+  }
+ }
+}
