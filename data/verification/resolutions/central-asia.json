@@ -153,28 +153,12 @@
       "https://www.britannica.com/topic/Potala-Palace"
     ]
   },
-  "ev-battle-of-jao-modo:coord": {
-    "verdict": "keep-ours",
-    "reason": "Wikidata’s point is a rounded location in central Mongolia; the battle was fought on the upper Tuul (Terelj) east of present Ulaanbaatar, where the marker stands.",
-    "checked": [
-      "Peter C. Perdue, China Marches West (2005), ch. 5",
-      "https://www.wikidata.org/wiki/Q3874305"
-    ]
-  },
   "ev-first-anglo-afghan-war:coord": {
     "verdict": "keep-ours",
     "reason": "Wikidata’s point is the centroid of Afghanistan; the war centred on Kabul, which the British occupied in 1839 and evacuated in the disastrous retreat of 1842.",
     "checked": [
       "William Dalrymple, Return of a King (2013)",
       "https://www.wikidata.org/wiki/Q989092"
-    ]
-  },
-  "ev-qing-reconquest-of-xinjiang:coord": {
-    "verdict": "keep-ours",
-    "reason": "The campaign began at Ürümqi (Wikidata’s point) in 1876 but ended with the fall of Kashgar, Yaqub Beg’s capital, in December 1877; the marker is at Kashgar and the route shows the advance from Ürümqi.",
-    "checked": [
-      "James A. Millward, Eurasian Crossroads (2007)",
-      "Hodong Kim, Holy War in China (2004)"
     ]
   },
   "ev-second-anglo-afghan-war:coord": {

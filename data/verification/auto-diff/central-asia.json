@@ -353,31 +353,6 @@
   }
  },
  {
-  "key": "ev-battle-of-jao-modo:coord",
-  "id": "ev-battle-of-jao-modo",
-  "dataset": "central-asia",
-  "kind": "events",
-  "field": "coord",
-  "ours": [
-   47.8,
-   107.4
-  ],
-  "wikidata": [
-   46,
-   105
-  ],
-  "qid": "Q3874305",
-  "km": 271,
-  "resolution": {
-   "verdict": "keep-ours",
-   "reason": "Wikidata’s point is a rounded location in central Mongolia; the battle was fought on the upper Tuul (Terelj) east of present Ulaanbaatar, where the marker stands.",
-   "checked": [
-    "Peter C. Perdue, China Marches West (2005), ch. 5",
-    "https://www.wikidata.org/wiki/Q3874305"
-   ]
-  }
- },
- {
   "key": "ev-first-anglo-afghan-war:coord",
   "id": "ev-first-anglo-afghan-war",
   "dataset": "central-asia",
@@ -399,31 +374,6 @@
    "checked": [
     "William Dalrymple, Return of a King (2013)",
     "https://www.wikidata.org/wiki/Q989092"
-   ]
-  }
- },
- {
-  "key": "ev-qing-reconquest-of-xinjiang:coord",
-  "id": "ev-qing-reconquest-of-xinjiang",
-  "dataset": "central-asia",
-  "kind": "events",
-  "field": "coord",
-  "ours": [
-   39.47,
-   75.99
-  ],
-  "wikidata": [
-   43.8253,
-   87.6138
-  ],
-  "qid": "Q6140819",
-  "km": 1079,
-  "resolution": {
-   "verdict": "keep-ours",
-   "reason": "The campaign began at Ürümqi (Wikidata’s point) in 1876 but ended with the fall of Kashgar, Yaqub Beg’s capital, in December 1877; the marker is at Kashgar and the route shows the advance from Ürümqi.",
-   "checked": [
-    "James A. Millward, Eurasian Crossroads (2007)",
-    "Hodong Kim, Holy War in China (2004)"
    ]
   }
  },
