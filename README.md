@@ -6,6 +6,8 @@ dynasties rise and fall, wars march across the map, famous people travel their l
 names change with their rulers (Byzantion → Constantinople → Istanbul; 长安 → 西安). Each region
 has its own synthesised soundtrack, and the music crossfades as you turn the globe.
 
+**Live site: <https://tuye0305.github.io/orbis-atlas/>** (deployed from `main` by `.github/workflows/pages.yml`).
+
 > A world companion to [江山时序 jiangshan-map](https://github.com/DeanChensj/jiangshan-map), whose
 > Chinese data this project adapts. Static site, no backend.
 
