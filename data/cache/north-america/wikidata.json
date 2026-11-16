@@ -1714,6 +1714,29 @@
   },
   "locationQid": "Q1989"
  },
+ "Q1516058": {
+  "label": {
+   "en": "Indian Act",
+   "zh": "印第安法案"
+  },
+  "description": "1876 Canadian act of Parliament",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q820655",
+   "Q1076579"
+  ],
+  "wiki": {
+   "en": "Indian Act",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q1520743": {
   "label": {
    "en": "Canadian Confederation",
@@ -2026,6 +2049,39 @@
    "zh": "2005年飓风卡特里娜"
   },
   "locationQid": null
+ },
+ "Q1648404": {
+  "label": {
+   "en": "Nootka Crisis",
+   "zh": "努特卡危机"
+  },
+  "description": "1789 international incident and political dispute between the kingdoms of Great Britain and Spain",
+  "coord": null,
+  "image": "The Spanish insult to the British flag at Nootka Sound LCCN2003665189 (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1789,
+   "date": "1789-05-05",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1790,
+   "date": "1790-10-28",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5791104",
+   "Q1078001"
+  ],
+  "wiki": {
+   "en": "Nootka Crisis",
+   "zh": null
+  },
+  "locationQid": "Q459810"
  },
  "Q16488964": {
   "label": {
@@ -3213,6 +3269,33 @@
   },
   "locationQid": null
  },
+ "Q2100118": {
+  "label": {
+   "en": "1862 Pacific Northwest smallpox epidemic",
+   "zh": null
+  },
+  "description": "pandemic",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1862,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q30103545"
+  ],
+  "wiki": {
+   "en": "1862 Pacific Northwest smallpox epidemic",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q211386": {
   "label": {
    "en": "1906 San Francisco earthquake",
@@ -3364,6 +3447,35 @@
    "zh": "弗雷德里克·道格拉斯"
   },
   "locationQid": null
+ },
+ "Q2164344": {
+  "label": {
+   "en": "Sand Creek massacre",
+   "zh": "沙溪大屠殺"
+  },
+  "description": "massacre of a village of Cheyenne and Arapaho people in the American Indian Wars",
+  "coord": {
+   "lat": 38.5494,
+   "lon": -102.5114
+  },
+  "image": "At the Sand Creek Massacre, 1874-1875.jpg",
+  "pointInTime": {
+   "year": 1864,
+   "date": "1864-11-29",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Sand Creek massacre",
+   "zh": "沙溪大屠殺"
+  }
  },
  "Q216547": {
   "label": {
@@ -4207,6 +4319,38 @@
    "zh": "美国"
   }
  },
+ "Q3044451": {
+  "label": {
+   "en": "Vancouver Expedition",
+   "zh": "溫哥華探險之旅"
+  },
+  "description": "1791 voyage commanded by George Vancouver",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1791,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1795,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2401485"
+  ],
+  "wiki": {
+   "en": "Vancouver Expedition",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q309029": {
   "label": {
    "en": "Alaska Purchase",
@@ -4607,6 +4751,38 @@
   },
   "locationQid": null
  },
+ "Q319657": {
+  "label": {
+   "en": "Alexander Mackenzie",
+   "zh": "亚历山大·马更些"
+  },
+  "description": "Scottish explorer and fur trader (1764-1820)",
+  "coord": null,
+  "image": "Alexander MacKenzie by Thomas Lawrence (c.1800).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1764,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1820,
+   "date": "1820-03-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander Mackenzie (explorer)",
+   "zh": "亚历山大·麦肯齐 (探险家)"
+  },
+  "locationQid": null
+ },
  "Q323813": {
   "label": {
    "en": "Jamestown",
@@ -4696,6 +4872,28 @@
    "en": "Battle of Gettysburg",
    "zh": "蓋茨堡之戰"
   }
+ },
+ "Q333049": {
+  "label": {
+   "en": "Lakota people",
+   "zh": "拉科塔族"
+  },
+  "description": "Indigenous people of the Great Plains",
+  "coord": null,
+  "image": "En-chief-sitting-bull.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q41710"
+  ],
+  "wiki": {
+   "en": "Lakota people",
+   "zh": "拉科塔人"
+  },
+  "locationQid": null
  },
  "Q333233": {
   "label": {
@@ -5708,28 +5906,6 @@
   },
   "locationQid": null
  },
- "Q4421193": {
-  "label": {
-   "en": "Great Sioux Nation",
-   "zh": "蘇族國"
-  },
-  "description": "political structure of the Sioux in North America",
-  "coord": null,
-  "image": null,
-  "pointInTime": null,
-  "start": null,
-  "end": null,
-  "born": null,
-  "died": null,
-  "instanceOf": [
-   "Q41710"
-  ],
-  "wiki": {
-   "en": "Great Sioux Nation",
-   "zh": null
-  },
-  "locationQid": null
- },
  "Q44555": {
   "label": {
    "en": "Crazy Horse",
@@ -6130,6 +6306,35 @@
    "zh": null
   },
   "locationQid": null
+ },
+ "Q5041396": {
+  "label": {
+   "en": "Carlisle Indian Industrial School",
+   "zh": "卡莱尔印第安工业学校"
+  },
+  "description": "former school in Carlisle, Pennsylvania, USA",
+  "coord": {
+   "lat": 40.209,
+   "lon": -77.178
+  },
+  "image": "Carlisle pupils.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1879,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2096204"
+  ],
+  "wiki": {
+   "en": "Carlisle Indian Industrial School",
+   "zh": null
+  }
  },
  "Q505146": {
   "label": {
@@ -8259,6 +8464,33 @@
   },
   "locationQid": null
  },
+ "Q896666": {
+  "label": {
+   "en": "2007–2008 financial crisis",
+   "zh": "2007年–2008年环球金融危机"
+  },
+  "description": "global financial crisis triggered by bursting of the United States housing bubble and the devaluation of housing-related securities",
+  "coord": null,
+  "image": "TED Spread.png",
+  "pointInTime": null,
+  "start": {
+   "year": 2007,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q114380"
+  ],
+  "wiki": {
+   "en": "2008 financial crisis",
+   "zh": "2008年環球金融危機"
+  },
+  "locationQid": null
+ },
  "Q91": {
   "label": {
    "en": "Abraham Lincoln",
@@ -8733,6 +8965,16 @@
   "label": {
    "en": "Japanese-American relocation camp",
    "zh": null
+  }
+ },
+ "loc:Q459810": {
+  "coord": {
+   "lat": 49.783,
+   "lon": -126.633
+  },
+  "label": {
+   "en": "Nootka Sound",
+   "zh": "努特卡海峽"
   }
  },
  "loc:Q48809": {

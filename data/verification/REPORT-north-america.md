@@ -137,3 +137,118 @@ Each record below was re-checked against at least one source other than the one 
 - **Some sites timed out or errored:** natmus.gl, encyclopediavirginia.org, washingtonpapers.org and naalakkersuisut.gl.
 - **Pre-contact dates are low or medium confidence.** This covers Hopewell, Hohokam, Chaco, Cahokia/Mississippian, the Great Law and Lakota origins, and each of these records carries a note.
 - **Rulers of non-state peoples are prominent leaders.** For the Haudenosaunee, Comanche and Lakota, the "rulers" are spokesmen and war or peace chiefs with approximate dates of prominence, not monarchs.
+
+## 2026-11 review
+
+Independent reviewer: fact-checking agent, PR #23. Commits `c038f87` (corrections) and `08ca2bb` (additions).
+
+### Sample and method
+
+- **110 of 203 records (54%) were checked against retrieved sources**, 102 of them outside the curator's 42-record spot-check. The other 8 were rechecked for the Indigenous-history priority: `ev-haudenosaunee-great-law`, `ev-king-philips-war`, `ev-trail-of-tears`, `ev-wounded-knee-massacre`, `ev-klondike-gold-rush`, `place-iqaluit`, `polity-haudenosaunee` and `polity-comancheria`.
+  - 64 events: colonial era through the 2000s, including `ev-beaver-wars`, `ev-pequot-war`, `ev-first-africans-in-virginia`, `ev-loyalist-migration`, `ev-red-river-resistance`, `ev-japanese-american-incarceration`, `ev-october-crisis` and `ev-creation-of-nunavut`.
+  - 21 people, 8 places and 5 polities, among them `polity-lakota`, `polity-haudenosaunee` and `polity-comancheria` with their leader lists.
+- **All 98 stories were read in full**, along with their zh text where a fix touched it.
+- **What the claims were checked against.** Each claim was compared with pages retrieved in this review via WebSearch or WebFetch, never with memory:
+  - NPS park and history pages, the Library of Congress, the National Archives and the Smithsonian
+  - the Dictionary of Canadian Biography, The Canadian Encyclopedia (snippets, since the site blocks fetches) and Parks Canada
+  - TSHA Handbook of Texas, Encyclopedia Virginia, Monticello and Mount Vernon
+  - DOE and LANL, USGS, the King Institute, the NCTR and university pages
+  - Britannica, via search snippets only
+- **Cross-dataset overlap.** No North America QID duplicates a record in any other dataset branch.
+  - Mesoamerica's Q128160 (Cuban Missile Crisis) and Q12583 (Spanish–American War) are not used here.
+  - The Mexican–American War appears only here.
+  - Pearl Harbor and Cook's voyages are left to Oceania.
+
+### Corrections (old → new)
+
+| Record | Old | New | Reason / source |
+| --- | --- | --- | --- |
+| `ev-hopewell-earthworks` | Newark circle + octagon "some fifty hectares" | about 28 ha | Octagon about 50 acres + circle about 20 acres (Ohio History Connection) |
+| `ev-founding-of-jamestown` | starving time "about 300 to some 60" | most died; about 60 alive in spring 1610, note on 250–500 | Starting figure disputed (Historic Jamestowne) |
+| `ev-trail-of-tears` | Jackson "ignored the ruling"; "thirteen overland detachments" | "did nothing to enforce it"; "more than a dozen, most overland" | Worcester v. Georgia did not require enforcement action; some parties went by water (NPS Trail of Tears) |
+| `ev-battle-of-the-little-bighorn` | 1980 Court "ruled the seizure illegal" | land taken without just compensation; damages refused, Lakota seek the Black Hills | United States v. Sioux Nation (1980) |
+| `ev-klondike-gold-rush` | "largest city in western Canada"; "perhaps 30,000" | "largest Canadian community west of Winnipeg"; 16,000–30,000, with a note | NWMP count of July 1898 |
+| `ev-september-11-attacks` | both towers down "within an hour and a half" | "within an hour and three-quarters" | North Tower fell 102 min after impact (9/11 Commission Report) |
+| `ev-pearl-street-station` | "85 customers" | "several dozen", with a note | Sources give 59–85 |
+| `ev-serpent-mound` | note "Fagan et al. (1996)" | "Fletcher et al. (1996)" | Author of the 1996 radiocarbon study |
+| `ev-king-philips-war` | wife and son "sold into slavery in the West Indies" | son probably shipped to Bermuda; wife's fate uncertain | Sources disagree; overstated certainty |
+| `ev-wounded-knee-massacre` | medals "long asked to be rescinded" | adds the 2025 Defense Department decision to keep them | Missouri Independent / States Newsroom, 26 Sep 2025 (source added) |
+| `ev-residential-schools` | "a figure research continues to raise" | NCTR has since recorded more than 4,000 | NCTR memorial register |
+| `polity-confederate-states` | "Eleven slave states seceded after Lincoln's election" | seven, then four more after Fort Sumter | Standard chronology (NPS) |
+| `person-tecumseh` | birthplace stop | Scioto valley near Chillicothe (39.33, -82.98), with a note on Old Piqua | Disputed birthplace |
+| `person-knud-rasmussen` | "some 18,000 kilometres" | distance removed | Not confirmed by any retrieved source |
+| `place-iqaluit` | "US Air Force base in 1942" | US Army Air Forces | USAF created only in 1947 |
+| `place-quebec-city` | "beside the Iroquoian village of Stadacona" | "near the site of the vanished… Stadacona" | Stadacona was gone by 1608 (DCB) |
+| `ev-ozette-mudslide` | note "c. 1700; some say c. 1750" | c. 1700 usual; range c. 1560 (radiocarbon) to c. 1750 | Published dates vary |
+| `polity-lakota` | QID Q4421193, name "Lakota" | Q333049, "Lakota (Teton Sioux)", note on the Oceti Sakowin | The old QID was not the Lakota people |
+| `polity-haudenosaunee` | zh ruler names | 约瑟夫·布兰特（塔延达尼加）, 种玉米者（塞内卡） | Consistent zh naming |
+| `ev-election-of-barack-obama` | zh 巴拉克 | 贝拉克 | Standard Xinhua form |
+| `ev-hudsons-bay-company-chartered` | "survives today as one of the oldest companies" | 2025 creditor protection and store closures; "Toronto head office" dropped from note | BNN Bloomberg (source added), Retail Insider |
+| `ev-french-and-indian-war` | "Horace Walpole later wrote…" | "A line later attributed to Horace Walpole, probably wrongly…" | J. L. Bell, Boston 1775: phrase not in Walpole's letters |
+| `ev-mesa-verde-cliff-dwellings` | last beams "late 1270s" | "early 1280s" | NPS tree-ring page (1281); repair beam of 1282 |
+| `ev-chaco-canyon-great-houses` | Pueblo Bonito builders carried 200,000 beams up to 80 km | estimate is for all great houses; 75–80 km | Smarthistory; NM Architecture Guide |
+| `ev-salem-witch-trials` | "several judges… repented" | "the judge Samuel Sewall"; note on 150–200+ accused | Sewall alone apologised (14 Jan 1697) |
+| `ev-first-africans-in-virginia` | dead Encyclopedia Virginia URL | `/entries/africans-virginias-first/` | 404 |
+| `ev-founding-of-montreal` | — | note on 17 May landing / 18 May Mass | The Canadian Encyclopedia gives both |
+| `ev-bering-chirikov-reach-alaska` | — | note that dates are Old Style | NPS landing-site NHL report |
+| `ev-purchase-of-manhattan` | "Director Peter Minuit"; "a 19th-century historian"; "a visitor in the 1640s" | "traditionally identified as Peter Minuit"; "19th-century writers"; Isaac Jogues 1643 | Schagen letter names no buyer; Jogues' account |
+| `place-new-york` | names 1776–1785 British; "first US capital 1785–1790" | 1776–1783 British-occupied, 1783–1785 State of New York; Confederation seat from 1785, first capital under the Constitution 1789–90 | British evacuation 25 Nov 1783 |
+| `place-toronto` | name "first applied to the Seneca village of Teiaiagon" | name from the weirs at the Narrows, spread down the Carrying-Place | Ramara Historical Society; TCE |
+| `place-chicago` | name "Fort Dearborn" for 1803–1833 | "Chicago (settlement at Fort Dearborn)" | Encyclopedia of Chicago |
+| `place-san-francisco` | 1847– United States | 1847–1848 US-occupied Mexico, 1848– United States | Treaty of Guadalupe Hidalgo |
+| `person-pope` | death c. 1688 | note c. 1688–1692 | Britannica (1692), encyclopedia.com (c. 1690) |
+| `person-joseph-brant` | 1776 stop "presented to George III" | presses Mohawk grievances with Lord Germain; note on 1742/43 birth | DCB, Thayendanegea |
+| `person-alexander-graham-bell` | 1880 Volta Laboratory; 1886 builds Beinn Bhreagh | 1881 Volta Laboratory; 1885 first visit to Baddeck | LOC; Parks Canada |
+| `person-franklin-d-roosevelt` | "paralysed by polio"; Atlantic Charter at (47, -53) | "an illness diagnosed as polio"; Argentia (47.30, -53.99); Guillain-Barré note | Goldman 2003; FRUS 1941 |
+| `person-rene-levesque` | 1968 PQ stop at Montréal; WWII stop | Québec City; US Office of War Information, London | DCB, Lévesque |
+| `person-hernando-de-soto` | — | note on the disputed site of Guachoya | NPS; Encyclopedia of Arkansas |
+| `person-ulysses-s-grant` | Mount McGregor at (43.07, -73.73) | (43.201, -73.746) | Grant Cottage location |
+| `person-john-a-macdonald` | 1886 CPR stop at Vancouver | Port Moody (49.283, -122.857) | City of Vancouver Archives |
+| `person-pocahontas` | 1616 "meets James I" | arrives 1616; received at court January 1617 | UK National Archives blog |
+| `person-abraham-lincoln` | "about a year" of school; "272 words" | "less than a year"; "about 270 words" | NPS; copies vary 271–272 |
+| `person-louis-armstrong` | 1956 "world tour" | plays in Accra, Gold Coast (filmed by CBS) | Georgetown University Library |
+| `ev-nineteenth-amendment` | Tennessee "made it law" | decisive 36th state; certified 26 August | NPS, Harry T. Burn |
+| `ev-japanese-american-incarceration` | unquoted commission phrase | quoted and attributed to CWRIC (1983) | Verbatim phrase |
+| `ev-trinity-test` | about 21 kt | about 25 kt, with a note (18.6 / 21 / 24.8 ± 2 kt) | LANL 2021 reanalysis |
+| `ev-brown-v-board` | D.C. case "joined" | Bolling v. Sharpe a companion case | National Archives |
+| `ev-march-on-washington` | "King spoke last" | "the last major speaker" | Randolph and Mays followed |
+| `ev-apollo-11` | Smithsonian source had a nasa.gov URL | airandspace.si.edu command-module page | Duplicate URL |
+| `ev-october-crisis` | "nearly 500 detained without charge"; note "both kidnappings in Montréal" | 450–500 arrested, most released without charge; Laporte taken in Saint-Lambert | historyofrights.ca; Legion Magazine |
+| `ev-greenland-home-rule` | 2009 transferred "mineral resources and the police" | minerals from 2010; policing and justice only in principle | LOC Law blog; Self-Government Act Schedule II |
+| `ev-quebec-referendum-1995` | "charismatic"; "some 100,000"; "support has not since come close" | removed; "tens of thousands"; "no further referendum has been held" | Evaluative or unsourced |
+| `person-la-salle` | "returning by sea in 1685 … some 300" | sailed 1684 with about 320; landed early 1685 | DCB |
+| `ev-1906-san-francisco-earthquake` | "founded modern earthquake science" | "laid foundations of" | Overstatement |
+| `ev-louisiana-purchase` | Barbé-Marbois made the offer | Talleyrand asked on 11 April; Barbé-Marbois negotiated | Monticello |
+| `ev-erie-canal-opens` | news in "about 90 minutes" | "about 80 minutes" | Sources give 81 min |
+| `ev-shermans-march-to-the-sea` | Sherman entered and telegraphed on 21 Dec | troops occupied 21 Dec; telegram 22 Dec | American Battlefield Trust |
+| `ev-loyalist-migration` | "some 14,000" at Saint John | about 10,000 by end of 1783 | Parks Canada; no source for 14,000 |
+| `ev-alaska-purchase` | "mocked as Seward's Folly"; "Newspapers mocked" | "later remembered as…"; "Some newspapers" | Hill, Western Historical Quarterly (2019) |
+| `ev-ellis-island-opens` | "four in ten" | "an estimated 40 percent"; note on Annie Moore's age | NPS archive; ellisisland.org |
+| `ev-declaration-of-independence` | Jefferson "sulked" | "resented" | Editorial wording |
+| `ev-emancipation-proclamation` | "hand trembled" | "arm nearly numb" | Lincoln's own account |
+
+### Additions (8 records and 1 story; each has at least 2 sources)
+
+- **`ev-sand-creek-massacre`** (Q2164344, 1864, story). Sources: NPS Sand Creek timeline and the Silas Soule page, the Sand Creek Massacre Foundation, and the Northwestern John Evans Committee report (2014). The casualty range is given in a note.
+- **`ev-carlisle-indian-school`** (Q5041396, 1879–1918, story). This is the first record for the US boarding-school system. Sources: Dickinson's Carlisle Indian School Digital Resource Center, the Interior Department's Federal Indian Boarding School Initiative report (vol. II, 2024), NABS and Spotlight PA.
+- **`ev-1862-smallpox-epidemic`** (Q2100118, story, medium confidence). Sources: UVic's Victoria's Victoria, HistoryLink, Maclean's, and Boyd (1999). The death toll is given in a note as an estimate.
+- **`ev-nootka-crisis`** (Q1648404, 1789–1790). Sources: the DCB entries for Martínez, Muquinna and Colnett.
+- **`ev-vancouver-expedition`** (Q3044451, 1791–1795, with a route). Sources: DCB, Vancouver, and Vancouver's own *Voyage* (1798).
+- **`ev-indian-act`** (Q1516058, 1876). Sources: The Canadian Encyclopedia (Indian Act; Potlatch) and the Justice Laws text.
+- **`ev-2008-financial-crisis`** (Q896666, story). Sources: Federal Reserve History (two essays) and the FCIC report (2011).
+- **`person-alexander-mackenzie`** (Q319657, 1764–1820, with stops). Sources: DCB and BC Parks.
+- **New story for `ev-truth-and-reconciliation-commission`.** Sources: an NCTR history page (added) and the existing TCE source.
+
+After these changes, `validate-data` gives 0 errors and 0 warnings. `wd.mjs enrich` fetched 9 new QIDs, and `build-data` reports 50 north-america diffs with 0 unresolved; the additions created no new diffs.
+
+### Left for a human
+
+- **Not confirmed by any retrieved source.** These are still in the records:
+  - Hamilton leading the American assault on Redoubt 10 (`ev-siege-of-yorktown`)
+  - Antony and Isabella's son William (`ev-first-africans-in-virginia`)
+  - the Van Horne "in earnest only in 1881" date (`ev-canadian-pacific-last-spike`)
+  - the 1821 Sequoyah demonstration site and the move west, for which sources give 1822–1825
+- **Hudson's Bay Company status** was current as of March 2026 (still under court protection). Recheck it before release.
+- **`ev-rise-of-cahokia` calls Cahokia the largest city in what is now the US "before the 1780s".** That holds only for the upper population estimates (about 20,000).
+- **Buffalo Hump's death date** (`polity-comancheria` leaders) varies between c. 1867 and 1870 across sources.
+- **Further gaps:** the 1500s are still thin outside Spanish expeditions, the Subarctic has no record of its own, and a fuller Haida or Nuu-chah-nulth record would be worth adding.
