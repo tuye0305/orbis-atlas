@@ -22,6 +22,9 @@ import { TopBar } from './ui/TopBar';
 const globeModule = import('./globe/GlobeEngine');
 const loadAbout = () => import('./ui/About');
 const About = lazy(loadAbout);
+const GameHost = lazy(() => import('./games/GameHost'));
+/** ?game=… deep link, read before the URL sync rewrites the query string. */
+const deepGame = new URLSearchParams(location.search).get('game');
 
 // Music is only needed once someone turns it on. The player is fetched in the background after the
 // globe is up, so that enabling music still happens inside the click (autoplay rules). It plays the
@@ -52,6 +55,7 @@ export default function App() {
   const lang = useStore((st) => st.lang);
   const searchOpen = useStore((st) => st.searchOpen);
   const aboutOpen = useStore((st) => st.aboutOpen);
+  const game = useStore((st) => st.game);
 
   // Language of the document, for screen readers, hyphenation and the :lang(zh) font rules.
   useEffect(() => {
@@ -146,6 +150,8 @@ export default function App() {
             const aim = framedTarget(f.lat, f.lon, alt, cardOpen);
             eng.flyTo(aim.lat, aim.lon, alt, flyDuration());
           }
+          // A mini-game covers the whole screen: stop drawing the globe underneath it.
+          if (st.game !== prev.game) eng.setPaused(!!st.game);
           if (st.musicOn !== prev.musicOn) {
             // Synchronous when the module is already here, so AudioContext starts inside the click.
             if (music) music.setEnabled(st.musicOn, st.region);
@@ -202,7 +208,7 @@ export default function App() {
     const onKey = (e: KeyboardEvent) => {
       const st = useStore.getState();
       // Nothing to control behind the intro; open dialogs handle their own keys.
-      if (!enteredRef.current || st.searchOpen || st.aboutOpen) return;
+      if (!enteredRef.current || st.searchOpen || st.aboutOpen || st.game) return;
       const el = e.target as HTMLElement | null;
       const typing = el?.closest?.('input, textarea, select, [contenteditable="true"]');
       if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !typing)) {
@@ -244,11 +250,13 @@ export default function App() {
     void loadAbout();
     // A deep-linked selection flies to its target once the intro swing has landed.
     const { selection, select, year, setYear } = useStore.getState();
+    if (deepGame && !selection) setTimeout(() => useStore.getState().set({ game: deepGame, playing: false }), reduced ? 100 : 3300);
     if (selection)
       setTimeout(
         () => {
           select(selection);
           if (selection.kind === 'place') setYear(year);
+          if (deepGame) useStore.getState().set({ game: deepGame, playing: false });
         },
         reduced ? 100 : 3300,
       );
@@ -267,6 +275,7 @@ export default function App() {
           </main>
           {searchOpen && <Search />}
           <Suspense fallback={null}>{aboutOpen && <About />}</Suspense>
+          <Suspense fallback={null}>{game && <GameHost key={game} id={game} />}</Suspense>
           <div className="disclaimer">{s('approx', lang)}</div>
           <HoverTip />
         </>

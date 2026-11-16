@@ -347,6 +347,13 @@ export class GlobeEngine {
     });
   }
 
+  /** Stop drawing while a mini-game covers the globe, so the two WebGL scenes don't share the GPU. */
+  setPaused(paused: boolean) {
+    if (this.disposed) return;
+    this.renderer.setAnimationLoop(paused ? null : this.tick);
+    if (!paused) this.clock.getDelta();
+  }
+
   cameraGeo() {
     const g = this.globe.toGeoCoords(this.camera.position);
     return { lat: g.lat, lon: g.lng, altitude: g.altitude };

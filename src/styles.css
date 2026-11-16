@@ -474,3 +474,27 @@ kbd {
   }
   .music-btn.on .eq i { animation: none !important; height: 7px; }
 }
+
+/* ---------- mini-game entry points ---------- */
+.play-games { display: grid; gap: 8px; margin: 14px 0 4px; }
+.play-game {
+  --accent: var(--gold);
+  display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; padding: 10px 14px 10px 10px; border-radius: 14px;
+  background: linear-gradient(100deg, color-mix(in srgb, var(--accent) 22%, transparent), rgba(255, 255, 255, 0.02) 70%);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); transition: transform 0.15s, border-color 0.2s, box-shadow 0.2s;
+}
+.play-game:hover { border-color: var(--accent); box-shadow: 0 0 24px color-mix(in srgb, var(--accent) 25%, transparent); transform: translateY(-1px); }
+.pg-icon {
+  flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-size: 13px; padding-left: 2px;
+  color: #160c04; background: var(--accent); box-shadow: 0 0 16px color-mix(in srgb, var(--accent) 60%, transparent);
+}
+.pg-text { display: grid; gap: 2px; min-width: 0; }
+.pg-text b { font-family: var(--serif); font-size: 16px; color: var(--ink); }
+.zh .pg-text b { font-family: var(--serif-zh); }
+.pg-text small { font-size: 12px; color: var(--ink-2); }
+.games-menu { min-width: 240px; display: grid; gap: 2px; }
+.games-item { --accent: var(--gold); display: grid; gap: 2px; text-align: left; padding: 8px 10px 8px 14px; border-radius: 8px; position: relative; }
+.games-item::before { content: ''; position: absolute; left: 4px; top: 10px; bottom: 10px; width: 3px; border-radius: 2px; background: var(--accent); }
+.games-item:hover { background: rgba(255, 255, 255, 0.05); }
+.games-item b { font-size: 13px; color: var(--ink); font-weight: 600; }
+.games-item small { font-size: 11px; color: var(--muted); }

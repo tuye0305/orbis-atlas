@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import { EVENT_COLOR, EVENT_GLYPH, EVENT_TYPE_LABEL, s } from '../i18n';
+import { gamesFor } from '../games/registry';
 import { formatYear, t, useStore } from '../state/store';
 import type { ImageRef, Lang, Source, Stop } from '../types';
 
@@ -72,6 +73,28 @@ function Confidence({ c, note, lang }: { c?: string; note?: string; lang: Lang }
   );
 }
 
+/** “Play” call-to-action for records that have a hand-made mini-game. */
+function PlayGames({ id, lang }: { id: string; lang: Lang }) {
+  const set = useStore((st) => st.set);
+  const games = gamesFor(id);
+  if (!games.length) return null;
+  return (
+    <div className="play-games">
+      {games.map((g) => (
+        <button key={g.id} className="play-game" style={{ ['--accent' as string]: g.accent }} onClick={() => set({ game: g.id, playing: false })}>
+          <span className="pg-icon" aria-hidden>
+            ▶
+          </span>
+          <span className="pg-text">
+            <b>{t(g.title, lang)}</b>
+            <small>{lang === 'zh' ? '小游戏' : 'Mini-game'} · {t(g.kicker, lang)}</small>
+          </span>
+        </button>
+      ))}
+    </div>
+  );
+}
+
 function StopList({ stops, lang, active, onPick }: { stops: Stop[]; lang: Lang; active: number; onPick: (i: number) => void }) {
   return (
     <ol className="stops">
@@ -123,6 +146,7 @@ export function DetailCard() {
             {lang === 'zh' ? e.name.en : e.name.zh}
           </div>
           <p className="summary">{t(e.summary, lang)}</p>
+          <PlayGames id={e.id} lang={lang} />
           <Confidence c={e.confidence} note={e.note} lang={lang} />
           {people.length > 0 && (
             <>
@@ -159,6 +183,7 @@ export function DetailCard() {
           <h2>{t(p.name, lang)}</h2>
           <div className="alt-name" lang={lang === 'zh' ? 'en' : 'zh'}>{lang === 'zh' ? p.name.en : p.name.zh}</div>
           <p className="summary">{t(p.summary, lang)}</p>
+          <PlayGames id={p.id} lang={lang} />
           <Confidence c={p.confidence} note={p.note} lang={lang} />
           <h4>{s('journey', lang)}</h4>
           <StopList stops={p.stops} lang={lang} active={journeyStop} onPick={(i) => pickStop(p.stops, i)} />
