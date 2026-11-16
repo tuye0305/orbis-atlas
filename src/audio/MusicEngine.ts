@@ -171,6 +171,58 @@ class Voices {
     osc.stop(t + dur + 0.05);
     lfo.stop(t + dur + 0.05);
   }
+  /** End-blown / duct flute: breathy sine with a chiff, delayed vibrato and breath noise. */
+  flute(t: number, freq: number, dur: number, o: { vol?: number; vib?: number; breath?: number; bend?: number } = {}) {
+    const { vol = 0.07, vib = 0.012, breath = 0.25, bend = 0 } = o;
+    const ctx = this.ctx;
+    const osc = ctx.createOscillator();
+    osc.type = 'sine';
+    if (bend) {
+      osc.frequency.setValueAtTime(freq * 2 ** (bend / 12), t);
+      osc.frequency.exponentialRampToValueAtTime(freq, t + 0.12);
+    } else osc.frequency.setValueAtTime(freq, t);
+    const o2 = ctx.createOscillator();
+    o2.type = 'triangle';
+    o2.frequency.value = freq * 2;
+    const g2 = ctx.createGain();
+    g2.gain.value = 0.18;
+    const lfo = ctx.createOscillator();
+    lfo.frequency.value = 4.8;
+    const lg = ctx.createGain();
+    lg.gain.setValueAtTime(0, t);
+    lg.gain.linearRampToValueAtTime(freq * vib, t + Math.min(0.6, dur * 0.5));
+    lfo.connect(lg).connect(osc.frequency);
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(vol, t + 0.06);
+    g.gain.setValueAtTime(vol * 0.85, t + dur * 0.75);
+    g.gain.linearRampToValueAtTime(0.0001, t + dur);
+    osc.connect(g);
+    o2.connect(g2).connect(g);
+    this.connect(g, 0.55);
+    if (breath > 0) {
+      const src = ctx.createBufferSource();
+      src.buffer = noiseBuffer(ctx);
+      src.loop = true;
+      const bp = ctx.createBiquadFilter();
+      bp.type = 'bandpass';
+      bp.frequency.value = freq * 2;
+      bp.Q.value = 2.5;
+      const gn = ctx.createGain();
+      gn.gain.setValueAtTime(0.0001, t);
+      gn.gain.linearRampToValueAtTime(vol * breath * 1.6, t + 0.02); // chiff
+      gn.gain.linearRampToValueAtTime(vol * breath * 0.4, t + 0.12);
+      gn.gain.linearRampToValueAtTime(0.0001, t + dur);
+      src.connect(bp).connect(gn);
+      this.connect(gn, 0.5);
+      src.start(t);
+      src.stop(t + dur + 0.05);
+    }
+    for (const n of [osc, o2, lfo]) {
+      n.start(t);
+      n.stop(t + dur + 0.05);
+    }
+  }
 }
 
 let _noise: AudioBuffer | null = null;
@@ -432,6 +484,123 @@ class SoutheastAsia extends Score {
   }
 }
 
+// ----- North America: cedar flute in D minor pentatonic over a heartbeat frame drum -----
+class NorthAmerica extends Score {
+  bpm = 66;
+  stepsPerBeat = 2;
+  mel = this.walker([0, 3, 5, 7, 10], 10);
+  held = 0;
+  play(t: number, s: number) {
+    // Frame drum "heartbeat": strong–weak on each beat pair.
+    if (s % 4 === 0) this.v.drum(t, { pitch: 58, vol: 0.3, decay: 0.6, noise: 0.04, hp: 900 });
+    if (s % 4 === 1) this.v.drum(t, { pitch: 62, vol: 0.14, decay: 0.4, noise: 0.03, hp: 900 });
+    if (s % 32 === 0) this.v.pad(t, [D3 / 2, semi(D3 / 2, 7)], this.stepDur * 32, { vol: 0.02, cutoff: 500, type: 'triangle' });
+    if (this.held > 0) {
+      this.held--;
+      return;
+    }
+    const pos = s % 16;
+    if (this.rng() < (pos % 4 === 0 ? 0.8 : 0.3)) {
+      const n = this.mel(pos, 16);
+      const len = this.pick([2, 3, 4, 6]);
+      const bend = this.rng() < 0.3 ? -2 : 0;
+      this.v.flute(t, semi(D3 * 2, n), this.stepDur * len + 0.2, { vol: 0.075, vib: 0.01, breath: 0.35, bend });
+      this.held = len - 1;
+    }
+  }
+}
+
+// ----- Mesoamerica: two-tone teponaztli slit drum, clay ocarinas, seed rattles -----
+class Mesoamerica extends Score {
+  bpm = 88;
+  stepsPerBeat = 2;
+  mel = this.walker([0, 2, 5, 7, 9], 10);
+  slit = [1, 0, 0, 2, 0, 1, 2, 0, 1, 0, 0, 2, 0, 2, 1, 0];
+  play(t: number, s: number) {
+    const p = s % 16;
+    const hit = this.slit[p];
+    // Teponaztli: a wooden slit drum with two tongues (here the tonic and the fifth).
+    if (hit) this.v.bell(t, hit === 1 ? D3 : semi(D3, 7), { vol: 0.16, decay: 0.35, partials: [1, 2.95, 4.1] });
+    if (p === 0) this.v.drum(t, { pitch: 55, vol: 0.32, decay: 0.7, noise: 0.05, hp: 700 }); // huehuetl
+    // ayoyote / seed rattle
+    if (s % 2 === 1 && this.rng() < 0.7) this.v.drum(t, { pitch: 900, vol: 0.001, decay: 0.05, noise: 0.07, hp: 5200 }); // noise only
+    if (s % 4 === 0 && this.rng() < 0.7) {
+      const n = this.mel((s / 4) % 8, 8);
+      this.v.flute(t, semi(D3 * 4, n), this.stepDur * (this.rng() < 0.5 ? 2 : 4), { vol: 0.05, vib: 0.004, breath: 0.15 });
+    }
+    // conch call at the top of each long cycle
+    if (s % 128 === 0) this.v.bowed(t, D3, this.stepDur * 10, 0.05);
+  }
+}
+
+// ----- South America: huayno — siku panpipes in hocket, strummed charango, bombo -----
+class SouthAmerica extends Score {
+  bpm = 100;
+  stepsPerBeat = 2;
+  mel = this.walker([0, 3, 5, 7, 10], 12);
+  chords = [
+    [0, 3, 7],
+    [-2, 2, 5],
+    [-9, -5, -2],
+    [-5, -2, 2],
+  ]; // Dm – C – F – Am: the minor/relative-major swing typical of huayno
+  play(t: number, s: number) {
+    const ci = Math.floor(s / 16) % this.chords.length;
+    const chord = this.chords[ci];
+    const p = s % 4; // huayno: long – short-short
+    if (p === 0) this.v.drum(t, { pitch: 60, vol: 0.32, decay: 0.45, noise: 0.06, hp: 1000 });
+    if (p === 3) this.v.drum(t, { pitch: 140, vol: 0.12, decay: 0.15, noise: 0.15, hp: 2000 });
+    // charango: quick strum, brighter on the downbeat
+    if (p !== 1) chord.forEach((n, k) => this.v.pluck(t + k * 0.012, semi(D3 * 2, n), { vol: p === 0 ? 0.07 : 0.045, decay: 0.5, bright: 10, type: 'triangle' }));
+    // siku: two players share one melody in hocket, each pipe row sounding every other note
+    if (this.rng() < 0.75) {
+      const n = this.mel(s % 8, 8);
+      this.v.flute(t, semi(D3 * 2, n + 12), this.stepDur * 1.6, { vol: s % 2 ? 0.055 : 0.07, vib: 0.006, breath: 0.45 });
+    }
+  }
+}
+
+// ----- Oceania: didgeridoo drone with pulsing formants, clapsticks -----
+class Oceania extends Score {
+  bpm = 92;
+  stepsPerBeat = 2;
+  formant: BiquadFilterNode | null = null;
+  startSustained(t: number) {
+    const ctx = this.ctx;
+    const o = ctx.createOscillator();
+    o.type = 'sawtooth';
+    o.frequency.value = D3 / 2; // ~73 Hz, a typical didgeridoo drone
+    const bp = ctx.createBiquadFilter();
+    bp.type = 'bandpass';
+    bp.Q.value = 6;
+    bp.frequency.value = 420;
+    this.formant = bp;
+    const lp = ctx.createBiquadFilter();
+    lp.frequency.value = 260;
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(0, t);
+    g.gain.linearRampToValueAtTime(0.09, t + 3);
+    o.connect(bp).connect(g);
+    o.connect(lp).connect(g);
+    g.connect(this.bus);
+    o.start(t);
+    this.sustained.push(o);
+  }
+  play(t: number, s: number) {
+    // Shape the drone rhythmically, like circular-breathing mouth movements.
+    if (this.formant && s % 2 === 0) {
+      const f = this.formant.frequency;
+      f.setTargetAtTime(this.pick([380, 520, 700, 450]), t, 0.05);
+      f.setTargetAtTime(400, t + this.stepDur, 0.12);
+    }
+    // bilma (clapsticks)
+    if (s % 2 === 0) this.v.bell(t, 2300, { vol: s % 8 === 0 ? 0.06 : 0.035, decay: 0.06, partials: [1, 1.6] });
+    if (s % 16 === 12 && this.rng() < 0.6) this.v.bell(t, 2300, { vol: 0.03, decay: 0.05, partials: [1, 1.6] });
+    // occasional vocal-like call over the drone
+    if (s % 32 === 16 && this.rng() < 0.55) this.v.bowed(t, semi(D3 * 2, this.pick([0, 3, 5, 7])), this.stepDur * 12, 0.035);
+  }
+}
+
 // ----- Open sea: a slow, neutral Lydian wash -----
 class Ocean extends Score {
   bpm = 50;
@@ -453,6 +622,10 @@ const SCORES: Record<ScoreKey, new (ctx: AudioContext, dest: AudioNode, send: Au
   africa: Africa,
   'central-asia': CentralAsia,
   'southeast-asia': SoutheastAsia,
+  'north-america': NorthAmerica,
+  mesoamerica: Mesoamerica,
+  'south-america': SouthAmerica,
+  oceania: Oceania,
   ocean: Ocean,
 };
 

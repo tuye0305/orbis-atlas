@@ -21,8 +21,8 @@ export default function About() {
         <h2 id={titleId}>Orbis · 寰宇时序</h2>
         <p>
           {zh
-            ? '一部开源的三维世界历史地图，涵盖欧洲、非洲与亚洲近两千年的疆域、朝代、战争、人物与地名沿革。'
-            : 'An open-source 3D historical atlas of Europe, Africa and Asia across two thousand years: borders, dynasties, wars, people and the genealogy of place names.'}
+            ? '一部开源的三维世界历史地图，涵盖欧、亚、非、美洲与大洋洲近两千年的疆域、朝代、战争、人物、故事与地名沿革。'
+            : 'An open-source 3D historical atlas of the whole world (Europe, Africa, Asia, the Americas and Oceania) across two thousand years: borders, dynasties, wars, people, stories and the genealogy of place names.'}
         </p>
         {atlas && (
           <p className="muted">

@@ -1,0 +1,4171 @@
+{
+ "Q1015747": {
+  "label": {
+   "en": "Mansur Shah of Malacca",
+   "zh": "苏丹满速沙"
+  },
+  "description": "6th Sultan of Malacca",
+  "coord": null,
+  "image": "Tombstone of Mansur Shah in National Museum.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1477,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mansur Shah of Malacca",
+   "zh": "苏丹满速沙"
+  },
+  "locationQid": null
+ },
+ "Q1062422": {
+  "label": {
+   "en": "Konbaung dynasty",
+   "zh": "贡榜王朝"
+  },
+  "description": "Last dynasty of Myanmar, that ruled the Third Empire of Myanmar",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1752,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1885,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Konbaung dynasty",
+   "zh": "贡榜王朝"
+  },
+  "locationQid": null
+ },
+ "Q1155700": {
+  "label": {
+   "en": "Rattanakosin Kingdom",
+   "zh": "拉达那哥欣王国"
+  },
+  "description": "fourth traditional centre of power in the history of Thailand (1782 to 24 June 1932)",
+  "coord": {
+   "lat": 14,
+   "lon": 101
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1782,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1932,
+   "date": "1932-06-24",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Rattanakosin Kingdom (1782–1932)",
+   "zh": "拉達那哥欣王國"
+  }
+ },
+ "Q1195391": {
+  "label": {
+   "en": "Lê Thái Tổ",
+   "zh": "黎利"
+  },
+  "description": "Founding Emperor of the Later Lê dynasty",
+  "coord": null,
+  "image": "Le Loi statue.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1384,
+   "date": "1384-09-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1433,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lê Lợi",
+   "zh": "黎利"
+  },
+  "locationQid": null
+ },
+ "Q1199713": {
+  "label": {
+   "en": "Batavia",
+   "zh": "巴达维亚"
+  },
+  "description": "capital of the Dutch East Indies (1619–1949), now the city of Jakarta",
+  "coord": {
+   "lat": -6.1348,
+   "lon": 106.8132
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15661340"
+  ],
+  "wiki": {
+   "en": "Batavia, Dutch East Indies",
+   "zh": "巴達維亞城"
+  }
+ },
+ "Q12415692": {
+  "label": {
+   "en": "Jaya Harivarman I",
+   "zh": "闍耶訶梨跋摩一世"
+  },
+  "description": "king of Champa",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jaya Harivarman I",
+   "zh": "闍耶訶梨跋摩一世"
+  },
+  "locationQid": null
+ },
+ "Q1274389": {
+  "label": {
+   "en": "People Power Revolution",
+   "zh": "人民力量革命 (1986年)"
+  },
+  "description": "series of popular demonstrations in the Philippines in 1986 that overthrew Ferdinand Marcos",
+  "coord": null,
+  "image": "Corazon Aquino inauguration.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1986,
+   "date": "1986-02-22",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1986,
+   "date": "1986-02-25",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3827292",
+   "Q61671409",
+   "Q751967"
+  ],
+  "wiki": {
+   "en": "People Power Revolution",
+   "zh": "人民力量革命 (1986年)"
+  },
+  "locationQid": null
+ },
+ "Q130754": {
+  "label": {
+   "en": "2004 Indian Ocean earthquake",
+   "zh": "2004年印度洋大地震"
+  },
+  "description": "megathrust underwater earthquake and subsequent tsunami in the Indian Ocean",
+  "coord": {
+   "lat": 3.295,
+   "lon": 95.982
+  },
+  "image": "2004-tsunami.jpg",
+  "pointInTime": {
+   "year": 2004,
+   "date": "2004-12-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944",
+   "Q8070",
+   "Q8065",
+   "Q3839081"
+  ],
+  "wiki": {
+   "en": "2004 Indian Ocean earthquake and tsunami",
+   "zh": "2004年印度洋大地震"
+  }
+ },
+ "Q1369379": {
+  "label": {
+   "en": "Battle of Bạch Đằng",
+   "zh": "白藤江之战"
+  },
+  "description": "1288 middle ages battle",
+  "coord": {
+   "lat": 20.937,
+   "lon": 106.629
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1288,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Bạch Đằng (1288)",
+   "zh": "白藤江之战 (1288年)"
+  }
+ },
+ "Q1373764": {
+  "label": {
+   "en": "Kartini",
+   "zh": "卡蒂妮"
+  },
+  "description": "Indonesian heroine, feminist (1879–1904)",
+  "coord": null,
+  "image": "COLLECTIE TROPENMUSEUM Portret van Raden Ajeng Kartini TMnr 10018776.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1879,
+   "date": "1879-04-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1904,
+   "date": "1904-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kartini",
+   "zh": "卡蒂妮"
+  },
+  "locationQid": null
+ },
+ "Q1395046": {
+  "label": {
+   "en": "Hsinbyushin",
+   "zh": "辛标信"
+  },
+  "description": "Burmese king",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1736,
+   "date": "1736-09-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1776,
+   "date": "1776-07-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hsinbyushin",
+   "zh": "辛標信"
+  },
+  "locationQid": null
+ },
+ "Q1461": {
+  "label": {
+   "en": "Manila",
+   "zh": "马尼拉"
+  },
+  "description": "capital city of the Philippines",
+  "coord": {
+   "lat": 14.5958,
+   "lon": 120.9772
+  },
+  "image": "Big Manila.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1571,
+   "date": "1571-06-24",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q29946056",
+   "Q108178728",
+   "Q1549591",
+   "Q174844",
+   "Q200250"
+  ],
+  "wiki": {
+   "en": "Manila",
+   "zh": "马尼拉"
+  }
+ },
+ "Q1500": {
+  "label": {
+   "en": "José Rizal",
+   "zh": "黎剎"
+  },
+  "description": "Filipino nationalist, writer and polymath (1861–1896)",
+  "coord": null,
+  "image": "Jose Rizal full.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1861,
+   "date": "1861-06-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1896,
+   "date": "1896-12-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Rizal",
+   "zh": "黎剎"
+  },
+  "locationQid": null
+ },
+ "Q158861": {
+  "label": {
+   "en": "Chulalongkorn",
+   "zh": "拉玛五世"
+  },
+  "description": "King of Siam (1853-1910)",
+  "coord": null,
+  "image": "Chulalongkorn LoC.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1853,
+   "date": "1853-09-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1910,
+   "date": "1910-10-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chulalongkorn",
+   "zh": "拉玛五世"
+  },
+  "locationQid": null
+ },
+ "Q163607": {
+  "label": {
+   "en": "Angkor",
+   "zh": "吴哥古迹"
+  },
+  "description": "former capital city; region of Cambodia",
+  "coord": {
+   "lat": 13.4333,
+   "lon": 103.8333
+  },
+  "image": "Angkor Wat W-Seite.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q15661340",
+   "Q109607",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Angkor",
+   "zh": "吴哥古迹"
+  }
+ },
+ "Q1661772": {
+  "label": {
+   "en": "Proclamation of Indonesian Independence",
+   "zh": "印度尼西亞獨立日"
+  },
+  "description": "1945 document declaring Indonesian independence from the Netherlands",
+  "coord": null,
+  "image": "Indonesia declaration of independence 17 August 1945.jpg",
+  "pointInTime": {
+   "year": 1945,
+   "date": "1945-08-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916",
+   "Q3771738"
+  ],
+  "wiki": {
+   "en": "Proclamation of Indonesian Independence",
+   "zh": "印度尼西亞獨立宣言"
+  },
+  "locationQid": "Q12522490"
+ },
+ "Q1771050": {
+  "label": {
+   "en": "Lê Thánh Tông",
+   "zh": "黎圣宗"
+  },
+  "description": "emperor of Đại Việt (1442-1497) (r. 1460-1497)",
+  "coord": null,
+  "image": "Lê Thánh Tông.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1442,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1497,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lê Thánh Tông",
+   "zh": "黎聖宗"
+  },
+  "locationQid": null
+ },
+ "Q1771129": {
+  "label": {
+   "en": "Sultan Agung of Mataram",
+   "zh": "Agung蘇丹"
+  },
+  "description": "Sultan of Mataram (1593-1645)",
+  "coord": null,
+  "image": "Anyakrakusuma of Mataram.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1593,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1645,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sultan Agung of Mataram",
+   "zh": "苏丹·阿贡"
+  },
+  "locationQid": null
+ },
+ "Q1848807": {
+  "label": {
+   "en": "Lam Sơn uprising",
+   "zh": "蓝山起义"
+  },
+  "description": "rebellion against Ming rule in northern Vietnam (1418-28)",
+  "coord": null,
+  "image": "Khoi nghia lam son 500 01 (1) (Copy).jpg",
+  "pointInTime": {
+   "year": 1418,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1418,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1427,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Lam Sơn uprising",
+   "zh": "蓝山起义"
+  },
+  "locationQid": "Q2591393"
+ },
+ "Q1850": {
+  "label": {
+   "en": "Phnom Penh",
+   "zh": "金边"
+  },
+  "description": "capital of Cambodia",
+  "coord": {
+   "lat": 11.5696,
+   "lon": 104.921
+  },
+  "image": "Phnom Penh aerial.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1372,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q14846916",
+   "Q1549591",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Phnom Penh",
+   "zh": "金边"
+  }
+ },
+ "Q1854": {
+  "label": {
+   "en": "Ho Chi Minh City",
+   "zh": "胡志明市"
+  },
+  "description": "largest city in Vietnam",
+  "coord": {
+   "lat": 10.7756,
+   "lon": 106.7019
+  },
+  "image": "Ho Chi Minh City Skyline.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1976,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1381899",
+   "Q1549591",
+   "Q174844",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Ho Chi Minh City",
+   "zh": "胡志明市"
+  }
+ },
+ "Q1858": {
+  "label": {
+   "en": "Hanoi",
+   "zh": "河内"
+  },
+  "description": "capital of Vietnam",
+  "coord": {
+   "lat": 21.0245,
+   "lon": 105.8412
+  },
+  "image": "Tháp Rùa - NKS.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1010,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1381899",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Hanoi",
+   "zh": "河內市"
+  }
+ },
+ "Q1861": {
+  "label": {
+   "en": "Bangkok",
+   "zh": "曼谷"
+  },
+  "description": "capital of Thailand",
+  "coord": {
+   "lat": 13.75,
+   "lon": 100.5167
+  },
+  "image": "Temple of the Emerald of buddha or Wat Phra Kaew (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1782,
+   "date": "1782-04-21",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q15634695",
+   "Q10864048",
+   "Q1549591",
+   "Q174844",
+   "Q51929311",
+   "Q108178728",
+   "Q1066984"
+  ],
+  "wiki": {
+   "en": "Bangkok",
+   "zh": "曼谷"
+  }
+ },
+ "Q1923816": {
+  "label": {
+   "en": "Po Binasuor",
+   "zh": "制蓬峨"
+  },
+  "description": "king of Champa",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1350,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1390,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Po Binasuor",
+   "zh": "制蓬峩"
+  },
+  "locationQid": null
+ },
+ "Q1925172": {
+  "label": {
+   "en": "Declaration of Independence of the Democratic Republic of Vietnam",
+   "zh": "越南独立宣言"
+  },
+  "description": "September 1945 declaration of independence",
+  "coord": null,
+  "image": "Bản Tuyên ngôn độc lập của nước Việt Nam Dân chủ Cộng hòa. - Trung tâm Lưu trữ quốc gia III. Phông Phủ Thủ tướng, hồ sơ 586, tờ số 1 – 3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916"
+  ],
+  "wiki": {
+   "en": "Declaration of independence of the Democratic Republic of Vietnam",
+   "zh": "越南獨立宣言"
+  },
+  "locationQid": null
+ },
+ "Q201705": {
+  "label": {
+   "en": "Khmer Empire",
+   "zh": "高棉帝国"
+  },
+  "description": "802–1431 empire in Southeast Asia",
+  "coord": {
+   "lat": 13.4333,
+   "lon": 103.8333
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 802,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1431,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Khmer Empire",
+   "zh": "高棉帝国"
+  }
+ },
+ "Q2045508": {
+  "label": {
+   "en": "Java War of 1825-1830",
+   "zh": "爪哇战争"
+  },
+  "description": "Dutch colonial war",
+  "coord": null,
+  "image": "Nicolaas Pieneman - The Submission of Prince Dipo Negoro to General De Kock.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1825,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1830,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Java War",
+   "zh": "蒂博尼哥罗起义"
+  },
+  "locationQid": null
+ },
+ "Q2091449": {
+  "label": {
+   "en": "Battle of Six Seven",
+   "zh": "麥克坦島戰役"
+  },
+  "description": "1521 first native resistance against the Spanish colonisation in the Philippines",
+  "coord": {
+   "lat": 10.3106,
+   "lon": 124.0151
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1521,
+   "date": "1521-04-27",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Mactan",
+   "zh": "麥克坦島戰役"
+  }
+ },
+ "Q210417": {
+  "label": {
+   "en": "Gia Long",
+   "zh": "嘉隆帝"
+  },
+  "description": "founder and 1st emperor of the Nguyễn dynasty of Vietnam (r. 1802-04)",
+  "coord": null,
+  "image": "Emperor Gia Long.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1762,
+   "date": "1762-02-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1820,
+   "date": "1820-02-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gia Long",
+   "zh": "阮福映"
+  },
+  "locationQid": null
+ },
+ "Q2120252": {
+  "label": {
+   "en": "Siamese revolution of 1932",
+   "zh": "不流血宪政革命"
+  },
+  "description": "1932 overthrow of Thai King Prajadhipok; constitutional monarchy established",
+  "coord": null,
+  "image": "Manifesto Speech of Siamese Revolution of 1932.png",
+  "pointInTime": {
+   "year": 1932,
+   "date": "1932-06-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382",
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Siamese revolution of 1932",
+   "zh": "暹羅立憲革命"
+  },
+  "locationQid": null
+ },
+ "Q2132910": {
+  "label": {
+   "en": "Rattanakosin Island",
+   "zh": "拉达那哥欣岛"
+  },
+  "description": "island in Bangkok, Thailand",
+  "coord": {
+   "lat": 13.7492,
+   "lon": 100.4917
+  },
+  "image": "Bangkok GrandPalace from River.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q23442"
+  ],
+  "wiki": {
+   "en": "Rattanakosin Island",
+   "zh": "拉达那哥欣岛"
+  }
+ },
+ "Q216275": {
+  "label": {
+   "en": "Lapulapu",
+   "zh": "拉普拉普"
+  },
+  "description": "ruler of Mactan, Philippines (1491–1542)",
+  "coord": null,
+  "image": "Lapu-Lapu sculpture by Fidel Araneta.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1492,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1542,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lapulapu",
+   "zh": "拉普拉普"
+  },
+  "locationQid": null
+ },
+ "Q216786": {
+  "label": {
+   "en": "Champa",
+   "zh": "占城"
+  },
+  "description": "Civilization, comprised of multiple kingdoms, sometimes unified, sometimes not, in South-East Asia",
+  "coord": {
+   "lat": 14,
+   "lon": 108
+  },
+  "image": "Le Bayon (Angkor Thom) (2334986747).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 192,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1832,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1620908"
+  ],
+  "wiki": {
+   "en": "Champa",
+   "zh": "占婆"
+  }
+ },
+ "Q223771": {
+  "label": {
+   "en": "Bảo Đại",
+   "zh": "保大帝"
+  },
+  "description": "Emperor of Vietnam from 1926 to 1945",
+  "coord": null,
+  "image": "Baodai2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1913,
+   "date": "1913-10-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1997,
+   "date": "1997-07-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bảo Đại",
+   "zh": "保大帝"
+  },
+  "locationQid": null
+ },
+ "Q234197": {
+  "label": {
+   "en": "Srivijaya",
+   "zh": "三佛齐"
+  },
+  "description": "Empire based on the island of Sumatra from 650 to around 1025",
+  "coord": {
+   "lat": 0,
+   "lon": 102
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 650,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1377,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Srivijaya",
+   "zh": "三佛齐"
+  }
+ },
+ "Q2344822": {
+  "label": {
+   "en": "Óc Eo",
+   "zh": "澳盖文化"
+  },
+  "description": "archaeological site in An Giang province, Vietnam",
+  "coord": {
+   "lat": 10.2329,
+   "lon": 105.163
+  },
+  "image": "Ruins of Nam Linh Son archaeological site, Oc Eo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q811430",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Óc Eo",
+   "zh": null
+  }
+ },
+ "Q2448644": {
+  "label": {
+   "en": "Mongol invasions of Vietnam",
+   "zh": "蒙越战争"
+  },
+  "description": "13th-century military campaigns of the Mongol Empire and Yuan-dynasty China in Vietnam",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1258,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1288,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Mongol invasions of Vietnam",
+   "zh": "蒙越戰爭"
+  },
+  "locationQid": "Q430309"
+ },
+ "Q24945556": {
+  "label": {
+   "en": "Siege of Angkor",
+   "zh": null
+  },
+  "description": "1431 fall of the Khmer Empire to the Kingdom of Ayutthaya",
+  "coord": {
+   "lat": 13.4333,
+   "lon": 103.8333
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1431,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q19841484"
+  ],
+  "wiki": {
+   "en": "Fall of Angkor",
+   "zh": null
+  }
+ },
+ "Q25418142": {
+  "label": {
+   "en": "Trung Trac",
+   "zh": "徵側"
+  },
+  "description": "Vietnamese military leader, first queen",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 14,
+   "date": "0014-09-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 43,
+   "date": "0043-03-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Trưng Trắc",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2672432": {
+  "label": {
+   "en": "Mongol invasion of Java",
+   "zh": "元爪战争"
+  },
+  "description": "1293 invasion",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1293,
+   "date": "1293-01-22",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1293,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Mongol invasion of Java",
+   "zh": "元朝和爪哇的战争"
+  },
+  "locationQid": "Q3586"
+ },
+ "Q2885072": {
+  "label": {
+   "en": "Cambodian genocide",
+   "zh": "红色高棉大屠杀"
+  },
+  "description": "genocide of as many as 3,000,000 Cambodians by communist Khmer Rogue in 1975–79",
+  "coord": {
+   "lat": 12.25,
+   "lon": 105.6
+  },
+  "image": "Skulls from the killing fields.jpg",
+  "pointInTime": {
+   "year": 1970,
+   "date": null,
+   "precision": 8,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1975,
+   "date": "1975-04-17",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1979,
+   "date": "1979-01-07",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q750215",
+   "Q786766"
+  ],
+  "wiki": {
+   "en": "Cambodian genocide",
+   "zh": "红色高棉大屠杀"
+  }
+ },
+ "Q2890760": {
+  "label": {
+   "en": "Battle of Bach Dang River",
+   "zh": "白藤江之战 (938年)"
+  },
+  "description": "naval battle between Tĩnh Hải quân and Southern Han on the Bạch Đằng River",
+  "coord": {
+   "lat": 20.8442,
+   "lon": 106.6317
+  },
+  "image": "Ngô Quyền đại phá quân Nam Hán trên sông Bạch Đằng.jpg",
+  "pointInTime": {
+   "year": 938,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Bạch Đằng (938)",
+   "zh": "白藤江之战 (938年)"
+  }
+ },
+ "Q29085": {
+  "label": {
+   "en": "Hayam Wuruk",
+   "zh": "哈亞·烏魯克"
+  },
+  "description": "Javanese King",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1334,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1389,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hayam Wuruk",
+   "zh": "哈亞·烏魯克"
+  },
+  "locationQid": null
+ },
+ "Q29317": {
+  "label": {
+   "en": "Bagan",
+   "zh": "蒲甘"
+  },
+  "description": "ancient city in Myanmar",
+  "coord": {
+   "lat": 21.1725,
+   "lon": 94.86
+  },
+  "image": "Old Bagan, Myanmar, Bagan plains at sunset.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 200,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7830262",
+   "Q839954",
+   "Q15661340"
+  ],
+  "wiki": {
+   "en": "Bagan",
+   "zh": "蒲甘"
+  }
+ },
+ "Q3042723": {
+  "label": {
+   "en": "ASEAN Declaration",
+   "zh": "东南亚国家联盟宣言"
+  },
+  "description": "Signing of ASEAN in 1967 in Bangkok to accelerate economic growth as its prime objective",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1967,
+   "date": "1967-08-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q727002",
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "ASEAN Declaration",
+   "zh": "东盟宣言"
+  },
+  "locationQid": null
+ },
+ "Q310992": {
+  "label": {
+   "en": "Phutthayotfa Chulalok",
+   "zh": "拉玛一世"
+  },
+  "description": "King of Siam (1737–1809)",
+  "coord": null,
+  "image": "Buddha Yodfa Chulaloke portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1737,
+   "date": "1737-03-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1809,
+   "date": "1809-09-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rama I",
+   "zh": "拉玛一世"
+  },
+  "locationQid": null
+ },
+ "Q3111454": {
+  "label": {
+   "en": "Tran dynasty",
+   "zh": "陳朝"
+  },
+  "description": "Imperial Vietnamese dynasty (1225–1400)",
+  "coord": {
+   "lat": 21.0375,
+   "lon": 105.8386
+  },
+  "image": "TrucLam CongNgoai.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1226,
+   "date": "1226-01-10",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1400,
+   "date": "1400-03-22",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Trần dynasty",
+   "zh": "陳朝 (越南)"
+  }
+ },
+ "Q31191031": {
+  "label": {
+   "en": "1991 eruption of Mount Pinatubo",
+   "zh": "1991年皮納圖博火山噴發"
+  },
+  "description": "volcanic eruption in the Philippines in 1991",
+  "coord": {
+   "lat": 15.1417,
+   "lon": 120.35
+  },
+  "image": "VulcanoPinatuboJune1991.gif",
+  "pointInTime": {
+   "year": 1991,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1991,
+   "date": "1991-04-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1991,
+   "date": "1991-09-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1067217"
+  ],
+  "wiki": {
+   "en": "1991 eruption of Mount Pinatubo",
+   "zh": null
+  }
+ },
+ "Q312849": {
+  "label": {
+   "en": "Mongkut",
+   "zh": "拉玛四世"
+  },
+  "description": "King of Siam from 1851 to 1868",
+  "coord": null,
+  "image": "First King of Siam MET DP-573-001 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1804,
+   "date": "1804-10-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1868,
+   "date": "1868-10-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mongkut",
+   "zh": "拉玛四世"
+  },
+  "locationQid": null
+ },
+ "Q31307": {
+  "label": {
+   "en": "Burmese–Siamese War of 1765–1767",
+   "zh": "緬甸暹羅戰爭"
+  },
+  "description": "conflict between the Burmese Empire and the Thai kingdom of Ayutthaya",
+  "coord": null,
+  "image": "Burmese-Siamese war (1765-1767) map - EN - 001.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1765,
+   "date": "1765-08-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1767,
+   "date": "1767-04-07",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Burmese–Siamese War (1765–1767)",
+   "zh": "暹緬戰爭 (1765年–1767年)"
+  },
+  "locationQid": "Q843954"
+ },
+ "Q313124": {
+  "label": {
+   "en": "Prajadhipok",
+   "zh": "拉玛七世"
+  },
+  "description": "King of Siam",
+  "coord": null,
+  "image": "King Prajadhipok portrait photograph.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1893,
+   "date": "1893-11-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1941,
+   "date": "1941-05-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Prajadhipok",
+   "zh": "拉玛七世"
+  },
+  "locationQid": null
+ },
+ "Q313298": {
+  "label": {
+   "en": "Suryavarman II",
+   "zh": "苏利耶跋摩二世"
+  },
+  "description": "Cambodian king (1094-1150)",
+  "coord": null,
+  "image": "SuryavarmanII01.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1094,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1150,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Suryavarman II",
+   "zh": "蘇利耶跋摩二世"
+  },
+  "locationQid": null
+ },
+ "Q3182709": {
+  "label": {
+   "en": "Narapatisithu",
+   "zh": "拿那拔地薛胡"
+  },
+  "description": "King of Burma",
+  "coord": null,
+  "image": "Gawdawpalin Temple Bagan Myanmar.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1138,
+   "date": "1138-08-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1211,
+   "date": "1211-08-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Narapatisithu",
+   "zh": "那腊勃底西都"
+  },
+  "locationQid": null
+ },
+ "Q3182715": {
+  "label": {
+   "en": "Nanda Bayin",
+   "zh": "莽应里"
+  },
+  "description": "King of Burma",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1535,
+   "date": "1535-11-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1600,
+   "date": "1600-11-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nanda Bayin",
+   "zh": "南达勃因"
+  },
+  "locationQid": null
+ },
+ "Q3244637": {
+  "label": {
+   "en": "Mahmud Shah",
+   "zh": "苏丹马末沙"
+  },
+  "description": "8th Sultan of Malacca",
+  "coord": null,
+  "image": "Mahmud Shah of Malacca.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1400,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1528,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mahmud Shah of Malacca",
+   "zh": "苏丹马末沙"
+  },
+  "locationQid": null
+ },
+ "Q335273": {
+  "label": {
+   "en": "Jayavarman VII",
+   "zh": "阇耶跋摩七世"
+  },
+  "description": "Cambodian king, considered by historians to be the most powerful Khmer monarch of all time",
+  "coord": null,
+  "image": "JayavarmanVII.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1122,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1218,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jayavarman VII",
+   "zh": "阇耶跋摩七世"
+  },
+  "locationQid": null
+ },
+ "Q3363540": {
+  "label": {
+   "en": "Parameswara",
+   "zh": "拜里米苏拉"
+  },
+  "description": "The first king who established the state of Malacca",
+  "coord": null,
+  "image": "Retrato de Parameswara.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1344,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1414,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Parameswara of Malacca",
+   "zh": "拜里米苏拉"
+  },
+  "locationQid": null
+ },
+ "Q349249": {
+  "label": {
+   "en": "Ram Khamhaeng",
+   "zh": "兰甘亨"
+  },
+  "description": "ruler of Sukhothai",
+  "coord": null,
+  "image": "Ramkhamhaeng the Great.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1239,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1298,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ramkhamhaeng",
+   "zh": "兰甘亨"
+  },
+  "locationQid": null
+ },
+ "Q3539853": {
+  "label": {
+   "en": "Battle of Ngọc Hồi–Đống Đa",
+   "zh": "清越战争"
+  },
+  "description": "battle between Qing-dynasty China and Tây Sơn-dynasty Vietnam (1788-89)",
+  "coord": null,
+  "image": "Battle at the River Tho-xuong.jpg",
+  "pointInTime": {
+   "year": 1788,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Ngọc Hồi-Đống Đa",
+   "zh": "清軍入越戰爭"
+  },
+  "locationQid": "Q10800616"
+ },
+ "Q3591483": {
+  "label": {
+   "en": "1815 eruption of Mount Tambora",
+   "zh": "1815年坦博拉火山爆发"
+  },
+  "description": "catastrophic volcanic eruption in present-day Indonesia",
+  "coord": {
+   "lat": -8.25,
+   "lon": 118
+  },
+  "image": "1815 tambora explosion B.png",
+  "pointInTime": {
+   "year": 1815,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1813,
+   "date": "1813-04-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1815,
+   "date": "1815-07-15",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1075339"
+  ],
+  "wiki": {
+   "en": "1815 eruption of Mount Tambora",
+   "zh": "1815年坦博拉火山爆发"
+  }
+ },
+ "Q36014": {
+  "label": {
+   "en": "Ho Chi Minh",
+   "zh": "胡志明"
+  },
+  "description": "Vietnamese communist leader, founder of North Vietnam (1890–1969)",
+  "coord": null,
+  "image": "Ho Chi Minh 1946.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1890,
+   "date": "1890-05-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1969,
+   "date": "1969-09-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ho Chi Minh",
+   "zh": "胡志明"
+  },
+  "locationQid": null
+ },
+ "Q3630": {
+  "label": {
+   "en": "Jakarta",
+   "zh": "雅加达"
+  },
+  "description": "capital and largest city of Indonesia",
+  "coord": {
+   "lat": -6.1753,
+   "lon": 106.8269
+  },
+  "image": "Jakarta.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1527,
+   "date": "1527-06-22",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5098",
+   "Q208511",
+   "Q200250",
+   "Q174844",
+   "Q51929311",
+   "Q108178728",
+   "Q17320423"
+  ],
+  "wiki": {
+   "en": "Jakarta",
+   "zh": "雅加达"
+  }
+ },
+ "Q3631722": {
+  "label": {
+   "en": "Tribhuwana Wijayatunggadewi",
+   "zh": "俀布胡瓦纳·维佳雅敦卡德威"
+  },
+  "description": "Javanese third monarch of Majapahit empire",
+  "coord": null,
+  "image": "Parvati Majapahit 1.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1309,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1350,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tribhuwana Wijayatunggadewi",
+   "zh": "特里布婆那·毗阇耶顿迦提毗"
+  },
+  "locationQid": null
+ },
+ "Q379239": {
+  "label": {
+   "en": "Jayavaraman II",
+   "zh": "阇耶跋摩二世"
+  },
+  "description": "9th-century king of Cambodia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 800,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 900,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jayavarman II",
+   "zh": "阇耶跋摩二世"
+  },
+  "locationQid": null
+ },
+ "Q37995": {
+  "label": {
+   "en": "Yangon",
+   "zh": "仰光"
+  },
+  "description": "former capital of Myanmar (Burma) and the current capital of Yangon Region",
+  "coord": {
+   "lat": 16.795,
+   "lon": 96.16
+  },
+  "image": "2016 Rangun, Dawny budynek Sądu Najwyższego (15).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1035,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q51929311",
+   "Q11271835",
+   "Q134587884"
+  ],
+  "wiki": {
+   "en": "Yangon",
+   "zh": "仰光"
+  }
+ },
+ "Q402145": {
+  "label": {
+   "en": "Mataram Sultanate",
+   "zh": "马打兰国"
+  },
+  "description": "former sovereign state in Java",
+  "coord": {
+   "lat": -7.8014,
+   "lon": 110.3644
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1586,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1755,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Mataram Sultanate",
+   "zh": "马打兰苏丹国"
+  }
+ },
+ "Q4110453": {
+  "label": {
+   "en": "Capture of Malacca",
+   "zh": "葡萄牙-马六甲战役"
+  },
+  "description": "1511 Portuguese military conquest",
+  "coord": {
+   "lat": 2.2057,
+   "lon": 102.256
+  },
+  "image": "Conquista de Malaca, estudo - Ernesto Condeixa (cropped).png",
+  "pointInTime": null,
+  "start": {
+   "year": 1511,
+   "date": "1511-07-25",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1511,
+   "date": "1511-08-15",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Capture of Malacca (1511)",
+   "zh": "马六甲围城战 (1511年)"
+  }
+ },
+ "Q4199265": {
+  "label": {
+   "en": "Balaputra",
+   "zh": null
+  },
+  "description": "Indonesian maharaja",
+  "coord": null,
+  "image": "Balaputradewa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Balaputra",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q422082": {
+  "label": {
+   "en": "Philippine Revolution",
+   "zh": "菲律宾革命"
+  },
+  "description": "1896–1898 conflict against Spanish colonial authorities",
+  "coord": null,
+  "image": "UltimosFilipinas.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1896,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1898,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931",
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Philippine Revolution",
+   "zh": "菲律宾革命"
+  },
+  "locationQid": "Q928"
+ },
+ "Q4260059": {
+  "label": {
+   "en": "Muzaffar Shah of Malacca",
+   "zh": "蘇丹慕扎法沙"
+  },
+  "description": "5th Sultan of Malacca",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1459,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muzaffar Shah of Malacca",
+   "zh": "蘇丹慕扎法沙"
+  },
+  "locationQid": null
+ },
+ "Q42798": {
+  "label": {
+   "en": "Borobudur Temple",
+   "zh": "婆羅浮屠"
+  },
+  "description": "Buddhist temple in Java, Indonesia",
+  "coord": {
+   "lat": -7.6079,
+   "lon": 110.2038
+  },
+  "image": "Borobudur-Nothwest-view.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 800,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5393308",
+   "Q839954",
+   "Q2736554"
+  ],
+  "wiki": {
+   "en": "Borobudur",
+   "zh": "婆羅浮屠"
+  }
+ },
+ "Q434419": {
+  "label": {
+   "en": "Minh Mạng",
+   "zh": "明命帝"
+  },
+  "description": "Vietnamese emperor (1791–1841)",
+  "coord": null,
+  "image": "Emperor Minh Mang.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1791,
+   "date": "1791-05-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1841,
+   "date": "1841-01-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Minh Mạng",
+   "zh": "明命帝"
+  },
+  "locationQid": null
+ },
+ "Q43473": {
+  "label": {
+   "en": "Angkor Wat",
+   "zh": "吴哥窟"
+  },
+  "description": "Hindu-Buddhist temple complex in Cambodia",
+  "coord": {
+   "lat": 13.4125,
+   "lon": 103.8667
+  },
+  "image": "Angkor wat temple.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1200,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5393308",
+   "Q839954",
+   "Q58621988",
+   "Q842402"
+  ],
+  "wiki": {
+   "en": "Angkor Wat",
+   "zh": "吴哥窟"
+  }
+ },
+ "Q4460644": {
+  "label": {
+   "en": "Han suppression of the Trung sisters' rebellion",
+   "zh": "马援征岭南之战"
+  },
+  "description": "Vietnamese rebellion against Chinese rule (AD 40-43)",
+  "coord": null,
+  "image": "伏波山.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Trưng sisters' rebellion",
+   "zh": "马援征岭南之战"
+  },
+  "locationQid": "Q2591393"
+ },
+ "Q45241": {
+  "label": {
+   "en": "Anawrahta",
+   "zh": "阿努律陀"
+  },
+  "description": "founder of the Pagan Empire",
+  "coord": null,
+  "image": "Pyinoolwin -- DSA Anawrahta.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1014,
+   "date": "1014-05-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1077,
+   "date": "1077-04-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anawrahta",
+   "zh": "阿奴律陀"
+  },
+  "locationQid": null
+ },
+ "Q46652": {
+  "label": {
+   "en": "Malacca sultanate",
+   "zh": "马六甲苏丹王朝"
+  },
+  "description": "1400–1511 state on the Malay Peninsula",
+  "coord": {
+   "lat": 2.1889,
+   "lon": 102.3844
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1400,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1511,
+   "date": "1511-08-15",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q12759805"
+  ],
+  "wiki": {
+   "en": "Malacca Sultanate",
+   "zh": "马六甲苏丹国"
+  }
+ },
+ "Q466976": {
+  "label": {
+   "en": "Tự Đức",
+   "zh": "嗣德帝"
+  },
+  "description": "Vietnamese emperor (1829–1883)",
+  "coord": null,
+  "image": "Vua Tu Duc.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1829,
+   "date": "1829-09-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1883,
+   "date": "1883-07-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tự Đức",
+   "zh": "嗣德帝"
+  },
+  "locationQid": null
+ },
+ "Q470978": {
+  "label": {
+   "en": "Alaungpaya",
+   "zh": "雍笈牙"
+  },
+  "description": "King of Burma",
+  "coord": null,
+  "image": "Pyinoolwin -- DSA Alaungpaya.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1714,
+   "date": "1714-09-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1760,
+   "date": "1760-05-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alaungpaya",
+   "zh": "雍笈牙"
+  },
+  "locationQid": null
+ },
+ "Q470984": {
+  "label": {
+   "en": "Bayinnaung",
+   "zh": "莽应龙"
+  },
+  "description": "King of Burma",
+  "coord": null,
+  "image": "Pyinoolwin -- DSA Bayinnaung.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1516,
+   "date": "1516-01-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1581,
+   "date": "1581-11-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bayinnaung",
+   "zh": "勃印曩"
+  },
+  "locationQid": null
+ },
+ "Q470986": {
+  "label": {
+   "en": "Thibaw Min",
+   "zh": "锡袍"
+  },
+  "description": "Last king of Burma (1859–1916)",
+  "coord": null,
+  "image": "Thibaw Min.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1859,
+   "date": "1859-01-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1916,
+   "date": "1916-12-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Thibaw Min",
+   "zh": "錫袍"
+  },
+  "locationQid": null
+ },
+ "Q47721": {
+  "label": {
+   "en": "Prambanan Temple",
+   "zh": "巴兰班南"
+  },
+  "description": "Hindu temple in Yogyakarta and Central Java, Indonesia",
+  "coord": {
+   "lat": -7.752,
+   "lon": 110.4912
+  },
+  "image": "Prambanan Complex 1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 850,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q134456340",
+   "Q2736554",
+   "Q842402"
+  ],
+  "wiki": {
+   "en": "Prambanan",
+   "zh": "普兰巴南"
+  }
+ },
+ "Q482402": {
+  "label": {
+   "en": "Gulf of Tonkin incident",
+   "zh": "北部湾事件"
+  },
+  "description": "1964 naval confrontation between North Vietnam and the United States",
+  "coord": {
+   "lat": 19.7833,
+   "lon": 106.5183
+  },
+  "image": "USS Maddox (DD-731) underway at sea, circa the early 1960s (NH 97900).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1964,
+   "date": "1964-08-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1964,
+   "date": "1964-08-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1261499"
+  ],
+  "wiki": {
+   "en": "Gulf of Tonkin incident",
+   "zh": "北部湾事件"
+  }
+ },
+ "Q482456": {
+  "label": {
+   "en": "Fall of Saigon",
+   "zh": "430事件"
+  },
+  "description": "1975 capture of Saigon by the People’s Army of Vietnam and the National Liberation Front of South Vietnam",
+  "coord": {
+   "lat": 10.7781,
+   "lon": 106.6961
+  },
+  "image": "HCMCampaign.svg",
+  "pointInTime": {
+   "year": 1975,
+   "date": "1975-04-30",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Fall of Saigon",
+   "zh": "四三〇事件"
+  }
+ },
+ "Q488485": {
+  "label": {
+   "en": "Anaukpetlun",
+   "zh": "阿那毕隆"
+  },
+  "description": "Burmese king",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1578,
+   "date": "1578-01-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1628,
+   "date": "1628-07-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anaukpetlun",
+   "zh": "阿那毕隆"
+  },
+  "locationQid": null
+ },
+ "Q49326": {
+  "label": {
+   "en": "Majapahit",
+   "zh": "满者伯夷"
+  },
+  "description": "Empire of Javanese, based in Majakarta (Mojokerto)",
+  "coord": {
+   "lat": -7.7,
+   "lon": 112.5
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1293,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1527,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Majapahit",
+   "zh": "满者伯夷"
+  }
+ },
+ "Q49329": {
+  "label": {
+   "en": "Gajah Mada",
+   "zh": "加查·马达"
+  },
+  "description": "prime minister of the Majapahit Empire (1290-1364)",
+  "coord": null,
+  "image": "Gajah-Mada.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1290,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1364,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gajah Mada",
+   "zh": "加查·馬達"
+  },
+  "locationQid": null
+ },
+ "Q49334": {
+  "label": {
+   "en": "Raden Wijaya",
+   "zh": "罗登·韦查耶"
+  },
+  "description": "Raden Wijaya was a Javanese King, the founder and the first monarch of Majapahit empire",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1250,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1309,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Raden Wijaya",
+   "zh": "罗登·韦查耶"
+  },
+  "locationQid": null
+ },
+ "Q49335": {
+  "label": {
+   "en": "Nagarakretagama",
+   "zh": "那加克塔加瑪"
+  },
+  "description": "Old Javanese eulogy",
+  "coord": {
+   "lat": -6.1726,
+   "lon": 106.8215
+  },
+  "image": "Nagarakertagama.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1365,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1641020"
+  ],
+  "wiki": {
+   "en": "Nagarakretagama",
+   "zh": "爪哇史頌"
+  }
+ },
+ "Q501356": {
+  "label": {
+   "en": "Suryavarman I",
+   "zh": "苏利耶跋摩一世"
+  },
+  "description": "Cambodian king",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1000,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1050,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Suryavarman I",
+   "zh": "蘇利耶跋摩一世"
+  },
+  "locationQid": null
+ },
+ "Q5102689": {
+  "label": {
+   "en": "Edict on the Transfer of the Capital",
+   "zh": "遷都詔"
+  },
+  "description": "edict issued on the Fall of 1010 to transfer the capital of Đại Cồ Việt from Hoa Lư to Đại La.",
+  "coord": null,
+  "image": "遷都詔.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1010,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1284645"
+  ],
+  "wiki": {
+   "en": "Edict on the Transfer of the Capital",
+   "zh": "遷都詔"
+  },
+  "locationQid": null
+ },
+ "Q511375": {
+  "label": {
+   "en": "Trần Hưng Đạo",
+   "zh": "陈兴道"
+  },
+  "description": "Vietnamese prince, military general of Trần dynasty",
+  "coord": null,
+  "image": "Tran Hung Dao - Nha Trang - 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1228,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1300,
+   "date": "1300-10-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Trần Hưng Đạo",
+   "zh": "陳興道"
+  },
+  "locationQid": null
+ },
+ "Q515704": {
+  "label": {
+   "en": "Naresuan",
+   "zh": "纳黎萱"
+  },
+  "description": "King of Ayutthaya",
+  "coord": null,
+  "image": "KingNU.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1555,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1605,
+   "date": "1605-04-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Naresuan",
+   "zh": "纳黎萱"
+  },
+  "locationQid": null
+ },
+ "Q519718": {
+  "label": {
+   "en": "Taungoo dynasty",
+   "zh": "東吁王朝"
+  },
+  "description": "ruling dynasty of Burma (Myanmar) from the mid-16th century to 1752",
+  "coord": {
+   "lat": 18.9333,
+   "lon": 96.4333
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1485,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1752,
+   "date": "1752-03-23",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240",
+   "Q1250464"
+  ],
+  "wiki": {
+   "en": "Toungoo dynasty",
+   "zh": "東吁王朝"
+  }
+ },
+ "Q5433550": {
+  "label": {
+   "en": "Bhadravarman I",
+   "zh": "范胡达"
+  },
+  "description": "King of Lâm Ấp",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 350,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 420,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bhadravarman I",
+   "zh": "范胡达"
+  },
+  "locationQid": null
+ },
+ "Q559810": {
+  "label": {
+   "en": "Yasovarman I",
+   "zh": "耶输跋摩一世"
+  },
+  "description": "Angkorian King",
+  "coord": null,
+  "image": "PSM V30 D337 Statue of the leprous king founder of angkor wat.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 900,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 910,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yasovarman I",
+   "zh": "耶输跋摩一世"
+  },
+  "locationQid": null
+ },
+ "Q562153": {
+  "label": {
+   "en": "Indravarman I",
+   "zh": "因陀罗跋摩一世"
+  },
+  "description": "Emperor of Angkor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 900,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 890,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Indravarman I",
+   "zh": "因陀罗跋摩一世"
+  },
+  "locationQid": null
+ },
+ "Q574358": {
+  "label": {
+   "en": "Mindon Min",
+   "zh": "敏东"
+  },
+  "description": "King of Burma (1808–1878)",
+  "coord": null,
+  "image": "-Mindon Min-2.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1808,
+   "date": "1808-07-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1878,
+   "date": "1878-10-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mindon Min",
+   "zh": "敏東"
+  },
+  "locationQid": null
+ },
+ "Q604897": {
+  "label": {
+   "en": "Battle of Dien Bien Phu",
+   "zh": "奠邊府戰役"
+  },
+  "description": "The decisive battle of the First Indochina War",
+  "coord": {
+   "lat": 21.3869,
+   "lon": 103.0156
+  },
+  "image": "Victory in Battle of Dien Bien Phu.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1954,
+   "date": "1954-03-13",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1954,
+   "date": "1954-05-07",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Dien Bien Phu",
+   "zh": "奠邊府戰役"
+  }
+ },
+ "Q61089": {
+  "label": {
+   "en": "Malacca",
+   "zh": "马六甲市"
+  },
+  "description": "state capital of Malacca, Malaysia",
+  "coord": {
+   "lat": 2.1889,
+   "lon": 102.2511
+  },
+  "image": "2016 Malakka, Plac Holenderski (04).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1396,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q56061",
+   "Q34986717"
+  ],
+  "wiki": {
+   "en": "Malacca City",
+   "zh": "马六甲市"
+  }
+ },
+ "Q6382635": {
+  "label": {
+   "en": "Kedukan Bukit inscription",
+   "zh": "格度干武吉碑"
+  },
+  "description": "stone inscription in Indonesia",
+  "coord": null,
+  "image": "Prasasti Kedukan Bukit 3.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 683,
+   "date": "0683-05-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178743"
+  ],
+  "wiki": {
+   "en": "Kedukan Bukit inscription",
+   "zh": "格度干武吉碑"
+  },
+  "locationQid": "Q1467125"
+ },
+ "Q6500483": {
+  "label": {
+   "en": "Nguyen dynasty",
+   "zh": "阮朝"
+  },
+  "description": "imperial Vietnamese dynasty, 1802-1945",
+  "coord": {
+   "lat": 16,
+   "lon": 108
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1802,
+   "date": "1802-06-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1945,
+   "date": "1945-08-30",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q19953632",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Nguyễn dynasty",
+   "zh": "阮朝"
+  }
+ },
+ "Q654024": {
+  "label": {
+   "en": "Bayon",
+   "zh": "拜翁"
+  },
+  "description": "Khmer temple in Cambodia",
+  "coord": {
+   "lat": 13.4413,
+   "lon": 103.8587
+  },
+  "image": "Trusty Tuk Tuk .jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q44539",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Bayon",
+   "zh": "巴戎寺"
+  }
+ },
+ "Q683846": {
+  "label": {
+   "en": "Manila galleon",
+   "zh": "马尼拉邮船"
+  },
+  "description": "Royal Spanish trading ships, 1565–1815",
+  "coord": null,
+  "image": "16th century Portuguese Spanish trade routes.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1565,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1815,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1757209"
+  ],
+  "wiki": {
+   "en": "Manila galleon",
+   "zh": "马尼拉大帆船"
+  },
+  "locationQid": null
+ },
+ "Q68398": {
+  "label": {
+   "en": "Lý Thánh Tông",
+   "zh": "李聖宗"
+  },
+  "description": "Vietnamese Emperor",
+  "coord": null,
+  "image": "Lý Thánh Tông.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1023,
+   "date": "1023-03-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1072,
+   "date": "1072-02-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lý Thánh Tông",
+   "zh": "李聖宗"
+  },
+  "locationQid": null
+ },
+ "Q699904": {
+  "label": {
+   "en": "Ngo Quyen",
+   "zh": "吴权"
+  },
+  "description": "King of Vietnam",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 897,
+   "date": "0897-03-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 944,
+   "date": "0944-01-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ngô Quyền",
+   "zh": "吳權"
+  },
+  "locationQid": null
+ },
+ "Q705577": {
+  "label": {
+   "en": "Ly Nhan Tong",
+   "zh": "李仁宗"
+  },
+  "description": "Vietnamese emperor",
+  "coord": null,
+  "image": "Lý Nhân Tông.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1066,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1127,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lý Nhân Tông",
+   "zh": "李仁宗"
+  },
+  "locationQid": null
+ },
+ "Q711456": {
+  "label": {
+   "en": "Trần Thánh Tông",
+   "zh": "陈圣宗"
+  },
+  "description": "Emperor of Vietnam",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1240,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1290,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Trần Thánh Tông",
+   "zh": "陳聖宗"
+  },
+  "locationQid": null
+ },
+ "Q713224": {
+  "label": {
+   "en": "Trần Thái Tông",
+   "zh": "陈煚"
+  },
+  "description": "Vietnamese emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1218,
+   "date": "1218-07-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1277,
+   "date": "1277-05-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Trần Thái Tông",
+   "zh": "陳煚"
+  },
+  "locationQid": null
+ },
+ "Q716945": {
+  "label": {
+   "en": "Ly Thai To",
+   "zh": "李公蕴"
+  },
+  "description": "Vietnamese emperor",
+  "coord": null,
+  "image": "Ly Thai To.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 974,
+   "date": "0974-03-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1028,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lý Thái Tổ",
+   "zh": "李公蘊"
+  },
+  "locationQid": null
+ },
+ "Q718191": {
+  "label": {
+   "en": "Uthong",
+   "zh": "拉玛铁菩提"
+  },
+  "description": "King of Ayutthaya, Siam",
+  "coord": null,
+  "image": "พระบรมราชานุสาวรีย์พระเจ้าอู่ทอง อ.พระนครศรีอยุธยา จ.พระนครศรีอยุธยา.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1314,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1369,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Uthong",
+   "zh": "拉玛铁菩提一世"
+  },
+  "locationQid": null
+ },
+ "Q718197": {
+  "label": {
+   "en": "Narai",
+   "zh": "那莱王"
+  },
+  "description": "27th monarch of the Ayutthaya Kingdom (1656-88)",
+  "coord": null,
+  "image": "Narai.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1632,
+   "date": "1632-02-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1688,
+   "date": "1688-07-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Narai",
+   "zh": "那莱王"
+  },
+  "locationQid": null
+ },
+ "Q72083": {
+  "label": {
+   "en": "Trần Nhân Tông",
+   "zh": "陈仁宗"
+  },
+  "description": "3rd emperor of the Trần dynasty and Đại Việt, Zen buddhist, and national hero of Vietnam",
+  "coord": null,
+  "image": "Trần Nhân Tông.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1258,
+   "date": "1258-11-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1308,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Trần Nhân Tông",
+   "zh": "陳仁宗"
+  },
+  "locationQid": null
+ },
+ "Q76127": {
+  "label": {
+   "en": "Sukarno",
+   "zh": "苏加诺"
+  },
+  "description": "1st President of Indonesia (1901—1970)",
+  "coord": null,
+  "image": "Presiden Sukarno.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1901,
+   "date": "1901-06-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1970,
+   "date": "1970-06-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sukarno",
+   "zh": "蘇卡諾"
+  },
+  "locationQid": null
+ },
+ "Q772211": {
+  "label": {
+   "en": null,
+   "zh": "王城區"
+  },
+  "description": "district of Manila, Philippines",
+  "coord": {
+   "lat": 14.5908,
+   "lon": 120.975
+  },
+  "image": "Intramuros.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1571,
+   "date": "1571-06-24",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15634883"
+  ],
+  "wiki": {
+   "en": "Intramuros",
+   "zh": "王城區"
+  }
+ },
+ "Q796571": {
+  "label": {
+   "en": "Bodawpaya",
+   "zh": "波道帕耶"
+  },
+  "description": "1745-1819, sixth king of the Konbaung Dynasty of Burma.",
+  "coord": null,
+  "image": "Statute of king Bodawpaya (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1745,
+   "date": "1745-03-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1819,
+   "date": "1819-06-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bodawpaya",
+   "zh": "波道帕耶"
+  },
+  "locationQid": null
+ },
+ "Q8094772": {
+  "label": {
+   "en": "1883 eruption of Krakatoa",
+   "zh": "1883年喀拉喀托火山的噴發"
+  },
+  "description": "catastrophic volcanic eruption",
+  "coord": {
+   "lat": -6.102,
+   "lon": 105.423
+  },
+  "image": "De uitbarsting van de Krakatau, KITLV 5888.tiff",
+  "pointInTime": {
+   "year": 1883,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1883,
+   "date": "1883-05-20",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1883,
+   "date": "1883-10-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7692360"
+  ],
+  "wiki": {
+   "en": "1883 eruption of Krakatoa",
+   "zh": "1883年喀拉喀托火山爆發"
+  }
+ },
+ "Q82542": {
+  "label": {
+   "en": "Tet Offensive",
+   "zh": "春節攻勢"
+  },
+  "description": "1968 military campaign during the Vietnam War",
+  "coord": {
+   "lat": 11,
+   "lon": 107
+  },
+  "image": "Tet Offensive map.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1968,
+   "date": "1968-01-30",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1968,
+   "date": "1968-09-23",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663",
+   "Q2001676"
+  ],
+  "wiki": {
+   "en": "Tet Offensive",
+   "zh": "新春攻勢"
+  }
+ },
+ "Q841364": {
+  "label": {
+   "en": "Ayutthaya Kingdom",
+   "zh": "大城王国"
+  },
+  "description": "1350–1767 Siamese kingdom in Southeast Asia",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1350,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1767,
+   "date": "1767-04-07",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Ayutthaya Kingdom",
+   "zh": "阿瑜陀耶王国"
+  },
+  "locationQid": null
+ },
+ "Q863279": {
+  "label": {
+   "en": "Sukhothai Kingdom",
+   "zh": "素可泰王国"
+  },
+  "description": "early kingdom in the area around the city Sukhothai, in north central Thailand",
+  "coord": null,
+  "image": "Sukhothai, Wat Traphang Ngoen, Lake, Thailand.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1238,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1438,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Sukhothai Kingdom",
+   "zh": "素可泰王国"
+  },
+  "locationQid": null
+ },
+ "Q867782": {
+  "label": {
+   "en": "Kingdom of Funan",
+   "zh": "扶南"
+  },
+  "description": "ancient kingdom located in southern Southeast Asian centered on the Mekong Delta",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 68,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 550,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Funan",
+   "zh": "扶南"
+  },
+  "locationQid": null
+ },
+ "Q8740": {
+  "label": {
+   "en": "Vietnam War",
+   "zh": "越南戰爭"
+  },
+  "description": "armed conflict in Vietnam, Laos, and Cambodia between North Vietnam and South Vietnam, from 1955 to 1975",
+  "coord": null,
+  "image": "VietnamMural.jpg",
+  "pointInTime": {
+   "year": 1975,
+   "date": "1975-04-30",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1955,
+   "date": "1955-11-01",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1975,
+   "date": "1975-04-30",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q864113"
+  ],
+  "wiki": {
+   "en": "Vietnam War",
+   "zh": "越南战争"
+  },
+  "locationQid": "Q819"
+ },
+ "Q878276": {
+  "label": {
+   "en": "Later Lê dynasty",
+   "zh": "後黎朝"
+  },
+  "description": "former Vietnamese imperial dynasty ruled from 1428 to 1789",
+  "coord": {
+   "lat": 21.0167,
+   "lon": 105.85
+  },
+  "image": "Map of Later Lê dynasty during the reign of Lê Thánh Tông (1460-1497).png",
+  "pointInTime": null,
+  "start": {
+   "year": 1428,
+   "date": "1428-04-29",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1789,
+   "date": "1789-02-03",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Later Lê dynasty early period",
+   "zh": "黎初朝"
+  }
+ },
+ "Q878309": {
+  "label": {
+   "en": "Ly dynasty",
+   "zh": "李朝"
+  },
+  "description": "Vietnam's monarch that ruled from 1009 to 1226.",
+  "coord": null,
+  "image": "Temple in Vietnam 1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1009,
+   "date": "1009-11-22",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1226,
+   "date": "1226-01-09",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Lý dynasty",
+   "zh": "李朝 (越南)"
+  },
+  "locationQid": null
+ },
+ "Q887114": {
+  "label": {
+   "en": "Alaungsithu",
+   "zh": "阿拿翁薛胡"
+  },
+  "description": "King of Pagan Dynasty of Burma (Myanmar) from 1112/1113 to 1168",
+  "coord": null,
+  "image": "That-byin-nyu.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1089,
+   "date": "1089-12-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1167,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alaungsithu",
+   "zh": "阿朗悉都"
+  },
+  "locationQid": null
+ },
+ "Q887132": {
+  "label": {
+   "en": "Kyansittha",
+   "zh": "江喜陀"
+  },
+  "description": "king of Burma",
+  "coord": null,
+  "image": "Omx-Kyansittha name.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1030,
+   "date": "1030-07-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1112,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kyansittha",
+   "zh": "江喜陀"
+  },
+  "locationQid": null
+ },
+ "Q887310": {
+  "label": {
+   "en": "Sri Indraditya",
+   "zh": "室利·膺沙羅鐵"
+  },
+  "description": "Ruler of Sukhothai",
+  "coord": null,
+  "image": "พ่อขุนศรีอินทราทิตย์ วัดคุ้งวารี (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1188,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1270,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Si Inthrathit",
+   "zh": "室利膺陀羅鐵"
+  },
+  "locationQid": null
+ },
+ "Q888574": {
+  "label": {
+   "en": "Pagan kingdom",
+   "zh": "蒲甘王国"
+  },
+  "description": "former country",
+  "coord": {
+   "lat": 21.1722,
+   "lon": 94.8603
+  },
+  "image": "Buddha Statue NGFA.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 849,
+   "date": "0849-12-23",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1297,
+   "date": "1297-12-17",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Pagan Kingdom",
+   "zh": "蒲甘王國"
+  }
+ },
+ "Q889173": {
+  "label": {
+   "en": "Trailokkanat",
+   "zh": "波隆摩·戴莱洛迦纳"
+  },
+  "description": "King of Siam",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1431,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1488,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Borommatrailokkanat",
+   "zh": "波隆摩·戴莱洛迦纳"
+  },
+  "locationQid": null
+ },
+ "Q981475": {
+  "label": {
+   "en": "Tabinshwehti",
+   "zh": "莽瑞体"
+  },
+  "description": "King of Burma",
+  "coord": null,
+  "image": "Tabinshwehti Nat.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1516,
+   "date": "1516-04-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1550,
+   "date": "1550-04-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tabinshwehti",
+   "zh": "德彬瑞梯"
+  },
+  "locationQid": null
+ },
+ "loc:Q10800616": {
+  "coord": {
+   "lat": 20.9178,
+   "lon": 105.8414
+  },
+  "label": {
+   "en": "Ngọc Hồi",
+   "zh": null
+  }
+ },
+ "loc:Q12522490": {
+  "coord": null,
+  "label": {
+   "en": "Monument of Proclamation",
+   "zh": null
+  }
+ },
+ "loc:Q1467125": {
+  "coord": {
+   "lat": -6.1761,
+   "lon": 106.8217
+  },
+  "label": {
+   "en": "National Museum of Indonesia",
+   "zh": "印度尼西亚国家博物馆"
+  }
+ },
+ "loc:Q2591393": {
+  "coord": null,
+  "label": {
+   "en": "Jiaozhi Commandery",
+   "zh": "交趾郡"
+  }
+ },
+ "loc:Q3586": {
+  "coord": {
+   "lat": -7.7,
+   "lon": 112.5
+  },
+  "label": {
+   "en": "East Java",
+   "zh": "东爪哇省"
+  }
+ },
+ "loc:Q430309": {
+  "coord": {
+   "lat": 21.0375,
+   "lon": 105.84
+  },
+  "label": {
+   "en": "Dai Viet",
+   "zh": "大越"
+  }
+ },
+ "loc:Q819": {
+  "coord": {
+   "lat": 18.2,
+   "lon": 104.1
+  },
+  "label": {
+   "en": "Laos",
+   "zh": "老挝"
+  }
+ },
+ "loc:Q843954": {
+  "coord": {
+   "lat": 13,
+   "lon": 98.75
+  },
+  "label": {
+   "en": "Tanintharyi Region",
+   "zh": "德林达依省"
+  }
+ },
+ "loc:Q928": {
+  "coord": {
+   "lat": 12,
+   "lon": 123
+  },
+  "label": {
+   "en": "Philippines",
+   "zh": "菲律宾"
+  }
+ }
+}

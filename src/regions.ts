@@ -18,6 +18,10 @@ export const REGIONS: RegionDef[] = [
   { key: 'south-asia', name: { en: 'South Asia', zh: '南亚' }, lat: 22, lon: 79, altitude: 1.3, accent: '#c0675a', music: { en: 'Tanpura drone & sitar', zh: '坦普拉持续音与西塔琴' } },
   { key: 'east-asia', name: { en: 'East Asia', zh: '东亚' }, lat: 34, lon: 113, altitude: 1.35, accent: '#b5523b', music: { en: 'Pentatonic guzheng', zh: '五声音阶 · 古筝' } },
   { key: 'southeast-asia', name: { en: 'Southeast Asia', zh: '东南亚' }, lat: 9, lon: 109, altitude: 1.4, accent: '#5f9a86', music: { en: 'Slendro gamelan', zh: '斯连德罗甘美兰' } },
+  { key: 'north-america', name: { en: 'North America', zh: '北美' }, lat: 42, lon: -96, altitude: 1.55, accent: '#9b7fc4', music: { en: 'Cedar flute & frame drum', zh: '雪松长笛与手鼓' } },
+  { key: 'mesoamerica', name: { en: 'Mesoamerica', zh: '中美洲' }, lat: 17, lon: -88, altitude: 1.35, accent: '#7fb24a', music: { en: 'Clay flutes & teponaztli', zh: '陶笛与特波纳斯特利木鼓' } },
+  { key: 'south-america', name: { en: 'South America', zh: '南美' }, lat: -16, lon: -62, altitude: 1.6, accent: '#cf6f8f', music: { en: 'Siku panpipes, charango & bombo', zh: '排箫、恰朗戈与邦博鼓' } },
+  { key: 'oceania', name: { en: 'Oceania', zh: '大洋洲' }, lat: -24, lon: 150, altitude: 1.7, accent: '#4f9ec9', music: { en: 'Didgeridoo drone & clapsticks', zh: '迪吉里杜管与拍击棒' } },
 ];
 
 export const REGION_BY_KEY = Object.fromEntries(REGIONS.map((r) => [r.key, r])) as Record<RegionKey, RegionDef>;
@@ -29,7 +33,7 @@ export function angularDistance(aLat: number, aLon: number, bLat: number, bLon: 
   return 2 * Math.asin(Math.min(1, Math.sqrt(d))) / r;
 }
 
-/** The region whose centre is nearest the camera's look-at point, or null over open ocean / the Americas. */
+/** The region whose centre is nearest the camera's look-at point, or null over open ocean. */
 export function regionAt(lat: number, lon: number): RegionKey | null {
   let best: RegionDef | null = null;
   let bestD = Infinity;

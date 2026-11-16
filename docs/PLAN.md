@@ -1,6 +1,6 @@
 # Orbis · 寰宇时序 — Project Plan
 
-An interactive 3D historical atlas of the Old World (Europe, Africa, Asia) over the last
+An interactive 3D historical atlas of the world (Europe, Africa, Asia, the Americas, Oceania) over the last
 ~2,000 years (1 CE → today): borders that shift with time, dynasties and their rulers,
 wars and battles, famous people with portraits and life journeys, and the genealogy of
 place names (Byzantion → Constantinople → Istanbul; 长安 → 西安). The China part adapts
@@ -49,7 +49,7 @@ against a second independent source and record the verdict in `data/verification
 data/                    curated source (editable)
   <region>/events.json people.json places.json polities.json
   polity-names.json      historical-basemaps NAME → zh + colour family
-  cache/wikidata.json    enrichment cache (committed, reproducible)
+  cache/<dataset>/       enrichment cache per dataset (committed, reproducible)
   verification/          auto-diff + verifier reports
 scripts/
   enrich-wikidata.mjs    Wikidata + Commons fetch → cache

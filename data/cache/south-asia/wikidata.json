@@ -1,0 +1,5526 @@
+{
+ "Q1001": {
+  "label": {
+   "en": "Mahatma Gandhi",
+   "zh": "圣雄甘地"
+  },
+  "description": "Indian independence activist (1869–1948)",
+  "coord": null,
+  "image": "Mahatma-Gandhi, studio, 1931.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1869,
+   "date": "1869-10-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1948,
+   "date": "1948-01-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mahatma Gandhi",
+   "zh": "圣雄甘地"
+  },
+  "locationQid": null
+ },
+ "Q10088": {
+  "label": {
+   "en": "Tipu Sultan",
+   "zh": "蒂普苏丹"
+  },
+  "description": "Ruler of the Kingdom of Mysore from 1782 to 1799",
+  "coord": null,
+  "image": "TipuSultan1790.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1751,
+   "date": "1751-11-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1799,
+   "date": "1799-05-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tipu Sultan",
+   "zh": "蒂普苏丹"
+  },
+  "locationQid": null
+ },
+ "Q10225": {
+  "label": {
+   "en": "Indian National Congress",
+   "zh": "国大党英迪拉派"
+  },
+  "description": "centrist-liberal political party in India",
+  "coord": null,
+  "image": "INC Flag Official.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1885,
+   "date": "1885-12-28",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7278"
+  ],
+  "wiki": {
+   "en": "Indian National Congress",
+   "zh": "印度国民大会党"
+  },
+  "locationQid": null
+ },
+ "Q1047": {
+  "label": {
+   "en": "Jawaharlal Nehru",
+   "zh": "贾瓦哈拉尔·尼赫鲁"
+  },
+  "description": "Prime Minister of India from 1947 to 1964",
+  "coord": null,
+  "image": "Jawaharlal Nehru, circa 1925.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1889,
+   "date": "1889-11-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1964,
+   "date": "1964-05-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jawaharlal Nehru",
+   "zh": "贾瓦哈拉尔·尼赫鲁"
+  },
+  "locationQid": null
+ },
+ "Q1058": {
+  "label": {
+   "en": "Narendra Modi",
+   "zh": "纳伦德拉·莫迪"
+  },
+  "description": "Prime Minister of India since 2014",
+  "coord": null,
+  "image": "Prime Minister Of Bharat Shri Narendra Damodardas Modi.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1950,
+   "date": "1950-09-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Narendra Modi",
+   "zh": "纳伦德拉·莫迪"
+  },
+  "locationQid": null
+ },
+ "Q112182472": {
+  "label": {
+   "en": "Umayyad conquest of Sindh",
+   "zh": "奧瑪亞征服信德"
+  },
+  "description": "Umayyad conquest of Sindh in 711",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 711,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 713,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1827102",
+   "Q1361229"
+  ],
+  "wiki": {
+   "en": "Arab conquest of Sindh",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1133363": {
+  "label": {
+   "en": "Samudragupta",
+   "zh": "沙摩陀罗·笈多"
+  },
+  "description": "4th-century ruler of the Gupta Empire",
+  "coord": null,
+  "image": "SamudraguptaCoin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 335,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 380,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Samudragupta",
+   "zh": "沙摩陀罗·笈多"
+  },
+  "locationQid": null
+ },
+ "Q11359": {
+  "label": {
+   "en": "Aryabhata",
+   "zh": "阿耶波多"
+  },
+  "description": "Pioneer astronomer who formulated zero, quadratic rules, and earth's rotation.",
+  "coord": null,
+  "image": "2064 aryabhata-crp.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 476,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 550,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Aryabhata",
+   "zh": "阿耶波多"
+  },
+  "locationQid": null
+ },
+ "Q1146069": {
+  "label": {
+   "en": "Record of the Western Regions",
+   "zh": "大唐西域记"
+  },
+  "description": "record of the travels of the Buddhist monk Xuanzang from Tang China to India and back",
+  "coord": null,
+  "image": "大唐西域記（四庫）.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 646,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Records of the Western Regions",
+   "zh": "大唐西域記"
+  },
+  "locationQid": null
+ },
+ "Q1149": {
+  "label": {
+   "en": "Indira Gandhi",
+   "zh": "英迪拉·甘地"
+  },
+  "description": "Prime Minister of India (1966-1977; 1980-1984)",
+  "coord": null,
+  "image": "Indira Gandhi official portrait.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1917,
+   "date": "1917-11-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1984,
+   "date": "1984-10-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Indira Gandhi",
+   "zh": "英迪拉·甘地"
+  },
+  "locationQid": null
+ },
+ "Q1156": {
+  "label": {
+   "en": "Mumbai",
+   "zh": "孟买"
+  },
+  "description": "capital city in Maharashtra, India",
+  "coord": {
+   "lat": 19.0758,
+   "lon": 72.8775
+  },
+  "image": "Panoramic view of Taj Palace Hotel and Taj Tower with the iconic Gateway of India in the background (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1507,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q174844",
+   "Q11271835",
+   "Q515",
+   "Q200250",
+   "Q745456"
+  ],
+  "wiki": {
+   "en": "Mumbai",
+   "zh": "孟买"
+  }
+ },
+ "Q115809322": {
+  "label": {
+   "en": "Battle of Narmada",
+   "zh": null
+  },
+  "description": "battle in Deccan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Narmada",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q11739": {
+  "label": {
+   "en": "Lahore",
+   "zh": "拉合尔"
+  },
+  "description": "capital of the Punjab province, Pakistan",
+  "coord": {
+   "lat": 31.5497,
+   "lon": 74.3436
+  },
+  "image": "Eye Of Lahore (Minar e Pakistan) evening.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q56061",
+   "Q902814",
+   "Q174844",
+   "Q11271835"
+  ],
+  "wiki": {
+   "en": "Lahore",
+   "zh": "拉合爾"
+  }
+ },
+ "Q11774": {
+  "label": {
+   "en": "Gupta Empire",
+   "zh": "笈多王朝"
+  },
+  "description": "ancient Indian empire (c. 3rd century CE–575 CE)",
+  "coord": {
+   "lat": 23.9889,
+   "lon": 88.7311
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 320,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 550,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Gupta Empire",
+   "zh": "笈多王朝"
+  }
+ },
+ "Q121235": {
+  "label": {
+   "en": "Sri Krishnadevaraya",
+   "zh": "克里許納達伐拉亞"
+  },
+  "description": "Sri Rajadhiraja Raja Parameswara Mooru Rayara Ganda Yavana Rajya Pratisthapanacharya Andhra Bhoja Kannada Rajya Rama Ramana Sri Krishnadevaraya Vijayanagara emperor from 1509 to 1529",
+  "coord": null,
+  "image": "Chinnadevi, Krishnadevaraya, Tirumaladevi statues at Chandragiri Museum.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1471,
+   "date": "1471-01-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1529,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Krishnadevaraya",
+   "zh": "克里希那德瓦拉亚"
+  },
+  "locationQid": null
+ },
+ "Q123179707": {
+  "label": {
+   "en": "Sack of Delhi",
+   "zh": null
+  },
+  "description": "1398 sack",
+  "coord": null,
+  "image": "Timur pursues the Indians, led by Sultan Mahmud-Khan Tughluq, back into Delhi, 17 December 1398. Zafarnama of Ibrahim Sultan, Timurid Shiraz, 1436. Folio 290v.jpg",
+  "pointInTime": {
+   "year": 1398,
+   "date": "1398-12-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19841484"
+  ],
+  "wiki": {
+   "en": "Sack of Delhi (1398)",
+   "zh": null
+  },
+  "locationQid": "Q1353"
+ },
+ "Q123488342": {
+  "label": {
+   "en": "Sack of Somnath",
+   "zh": null
+  },
+  "description": "ghaznavid invasion on Chalukyas",
+  "coord": {
+   "lat": 20.888,
+   "lon": 70.4014
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q180684"
+  ],
+  "wiki": {
+   "en": "Sack of Somnath",
+   "zh": null
+  }
+ },
+ "Q1259218": {
+  "label": {
+   "en": "Third Battle of Panipat",
+   "zh": "第三次帕尼帕特战役"
+  },
+  "description": "1761 battle in India between the Durrani and Maratha empires",
+  "coord": {
+   "lat": 29.39,
+   "lon": 76.97
+  },
+  "image": "The Third battle of Panipat 13 January 1761.jpg",
+  "pointInTime": {
+   "year": 1761,
+   "date": "1761-01-14",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Third Battle of Panipat",
+   "zh": "第三次帕尼帕特之戰"
+  }
+ },
+ "Q1268562": {
+  "label": {
+   "en": "Kailasa Temple, Ellora",
+   "zh": "凱拉薩神廟"
+  },
+  "description": "temple in Ellora, India",
+  "coord": {
+   "lat": 20.0239,
+   "lon": 75.1792
+  },
+  "image": "Ellora Cave 16 si0308.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 773,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q842402",
+   "Q653208"
+  ],
+  "wiki": {
+   "en": "Kailasa Temple, Ellora",
+   "zh": "凱拉薩神廟"
+  }
+ },
+ "Q127369": {
+  "label": {
+   "en": "Bahadur Shah Zafar",
+   "zh": "巴哈杜尔沙二世"
+  },
+  "description": "18th and last Mughal Emperor from 1837 to 1857",
+  "coord": null,
+  "image": "Bahadur Shah II.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1775,
+   "date": "1775-10-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1862,
+   "date": "1862-11-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bahadur Shah Zafar",
+   "zh": "巴哈杜爾·沙阿二世"
+  },
+  "locationQid": null
+ },
+ "Q1275140": {
+  "label": {
+   "en": "Vima Kadphises",
+   "zh": "阎膏珍"
+  },
+  "description": "the third Kushan emperor (113–127)",
+  "coord": null,
+  "image": "Portrait of Vima Kadphises.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 100,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vima Kadphises",
+   "zh": "阎膏珍"
+  },
+  "locationQid": null
+ },
+ "Q1275876": {
+  "label": {
+   "en": "Skandagupta",
+   "zh": "塞建陀笈多"
+  },
+  "description": "Gupta Emperor",
+  "coord": null,
+  "image": "Skandagupta Circa 455-480 CE.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 500,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 467,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Skandagupta",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1276014": {
+  "label": {
+   "en": "Gautamiputra Satakarni",
+   "zh": "高塔敏普特拉·薩塔卡尼"
+  },
+  "description": "1st/2nd century Indian Satavahana ruler",
+  "coord": null,
+  "image": "Gautamiputra Rajna Shri Satakarni.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 50,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gautamiputra Satakarni",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1282366": {
+  "label": {
+   "en": "Vasudeva I",
+   "zh": "波調"
+  },
+  "description": "the sixth and last Kushan emperor (191–232)",
+  "coord": null,
+  "image": "Coin of the Kushan king Vasudeva I.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 200,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 201,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vasudeva I",
+   "zh": "波調"
+  },
+  "locationQid": null
+ },
+ "Q1290001": {
+  "label": {
+   "en": "Brāhmasphuṭasiddhānta",
+   "zh": "婆罗摩历算书"
+  },
+  "description": "Indian mathematics treatise",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 628,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q384515"
+  ],
+  "wiki": {
+   "en": "Brāhmasphuṭasiddhānta",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q129029": {
+  "label": {
+   "en": "Bhopal disaster",
+   "zh": "博帕尔事件"
+  },
+  "description": "gas leak accident in Bhopal, India on 3 December 1984",
+  "coord": {
+   "lat": 23.2808,
+   "lon": 77.4106
+  },
+  "image": "Union Carbide pesticide factory, Bhopal, India, 1985.jpg",
+  "pointInTime": {
+   "year": 1984,
+   "date": "1984-12-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q977367"
+  ],
+  "wiki": {
+   "en": "Bhopal disaster",
+   "zh": "博帕爾事件"
+  }
+ },
+ "Q129053": {
+  "label": {
+   "en": "partition of India",
+   "zh": "印巴分治"
+  },
+  "description": "1947 Partition of British India",
+  "coord": null,
+  "image": "Partition of India 1947 en.svg",
+  "pointInTime": {
+   "year": 1947,
+   "date": "1947-08-15",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q518554"
+  ],
+  "wiki": {
+   "en": "Partition of India",
+   "zh": "印巴分治"
+  },
+  "locationQid": "Q129286"
+ },
+ "Q129286": {
+  "label": {
+   "en": "British Raj",
+   "zh": "英属印度"
+  },
+  "description": "British colonial rule on the Indian subcontinent (1858–1947)",
+  "coord": {
+   "lat": 22.5411,
+   "lon": 88.3378
+  },
+  "image": "British Indian Empire 1909 Imperial Gazetteer of India.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1858,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1947,
+   "date": "1947-08-15",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156",
+   "Q3024240",
+   "Q1351282"
+  ],
+  "wiki": {
+   "en": "British Raj",
+   "zh": "英属印度"
+  }
+ },
+ "Q129864": {
+  "label": {
+   "en": "Indian Mutiny of 1857",
+   "zh": "印度民族起义"
+  },
+  "description": "1857–58 uprising against British Company rule",
+  "coord": null,
+  "image": "Indian Rebellion of 1857.jpg",
+  "pointInTime": {
+   "year": 1857,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1857,
+   "date": "1857-05-10",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1858,
+   "date": "1858-06-20",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q21994376",
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Indian Rebellion of 1857",
+   "zh": "印度民族起义"
+  },
+  "locationQid": "Q2001966"
+ },
+ "Q131355": {
+  "label": {
+   "en": "Zulfikar Ali Bhutto",
+   "zh": "佐勒菲卡尔·阿里·布托"
+  },
+  "description": "4th President and 9th Prime Minister of Pakistan (1928–1979)",
+  "coord": null,
+  "image": "Zulfikar Ali Bhutto Portrait (cropped 2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1928,
+   "date": "1928-01-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1979,
+   "date": "1979-04-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zulfikar Ali Bhutto",
+   "zh": "佐勒菲卡尔·阿里·布托"
+  },
+  "locationQid": null
+ },
+ "Q1348": {
+  "label": {
+   "en": "Kolkata",
+   "zh": "加尔各答"
+  },
+  "description": "capital city of West Bengal, India",
+  "coord": {
+   "lat": 22.5675,
+   "lon": 88.37
+  },
+  "image": "Ketan donate4.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q105074756",
+   "Q174844",
+   "Q11271835",
+   "Q200250",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Kolkata",
+   "zh": "加尔各答"
+  }
+ },
+ "Q1352": {
+  "label": {
+   "en": "Chennai",
+   "zh": "金奈"
+  },
+  "description": "city and state capital of Tamil Nadu, India",
+  "coord": {
+   "lat": 13.0825,
+   "lon": 80.275
+  },
+  "image": "Ripon Building aerial view.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1639,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q51929311",
+   "Q11271835",
+   "Q745456",
+   "Q56061"
+  ],
+  "wiki": {
+   "en": "Chennai",
+   "zh": "金奈"
+  }
+ },
+ "Q1353": {
+  "label": {
+   "en": "Delhi",
+   "zh": "德里"
+  },
+  "description": "megacity and union territory of India",
+  "coord": {
+   "lat": 28.6667,
+   "lon": 77.2167
+  },
+  "image": "Red Fort in Delhi 03-2016 img3.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -500,
+   "date": null,
+   "precision": 8,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q174844",
+   "Q200250",
+   "Q51929311",
+   "Q15284"
+  ],
+  "wiki": {
+   "en": "Delhi",
+   "zh": "德里"
+  }
+ },
+ "Q1354": {
+  "label": {
+   "en": "Dhaka",
+   "zh": "达卡市"
+  },
+  "description": "capital and largest city of Bangladesh",
+  "coord": {
+   "lat": 23.7289,
+   "lon": 90.3944
+  },
+  "image": "Dhaka skyline1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q174844",
+   "Q200250",
+   "Q1066984",
+   "Q51929311",
+   "Q56061"
+  ],
+  "wiki": {
+   "en": "Dhaka",
+   "zh": "达卡"
+  }
+ },
+ "Q1362188": {
+  "label": {
+   "en": "Battle of Talikota",
+   "zh": "塔里克提之戰"
+  },
+  "description": "1565 battle between the Deccan Sultanates and Vijayanagara Empire",
+  "coord": {
+   "lat": 16.4733,
+   "lon": 76.3118
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1565,
+   "date": "1565-01-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Talikota",
+   "zh": null
+  }
+ },
+ "Q1395011": {
+  "label": {
+   "en": "Chalukya dynasty",
+   "zh": "遮娄其王朝"
+  },
+  "description": "classical Indian dynasty (543–753)",
+  "coord": null,
+  "image": "Chalukyas of Kalyana.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 543,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 753,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q164950",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Chalukya dynasty",
+   "zh": "遮娄其王朝"
+  },
+  "locationQid": null
+ },
+ "Q1396420": {
+  "label": {
+   "en": "Huvishka",
+   "zh": "胡维什卡"
+  },
+  "description": "the fifth Kushan emperor (150–190)",
+  "coord": null,
+  "image": "HuvishkaBMCoin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 200,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Huvishka",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1452340": {
+  "label": {
+   "en": "Sadasiva Raya",
+   "zh": null
+  },
+  "description": "Emperor of the Vijayanagara Empire",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1542,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1569,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sadasiva Raya",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q151148": {
+  "label": {
+   "en": "Chola dynasty",
+   "zh": "朱罗王朝"
+  },
+  "description": "dynasty of southern India",
+  "coord": null,
+  "image": "Darasuram, Airavatesvara Temple, Entrance, India.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -300,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1279,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Chola dynasty",
+   "zh": "朱罗王朝"
+  },
+  "locationQid": null
+ },
+ "Q1534989": {
+  "label": {
+   "en": "2008 Nepalese Constituent Assembly election",
+   "zh": "2008年尼泊尔制宪会议选举"
+  },
+  "description": "election",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 2008,
+   "date": "2008-04-10",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q24568879"
+  ],
+  "wiki": {
+   "en": "2008 Nepalese Constituent Assembly election",
+   "zh": "2008年尼泊尔制宪会议选举"
+  },
+  "locationQid": null
+ },
+ "Q15649142": {
+  "label": {
+   "en": "Devapala",
+   "zh": "孟加拉的德瓦帕拉"
+  },
+  "description": "Pala king",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Devapala of Bengal",
+   "zh": "孟加拉的德瓦帕拉"
+  },
+  "locationQid": null
+ },
+ "Q1568644": {
+  "label": {
+   "en": "Simuka",
+   "zh": "须慕迦"
+  },
+  "description": "Indian king",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -230,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Simuka",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1569078": {
+  "label": {
+   "en": "Hyder Ali",
+   "zh": "海德尔·阿里"
+  },
+  "description": "Military commander, de facto ruler of the Kingdom of Mysore (1720-1782)",
+  "coord": {
+   "lat": 12.41,
+   "lon": 76.7139
+  },
+  "image": "HyderAli.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1720,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1782,
+   "date": "1782-12-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hyder Ali",
+   "zh": "海德尔·阿里"
+  }
+ },
+ "Q157068": {
+  "label": {
+   "en": "Louis Mountbatten, 1st Earl Mountbatten of Burma",
+   "zh": "路易斯·蒙巴顿，第一代缅甸的蒙巴顿伯爵"
+  },
+  "description": "British statesman and naval officer (1900-1979)",
+  "coord": null,
+  "image": "Lord Mountbatten Naval in colour Allan Warren.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1900,
+   "date": "1900-06-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1979,
+   "date": "1979-08-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lord Mountbatten",
+   "zh": "第一代緬甸的蒙巴頓伯爵路易·蒙巴頓"
+  },
+  "locationQid": null
+ },
+ "Q15912370": {
+  "label": {
+   "en": "Raja Wodeyar I",
+   "zh": null
+  },
+  "description": "King of Mysore (1552-1617)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1552,
+   "date": "1552-06-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1617,
+   "date": "1617-06-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Raja Wodeyar I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q160554": {
+  "label": {
+   "en": "Mohammad Ali Jinnah",
+   "zh": "穆罕默德·阿里·真纳"
+  },
+  "description": "politician and the founder of Pakistan (1876–1948)",
+  "coord": null,
+  "image": "Jinnah1945c.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1876,
+   "date": "1876-12-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1948,
+   "date": "1948-09-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad Ali Jinnah",
+   "zh": "穆罕默德·阿里·真納"
+  },
+  "locationQid": null
+ },
+ "Q162442": {
+  "label": {
+   "en": "Prayagraj",
+   "zh": "普拉亚格拉吉"
+  },
+  "description": "metropolis in Uttar Pradesh, India",
+  "coord": {
+   "lat": 25.45,
+   "lon": 81.85
+  },
+  "image": "Allahabad city.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Prayagraj",
+   "zh": "普拉亚格拉吉"
+  }
+ },
+ "Q167639": {
+  "label": {
+   "en": "Vijayanagara Empire",
+   "zh": "毗奢耶那伽罗王朝"
+  },
+  "description": "Hindu kingdom in Southern India (14th-17th century)",
+  "coord": {
+   "lat": 15.3333,
+   "lon": 76.4667
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1336,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1646,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Vijayanagara Empire",
+   "zh": "毗奢耶那伽罗帝国"
+  }
+ },
+ "Q16863944": {
+  "label": {
+   "en": "Mahipala I",
+   "zh": null
+  },
+  "description": "Indian monarch",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 944,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mahipala I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q16957926": {
+  "label": {
+   "en": "Chola invasion of Srivijaya",
+   "zh": null
+  },
+  "description": "medieval naval raids",
+  "coord": null,
+  "image": "Rajendra map new.svg",
+  "pointInTime": {
+   "year": 1025,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Chola invasion of Srivijaya",
+   "zh": null
+  },
+  "locationQid": "Q8131"
+ },
+ "Q179046": {
+  "label": {
+   "en": "Fatehpur Sikri",
+   "zh": "法塔赫布尔西格里"
+  },
+  "description": "town in Agra District, Uttar Pradesh, India",
+  "coord": {
+   "lat": 27.0911,
+   "lon": 77.6611
+  },
+  "image": "Fatehpur Sikri- Hamamm.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1569,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1785071",
+   "Q515",
+   "Q6958514"
+  ],
+  "wiki": {
+   "en": "Fatehpur Sikri",
+   "zh": "法塔赫布尔西格里"
+  }
+ },
+ "Q1800631": {
+  "label": {
+   "en": "Lahore Resolution",
+   "zh": "拉合尔决议"
+  },
+  "description": "Formal political statement adopted by the All-India Muslim League in Lahore, Pakistan (1940)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2751586"
+  ],
+  "wiki": {
+   "en": "Lahore Resolution",
+   "zh": "拉合爾決議"
+  },
+  "locationQid": null
+ },
+ "Q180422": {
+  "label": {
+   "en": "Harmandir Sahib",
+   "zh": "哈曼迪尔寺"
+  },
+  "description": "Sikh religious site in Amritsar, Punjab, India",
+  "coord": {
+   "lat": 31.62,
+   "lon": 74.8767
+  },
+  "image": "Hamandir Sahib (Golden Temple).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1589,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q337986"
+  ],
+  "wiki": {
+   "en": "Golden Temple",
+   "zh": "阿姆利则金庙"
+  }
+ },
+ "Q180967": {
+  "label": {
+   "en": "Ādi Shankara",
+   "zh": "阿迪·商羯罗"
+  },
+  "description": "An Indian philosopher and theologian who consolidated the doctrine of Advaita Vedanta and revitalized Sanskrit scholasticism.",
+  "coord": null,
+  "image": "Raja Ravi Varma - Sankaracharya.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 788,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 820,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Adi Shankara",
+   "zh": "阿迪·商羯罗"
+  },
+  "locationQid": null
+ },
+ "Q181878": {
+  "label": {
+   "en": "Rani Lakshmibai",
+   "zh": "詹西女王"
+  },
+  "description": "queen of a princely state in India",
+  "coord": null,
+  "image": "LAKSMIBAI, RANI OF JHANSI (22140388883).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1828,
+   "date": "1828-11-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1858,
+   "date": "1858-06-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lakshmibai, Rani of Jhansi",
+   "zh": "詹西王后"
+  },
+  "locationQid": null
+ },
+ "Q184427": {
+  "label": {
+   "en": "Ajanta Caves",
+   "zh": "阿旃陀石窟"
+  },
+  "description": "2nd century BCE to 1st century CE Buddhist cave monuments located in Maharashtra, India",
+  "coord": {
+   "lat": 20.5534,
+   "lon": 75.7005
+  },
+  "image": "Ajanta (63).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -200,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1131329",
+   "Q88778578",
+   "Q44539"
+  ],
+  "wiki": {
+   "en": "Ajanta Caves",
+   "zh": "阿旃陀石窟"
+  }
+ },
+ "Q187635": {
+  "label": {
+   "en": "Qutb Minar",
+   "zh": "顾特卜塔"
+  },
+  "description": "minaret in the Mehrauli area of Delhi, India",
+  "coord": {
+   "lat": 28.5244,
+   "lon": 77.1852
+  },
+  "image": "Madrasa and tomb of Alauddin Khalji 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q48356"
+  ],
+  "wiki": {
+   "en": "Qutb Minar",
+   "zh": "顾特卜塔"
+  }
+ },
+ "Q190071": {
+  "label": {
+   "en": "Ayub Khan",
+   "zh": "阿尤布·汗"
+  },
+  "description": "President of Pakistan from 1958 to 1969",
+  "coord": null,
+  "image": "Muhammed Ayub Khan.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1907,
+   "date": "1907-05-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1974,
+   "date": "1974-04-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ayub Khan",
+   "zh": "阿尤布·汗"
+  },
+  "locationQid": null
+ },
+ "Q191375": {
+  "label": {
+   "en": "Sheikh Mujibur Rahman",
+   "zh": "谢赫·穆吉布·拉赫曼"
+  },
+  "description": "President of the Provisional Government of Bangladesh and the 2nd Prime Minister and first President of Bangladesh",
+  "coord": null,
+  "image": "Sheikh Mujibur Rahman portrait (PID-h0066).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1920,
+   "date": "1920-03-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1975,
+   "date": "1975-08-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sheikh Mujibur Rahman",
+   "zh": "谢赫·穆吉布·拉赫曼"
+  },
+  "locationQid": null
+ },
+ "Q194291": {
+  "label": {
+   "en": "Sirimavo Bandaranaike",
+   "zh": "西丽玛沃·班达拉奈克"
+  },
+  "description": "Prime Minister of Ceylon (later Sri Lanka) from 1960–65, 1970–77, 1994–2000",
+  "coord": null,
+  "image": "S. Bandaranaike w Polsce (Sirimavo cropped close).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1916,
+   "date": "1916-04-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2000,
+   "date": "2000-10-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sirimavo Bandaranaike",
+   "zh": "西丽玛沃·班达拉奈克"
+  },
+  "locationQid": null
+ },
+ "Q198313": {
+  "label": {
+   "en": "Ziaur Rahman",
+   "zh": "齐亚·拉赫曼"
+  },
+  "description": "Chief of Army Staff and President of Bangladesh (1936-1981)",
+  "coord": null,
+  "image": "Bangladeshi president Ziaur Rahman, Bir Uttom.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1936,
+   "date": "1936-01-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1981,
+   "date": "1981-05-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ziaur Rahman",
+   "zh": "齊亞·拉赫曼"
+  },
+  "locationQid": null
+ },
+ "Q19840229": {
+  "label": {
+   "en": "Battle of Kili",
+   "zh": null
+  },
+  "description": "1299 battle, fought during Mongol invasions of India",
+  "coord": {
+   "lat": 28.6546,
+   "lon": 77.2309
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1299,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Kili",
+   "zh": null
+  }
+ },
+ "Q200499": {
+  "label": {
+   "en": "Muhammad Zia-ul-Haq",
+   "zh": "穆罕默德·齐亚·哈克"
+  },
+  "description": "President of Pakistan from 1978 to 1988, of Saudi origin",
+  "coord": null,
+  "image": "President Mohammad Zia Ul Haq.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1924,
+   "date": "1924-08-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1988,
+   "date": "1988-08-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zia-ul-Haq",
+   "zh": "穆罕默德·齐亚·哈克"
+  },
+  "locationQid": null
+ },
+ "Q203233": {
+  "label": {
+   "en": "Battle of Plassey",
+   "zh": "普拉西战役"
+  },
+  "description": "1757 battle which established the British Raj in India",
+  "coord": {
+   "lat": 23.8,
+   "lon": 88.25
+  },
+  "image": "Lord Clive meeting with Mir Jafar after the Battle of Plassey.jpg",
+  "pointInTime": {
+   "year": 1757,
+   "date": "1757-06-23",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Plassey",
+   "zh": "普拉西之戰"
+  }
+ },
+ "Q2047143": {
+  "label": {
+   "en": "Partition of Bengal (1905)",
+   "zh": "孟加拉分治"
+  },
+  "description": "Partition of Bengal by Lord Curzon in 1905",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q518554"
+  ],
+  "wiki": {
+   "en": "Partition of Bengal (1905)",
+   "zh": "孟加拉分治 (1905年)"
+  },
+  "locationQid": null
+ },
+ "Q208855": {
+  "label": {
+   "en": "Jallianwala Bagh massacre",
+   "zh": "阿姆利则血案"
+  },
+  "description": "British Indian Army troops fire their rifles into crowd of unarmed Indian civilians (1919)",
+  "coord": {
+   "lat": 31.6206,
+   "lon": 74.8806
+  },
+  "image": "Jalian Wala Bagh Memorial 311.jpg",
+  "pointInTime": {
+   "year": 1919,
+   "date": "1919-04-13",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q750215",
+   "Q645883"
+  ],
+  "wiki": {
+   "en": "Jallianwala Bagh massacre",
+   "zh": "阿姆利則慘案"
+  }
+ },
+ "Q211483": {
+  "label": {
+   "en": "Rajendra Chola I",
+   "zh": "拉金德拉"
+  },
+  "description": "Chola emperor from 1014 to 1044",
+  "coord": null,
+  "image": "Rajendra Chola.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1000,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1044,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rajendra I",
+   "zh": "拉真陀罗一世"
+  },
+  "locationQid": null
+ },
+ "Q2119008": {
+  "label": {
+   "en": "Kulothunga Chola I",
+   "zh": "庫羅吐嘎"
+  },
+  "description": "Emperor of the Chola kingdom",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1050,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1122,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kulottunga I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2128757": {
+  "label": {
+   "en": "Rajaraja I",
+   "zh": "罗茶罗乍"
+  },
+  "description": "Chola Emperor",
+  "coord": null,
+  "image": "Raraja detail.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 947,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1014,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rajaraja I",
+   "zh": "罗茶罗乍"
+  },
+  "locationQid": null
+ },
+ "Q213394": {
+  "label": {
+   "en": "Sri Lankan Civil War",
+   "zh": "斯里兰卡内战"
+  },
+  "description": "armed conflict in Sri Lanka (1983–2009) between the government and the separatist organization Liberation Tigers of Tamil Eelam",
+  "coord": {
+   "lat": 7,
+   "lon": 81
+  },
+  "image": "KilinochchiWaterTowerDestroyedByLTTE.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1983,
+   "date": "1983-07-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2009,
+   "date": "2009-05-18",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Sri Lankan civil war",
+   "zh": "斯里兰卡内战"
+  }
+ },
+ "Q216243": {
+  "label": {
+   "en": "Nalanda Mahavihara",
+   "zh": "那烂陀寺"
+  },
+  "description": "ancient Hindu-Buddhist monastery in present-day Bihar, India",
+  "coord": {
+   "lat": 25.1368,
+   "lon": 85.4438
+  },
+  "image": "Nalanda The Great Stupa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19323827",
+   "Q839954",
+   "Q3918"
+  ],
+  "wiki": {
+   "en": "Nalanda mahavihara",
+   "zh": "那烂陀寺"
+  }
+ },
+ "Q216895": {
+  "label": {
+   "en": "Harsha",
+   "zh": "戒日王朝"
+  },
+  "description": "emperor of Kannauj from 606 to 647",
+  "coord": null,
+  "image": "Harshavardhana Circa AD 606-647.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 590,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 647,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Harsha",
+   "zh": "戒日王朝"
+  },
+  "locationQid": null
+ },
+ "Q229411": {
+  "label": {
+   "en": "Delhi Sultanate",
+   "zh": "德里苏丹国"
+  },
+  "description": "1206–1526 empire in the Indian subcontinent",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1206,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1526,
+   "date": "1526-04-21",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Delhi Sultanate",
+   "zh": "德里蘇丹國"
+  },
+  "locationQid": null
+ },
+ "Q233289": {
+  "label": {
+   "en": null,
+   "zh": "阿塔尔·比哈里·瓦杰帕伊"
+  },
+  "description": "Prime Minister of India in 1996 and from 1998 to 2004",
+  "coord": null,
+  "image": "Atal Bihari Vajpayee (crop 2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1924,
+   "date": "1924-12-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2018,
+   "date": "2018-08-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Atal Bihari Vajpayee",
+   "zh": "阿塔尔·比哈里·瓦杰帕伊"
+  },
+  "locationQid": null
+ },
+ "Q233414": {
+  "label": {
+   "en": "Battle of Panipat",
+   "zh": "第二次帕尼帕特战役"
+  },
+  "description": "1556 battle",
+  "coord": {
+   "lat": 29.39,
+   "lon": 76.97
+  },
+  "image": "The defeat of Hemu, Akbarnama.jpg",
+  "pointInTime": {
+   "year": 1556,
+   "date": "1556-11-05",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Second Battle of Panipat",
+   "zh": "第二次帕尼帕特之戰"
+  }
+ },
+ "Q2336381": {
+  "label": {
+   "en": "Deva Raya II",
+   "zh": null
+  },
+  "description": "Vijayanagara emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1446,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Deva Raya II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2355467": {
+  "label": {
+   "en": "Battle of Buxar",
+   "zh": "布克萨尔战役"
+  },
+  "description": "_War between Alliance (Mir Qasim, Shuja-ud-Daulah and Shah Alam || ) and British",
+  "coord": {
+   "lat": 25.5667,
+   "lon": 83.9833
+  },
+  "image": "Battle of Buxar -Crown and company- Arthur Edward Mainwaring pg.144.jpg",
+  "pointInTime": {
+   "year": 1764,
+   "date": "1764-11-06",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Buxar",
+   "zh": "布克萨尔战役"
+  }
+ },
+ "Q2357384": {
+  "label": {
+   "en": "Portuguese conquest of Goa",
+   "zh": "葡萄牙征服果阿"
+  },
+  "description": "1510 capture of the Indian city of Goa by the Portuguese Empire",
+  "coord": null,
+  "image": "\"Plan de Goa\", in Histoire générale des voyages,1750.jpg",
+  "pointInTime": {
+   "year": 1510,
+   "date": "1510-11-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1361229"
+  ],
+  "wiki": {
+   "en": "Portuguese conquest of Goa",
+   "zh": null
+  },
+  "locationQid": "Q553907"
+ },
+ "Q2382049": {
+  "label": {
+   "en": "Rabatak inscription",
+   "zh": "羅巴塔克銘文"
+  },
+  "description": "rock inscription in the Bactrian language found in Afghanistan",
+  "coord": {
+   "lat": 36.1494,
+   "lon": 68.4036
+  },
+  "image": "Surkh Kotal inscription.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q220659"
+  ],
+  "wiki": {
+   "en": "Rabatak inscription",
+   "zh": "羅巴塔克銘文"
+  }
+ },
+ "Q239344": {
+  "label": {
+   "en": "Salt March",
+   "zh": "食盐进军"
+  },
+  "description": "Indian independence movement led by Mahatma Gandhi",
+  "coord": null,
+  "image": "Gandhi at Dandi, 5 April 1930.jpg",
+  "pointInTime": {
+   "year": 1930,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": {
+   "year": 1930,
+   "date": "1930-04-06",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q506259",
+   "Q1937612",
+   "Q754479"
+  ],
+  "wiki": {
+   "en": "Salt March",
+   "zh": "食盐进军"
+  },
+  "locationQid": null
+ },
+ "Q239505": {
+  "label": {
+   "en": "Shivaji",
+   "zh": "西瓦吉"
+  },
+  "description": "Indian Maratha king and founder of the Maratha Swaraj (Empire)",
+  "coord": null,
+  "image": "Shivaji British Museum.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1627,
+   "date": "1627-02-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1680,
+   "date": "1680-04-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shivaji",
+   "zh": "希瓦吉"
+  },
+  "locationQid": null
+ },
+ "Q243590": {
+  "label": {
+   "en": "Second Anglo-Sikh war",
+   "zh": "第二次英国锡克战争"
+  },
+  "description": "1848-1849 war in the Pubjab",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1848,
+   "date": "1848-04-18",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1848,
+   "date": "1848-04-18",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1849,
+   "date": "1849-03-30",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Second Anglo-Sikh War",
+   "zh": "第二次英国锡克战争"
+  },
+  "locationQid": "Q169132"
+ },
+ "Q245551": {
+  "label": {
+   "en": "1970 Bhola cyclone",
+   "zh": "1970年波拉氣旋"
+  },
+  "description": "North Indian cyclone in 1970",
+  "coord": null,
+  "image": "15B 1970-11-12 0956Z.png",
+  "pointInTime": {
+   "year": 1970,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1970,
+   "date": "1970-11-03",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1970,
+   "date": "1970-11-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8092"
+  ],
+  "wiki": {
+   "en": "1970 Bhola cyclone",
+   "zh": "1970年波拉气旋"
+  },
+  "locationQid": "Q842931"
+ },
+ "Q2484694": {
+  "label": {
+   "en": "Bukka",
+   "zh": "部迦"
+  },
+  "description": "Indian emperor and poet",
+  "coord": null,
+  "image": "Harihara and Bukka meeting Vidyaranya.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1357,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1377,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bukka Raya I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2514706": {
+  "label": {
+   "en": "Baji Rao I",
+   "zh": "巴吉拉奥一世"
+  },
+  "description": "General of the Maratha Empire in India (1700-1740)",
+  "coord": null,
+  "image": "Peshwa Baji Rao I riding horse.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1700,
+   "date": "1700-08-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1740,
+   "date": "1740-04-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bajirao I",
+   "zh": "巴吉拉奥一世"
+  },
+  "locationQid": null
+ },
+ "Q25979": {
+  "label": {
+   "en": "Kushan Empire",
+   "zh": "贵霜帝国"
+  },
+  "description": "empire in Central and South Asia (30–375 AD)",
+  "coord": {
+   "lat": 34.9833,
+   "lon": 69.3
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 30,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 375,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kushan Empire",
+   "zh": "貴霜帝國"
+  }
+ },
+ "Q266923": {
+  "label": {
+   "en": "Kingdom of Mysore",
+   "zh": "迈索尔土邦"
+  },
+  "description": "Monarchy in India (1399–1947)",
+  "coord": {
+   "lat": 12.3,
+   "lon": 76.65
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1399,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1950,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1371288",
+   "Q1336152",
+   "Q3024240",
+   "Q417175"
+  ],
+  "wiki": {
+   "en": "Kingdom of Mysore",
+   "zh": "迈索尔王国"
+  }
+ },
+ "Q271878": {
+  "label": {
+   "en": "George Curzon, 1st Marquess Curzon of Kedleston",
+   "zh": "乔治·寇松，第一代凯德尔斯顿的寇松侯爵"
+  },
+  "description": "Viceroy of India and British Foreign Secretary (1859–1925)",
+  "coord": null,
+  "image": "George Curzon2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1859,
+   "date": "1859-01-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1925,
+   "date": "1925-03-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George Curzon, 1st Marquess Curzon of Kedleston",
+   "zh": "第一代凱德爾斯頓的寇松侯爵喬治·寇松"
+  },
+  "locationQid": null
+ },
+ "Q272153": {
+  "label": {
+   "en": "Sigiriya",
+   "zh": "锡吉里耶"
+  },
+  "description": "ancient rock fortress near Dambulla, Sri Lanka.",
+  "coord": {
+   "lat": 7.9569,
+   "lon": 80.7597
+  },
+  "image": "Beauty of Sigiriya by Binuka.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486972"
+  ],
+  "wiki": {
+   "en": "Sigiriya",
+   "zh": "锡吉里耶"
+  }
+ },
+ "Q2726068": {
+  "label": {
+   "en": "Harihara I",
+   "zh": null
+  },
+  "description": "Founder of the Vijayanagara Empire",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1306,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1356,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Harihara I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2736986": {
+  "label": {
+   "en": "Battle of Karnal",
+   "zh": null
+  },
+  "description": "1739 part of the Persian Invasion of India",
+  "coord": {
+   "lat": 29.725,
+   "lon": 77.07
+  },
+  "image": "Nadir Shah at the sack of Delhi - Battle scene with Nader Shah on horseback, possibly by Muhammad Ali ibn Abd al-Bayg ibn Ali Quli Jabbadar, mid-18th century, Museum of Fine Arts, Boston.jpg",
+  "pointInTime": {
+   "year": 1739,
+   "date": "1739-02-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Karnal",
+   "zh": null
+  }
+ },
+ "Q2737041": {
+  "label": {
+   "en": "Sambhaji",
+   "zh": "桑巴吉"
+  },
+  "description": "Second Maratha king of the Maratha Empire, also a writer, philosopher and successor of Shivaji (1657-1689)",
+  "coord": null,
+  "image": "Sambhaji painting late 17th century.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1657,
+   "date": "1657-05-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1689,
+   "date": "1689-03-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sambhaji",
+   "zh": "桑巴吉"
+  },
+  "locationQid": null
+ },
+ "Q2749271": {
+  "label": {
+   "en": "Ala-ud-Din Bahman Shah",
+   "zh": null
+  },
+  "description": "1st Bahmani Sultan",
+  "coord": null,
+  "image": "002bahman-2.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1291,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1358,
+   "date": "1358-02-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ala-ud-Din Bahman Shah",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q28174068": {
+  "label": {
+   "en": "Gupta era",
+   "zh": null
+  },
+  "description": "historical period in South Asia from 318 CE to 700 CE",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 318,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4375074"
+  ],
+  "wiki": {
+   "en": "Gupta era",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2890128": {
+  "label": {
+   "en": "Second Battle of Tarain",
+   "zh": null
+  },
+  "description": "1192 battle near modern Taraori, India",
+  "coord": {
+   "lat": 29.78,
+   "lon": 76.94
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1192,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Second Battle of Tarain",
+   "zh": null
+  }
+ },
+ "Q295713": {
+  "label": {
+   "en": "Liaquat Ali Khan",
+   "zh": "利雅卡特·阿里·汗"
+  },
+  "description": "1st Prime Minister of Pakistan from 1947 to 1951",
+  "coord": null,
+  "image": "Liaquat Ali Khan.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1895,
+   "date": "1895-10-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1951,
+   "date": "1951-10-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liaquat Ali Khan",
+   "zh": "利雅卡特·阿里·汗"
+  },
+  "locationQid": null
+ },
+ "Q30717033": {
+  "label": {
+   "en": "1st Portuguese India Armada",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "1st Portuguese India Armada (Gama, 1497)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q311151": {
+  "label": {
+   "en": "Qutb-ud-din Aibak",
+   "zh": "库特布丁·艾伊拜克"
+  },
+  "description": "founded of the Mamluk Dynasty (1150-1210)",
+  "coord": null,
+  "image": "Tomb of Sultan Qutb al-Din Aibak.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1150,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1210,
+   "date": "1210-11-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Qutb ud-Din Aibak",
+   "zh": "庫特布丁·艾伊拜克"
+  },
+  "locationQid": null
+ },
+ "Q312544": {
+  "label": {
+   "en": "Kanishka",
+   "zh": "迦腻色伽一世"
+  },
+  "description": "the fourth and greatest Kushan emperor (127–150)",
+  "coord": null,
+  "image": "KanishkaCoin3.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 78,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 144,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kanishka",
+   "zh": "迦膩色伽一世"
+  },
+  "locationQid": null
+ },
+ "Q3183804": {
+  "label": {
+   "en": "Dharmapala",
+   "zh": "法护王"
+  },
+  "description": "8th century Pala Emperor of Bengal and Bihar",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 810,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dharmapala of Bengal",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q332620": {
+  "label": {
+   "en": "Ranjit Singh",
+   "zh": "兰季德·辛格"
+  },
+  "description": "First Maharaja of the Sikh Empire (1780–1839)",
+  "coord": null,
+  "image": "Maharaj Ranjit Singh.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1780,
+   "date": "1780-11-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1839,
+   "date": "1839-06-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ranjit Singh",
+   "zh": "兰季德·辛格"
+  },
+  "locationQid": null
+ },
+ "Q33296": {
+  "label": {
+   "en": "Mughal Empire",
+   "zh": "莫卧儿帝国"
+  },
+  "description": "great Turkic descent empire ruling India (1526–1857)",
+  "coord": null,
+  "image": "Mughal Empire (1700).png",
+  "pointInTime": null,
+  "start": {
+   "year": 1526,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1857,
+   "date": "1857-09-21",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Mughal Empire",
+   "zh": "莫卧儿帝国"
+  },
+  "locationQid": null
+ },
+ "Q333140": {
+  "label": {
+   "en": "Duleep Singh I",
+   "zh": "杜勒普"
+  },
+  "description": "last Maharaja of the Sikh Empire (1838-1893)",
+  "coord": null,
+  "image": "Dalip Singh Sukerchakia 1861.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1838,
+   "date": "1838-09-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1893,
+   "date": "1893-10-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Duleep Singh",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3352284": {
+  "label": {
+   "en": "Gopala",
+   "zh": "瞿波罗一世"
+  },
+  "description": "8th century founder of Indian Pala Dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gopala I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q335362": {
+  "label": {
+   "en": "Alauddin Khalji",
+   "zh": "阿拉烏丁·卡爾吉"
+  },
+  "description": "13th Sultan of the Delhi Sultanate and 2nd from the Khalji dynasty (1266-1316)",
+  "coord": null,
+  "image": "The Execution of Jalal-al-Din Firuzshah II (r1290-96), Jami al-Tawarikh (Alauddin Khalji detail).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1266,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1316,
+   "date": "1316-01-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alauddin Khalji",
+   "zh": "阿拉丁·卡尔吉"
+  },
+  "locationQid": null
+ },
+ "Q335786": {
+  "label": {
+   "en": "Charles Canning, 1st Earl Canning",
+   "zh": "查尔斯·坎宁"
+  },
+  "description": "British politician (1812-1862)",
+  "coord": null,
+  "image": "Charles Canning, 1st Earl Canning.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1812,
+   "date": "1812-12-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1862,
+   "date": "1862-06-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles Canning, 1st Earl Canning",
+   "zh": "第一代坎宁伯爵查尔斯·坎宁"
+  },
+  "locationQid": null
+ },
+ "Q336312": {
+  "label": {
+   "en": "Iltutmish",
+   "zh": "伊勒杜迷失"
+  },
+  "description": "13th century ruler of the Delhi Sultinate",
+  "coord": null,
+  "image": "Entrance to Illtumish Tomb in Qutub Minar Complex.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1192,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1236,
+   "date": "1236-04-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Iltutmish",
+   "zh": "伊勒杜迷失"
+  },
+  "locationQid": null
+ },
+ "Q34413": {
+  "label": {
+   "en": "Benazir Bhutto",
+   "zh": "贝娜齐尔·布托"
+  },
+  "description": "11th and 13th prime minister of Pakistan (1953–2007)",
+  "coord": null,
+  "image": "Oliver Mark - Benazir Bhutto, Dubai 2006 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1953,
+   "date": "1953-06-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2007,
+   "date": "2007-12-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Benazir Bhutto",
+   "zh": "贝娜齐尔·布托"
+  },
+  "locationQid": null
+ },
+ "Q3518429": {
+  "label": {
+   "en": "Āryabhaṭīya",
+   "zh": "阿里亞巴蒂亞"
+  },
+  "description": "Sanskrit astronomical treatise by the 5th century Indian mathematician Aryabhata",
+  "coord": null,
+  "image": "Description of Kuttaka in Aryabhatiya.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q384515"
+  ],
+  "wiki": {
+   "en": "Aryabhatiya",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3536697": {
+  "label": {
+   "en": "Krishna III(kannara deva)",
+   "zh": null
+  },
+  "description": "emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 939,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 967,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Krishna III",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3537043": {
+  "label": {
+   "en": "Mahendravarman I",
+   "zh": null
+  },
+  "description": "Pallava king who ruled the Northern regions of what forms present-day Tamil Nadu in India in the early 7th century",
+  "coord": null,
+  "image": "Mahabalipuram, Pancha Rathas, Tamil Nadu, India.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 630,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mahendravarman I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3537058": {
+  "label": {
+   "en": "Narasimhavarman I",
+   "zh": "那拉辛哈瓦曼一世"
+  },
+  "description": "Tamil king of the Pallava dynasty who ruled South India from 630–668 CE",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 630,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 668,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Narasimhavarman I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3537060": {
+  "label": {
+   "en": "Simhavishnu",
+   "zh": null
+  },
+  "description": "son of Simhavarman III and one of the Pallava kings of India",
+  "coord": null,
+  "image": "Simhavishnu portrait in stone.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Simhavishnu",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q35381": {
+  "label": {
+   "en": "Colombo",
+   "zh": "科伦坡"
+  },
+  "description": "largest city and de facto capital of Sri Lanka",
+  "coord": {
+   "lat": 6.9267,
+   "lon": 79.8606
+  },
+  "image": "Colombo skyline 2024.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q51929311",
+   "Q129319205",
+   "Q129268952",
+   "Q125684839",
+   "Q11418818"
+  ],
+  "wiki": {
+   "en": "Colombo",
+   "zh": "可倫坡"
+  }
+ },
+ "Q3630862": {
+  "label": {
+   "en": "Amoghavarsha I",
+   "zh": "阿目佉跋沙一世"
+  },
+  "description": "Rashtrakuta emperor",
+  "coord": null,
+  "image": "Old Kannada inscription (876 AD) of Rashtrakuta King Amoghavarsha I at Veerabhadra temple in Kumsi.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 800,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 878,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Amoghavarsha",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3633171": {
+  "label": {
+   "en": "Shahu I",
+   "zh": null
+  },
+  "description": "Chhatrapati of India from 1708 to 1749",
+  "coord": null,
+  "image": "Chhatrapati Shahu I.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1682,
+   "date": "1682-05-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1749,
+   "date": "1749-12-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shahu I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3634713": {
+  "label": {
+   "en": "Govinda III",
+   "zh": null
+  },
+  "description": "Rashtrakuta Emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 793,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 814,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Govinda III",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3635360": {
+  "label": {
+   "en": "Battle of Haldighati",
+   "zh": null
+  },
+  "description": "1576 battle of the Mughal-Rajput Wars",
+  "coord": {
+   "lat": 24.8922,
+   "lon": 73.6978
+  },
+  "image": "Chokha, Battle of Haldighati, painted 1822.jpg",
+  "pointInTime": {
+   "year": 1576,
+   "date": "1576-06-18",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Haldighati",
+   "zh": null
+  }
+ },
+ "Q371394": {
+  "label": {
+   "en": "Bangladesh Liberation War",
+   "zh": "孟加拉国解放战争"
+  },
+  "description": "conflict that led to the independence of the majority-Bengali country",
+  "coord": null,
+  "image": "Bangladesh 1971 Liberation.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1971,
+   "date": "1971-03-26",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1971,
+   "date": "1971-12-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Bangladesh Liberation War",
+   "zh": "孟加拉国解放战争"
+  },
+  "locationQid": "Q842931"
+ },
+ "Q374288": {
+  "label": {
+   "en": "Ghiyas ud din Balban",
+   "zh": "巴爾邦"
+  },
+  "description": "9th Sultan of the Delhi Sultanate",
+  "coord": null,
+  "image": "Grave in Balban's tomb enclosure.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1201,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1287,
+   "date": "1287-01-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Balban",
+   "zh": "吉亞斯丁·巴勒班"
+  },
+  "locationQid": null
+ },
+ "Q374521": {
+  "label": {
+   "en": "Bahmani Sultanate",
+   "zh": "巴赫曼尼苏丹国"
+  },
+  "description": "former South Asian country in South India",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1347,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1527,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q12759805",
+   "Q164950"
+  ],
+  "wiki": {
+   "en": "Bahmani Kingdom",
+   "zh": "巴赫曼尼苏丹国"
+  },
+  "locationQid": null
+ },
+ "Q374902": {
+  "label": {
+   "en": "The Asiatic Society",
+   "zh": "亞洲公會"
+  },
+  "description": "learned society founded by Sir William Jones in 1784",
+  "coord": {
+   "lat": 22.5552,
+   "lon": 88.3505
+  },
+  "image": "Asiatic Society of Bengal logo.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1784,
+   "date": "1784-01-15",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q48204",
+   "Q748019"
+  ],
+  "wiki": {
+   "en": "The Asiatic Society",
+   "zh": null
+  }
+ },
+ "Q3764262": {
+  "label": {
+   "en": "Dantidurga",
+   "zh": "弹底杜罗伽"
+  },
+  "description": "Durga",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 735,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 756,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dantidurga",
+   "zh": "弹底杜罗伽"
+  },
+  "locationQid": null
+ },
+ "Q3764500": {
+  "label": {
+   "en": "Yajna Sri Satakarni",
+   "zh": null
+  },
+  "description": "2nd century Satavahana King",
+  "coord": null,
+  "image": "Gautamiputra Rajni Shri Satakarni.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 200,
+   "date": null,
+   "precision": 6,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yajna Sri Satakarni",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3817019": {
+  "label": {
+   "en": "Mummadi Krishnaraja Wodeyar III",
+   "zh": "克里什纳拉贾·瓦迪亚三世"
+  },
+  "description": "Maharaja of Mysore (1794–1868)",
+  "coord": null,
+  "image": "Krishnaraja Wadiyar III, Maharaja of Mysore.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1794,
+   "date": "1794-07-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1868,
+   "date": "1868-03-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Krishnaraja Wodeyar III",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q381754": {
+  "label": {
+   "en": "Ibrahim Khan Lodi",
+   "zh": "易卜拉辛·羅迪"
+  },
+  "description": "Sultan of the Delhi Sultanate from 1517 to 1526",
+  "coord": null,
+  "image": "Ibrahim Lodi at the Battle of Panipat (1526).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1480,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1526,
+   "date": "1526-04-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ibrahim Khan Lodi",
+   "zh": "易卜拉欣·洛迪"
+  },
+  "locationQid": null
+ },
+ "Q381830": {
+  "label": {
+   "en": "Muhammad ibn Tughluq",
+   "zh": "穆罕默德·宾·图格鲁克"
+  },
+  "description": "18th Sultan of the Delhi Sultanate and 2nd from the Tughluq dynasty",
+  "coord": null,
+  "image": "Muhammad bin Tughlaq crop.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1290,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1351,
+   "date": "1351-03-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muhammad bin Tughluq",
+   "zh": "穆罕默德·賓·圖格魯克"
+  },
+  "locationQid": null
+ },
+ "Q4166578": {
+  "label": {
+   "en": "Battle of Khanwa",
+   "zh": null
+  },
+  "description": "1527 battle of the Mughal Empire",
+  "coord": {
+   "lat": 27.0353,
+   "lon": 77.5431
+  },
+  "image": "Babur’s army in battle against the army of Rana Sanga at.jpg",
+  "pointInTime": {
+   "year": 1527,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Khanwa",
+   "zh": null
+  }
+ },
+ "Q41914": {
+  "label": {
+   "en": "Manmohan Singh",
+   "zh": "曼莫汉·辛格"
+  },
+  "description": "Indian economist, bureaucrat, academician and politician",
+  "coord": null,
+  "image": "Official Portrait of the Prime Minister Dr. Manmohan Singh.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1932,
+   "date": "1932-09-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2024,
+   "date": "2024-12-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manmohan Singh",
+   "zh": "曼莫汉·辛格"
+  },
+  "locationQid": null
+ },
+ "Q455442": {
+  "label": {
+   "en": "Firuz Shah Tughlaq",
+   "zh": "菲魯茲·沙"
+  },
+  "description": "19th Sultan of the Delhi Sultanate and 3rd from the Tughlaq dynasty",
+  "coord": null,
+  "image": "Firoz Shah Taghlak.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1309,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1388,
+   "date": "1388-09-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Firuz Shah Tughlaq",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q466330": {
+  "label": {
+   "en": "Meera",
+   "zh": "米拉巴伊"
+  },
+  "description": "16th-century Hindu mystic poet, saint and devotee of the god Krishna",
+  "coord": null,
+  "image": "Meerabai painting.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1498,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1546,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mirabai",
+   "zh": "米拉拜"
+  },
+  "locationQid": null
+ },
+ "Q466803": {
+  "label": {
+   "en": "Pallava dynasty",
+   "zh": "拔罗婆王朝之起源"
+  },
+  "description": "Indian dynasty between the 3rd and 9th centuries CE",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 275,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 897,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q164950",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Pallava dynasty",
+   "zh": "帕拉瓦王朝"
+  },
+  "locationQid": null
+ },
+ "Q469661": {
+  "label": {
+   "en": "Junius Richard Jayewardene",
+   "zh": "朱尼厄斯·理查德·贾亚瓦尔德纳"
+  },
+  "description": "President of Sri Lanka from 1978 to 1989",
+  "coord": null,
+  "image": "J. R. Jayawardene, President of the Democratic Socialist Republic of Sri Lanka on June 20, 1984.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1906,
+   "date": "1906-09-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1996,
+   "date": "1996-11-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "J. R. Jayewardene",
+   "zh": "朱尼厄斯·理查德·贾亚瓦德纳"
+  },
+  "locationQid": null
+ },
+ "Q470715": {
+  "label": {
+   "en": "Kumaragupta I",
+   "zh": "鳩摩羅笈多一世"
+  },
+  "description": "Gupta Emperor (399-455)",
+  "coord": null,
+  "image": "KumaraguptaFightingLion.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 399,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 455,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kumaragupta I",
+   "zh": "鳩摩羅·笈多一世"
+  },
+  "locationQid": null
+ },
+ "Q477108": {
+  "label": {
+   "en": "Constitution of India",
+   "zh": "印度宪法"
+  },
+  "description": "Supreme law of India (1950-present)",
+  "coord": null,
+  "image": "Constitution of India (calligraphic) Cover.png",
+  "pointInTime": {
+   "year": 1950,
+   "date": "1950-01-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7755",
+   "Q47461344",
+   "Q1973852"
+  ],
+  "wiki": {
+   "en": "Constitution of India",
+   "zh": "印度宪法"
+  },
+  "locationQid": null
+ },
+ "Q485547": {
+  "label": {
+   "en": "Aurangzeb",
+   "zh": "奥朗则布"
+  },
+  "description": "the sixth Mughal Emperor from 1658 to 1707",
+  "coord": null,
+  "image": "Aurangzeb (r. 1658-1707).jpg (Cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1618,
+   "date": "1618-11-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1707,
+   "date": "1707-03-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Aurangzeb",
+   "zh": "奥朗则布"
+  },
+  "locationQid": null
+ },
+ "Q486188": {
+  "label": {
+   "en": "Humayun",
+   "zh": "胡马雍"
+  },
+  "description": "second Mughal emperor from 1530 to 1540 and 1555 to 1556",
+  "coord": null,
+  "image": "Humayun and Babur (Late Shah Jahan Album) Humayun detail.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1508,
+   "date": "1508-03-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1556,
+   "date": "1556-01-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Humayun",
+   "zh": "胡马雍"
+  },
+  "locationQid": null
+ },
+ "Q52183": {
+  "label": {
+   "en": "Sheikh Hasina",
+   "zh": "谢赫·哈西娜"
+  },
+  "description": "Prime Minister of Bangladesh (1996–2001, 2009–2024)",
+  "coord": null,
+  "image": "Prime Minister Sheikh Hasina Attends Business Advisory Committee Meeting 2024-05-02 (PID-0008829) (portrait cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1947,
+   "date": "1947-09-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sheikh Hasina",
+   "zh": "谢赫·哈西娜"
+  },
+  "locationQid": null
+ },
+ "Q522837": {
+  "label": {
+   "en": "Bengal famine of 1943",
+   "zh": "1943年孟加拉饥荒"
+  },
+  "description": "Famine in British India during World War II",
+  "coord": {
+   "lat": 23.9888,
+   "lon": 88.7311
+  },
+  "image": "Bengal famine 1943 photo.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1943,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1944,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q168247"
+  ],
+  "wiki": {
+   "en": "Bengal famine of 1943",
+   "zh": "1943年孟加拉饥荒"
+  }
+ },
+ "Q5257": {
+  "label": {
+   "en": "Satavahana dynasty",
+   "zh": "百乘王朝"
+  },
+  "description": "Indian dynasty (2nd century BCE–Early 3rd century CE)",
+  "coord": {
+   "lat": 16.52,
+   "lon": 79.5
+  },
+  "image": "Bimbisara with his royal cortege issuing from the city of Rajagriha to visit the Buddha.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -230,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 220,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Satavahana dynasty",
+   "zh": "百乘王朝"
+  }
+ },
+ "Q543419": {
+  "label": {
+   "en": "iron pillar of Delhi",
+   "zh": "德里鐵柱"
+  },
+  "description": "7.2 m pillar in the Qutb complex, Mehrauli, Delhi, India, erected in the 5th century CE",
+  "coord": {
+   "lat": 28.5247,
+   "lon": 77.1851
+  },
+  "image": "Iron Pillar of Delhi-Q543419N -Mehrauli -Delhi -DL-161.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 500,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1930585",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Iron pillar of Delhi",
+   "zh": "德里鐵柱"
+  }
+ },
+ "Q5477720": {
+  "label": {
+   "en": "Vikramaditya II",
+   "zh": "维克拉姆帝亚二世"
+  },
+  "description": "Chalukya king",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 744,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vikramaditya II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q560157": {
+  "label": {
+   "en": "Kujula Kadphises",
+   "zh": "丘就却"
+  },
+  "description": "Founder of the Kushan empire (30–80)",
+  "coord": null,
+  "image": "Kujula Kadphises (coin portrait).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 20,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 80,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kujula Kadphises",
+   "zh": "丘就却"
+  },
+  "locationQid": null
+ },
+ "Q5971343": {
+  "label": {
+   "en": "Madhavrao I",
+   "zh": "马达夫拉奥一世"
+  },
+  "description": "Peshwa of Maratha Empire",
+  "coord": null,
+  "image": "Madhavrao I Peshwa.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1745,
+   "date": "1745-02-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1772,
+   "date": "1772-11-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Madhavrao I",
+   "zh": "马达夫拉奥一世"
+  },
+  "locationQid": null
+ },
+ "Q605321": {
+  "label": {
+   "en": "Battle of Panipat",
+   "zh": "第一次帕尼帕特战役"
+  },
+  "description": "1526 battle.",
+  "coord": {
+   "lat": 29.4017,
+   "lon": 76.9728
+  },
+  "image": "Battle of Panipat (20 April 1526). Baburnama of 1598.jpg",
+  "pointInTime": {
+   "year": 1526,
+   "date": "1526-05-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "First Battle of Panipat",
+   "zh": "第一次帕尼帕特之戰"
+  }
+ },
+ "Q617321": {
+  "label": {
+   "en": "Anglo-Mysore wars",
+   "zh": "英迈战争"
+  },
+  "description": "18th century wars between Mysore (Hyder Ali and Tipu sultan) and British",
+  "coord": {
+   "lat": 13,
+   "lon": 77
+  },
+  "image": "SiegeOfCuddalore1783.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1767,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1799,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q104212151"
+  ],
+  "wiki": {
+   "en": "Anglo-Mysore wars",
+   "zh": "英邁戰爭"
+  }
+ },
+ "Q6400556": {
+  "label": {
+   "en": "Kharak Singh",
+   "zh": "卡拉克·辛格"
+  },
+  "description": "2nd ruler of the Sikh Empire",
+  "coord": null,
+  "image": "Kharak Singh.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1801,
+   "date": "1801-02-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1840,
+   "date": "1840-11-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kharak Singh",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q65089139": {
+  "label": {
+   "en": "First Battle of Tarain",
+   "zh": null
+  },
+  "description": "1191 battle near modern Taraori, India",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1191,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "First Battle of Tarain",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q663001": {
+  "label": {
+   "en": "Don Stephen Senanayake",
+   "zh": "斯蒂芬·森纳那亚克"
+  },
+  "description": "Prime Minister of Sri Lanka (1884-1952)",
+  "coord": null,
+  "image": "Official Photographic Portrait of Don Stephen Senanayaka (1884-1952).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1884,
+   "date": "1884-10-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1952,
+   "date": "1952-03-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "D. S. Senanayake",
+   "zh": "斯蒂芬·森纳那亚克"
+  },
+  "locationQid": null
+ },
+ "Q664162": {
+  "label": {
+   "en": "Periplus of the Erythraean Sea",
+   "zh": "爱利脱利亚海周航记"
+  },
+  "description": "1st century Greco-Roman periplus",
+  "coord": null,
+  "image": "Periplus Erythraen Sea.png",
+  "pointInTime": null,
+  "start": {
+   "year": 100,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Periplus of the Erythraean Sea",
+   "zh": "爱利脱利亚海周航记"
+  },
+  "locationQid": null
+ },
+ "Q668": {
+  "label": {
+   "en": "India",
+   "zh": "印度"
+  },
+  "description": "country in South Asia",
+  "coord": {
+   "lat": 22.8,
+   "lon": 83
+  },
+  "image": "India-locator-map-blank.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1947,
+   "date": "1947-08-15",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6256",
+   "Q3624078"
+  ],
+  "wiki": {
+   "en": "India",
+   "zh": "印度"
+  }
+ },
+ "Q668412": {
+  "label": {
+   "en": "Pala Empire",
+   "zh": "波罗王朝"
+  },
+  "description": "kingdom In North India",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 750,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1174,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Pala Empire",
+   "zh": "波罗王朝"
+  },
+  "locationQid": null
+ },
+ "Q707745": {
+  "label": {
+   "en": "Narasimhavarman II",
+   "zh": null
+  },
+  "description": "Pallava king who ruled in South India during the 6th century",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 550,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Narasimhavarman II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q708370": {
+  "label": {
+   "en": "Pulakeshi II",
+   "zh": "補羅稽舍二世"
+  },
+  "description": "Indian king from Chalukya dynasty of Vatapi",
+  "coord": null,
+  "image": "Pulikesin II, the Chalukhaya, receives envoys from Persia (1).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 610,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 642,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pulakeshin II",
+   "zh": "补罗稽舍二世"
+  },
+  "locationQid": null
+ },
+ "Q7241": {
+  "label": {
+   "en": "Rabindranath Tagore",
+   "zh": "罗宾德拉纳特·泰戈尔"
+  },
+  "description": "Bengali poet, philosopher and polymath (1861–1941)",
+  "coord": null,
+  "image": "Rabindranath Tagore in 1909.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1861,
+   "date": "1861-05-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1941,
+   "date": "1941-08-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rabindranath Tagore",
+   "zh": "罗宾德拉纳特·泰戈尔"
+  },
+  "locationQid": null
+ },
+ "Q7259171": {
+  "label": {
+   "en": "Pulakesi I",
+   "zh": "普拉凯辛一世"
+  },
+  "description": "Monarch of the Chalukya dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 543,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pulakeshin I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7494639": {
+  "label": {
+   "en": "Sher Singh",
+   "zh": null
+  },
+  "description": "Fourth Maharaja of the Sikh Empire from 1841–1843",
+  "coord": null,
+  "image": "Painting of Maharaja Sher Singh wearing the Koh-i-Noor diamond, by August Schoefft, ca.1841–42.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1807,
+   "date": "1807-12-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1843,
+   "date": "1843-09-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sher Singh",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7676751": {
+  "label": {
+   "en": "Taj ud-Din Firuz Shah",
+   "zh": null
+  },
+  "description": "Ruler of the Bahmani Sultanate",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1371,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1422,
+   "date": "1422-10-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Taj ud-Din Firuz Shah",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7916834": {
+  "label": {
+   "en": "Vasisthiputra Sri Pulamavi",
+   "zh": null
+  },
+  "description": "satavahana King",
+  "coord": null,
+  "image": "Vashishthiputra Shri Pulumavi.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vasishthiputra Pulumavi",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7929271": {
+  "label": {
+   "en": "Vijayalaya Chola",
+   "zh": "韋迦亞剌雅"
+  },
+  "description": "Chola king",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 871,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vijayalaya Chola",
+   "zh": "韋迦亞剌雅"
+  },
+  "locationQid": null
+ },
+ "Q797848": {
+  "label": {
+   "en": "Babur",
+   "zh": "巴布爾"
+  },
+  "description": "founder of the Mughal Empire (1526–1530)",
+  "coord": null,
+  "image": "Humayun and Babur (Late Shah Jahan Album) Babur detail.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1483,
+   "date": "1483-02-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1530,
+   "date": "1530-12-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Babur",
+   "zh": "巴布尔"
+  },
+  "locationQid": null
+ },
+ "Q79980": {
+  "label": {
+   "en": "Varanasi",
+   "zh": "瓦拉纳西"
+  },
+  "description": "city on the banks of the Ganges in the Uttar Pradesh state of India",
+  "coord": {
+   "lat": 25.3189,
+   "lon": 83.0128
+  },
+  "image": "Varanasi, India, Varanasi skyline in the evening.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q692581"
+  ],
+  "wiki": {
+   "en": "Varanasi",
+   "zh": "瓦拉納西"
+  }
+ },
+ "Q80484": {
+  "label": {
+   "en": "Patna",
+   "zh": "巴特那"
+  },
+  "description": "metropolis and state capital of Bihar, India",
+  "coord": {
+   "lat": 25.61,
+   "lon": 85.1414
+  },
+  "image": "Aerial view, Patna (314731093).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q51929311",
+   "Q11271835",
+   "Q702492"
+  ],
+  "wiki": {
+   "en": "Patna",
+   "zh": "巴特那"
+  }
+ },
+ "Q815204": {
+  "label": {
+   "en": "Siege of Seringapatam",
+   "zh": "第二次塞林卡帕坦圍困戰"
+  },
+  "description": "1799 siege",
+  "coord": {
+   "lat": 12.424,
+   "lon": 76.6903
+  },
+  "image": "Tipu death.jpg",
+  "pointInTime": {
+   "year": 1799,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1799,
+   "date": "1799-04-05",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1799,
+   "date": "1799-05-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Seringapatam (1799)",
+   "zh": null
+  }
+ },
+ "Q83163": {
+  "label": {
+   "en": "Srinivasa Ramanujan",
+   "zh": "拉马努金"
+  },
+  "description": "Indian mathematician (1887–1920)",
+  "coord": null,
+  "image": "Srinivasa Ramanujan - OPC - 2 (cleaned).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1887,
+   "date": "1887-12-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1920,
+   "date": "1920-04-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Srinivasa Ramanujan",
+   "zh": "斯里尼瓦瑟·拉马努金"
+  },
+  "locationQid": null
+ },
+ "Q83322": {
+  "label": {
+   "en": "Guru Nanak",
+   "zh": "拿那克"
+  },
+  "description": "First Sikh Guru and founder of Sikhism",
+  "coord": null,
+  "image": "Mural painting of Guru Nanak from Gurdwara Baba Atal Rai.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1469,
+   "date": "1469-04-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1539,
+   "date": "1539-09-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Guru Nanak",
+   "zh": "古魯那納克"
+  },
+  "locationQid": null
+ },
+ "Q83572": {
+  "label": {
+   "en": "Sikh Empire",
+   "zh": "锡克帝国"
+  },
+  "description": "Empire on the Indian subcontinent (1799–1849)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1733,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1849,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q48349"
+  ],
+  "wiki": {
+   "en": "Sikh Empire",
+   "zh": "锡克帝国"
+  },
+  "locationQid": null
+ },
+ "Q83618": {
+  "label": {
+   "en": "Maratha Empire",
+   "zh": "马拉塔帝国"
+  },
+  "description": "1674–1818 empire in the Indian subcontinent",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1674,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1818,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Maratha Empire",
+   "zh": "馬拉塔帝國"
+  },
+  "locationQid": null
+ },
+ "Q83653": {
+  "label": {
+   "en": "Jahangir I",
+   "zh": "扬汉吉尔"
+  },
+  "description": "the fourth Mughal Emperor from 1605 to 1627",
+  "coord": null,
+  "image": "Contemporary portrait of Jahangir in 1605.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1569,
+   "date": "1569-08-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1627,
+   "date": "1627-10-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jahangir",
+   "zh": "贾汉吉尔"
+  },
+  "locationQid": null
+ },
+ "Q83672": {
+  "label": {
+   "en": "Shah Jahan",
+   "zh": "沙贾汗"
+  },
+  "description": "the fifth Mughal Emperor from 1628 to 1658",
+  "coord": null,
+  "image": "'Jujhar Singh Bundela Kneels in Submission to Shah Jahan', painted by Bichitr, c. 1630, Chester Beatty Library (cropped2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1592,
+   "date": "1592-01-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1666,
+   "date": "1666-01-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shah Jahan",
+   "zh": "沙贾汉"
+  },
+  "locationQid": null
+ },
+ "Q843": {
+  "label": {
+   "en": "Pakistan",
+   "zh": "巴基斯坦"
+  },
+  "description": "sovereign state in South Asia",
+  "coord": {
+   "lat": 30,
+   "lon": 71
+  },
+  "image": "Blue Hour at Pakistan Monument.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1947,
+   "date": "1947-08-14",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Pakistan",
+   "zh": "巴基斯坦"
+  }
+ },
+ "Q844536": {
+  "label": {
+   "en": "Chandragupta II",
+   "zh": "旃陀罗·笈多二世"
+  },
+  "description": "Ruler of Gupta Empire from c. 375 to c. 415",
+  "coord": null,
+  "image": "ChandraguptaIIOnHorse.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 400,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 500,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chandragupta II",
+   "zh": "旃陀罗·笈多二世"
+  },
+  "locationQid": null
+ },
+ "Q849802": {
+  "label": {
+   "en": "Chandragupta I",
+   "zh": "旃陀罗·笈多一世"
+  },
+  "description": "4th-century king of the Gupta Empire",
+  "coord": null,
+  "image": "Queen Kumaradevi and King Chandragupta I on a coin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 250,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 335,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chandragupta I",
+   "zh": "旃陀罗·笈多一世"
+  },
+  "locationQid": null
+ },
+ "Q854": {
+  "label": {
+   "en": "Sri Lanka",
+   "zh": "斯里兰卡"
+  },
+  "description": "island country in South Asia",
+  "coord": {
+   "lat": 7,
+   "lon": 81
+  },
+  "image": "Topography Sri Lanka.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1972,
+   "date": "1972-05-22",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q112099",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Sri Lanka",
+   "zh": "斯里蘭卡"
+  }
+ },
+ "Q856691": {
+  "label": {
+   "en": "Rashtrakuta dynasty",
+   "zh": "罗湿陀罗拘陀"
+  },
+  "description": "early medieval period Indian dynasty (r. mid-6th to 10th century)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 753,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 982,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Rashtrakuta Empire",
+   "zh": "罗湿陀罗拘陀"
+  },
+  "locationQid": null
+ },
+ "Q8597": {
+  "label": {
+   "en": "Akbar",
+   "zh": "阿克巴"
+  },
+  "description": "the third and greatest Mughal emperor from 1556 to 1605",
+  "coord": null,
+  "image": "Contemporary seated portrait of Akbar, 1605.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1542,
+   "date": "1542-10-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1605,
+   "date": "1605-10-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Akbar",
+   "zh": "阿克巴"
+  },
+  "locationQid": null
+ },
+ "Q902": {
+  "label": {
+   "en": "Bangladesh",
+   "zh": "孟加拉国"
+  },
+  "description": "country in South Asia",
+  "coord": {
+   "lat": 24.0167,
+   "lon": 89.8667
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1971,
+   "date": "1971-03-26",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Bangladesh",
+   "zh": "孟加拉国"
+  }
+ },
+ "Q9141": {
+  "label": {
+   "en": "Taj Mahal",
+   "zh": "泰姬陵"
+  },
+  "description": "marble mausoleum in Agra, India",
+  "coord": {
+   "lat": 27.175,
+   "lon": 78.0419
+  },
+  "image": "Taj Mahal, Agra, India edit3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q162875",
+   "Q381885"
+  ],
+  "wiki": {
+   "en": "Taj Mahal",
+   "zh": "泰姬陵"
+  }
+ },
+ "Q916943": {
+  "label": {
+   "en": "Prahadisvarar Temple",
+   "zh": "布里哈迪希瓦拉神庙"
+  },
+  "description": "11th century Tamil Chola Dynasty Temple and UNESCO World Heritage Site",
+  "coord": {
+   "lat": 10.7831,
+   "lon": 79.1325
+  },
+  "image": "Le temple de Brihadishwara (Tanjore, Inde) (14354574611).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1010,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q842402",
+   "Q1435771"
+  ],
+  "wiki": {
+   "en": "Brihadisvara Temple",
+   "zh": "布里哈迪希瓦拉神庙"
+  }
+ },
+ "Q9439": {
+  "label": {
+   "en": "Victoria",
+   "zh": "维多利亚女王"
+  },
+  "description": "Queen of the United Kingdom from 1837 to 1901 (1819–1901)",
+  "coord": null,
+  "image": "Queen Victoria by Bassano.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1819,
+   "date": "1819-05-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-01-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Queen Victoria",
+   "zh": "维多利亚女王"
+  },
+  "locationQid": null
+ },
+ "loc:Q129286": {
+  "coord": {
+   "lat": 22.5411,
+   "lon": 88.3378
+  },
+  "label": {
+   "en": "British Raj",
+   "zh": "英属印度"
+  }
+ },
+ "loc:Q1353": {
+  "coord": {
+   "lat": 28.6667,
+   "lon": 77.2167
+  },
+  "label": {
+   "en": "Delhi",
+   "zh": "德里"
+  }
+ },
+ "loc:Q169132": {
+  "coord": {
+   "lat": 31,
+   "lon": 74
+  },
+  "label": {
+   "en": "Punjab",
+   "zh": "旁遮普地区"
+  }
+ },
+ "loc:Q2001966": {
+  "coord": null,
+  "label": {
+   "en": "Company rule in India",
+   "zh": "东印度公司治下的印度"
+  }
+ },
+ "loc:Q553907": {
+  "coord": {
+   "lat": 15.5024,
+   "lon": 73.9117
+  },
+  "label": {
+   "en": "Old Goa",
+   "zh": "旧果亚"
+  }
+ },
+ "loc:Q8131": {
+  "coord": {
+   "lat": -2.9833,
+   "lon": 104.7644
+  },
+  "label": {
+   "en": "Palembang",
+   "zh": "巨港"
+  }
+ },
+ "loc:Q842931": {
+  "coord": {
+   "lat": 23.801,
+   "lon": 90.409
+  },
+  "label": {
+   "en": "East Pakistan",
+   "zh": "东巴基斯坦"
+  }
+ }
+}

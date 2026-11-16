@@ -1,7 +1,41 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { EVENT_COLOR, EVENT_GLYPH, EVENT_TYPE_LABEL, s } from '../i18n';
 import { formatYear, t, useStore } from '../state/store';
-import type { ImageRef, Lang, Source, Stop } from '../types';
+import type { ImageRef, L10n, Lang, Source, Stop } from '../types';
+
+// Long-form stories live in a separate file so the first paint only waits for atlas.json.
+let storiesPromise: Promise<Record<string, L10n>> | null = null;
+function loadStories() {
+  storiesPromise ??= fetch(`${import.meta.env.BASE_URL}data/stories.json`)
+    .then((r) => (r.ok ? r.json() : {}))
+    .catch(() => {
+      storiesPromise = null;
+      return {};
+    });
+  return storiesPromise;
+}
+
+function Story({ id, lang }: { id: string; lang: Lang }) {
+  const [loaded, setLoaded] = useState<{ id: string; story: L10n | null } | null>(null);
+  useEffect(() => {
+    let live = true;
+    loadStories().then((all) => live && setLoaded({ id, story: all[id] ?? null }));
+    return () => {
+      live = false;
+    };
+  }, [id]);
+  const story = loaded?.id === id ? loaded.story : null;
+  if (!story) return null;
+  return (
+    <div className="story">
+      {t(story, lang)
+        .split(/\n{2,}/)
+        .map((para, i) => (
+          <p key={i}>{para}</p>
+        ))}
+    </div>
+  );
+}
 
 function Img({ img, alt }: { img?: ImageRef; alt: string }) {
   if (!img) return null;
@@ -123,6 +157,7 @@ export function DetailCard() {
             {lang === 'zh' ? e.name.en : e.name.zh}
           </div>
           <p className="summary">{t(e.summary, lang)}</p>
+          <Story id={e.id} lang={lang} />
           <Confidence c={e.confidence} note={e.note} lang={lang} />
           {people.length > 0 && (
             <>
@@ -159,6 +194,7 @@ export function DetailCard() {
           <h2>{t(p.name, lang)}</h2>
           <div className="alt-name" lang={lang === 'zh' ? 'en' : 'zh'}>{lang === 'zh' ? p.name.en : p.name.zh}</div>
           <p className="summary">{t(p.summary, lang)}</p>
+          <Story id={p.id} lang={lang} />
           <Confidence c={p.confidence} note={p.note} lang={lang} />
           <h4>{s('journey', lang)}</h4>
           <StopList stops={p.stops} lang={lang} active={journeyStop} onPick={(i) => pickStop(p.stops, i)} />
@@ -189,6 +225,7 @@ export function DetailCard() {
           </div>
           <h2>{t(p.modern, lang)}</h2>
           <p className="summary">{t(p.summary, lang)}</p>
+          <Story id={p.id} lang={lang} />
           <ol className="genealogy">
             {p.names.map((n, i) => {
               const now = year >= n.from && (n.to === null || year < n.to);
@@ -243,6 +280,7 @@ export function DetailCard() {
           <h2>{t(p.name, lang)}</h2>
           <div className="alt-name" lang={lang === 'zh' ? 'en' : 'zh'}>{lang === 'zh' ? p.name.en : p.name.zh}</div>
           <p className="summary">{t(p.summary, lang)}</p>
+          <Story id={p.id} lang={lang} />
           {p.rulers && p.rulers.length > 0 && (
             <>
               <h4>{s('rulers', lang)}</h4>

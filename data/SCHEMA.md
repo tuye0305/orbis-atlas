@@ -1,8 +1,12 @@
 # Data schema
 
-All curated data lives in `data/<region>/*.json`. Each file is a JSON **array**.
+All curated data lives in `data/<dataset>/*.json`. Each file is a JSON **array** with one record
+per line; run `node scripts/fmt-data.mjs <dataset>` after editing to restore that layout.
 Regions: `europe`, `africa`, `west-asia`, `south-asia`, `central-asia`, `east-asia`
-(China, Japan, Korea, Mongolia's sedentary neighbours), `southeast-asia`.
+(China, Japan, Korea, Mongolia's sedentary neighbours), `southeast-asia`, `north-america`
+(Canada, the United States, the Arctic), `mesoamerica` (Mexico, Central America, the Caribbean),
+`south-america`, `oceania` (Australia, New Zealand, Melanesia, Micronesia, Polynesia incl. Hawaiʻi).
+The folder name (the *dataset*) is free; the `region` field decides navigation and music.
 
 Common rules:
 
@@ -19,6 +23,10 @@ Common rules:
 - `sources`: at least **two** entries, at least one not Wikipedia/Wikidata when possible:
   `{ "title": "Britannica: Battle of Hastings", "url": "https://www.britannica.com/event/Battle-of-Hastings" }`
   or a primary/secondary work `{ "title": "Procopius, History of the Wars, Book VIII", "url": "…optional" }`.
+- `story` (optional, any record): a longer narrative in your own words, `{ "en", "zh" }`, 80–220
+  words en, paragraphs separated by a blank line (`\n\n`). Tell what happened and why it mattered:
+  the people, an anecdote or turning point, the consequences. Only facts your sources support;
+  flag legend as legend ("According to the chronicle…"). It ships in a lazily loaded `stories.json`.
 - `confidence`: `"high"` (dates/places undisputed), `"medium"` (approximate or debated),
   `"low"` (traditional/legendary). Add `"note"` when it is not high.
 - Images: `image` is a **Wikimedia Commons file name** without the `File:` prefix

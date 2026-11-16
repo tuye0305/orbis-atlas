@@ -1,7 +1,18 @@
 export type Lang = 'en' | 'zh';
 export type L10n = { en: string; zh: string };
 
-export type RegionKey = 'europe' | 'africa' | 'west-asia' | 'south-asia' | 'central-asia' | 'east-asia' | 'southeast-asia';
+export type RegionKey =
+  | 'europe'
+  | 'africa'
+  | 'west-asia'
+  | 'south-asia'
+  | 'central-asia'
+  | 'east-asia'
+  | 'southeast-asia'
+  | 'north-america'
+  | 'mesoamerica'
+  | 'south-america'
+  | 'oceania';
 
 export interface Source {
   title: string;
@@ -22,6 +33,8 @@ interface Base {
   region: RegionKey;
   dataset: string;
   summary?: L10n;
+  /** Longer narrative (stories, anecdotes, context). Built into stories.json and loaded lazily. */
+  story?: L10n;
   sources?: Source[];
   confidence?: 'high' | 'medium' | 'low';
   note?: string;

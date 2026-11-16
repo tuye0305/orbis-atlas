@@ -293,7 +293,7 @@ export class GlobeEngine {
   }
 
   intro() {
-    // Swing in from deep space toward the Old World.
+    // Swing in from deep space toward Afro-Eurasia (the densest part of the atlas).
     if (this.reduced) {
       this.setCameraGeo(36, 40, 2.1);
       this.controls.update();

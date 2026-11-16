@@ -204,7 +204,12 @@ kbd {
 .search-trigger span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 220px; }
 .search-trigger:hover { border-color: var(--line); color: var(--ink-2); }
 
-.regions { display: flex; gap: 4px; margin: 0 auto; padding: 4px; border-radius: 99px; background: var(--panel); border: 1px solid var(--line-2); backdrop-filter: blur(12px); }
+.regions {
+  display: flex; gap: 4px; margin: 0 auto; padding: 4px; border-radius: 99px; background: var(--panel); border: 1px solid var(--line-2); backdrop-filter: blur(12px);
+  /* Eleven regions: scroll sideways rather than push the controls off-screen. */
+  min-width: 0; overflow-x: auto; scrollbar-width: none;
+}
+.regions::-webkit-scrollbar { display: none; }
 .region-chip { --accent: #d9b26a; padding: 6px 12px; border-radius: 99px; color: var(--ink-2); font-size: 13px; white-space: nowrap; }
 .region-chip:hover { color: var(--ink); background: rgba(255, 255, 255, 0.05); }
 .region-chip.on {
@@ -301,6 +306,8 @@ kbd {
 .card h2 { font-family: var(--serif); font-size: 30px; line-height: 1.1; margin: 6px 0 2px; font-weight: 700; }
 .alt-name { font-family: var(--serif); color: var(--muted); font-size: 16px; }
 .summary { color: var(--ink-2); line-height: 1.65; font-size: 14.5px; }
+.story { margin: 4px 0 14px; padding-left: 12px; border-left: 2px solid var(--gold); }
+.story p { color: var(--ink-2); line-height: 1.7; font-size: 13.5px; margin: 0 0 8px; }
 .confidence { font-size: 12.5px; line-height: 1.55; padding: 8px 10px; border-radius: 8px; background: rgba(217, 178, 106, 0.08); border-left: 2px solid var(--gold); color: var(--ink-2); }
 .confidence p { margin: 0; }
 .confidence .conf-label { font-weight: 600; color: var(--ink); }

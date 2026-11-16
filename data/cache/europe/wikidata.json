@@ -1,0 +1,7923 @@
+{
+ "Q102140": {
+  "label": {
+   "en": "Henry II of England",
+   "zh": "亨利二世"
+  },
+  "description": "King of England from 1154 to 1189",
+  "coord": null,
+  "image": "Henry II of England.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1133,
+   "date": "1133-03-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1189,
+   "date": "1189-07-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Henry II of England",
+   "zh": "亨利二世 (英格兰)"
+  },
+  "locationQid": null
+ },
+ "Q105013": {
+  "label": {
+   "en": "Friedrich Wilhelm I of Prussia",
+   "zh": "腓特烈·威廉一世"
+  },
+  "description": "king of Prussia (1688-1740)",
+  "coord": null,
+  "image": "Antoine Pesne - König Friedrich Wilhelm I. von Preußen (ca. 1733).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1688,
+   "date": "1688-08-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1740,
+   "date": "1740-05-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick William I of Prussia",
+   "zh": "腓特烈·威廉一世"
+  },
+  "locationQid": null
+ },
+ "Q1058572": {
+  "label": {
+   "en": "Sviatoslav I of Kiev",
+   "zh": "斯维亚托斯拉夫·伊戈列维奇"
+  },
+  "description": "Prince of Kiev",
+  "coord": null,
+  "image": "Svyatoslav2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 942,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 972,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sviatoslav I",
+   "zh": "斯维亚托斯拉夫·伊戈列维奇"
+  },
+  "locationQid": null
+ },
+ "Q1067": {
+  "label": {
+   "en": "Dante Alighieri",
+   "zh": "但丁·阿利吉耶里"
+  },
+  "description": "Florentine poet, writer, and philosopher (c. 1265–1321)",
+  "coord": null,
+  "image": "Portrait de Dante.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1265,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1321,
+   "date": "1321-09-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dante Alighieri",
+   "zh": "但丁·阿利吉耶里"
+  },
+  "locationQid": null
+ },
+ "Q109860": {
+  "label": {
+   "en": "Dagobert I",
+   "zh": "达戈贝尔特一世"
+  },
+  "description": "Frankish king",
+  "coord": null,
+  "image": "Portrait Roi de france Dagobert Ier.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 611,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 639,
+   "date": "0639-01-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dagobert I",
+   "zh": "达戈贝尔特一世"
+  },
+  "locationQid": null
+ },
+ "Q1108445": {
+  "label": {
+   "en": "Kievan Rus'",
+   "zh": "基辅罗斯"
+  },
+  "description": "former federation of East Slavic tribes",
+  "coord": {
+   "lat": 50.45,
+   "lon": 30.525
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 882,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1240,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kievan Rus'",
+   "zh": "基辅罗斯"
+  }
+ },
+ "Q110884": {
+  "label": {
+   "en": "Alaric II",
+   "zh": "亚拉里克二世"
+  },
+  "description": "King of the Visigoths Balti dynasty",
+  "coord": null,
+  "image": "Alarico II, rey de los Visigodos (Museo del Prado).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 458,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 507,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alaric II",
+   "zh": "亚拉里克二世"
+  },
+  "locationQid": null
+ },
+ "Q119702": {
+  "label": {
+   "en": "Anne of Great Britain",
+   "zh": "安妮"
+  },
+  "description": "Queen of Great Britain and Ireland from 1702 to 1714 (1665–1714)",
+  "coord": null,
+  "image": "Dahl, Michael - Queen Anne - NPG 6187.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1665,
+   "date": "1665-02-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1714,
+   "date": "1714-08-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anne, Queen of Great Britain",
+   "zh": "安妮女王"
+  },
+  "locationQid": null
+ },
+ "Q120776459": {
+  "label": {
+   "en": "Discovery of penicillin",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Discovery of penicillin",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1225170": {
+  "label": {
+   "en": "Magellan-Elcano expedition",
+   "zh": "斐迪南·麥哲倫環球航海時間軸"
+  },
+  "description": "16th-century Spanish maritime expedition",
+  "coord": null,
+  "image": "Detail from a map of Ortelius - Magellan's ship Victoria.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1519,
+   "date": "1519-08-10",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1522,
+   "date": "1522-09-08",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2401485",
+   "Q210272",
+   "Q189524",
+   "Q3337280",
+   "Q3533809"
+  ],
+  "wiki": {
+   "en": "Magellan expedition",
+   "zh": "麥哲倫探險隊"
+  },
+  "locationQid": null
+ },
+ "Q12506": {
+  "label": {
+   "en": "Hagia Sophia",
+   "zh": "阿亚索菲亚"
+  },
+  "description": "mosque, museum, and former church in Istanbul, Turkey",
+  "coord": {
+   "lat": 41.0083,
+   "lon": 28.98
+  },
+  "image": "Hagia Sophia Mars 2013.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 532,
+   "date": "0532-02-23",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 404,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q32815",
+   "Q33506"
+  ],
+  "wiki": {
+   "en": "Hagia Sophia",
+   "zh": "阿亚索菲亚"
+  }
+ },
+ "Q12519": {
+  "label": {
+   "en": "Magna Carta",
+   "zh": "大憲章"
+  },
+  "description": "charter of rights agreed between King John of England and the nobility in 1215",
+  "coord": null,
+  "image": "Magna Carta (British Library Cotton MS Augustus II.106).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1215,
+   "date": "1215-06-15",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q727002"
+  ],
+  "wiki": {
+   "en": "Magna Carta",
+   "zh": "大憲章"
+  },
+  "locationQid": null
+ },
+ "Q12544": {
+  "label": {
+   "en": "Byzantine Empire",
+   "zh": "拜占庭帝国"
+  },
+  "description": "Roman Empire during Late Antiquity and the Middle Ages",
+  "coord": {
+   "lat": 41.0125,
+   "lon": 28.98
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 395,
+   "date": "0395-01-17",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1453,
+   "date": "1453-05-29",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Byzantine Empire",
+   "zh": "東羅馬帝國"
+  }
+ },
+ "Q12548": {
+  "label": {
+   "en": "Holy Roman Empire",
+   "zh": "神圣罗马帝国"
+  },
+  "description": "multi-ethnic complex of territories in Western and Central Europe (800/962–1806)",
+  "coord": {
+   "lat": 50,
+   "lon": 10
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 962,
+   "date": "0962-02-02",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1806,
+   "date": "1806-08-06",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Holy Roman Empire",
+   "zh": "神圣罗马帝国"
+  }
+ },
+ "Q12551": {
+  "label": {
+   "en": "Hundred Years' War",
+   "zh": "百年戰爭"
+  },
+  "description": "series of conflicts and wars between England and France between 1337 and 1453",
+  "coord": null,
+  "image": "Battle of crecy froissart.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1337,
+   "date": "1337-05-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1453,
+   "date": "1453-10-09",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Hundred Years' War",
+   "zh": "百年战争"
+  },
+  "locationQid": "Q142"
+ },
+ "Q126936": {
+  "label": {
+   "en": "Visigothic Kingdom",
+   "zh": "西哥特王国"
+  },
+  "description": "Period of Germanic rule on the Iberian Peninsula (418–720) as a successor state to the Western Roman Empire.",
+  "coord": null,
+  "image": "Visigothic Kingdom.png",
+  "pointInTime": null,
+  "start": {
+   "year": 476,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 718,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Visigothic Kingdom",
+   "zh": "西哥特王国"
+  },
+  "locationQid": null
+ },
+ "Q127318": {
+  "label": {
+   "en": "George III of Great Britain",
+   "zh": "乔治三世"
+  },
+  "description": "King of Great Britain and Ireland from 1760 to 1820 (1738–1820)",
+  "coord": null,
+  "image": "Allan Ramsay (1713-84) - George III (1738-1820) - RCIN 405307 - Royal Collection.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1738,
+   "date": "1738-05-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1820,
+   "date": "1820-01-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George III",
+   "zh": "喬治三世"
+  },
+  "locationQid": null
+ },
+ "Q129857": {
+  "label": {
+   "en": "Francis I of France",
+   "zh": "弗朗索瓦一世"
+  },
+  "description": "King of France from 1515 to 1547 (1494-1547)",
+  "coord": null,
+  "image": "François Ier Louvre.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1494,
+   "date": "1494-09-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1547,
+   "date": "1547-03-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francis I of France",
+   "zh": "弗朗索瓦一世 (法兰西)"
+  },
+  "locationQid": null
+ },
+ "Q130221": {
+  "label": {
+   "en": "Frederick II, Holy Roman Emperor",
+   "zh": "腓特烈二世"
+  },
+  "description": "King of Sicily, Holy Roman Emperor (1194–1250, 1220–1250)",
+  "coord": null,
+  "image": "Frederick II and eagle.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1194,
+   "date": "1194-12-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1250,
+   "date": "1250-12-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick II, Holy Roman Emperor",
+   "zh": "腓特烈二世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q130601": {
+  "label": {
+   "en": "Romulus Augustus",
+   "zh": "罗慕路斯·奥古斯都"
+  },
+  "description": "last emperor of the Western Roman Empire (475–476)",
+  "coord": null,
+  "image": "RomulusAugustus.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 462,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 510,
+   "date": null,
+   "precision": 8,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Romulus Augustulus",
+   "zh": "罗慕路斯·奥古斯都"
+  },
+  "locationQid": null
+ },
+ "Q130734": {
+  "label": {
+   "en": "Nicholas I of Russia",
+   "zh": "尼古拉一世"
+  },
+  "description": "The 11th Emperor of Russia, 1825–1855 (lived 1796-1855)",
+  "coord": null,
+  "image": "Franz Krüger - Portrait of Emperor Nicholas I - WGA12289.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1796,
+   "date": "1796-06-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1855,
+   "date": "1855-02-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nicholas I of Russia",
+   "zh": "尼古拉一世 (俄罗斯)"
+  },
+  "locationQid": null
+ },
+ "Q130752": {
+  "label": {
+   "en": "Elizabeth I of Russia",
+   "zh": "伊丽莎白·彼得罗芙娜·罗曼诺娃"
+  },
+  "description": "sixth Empress of Russia from 1741 to 1762 (lived 1709-1762)",
+  "coord": null,
+  "image": "Elizabeth of Russia by V.Eriksen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1709,
+   "date": "1709-12-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1762,
+   "date": "1762-01-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Elizabeth of Russia",
+   "zh": "伊莉莎白 (俄羅斯女皇)"
+  },
+  "locationQid": null
+ },
+ "Q130805": {
+  "label": {
+   "en": "George I of Great Britain",
+   "zh": "乔治一世"
+  },
+  "description": "King of Great Britain and Ireland from 1714 to 1727",
+  "coord": null,
+  "image": "King George I by Sir Godfrey Kneller, Bt (3).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1660,
+   "date": "1660-06-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1727,
+   "date": "1727-06-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George I of Great Britain",
+   "zh": "乔治一世 (英国)"
+  },
+  "locationQid": null
+ },
+ "Q130834": {
+  "label": {
+   "en": "Francis II, Holy Roman Emperor",
+   "zh": "弗朗茨二世"
+  },
+  "description": "also known as Francis I, Emperor of Austria (1768-1835)",
+  "coord": null,
+  "image": "Francis II, Holy Roman Emperor by Friedrich von Amerling 003.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1768,
+   "date": "1768-02-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1835,
+   "date": "1835-03-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francis II, Holy Roman Emperor",
+   "zh": "弗朗茨二世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q130969": {
+  "label": {
+   "en": "Philip IV of France",
+   "zh": "腓力四世"
+  },
+  "description": "King of France from 1285 to 1314 (1268–1314)",
+  "coord": null,
+  "image": "Philip iv and family. 2 (detail crop).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1268,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1314,
+   "date": "1314-11-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Philip IV of France",
+   "zh": "腓力四世 (法兰西)"
+  },
+  "locationQid": null
+ },
+ "Q131262": {
+  "label": {
+   "en": "University of Bologna",
+   "zh": "博洛尼亚大学"
+  },
+  "description": "university in Bologna, Italy",
+  "coord": {
+   "lat": 44.4939,
+   "lon": 11.3428
+  },
+  "image": "Palazzo Poggi UniBo.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1088,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q875538",
+   "Q45400320"
+  ],
+  "wiki": {
+   "en": "University of Bologna",
+   "zh": "博洛尼亚大学"
+  }
+ },
+ "Q131706": {
+  "label": {
+   "en": "Maria Theresa of Austria",
+   "zh": "玛丽亚·特蕾西亚"
+  },
+  "description": "ruler of the Habsburg Dominions (1717-1780)",
+  "coord": null,
+  "image": "Kaiserin Maria Theresia (HRR).jpg",
+  "pointInTime": {
+   "year": 1717,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1717,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1780,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": {
+   "year": 1717,
+   "date": "1717-05-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1780,
+   "date": "1780-11-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Maria Theresa",
+   "zh": "玛丽亚·特蕾西亚"
+  },
+  "locationQid": null
+ },
+ "Q133372": {
+  "label": {
+   "en": "Charles VII of France",
+   "zh": "查理七世"
+  },
+  "description": "monarch of the House of Valois who ruled as King of France (1403-1461)",
+  "coord": null,
+  "image": "KarlVII.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1403,
+   "date": "1403-02-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1461,
+   "date": "1461-07-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles VII of France",
+   "zh": "查理七世 (法兰西)"
+  },
+  "locationQid": null
+ },
+ "Q134128": {
+  "label": {
+   "en": "Cnut the Great",
+   "zh": "卡纽特大帝"
+  },
+  "description": "11th-century King of Denmark, Norway, and England",
+  "coord": null,
+  "image": "Knut der Große cropped.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 994,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1035,
+   "date": "1035-11-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cnut",
+   "zh": "克努特大帝"
+  },
+  "locationQid": null
+ },
+ "Q134840": {
+  "label": {
+   "en": "Treaty of Verdun",
+   "zh": "凡尔登条约"
+  },
+  "description": "843 treaty dividing the Frankish Empire between the grandsons of Charlemagne",
+  "coord": null,
+  "image": "Louis the Pious blessing the division of the Carolingian Empire in 843 into West Francia, Lotharingia, and East Francia.jpg",
+  "pointInTime": {
+   "year": 843,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "Treaty of Verdun",
+   "zh": "凡尔登条约"
+  },
+  "locationQid": "Q154748"
+ },
+ "Q1394": {
+  "label": {
+   "en": "Vladimir Lenin",
+   "zh": "列宁"
+  },
+  "description": "Russian revolutionary, politician, political theorist, and founder of the Soviet Union (1870–1924)",
+  "coord": null,
+  "image": "Vladímir Lenin (fotografía coloreada).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1870,
+   "date": "1870-04-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1924,
+   "date": "1924-01-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vladimir Lenin",
+   "zh": "弗拉基米尔·列宁"
+  },
+  "locationQid": null
+ },
+ "Q139808": {
+  "label": {
+   "en": "Battle of the Maureaco Fields",
+   "zh": "沙隆战役"
+  },
+  "description": "battle between Romans and Huns in 451",
+  "coord": {
+   "lat": 49,
+   "lon": 4.5
+  },
+  "image": "De Neuville - The Huns at the Battle of Chalons.jpg",
+  "pointInTime": {
+   "year": 451,
+   "date": "0451-06-20",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of the Catalaunian Plains",
+   "zh": "沙隆之戰"
+  }
+ },
+ "Q1405": {
+  "label": {
+   "en": "Augustus",
+   "zh": "奥古斯都"
+  },
+  "description": "first emperor of the Roman Empire and founder of the Julio-Claudian dynasty",
+  "coord": null,
+  "image": "Augustus of Prima Porta (inv. 2290).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -63,
+   "date": "0063-09-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 14,
+   "date": "0014-08-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Augustus",
+   "zh": "奥古斯都"
+  },
+  "locationQid": null
+ },
+ "Q1425": {
+  "label": {
+   "en": "Trajan",
+   "zh": "图拉真"
+  },
+  "description": "13th Roman Emperor (98–117)",
+  "coord": null,
+  "image": "Traianus Glyptothek Munich 336.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 53,
+   "date": "0053-09-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 117,
+   "date": "0117-08-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Trajan",
+   "zh": "圖拉真"
+  },
+  "locationQid": null
+ },
+ "Q1427": {
+  "label": {
+   "en": "Hadrian",
+   "zh": "哈德良"
+  },
+  "description": "14th Roman Emperor (117–138)",
+  "coord": null,
+  "image": "Bust Hadrian Musei Capitolini MC817.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 76,
+   "date": "0076-01-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 138,
+   "date": "0138-07-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hadrian",
+   "zh": "哈德良"
+  },
+  "locationQid": null
+ },
+ "Q1430": {
+  "label": {
+   "en": "Marcus Aurelius",
+   "zh": "馬爾庫斯·奧列里烏斯"
+  },
+  "description": "16th Roman Emperor from 161 to 180 and Stoic philosopher",
+  "coord": null,
+  "image": "Marcus Aurelius Louvre MR561 n02.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 121,
+   "date": "0121-04-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 180,
+   "date": "0180-03-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Marcus Aurelius",
+   "zh": "馬可·奧理略"
+  },
+  "locationQid": null
+ },
+ "Q145": {
+  "label": {
+   "en": "United Kingdom",
+   "zh": "英国"
+  },
+  "description": "island country in north-west Europe",
+  "coord": {
+   "lat": 54.6,
+   "lon": -2
+  },
+  "image": "Palace of Westminster from the dome on Methodist Central Hall.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1921,
+   "date": "1921-12-06",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256",
+   "Q20181813",
+   "Q112099"
+  ],
+  "wiki": {
+   "en": "United Kingdom",
+   "zh": "英国"
+  }
+ },
+ "Q1455917": {
+  "label": {
+   "en": "Umayyad conquest of Hispania",
+   "zh": "倭马亚征服西班牙"
+  },
+  "description": "war resulting in the destruction of the Visigothic Kingdom and the expansion of the Umayyad Caliphate (711–718)",
+  "coord": null,
+  "image": "Mariano Barbasán - Batalla de Guadalete.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 711,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 726,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011",
+   "Q1361229",
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Muslim conquest of the Iberian Peninsula",
+   "zh": "穆斯林征服西班牙"
+  },
+  "locationQid": "Q12837"
+ },
+ "Q146246": {
+  "label": {
+   "en": "Francia",
+   "zh": "法兰克王国"
+  },
+  "description": "Frankish Kingdom from 481 to 843",
+  "coord": {
+   "lat": 47.24,
+   "lon": 6.02
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 481,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 843,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5402094",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Francia",
+   "zh": "法兰克王国"
+  }
+ },
+ "Q1463845": {
+  "label": {
+   "en": "410 sack of Rome",
+   "zh": "罗马之劫"
+  },
+  "description": "410 Visigoth siege and looting of Rome",
+  "coord": {
+   "lat": 41.89,
+   "lon": 12.48
+  },
+  "image": "Sack of Rome by the Visigoths on 24 August 410 by JN Sylvestre 1890.jpg",
+  "pointInTime": {
+   "year": 410,
+   "date": "0410-08-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 410,
+   "date": "0410-08-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 410,
+   "date": "0410-08-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19841484",
+   "Q192623"
+  ],
+  "wiki": {
+   "en": "Sack of Rome (410)",
+   "zh": "罗马之劫 (410年)"
+  }
+ },
+ "Q14974": {
+  "label": {
+   "en": "Vladimir the Great",
+   "zh": "弗拉基米尔一世·斯维亚托斯拉维奇"
+  },
+  "description": "Grand Prince of Kiev",
+  "coord": null,
+  "image": "Vladimir I of Kiev.PNG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 956,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1015,
+   "date": "1015-07-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vladimir the Great",
+   "zh": "弗拉基米爾一世·斯維亞托斯拉維奇"
+  },
+  "locationQid": null
+ },
+ "Q150494": {
+  "label": {
+   "en": "Leopold I, Holy Roman Emperor",
+   "zh": "利奥波德一世"
+  },
+  "description": "Holy Roman Emperor (1658-1705), King of Hungary and Croatia and King of Bohemia (lived 1640-1705)",
+  "coord": null,
+  "image": "Benjamin von Block 001.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1640,
+   "date": "1640-06-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1705,
+   "date": "1705-05-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Leopold I, Holy Roman Emperor",
+   "zh": "利奥波德一世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q150611": {
+  "label": {
+   "en": "Ferdinand I, Holy Roman Emperor",
+   "zh": "斐迪南一世"
+  },
+  "description": "Holy Roman Emperor from 1556 to 1564 (1503-1564)",
+  "coord": null,
+  "image": "Hans Bocksberger (I) - Emperor Ferdinand I - WGA02326.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1503,
+   "date": "1503-03-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1564,
+   "date": "1564-07-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ferdinand I, Holy Roman Emperor",
+   "zh": "斐迪南一世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q150642": {
+  "label": {
+   "en": "Victor Emmanuel III of Italy",
+   "zh": "维托里奥·埃马努埃莱三世"
+  },
+  "description": "King of Italy from 1900 to 1946",
+  "coord": null,
+  "image": "Vitorio Emanuel III.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1869,
+   "date": "1869-11-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1947,
+   "date": "1947-12-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Victor Emmanuel III",
+   "zh": "维托里奥·埃马努埃莱三世"
+  },
+  "locationQid": null
+ },
+ "Q150652": {
+  "label": {
+   "en": "Wilhelm I",
+   "zh": "威廉一世"
+  },
+  "description": "19th-century German Emperor and King of Prussia (1797–1888)",
+  "coord": null,
+  "image": "Kaiser Wilhelm I. .JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1797,
+   "date": "1797-03-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1888,
+   "date": "1888-03-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wilhelm I",
+   "zh": "威廉一世 (德国)"
+  },
+  "locationQid": null
+ },
+ "Q150726": {
+  "label": {
+   "en": "Maximilian I",
+   "zh": "马克西米利安一世"
+  },
+  "description": "Holy Roman Emperor (1459-1519)",
+  "coord": null,
+  "image": "Albrecht Dürer - Portrait of Maximilian I - Google Art Project.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1459,
+   "date": "1459-03-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1519,
+   "date": "1519-01-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Maximilian I, Holy Roman Emperor",
+   "zh": "馬克西米連一世 (神聖羅馬帝國)"
+  },
+  "locationQid": null
+ },
+ "Q150995": {
+  "label": {
+   "en": "Peace of Westph",
+   "zh": "威斯特伐利亚和约"
+  },
+  "description": "peace treaty ending the Thirty and Eighty Years' Wars",
+  "coord": null,
+  "image": "Westfaelischer Friede in Muenster (Gerard Terborch 1648).jpg",
+  "pointInTime": {
+   "year": 1648,
+   "date": "1648-10-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625298"
+  ],
+  "wiki": {
+   "en": "Peace of Westphalia",
+   "zh": "威斯特伐利亚和约"
+  },
+  "locationQid": "Q316814"
+ },
+ "Q15180": {
+  "label": {
+   "en": "Soviet Union",
+   "zh": "苏联"
+  },
+  "description": "former country in Eurasia (1922–1991)",
+  "coord": {
+   "lat": 65,
+   "lon": 90
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1922,
+   "date": "1922-12-30",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1991,
+   "date": "1991-12-26",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Soviet Union",
+   "zh": "苏联"
+  }
+ },
+ "Q151826": {
+  "label": {
+   "en": "Frederick I of Prussia",
+   "zh": "腓特烈一世"
+  },
+  "description": "1657 – 1713, Elector of Brandenburg and Duke of Prussia in personal union (Brandenburg-Prussia)",
+  "coord": null,
+  "image": "Antoine Pesne; Frederik I von Preußen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1657,
+   "date": "1657-07-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1713,
+   "date": "1713-02-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick I of Prussia",
+   "zh": "腓特烈一世 (普鲁士)"
+  },
+  "locationQid": null
+ },
+ "Q15193": {
+  "label": {
+   "en": "Alexander I of Russia",
+   "zh": "亚历山大一世"
+  },
+  "description": "The tenth Emperor of Russia (1777–1825)",
+  "coord": null,
+  "image": "Emperor Alexander I of Russia by Alexander Molinari 1813.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1777,
+   "date": "1777-12-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1825,
+   "date": "1825-11-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander I of Russia",
+   "zh": "亚历山大一世 (俄罗斯)"
+  },
+  "locationQid": null
+ },
+ "Q152486": {
+  "label": {
+   "en": "Battle of Poltava",
+   "zh": "波尔塔瓦会战"
+  },
+  "description": "decisive battle in the Great Northern War between Tsardom Russia and the Swedish Empire in 1709",
+  "coord": {
+   "lat": 49.6314,
+   "lon": 34.5528
+  },
+  "image": "Marten's Poltava.jpg",
+  "pointInTime": {
+   "year": 1709,
+   "date": "1709-06-27",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Poltava",
+   "zh": "波爾塔瓦戰役"
+  }
+ },
+ "Q153136": {
+  "label": {
+   "en": "Habsburg monarchy",
+   "zh": "哈布斯堡君主国"
+  },
+  "description": "monarchy in Europe (1282–1918)",
+  "coord": {
+   "lat": 48.2,
+   "lon": 16.3667
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1526,
+   "date": "1526-08-29",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1918,
+   "date": "1918-11-12",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5156764",
+   "Q26830017",
+   "Q3024240",
+   "Q188800"
+  ],
+  "wiki": {
+   "en": "Habsburg monarchy",
+   "zh": "哈布斯堡君主國"
+  }
+ },
+ "Q153688": {
+  "label": {
+   "en": "Umberto I of Italy",
+   "zh": "翁贝托一世"
+  },
+  "description": "king of Italy (1844-1900)",
+  "coord": null,
+  "image": "Fratelli Vianelli (Giuseppe e Luigi, flor. 1860-1890 ca) - VE - Umberto I di Savoia 1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1844,
+   "date": "1844-03-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1900,
+   "date": "1900-07-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Umberto I of Italy",
+   "zh": "翁貝托一世"
+  },
+  "locationQid": null
+ },
+ "Q154705": {
+  "label": {
+   "en": "unification of Germany",
+   "zh": "德意志统一"
+  },
+  "description": "creation of a politically and administratively integrated nation state of German-speaking populations on 18 January 1871, in the form of the German Empire",
+  "coord": {
+   "lat": 48.8036,
+   "lon": 2.1203
+  },
+  "image": "A v Werner - Kaiserproklamation am 18 Januar 1871 (3. Fassung 1885).jpg",
+  "pointInTime": {
+   "year": 1871,
+   "date": "1871-01-18",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1866,
+   "date": "1866-08-18",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1871,
+   "date": "1871-05-10",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11827304",
+   "Q1140229"
+  ],
+  "wiki": {
+   "en": "Unification of Germany",
+   "zh": "德意志统一"
+  }
+ },
+ "Q1552718": {
+  "label": {
+   "en": "Granada War",
+   "zh": "格拉納達戰爭"
+  },
+  "description": "1482–1492 war",
+  "coord": null,
+  "image": "La Rendición de Granada - Pradilla.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1492,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1492,
+   "date": "1492-01-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1361229"
+  ],
+  "wiki": {
+   "en": "Granada War",
+   "zh": "格拉纳达战争"
+  },
+  "locationQid": "Q217196"
+ },
+ "Q155669": {
+  "label": {
+   "en": "Charles IV",
+   "zh": "查理四世"
+  },
+  "description": "Holy Roman Emperor",
+  "coord": null,
+  "image": "Charles IV-John Ocko votive picture-fragment.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1316,
+   "date": "1316-05-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1378,
+   "date": "1378-11-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles IV, Holy Roman Emperor",
+   "zh": "查理四世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q157506": {
+  "label": {
+   "en": "Ninety-five Theses",
+   "zh": "九十五条论纲"
+  },
+  "description": "disputation by Martin Luther on indulgences",
+  "coord": null,
+  "image": "Luther 95 Thesen.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q234460",
+   "Q49848"
+  ],
+  "wiki": {
+   "en": "Ninety-five Theses",
+   "zh": "九十五条论纲"
+  },
+  "locationQid": null
+ },
+ "Q158075": {
+  "label": {
+   "en": "Gutenberg Bible",
+   "zh": "谷登堡圣经"
+  },
+  "description": "early book printed with movable type",
+  "coord": null,
+  "image": "Gutenberg Bible, Lenox Copy, New York Public Library, 2009. Pic 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3331189",
+   "Q1249682"
+  ],
+  "wiki": {
+   "en": "Gutenberg Bible",
+   "zh": "古腾堡圣经"
+  },
+  "locationQid": null
+ },
+ "Q159575": {
+  "label": {
+   "en": "Hugh Capet of France",
+   "zh": "于格·卡佩"
+  },
+  "description": "King of the Franks",
+  "coord": null,
+  "image": "Coronation of Hugues Capet 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 940,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 996,
+   "date": "0996-10-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hugh Capet",
+   "zh": "于格·卡佩"
+  },
+  "locationQid": null
+ },
+ "Q159798": {
+  "label": {
+   "en": "Honorius",
+   "zh": "弗拉维乌斯·奥古斯都·霍诺留"
+  },
+  "description": "4th and 5th-century Roman emperor",
+  "coord": null,
+  "image": "Jean-Paul Laurens - The Byzantine Emperor Honorius - 1880.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 384,
+   "date": "0384-09-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 423,
+   "date": "0423-08-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Honorius",
+   "zh": "弗拉維烏斯·霍諾留"
+  },
+  "locationQid": null
+ },
+ "Q160077": {
+  "label": {
+   "en": "Fall of Constantinople",
+   "zh": "君士坦丁堡的陷落"
+  },
+  "description": "1453 capture of the Byzantine capital by the Ottoman Empire",
+  "coord": {
+   "lat": 41.03,
+   "lon": 28.935
+  },
+  "image": "Le siège de Constantinople (1453) by Jean Le Tavernier after 1455.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1453,
+   "date": "1453-04-06",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1453,
+   "date": "1453-05-29",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561",
+   "Q1361229"
+  ],
+  "wiki": {
+   "en": "Fall of Constantinople",
+   "zh": "君士坦丁堡陷落"
+  }
+ },
+ "Q161885": {
+  "label": {
+   "en": "Kingdom of Great Britain",
+   "zh": "大不列颠王国"
+  },
+  "description": "constitutional monarchy in Western Europe (1707–1800)",
+  "coord": {
+   "lat": 51.5,
+   "lon": -0.1333
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1707,
+   "date": "1707-05-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1801,
+   "date": "1801-01-01",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Great Britain",
+   "zh": "大不列顛王國"
+  }
+ },
+ "Q164679": {
+  "label": {
+   "en": "Great Fire of London",
+   "zh": "伦敦大火"
+  },
+  "description": "disaster in 17th century England",
+  "coord": {
+   "lat": 51.5157,
+   "lon": -0.0921
+  },
+  "image": "Great Fire London.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1666,
+   "date": "1666-09-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1666,
+   "date": "1666-09-06",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q838718"
+  ],
+  "wiki": {
+   "en": "Great Fire of London",
+   "zh": "倫敦大火"
+  }
+ },
+ "Q16470": {
+  "label": {
+   "en": "Normandy landings",
+   "zh": "海王行动"
+  },
+  "description": "1944 landing operations of the Allied invasion of Normandy",
+  "coord": {
+   "lat": 49.34,
+   "lon": -0.6
+  },
+  "image": "Into the Jaws of Death 23-0455M edit.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1944,
+   "date": "1944-06-06",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1944,
+   "date": "1944-08-29",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q348120"
+  ],
+  "wiki": {
+   "en": "Normandy landings",
+   "zh": "诺曼底登陆"
+  }
+ },
+ "Q167457": {
+  "label": {
+   "en": "Treaty of Rome",
+   "zh": "罗马条约"
+  },
+  "description": "Founding Treaties of the European Communities (1957)",
+  "coord": null,
+  "image": "EEC Treaty (Treaty of Rome) German copy.pdf",
+  "pointInTime": {
+   "year": 1957,
+   "date": "1957-03-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q116741026",
+   "Q11122"
+  ],
+  "wiki": {
+   "en": "Treaty of Rome",
+   "zh": "羅馬條約"
+  },
+  "locationQid": "Q220"
+ },
+ "Q16869": {
+  "label": {
+   "en": "Constantinople",
+   "zh": "君士坦丁堡"
+  },
+  "description": "capital of the Eastern Roman, Latin and Ottoman Empires, currently Istanbul, Turkey",
+  "coord": {
+   "lat": 41.0122,
+   "lon": 28.976
+  },
+  "image": "Byzantine Constantinople-en.png",
+  "pointInTime": null,
+  "start": {
+   "year": 330,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1922,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q56061",
+   "Q15661340"
+  ],
+  "wiki": {
+   "en": "Constantinople",
+   "zh": "君士坦丁堡"
+  }
+ },
+ "Q168691": {
+  "label": {
+   "en": "Victor Emmanuel II of Italy",
+   "zh": "维托里奥·埃马努埃莱二世"
+  },
+  "description": "King of Sardinia (1849–1861) and King of Italy (1861–1878)",
+  "coord": null,
+  "image": "VictorEmmanuel2 (3).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1820,
+   "date": "1820-03-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1878,
+   "date": "1878-01-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Victor Emmanuel II",
+   "zh": "维托里奥·埃马努埃莱二世"
+  },
+  "locationQid": null
+ },
+ "Q169640": {
+  "label": {
+   "en": "Hisham II",
+   "zh": "希沙姆二世"
+  },
+  "description": "ruler of Córdoba (r. 976–1009) (1010–1013)",
+  "coord": null,
+  "image": "Hisham II of Córdoba Dinar 94227.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 965,
+   "date": "0965-06-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1013,
+   "date": "1013-04-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hisham II of Córdoba",
+   "zh": "希沙姆二世"
+  },
+  "locationQid": null
+ },
+ "Q170017": {
+  "label": {
+   "en": "Æthelstan",
+   "zh": "光荣者艾塞斯坦"
+  },
+  "description": "King of Wessex and first king of England (r. 924-939)",
+  "coord": null,
+  "image": "King.athelstan.tomb.arp.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 895,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 939,
+   "date": "0939-10-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Æthelstan",
+   "zh": "埃塞尔斯坦"
+  },
+  "locationQid": null
+ },
+ "Q170026": {
+  "label": {
+   "en": "Valentinian III",
+   "zh": "瓦伦丁尼安三世"
+  },
+  "description": "emperor of the Western Roman Empire (419-455)",
+  "coord": null,
+  "image": "Solidus ValentinianIII-wedding.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 419,
+   "date": "0419-07-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 455,
+   "date": "0455-03-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Valentinian III",
+   "zh": "瓦伦丁尼安三世"
+  },
+  "locationQid": null
+ },
+ "Q170172": {
+  "label": {
+   "en": "Boris Godunov",
+   "zh": "鲍里斯·戈东诺夫"
+  },
+  "description": "Russian Tsar (1598–1605)",
+  "coord": null,
+  "image": "Boris Godunov.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1552,
+   "date": "1552-08-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1605,
+   "date": "1605-04-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Boris Godunov",
+   "zh": "鲍里斯·戈东诺夫"
+  },
+  "locationQid": null
+ },
+ "Q170770": {
+  "label": {
+   "en": "Grand Principality of Moscow",
+   "zh": "莫斯科大公国"
+  },
+  "description": "Russian principality (1263–1547)",
+  "coord": {
+   "lat": 55.7506,
+   "lon": 37.6175
+  },
+  "image": "Muscovy 1390 1525.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1263,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1547,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Grand Principality of Moscow",
+   "zh": "莫斯科大公国"
+  }
+ },
+ "Q171185": {
+  "label": {
+   "en": "Ivan III of Moscow",
+   "zh": "伊凡三世"
+  },
+  "description": "Grand Prince of Moscow and all Russia from 1462 to 1505",
+  "coord": null,
+  "image": "Ivan III of Russia 3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1440,
+   "date": "1440-01-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1505,
+   "date": "1505-10-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan III of Russia",
+   "zh": "伊凡三世"
+  },
+  "locationQid": null
+ },
+ "Q17151": {
+  "label": {
+   "en": "Thessaloniki",
+   "zh": "塞萨洛尼基"
+  },
+  "description": "city in Macedonia, Greece",
+  "coord": {
+   "lat": 40.6403,
+   "lon": 22.9356
+  },
+  "image": "Thessalonica Montage L.png",
+  "pointInTime": null,
+  "start": {
+   "year": -315,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q2264924"
+  ],
+  "wiki": {
+   "en": "Thessaloniki",
+   "zh": "塞萨洛尼基"
+  }
+ },
+ "Q171740": {
+  "label": {
+   "en": "Caliphate of Córdoba",
+   "zh": "后倭马亚王朝"
+  },
+  "description": "state in Islamic Iberia (929–1031)",
+  "coord": {
+   "lat": 37.8833,
+   "lon": -4.7667
+  },
+  "image": "\"Eine beeindruckende Mischung aus islamischer und christlicher Architektur\". 04.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 929,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1031,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Caliphate of Córdoba",
+   "zh": "科尔多瓦哈里发国"
+  }
+ },
+ "Q172107": {
+  "label": {
+   "en": "Polish–Lithuanian Commonwealth",
+   "zh": "波兰立陶宛联邦"
+  },
+  "description": "historical multinational monarchist state in Eastern Europe (Crown of the Kingdom of Poland and the Grand Duchy of Lithuania)",
+  "coord": {
+   "lat": 50.05,
+   "lon": 19.9333
+  },
+  "image": "Potęga Rzeczypospolitej u zenitu. Złota wolność. Elekcja R.P. 1573.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1569,
+   "date": "1569-06-11",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1795,
+   "date": "1795-10-24",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q3024240",
+   "Q1088391"
+  ],
+  "wiki": {
+   "en": "Polish–Lithuanian Commonwealth",
+   "zh": "波蘭立陶宛聯邦"
+  }
+ },
+ "Q172579": {
+  "label": {
+   "en": "Kingdom of Italy",
+   "zh": "意大利王国"
+  },
+  "description": "kingdom in Southern Europe from 1861 to 1946",
+  "coord": {
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1861,
+   "date": "1861-03-17",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1946,
+   "date": "1946-06-18",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Italy",
+   "zh": "意大利王国"
+  }
+ },
+ "Q173077": {
+  "label": {
+   "en": "Battle of Tours",
+   "zh": "图尔战役"
+  },
+  "description": "battle fought in 732 by Merovingian Franks against the Umayyad Caliphate",
+  "coord": {
+   "lat": 46.9876,
+   "lon": 0.5344
+  },
+  "image": "Steuben - Bataille de Poitiers.png",
+  "pointInTime": {
+   "year": 732,
+   "date": "0732-10-10",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Tours",
+   "zh": "圖爾戰役"
+  }
+ },
+ "Q1741": {
+  "label": {
+   "en": "Vienna",
+   "zh": "维也纳"
+  },
+  "description": "capital of and state in Austria",
+  "coord": {
+   "lat": 48.2083,
+   "lon": 16.3725
+  },
+  "image": "Wien katedra sw Szczepana widok z wiezy 6.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -100,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q257391",
+   "Q262882",
+   "Q261543",
+   "Q200250",
+   "Q171441",
+   "Q133442",
+   "Q667509",
+   "Q51929311",
+   "Q871419",
+   "Q13539802"
+  ],
+  "wiki": {
+   "en": "Vienna",
+   "zh": "維也納"
+  }
+ },
+ "Q178525": {
+  "label": {
+   "en": "Eleanor of Aquitaine",
+   "zh": "阿基坦的埃莉诺"
+  },
+  "description": "Queen consort of France; Queen consort of England; suo jure Duchess of Aquitaine; patroness",
+  "coord": null,
+  "image": "Queen Eleanor (Frederick Sandys, 1858).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1124,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1204,
+   "date": "1204-04-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Eleanor of Aquitaine",
+   "zh": "阿基坦的埃莉诺"
+  },
+  "locationQid": null
+ },
+ "Q1792": {
+  "label": {
+   "en": "Gdańsk",
+   "zh": "格但斯克"
+  },
+  "description": "city and capital of the Pomeranian Voivodeship on the Baltic coast of northern Poland",
+  "coord": {
+   "lat": 54.3483,
+   "lon": 18.654
+  },
+  "image": "Calle Dlugie Pobrzeze, Gdansk, Polonia, 2013-05-20, DD 05.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 997,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q2264924",
+   "Q707813",
+   "Q925381"
+  ],
+  "wiki": {
+   "en": "Gdańsk",
+   "zh": "格但斯克"
+  }
+ },
+ "Q179250": {
+  "label": {
+   "en": "French invasion of Russia",
+   "zh": "俄法战争"
+  },
+  "description": "1812 conflict during the Napoleonic Wars",
+  "coord": null,
+  "image": "French invasion of Russia collage.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1812,
+   "date": "1812-06-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1812,
+   "date": "1812-12-14",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "French invasion of Russia",
+   "zh": "俄法战争"
+  },
+  "locationQid": "Q34266"
+ },
+ "Q179684": {
+  "label": {
+   "en": "Spanish Armada",
+   "zh": "无敌舰队"
+  },
+  "description": "fleet of Spanish ships, intended to attack England in 1588",
+  "coord": {
+   "lat": 50.1667,
+   "lon": -4.2617
+  },
+  "image": "English Ships and the Spanish Armada, August 1588 RMG BHC0262.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1588,
+   "date": "1588-04-25",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1588,
+   "date": null,
+   "precision": 10,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q676324"
+  ],
+  "wiki": {
+   "en": "Spanish Armada",
+   "zh": "西班牙無敵艦隊"
+  }
+ },
+ "Q179876": {
+  "label": {
+   "en": "Kingdom of England",
+   "zh": "英格兰王国"
+  },
+  "description": "historic kingdom on the British Isles (927–1649; 1660–1707)",
+  "coord": {
+   "lat": 52.0667,
+   "lon": -1.3167
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 927,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1707,
+   "date": "1707-04-30",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of England",
+   "zh": "英格蘭王國"
+  }
+ },
+ "Q180764": {
+  "label": {
+   "en": "Edict of Milan",
+   "zh": "米兰敕令"
+  },
+  "description": "legalization of Christianity in the Roman Empire, 313",
+  "coord": null,
+  "image": "ΑΝΤΙΓΡΑΦΟΝ ΒΑΣΙΛΙΚΩΝ ΔΙΑΤΑΞΕΩΝ ΕΚ ΡΩΜΑΙΚΗΣ.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1418386",
+   "Q1284645"
+  ],
+  "wiki": {
+   "en": "Edict of Milan",
+   "zh": "米兰敕令 (君士坦丁)"
+  },
+  "locationQid": null
+ },
+ "Q181915": {
+  "label": {
+   "en": "Michael I of Russia",
+   "zh": "米哈伊尔·费奥多罗维奇·罗曼诺夫"
+  },
+  "description": "Tsar of Russia (1613–1645)",
+  "coord": null,
+  "image": "Portrait of Mikhail Fedorovich Romanov.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1596,
+   "date": "1596-07-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1645,
+   "date": "1645-07-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Michael of Russia",
+   "zh": "米哈伊爾一世 (俄羅斯)"
+  },
+  "locationQid": null
+ },
+ "Q1829": {
+  "label": {
+   "en": "Kaliningrad",
+   "zh": "加里宁格勒"
+  },
+  "description": "Russian Baltic city between Poland and Lithuania",
+  "coord": {
+   "lat": 54.7167,
+   "lon": 20.5
+  },
+  "image": "Old cathedral of Kaliningrad in Russia.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1255,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12134916",
+   "Q7930989",
+   "Q1549591",
+   "Q56580425"
+  ],
+  "wiki": {
+   "en": "Kaliningrad",
+   "zh": "加里寧格勒"
+  }
+ },
+ "Q185316": {
+  "label": {
+   "en": "Ivan I of Moscow",
+   "zh": "伊凡一世"
+  },
+  "description": "Prince of Moscow and Grand Prince of Vladimir",
+  "coord": null,
+  "image": "Ivan Kalita.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1288,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1340,
+   "date": "1340-03-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan I of Moscow",
+   "zh": "伊凡一世"
+  },
+  "locationQid": null
+ },
+ "Q18578423": {
+  "label": {
+   "en": "voyages by Christopher Columbus",
+   "zh": "克里斯托弗·哥伦布的航行"
+  },
+  "description": "1492–1504 voyages to the Americas; beginning of the Columbian exchange",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1492,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1504,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2401485",
+   "Q3337280"
+  ],
+  "wiki": {
+   "en": "Voyages of Christopher Columbus",
+   "zh": null
+  },
+  "locationQid": "Q1247"
+ },
+ "Q186096": {
+  "label": {
+   "en": "Tsardom of Russia",
+   "zh": "俄罗斯沙皇国"
+  },
+  "description": "Russian state from 1547 to 1721",
+  "coord": {
+   "lat": 55.7506,
+   "lon": 37.6175
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1547,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1721,
+   "date": "1721-11-02",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Tsardom of Russia",
+   "zh": "俄罗斯沙皇国"
+  }
+ },
+ "Q187149": {
+  "label": {
+   "en": "Umberto II of Italy",
+   "zh": "翁贝托二世"
+  },
+  "description": "lieutenant of the Kingdom of Italy and last king of Italy",
+  "coord": null,
+  "image": "Umberto II, 1944.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1904,
+   "date": "1904-09-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1983,
+   "date": "1983-03-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Umberto II of Italy",
+   "zh": "翁貝托二世"
+  },
+  "locationQid": null
+ },
+ "Q188371": {
+  "label": {
+   "en": "Great Irish Famine",
+   "zh": "爱尔兰大饥荒"
+  },
+  "description": "1845–1852 famine in Ireland",
+  "coord": {
+   "lat": 53.351,
+   "lon": -7.921
+  },
+  "image": "Irish potato famine Bridget O'Donnel.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1845,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1852,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q168247"
+  ],
+  "wiki": {
+   "en": "Great Famine (Ireland)",
+   "zh": "爱尔兰大饥荒"
+  }
+ },
+ "Q188943": {
+  "label": {
+   "en": "Yaroslav the Wise",
+   "zh": "智者雅罗斯拉夫"
+  },
+  "description": "Grand Prince of Kiev from 1019 to 1054",
+  "coord": null,
+  "image": "Coin of Yaroslav the Wise with his lifetime image.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 978,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1054,
+   "date": "1054-02-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yaroslav the Wise",
+   "zh": "智者雅罗斯拉夫"
+  },
+  "locationQid": null
+ },
+ "Q188995": {
+  "label": {
+   "en": "Dmitry Donskoy",
+   "zh": "德米特里·顿斯科伊"
+  },
+  "description": "Prince of Moscow",
+  "coord": null,
+  "image": "Dmitri Donskoy.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1350,
+   "date": "1350-10-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1389,
+   "date": "1389-05-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dmitry Donskoy",
+   "zh": "德米特里·顿斯科伊"
+  },
+  "locationQid": null
+ },
+ "Q189266": {
+  "label": {
+   "en": "Eastern Front",
+   "zh": "苏德战争"
+  },
+  "description": "1941–1945 World War II theater",
+  "coord": null,
+  "image": "Bundesarchiv Bild 146-1981-149-34A, Russland, Herausziehen eines Autos.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1941,
+   "date": "1941-06-22",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1945,
+   "date": "1945-05-07",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q842332",
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Eastern Front (World War II)",
+   "zh": "苏德战争"
+  },
+  "locationQid": "Q15180"
+ },
+ "Q1899": {
+  "label": {
+   "en": "Kyiv",
+   "zh": "基辅"
+  },
+  "description": "capital and largest city of Ukraine",
+  "coord": {
+   "lat": 50.45,
+   "lon": 30.5236
+  },
+  "image": "Kyiv (234807751).jpeg",
+  "pointInTime": null,
+  "start": {
+   "year": 482,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q51929311",
+   "Q7930989",
+   "Q1200957",
+   "Q12131624"
+  ],
+  "wiki": {
+   "en": "Kyiv",
+   "zh": "基輔"
+  }
+ },
+ "Q190418": {
+  "label": {
+   "en": "Abd-ar-Rahman III",
+   "zh": "阿卜杜-拉赫曼三世"
+  },
+  "description": "final Emir of Córdoba (r. 912–929); founder and 1st Caliph of Córdoba (r. 929–961)",
+  "coord": null,
+  "image": "AtaiforDeGuadalajara-9100538 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 891,
+   "date": "0891-01-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 961,
+   "date": "0961-10-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abd al-Rahman III",
+   "zh": "阿卜杜拉赫曼三世"
+  },
+  "locationQid": null
+ },
+ "Q191055": {
+  "label": {
+   "en": "1755 Lisbon earthquake",
+   "zh": "1755年里斯本大地震"
+  },
+  "description": "earthquake in 1755",
+  "coord": {
+   "lat": 36,
+   "lon": -11
+  },
+  "image": "1755 Lisbon Earthquake Location.png",
+  "pointInTime": {
+   "year": 1755,
+   "date": "1755-11-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "1755 Lisbon earthquake",
+   "zh": "1755年里斯本大地震"
+  }
+ },
+ "Q192473": {
+  "label": {
+   "en": "Battle of Adrianople",
+   "zh": "阿德里安堡战役"
+  },
+  "description": "378 battle between Roman Empire and Goths",
+  "coord": {
+   "lat": 41.8,
+   "lon": 26.6
+  },
+  "image": "Battle of Adrianople 378 gl.svg",
+  "pointInTime": {
+   "year": 378,
+   "date": "0378-08-09",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Adrianople",
+   "zh": "阿德里安堡戰役"
+  }
+ },
+ "Q200033": {
+  "label": {
+   "en": "Michael VIII Palaiologos",
+   "zh": "米海尔八世"
+  },
+  "description": "founder of the Palaiologan dynasty (1224–1282)",
+  "coord": null,
+  "image": "Michael VIII Palaiologos.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1224,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1282,
+   "date": "1282-12-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Michael VIII Palaiologos",
+   "zh": "米海尔八世"
+  },
+  "locationQid": null
+ },
+ "Q200855": {
+  "label": {
+   "en": "Battle of Vienna",
+   "zh": "维也纳之战"
+  },
+  "description": "1683 battle between the Christian European States and the Ottomans",
+  "coord": {
+   "lat": 48.235,
+   "lon": 16.335
+  },
+  "image": "Juliusz Kossak Sobieski pod Wiedniem.jpeg",
+  "pointInTime": {
+   "year": 1683,
+   "date": "1683-09-12",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q1345265"
+  ],
+  "wiki": {
+   "en": "Battle of Vienna",
+   "zh": "维也纳之战"
+  }
+ },
+ "Q20124": {
+  "label": {
+   "en": "On the Origin of Species",
+   "zh": "物种起源"
+  },
+  "description": "treatise on natural selection, written by Charles Darwin",
+  "coord": null,
+  "image": "Origin of Species title page.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47461344"
+  ],
+  "wiki": {
+   "en": "On the Origin of Species",
+   "zh": "物种起源"
+  },
+  "locationQid": null
+ },
+ "Q203501": {
+  "label": {
+   "en": "Igor of Kiev",
+   "zh": "伊戈尔·留里科维奇"
+  },
+  "description": "prince of Kiev (877–945)",
+  "coord": null,
+  "image": "Igor RC.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 878,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 945,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Igor of Kiev",
+   "zh": "伊戈尔·留里科维奇"
+  },
+  "locationQid": null
+ },
+ "Q205688": {
+  "label": {
+   "en": "Enrico Dandolo",
+   "zh": "恩里科·丹多洛"
+  },
+  "description": "Doge of Venice (1107-1205)",
+  "coord": null,
+  "image": "EnricoDandolo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1107,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1205,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Enrico Dandolo",
+   "zh": "恩里科·丹多洛"
+  },
+  "locationQid": null
+ },
+ "Q205921": {
+  "label": {
+   "en": "Philosophiæ Naturalis Principia Mathematica",
+   "zh": "自然哲学的数学原理"
+  },
+  "description": "1687 work by Isaac Newton describing his laws of motion and gravitation",
+  "coord": null,
+  "image": "Newton's Principia title page.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1680,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47461344",
+   "Q384515",
+   "Q10383930"
+  ],
+  "wiki": {
+   "en": "Philosophiæ Naturalis Principia Mathematica",
+   "zh": "自然哲学的数学原理"
+  },
+  "locationQid": null
+ },
+ "Q217620": {
+  "label": {
+   "en": "Euric",
+   "zh": "尤里克"
+  },
+  "description": "Visigothic king",
+  "coord": null,
+  "image": "Eurico, rey de los Visigodos (Museo del Prado).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 420,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 484,
+   "date": "0484-12-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Euric",
+   "zh": "尤里克"
+  },
+  "locationQid": null
+ },
+ "Q220": {
+  "label": {
+   "en": "Rome",
+   "zh": "罗马"
+  },
+  "description": "capital and largest city of Italy",
+  "coord": {
+   "lat": 41.8931,
+   "lon": 12.4828
+  },
+  "image": "Rome Skyline (8012016319).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -753,
+   "date": "0753-04-21",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q902814",
+   "Q3685476",
+   "Q1200957",
+   "Q200250",
+   "Q51929311",
+   "Q1187811",
+   "Q1549591",
+   "Q747074",
+   "Q108178728",
+   "Q5119"
+  ],
+  "wiki": {
+   "en": "Rome",
+   "zh": "罗马"
+  }
+ },
+ "Q2269": {
+  "label": {
+   "en": "Industrial Revolution",
+   "zh": "第一次工業革命"
+  },
+  "description": "transition to new manufacturing processes in Europe and the United States, in the 18th-19th centuries",
+  "coord": null,
+  "image": "Mémoires de la Société géologique de France (IA meymoiresdelaso00socig).pdf",
+  "pointInTime": null,
+  "start": {
+   "year": 1760,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1820,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Industrial Revolution",
+   "zh": "第一次工业革命"
+  },
+  "locationQid": null
+ },
+ "Q2277": {
+  "label": {
+   "en": "Roman Empire",
+   "zh": "罗马帝国"
+  },
+  "description": "period of Ancient Rome following the Republic",
+  "coord": {
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  "image": "Inscription Theatre Leptis Magna Libya.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": -27,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 395,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Roman Empire",
+   "zh": "羅馬帝國"
+  }
+ },
+ "Q2411998": {
+  "label": {
+   "en": "eruption of Mount Vesuvius in 79",
+   "zh": "79年維蘇威火山的噴發"
+  },
+  "description": "major eruption of stratovolcano in southern Italy",
+  "coord": {
+   "lat": 40.8214,
+   "lon": 14.4428
+  },
+  "image": "Aivazovsky - Destruction of Pompeii.jpg",
+  "pointInTime": {
+   "year": 79,
+   "date": "0079-10-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q747501"
+  ],
+  "wiki": {
+   "en": "Eruption of Mount Vesuvius in 79 AD",
+   "zh": "西元79年維蘇威火山爆發"
+  }
+ },
+ "Q243573": {
+  "label": {
+   "en": "Roderic",
+   "zh": "罗德里克"
+  },
+  "description": "Visigothic king in Hispania",
+  "coord": null,
+  "image": "Don Rodrigo, rey de los visigodos (Museo del Prado).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 688,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 711,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Roderic",
+   "zh": "罗德里克"
+  },
+  "locationQid": null
+ },
+ "Q2487": {
+  "label": {
+   "en": "Thirty Years' War",
+   "zh": "三十年战争"
+  },
+  "description": "war principally fought in Central Europe from 1618 to 1648",
+  "coord": null,
+  "image": "Magdeburg 1631.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1618,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1648,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1827102"
+  ],
+  "wiki": {
+   "en": "Thirty Years' War",
+   "zh": "三十年戰爭"
+  },
+  "locationQid": "Q27509"
+ },
+ "Q2517983": {
+  "label": {
+   "en": "Galileo affair",
+   "zh": "伽利略事件"
+  },
+  "description": "17th century conflict between Galileo Galilei and the Roman Catholic Church",
+  "coord": null,
+  "image": "Galileo facing the Roman Inquisition.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1610,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1633,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8016240"
+  ],
+  "wiki": {
+   "en": "Galileo affair",
+   "zh": "伽利略事件"
+  },
+  "locationQid": null
+ },
+ "Q255": {
+  "label": {
+   "en": "Ludwig van Beethoven",
+   "zh": "路德维希·范·贝多芬"
+  },
+  "description": "German composer (1770-1827)",
+  "coord": null,
+  "image": "Beethoven.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1770,
+   "date": "1770-12-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1827,
+   "date": "1827-03-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ludwig van Beethoven",
+   "zh": "路德维希·范·贝多芬"
+  },
+  "locationQid": null
+ },
+ "Q2677": {
+  "label": {
+   "en": "Wilhelm II",
+   "zh": "威廉二世 (德国)"
+  },
+  "description": "as King of Prussia last German Emperor from 1888 to 1918 (1859–1941)",
+  "coord": null,
+  "image": "Kaiser Wilhelm II of Germany - 1902.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1859,
+   "date": "1859-01-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1941,
+   "date": "1941-06-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wilhelm II",
+   "zh": "威廉二世 (德国)"
+  },
+  "locationQid": null
+ },
+ "Q269412": {
+  "label": {
+   "en": "George V",
+   "zh": "乔治五世"
+  },
+  "description": "King of the United Kingdom from 1910 to 1936",
+  "coord": null,
+  "image": "King George 1923 LCCN2014715558 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1865,
+   "date": "1865-06-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1936,
+   "date": "1936-01-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George V",
+   "zh": "乔治五世"
+  },
+  "locationQid": null
+ },
+ "Q27306": {
+  "label": {
+   "en": "Kingdom of Prussia",
+   "zh": "普鲁士王国"
+  },
+  "description": "former European state (1701–1918), part of the German Empire after 1871",
+  "coord": {
+   "lat": 53,
+   "lon": 14
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1701,
+   "date": "1701-01-18",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1918,
+   "date": "1918-11-09",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Prussia",
+   "zh": "普魯士王國"
+  }
+ },
+ "Q284531": {
+  "label": {
+   "en": "Al-Hakam II",
+   "zh": "哈克汗二世"
+  },
+  "description": "Caliph of Córdoba from 961 to 976",
+  "coord": null,
+  "image": "MonAlhakenII01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 915,
+   "date": "0915-01-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 976,
+   "date": "0976-10-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Al-Hakam II",
+   "zh": "哈克木二世"
+  },
+  "locationQid": null
+ },
+ "Q295186": {
+  "label": {
+   "en": "Daniel of Moscow",
+   "zh": "丹尼尔·亚历山德罗维奇"
+  },
+  "description": "Russian prince and saint (1261-1303)",
+  "coord": null,
+  "image": "Danila titularnik.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1261,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1303,
+   "date": "1303-03-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Daniel of Moscow",
+   "zh": "丹尼尔·亚历山德罗维奇"
+  },
+  "locationQid": null
+ },
+ "Q3044": {
+  "label": {
+   "en": null,
+   "zh": "查理大帝"
+  },
+  "description": "king of Franks, regarded as the first Holy Roman Emperor (747–814) (742-814)",
+  "coord": null,
+  "image": "Charlemagne denier Mayence 812 814.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 748,
+   "date": "0748-04-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 814,
+   "date": "0814-01-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charlemagne",
+   "zh": "查理曼"
+  },
+  "locationQid": null
+ },
+ "Q30487": {
+  "label": {
+   "en": "Mikhail Gorbachev",
+   "zh": "米哈伊尔·戈尔巴乔夫"
+  },
+  "description": "leader of the Soviet Union from 1985 to 1991 (1931–2022)",
+  "coord": null,
+  "image": "GorbachevMS.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1931,
+   "date": "1931-03-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2022,
+   "date": "2022-08-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mikhail Gorbachev",
+   "zh": "米哈伊尔·戈尔巴乔夫"
+  },
+  "locationQid": null
+ },
+ "Q307": {
+  "label": {
+   "en": "Galileo Galilei",
+   "zh": "伽利略·伽利莱"
+  },
+  "description": "Italian polymath (1564–1642)",
+  "coord": null,
+  "image": "Galileo.arp.300pix.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1564,
+   "date": "1564-02-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1642,
+   "date": "1642-01-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Galileo Galilei",
+   "zh": "伽利略·伽利莱"
+  },
+  "locationQid": null
+ },
+ "Q313057": {
+  "label": {
+   "en": "Reccared I",
+   "zh": "雷卡雷德一世"
+  },
+  "description": "Visigothic King",
+  "coord": null,
+  "image": "Recaredo I, rey de los Visigodos (Museo del Prado).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 560,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 601,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Reccared I",
+   "zh": "雷卡雷德一世"
+  },
+  "locationQid": null
+ },
+ "Q313065": {
+  "label": {
+   "en": "Liuvigild",
+   "zh": "利奧維吉爾德"
+  },
+  "description": "Visigothic king",
+  "coord": null,
+  "image": "Leovigildo rey visigodo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 525,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 586,
+   "date": "0586-04-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Liuvigild",
+   "zh": "利奧維吉爾德"
+  },
+  "locationQid": null
+ },
+ "Q32500": {
+  "label": {
+   "en": "Charles V, Holy Roman Emperor",
+   "zh": "查理五世"
+  },
+  "description": "Holy Roman Emperor from 1519 to 1556 (1500–1558)",
+  "coord": null,
+  "image": "Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1500,
+   "date": "1500-02-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1558,
+   "date": "1558-09-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles V, Holy Roman Emperor",
+   "zh": "查理五世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q3301": {
+  "label": {
+   "en": "Charles Martel",
+   "zh": "查理·马特"
+  },
+  "description": "Frankish military and political leader (c. 688–741)",
+  "coord": null,
+  "image": "Charles Martel 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 688,
+   "date": "0688-08-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 741,
+   "date": "0741-10-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles Martel",
+   "zh": "查理·马特"
+  },
+  "locationQid": null
+ },
+ "Q334051": {
+  "label": {
+   "en": "Abbey of Monte Cassino",
+   "zh": "蒙特卡西諾修道院"
+  },
+  "description": "abbey",
+  "coord": {
+   "lat": 41.49,
+   "lon": 13.814
+  },
+  "image": "Abbazia Montecassino.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 530,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q817056",
+   "Q233324",
+   "Q2742167",
+   "Q92755865",
+   "Q3867560",
+   "Q124830411",
+   "Q56242215",
+   "Q1497364"
+  ],
+  "wiki": {
+   "en": "Abbey of Monte Cassino",
+   "zh": null
+  }
+ },
+ "Q334861": {
+  "label": {
+   "en": "Almanzor",
+   "zh": "阿尔曼索尔"
+  },
+  "description": "Arab Andalusian military leader and statesman (c.938-1002)",
+  "coord": null,
+  "image": "Busto de Almanzor (26 de marzo de 2016, Calatañazor) 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 938,
+   "date": "0938-08-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1002,
+   "date": "1002-08-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Almanzor",
+   "zh": "阿尔曼索尔"
+  },
+  "locationQid": null
+ },
+ "Q33550": {
+  "label": {
+   "en": "Frederick II of Prussia",
+   "zh": "腓特烈二世"
+  },
+  "description": "King of Prussia from 1740 to 1786 (1712-1786)",
+  "coord": null,
+  "image": "Friedrich der Große (1781 or 1786) - Google Art Project.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1712,
+   "date": "1712-01-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1786,
+   "date": "1786-08-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick the Great",
+   "zh": "腓特烈二世 (普鲁士)"
+  },
+  "locationQid": null
+ },
+ "Q33570": {
+  "label": {
+   "en": "Battle of Grunwald",
+   "zh": "格倫瓦德之戰"
+  },
+  "description": "1410 battle between the Teutonic Knights and Poland–Lithuania",
+  "coord": {
+   "lat": 53.4861,
+   "lon": 20.1247
+  },
+  "image": "Grunwald Witold.jpg",
+  "pointInTime": {
+   "year": 1410,
+   "date": "1410-07-15",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Grunwald",
+   "zh": "格伦瓦德之战"
+  }
+ },
+ "Q34266": {
+  "label": {
+   "en": "Russian Empire",
+   "zh": "俄罗斯帝国"
+  },
+  "description": "former empire in Eurasia and North America (1721–1917)",
+  "coord": {
+   "lat": 58.65,
+   "lon": 70.1167
+  },
+  "image": "Gorskii 04422u.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1721,
+   "date": "1721-10-22",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1917,
+   "date": "1917-09-01",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Russian Empire",
+   "zh": "俄罗斯帝国"
+  }
+ },
+ "Q34417": {
+  "label": {
+   "en": "Philip II of Spain",
+   "zh": "腓力二世"
+  },
+  "description": "King of Spain, Portugal, Naples and Sicily; King consort of England, lived 1527-1598",
+  "coord": null,
+  "image": "Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1527,
+   "date": "1527-05-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1598,
+   "date": "1598-09-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Philip II of Spain",
+   "zh": "腓力二世 (西班牙)"
+  },
+  "locationQid": null
+ },
+ "Q34428": {
+  "label": {
+   "en": "Philip II of France",
+   "zh": "腓力二世"
+  },
+  "description": "King of France, and the first to be called by that title (1165–1223)",
+  "coord": null,
+  "image": "Sceau de Philippe Auguste. - Archives Nationales - SC-D157.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1165,
+   "date": "1165-08-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1223,
+   "date": "1223-07-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Philip II of France",
+   "zh": "腓力二世 (法兰西)"
+  },
+  "locationQid": null
+ },
+ "Q34464": {
+  "label": {
+   "en": "Philip III of Spain",
+   "zh": "腓力三世"
+  },
+  "description": "King of Castilla and León and King of Aragon and Portugal (1578-1621)",
+  "coord": null,
+  "image": "Felipe-III-de-Espana A-Vidal.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1578,
+   "date": "1578-04-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1621,
+   "date": "1621-03-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Philip III of Spain",
+   "zh": "腓力三世 (西班牙)"
+  },
+  "locationQid": null
+ },
+ "Q346": {
+  "label": {
+   "en": "Louis IX of France",
+   "zh": "路易九世"
+  },
+  "description": "King of France from 1226 to 1270 (1214–1270)",
+  "coord": null,
+  "image": "Saintlouis.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1214,
+   "date": "1214-04-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1270,
+   "date": "1270-08-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis IX of France",
+   "zh": "路易九世 (法兰西)"
+  },
+  "locationQid": null
+ },
+ "Q35314": {
+  "label": {
+   "en": "Nikita Khrushchev",
+   "zh": "尼基塔·赫鲁晓夫"
+  },
+  "description": "leader of the Soviet Union from 1953 to 1964",
+  "coord": null,
+  "image": "Nikita Khrushchev official portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1894,
+   "date": "1894-04-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1971,
+   "date": "1971-09-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nikita Khrushchev",
+   "zh": "尼基塔·赫魯曉夫"
+  },
+  "locationQid": null
+ },
+ "Q3588": {
+  "label": {
+   "en": "European Revolutions of 1848",
+   "zh": "1848年革命"
+  },
+  "description": "series of political upheavals throughout Europe in 1848–49",
+  "coord": null,
+  "image": "Horace Vernet-Barricade rue Soufflot.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1848,
+   "date": "1848-01-12",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1849,
+   "date": "1849-10-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1886460"
+  ],
+  "wiki": {
+   "en": "Revolutions of 1848",
+   "zh": "1848年革命"
+  },
+  "locationQid": "Q46"
+ },
+ "Q361": {
+  "label": {
+   "en": "World War I",
+   "zh": "第一次世界大战"
+  },
+  "description": "1914–1918 global conflict",
+  "coord": null,
+  "image": "WWImontage.jpg",
+  "pointInTime": {
+   "year": 1918,
+   "date": "1918-11-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1914,
+   "date": "1914-07-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1918,
+   "date": "1918-11-11",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q103495",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "World War I",
+   "zh": "第一次世界大战"
+  },
+  "locationQid": "Q46"
+ },
+ "Q36174": {
+  "label": {
+   "en": "Charles II of Spain",
+   "zh": "卡洛斯二世"
+  },
+  "description": "king of Spain, lived (1661-1700)",
+  "coord": null,
+  "image": "Rey Carlos II.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1661,
+   "date": "1661-11-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1700,
+   "date": "1700-11-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles II of Spain",
+   "zh": "卡洛斯二世 (西班牙)"
+  },
+  "locationQid": null
+ },
+ "Q362": {
+  "label": {
+   "en": "World War II",
+   "zh": "第二次世界大战"
+  },
+  "description": "1939–1945 global conflict",
+  "coord": null,
+  "image": "Infobox collage for WWII.PNG",
+  "pointInTime": null,
+  "start": {
+   "year": 1939,
+   "date": "1939-09-01",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1945,
+   "date": "1945-09-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q103495",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "World War II",
+   "zh": "第二次世界大战"
+  },
+  "locationQid": "Q159"
+ },
+ "Q36450": {
+  "label": {
+   "en": "Catherine II of Russia",
+   "zh": "叶卡捷琳娜二世"
+  },
+  "description": "eighth Emperor of Russia, called the Great, r. 1762–1796 (lived 1729-1796)",
+  "coord": null,
+  "image": "Catherine II after Roslin, Rokotov (1780s, Kunsthistorisches Museum).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1729,
+   "date": "1729-05-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1796,
+   "date": "1796-11-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Catherine the Great",
+   "zh": "叶卡捷琳娜二世"
+  },
+  "locationQid": null
+ },
+ "Q365": {
+  "label": {
+   "en": "Cologne",
+   "zh": "科隆"
+  },
+  "description": "most populous city in North Rhine-Westphalia, Germany",
+  "coord": {
+   "lat": 50.9422,
+   "lon": 6.9578
+  },
+  "image": "Stadtbild Köln (50MP).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q707813",
+   "Q200250",
+   "Q2202509",
+   "Q42744322",
+   "Q1549591",
+   "Q85635630"
+  ],
+  "wiki": {
+   "en": "Cologne",
+   "zh": "科隆"
+  }
+ },
+ "Q36724": {
+  "label": {
+   "en": "Attila",
+   "zh": "阿提拉"
+  },
+  "description": "5th-century ruler of the Hunnic Empire",
+  "coord": null,
+  "image": "Attila Hunnorum Rex Flagellum Dei Aquilejae Eversor Utini Instaurator.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 500,
+   "date": null,
+   "precision": 6,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 453,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Attila",
+   "zh": "阿提拉"
+  },
+  "locationQid": null
+ },
+ "Q3711": {
+  "label": {
+   "en": "Belgrade",
+   "zh": "贝尔格莱德"
+  },
+  "description": "capital and largest city of Serbia",
+  "coord": {
+   "lat": 44.8178,
+   "lon": 20.4569
+  },
+  "image": "Beograd collage.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q5119",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Belgrade",
+   "zh": "贝尔格莱德"
+  }
+ },
+ "Q37134": {
+  "label": {
+   "en": "Frederick William III of Prussia",
+   "zh": "腓特烈·威廉三世"
+  },
+  "description": "King of Prussia from 1797 to 1840",
+  "coord": null,
+  "image": "Friedrich Wilhelm III of Prussia - Lawrence 1814-18.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1770,
+   "date": "1770-08-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1840,
+   "date": "1840-06-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick William III",
+   "zh": "腓特烈·威廉三世"
+  },
+  "locationQid": null
+ },
+ "Q37142": {
+  "label": {
+   "en": "Konstantinos XI Palaiologos",
+   "zh": "君士坦丁十一世"
+  },
+  "description": "last Byzantine emperor, from 1449 to 1453",
+  "coord": null,
+  "image": "Konstantinos XI Palaiologos fresco (less edited).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1404,
+   "date": "1404-02-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1453,
+   "date": "1453-05-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Constantine XI Palaiologos",
+   "zh": "君士坦丁十一世"
+  },
+  "locationQid": null
+ },
+ "Q3733063": {
+  "label": {
+   "en": "viking expansion",
+   "zh": "维京人的扩张"
+  },
+  "description": "exploration, settlement, and raids performed by Norse population",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Viking expansion",
+   "zh": "維京擴張"
+  },
+  "locationQid": null
+ },
+ "Q37594": {
+  "label": {
+   "en": "William the Conqueror",
+   "zh": "威廉一世"
+  },
+  "description": "King of England from 1066 to 1087, Duke of Normandy from 1035 to 1087 (1028–1087)",
+  "coord": null,
+  "image": "Bayeux Tapestry William.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1028,
+   "date": "1028-11-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1087,
+   "date": "1087-09-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "William the Conqueror",
+   "zh": "征服者威廉"
+  },
+  "locationQid": null
+ },
+ "Q38370": {
+  "label": {
+   "en": "Henry VIII of England",
+   "zh": "亨利八世"
+  },
+  "description": "King of England from 1509 to 1547 (1491–1547)",
+  "coord": null,
+  "image": "Hans Holbein, the Younger, Around 1497-1543 - Portrait of Henry VIII of England - Google Art Project.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1491,
+   "date": "1491-06-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1547,
+   "date": "1547-01-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Henry VIII",
+   "zh": "亨利八世"
+  },
+  "locationQid": null
+ },
+ "Q38789": {
+  "label": {
+   "en": "Battle of Stalingrad",
+   "zh": "斯大林格勒战役"
+  },
+  "description": "1942 major battle of World War II",
+  "coord": {
+   "lat": 48.715,
+   "lon": 44.5325
+  },
+  "image": "Liberation of Stalingrad by Abram Krichevsky (ID 32407906).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1942,
+   "date": "1942-08-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1943,
+   "date": "1943-02-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Stalingrad",
+   "zh": "斯大林格勒战役"
+  }
+ },
+ "Q40185": {
+  "label": {
+   "en": "The Divine Comedy",
+   "zh": "神曲"
+  },
+  "description": "Italian narrative poem by Dante Alighieri",
+  "coord": null,
+  "image": "Dante Domenico di Michelino.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1320,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Divine Comedy",
+   "zh": "神曲"
+  },
+  "locationQid": null
+ },
+ "Q406": {
+  "label": {
+   "en": "Istanbul",
+   "zh": "伊斯坦布尔"
+  },
+  "description": "largest city in Turkey",
+  "coord": {
+   "lat": 41.01,
+   "lon": 28.9603
+  },
+  "image": "Istanbul Montage 2016.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1453,
+   "date": "1453-05-29",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2716259",
+   "Q27554677",
+   "Q174844",
+   "Q51929311",
+   "Q2264924",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Istanbul",
+   "zh": "伊斯坦堡"
+  }
+ },
+ "Q40787": {
+  "label": {
+   "en": "Nicholas II of Russia",
+   "zh": "尼古拉二世"
+  },
+  "description": "14th and last Emperor of Russia (1894–1917)",
+  "coord": null,
+  "image": "Nicolas II de russie.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1868,
+   "date": "1868-05-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1918,
+   "date": "1918-07-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nicholas II",
+   "zh": "尼古拉二世"
+  },
+  "locationQid": null
+ },
+ "Q41600": {
+  "label": {
+   "en": "Alexios I Komnenos",
+   "zh": "阿历克塞一世"
+  },
+  "description": "Byzantine emperor (1048–1118)",
+  "coord": null,
+  "image": "Alexios I Komnenos.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1048,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1118,
+   "date": "1118-08-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexios I Komnenos",
+   "zh": "阿历克塞一世"
+  },
+  "locationQid": null
+ },
+ "Q41833": {
+  "label": {
+   "en": "Basil II",
+   "zh": "巴兹尔二世"
+  },
+  "description": "Byzantine Emperor from the Macedonian dynasty",
+  "coord": null,
+  "image": "Basilios II.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 958,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1025,
+   "date": "1025-12-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Basil II",
+   "zh": "巴西尔二世"
+  },
+  "locationQid": null
+ },
+ "Q41852": {
+  "label": {
+   "en": "Heraclius",
+   "zh": "希拉克略"
+  },
+  "description": "Byzantine emperor from 610 to 641",
+  "coord": null,
+  "image": "Heraclius and Heraclius Constantine solidus.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 575,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 641,
+   "date": "0641-02-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Heraclius",
+   "zh": "希拉克略"
+  },
+  "locationQid": null
+ },
+ "Q41866": {
+  "label": {
+   "en": "Justinian I",
+   "zh": "查士丁尼一世"
+  },
+  "description": "Eastern Roman Emperor who ruled from 527 to 565 (482-565)",
+  "coord": null,
+  "image": "Mosaic of Justinianus I - Basilica San Vitale (Ravenna).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 482,
+   "date": "0482-05-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 565,
+   "date": "0565-11-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Justinian I",
+   "zh": "查士丁尼一世"
+  },
+  "locationQid": null
+ },
+ "Q42005": {
+  "label": {
+   "en": "Black Death",
+   "zh": "黑死病"
+  },
+  "description": "1346–1353 pandemic in Eurasia and North Africa",
+  "coord": null,
+  "image": "Doutielt3.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1346,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1352,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3241045",
+   "Q12184"
+  ],
+  "wiki": {
+   "en": "Black Death",
+   "zh": "黑死病"
+  },
+  "locationQid": "Q48"
+ },
+ "Q42462": {
+  "label": {
+   "en": "York",
+   "zh": "约克"
+  },
+  "description": "city in North Yorkshire, England, United Kingdom",
+  "coord": {
+   "lat": 53.95,
+   "lon": -1.0833
+  },
+  "image": "York (Aerial view).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 71,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1357964",
+   "Q1549591",
+   "Q7897276",
+   "Q515"
+  ],
+  "wiki": {
+   "en": "York",
+   "zh": "約克"
+  }
+ },
+ "Q42834": {
+  "label": {
+   "en": "Western Roman Empire",
+   "zh": "西罗马帝国"
+  },
+  "description": "independently administered western provinces of the Roman Empire",
+  "coord": {
+   "lat": 41.8931,
+   "lon": 12.4828
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 395,
+   "date": "0395-01-17",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 476,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Western Roman Empire",
+   "zh": "西羅馬帝國"
+  }
+ },
+ "Q42976": {
+  "label": {
+   "en": "October Revolution",
+   "zh": "十月革命"
+  },
+  "description": "second of two 1917 revolutions in Russia",
+  "coord": null,
+  "image": "After the capture of the Winter Palace 26 October 1917.jpg",
+  "pointInTime": {
+   "year": 1917,
+   "date": "1917-10-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1917,
+   "date": "1917-10-25",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1917,
+   "date": "1917-10-26",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "October Revolution",
+   "zh": "十月革命"
+  },
+  "locationQid": "Q656"
+ },
+ "Q43107": {
+  "label": {
+   "en": "Diocletian",
+   "zh": "戴克里先"
+  },
+  "description": "Augustus of the Eastern Roman Empire (244-311)",
+  "coord": null,
+  "image": "Istanbul - Museo archeol. - Diocleziano (284-305 d.C.) - Foto G. Dall'Orto 28-5-2006.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 240,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 316,
+   "date": "0316-12-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Diocletian",
+   "zh": "戴克里先"
+  },
+  "locationQid": null
+ },
+ "Q43274": {
+  "label": {
+   "en": "Charles III",
+   "zh": "查尔斯三世"
+  },
+  "description": "King of the United Kingdom since 2022 (born 1948)",
+  "coord": null,
+  "image": "King Charles III (July 2023).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1948,
+   "date": "1948-11-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5",
+   "Q9134365"
+  ],
+  "wiki": {
+   "en": "Charles III",
+   "zh": "查爾斯三世"
+  },
+  "locationQid": null
+ },
+ "Q43287": {
+  "label": {
+   "en": "German Empire",
+   "zh": "德意志帝国"
+  },
+  "description": "German nation-state in Central Europe from 1871 to 1918",
+  "coord": {
+   "lat": 52.5186,
+   "lon": 13.3761
+  },
+  "image": "Reichstagsgebaeude.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1871,
+   "date": "1871-01-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1918,
+   "date": "1918-11-09",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "German Empire",
+   "zh": "德意志帝國"
+  }
+ },
+ "Q43915": {
+  "label": {
+   "en": "Otto I the Great",
+   "zh": "奥托一世"
+  },
+  "description": "Holy Roman Emperor from 962 to 973",
+  "coord": null,
+  "image": "Otto I Manuscriptum Mediolanense c 1200.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 912,
+   "date": "0912-11-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 973,
+   "date": "0973-05-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Otto the Great",
+   "zh": "奥托一世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q43974": {
+  "label": {
+   "en": "Louis the Pious",
+   "zh": "虔诚者路易"
+  },
+  "description": "King of the Franks",
+  "coord": null,
+  "image": "Ludwik I Pobożny.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 778,
+   "date": "0778-04-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 840,
+   "date": "0840-06-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis the Pious",
+   "zh": "虔誠者路易"
+  },
+  "locationQid": null
+ },
+ "Q458677": {
+  "label": {
+   "en": "Ludovico Manin",
+   "zh": "卢多维科·马宁"
+  },
+  "description": "120th, and the last, Doge of Venice",
+  "coord": null,
+  "image": "Lodovico Manin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1725,
+   "date": "1725-05-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1802,
+   "date": "1802-10-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ludovico Manin",
+   "zh": "卢多维克·马宁"
+  },
+  "locationQid": null
+ },
+ "Q46362": {
+  "label": {
+   "en": "Congress of Vienna",
+   "zh": "維也納會議"
+  },
+  "description": "conference of ambassadors of European states (September/November 1814 to June 1815)",
+  "coord": {
+   "lat": 48.2085,
+   "lon": 16.3638
+  },
+  "image": "Wiener Kongress Abschlussdokument 2.JPG",
+  "pointInTime": {
+   "year": 1815,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1814,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1815,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7157512"
+  ],
+  "wiki": {
+   "en": "Congress of Vienna",
+   "zh": "维也纳会议"
+  }
+ },
+ "Q466": {
+  "label": {
+   "en": "World Wide Web",
+   "zh": "万维网"
+  },
+  "description": "global system of interlinked hypertext documents accessed via the Internet",
+  "coord": null,
+  "image": "Alcalá de Henares (RPS 08-04-2017) Calle WWW, indicador.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q121182",
+   "Q65966993"
+  ],
+  "wiki": {
+   "en": "World Wide Web",
+   "zh": "万维网"
+  },
+  "locationQid": null
+ },
+ "Q46696": {
+  "label": {
+   "en": "Theodosius I",
+   "zh": "狄奧多西一世"
+  },
+  "description": "Roman emperor from 379 to 395",
+  "coord": null,
+  "image": "Theodosius1cng11100822obverse.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 347,
+   "date": "0347-01-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 395,
+   "date": "0395-01-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Theodosius I",
+   "zh": "狄奧多西一世"
+  },
+  "locationQid": null
+ },
+ "Q48314": {
+  "label": {
+   "en": "Battle of Waterloo",
+   "zh": "滑铁卢战役"
+  },
+  "description": "1815 battle during the War of the Seventh Coalition",
+  "coord": {
+   "lat": 50.6781,
+   "lon": 4.4122
+  },
+  "image": "Battle of Waterloo 1815.PNG",
+  "pointInTime": {
+   "year": 1815,
+   "date": "1815-06-18",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Waterloo",
+   "zh": "滑鐵盧之戰"
+  }
+ },
+ "Q486": {
+  "label": {
+   "en": "Chernobyl disaster",
+   "zh": "切尔诺贝利核事故"
+  },
+  "description": "1986 nuclear accident in the Soviet Union",
+  "coord": {
+   "lat": 51.3894,
+   "lon": 30.0992
+  },
+  "image": "IAEA 02790015 (5613115146).jpg",
+  "pointInTime": {
+   "year": 1986,
+   "date": "1986-04-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15725976",
+   "Q3193890"
+  ],
+  "wiki": {
+   "en": "Chernobyl disaster",
+   "zh": "切尔诺贝利核事故"
+  }
+ },
+ "Q4948": {
+  "label": {
+   "en": "Republic of Venice",
+   "zh": "威尼斯共和国"
+  },
+  "description": "former state (697–1797) controlling, at various times, parts of northeastern Italy, the Balkans, and Mediterranean islands",
+  "coord": {
+   "lat": 45.583,
+   "lon": 12.683
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 697,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1797,
+   "date": "1797-05-12",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Republic of Venice",
+   "zh": "威尼斯共和国"
+  }
+ },
+ "Q49686": {
+  "label": {
+   "en": "Vasili III of Moscow",
+   "zh": "瓦西里三世"
+  },
+  "description": "Grand Prince of Moscow and all Russia from 1505 to 1533",
+  "coord": null,
+  "image": "Vasili III of Russia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1479,
+   "date": "1479-03-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1533,
+   "date": "1533-12-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vasili III of Russia",
+   "zh": "瓦西里三世"
+  },
+  "locationQid": null
+ },
+ "Q503874": {
+  "label": {
+   "en": "Francesco Foscari",
+   "zh": "弗朗切斯科·福斯卡里"
+  },
+  "description": "Doge of Venice",
+  "coord": null,
+  "image": "(Venice) Portrait of the Venecian doge Francesco Foscari by Lazzaro Bastiani - Correr Museum.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1373,
+   "date": "1373-06-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1457,
+   "date": "1457-11-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francesco Foscari",
+   "zh": "弗朗切斯科·福斯卡里"
+  },
+  "locationQid": null
+ },
+ "Q507725": {
+  "label": {
+   "en": "Pietro II Orseolo",
+   "zh": "彼得罗二世（Pietro II Orseolo）"
+  },
+  "description": "doge of Venice (991–1009)",
+  "coord": null,
+  "image": "Bust of Pietro Orseolo II. Panteon Veneto; Istituto Veneto di Scienze, Lettere ed Arti.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 961,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1009,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pietro II Orseolo",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q51056": {
+  "label": {
+   "en": "Franz Joseph I of Austria",
+   "zh": "弗朗茨·约瑟夫一世"
+  },
+  "description": "Emperor of Austria and King of Hungary (1830–1916)",
+  "coord": null,
+  "image": "Franz Joseph I of Austria.1910 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1830,
+   "date": "1830-08-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1916,
+   "date": "1916-11-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Franz Joseph I",
+   "zh": "弗朗茨·约瑟夫一世"
+  },
+  "locationQid": null
+ },
+ "Q51068": {
+  "label": {
+   "en": "Charles I of Austria",
+   "zh": "卡爾一世"
+  },
+  "description": "Last monarch of Austria-Hungary (r. 1916–1918)",
+  "coord": null,
+  "image": "Emperor karl of austria-hungary 1917.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1887,
+   "date": "1887-08-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1922,
+   "date": "1922-04-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles I of Austria",
+   "zh": "卡爾一世 (奧地利皇帝)"
+  },
+  "locationQid": null
+ },
+ "Q51122": {
+  "label": {
+   "en": "Unification of Italy",
+   "zh": "意大利統一"
+  },
+  "description": "creation of the politically and administratively integrated nation of Italy (1815–1871)",
+  "coord": null,
+  "image": "With Victor Emmanuel.jpg",
+  "pointInTime": {
+   "year": 1815,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1815,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1871,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2738074",
+   "Q49773",
+   "Q11514315",
+   "Q1140229"
+  ],
+  "wiki": {
+   "en": "Unification of Italy",
+   "zh": "意大利統一"
+  },
+  "locationQid": "Q38"
+ },
+ "Q51648": {
+  "label": {
+   "en": "East-West Schism",
+   "zh": "東西教會大分裂"
+  },
+  "description": "division of Christianity into two large parts in 1054",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1054,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7311342",
+   "Q65083733"
+  ],
+  "wiki": {
+   "en": "East–West Schism",
+   "zh": "東西教會大分裂"
+  },
+  "locationQid": null
+ },
+ "Q51649": {
+  "label": {
+   "en": "First Crusade",
+   "zh": "第一次十字军东征"
+  },
+  "description": "1096–1099 Christian conquest of the Holy Land",
+  "coord": null,
+  "image": "1099jerusalem.jpg",
+  "pointInTime": {
+   "year": 1090,
+   "date": null,
+   "precision": 8,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1096,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1099,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1827102"
+  ],
+  "wiki": {
+   "en": "First Crusade",
+   "zh": "第一次十字军东征"
+  },
+  "locationQid": "Q81483"
+ },
+ "Q5167679": {
+  "label": {
+   "en": "dissolution of the Soviet Union",
+   "zh": "苏联解体"
+  },
+  "description": "process leading to the late-1991 breakup of the USSR",
+  "coord": {
+   "lat": 65,
+   "lon": 90
+  },
+  "image": "RIAN archive 140800 Signing of Protocol on Establishing Commonwealth of Independent States.jpg",
+  "pointInTime": {
+   "year": 1991,
+   "date": "1991-12-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q18603729",
+   "Q22087155"
+  ],
+  "wiki": {
+   "en": "Dissolution of the Soviet Union",
+   "zh": "苏联解体"
+  }
+ },
+ "Q517": {
+  "label": {
+   "en": "Napoleon",
+   "zh": "拿破仑"
+  },
+  "description": "French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821)",
+  "coord": null,
+  "image": "Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1769,
+   "date": "1769-08-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1821,
+   "date": "1821-05-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Napoleon",
+   "zh": "拿破仑一世"
+  },
+  "locationQid": null
+ },
+ "Q52940": {
+  "label": {
+   "en": "Sigismund III Vasa",
+   "zh": "齐格蒙特三世"
+  },
+  "description": "King of Poland, Grand Duke of Lithuania and king of the Polish–Lithuanian Commonwealth from 1587 until 1632 and King of Sweden from 1592 until 1599 (1566–1632)",
+  "coord": null,
+  "image": "Zygmunt Waza Soutman.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1566,
+   "date": "1566-06-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1632,
+   "date": "1632-04-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sigismund III Vasa",
+   "zh": "齐格蒙特三世·瓦萨"
+  },
+  "locationQid": null
+ },
+ "Q53454": {
+  "label": {
+   "en": "John III Sobieski",
+   "zh": "约翰三世 (波兰)"
+  },
+  "description": "King of Poland and Grand Duke of Lithuania (1629–1696)",
+  "coord": null,
+  "image": "John III Sobieski of Poland.PNG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1629,
+   "date": "1629-08-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1696,
+   "date": "1696-06-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John III Sobieski",
+   "zh": "扬三世·索别斯基"
+  },
+  "locationQid": null
+ },
+ "Q54019": {
+  "label": {
+   "en": "Stanisław August Poniatowski",
+   "zh": "斯坦尼斯瓦夫二世"
+  },
+  "description": "King of Poland and Grand Duke of Lithuania (1764-1795)",
+  "coord": null,
+  "image": "Marcello Bacciarelli - Portrait of Stanislaus Augustus Poniatowski in Coronation Robes - MNK II-a-362 - National Museum Kraków.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1732,
+   "date": "1732-01-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1798,
+   "date": "1798-02-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stanisław August Poniatowski",
+   "zh": "斯坦尼斯瓦夫·奥古斯特"
+  },
+  "locationQid": null
+ },
+ "Q54030": {
+  "label": {
+   "en": "Stephen Báthory",
+   "zh": "斯特凡·巴托里"
+  },
+  "description": "King of Poland and Grand Duke of Lithuania, 1576–1586 (lived 1533-1586)",
+  "coord": null,
+  "image": "Stefan Batory. Стэфан Баторы (1576).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1533,
+   "date": "1533-09-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1586,
+   "date": "1586-12-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stephen Báthory",
+   "zh": "巴托里·斯特凡"
+  },
+  "locationQid": null
+ },
+ "Q54058": {
+  "label": {
+   "en": "Sigismund II Augustus",
+   "zh": "齐格蒙特二世"
+  },
+  "description": "King of Poland and Grand Duke of Lithuania",
+  "coord": null,
+  "image": "Cranach the Younger Sigismund II Augustus.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1520,
+   "date": "1520-08-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1572,
+   "date": "1572-07-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sigismund II Augustus",
+   "zh": "齐格蒙特·奥古斯特"
+  },
+  "locationQid": null
+ },
+ "Q573211": {
+  "label": {
+   "en": "Christianization of Kievan Rus'",
+   "zh": "基辅罗斯的基督教化"
+  },
+  "description": "10th-century Christianity",
+  "coord": null,
+  "image": "Lebedev baptism.jpg",
+  "pointInTime": {
+   "year": 988,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q59532",
+   "Q1969448"
+  ],
+  "wiki": {
+   "en": "Christianization of Kievan Rus'",
+   "zh": "基輔羅斯的基督教化"
+  },
+  "locationQid": null
+ },
+ "Q57357": {
+  "label": {
+   "en": "Hadrian's Wall",
+   "zh": "哈德良长城"
+  },
+  "description": "defensive fortification in Roman Britain",
+  "coord": {
+   "lat": 55.0242,
+   "lon": -2.2925
+  },
+  "image": "Section of Hadrian's Wall 1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 122,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q146924",
+   "Q1784293",
+   "Q21752084",
+   "Q12413618"
+  ],
+  "wiki": {
+   "en": "Hadrian's Wall",
+   "zh": "哈德良长城"
+  }
+ },
+ "Q57798": {
+  "label": {
+   "en": "Edward I of England",
+   "zh": "爱德华一世"
+  },
+  "description": "King of England from 1272 to 1307",
+  "coord": null,
+  "image": "Gal nations edward i.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1239,
+   "date": "1239-06-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1307,
+   "date": "1307-07-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Edward I",
+   "zh": "爱德华一世"
+  },
+  "locationQid": null
+ },
+ "Q58600": {
+  "label": {
+   "en": "Frederick III, German Emperor",
+   "zh": "腓特烈三世"
+  },
+  "description": "as King of Prussia German Emperor (1831–1888)",
+  "coord": null,
+  "image": "Emperor Friedrich III.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1831,
+   "date": "1831-10-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1888,
+   "date": "1888-06-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick III, German Emperor",
+   "zh": "腓特烈三世 (普鲁士)"
+  },
+  "locationQid": null
+ },
+ "Q600093": {
+  "label": {
+   "en": "Habsburg Spain",
+   "zh": "西班牙哈布斯堡王朝"
+  },
+  "description": "period of Spain under rule by the Spanish Branch of the House of Habsburg in the 16th and 17th centuries",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1516,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1700,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1156073",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Habsburg Spain",
+   "zh": "西班牙哈布斯堡王朝"
+  },
+  "locationQid": null
+ },
+ "Q60845789": {
+  "label": {
+   "en": "Baptism of Clovis I",
+   "zh": null
+  },
+  "description": "historical event",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13418847"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q608613": {
+  "label": {
+   "en": "fall of the western Roman Empire",
+   "zh": "罗马帝国的衰落"
+  },
+  "description": "loss of central political control in the Western Roman Empire in late antiquity",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 476,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": {
+   "year": 476,
+   "date": "0476-09-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q18603729",
+   "Q945895"
+  ],
+  "wiki": {
+   "en": "Fall of the Western Roman Empire",
+   "zh": "罗马帝国的衰落"
+  },
+  "locationQid": null
+ },
+ "Q60928": {
+  "label": {
+   "en": "Vladimir II Monomakh",
+   "zh": "弗拉基米尔·莫诺马赫"
+  },
+  "description": "Grand Prince of Kiev (1053-1125)",
+  "coord": null,
+  "image": "Vladimir monomakh.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1053,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1125,
+   "date": "1125-05-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vladimir II Monomakh",
+   "zh": "弗拉基米尔·莫诺马赫"
+  },
+  "locationQid": null
+ },
+ "Q6131983": {
+  "label": {
+   "en": "Oleg the Wise",
+   "zh": "奥列格"
+  },
+  "description": "prince of Kiev",
+  "coord": null,
+  "image": "Приношение князю Олегу дани покоренными народами.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 845,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 912,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Oleg the Wise",
+   "zh": "奥列格"
+  },
+  "locationQid": null
+ },
+ "Q619": {
+  "label": {
+   "en": "Nicolaus Copernicus",
+   "zh": "尼古拉·哥白尼"
+  },
+  "description": "Polish mathematician and astronomer (1473-1543)",
+  "coord": null,
+  "image": "Nikolaus Kopernikus MOT.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1473,
+   "date": "1473-02-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1543,
+   "date": "1543-05-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nicolaus Copernicus",
+   "zh": "尼古拉·哥白尼"
+  },
+  "locationQid": null
+ },
+ "Q649": {
+  "label": {
+   "en": "Moscow",
+   "zh": "莫斯科"
+  },
+  "description": "capital and most populous city of Russia",
+  "coord": {
+   "lat": 55.7506,
+   "lon": 37.6175
+  },
+  "image": "Saint Basil's Cathedral and the Red Square.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4442912",
+   "Q183342",
+   "Q1549591",
+   "Q174844",
+   "Q51929311",
+   "Q7930989",
+   "Q43263"
+  ],
+  "wiki": {
+   "en": "Moscow",
+   "zh": "莫斯科"
+  }
+ },
+ "Q6534": {
+  "label": {
+   "en": "French Revolution",
+   "zh": "法国大革命"
+  },
+  "description": "A period of political and societal change in France from 1789 to 1799",
+  "coord": null,
+  "image": "LouisXVIExecutionBig.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1789,
+   "date": "1789-07-14",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1799,
+   "date": "1799-11-09",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13418847",
+   "Q10931",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "French Revolution",
+   "zh": "法国大革命"
+  },
+  "locationQid": "Q142"
+ },
+ "Q65534609": {
+  "label": {
+   "en": "Coronation of Charlemagne",
+   "zh": null
+  },
+  "description": "event and artistic theme",
+  "coord": null,
+  "image": "Coronation of Charlemagne by Pope Leo III.jpg",
+  "pointInTime": {
+   "year": 800,
+   "date": "0800-12-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q209715",
+   "Q1406161"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": "Q810126"
+ },
+ "Q656": {
+  "label": {
+   "en": "Saint Petersburg",
+   "zh": "圣彼得堡"
+  },
+  "description": "federal city and former capital of Russia",
+  "coord": {
+   "lat": 59.95,
+   "lon": 30.3167
+  },
+  "image": "Peter & Paul fortress in SPB 03.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1703,
+   "date": "1703-05-16",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q183342",
+   "Q1549591",
+   "Q129268952",
+   "Q7930989",
+   "Q43263",
+   "Q105742499",
+   "Q200250",
+   "Q134445478"
+  ],
+  "wiki": {
+   "en": "Saint Petersburg",
+   "zh": "圣彼得堡"
+  }
+ },
+ "Q691402": {
+  "label": {
+   "en": "Philip IV of Spain",
+   "zh": "腓力四世"
+  },
+  "description": "King of Spain and Portugal (1605-1665)",
+  "coord": null,
+  "image": "Philip IV of Spain.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1605,
+   "date": "1605-04-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1665,
+   "date": "1665-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Philip IV of Spain",
+   "zh": "腓力四世 (西班牙)"
+  },
+  "locationQid": null
+ },
+ "Q69163529": {
+  "label": {
+   "en": "fall of the Berlin Wall",
+   "zh": "柏林墙倒塌"
+  },
+  "description": "historical event in November 1989 where the Berlin Wall was opened and demolished",
+  "coord": {
+   "lat": 52.5186,
+   "lon": 13.4044
+  },
+  "image": "BerlinWall-BrandenburgGate.jpg",
+  "pointInTime": {
+   "year": 1989,
+   "date": "1989-11-09",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13418847",
+   "Q331483"
+  ],
+  "wiki": {
+   "en": "Fall of the Berlin Wall",
+   "zh": "柏林墙倒塌"
+  }
+ },
+ "Q70972": {
+  "label": {
+   "en": "Kingdom of France",
+   "zh": "法兰西王国"
+  },
+  "description": "monarchical state that ruled France from 987 to 1792, and again from 1814 to 1848 (except during the Hundred Days in 1815)",
+  "coord": {
+   "lat": 47,
+   "lon": 2
+  },
+  "image": "Chateau de Versailles 1668 Pierre Patel.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 987,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1791,
+   "date": "1791-09-04",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of France",
+   "zh": "法蘭西王國"
+  }
+ },
+ "Q70991": {
+  "label": {
+   "en": "Hildegard of Bingen",
+   "zh": "宾根的希尔德加德"
+  },
+  "description": "German Benedictine abbess, polymath, mystic and Doctor of Church (1098–1179)",
+  "coord": null,
+  "image": "Hildegard von Bingen. Line engraving by W. Marshall (3x4 cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1098,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1179,
+   "date": "1179-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hildegard of Bingen",
+   "zh": "赫德嘉·馮·賓根"
+  },
+  "locationQid": null
+ },
+ "Q7186": {
+  "label": {
+   "en": null,
+   "zh": "玛丽·居里"
+  },
+  "description": "Polish-born French physicist and chemist (1867–1934)",
+  "coord": null,
+  "image": "Marie Curie (1900) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1867,
+   "date": "1867-11-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1934,
+   "date": "1934-07-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Marie Curie",
+   "zh": "玛丽·居里"
+  },
+  "locationQid": null
+ },
+ "Q7207": {
+  "label": {
+   "en": "Elizabeth I of England",
+   "zh": "伊丽莎白一世"
+  },
+  "description": "Queen of England and Ireland from 1558 to 1603 (1533–1603)",
+  "coord": null,
+  "image": "Elizabeth1England.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1533,
+   "date": "1533-09-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1603,
+   "date": "1603-03-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Elizabeth I",
+   "zh": "伊丽莎白一世"
+  },
+  "locationQid": null
+ },
+ "Q7226": {
+  "label": {
+   "en": "Joan of Arc",
+   "zh": "聖女貞德"
+  },
+  "description": "French folk heroine (1412–1431), military leader who crowned Charles VII and Roman Catholic saint, canonized 500 years after her death",
+  "coord": null,
+  "image": "Contemporaine afb jeanne d arc.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1412,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1431,
+   "date": "1431-05-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Joan of Arc",
+   "zh": "聖女貞德"
+  },
+  "locationQid": null
+ },
+ "Q7322": {
+  "label": {
+   "en": "Christopher Columbus",
+   "zh": "克里斯托弗·哥伦布"
+  },
+  "description": "Italian navigator, explorer, and colonist (1451–1506)",
+  "coord": null,
+  "image": "Ridolfo del Ghirlandaio - Ritratto di Cristoforo Colombo (1520).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1451,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1506,
+   "date": "1506-05-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Christopher Columbus",
+   "zh": "克里斯托弗·哥伦布"
+  },
+  "locationQid": null
+ },
+ "Q762": {
+  "label": {
+   "en": "Leonardo da Vinci",
+   "zh": "列奥纳多·达·芬奇"
+  },
+  "description": "Italian Renaissance polymath (1452−1519)",
+  "coord": null,
+  "image": "Francesco Melzi - Portrait of Leonardo.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1452,
+   "date": "1452-04-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1519,
+   "date": "1519-05-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Leonardo da Vinci",
+   "zh": "列奥纳多·达·芬奇"
+  },
+  "locationQid": null
+ },
+ "Q765165": {
+  "label": {
+   "en": "Leonid Brezhnev",
+   "zh": "列昂尼德·伊里奇·勃列日涅夫"
+  },
+  "description": "General Secretary of the Communist Party of the Soviet Union (1906–1982)",
+  "coord": null,
+  "image": "Leonid Brezjnev, leider van de Sovjet-Unie, Bestanddeelnr 925-6564.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1906,
+   "date": "1906-12-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1982,
+   "date": "1982-11-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Leonid Brezhnev",
+   "zh": "列昂尼德·勃列日涅夫"
+  },
+  "locationQid": null
+ },
+ "Q76555": {
+  "label": {
+   "en": "Joseph II, Holy Roman Emperor",
+   "zh": "约瑟夫二世"
+  },
+  "description": "Holy Roman Emperor from 1765 to 1790, (1741-1790).",
+  "coord": null,
+  "image": "Anton von Maron 006.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1741,
+   "date": "1741-03-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1790,
+   "date": "1790-02-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Joseph II",
+   "zh": "约瑟夫二世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q767253": {
+  "label": {
+   "en": "Columbian Exchange",
+   "zh": "哥伦布大交换"
+  },
+  "description": "biological exchange across Atlantic Ocean",
+  "coord": null,
+  "image": "New World Domesticated plants.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2245405"
+  ],
+  "wiki": {
+   "en": "Columbian exchange",
+   "zh": "哥倫布大交換"
+  },
+  "locationQid": null
+ },
+ "Q7731": {
+  "label": {
+   "en": "Alexei I of Russia",
+   "zh": "阿列克谢一世"
+  },
+  "description": "Tsar of Russia (1645–1676)",
+  "coord": null,
+  "image": "Alexis I of Russia (1670-1680s, GIM).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1629,
+   "date": "1629-03-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1676,
+   "date": "1676-01-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexis of Russia",
+   "zh": "阿列克謝·米哈伊洛維奇"
+  },
+  "locationQid": null
+ },
+ "Q7732": {
+  "label": {
+   "en": "Louis XVI of France",
+   "zh": "路易十六"
+  },
+  "description": "King of France and Navarre from 1774 to 1791, then King of the French from 1791 to 1792 (1754-1793)",
+  "coord": null,
+  "image": "Musée Ingres-Bourdelle - Portrait de Louis XVI - Joseph-Siffred Duplessis - Joconde06070000102.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1754,
+   "date": "1754-08-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1793,
+   "date": "1793-01-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis XVI",
+   "zh": "路易十六"
+  },
+  "locationQid": null
+ },
+ "Q7742": {
+  "label": {
+   "en": "Louis XIV of France",
+   "zh": "路易十四"
+  },
+  "description": "King of France and Navarre from 1643 to 1715 (1638-1715)",
+  "coord": null,
+  "image": "Louis XIV of France.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1638,
+   "date": "1638-09-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1715,
+   "date": "1715-09-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis XIV",
+   "zh": "路易十四"
+  },
+  "locationQid": null
+ },
+ "Q79789": {
+  "label": {
+   "en": "Frederick Barbarossa",
+   "zh": "腓特烈一世"
+  },
+  "description": "Holy Roman Emperor from 1155 to 1190",
+  "coord": null,
+  "image": "1170 Münze Deutsches Reich Friedrich I..jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1122,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1190,
+   "date": "1190-06-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick Barbarossa",
+   "zh": "腓特烈一世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q7996": {
+  "label": {
+   "en": "Ivan the Terrible",
+   "zh": "伊凡四世"
+  },
+  "description": "Tsar of all Russia from 1547 to 1584",
+  "coord": null,
+  "image": "Ivan grozny frame.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1530,
+   "date": "1530-08-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1584,
+   "date": "1584-03-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan the Terrible",
+   "zh": "伊凡四世"
+  },
+  "locationQid": null
+ },
+ "Q8016": {
+  "label": {
+   "en": "Winston Churchill",
+   "zh": "温斯顿·丘吉尔"
+  },
+  "description": "British statesman, soldier and writer (1874–1965)",
+  "coord": null,
+  "image": "Sir Winston Churchill - 19086236948 (restored).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1874,
+   "date": "1874-11-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1965,
+   "date": "1965-01-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Winston Churchill",
+   "zh": "温斯顿·丘吉尔"
+  },
+  "locationQid": null
+ },
+ "Q81212": {
+  "label": {
+   "en": "Pepin the Short",
+   "zh": "丕平"
+  },
+  "description": "King of the Franks from 751 to 768",
+  "coord": null,
+  "image": "Amiel - Pepin the Short.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 715,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 768,
+   "date": "0768-09-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pepin the Short",
+   "zh": "矮子丕平"
+  },
+  "locationQid": null
+ },
+ "Q815162": {
+  "label": {
+   "en": "Siege of Kyiv",
+   "zh": "1240年基辅围城战"
+  },
+  "description": "1240 Mongol siege of a Rus' city",
+  "coord": {
+   "lat": 50.45,
+   "lon": 30.5236
+  },
+  "image": "Siege of Kiev (1240).png",
+  "pointInTime": {
+   "year": 1240,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1240,
+   "date": "1240-11-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1240,
+   "date": "1240-12-06",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Kiev (1240)",
+   "zh": "乞瓦之战"
+  }
+ },
+ "Q821711": {
+  "label": {
+   "en": "Plague of Justinian",
+   "zh": "查士丁尼大瘟疫"
+  },
+  "description": "541–549 AD pandemic in the Byzantine Empire, later northern Europe",
+  "coord": null,
+  "image": "Diptych Barberini Louvre OA9063 whole.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 541,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 750,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12184",
+   "Q133780"
+  ],
+  "wiki": {
+   "en": "Plague of Justinian",
+   "zh": "查士丁尼大瘟疫"
+  },
+  "locationQid": null
+ },
+ "Q82339": {
+  "label": {
+   "en": "Clovis I",
+   "zh": "克洛维一世"
+  },
+  "description": "first king of the Franks (c. 466-511)",
+  "coord": null,
+  "image": "Jean de Tillet - Clovis Ier roy crestien - Recueil des rois de France.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 466,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 511,
+   "date": "0511-11-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Clovis I",
+   "zh": "克洛维一世"
+  },
+  "locationQid": null
+ },
+ "Q83171": {
+  "label": {
+   "en": "Alexander II of Russia",
+   "zh": "亚历山大二世"
+  },
+  "description": "The 12th Emperor of Russia (1855–1881)",
+  "coord": null,
+  "image": "Zar Alexander II (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1818,
+   "date": "1818-04-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1881,
+   "date": "1881-03-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander II of Russia",
+   "zh": "亚历山大二世 (俄罗斯)"
+  },
+  "locationQid": null
+ },
+ "Q83224": {
+  "label": {
+   "en": "Battle of Hastings",
+   "zh": "黑斯廷斯战役"
+  },
+  "description": "battle which occurred on 14 October 1066",
+  "coord": {
+   "lat": 50.9144,
+   "lon": 0.4878
+  },
+  "image": "Bayeux Tapestry scene57 Harold death.jpg",
+  "pointInTime": {
+   "year": 1066,
+   "date": "1066-10-14",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Hastings",
+   "zh": "黑斯廷斯之战"
+  }
+ },
+ "Q84": {
+  "label": {
+   "en": "London",
+   "zh": "伦敦"
+  },
+  "description": "capital and largest city of England and the United Kingdom",
+  "coord": {
+   "lat": 51.5072,
+   "lon": -0.1275
+  },
+  "image": "London Skyline (125508655).jpeg",
+  "pointInTime": null,
+  "start": {
+   "year": 47,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q200250",
+   "Q1066984",
+   "Q515",
+   "Q208511",
+   "Q174844",
+   "Q51929311",
+   "Q108178728",
+   "Q1048835"
+  ],
+  "wiki": {
+   "en": "London",
+   "zh": "伦敦"
+  }
+ },
+ "Q8413": {
+  "label": {
+   "en": "Constantine the Great",
+   "zh": "君士坦丁大帝"
+  },
+  "description": "Roman emperor from 306 to 337 and first to convert to Christianity (272–337)",
+  "coord": null,
+  "image": "Rome-Capitole-StatueConstantin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 272,
+   "date": "0272-02-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 337,
+   "date": "0337-05-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Constantine the Great",
+   "zh": "君士坦丁大帝"
+  },
+  "locationQid": null
+ },
+ "Q845981": {
+  "label": {
+   "en": "De revolutionibus orbium coelestium",
+   "zh": "天体运行论"
+  },
+  "description": "book by Copernicus",
+  "coord": null,
+  "image": "De Revolvtionibvs Orbium coelestium 1543 (121406887) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47461344"
+  ],
+  "wiki": {
+   "en": "De revolutionibus orbium coelestium",
+   "zh": "天体运行论"
+  },
+  "locationQid": null
+ },
+ "Q8479": {
+  "label": {
+   "en": "Peter the Great",
+   "zh": "皮特大帝"
+  },
+  "description": "Tsar/Emperor of Russia from 1682 to 1725",
+  "coord": null,
+  "image": "Inconnu d'après J.-M. Nattier, Portrait de Pierre Ier (musée de l’Ermitage).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1672,
+   "date": "1672-05-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1725,
+   "date": "1725-01-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter the Great",
+   "zh": "彼得大帝"
+  },
+  "locationQid": null
+ },
+ "Q855": {
+  "label": {
+   "en": "Joseph Stalin",
+   "zh": "约瑟夫·斯大林"
+  },
+  "description": "politician and leader of the Union of Soviet Socialist Republics from 1924 to 1953",
+  "coord": null,
+  "image": "StalinCropped1943.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1878,
+   "date": "1878-12-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1953,
+   "date": "1953-03-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Joseph Stalin",
+   "zh": "约瑟夫·斯大林"
+  },
+  "locationQid": null
+ },
+ "Q8736": {
+  "label": {
+   "en": "Treaty of Versailles",
+   "zh": "凡尔赛条约"
+  },
+  "description": "most important of the peace treaties of the First World War which ended the state of war between Germany and the Allied Powers",
+  "coord": null,
+  "image": "Treaty of Versailles, English version.jpg",
+  "pointInTime": {
+   "year": 1919,
+   "date": "1919-06-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1920,
+   "date": "1920-01-10",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625298",
+   "Q6934728"
+  ],
+  "wiki": {
+   "en": "Treaty of Versailles",
+   "zh": "凡尔赛条约"
+  },
+  "locationQid": "Q1583447"
+ },
+ "Q87779": {
+  "label": {
+   "en": "Battle of the Teutoburg Forest",
+   "zh": "条顿堡森林战役"
+  },
+  "description": "battle between a coalition of Germanic peoples and an Imperial Roman army, 9 BCE",
+  "coord": {
+   "lat": 52.4075,
+   "lon": 8.1258
+  },
+  "image": "Varus01.jpg",
+  "pointInTime": {
+   "year": 9,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of the Teutoburg Forest",
+   "zh": "條頓堡森林之戰"
+  }
+ },
+ "Q8958": {
+  "label": {
+   "en": "Johannes Gutenberg",
+   "zh": "约翰内斯·谷登堡"
+  },
+  "description": "German inventor and craftsman (1400-1468)",
+  "coord": null,
+  "image": "Gutenberg.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1400,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1468,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Johannes Gutenberg",
+   "zh": "约翰内斯·谷登堡"
+  },
+  "locationQid": null
+ },
+ "Q90": {
+  "label": {
+   "en": "Paris",
+   "zh": "巴黎"
+  },
+  "description": "capital and most populous city in France",
+  "coord": {
+   "lat": 48.8567,
+   "lon": 2.3522
+  },
+  "image": "La Tour Eiffel vue de la Tour Saint-Jacques, Paris août 2014 (2).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -300,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q22923920",
+   "Q200250",
+   "Q208511",
+   "Q51929311",
+   "Q108178728",
+   "Q174844"
+  ],
+  "wiki": {
+   "en": "Paris",
+   "zh": "巴黎"
+  }
+ },
+ "Q914": {
+  "label": {
+   "en": "Volgograd",
+   "zh": "伏尔加格勒"
+  },
+  "description": "city and administrative center of Volgograd Oblast in southern Russia",
+  "coord": {
+   "lat": 48.7086,
+   "lon": 44.5147
+  },
+  "image": "Volgograd Montage 2016.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1589,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q7930989"
+  ],
+  "wiki": {
+   "en": "Volgograd",
+   "zh": "伏尔加格勒"
+  }
+ },
+ "Q935": {
+  "label": {
+   "en": "Isaac Newton",
+   "zh": "艾萨克·牛顿"
+  },
+  "description": "English mathematician and physicist (1642–1727)",
+  "coord": null,
+  "image": "GodfreyKneller-IsaacNewton-1689.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1642,
+   "date": "1642-12-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1727,
+   "date": "1727-03-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Isaac Newton",
+   "zh": "艾萨克·牛顿"
+  },
+  "locationQid": null
+ },
+ "Q936976": {
+  "label": {
+   "en": "Henry IV of France",
+   "zh": "亨利四世"
+  },
+  "description": "King of Navarre from 1572 to 1610 and King of France from 1589 to 1610 (1553-1610)",
+  "coord": null,
+  "image": "Henry IV of france by pourbous younger.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1553,
+   "date": "1553-12-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1610,
+   "date": "1610-05-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Henry IV of France",
+   "zh": "亨利四世 (法兰西)"
+  },
+  "locationQid": null
+ },
+ "Q9439": {
+  "label": {
+   "en": "Victoria",
+   "zh": "维多利亚女王"
+  },
+  "description": "Queen of the United Kingdom from 1837 to 1901 (1819–1901)",
+  "coord": null,
+  "image": "Queen Victoria by Bassano.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1819,
+   "date": "1819-05-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-01-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Queen Victoria",
+   "zh": "维多利亚女王"
+  },
+  "locationQid": null
+ },
+ "Q9554": {
+  "label": {
+   "en": "Martin Luther",
+   "zh": "马丁·路德"
+  },
+  "description": "German priest and theologian (1483–1546)",
+  "coord": null,
+  "image": "Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1483,
+   "date": "1483-11-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1546,
+   "date": "1546-02-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Martin Luther",
+   "zh": "馬丁·路德"
+  },
+  "locationQid": null
+ },
+ "Q963303": {
+  "label": {
+   "en": "Union of Lublin",
+   "zh": "盧布林聯合"
+  },
+  "description": "1569 union of Poland and Lithuania",
+  "coord": null,
+  "image": "Lublin Union 1569.PNG",
+  "pointInTime": {
+   "year": 1569,
+   "date": "1569-07-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1093720",
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "Union of Lublin",
+   "zh": "盧布林聯合"
+  },
+  "locationQid": "Q37333"
+ },
+ "Q9682": {
+  "label": {
+   "en": "Elizabeth II",
+   "zh": "伊丽莎白二世"
+  },
+  "description": "Queen of the United Kingdom from 1952 to 2022 (1926–2022)",
+  "coord": null,
+  "image": "Queen Elizabeth II official portrait for 1959 tour (retouched) (cropped) (3-to-4 aspect ratio).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1926,
+   "date": "1926-04-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2022,
+   "date": "2022-09-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Elizabeth II",
+   "zh": "伊丽莎白二世"
+  },
+  "locationQid": null
+ },
+ "loc:Q1247": {
+  "coord": {
+   "lat": 15,
+   "lon": -75
+  },
+  "label": {
+   "en": "Caribbean Sea",
+   "zh": "加勒比海"
+  }
+ },
+ "loc:Q12837": {
+  "coord": {
+   "lat": 40.24,
+   "lon": -4.2392
+  },
+  "label": {
+   "en": "Iberian Peninsula",
+   "zh": "伊比利亚半岛"
+  }
+ },
+ "loc:Q142": {
+  "coord": {
+   "lat": 47,
+   "lon": 2
+  },
+  "label": {
+   "en": "France",
+   "zh": "法国"
+  }
+ },
+ "loc:Q15180": {
+  "coord": {
+   "lat": 65,
+   "lon": 90
+  },
+  "label": {
+   "en": "Soviet Union",
+   "zh": "苏联"
+  }
+ },
+ "loc:Q154748": {
+  "coord": {
+   "lat": 49.1597,
+   "lon": 5.3828
+  },
+  "label": {
+   "en": "Verdun",
+   "zh": "凡尔登"
+  }
+ },
+ "loc:Q1583447": {
+  "coord": {
+   "lat": 48.8048,
+   "lon": 2.1203
+  },
+  "label": {
+   "en": "Hall of Mirrors",
+   "zh": "鏡廳"
+  }
+ },
+ "loc:Q159": {
+  "coord": {
+   "lat": 66.4167,
+   "lon": 94.25
+  },
+  "label": {
+   "en": "Russia",
+   "zh": "俄罗斯"
+  }
+ },
+ "loc:Q217196": {
+  "coord": {
+   "lat": 40.4175,
+   "lon": -3.715
+  },
+  "label": {
+   "en": "Crown of Castile",
+   "zh": "卡斯提尔联合王国"
+  }
+ },
+ "loc:Q220": {
+  "coord": {
+   "lat": 41.8931,
+   "lon": 12.4828
+  },
+  "label": {
+   "en": "Rome",
+   "zh": "罗马"
+  }
+ },
+ "loc:Q27509": {
+  "coord": {
+   "lat": 51,
+   "lon": 10
+  },
+  "label": {
+   "en": "Central Europe",
+   "zh": "中欧"
+  }
+ },
+ "loc:Q316814": {
+  "coord": {
+   "lat": 51.9622,
+   "lon": 7.6281
+  },
+  "label": {
+   "en": "Prinzipalmarkt",
+   "zh": "中央市場"
+  }
+ },
+ "loc:Q34266": {
+  "coord": {
+   "lat": 58.65,
+   "lon": 70.1167
+  },
+  "label": {
+   "en": "Russian Empire",
+   "zh": "俄罗斯帝国"
+  }
+ },
+ "loc:Q37333": {
+  "coord": {
+   "lat": 51.25,
+   "lon": 22.5667
+  },
+  "label": {
+   "en": "Lublin",
+   "zh": "卢布林"
+  }
+ },
+ "loc:Q38": {
+  "coord": {
+   "lat": 42.5,
+   "lon": 12.5
+  },
+  "label": {
+   "en": "Italy",
+   "zh": "意大利"
+  }
+ },
+ "loc:Q46": {
+  "coord": {
+   "lat": 53.5,
+   "lon": 15.5
+  },
+  "label": {
+   "en": "Europe",
+   "zh": "欧洲"
+  }
+ },
+ "loc:Q48": {
+  "coord": {
+   "lat": 35,
+   "lon": 108
+  },
+  "label": {
+   "en": "Asia",
+   "zh": "亚洲"
+  }
+ },
+ "loc:Q656": {
+  "coord": {
+   "lat": 59.95,
+   "lon": 30.3167
+  },
+  "label": {
+   "en": "Saint Petersburg",
+   "zh": "圣彼得堡"
+  }
+ },
+ "loc:Q810126": {
+  "coord": {
+   "lat": 41.9022,
+   "lon": 12.4533
+  },
+  "label": {
+   "en": "Old St. Peter's Basilica",
+   "zh": "老圣伯多禄大殿"
+  }
+ },
+ "loc:Q81483": {
+  "coord": {
+   "lat": 34,
+   "lon": 36
+  },
+  "label": {
+   "en": "Levant",
+   "zh": "黎凡特"
+  }
+ }
+}

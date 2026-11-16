@@ -1,0 +1,199 @@
+[
+ {
+  "key": "ev-mongol-invasion-of-khwarazm:coord",
+  "id": "ev-mongol-invasion-of-khwarazm",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.6542,
+   66.9597
+  ],
+  "wikidata": [
+   45.3,
+   63.9
+  ],
+  "qid": "Q431177",
+  "km": 676,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Q431177 has no coordinate of its own; the diff uses a generic ‘Central Asia’ location point in the Aral steppe. Samarkand, Khwarazm’s capital taken in 1220, is a better anchor; the full route is given separately.",
+   "checked": [
+    "Juvaini, History of the World-Conqueror, tr. J. A. Boyle (1958)",
+    "https://www.britannica.com/place/Khwarezm"
+   ]
+  }
+ },
+ {
+  "key": "ev-toluid-civil-war:coord",
+  "id": "ev-toluid-civil-war",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   47.1975,
+   102.8238
+  ],
+  "wikidata": [
+   45.3,
+   63.9
+  ],
+  "qid": "Q16871984",
+  "km": 2969,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is a generic Central Asia location. The war was fought over Karakorum, Ariq Böke’s capital, which Kublai starved by cutting grain shipments; Karakorum is the appropriate anchor.",
+   "checked": [
+    "Morris Rossabi, Khubilai Khan: His Life and Times (1988), ch. 3",
+    "Cambridge History of China vol. 6 (1994)"
+   ]
+  }
+ },
+ {
+  "key": "ev-bibi-khanym-mosque:year",
+  "id": "ev-bibi-khanym-mosque",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1399,
+  "wikidata": 1404,
+  "qid": "Q679218",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Timur’s historian Sharaf al-Din Yazdi dates the foundation to May 1399, after the Indian campaign; Clavijo saw it nearly finished in 1404. Our year 1399 is the start; endYear 1404 is the completion that Wikidata records.",
+   "checked": [
+    "Ruy González de Clavijo, Embassy to Tamerlane, tr. G. Le Strange (1928)",
+    "Lisa Golombek & Donald Wilber, The Timurid Architecture of Iran and Turan (1988)"
+   ]
+  }
+ },
+ {
+  "key": "ev-central-asian-revolt-1916:coord",
+  "id": "ev-central-asian-revolt-1916",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   40.28,
+   69.62
+  ],
+  "wikidata": [
+   45.3,
+   63.9
+  ],
+  "qid": "Q4438492",
+  "km": 727,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is a generic Central Asia location. The revolt began with the Khujand riot of 4 July 1916 (O.S.), which Khalid and the Chokobaeva–Drieu–Morrison volume treat as its start; Khujand is the right anchor.",
+   "checked": [
+    "Adeeb Khalid, Central Asia: A New History (2021)",
+    "A. Chokobaeva, C. Drieu & A. Morrison (eds.), The Central Asian Revolt of 1916 (2019)"
+   ]
+  }
+ },
+ {
+  "key": "ev-basmachi-movement:coord",
+  "id": "ev-basmachi-movement",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   40.4,
+   71.8
+  ],
+  "wikidata": [
+   41.2667,
+   69.2167
+  ],
+  "qid": "Q255352",
+  "km": 238,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is Tashkent, the Soviet seat the Basmachi fought against. The movement’s heartland was the Fergana valley (and later eastern Bukhara), where ours is plotted.",
+   "checked": [
+    "Adeeb Khalid, Central Asia: A New History (2021)",
+    "https://www.britannica.com/event/Basmachi-Revolt"
+   ]
+  }
+ },
+ {
+  "key": "ev-tajikistani-civil-war:coord",
+  "id": "ev-tajikistani-civil-war",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.5731,
+   68.7864
+  ],
+  "wikidata": [
+   38.5833,
+   71.3667
+  ],
+  "qid": "Q1122110",
+  "km": 224,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata places the war in the Rasht/Gharm valley, one opposition stronghold. The conflict began with the 1992 Dushanbe demonstrations and centred on control of the capital, with fighting also in Kulob and Qurghonteppa; Dushanbe is a reasonable anchor.",
+   "checked": [
+    "https://www.britannica.com/place/Tajikistan/History",
+    "Shirin Akiner, Tajikistan: Disintegration or Reconciliation? (2001)"
+   ]
+  }
+ },
+ {
+  "key": "ev-al-biruni-india:year",
+  "id": "ev-al-biruni-india",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1030,
+  "wikidata": 1017,
+  "qid": "Q16127829",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The Tahqiq ma li-l-Hind was composed c. 1030 (Encyclopedia.com/DSB; Britannica topic entry). Wikidata's 1017 is the year al-Biruni was taken to Ghazni, not the date of the book.",
+   "checked": [
+    "https://encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/biruni-al",
+    "https://www.britannica.com/topic/Tahqiq-ma-li-l-hind-min-maqulah-maqbulah-fi-al-aql-aw-mardhulah (via search)"
+   ]
+  }
+ },
+ {
+  "key": "polity-hephthalite:from",
+  "id": "polity-hephthalite",
+  "dataset": "central-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 450,
+  "wikidata": 408,
+  "qid": "Q26576",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 408 counts the earliest Hunnic arrivals in Bactria. The Hephthalite empire itself emerges in the mid-5th century (Iranica: Hephthalites); c. 450 is the conventional start. Record is confidence low with note.",
+   "checked": [
+    "Encyclopaedia Iranica: Hephthalites (A. D. H. Bivar)",
+    "Cambridge History of Early Inner Asia (1990), ch. 6"
+   ]
+  }
+ },
+ {
+  "key": "polity-hephthalite:to",
+  "id": "polity-hephthalite",
+  "dataset": "central-asia",
+  "kind": "polities",
+  "field": "to",
+  "ours": 560,
+  "wikidata": 670,
+  "qid": "Q26576",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 670 includes post-imperial Hephthalite principalities. The empire was destroyed by the Turk–Sasanian alliance c. 557–563; c. 560 is the standard date (Iranica, Gol-Zarriun).",
+   "checked": [
+    "Encyclopaedia Iranica: Hephthalites (A. D. H. Bivar)",
+    "Cambridge History of Early Inner Asia (1990), ch. 6"
+   ]
+  }
+ }
+]

@@ -1,0 +1,4840 @@
+{
+ "Q1036636": {
+  "label": {
+   "en": "Battle of Hwangsanbeol",
+   "zh": "黃山伐之战"
+  },
+  "description": "battle between Silla and Baekje in 660",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 660,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Hwangsanbeol",
+   "zh": null
+  },
+  "locationQid": "Q42088"
+ },
+ "Q109079": {
+  "label": {
+   "en": "Kaesong",
+   "zh": "开城特级市"
+  },
+  "description": "city in North Korea",
+  "coord": {
+   "lat": 37.9717,
+   "lon": 126.5528
+  },
+  "image": "Kaesong in 2018.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6754979"
+  ],
+  "wiki": {
+   "en": "Kaesong",
+   "zh": "開城市"
+  }
+ },
+ "Q11526469": {
+  "label": {
+   "en": "Tōdai-ji Daibutsu",
+   "zh": "東大寺盧舍那佛像"
+  },
+  "description": "statue in Nara, Nara, Japan",
+  "coord": {
+   "lat": 34.6891,
+   "lon": 135.8398
+  },
+  "image": "Nara, todai-ji 03.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 752,
+   "date": "0752-05-26",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1051606",
+   "Q22119607",
+   "Q860861"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  }
+ },
+ "Q1154406": {
+  "label": {
+   "en": "Ashikaga shogunate",
+   "zh": "室町幕府"
+  },
+  "description": "feudal military government of Japan (1336–1573)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1336,
+   "date": "1336-06-07",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1573,
+   "date": "1573-08-25",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1074150",
+   "Q4482688",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Ashikaga shogunate",
+   "zh": "室町幕府"
+  },
+  "locationQid": null
+ },
+ "Q1188359": {
+  "label": {
+   "en": "Hōjō Yasutoki",
+   "zh": "北条泰时"
+  },
+  "description": "3rd Shikken of the Kamakura shogunate",
+  "coord": null,
+  "image": "Hōjō Yasutoki.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1183,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1242,
+   "date": "1242-07-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hōjō Yasutoki",
+   "zh": "北條泰時"
+  },
+  "locationQid": null
+ },
+ "Q1336847": {
+  "label": {
+   "en": "Great Fire of Meireki",
+   "zh": "明历大火"
+  },
+  "description": "conflagration",
+  "coord": {
+   "lat": 35.7357,
+   "lon": 139.7351
+  },
+  "image": "Meireki fire.JPG",
+  "pointInTime": {
+   "year": 1657,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1657,
+   "date": "1657-03-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1657,
+   "date": "1657-03-05",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3149858"
+  ],
+  "wiki": {
+   "en": "Great Fire of Meireki",
+   "zh": "明曆大火"
+  }
+ },
+ "Q138733": {
+  "label": {
+   "en": "Tripitaka Koreana",
+   "zh": "高丽大藏经"
+  },
+  "description": "collection of wooden blocks imprinted with Korean Buddhist scriptures housed in a temple",
+  "coord": {
+   "lat": 35.8017,
+   "lon": 128.0986
+  },
+  "image": "Tripitaka Koreana 02.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1300,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1001051",
+   "Q210272",
+   "Q1261053",
+   "Q3331189"
+  ],
+  "wiki": {
+   "en": "Tripitaka Koreana",
+   "zh": "高丽大藏经"
+  }
+ },
+ "Q14304": {
+  "label": {
+   "en": "Taejong of Joseon",
+   "zh": "朝鲜太宗"
+  },
+  "description": "3rd King of Joseon Dynasty in Korea",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1367,
+   "date": "1367-05-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1422,
+   "date": "1422-05-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Taejong of Joseon",
+   "zh": "朝鲜太宗"
+  },
+  "locationQid": null
+ },
+ "Q1490": {
+  "label": {
+   "en": "Tokyo",
+   "zh": "东京都"
+  },
+  "description": "capital and largest city of Japan",
+  "coord": {
+   "lat": 35.6894,
+   "lon": 139.6917
+  },
+  "image": "Skyscrapers of Shinjuku 2009 January (revised).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1868,
+   "date": "1868-09-06",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124313007",
+   "Q1025961",
+   "Q1200957",
+   "Q200250",
+   "Q208511",
+   "Q174844",
+   "Q51929311",
+   "Q1549591",
+   "Q50337",
+   "Q200250",
+   "Q1066984"
+  ],
+  "wiki": {
+   "en": "Tokyo",
+   "zh": "東京都"
+  }
+ },
+ "Q157052": {
+  "label": {
+   "en": "Emperor Taishō",
+   "zh": "大正天皇"
+  },
+  "description": "Emperor of Japan from 1912 until 1926",
+  "coord": null,
+  "image": "Emperor Taishō.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1879,
+   "date": "1879-08-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1926,
+   "date": "1926-12-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Taishō",
+   "zh": "大正天皇"
+  },
+  "locationQid": null
+ },
+ "Q159950": {
+  "label": {
+   "en": "Russo-Japanese War",
+   "zh": "日俄战争"
+  },
+  "description": "conflict between the Russian and Japanese empires from 1904 to 1905",
+  "coord": null,
+  "image": "RUSSOJAPANESEWARIMAGE.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1904,
+   "date": "1904-02-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1905,
+   "date": "1905-09-05",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q12897867"
+  ],
+  "wiki": {
+   "en": "Russo-Japanese War",
+   "zh": "日俄战争"
+  },
+  "locationQid": "Q81126"
+ },
+ "Q169134": {
+  "label": {
+   "en": "Nara",
+   "zh": "奈良市"
+  },
+  "description": "city in Nara prefecture, Japan",
+  "coord": {
+   "lat": 34.685,
+   "lon": 135.8048
+  },
+  "image": "Kasuga-taisha, chumon-1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1898,
+   "date": "1898-02-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1137833",
+   "Q65589340",
+   "Q1549591",
+   "Q494721",
+   "Q1200957",
+   "Q11422368"
+  ],
+  "wiki": {
+   "en": "Nara (city)",
+   "zh": "奈良市"
+  }
+ },
+ "Q171411": {
+  "label": {
+   "en": "Oda Nobunaga",
+   "zh": "织田信长"
+  },
+  "description": "Japanese samurai and warlord (1534–1582)",
+  "coord": null,
+  "image": "Odanobunaga.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1534,
+   "date": "1534-06-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1582,
+   "date": "1582-06-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Oda Nobunaga",
+   "zh": "織田信長"
+  },
+  "locationQid": null
+ },
+ "Q171977": {
+  "label": {
+   "en": "Tokugawa Ieyasu",
+   "zh": "德川家康"
+  },
+  "description": "founder and first shogun of the Tokugawa shogunate of Japan (1543–1616)",
+  "coord": null,
+  "image": "Tokugawa Ieyasu2.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1543,
+   "date": "1543-01-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1616,
+   "date": "1616-06-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tokugawa Ieyasu",
+   "zh": "德川家康"
+  },
+  "locationQid": null
+ },
+ "Q174231": {
+  "label": {
+   "en": "Emperor Meiji",
+   "zh": "明治天皇"
+  },
+  "description": "Emperor of Japan from 1867 until 1912",
+  "coord": null,
+  "image": "Meiji Emperor.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1852,
+   "date": "1852-11-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1912,
+   "date": "1912-07-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Meiji",
+   "zh": "明治天皇"
+  },
+  "locationQid": null
+ },
+ "Q187550": {
+  "label": {
+   "en": "Toyotomi Hideyoshi",
+   "zh": "丰臣秀吉"
+  },
+  "description": "Japanese samurai and daimyo (1537–1598)",
+  "coord": null,
+  "image": "Toyotomi hideyoshi face.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1537,
+   "date": "1537-03-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1598,
+   "date": "1598-09-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Toyotomi Hideyoshi",
+   "zh": "丰臣秀吉"
+  },
+  "locationQid": null
+ },
+ "Q18808": {
+  "label": {
+   "en": "Pyongyang",
+   "zh": "平壤"
+  },
+  "description": "capital city of North Korea",
+  "coord": {
+   "lat": 39.0167,
+   "lon": 125.7475
+  },
+  "image": "Panoramic view from Juche Tower.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q499073",
+   "Q10864048",
+   "Q1549591",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Pyongyang",
+   "zh": "平壤市"
+  }
+ },
+ "Q188712": {
+  "label": {
+   "en": "Empire of Japan",
+   "zh": "大日本帝国"
+  },
+  "description": "empire in the Asia-Pacific region from 1868 to 1947",
+  "coord": {
+   "lat": 35.6825,
+   "lon": 139.7528
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1868,
+   "date": "1868-01-03",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1947,
+   "date": "1947-05-03",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Empire of Japan",
+   "zh": "大日本帝国"
+  }
+ },
+ "Q189178": {
+  "label": {
+   "en": "Nara period",
+   "zh": "奈良时代"
+  },
+  "description": "historical medieval period of Japan from CE 710 to 794",
+  "coord": null,
+  "image": "Japan- Nara, Todaiji Shosoin 2011.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 710,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 794,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Nara period",
+   "zh": "奈良時代"
+  },
+  "locationQid": null
+ },
+ "Q18990": {
+  "label": {
+   "en": "Hunminjeongeum",
+   "zh": "訓民正音"
+  },
+  "description": "15th century document on the Korean alphabet",
+  "coord": null,
+  "image": "Hunminjeongum.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1443,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47461344"
+  ],
+  "wiki": {
+   "en": "Hunminjeongeum",
+   "zh": "訓民正音"
+  },
+  "locationQid": null
+ },
+ "Q193292": {
+  "label": {
+   "en": "Heian period",
+   "zh": "平安时代"
+  },
+  "description": "last major division of classical Japanese history (794 to 1185), named after the capital city of Heian-kyō, or modern Kyōto",
+  "coord": null,
+  "image": "西寺復元模型.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 794,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1185,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Heian period",
+   "zh": "平安时代"
+  },
+  "locationQid": null
+ },
+ "Q197248": {
+  "label": {
+   "en": "Seventeen-article constitution",
+   "zh": "十七条宪法"
+  },
+  "description": "historic constitution of Japan attributed to Prince Shōtoku in 604",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7755",
+   "Q93469014"
+  ],
+  "wiki": {
+   "en": "Seventeen-article constitution",
+   "zh": "十七条宪法"
+  },
+  "locationQid": null
+ },
+ "Q200267": {
+  "label": {
+   "en": "Kamakura",
+   "zh": "镰仓市"
+  },
+  "description": "city in Kanagawa prefecture, Japan",
+  "coord": {
+   "lat": 35.3192,
+   "lon": 139.5472
+  },
+  "image": "230128 Kanagawa Prefectural Shichirigahama High School Japan07s3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q494721",
+   "Q1549591",
+   "Q1200957",
+   "Q15661340"
+  ],
+  "wiki": {
+   "en": "Kamakura",
+   "zh": "镰仓市"
+  }
+ },
+ "Q205662": {
+  "label": {
+   "en": "Tokugawa shogunate",
+   "zh": "江户幕府"
+  },
+  "description": "1603–1868 Japanese military government",
+  "coord": {
+   "lat": 35.6839,
+   "lon": 139.7744
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1603,
+   "date": "1603-03-24",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1867,
+   "date": "1867-11-09",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1074150",
+   "Q3024240",
+   "Q327333"
+  ],
+  "wiki": {
+   "en": "Tokugawa shogunate",
+   "zh": "江户幕府"
+  }
+ },
+ "Q208127": {
+  "label": {
+   "en": "Battle of Tsushima",
+   "zh": "对马海峡海战"
+  },
+  "description": "major naval battle between Russia and Japan during the Russo-Japanese War",
+  "coord": {
+   "lat": 34.45,
+   "lon": 130.15
+  },
+  "image": "Mikasa-Bridge-Painting-by-Tojo-Shotaro.png",
+  "pointInTime": {
+   "year": 1905,
+   "date": "1905-05-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1905,
+   "date": "1905-05-27",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1905,
+   "date": "1905-05-28",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q876274"
+  ],
+  "wiki": {
+   "en": "Battle of Tsushima",
+   "zh": "对马海峡海战"
+  }
+ },
+ "Q208156": {
+  "label": {
+   "en": "Mongol invasions of Japan",
+   "zh": "元日战争"
+  },
+  "description": "attempts by the Mongol Empire to conquer Japan",
+  "coord": null,
+  "image": "Kikuchi Yoosai - Mongol Invasion (mōko shūrai) - Tokyo National Museum.jpg",
+  "pointInTime": {
+   "year": 1274,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q130582763",
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Mongol invasions of Japan",
+   "zh": "元日战争"
+  },
+  "locationQid": "Q397703"
+ },
+ "Q232026": {
+  "label": {
+   "en": "Jitō",
+   "zh": "持统天皇"
+  },
+  "description": "Empress of Japan (645-703)",
+  "coord": null,
+  "image": "Empress Jito by Katsukawa Shunsho.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 645,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 703,
+   "date": "0703-01-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Empress Jitō",
+   "zh": "持统天皇"
+  },
+  "locationQid": null
+ },
+ "Q233224": {
+  "label": {
+   "en": "Genmei",
+   "zh": "元明天皇"
+  },
+  "description": "Empress regnant of Japan",
+  "coord": null,
+  "image": "Empress Gemmei.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 661,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 721,
+   "date": "0721-12-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Empress Genmei",
+   "zh": "元明天皇"
+  },
+  "locationQid": null
+ },
+ "Q233254": {
+  "label": {
+   "en": "Japan–Korea Treaty of November 1905",
+   "zh": "乙巳條約"
+  },
+  "description": "unequal treaty subordinating Korea to the Japanese Empire",
+  "coord": null,
+  "image": "Eulsa retraction.jpg",
+  "pointInTime": {
+   "year": 1905,
+   "date": "1905-11-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": {
+   "year": 1965,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q864737",
+   "Q9557810"
+  ],
+  "wiki": {
+   "en": "Japan–Korea Treaty of 1905",
+   "zh": "第二次日韩协约"
+  },
+  "locationQid": "Q482485"
+ },
+ "Q234188": {
+  "label": {
+   "en": "Battle of Sekigahara",
+   "zh": "关原之战"
+  },
+  "description": "1600 battle preceding Tokugawa shogunate in Japan",
+  "coord": {
+   "lat": 35.3705,
+   "lon": 136.4616
+  },
+  "image": "Sekigaharascreen.jpg",
+  "pointInTime": {
+   "year": 1600,
+   "date": "1600-10-21",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Sekigahara",
+   "zh": "關原之戰"
+  }
+ },
+ "Q242800": {
+  "label": {
+   "en": "Minamoto no Yoritomo",
+   "zh": "源赖朝"
+  },
+  "description": "1st shogun of the Kamakura shogunate (1147–1199)",
+  "coord": null,
+  "image": "Minamoto no Yoritomo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1147,
+   "date": "1147-05-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1199,
+   "date": "1199-02-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Minamoto no Yoritomo",
+   "zh": "源赖朝"
+  },
+  "locationQid": null
+ },
+ "Q248381": {
+  "label": {
+   "en": "Ashikaga Yoshimitsu",
+   "zh": "足利義滿"
+  },
+  "description": "The third shōgun of the Ashikaga shogunate of Japan (1358–1408)",
+  "coord": null,
+  "image": "Yoshimitsu Ashikaga cropped.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1358,
+   "date": "1358-09-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1408,
+   "date": "1408-05-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ashikaga Yoshimitsu",
+   "zh": "足利義滿"
+  },
+  "locationQid": null
+ },
+ "Q257425": {
+  "label": {
+   "en": "Gojong of the Korean Empire",
+   "zh": "朝鲜高宗"
+  },
+  "description": "26th king of Joseon, first emperor of the Korean Empire (1852–1919)",
+  "coord": null,
+  "image": "Gojong of the Korean Empire 02.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1852,
+   "date": "1852-09-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1919,
+   "date": "1919-01-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gojong of Korea",
+   "zh": "朝鮮高宗"
+  },
+  "locationQid": null
+ },
+ "Q263972": {
+  "label": {
+   "en": "Prince Shōtoku",
+   "zh": "聖德太子"
+  },
+  "description": "semi-legendary Japanese prince (574–622)",
+  "coord": null,
+  "image": "Prince Shotoku with Two Princes by Kano Osanobu 1842.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 574,
+   "date": "0574-02-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 622,
+   "date": "0622-04-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Prince Shōtoku",
+   "zh": "聖德太子"
+  },
+  "locationQid": null
+ },
+ "Q26530": {
+  "label": {
+   "en": "Jeongjo of Joseon",
+   "zh": "朝鲜正祖"
+  },
+  "description": "22nd King of Joseon (r. 1776–1800)",
+  "coord": null,
+  "image": "King JeongJo of Joseon.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1752,
+   "date": "1752-09-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1800,
+   "date": "1800-06-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jeongjo of Joseon",
+   "zh": "朝鮮正祖"
+  },
+  "locationQid": null
+ },
+ "Q274498": {
+  "label": {
+   "en": "1923 Great Kantō Earthquake",
+   "zh": "关东大地震"
+  },
+  "description": "earthquake",
+  "coord": {
+   "lat": 35.33,
+   "lon": 139.135
+  },
+  "image": "Kanto-daishinsai.jpg",
+  "pointInTime": {
+   "year": 1923,
+   "date": "1923-09-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q24039748"
+  ],
+  "wiki": {
+   "en": "Great Kantō Earthquake",
+   "zh": "關東大地震"
+  }
+ },
+ "Q28084": {
+  "label": {
+   "en": "Gaya confederacy",
+   "zh": "伽倻"
+  },
+  "description": "confederacy of territorial polities in the Korean Nakdong River basin (AD 42-562)",
+  "coord": {
+   "lat": 35.16,
+   "lon": 128.23
+  },
+  "image": "Korea-Gaya royal tombs inside.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 42,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 562,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kaya confederacy",
+   "zh": "伽倻"
+  }
+ },
+ "Q28179": {
+  "label": {
+   "en": "Joseon",
+   "zh": "朝鲜王朝"
+  },
+  "description": "Korean dynasty / kingdom (1392–1897)",
+  "coord": {
+   "lat": 37.58,
+   "lon": 126.9775
+  },
+  "image": "1894JoseonSeoul.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1392,
+   "date": "1392-08-05",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1897,
+   "date": "1897-10-12",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Joseon",
+   "zh": "朝鲜王朝"
+  }
+ },
+ "Q28208": {
+  "label": {
+   "en": "Goryeo",
+   "zh": "高丽"
+  },
+  "description": "ancient kingdom in the Korean peninsula (918–1392)",
+  "coord": {
+   "lat": 37.9667,
+   "lon": 126.55
+  },
+  "image": "Goryeonobles.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 918,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1392,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q164950"
+  ],
+  "wiki": {
+   "en": "Goryeo",
+   "zh": "高麗"
+  }
+ },
+ "Q28233": {
+  "label": {
+   "en": "Korean Empire",
+   "zh": "大韩帝国"
+  },
+  "description": "state of Korea from October 1897 to August 29, 1910",
+  "coord": {
+   "lat": 37.5333,
+   "lon": 126.9833
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1897,
+   "date": "1897-10-12",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1910,
+   "date": "1910-08-29",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Korean Empire",
+   "zh": "大韓帝國"
+  }
+ },
+ "Q28322": {
+  "label": {
+   "en": "Balhae",
+   "zh": "渤海国"
+  },
+  "description": "ancient kingdom in Asia (698–926)",
+  "coord": null,
+  "image": "Pressapochista4.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 698,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 926,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Parhae",
+   "zh": "渤海国"
+  },
+  "locationQid": null
+ },
+ "Q28370": {
+  "label": {
+   "en": "Goguryeo",
+   "zh": "高句丽"
+  },
+  "description": "one of the Three Kingdoms of Korea (37 BC–668 AD), along with Baekje and Silla",
+  "coord": {
+   "lat": 41.04,
+   "lon": 126.67
+  },
+  "image": "고구려벽화덕흥군.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -37,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 668,
+   "date": "0668-10-22",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Goguryeo",
+   "zh": "高句丽"
+  }
+ },
+ "Q28428": {
+  "label": {
+   "en": "Baekje",
+   "zh": "百济"
+  },
+  "description": "ancient kingdom in southwestern Korea (18 BCE – 660 CE)",
+  "coord": {
+   "lat": 35.79,
+   "lon": 127.12
+  },
+  "image": "Baekje Ambassador.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -18,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 660,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Paekche",
+   "zh": "百济"
+  }
+ },
+ "Q28456": {
+  "label": {
+   "en": "Silla",
+   "zh": "新罗"
+  },
+  "description": "kingdom on the Korean Peninsula (c.57 BCE-935 CE)",
+  "coord": {
+   "lat": 35.96,
+   "lon": 129.42
+  },
+  "image": "Earthenware Funerary Objects in the Shape of a Warrior on Horseback 도기 기마인물형 명기 03.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -57,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 892,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Silla",
+   "zh": "新罗"
+  }
+ },
+ "Q2862267": {
+  "label": {
+   "en": "Korean Armistice Agreement",
+   "zh": "朝鲜停战协定"
+  },
+  "description": "armistice signed July 27, 1953 ending hostilities in Korean War",
+  "coord": {
+   "lat": 37.9611,
+   "lon": 126.6645
+  },
+  "image": "Korean Armistice Ko-Text 1953.jpg",
+  "pointInTime": {
+   "year": 1953,
+   "date": "1953-07-27",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q107706",
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "Korean Armistice Agreement",
+   "zh": "朝鲜停战协定"
+  }
+ },
+ "Q287657": {
+  "label": {
+   "en": "Tokugawa Yoshinobu",
+   "zh": "德川庆喜"
+  },
+  "description": "15th and last shogun of the Tokugawa shogunate (1837–1913)",
+  "coord": null,
+  "image": "1867 Osaka Yoshinobu Tokugawa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1837,
+   "date": "1837-10-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1913,
+   "date": "1913-11-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tokugawa Yoshinobu",
+   "zh": "德川庆喜"
+  },
+  "locationQid": null
+ },
+ "Q29680": {
+  "label": {
+   "en": "Battle of Salsu",
+   "zh": "薩水之戰"
+  },
+  "description": "enormous battle that occurred in the year AD 612",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 612,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Salsu",
+   "zh": "薩水之戰"
+  },
+  "locationQid": "Q499266"
+ },
+ "Q297107": {
+  "label": {
+   "en": null,
+   "zh": "足利尊氏"
+  },
+  "description": "first shōgun of the Ashikaga shogunate of Japan (1305–1358)",
+  "coord": null,
+  "image": "Ashikaga Takauji Jōdo-ji.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1305,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1358,
+   "date": "1358-06-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ashikaga Takauji",
+   "zh": "足利尊氏"
+  },
+  "locationQid": null
+ },
+ "Q298057": {
+  "label": {
+   "en": "Suiko",
+   "zh": "推古天皇"
+  },
+  "description": "Empress of Japan from 592 to 628",
+  "coord": null,
+  "image": "Empress Suiko painting.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 554,
+   "date": "0554-05-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 628,
+   "date": "0628-04-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Empress Suiko",
+   "zh": "推古天皇"
+  },
+  "locationQid": null
+ },
+ "Q313745": {
+  "label": {
+   "en": "Tokugawa Tsunayoshi",
+   "zh": "德川纲吉"
+  },
+  "description": "The fifth shogun of the Tokugawa shogunate of Japan (1646-1709)",
+  "coord": null,
+  "image": "Tsunyaoshi.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1646,
+   "date": "1646-02-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1709,
+   "date": "1709-02-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tokugawa Tsunayoshi",
+   "zh": "德川綱吉"
+  },
+  "locationQid": null
+ },
+ "Q314464": {
+  "label": {
+   "en": "Tokugawa Hidetada",
+   "zh": "德川秀忠"
+  },
+  "description": "The second shogun of the Tokugawa shogunate of Japan (1579–1632)",
+  "coord": null,
+  "image": "Hidetada2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1579,
+   "date": "1579-05-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1632,
+   "date": "1632-03-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tokugawa Hidetada",
+   "zh": "德川秀忠"
+  },
+  "locationQid": null
+ },
+ "Q314481": {
+  "label": {
+   "en": "Tokugawa Iemitsu",
+   "zh": "德川家光"
+  },
+  "description": "The third shogun of the Tokugawa shogunate of Japan (1604–1651)",
+  "coord": null,
+  "image": "Iemitu.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1604,
+   "date": "1604-08-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1651,
+   "date": "1651-06-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tokugawa Iemitsu",
+   "zh": "德川家光"
+  },
+  "locationQid": null
+ },
+ "Q314802": {
+  "label": {
+   "en": "Tenji",
+   "zh": "天智天皇"
+  },
+  "description": "Emperor of Japan (626-672)",
+  "coord": null,
+  "image": "Emperor Tenji (Kanou Tanyuu).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 626,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 672,
+   "date": "0672-01-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Tenji",
+   "zh": "天智天皇"
+  },
+  "locationQid": null
+ },
+ "Q314846": {
+  "label": {
+   "en": "Emperor Kanmu",
+   "zh": "桓武天皇"
+  },
+  "description": "Emperor of Japan",
+  "coord": null,
+  "image": "Emperor Kammu large.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 737,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 806,
+   "date": "0806-04-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Kanmu",
+   "zh": "桓武天皇"
+  },
+  "locationQid": null
+ },
+ "Q315559": {
+  "label": {
+   "en": "Terauchi Masatake",
+   "zh": "寺内正毅"
+  },
+  "description": "Japanese general (1852-1919)",
+  "coord": null,
+  "image": "Masatake Terauchi 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1852,
+   "date": "1852-02-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1919,
+   "date": "1919-11-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Terauchi Masatake",
+   "zh": "寺內正毅"
+  },
+  "locationQid": null
+ },
+ "Q317984": {
+  "label": {
+   "en": "Emperor Go-Shirakawa",
+   "zh": "后白河天皇"
+  },
+  "description": "77th emperor of Japan (1155–58)",
+  "coord": null,
+  "image": "Emperor Goshirakawa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1127,
+   "date": "1127-10-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1192,
+   "date": "1192-04-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Go-Shirakawa",
+   "zh": "後白河天皇"
+  },
+  "locationQid": null
+ },
+ "Q319664": {
+  "label": {
+   "en": "Tokugawa Yoshimune",
+   "zh": "德川吉宗"
+  },
+  "description": "The eighth shogun of the Tokugawa shogunate of Japan (1684-1751)",
+  "coord": null,
+  "image": "Tokugawa Yoshimune.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1684,
+   "date": "1684-11-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1751,
+   "date": "1751-07-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tokugawa Yoshimune",
+   "zh": "德川吉宗"
+  },
+  "locationQid": null
+ },
+ "Q329792": {
+  "label": {
+   "en": "Kinmei",
+   "zh": "钦明天皇"
+  },
+  "description": "29th Emperor of Japan",
+  "coord": null,
+  "image": "Emperor Kinmei.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 509,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 571,
+   "date": "0571-05-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Kinmei",
+   "zh": "钦明天皇"
+  },
+  "locationQid": null
+ },
+ "Q332075": {
+  "label": {
+   "en": "sakoku",
+   "zh": "日本锁国"
+  },
+  "description": "Japanese isolationist policies in the Tokugawa Shogunate",
+  "coord": null,
+  "image": "志筑忠雄訳「鎖国論」.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1639,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1854,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q181648"
+  ],
+  "wiki": {
+   "en": "Sakoku",
+   "zh": "锁国 (日本)"
+  },
+  "locationQid": null
+ },
+ "Q334111": {
+  "label": {
+   "en": "Sunjong of the Korean Empire",
+   "zh": "朝鲜纯宗"
+  },
+  "description": "The 2nd emperor of the Korean Empire. (1874–1926)",
+  "coord": null,
+  "image": "Sunjong of the Korean Empire.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1874,
+   "date": "1874-03-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1926,
+   "date": "1926-04-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sunjong of Korea",
+   "zh": "朝鮮純宗"
+  },
+  "locationQid": null
+ },
+ "Q334312": {
+  "label": {
+   "en": "Taejo of Goryeo",
+   "zh": "高丽太祖"
+  },
+  "description": "founder of the Goryeo Dynasty (877-943)",
+  "coord": null,
+  "image": "WangGeon.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 877,
+   "date": "0877-01-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 943,
+   "date": "0943-07-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Taejo of Goryeo",
+   "zh": "高麗太祖"
+  },
+  "locationQid": null
+ },
+ "Q335181": {
+  "label": {
+   "en": "Tenmu",
+   "zh": "天武天皇"
+  },
+  "description": "Emperor of Japan",
+  "coord": null,
+  "image": "天武天皇御影、金剛山寺所蔵.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 631,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 686,
+   "date": "0686-10-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Tenmu",
+   "zh": "天武天皇"
+  },
+  "locationQid": null
+ },
+ "Q335188": {
+  "label": {
+   "en": "Saitō Makoto",
+   "zh": "斋藤实"
+  },
+  "description": "Prime Minister of Japan (1858-1936)",
+  "coord": null,
+  "image": "Makoto Saito 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1858,
+   "date": "1858-12-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1936,
+   "date": "1936-02-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Saitō Makoto",
+   "zh": "齋藤實"
+  },
+  "locationQid": null
+ },
+ "Q34479": {
+  "label": {
+   "en": "Hirohito",
+   "zh": "昭和天皇"
+  },
+  "description": "emperor of Japan from 1926 to 1989",
+  "coord": null,
+  "image": "Hirohito in dress uniform.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1901,
+   "date": "1901-04-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1989,
+   "date": "1989-01-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hirohito",
+   "zh": "昭和天皇"
+  },
+  "locationQid": null
+ },
+ "Q34600": {
+  "label": {
+   "en": "Kyoto",
+   "zh": "京都市"
+  },
+  "description": "city in the Kyōto Prefecture, Japan",
+  "coord": {
+   "lat": 35.0116,
+   "lon": 135.7681
+  },
+  "image": "Pedestrian road with pavements, paper umbrellas and people in yukata, Higashiyama-ku, Kyoto, Japan.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1889,
+   "date": "1889-04-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1749269",
+   "Q65589340",
+   "Q1549591",
+   "Q494721",
+   "Q1200957",
+   "Q129268952",
+   "Q1187811",
+   "Q11422368"
+  ],
+  "wiki": {
+   "en": "Kyoto",
+   "zh": "京都市"
+  }
+ },
+ "Q349263": {
+  "label": {
+   "en": "Shōmu",
+   "zh": "圣武天皇"
+  },
+  "description": "Emperor of Japan",
+  "coord": null,
+  "image": "Emperor Shomu.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 701,
+   "date": "0701-09-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 756,
+   "date": "0756-06-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Shōmu",
+   "zh": "圣武天皇"
+  },
+  "locationQid": null
+ },
+ "Q349422": {
+  "label": {
+   "en": "Battle of Okehazama",
+   "zh": "桶狭间之战"
+  },
+  "description": "1560 battle",
+  "coord": {
+   "lat": 35.06,
+   "lon": 136.9808
+  },
+  "image": "Bishū Okehazama-gassen.jpg",
+  "pointInTime": {
+   "year": 1560,
+   "date": "1560-06-12",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Okehazama",
+   "zh": "桶狹間之戰"
+  }
+ },
+ "Q35765": {
+  "label": {
+   "en": "Osaka",
+   "zh": "大阪市"
+  },
+  "description": "designated city in Osaka Prefecture, Japan",
+  "coord": {
+   "lat": 34.6938,
+   "lon": 135.5021
+  },
+  "image": "Osaka Castle 02bs3200.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1889,
+   "date": "1889-04-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1749269",
+   "Q65589340",
+   "Q2264924",
+   "Q494721",
+   "Q200250",
+   "Q27554677",
+   "Q174844",
+   "Q11422368"
+  ],
+  "wiki": {
+   "en": "Osaka",
+   "zh": "大阪市"
+  }
+ },
+ "Q36204": {
+  "label": {
+   "en": "2011 Tōhoku earthquake and tsunami",
+   "zh": "2011年日本东北地方太平洋近海地震"
+  },
+  "description": "megathrust earthquake off the east coast of Japan",
+  "coord": {
+   "lat": 38.322,
+   "lon": 142.369
+  },
+  "image": "SH-60B helicopter flies over Sendai.jpg",
+  "pointInTime": {
+   "year": 2011,
+   "date": "2011-03-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q727990",
+   "Q8070",
+   "Q7446977",
+   "Q11639848",
+   "Q18460157"
+  ],
+  "wiki": {
+   "en": "2011 Tōhoku earthquake and tsunami",
+   "zh": "2011年日本東北地方太平洋近海地震"
+  }
+ },
+ "Q37682": {
+  "label": {
+   "en": "Sejong the Great",
+   "zh": "朝鲜世宗"
+  },
+  "description": "fourth king of Joseon (Korea), creator of Hangul",
+  "coord": null,
+  "image": "10000 won banknote (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1397,
+   "date": "1397-04-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1450,
+   "date": "1450-02-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sejong the Great",
+   "zh": "朝鮮世宗"
+  },
+  "locationQid": null
+ },
+ "Q378450": {
+  "label": {
+   "en": "Sakamoto Ryōma",
+   "zh": "坂本龙马"
+  },
+  "description": "Japanese samurai and politician (1836–1867)",
+  "coord": null,
+  "image": "Sakamoto Ryoma.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1836,
+   "date": "1836-01-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1867,
+   "date": "1867-12-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sakamoto Ryōma",
+   "zh": "坂本龙马"
+  },
+  "locationQid": null
+ },
+ "Q378483": {
+  "label": {
+   "en": "Taejo of Joseon",
+   "zh": "李成桂"
+  },
+  "description": "the first king of Joseon Dynasty in Korean history",
+  "coord": null,
+  "image": "King Taejo Yi 02.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1335,
+   "date": "1335-10-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1408,
+   "date": "1408-05-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Taejo of Joseon",
+   "zh": "朝鲜太祖"
+  },
+  "locationQid": null
+ },
+ "Q378502": {
+  "label": {
+   "en": "King Dongmyeong of Goguryeo",
+   "zh": "高朱蒙"
+  },
+  "description": "Founder of the Goguryeo Empire (37–19 BC)",
+  "coord": null,
+  "image": "Tomb of King Tongmyong, Pyongyang, North Korea.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -58,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": -19,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dongmyeong of Goguryeo",
+   "zh": "朱蒙"
+  },
+  "locationQid": null
+ },
+ "Q385676": {
+  "label": {
+   "en": "Ōnin War",
+   "zh": "应仁之乱"
+  },
+  "description": "15th-century civil war in Japan",
+  "coord": {
+   "lat": 34.8819,
+   "lon": 135.8006
+  },
+  "image": "Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1467,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1477,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Ōnin War",
+   "zh": "应仁之乱"
+  }
+ },
+ "Q385677": {
+  "label": {
+   "en": "Battle of Myeongnyang",
+   "zh": "鸣梁海战"
+  },
+  "description": "1597 fought during the Japanese invasions of Korea",
+  "coord": {
+   "lat": 34.5683,
+   "lon": 126.3078
+  },
+  "image": "Navalzhugenu2.jpg",
+  "pointInTime": {
+   "year": 1597,
+   "date": "1597-10-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1261499"
+  ],
+  "wiki": {
+   "en": "Battle of Myeongnyang",
+   "zh": "鸣梁海战"
+  }
+ },
+ "Q42097": {
+  "label": {
+   "en": "Gyeongju",
+   "zh": "庆州市"
+  },
+  "description": "city in North Gyeongsang Province, South Korea",
+  "coord": {
+   "lat": 35.85,
+   "lon": 129.2167
+  },
+  "image": "Gyeongju montage.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q29045252",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Gyeongju",
+   "zh": "慶州市"
+  }
+ },
+ "Q430964": {
+  "label": {
+   "en": "Hōjō Tokimune",
+   "zh": "北条时宗"
+  },
+  "description": "Japanese Regent",
+  "coord": null,
+  "image": "Hōjō Tokimune,Maekenkozitu.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1251,
+   "date": "1251-06-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1284,
+   "date": "1284-04-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hōjō Tokimune",
+   "zh": "北條時宗"
+  },
+  "locationQid": null
+ },
+ "Q433133": {
+  "label": {
+   "en": "Fujiwara no Michinaga",
+   "zh": "藤原道长"
+  },
+  "description": "Japanese nobleman of the Heian period (966-1028)",
+  "coord": null,
+  "image": "Fujiwara no Michinaga 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 966,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1028,
+   "date": "1028-01-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fujiwara no Michinaga",
+   "zh": "藤原道長"
+  },
+  "locationQid": null
+ },
+ "Q434415": {
+  "label": {
+   "en": "Ashikaga Yoshiaki",
+   "zh": "足利义昭"
+  },
+  "description": "15th shōgun of the Ashikaga shogunate of Japan (1568–1573)",
+  "coord": null,
+  "image": "Ashikaga Yoshiaki2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1537,
+   "date": "1537-12-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1597,
+   "date": "1597-10-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ashikaga Yoshiaki",
+   "zh": "足利義昭"
+  },
+  "locationQid": null
+ },
+ "Q4382340": {
+  "label": {
+   "en": "atomic bombing of Nagasaki",
+   "zh": "长崎市原子弹爆炸"
+  },
+  "description": "bombardment of Nagasaki in Japan carried out by the United States using an atomic bomb at the end of the Second World War on 9 August 1945",
+  "coord": {
+   "lat": 32.7737,
+   "lon": 129.8632
+  },
+  "image": "Nagasakibomb.jpg",
+  "pointInTime": {
+   "year": 1945,
+   "date": "1945-08-09",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4688003",
+   "Q2656967"
+  ],
+  "wiki": {
+   "en": "Atomic bombing of Nagasaki",
+   "zh": "長崎市原子彈爆炸"
+  }
+ },
+ "Q447034": {
+  "label": {
+   "en": "Ashikaga Yoshimasa",
+   "zh": "足利义政"
+  },
+  "description": "The eighth shōgun of the Ashikaga shogunate of Japan (1436–1490)",
+  "coord": null,
+  "image": "Ashikaga Yoshimasa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1435,
+   "date": "1435-01-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1490,
+   "date": "1490-01-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ashikaga Yoshimasa",
+   "zh": "足利义政"
+  },
+  "locationQid": null
+ },
+ "Q464485": {
+  "label": {
+   "en": "Shin Saimdang",
+   "zh": "申师任堂"
+  },
+  "description": "calligraphist and noted poet (1504-1551)",
+  "coord": null,
+  "image": "50000 won banknote (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1504,
+   "date": "1504-10-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1551,
+   "date": "1551-05-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shin Saimdang",
+   "zh": "申師任堂"
+  },
+  "locationQid": null
+ },
+ "Q469387": {
+  "label": {
+   "en": "Gwangjong of Goryeo",
+   "zh": "高丽光宗"
+  },
+  "description": "Goryeo ruler (925-975)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 925,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 975,
+   "date": "0975-07-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gwangjong of Goryeo",
+   "zh": "高麗光宗"
+  },
+  "locationQid": null
+ },
+ "Q475780": {
+  "label": {
+   "en": "Siege of Osaka",
+   "zh": "大坂之役"
+  },
+  "description": "1614-1615 series of battles undertaken by the Tokugawa shogunate against the Toyotomi clan",
+  "coord": {
+   "lat": 34.64,
+   "lon": 135.52
+  },
+  "image": "Caron1663.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1614,
+   "date": "1614-11-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1615,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Osaka",
+   "zh": "大坂之役"
+  }
+ },
+ "Q482525": {
+  "label": {
+   "en": "March First Movement",
+   "zh": "三一运动"
+  },
+  "description": "Korean national movement against Japanese occupation",
+  "coord": null,
+  "image": "L’Indépendance de la Corée et la Paix-02.jpg",
+  "pointInTime": {
+   "year": 1919,
+   "date": "1919-03-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q138796",
+   "Q273120"
+  ],
+  "wiki": {
+   "en": "March First Movement",
+   "zh": "三一運動"
+  },
+  "locationQid": null
+ },
+ "Q483039": {
+  "label": {
+   "en": "Battle of Inchon",
+   "zh": "仁川登陆"
+  },
+  "description": "1950 amphibious invasion during the Korean War in Incheon resulting in a victory and strategic reversal in favor of the UN Command",
+  "coord": {
+   "lat": 37.4761,
+   "lon": 126.6028
+  },
+  "image": "Lopez scaling seawall.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1950,
+   "date": "1950-09-15",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1950,
+   "date": "1950-09-19",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Inchon",
+   "zh": "仁川登陆"
+  }
+ },
+ "Q484359": {
+  "label": {
+   "en": "Seonjo of Joseon",
+   "zh": "朝鲜宣祖"
+  },
+  "description": "14th King of Joseon Dynasty in Korean history",
+  "coord": null,
+  "image": "朝鮮宣祖.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1552,
+   "date": "1552-11-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1608,
+   "date": "1608-02-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Seonjo of Joseon",
+   "zh": "朝鮮宣祖"
+  },
+  "locationQid": null
+ },
+ "Q484898": {
+  "label": {
+   "en": "Hyeokgeose of Silla",
+   "zh": "朴赫居世居西干"
+  },
+  "description": "1st-century BC founding monarch of the Korean kingdom of Silla",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": -69,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 4,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hyeokgeose of Silla",
+   "zh": "赫居世居西干"
+  },
+  "locationQid": null
+ },
+ "Q485009": {
+  "label": {
+   "en": "Yeongjo of Joseon",
+   "zh": "朝鲜英祖"
+  },
+  "description": "21st King of Joseon Dynasty in Korean history",
+  "coord": null,
+  "image": "Portrait of King Yeongjo - Chae Yong Shin (蔡龍臣 1850-1941) Cho Seok-jin (趙錫晉 1853-1920) et (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1694,
+   "date": "1694-09-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1776,
+   "date": "1776-03-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yeongjo of Joseon",
+   "zh": "朝鮮英祖"
+  },
+  "locationQid": null
+ },
+ "Q485131": {
+  "label": {
+   "en": "Queen Seondeok of Silla",
+   "zh": "善德女王"
+  },
+  "description": "queen-regnant of Silla",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 606,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 647,
+   "date": "0647-02-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Queen Seondeok of Silla",
+   "zh": "善德女王"
+  },
+  "locationQid": null
+ },
+ "Q485578": {
+  "label": {
+   "en": "Gyeongsun of Silla",
+   "zh": "敬顺王"
+  },
+  "description": "King of Silla",
+  "coord": null,
+  "image": "King Kyungsoon of Silla.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 896,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 978,
+   "date": "0978-05-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gyeongsun of Silla",
+   "zh": "敬順王"
+  },
+  "locationQid": null
+ },
+ "Q485590": {
+  "label": {
+   "en": "Gongyang of Goryeo",
+   "zh": "恭让王"
+  },
+  "description": "Final ruler of the Korea Goryeo dynasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1345,
+   "date": "1345-03-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1394,
+   "date": "1394-05-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gongyang of Goryeo",
+   "zh": "高麗恭讓王"
+  },
+  "locationQid": null
+ },
+ "Q487332": {
+  "label": {
+   "en": "Battle of Hansan Island",
+   "zh": "闲山岛大捷"
+  },
+  "description": "naval battle (1592) in southern Korea during the First Japanese Invasion of Korea",
+  "coord": {
+   "lat": 34.7622,
+   "lon": 128.5025
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1592,
+   "date": "1592-08-15",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1592,
+   "date": "1592-07-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1261499"
+  ],
+  "wiki": {
+   "en": "Battle of Hansan Island",
+   "zh": "闲山岛海战"
+  }
+ },
+ "Q488385": {
+  "label": {
+   "en": "Jinheung of Silla",
+   "zh": "新罗真兴王"
+  },
+  "description": "King of Silla",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 526,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 576,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jinheung of Silla",
+   "zh": "真兴王"
+  },
+  "locationQid": null
+ },
+ "Q488390": {
+  "label": {
+   "en": "Beopheung of Silla",
+   "zh": "法兴王"
+  },
+  "description": "Ruler of Silla",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 500,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 540,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Beopheung of Silla",
+   "zh": "法興王"
+  },
+  "locationQid": null
+ },
+ "Q489820": {
+  "label": {
+   "en": "Seokguram",
+   "zh": "石窟庵"
+  },
+  "description": "cave/grotto in South Korea",
+  "coord": {
+   "lat": 35.795,
+   "lon": 129.3492
+  },
+  "image": "Korea-Gyeongju-Seokguram-13.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5393308",
+   "Q35509",
+   "Q486245"
+  ],
+  "wiki": {
+   "en": "Seokguram",
+   "zh": "石窟庵"
+  }
+ },
+ "Q493702": {
+  "label": {
+   "en": "Seongjong",
+   "zh": "高丽成宗"
+  },
+  "description": "6th king of the Goryeo dynasty of Korea (r. 981-997)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 960,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 997,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Seongjong of Goryeo",
+   "zh": "高丽成宗"
+  },
+  "locationQid": null
+ },
+ "Q494074": {
+  "label": {
+   "en": "Gongmin",
+   "zh": "恭愍王"
+  },
+  "description": "31st King of Goryeo (r. 1351–1374)",
+  "coord": null,
+  "image": "King Kongmin of Koryo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1330,
+   "date": "1330-05-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1374,
+   "date": "1374-10-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gongmin of Goryeo",
+   "zh": "高麗恭愍王"
+  },
+  "locationQid": null
+ },
+ "Q494387": {
+  "label": {
+   "en": "Dongui Bogam",
+   "zh": "东医宝鉴"
+  },
+  "description": "compendium of traditional Korean medicine published in 1613",
+  "coord": null,
+  "image": "Dongibogam.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1613,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Donguibogam",
+   "zh": "東醫寶鑑"
+  },
+  "locationQid": "Q495005"
+ },
+ "Q494501": {
+  "label": {
+   "en": "Kim Yushin",
+   "zh": "金庾信"
+  },
+  "description": "Korean (Sillan) general (595 -673)",
+  "coord": null,
+  "image": "진주 남악서원 김유신 초상.gif",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 595,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 673,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kim Yu-sin",
+   "zh": "金庾信"
+  },
+  "locationQid": null
+ },
+ "Q494525": {
+  "label": {
+   "en": "Muyeol of Silla",
+   "zh": "武烈王"
+  },
+  "description": "Ruler of Silla",
+  "coord": null,
+  "image": "Portraits of kings at Tongiljeon.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 604,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 661,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Muyeol of Silla",
+   "zh": "武烈王"
+  },
+  "locationQid": null
+ },
+ "Q494532": {
+  "label": {
+   "en": "Munmu of Silla",
+   "zh": "文武王"
+  },
+  "description": "Ruler of Silla",
+  "coord": null,
+  "image": "초등대한역사 제2편 5.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 626,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 681,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Munmu of Silla",
+   "zh": "文武王 (新羅)"
+  },
+  "locationQid": null
+ },
+ "Q494611": {
+  "label": {
+   "en": "Jikji",
+   "zh": "直指心体要节"
+  },
+  "description": "world's oldest extant book printed with movable metal type",
+  "coord": null,
+  "image": "Korean book-Jikji-Selected Teachings of Buddhist Sages and Seon Masters-1377.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1377,
+   "date": null,
+   "precision": 10,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q53731850",
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Jikji",
+   "zh": "直指心體要節"
+  },
+  "locationQid": "Q193563"
+ },
+ "Q495558": {
+  "label": {
+   "en": "Japan–Korea Treaty of 1910",
+   "zh": "日韩合并条约"
+  },
+  "description": "1910 formal annexation of the Korean Empire by the Empire of Japan",
+  "coord": null,
+  "image": "Japan–Korea Annexation Treaty 2.jpg",
+  "pointInTime": {
+   "year": 1910,
+   "date": "1910-08-22",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q864737",
+   "Q9557810"
+  ],
+  "wiki": {
+   "en": "Japan–Korea Treaty of 1910",
+   "zh": "日韩合并条约"
+  },
+  "locationQid": null
+ },
+ "Q496836": {
+  "label": {
+   "en": "Suro of Geumgwan Gaya",
+   "zh": "金首露"
+  },
+  "description": "king of Geumgwan Gaya",
+  "coord": null,
+  "image": "초등대한역사 제2편 14.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 199,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5",
+   "Q13002315"
+  ],
+  "wiki": {
+   "en": "Suro of Geumgwan Gaya",
+   "zh": "首露王"
+  },
+  "locationQid": null
+ },
+ "Q497285": {
+  "label": {
+   "en": "Onjo",
+   "zh": "温祚王"
+  },
+  "description": "traditionally recognised founder of the Baekje kingdom in Korea (r. 18 BC–AD 28)",
+  "coord": null,
+  "image": "초등대한역사 제2편 12.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 28,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Onjo of Paekche",
+   "zh": "溫祚王"
+  },
+  "locationQid": null
+ },
+ "Q497601": {
+  "label": {
+   "en": "Geunchogo",
+   "zh": "近肖古王"
+  },
+  "description": "King of Korean Baekje from 346 to 375",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 324,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 375,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Geunchogo of Baekje",
+   "zh": "近肖古王"
+  },
+  "locationQid": null
+ },
+ "Q497911": {
+  "label": {
+   "en": "Seong",
+   "zh": "圣王"
+  },
+  "description": "king of Baekje (523–554)",
+  "coord": null,
+  "image": "GUZE Kannon Horyuji.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 554,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Seong of Baekje",
+   "zh": "百濟聖王"
+  },
+  "locationQid": null
+ },
+ "Q498030": {
+  "label": {
+   "en": "Uija",
+   "zh": "义慈王"
+  },
+  "description": "the king of the Baekje dynasty of Korea (599-660)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 599,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 660,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Uija of Baekje",
+   "zh": "義慈王"
+  },
+  "locationQid": null
+ },
+ "Q498791": {
+  "label": {
+   "en": "Gwanggaeto the Great",
+   "zh": "好太王"
+  },
+  "description": "King of the Goguryeo dynasty of Korea (374–413) (r. 391–413)",
+  "coord": null,
+  "image": "고구려 19 광개토태왕 546.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 374,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 413,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gwanggaeto the Great",
+   "zh": "好太王"
+  },
+  "locationQid": null
+ },
+ "Q498810": {
+  "label": {
+   "en": "Jangsu",
+   "zh": "长寿王"
+  },
+  "description": "the king of the Goguryeo dynasty of Korea",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 394,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 491,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jangsu of Goguryeo",
+   "zh": "长寿王"
+  },
+  "locationQid": null
+ },
+ "Q498927": {
+  "label": {
+   "en": "Yeongyang of Goguryeo",
+   "zh": "婴阳王"
+  },
+  "description": "king of the Goguryeo dynasty of Korea",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 550,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 618,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yeongyang of Goguryeo",
+   "zh": "婴阳王"
+  },
+  "locationQid": null
+ },
+ "Q498974": {
+  "label": {
+   "en": "Bojang",
+   "zh": "宝藏王"
+  },
+  "description": "King of Goguryeo from 642 to 668",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 650,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 682,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bojang of Goguryeo",
+   "zh": "宝藏王"
+  },
+  "locationQid": null
+ },
+ "Q50184": {
+  "label": {
+   "en": "Yi Sun-sin",
+   "zh": "李舜臣"
+  },
+  "description": "Korean (Joseon) naval commander (1545 – 1598)",
+  "coord": null,
+  "image": "Bust of Yi Sun-sin 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1545,
+   "date": "1545-04-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1598,
+   "date": "1598-12-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yi Sun-sin",
+   "zh": "李舜臣"
+  },
+  "locationQid": null
+ },
+ "Q503585": {
+  "label": {
+   "en": "Korea under Japanese rule",
+   "zh": "朝鲜日治时期"
+  },
+  "description": "Japanese colonial period in Chōsen (Korea), 1910–1945",
+  "coord": {
+   "lat": 37.5775,
+   "lon": 126.9769
+  },
+  "image": "First Street of Honmachi Keijo Korea 1930s.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1910,
+   "date": "1910-08-29",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1945,
+   "date": "1945-09-12",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156",
+   "Q19953632",
+   "Q1048835"
+  ],
+  "wiki": {
+   "en": "Korea under Japanese rule",
+   "zh": "朝鮮日治時期"
+  }
+ },
+ "Q562765": {
+  "label": {
+   "en": "Cheomseongdae",
+   "zh": "瞻星台"
+  },
+  "description": "astronomical observatory in Gyeongju, South Korea",
+  "coord": {
+   "lat": 35.8347,
+   "lon": 129.219
+  },
+  "image": "Korea-Gyeongju-Cheomseongdae-04.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 700,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486245",
+   "Q811979"
+  ],
+  "wiki": {
+   "en": "Cheomseongdae",
+   "zh": "瞻星臺"
+  }
+ },
+ "Q5676": {
+  "label": {
+   "en": "Matsuo Bashō",
+   "zh": "松尾芭蕉"
+  },
+  "description": "Japanese poet（1644–1694）",
+  "coord": null,
+  "image": "Basho by Buson.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1644,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1694,
+   "date": "1694-11-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Matsuo Bashō",
+   "zh": "松尾芭蕉"
+  },
+  "locationQid": null
+ },
+ "Q570140": {
+  "label": {
+   "en": "Taika Reform",
+   "zh": "大化改新"
+  },
+  "description": "set of doctrines established by Emperor Kōtoku",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 645,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6103541"
+  ],
+  "wiki": {
+   "en": "Taika Reform",
+   "zh": "大化改新"
+  },
+  "locationQid": null
+ },
+ "Q576338": {
+  "label": {
+   "en": "Japanese invasions of Korea",
+   "zh": "萬曆朝鮮之役"
+  },
+  "description": "1592-1598 campaigns against Joseon by Toyotomi Hideyoshi",
+  "coord": null,
+  "image": "Siege-of-Busanjin-1592.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1592,
+   "date": "1592-05-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1598,
+   "date": "1598-12-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Imjin War",
+   "zh": "萬曆朝鮮之役"
+  },
+  "locationQid": "Q483134"
+ },
+ "Q608727": {
+  "label": {
+   "en": "Battle of Baekgang",
+   "zh": "白江口之战"
+  },
+  "description": "7th-century battle in Korea",
+  "coord": {
+   "lat": 36,
+   "lon": 126.667
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 663,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1261499"
+  ],
+  "wiki": {
+   "en": "Battle of Baekgang",
+   "zh": "白江口之战"
+  }
+ },
+ "Q60949": {
+  "label": {
+   "en": "Emperor Shirakawa",
+   "zh": "白河天皇"
+  },
+  "description": "Emperor of Japan",
+  "coord": null,
+  "image": "Emperor Shirakawa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1053,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1129,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Shirakawa",
+   "zh": "白河天皇"
+  },
+  "locationQid": null
+ },
+ "Q623391": {
+  "label": {
+   "en": "Japan–Korea Treaty of 1876",
+   "zh": "江华条约"
+  },
+  "description": "1876 unequal treaty which forced the Korea to open the Korean Peninsula to Japanese and foreign trade",
+  "coord": null,
+  "image": "Japan Korea Treaty of Amity 26 February 1876.jpg",
+  "pointInTime": {
+   "year": 1876,
+   "date": "1876-02-27",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q864737"
+  ],
+  "wiki": {
+   "en": "Japan–Korea Treaty of 1876",
+   "zh": "江華島條約"
+  },
+  "locationQid": "Q494786"
+ },
+ "Q633881": {
+  "label": {
+   "en": "Yamato period",
+   "zh": "大和时代"
+  },
+  "description": "period of Japanese history",
+  "coord": null,
+  "image": "Tennō Yūryaku.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Yamato period",
+   "zh": "大和時代"
+  },
+  "locationQid": null
+ },
+ "Q660895": {
+  "label": {
+   "en": "Tōkaidō Shinkansen",
+   "zh": "东海道新干线"
+  },
+  "description": "high-speed railway line in Japan servicing between Tokyo and Shin-Ōsaka (through to Hakata) stations",
+  "coord": null,
+  "image": "Series-N700a-Mt.Fuji.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1964,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q858485"
+  ],
+  "wiki": {
+   "en": "Tokaido Shinkansen",
+   "zh": "東海道新幹線"
+  },
+  "locationQid": null
+ },
+ "Q696217": {
+  "label": {
+   "en": "Shimabara Rebellion",
+   "zh": "岛原之乱"
+  },
+  "description": "1637 siege",
+  "coord": null,
+  "image": "Shimabara-Battle-Map-c17th-century.png",
+  "pointInTime": {
+   "year": 1637,
+   "date": "1637-12-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1637,
+   "date": "1637-12-11",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1638,
+   "date": "1638-04-12",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13427116"
+  ],
+  "wiki": {
+   "en": "Shimabara Rebellion",
+   "zh": "島原之亂"
+  },
+  "locationQid": "Q522605"
+ },
+ "Q698268": {
+  "label": {
+   "en": "Later Three Kingdoms",
+   "zh": "后三国"
+  },
+  "description": "period of Korean history (892–936), during which the southern Korean peninsula was fragmented into three states (Taebong, Hubaekje, and Silla), until they were eventually reunified by Goryeo",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 892,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 936,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315",
+   "Q16887380"
+  ],
+  "wiki": {
+   "en": "Later Three Kingdoms",
+   "zh": "後三國時代"
+  },
+  "locationQid": null
+ },
+ "Q701045": {
+  "label": {
+   "en": "Donghak Peasant Revolution",
+   "zh": "东学党起义"
+  },
+  "description": "a major peasant revolt in Korea, 1894-1895",
+  "coord": null,
+  "image": "Sabal Tongmun.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1894,
+   "date": "1894-01-11",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1895,
+   "date": "1895-03-29",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734",
+   "Q13427116"
+  ],
+  "wiki": {
+   "en": "Tonghak Peasant Revolution",
+   "zh": "东学党起义"
+  },
+  "locationQid": "Q483134"
+ },
+ "Q701096": {
+  "label": {
+   "en": "Gwanggaeto Stele",
+   "zh": "好太王碑"
+  },
+  "description": "memorial to King of Goguryeo",
+  "coord": {
+   "lat": 41.1449,
+   "lon": 126.2142
+  },
+  "image": "20230605 Stela for Gwanggaeto.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 414,
+   "date": "0414-10-28",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178743"
+  ],
+  "wiki": {
+   "en": "Gwanggaeto Stele",
+   "zh": "好太王碑"
+  }
+ },
+ "Q702079": {
+  "label": {
+   "en": "Go of Balhae",
+   "zh": "大祚荣"
+  },
+  "description": "King of Balhae",
+  "coord": null,
+  "image": "Portraits of kings at Tongiljeon.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 645,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 719,
+   "date": "0719-04-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ko of Parhae",
+   "zh": "大祚荣"
+  },
+  "locationQid": null
+ },
+ "Q702266": {
+  "label": {
+   "en": "Mongol invasions of Korea",
+   "zh": "蒙古入侵高丽"
+  },
+  "description": "Mongol Yuán Conquests of the Korean peninsula",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1231,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Mongol invasions of Korea",
+   "zh": "蒙古入侵高丽"
+  },
+  "locationQid": "Q483134"
+ },
+ "Q703179": {
+  "label": {
+   "en": "Goguryeo–Tang War",
+   "zh": "唐灭高句丽之战"
+  },
+  "description": "tang-Korean war of 7th century",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 645,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 668,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Goguryeo–Tang War",
+   "zh": "唐与高句丽战争"
+  },
+  "locationQid": "Q326917"
+ },
+ "Q703203": {
+  "label": {
+   "en": "atomic bombing of Hiroshima",
+   "zh": "广岛市原子弹爆炸"
+  },
+  "description": "bombardment of Hiroshima in Japan carried out by the United States using an atomic bomb at the end of the Second World War on 6 August 1945",
+  "coord": {
+   "lat": 34.3914,
+   "lon": 132.4581
+  },
+  "image": "Atomic cloud over Hiroshima - NARA 542192 - Edit.jpg",
+  "pointInTime": {
+   "year": 1945,
+   "date": "1945-08-06",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2656967",
+   "Q4688003"
+  ],
+  "wiki": {
+   "en": "Atomic bombing of Hiroshima",
+   "zh": "广岛市原子弹爆炸"
+  }
+ },
+ "Q706397": {
+  "label": {
+   "en": "Dae Inseon",
+   "zh": "大諲撰"
+  },
+  "description": "former king of Balhae",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 850,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 926,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tae Insŏn",
+   "zh": "大諲譔"
+  },
+  "locationQid": null
+ },
+ "Q706413": {
+  "label": {
+   "en": "Seon of Balhae",
+   "zh": "大仁秀"
+  },
+  "description": "King of Balhae",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 750,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 830,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sŏn of Balhae",
+   "zh": "大仁秀"
+  },
+  "locationQid": null
+ },
+ "Q706537": {
+  "label": {
+   "en": "King Mun of Balhae",
+   "zh": "大钦茂"
+  },
+  "description": "Korean ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 750,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 793,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mun of Balhae",
+   "zh": "大钦茂"
+  },
+  "locationQid": null
+ },
+ "Q710709": {
+  "label": {
+   "en": "Silla–Tang War",
+   "zh": "罗唐战争"
+  },
+  "description": "war (670–676) between Silla (with remnant forces from Goguryeo and Baekje) against the Tang empire",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 670,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 676,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Silla–Tang War",
+   "zh": "唐朝与新罗的战争"
+  },
+  "locationQid": "Q483134"
+ },
+ "Q7169780": {
+  "label": {
+   "en": "Perry Expedition",
+   "zh": "黑船來航"
+  },
+  "description": "19th-century American diplomatic and military expedition to Japan",
+  "coord": null,
+  "image": "Japanese 1854 print Commodore Perry.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q366301",
+   "Q1384277"
+  ],
+  "wiki": {
+   "en": "Perry Expedition",
+   "zh": "黑船來航"
+  },
+  "locationQid": null
+ },
+ "Q736839": {
+  "label": {
+   "en": "Kamakura shogunate",
+   "zh": "镰仓幕府"
+  },
+  "description": "feudal military government of Japan",
+  "coord": {
+   "lat": 35.3167,
+   "lon": 139.55
+  },
+  "image": "Kongorikishi statue from 14th century Japan.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1200,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1333,
+   "date": "1333-07-04",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4482688",
+   "Q1074150",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kamakura shogunate",
+   "zh": "镰仓幕府"
+  }
+ },
+ "Q737542": {
+  "label": {
+   "en": "Genpei War",
+   "zh": "源平合战"
+  },
+  "description": "conflict during late-Heian period of Japan",
+  "coord": null,
+  "image": "Genpei kassen.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1180,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1185,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Genpei War",
+   "zh": "源平合戰"
+  },
+  "locationQid": "Q17"
+ },
+ "Q751907": {
+  "label": {
+   "en": "Heian-kyō",
+   "zh": "平安京"
+  },
+  "description": "former name of Kyoto, capital of Japan 794–1868",
+  "coord": {
+   "lat": 35,
+   "lon": 135.7667
+  },
+  "image": "Daidairi of Heiankyo.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 794,
+   "date": "0794-11-22",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1869,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1025961",
+   "Q27554677",
+   "Q11643523",
+   "Q1074523"
+  ],
+  "wiki": {
+   "en": "Heian-kyō",
+   "zh": "平安京"
+  }
+ },
+ "Q813031": {
+  "label": {
+   "en": "Kojiki",
+   "zh": "古事记"
+  },
+  "description": "8th-century Japanese chronicle",
+  "coord": null,
+  "image": "Shinpukuji-bon Kojiki (真福寺本古事記).png",
+  "pointInTime": null,
+  "start": {
+   "year": 712,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634",
+   "Q47461344"
+  ],
+  "wiki": {
+   "en": "Kojiki",
+   "zh": "古事記"
+  },
+  "locationQid": null
+ },
+ "Q81731": {
+  "label": {
+   "en": "Murasaki Shikibu",
+   "zh": "紫式部"
+  },
+  "description": "Japanese novelist and poet (c.973–c.1014)",
+  "coord": null,
+  "image": "Murasaki-Shikibu-composing-Genji-Monogatari.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 970,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1100,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Murasaki Shikibu",
+   "zh": "紫式部"
+  },
+  "locationQid": null
+ },
+ "Q8269": {
+  "label": {
+   "en": "The Tale of Genji",
+   "zh": "源氏物语"
+  },
+  "description": "classic work of Japanese literature",
+  "coord": null,
+  "image": "Genji emaki 01003 002.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1010,
+   "date": null,
+   "precision": 8,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "The Tale of Genji",
+   "zh": "源氏物語"
+  },
+  "locationQid": null
+ },
+ "Q834321": {
+  "label": {
+   "en": "Man'yōshū",
+   "zh": "万叶集"
+  },
+  "description": "the oldest existing collection of Japanese poetry, compiled sometime after 759 AD during the Nara period.",
+  "coord": null,
+  "image": "Genryaku Manyosyu.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 759,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634",
+   "Q11417718",
+   "Q541923"
+  ],
+  "wiki": {
+   "en": "Man'yōshū",
+   "zh": "萬葉集"
+  },
+  "locationQid": null
+ },
+ "Q8470": {
+  "label": {
+   "en": "1988 Summer Olympics",
+   "zh": "1988年夏季奥林匹克运动会"
+  },
+  "description": "Games of the XXIV Olympiad, in Seoul, South Korea",
+  "coord": null,
+  "image": "Seoul Olympic torch.jpg",
+  "pointInTime": {
+   "year": 1988,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1988,
+   "date": "1988-09-17",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1988,
+   "date": "1988-10-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q135976384"
+  ],
+  "wiki": {
+   "en": "1988 Summer Olympics",
+   "zh": "1988年夏季奥林匹克运动会"
+  },
+  "locationQid": "Q392086"
+ },
+ "Q862509": {
+  "label": {
+   "en": "Heijō-kyō",
+   "zh": "平城京"
+  },
+  "description": "capital city of Japan during the Nara period, 710–740 and 745–784",
+  "coord": {
+   "lat": 34.6911,
+   "lon": 135.7947
+  },
+  "image": "140531 Heijo-kyo Nara Japan01bs.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 710,
+   "date": "0710-04-13",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 784,
+   "date": "0784-12-27",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1025961",
+   "Q11643523",
+   "Q1074523"
+  ],
+  "wiki": {
+   "en": "Heijō-kyō",
+   "zh": "平城京"
+  }
+ },
+ "Q8663": {
+  "label": {
+   "en": "Korean War",
+   "zh": "朝鲜战争"
+  },
+  "description": "war between North and South Korea, 1950–1953",
+  "coord": null,
+  "image": "Korean War Montage 2.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1950,
+   "date": "1950-06-25",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1953,
+   "date": "1953-07-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Korean War",
+   "zh": "朝鲜战争"
+  },
+  "locationQid": "Q52052"
+ },
+ "Q8684": {
+  "label": {
+   "en": "Seoul",
+   "zh": "首尔"
+  },
+  "description": "capital and largest city of South Korea",
+  "coord": {
+   "lat": 37.56,
+   "lon": 126.99
+  },
+  "image": "덕수궁의 가을.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1395,
+   "date": "1395-06-06",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7574799",
+   "Q515",
+   "Q174844",
+   "Q200250",
+   "Q51929311",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Seoul",
+   "zh": "首爾特別市"
+  }
+ },
+ "Q8707": {
+  "label": {
+   "en": "Meiji Restoration",
+   "zh": "明治维新"
+  },
+  "description": "reform restoring the imperial rule in Japan in the last third of the 19th century",
+  "coord": null,
+  "image": "MeijiJoukyou.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1868,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1889,
+   "date": "1889-02-11",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q900406"
+  ],
+  "wiki": {
+   "en": "Meiji Restoration",
+   "zh": "明治维新"
+  },
+  "locationQid": null
+ },
+ "loc:Q17": {
+  "coord": {
+   "lat": 35,
+   "lon": 136
+  },
+  "label": {
+   "en": "Japan",
+   "zh": "日本"
+  }
+ },
+ "loc:Q193563": {
+  "coord": {
+   "lat": 48.8336,
+   "lon": 2.3758
+  },
+  "label": {
+   "en": "Bibliothèque nationale de France",
+   "zh": "法国国家图书馆"
+  }
+ },
+ "loc:Q326917": {
+  "coord": {
+   "lat": 40,
+   "lon": 122.5
+  },
+  "label": {
+   "en": "Liaodong Peninsula",
+   "zh": "辽东半岛"
+  }
+ },
+ "loc:Q392086": {
+  "coord": {
+   "lat": 37.5159,
+   "lon": 127.0727
+  },
+  "label": {
+   "en": "Seoul Olympic Main Stadium",
+   "zh": "蚕室综合运动场"
+  }
+ },
+ "loc:Q397703": {
+  "coord": {
+   "lat": 33.358,
+   "lon": 130.825
+  },
+  "label": {
+   "en": "Northern Kyushu",
+   "zh": "北部九州"
+  }
+ },
+ "loc:Q42088": {
+  "coord": {
+   "lat": 36.2039,
+   "lon": 127.0847
+  },
+  "label": {
+   "en": "Nonsan",
+   "zh": "論山市"
+  }
+ },
+ "loc:Q482485": {
+  "coord": {
+   "lat": 37.5799,
+   "lon": 126.9768
+  },
+  "label": {
+   "en": "Gyeongbokgung",
+   "zh": "景福宫"
+  }
+ },
+ "loc:Q483134": {
+  "coord": {
+   "lat": 37.5,
+   "lon": 127
+  },
+  "label": {
+   "en": "Korean Peninsula",
+   "zh": "朝鲜半岛"
+  }
+ },
+ "loc:Q494786": {
+  "coord": {
+   "lat": 37.71,
+   "lon": 126.44
+  },
+  "label": {
+   "en": "Ganghwa Island",
+   "zh": "江华岛"
+  }
+ },
+ "loc:Q495005": {
+  "coord": {
+   "lat": 37.4975,
+   "lon": 127.0033
+  },
+  "label": {
+   "en": "National Library of Korea",
+   "zh": "韩国国立中央图书馆"
+  }
+ },
+ "loc:Q499266": {
+  "coord": {
+   "lat": 39.6,
+   "lon": 125.4167
+  },
+  "label": {
+   "en": "Ch'ongch'on River",
+   "zh": "清川江"
+  }
+ },
+ "loc:Q52052": {
+  "coord": {
+   "lat": 34.5994,
+   "lon": 129.7967
+  },
+  "label": {
+   "en": "Korea Strait",
+   "zh": "朝鲜海峡"
+  }
+ },
+ "loc:Q522605": {
+  "coord": {
+   "lat": 32.75,
+   "lon": 130.25
+  },
+  "label": {
+   "en": "Shimabara Peninsula",
+   "zh": "島原半島"
+  }
+ },
+ "loc:Q81126": {
+  "coord": {
+   "lat": 45,
+   "lon": 125
+  },
+  "label": {
+   "en": "Manchuria",
+   "zh": "满洲"
+  }
+ }
+}
