@@ -165,7 +165,7 @@ Independent audit using only pages retrieved during the audit (WebFetch/WebSearc
 |---|---|---|
 | ev-paper-reaches-samarkand (story) | en.wikipedia History of paper | OK (Baghdad 793–795 under the Barmakid al-Fadl ibn Yahya; Toledo 1085, Xàtiva) |
 | ev-battle-of-dandanaqan (story) | en.wikipedia Battle of Dandanaqan | OK |
-| ev-al-biruni-india (story) | (Ghazni 1017 and c. 1030 completion as in the record's note; Nandana and Sachau 1888 not re-fetched) | OK, partly checked |
+| ev-al-biruni-india (story) | web search: CRL catalogue (Alberuni's Indica, c. 1030), Érudit article and Lochtefeld encyclopedia entry (Sachau edition 1887, translation 1888) | OK (Nandana measurement not confirmed by retrieved sources) |
 | person-tonyukuk (story) | en.wikipedia Tonyukuk; web search on Bolchu (711) and the Kögmen campaign (709–710) | OK (en gives joining Ilterish as 681; record says 682, the usual date of the revolt; note already flags approximations) |
 | ev-battle-of-balkh-900 (story) | en.wikipedia Amr ibn al-Layth | OK |
 | person-yelu-dashi | en.wikipedia Yelü Dashi | OK |
