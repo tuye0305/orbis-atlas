@@ -211,3 +211,37 @@ Searched again with `wd.mjs search` (en and zh) and through zh.wikipedia pagepro
 - Yan Zhenqing's death: kept as 785 (Wikidata, Britannica); the 旧唐书 gives 兴元元年 (784).
 - Kaidu, Qiu Jin's "cousin" Xu Xilin (表兄), and Kumārajīva's dates follow common usage; specialists may differ.
 - Tiananmen, the famine and the Cultural Revolution give death tolls as ranges with named sources. A reader from either side may want different emphasis, but the facts are as stated.
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only pages retrieved during the audit (WebFetch/WebSearch); nothing checked from memory.
+
+- **Seed:** 20261113 (mulberry32 shuffle of the 204 records added or changed against `origin/feat/world-regions`, sorted by id; first 8 records with new stories taken, then filled in shuffle order).
+- **Sample (20, 12 with stories):** listed below with the source used.
+
+| Record | Source(s) retrieved | Result |
+|---|---|---|
+| ev-cession-of-sixteen-prefectures (story) | en.wikipedia Sixteen Prefectures; zh web search (帛三十万匹, 小十岁) | OK |
+| ev-battle-of-shanhai-pass (story) | en.wikipedia Battle of Shanhai Pass; zh.wikipedia 山海关之战 (6 June entry) | OK |
+| ev-1931-china-floods (story) | en.wikipedia 1931 China floods | **Fixed**: story said "official counts were around 400,000"; the official report gave 140,000 drowned / 2 million total, Buck's survey 150,000 drowned, Chinese historians ~422,000, Western estimates to 3.7–4 million |
+| person-lu-xun (story) | en.wikipedia Lu Xun | OK |
+| ev-aguda-founds-jin (story) | en.wikipedia Emperor Taizu of Jin; zh.wikipedia 金太祖 (会宁, 2,500 men, 1123) | OK (Hubudagang month not settled by sources; "that winter" kept) |
+| ev-sui-grand-canal (story) | en.wikipedia Grand Canal; zh search on 隋书 大业元年/四年 (男女百余万) | OK |
+| ev-destruction-of-opium-at-humen (story) | en.wikipedia Destruction of opium at Humen; zh search (湖广总督, 6月3日, 23天) | OK |
+| ev-treaty-of-chanyuan (story) | en.wikipedia Chanyuan Treaty | OK |
+| polity-northern-han | zh.wikipedia 北汉 | **Fixed**: ruler list skipped Liu Ji'en (968) |
+| person-wen-tianxiang | zh.wikipedia 文天祥 | OK |
+| ev-battle-of-yancheng | (covered with Yue Fei sources in the review; dates consistent with zh search) | OK |
+| place-fuzhou | en.wikipedia Fu Prefecture (Fujian); zh search (开元十三年) | **Fixed**: "Changle Prefecture" was dated 909–945; it was the name 933–948. Now Fuzhou (Min capital) 909–933, Changle 933–948, Fuzhou from 948 |
+| ev-228-incident (story) | en.wikipedia February 28 incident | OK |
+| polity-qing (story) | wd.mjs search (Q333178); en.wikipedia Jiaqing Emperor (search snippet) | **Fixed**: ruler list jumped from Qianlong (to 1796) to Daoguang (from 1820); Jiaqing Emperor 1796–1820 added |
+| person-kumarajiva | en.wikipedia Kumārajīva | OK (en gives capture c. 386; 384 kept, matching the zh tradition and the note) |
+| polity-later-jin-manchu | as for polity-qing / Sarhu sources | OK |
+| ev-siege-of-diaoyucheng (story) | en.wikipedia Siege of Diaoyu Castle; zh search (免遭屠城) | OK |
+| ev-tiananmen-1989 (story) | en.wikipedia 1989 Tiananmen protests; web search on the Sino-Soviet summit and Zhao's 19 May visit | OK |
+| person-bai-juyi | en.wikipedia Bai Juyi | OK |
+| ev-mawei-incident | zh.wikipedia 马嵬驿之变 | OK |
+
+**zh text:** read in full for every sampled record; no mistranslation or register problem found beyond the two fixed passages.
+
+**Error rate:** 4 of 20 records (20%) needed a fix; 2 were factual errors (1931 toll, Fuzhou dates) and 2 were omissions in ruler lists. No systematic pattern; the stories themselves held up well.

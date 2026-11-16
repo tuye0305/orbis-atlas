@@ -8073,6 +8073,38 @@
   },
   "locationQid": null
  },
+ "Q333178": {
+  "label": {
+   "en": "Jiaqing Emperor",
+   "zh": "嘉庆帝"
+  },
+  "description": "Chinese emperor (1760-1820) of the Qing dynasty",
+  "coord": null,
+  "image": "清 佚名 《清仁宗嘉庆皇帝朝服像》.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1760,
+   "date": "1760-11-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1820,
+   "date": "1820-09-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jiaqing Emperor",
+   "zh": "嘉庆帝"
+  },
+  "locationQid": null
+ },
  "Q334351": {
   "label": {
    "en": "Daoguang Emperor",
