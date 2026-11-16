@@ -231,12 +231,12 @@ Independent audit using only pages retrieved during the audit (WebFetch/WebSearc
 | ev-treaty-of-chanyuan (story) | en.wikipedia Chanyuan Treaty | OK |
 | polity-northern-han | zh.wikipedia 北汉 | **Fixed**: ruler list skipped Liu Ji'en (968) |
 | person-wen-tianxiang | zh.wikipedia 文天祥 | OK |
-| ev-battle-of-yancheng | (covered with Yue Fei sources in the review; dates consistent with zh search) | OK |
+| ev-battle-of-yancheng | en.wikipedia Battle of Yancheng (search snippet: 1140 win, then Yingchang); web search on the twelve gold tablets recall | OK |
 | place-fuzhou | en.wikipedia Fu Prefecture (Fujian); zh search (开元十三年) | **Fixed**: "Changle Prefecture" was dated 909–945; it was the name 933–948. Now Fuzhou (Min capital) 909–933, Changle 933–948, Fuzhou from 948 |
 | ev-228-incident (story) | en.wikipedia February 28 incident | OK |
 | polity-qing (story) | wd.mjs search (Q333178); en.wikipedia Jiaqing Emperor (search snippet) | **Fixed**: ruler list jumped from Qianlong (to 1796) to Daoguang (from 1820); Jiaqing Emperor 1796–1820 added |
 | person-kumarajiva | en.wikipedia Kumārajīva | OK (en gives capture c. 386; 384 kept, matching the zh tradition and the note) |
-| polity-later-jin-manchu | as for polity-qing / Sarhu sources | OK |
+| polity-later-jin-manchu | en.wikipedia Later Jin (1616–1636) via search (Hetu Ala, Dongjing/Liaoyang, Mukden; Manchu after 1635) | OK |
 | ev-siege-of-diaoyucheng (story) | en.wikipedia Siege of Diaoyu Castle; zh search (免遭屠城) | OK |
 | ev-tiananmen-1989 (story) | en.wikipedia 1989 Tiananmen protests; web search on the Sino-Soviet summit and Zhao's 19 May visit | OK |
 | person-bai-juyi | en.wikipedia Bai Juyi | OK |
