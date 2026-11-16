@@ -192,6 +192,6 @@ Independent audit using only sources retrieved during the audit (web search resu
 | ev-siege-of-belgrade-1456 | Flotilla destroyed 14 Jul, victory 22 Jul, Capistrano, Hunyadi died 11 Aug, noon-bell bull of 29 Jun | New World Encyclopedia; Hungarian Conservative (noon bell) | Confirmed |
 | place-vilnius | 1323 letters, Żeligowski 1920, Central Lithuania, return to Lithuania in Oct 1939 | Timeline of Vilnius; Lodz city page; ideoz.fr | Confirmed |
 | place-donetsk | Hughes 1869, Yuzovka, Stalin 1924 / Stalino 1929, Donetsk 1961 | en.wikipedia Donetsk; History Hit | Confirmed (the record’s note already flags the 1924/1929 name split) |
-| polity-grand-duchy-of-lithuania | 1323 capital, Mindaugas (crowned 1253), rulers, union 1386, Commonwealth 1569 | Vilnius sources above; Britannica Lithuania snippet | Confirmed |
+| polity-grand-duchy-of-lithuania | 1323 capital, Mindaugas (crowned 1253), rulers, union 1386, Commonwealth 1569 | Vilnius sources above; Britannica Lithuania (print article 343836); en.wikipedia Grand Duchy of Lithuania (mirror); polishhistory.pl | Confirmed (“one of Europe’s largest”, not “the largest”, as the record says) |
 
 **Error rate:** 0 of 15 records (0%). No changes to the data. Validator: 0 errors.
