@@ -227,7 +227,7 @@ kbd {
 .topbar .brand { flex-shrink: 0; }
 .topbar .controls { min-width: 0; }
 .topbar .controls > * { flex-shrink: 0; }
-.topbar .controls > .music-btn { flex-shrink: 1; min-width: 0; max-width: clamp(130px, 15vw, 260px); }
+.topbar .controls > .music-btn { flex-shrink: 1; min-width: 118px; max-width: clamp(130px, 15vw, 260px); }
 .icon-btn { white-space: nowrap; }
 .eq { display: flex; align-items: flex-end; gap: 2px; height: 12px; }
 .eq i { width: 2px; height: 3px; background: currentColor; border-radius: 1px; }
@@ -404,6 +404,10 @@ kbd {
 .disclaimer { position: absolute; bottom: 132px; left: 50%; transform: translateX(-50%); font-size: 10.5px; color: rgba(222, 208, 180, 0.78); text-shadow: 0 1px 3px #000, 0 0 8px #000; z-index: 5; pointer-events: none; white-space: nowrap; }
 
 /* ---------- responsive ---------- */
+/* Slimmer region chips leave the music label room to read (e.g. “Open sea”, not “Ope…”). */
+@media (max-width: 1500px) and (min-width: 1361px) {
+  .region-chip { padding: 6px 11px; }
+}
 @media (max-width: 1360px) {
   .region-chip { padding: 6px 9px; font-size: 12.5px; }
   .brand-sub { display: none; }
