@@ -168,3 +168,30 @@ stack; it would be better placed elsewhere (e.g. Berlin or Wannsee) with Auschwi
 - The ongoing-war figures in `ev-russian-invasion-of-ukraine-2022` should be refreshed as the UN
   updates them.
 - `ev-the-holocaust` (europe) stacks on `ev-auschwitz`; see above.
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only sources retrieved during the audit (web search results and fetched pages); nothing checked from memory.
+
+- Seed: `20261115` (mulberry32 shuffle over the 183 records new in this PR; first 15 kept, 5 of them with stories).
+- Sample: 15 records (7 events, 2 people, 2 places, 4 polities).
+
+| Record | Claims checked | Source(s) retrieved | Result |
+| --- | --- | --- | --- |
+| ev-coronation-of-stephen-i | Vajk, Géza’s two-way sacrifices (Thietmar), 997, Koppány quartered on four fort gates, crown from Sylvester II with Otto III, 1000/1001, Esztergom and Kalocsa, ten-villages law, canonised 1083, 20 August | en.wikipedia Stephen I of Hungary; Géza; Hungaricana (Békés and Pest county studies) | Confirmed |
+| ev-srebrenica-massacre | 1993 safe area, July 1995, Dutch battalion, 11 July, the breakout column, Kravica / Orahovac / Branjevo, reburial, >8,000 victims, convictions | Britannica; ICTY Krstić judgment; Detektor.ba; Srebrenica Memorial Center | Confirmed (the ICTY puts the column at 10,000–15,000; “about 15,000” is at the top of that range) |
+| person-olga-of-kiev | Pskov, the four revenges (pigeons and sparrows), tribute posts on the Msta and Luga, baptism c. 955/957 with the emperor as sponsor, 968 Pecheneg siege, died 969, chronicle compiled in the 1110s | en.wikipedia Olga of Kiev | Confirmed |
+| ev-battle-of-kosovo | 15 June 1389 (Julian), Vlatko Vuković, Vuk Branković as son-in-law, Murad and Lazar killed, early reports of victory in Florence and Paris, Milica’s vassalage | en.wikipedia Battle of Kosovo; History Today; De Re Militari; Arthur Evans essay (Te Deum at Notre-Dame) | Confirmed |
+| ev-velvet-revolution | 17 Nov, Národní, Šmíd rumour, Civic Forum 19 Nov, key-jingling, Dubček on the Melantrich balcony (24 Nov), two-hour strike 27 Nov, Havel elected unanimously 29 Dec, no deaths | en.wikipedia Velvet Revolution; expats.cz chronology; Radio Prague; Columbia Havel site | Confirmed |
+| polity-serbian-despotate | Despot title after Ankara, Belgrade then Smederevo (1428–30), fall 1459, ruler dates | en.wikipedia Serbian Despotate; Siege of Smederevo (1459) | Confirmed |
+| person-stefan-dusan | c. 1308, Svrčin 8 Sep 1331, Skopje 16 Apr 1346, died 20 Dec 1355, the 1314 exile | en.wikipedia Stefan Dušan; Emperor of the Serbs; Svrčin | Confirmed |
+| ev-battle-of-white-mountain | 8 Nov 1620, about an hour, 27 executed on Old Town Square on 21 Jun 1621 | en.wikipedia Battle of White Mountain; Old Town Square execution; Radio Prague | Confirmed |
+| polity-kingdom-of-hungary | Pressburg capital 1536–1783, dynasties, rulers | en.wikipedia List of historical capitals of Hungary; Britannica Bratislava snippet | Confirmed |
+| ev-november-uprising | Cadets attack the Belweder (29 Nov 1830), dethronement (25 Jan 1831), Grochów (25 Feb), Ostrołęka, fall of Warsaw (Sept 1831) | en.wikipedia November Uprising; polishhistory.pl | Confirmed |
+| polity-crimean-khanate | Hacı Giray c. 1441, Ottoman vassal 1475, 1571 fire of Moscow, Şahin Giray, 1783 | en.wikipedia Hacı I Giray; Fire of Moscow (1571) | Confirmed |
+| ev-siege-of-belgrade-1456 | Flotilla destroyed 14 Jul, victory 22 Jul, Capistrano, Hunyadi died 11 Aug, noon-bell bull of 29 Jun | New World Encyclopedia; Hungarian Conservative (noon bell) | Confirmed |
+| place-vilnius | 1323 letters, Żeligowski 1920, Central Lithuania, return to Lithuania in Oct 1939 | Timeline of Vilnius; Lodz city page; ideoz.fr | Confirmed |
+| place-donetsk | Hughes 1869, Yuzovka, Stalin 1924 / Stalino 1929, Donetsk 1961 | en.wikipedia Donetsk; History Hit | Confirmed (the record’s note already flags the 1924/1929 name split) |
+| polity-grand-duchy-of-lithuania | 1323 capital, Mindaugas (crowned 1253), rulers, union 1386, Commonwealth 1569 | Vilnius sources above; Britannica Lithuania snippet | Confirmed |
+
+**Error rate:** 0 of 15 records (0%). No changes to the data. Validator: 0 errors.
