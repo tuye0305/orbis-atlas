@@ -2028,6 +2028,43 @@
   },
   "locationQid": null
  },
+ "Q245544": {
+  "label": {
+   "en": "Cyclone Tracy",
+   "zh": "熱帶氣旋翠西"
+  },
+  "description": "Category 4 Australian region cyclone in 1974",
+  "coord": null,
+  "image": "Houses-after-tracy.jpg",
+  "pointInTime": {
+   "year": 1974,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1974,
+   "date": "1974-12-21",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1974,
+   "date": "1974-12-26",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8092"
+  ],
+  "wiki": {
+   "en": "Cyclone Tracy",
+   "zh": "強烈熱帶氣旋崔西"
+  },
+  "locationQid": "Q11568"
+ },
  "Q246080": {
   "label": {
    "en": "Gurindji strike",
@@ -2853,6 +2890,33 @@
   "wiki": {
    "en": "First voyage of James Cook",
    "zh": null
+  },
+  "locationQid": null
+ },
+ "Q321912": {
+  "label": {
+   "en": "Nouméa Accord",
+   "zh": "努美阿协议"
+  },
+  "description": "1998 agreement between France and New Caledonia",
+  "coord": null,
+  "image": "Accord sur la Nouvelle-Calédonie signé à Nouméa le 5 mai 1998.djvu",
+  "pointInTime": {
+   "year": 1998,
+   "date": "1998-05-05",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q321839"
+  ],
+  "wiki": {
+   "en": "Nouméa Accord",
+   "zh": "努美阿协议"
   },
   "locationQid": null
  },
@@ -4470,6 +4534,28 @@
   },
   "locationQid": null
  },
+ "Q5684233": {
+  "label": {
+   "en": "An Act to provide for the admission of the State of Hawaii into the Union",
+   "zh": "夏威夷接納法"
+  },
+  "description": "statute which established the State of Hawaii",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q476068"
+  ],
+  "wiki": {
+   "en": "Hawaii Admission Act",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q57723": {
   "label": {
    "en": "Tuilaʻepa Saʻilele Malielegaoi",
@@ -5903,6 +5989,16 @@
    "zh": "西蒂韦尼·兰布卡"
   },
   "locationQid": null
+ },
+ "loc:Q11568": {
+  "coord": {
+   "lat": -12.4381,
+   "lon": 130.8411
+  },
+  "label": {
+   "en": "Darwin",
+   "zh": "达尔文市"
+  }
  },
  "loc:Q118920": {
   "coord": {
