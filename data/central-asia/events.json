@@ -1,0 +1,1807 @@
+[
+  {
+    "id": "ev-battle-of-zhizhi",
+    "qid": "Q870947",
+    "type": "battle",
+    "year": -36,
+    "name": {
+      "en": "Battle of Zhizhi",
+      "zh": "郅支之战"
+    },
+    "summary": {
+      "en": "Han officers Chen Tang and Gan Yanshou led an army of Han troops and Western Regions levies into the Talas valley and stormed the fortress of the breakaway Xiongnu chanyu Zhizhi, killing him and ending the Xiongnu schism in the west.",
+      "zh": "汉朝将领陈汤、甘延寿率汉兵及西域诸国兵深入塔拉斯河谷，攻破自立的匈奴郅支单于的城池并将其斩杀，结束了匈奴在西方的分裂势力。"
+    },
+    "lat": 42.9,
+    "lon": 71.4,
+    "region": "central-asia",
+    "importance": 3,
+    "polities": [
+      "polity-xiongnu"
+    ],
+    "sources": [
+      {
+        "title": "Ban Gu, Hanshu (Book of Han), ch. 70: biographies of Chen Tang and Gan Yanshou"
+      },
+      {
+        "title": "Thomas J. Barfield, The Perilous Frontier: Nomadic Empires and China (1989)"
+      },
+      {
+        "title": "Wikidata Q870947",
+        "url": "https://www.wikidata.org/wiki/Q870947"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Zhizhi’s fort lay on the Talas river near modern Taraz; the exact site is unknown, so coordinates are approximate."
+  },
+  {
+    "id": "ev-gokturk-khaganate-founded",
+    "type": "founding",
+    "year": 552,
+    "name": {
+      "en": "Bumin founds the Turkic Khaganate",
+      "zh": "土门建立突厥汗国"
+    },
+    "summary": {
+      "en": "Bumin of the Ashina clan, whose Türks had served the Rouran as ironworkers, defeated his overlords and took the title Il-Qaghan; within a generation the first Turkic empire stretched from Manchuria to the Black Sea.",
+      "zh": "阿史那氏的土门原为柔然役使的“锻奴”，他击败柔然，自号伊利可汗；不到一代人的时间，第一突厥汗国的疆域便从东北亚延伸至黑海。"
+    },
+    "lat": 47.5,
+    "lon": 101.5,
+    "region": "central-asia",
+    "importance": 5,
+    "people": [
+      "person-bumin-qaghan"
+    ],
+    "polities": [
+      "polity-first-turkic-khaganate"
+    ],
+    "sources": [
+      {
+        "title": "Linghu Defen et al., Zhoushu (Book of Zhou), ch. 50: the Tujue"
+      },
+      {
+        "title": "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+      },
+      {
+        "title": "Denis Sinor (ed.), The Cambridge History of Early Inner Asia (1990)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "No separate Wikidata item exists for the event, so no QID is given (Q15146034 is the khaganate itself, inception 551 on Wikidata). Chinese sources (Zhoushu) date the victory over the Rouran to 552. Coordinates approximate the Ötüken uplands."
+  },
+  {
+    "id": "ev-battle-of-gol-zarriun",
+    "qid": "Q13600791",
+    "type": "battle",
+    "year": 560,
+    "name": {
+      "en": "Fall of the Hephthalites (Battle of Gol-Zarriun)",
+      "zh": "嚈哒覆灭（布哈拉之战）"
+    },
+    "summary": {
+      "en": "Western Turkic forces under Istämi, in alliance with the Sasanian king Khosrow I, crushed the Hephthalite army near Bukhara; the victors partitioned the Hephthalite realm along the Oxus.",
+      "zh": "室点密率领的西突厥军队与萨珊国王库思老一世结盟，在布哈拉附近大败嚈哒军，胜利者以阿姆河为界瓜分了嚈哒领土。"
+    },
+    "lat": 39.7667,
+    "lon": 64.4333,
+    "region": "central-asia",
+    "importance": 3,
+    "polities": [
+      "polity-hephthalite",
+      "polity-first-turkic-khaganate"
+    ],
+    "sources": [
+      {
+        "title": "Ferdowsi, Shahnameh (reign of Khosrow Anushirvan)"
+      },
+      {
+        "title": "Denis Sinor (ed.), The Cambridge History of Early Inner Asia (1990)"
+      },
+      {
+        "title": "Étienne de la Vaissière, Sogdian Traders: A History (2005)"
+      },
+      {
+        "title": "Wikidata Q13600791",
+        "url": "https://www.wikidata.org/wiki/Q13600791"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Dated between 557 and 563 by different authors; Wikidata gives 560."
+  },
+  {
+    "id": "ev-gokturk-civil-war",
+    "qid": "Q154875",
+    "type": "war",
+    "year": 583,
+    "endYear": 603,
+    "name": {
+      "en": "Göktürk civil war and division",
+      "zh": "突厥内战与东西分裂"
+    },
+    "summary": {
+      "en": "Succession quarrels among Ashina princes, encouraged by Sui China’s diplomacy, split the Turkic Khaganate into eastern and western halves, which thereafter followed separate histories.",
+      "zh": "阿史那氏诸王子争夺汗位，隋朝又从中离间，突厥汗国由此分裂为东、西两部，此后各自发展。"
+    },
+    "lat": 47.5,
+    "lon": 101.5,
+    "region": "central-asia",
+    "importance": 3,
+    "polities": [
+      "polity-first-turkic-khaganate"
+    ],
+    "sources": [
+      {
+        "title": "Wei Zheng et al., Suishu (Book of Sui), ch. 84: the Tujue"
+      },
+      {
+        "title": "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+      },
+      {
+        "title": "Wikidata Q154875",
+        "url": "https://www.wikidata.org/wiki/Q154875"
+      }
+    ],
+    "confidence": "medium",
+    "note": "A diffuse conflict; coordinates mark the eastern khaganate’s Ötüken heartland."
+  },
+  {
+    "id": "ev-orkhon-inscriptions",
+    "qid": "Q334704",
+    "type": "cultural",
+    "year": 732,
+    "endYear": 735,
+    "name": {
+      "en": "Orkhon inscriptions",
+      "zh": "鄂尔浑碑铭"
+    },
+    "summary": {
+      "en": "Memorial steles for Kül Tegin (732) and Bilge Qaghan (735) in the Orkhon valley carry the oldest known extended texts in a Turkic language, written in Old Turkic runiform script and recounting the Second Turkic Khaganate’s history.",
+      "zh": "立于鄂尔浑河谷的阙特勤碑（732年）和毗伽可汗碑（735年）以古突厥卢尼文字刻写，是已知最早的长篇突厥语文献，记述了后突厥汗国的历史。"
+    },
+    "lat": 47.5606,
+    "lon": 102.8411,
+    "region": "central-asia",
+    "importance": 4,
+    "polities": [
+      "polity-second-turkic-khaganate"
+    ],
+    "sources": [
+      {
+        "title": "Talat Tekin, A Grammar of Orkhon Turkic (1968)"
+      },
+      {
+        "title": "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Orkhon inscriptions"
+      },
+      {
+        "title": "Wikidata Q334704",
+        "url": "https://www.wikidata.org/wiki/Q334704"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata dates the inscriptions only to the 8th century; the stele dates 732 and 735 come from their texts and Chinese records."
+  },
+  {
+    "id": "ev-battle-of-talas",
+    "qid": "Q492415",
+    "type": "battle",
+    "year": 751,
+    "name": {
+      "en": "Battle of Talas",
+      "zh": "怛罗斯之战"
+    },
+    "summary": {
+      "en": "An Abbasid army, aided by defecting Karluks, defeated the Tang general Gao Xianzhi near the Talas river, marking the limit of Tang power west of the Tian Shan. Later tradition credits prisoners taken there with bringing paper-making to Samarkand.",
+      "zh": "阿拔斯军队在倒戈的葛逻禄人协助下，于怛罗斯河附近击败唐将高仙芝，标志着唐朝势力在天山以西的极限。后世传说此役被俘的唐人将造纸术传入撒马尔罕。"
+    },
+    "lat": 42.525,
+    "lon": 72.2333,
+    "region": "central-asia",
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Du Huan, Jingxingji (Record of Travels), preserved in Du You’s Tongdian, ch. 193"
+      },
+      {
+        "title": "Christopher I. Beckwith, Empires of the Silk Road (2009)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Battle of Talas"
+      },
+      {
+        "title": "Wikidata Q492415",
+        "url": "https://www.wikidata.org/wiki/Q492415"
+      }
+    ],
+    "confidence": "high",
+    "note": "The transfer of paper-making through Talas prisoners is a medieval tradition (al-Tha‘alibi) that many historians now doubt."
+  },
+  {
+    "id": "ev-fall-of-ordu-baliq",
+    "qid": "Q2475401",
+    "type": "fall",
+    "year": 840,
+    "name": {
+      "en": "Kyrgyz sack Ordu-Baliq; Uyghur Khaganate falls",
+      "zh": "黠戛斯攻破回鹘牙帐，回鹘汗国灭亡"
+    },
+    "summary": {
+      "en": "Yenisei Kyrgyz forces sacked Ordu-Baliq, the walled Uyghur capital on the Orkhon; the Uyghurs scattered south and west to Gansu and the Turfan basin, where they founded the Ganzhou and Qocho kingdoms.",
+      "zh": "黠戛斯军队攻破鄂尔浑河畔的回鹘都城牙帐（斡耳朵八里），回鹘人四散南迁西徙，在河西走廊和吐鲁番盆地分别建立甘州回鹘与高昌回鹘。"
+    },
+    "lat": 47.4311,
+    "lon": 102.6594,
+    "region": "central-asia",
+    "importance": 4,
+    "polities": [
+      "polity-uyghur-khaganate"
+    ],
+    "sources": [
+      {
+        "title": "Colin Mackerras, The Uighur Empire according to the T’ang Dynastic Histories (1972)"
+      },
+      {
+        "title": "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+      },
+      {
+        "title": "Wikidata Q2475401",
+        "url": "https://www.wikidata.org/wiki/Q2475401"
+      }
+    ],
+    "confidence": "high",
+    "note": "The QID is the city site of Ordu-Baliq."
+  },
+  {
+    "id": "ev-samanid-mausoleum",
+    "qid": "Q1268850",
+    "type": "cultural",
+    "year": 892,
+    "endYear": 943,
+    "name": {
+      "en": "Samanid Mausoleum built in Bukhara",
+      "zh": "布哈拉萨曼王陵建成"
+    },
+    "summary": {
+      "en": "Built in Bukhara as the Samanid family tomb, this cube of intricately patterned baked brick is one of the oldest surviving monuments of Islamic Central Asia and a symbol of the Persian cultural revival the dynasty sponsored.",
+      "zh": "这座位于布哈拉的萨曼家族陵墓以图案繁复的烧砖砌成立方体，是中亚现存最古老的伊斯兰建筑之一，也是萨曼王朝倡导的波斯文化复兴的象征。"
+    },
+    "lat": 39.777,
+    "lon": 64.4006,
+    "region": "central-asia",
+    "importance": 3,
+    "place": "place-bukhara",
+    "polities": [
+      "polity-samanid"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage List: Historic Centre of Bukhara",
+        "url": "https://whc.unesco.org/en/list/602"
+      },
+      {
+        "title": "S. Frederick Starr, Lost Enlightenment: Central Asia’s Golden Age (2013)"
+      },
+      {
+        "title": "Wikidata Q1268850",
+        "url": "https://www.wikidata.org/wiki/Q1268850"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Construction is dated within Ismail Samani’s and Nasr II’s reigns (892–943); the exact date is debated."
+  },
+  {
+    "id": "ev-battle-of-dandanaqan",
+    "qid": "Q26493",
+    "type": "battle",
+    "year": 1040,
+    "date": "1040-05-23",
+    "name": {
+      "en": "Battle of Dandanaqan",
+      "zh": "丹丹坎之战"
+    },
+    "summary": {
+      "en": "Seljuk Turkmen led by Tughril and Chaghri Beg routed the Ghaznavid sultan Mas‘ud I near Merv, winning Khurasan and launching the Seljuk empire that took Baghdad in 1055.",
+      "zh": "图格里勒与查格里率领的塞尔柱突厥蛮人在梅尔夫附近击溃伽色尼苏丹马苏德一世，夺取呼罗珊，开启了1055年进入巴格达的塞尔柱帝国。"
+    },
+    "lat": 37.3919,
+    "lon": 61.3454,
+    "region": "central-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran (1963)"
+      },
+      {
+        "title": "Abu’l-Fazl Bayhaqi, Tarikh-i Bayhaqi"
+      },
+      {
+        "title": "Wikidata Q26493",
+        "url": "https://www.wikidata.org/wiki/Q26493"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-qatwan",
+    "qid": "Q3950956",
+    "type": "battle",
+    "year": 1141,
+    "date": "1141-09-09",
+    "name": {
+      "en": "Battle of Qatwan",
+      "zh": "卡特万之战"
+    },
+    "summary": {
+      "en": "The Qara Khitai under Yelü Dashi crushed the Seljuk sultan Sanjar and his Karakhanid vassals near Samarkand, becoming overlords of Transoxiana; garbled reports of the battle fed the European legend of Prester John.",
+      "zh": "耶律大石率领的西辽军队在撒马尔罕附近大败塞尔柱苏丹桑贾尔及其喀喇汗附庸，成为河中地区的宗主；关于此役的讹传助长了欧洲“约翰长老”的传说。"
+    },
+    "lat": 39.8,
+    "lon": 66.9,
+    "region": "central-asia",
+    "importance": 3,
+    "polities": [
+      "polity-qara-khitai",
+      "polity-kara-khanid"
+    ],
+    "sources": [
+      {
+        "title": "Michal Biran, The Empire of the Qara Khitai in Eurasian History (2005)"
+      },
+      {
+        "title": "Ibn al-Athir, al-Kamil fi al-Tarikh"
+      },
+      {
+        "title": "Wikidata Q3950956",
+        "url": "https://www.wikidata.org/wiki/Q3950956"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-genghis-khan-proclaimed",
+    "type": "political",
+    "year": 1206,
+    "name": {
+      "en": "Temüjin proclaimed Genghis Khan",
+      "zh": "铁木真称成吉思汗"
+    },
+    "summary": {
+      "en": "A great kurultai at the source of the Onon river acclaimed Temüjin as Chinggis (Genghis) Khan, uniting the Mongol and Turkic tribes of the steppe into the Yeke Mongghol Ulus, the Great Mongol State.",
+      "zh": "斡难河源头召开的大忽里勒台推举铁木真为成吉思汗，将草原上的蒙古及突厥诸部统一为“也客·蒙古·兀鲁思”，即大蒙古国。"
+    },
+    "lat": 48.9,
+    "lon": 109,
+    "region": "central-asia",
+    "importance": 5,
+    "people": [
+      "person-genghis-khan"
+    ],
+    "polities": [
+      "polity-mongol-empire"
+    ],
+    "sources": [
+      {
+        "title": "The Secret History of the Mongols, tr. Igor de Rachewiltz (2004)"
+      },
+      {
+        "title": "Igor de Rachewiltz, “The title Činggis Qan/Qaγan re-examined” (1989)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Genghis Khan",
+        "url": "https://www.britannica.com/biography/Genghis-Khan"
+      }
+    ],
+    "confidence": "medium",
+    "note": "No separate Wikidata item exists for the 1206 kurultai, so no QID is given (Q12557 is the Mongol Empire). The location near the Onon source is approximate."
+  },
+  {
+    "id": "ev-otrar-catastrophe",
+    "qid": "Q111943842",
+    "type": "battle",
+    "year": 1219,
+    "endYear": 1220,
+    "name": {
+      "en": "Siege of Otrar",
+      "zh": "讹答剌之围"
+    },
+    "summary": {
+      "en": "After Otrar’s governor Inalchuq massacred a Mongol trade caravan in 1218 and the shah executed Genghis Khan’s envoy, the khan’s sons besieged the city for months; its fall opened the Mongol conquest of Khwarazm.",
+      "zh": "1218年讹答剌守将亦纳勒术屠杀蒙古商队，花剌子模沙又处死成吉思汗的使者；成吉思汗诸子随后围城数月，此城陷落揭开了蒙古征服花剌子模的序幕。"
+    },
+    "lat": 42.85,
+    "lon": 68.3,
+    "region": "central-asia",
+    "importance": 4,
+    "people": [
+      "person-ogedei"
+    ],
+    "polities": [
+      "polity-mongol-empire",
+      "polity-khwarazmian"
+    ],
+    "sources": [
+      {
+        "title": "Ata-Malik Juvaini, Tarikh-i Jahangushay (The History of the World-Conqueror), tr. J. A. Boyle (1958)"
+      },
+      {
+        "title": "An-Nasawi, Sirat al-Sultan Jalal al-Din Mankubirti"
+      },
+      {
+        "title": "Wikidata Q111943842",
+        "url": "https://www.wikidata.org/wiki/Q111943842"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-mongol-invasion-of-khwarazm",
+    "qid": "Q431177",
+    "type": "war",
+    "year": 1219,
+    "endYear": 1221,
+    "name": {
+      "en": "Mongol invasion of the Khwarazmian Empire",
+      "zh": "蒙古西征花剌子模"
+    },
+    "summary": {
+      "en": "Genghis Khan’s armies destroyed the Khwarazmian empire, razing Bukhara, Samarkand, Gurganj, Merv and Nishapur and pursuing Jalal al-Din to the Indus; the conquest killed vast numbers and brought Transoxiana and Khurasan under Mongol rule.",
+      "zh": "成吉思汗大军摧毁花剌子模帝国，相继攻破布哈拉、撒马尔罕、玉龙杰赤、梅尔夫和内沙布尔，并追击札兰丁至印度河；此役杀戮极重，河中与呼罗珊从此归于蒙古统治。"
+    },
+    "lat": 39.6542,
+    "lon": 66.9597,
+    "region": "central-asia",
+    "importance": 5,
+    "people": [
+      "person-genghis-khan",
+      "person-subutai",
+      "person-ogedei"
+    ],
+    "polities": [
+      "polity-mongol-empire",
+      "polity-khwarazmian"
+    ],
+    "route": [
+      {
+        "year": 1219,
+        "lat": 48,
+        "lon": 84,
+        "label": {
+          "en": "Army musters on the Irtysh",
+          "zh": "大军集结于额尔齐斯河"
+        }
+      },
+      {
+        "year": 1219,
+        "lat": 42.85,
+        "lon": 68.3,
+        "label": {
+          "en": "Otrar",
+          "zh": "讹答剌"
+        }
+      },
+      {
+        "year": 1220,
+        "lat": 39.7778,
+        "lon": 64.4103,
+        "label": {
+          "en": "Bukhara",
+          "zh": "布哈拉"
+        }
+      },
+      {
+        "year": 1220,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Samarkand",
+          "zh": "撒马尔罕"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 42.3261,
+        "lon": 59.1531,
+        "label": {
+          "en": "Gurganj (Urgench)",
+          "zh": "玉龙杰赤（乌尔根奇）"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 37.6628,
+        "lon": 62.1925,
+        "label": {
+          "en": "Merv",
+          "zh": "梅尔夫"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 36.21,
+        "lon": 58.8,
+        "label": {
+          "en": "Nishapur",
+          "zh": "内沙布尔"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 34.82,
+        "lon": 67.82,
+        "label": {
+          "en": "Bamiyan",
+          "zh": "巴米扬"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 33.77,
+        "lon": 72.18,
+        "label": {
+          "en": "Battle of the Indus",
+          "zh": "印度河之战"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ata-Malik Juvaini, Tarikh-i Jahangushay (The History of the World-Conqueror), tr. J. A. Boyle (1958)"
+      },
+      {
+        "title": "Rashid al-Din, Jami al-Tawarikh (tr. W. M. Thackston)"
+      },
+      {
+        "title": "Timothy May, The Mongol Conquests in World History (2012)"
+      },
+      {
+        "title": "Wikidata Q431177",
+        "url": "https://www.wikidata.org/wiki/Q431177"
+      }
+    ],
+    "confidence": "high",
+    "note": "The route combines several Mongol columns (Gurganj by Jochi, Chagatai and Ögedei; Merv and Nishapur by Tolui; the Indus by Genghis Khan)."
+  },
+  {
+    "id": "ev-siege-of-bukhara-1220",
+    "qid": "Q110970851",
+    "type": "battle",
+    "year": 1220,
+    "name": {
+      "en": "Mongol capture of Bukhara",
+      "zh": "蒙古攻陷布哈拉"
+    },
+    "summary": {
+      "en": "Genghis Khan took Bukhara in February 1220 after its Turkic garrison fled; Juvaini says he addressed its notables from the pulpit of the Friday mosque, calling himself the punishment of God, before the city burned.",
+      "zh": "1220年2月，布哈拉的突厥守军逃散后成吉思汗攻占该城；据志费尼记载，他在聚礼清真寺讲坛上对城中显贵自称“上天之罚”，随后城市被焚。"
+    },
+    "lat": 39.7778,
+    "lon": 64.4103,
+    "region": "central-asia",
+    "importance": 3,
+    "people": [
+      "person-genghis-khan"
+    ],
+    "place": "place-bukhara",
+    "polities": [
+      "polity-mongol-empire",
+      "polity-khwarazmian"
+    ],
+    "sources": [
+      {
+        "title": "Ata-Malik Juvaini, Tarikh-i Jahangushay (The History of the World-Conqueror), tr. J. A. Boyle (1958)"
+      },
+      {
+        "title": "Timothy May, The Mongol Conquests in World History (2012)"
+      },
+      {
+        "title": "Wikidata Q110970851",
+        "url": "https://www.wikidata.org/wiki/Q110970851"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-siege-of-samarkand-1220",
+    "qid": "Q7510363",
+    "type": "battle",
+    "year": 1220,
+    "name": {
+      "en": "Mongol capture of Samarkand",
+      "zh": "蒙古攻陷撒马尔罕"
+    },
+    "summary": {
+      "en": "Khwarazm’s new capital surrendered after a short siege in March 1220; the Mongols massacred much of the garrison and deported its artisans, and the old city on the Afrasiyab mound was never fully reoccupied.",
+      "zh": "1220年3月，花剌子模新都撒马尔罕在短暂围攻后投降；蒙古人屠杀大部分守军并迁走工匠，阿夫拉西阿卜高地上的旧城此后再未完全恢复。"
+    },
+    "lat": 39.6542,
+    "lon": 66.9597,
+    "region": "central-asia",
+    "importance": 4,
+    "people": [
+      "person-genghis-khan"
+    ],
+    "place": "place-samarkand",
+    "polities": [
+      "polity-mongol-empire",
+      "polity-khwarazmian"
+    ],
+    "sources": [
+      {
+        "title": "Ata-Malik Juvaini, Tarikh-i Jahangushay (The History of the World-Conqueror), tr. J. A. Boyle (1958)"
+      },
+      {
+        "title": "Timothy May, The Mongol Conquests in World History (2012)"
+      },
+      {
+        "title": "Wikidata Q7510363",
+        "url": "https://www.wikidata.org/wiki/Q7510363"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-siege-of-merv-1221",
+    "qid": "Q39081822",
+    "type": "battle",
+    "year": 1221,
+    "name": {
+      "en": "Mongol destruction of Merv",
+      "zh": "蒙古屠灭梅尔夫"
+    },
+    "summary": {
+      "en": "Tolui’s army took Merv, one of the great cities of the Islamic world, after it surrendered in February 1221 and slaughtered most of its people; the oasis never regained its former size.",
+      "zh": "1221年2月，梅尔夫这座伊斯兰世界的大城向拖雷军投降后，大部分居民遭屠戮；该绿洲此后再未恢复昔日规模。"
+    },
+    "lat": 37.6628,
+    "lon": 62.1925,
+    "region": "central-asia",
+    "importance": 3,
+    "place": "place-merv",
+    "polities": [
+      "polity-mongol-empire",
+      "polity-khwarazmian"
+    ],
+    "sources": [
+      {
+        "title": "Ata-Malik Juvaini, Tarikh-i Jahangushay (The History of the World-Conqueror), tr. J. A. Boyle (1958)"
+      },
+      {
+        "title": "UNESCO World Heritage List: State Historical and Cultural Park “Ancient Merv”",
+        "url": "https://whc.unesco.org/en/list/886"
+      },
+      {
+        "title": "Wikidata Q39081822",
+        "url": "https://www.wikidata.org/wiki/Q39081822"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Contemporary death tolls (over a million) are not credible as counts, though the massacre was real and enormous."
+  },
+  {
+    "id": "ev-battle-of-the-indus",
+    "qid": "Q3269760",
+    "type": "battle",
+    "year": 1221,
+    "date": "1221-11-24",
+    "name": {
+      "en": "Battle of the Indus",
+      "zh": "印度河之战"
+    },
+    "summary": {
+      "en": "Genghis Khan caught Jalal al-Din Mingburnu on the banks of the Indus and destroyed his army; the Khwarazmian prince escaped by riding his horse into the river and fled to the Delhi Sultanate.",
+      "zh": "成吉思汗在印度河畔追上札兰丁并歼灭其军，这位花剌子模王子策马跃入河中脱身，逃往德里苏丹国。"
+    },
+    "lat": 33.77,
+    "lon": 72.18,
+    "region": "central-asia",
+    "importance": 3,
+    "people": [
+      "person-genghis-khan"
+    ],
+    "polities": [
+      "polity-mongol-empire",
+      "polity-khwarazmian"
+    ],
+    "sources": [
+      {
+        "title": "Ata-Malik Juvaini, Tarikh-i Jahangushay (The History of the World-Conqueror), tr. J. A. Boyle (1958)"
+      },
+      {
+        "title": "An-Nasawi, Sirat al-Sultan Jalal al-Din Mankubirti"
+      },
+      {
+        "title": "Wikidata Q3269760",
+        "url": "https://www.wikidata.org/wiki/Q3269760"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-the-kalka-river",
+    "qid": "Q570204",
+    "type": "battle",
+    "year": 1223,
+    "date": "1223-05-31",
+    "name": {
+      "en": "Battle of the Kalka River",
+      "zh": "迦勒迦河之战"
+    },
+    "summary": {
+      "en": "On a reconnaissance raid around the Caspian, Jebe and Subutai lured a coalition of Rus’ princes and Cumans to the Kalka river and destroyed it; the captured princes were crushed beneath a victory platform.",
+      "zh": "哲别与速不台绕里海进行远程侦察，将罗斯诸王公与钦察人的联军诱至迦勒迦河并将其击溃；被俘的王公被压死在庆功的木台之下。"
+    },
+    "lat": 47.2508,
+    "lon": 37.4957,
+    "region": "central-asia",
+    "importance": 4,
+    "people": [
+      "person-subutai"
+    ],
+    "polities": [
+      "polity-mongol-empire"
+    ],
+    "route": [
+      {
+        "year": 1221,
+        "lat": 36.21,
+        "lon": 58.8,
+        "label": {
+          "en": "Leaves Khurasan in pursuit of the shah",
+          "zh": "自呼罗珊追击花剌子模沙"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 34.8,
+        "lon": 48.5,
+        "label": {
+          "en": "Hamadan",
+          "zh": "哈马丹"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 41.7,
+        "lon": 44.8,
+        "label": {
+          "en": "Defeats the Georgians",
+          "zh": "击败格鲁吉亚军"
+        }
+      },
+      {
+        "year": 1222,
+        "lat": 42.06,
+        "lon": 48.29,
+        "label": {
+          "en": "Derbent pass",
+          "zh": "打耳班山口"
+        }
+      },
+      {
+        "year": 1222,
+        "lat": 44,
+        "lon": 43.5,
+        "label": {
+          "en": "Defeats Alans and Cumans",
+          "zh": "击败阿兰人与钦察人"
+        }
+      },
+      {
+        "year": 1223,
+        "lat": 47.2508,
+        "lon": 37.4957,
+        "label": {
+          "en": "Kalka River",
+          "zh": "迦勒迦河"
+        }
+      },
+      {
+        "year": 1223,
+        "lat": 53.2,
+        "lon": 50,
+        "label": {
+          "en": "Repulsed by the Volga Bulgars",
+          "zh": "在伏尔加保加尔受挫"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Chronicle of Novgorod 1016–1471, tr. R. Michell & N. Forbes (1914)"
+      },
+      {
+        "title": "Timothy May, The Mongol Conquests in World History (2012)"
+      },
+      {
+        "title": "Carl Sverdrup, The Mongol Conquests: The Military Operations of Genghis Khan and Sübe’etei (2017)"
+      },
+      {
+        "title": "Wikidata Q570204",
+        "url": "https://www.wikidata.org/wiki/Q570204"
+      }
+    ],
+    "confidence": "high",
+    "note": "Route stops are approximate; the Volga Bulgar episode is reported by Ibn al-Athir."
+  },
+  {
+    "id": "ev-toluid-civil-war",
+    "qid": "Q16871984",
+    "type": "war",
+    "year": 1260,
+    "endYear": 1264,
+    "name": {
+      "en": "Toluid Civil War",
+      "zh": "阿里不哥与忽必烈汗位之争"
+    },
+    "summary": {
+      "en": "After Möngke’s death his brothers Kublai and Ariq Böke were each elected Great Khan; Kublai won by cutting Karakorum’s grain supply from China, but the empire’s unity was lost and it split into four khanates.",
+      "zh": "蒙哥死后，其弟忽必烈与阿里不哥分别被推举为大汗；忽必烈切断汉地对哈拉和林的粮食供应而获胜，但帝国统一从此瓦解，分裂为四大汗国。"
+    },
+    "lat": 47.1975,
+    "lon": 102.8238,
+    "region": "central-asia",
+    "importance": 4,
+    "people": [
+      "person-kublai-khan"
+    ],
+    "place": "place-karakorum",
+    "polities": [
+      "polity-mongol-empire"
+    ],
+    "sources": [
+      {
+        "title": "Morris Rossabi, Khubilai Khan: His Life and Times (1988)"
+      },
+      {
+        "title": "Timothy May, The Mongol Conquests in World History (2012)"
+      },
+      {
+        "title": "Wikidata Q16871984",
+        "url": "https://www.wikidata.org/wiki/Q16871984"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-bibi-khanym-mosque",
+    "qid": "Q679218",
+    "type": "religious",
+    "year": 1399,
+    "endYear": 1404,
+    "name": {
+      "en": "Bibi-Khanym Mosque built",
+      "zh": "比比哈努姆清真寺兴建"
+    },
+    "summary": {
+      "en": "Begun after the Indian campaign with plunder and craftsmen from Delhi, Timur’s congregational mosque in Samarkand was among the largest in the Islamic world; its hurried construction left it prone to collapse.",
+      "zh": "帖木儿征印度归来后，以从德里掠来的财富和工匠在撒马尔罕兴建这座聚礼清真寺，其规模居伊斯兰世界前列；因施工仓促，此后屡有坍塌。"
+    },
+    "lat": 39.6606,
+    "lon": 66.9797,
+    "region": "central-asia",
+    "importance": 3,
+    "people": [
+      "person-timur"
+    ],
+    "place": "place-samarkand",
+    "polities": [
+      "polity-timurid"
+    ],
+    "sources": [
+      {
+        "title": "Ruy González de Clavijo, Embassy to Tamerlane 1403–1406 (tr. Guy Le Strange, 1928)"
+      },
+      {
+        "title": "UNESCO World Heritage List: Samarkand – Crossroad of Cultures",
+        "url": "https://whc.unesco.org/en/list/603"
+      },
+      {
+        "title": "Wikidata Q679218",
+        "url": "https://www.wikidata.org/wiki/Q679218"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata records 1404, the completion date."
+  },
+  {
+    "id": "ev-gur-e-amir",
+    "qid": "Q1256223",
+    "type": "cultural",
+    "year": 1403,
+    "endYear": 1404,
+    "name": {
+      "en": "Gur-e Amir mausoleum",
+      "zh": "古尔-艾米尔陵（帖木儿陵）"
+    },
+    "summary": {
+      "en": "Built for Timur’s grandson Muhammad Sultan, who died in 1403, the ribbed turquoise-domed mausoleum became the dynastic tomb of Timur, Shah Rukh and Ulugh Beg and a model for Mughal tombs.",
+      "zh": "此陵原为1403年去世的帖木儿之孙穆罕默德·苏丹而建，其带棱纹的青绿色穹顶陵墓后成为帖木儿、沙哈鲁和兀鲁伯的王朝墓地，并成为莫卧儿陵墓的范本。"
+    },
+    "lat": 39.6483,
+    "lon": 66.9689,
+    "region": "central-asia",
+    "importance": 3,
+    "people": [
+      "person-timur",
+      "person-ulugh-beg"
+    ],
+    "place": "place-samarkand",
+    "polities": [
+      "polity-timurid"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage List: Samarkand – Crossroad of Cultures",
+        "url": "https://whc.unesco.org/en/list/603"
+      },
+      {
+        "title": "Lisa Golombek & Donald Wilber, The Timurid Architecture of Iran and Turan (1988)"
+      },
+      {
+        "title": "Wikidata Q1256223",
+        "url": "https://www.wikidata.org/wiki/Q1256223"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-ulugh-beg-madrasa",
+    "qid": "Q492144",
+    "type": "cultural",
+    "year": 1417,
+    "endYear": 1420,
+    "name": {
+      "en": "Ulugh Beg Madrasa on the Registan",
+      "zh": "雷吉斯坦广场兀鲁伯经学院"
+    },
+    "summary": {
+      "en": "Ulugh Beg founded this madrasa on Samarkand’s Registan, where astronomy and mathematics were taught alongside religious sciences; it is the oldest of the three madrasas framing the square.",
+      "zh": "兀鲁伯在撒马尔罕雷吉斯坦广场创建这所经学院，除宗教学科外还讲授天文与数学；它是环绕广场的三座经学院中最古老的一座。"
+    },
+    "lat": 39.6547,
+    "lon": 66.9747,
+    "region": "central-asia",
+    "importance": 2,
+    "people": [
+      "person-ulugh-beg"
+    ],
+    "place": "place-samarkand",
+    "polities": [
+      "polity-timurid"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage List: Samarkand – Crossroad of Cultures",
+        "url": "https://whc.unesco.org/en/list/603"
+      },
+      {
+        "title": "Lisa Golombek & Donald Wilber, The Timurid Architecture of Iran and Turan (1988)"
+      },
+      {
+        "title": "Wikidata Q492144",
+        "url": "https://www.wikidata.org/wiki/Q492144"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-ulugh-beg-observatory",
+    "qid": "Q608580",
+    "type": "science",
+    "year": 1424,
+    "endYear": 1449,
+    "name": {
+      "en": "Ulugh Beg’s observatory",
+      "zh": "兀鲁伯天文台"
+    },
+    "summary": {
+      "en": "Ulugh Beg’s three-storey observatory housed a huge meridian arc of about 40 m radius; his team, including al-Kashi and Qadi-zada al-Rumi, compiled the Zij-i Sultani star catalogue, the most precise since Ptolemy.",
+      "zh": "兀鲁伯的三层天文台内建有半径约40米的巨型子午仪；他与卡西、卡迪扎德·鲁米等学者编成《苏丹历数书》星表，是托勒密以来最精确的星表。"
+    },
+    "lat": 39.6747,
+    "lon": 67.0056,
+    "region": "central-asia",
+    "importance": 4,
+    "people": [
+      "person-ulugh-beg"
+    ],
+    "place": "place-samarkand",
+    "polities": [
+      "polity-timurid"
+    ],
+    "sources": [
+      {
+        "title": "Aydın Sayılı, The Observatory in Islam (1960)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Ulugh Beg"
+      },
+      {
+        "title": "Wikidata Q608580",
+        "url": "https://www.wikidata.org/wiki/Q608580"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Construction is usually dated 1424–1429 (Wikidata: 1420s); the Zij-i Sultani was completed c. 1437 and revised to 1449, when the observatory was abandoned."
+  },
+  {
+    "id": "ev-kazakh-khanate-founded",
+    "type": "founding",
+    "year": 1465,
+    "name": {
+      "en": "Kerei and Janibek found the Kazakh Khanate",
+      "zh": "克烈与贾尼别克建立哈萨克汗国"
+    },
+    "summary": {
+      "en": "The Jochid sultans Kerei and Janibek broke with Abu’l-Khayr’s Uzbek ulus and led their followers to the Chu and Talas valleys under Moghulistan’s protection; their khanate is regarded as the origin of Kazakh statehood.",
+      "zh": "术赤后裔克烈与贾尼别克两位苏丹脱离阿布海尔的乌兹别克兀鲁思，率部众迁至楚河与塔拉斯河流域，受东察合台汗国庇护；他们建立的汗国被视为哈萨克国家的开端。"
+    },
+    "lat": 43.6,
+    "lon": 73.8,
+    "region": "central-asia",
+    "importance": 4,
+    "polities": [
+      "polity-kazakh-khanate"
+    ],
+    "sources": [
+      {
+        "title": "Mirza Muhammad Haidar Dughlat, Tarikh-i Rashidi (tr. N. Elias & E. Denison Ross, 1895)"
+      },
+      {
+        "title": "Martha Brill Olcott, The Kazakhs, 2nd ed. (1995)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "No separate Wikidata item exists for the event, so no QID is given (Q1433867 is the khanate, inception 1465). Mirza Haidar gives AH 870 (1465–66); other dates (1456, 1459) are proposed. Coordinates approximate the Chu valley."
+  },
+  {
+    "id": "ev-battle-of-ghazdewan",
+    "qid": "Q4138186",
+    "type": "battle",
+    "year": 1512,
+    "date": "1512-11-12",
+    "name": {
+      "en": "Battle of Ghazdewan",
+      "zh": "吉日杜万之战"
+    },
+    "summary": {
+      "en": "Shaybanid Uzbek forces under Ubaydullah annihilated a Safavid army under Najm-e Sani that was backing Babur’s bid to retake Samarkand, fixing the Uzbek–Persian frontier and ending Babur’s Central Asian ambitions.",
+      "zh": "乌拜杜拉率领的昔班尼乌兹别克军队全歼了纳吉姆·萨尼统率、支持巴布尔夺回撒马尔罕的萨法维军队，由此确定乌兹别克与波斯的边界，巴布尔在中亚的雄心也就此破灭。"
+    },
+    "lat": 40.1,
+    "lon": 64.68,
+    "region": "central-asia",
+    "importance": 3,
+    "polities": [
+      "polity-khanate-of-bukhara"
+    ],
+    "sources": [
+      {
+        "title": "Babur, Baburnama (tr. Wheeler M. Thackston, 1996)"
+      },
+      {
+        "title": "R. D. McChesney, “Central Asia vi. In the 16th–18th centuries”, Encyclopaedia Iranica"
+      },
+      {
+        "title": "Wikidata Q4138186",
+        "url": "https://www.wikidata.org/wiki/Q4138186"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-zunghar-genocide",
+    "qid": "Q4462644",
+    "type": "war",
+    "year": 1755,
+    "endYear": 1758,
+    "name": {
+      "en": "Qing destruction of the Dzungars",
+      "zh": "清朝平定准噶尔与准噶尔人大屠杀"
+    },
+    "summary": {
+      "en": "Qing armies under the Qianlong emperor destroyed the Dzungar Khanate after Amursana’s revolt; war, massacre and smallpox killed most of the Dzungar Oirats, and their lands became part of Qing Xinjiang.",
+      "zh": "阿睦尔撒纳叛清后，乾隆帝派兵彻底摧毁准噶尔汗国；战争、屠杀与天花使准噶尔卫拉特人大部分死亡，其故地并入清朝新疆。"
+    },
+    "lat": 43.9167,
+    "lon": 81.3167,
+    "region": "central-asia",
+    "importance": 4,
+    "polities": [
+      "polity-dzungar-khanate"
+    ],
+    "sources": [
+      {
+        "title": "Peter C. Perdue, China Marches West: The Qing Conquest of Central Eurasia (2005)"
+      },
+      {
+        "title": "Wei Yuan, Shengwuji (Record of Imperial Military Exploits) (1842)"
+      },
+      {
+        "title": "Wikidata Q4462644",
+        "url": "https://www.wikidata.org/wiki/Q4462644"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Estimates of the death toll vary widely; Perdue follows Wei Yuan’s figure that some 40% died of smallpox and 30% were killed."
+  },
+  {
+    "id": "ev-russian-capture-of-tashkent",
+    "qid": "Q4527027",
+    "type": "battle",
+    "year": 1865,
+    "name": {
+      "en": "Russian capture of Tashkent",
+      "zh": "俄国攻占塔什干"
+    },
+    "summary": {
+      "en": "General Mikhail Chernyaev stormed Tashkent, the largest city of the Kokand Khanate, without clear orders from St Petersburg; it became the capital of the Russian Governorate-General of Turkestan in 1867.",
+      "zh": "切尔尼亚耶夫将军未经圣彼得堡明确授权便攻陷浩罕汗国最大的城市塔什干；1867年该城成为俄国突厥斯坦总督区首府。"
+    },
+    "lat": 41.3398,
+    "lon": 69.3792,
+    "region": "central-asia",
+    "importance": 4,
+    "place": "place-tashkent",
+    "sources": [
+      {
+        "title": "Alexander Morrison, The Russian Conquest of Central Asia: A Study in Imperial Expansion, 1814–1914 (2020)"
+      },
+      {
+        "title": "Adeeb Khalid, Central Asia: A New History from the Imperial Conquests to the Present (2021)"
+      },
+      {
+        "title": "Wikidata Q4527027",
+        "url": "https://www.wikidata.org/wiki/Q4527027"
+      }
+    ],
+    "confidence": "high",
+    "note": "Russian sources use Julian dates (city stormed 15–17 June O.S. = 27–29 June N.S. 1865)."
+  },
+  {
+    "id": "ev-battle-of-geok-tepe",
+    "qid": "Q3636447",
+    "type": "battle",
+    "year": 1880,
+    "endYear": 1881,
+    "name": {
+      "en": "Siege of Geok Tepe",
+      "zh": "格奥克捷佩之战"
+    },
+    "summary": {
+      "en": "After a failed attack in 1879, General Mikhail Skobelev besieged the Teke Turkmen fortress of Geok Tepe and stormed it in January 1881, followed by the slaughter of fleeing defenders and civilians; it completed Russia’s conquest of the Turkmen.",
+      "zh": "1879年进攻失败后，斯科别列夫将军围攻帖克土库曼人的格奥克捷佩要塞，于1881年1月攻破并屠杀出逃的守军与平民，完成了俄国对土库曼人的征服。"
+    },
+    "lat": 38.1578,
+    "lon": 57.9664,
+    "region": "central-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Alexander Morrison, The Russian Conquest of Central Asia: A Study in Imperial Expansion, 1814–1914 (2020)"
+      },
+      {
+        "title": "Adeeb Khalid, Central Asia: A New History from the Imperial Conquests to the Present (2021)"
+      },
+      {
+        "title": "Wikidata Q3636447",
+        "url": "https://www.wikidata.org/wiki/Q3636447"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-panjdeh-incident",
+    "qid": "Q2993585",
+    "type": "battle",
+    "year": 1885,
+    "date": "1885-03-30",
+    "name": {
+      "en": "Panjdeh incident",
+      "zh": "潘杰德事件"
+    },
+    "summary": {
+      "en": "Russian troops drove Afghan forces from the Panjdeh oasis south of Merv, bringing Britain and Russia close to war at the height of the Great Game; the crisis ended with a joint commission fixing Afghanistan’s northern frontier.",
+      "zh": "俄军将阿富汗军队逐出梅尔夫以南的潘杰德绿洲，使正处于“大博弈”高峰的英俄两国濒临开战；危机最终以双方成立联合委员会划定阿富汗北部边界告终。"
+    },
+    "lat": 35.2758,
+    "lon": 62.3417,
+    "region": "central-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Alexander Morrison, The Russian Conquest of Central Asia: A Study in Imperial Expansion, 1814–1914 (2020)"
+      },
+      {
+        "title": "Peter Hopkirk, The Great Game (1990)"
+      },
+      {
+        "title": "Wikidata Q2993585",
+        "url": "https://www.wikidata.org/wiki/Q2993585"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-central-asian-revolt-1916",
+    "qid": "Q4438492",
+    "type": "war",
+    "year": 1916,
+    "endYear": 1917,
+    "name": {
+      "en": "Central Asian revolt of 1916",
+      "zh": "1916年中亚起义"
+    },
+    "summary": {
+      "en": "A tsarist decree drafting Central Asians for labour behind the front sparked revolt from Khujand to Semirechye; brutal reprisals and the flight of Kazakhs and Kyrgyz across the mountains to China cost well over a hundred thousand lives.",
+      "zh": "沙皇征发中亚居民赴前线后方服劳役的命令引发从苦盏到七河地区的起义；残酷镇压以及哈萨克人、吉尔吉斯人翻山逃往中国，造成十余万人以上死亡。"
+    },
+    "lat": 40.28,
+    "lon": 69.62,
+    "region": "central-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Adeeb Khalid, Central Asia: A New History from the Imperial Conquests to the Present (2021)"
+      },
+      {
+        "title": "Aminat Chokobaeva, Cloé Drieu & Alexander Morrison (eds.), The Central Asian Revolt of 1916 (2019)"
+      },
+      {
+        "title": "Wikidata Q4438492",
+        "url": "https://www.wikidata.org/wiki/Q4438492"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The revolt began at Khujand on 4 July 1916 (Old Style; 17 July New Style); Wikidata’s point in time (1917) reflects its aftermath. Death tolls are estimates."
+  },
+  {
+    "id": "ev-basmachi-movement",
+    "qid": "Q255352",
+    "type": "war",
+    "year": 1916,
+    "endYear": 1934,
+    "name": {
+      "en": "Basmachi movement",
+      "zh": "巴斯马奇运动"
+    },
+    "summary": {
+      "en": "Guerrilla bands, strongest in the Fergana valley and eastern Bukhara, fought Soviet rule after the Bolsheviks crushed the Kokand Autonomy in 1918; the Ottoman exile Enver Pasha joined them before his death in 1922.",
+      "zh": "1918年布尔什维克摧毁浩罕自治政府后，以费尔干纳盆地和东布哈拉为主要据点的游击队奋起反抗苏维埃统治；奥斯曼流亡者恩维尔帕夏曾加入其中，1922年战死。"
+    },
+    "lat": 40.4,
+    "lon": 71.8,
+    "region": "central-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Adeeb Khalid, Central Asia: A New History from the Imperial Conquests to the Present (2021)"
+      },
+      {
+        "title": "Glenda Fraser, “Basmachi”, Central Asian Survey 6 (1987)"
+      },
+      {
+        "title": "Wikidata Q255352",
+        "url": "https://www.wikidata.org/wiki/Q255352"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Start and end dates vary (1916/1918 to 1924/1934); these follow Wikidata."
+  },
+  {
+    "id": "ev-mongolian-revolution-1921",
+    "qid": "Q2081446",
+    "type": "political",
+    "year": 1921,
+    "name": {
+      "en": "Mongolian Revolution of 1921",
+      "zh": "1921年蒙古人民革命"
+    },
+    "summary": {
+      "en": "Mongolian revolutionaries led by Damdin Sükhbaatar, backed by the Red Army, expelled Baron Ungern-Sternberg’s White forces from Urga; the regime they founded proclaimed the Mongolian People’s Republic, the second communist state, in 1924.",
+      "zh": "苏赫巴托尔领导的蒙古革命者在苏俄红军支持下，将恩琴男爵的白军逐出库伦；他们建立的政权于1924年宣布成立蒙古人民共和国，成为世界上第二个社会主义国家。"
+    },
+    "lat": 47.9214,
+    "lon": 106.9055,
+    "region": "central-asia",
+    "importance": 4,
+    "place": "place-ulaanbaatar",
+    "sources": [
+      {
+        "title": "Charles R. Bawden, The Modern History of Mongolia (1968)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Mongolia"
+      },
+      {
+        "title": "Wikidata Q2081446",
+        "url": "https://www.wikidata.org/wiki/Q2081446"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-national-delimitation-1924",
+    "qid": "Q56558925",
+    "type": "political",
+    "year": 1924,
+    "date": "1924-10-27",
+    "name": {
+      "en": "National delimitation of Soviet Central Asia",
+      "zh": "苏联中亚民族划界"
+    },
+    "summary": {
+      "en": "Soviet authorities dissolved the Turkestan, Bukharan and Khorezm republics and redrew the region on ethnic lines, creating the Uzbek and Turkmen SSRs and autonomous units that later became Kazakhstan, Kyrgyzstan and Tajikistan.",
+      "zh": "苏联当局撤销突厥斯坦、布哈拉和花剌子模共和国，按民族重新划分该地区，设立乌兹别克和土库曼加盟共和国以及日后成为哈萨克斯坦、吉尔吉斯斯坦和塔吉克斯坦的自治单位。"
+    },
+    "lat": 41.3111,
+    "lon": 69.2797,
+    "region": "central-asia",
+    "importance": 4,
+    "place": "place-tashkent",
+    "sources": [
+      {
+        "title": "Arne Haugen, The Establishment of National Republics in Soviet Central Asia (2003)"
+      },
+      {
+        "title": "Adeeb Khalid, Central Asia: A New History from the Imperial Conquests to the Present (2021)"
+      },
+      {
+        "title": "Wikidata Q56558925",
+        "url": "https://www.wikidata.org/wiki/Q56558925"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-rds-1-test",
+    "qid": "Q586755",
+    "type": "science",
+    "year": 1949,
+    "date": "1949-08-29",
+    "name": {
+      "en": "First Soviet atomic test at Semipalatinsk",
+      "zh": "苏联首次核试验（塞米巴拉金斯克）"
+    },
+    "summary": {
+      "en": "The Soviet Union detonated its first atomic bomb, RDS-1, at the Semipalatinsk test site in Kazakhstan; some 456 tests there over four decades exposed nearby populations to radiation until the site closed in 1991.",
+      "zh": "苏联在哈萨克斯坦塞米巴拉金斯克试验场引爆第一颗原子弹RDS-1；此后四十年间在此进行了约456次核试验，周边居民长期受辐射危害，直至1991年试验场关闭。"
+    },
+    "lat": 50.4375,
+    "lon": 77.8142,
+    "region": "central-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "David Holloway, Stalin and the Bomb (1994)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Semipalatinsk"
+      },
+      {
+        "title": "Wikidata Q586755",
+        "url": "https://www.wikidata.org/wiki/Q586755"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-virgin-lands-campaign",
+    "qid": "Q2006581",
+    "type": "political",
+    "year": 1954,
+    "endYear": 1960,
+    "name": {
+      "en": "Virgin Lands campaign",
+      "zh": "垦荒运动"
+    },
+    "summary": {
+      "en": "Khrushchev’s programme sent hundreds of thousands of volunteers to plough the steppe of northern Kazakhstan and Siberia for wheat; harvests rose at first, but erosion and dust storms followed, and settlers changed Kazakhstan’s ethnic balance.",
+      "zh": "赫鲁晓夫的计划派遣数十万志愿者开垦哈萨克斯坦北部和西伯利亚的草原种植小麦；初期收成增加，但随后出现水土流失和沙尘暴，移民也改变了哈萨克斯坦的民族构成。"
+    },
+    "lat": 51.1333,
+    "lon": 71.4333,
+    "region": "central-asia",
+    "importance": 3,
+    "place": "place-astana",
+    "sources": [
+      {
+        "title": "Michaela Pohl, The Virgin Lands between Memory and Forgetting (PhD diss., Indiana University, 1999)"
+      },
+      {
+        "title": "Adeeb Khalid, Central Asia: A New History from the Imperial Conquests to the Present (2021)"
+      },
+      {
+        "title": "Wikidata Q2006581",
+        "url": "https://www.wikidata.org/wiki/Q2006581"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-vostok-1",
+    "qid": "Q182524",
+    "type": "science",
+    "year": 1961,
+    "date": "1961-04-12",
+    "name": {
+      "en": "Gagarin’s Vostok 1 launch from Baikonur",
+      "zh": "加加林乘东方一号从拜科努尔升空"
+    },
+    "summary": {
+      "en": "Yuri Gagarin became the first human in space, launched from the Baikonur Cosmodrome on the Kazakh steppe aboard Vostok 1 for a single 108-minute orbit of the Earth.",
+      "zh": "尤里·加加林乘东方一号飞船从哈萨克草原上的拜科努尔航天发射场升空，绕地球一周历时108分钟，成为进入太空的第一人。"
+    },
+    "lat": 45.92,
+    "lon": 63.342,
+    "region": "central-asia",
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Asif A. Siddiqi, Challenge to Apollo: The Soviet Union and the Space Race (NASA SP-2000-4408, 2000)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Vostok"
+      },
+      {
+        "title": "Wikidata Q182524",
+        "url": "https://www.wikidata.org/wiki/Q182524"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-tashkent-earthquake-1966",
+    "qid": "Q4120993",
+    "type": "disaster",
+    "year": 1966,
+    "date": "1966-04-26",
+    "name": {
+      "en": "Tashkent earthquake",
+      "zh": "塔什干大地震"
+    },
+    "summary": {
+      "en": "A shallow earthquake directly beneath Tashkent destroyed much of the old city and left some 300,000 people homeless, though relatively few died; the city was rebuilt as a Soviet showcase capital.",
+      "zh": "一次震源极浅的地震发生在塔什干正下方，摧毁了大部分老城，约30万人无家可归，但死亡人数相对较少；该城随后被重建为苏联的样板城市。"
+    },
+    "lat": 41.3239,
+    "lon": 69.2722,
+    "region": "central-asia",
+    "importance": 3,
+    "place": "place-tashkent",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Tashkent"
+      },
+      {
+        "title": "Paul Stronski, Tashkent: Forging a Soviet City, 1930–1966 (2010)"
+      },
+      {
+        "title": "Wikidata Q4120993",
+        "url": "https://www.wikidata.org/wiki/Q4120993"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-aral-sea-desiccation",
+    "qid": "Q35883",
+    "type": "disaster",
+    "year": 1960,
+    "endYear": 2014,
+    "name": {
+      "en": "Shrinking of the Aral Sea",
+      "zh": "咸海萎缩"
+    },
+    "summary": {
+      "en": "Soviet irrigation schemes diverting the Amu Darya and Syr Darya to cotton fields caused the Aral Sea, once the world’s fourth-largest lake, to shrink to a fraction of its size, ruining fisheries and spreading salt dust.",
+      "zh": "苏联将阿姆河与锡尔河水引去灌溉棉田，致使曾为世界第四大湖的咸海面积大幅萎缩，渔业崩溃，盐尘四散。"
+    },
+    "lat": 45,
+    "lon": 60,
+    "region": "central-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Philip Micklin, “The Aral Sea disaster”, Annual Review of Earth and Planetary Sciences 35 (2007)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Aral Sea"
+      },
+      {
+        "title": "Wikidata Q35883",
+        "url": "https://www.wikidata.org/wiki/Q35883"
+      }
+    ],
+    "confidence": "high",
+    "note": "End year 2014 marks the first complete drying of the eastern basin; the northern Small Aral has partly recovered since the Kokaral dam (2005)."
+  },
+  {
+    "id": "ev-alma-ata-protocol",
+    "qid": "Q1786449",
+    "type": "treaty",
+    "year": 1991,
+    "date": "1991-12-21",
+    "name": {
+      "en": "Alma-Ata Protocol",
+      "zh": "《阿拉木图宣言》"
+    },
+    "summary": {
+      "en": "Eleven former Soviet republics met in Alma-Ata to found the Commonwealth of Independent States, confirming the end of the USSR four days before Gorbachev resigned; Kazakhstan, the last republic to leave, had declared independence on 16 December.",
+      "zh": "前苏联11个加盟共和国在阿拉木图会晤，成立独立国家联合体，确认苏联解体，四天后戈尔巴乔夫辞职；最后宣布独立的哈萨克斯坦已于12月16日独立。"
+    },
+    "lat": 43.24,
+    "lon": 76.915,
+    "region": "central-asia",
+    "importance": 4,
+    "place": "place-almaty",
+    "sources": [
+      {
+        "title": "Serhii Plokhy, The Last Empire: The Final Days of the Soviet Union (2014)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Commonwealth of Independent States"
+      },
+      {
+        "title": "Wikidata Q1786449",
+        "url": "https://www.wikidata.org/wiki/Q1786449"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-tajikistani-civil-war",
+    "qid": "Q1122110",
+    "type": "war",
+    "year": 1992,
+    "endYear": 1997,
+    "name": {
+      "en": "Tajikistani Civil War",
+      "zh": "塔吉克斯坦内战"
+    },
+    "summary": {
+      "en": "Regional factions—the former communist establishment against an Islamist and democratic opposition—fought a war that killed tens of thousands and displaced over a million; a UN-brokered peace accord was signed in Moscow in June 1997.",
+      "zh": "前共产党当权派与伊斯兰及民主派反对派等地方势力之间爆发内战，造成数万人死亡、百余万人流离失所；1997年6月在联合国斡旋下于莫斯科签署和平协议。"
+    },
+    "lat": 38.5731,
+    "lon": 68.7864,
+    "region": "central-asia",
+    "importance": 3,
+    "place": "place-dushanbe",
+    "sources": [
+      {
+        "title": "Adeeb Khalid, Central Asia: A New History from the Imperial Conquests to the Present (2021)"
+      },
+      {
+        "title": "Shirin Akiner, Tajikistan: Disintegration or Reconciliation? (2001)"
+      },
+      {
+        "title": "Wikidata Q1122110",
+        "url": "https://www.wikidata.org/wiki/Q1122110"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-paper-reaches-samarkand",
+    "type": "science",
+    "year": 751,
+    "name": {
+      "en": "Papermaking reaches Samarkand",
+      "zh": "造纸术传入撒马尔罕"
+    },
+    "summary": {
+      "en": "According to al-Tha'alibi's 11th-century account, Chinese prisoners taken at the Battle of Talas in 751 taught papermaking in Samarkand. Paper was already known in Central Asia, but Samarkand paper became famous, and the craft reached Baghdad by the 790s and then Egypt, Spain and Europe.",
+      "zh": "据11世纪塔阿利比的记载，751年怛罗斯之战中被俘的中国工匠在撒马尔罕传授造纸术。纸张此前已为中亚所知，但“撒马尔罕纸”从此闻名，造纸技艺于790年代传至巴格达，随后传入埃及、西班牙和欧洲。"
+    },
+    "lat": 39.6547,
+    "lon": 66.9758,
+    "region": "central-asia",
+    "importance": 5,
+    "place": "place-samarkand",
+    "polities": [
+      "polity-abbasid",
+      "polity-tang"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: paper",
+        "url": "https://www.britannica.com/technology/paper"
+      },
+      {
+        "title": "Wikipedia: History of paper",
+        "url": "https://en.wikipedia.org/wiki/History_of_paper"
+      },
+      {
+        "title": "Jonathan M. Bloom, Paper Before Print: The History and Impact of Paper in the Islamic World (2001)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The Talas story comes from al-Tha'alibi (d. 1038) and is probably simplified; Sogdian letters on paper predate 751. No Wikidata item exists for the event."
+  },
+  {
+    "id": "ev-silk-road",
+    "qid": "Q36288",
+    "type": "cultural",
+    "year": 1,
+    "endYear": 1450,
+    "name": {
+      "en": "Silk Road caravan trade",
+      "zh": "丝绸之路商队贸易"
+    },
+    "summary": {
+      "en": "Overland routes linked China with Central Asia, Iran and the Mediterranean, carrying silk, horses, glass, paper and spices. Sogdian merchants of Samarkand and Bukhara handled much of the traffic, which also spread Buddhism, Manichaeism, the Church of the East and Islam, and in the 14th century, plague.",
+      "zh": "陆上商路连接中国与中亚、伊朗和地中海，运送丝绸、马匹、玻璃、纸张和香料。撒马尔罕和布哈拉的粟特商人承担了大部分贸易，这些商路还传播了佛教、摩尼教、景教和伊斯兰教，14世纪时也传播了鼠疫。"
+    },
+    "lat": 37.6628,
+    "lon": 62.1925,
+    "region": "central-asia",
+    "importance": 5,
+    "place": "place-merv",
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+        "url": "https://whc.unesco.org/en/list/1442"
+      },
+      {
+        "title": "Britannica: Silk Road",
+        "url": "https://www.britannica.com/topic/Silk-Road-trade-route"
+      },
+      {
+        "title": "Wikipedia: Silk Road",
+        "url": "https://en.wikipedia.org/wiki/Silk_Road"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The routes opened after Zhang Qian's missions (c. 138–126 BCE), before the atlas begins; the span 1–1450 is conventional. Marker at Merv, a junction of the routes."
+  },
+  {
+    "id": "ev-al-biruni-india",
+    "qid": "Q16127829",
+    "type": "science",
+    "year": 1030,
+    "name": {
+      "en": "al-Biruni's India",
+      "zh": "比鲁尼著《印度志》"
+    },
+    "summary": {
+      "en": "Brought to Ghazni by Mahmud of Ghazni, al-Biruni learned Sanskrit and wrote a systematic study of Indian religion, philosophy, astronomy and customs, completed around 1030. Its comparative, source-based method has led many to call him a founder of Indology and anthropology.",
+      "zh": "比鲁尼被伽色尼的马哈茂德带到伽色尼后学习梵文，撰写了一部系统研究印度宗教、哲学、天文和风俗的著作，约1030年完成。书中依据原典进行比较的方法，使许多人称他为印度学和人类学的奠基者。"
+    },
+    "lat": 33.5492,
+    "lon": 68.4233,
+    "region": "central-asia",
+    "importance": 4,
+    "people": [
+      "person-al-biruni"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: al-Biruni",
+        "url": "https://www.britannica.com/biography/al-Biruni"
+      },
+      {
+        "title": "Encyclopaedia Iranica: BĪRŪNĪ, ABŪ RAYḤĀN",
+        "url": "https://www.iranicaonline.org/articles/biruni-abu-rayhan-index"
+      },
+      {
+        "title": "Wikipedia: India (Al-Biruni)",
+        "url": "https://en.wikipedia.org/wiki/India_(Al-Biruni)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata gives 1017, the year al-Biruni reached Ghazni; the book was completed c. 1030, shortly after Mahmud's death."
+  },
+  {
+    "id": "ev-sputnik-1",
+    "qid": "Q80811",
+    "type": "science",
+    "year": 1957,
+    "date": "1957-10-04",
+    "name": {
+      "en": "Sputnik 1 launched",
+      "zh": "斯普特尼克1号发射"
+    },
+    "summary": {
+      "en": "An R-7 rocket launched from the Soviet test range at Tyuratam (later Baikonur) in Kazakhstan put Sputnik 1, the first artificial satellite, into orbit. Its radio beeps, picked up around the world, opened the Space Age and spurred the United States to create NASA.",
+      "zh": "一枚R-7火箭从苏联位于哈萨克斯坦秋拉塔姆（后称拜科努尔）的试验场升空，将第一颗人造地球卫星斯普特尼克1号送入轨道。它发出的无线电信号被世界各地接收，开启了太空时代，并促使美国成立国家航空航天局。"
+    },
+    "lat": 45.92,
+    "lon": 63.342,
+    "region": "central-asia",
+    "importance": 5,
+    "polities": [
+      "polity-soviet-union"
+    ],
+    "sources": [
+      {
+        "title": "NASA History: Sputnik and the Origins of the Space Age",
+        "url": "https://www.nasa.gov/history/sputnik/"
+      },
+      {
+        "title": "Britannica: Sputnik",
+        "url": "https://www.britannica.com/technology/Sputnik"
+      },
+      {
+        "title": "Wikipedia: Sputnik 1",
+        "url": "https://en.wikipedia.org/wiki/Sputnik_1"
+      }
+    ],
+    "confidence": "high",
+    "note": "Marker at Site 1 (\"Gagarin's Start\") of the Baikonur Cosmodrome."
+  },
+  {
+    "id": "ev-buddhas-of-bamiyan",
+    "qid": "Q484458",
+    "type": "religious",
+    "year": 570,
+    "endYear": 618,
+    "name": {
+      "en": "Buddhas of Bamiyan carved",
+      "zh": "巴米扬大佛开凿"
+    },
+    "summary": {
+      "en": "Monks and patrons in the Bamiyan valley carved two colossal standing Buddhas, about 38 and 55 metres high, into the cliff in the 6th and early 7th centuries; Xuanzang described them around 630. The Taliban blew them up in March 2001; the valley is a UNESCO World Heritage site.",
+      "zh": "巴米扬河谷的僧侣和施主于6世纪至7世纪初在崖壁上凿出两尊高约38米和55米的巨型立佛，约630年玄奘曾记述其盛况。2001年3月，两尊大佛被塔利班炸毁；该河谷现为世界遗产。"
+    },
+    "lat": 34.832,
+    "lon": 67.8268,
+    "region": "central-asia",
+    "importance": 4,
+    "people": [
+      "person-xuanzang"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Cultural Landscape and Archaeological Remains of the Bamiyan Valley",
+        "url": "https://whc.unesco.org/en/list/208"
+      },
+      {
+        "title": "Britannica: Bamiyan",
+        "url": "https://www.britannica.com/place/Bamiyan"
+      },
+      {
+        "title": "Wikipedia: Buddhas of Bamiyan",
+        "url": "https://en.wikipedia.org/wiki/Buddhas_of_Bamiyan"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Radiocarbon dates: eastern (38 m) Buddha c. 544–595, western (55 m) c. 591–644; the span shown is approximate."
+  },
+  {
+    "id": "ev-chuy-valley-plague",
+    "type": "disaster",
+    "year": 1338,
+    "endYear": 1339,
+    "name": {
+      "en": "Plague in the Chüy Valley",
+      "zh": "楚河谷鼠疫"
+    },
+    "summary": {
+      "en": "Syriac gravestones of a Church of the East community near Lake Issyk-Kul record a spike in deaths in 1338–39, some from 'pestilence'. In 2022 ancient DNA from these burials identified Yersinia pestis ancestral to the Black Death strains, pointing to this region as a source shortly before the plague reached Europe.",
+      "zh": "伊塞克湖附近景教社群的叙利亚文墓碑记录了1338至1339年死亡人数的激增，部分碑文称死于“瘟疫”。2022年对这些墓葬的古DNA研究鉴定出鼠疫耶尔森菌，属于黑死病菌株的直系祖先，表明此地是黑死病传入欧洲前不久的源头之一。"
+    },
+    "lat": 42.7469,
+    "lon": 75.2486,
+    "region": "central-asia",
+    "importance": 4,
+    "polities": [
+      "polity-chagatai-khanate"
+    ],
+    "sources": [
+      {
+        "title": "M. A. Spyrou et al., \"The source of the Black Death in fourteenth-century central Eurasia\", Nature 606 (2022)",
+        "url": "https://doi.org/10.1038/s41586-022-04800-3"
+      },
+      {
+        "title": "Wikipedia: Black Death",
+        "url": "https://en.wikipedia.org/wiki/Black_Death"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Marker at Burana, one of the two cemeteries (with Kara-Djigach near Bishkek) sampled in the 2022 study. Whether the outbreak spread widely from here is debated. No Wikidata item exists for the event."
+  }
+]

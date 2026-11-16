@@ -1,0 +1,1109 @@
+[
+  {
+    "id": "polity-xiongnu",
+    "qid": "Q188836",
+    "name": {
+      "en": "Xiongnu",
+      "zh": "匈奴"
+    },
+    "region": "central-asia",
+    "from": -209,
+    "to": 91,
+    "capital": {
+      "en": "Longcheng (Orkhon valley; site uncertain)",
+      "zh": "龙城（鄂尔浑河谷，具体位置不详）"
+    },
+    "capitalLat": 47.5,
+    "capitalLon": 102.5,
+    "summary": {
+      "en": "The first great steppe empire, forged by Modu Chanyu, the Xiongnu extracted tribute from Han China until Han offensives and internal splits divided them; the Northern Xiongnu were broken in 89–91 CE.",
+      "zh": "冒顿单于缔造的匈奴是第一个强大的草原帝国，曾向汉朝索取岁贡，后因汉朝的反击和内部分裂而分化；北匈奴于公元89—91年被击溃。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Modu Chanyu",
+          "zh": "冒顿单于"
+        },
+        "from": -209,
+        "to": -174,
+        "qid": "Q382816"
+      },
+      {
+        "name": {
+          "en": "Huhanye Chanyu",
+          "zh": "呼韩邪单于"
+        },
+        "from": -59,
+        "to": -31,
+        "qid": "Q2986904"
+      },
+      {
+        "name": {
+          "en": "Zhizhi Chanyu",
+          "zh": "郅支单于"
+        },
+        "from": -56,
+        "to": -36,
+        "qid": "Q3101072"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sima Qian, Shiji (Records of the Grand Historian), ch. 110: the Xiongnu"
+      },
+      {
+        "title": "Nicola Di Cosmo, Ancient China and Its Enemies (2002)"
+      },
+      {
+        "title": "Thomas J. Barfield, The Perilous Frontier: Nomadic Empires and China (1989)"
+      },
+      {
+        "title": "Wikidata Q188836",
+        "url": "https://www.wikidata.org/wiki/Q188836"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata gives century-level dates (3rd c. BCE–5th c. CE); 209 BCE–91 CE marks Modu’s accession to the Northern Xiongnu collapse. The Southern Xiongnu survived under Han until 216."
+  },
+  {
+    "id": "polity-hephthalite",
+    "qid": "Q26576",
+    "name": {
+      "en": "Hephthalite Empire",
+      "zh": "嚈哒"
+    },
+    "region": "central-asia",
+    "from": 450,
+    "to": 560,
+    "capital": {
+      "en": "Tokharistan (capital uncertain, near Kunduz?)",
+      "zh": "吐火罗斯坦（都城不详，或在昆都士附近）"
+    },
+    "capitalLat": 36.73,
+    "capitalLon": 68.86,
+    "summary": {
+      "en": "The Hephthalites, often called White Huns, ruled from Bactria over Sogdiana, the Tarim and north-west India, defeated and killed the Sasanian king Peroz in 484, and were destroyed by the Turks and Sasanians around 560.",
+      "zh": "嚈哒常被称为“白匈奴”，以巴克特里亚为中心统治粟特、塔里木和印度西北部，484年击杀萨珊国王卑路斯，约560年被突厥与萨珊联军所灭。"
+    },
+    "rulers": [],
+    "sources": [
+      {
+        "title": "Étienne de la Vaissière, “Is there a ‘nationality of the Hephthalites’?”, Bulletin of the Asia Institute 17 (2003)"
+      },
+      {
+        "title": "Denis Sinor (ed.), The Cambridge History of Early Inner Asia (1990)"
+      },
+      {
+        "title": "History of Civilizations of Central Asia, vol. III (UNESCO)"
+      },
+      {
+        "title": "Wikidata Q26576",
+        "url": "https://www.wikidata.org/wiki/Q26576"
+      }
+    ],
+    "confidence": "low",
+    "note": "Wikidata gives 408–670 (including successor principalities); 450–560 is the conventional span of the imperial period. Individual rulers are poorly attested and omitted."
+  },
+  {
+    "id": "polity-first-turkic-khaganate",
+    "qid": "Q15146034",
+    "name": {
+      "en": "First Turkic Khaganate (Göktürks)",
+      "zh": "突厥汗国（第一突厥汗国）"
+    },
+    "region": "central-asia",
+    "from": 552,
+    "to": 603,
+    "capital": {
+      "en": "Ötüken",
+      "zh": "于都斤山"
+    },
+    "capitalLat": 47.5,
+    "capitalLon": 101.5,
+    "summary": {
+      "en": "Founded by the Ashina clan, the Turkic Khaganate controlled the steppe from Manchuria to the Black Sea and the Silk Road trade, dealing with Sui-Tang China, Persia and Byzantium, before splitting into eastern and western khaganates.",
+      "zh": "阿史那氏建立的突厥汗国控制着从东北亚到黑海的草原及丝绸之路贸易，与隋唐、波斯和拜占庭往来，后分裂为东、西两个汗国。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Bumin Qaghan",
+          "zh": "土门（伊利可汗）"
+        },
+        "from": 552,
+        "to": 552,
+        "qid": "Q29001"
+      },
+      {
+        "name": {
+          "en": "Muqan Qaghan",
+          "zh": "木杆可汗"
+        },
+        "from": 553,
+        "to": 572,
+        "qid": "Q2586994"
+      },
+      {
+        "name": {
+          "en": "Istämi (Yabghu of the west)",
+          "zh": "室点密（西面叶护）"
+        },
+        "from": 552,
+        "to": 576,
+        "qid": "Q632026"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+      },
+      {
+        "title": "Denis Sinor (ed.), The Cambridge History of Early Inner Asia (1990)"
+      },
+      {
+        "title": "Wikidata Q15146034",
+        "url": "https://www.wikidata.org/wiki/Q15146034"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata gives 551 as inception; 552 is the year of the victory over the Rouran in Chinese sources."
+  },
+  {
+    "id": "polity-second-turkic-khaganate",
+    "qid": "Q4833446",
+    "name": {
+      "en": "Second Turkic Khaganate",
+      "zh": "后突厥汗国"
+    },
+    "region": "central-asia",
+    "from": 682,
+    "to": 744,
+    "capital": {
+      "en": "Ötüken",
+      "zh": "于都斤山"
+    },
+    "capitalLat": 47.5,
+    "capitalLon": 101.5,
+    "summary": {
+      "en": "Ilterish (Kutlug) revived Turkic independence from Tang rule in 682; under Bilge Qaghan, Kül Tegin and the adviser Tonyukuk the khaganate flourished, recording its history on the Orkhon steles before the Uyghurs overthrew it.",
+      "zh": "682年骨咄禄（颉跌利施可汗）摆脱唐朝统治、复兴突厥；在毗伽可汗、阙特勤和谋臣暾欲谷时期汗国兴盛，并以鄂尔浑碑铭记述其历史，后被回鹘推翻。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Ilterish Qaghan (Kutlug)",
+          "zh": "颉跌利施可汗（骨咄禄）"
+        },
+        "from": 682,
+        "to": 692,
+        "qid": "Q387151"
+      },
+      {
+        "name": {
+          "en": "Bilge Qaghan",
+          "zh": "毗伽可汗"
+        },
+        "from": 716,
+        "to": 734,
+        "qid": "Q381125"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+      },
+      {
+        "title": "Talat Tekin, A Grammar of Orkhon Turkic (1968)"
+      },
+      {
+        "title": "Wikidata Q4833446",
+        "url": "https://www.wikidata.org/wiki/Q4833446"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-uyghur-khaganate",
+    "qid": "Q831218",
+    "name": {
+      "en": "Uyghur Khaganate",
+      "zh": "回鹘汗国"
+    },
+    "region": "central-asia",
+    "from": 744,
+    "to": 840,
+    "capital": {
+      "en": "Ordu-Baliq",
+      "zh": "斡耳朵八里（回鹘牙帐）"
+    },
+    "capitalLat": 47.4311,
+    "capitalLon": 102.6594,
+    "summary": {
+      "en": "Successors of the Turks on the Mongolian plateau, the Uyghurs helped the Tang suppress the An Lushan rebellion, grew rich on the horse–silk trade, adopted Manichaeism and built the walled capital Ordu-Baliq before the Kyrgyz destroyed them.",
+      "zh": "回鹘继突厥之后称雄蒙古高原，曾助唐平定安史之乱，借绢马贸易致富，奉摩尼教为国教，并修筑都城斡耳朵八里，后为黠戛斯所灭。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Qutlugh Bilge Köl Qaghan",
+          "zh": "骨力裴罗（阙毗伽可汗）"
+        },
+        "from": 744,
+        "to": 747,
+        "qid": "Q68221"
+      },
+      {
+        "name": {
+          "en": "Bayanchur Qaghan",
+          "zh": "葛勒可汗（磨延啜）"
+        },
+        "from": 747,
+        "to": 759,
+        "qid": "Q1799031"
+      },
+      {
+        "name": {
+          "en": "Bögü Qaghan",
+          "zh": "牟羽可汗"
+        },
+        "from": 759,
+        "to": 779,
+        "qid": "Q68234"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Colin Mackerras, The Uighur Empire according to the T’ang Dynastic Histories (1972)"
+      },
+      {
+        "title": "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+      },
+      {
+        "title": "Wikidata Q831218",
+        "url": "https://www.wikidata.org/wiki/Q831218"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-samanid",
+    "qid": "Q12150341",
+    "name": {
+      "en": "Samanid Empire",
+      "zh": "萨曼王朝"
+    },
+    "region": "central-asia",
+    "from": 819,
+    "to": 999,
+    "capital": {
+      "en": "Samarkand; Bukhara (from 892)",
+      "zh": "撒马尔罕；布哈拉（892年起）"
+    },
+    "capitalLat": 39.7747,
+    "capitalLon": 64.4286,
+    "summary": {
+      "en": "A Persian dynasty ruling Transoxiana and Khurasan under nominal Abbasid suzerainty, the Samanids presided over a golden age of New Persian literature (Rudaki) and science, and converted Turkic neighbours to Islam.",
+      "zh": "萨曼王朝是名义上臣属阿拔斯哈里发、统治河中与呼罗珊的波斯王朝，主持了新波斯语文学（鲁达基）和科学的黄金时代，并使邻近的突厥人皈依伊斯兰教。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Ismail Samani",
+          "zh": "伊斯玛仪·萨曼尼"
+        },
+        "from": 892,
+        "to": 907,
+        "qid": "Q862648"
+      },
+      {
+        "name": {
+          "en": "Nasr II",
+          "zh": "纳斯尔二世"
+        },
+        "from": 914,
+        "to": 943,
+        "qid": "Q693686"
+      }
+    ],
+    "sources": [
+      {
+        "title": "S. Frederick Starr, Lost Enlightenment: Central Asia’s Golden Age from the Arab Conquest to Tamerlane (2013)"
+      },
+      {
+        "title": "Richard N. Frye, Bukhara: The Medieval Achievement (1965)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Sāmānid dynasty"
+      },
+      {
+        "title": "Wikidata Q12150341",
+        "url": "https://www.wikidata.org/wiki/Q12150341"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-kara-khanid",
+    "qid": "Q494354",
+    "name": {
+      "en": "Kara-Khanid Khanate",
+      "zh": "喀喇汗国"
+    },
+    "region": "central-asia",
+    "from": 840,
+    "to": 1212,
+    "capital": {
+      "en": "Balasagun; Kashgar; Samarkand",
+      "zh": "八剌沙衮；喀什噶尔；撒马尔罕"
+    },
+    "capitalLat": 42.7476,
+    "capitalLon": 75.2484,
+    "summary": {
+      "en": "The first Turkic dynasty to adopt Islam, the Karakhanids took Bukhara from the Samanids in 999, later split into eastern and western khanates, and produced the earliest Islamic Turkic literature, such as the Kutadgu Bilig.",
+      "zh": "喀喇汗国是第一个皈依伊斯兰教的突厥王朝，999年从萨曼王朝手中夺取布哈拉，后分裂为东西两部，并产生了《福乐智慧》等最早的伊斯兰突厥语文学。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Satuq Bughra Khan",
+          "zh": "萨图克·布格拉汗"
+        },
+        "from": 920,
+        "to": 955,
+        "qid": "Q3239600"
+      },
+      {
+        "name": {
+          "en": "Nasr ibn Ali (Ilig)",
+          "zh": "纳斯尔·伊本·阿里（伊利克）"
+        },
+        "from": 998,
+        "to": 1012
+      },
+      {
+        "name": {
+          "en": "Ibrahim Tamghach Khan",
+          "zh": "易卜拉欣·桃花石汗"
+        },
+        "from": 1040,
+        "to": 1068
+      }
+    ],
+    "sources": [
+      {
+        "title": "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+      },
+      {
+        "title": "Yusuf Khass Hajib, Kutadgu Bilig (Wisdom of Royal Glory), tr. Robert Dankoff (1983)"
+      },
+      {
+        "title": "Wikidata Q494354",
+        "url": "https://www.wikidata.org/wiki/Q494354"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 840 start date (Wikidata) is a convention; Karakhanid chronology and rulers’ dates are uncertain."
+  },
+  {
+    "id": "polity-qara-khitai",
+    "qid": "Q862304",
+    "name": {
+      "en": "Qara Khitai (Western Liao)",
+      "zh": "西辽（哈剌契丹）"
+    },
+    "region": "central-asia",
+    "from": 1124,
+    "to": 1218,
+    "capital": {
+      "en": "Balasagun (Huszordo)",
+      "zh": "八剌沙衮（虎思斡耳朵）"
+    },
+    "capitalLat": 42.7476,
+    "capitalLon": 75.2484,
+    "summary": {
+      "en": "Founded by the Liao prince Yelü Dashi after the Jurchen conquest of north China, the Qara Khitai ruled Central Asia as a Chinese-style, religiously tolerant empire until the Naiman Kuchlug usurped it and the Mongols destroyed it.",
+      "zh": "辽朝宗室耶律大石在女真灭辽后西迁建立西辽，以汉式制度和宗教宽容统治中亚，后被乃蛮王子屈出律篡夺，最终为蒙古所灭。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Yelü Dashi (Gurkhan)",
+          "zh": "耶律大石（菊儿汗）"
+        },
+        "from": 1124,
+        "to": 1143,
+        "qid": "Q1330091"
+      },
+      {
+        "name": {
+          "en": "Kuchlug (usurper)",
+          "zh": "屈出律（篡位者）"
+        },
+        "from": 1211,
+        "to": 1218,
+        "qid": "Q1071957"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michal Biran, The Empire of the Qara Khitai in Eurasian History (2005)"
+      },
+      {
+        "title": "Liaoshi (History of Liao), ch. 30"
+      },
+      {
+        "title": "Wikidata Q862304",
+        "url": "https://www.wikidata.org/wiki/Q862304"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-khwarazmian",
+    "qid": "Q63134381",
+    "name": {
+      "en": "Khwarazmian Empire",
+      "zh": "花剌子模帝国"
+    },
+    "region": "central-asia",
+    "from": 1077,
+    "to": 1231,
+    "capital": {
+      "en": "Gurganj (Kunya-Urgench); Samarkand (from 1212)",
+      "zh": "玉龙杰赤（库尼亚—乌尔根奇）；撒马尔罕（1212年起）"
+    },
+    "capitalLat": 42.3261,
+    "capitalLon": 59.1531,
+    "summary": {
+      "en": "Khwarazm-shahs of Turkic origin rose from Seljuk governors to rulers of an empire stretching from the Syr Darya to Iran; Muhammad II’s provocation of Genghis Khan brought its sudden destruction in 1219–1221.",
+      "zh": "突厥裔的花剌子模沙从塞尔柱总督起家，建立起从锡尔河延伸到伊朗的帝国；摩诃末二世激怒成吉思汗，导致帝国于1219—1221年骤然覆灭。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Ala ad-Din Tekish",
+          "zh": "阿拉丁·帖乞失"
+        },
+        "from": 1172,
+        "to": 1200,
+        "qid": "Q723036"
+      },
+      {
+        "name": {
+          "en": "Muhammad II",
+          "zh": "摩诃末二世"
+        },
+        "from": 1200,
+        "to": 1220,
+        "qid": "Q520090"
+      },
+      {
+        "name": {
+          "en": "Jalal al-Din Mingburnu",
+          "zh": "札兰丁"
+        },
+        "from": 1220,
+        "to": 1231,
+        "qid": "Q559416"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ata-Malik Juvaini, Tarikh-i Jahangushay (The History of the World-Conqueror), tr. J. A. Boyle (1958)"
+      },
+      {
+        "title": "C. E. Bosworth, “Khwarazmshahs”, Encyclopaedia Iranica"
+      },
+      {
+        "title": "Wikidata Q63134381",
+        "url": "https://www.wikidata.org/wiki/Q63134381"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-mongol-empire",
+    "qid": "Q12557",
+    "name": {
+      "en": "Mongol Empire",
+      "zh": "蒙古帝国"
+    },
+    "region": "central-asia",
+    "from": 1206,
+    "to": 1368,
+    "capital": {
+      "en": "Karakorum (to 1260)",
+      "zh": "哈拉和林（至1260年）"
+    },
+    "capitalLat": 47.1975,
+    "capitalLon": 102.8238,
+    "summary": {
+      "en": "Created by Genghis Khan, the Mongol Empire became the largest contiguous land empire in history, linking China, Iran and Russia; after 1260 it divided into the Yuan, Ilkhanate, Golden Horde and Chagatai khanates under nominal Yuan supremacy.",
+      "zh": "成吉思汗创建的蒙古帝国成为历史上疆域最大的连续陆地帝国，将中国、伊朗与罗斯连为一体；1260年后分裂为元朝、伊儿汗国、金帐汗国和察合台汗国，元朝皇帝名义上为共主。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Genghis Khan",
+          "zh": "成吉思汗"
+        },
+        "from": 1206,
+        "to": 1227,
+        "qid": "Q720"
+      },
+      {
+        "name": {
+          "en": "Ögedei Khan",
+          "zh": "窝阔台"
+        },
+        "from": 1229,
+        "to": 1241,
+        "qid": "Q7519"
+      },
+      {
+        "name": {
+          "en": "Güyük Khan",
+          "zh": "贵由"
+        },
+        "from": 1246,
+        "to": 1248,
+        "qid": "Q7520"
+      },
+      {
+        "name": {
+          "en": "Möngke Khan",
+          "zh": "蒙哥"
+        },
+        "from": 1251,
+        "to": 1259,
+        "qid": "Q7521"
+      },
+      {
+        "name": {
+          "en": "Kublai Khan",
+          "zh": "忽必烈"
+        },
+        "from": 1260,
+        "to": 1294,
+        "qid": "Q7523"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Secret History of the Mongols, tr. Igor de Rachewiltz (2004)"
+      },
+      {
+        "title": "Timothy May, The Mongol Conquests in World History (2012)"
+      },
+      {
+        "title": "Thomas T. Allsen, Mongol Imperialism (1987)"
+      },
+      {
+        "title": "Wikidata Q12557",
+        "url": "https://www.wikidata.org/wiki/Q12557"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The end date 1368 follows Wikidata (fall of the Yuan); the unified empire effectively ended with the succession war of 1260–1264."
+  },
+  {
+    "id": "polity-golden-horde",
+    "qid": "Q79965",
+    "name": {
+      "en": "Golden Horde (Ulus of Jochi)",
+      "zh": "金帐汗国（术赤兀鲁思）"
+    },
+    "region": "central-asia",
+    "from": 1243,
+    "to": 1502,
+    "capital": {
+      "en": "Sarai",
+      "zh": "萨莱"
+    },
+    "capitalLat": 47.1689,
+    "capitalLon": 47.4519,
+    "summary": {
+      "en": "The Jochid khanate of the western steppe, ruled from Sarai on the lower Volga, held the Rus’ principalities as tributaries, converted to Islam under Özbeg, and broke up in the 15th century into the Kazan, Crimean, Astrakhan and other khanates.",
+      "zh": "金帐汗国是术赤系在西部草原建立的汗国，以伏尔加河下游的萨莱为都，令罗斯诸公国称臣纳贡，在月即别汗时皈依伊斯兰教，15世纪分裂为喀山、克里米亚、阿斯特拉罕等汗国。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Batu Khan",
+          "zh": "拔都"
+        },
+        "from": 1243,
+        "to": 1255,
+        "qid": "Q175138"
+      },
+      {
+        "name": {
+          "en": "Öz Beg Khan",
+          "zh": "月即别汗"
+        },
+        "from": 1313,
+        "to": 1341,
+        "qid": "Q335097"
+      },
+      {
+        "name": {
+          "en": "Tokhtamysh",
+          "zh": "脱脱迷失"
+        },
+        "from": 1380,
+        "to": 1395,
+        "qid": "Q309585"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Charles J. Halperin, Russia and the Golden Horde (1985)"
+      },
+      {
+        "title": "Timothy May, The Mongol Conquests in World History (2012)"
+      },
+      {
+        "title": "Wikidata Q79965",
+        "url": "https://www.wikidata.org/wiki/Q79965"
+      }
+    ],
+    "confidence": "high",
+    "note": "Capital coordinates are those of Selitrennoye, the site of Sarai Batu."
+  },
+  {
+    "id": "polity-chagatai-khanate",
+    "qid": "Q487829",
+    "name": {
+      "en": "Chagatai Khanate",
+      "zh": "察合台汗国"
+    },
+    "region": "central-asia",
+    "from": 1225,
+    "to": 1687,
+    "capital": {
+      "en": "Almaliq; later Qarshi",
+      "zh": "阿力麻里；后为卡尔希"
+    },
+    "capitalLat": 44.05,
+    "capitalLon": 80.85,
+    "summary": {
+      "en": "Granted to Genghis Khan’s second son Chagatai, the khanate ruled Transoxiana and the Ili and Tarim regions; it split in the 1340s, with Timur’s emirs dominating the west and Moghulistan khans persisting in the east until the late 17th century.",
+      "zh": "察合台汗国为成吉思汗次子察合台的封地，统治河中、伊犁和塔里木地区；14世纪40年代分裂，西部被帖木儿等埃米尔控制，东部的东察合台汗国（蒙兀儿斯坦）延续至17世纪末。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Chagatai Khan",
+          "zh": "察合台"
+        },
+        "from": 1225,
+        "to": 1242,
+        "qid": "Q487543"
+      },
+      {
+        "name": {
+          "en": "Kebek Khan",
+          "zh": "怯别"
+        },
+        "from": 1318,
+        "to": 1326,
+        "qid": "Q29039"
+      },
+      {
+        "name": {
+          "en": "Tughlugh Timur",
+          "zh": "秃黑鲁·帖木儿"
+        },
+        "from": 1347,
+        "to": 1363,
+        "qid": "Q1194934"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michal Biran, Qaidu and the Rise of the Independent Mongol State in Central Asia (1997)"
+      },
+      {
+        "title": "Beatrice Forbes Manz, The Rise and Rule of Tamerlane (1989)"
+      },
+      {
+        "title": "Wikidata Q487829",
+        "url": "https://www.wikidata.org/wiki/Q487829"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata spans 1225–1687 including Moghulistan; many works end the unified khanate in the 1340s. Tughlugh Timur ruled Moghulistan from 1347 and the whole khanate 1360–1363."
+  },
+  {
+    "id": "polity-timurid",
+    "qid": "Q484195",
+    "name": {
+      "en": "Timurid Empire",
+      "zh": "帖木儿帝国"
+    },
+    "region": "central-asia",
+    "from": 1370,
+    "to": 1507,
+    "capital": {
+      "en": "Samarkand; Herat (from 1409)",
+      "zh": "撒马尔罕；赫拉特（1409年起）"
+    },
+    "capitalLat": 39.6542,
+    "capitalLon": 66.9597,
+    "summary": {
+      "en": "Built by Timur’s conquests, the empire shrank under his successors but sponsored a brilliant Persianate culture of architecture, miniature painting, science and Chagatai poetry in Samarkand and Herat until the Uzbeks overran it.",
+      "zh": "帖木儿帝国由帖木儿的征服建立，其后继者时期疆域收缩，但在撒马尔罕和赫拉特孕育了建筑、细密画、科学与察合台诗歌交相辉映的波斯化文化，直至被乌兹别克人征服。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Timur",
+          "zh": "帖木儿"
+        },
+        "from": 1370,
+        "to": 1405,
+        "qid": "Q8462"
+      },
+      {
+        "name": {
+          "en": "Shah Rukh",
+          "zh": "沙哈鲁"
+        },
+        "from": 1405,
+        "to": 1447,
+        "qid": "Q553204"
+      },
+      {
+        "name": {
+          "en": "Ulugh Beg",
+          "zh": "兀鲁伯"
+        },
+        "from": 1447,
+        "to": 1449,
+        "qid": "Q486088"
+      },
+      {
+        "name": {
+          "en": "Abu Sa‘id Mirza",
+          "zh": "卜撒因"
+        },
+        "from": 1451,
+        "to": 1469,
+        "qid": "Q1192519"
+      },
+      {
+        "name": {
+          "en": "Husayn Bayqara",
+          "zh": "侯赛因·拜哈拉"
+        },
+        "from": 1469,
+        "to": 1506,
+        "qid": "Q537570"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Beatrice Forbes Manz, The Rise and Rule of Tamerlane (1989)"
+      },
+      {
+        "title": "Thomas W. Lentz & Glenn D. Lowry, Timur and the Princely Vision (1989)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Timurid dynasty"
+      },
+      {
+        "title": "Wikidata Q484195",
+        "url": "https://www.wikidata.org/wiki/Q484195"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-kazakh-khanate",
+    "qid": "Q1433867",
+    "name": {
+      "en": "Kazakh Khanate",
+      "zh": "哈萨克汗国"
+    },
+    "region": "central-asia",
+    "from": 1465,
+    "to": 1847,
+    "capital": {
+      "en": "Sygnak; Turkistan",
+      "zh": "昔格纳黑；突厥斯坦"
+    },
+    "capitalLat": 43.2972,
+    "capitalLon": 68.2706,
+    "summary": {
+      "en": "Founded by Kerei and Janibek, the khanate united the Kazakh nomads, later divided into the Great, Middle and Little Hordes, fought long wars with the Dzungars, and was gradually absorbed by Russia, which abolished the last khans by the 1840s.",
+      "zh": "哈萨克汗国由克烈与贾尼别克建立，统一了哈萨克游牧部落，后分为大、中、小三个玉兹，与准噶尔长期交战，逐渐被俄国吞并，至19世纪40年代末代可汗被废。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Kerei Khan",
+          "zh": "克烈汗"
+        },
+        "from": 1465,
+        "to": 1473,
+        "qid": "Q3826541"
+      },
+      {
+        "name": {
+          "en": "Janibek Khan",
+          "zh": "贾尼别克汗"
+        },
+        "from": 1473,
+        "to": 1480,
+        "qid": "Q2658842"
+      },
+      {
+        "name": {
+          "en": "Kasym Khan",
+          "zh": "哈斯木汗"
+        },
+        "from": 1511,
+        "to": 1521
+      },
+      {
+        "name": {
+          "en": "Tauke Khan",
+          "zh": "头克汗"
+        },
+        "from": 1680,
+        "to": 1715,
+        "qid": "Q2497155"
+      },
+      {
+        "name": {
+          "en": "Ablai Khan",
+          "zh": "阿布赉汗"
+        },
+        "from": 1771,
+        "to": 1781,
+        "qid": "Q322100"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Martha Brill Olcott, The Kazakhs, 2nd ed. (1995)"
+      },
+      {
+        "title": "Mirza Muhammad Haidar Dughlat, Tarikh-i Rashidi"
+      },
+      {
+        "title": "Wikidata Q1433867",
+        "url": "https://www.wikidata.org/wiki/Q1433867"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Early khans’ reign dates are approximate. The end date 1847 (Wikidata) marks the death of Kenesary Khan."
+  },
+  {
+    "id": "polity-khanate-of-bukhara",
+    "qid": "Q577668",
+    "name": {
+      "en": "Khanate of Bukhara",
+      "zh": "布哈拉汗国"
+    },
+    "region": "central-asia",
+    "from": 1500,
+    "to": 1785,
+    "capital": {
+      "en": "Bukhara",
+      "zh": "布哈拉"
+    },
+    "capitalLat": 39.7747,
+    "capitalLon": 64.4286,
+    "summary": {
+      "en": "Established by Muhammad Shaybani’s Uzbeks on the ruins of the Timurid state, the khanate was ruled by Shaybanid and then Janid (Ashtarkhanid) khans, flourishing under Abdullah Khan II before declining into rule by Manghit atalyqs.",
+      "zh": "布哈拉汗国由穆罕默德·昔班尼率领的乌兹别克人在帖木儿国家废墟上建立，先后由昔班尼王朝与札尼王朝（阿斯特拉罕王朝）统治，在阿卜杜拉汗二世时繁荣，后衰落并由曼吉特部的阿塔雷克掌权。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Muhammad Shaybani",
+          "zh": "穆罕默德·昔班尼"
+        },
+        "from": 1500,
+        "to": 1510,
+        "qid": "Q553193"
+      },
+      {
+        "name": {
+          "en": "Ubaydullah Khan",
+          "zh": "乌拜杜拉汗"
+        },
+        "from": 1533,
+        "to": 1540
+      },
+      {
+        "name": {
+          "en": "Abdullah Khan II",
+          "zh": "阿卜杜拉汗二世"
+        },
+        "from": 1583,
+        "to": 1598,
+        "qid": "Q317649"
+      }
+    ],
+    "sources": [
+      {
+        "title": "R. D. McChesney, “Central Asia vi. In the 16th–18th centuries”, Encyclopaedia Iranica"
+      },
+      {
+        "title": "History of Civilizations of Central Asia, vol. V (UNESCO)"
+      },
+      {
+        "title": "Wikidata Q577668",
+        "url": "https://www.wikidata.org/wiki/Q577668"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-emirate-of-bukhara",
+    "qid": "Q746558",
+    "name": {
+      "en": "Emirate of Bukhara",
+      "zh": "布哈拉埃米尔国"
+    },
+    "region": "central-asia",
+    "from": 1785,
+    "to": 1920,
+    "capital": {
+      "en": "Bukhara",
+      "zh": "布哈拉"
+    },
+    "capitalLat": 39.7747,
+    "capitalLon": 64.4286,
+    "summary": {
+      "en": "The Manghit dynasty took the title of emir in 1785; Bukhara became a Russian protectorate in 1868 after losing Samarkand, and the Red Army overthrew the last emir, Alim Khan, in 1920.",
+      "zh": "曼吉特王朝于1785年改称埃米尔；1868年失去撒马尔罕后布哈拉成为俄国保护国，1920年红军推翻末代埃米尔阿利姆汗。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Shah Murad",
+          "zh": "沙·穆拉德"
+        },
+        "from": 1785,
+        "to": 1800,
+        "qid": "Q4521263"
+      },
+      {
+        "name": {
+          "en": "Nasrullah Khan",
+          "zh": "纳斯鲁拉汗"
+        },
+        "from": 1827,
+        "to": 1860,
+        "qid": "Q3870512"
+      },
+      {
+        "name": {
+          "en": "Muzaffar",
+          "zh": "穆扎法尔"
+        },
+        "from": 1860,
+        "to": 1885,
+        "qid": "Q4305947"
+      },
+      {
+        "name": {
+          "en": "Mohammed Alim Khan",
+          "zh": "穆罕默德·阿利姆汗"
+        },
+        "from": 1911,
+        "to": 1920,
+        "qid": "Q558626"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Seymour Becker, Russia’s Protectorates in Central Asia: Bukhara and Khiva, 1865–1924 (1968)"
+      },
+      {
+        "title": "Adeeb Khalid, Central Asia: A New History from the Imperial Conquests to the Present (2021)"
+      },
+      {
+        "title": "Wikidata Q746558",
+        "url": "https://www.wikidata.org/wiki/Q746558"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-dzungar-khanate",
+    "qid": "Q1923401",
+    "name": {
+      "en": "Dzungar Khanate",
+      "zh": "准噶尔汗国"
+    },
+    "region": "central-asia",
+    "from": 1634,
+    "to": 1758,
+    "capital": {
+      "en": "Ghulja (Ili valley)",
+      "zh": "伊犁（固勒扎）"
+    },
+    "capitalLat": 43.9167,
+    "capitalLon": 81.3167,
+    "summary": {
+      "en": "The last great nomadic empire, the Oirat Dzungar state dominated the Ili valley, Tarim basin and Kazakh steppe, contested Tibet and Khalkha with the Qing, and was annihilated by Qing armies in 1755–1758.",
+      "zh": "准噶尔汗国是最后一个强大的游牧帝国，卫拉特准噶尔部称雄伊犁河谷、塔里木盆地和哈萨克草原，与清朝争夺西藏和喀尔喀，1755—1758年被清军彻底消灭。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Galdan Boshugtu Khan",
+          "zh": "噶尔丹"
+        },
+        "from": 1671,
+        "to": 1697,
+        "qid": "Q1395045"
+      },
+      {
+        "name": {
+          "en": "Tsewang Rabtan",
+          "zh": "策妄阿拉布坦"
+        },
+        "from": 1697,
+        "to": 1727,
+        "qid": "Q1398132"
+      },
+      {
+        "name": {
+          "en": "Galdan Tseren",
+          "zh": "噶尔丹策零"
+        },
+        "from": 1727,
+        "to": 1745,
+        "qid": "Q981162"
+      },
+      {
+        "name": {
+          "en": "Amursana (rebel claimant)",
+          "zh": "阿睦尔撒纳（反清自立者）"
+        },
+        "from": 1755,
+        "to": 1757,
+        "qid": "Q372192"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Peter C. Perdue, China Marches West: The Qing Conquest of Central Eurasia (2005)"
+      },
+      {
+        "title": "Thomas J. Barfield, The Perilous Frontier: Nomadic Empires and China (1989)"
+      },
+      {
+        "title": "Wikidata Q1923401",
+        "url": "https://www.wikidata.org/wiki/Q1923401"
+      }
+    ],
+    "confidence": "high"
+  }
+]

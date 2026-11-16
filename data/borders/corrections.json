@@ -1,0 +1,326 @@
+{
+ "-1": {
+  "Dumonii": "Dumnonii",
+  "Satavahanihara": "Satavahana Empire"
+ },
+ "100": {
+  "Dumonii": "Dumnonii",
+  "Satavahanihara": "Satavahana Empire"
+ },
+ "200": {
+  "Dumonii": "Dumnonii",
+  "Satavahanihara": "Satavahana Empire"
+ },
+ "300": {
+  "Dumonii": "Dumnonii",
+  "Parthian Empire": "Sasanian Empire",
+  "Rome (Constantinus)": "Rome (Constantius)",
+  "Satavahanihara": "Vakataka"
+ },
+ "400": {
+  "Dumonii": "Dumnonii",
+  "Satavahanihara": "Vakataka"
+ },
+ "500": {
+  "Kushan Principalities": "Alchon Huns",
+  "Western Roman Empire": "Britons"
+ },
+ "600": {
+  "Shaskanka": "Gauda Kingdom"
+ },
+ "700": {
+  "Hejaz": "Umayyad Caliphate",
+  "Sasanian Empire": "Umayyad Caliphate",
+  "Sasanian dependencies": "Umayyad Caliphate"
+ },
+ "800": {
+  "Irlanda": "Ireland",
+  "Rajput Clans and Small States": "minor Hindu and Buddhist states"
+ },
+ "900": {
+  "Avars": "Magyars",
+  "Irlanda": "Ireland",
+  "Magyars": "Pechenegs",
+  "Picts": "Kingdom of Alba",
+  "Scots": "Kingdom of Alba"
+ },
+ "1000": {
+  "Bulgar Khanate": "First Bulgarian Empire",
+  "Burgandy": "Kingdom of Burgundy",
+  "Merina Kingdom": "Vazimba",
+  "Peshemegs": "Pechenegs",
+  "Senas": "Kamarupa"
+ },
+ "1100": {
+  "Bulgar Khanate": "Byzantine Empire",
+  "Burgandy": "Kingdom of Burgundy",
+  "Duchy of Benevento": "Duchy of Apulia and Calabria",
+  "Karkhanids": "Karakhanid Khanate",
+  "Kingdom of Sukhotai": "minor Hindu and Buddhist states",
+  "Klachuris": "Kalachuris",
+  "Merina Kingdom": "Vazimba",
+  "Mon state": "Kingdom of Pagan",
+  "Paramas": "Paramaras",
+  "Pyu state": "Kingdom of Pagan",
+  "Senas": "Kamarupa"
+ },
+ "1200": {
+  "Bulgar Khanate": "Second Bulgarian Empire",
+  "Burgandy": "Kingdom of Burgundy",
+  "Buyid dynasty": "Ghurid Sultanate",
+  "Duchy of Benevento": "Kingdom of Sicily",
+  "Fatimid Caliphate": "Ayyubid Sultanate",
+  "Ghaznavid Emirate": "Ghurid Sultanate",
+  "Ifat": "Zagwe dynasty",
+  "Merina Kingdom": "Vazimba",
+  "Mon state": "Kingdom of Pagan",
+  "Pyu state": "Kingdom of Pagan"
+ },
+ "1279": {
+  "Aceh": "Samudera Pasai",
+  "Bulgar Khanate": "Second Bulgarian Empire",
+  "Kediri": "Singhasari",
+  "Merina Kingdom": "Vazimba",
+  "Ryazan": "Rus principalities",
+  "Seljuk Caliphate": "Sultanate of Rum"
+ },
+ "1300": {
+  "Aceh": "Samudera Pasai",
+  "Bulgar Khanate": "Second Bulgarian Empire",
+  "Chola Empire": "Pandya state",
+  "Kediri": "Majapahit",
+  "Merina Kingdom": "Vazimba",
+  "Ryazan": "Rus principalities",
+  "Seljuk Caliphate": "Sultanate of Rum",
+  "Shoa": "Ifat"
+ },
+ "1400": {
+  "Aceh": "Samudera Pasai",
+  "Bulgar Khanate": "Ottoman Empire",
+  "Chola Empire": "Vijayanagara",
+  "Kediri": "Majapahit",
+  "Merina Kingdom": "Vazimba",
+  "Pagan": "Ava",
+  "Shoa": "Ifat"
+ },
+ "1492": {
+  "Imperial Hungary": "Kingdom of Hungary",
+  "Merina Kingdom": "Vazimba",
+  "Papua New Guinea": "Papuans",
+  "Rajastan": "Rajput kingdoms"
+ },
+ "1500": {
+  "Imperial Hungary": "Kingdom of Hungary",
+  "Merina Kingdom": "Vazimba",
+  "Papua New Guinea": "Papuans",
+  "Rajastan": "Rajput kingdoms"
+ },
+ "1530": {
+  "Malacca": "Johor Sultanate",
+  "Tsardom of Muscovy": "Grand Duchy of Moscow",
+  "central Asian khanates": "Nenets"
+ },
+ "1600": {
+  "Adal": "Awsa",
+  "Malacca": "Johor Sultanate",
+  "Songhai": "Arma",
+  "Watassid Morocco": "Saadi Sultanate"
+ },
+ "1650": {
+  "Ahmadnagar": "Mughal Empire",
+  "Bidar": "Bijapur",
+  "Luxembourg": "Habsburg Netherlands",
+  "Nogai Horde": "Kalmyk Khanate",
+  "Sardinia-Piedmont": "Savoy"
+ },
+ "1700": {
+  "Arakan (Indian princely state)": "Arakan",
+  "Austrian Empire": "Habsburg Monarchy",
+  "Luxembourg": "Habsburg Netherlands",
+  "Nogai Horde": "Kalmyk Khanate",
+  "Sardinia-Piedmont": "Savoy"
+ },
+ "1715": {
+  "Arakan (Indian princely state)": "Arakan",
+  "Austrian Empire": "Habsburg Monarchy",
+  "Nogai Horde": "Kalmyk Khanate",
+  "Papua New Guinea": "Papuans",
+  "Sardinia-Piedmont": "Savoy",
+  "United Kingdom": "Kingdom of Great Britain"
+ },
+ "1783": {
+  "Austrian Empire": "Habsburg Monarchy",
+  "Golconda": "Nizam's Dominions",
+  "Kingdom of the Two Sicilies": "Naples",
+  "Papua New Guinea": "Papuans",
+  "United Kingdom": "Kingdom of Great Britain",
+  "Venetia": "Venice"
+ },
+ "1800": {
+  "Austrian Empire": "Habsburg Monarchy",
+  "Austrian Netherlands": "France",
+  "Kingdom of the Two Sicilies": "Naples",
+  "Papua New Guinea": "Papuans"
+ },
+ "1815": {
+  "       ": "United Kingdom of the Netherlands"
+ },
+ "1878": {
+  "Papua New Guinea": "Papuans",
+  "Sultinate of Zanzibar": "Sultanate of Zanzibar"
+ },
+ "1880": {
+  "Papua New Guinea": "Papuans"
+ },
+ "1900": {
+  "Accra": "Gold Coast",
+  "First Samori Empire": "French West Africa",
+  "Futa Jalon": "French West Africa",
+  "Futa Toro": "French West Africa",
+  "Griqualand West": "Cape Colony",
+  "Harer (Egypt)": "Ethiopia",
+  "Imerina": "Madagascar (France)",
+  "Kong": "French West Africa",
+  "Luba": "Congo Free State",
+  "Lunda": "Congo Free State",
+  "Mirambo Unyanyembe Ukimbu": "German E. Africa (Tanganyika)",
+  "Ndebele": "Rhodesia",
+  "Nguni": "German E. Africa (Tanganyika)",
+  "Ngwato": "Bechuanaland",
+  "Second Samori Empire": "French West Africa",
+  "Shona": "Rhodesia",
+  "Sultanate of Utetera": "Congo Free State",
+  "Teke": "Congo (France)",
+  "Tukular Caliphate": "French West Africa",
+  "Yaka": "Congo Free State",
+  "Yeke": "Congo Free State",
+  "Zululand": "Natal"
+ },
+ "1914": {
+  "Armenia": "Russian Empire",
+  "Azerbaijan": "Russian Empire",
+  "Botswana": "Bechuanaland",
+  "Djibouti": "French Somaliland",
+  "Equatorial Guinea": "Spanish Guinea",
+  "Georgia": "Russian Empire",
+  "Lesotho": "Basutoland",
+  "Malawi": "Nyasaland"
+ },
+ "1920": {
+  "Botswana": "Bechuanaland",
+  "Emirate of Bin Shal'an": "Nejd",
+  "Equatorial Guinea": "Spanish Guinea",
+  "Ghana": "Gold Coast",
+  "Guinea-Bissau": "Portuguese Guinea",
+  "Iran": "Persia",
+  "Lesotho": "Basutoland",
+  "Malawi": "Nyasaland",
+  "Malaysia": "British Malaya",
+  "Sudan": "Anglo-Egyptian Sudan",
+  "Tanzania, United Republic of": "Tanganyika Territory",
+  "USSR": "Soviet Russia",
+  "Yugoslavia": "Kingdom of Serbs, Croats and Slovenes",
+  "Zaire (Belgium)": "Belgian Congo",
+  "Zambia": "Northern Rhodesia",
+  "Zimbabwe": "Southern Rhodesia"
+ },
+ "1930": {
+  "Botswana": "Bechuanaland",
+  "Emirate of Bin Shal'an": "Kingdom of Hejaz and Nejd",
+  "Equatorial Guinea": "Spanish Guinea",
+  "Ghana": "Gold Coast",
+  "Guinea-Bissau": "Portuguese Guinea",
+  "Hail": "Kingdom of Hejaz and Nejd",
+  "Hejaz": "Kingdom of Hejaz and Nejd",
+  "Iran": "Persia",
+  "Lesotho": "Basutoland",
+  "Malawi": "Nyasaland",
+  "Malaysia": "British Malaya",
+  "Sudan": "Anglo-Egyptian Sudan",
+  "Tanzania, United Republic of": "Tanganyika Territory",
+  "White Russia": "USSR",
+  "Zaire (Belgium)": "Belgian Congo",
+  "Zambia": "Northern Rhodesia",
+  "Zimbabwe": "Southern Rhodesia"
+ },
+ "1938": {
+  "Botswana": "Bechuanaland",
+  "Emirate of Bin Shal'an": "Saudi Arabia",
+  "Equatorial Guinea": "Spanish Guinea",
+  "Guinea-Bissau": "Portuguese Guinea",
+  "Hail": "Saudi Arabia",
+  "Hejaz": "Saudi Arabia",
+  "Israel": "Mandatory Palestine (GB)",
+  "Lesotho": "Basutoland",
+  "Malawi": "Nyasaland",
+  "Malaysia": "British Malaya",
+  "Mesopotamia (GB)": "Iraq",
+  "Sudan": "Anglo-Egyptian Sudan",
+  "Tanzania, United Republic of": "Tanganyika Territory",
+  "Walbis Bay": "Walvis Bay"
+ },
+ "1945": {
+  "Bangladesh": "British Raj",
+  "Benin": "French Dahomey",
+  "Botswana": "Bechuanaland",
+  "Burkina Faso": "French West Africa",
+  "Cameroon": "French Cameroons",
+  "Central African Republic": "Ubangi-Shari",
+  "Cyraneica (UK Lybia)": "Cyrenaica (UK)",
+  "Djibouti": "French Somaliland",
+  "Equatorial Guinea": "Spanish Guinea",
+  "Fezzan (Frech Lybia)": "Fezzan (France)",
+  "India": "British Raj",
+  "Israel": "Mandatory Palestine (GB)",
+  "Jordan": "Transjordan",
+  "Lesotho": "Basutoland",
+  "Malaysia": "British Malaya",
+  "Mali": "French Sudan",
+  "Namibia": "South West Africa",
+  "Oman": "Muscat and Oman",
+  "Pakistan": "British Raj",
+  "Rhodesia": "Southern Rhodesia",
+  "Sri Lanka": "Ceylon",
+  "Sudan": "Anglo-Egyptian Sudan",
+  "Tanzania, United Republic of": "Tanganyika Territory",
+  "Tripolitana (UK Lybia)": "Tripolitania (UK)",
+  "United Arab Emirates": "Trucial Oman",
+  "Western Sahara": "Spanish Sahara",
+  "Zaire": "Belgian Congo"
+ },
+ "1960": {
+  "Benin": "Republic of Dahomey",
+  "Botswana": "Bechuanaland",
+  "Burkina Faso": "Upper Volta",
+  "Djibouti": "French Somaliland",
+  "Equatorial Guinea": "Spanish Guinea",
+  "Guinea-Bissau": "Portuguese Guinea",
+  "Lesotho": "Basutoland",
+  "Malawi": "Nyasaland",
+  "Malaysia": "Malaya",
+  "Namibia": "South West Africa",
+  "Oman": "Muscat and Oman",
+  "Sri Lanka": "Ceylon",
+  "Tanzania, United Republic of": "Tanganyika Territory",
+  "United Arab Emirates": "Trucial Oman",
+  "Western Sahara": "Spanish Sahara",
+  "Zaire": "Congo-Léopoldville",
+  "Zambia": "Northern Rhodesia",
+  "Zimbabwe": "Southern Rhodesia"
+ },
+ "1994": {
+  "Byelarus": "Belarus",
+  "Montenegro": "Federal Republic of Yugoslavia",
+  "Serbia": "Federal Republic of Yugoslavia"
+ },
+ "2000": {
+  "Byelarus": "Belarus",
+  "Montenegro": "Federal Republic of Yugoslavia",
+  "Serbia": "Federal Republic of Yugoslavia",
+  "Zaire": "Democratic Republic of the Congo"
+ },
+ "2010": {
+  "Byelarus": "Belarus",
+  "Zaire": "Democratic Republic of the Congo"
+ }
+}

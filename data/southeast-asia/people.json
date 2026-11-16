@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "person-trung-trac",
+    "qid": "Q25418142",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Trưng Trắc",
+      "zh": "征侧"
+    },
+    "born": 14,
+    "died": 43,
+    "role": {
+      "en": "Rebel leader and queen",
+      "zh": "起义领袖、女王"
+    },
+    "summary": {
+      "en": "Daughter of a Lạc lord of Mê Linh who, with her sister Trưng Nhị, led the rising of 40 against Han rule and was proclaimed queen. Defeated by Ma Yuan in 43, the sisters are revered as national heroines in Vietnam.",
+      "zh": "麊泠雒将之女，40年与妹妹征贰起兵反抗东汉统治并被拥立为王。43年被马援击败，姐妹二人在越南被尊为民族女英雄。"
+    },
+    "stops": [
+      {
+        "year": 14,
+        "lat": 21.18,
+        "lon": 105.72,
+        "label": {
+          "en": "Born at Mê Linh",
+          "zh": "生于麊泠"
+        }
+      },
+      {
+        "year": 40,
+        "lat": 21.18,
+        "lon": 105.72,
+        "label": {
+          "en": "Raises revolt and is proclaimed queen",
+          "zh": "起兵并被拥立为王"
+        }
+      },
+      {
+        "year": 40,
+        "lat": 21.04,
+        "lon": 106.05,
+        "label": {
+          "en": "Takes Luy Lâu, seat of Jiaozhi",
+          "zh": "攻占交趾郡治嬴𨻻"
+        }
+      },
+      {
+        "year": 43,
+        "lat": 21.12,
+        "lon": 106,
+        "label": {
+          "en": "Defeated by Ma Yuan near Lãng Bạc",
+          "zh": "在浪泊附近被马援击败"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hou Hanshu (Book of the Later Han), \"Biography of Ma Yuan\" and \"Treatise on the Southern Man\""
+      },
+      {
+        "title": "Keith W. Taylor, The Birth of Vietnam (University of California Press, 1983)"
+      },
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Wikipedia: Trưng Trắc",
+        "url": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_Tr%E1%BA%AFc"
+      }
+    ],
+    "confidence": "low",
+    "note": "Her birth year is unknown (Wikidata's 14 CE is traditional); battle sites are approximate."
+  },
+  {
+    "id": "person-ngo-quyen",
+    "qid": "Q699904",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Ngô Quyền",
+      "zh": "吴权"
+    },
+    "born": 897,
+    "died": 944,
+    "role": {
+      "en": "King, founder of the Ngô dynasty",
+      "zh": "吴朝开国君主"
+    },
+    "summary": {
+      "en": "A commander from Đường Lâm who avenged his father-in-law Dương Đình Nghệ, defeated the Southern Han at Bạch Đằng in 938 and proclaimed himself king at Cổ Loa, marking the start of lasting Vietnamese independence.",
+      "zh": "唐林人，为岳父杨廷艺复仇，938年在白藤江击败南汉，随后在古螺称王，标志着越南长期独立的开端。"
+    },
+    "stops": [
+      {
+        "year": 897,
+        "lat": 21.15,
+        "lon": 105.48,
+        "label": {
+          "en": "Born at Đường Lâm",
+          "zh": "生于唐林"
+        }
+      },
+      {
+        "year": 938,
+        "lat": 20.8442,
+        "lon": 106.6317,
+        "label": {
+          "en": "Victory at Bạch Đằng",
+          "zh": "白藤江大捷"
+        }
+      },
+      {
+        "year": 939,
+        "lat": 21.11,
+        "lon": 105.87,
+        "label": {
+          "en": "Proclaims himself king at Cổ Loa",
+          "zh": "在古螺称王"
+        }
+      },
+      {
+        "year": 944,
+        "lat": 21.11,
+        "lon": 105.87,
+        "label": {
+          "en": "Dies at Cổ Loa",
+          "zh": "卒于古螺"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Ngô Quyền",
+        "url": "https://www.britannica.com/biography/Ngo-Quyen"
+      },
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Keith W. Taylor, The Birth of Vietnam (University of California Press, 1983)"
+      },
+      {
+        "title": "Wikipedia: Ngô Quyền",
+        "url": "https://en.wikipedia.org/wiki/Ng%C3%B4_Quy%E1%BB%81n"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-suryavarman-ii",
+    "qid": "Q313298",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Suryavarman II",
+      "zh": "苏利耶跋摩二世"
+    },
+    "born": 1094,
+    "died": 1150,
+    "role": {
+      "en": "Khmer king",
+      "zh": "高棉国王"
+    },
+    "summary": {
+      "en": "Khmer king (r. 1113–c. 1150) who reunited the empire, waged wars against Đại Việt and Champa, re-established diplomatic ties with China, and built Angkor Wat.",
+      "zh": "高棉国王（1113—约1150年在位），重新统一帝国，对大越与占婆用兵，恢复与中国的外交往来，并修建了吴哥窟。"
+    },
+    "stops": [
+      {
+        "year": 1113,
+        "lat": 13.4333,
+        "lon": 103.8333,
+        "label": {
+          "en": "Seizes the throne at Yasodharapura",
+          "zh": "在耶输陀罗补罗夺得王位"
+        }
+      },
+      {
+        "year": 1113,
+        "lat": 13.4125,
+        "lon": 103.8667,
+        "label": {
+          "en": "Begins Angkor Wat",
+          "zh": "开始兴建吴哥窟"
+        }
+      },
+      {
+        "year": 1128,
+        "lat": 18.67,
+        "lon": 105.69,
+        "label": {
+          "en": "Campaigns against Đại Việt in Nghệ An",
+          "zh": "进攻大越义安地区"
+        }
+      },
+      {
+        "year": 1145,
+        "lat": 13.88,
+        "lon": 109.11,
+        "label": {
+          "en": "Sacks the Cham capital Vijaya",
+          "zh": "攻陷占婆都城毗阇耶"
+        }
+      },
+      {
+        "year": 1150,
+        "lat": 13.4333,
+        "lon": 103.8333,
+        "label": {
+          "en": "Dies, probably during campaigns",
+          "zh": "约于征战期间去世"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Suryavarman II",
+        "url": "https://www.britannica.com/biography/Suryavarman-II"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "David Chandler, A History of Cambodia (Westview, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: Suryavarman II",
+        "url": "https://en.wikipedia.org/wiki/Suryavarman_II"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth year unknown (Wikidata gives 1094); the death date of c. 1150 is inferred from inscriptions."
+  },
+  {
+    "id": "person-anawrahta",
+    "qid": "Q45241",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Anawrahta",
+      "zh": "阿奴律陀"
+    },
+    "born": 1014,
+    "died": 1077,
+    "role": {
+      "en": "Founder of the Pagan Empire",
+      "zh": "蒲甘王朝奠基者"
+    },
+    "summary": {
+      "en": "King of Pagan (r. 1044–1077) who united the Irrawaddy valley for the first time, conquered the Mon city of Thaton and championed Theravada Buddhism, laying the foundations of Burmese civilisation.",
+      "zh": "蒲甘国王（1044—1077年在位），首次统一伊洛瓦底江流域，征服孟族城市直通，大力弘扬上座部佛教，奠定了缅甸文明的基础。"
+    },
+    "stops": [
+      {
+        "year": 1044,
+        "lat": 21.1722,
+        "lon": 94.8603,
+        "label": {
+          "en": "Becomes king of Pagan",
+          "zh": "成为蒲甘国王"
+        }
+      },
+      {
+        "year": 1057,
+        "lat": 16.92,
+        "lon": 97.37,
+        "label": {
+          "en": "Conquers Thaton",
+          "zh": "征服直通"
+        }
+      },
+      {
+        "year": 1059,
+        "lat": 21.1955,
+        "lon": 94.8933,
+        "label": {
+          "en": "Begins the Shwezigon Pagoda",
+          "zh": "始建瑞喜宫佛塔"
+        }
+      },
+      {
+        "year": 1077,
+        "lat": 21.1722,
+        "lon": 94.8603,
+        "label": {
+          "en": "Dies near Pagan",
+          "zh": "卒于蒲甘附近"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Anawrahta",
+        "url": "https://www.britannica.com/biography/Anawrahta"
+      },
+      {
+        "title": "Michael Aung-Thwin, Pagan: The Origins of Modern Burma (University of Hawaii Press, 1985)"
+      },
+      {
+        "title": "Hmannan Yazawin (Glass Palace Chronicle, 1832)"
+      },
+      {
+        "title": "Wikipedia: Anawrahta",
+        "url": "https://en.wikipedia.org/wiki/Anawrahta"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Reign dates follow modern reconstructions; the chronicles differ."
+  },
+  {
+    "id": "person-jayavarman-vii",
+    "qid": "Q335273",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Jayavarman VII",
+      "zh": "阇耶跋摩七世"
+    },
+    "born": 1122,
+    "died": 1218,
+    "role": {
+      "en": "Khmer king",
+      "zh": "高棉国王"
+    },
+    "summary": {
+      "en": "After expelling the Cham who had sacked Angkor in 1177, he was crowned in 1181 and became the greatest builder of the Khmer Empire: Angkor Thom, the Bayon, Ta Prohm, roads, rest houses and 102 hospitals. A devout Mahayana Buddhist, he also conquered Champa.",
+      "zh": "1177年占婆攻陷吴哥后，他驱逐占婆军队，1181年加冕，成为高棉帝国最伟大的营建者：修建吴哥城、巴戎寺、塔布茏寺以及道路、驿站和一百零二所医院。他笃信大乘佛教，并征服了占婆。"
+    },
+    "stops": [
+      {
+        "year": 1122,
+        "lat": 13.4333,
+        "lon": 103.8333,
+        "label": {
+          "en": "Born at Yasodharapura",
+          "zh": "生于耶输陀罗补罗"
+        }
+      },
+      {
+        "year": 1165,
+        "lat": 13.88,
+        "lon": 109.11,
+        "label": {
+          "en": "On campaign in Champa (Vijaya)",
+          "zh": "在占婆毗阇耶征战"
+        }
+      },
+      {
+        "year": 1181,
+        "lat": 13.4333,
+        "lon": 103.8333,
+        "label": {
+          "en": "Crowned after expelling the Cham",
+          "zh": "驱逐占婆后加冕"
+        }
+      },
+      {
+        "year": 1186,
+        "lat": 13.4349,
+        "lon": 103.8889,
+        "label": {
+          "en": "Dedicates Ta Prohm to his mother",
+          "zh": "为母亲建塔布茏寺"
+        }
+      },
+      {
+        "year": 1190,
+        "lat": 13.4413,
+        "lon": 103.8587,
+        "label": {
+          "en": "Builds Angkor Thom and the Bayon",
+          "zh": "兴建吴哥城与巴戎寺"
+        }
+      },
+      {
+        "year": 1203,
+        "lat": 13.88,
+        "lon": 109.11,
+        "label": {
+          "en": "Annexes Champa",
+          "zh": "吞并占婆"
+        }
+      },
+      {
+        "year": 1218,
+        "lat": 13.4333,
+        "lon": 103.8333,
+        "label": {
+          "en": "Dies at Angkor",
+          "zh": "卒于吴哥"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Jayavarman VII",
+        "url": "https://www.britannica.com/biography/Jayavarman-VII"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "David Chandler, A History of Cambodia (Westview, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: Jayavarman VII",
+        "url": "https://en.wikipedia.org/wiki/Jayavarman_VII"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth and death years are approximate (c. 1122–c. 1218)."
+  },
+  {
+    "id": "person-tran-hung-dao",
+    "qid": "Q511375",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Trần Hưng Đạo",
+      "zh": "陈兴道"
+    },
+    "born": 1228,
+    "died": 1300,
+    "role": {
+      "en": "Commander-in-chief of Đại Việt",
+      "zh": "大越统帅"
+    },
+    "summary": {
+      "en": "Prince Trần Quốc Tuấn, supreme commander against the second and third Mongol invasions. His \"Proclamation to the Officers\" and his victory at Bạch Đằng in 1288 made him Vietnam's most revered military hero.",
+      "zh": "陈国峻，陈朝宗室，抗击元朝第二、第三次入侵的最高统帅。其《檄将士文》及1288年白藤江大捷使他成为越南最受尊崇的军事英雄。"
+    },
+    "stops": [
+      {
+        "year": 1258,
+        "lat": 21.0352,
+        "lon": 105.8403,
+        "label": {
+          "en": "Fights in the first Mongol invasion",
+          "zh": "参与抗击第一次元军入侵"
+        }
+      },
+      {
+        "year": 1284,
+        "lat": 21.08,
+        "lon": 106.38,
+        "label": {
+          "en": "Issues the Proclamation to the Officers at Vạn Kiếp",
+          "zh": "在万劫发布《檄将士文》"
+        }
+      },
+      {
+        "year": 1285,
+        "lat": 21.0352,
+        "lon": 105.8403,
+        "label": {
+          "en": "Retakes Thăng Long from the Yuan",
+          "zh": "从元军手中收复升龙"
+        }
+      },
+      {
+        "year": 1288,
+        "lat": 20.937,
+        "lon": 106.629,
+        "label": {
+          "en": "Victory at Bạch Đằng",
+          "zh": "白藤江大捷"
+        }
+      },
+      {
+        "year": 1300,
+        "lat": 21.08,
+        "lon": 106.38,
+        "label": {
+          "en": "Dies at Vạn Kiếp",
+          "zh": "卒于万劫"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Trần Hưng Đạo",
+        "url": "https://www.britannica.com/biography/Tran-Hung-Dao"
+      },
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Trần Hưng Đạo",
+        "url": "https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-gajah-mada",
+    "qid": "Q49329",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Gajah Mada",
+      "zh": "加查·马达"
+    },
+    "born": 1290,
+    "died": 1364,
+    "role": {
+      "en": "Prime minister (mahapatih) of Majapahit",
+      "zh": "满者伯夷宰相"
+    },
+    "summary": {
+      "en": "The chief minister of Majapahit who, according to the Pararaton, swore the Palapa oath to abstain from pleasures until he had united the archipelago. Under him and Hayam Wuruk, Majapahit claimed overlordship over much of maritime Southeast Asia.",
+      "zh": "满者伯夷宰相。据《列王志》记载，他立下“帕拉帕誓言”，誓在统一群岛之前不享安逸。在他与哈奄·武禄治下，满者伯夷宣称对东南亚海岛大部拥有宗主权。"
+    },
+    "stops": [
+      {
+        "year": 1319,
+        "lat": -7.56,
+        "lon": 112.38,
+        "label": {
+          "en": "Saves King Jayanegara during the Kuti revolt",
+          "zh": "在库提叛乱中救护国王查耶纳加拉"
+        }
+      },
+      {
+        "year": 1331,
+        "lat": -8.3,
+        "lon": 113.6,
+        "label": {
+          "en": "Suppresses the Sadeng rebellion",
+          "zh": "平定萨登叛乱"
+        }
+      },
+      {
+        "year": 1336,
+        "lat": -7.56,
+        "lon": 112.38,
+        "label": {
+          "en": "Swears the Palapa oath as mahapatih",
+          "zh": "出任宰相并立帕拉帕誓言"
+        }
+      },
+      {
+        "year": 1343,
+        "lat": -8.45,
+        "lon": 115.2,
+        "label": {
+          "en": "Conquest of Bali",
+          "zh": "征服巴厘"
+        }
+      },
+      {
+        "year": 1357,
+        "lat": -7.56,
+        "lon": 112.38,
+        "label": {
+          "en": "Bubat incident with the Sundanese royal party",
+          "zh": "与巽他王室发生布巴特事件"
+        }
+      },
+      {
+        "year": 1364,
+        "lat": -7.56,
+        "lon": 112.38,
+        "label": {
+          "en": "Dies",
+          "zh": "去世"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Gajah Mada",
+        "url": "https://www.britannica.com/biography/Gajah-Mada"
+      },
+      {
+        "title": "Pararaton (Book of Kings, 15th–16th c.)"
+      },
+      {
+        "title": "Mpu Prapañca, Deśawarṇana (Nāgarakṛtāgama, 1365), trans. Stuart Robson (KITLV, 1995)"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: Gajah Mada",
+        "url": "https://en.wikipedia.org/wiki/Gajah_Mada"
+      }
+    ],
+    "confidence": "low",
+    "note": "Known mainly from the Pararaton and Nāgarakṛtāgama; birth year and several episodes are uncertain or legendary."
+  },
+  {
+    "id": "person-parameswara",
+    "qid": "Q3363540",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Parameswara",
+      "zh": "拜里米苏拉"
+    },
+    "born": 1344,
+    "died": 1414,
+    "role": {
+      "en": "Founder of Malacca",
+      "zh": "马六甲开国君主"
+    },
+    "summary": {
+      "en": "A prince of Palembang who fled Majapahit pressure to Temasek (Singapore) and, driven out again, founded Malacca around 1400. He secured Ming protection, visiting the Yongle Emperor in 1411.",
+      "zh": "巨港王子，为躲避满者伯夷的压力逃往淡马锡（今新加坡），再度被逐后约于1400年建立马六甲。他寻求明朝庇护，并于1411年朝见永乐皇帝。"
+    },
+    "stops": [
+      {
+        "year": 1344,
+        "lat": -2.99,
+        "lon": 104.76,
+        "label": {
+          "en": "Born in Palembang",
+          "zh": "生于巨港"
+        }
+      },
+      {
+        "year": 1389,
+        "lat": 1.29,
+        "lon": 103.85,
+        "label": {
+          "en": "Rules Temasek (Singapura)",
+          "zh": "统治淡马锡（新加坡拉）"
+        }
+      },
+      {
+        "year": 1400,
+        "lat": 2.1946,
+        "lon": 102.2492,
+        "label": {
+          "en": "Founds Malacca",
+          "zh": "建立马六甲"
+        }
+      },
+      {
+        "year": 1411,
+        "lat": 32.06,
+        "lon": 118.79,
+        "label": {
+          "en": "Visits the Ming court at Nanjing",
+          "zh": "赴南京朝见明朝皇帝"
+        }
+      },
+      {
+        "year": 1414,
+        "lat": 2.1946,
+        "lon": 102.2492,
+        "label": {
+          "en": "Dies in Malacca",
+          "zh": "卒于马六甲"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Parameswara",
+        "url": "https://www.britannica.com/biography/Paramesvara"
+      },
+      {
+        "title": "Sejarah Melayu (Malay Annals), trans. C. C. Brown (1952)"
+      },
+      {
+        "title": "Tomé Pires, Suma Oriental (1512–1515), trans. Armando Cortesão (Hakluyt Society, 1944)"
+      },
+      {
+        "title": "Barbara Watson Andaya & Leonard Y. Andaya, A History of Malaysia (Palgrave, 3rd ed. 2017)"
+      },
+      {
+        "title": "Wikipedia: Parameswara of Malacca",
+        "url": "https://en.wikipedia.org/wiki/Parameswara_of_Malacca"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Malay, Portuguese and Chinese sources disagree on dates and on whether he converted to Islam."
+  },
+  {
+    "id": "person-lapulapu",
+    "qid": "Q216275",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Lapulapu",
+      "zh": "拉普拉普"
+    },
+    "born": 1491,
+    "died": 1542,
+    "role": {
+      "en": "Chief of Mactan",
+      "zh": "麦克坦酋长"
+    },
+    "summary": {
+      "en": "A datu of Mactan who refused to submit to Rajah Humabon of Cebu and his Spanish allies. His warriors killed Ferdinand Magellan in 1521, and he is honoured as the first Filipino hero to resist European colonisation.",
+      "zh": "麦克坦的首领，拒绝臣服于宿务的胡马邦王及其西班牙盟友。1521年他的战士杀死了麦哲伦，被尊为第一位抵抗欧洲殖民的菲律宾英雄。"
+    },
+    "stops": [
+      {
+        "year": 1521,
+        "lat": 10.29,
+        "lon": 123.98,
+        "label": {
+          "en": "Refuses tribute; Spaniards burn a Mactan village",
+          "zh": "拒绝纳贡，西班牙人焚烧麦克坦村落"
+        }
+      },
+      {
+        "year": 1521,
+        "lat": 10.3106,
+        "lon": 124.0151,
+        "label": {
+          "en": "Defeats and kills Magellan at Mactan",
+          "zh": "在麦克坦击败并杀死麦哲伦"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Antonio Pigafetta, Relazione del primo viaggio intorno al mondo (c. 1524), trans. R. A. Skelton (1969)"
+      },
+      {
+        "title": "Teodoro A. Agoncillo, The Revolt of the Masses: The Story of Bonifacio and the Katipunan (1956)"
+      },
+      {
+        "title": "Wikipedia: Lapulapu",
+        "url": "https://en.wikipedia.org/wiki/Lapulapu"
+      }
+    ],
+    "confidence": "low",
+    "note": "Pigafetta's account is the only contemporary source; birth and death years are traditional estimates."
+  },
+  {
+    "id": "person-bayinnaung",
+    "qid": "Q470984",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Bayinnaung",
+      "zh": "莽应龙"
+    },
+    "born": 1516,
+    "died": 1581,
+    "role": {
+      "en": "King of Toungoo Burma",
+      "zh": "东吁王朝国王"
+    },
+    "summary": {
+      "en": "King of Toungoo Burma (r. 1550–1581) who built the largest empire in Southeast Asian history, conquering the Shan states, Lan Na, Manipur, Lan Xang and Ayutthaya, ruled from his capital at Pegu.",
+      "zh": "东吁王朝国王（1550—1581年在位），征服掸邦、兰纳、曼尼普尔、澜沧与阿瑜陀耶，以勃固为都，建立了东南亚历史上疆域最大的帝国。"
+    },
+    "stops": [
+      {
+        "year": 1516,
+        "lat": 18.94,
+        "lon": 96.43,
+        "label": {
+          "en": "Born near Toungoo",
+          "zh": "生于东吁附近"
+        }
+      },
+      {
+        "year": 1550,
+        "lat": 18.94,
+        "lon": 96.43,
+        "label": {
+          "en": "Proclaimed king at Toungoo",
+          "zh": "在东吁称王"
+        }
+      },
+      {
+        "year": 1552,
+        "lat": 17.3352,
+        "lon": 96.4814,
+        "label": {
+          "en": "Takes Pegu as his capital",
+          "zh": "以勃固为都"
+        }
+      },
+      {
+        "year": 1558,
+        "lat": 18.79,
+        "lon": 98.98,
+        "label": {
+          "en": "Conquers Lan Na (Chiang Mai)",
+          "zh": "征服兰纳（清迈）"
+        }
+      },
+      {
+        "year": 1564,
+        "lat": 14.3532,
+        "lon": 100.5689,
+        "label": {
+          "en": "First capture of Ayutthaya",
+          "zh": "首次攻陷阿瑜陀耶"
+        }
+      },
+      {
+        "year": 1569,
+        "lat": 14.3532,
+        "lon": 100.5689,
+        "label": {
+          "en": "Second siege; Ayutthaya becomes a vassal",
+          "zh": "再次围攻，阿瑜陀耶臣服"
+        }
+      },
+      {
+        "year": 1581,
+        "lat": 17.3352,
+        "lon": 96.4814,
+        "label": {
+          "en": "Dies at Pegu",
+          "zh": "卒于勃固"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Bayinnaung",
+        "url": "https://www.britannica.com/biography/Bayinnaung"
+      },
+      {
+        "title": "Victor Lieberman, Strange Parallels: Southeast Asia in Global Context, c. 800–1830, Vol. 1 (Cambridge University Press, 2003)"
+      },
+      {
+        "title": "Hmannan Yazawin (Glass Palace Chronicle, 1832)"
+      },
+      {
+        "title": "G. E. Harvey, History of Burma (Longmans, 1925)"
+      },
+      {
+        "title": "Wikipedia: Bayinnaung",
+        "url": "https://en.wikipedia.org/wiki/Bayinnaung"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-le-loi",
+    "qid": "Q1195391",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Lê Lợi (Lê Thái Tổ)",
+      "zh": "黎利（黎太祖）"
+    },
+    "born": 1384,
+    "died": 1433,
+    "role": {
+      "en": "Founder of the Later Lê dynasty",
+      "zh": "后黎朝开国皇帝"
+    },
+    "summary": {
+      "en": "A landowner of Lam Sơn who led the ten-year uprising that ended Ming occupation in 1427. Enthroned as Lê Thái Tổ in 1428, he is linked by legend to the returned sword of Hoàn Kiếm Lake.",
+      "zh": "蓝山地主，领导十年起义，于1427年结束明朝统治。1428年即位为黎太祖，还剑湖“还剑”的传说即与他相关。"
+    },
+    "stops": [
+      {
+        "year": 1384,
+        "lat": 19.92,
+        "lon": 105.4,
+        "label": {
+          "en": "Born at Lam Sơn, Thanh Hóa",
+          "zh": "生于清化蓝山"
+        }
+      },
+      {
+        "year": 1418,
+        "lat": 19.92,
+        "lon": 105.4,
+        "label": {
+          "en": "Launches the Lam Sơn uprising",
+          "zh": "发动蓝山起义"
+        }
+      },
+      {
+        "year": 1426,
+        "lat": 20.93,
+        "lon": 105.7,
+        "label": {
+          "en": "Victory at Tốt Động–Chúc Động",
+          "zh": "卒洞—祝洞大捷"
+        }
+      },
+      {
+        "year": 1427,
+        "lat": 21.67,
+        "lon": 106.6,
+        "label": {
+          "en": "Ming relief army destroyed at Chi Lăng",
+          "zh": "在支棱歼灭明朝援军"
+        }
+      },
+      {
+        "year": 1428,
+        "lat": 21.0352,
+        "lon": 105.8403,
+        "label": {
+          "en": "Enthroned at Đông Kinh (Thăng Long)",
+          "zh": "在东京（升龙）即位"
+        }
+      },
+      {
+        "year": 1433,
+        "lat": 19.92,
+        "lon": 105.4,
+        "label": {
+          "en": "Dies; buried at Lam Kinh",
+          "zh": "去世，葬于蓝京"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Lê Lợi (Lê Thái Tổ)",
+        "url": "https://www.britannica.com/biography/Le-Loi"
+      },
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Lê Lợi",
+        "url": "https://en.wikipedia.org/wiki/L%C3%AA_L%E1%BB%A3i"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-jose-rizal",
+    "qid": "Q1500",
+    "region": "southeast-asia",
+    "name": {
+      "en": "José Rizal",
+      "zh": "何塞·黎刹"
+    },
+    "born": 1861,
+    "died": 1896,
+    "role": {
+      "en": "Writer and national hero",
+      "zh": "作家、民族英雄"
+    },
+    "summary": {
+      "en": "A Filipino ophthalmologist, polyglot and novelist whose Noli Me Tángere and El filibusterismo exposed abuses of Spanish colonial rule. Exiled to Dapitan and executed for alleged sedition in 1896, he became the national hero of the Philippines.",
+      "zh": "菲律宾眼科医生、通晓多种语言的小说家，所著《不许犯我》和《起义者》揭露西班牙殖民统治的弊端。他被流放达皮丹，1896年以煽动叛乱罪遭处决，成为菲律宾国父式的民族英雄。"
+    },
+    "stops": [
+      {
+        "year": 1861,
+        "lat": 14.21,
+        "lon": 121.17,
+        "label": {
+          "en": "Born in Calamba, Laguna",
+          "zh": "生于拉古纳省卡兰巴"
+        }
+      },
+      {
+        "year": 1877,
+        "lat": 14.5908,
+        "lon": 120.975,
+        "label": {
+          "en": "Graduates from the Ateneo, Manila",
+          "zh": "毕业于马尼拉雅典耀学校"
+        }
+      },
+      {
+        "year": 1882,
+        "lat": 40.4168,
+        "lon": -3.7038,
+        "label": {
+          "en": "Studies medicine in Madrid",
+          "zh": "赴马德里学医"
+        }
+      },
+      {
+        "year": 1887,
+        "lat": 52.52,
+        "lon": 13.405,
+        "label": {
+          "en": "Publishes Noli Me Tángere in Berlin",
+          "zh": "在柏林出版《不许犯我》"
+        }
+      },
+      {
+        "year": 1891,
+        "lat": 51.0543,
+        "lon": 3.7174,
+        "label": {
+          "en": "Publishes El filibusterismo in Ghent",
+          "zh": "在根特出版《起义者》"
+        }
+      },
+      {
+        "year": 1892,
+        "lat": 8.65,
+        "lon": 123.42,
+        "label": {
+          "en": "Exiled to Dapitan",
+          "zh": "被流放至达皮丹"
+        }
+      },
+      {
+        "year": 1896,
+        "lat": 14.5826,
+        "lon": 120.9787,
+        "label": {
+          "en": "Executed at Bagumbayan, Manila",
+          "zh": "在马尼拉巴贡巴扬遭处决"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: José Rizal",
+        "url": "https://www.britannica.com/biography/Jose-Rizal"
+      },
+      {
+        "title": "Austin Coates, Rizal: Philippine Nationalist and Martyr (Oxford University Press, 1968)"
+      },
+      {
+        "title": "Teodoro A. Agoncillo, The Revolt of the Masses: The Story of Bonifacio and the Katipunan (1956)"
+      },
+      {
+        "title": "Wikipedia: José Rizal",
+        "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Rizal"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-ho-chi-minh",
+    "qid": "Q36014",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Hồ Chí Minh",
+      "zh": "胡志明"
+    },
+    "born": 1890,
+    "died": 1969,
+    "role": {
+      "en": "Revolutionary and President of North Vietnam",
+      "zh": "革命家、越南民主共和国主席"
+    },
+    "summary": {
+      "en": "Born Nguyễn Sinh Cung in Nghệ An, he spent three decades abroad as a sailor, activist and Comintern agent before returning in 1941 to lead the Việt Minh. He proclaimed Vietnamese independence in 1945 and led North Vietnam until his death.",
+      "zh": "本名阮生恭，生于义安，在海外以海员、活动家和共产国际成员身份度过三十年，1941年回国领导越盟。1945年他宣布越南独立，并领导越南北方直至逝世。"
+    },
+    "stops": [
+      {
+        "year": 1890,
+        "lat": 18.7,
+        "lon": 105.55,
+        "label": {
+          "en": "Born in Nam Đàn, Nghệ An",
+          "zh": "生于义安南坛"
+        }
+      },
+      {
+        "year": 1911,
+        "lat": 10.7686,
+        "lon": 106.7068,
+        "label": {
+          "en": "Sails from Saigon as a ship's cook",
+          "zh": "以船上厨工身份自西贡出海"
+        }
+      },
+      {
+        "year": 1919,
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "label": {
+          "en": "Petitions the Versailles conference from Paris",
+          "zh": "在巴黎向凡尔赛和会递交请愿书"
+        }
+      },
+      {
+        "year": 1923,
+        "lat": 55.7558,
+        "lon": 37.6173,
+        "label": {
+          "en": "Trains in Moscow",
+          "zh": "赴莫斯科学习"
+        }
+      },
+      {
+        "year": 1925,
+        "lat": 23.1291,
+        "lon": 113.2644,
+        "label": {
+          "en": "Organises Vietnamese revolutionaries in Canton",
+          "zh": "在广州组织越南革命青年"
+        }
+      },
+      {
+        "year": 1941,
+        "lat": 22.97,
+        "lon": 106.04,
+        "label": {
+          "en": "Returns to Vietnam at Pác Bó; founds the Việt Minh",
+          "zh": "经北坡回国，创建越盟"
+        }
+      },
+      {
+        "year": 1945,
+        "lat": 21.0368,
+        "lon": 105.8346,
+        "label": {
+          "en": "Proclaims independence in Hanoi",
+          "zh": "在河内宣布独立"
+        }
+      },
+      {
+        "year": 1969,
+        "lat": 21.0368,
+        "lon": 105.8346,
+        "label": {
+          "en": "Dies in Hanoi",
+          "zh": "卒于河内"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Hồ Chí Minh",
+        "url": "https://www.britannica.com/biography/Ho-Chi-Minh"
+      },
+      {
+        "title": "William J. Duiker, Ho Chi Minh: A Life (Hyperion, 2000)"
+      },
+      {
+        "title": "Fredrik Logevall, Embers of War: The Fall of an Empire and the Making of America's Vietnam (Random House, 2012)"
+      },
+      {
+        "title": "Wikipedia: Ho Chi Minh",
+        "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-sukarno",
+    "qid": "Q76127",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Sukarno",
+      "zh": "苏加诺"
+    },
+    "born": 1901,
+    "died": 1970,
+    "role": {
+      "en": "Nationalist leader and first President of Indonesia",
+      "zh": "民族主义领袖、印度尼西亚首任总统"
+    },
+    "summary": {
+      "en": "An engineer who founded the Indonesian Nationalist Party in 1927 and spent years in Dutch internal exile. He proclaimed independence in 1945, hosted the Bandung Conference and ruled under \"Guided Democracy\" until sidelined by Suharto in 1966–67.",
+      "zh": "工程师出身，1927年创建印度尼西亚民族党，曾长期遭荷兰当局流放。1945年宣布独立，主办万隆会议，推行“有领导的民主”，1966—1967年被苏哈托架空。"
+    },
+    "stops": [
+      {
+        "year": 1901,
+        "lat": -7.2575,
+        "lon": 112.7521,
+        "label": {
+          "en": "Born in Surabaya",
+          "zh": "生于泗水"
+        }
+      },
+      {
+        "year": 1927,
+        "lat": -6.9175,
+        "lon": 107.6191,
+        "label": {
+          "en": "Founds the PNI in Bandung",
+          "zh": "在万隆创建印度尼西亚民族党"
+        }
+      },
+      {
+        "year": 1934,
+        "lat": -8.8432,
+        "lon": 121.6623,
+        "label": {
+          "en": "Exiled to Ende, Flores",
+          "zh": "被流放至弗洛勒斯岛恩德"
+        }
+      },
+      {
+        "year": 1938,
+        "lat": -3.7928,
+        "lon": 102.2608,
+        "label": {
+          "en": "Exiled to Bengkulu",
+          "zh": "被流放至明古鲁"
+        }
+      },
+      {
+        "year": 1945,
+        "lat": -6.2025,
+        "lon": 106.8452,
+        "label": {
+          "en": "Proclaims independence in Jakarta",
+          "zh": "在雅加达宣布独立"
+        }
+      },
+      {
+        "year": 1955,
+        "lat": -6.9175,
+        "lon": 107.6191,
+        "label": {
+          "en": "Hosts the Bandung Conference",
+          "zh": "主办万隆会议"
+        }
+      },
+      {
+        "year": 1970,
+        "lat": -6.2088,
+        "lon": 106.8456,
+        "label": {
+          "en": "Dies in Jakarta",
+          "zh": "卒于雅加达"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Sukarno",
+        "url": "https://www.britannica.com/biography/Sukarno"
+      },
+      {
+        "title": "J. D. Legge, Sukarno: A Political Biography (Allen Lane, 1972)"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: Sukarno",
+        "url": "https://en.wikipedia.org/wiki/Sukarno"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-kartini",
+    "qid": "Q1373764",
+    "name": {
+      "en": "Kartini",
+      "zh": "卡蒂妮"
+    },
+    "born": 1879,
+    "died": 1904,
+    "role": {
+      "en": "Advocate of women's education",
+      "zh": "女性教育倡导者"
+    },
+    "region": "southeast-asia",
+    "summary": {
+      "en": "Daughter of a Javanese regent, Kartini was secluded at home from the age of 12 but corresponded in Dutch with European friends about colonial injustice, polygamy and women's education. She opened a small school for girls and died after childbirth at 25; her letters, published in 1911, made her a national heroine of Indonesia.",
+      "zh": "卡蒂妮是爪哇一位县长之女，12岁起被闭居家中，却用荷兰文与欧洲友人通信，探讨殖民不公、一夫多妻和女性教育。她开办了一所小型女子学校，25岁时死于产后并发症；1911年出版的书信集使她成为印度尼西亚的民族英雄。"
+    },
+    "stops": [
+      {
+        "year": 1879,
+        "lat": -6.5333,
+        "lon": 110.6667,
+        "label": {
+          "en": "Born near Jepara",
+          "zh": "生于哲帕拉附近"
+        }
+      },
+      {
+        "year": 1891,
+        "lat": -6.5333,
+        "lon": 110.6667,
+        "label": {
+          "en": "Begins seclusion (pingitan) at Jepara",
+          "zh": "在哲帕拉开始闭居"
+        }
+      },
+      {
+        "year": 1903,
+        "lat": -6.5333,
+        "lon": 110.6667,
+        "label": {
+          "en": "Opens a school for girls",
+          "zh": "开办女子学校"
+        }
+      },
+      {
+        "year": 1903,
+        "lat": -6.7167,
+        "lon": 111.35,
+        "label": {
+          "en": "Marries the regent of Rembang",
+          "zh": "嫁南旺县长"
+        }
+      },
+      {
+        "year": 1904,
+        "lat": -6.7167,
+        "lon": 111.35,
+        "label": {
+          "en": "Dies after childbirth in Rembang",
+          "zh": "产后卒于南旺"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Raden Adjeng Kartini",
+        "url": "https://www.britannica.com/biography/Raden-Adjeng-Kartini"
+      },
+      {
+        "title": "Wikipedia: Kartini",
+        "url": "https://en.wikipedia.org/wiki/Kartini"
+      },
+      {
+        "title": "Joost Coté (trans.), Kartini: The Complete Writings 1898–1904 (2014)"
+      }
+    ],
+    "confidence": "high"
+  }
+]

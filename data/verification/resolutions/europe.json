@@ -1,0 +1,147 @@
+{
+  "ev-dedication-of-hagia-sophia:year": {
+    "verdict": "keep-ours",
+    "reason": "Record is the dedication: the rebuilt church was consecrated on 27 December 537 (Procopius, Buildings I.1; Theophanes). Wikidata's 532 (23 Feb) is the start of rebuilding after the Nika riots.",
+    "checked": ["Procopius, Buildings I.1", "https://www.britannica.com/topic/Hagia-Sophia", "https://www.herodote.net/27_decembre_537-evenement-5371227.php"]
+  },
+  "ev-plague-of-justinian:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Record covers the first wave (541–549), the sense of 'Plague of Justinian' in Procopius and Britannica; Wikidata's 750 spans the recurrences, which the summary mentions. Wikidata's own description reads '541–549 AD pandemic'.",
+    "checked": ["Procopius, History of the Wars II.22–23", "Lester K. Little (ed.), Plague and the End of Antiquity (2007)", "https://www.britannica.com/event/plague-of-Justinian"]
+  },
+  "ev-umayyad-conquest-of-hispania:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is the opening Battle of Guadalete (July 711) in the Cádiz region; Wikidata's point (40.24, −4.24) is a generic centroid of Iberia, not a site of the conquest.",
+    "checked": ["Chronicle of 754", "Roger Collins, The Arab Conquest of Spain, 710–797 (1989)", "https://www.britannica.com/event/Battle-of-Guadalete"]
+  },
+  "ev-first-crusade:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Clermont, where Urban II preached the crusade (Nov 1095); the full route to Jerusalem is in route[]. Wikidata's (34, 36) is a rounded Levant placeholder.",
+    "checked": ["Fulcher of Chartres, Historia Hierosolymitana I.1–3", "https://www.britannica.com/event/First-Crusade"]
+  },
+  "ev-hundred-years-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Orléans, the 1429 turning point; Wikidata's (47, 2) is a centroid of France. Both lie in the same theatre; ours is a real historical site.",
+    "checked": ["Jonathan Sumption, The Hundred Years War, vol. 4 (2015)", "https://www.britannica.com/event/Hundred-Years-War"]
+  },
+  "ev-black-death:coord": {
+    "verdict": "keep-ours",
+    "reason": "Record is the European epidemic; plague reached Messina in October 1347 (Michele da Piazza; Benedictow). Wikidata's (35, 108) is in China, a disputed origin outside this record's scope.",
+    "checked": ["Ole J. Benedictow, The Black Death 1346–1353 (2004)", "https://www.britannica.com/event/Black-Death"]
+  },
+  "ev-fall-of-granada:coord": {
+    "verdict": "keep-ours",
+    "reason": "Granada surrendered on 2 January 1492 at the city itself (37.18, −3.60). Wikidata's point (40.42, −3.72) is Madrid, unrelated to the Granada War.",
+    "checked": ["L. P. Harvey, Islamic Spain, 1250 to 1500 (1990)", "https://www.britannica.com/place/Granada-Spain"]
+  },
+  "ev-columbus-first-voyage:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Record is the first voyage only: sailed from Palos 3 Aug 1492, returned 15 Mar 1493. Wikidata's item covers all four voyages (to 1504).",
+    "checked": ["Columbus, Diario (Las Casas abstract)", "Samuel Eliot Morison, Admiral of the Ocean Sea (1942)", "https://www.britannica.com/biography/Christopher-Columbus"]
+  },
+  "ev-columbus-first-voyage:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is the departure port, Palos de la Frontera; the Atlantic crossing and landfall are in route[]. Wikidata's (15, −75) is a Caribbean Sea placeholder for all four voyages.",
+    "checked": ["Samuel Eliot Morison, Admiral of the Ocean Sea (1942)", "https://www.britannica.com/biography/Christopher-Columbus"]
+  },
+  "ev-thirty-years-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Prague Castle, site of the Defenestration of 23 May 1618 that began the war; Wikidata's (51, 10) is a centroid of Germany.",
+    "checked": ["Peter H. Wilson, Europe's Tragedy (2009)", "https://www.britannica.com/event/Thirty-Years-War"]
+  },
+  "ev-trial-of-galileo:year": {
+    "verdict": "keep-ours",
+    "reason": "Record is the trial: sentence and abjuration at Santa Maria sopra Minerva, 22 June 1633. Wikidata's 1610 is the start of the wider 'Galileo affair'.",
+    "checked": ["Maurice A. Finocchiaro, The Galileo Affair: A Documentary History (1989)", "https://www.britannica.com/biography/Galileo-Galilei"]
+  },
+  "ev-principia:year": {
+    "verdict": "keep-ours",
+    "reason": "Principia was published in London in July 1687 (imprimatur 5 July 1686, publication announced 5 July 1687 O.S.); Wikidata's 1680 inception reflects when Newton's work on it began.",
+    "checked": ["Richard S. Westfall, Never at Rest (1980)", "https://www.britannica.com/topic/Principia"]
+  },
+  "ev-lisbon-earthquake-1755:coord": {
+    "verdict": "keep-ours",
+    "reason": "Record is placed at Lisbon, the city destroyed by quake, tsunami and fire; Wikidata's (36, −11) is the estimated offshore epicentre SW of Cape St Vincent. Note states this.",
+    "checked": ["https://www.britannica.com/event/Lisbon-earthquake-of-1755", "USGS: Historic Earthquakes – Lisbon 1755"]
+  },
+  "ev-french-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is the Bastille, stormed 14 July 1789, the Revolution's symbolic opening; Wikidata's (47, 2) is a centroid of France.",
+    "checked": ["William Doyle, The Oxford History of the French Revolution (1989)", "https://www.britannica.com/event/French-Revolution"]
+  },
+  "ev-french-invasion-of-russia:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Borodino (7 Sept 1812), the campaign's main battle; Wikidata's (58.65, 70.12) lies in western Siberia, which Napoleon never approached.",
+    "checked": ["Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)", "https://www.britannica.com/event/Battle-of-Borodino"]
+  },
+  "ev-revolutions-of-1848:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Paris, whose February Revolution triggered the continent-wide wave (Palermo's January rising is noted). Wikidata's (53.5, 15.5) is a generic central-European point.",
+    "checked": ["Mike Rapport, 1848: Year of Revolution (2008)", "https://www.britannica.com/event/Revolutions-of-1848"]
+  },
+  "ev-unification-of-italy:year": {
+    "verdict": "keep-ours",
+    "reason": "Record is scoped to the political unification: Kingdom of Italy proclaimed in Turin 17 March 1861, Rome capital 1871. Wikidata's 1815 is the start of the wider Risorgimento; the note explains.",
+    "checked": ["Lucy Riall, Risorgimento (2009)", "https://www.britannica.com/event/Risorgimento"]
+  },
+  "ev-unification-of-italy:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Turin, where the kingdom was proclaimed in 1861; Wikidata's (42.5, 12.5) is a centroid of Italy.",
+    "checked": ["https://www.britannica.com/place/Italy/The-Kingdom-of-Italy", "Denis Mack Smith, Modern Italy: A Political History (1997)"]
+  },
+  "ev-world-war-i:year": {
+    "verdict": "keep-ours",
+    "reason": "The war began 28 July 1914 (Austria-Hungary's declaration on Serbia). Wikidata's 1918 is its point-in-time (Armistice); its own start date is 1914-07-28.",
+    "checked": ["Hew Strachan, The First World War (2003)", "https://www.britannica.com/event/World-War-I"]
+  },
+  "ev-world-war-i:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Verdun on the Western Front; Wikidata's (53.5, 15.5) is a generic point in Pomerania with no WWI significance.",
+    "checked": ["https://www.britannica.com/event/Battle-of-Verdun", "Hew Strachan, The First World War (2003)"]
+  },
+  "ev-world-war-ii:coord": {
+    "verdict": "keep-ours",
+    "reason": "Record is the war in Europe, placed at Westerplatte (Gdańsk), where German fire opened the invasion of Poland on 1 September 1939. Wikidata's (66.4, 94.3) is central Siberia.",
+    "checked": ["Gerhard L. Weinberg, A World at Arms (1994)", "https://www.britannica.com/event/World-War-II"]
+  },
+  "ev-eastern-front-wwii:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is Brest Fortress, attacked on the first morning of Barbarossa (22 June 1941); Wikidata's (65, 90) is a centroid of the USSR in Siberia, far from the front.",
+    "checked": ["David M. Glantz and Jonathan M. House, When Titans Clashed (1995)", "https://www.britannica.com/event/Operation-Barbarossa"]
+  },
+  "ev-dissolution-of-the-soviet-union:coord": {
+    "verdict": "keep-ours",
+    "reason": "Marker is the Moscow Kremlin, where Gorbachev resigned (25 Dec 1991) and the Soviet flag was lowered; Wikidata's (65, 90) is a USSR centroid.",
+    "checked": ["Serhii Plokhy, The Last Empire (2014)", "https://www.britannica.com/event/the-collapse-of-the-Soviet-Union"]
+  },
+  "polity-visigothic-kingdom:from": {
+    "verdict": "keep-ours",
+    "reason": "The kingdom dates from the 418 foedus settling Wallia's Goths in Aquitania Secunda (Cambridge Medieval History; Collins). Wikidata's 476 (Euric's independence) is a later milestone; Wikidata's own description reads 418–720.",
+    "checked": ["Roger Collins, Visigothic Spain 409–711 (2004)", "Cambridge Medieval History, vol. I, ch. 10", "https://www.britannica.com/topic/Visigoth"]
+  },
+  "polity-visigothic-kingdom:to": {
+    "verdict": "keep-ours",
+    "reason": "Standard end is 711, when Roderic fell at Guadalete and Toledo was taken (Collins, Visigothic Spain 409–711). Wikidata's 718 and others' 720/721 count Septimanian resistance, already in the note; record is medium.",
+    "checked": ["Roger Collins, Visigothic Spain 409–711 (2004)", "Chronicle of 754", "https://www.britannica.com/topic/Visigoth"]
+  },
+  "polity-united-kingdom:from": {
+    "verdict": "keep-ours",
+    "reason": "The United Kingdom was created on 1 January 1801 by the Acts of Union 1800 with Ireland; 1921–22 only renamed it after Irish independence. Wikidata's Q145 dating is the present-day state; the note explains.",
+    "checked": ["Acts of Union 1800 (39 & 40 Geo. III c. 67)", "https://www.britannica.com/place/United-Kingdom"]
+  },
+  "person-eleanor-of-aquitaine:born": {
+    "verdict": "keep-ours",
+    "reason": "Pre-emptive: verifier corrected born 1124 → 1122. Britannica gives c. 1122, consistent with her reported age of 82 at death (1204); Wikidata's 1124 rests on a late 13th-century genealogy. Record is medium with note.",
+    "checked": ["https://www.britannica.com/facts/Eleanor-of-Aquitaine", "Ralph V. Turner, Eleanor of Aquitaine (2009)"]
+  },
+  "ev-industrial-revolution:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Britannica follows Toynbee's span of 1760 to 1840 for Britain; other Britannica pages and Ashton end it c. 1830, and Wikidata gives 1820. 1840 is the conventional end used by Britannica; the note states the range.",
+    "checked": ["https://www.britannica.com/event/Industrial-Revolution (via search)", "https://explore.britannica.com/explore/savingearth/industrial-revolution"]
+  },
+  "ev-great-irish-famine:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives the centre of Ireland. The marker is deliberately at Skibbereen, Co. Cork, whose Poor Law Union was among the worst affected and which became the emblem of the Famine in 1846–47 (UCC; Cambridge). Placement explained in the record note.",
+    "checked": ["https://www.ucc.ie/en/news/2018/the-famine-in-cork.html", "https://historyhome.co.uk/peel/ireland/skibber.htm"]
+  }
+}

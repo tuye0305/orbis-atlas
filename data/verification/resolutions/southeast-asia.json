@@ -1,0 +1,74 @@
+{
+  "ev-kedukan-bukit-inscription:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's coordinate is the National Museum, Jakarta, where the stone is kept; the inscription was found in 1920 at Kedukan Bukit on the Tatang river, Palembang, where the curated point sits.",
+    "checked": [
+      "Wikipedia: Kedukan Bukit inscription (found 1920 at Kedukan Bukit, Palembang; now in the National Museum, Jakarta)",
+      "ANU Press, Śrīwijaya: A Centre of Learning? (https://press-files.anu.edu.au/downloads/press/p69411/html/ch15s05.html)"
+    ]
+  },
+  "ev-prambanan:year": {
+    "verdict": "keep-ours",
+    "reason": "The event is the consecration recorded by the Shivagrha inscription, dated Śaka 778 = 12 November 856; Wikidata's c. 850 is the approximate start of construction under Rakai Pikatan. Record medium with note.",
+    "checked": [
+      "Wikipedia: Shivagrha inscription (Śaka 778 = 856; issued by Dyah Lokapala after Rakai Pikatan)",
+      "UNESCO World Heritage Centre: Prambanan Temple Compounds (https://whc.unesco.org/en/list/642)"
+    ]
+  },
+  "ev-fall-of-ayutthaya:coord": {
+    "verdict": "keep-ours",
+    "reason": "The war culminated in the siege and sack of Ayutthaya city (7 April 1767), where the point sits; Wikidata's 13,98.75 is a generic point on the Tenasserim border.",
+    "checked": [
+      "C. Baker & P. Phongpaichit, A History of Thailand (2009)",
+      "V. Lieberman, Strange Parallels, vol. 1 (2003)"
+    ]
+  },
+  "ev-philippine-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "Point marks Pugad Lawin/Balintawak (Quezon City), site of the Katipunan's 'Cry' of August 1896; Wikidata's 12,123 is the archipelago centroid.",
+    "checked": [
+      "T. A. Agoncillo, The Revolt of the Masses (1956)",
+      "Encyclopaedia Britannica: Philippine Revolution"
+    ]
+  },
+  "ev-vietnam-war:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's own P580 is 1 November 1955 (US MAAG Vietnam date); the 1975 value is a misused point-in-time. Britannica dates the war 1954–75, within tolerance of 1955.",
+    "checked": [
+      "Encyclopaedia Britannica: Vietnam War",
+      "S. Karnow, Vietnam: A History (1983)"
+    ]
+  },
+  "ev-vietnam-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Huế, near the 17th-parallel partition and site of the 1968 battle, is a reasonable anchor; Wikidata's 18.2,104.1 lies in Laos. Note added explaining the symbolic placement.",
+    "checked": [
+      "Encyclopaedia Britannica: Vietnam War",
+      "F. Logevall, Embers of War (2012)"
+    ]
+  },
+  "ev-cambodian-genocide:coord": {
+    "verdict": "keep-ours",
+    "reason": "Point is the Choeung Ek killing field outside Phnom Penh, the principal memorial site (noted); Wikidata's 12.25,105.6 is Cambodia's centroid.",
+    "checked": [
+      "Documentation Center of Cambodia (DC-Cam)",
+      "B. Kiernan, The Pol Pot Regime (1996)"
+    ]
+  },
+  "polity-toungoo:from": {
+    "verdict": "disputed",
+    "reason": "Britannica dates the dynasty 1486–1752 (or 1531–1752 from Tabinshwehti); Wikipedia uses 1510, when Toungoo broke with Ava; Wikidata 1485. Record medium; note updated.",
+    "checked": [
+      "Encyclopaedia Britannica: Toungoo dynasty (https://www.britannica.com/topic/Toungoo-dynasty) – 1486–1752 or 1531–1752",
+      "Wikipedia: Toungoo dynasty – 1510–1752"
+    ]
+  },
+  "ev-nagarakretagama:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's coordinates are those of the National Library in Jakarta, which holds the manuscript. The record marks the Majapahit court where Prapanca composed it in 1365, at Trowulan, the site generally identified as the capital (BRIN, Berkala Arkeologi).",
+    "checked": [
+      "https://ejournal.brin.go.id/berkalaarkeologi/article/view/5466",
+      "https://en.wikipedia.org/wiki/Trowulan"
+    ]
+  }
+}

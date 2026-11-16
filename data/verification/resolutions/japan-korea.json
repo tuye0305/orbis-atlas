@@ -1,0 +1,98 @@
+{
+  "ev-goguryeo-tang-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "The record title and summary emphasise the fall of Pyongyang in 668; ours is Pyongyang. Wikidata's point in Liaodong reflects the 645 campaigns; both valid, curated choice stands.",
+    "checked": [
+      "Kim Bu-sik, Samguk sagi",
+      "https://en.wikipedia.org/wiki/Goguryeo%E2%80%93Tang_War"
+    ]
+  },
+  "ev-silla-tang-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ours is the Maeso fortress area (Yeoncheon/Yangju), site of the decisive 675 battle; Wikidata uses Seoul, 50 km away. Curated point is more specific.",
+    "checked": [
+      "Kim Bu-sik, Samguk sagi, Silla bongi (Munmu 15)",
+      "https://en.wikipedia.org/wiki/Battle_of_Maeso_Fortress"
+    ]
+  },
+  "ev-mongol-invasions-of-korea:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ours is Ganghwa Island, seat of the resisting court (1232–1270). Wikidata uses Seoul, which had no special role; curated point stands.",
+    "checked": [
+      "Goryeosa",
+      "https://en.wikipedia.org/wiki/Mongol_invasions_of_Korea"
+    ]
+  },
+  "ev-genpei-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ours is Dan-no-ura, where the war ended in 1185. Wikidata's rounded 35N 136E is a placeholder near Lake Biwa.",
+    "checked": [
+      "Encyclopaedia Britannica: Gempei War (via search)",
+      "https://en.wikipedia.org/wiki/Battle_of_Dan-no-ura"
+    ]
+  },
+  "ev-mongol-invasions-of-japan:coord": {
+    "verdict": "keep-ours",
+    "reason": "Both landings were at Hakata Bay (33.62N 130.33E). Wikidata's point lies ~54 km inland near Kurume.",
+    "checked": [
+      "Thomas D. Conlan, In Little Need of Divine Intervention (2001)",
+      "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan"
+    ]
+  },
+  "ev-jikji:coord": {
+    "verdict": "keep-ours",
+    "reason": "Jikji was printed at Heungdeok temple, Cheongju, in 1377. Wikidata's coordinate is the BnF in Paris, where the surviving volume is held, not where the event happened.",
+    "checked": [
+      "UNESCO Memory of the World: Jikji",
+      "https://en.wikipedia.org/wiki/Jikji"
+    ]
+  },
+  "ev-founding-of-joseon:coord": {
+    "verdict": "keep-ours",
+    "reason": "Yi Seong-gye was enthroned at Suchang Palace in Gaegyeong (Kaesong) in 1392; the move to Hanyang came in 1394. Wikidata's Seoul point is the later capital; state QID removed from event.",
+    "checked": [
+      "Annals of the Joseon Dynasty (Taejo sillok, 1392)",
+      "https://en.wikipedia.org/wiki/Taejo_of_Joseon"
+    ]
+  },
+  "ev-imjin-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ours is Busan, where the invasion landed in May 1592. Wikidata uses Seoul; the landing site is the better anchor for the start year, and route[] covers the rest.",
+    "checked": [
+      "Kenneth M. Swope, A Dragon's Head and a Serpent's Tail (2009)",
+      "https://en.wikipedia.org/wiki/Siege_of_Busanjin"
+    ]
+  },
+  "ev-donghak-peasant-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "The rising began at Gobu (Jeongeup, North Jeolla) in early 1894. Wikidata's Seoul point is not where the revolt took place.",
+    "checked": [
+      "Encyclopaedia Britannica: Tonghak Uprising (via search)",
+      "https://en.wikipedia.org/wiki/Donghak_Peasant_Revolution"
+    ]
+  },
+  "ev-russo-japanese-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ours is Port Arthur (Lüshun), where the war opened in Feb 1904 and the major siege took place. Wikidata's 45N 125E is a rounded Manchuria placeholder.",
+    "checked": [
+      "Encyclopaedia Britannica: Russo-Japanese War (via search)",
+      "https://en.wikipedia.org/wiki/Siege_of_Port_Arthur"
+    ]
+  },
+  "ev-korean-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Ours is Panmunjom on the 38th-parallel front (armistice site). Wikidata's point is in the Korea Strait near Tsushima, which is meaningless for the war.",
+    "checked": [
+      "Encyclopaedia Britannica: Korean War (via search)",
+      "https://en.wikipedia.org/wiki/Panmunjom"
+    ]
+  },
+  "polity-silla:to": {
+    "verdict": "keep-ours",
+    "reason": "Silla formally ended when King Gyeongsun surrendered to Goryeo in 935 (Britannica: Unified Silla 668–935). Wikidata's 892 marks the start of the Later Three Kingdoms, not the state's end.",
+    "checked": [
+      "https://www.britannica.com/place/Silla (via search)",
+      "Kim Bu-sik, Samguk sagi, Silla bongi (Gyeongsun 9)"
+    ]
+  }
+}

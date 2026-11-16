@@ -1,0 +1,861 @@
+[
+  {
+    "id": "place-tokyo",
+    "qid": "Q1490",
+    "region": "east-asia",
+    "lat": 35.6894,
+    "lon": 139.6917,
+    "modern": {
+      "en": "Tokyo",
+      "zh": "东京"
+    },
+    "names": [
+      {
+        "from": 1457,
+        "to": 1603,
+        "name": {
+          "en": "Edo",
+          "zh": "江户"
+        },
+        "polity": {
+          "en": "Muromachi-era warrior houses",
+          "zh": "室町时代武家"
+        }
+      },
+      {
+        "from": 1603,
+        "to": 1868,
+        "name": {
+          "en": "Edo",
+          "zh": "江户"
+        },
+        "polity": {
+          "en": "Tokugawa shogunate",
+          "zh": "德川幕府"
+        },
+        "capital": true
+      },
+      {
+        "from": 1868,
+        "to": 1947,
+        "name": {
+          "en": "Tokyo",
+          "zh": "东京"
+        },
+        "polity": {
+          "en": "Empire of Japan",
+          "zh": "大日本帝国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1947,
+        "to": null,
+        "name": {
+          "en": "Tokyo",
+          "zh": "东京"
+        },
+        "polity": {
+          "en": "Japan",
+          "zh": "日本"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "A fishing village where Ōta Dōkan built Edo Castle in 1457, Edo became the seat of the Tokugawa shoguns in 1603 and one of the world's largest cities. Renamed Tokyo (\"eastern capital\") in 1868, it became the imperial capital.",
+      "zh": "原为渔村，1457年太田道灌在此修筑江户城。1603年起成为德川将军的驻地，并发展为世界最大城市之一。1868年改称东京（“东方之京”），成为天皇所在的首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Tokyo",
+        "url": "https://www.britannica.com/place/Tokyo-metropolis"
+      },
+      {
+        "title": "Conrad Totman, A History of Japan (Blackwell, 2nd ed. 2005)"
+      },
+      {
+        "title": "Marius B. Jansen, The Making of Modern Japan (Harvard University Press, 2000)"
+      },
+      {
+        "title": "Wikipedia: Tokyo",
+        "url": "https://en.wikipedia.org/wiki/Tokyo"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-kyoto",
+    "qid": "Q34600",
+    "region": "east-asia",
+    "lat": 35.0116,
+    "lon": 135.7681,
+    "modern": {
+      "en": "Kyoto",
+      "zh": "京都"
+    },
+    "names": [
+      {
+        "from": 794,
+        "to": 1185,
+        "name": {
+          "en": "Heian-kyō",
+          "zh": "平安京"
+        },
+        "polity": {
+          "en": "Heian-period Japan",
+          "zh": "平安时代日本"
+        },
+        "capital": true
+      },
+      {
+        "from": 1185,
+        "to": 1869,
+        "name": {
+          "en": "Kyō / Miyako (Kyoto)",
+          "zh": "京 / 京都"
+        },
+        "polity": {
+          "en": "Imperial court under the shogunates",
+          "zh": "幕府时代的天皇朝廷"
+        },
+        "capital": true
+      },
+      {
+        "from": 1869,
+        "to": null,
+        "name": {
+          "en": "Kyoto",
+          "zh": "京都"
+        },
+        "polity": {
+          "en": "Japan",
+          "zh": "日本"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Founded by Emperor Kanmu in 794 as Heian-kyō on the model of Chang'an, Kyoto was the seat of the imperial court for over a thousand years and the centre of Japanese aristocratic and religious culture until the emperor moved to Tokyo.",
+      "zh": "794年桓武天皇仿照长安建立平安京。此后一千多年里，京都一直是天皇朝廷所在地和日本贵族与宗教文化的中心，直至天皇移居东京。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Kyoto",
+        "url": "https://www.britannica.com/place/Kyoto-Japan"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)",
+        "url": "https://whc.unesco.org/en/list/688"
+      },
+      {
+        "title": "The Cambridge History of Japan, Vol. 2: Heian Japan (1999)"
+      },
+      {
+        "title": "Wikipedia: Kyoto",
+        "url": "https://en.wikipedia.org/wiki/Kyoto"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-seoul",
+    "qid": "Q8684",
+    "region": "east-asia",
+    "lat": 37.56,
+    "lon": 126.99,
+    "modern": {
+      "en": "Seoul",
+      "zh": "首尔"
+    },
+    "names": [
+      {
+        "from": -18,
+        "to": 475,
+        "name": {
+          "en": "Wiryeseong (Hanseong)",
+          "zh": "慰礼城（汉城）"
+        },
+        "polity": {
+          "en": "Baekje",
+          "zh": "百济"
+        },
+        "capital": true
+      },
+      {
+        "from": 475,
+        "to": 553,
+        "name": {
+          "en": "Namp'yeongyang area",
+          "zh": "南平壤一带"
+        },
+        "polity": {
+          "en": "Goguryeo",
+          "zh": "高句丽"
+        }
+      },
+      {
+        "from": 553,
+        "to": 935,
+        "name": {
+          "en": "Hansan-ju / Hanyang",
+          "zh": "汉山州 / 汉阳"
+        },
+        "polity": {
+          "en": "Silla",
+          "zh": "新罗"
+        }
+      },
+      {
+        "from": 935,
+        "to": 1394,
+        "name": {
+          "en": "Yangju / Namgyeong",
+          "zh": "杨州 / 南京"
+        },
+        "polity": {
+          "en": "Goryeo",
+          "zh": "高丽"
+        }
+      },
+      {
+        "from": 1394,
+        "to": 1910,
+        "name": {
+          "en": "Hanseong (Hanyang)",
+          "zh": "汉城（汉阳）"
+        },
+        "polity": {
+          "en": "Joseon / Korean Empire",
+          "zh": "朝鲜王朝 / 大韩帝国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1910,
+        "to": 1945,
+        "name": {
+          "en": "Keijō (Gyeongseong)",
+          "zh": "京城"
+        },
+        "polity": {
+          "en": "Japanese colonial rule",
+          "zh": "日本殖民统治"
+        },
+        "capital": true
+      },
+      {
+        "from": 1945,
+        "to": null,
+        "name": {
+          "en": "Seoul",
+          "zh": "首尔"
+        },
+        "polity": {
+          "en": "South Korea",
+          "zh": "韩国"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "The Han River basin held Baekje's first capital and was fought over by the Three Kingdoms. Joseon made Hanseong its capital in 1394; under Japanese rule it was Keijō, and since 1945 it has been Seoul, capital of South Korea.",
+      "zh": "汉江流域曾是百济最早的都城所在，并为三国反复争夺。1394年朝鲜王朝定都汉城；日本殖民时期称京城，1945年后称首尔（汉语旧称汉城），为韩国首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Seoul",
+        "url": "https://www.britannica.com/place/Seoul"
+      },
+      {
+        "title": "Michael J. Seth, A History of Korea: From Antiquity to the Present (Rowman & Littlefield, 2010)"
+      },
+      {
+        "title": "Ki-baik Lee, A New History of Korea (Harvard University Press, 1984)"
+      },
+      {
+        "title": "Wikipedia: Seoul",
+        "url": "https://en.wikipedia.org/wiki/Seoul"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Early Baekje dates follow the traditional Samguk sagi chronology; the \"Namgyeong\" designation dates from 1067."
+  },
+  {
+    "id": "place-gyeongju",
+    "qid": "Q42097",
+    "region": "east-asia",
+    "lat": 35.85,
+    "lon": 129.2167,
+    "modern": {
+      "en": "Gyeongju",
+      "zh": "庆州"
+    },
+    "names": [
+      {
+        "from": -57,
+        "to": 935,
+        "name": {
+          "en": "Seorabeol / Geumseong",
+          "zh": "徐罗伐 / 金城"
+        },
+        "polity": {
+          "en": "Silla",
+          "zh": "新罗"
+        },
+        "capital": true
+      },
+      {
+        "from": 935,
+        "to": 1392,
+        "name": {
+          "en": "Gyeongju (Donggyeong)",
+          "zh": "庆州（东京）"
+        },
+        "polity": {
+          "en": "Goryeo",
+          "zh": "高丽"
+        }
+      },
+      {
+        "from": 1392,
+        "to": 1910,
+        "name": {
+          "en": "Gyeongju",
+          "zh": "庆州"
+        },
+        "polity": {
+          "en": "Joseon",
+          "zh": "朝鲜王朝"
+        }
+      },
+      {
+        "from": 1910,
+        "to": 1945,
+        "name": {
+          "en": "Keishū",
+          "zh": "庆州"
+        },
+        "polity": {
+          "en": "Japanese colonial rule",
+          "zh": "日本殖民统治"
+        }
+      },
+      {
+        "from": 1945,
+        "to": null,
+        "name": {
+          "en": "Gyeongju",
+          "zh": "庆州"
+        },
+        "polity": {
+          "en": "South Korea",
+          "zh": "韩国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Capital of Silla for nearly a thousand years, Seorabeol was renamed Gyeongju by Goryeo after Silla's surrender in 935. Its royal tombs, temples and observatory make it an open-air museum of Silla culture.",
+      "zh": "徐罗伐作为新罗都城近千年，935年新罗归降后被高丽改名为庆州。城内王陵、寺院与瞻星台使其成为新罗文化的露天博物馆。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Gyeongju",
+        "url": "https://www.britannica.com/place/Kyongju"
+      },
+      {
+        "title": "Kim Bu-sik, Samguk sagi (History of the Three Kingdoms, 1145)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Gyeongju Historic Areas",
+        "url": "https://whc.unesco.org/en/list/976"
+      },
+      {
+        "title": "Wikipedia: Gyeongju",
+        "url": "https://en.wikipedia.org/wiki/Gyeongju"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 57 BCE founding date is traditional."
+  },
+  {
+    "id": "place-pyongyang",
+    "qid": "Q18808",
+    "region": "east-asia",
+    "lat": 39.0167,
+    "lon": 125.7475,
+    "modern": {
+      "en": "Pyongyang",
+      "zh": "平壤"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 313,
+        "name": {
+          "en": "Lelang commandery seat",
+          "zh": "乐浪郡治"
+        },
+        "polity": {
+          "en": "Han dynasty and successors",
+          "zh": "汉朝及后继政权"
+        }
+      },
+      {
+        "from": 313,
+        "to": 427,
+        "name": {
+          "en": "Pyongyang",
+          "zh": "平壤"
+        },
+        "polity": {
+          "en": "Goguryeo",
+          "zh": "高句丽"
+        }
+      },
+      {
+        "from": 427,
+        "to": 668,
+        "name": {
+          "en": "Pyongyang",
+          "zh": "平壤"
+        },
+        "polity": {
+          "en": "Goguryeo",
+          "zh": "高句丽"
+        },
+        "capital": true
+      },
+      {
+        "from": 668,
+        "to": 918,
+        "name": {
+          "en": "Pyongyang",
+          "zh": "平壤"
+        },
+        "polity": {
+          "en": "Tang protectorate / frontier zone",
+          "zh": "唐安东都护府 / 边地"
+        }
+      },
+      {
+        "from": 918,
+        "to": 1392,
+        "name": {
+          "en": "Seogyeong (Western Capital)",
+          "zh": "西京"
+        },
+        "polity": {
+          "en": "Goryeo",
+          "zh": "高丽"
+        }
+      },
+      {
+        "from": 1392,
+        "to": 1910,
+        "name": {
+          "en": "Pyongyang",
+          "zh": "平壤"
+        },
+        "polity": {
+          "en": "Joseon",
+          "zh": "朝鲜王朝"
+        }
+      },
+      {
+        "from": 1910,
+        "to": 1945,
+        "name": {
+          "en": "Heijō",
+          "zh": "平壤"
+        },
+        "polity": {
+          "en": "Japanese colonial rule",
+          "zh": "日本殖民统治"
+        }
+      },
+      {
+        "from": 1945,
+        "to": 1948,
+        "name": {
+          "en": "Pyongyang",
+          "zh": "平壤"
+        },
+        "polity": {
+          "en": "Soviet Civil Administration (Soviet-occupied northern Korea)",
+          "zh": "苏联民政局（苏联占领下的朝鲜北部）"
+        }
+      },
+      {
+        "from": 1948,
+        "to": null,
+        "name": {
+          "en": "Pyongyang",
+          "zh": "平壤"
+        },
+        "polity": {
+          "en": "North Korea (Democratic People's Republic of Korea)",
+          "zh": "朝鲜民主主义人民共和国"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "Site of the Chinese Lelang commandery until 313, Pyongyang became Goguryeo's capital in 427. Goryeo made it the Western Capital, and since 1948 it has been the capital of North Korea.",
+      "zh": "313年以前为中国乐浪郡治所，427年成为高句丽都城。高丽时期称西京，1948年起为朝鲜民主主义人民共和国首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Pyongyang",
+        "url": "https://www.britannica.com/place/Pyongyang"
+      },
+      {
+        "title": "Kim Bu-sik, Samguk sagi (History of the Three Kingdoms, 1145)"
+      },
+      {
+        "title": "Ki-baik Lee, A New History of Korea (Harvard University Press, 1984)"
+      },
+      {
+        "title": "Wikipedia: Pyongyang",
+        "url": "https://en.wikipedia.org/wiki/Pyongyang"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Lelang boundaries and dates before 313 are approximate. 1945–1948: seat of the Soviet Civil Administration and the Provisional People's Committee; the DPRK was proclaimed on 9 September 1948."
+  },
+  {
+    "id": "place-nara",
+    "qid": "Q169134",
+    "region": "east-asia",
+    "lat": 34.685,
+    "lon": 135.8048,
+    "modern": {
+      "en": "Nara",
+      "zh": "奈良"
+    },
+    "names": [
+      {
+        "from": 710,
+        "to": 784,
+        "name": {
+          "en": "Heijō-kyō",
+          "zh": "平城京"
+        },
+        "polity": {
+          "en": "Nara-period Japan",
+          "zh": "奈良时代日本"
+        },
+        "capital": true
+      },
+      {
+        "from": 784,
+        "to": 1868,
+        "name": {
+          "en": "Nara (Nanto, \"Southern Capital\")",
+          "zh": "奈良（南都）"
+        },
+        "polity": {
+          "en": "Japan",
+          "zh": "日本"
+        }
+      },
+      {
+        "from": 1868,
+        "to": null,
+        "name": {
+          "en": "Nara",
+          "zh": "奈良"
+        },
+        "polity": {
+          "en": "Japan",
+          "zh": "日本"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Japan's first long-lasting capital, Heijō-kyō, was laid out here in 710. After the court left in 784, its great temples—Tōdai-ji, Kōfuku-ji, Kasuga shrine—kept Nara alive as the \"southern capital\" of Buddhism.",
+      "zh": "日本第一座长期使用的都城平城京于710年在此兴建。784年朝廷迁离后，东大寺、兴福寺、春日大社等寺社使奈良作为佛教的“南都”延续繁荣。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Nara",
+        "url": "https://www.britannica.com/place/Nara-Japan"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Historic Monuments of Ancient Nara",
+        "url": "https://whc.unesco.org/en/list/870"
+      },
+      {
+        "title": "The Cambridge History of Japan, Vol. 1: Ancient Japan (1993)"
+      },
+      {
+        "title": "Wikipedia: Nara (city)",
+        "url": "https://en.wikipedia.org/wiki/Nara_(city)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-kaesong",
+    "qid": "Q109079",
+    "region": "east-asia",
+    "lat": 37.9717,
+    "lon": 126.5528,
+    "modern": {
+      "en": "Kaesong",
+      "zh": "开城"
+    },
+    "names": [
+      {
+        "from": 898,
+        "to": 919,
+        "name": {
+          "en": "Songak",
+          "zh": "松岳"
+        },
+        "polity": {
+          "en": "Taebong (Later Goguryeo)",
+          "zh": "泰封（后高句丽）"
+        }
+      },
+      {
+        "from": 919,
+        "to": 1392,
+        "name": {
+          "en": "Gaegyeong (Songdo)",
+          "zh": "开京（松都）"
+        },
+        "polity": {
+          "en": "Goryeo",
+          "zh": "高丽"
+        },
+        "capital": true
+      },
+      {
+        "from": 1392,
+        "to": 1910,
+        "name": {
+          "en": "Kaesong (Songdo)",
+          "zh": "开城（松都）"
+        },
+        "polity": {
+          "en": "Joseon",
+          "zh": "朝鲜王朝"
+        }
+      },
+      {
+        "from": 1910,
+        "to": 1945,
+        "name": {
+          "en": "Kaijō",
+          "zh": "开城"
+        },
+        "polity": {
+          "en": "Japanese colonial rule",
+          "zh": "日本殖民统治"
+        }
+      },
+      {
+        "from": 1945,
+        "to": 1950,
+        "name": {
+          "en": "Kaesong",
+          "zh": "开城"
+        },
+        "polity": {
+          "en": "South Korea (south of the 38th parallel)",
+          "zh": "韩国（三八线以南）"
+        }
+      },
+      {
+        "from": 1950,
+        "to": null,
+        "name": {
+          "en": "Kaesong",
+          "zh": "开城"
+        },
+        "polity": {
+          "en": "North Korea",
+          "zh": "朝鲜"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Wang Geon's home town of Songak became Gaegyeong, capital of Goryeo, for almost five centuries. Lying just south of the 38th parallel, it passed to North Korean control in the Korean War.",
+      "zh": "王建的故乡松岳后来成为高丽都城开京，历时近五百年。开城位于三八线以南不远，在朝鲜战争中转归朝鲜控制。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Kaesong",
+        "url": "https://www.britannica.com/place/Kaesong"
+      },
+      {
+        "title": "Goryeosa (History of Goryeo, 1451)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Historic Monuments and Sites in Kaesong",
+        "url": "https://whc.unesco.org/en/list/1278"
+      },
+      {
+        "title": "Wikipedia: Kaesong",
+        "url": "https://en.wikipedia.org/wiki/Kaesong"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Taebong used Songak as capital only c. 898–905."
+  },
+  {
+    "id": "place-osaka",
+    "qid": "Q35765",
+    "region": "east-asia",
+    "lat": 34.6938,
+    "lon": 135.5021,
+    "modern": {
+      "en": "Osaka",
+      "zh": "大阪"
+    },
+    "names": [
+      {
+        "from": 645,
+        "to": 655,
+        "name": {
+          "en": "Naniwa",
+          "zh": "难波"
+        },
+        "polity": {
+          "en": "Yamato / Japan",
+          "zh": "大和 / 日本"
+        },
+        "capital": true
+      },
+      {
+        "from": 655,
+        "to": 1496,
+        "name": {
+          "en": "Naniwa",
+          "zh": "难波"
+        },
+        "polity": {
+          "en": "Yamato / Japan",
+          "zh": "大和 / 日本"
+        }
+      },
+      {
+        "from": 1496,
+        "to": 1583,
+        "name": {
+          "en": "Ōsaka (Ishiyama Hongan-ji)",
+          "zh": "大坂（石山本愿寺）"
+        },
+        "polity": {
+          "en": "Jōdo Shinshū temple town",
+          "zh": "净土真宗寺内町"
+        }
+      },
+      {
+        "from": 1583,
+        "to": 1868,
+        "name": {
+          "en": "Ōsaka (大坂)",
+          "zh": "大坂"
+        },
+        "polity": {
+          "en": "Toyotomi / Tokugawa",
+          "zh": "丰臣 / 德川"
+        }
+      },
+      {
+        "from": 1868,
+        "to": null,
+        "name": {
+          "en": "Osaka (大阪)",
+          "zh": "大阪"
+        },
+        "polity": {
+          "en": "Japan",
+          "zh": "日本"
+        }
+      }
+    ],
+    "summary": {
+      "en": "As Naniwa it was a port and intermittent capital from the 7th century. Hideyoshi built Osaka Castle on the site of the Ishiyama Hongan-ji, and under the Tokugawa the city became Japan's commercial \"kitchen\".",
+      "zh": "古称难波，自7世纪起即为港口，并几度成为都城。丰臣秀吉在石山本愿寺旧址修建大坂城；德川时代这里发展为日本的商业中心，号称“天下的厨房”。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Osaka",
+        "url": "https://www.britannica.com/place/Osaka-Japan"
+      },
+      {
+        "title": "The Cambridge History of Japan, Vol. 4: Early Modern Japan (1991)"
+      },
+      {
+        "title": "Conrad Totman, A History of Japan (Blackwell, 2nd ed. 2005)"
+      },
+      {
+        "title": "Wikipedia: Osaka",
+        "url": "https://en.wikipedia.org/wiki/Osaka"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Naniwa served as capital only intermittently (645–655, 744–745); the 大坂→大阪 spelling change took place around 1868–1870."
+  },
+  {
+    "id": "place-kamakura",
+    "qid": "Q200267",
+    "region": "east-asia",
+    "lat": 35.3192,
+    "lon": 139.5472,
+    "modern": {
+      "en": "Kamakura",
+      "zh": "镰仓"
+    },
+    "names": [
+      {
+        "from": 1180,
+        "to": 1333,
+        "name": {
+          "en": "Kamakura",
+          "zh": "镰仓"
+        },
+        "polity": {
+          "en": "Kamakura shogunate",
+          "zh": "镰仓幕府"
+        },
+        "capital": true
+      },
+      {
+        "from": 1333,
+        "to": null,
+        "name": {
+          "en": "Kamakura",
+          "zh": "镰仓"
+        },
+        "polity": {
+          "en": "Japan",
+          "zh": "日本"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Minamoto no Yoritomo chose this coastal town, protected by hills, as his headquarters in 1180. It was Japan's political centre until the shogunate fell in 1333 and is known for the Great Buddha and Tsurugaoka Hachiman shrine.",
+      "zh": "1180年源赖朝选择这座三面环山、一面临海的小城作为大本营。直到1333年幕府灭亡，这里一直是日本的政治中心，以镰仓大佛和鹤冈八幡宫闻名。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Kamakura",
+        "url": "https://www.britannica.com/place/Kamakura"
+      },
+      {
+        "title": "Azuma kagami (Mirror of the East, late 13th c.)"
+      },
+      {
+        "title": "The Cambridge History of Japan, Vol. 3: Medieval Japan (1990)"
+      },
+      {
+        "title": "Wikipedia: Kamakura",
+        "url": "https://en.wikipedia.org/wiki/Kamakura"
+      }
+    ],
+    "confidence": "high"
+  }
+]

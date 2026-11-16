@@ -1,0 +1,1364 @@
+[
+  {
+    "id": "person-gwanggaeto",
+    "qid": "Q498791",
+    "region": "east-asia",
+    "name": {
+      "en": "Gwanggaeto the Great",
+      "zh": "广开土王（好太王）"
+    },
+    "born": 374,
+    "died": 413,
+    "role": {
+      "en": "King of Goguryeo",
+      "zh": "高句丽国王"
+    },
+    "summary": {
+      "en": "The nineteenth ruler of Goguryeo (r. 391–413), whose campaigns against Baekje, the Wa and peoples to the north made Goguryeo the dominant power of Northeast Asia. His deeds are recorded on the stele his son raised in 414.",
+      "zh": "高句丽第十九代君主（391—413年在位），征伐百济、倭及北方诸族，使高句丽成为东北亚强国。其功业记载于其子414年所立的石碑上。"
+    },
+    "stops": [
+      {
+        "year": 391,
+        "lat": 41.13,
+        "lon": 126.18,
+        "label": {
+          "en": "Accedes at Gungnae",
+          "zh": "于国内城即位"
+        }
+      },
+      {
+        "year": 396,
+        "lat": 37.52,
+        "lon": 127.12,
+        "label": {
+          "en": "Campaign against Baekje on the Han River",
+          "zh": "南征百济，兵临汉江"
+        }
+      },
+      {
+        "year": 400,
+        "lat": 35.85,
+        "lon": 129.22,
+        "label": {
+          "en": "Sends army to aid Silla against the Wa",
+          "zh": "出兵救援新罗、击退倭军"
+        }
+      },
+      {
+        "year": 410,
+        "lat": 43.85,
+        "lon": 126.55,
+        "label": {
+          "en": "Campaign against Eastern Buyeo",
+          "zh": "征讨东扶余"
+        }
+      },
+      {
+        "year": 413,
+        "lat": 41.13,
+        "lon": 126.18,
+        "label": {
+          "en": "Dies at Gungnae",
+          "zh": "卒于国内城"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gwanggaeto Stele inscription (414)"
+      },
+      {
+        "title": "Kim Bu-sik, Samguk sagi (History of the Three Kingdoms, 1145)"
+      },
+      {
+        "title": "Wikipedia: Gwanggaeto the Great",
+        "url": "https://en.wikipedia.org/wiki/Gwanggaeto_the_Great"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Campaign sites are known mainly from the stele inscription and are approximate."
+  },
+  {
+    "id": "person-kim-yu-sin",
+    "qid": "Q494501",
+    "region": "east-asia",
+    "name": {
+      "en": "Kim Yu-sin",
+      "zh": "金庾信"
+    },
+    "born": 595,
+    "died": 673,
+    "role": {
+      "en": "Silla general",
+      "zh": "新罗将军"
+    },
+    "summary": {
+      "en": "A descendant of the Geumgwan Gaya royal house who became Silla's leading general. He commanded Silla armies in the conquest of Baekje (660) and Goguryeo (668) and is honoured as the architect of unification.",
+      "zh": "金官伽倻王族后裔，后成为新罗首席将领。他指挥新罗军队参与灭百济（660年）与灭高句丽（668年）的战争，被尊为三国统一的功臣。"
+    },
+    "stops": [
+      {
+        "year": 595,
+        "lat": 36.855,
+        "lon": 127.44,
+        "label": {
+          "en": "Born at Mansan (Jincheon)",
+          "zh": "生于万弩郡（今镇川）"
+        }
+      },
+      {
+        "year": 629,
+        "lat": 36.73,
+        "lon": 127.65,
+        "label": {
+          "en": "Wins fame at Nangbi fortress",
+          "zh": "在娘臂城之战中成名"
+        }
+      },
+      {
+        "year": 660,
+        "lat": 36.2,
+        "lon": 127.17,
+        "label": {
+          "en": "Victory at Hwangsanbeol",
+          "zh": "黄山伐之战获胜"
+        }
+      },
+      {
+        "year": 660,
+        "lat": 36.28,
+        "lon": 126.91,
+        "label": {
+          "en": "Fall of Sabi, Baekje capital",
+          "zh": "百济都城泗沘陷落"
+        }
+      },
+      {
+        "year": 668,
+        "lat": 35.85,
+        "lon": 129.22,
+        "label": {
+          "en": "Named supreme commander as Silla–Tang forces take Pyongyang; ill, he stays in Gyeongju",
+          "zh": "受命为大总管，因病留守庆州，联军攻陷平壤"
+        }
+      },
+      {
+        "year": 673,
+        "lat": 35.85,
+        "lon": 129.22,
+        "label": {
+          "en": "Dies at Gyeongju",
+          "zh": "卒于庆州"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kim Bu-sik, Samguk sagi (History of the Three Kingdoms, 1145)"
+      },
+      {
+        "title": "Ki-baik Lee, A New History of Korea (Harvard University Press, 1984)"
+      },
+      {
+        "title": "Wikipedia: Kim Yu-sin",
+        "url": "https://en.wikipedia.org/wiki/Kim_Yu-sin"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birthplace and Nangbi fortress locations are traditional identifications."
+  },
+  {
+    "id": "person-shotoku",
+    "qid": "Q263972",
+    "region": "east-asia",
+    "name": {
+      "en": "Prince Shōtoku",
+      "zh": "圣德太子"
+    },
+    "born": 574,
+    "died": 622,
+    "role": {
+      "en": "Regent and Buddhist patron",
+      "zh": "摄政、佛教护持者"
+    },
+    "summary": {
+      "en": "A semi-legendary prince who served as regent for Empress Suiko. Tradition credits him with the Seventeen-article constitution, the twelve-rank cap system, embassies to Sui China and the founding of Hōryū-ji.",
+      "zh": "半传说性的皇子，曾为推古天皇摄政。传统上认为他制定了冠位十二阶与十七条宪法，派遣遣隋使，并创建法隆寺。"
+    },
+    "stops": [
+      {
+        "year": 574,
+        "lat": 34.4785,
+        "lon": 135.8202,
+        "label": {
+          "en": "Born at Asuka",
+          "zh": "生于飞鸟"
+        }
+      },
+      {
+        "year": 593,
+        "lat": 34.4785,
+        "lon": 135.8202,
+        "label": {
+          "en": "Becomes regent for Empress Suiko",
+          "zh": "成为推古天皇的摄政"
+        }
+      },
+      {
+        "year": 604,
+        "lat": 34.4785,
+        "lon": 135.8202,
+        "label": {
+          "en": "Seventeen-article constitution",
+          "zh": "颁布十七条宪法"
+        }
+      },
+      {
+        "year": 607,
+        "lat": 34.6147,
+        "lon": 135.7342,
+        "label": {
+          "en": "Hōryū-ji founded at Ikaruga",
+          "zh": "在斑鸠创建法隆寺"
+        }
+      },
+      {
+        "year": 622,
+        "lat": 34.6147,
+        "lon": 135.7342,
+        "label": {
+          "en": "Dies at Ikaruga",
+          "zh": "卒于斑鸠宫"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Prince Shōtoku",
+        "url": "https://www.britannica.com/biography/Taishi-Shotoku"
+      },
+      {
+        "title": "Nihon Shoki (720), trans. W. G. Aston, Nihongi (1896)"
+      },
+      {
+        "title": "The Cambridge History of Japan, Vol. 1: Ancient Japan (1993)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Buddhist Monuments in the Horyu-ji Area",
+        "url": "https://whc.unesco.org/en/list/660"
+      },
+      {
+        "title": "Wikipedia: Prince Shōtoku",
+        "url": "https://en.wikipedia.org/wiki/Prince_Sh%C5%8Dtoku"
+      }
+    ],
+    "confidence": "low",
+    "note": "Most achievements attributed to him come from the Nihon Shoki and later hagiography; their historicity is disputed."
+  },
+  {
+    "id": "person-murasaki-shikibu",
+    "qid": "Q81731",
+    "region": "east-asia",
+    "name": {
+      "en": "Murasaki Shikibu",
+      "zh": "紫式部"
+    },
+    "born": 973,
+    "died": 1014,
+    "role": {
+      "en": "Novelist and court lady",
+      "zh": "小说家、宫廷女官"
+    },
+    "summary": {
+      "en": "A lady-in-waiting to Empress Shōshi at the Heian court and author of The Tale of Genji, as well as a diary and poetry collection that offer a vivid picture of aristocratic life around 1000.",
+      "zh": "平安时代侍奉中宫彰子的女官，《源氏物语》的作者，另著有日记与和歌集，生动展现了公元1000年前后的贵族生活。"
+    },
+    "stops": [
+      {
+        "year": 973,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Born in Heian-kyō",
+          "zh": "生于平安京"
+        }
+      },
+      {
+        "year": 996,
+        "lat": 35.9,
+        "lon": 136.17,
+        "label": {
+          "en": "Accompanies her father to Echizen",
+          "zh": "随父赴越前国"
+        }
+      },
+      {
+        "year": 998,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Returns to the capital and marries",
+          "zh": "返京成婚"
+        }
+      },
+      {
+        "year": 1005,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Enters service of Empress Shōshi",
+          "zh": "入宫侍奉中宫彰子"
+        }
+      },
+      {
+        "year": 1008,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Genji circulating at court",
+          "zh": "《源氏物语》在宫中流传"
+        }
+      },
+      {
+        "year": 1014,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Last recorded; probable death",
+          "zh": "最后见于记载，约卒于此年"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Murasaki Shikibu",
+        "url": "https://www.britannica.com/biography/Shikibu-Murasaki"
+      },
+      {
+        "title": "Murasaki Shikibu, Murasaki Shikibu nikki (Diary, c. 1010)"
+      },
+      {
+        "title": "Richard Bowring, Murasaki Shikibu: The Tale of Genji (Cambridge University Press, 2nd ed. 2004)"
+      },
+      {
+        "title": "Wikipedia: Murasaki Shikibu",
+        "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth and death years are estimates (c. 973–c. 1014; some scholars propose 978 or a death as late as 1031). Wikidata's death year of 1100 is not supported by the scholarship."
+  },
+  {
+    "id": "person-taejo-of-goryeo",
+    "qid": "Q334312",
+    "region": "east-asia",
+    "name": {
+      "en": "Taejo of Goryeo (Wang Geon)",
+      "zh": "高丽太祖王建"
+    },
+    "born": 877,
+    "died": 943,
+    "role": {
+      "en": "Founder of Goryeo",
+      "zh": "高丽开国君主"
+    },
+    "summary": {
+      "en": "A maritime magnate from Songak who served the warlord Gung Ye before overthrowing him in 918 and founding Goryeo. He absorbed Silla and defeated Later Baekje, reuniting the peninsula in 936.",
+      "zh": "出身松岳海上豪族，曾效力于弓裔，918年推翻弓裔建立高丽。他先后接纳新罗归降、击败后百济，于936年重新统一朝鲜半岛。"
+    },
+    "stops": [
+      {
+        "year": 877,
+        "lat": 37.9717,
+        "lon": 126.5528,
+        "label": {
+          "en": "Born at Songak",
+          "zh": "生于松岳"
+        }
+      },
+      {
+        "year": 918,
+        "lat": 38.25,
+        "lon": 127.21,
+        "label": {
+          "en": "Founds Goryeo at Cheorwon",
+          "zh": "在铁原建立高丽"
+        }
+      },
+      {
+        "year": 919,
+        "lat": 37.9717,
+        "lon": 126.5528,
+        "label": {
+          "en": "Moves capital to Gaegyeong",
+          "zh": "迁都开京"
+        }
+      },
+      {
+        "year": 935,
+        "lat": 35.85,
+        "lon": 129.22,
+        "label": {
+          "en": "Accepts the surrender of Silla",
+          "zh": "接受新罗归降"
+        }
+      },
+      {
+        "year": 936,
+        "lat": 36.12,
+        "lon": 128.34,
+        "label": {
+          "en": "Defeats Later Baekje at Illicheon",
+          "zh": "一利川之战击败后百济"
+        }
+      },
+      {
+        "year": 943,
+        "lat": 37.9717,
+        "lon": 126.5528,
+        "label": {
+          "en": "Dies at Gaegyeong",
+          "zh": "卒于开京"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Taejo of Goryeo (Wang Geon)",
+        "url": "https://www.britannica.com/biography/Wang-Kon"
+      },
+      {
+        "title": "Goryeosa (History of Goryeo, 1451)"
+      },
+      {
+        "title": "Michael J. Seth, A History of Korea: From Antiquity to the Present (Rowman & Littlefield, 2010)"
+      },
+      {
+        "title": "Wikipedia: Taejo of Goryeo",
+        "url": "https://en.wikipedia.org/wiki/Taejo_of_Goryeo"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-minamoto-no-yoritomo",
+    "qid": "Q242800",
+    "region": "east-asia",
+    "name": {
+      "en": "Minamoto no Yoritomo",
+      "zh": "源赖朝"
+    },
+    "born": 1147,
+    "died": 1199,
+    "role": {
+      "en": "First Kamakura shogun",
+      "zh": "镰仓幕府首任将军"
+    },
+    "summary": {
+      "en": "Exiled to Izu as a boy after his father's defeat, he raised the Minamoto against the Taira in 1180, won the Genpei War through his commanders, and founded the first warrior government at Kamakura.",
+      "zh": "其父战败后，少年源赖朝被流放伊豆。1180年他举兵讨伐平氏，通过部将赢得源平合战，并在镰仓建立了日本第一个武家政权。"
+    },
+    "stops": [
+      {
+        "year": 1147,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Born in Heian-kyō",
+          "zh": "生于平安京"
+        }
+      },
+      {
+        "year": 1160,
+        "lat": 35.05,
+        "lon": 138.94,
+        "label": {
+          "en": "Exiled to Izu (Hirugakojima)",
+          "zh": "流放伊豆蛭小岛"
+        }
+      },
+      {
+        "year": 1180,
+        "lat": 35.22,
+        "lon": 139.13,
+        "label": {
+          "en": "Raises army; defeat at Ishibashiyama",
+          "zh": "举兵，石桥山之战失利"
+        }
+      },
+      {
+        "year": 1180,
+        "lat": 35.3192,
+        "lon": 139.5472,
+        "label": {
+          "en": "Establishes his base at Kamakura",
+          "zh": "以镰仓为根据地"
+        }
+      },
+      {
+        "year": 1192,
+        "lat": 35.3192,
+        "lon": 139.5472,
+        "label": {
+          "en": "Appointed sei-i taishōgun",
+          "zh": "受封征夷大将军"
+        }
+      },
+      {
+        "year": 1199,
+        "lat": 35.3192,
+        "lon": 139.5472,
+        "label": {
+          "en": "Dies at Kamakura",
+          "zh": "卒于镰仓"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Minamoto no Yoritomo",
+        "url": "https://www.britannica.com/biography/Minamoto-Yoritomo"
+      },
+      {
+        "title": "Azuma kagami (Mirror of the East, late 13th c.)"
+      },
+      {
+        "title": "The Cambridge History of Japan, Vol. 3: Medieval Japan (1990)"
+      },
+      {
+        "title": "Wikipedia: Minamoto no Yoritomo",
+        "url": "https://en.wikipedia.org/wiki/Minamoto_no_Yoritomo"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-oda-nobunaga",
+    "qid": "Q171411",
+    "region": "east-asia",
+    "name": {
+      "en": "Oda Nobunaga",
+      "zh": "织田信长"
+    },
+    "born": 1534,
+    "died": 1582,
+    "role": {
+      "en": "Daimyō and unifier",
+      "zh": "大名、统一者"
+    },
+    "summary": {
+      "en": "A ruthless and innovative warlord from Owari who seized Kyoto in 1568, deposed the last Ashikaga shogun in 1573 and subdued much of central Japan, before being forced to suicide by his vassal Akechi Mitsuhide at Honnō-ji.",
+      "zh": "出身尾张、行事果决而富于革新的战国大名。1568年进入京都，1573年放逐末代足利将军，平定日本中部大部分地区，后在本能寺遭家臣明智光秀背叛而自尽。"
+    },
+    "stops": [
+      {
+        "year": 1534,
+        "lat": 35.18,
+        "lon": 136.9,
+        "label": {
+          "en": "Born in Owari province",
+          "zh": "生于尾张国"
+        }
+      },
+      {
+        "year": 1560,
+        "lat": 35.06,
+        "lon": 136.9808,
+        "label": {
+          "en": "Victory at Okehazama",
+          "zh": "桶狭间之战获胜"
+        }
+      },
+      {
+        "year": 1568,
+        "lat": 35.0116,
+        "lon": 135.7681,
+        "label": {
+          "en": "Enters Kyoto with Ashikaga Yoshiaki",
+          "zh": "拥足利义昭上洛"
+        }
+      },
+      {
+        "year": 1575,
+        "lat": 34.9215,
+        "lon": 137.5251,
+        "label": {
+          "en": "Victory at Nagashino",
+          "zh": "长篠之战获胜"
+        }
+      },
+      {
+        "year": 1576,
+        "lat": 35.155,
+        "lon": 136.139,
+        "label": {
+          "en": "Builds Azuchi Castle",
+          "zh": "修筑安土城"
+        }
+      },
+      {
+        "year": 1582,
+        "lat": 35.0089,
+        "lon": 135.7594,
+        "label": {
+          "en": "Dies in the Honnō-ji Incident",
+          "zh": "死于本能寺之变"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Oda Nobunaga",
+        "url": "https://www.britannica.com/biography/Oda-Nobunaga"
+      },
+      {
+        "title": "Jeroen P. Lamers, Japonius Tyrannus: The Japanese Warlord Oda Nobunaga Reconsidered (Hotei, 2000)"
+      },
+      {
+        "title": "The Cambridge History of Japan, Vol. 4: Early Modern Japan (1991)"
+      },
+      {
+        "title": "Wikipedia: Oda Nobunaga",
+        "url": "https://en.wikipedia.org/wiki/Oda_Nobunaga"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-toyotomi-hideyoshi",
+    "qid": "Q187550",
+    "region": "east-asia",
+    "name": {
+      "en": "Toyotomi Hideyoshi",
+      "zh": "丰臣秀吉"
+    },
+    "born": 1537,
+    "died": 1598,
+    "role": {
+      "en": "Unifier of Japan",
+      "zh": "日本统一者"
+    },
+    "summary": {
+      "en": "Born a commoner, he rose in Nobunaga's service, avenged him in 1582 and completed the military unification of Japan in 1590. He froze social classes, surveyed the land and launched the disastrous invasions of Korea.",
+      "zh": "出身平民，在织田信长麾下崛起，1582年为信长复仇，1590年完成日本统一。他推行刀狩与太阁检地、固定身份等级，并发动了失败的侵朝战争。"
+    },
+    "stops": [
+      {
+        "year": 1537,
+        "lat": 35.17,
+        "lon": 136.86,
+        "label": {
+          "en": "Born at Nakamura, Owari",
+          "zh": "生于尾张中村"
+        }
+      },
+      {
+        "year": 1582,
+        "lat": 34.89,
+        "lon": 135.68,
+        "label": {
+          "en": "Defeats Akechi Mitsuhide at Yamazaki",
+          "zh": "山崎之战击败明智光秀"
+        }
+      },
+      {
+        "year": 1583,
+        "lat": 34.6873,
+        "lon": 135.5259,
+        "label": {
+          "en": "Begins Osaka Castle",
+          "zh": "开始修筑大坂城"
+        }
+      },
+      {
+        "year": 1590,
+        "lat": 35.25,
+        "lon": 139.15,
+        "label": {
+          "en": "Siege of Odawara completes unification",
+          "zh": "小田原征伐完成统一"
+        }
+      },
+      {
+        "year": 1592,
+        "lat": 33.53,
+        "lon": 129.87,
+        "label": {
+          "en": "Directs the Korean invasion from Nagoya, Hizen",
+          "zh": "坐镇肥前名护屋指挥侵朝"
+        }
+      },
+      {
+        "year": 1598,
+        "lat": 34.94,
+        "lon": 135.78,
+        "label": {
+          "en": "Dies at Fushimi Castle",
+          "zh": "卒于伏见城"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Toyotomi Hideyoshi",
+        "url": "https://www.britannica.com/biography/Toyotomi-Hideyoshi"
+      },
+      {
+        "title": "Mary Elizabeth Berry, Hideyoshi (Harvard University Press, 1982)"
+      },
+      {
+        "title": "The Cambridge History of Japan, Vol. 4: Early Modern Japan (1991)"
+      },
+      {
+        "title": "Wikipedia: Toyotomi Hideyoshi",
+        "url": "https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-tokugawa-ieyasu",
+    "qid": "Q171977",
+    "region": "east-asia",
+    "name": {
+      "en": "Tokugawa Ieyasu",
+      "zh": "德川家康"
+    },
+    "born": 1543,
+    "died": 1616,
+    "role": {
+      "en": "Founder of the Tokugawa shogunate",
+      "zh": "德川幕府创立者"
+    },
+    "summary": {
+      "en": "A patient survivor of the Sengoku wars who moved his base to Edo in 1590, won at Sekigahara in 1600 and became shogun in 1603. After destroying the Toyotomi at Osaka he left a dynasty that ruled until 1867.",
+      "zh": "在战国乱世中隐忍求存，1590年移封江户，1600年赢得关原之战，1603年就任将军。在大坂之役消灭丰臣氏后，他所建立的德川家族统治日本直至1867年。"
+    },
+    "stops": [
+      {
+        "year": 1543,
+        "lat": 34.956,
+        "lon": 137.159,
+        "label": {
+          "en": "Born at Okazaki Castle",
+          "zh": "生于冈崎城"
+        }
+      },
+      {
+        "year": 1590,
+        "lat": 35.6839,
+        "lon": 139.7744,
+        "label": {
+          "en": "Moves to Edo",
+          "zh": "移封江户"
+        }
+      },
+      {
+        "year": 1600,
+        "lat": 35.3705,
+        "lon": 136.4616,
+        "label": {
+          "en": "Victory at Sekigahara",
+          "zh": "关原之战获胜"
+        }
+      },
+      {
+        "year": 1603,
+        "lat": 35.6839,
+        "lon": 139.7744,
+        "label": {
+          "en": "Becomes shogun; Edo seat of government",
+          "zh": "就任将军，以江户为政治中心"
+        }
+      },
+      {
+        "year": 1607,
+        "lat": 34.98,
+        "lon": 138.38,
+        "label": {
+          "en": "Rules as retired shogun from Sunpu",
+          "zh": "以大御所身份坐镇骏府"
+        }
+      },
+      {
+        "year": 1615,
+        "lat": 34.6873,
+        "lon": 135.5259,
+        "label": {
+          "en": "Takes Osaka Castle",
+          "zh": "攻陷大坂城"
+        }
+      },
+      {
+        "year": 1616,
+        "lat": 34.98,
+        "lon": 138.38,
+        "label": {
+          "en": "Dies at Sunpu",
+          "zh": "卒于骏府"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Tokugawa Ieyasu",
+        "url": "https://www.britannica.com/biography/Tokugawa-Ieyasu"
+      },
+      {
+        "title": "Conrad Totman, A History of Japan (Blackwell, 2nd ed. 2005)"
+      },
+      {
+        "title": "The Cambridge History of Japan, Vol. 4: Early Modern Japan (1991)"
+      },
+      {
+        "title": "Wikipedia: Tokugawa Ieyasu",
+        "url": "https://en.wikipedia.org/wiki/Tokugawa_Ieyasu"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-sejong",
+    "qid": "Q37682",
+    "region": "east-asia",
+    "name": {
+      "en": "Sejong the Great",
+      "zh": "朝鲜世宗"
+    },
+    "born": 1397,
+    "died": 1450,
+    "role": {
+      "en": "King of Joseon",
+      "zh": "朝鲜国王"
+    },
+    "summary": {
+      "en": "The fourth king of Joseon (r. 1418–1450). He sponsored scholars of the Hall of Worthies, advances in astronomy, agriculture and music, northern frontier expansion and, above all, the creation of the Korean alphabet, Hangul.",
+      "zh": "朝鲜王朝第四代国王（1418—1450年在位）。他扶持集贤殿学者，推动天文、农学与音乐的发展，开拓北方疆域，最重要的成就是创制了朝鲜文字“训民正音”。"
+    },
+    "stops": [
+      {
+        "year": 1397,
+        "lat": 37.5796,
+        "lon": 126.977,
+        "label": {
+          "en": "Born in Hanseong",
+          "zh": "生于汉城"
+        }
+      },
+      {
+        "year": 1418,
+        "lat": 37.5796,
+        "lon": 126.977,
+        "label": {
+          "en": "Ascends the throne",
+          "zh": "即位"
+        }
+      },
+      {
+        "year": 1420,
+        "lat": 37.5796,
+        "lon": 126.977,
+        "label": {
+          "en": "Expands the Hall of Worthies (Jiphyeonjeon)",
+          "zh": "扩充集贤殿"
+        }
+      },
+      {
+        "year": 1434,
+        "lat": 42.4,
+        "lon": 129.7,
+        "label": {
+          "en": "Six Garrisons on the Tumen River established",
+          "zh": "于图们江设立六镇"
+        }
+      },
+      {
+        "year": 1443,
+        "lat": 37.5796,
+        "lon": 126.977,
+        "label": {
+          "en": "Creates Hangul",
+          "zh": "创制训民正音"
+        }
+      },
+      {
+        "year": 1450,
+        "lat": 37.5796,
+        "lon": 126.977,
+        "label": {
+          "en": "Dies in Hanseong",
+          "zh": "卒于汉城"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Sejong the Great",
+        "url": "https://www.britannica.com/biography/Sejong-Korean-ruler"
+      },
+      {
+        "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok), National Institute of Korean History",
+        "url": "https://sillok.history.go.kr/"
+      },
+      {
+        "title": "Ki-baik Lee, A New History of Korea (Harvard University Press, 1984)"
+      },
+      {
+        "title": "Wikipedia: Sejong the Great",
+        "url": "https://en.wikipedia.org/wiki/Sejong_the_Great"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-yi-sun-sin",
+    "qid": "Q50184",
+    "region": "east-asia",
+    "name": {
+      "en": "Yi Sun-sin",
+      "zh": "李舜臣"
+    },
+    "born": 1545,
+    "died": 1598,
+    "role": {
+      "en": "Joseon admiral",
+      "zh": "朝鲜水军将领"
+    },
+    "summary": {
+      "en": "Commander of the Joseon navy during the Imjin War, celebrated for his turtle ships and an unbroken record of victories that cut Japanese supply lines. He was killed by a bullet in his last battle at Noryang.",
+      "zh": "壬辰战争期间的朝鲜水军统帅，以龟船和屡战屡胜著称，切断了日军的海上补给线。在最后一战露梁海战中中弹殉国。"
+    },
+    "stops": [
+      {
+        "year": 1545,
+        "lat": 37.5665,
+        "lon": 126.978,
+        "label": {
+          "en": "Born in Hanseong",
+          "zh": "生于汉城"
+        }
+      },
+      {
+        "year": 1591,
+        "lat": 34.74,
+        "lon": 127.74,
+        "label": {
+          "en": "Appointed commander at Yeosu",
+          "zh": "出任全罗左水使，驻丽水"
+        }
+      },
+      {
+        "year": 1592,
+        "lat": 34.89,
+        "lon": 128.69,
+        "label": {
+          "en": "First victory at Okpo",
+          "zh": "玉浦海战首捷"
+        }
+      },
+      {
+        "year": 1592,
+        "lat": 34.7622,
+        "lon": 128.5025,
+        "label": {
+          "en": "Victory at Hansan Island",
+          "zh": "闲山岛大捷"
+        }
+      },
+      {
+        "year": 1597,
+        "lat": 34.5683,
+        "lon": 126.3078,
+        "label": {
+          "en": "Victory at Myeongnyang",
+          "zh": "鸣梁海战获胜"
+        }
+      },
+      {
+        "year": 1598,
+        "lat": 34.9453,
+        "lon": 127.8764,
+        "label": {
+          "en": "Killed at Noryang",
+          "zh": "殉国于露梁"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Yi Sun-sin",
+        "url": "https://www.britannica.com/biography/Yi-Sun-shin"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (War Diary, 1592–1598)"
+      },
+      {
+        "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok), National Institute of Korean History",
+        "url": "https://sillok.history.go.kr/"
+      },
+      {
+        "title": "Stephen Turnbull, Samurai Invasion: Japan's Korean War 1592–98 (Cassell, 2002)"
+      },
+      {
+        "title": "Wikipedia: Yi Sun-sin",
+        "url": "https://en.wikipedia.org/wiki/Yi_Sun-sin"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-emperor-meiji",
+    "qid": "Q174231",
+    "region": "east-asia",
+    "name": {
+      "en": "Emperor Meiji",
+      "zh": "明治天皇"
+    },
+    "born": 1852,
+    "died": 1912,
+    "role": {
+      "en": "Emperor of Japan",
+      "zh": "日本天皇"
+    },
+    "summary": {
+      "en": "Emperor from 1867 to 1912, in whose name the Meiji Restoration was carried out. During his reign Japan adopted a constitution, industrialised, and defeated China and Russia to become an imperial power.",
+      "zh": "1867至1912年在位的日本天皇，明治维新以其名义推行。在其治下，日本颁布宪法、实现工业化，并先后击败清朝与俄国，跻身帝国主义列强。"
+    },
+    "stops": [
+      {
+        "year": 1852,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Born in Kyoto",
+          "zh": "生于京都"
+        }
+      },
+      {
+        "year": 1867,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Accedes to the throne",
+          "zh": "践祚"
+        }
+      },
+      {
+        "year": 1868,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Restoration of imperial rule proclaimed",
+          "zh": "宣布王政复古"
+        }
+      },
+      {
+        "year": 1869,
+        "lat": 35.6852,
+        "lon": 139.7528,
+        "label": {
+          "en": "Moves to Tokyo",
+          "zh": "移居东京"
+        }
+      },
+      {
+        "year": 1889,
+        "lat": 35.6852,
+        "lon": 139.7528,
+        "label": {
+          "en": "Promulgates the Meiji Constitution",
+          "zh": "颁布大日本帝国宪法"
+        }
+      },
+      {
+        "year": 1912,
+        "lat": 35.6852,
+        "lon": 139.7528,
+        "label": {
+          "en": "Dies in Tokyo",
+          "zh": "卒于东京"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Emperor Meiji",
+        "url": "https://www.britannica.com/biography/Meiji"
+      },
+      {
+        "title": "Donald Keene, Emperor of Japan: Meiji and His World, 1852–1912 (Columbia University Press, 2002)"
+      },
+      {
+        "title": "Marius B. Jansen, The Making of Modern Japan (Harvard University Press, 2000)"
+      },
+      {
+        "title": "Wikipedia: Emperor Meiji",
+        "url": "https://en.wikipedia.org/wiki/Emperor_Meiji"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-sakamoto-ryoma",
+    "qid": "Q378450",
+    "region": "east-asia",
+    "name": {
+      "en": "Sakamoto Ryōma",
+      "zh": "坂本龙马"
+    },
+    "born": 1836,
+    "died": 1867,
+    "role": {
+      "en": "Restoration activist",
+      "zh": "幕末志士"
+    },
+    "summary": {
+      "en": "A low-ranking samurai from Tosa who left his domain to work for national reform. He founded a trading company in Nagasaki, brokered the Satsuma–Chōshū alliance in 1866 and proposed the peaceful return of power to the emperor, but was assassinated in Kyoto weeks later.",
+      "zh": "出身土佐藩的下级武士，脱藩投身维新事业。他在长崎创办龟山社中，1866年促成萨长同盟，并提出将政权和平奉还天皇的构想，数周后在京都遇刺身亡。"
+    },
+    "stops": [
+      {
+        "year": 1836,
+        "lat": 33.559,
+        "lon": 133.531,
+        "label": {
+          "en": "Born in Kōchi, Tosa",
+          "zh": "生于土佐高知"
+        }
+      },
+      {
+        "year": 1853,
+        "lat": 35.6839,
+        "lon": 139.7744,
+        "label": {
+          "en": "Studies swordsmanship in Edo",
+          "zh": "赴江户习剑"
+        }
+      },
+      {
+        "year": 1864,
+        "lat": 34.68,
+        "lon": 135.18,
+        "label": {
+          "en": "Kobe Naval Training Centre",
+          "zh": "入神户海军操练所"
+        }
+      },
+      {
+        "year": 1865,
+        "lat": 32.75,
+        "lon": 129.88,
+        "label": {
+          "en": "Founds the Kameyama Shachū in Nagasaki",
+          "zh": "在长崎创立龟山社中"
+        }
+      },
+      {
+        "year": 1866,
+        "lat": 35.0254,
+        "lon": 135.7621,
+        "label": {
+          "en": "Brokers the Satchō Alliance in Kyoto",
+          "zh": "在京都促成萨长同盟"
+        }
+      },
+      {
+        "year": 1867,
+        "lat": 35.004,
+        "lon": 135.769,
+        "label": {
+          "en": "Assassinated at the Ōmiya inn, Kyoto",
+          "zh": "在京都近江屋遇刺"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Sakamoto Ryōma",
+        "url": "https://www.britannica.com/biography/Sakamoto-Ryoma"
+      },
+      {
+        "title": "Marius B. Jansen, Sakamoto Ryōma and the Meiji Restoration (Princeton University Press, 1961)"
+      },
+      {
+        "title": "Marius B. Jansen, The Making of Modern Japan (Harvard University Press, 2000)"
+      },
+      {
+        "title": "Wikipedia: Sakamoto Ryōma",
+        "url": "https://en.wikipedia.org/wiki/Sakamoto_Ry%C5%8Dma"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-matsuo-basho",
+    "qid": "Q5676",
+    "name": {
+      "en": "Matsuo Bashō",
+      "zh": "松尾芭蕉"
+    },
+    "born": 1644,
+    "died": 1694,
+    "role": {
+      "en": "Haikai poet",
+      "zh": "俳谐诗人"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "A samurai's son from Iga, Bashō moved to Edo and turned haikai linked verse into a serious art valuing sabi and lightness. His travel journals, above all Oku no Hosomichi from the journey of 1689, blend prose and haiku; he died on the road in Osaka.",
+      "zh": "芭蕉出身伊贺的武士家庭，迁居江户后把俳谐连句提升为崇尚“寂”与“轻”的严肃艺术。他的纪行文，尤其是记述1689年旅行的《奥之细道》，融散文与俳句于一体；他病逝于旅途中的大阪。"
+    },
+    "stops": [
+      {
+        "year": 1644,
+        "lat": 34.75,
+        "lon": 136.1422,
+        "label": {
+          "en": "Born in Iga Province",
+          "zh": "生于伊贺国"
+        }
+      },
+      {
+        "year": 1672,
+        "lat": 35.6894,
+        "lon": 139.6917,
+        "label": {
+          "en": "Moves to Edo",
+          "zh": "迁居江户"
+        }
+      },
+      {
+        "year": 1680,
+        "lat": 35.6769,
+        "lon": 139.7969,
+        "label": {
+          "en": "Settles in the Bashō hut at Fukagawa",
+          "zh": "移居深川芭蕉庵"
+        }
+      },
+      {
+        "year": 1689,
+        "lat": 38.9866,
+        "lon": 141.1138,
+        "label": {
+          "en": "Oku no Hosomichi journey reaches Hiraizumi",
+          "zh": "奥之细道之旅抵达平泉"
+        }
+      },
+      {
+        "year": 1689,
+        "lat": 35.3594,
+        "lon": 136.6129,
+        "label": {
+          "en": "Journey ends at Ōgaki",
+          "zh": "旅程终于大垣"
+        }
+      },
+      {
+        "year": 1694,
+        "lat": 34.6938,
+        "lon": 135.5021,
+        "label": {
+          "en": "Dies in Osaka",
+          "zh": "卒于大阪"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Bashō",
+        "url": "https://www.britannica.com/biography/Basho-Japanese-poet"
+      },
+      {
+        "title": "Wikipedia: Matsuo Bashō",
+        "url": "https://en.wikipedia.org/wiki/Matsuo_Bashō"
+      },
+      {
+        "title": "Makoto Ueda, Matsuo Bashō (1970)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-shin-saimdang",
+    "qid": "Q464485",
+    "name": {
+      "en": "Shin Saimdang",
+      "zh": "申师任堂"
+    },
+    "born": 1504,
+    "died": 1551,
+    "role": {
+      "en": "Painter, calligrapher and poet",
+      "zh": "画家、书法家、诗人"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Born at Ojukheon in Gangneung, Shin Saimdang was admired for her paintings of plants and insects, her landscapes and her calligraphy. Mother of the Neo-Confucian scholar Yi I (Yulgok), she was later idealised as a model mother, and since 2009 her portrait has appeared on the 50,000-won note.",
+      "zh": "申师任堂生于江陵乌竹轩，以草虫图、山水画和书法著称。她是理学家李珥（栗谷）的母亲，后世被奉为贤母良妻的典范，2009年起其肖像印于韩国五万韩元纸币上。"
+    },
+    "stops": [
+      {
+        "year": 1504,
+        "lat": 37.7786,
+        "lon": 128.8778,
+        "label": {
+          "en": "Born at Ojukheon, Gangneung",
+          "zh": "生于江陵乌竹轩"
+        }
+      },
+      {
+        "year": 1522,
+        "lat": 37.7786,
+        "lon": 128.8778,
+        "label": {
+          "en": "Marries Yi Won-su",
+          "zh": "嫁李元秀"
+        }
+      },
+      {
+        "year": 1536,
+        "lat": 37.7786,
+        "lon": 128.8778,
+        "label": {
+          "en": "Gives birth to Yi I at Ojukheon",
+          "zh": "在乌竹轩生下李珥"
+        }
+      },
+      {
+        "year": 1541,
+        "lat": 37.56,
+        "lon": 126.99,
+        "label": {
+          "en": "Moves to Hanseong",
+          "zh": "迁居汉城"
+        }
+      },
+      {
+        "year": 1551,
+        "lat": 37.56,
+        "lon": 126.99,
+        "label": {
+          "en": "Dies in Hanseong",
+          "zh": "卒于汉城"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopedia of Korean Culture: 신사임당 (Shin Saimdang)",
+        "url": "https://encykorea.aks.ac.kr/Article/E0033467"
+      },
+      {
+        "title": "Wikipedia: Shin Saimdang",
+        "url": "https://en.wikipedia.org/wiki/Shin_Saimdang"
+      },
+      {
+        "title": "Britannica: Shin Saimdang",
+        "url": "https://www.britannica.com/biography/Shin-Saim-dang"
+      }
+    ],
+    "confidence": "high"
+  }
+]

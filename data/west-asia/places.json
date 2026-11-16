@@ -1,0 +1,2078 @@
+[
+  {
+    "id": "place-jerusalem",
+    "qid": "Q1218",
+    "lat": 31.7767,
+    "lon": 35.2342,
+    "region": "west-asia",
+    "modern": {
+      "en": "Jerusalem",
+      "zh": "耶路撒冷"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 135,
+        "name": {
+          "en": "Jerusalem (Hierosolyma)",
+          "zh": "耶路撒冷"
+        },
+        "polity": {
+          "en": "Roman client kingdom / Roman Judaea",
+          "zh": "罗马附庸国 / 罗马犹地亚"
+        }
+      },
+      {
+        "from": 135,
+        "to": 324,
+        "name": {
+          "en": "Aelia Capitolina",
+          "zh": "爱利亚加比多连"
+        },
+        "polity": {
+          "en": "Roman Empire",
+          "zh": "罗马帝国"
+        }
+      },
+      {
+        "from": 324,
+        "to": 638,
+        "name": {
+          "en": "Aelia / Hierosolyma",
+          "zh": "爱利亚 / 耶路撒冷"
+        },
+        "polity": {
+          "en": "Eastern Roman (Byzantine) Empire",
+          "zh": "东罗马（拜占庭）帝国"
+        }
+      },
+      {
+        "from": 638,
+        "to": 1099,
+        "name": {
+          "en": "Iliya / Bayt al-Maqdis / al-Quds",
+          "zh": "伊利亚 / 圣城（古德斯）"
+        },
+        "polity": {
+          "en": "Caliphates (Rashidun, Umayyad, Abbasid, Fatimid)",
+          "zh": "历代哈里发国（正统、倭马亚、阿拔斯、法蒂玛）"
+        }
+      },
+      {
+        "from": 1099,
+        "to": 1187,
+        "name": {
+          "en": "Jerusalem",
+          "zh": "耶路撒冷"
+        },
+        "polity": {
+          "en": "Kingdom of Jerusalem",
+          "zh": "耶路撒冷王国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1187,
+        "to": 1517,
+        "name": {
+          "en": "al-Quds",
+          "zh": "古德斯（耶路撒冷）"
+        },
+        "polity": {
+          "en": "Ayyubids, then Mamluk Sultanate",
+          "zh": "阿尤布王朝、马穆鲁克王朝"
+        }
+      },
+      {
+        "from": 1517,
+        "to": 1917,
+        "name": {
+          "en": "al-Quds (Kudüs)",
+          "zh": "古德斯（耶路撒冷）"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1917,
+        "to": 1948,
+        "name": {
+          "en": "Jerusalem / al-Quds",
+          "zh": "耶路撒冷"
+        },
+        "polity": {
+          "en": "British Mandate for Palestine",
+          "zh": "英属巴勒斯坦托管地"
+        },
+        "capital": true
+      },
+      {
+        "from": 1948,
+        "to": 1967,
+        "name": {
+          "en": "Jerusalem / al-Quds",
+          "zh": "耶路撒冷"
+        },
+        "polity": {
+          "en": "Divided: Israel (west), Jordan (east)",
+          "zh": "分治：以色列（西）、约旦（东）"
+        }
+      },
+      {
+        "from": 1967,
+        "to": null,
+        "name": {
+          "en": "Jerusalem (Yerushalayim) / al-Quds",
+          "zh": "耶路撒冷"
+        },
+        "polity": {
+          "en": "Israeli-controlled; status internationally disputed",
+          "zh": "以色列控制；国际地位存在争议"
+        }
+      }
+    ],
+    "summary": {
+      "en": "A city sacred to Judaism, Christianity and Islam. Hadrian refounded it as Aelia Capitolina after 135; Arabic usage moved from Iliya to al-Quds (\"the Holy\"). Its sovereignty, especially of East Jerusalem, remains disputed between Israel and the Palestinians.",
+      "zh": "犹太教、基督教和伊斯兰教共同的圣城。135年后哈德良将其重建为爱利亚加比多连；阿拉伯语称谓由“伊利亚”逐渐变为“古德斯”（意为“神圣”）。其主权，尤其是东耶路撒冷的地位，至今仍是以色列与巴勒斯坦之间的争议焦点。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Jerusalem",
+        "url": "https://www.britannica.com/place/Jerusalem"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Aelia Capitolina",
+        "url": "https://www.britannica.com/place/Aelia-Capitolina"
+      },
+      {
+        "title": "Wikipedia: Jerusalem",
+        "url": "https://en.wikipedia.org/wiki/Jerusalem"
+      }
+    ],
+    "confidence": "high",
+    "note": "Frankish rule briefly returned in 1229–1244; not shown as a separate span."
+  },
+  {
+    "id": "place-baghdad",
+    "qid": "Q1530",
+    "lat": 33.3153,
+    "lon": 44.3661,
+    "region": "west-asia",
+    "modern": {
+      "en": "Baghdad",
+      "zh": "巴格达"
+    },
+    "names": [
+      {
+        "from": 762,
+        "to": 1258,
+        "name": {
+          "en": "Madinat al-Salam (Baghdad)",
+          "zh": "和平之城（巴格达）"
+        },
+        "polity": {
+          "en": "Abbasid Caliphate",
+          "zh": "阿拔斯王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1258,
+        "to": 1534,
+        "name": {
+          "en": "Baghdad",
+          "zh": "巴格达"
+        },
+        "polity": {
+          "en": "Ilkhanate, Jalayirids, Turkmen dynasties, Safavids",
+          "zh": "伊利汗国、札剌亦儿王朝、土库曼诸王朝、萨法维王朝"
+        }
+      },
+      {
+        "from": 1534,
+        "to": 1917,
+        "name": {
+          "en": "Baghdad",
+          "zh": "巴格达"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1917,
+        "to": 1932,
+        "name": {
+          "en": "Baghdad",
+          "zh": "巴格达"
+        },
+        "polity": {
+          "en": "British occupation and Mandate; Kingdom of Iraq from 1921",
+          "zh": "英国占领与委任统治；1921年起为伊拉克王国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1932,
+        "to": null,
+        "name": {
+          "en": "Baghdad",
+          "zh": "巴格达"
+        },
+        "polity": {
+          "en": "Iraq",
+          "zh": "伊拉克"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "Founded by al-Mansur in 762 as the round city of Madinat al-Salam near an older village called Baghdad. Capital of the Abbasid caliphate until the Mongol sack of 1258, then a provincial centre under Ilkhanid, Safavid and Ottoman rule, and capital of Iraq since 1921.",
+      "zh": "762年由曼苏尔在名为“巴格达”的旧村附近建为圆城“和平之城”。在1258年蒙古攻陷前一直是阿拔斯王朝首都，此后在伊利汗国、萨法维和奥斯曼治下为地方中心，1921年起为伊拉克首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Baghdad",
+        "url": "https://www.britannica.com/place/Baghdad"
+      },
+      {
+        "title": "J. Lassner, The Topography of Baghdad in the Early Middle Ages (1970)"
+      },
+      {
+        "title": "Wikipedia: Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Baghdad"
+      }
+    ],
+    "confidence": "high",
+    "note": "Safavid control in 1508–1534 and 1624–1638 is folded into the adjacent spans."
+  },
+  {
+    "id": "place-isfahan",
+    "qid": "Q42053",
+    "lat": 32.6525,
+    "lon": 51.6747,
+    "region": "west-asia",
+    "modern": {
+      "en": "Isfahan",
+      "zh": "伊斯法罕"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 224,
+        "name": {
+          "en": "Aspadana / Gabae",
+          "zh": "阿斯帕达纳"
+        },
+        "polity": {
+          "en": "Parthian Empire",
+          "zh": "安息帝国"
+        }
+      },
+      {
+        "from": 224,
+        "to": 642,
+        "name": {
+          "en": "Spahan",
+          "zh": "斯帕汉"
+        },
+        "polity": {
+          "en": "Sasanian Empire",
+          "zh": "萨珊王朝"
+        }
+      },
+      {
+        "from": 642,
+        "to": 1501,
+        "name": {
+          "en": "Isfahan (Esfahan)",
+          "zh": "伊斯法罕"
+        },
+        "polity": {
+          "en": "Caliphates, Buyids, Seljuks (capital), Ilkhanate, Timurids",
+          "zh": "哈里发国、布韦希、塞尔柱（首都）、伊利汗国、帖木儿"
+        }
+      },
+      {
+        "from": 1501,
+        "to": 1598,
+        "name": {
+          "en": "Isfahan",
+          "zh": "伊斯法罕"
+        },
+        "polity": {
+          "en": "Safavid Iran",
+          "zh": "萨法维王朝"
+        }
+      },
+      {
+        "from": 1598,
+        "to": 1722,
+        "name": {
+          "en": "Isfahan",
+          "zh": "伊斯法罕"
+        },
+        "polity": {
+          "en": "Safavid Iran",
+          "zh": "萨法维王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1722,
+        "to": 1925,
+        "name": {
+          "en": "Isfahan",
+          "zh": "伊斯法罕"
+        },
+        "polity": {
+          "en": "Hotaki, Afsharid, Zand and Qajar Iran",
+          "zh": "霍塔克、阿夫沙尔、赞德与卡扎尔伊朗"
+        }
+      },
+      {
+        "from": 1925,
+        "to": null,
+        "name": {
+          "en": "Isfahan",
+          "zh": "伊斯法罕"
+        },
+        "polity": {
+          "en": "Iran",
+          "zh": "伊朗"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Known in antiquity as Aspadana and to the Sasanians as Spahan, the city was a Seljuk capital and reached its height after Shah Abbas I made it the Safavid capital in 1598, until the Afghan conquest of 1722.",
+      "zh": "古称阿斯帕达纳，萨珊时期称斯帕汉，曾为塞尔柱王朝都城；1598年阿拔斯一世定都于此后达到鼎盛，直至1722年阿富汗人攻陷。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Esfahan",
+        "url": "https://www.britannica.com/place/Esfahan"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Isfahan (multi-part article)"
+      },
+      {
+        "title": "Wikipedia: Isfahan",
+        "url": "https://en.wikipedia.org/wiki/Isfahan"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The identification of ancient Aspadana/Gabae with Isfahan is generally accepted but approximate."
+  },
+  {
+    "id": "place-tbilisi",
+    "qid": "Q994",
+    "lat": 41.7225,
+    "lon": 44.7925,
+    "region": "west-asia",
+    "modern": {
+      "en": "Tbilisi",
+      "zh": "第比利斯"
+    },
+    "names": [
+      {
+        "from": 455,
+        "to": 736,
+        "name": {
+          "en": "Tpilisi",
+          "zh": "第比利斯"
+        },
+        "polity": {
+          "en": "Kingdom of Iberia (Kartli)",
+          "zh": "伊比利亚（卡特利）王国"
+        },
+        "capital": true
+      },
+      {
+        "from": 736,
+        "to": 1122,
+        "name": {
+          "en": "Tiflis",
+          "zh": "梯弗里斯"
+        },
+        "polity": {
+          "en": "Emirate of Tbilisi (under the caliphate)",
+          "zh": "第比利斯埃米尔国（哈里发治下）"
+        },
+        "capital": true
+      },
+      {
+        "from": 1122,
+        "to": 1801,
+        "name": {
+          "en": "Tbilisi (Tiflis)",
+          "zh": "第比利斯"
+        },
+        "polity": {
+          "en": "Kingdom of Georgia; Kartli and Kartli-Kakheti",
+          "zh": "格鲁吉亚王国；卡特利及卡特利-卡赫季王国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1801,
+        "to": 1918,
+        "name": {
+          "en": "Tiflis",
+          "zh": "梯弗里斯"
+        },
+        "polity": {
+          "en": "Russian Empire",
+          "zh": "俄罗斯帝国"
+        }
+      },
+      {
+        "from": 1918,
+        "to": 1921,
+        "name": {
+          "en": "Tiflis",
+          "zh": "梯弗里斯"
+        },
+        "polity": {
+          "en": "Democratic Republic of Georgia",
+          "zh": "格鲁吉亚民主共和国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1921,
+        "to": 1936,
+        "name": {
+          "en": "Tiflis",
+          "zh": "梯弗里斯"
+        },
+        "polity": {
+          "en": "Georgian SSR (Soviet Union)",
+          "zh": "格鲁吉亚苏维埃社会主义共和国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1936,
+        "to": 1991,
+        "name": {
+          "en": "Tbilisi",
+          "zh": "第比利斯"
+        },
+        "polity": {
+          "en": "Georgian SSR (Soviet Union)",
+          "zh": "格鲁吉亚苏维埃社会主义共和国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1991,
+        "to": null,
+        "name": {
+          "en": "Tbilisi",
+          "zh": "第比利斯"
+        },
+        "polity": {
+          "en": "Georgia",
+          "zh": "格鲁吉亚"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "Founded by King Vakhtang Gorgasali in the 5th century near hot springs (Georgian tbili, \"warm\"). Under Arab emirs for four centuries, it was retaken by David IV in 1122. The Russian form Tiflis was officially replaced by Tbilisi in 1936.",
+      "zh": "5世纪由瓦赫坦·戈尔加萨利国王在温泉附近建立（格鲁吉亚语tbili意为“温暖”）。阿拉伯埃米尔统治约四百年后，1122年被大卫四世收复。俄语名称“梯弗里斯”于1936年正式改为“第比利斯”。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Tbilisi",
+        "url": "https://www.britannica.com/place/Tbilisi"
+      },
+      {
+        "title": "D. Rayfield, Edge of Empires: A History of Georgia (2012)"
+      },
+      {
+        "title": "Wikipedia: Tbilisi",
+        "url": "https://en.wikipedia.org/wiki/Tbilisi"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Founding c. 455–479 is traditional; capital status shifted between Tbilisi and other towns at times."
+  },
+  {
+    "id": "place-ankara",
+    "qid": "Q3640",
+    "lat": 39.9358,
+    "lon": 32.8387,
+    "region": "west-asia",
+    "modern": {
+      "en": "Ankara",
+      "zh": "安卡拉"
+    },
+    "names": [
+      {
+        "from": -25,
+        "to": 395,
+        "name": {
+          "en": "Ancyra",
+          "zh": "安基拉"
+        },
+        "polity": {
+          "en": "Roman Empire (capital of Galatia)",
+          "zh": "罗马帝国（加拉太行省首府）"
+        }
+      },
+      {
+        "from": 395,
+        "to": 1073,
+        "name": {
+          "en": "Ankyra",
+          "zh": "安基拉"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 1073,
+        "to": 1354,
+        "name": {
+          "en": "Ankara / Engürü",
+          "zh": "安卡拉"
+        },
+        "polity": {
+          "en": "Seljuks of Rum and Turkish beyliks",
+          "zh": "罗姆塞尔柱及突厥诸侯国"
+        }
+      },
+      {
+        "from": 1354,
+        "to": 1923,
+        "name": {
+          "en": "Engürü (Angora)",
+          "zh": "安卡拉（安哥拉）"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1923,
+        "to": 1930,
+        "name": {
+          "en": "Ankara (Angora)",
+          "zh": "安卡拉"
+        },
+        "polity": {
+          "en": "Republic of Turkey",
+          "zh": "土耳其共和国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1930,
+        "to": null,
+        "name": {
+          "en": "Ankara",
+          "zh": "安卡拉"
+        },
+        "polity": {
+          "en": "Republic of Turkey",
+          "zh": "土耳其共和国"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "Ancient Ancyra, capital of the Roman province of Galatia and site of the Monumentum Ancyranum. Under the Ottomans it was known in the West as Angora, famous for its goats' wool. Atatürk made it the base of the national movement in 1920 and the capital of the Republic in 1923.",
+      "zh": "古称安基拉，罗马加拉太行省首府，存有《奥古斯都功业录》铭文。奥斯曼时期在西方称安哥拉，以安哥拉山羊毛著称。1920年阿塔图尔克以此为民族运动基地，1923年定为共和国首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Ankara",
+        "url": "https://www.britannica.com/place/Ankara"
+      },
+      {
+        "title": "C. Foss, \"Late Antique and Byzantine Ankara\", Dumbarton Oaks Papers 31 (1977)"
+      },
+      {
+        "title": "Wikipedia: Ankara",
+        "url": "https://en.wikipedia.org/wiki/Ankara"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Turkish control after 1073 was interrupted; the date of Ottoman capture (1354) follows the usual account. Western use of \"Angora\" ended after the 1930 postal law."
+  },
+  {
+    "id": "place-izmir",
+    "qid": "Q35997",
+    "lat": 38.4127,
+    "lon": 27.1384,
+    "region": "west-asia",
+    "modern": {
+      "en": "İzmir",
+      "zh": "伊兹密尔"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 395,
+        "name": {
+          "en": "Smyrna",
+          "zh": "士麦那"
+        },
+        "polity": {
+          "en": "Roman Empire (province of Asia)",
+          "zh": "罗马帝国（亚细亚行省）"
+        }
+      },
+      {
+        "from": 395,
+        "to": 1317,
+        "name": {
+          "en": "Smyrna",
+          "zh": "士麦那"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 1317,
+        "to": 1426,
+        "name": {
+          "en": "İzmir / Smyrna",
+          "zh": "伊兹密尔 / 士麦那"
+        },
+        "polity": {
+          "en": "Aydınid beylik (harbour castle held by the Knights Hospitaller 1344–1402)",
+          "zh": "艾登侯国（港口城堡1344—1402年由医院骑士团据守）"
+        }
+      },
+      {
+        "from": 1426,
+        "to": 1919,
+        "name": {
+          "en": "İzmir (Smyrna)",
+          "zh": "伊兹密尔（士麦那）"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1919,
+        "to": 1922,
+        "name": {
+          "en": "Smyrni",
+          "zh": "士麦那"
+        },
+        "polity": {
+          "en": "Greek administration",
+          "zh": "希腊管治"
+        }
+      },
+      {
+        "from": 1922,
+        "to": null,
+        "name": {
+          "en": "İzmir",
+          "zh": "伊兹密尔"
+        },
+        "polity": {
+          "en": "Turkey",
+          "zh": "土耳其"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Ancient Smyrna was one of the great ports of Roman Asia and an early Christian centre. Contested between Turkish emirs, Byzantines and crusading knights, it became Ottoman in the 15th century and a cosmopolitan trading city; it was occupied by Greece in 1919 and largely burned in 1922.",
+      "zh": "古城士麦那是罗马亚细亚行省的大港之一和早期基督教中心。曾在突厥埃米尔、拜占庭和十字军骑士之间反复易手，15世纪归入奥斯曼，成为多元的贸易城市；1919年被希腊占领，1922年大部分毁于大火。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Izmir",
+        "url": "https://www.britannica.com/place/Izmir"
+      },
+      {
+        "title": "P. Mansel, Levant: Splendour and Catastrophe on the Mediterranean (2010)"
+      },
+      {
+        "title": "Wikipedia: İzmir",
+        "url": "https://en.wikipedia.org/wiki/%C4%B0zmir"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Byzantine rule was interrupted by the emir Tzachas (c. 1081–1097); Ottoman control was definitive from c. 1426."
+  },
+  {
+    "id": "place-trabzon",
+    "qid": "Q45301",
+    "lat": 41.005,
+    "lon": 39.7225,
+    "region": "west-asia",
+    "modern": {
+      "en": "Trabzon",
+      "zh": "特拉布宗"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 395,
+        "name": {
+          "en": "Trapezus",
+          "zh": "特拉佩祖斯"
+        },
+        "polity": {
+          "en": "Kingdom of Pontus / Roman Empire",
+          "zh": "本都王国 / 罗马帝国"
+        }
+      },
+      {
+        "from": 395,
+        "to": 1204,
+        "name": {
+          "en": "Trebizond (Trapezous)",
+          "zh": "特拉比松"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 1204,
+        "to": 1461,
+        "name": {
+          "en": "Trebizond",
+          "zh": "特拉比松"
+        },
+        "polity": {
+          "en": "Empire of Trebizond",
+          "zh": "特拉比松帝国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1461,
+        "to": 1923,
+        "name": {
+          "en": "Trabzon (Trebizond)",
+          "zh": "特拉布宗"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1923,
+        "to": null,
+        "name": {
+          "en": "Trabzon",
+          "zh": "特拉布宗"
+        },
+        "polity": {
+          "en": "Turkey",
+          "zh": "土耳其"
+        }
+      }
+    ],
+    "summary": {
+      "en": "A Greek colony on the Black Sea, Trapezus was a Roman port and later a Byzantine stronghold. From 1204 it was capital of the Komnenian Empire of Trebizond, the last Byzantine successor state, until Mehmed II took it in 1461.",
+      "zh": "黑海沿岸的希腊殖民城市特拉佩祖斯，曾为罗马港口和拜占庭要塞。1204年起为科穆宁家族特拉比松帝国的首都，这是最后一个拜占庭继承国，1461年被穆罕默德二世攻占。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Trabzon",
+        "url": "https://www.britannica.com/place/Trabzon-Turkey"
+      },
+      {
+        "title": "A. Bryer, The Empire of Trebizond and the Pontos (1980)"
+      },
+      {
+        "title": "Wikipedia: Trabzon",
+        "url": "https://en.wikipedia.org/wiki/Trabzon"
+      }
+    ],
+    "confidence": "high",
+    "note": "Pontus was annexed to Rome in stages (64 CE for eastern Pontus)."
+  },
+  {
+    "id": "place-antakya",
+    "qid": "Q80561",
+    "lat": 36.2025,
+    "lon": 36.1606,
+    "region": "west-asia",
+    "modern": {
+      "en": "Antakya",
+      "zh": "安塔基亚"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 395,
+        "name": {
+          "en": "Antiochia (Antioch)",
+          "zh": "安条克"
+        },
+        "polity": {
+          "en": "Roman Empire (capital of Syria)",
+          "zh": "罗马帝国（叙利亚行省首府）"
+        }
+      },
+      {
+        "from": 395,
+        "to": 637,
+        "name": {
+          "en": "Antioch",
+          "zh": "安条克"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 637,
+        "to": 969,
+        "name": {
+          "en": "Antakiya",
+          "zh": "安塔基亚"
+        },
+        "polity": {
+          "en": "Caliphates and Hamdanids",
+          "zh": "历代哈里发国与哈姆丹王朝"
+        }
+      },
+      {
+        "from": 969,
+        "to": 1084,
+        "name": {
+          "en": "Antioch",
+          "zh": "安条克"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 1084,
+        "to": 1098,
+        "name": {
+          "en": "Antakiya",
+          "zh": "安塔基亚"
+        },
+        "polity": {
+          "en": "Seljuks",
+          "zh": "塞尔柱王朝"
+        }
+      },
+      {
+        "from": 1098,
+        "to": 1268,
+        "name": {
+          "en": "Antioch",
+          "zh": "安条克"
+        },
+        "polity": {
+          "en": "Principality of Antioch",
+          "zh": "安条克公国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1268,
+        "to": 1516,
+        "name": {
+          "en": "Antakiya",
+          "zh": "安塔基亚"
+        },
+        "polity": {
+          "en": "Mamluk Sultanate",
+          "zh": "马穆鲁克王朝"
+        }
+      },
+      {
+        "from": 1516,
+        "to": 1918,
+        "name": {
+          "en": "Antakya",
+          "zh": "安塔基亚"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1918,
+        "to": 1938,
+        "name": {
+          "en": "Antioche / Antakya",
+          "zh": "安塔基亚"
+        },
+        "polity": {
+          "en": "French Mandate (Sanjak of Alexandretta)",
+          "zh": "法国委任统治（亚历山大勒塔区）"
+        }
+      },
+      {
+        "from": 1938,
+        "to": 1939,
+        "name": {
+          "en": "Antakya",
+          "zh": "安塔基亚"
+        },
+        "polity": {
+          "en": "Hatay State",
+          "zh": "哈塔伊国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1939,
+        "to": null,
+        "name": {
+          "en": "Antakya",
+          "zh": "安塔基亚"
+        },
+        "polity": {
+          "en": "Turkey",
+          "zh": "土耳其"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Founded by Seleucus I around 300 BCE, Antioch was one of the largest cities of the Roman East and the place where followers of Jesus were first called Christians. Repeatedly ruined by earthquakes and wars, it was a crusader principality capital and joined Turkey in 1939.",
+      "zh": "约公元前300年由塞琉古一世建立，安条克是罗马东方最大的城市之一，耶稣的追随者在此首次被称为“基督徒”。屡遭地震和战乱摧残，曾为十字军安条克公国首都，1939年并入土耳其。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Antioch",
+        "url": "https://www.britannica.com/place/Antioch-modern-and-ancient-city-south-central-Turkey"
+      },
+      {
+        "title": "G. Downey, A History of Antioch in Syria from Seleucus to the Arab Conquest (1961)"
+      },
+      {
+        "title": "Wikipedia: Antakya",
+        "url": "https://en.wikipedia.org/wiki/Antakya"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-urfa",
+    "qid": "Q133118",
+    "lat": 37.1583,
+    "lon": 38.7917,
+    "region": "west-asia",
+    "modern": {
+      "en": "Şanlıurfa",
+      "zh": "尚勒乌尔法"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 214,
+        "name": {
+          "en": "Edessa (Urhay)",
+          "zh": "埃德萨（乌尔海）"
+        },
+        "polity": {
+          "en": "Kingdom of Osroene",
+          "zh": "奥斯若恩王国"
+        },
+        "capital": true
+      },
+      {
+        "from": 214,
+        "to": 395,
+        "name": {
+          "en": "Edessa",
+          "zh": "埃德萨"
+        },
+        "polity": {
+          "en": "Roman Empire",
+          "zh": "罗马帝国"
+        }
+      },
+      {
+        "from": 395,
+        "to": 638,
+        "name": {
+          "en": "Edessa",
+          "zh": "埃德萨"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 638,
+        "to": 1031,
+        "name": {
+          "en": "al-Ruha",
+          "zh": "鲁哈"
+        },
+        "polity": {
+          "en": "Caliphates and successor emirates",
+          "zh": "历代哈里发国及埃米尔国"
+        }
+      },
+      {
+        "from": 1031,
+        "to": 1098,
+        "name": {
+          "en": "Edessa",
+          "zh": "埃德萨"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 1098,
+        "to": 1144,
+        "name": {
+          "en": "Edessa",
+          "zh": "埃德萨"
+        },
+        "polity": {
+          "en": "County of Edessa",
+          "zh": "埃德萨伯国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1144,
+        "to": 1517,
+        "name": {
+          "en": "al-Ruha / Urfa",
+          "zh": "鲁哈 / 乌尔法"
+        },
+        "polity": {
+          "en": "Zengids, Ayyubids, Mongols, Mamluks, Aq Qoyunlu",
+          "zh": "赞吉、阿尤布、蒙古、马穆鲁克、白羊王朝"
+        }
+      },
+      {
+        "from": 1517,
+        "to": 1923,
+        "name": {
+          "en": "Urfa",
+          "zh": "乌尔法"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1923,
+        "to": 1984,
+        "name": {
+          "en": "Urfa",
+          "zh": "乌尔法"
+        },
+        "polity": {
+          "en": "Turkey",
+          "zh": "土耳其"
+        }
+      },
+      {
+        "from": 1984,
+        "to": null,
+        "name": {
+          "en": "Şanlıurfa",
+          "zh": "尚勒乌尔法"
+        },
+        "polity": {
+          "en": "Turkey",
+          "zh": "土耳其"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Edessa, capital of the kingdom of Osroene, was a cradle of Syriac Christianity. Its Arabic name al-Ruha comes from the Syriac Urhay, the root of modern Urfa. It was the first crusader state (1098–1144), and received the honorific \"Şanlı\" (glorious) in 1984.",
+      "zh": "埃德萨是奥斯若恩王国都城，也是叙利亚语基督教的摇篮。阿拉伯语名“鲁哈”源于叙利亚语“乌尔海”，也是今名“乌尔法”的来源。它是第一个十字军国家（1098—1144年）的中心，1984年获“尚勒”（光荣）称号。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Sanliurfa",
+        "url": "https://www.britannica.com/place/Sanliurfa"
+      },
+      {
+        "title": "J. B. Segal, Edessa: \"The Blessed City\" (1970)"
+      },
+      {
+        "title": "Wikipedia: Urfa",
+        "url": "https://en.wikipedia.org/wiki/Urfa"
+      }
+    ],
+    "confidence": "medium",
+    "note": "End of Osroene's independence is dated variously 214–242; Sasanian occupation 609–628 is not shown."
+  },
+  {
+    "id": "place-mosul",
+    "qid": "Q83317",
+    "lat": 36.3417,
+    "lon": 43.1292,
+    "region": "west-asia",
+    "modern": {
+      "en": "Mosul",
+      "zh": "摩苏尔"
+    },
+    "names": [
+      {
+        "from": 224,
+        "to": 641,
+        "name": {
+          "en": "Nineveh area (Ninwe; fortress opposite the ruins)",
+          "zh": "尼尼微一带（尼尼微遗址对岸的要塞）"
+        },
+        "polity": {
+          "en": "Sasanian Empire",
+          "zh": "萨珊王朝"
+        }
+      },
+      {
+        "from": 641,
+        "to": 1127,
+        "name": {
+          "en": "al-Mawsil",
+          "zh": "摩苏尔"
+        },
+        "polity": {
+          "en": "Caliphates, Hamdanids, Uqaylids, Seljuks",
+          "zh": "历代哈里发国、哈姆丹、乌盖勒、塞尔柱"
+        }
+      },
+      {
+        "from": 1127,
+        "to": 1262,
+        "name": {
+          "en": "al-Mawsil",
+          "zh": "摩苏尔"
+        },
+        "polity": {
+          "en": "Zengids and Lu'lu'ids",
+          "zh": "赞吉王朝与卢卢王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1262,
+        "to": 1535,
+        "name": {
+          "en": "Mosul",
+          "zh": "摩苏尔"
+        },
+        "polity": {
+          "en": "Ilkhanate and successor dynasties",
+          "zh": "伊利汗国及其后继王朝"
+        }
+      },
+      {
+        "from": 1535,
+        "to": 1918,
+        "name": {
+          "en": "Musul",
+          "zh": "摩苏尔"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1918,
+        "to": 1932,
+        "name": {
+          "en": "Mosul",
+          "zh": "摩苏尔"
+        },
+        "polity": {
+          "en": "British occupation and Mandate of Iraq",
+          "zh": "英国占领与伊拉克委任统治"
+        }
+      },
+      {
+        "from": 1932,
+        "to": null,
+        "name": {
+          "en": "Mosul",
+          "zh": "摩苏尔"
+        },
+        "polity": {
+          "en": "Iraq",
+          "zh": "伊拉克"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Mosul grew on the west bank of the Tigris opposite the ruins of Assyrian Nineveh. Taken by the Arabs in 641, it flourished as a Zengid capital and trading centre, gave its name to muslin, and was held by ISIS in 2014–2017.",
+      "zh": "摩苏尔位于底格里斯河西岸，与亚述古都尼尼微遗址隔河相望。641年被阿拉伯人攻占，曾作为赞吉王朝都城和商贸中心而繁荣，“平纹细布”（muslin）一词即源于其名；2014—2017年被“伊斯兰国”占据。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Mosul",
+        "url": "https://www.britannica.com/place/Mosul"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Nineveh",
+        "url": "https://www.britannica.com/place/Nineveh-ancient-city-Iraq"
+      },
+      {
+        "title": "Wikipedia: Mosul",
+        "url": "https://en.wikipedia.org/wiki/Mosul"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The pre-Islamic settlement and its name are poorly documented; the first span is approximate."
+  },
+  {
+    "id": "place-tehran",
+    "qid": "Q3616",
+    "lat": 35.6889,
+    "lon": 51.3897,
+    "region": "west-asia",
+    "modern": {
+      "en": "Tehran",
+      "zh": "德黑兰"
+    },
+    "names": [
+      {
+        "from": 1220,
+        "to": 1501,
+        "name": {
+          "en": "Tehran (village near Rey)",
+          "zh": "德黑兰（剌夷附近村落）"
+        },
+        "polity": {
+          "en": "Ilkhanate and successor dynasties",
+          "zh": "伊利汗国及其后继王朝"
+        }
+      },
+      {
+        "from": 1501,
+        "to": 1786,
+        "name": {
+          "en": "Tehran",
+          "zh": "德黑兰"
+        },
+        "polity": {
+          "en": "Safavid, Afsharid and Zand Iran",
+          "zh": "萨法维、阿夫沙尔与赞德伊朗"
+        }
+      },
+      {
+        "from": 1786,
+        "to": 1925,
+        "name": {
+          "en": "Tehran",
+          "zh": "德黑兰"
+        },
+        "polity": {
+          "en": "Qajar Iran",
+          "zh": "卡扎尔王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1925,
+        "to": 1979,
+        "name": {
+          "en": "Tehran",
+          "zh": "德黑兰"
+        },
+        "polity": {
+          "en": "Pahlavi Iran",
+          "zh": "巴列维王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1979,
+        "to": null,
+        "name": {
+          "en": "Tehran",
+          "zh": "德黑兰"
+        },
+        "polity": {
+          "en": "Islamic Republic of Iran",
+          "zh": "伊朗伊斯兰共和国"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "A village near the great city of Rey, Tehran grew after the Mongols destroyed Rey in 1220. Shah Tahmasp I walled it in the 16th century, and Agha Mohammad Khan Qajar made it his capital; it has been the capital of Iran ever since.",
+      "zh": "德黑兰原是大城剌夷附近的村落，1220年蒙古人毁灭剌夷后逐渐兴起。16世纪塔赫玛斯普一世为其筑城墙，阿迦·穆罕默德汗·卡扎尔定都于此，此后一直是伊朗首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Tehran",
+        "url": "https://www.britannica.com/place/Tehran"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Tehran",
+        "url": "https://www.iranicaonline.org/articles/tehran-i"
+      },
+      {
+        "title": "Wikipedia: Tehran",
+        "url": "https://en.wikipedia.org/wiki/Tehran"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Capital from 1786 per most sources; Wikidata gives 1794 as an inception-type date."
+  },
+  {
+    "id": "place-ctesiphon",
+    "qid": "Q192541",
+    "lat": 33.0936,
+    "lon": 44.5808,
+    "region": "west-asia",
+    "modern": {
+      "en": "Salman Pak (Ctesiphon ruins)",
+      "zh": "萨勒曼帕克（泰西封遗址）"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 224,
+        "name": {
+          "en": "Ctesiphon",
+          "zh": "泰西封"
+        },
+        "polity": {
+          "en": "Parthian Empire",
+          "zh": "安息帝国"
+        },
+        "capital": true
+      },
+      {
+        "from": 224,
+        "to": 637,
+        "name": {
+          "en": "Ctesiphon (Tisfun)",
+          "zh": "泰西封"
+        },
+        "polity": {
+          "en": "Sasanian Empire",
+          "zh": "萨珊王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 637,
+        "to": 762,
+        "name": {
+          "en": "al-Mada'in (\"the cities\")",
+          "zh": "麦达因（“诸城”）"
+        },
+        "polity": {
+          "en": "Rashidun, Umayyad and Abbasid caliphates",
+          "zh": "正统、倭马亚与阿拔斯哈里发国"
+        }
+      },
+      {
+        "from": 762,
+        "to": 1932,
+        "name": {
+          "en": "al-Mada'in (ruins)",
+          "zh": "麦达因（废墟）"
+        },
+        "polity": {
+          "en": "Abbasids and successive states",
+          "zh": "阿拔斯王朝及后继诸国"
+        }
+      },
+      {
+        "from": 1932,
+        "to": null,
+        "name": {
+          "en": "Salman Pak",
+          "zh": "萨勒曼帕克"
+        },
+        "polity": {
+          "en": "Iraq",
+          "zh": "伊拉克"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Twin city on the Tigris, with Seleucia opposite, that served as the Parthian and Sasanian capital. The Arabs called the conurbation al-Mada'in; it declined after Baghdad was founded. The great arch of the Taq-i Kisra still stands at Salman Pak, named after the companion Salman al-Farisi.",
+      "zh": "泰西封与对岸的塞琉西亚组成底格里斯河畔的双城，是安息和萨珊的都城。阿拉伯人称这一城市群为“麦达因”，巴格达建立后逐渐衰落。著名的霍斯劳拱门至今矗立在以圣门弟子萨勒曼·法尔西命名的萨勒曼帕克。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Ctesiphon",
+        "url": "https://www.britannica.com/place/Ctesiphon-ancient-city-Iraq"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Ctesiphon"
+      },
+      {
+        "title": "Wikipedia: Ctesiphon",
+        "url": "https://en.wikipedia.org/wiki/Ctesiphon"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The modern name Salman Pak predates Iraqi independence; the 1932 boundary only marks the state change."
+  },
+  {
+    "id": "place-damascus",
+    "qid": "Q3766",
+    "lat": 33.5131,
+    "lon": 36.2919,
+    "region": "west-asia",
+    "modern": {
+      "en": "Damascus",
+      "zh": "大马士革"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 395,
+        "name": {
+          "en": "Damascus",
+          "zh": "大马士革"
+        },
+        "polity": {
+          "en": "Roman Empire (Syria)",
+          "zh": "罗马帝国（叙利亚）"
+        }
+      },
+      {
+        "from": 395,
+        "to": 634,
+        "name": {
+          "en": "Damascus",
+          "zh": "大马士革"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 634,
+        "to": 661,
+        "name": {
+          "en": "Dimashq",
+          "zh": "迪马什克"
+        },
+        "polity": {
+          "en": "Rashidun Caliphate",
+          "zh": "正统哈里发国"
+        }
+      },
+      {
+        "from": 661,
+        "to": 750,
+        "name": {
+          "en": "Dimashq",
+          "zh": "迪马什克"
+        },
+        "polity": {
+          "en": "Umayyad Caliphate",
+          "zh": "倭马亚王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 750,
+        "to": 1076,
+        "name": {
+          "en": "Dimashq",
+          "zh": "迪马什克"
+        },
+        "polity": {
+          "en": "Abbasids, Tulunids, Ikhshidids, Fatimids",
+          "zh": "阿拔斯、图伦、伊赫什德、法蒂玛"
+        }
+      },
+      {
+        "from": 1076,
+        "to": 1260,
+        "name": {
+          "en": "Dimashq",
+          "zh": "迪马什克"
+        },
+        "polity": {
+          "en": "Seljuks, Burids, Zengids, Ayyubids",
+          "zh": "塞尔柱、布里德、赞吉、阿尤布"
+        }
+      },
+      {
+        "from": 1260,
+        "to": 1516,
+        "name": {
+          "en": "Dimashq",
+          "zh": "迪马什克"
+        },
+        "polity": {
+          "en": "Mamluk Sultanate",
+          "zh": "马穆鲁克王朝"
+        }
+      },
+      {
+        "from": 1516,
+        "to": 1918,
+        "name": {
+          "en": "Şam (Damascus)",
+          "zh": "大马士革"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1918,
+        "to": 1920,
+        "name": {
+          "en": "Damascus",
+          "zh": "大马士革"
+        },
+        "polity": {
+          "en": "Arab Kingdom of Syria",
+          "zh": "叙利亚阿拉伯王国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1920,
+        "to": 1946,
+        "name": {
+          "en": "Damascus",
+          "zh": "大马士革"
+        },
+        "polity": {
+          "en": "French Mandate for Syria",
+          "zh": "法国叙利亚委任统治"
+        },
+        "capital": true
+      },
+      {
+        "from": 1946,
+        "to": null,
+        "name": {
+          "en": "Damascus",
+          "zh": "大马士革"
+        },
+        "polity": {
+          "en": "Syria",
+          "zh": "叙利亚"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "One of the oldest continuously inhabited cities in the world. Damascus was the Umayyad capital from 661 to 750 and later a major centre under the Ayyubids, Mamluks and Ottomans, and has been the capital of independent Syria since 1946.",
+      "zh": "世界上有人持续居住的最古老城市之一。661—750年为倭马亚王朝首都，后在阿尤布、马穆鲁克和奥斯曼治下仍是重要中心，1946年起为独立叙利亚的首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Damascus",
+        "url": "https://www.britannica.com/place/Damascus"
+      },
+      {
+        "title": "R. Burns, Damascus: A History (2nd ed., 2019)"
+      },
+      {
+        "title": "Wikipedia: Damascus",
+        "url": "https://en.wikipedia.org/wiki/Damascus"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-mecca",
+    "qid": "Q5806",
+    "lat": 21.4225,
+    "lon": 39.8261,
+    "region": "west-asia",
+    "modern": {
+      "en": "Mecca",
+      "zh": "麦加"
+    },
+    "names": [
+      {
+        "from": 400,
+        "to": 630,
+        "name": {
+          "en": "Makka",
+          "zh": "麦加"
+        },
+        "polity": {
+          "en": "Quraysh tribal city",
+          "zh": "古莱什部落城市"
+        }
+      },
+      {
+        "from": 630,
+        "to": 1517,
+        "name": {
+          "en": "Makka",
+          "zh": "麦加"
+        },
+        "polity": {
+          "en": "Caliphates; Sharifate of Mecca from c. 967",
+          "zh": "历代哈里发国；约967年起为麦加谢里夫国"
+        }
+      },
+      {
+        "from": 1517,
+        "to": 1916,
+        "name": {
+          "en": "Mekke (Mecca)",
+          "zh": "麦加"
+        },
+        "polity": {
+          "en": "Ottoman suzerainty over the Sharifate",
+          "zh": "奥斯曼宗主下的谢里夫国"
+        }
+      },
+      {
+        "from": 1916,
+        "to": 1925,
+        "name": {
+          "en": "Mecca",
+          "zh": "麦加"
+        },
+        "polity": {
+          "en": "Kingdom of Hejaz",
+          "zh": "汉志王国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1925,
+        "to": 1932,
+        "name": {
+          "en": "Mecca",
+          "zh": "麦加"
+        },
+        "polity": {
+          "en": "Kingdom of Hejaz and Nejd",
+          "zh": "汉志和内志王国"
+        }
+      },
+      {
+        "from": 1932,
+        "to": null,
+        "name": {
+          "en": "Makkah",
+          "zh": "麦加"
+        },
+        "polity": {
+          "en": "Saudi Arabia",
+          "zh": "沙特阿拉伯"
+        }
+      }
+    ],
+    "summary": {
+      "en": "A caravan and pilgrimage town around the Kaaba, birthplace of Muhammad and the holiest city of Islam. Governed for nearly a millennium by sharifs descended from the Prophet under successive overlords, it passed to the Saudis in 1924–25.",
+      "zh": "围绕克尔白形成的商队与朝觐城镇，穆罕默德的出生地，伊斯兰教第一圣城。近一千年间由先知后裔谢里夫在历代宗主国之下治理，1924—1925年归入沙特。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Mecca",
+        "url": "https://www.britannica.com/place/Mecca"
+      },
+      {
+        "title": "F. E. Peters, Mecca: A Literary History of the Muslim Holy Land (1994)"
+      },
+      {
+        "title": "Wikipedia: Mecca",
+        "url": "https://en.wikipedia.org/wiki/Mecca"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Mecca's pre-Islamic history is poorly documented; the first span starts at an approximate date."
+  },
+  {
+    "id": "place-yerevan",
+    "qid": "Q1953",
+    "lat": 40.1814,
+    "lon": 44.5144,
+    "region": "west-asia",
+    "modern": {
+      "en": "Yerevan",
+      "zh": "埃里温"
+    },
+    "names": [
+      {
+        "from": -782,
+        "to": -590,
+        "name": {
+          "en": "Erebuni",
+          "zh": "埃里布尼"
+        },
+        "polity": {
+          "en": "Kingdom of Urartu",
+          "zh": "乌拉尔图王国"
+        }
+      },
+      {
+        "from": -590,
+        "to": 1501,
+        "name": {
+          "en": "Erevan",
+          "zh": "埃里温"
+        },
+        "polity": {
+          "en": "Armenian kingdoms and successive Persian, Arab and Turkic rulers",
+          "zh": "亚美尼亚诸王国及历代波斯、阿拉伯、突厥统治者"
+        }
+      },
+      {
+        "from": 1501,
+        "to": 1828,
+        "name": {
+          "en": "Erivan / Iravan",
+          "zh": "埃里温"
+        },
+        "polity": {
+          "en": "Safavid and later Persian rule (Erivan Khanate), with Ottoman interludes",
+          "zh": "萨法维及其后波斯统治（埃里温汗国），间有奥斯曼统治"
+        }
+      },
+      {
+        "from": 1828,
+        "to": 1918,
+        "name": {
+          "en": "Erivan",
+          "zh": "埃里温"
+        },
+        "polity": {
+          "en": "Russian Empire",
+          "zh": "俄罗斯帝国"
+        }
+      },
+      {
+        "from": 1918,
+        "to": 1920,
+        "name": {
+          "en": "Yerevan",
+          "zh": "埃里温"
+        },
+        "polity": {
+          "en": "First Republic of Armenia",
+          "zh": "亚美尼亚第一共和国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1920,
+        "to": 1991,
+        "name": {
+          "en": "Yerevan",
+          "zh": "埃里温"
+        },
+        "polity": {
+          "en": "Armenian SSR (Soviet Union)",
+          "zh": "亚美尼亚苏维埃社会主义共和国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1991,
+        "to": null,
+        "name": {
+          "en": "Yerevan",
+          "zh": "埃里温"
+        },
+        "polity": {
+          "en": "Armenia",
+          "zh": "亚美尼亚"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "Yerevan traces its origin to the Urartian fortress of Erebuni, founded by King Argishti I in 782 BCE. A modest town for centuries, it was the seat of the Persian khans of Erivan until Russia took it in 1827–28, and became capital of Armenia in 1918.",
+      "zh": "埃里温起源于公元前782年乌拉尔图国王阿尔吉什提一世修建的埃里布尼要塞。数百年间规模不大，曾为波斯埃里温汗的治所，1827—1828年被俄国占领，1918年成为亚美尼亚首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Yerevan",
+        "url": "https://www.britannica.com/place/Yerevan"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Erevan",
+        "url": "https://www.iranicaonline.org/articles/erevan-1"
+      },
+      {
+        "title": "Wikipedia: Yerevan",
+        "url": "https://en.wikipedia.org/wiki/Yerevan"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Continuity between Erebuni and medieval Erevan is assumed; the long second span lumps many rulers."
+  },
+  {
+    "id": "place-iznik",
+    "qid": "Q217125",
+    "lat": 40.4289,
+    "lon": 29.7194,
+    "region": "west-asia",
+    "modern": {
+      "en": "İznik",
+      "zh": "伊兹尼克"
+    },
+    "names": [
+      {
+        "from": -50,
+        "to": 395,
+        "name": {
+          "en": "Nicaea",
+          "zh": "尼西亚"
+        },
+        "polity": {
+          "en": "Roman Empire (Bithynia)",
+          "zh": "罗马帝国（比提尼亚）"
+        }
+      },
+      {
+        "from": 395,
+        "to": 1081,
+        "name": {
+          "en": "Nikaia",
+          "zh": "尼西亚"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 1081,
+        "to": 1097,
+        "name": {
+          "en": "Nicaea",
+          "zh": "尼西亚"
+        },
+        "polity": {
+          "en": "Seljuks of Rum",
+          "zh": "罗姆塞尔柱"
+        },
+        "capital": true
+      },
+      {
+        "from": 1097,
+        "to": 1204,
+        "name": {
+          "en": "Nikaia",
+          "zh": "尼西亚"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 1204,
+        "to": 1261,
+        "name": {
+          "en": "Nicaea",
+          "zh": "尼西亚"
+        },
+        "polity": {
+          "en": "Empire of Nicaea",
+          "zh": "尼西亚帝国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1261,
+        "to": 1331,
+        "name": {
+          "en": "Nikaia",
+          "zh": "尼西亚"
+        },
+        "polity": {
+          "en": "Byzantine Empire",
+          "zh": "拜占庭帝国"
+        }
+      },
+      {
+        "from": 1331,
+        "to": 1923,
+        "name": {
+          "en": "İznik",
+          "zh": "伊兹尼克"
+        },
+        "polity": {
+          "en": "Ottoman Empire",
+          "zh": "奥斯曼帝国"
+        }
+      },
+      {
+        "from": 1923,
+        "to": null,
+        "name": {
+          "en": "İznik",
+          "zh": "伊兹尼克"
+        },
+        "polity": {
+          "en": "Turkey",
+          "zh": "土耳其"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Nicaea hosted the first (325) and seventh (787) ecumenical councils. It was briefly the first capital of the Seljuks of Rum, the seat of the Byzantine government-in-exile after 1204, and under the Ottomans became famous for İznik pottery and tiles.",
+      "zh": "尼西亚曾召开第一次（325年）和第七次（787年）大公会议。它一度是罗姆塞尔柱的首个都城，1204年后为拜占庭流亡政府所在地，奥斯曼时期以伊兹尼克陶器和瓷砖闻名。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Iznik",
+        "url": "https://www.britannica.com/place/Iznik"
+      },
+      {
+        "title": "C. Foss, Nicaea: A Byzantine Capital and Its Praises (1996)"
+      },
+      {
+        "title": "Wikipedia: İznik",
+        "url": "https://en.wikipedia.org/wiki/%C4%B0znik"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-tabriz",
+    "qid": "Q80053",
+    "lat": 38.0739,
+    "lon": 46.2961,
+    "region": "west-asia",
+    "modern": {
+      "en": "Tabriz",
+      "zh": "大不里士"
+    },
+    "names": [
+      {
+        "from": 642,
+        "to": 1265,
+        "name": {
+          "en": "Tabriz (Tauris)",
+          "zh": "大不里士"
+        },
+        "polity": {
+          "en": "Caliphates, Rawwadids, Seljuks, Eldiguzids",
+          "zh": "历代哈里发国、拉瓦德、塞尔柱、伊尔迪吉兹"
+        }
+      },
+      {
+        "from": 1265,
+        "to": 1313,
+        "name": {
+          "en": "Tabriz",
+          "zh": "大不里士"
+        },
+        "polity": {
+          "en": "Ilkhanate",
+          "zh": "伊利汗国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1313,
+        "to": 1335,
+        "name": {
+          "en": "Tabriz",
+          "zh": "大不里士"
+        },
+        "polity": {
+          "en": "Ilkhanate",
+          "zh": "伊利汗国"
+        }
+      },
+      {
+        "from": 1335,
+        "to": 1501,
+        "name": {
+          "en": "Tabriz",
+          "zh": "大不里士"
+        },
+        "polity": {
+          "en": "Jalayirids, Qara Qoyunlu, Aq Qoyunlu",
+          "zh": "札剌亦儿、黑羊、白羊王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1501,
+        "to": 1555,
+        "name": {
+          "en": "Tabriz",
+          "zh": "大不里士"
+        },
+        "polity": {
+          "en": "Safavid Iran",
+          "zh": "萨法维王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1555,
+        "to": 1925,
+        "name": {
+          "en": "Tabriz",
+          "zh": "大不里士"
+        },
+        "polity": {
+          "en": "Safavid, Afsharid, Zand and Qajar Iran (seat of the crown prince under the Qajars)",
+          "zh": "萨法维、阿夫沙尔、赞德与卡扎尔伊朗（卡扎尔时为王储驻地）"
+        }
+      },
+      {
+        "from": 1925,
+        "to": null,
+        "name": {
+          "en": "Tabriz",
+          "zh": "大不里士"
+        },
+        "polity": {
+          "en": "Iran",
+          "zh": "伊朗"
+        }
+      }
+    ],
+    "summary": {
+      "en": "The main city of Iranian Azerbaijan and a hub of the Silk Road. Tabriz was the Ilkhanid capital, then capital of the Turkmen dynasties and of the early Safavids until the court moved to Qazvin, and a cradle of the Constitutional Revolution.",
+      "zh": "伊朗阿塞拜疆的首要城市和丝绸之路枢纽。大不里士曾为伊利汗国都城，后为土库曼诸王朝和早期萨法维王朝的首都，直至宫廷迁往加兹温；它也是立宪革命的摇篮之一。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Tabriz",
+        "url": "https://www.britannica.com/place/Tabriz"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Tabriz"
+      },
+      {
+        "title": "Wikipedia: Tabriz",
+        "url": "https://en.wikipedia.org/wiki/Tabriz"
+      },
+      {
+        "title": "Leiden University, Iran–Turan: Sultaniyya (dedicated as Ilkhanid capital 1313)",
+        "url": "https://iranturan.leiden.edu/cities/sultaniyya/"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The Safavid move to Qazvin is dated 1548–1555; Ottoman occupations (e.g. 1585–1603) are not shown. Ilkhanid capital until Öljeitü made Soltaniyeh the capital (dedicated 1313)."
+  }
+]

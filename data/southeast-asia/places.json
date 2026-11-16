@@ -1,0 +1,970 @@
+[
+  {
+    "id": "place-ho-chi-minh-city",
+    "qid": "Q1854",
+    "region": "southeast-asia",
+    "lat": 10.7756,
+    "lon": 106.7019,
+    "modern": {
+      "en": "Ho Chi Minh City",
+      "zh": "胡志明市"
+    },
+    "names": [
+      {
+        "from": 1600,
+        "to": 1698,
+        "name": {
+          "en": "Prey Nokor",
+          "zh": "波雷诺哥"
+        },
+        "polity": {
+          "en": "Khmer kingdom",
+          "zh": "高棉王国"
+        }
+      },
+      {
+        "from": 1698,
+        "to": 1862,
+        "name": {
+          "en": "Gia Định / Sài Gòn",
+          "zh": "嘉定 / 西贡"
+        },
+        "polity": {
+          "en": "Nguyễn lords / Nguyễn dynasty",
+          "zh": "阮主 / 阮朝"
+        }
+      },
+      {
+        "from": 1862,
+        "to": 1955,
+        "name": {
+          "en": "Saigon",
+          "zh": "西贡"
+        },
+        "polity": {
+          "en": "French Cochinchina",
+          "zh": "法属交趾支那"
+        },
+        "capital": true
+      },
+      {
+        "from": 1955,
+        "to": 1976,
+        "name": {
+          "en": "Saigon",
+          "zh": "西贡"
+        },
+        "polity": {
+          "en": "Republic of Vietnam (South Vietnam)",
+          "zh": "越南共和国（南越）"
+        },
+        "capital": true
+      },
+      {
+        "from": 1976,
+        "to": null,
+        "name": {
+          "en": "Ho Chi Minh City",
+          "zh": "胡志明市"
+        },
+        "polity": {
+          "en": "Vietnam",
+          "zh": "越南"
+        }
+      }
+    ],
+    "summary": {
+      "en": "A Khmer port called Prey Nokor, settled by Vietnamese in the 17th century and organised as Gia Định in 1698. As Saigon it was the capital of French Cochinchina and of South Vietnam, and was renamed after Hồ Chí Minh in 1976.",
+      "zh": "原为高棉港口波雷诺哥，17世纪越南移民迁入，1698年设嘉定府。以西贡之名先后作为法属交趾支那和南越的首府，1976年以胡志明之名命名。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Ho Chi Minh City",
+        "url": "https://www.britannica.com/place/Ho-Chi-Minh-City"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "David Chandler, A History of Cambodia (Westview, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: Ho Chi Minh City",
+        "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The start of Vietnamese settlement and the date of the Khmer name are approximate."
+  },
+  {
+    "id": "place-hanoi",
+    "qid": "Q1858",
+    "region": "southeast-asia",
+    "lat": 21.0245,
+    "lon": 105.8412,
+    "modern": {
+      "en": "Hanoi",
+      "zh": "河内"
+    },
+    "names": [
+      {
+        "from": 866,
+        "to": 1010,
+        "name": {
+          "en": "Đại La",
+          "zh": "大罗"
+        },
+        "polity": {
+          "en": "Tang Annan protectorate / independent rulers",
+          "zh": "唐安南都护府 / 地方自主政权"
+        }
+      },
+      {
+        "from": 1010,
+        "to": 1397,
+        "name": {
+          "en": "Thăng Long",
+          "zh": "升龙"
+        },
+        "polity": {
+          "en": "Đại Việt (Lý and Trần)",
+          "zh": "大越（李朝、陈朝）"
+        },
+        "capital": true
+      },
+      {
+        "from": 1397,
+        "to": 1407,
+        "name": {
+          "en": "Đông Đô",
+          "zh": "东都"
+        },
+        "polity": {
+          "en": "Hồ dynasty",
+          "zh": "胡朝"
+        }
+      },
+      {
+        "from": 1407,
+        "to": 1428,
+        "name": {
+          "en": "Đông Quan",
+          "zh": "东关"
+        },
+        "polity": {
+          "en": "Ming Jiaozhi province",
+          "zh": "明朝交趾布政使司"
+        }
+      },
+      {
+        "from": 1428,
+        "to": 1831,
+        "name": {
+          "en": "Đông Kinh / Thăng Long",
+          "zh": "东京 / 升龙"
+        },
+        "polity": {
+          "en": "Later Lê dynasty",
+          "zh": "后黎朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1831,
+        "to": 1945,
+        "name": {
+          "en": "Hà Nội",
+          "zh": "河内"
+        },
+        "polity": {
+          "en": "Nguyễn dynasty / French Indochina",
+          "zh": "阮朝 / 法属印度支那"
+        }
+      },
+      {
+        "from": 1945,
+        "to": null,
+        "name": {
+          "en": "Hà Nội",
+          "zh": "河内"
+        },
+        "polity": {
+          "en": "Vietnam",
+          "zh": "越南"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "On the Red River, the Tang citadel of Đại La became Thăng Long when the Lý made it their capital in 1010. Renamed Hà Nội in 1831, it was the capital of French Indochina and has been Vietnam's capital since 1945.",
+      "zh": "红河畔的唐代大罗城于1010年被李朝定为都城，改名升龙。1831年改称河内，曾为法属印度支那首府，1945年起为越南首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Hanoi",
+        "url": "https://www.britannica.com/place/Hanoi"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Central Sector of the Imperial Citadel of Thang Long – Hanoi",
+        "url": "https://whc.unesco.org/en/list/1328"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Hanoi",
+        "url": "https://en.wikipedia.org/wiki/Hanoi"
+      }
+    ],
+    "confidence": "high",
+    "note": "Hanoi was also capital of French Indochina from 1902."
+  },
+  {
+    "id": "place-jakarta",
+    "qid": "Q3630",
+    "region": "southeast-asia",
+    "lat": -6.1753,
+    "lon": 106.8269,
+    "modern": {
+      "en": "Jakarta",
+      "zh": "雅加达"
+    },
+    "names": [
+      {
+        "from": 1200,
+        "to": 1527,
+        "name": {
+          "en": "Sunda Kelapa",
+          "zh": "巽他格拉巴"
+        },
+        "polity": {
+          "en": "Sunda Kingdom",
+          "zh": "巽他王国"
+        }
+      },
+      {
+        "from": 1527,
+        "to": 1619,
+        "name": {
+          "en": "Jayakarta",
+          "zh": "查雅加达"
+        },
+        "polity": {
+          "en": "Banten Sultanate",
+          "zh": "万丹苏丹国"
+        }
+      },
+      {
+        "from": 1619,
+        "to": 1942,
+        "name": {
+          "en": "Batavia",
+          "zh": "巴达维亚"
+        },
+        "polity": {
+          "en": "VOC / Dutch East Indies",
+          "zh": "荷兰东印度公司 / 荷属东印度"
+        },
+        "capital": true
+      },
+      {
+        "from": 1942,
+        "to": 1945,
+        "name": {
+          "en": "Jakarta (Djakarta)",
+          "zh": "雅加达"
+        },
+        "polity": {
+          "en": "Japanese occupation",
+          "zh": "日本占领"
+        }
+      },
+      {
+        "from": 1945,
+        "to": null,
+        "name": {
+          "en": "Jakarta",
+          "zh": "雅加达"
+        },
+        "polity": {
+          "en": "Indonesia",
+          "zh": "印度尼西亚"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "The pepper port of Sunda Kelapa was taken by Fatahillah in 1527 and renamed Jayakarta. The Dutch rebuilt it as Batavia in 1619; renamed Jakarta during the Japanese occupation, it became the capital of independent Indonesia.",
+      "zh": "胡椒港口巽他格拉巴于1527年被法塔希拉攻占并改名查雅加达。1619年荷兰人在此重建巴达维亚；日本占领期间改称雅加达，后成为独立的印度尼西亚首都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Jakarta",
+        "url": "https://www.britannica.com/place/Jakarta"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, Vol. 1: From Early Times to c. 1800 (1992)"
+      },
+      {
+        "title": "Wikipedia: Jakarta",
+        "url": "https://en.wikipedia.org/wiki/Jakarta"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The start of Sunda Kelapa as a port is approximate; Wikidata dates the city's founding to 22 June 1527."
+  },
+  {
+    "id": "place-yangon",
+    "qid": "Q37995",
+    "region": "southeast-asia",
+    "lat": 16.795,
+    "lon": 96.16,
+    "modern": {
+      "en": "Yangon",
+      "zh": "仰光"
+    },
+    "names": [
+      {
+        "from": 1000,
+        "to": 1755,
+        "name": {
+          "en": "Dagon",
+          "zh": "大光"
+        },
+        "polity": {
+          "en": "Mon kingdoms / Toungoo",
+          "zh": "孟族王国 / 东吁王朝"
+        }
+      },
+      {
+        "from": 1755,
+        "to": 1852,
+        "name": {
+          "en": "Yangon (Rangoon)",
+          "zh": "仰光"
+        },
+        "polity": {
+          "en": "Konbaung dynasty",
+          "zh": "贡榜王朝"
+        }
+      },
+      {
+        "from": 1852,
+        "to": 1948,
+        "name": {
+          "en": "Rangoon",
+          "zh": "仰光"
+        },
+        "polity": {
+          "en": "British Burma",
+          "zh": "英属缅甸"
+        },
+        "capital": true
+      },
+      {
+        "from": 1948,
+        "to": 2005,
+        "name": {
+          "en": "Rangoon / Yangon",
+          "zh": "仰光"
+        },
+        "polity": {
+          "en": "Burma / Myanmar",
+          "zh": "缅甸"
+        },
+        "capital": true
+      },
+      {
+        "from": 2005,
+        "to": null,
+        "name": {
+          "en": "Yangon",
+          "zh": "仰光"
+        },
+        "polity": {
+          "en": "Myanmar",
+          "zh": "缅甸"
+        }
+      }
+    ],
+    "summary": {
+      "en": "A Mon town around the Shwedagon Pagoda, Dagon was renamed Yangon (\"end of strife\") by Alaungpaya in 1755. Under British rule Rangoon became the capital of Burma, which it remained until the government moved to Naypyidaw in 2005.",
+      "zh": "大光原为瑞德宫大金塔周围的孟族城镇，1755年雍籍牙将其改名仰光（意为“战争终结”）。英国统治时期仰光成为缅甸首府，直至2005年政府迁往内比都。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Yangon",
+        "url": "https://www.britannica.com/place/Yangon"
+      },
+      {
+        "title": "G. E. Harvey, History of Burma (Longmans, 1925)"
+      },
+      {
+        "title": "Victor Lieberman, Strange Parallels: Southeast Asia in Global Context, c. 800–1830, Vol. 1 (Cambridge University Press, 2003)"
+      },
+      {
+        "title": "Wikipedia: Yangon",
+        "url": "https://en.wikipedia.org/wiki/Yangon"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata's founding date of 1035 is traditional; 1000 is used as an approximate start."
+  },
+  {
+    "id": "place-bangkok",
+    "qid": "Q1861",
+    "region": "southeast-asia",
+    "lat": 13.75,
+    "lon": 100.5167,
+    "modern": {
+      "en": "Bangkok",
+      "zh": "曼谷"
+    },
+    "names": [
+      {
+        "from": 1500,
+        "to": 1767,
+        "name": {
+          "en": "Bang Kok",
+          "zh": "曼谷"
+        },
+        "polity": {
+          "en": "Ayutthaya Kingdom",
+          "zh": "阿瑜陀耶王朝"
+        }
+      },
+      {
+        "from": 1767,
+        "to": 1782,
+        "name": {
+          "en": "Thonburi",
+          "zh": "吞武里"
+        },
+        "polity": {
+          "en": "Thonburi Kingdom",
+          "zh": "吞武里王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1782,
+        "to": 1932,
+        "name": {
+          "en": "Krung Thep (Bangkok)",
+          "zh": "恭贴（曼谷）"
+        },
+        "polity": {
+          "en": "Rattanakosin Kingdom (Siam)",
+          "zh": "拉达那哥欣王朝（暹罗）"
+        },
+        "capital": true
+      },
+      {
+        "from": 1932,
+        "to": null,
+        "name": {
+          "en": "Bangkok (Krung Thep Maha Nakhon)",
+          "zh": "曼谷（恭贴玛哈那空）"
+        },
+        "polity": {
+          "en": "Thailand",
+          "zh": "泰国"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "A riverside customs and fort town on the Chao Phraya under Ayutthaya, it became the capital when Taksin settled at Thonburi in 1767 and Rama I founded the new royal city on the east bank in 1782.",
+      "zh": "阿瑜陀耶时期湄南河畔的关卡与要塞小镇。1767年郑信定都吞武里，1782年拉玛一世在东岸建立新王城，曼谷由此成为都城。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Bangkok",
+        "url": "https://www.britannica.com/place/Bangkok"
+      },
+      {
+        "title": "Chris Baker & Pasuk Phongpaichit, A History of Thailand (Cambridge University Press, 2nd ed. 2009)"
+      },
+      {
+        "title": "David K. Wyatt, Thailand: A Short History (Yale University Press, 2nd ed. 2003)"
+      },
+      {
+        "title": "Wikipedia: Bangkok",
+        "url": "https://en.wikipedia.org/wiki/Bangkok"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The date of the early settlement is approximate."
+  },
+  {
+    "id": "place-manila",
+    "qid": "Q1461",
+    "region": "southeast-asia",
+    "lat": 14.5958,
+    "lon": 120.9772,
+    "modern": {
+      "en": "Manila",
+      "zh": "马尼拉"
+    },
+    "names": [
+      {
+        "from": 1500,
+        "to": 1571,
+        "name": {
+          "en": "Maynila",
+          "zh": "马尼拉（Maynila）"
+        },
+        "polity": {
+          "en": "Kingdom of Maynila",
+          "zh": "马尼拉王国"
+        }
+      },
+      {
+        "from": 1571,
+        "to": 1898,
+        "name": {
+          "en": "Manila",
+          "zh": "马尼拉"
+        },
+        "polity": {
+          "en": "Spanish East Indies",
+          "zh": "西属东印度"
+        },
+        "capital": true
+      },
+      {
+        "from": 1898,
+        "to": 1946,
+        "name": {
+          "en": "Manila",
+          "zh": "马尼拉"
+        },
+        "polity": {
+          "en": "US-administered Philippines",
+          "zh": "美属菲律宾"
+        },
+        "capital": true
+      },
+      {
+        "from": 1946,
+        "to": 1948,
+        "name": {
+          "en": "Manila",
+          "zh": "马尼拉"
+        },
+        "polity": {
+          "en": "Philippines",
+          "zh": "菲律宾"
+        },
+        "capital": true
+      },
+      {
+        "from": 1948,
+        "to": 1976,
+        "name": {
+          "en": "Manila",
+          "zh": "马尼拉"
+        },
+        "polity": {
+          "en": "Philippines (Quezon City the official capital)",
+          "zh": "菲律宾（法定首都为奎松城）"
+        }
+      },
+      {
+        "from": 1976,
+        "to": null,
+        "name": {
+          "en": "Manila",
+          "zh": "马尼拉"
+        },
+        "polity": {
+          "en": "Philippines",
+          "zh": "菲律宾"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "A fortified Muslim trading settlement on Manila Bay, Maynila was taken by Legazpi, who founded the Spanish city in 1571. It was the hub of the trans-Pacific galleon trade and has been the Philippine capital except in 1948–1976, when Quezon City held the title.",
+      "zh": "马尼拉湾畔设防的穆斯林贸易聚落，被黎牙实比攻取后于1571年建立西班牙城市。这里是跨太平洋大帆船贸易的枢纽，除1948—1976年奎松城为法定首都外，一直是菲律宾首都。"
+    },
+    "sources": [
+      {
+        "title": "Emma H. Blair & James A. Robertson (eds.), The Philippine Islands, 1493–1898, Vol. 3 (1903)"
+      },
+      {
+        "title": "Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, Vol. 1: From Early Times to c. 1800 (1992)"
+      },
+      {
+        "title": "Wikipedia: Manila",
+        "url": "https://en.wikipedia.org/wiki/Manila"
+      },
+      {
+        "title": "Philippine News Agency/PTV: How QC became biggest LGU in Metro Manila (RA 333 of 1948; PD 940 of 1976)",
+        "url": "https://ptvnews.ph/qc-became-biggest-lgu-metro-manila/"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The pre-Hispanic polity's origins are not precisely dated. Republic Act 333 (1948) made Quezon City the capital; Presidential Decree 940 (1976) restored Manila."
+  },
+  {
+    "id": "place-malacca",
+    "qid": "Q61089",
+    "region": "southeast-asia",
+    "lat": 2.1889,
+    "lon": 102.2511,
+    "modern": {
+      "en": "Malacca (Melaka)",
+      "zh": "马六甲"
+    },
+    "names": [
+      {
+        "from": 1400,
+        "to": 1511,
+        "name": {
+          "en": "Melaka",
+          "zh": "满剌加"
+        },
+        "polity": {
+          "en": "Malacca Sultanate",
+          "zh": "马六甲苏丹国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1511,
+        "to": 1641,
+        "name": {
+          "en": "Malaca",
+          "zh": "马六甲"
+        },
+        "polity": {
+          "en": "Portuguese Empire",
+          "zh": "葡萄牙帝国"
+        }
+      },
+      {
+        "from": 1641,
+        "to": 1824,
+        "name": {
+          "en": "Malakka",
+          "zh": "马六甲"
+        },
+        "polity": {
+          "en": "Dutch East India Company",
+          "zh": "荷兰东印度公司"
+        }
+      },
+      {
+        "from": 1824,
+        "to": 1957,
+        "name": {
+          "en": "Malacca",
+          "zh": "马六甲"
+        },
+        "polity": {
+          "en": "British Straits Settlements",
+          "zh": "英属海峡殖民地"
+        }
+      },
+      {
+        "from": 1957,
+        "to": null,
+        "name": {
+          "en": "Melaka",
+          "zh": "马六甲"
+        },
+        "polity": {
+          "en": "Federation of Malaya; Malaysia from 1963",
+          "zh": "马来亚联合邦；1963年起为马来西亚"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Founded by Parameswara around 1400, Malacca controlled the strait that bears its name and was the region's richest port. It passed to the Portuguese (1511), Dutch (1641) and British (1824), leaving a layered colonial townscape.",
+      "zh": "马六甲约于1400年由拜里米苏拉建立，控制着以其命名的海峡，是区域最富庶的港口。此后相继归属葡萄牙（1511年）、荷兰（1641年）与英国（1824年），留下层叠的殖民城市风貌。"
+    },
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Melaka and George Town, Historic Cities of the Straits of Malacca",
+        "url": "https://whc.unesco.org/en/list/1223"
+      },
+      {
+        "title": "Barbara Watson Andaya & Leonard Y. Andaya, A History of Malaysia (Palgrave, 3rd ed. 2017)"
+      },
+      {
+        "title": "Wikipedia: Malacca City",
+        "url": "https://en.wikipedia.org/wiki/Malacca_City"
+      }
+    ],
+    "confidence": "high",
+    "note": "British occupation 1795–1818 during the Napoleonic Wars is merged into the Dutch period."
+  },
+  {
+    "id": "place-phnom-penh",
+    "qid": "Q1850",
+    "region": "southeast-asia",
+    "lat": 11.5696,
+    "lon": 104.921,
+    "modern": {
+      "en": "Phnom Penh",
+      "zh": "金边"
+    },
+    "names": [
+      {
+        "from": 1372,
+        "to": 1434,
+        "name": {
+          "en": "Phnom Daun Penh",
+          "zh": "奔夫人山"
+        },
+        "polity": {
+          "en": "Khmer Empire",
+          "zh": "高棉帝国"
+        }
+      },
+      {
+        "from": 1434,
+        "to": 1505,
+        "name": {
+          "en": "Chaktomuk",
+          "zh": "四臂湾城"
+        },
+        "polity": {
+          "en": "Khmer kingdom",
+          "zh": "高棉王国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1505,
+        "to": 1865,
+        "name": {
+          "en": "Phnom Penh",
+          "zh": "金边"
+        },
+        "polity": {
+          "en": "Khmer kingdom",
+          "zh": "高棉王国"
+        }
+      },
+      {
+        "from": 1865,
+        "to": 1953,
+        "name": {
+          "en": "Phnom Penh",
+          "zh": "金边"
+        },
+        "polity": {
+          "en": "French protectorate of Cambodia",
+          "zh": "法属柬埔寨保护国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1953,
+        "to": null,
+        "name": {
+          "en": "Phnom Penh",
+          "zh": "金边"
+        },
+        "polity": {
+          "en": "Cambodia",
+          "zh": "柬埔寨"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "Named after the hill temple founded, by legend, by Lady Penh in 1372, the site at the confluence of the Mekong and Tonlé Sap became the Khmer capital after Angkor's abandonment and again under King Norodom in 1865.",
+      "zh": "其名源于传说中奔夫人于1372年在山丘上建造的寺庙。此地位于湄公河与洞里萨河交汇处，吴哥被放弃后成为高棉都城，1865年诺罗敦国王再度定都于此。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Phnom Penh",
+        "url": "https://www.britannica.com/place/Phnom-Penh"
+      },
+      {
+        "title": "David Chandler, A History of Cambodia (Westview, 4th ed. 2008)"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "Wikipedia: Phnom Penh",
+        "url": "https://en.wikipedia.org/wiki/Phnom_Penh"
+      }
+    ],
+    "confidence": "low",
+    "note": "The 1372 founding and Ponhea Yat's capital dates are traditional."
+  },
+  {
+    "id": "place-angkor",
+    "qid": "Q163607",
+    "region": "southeast-asia",
+    "lat": 13.4333,
+    "lon": 103.8333,
+    "modern": {
+      "en": "Angkor (Siem Reap)",
+      "zh": "吴哥（暹粒）"
+    },
+    "names": [
+      {
+        "from": 889,
+        "to": 1431,
+        "name": {
+          "en": "Yasodharapura",
+          "zh": "耶输陀罗补罗"
+        },
+        "polity": {
+          "en": "Khmer Empire",
+          "zh": "高棉帝国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1431,
+        "to": 1795,
+        "name": {
+          "en": "Angkor",
+          "zh": "吴哥"
+        },
+        "polity": {
+          "en": "Kingdom of Cambodia",
+          "zh": "柬埔寨王国"
+        }
+      },
+      {
+        "from": 1795,
+        "to": 1907,
+        "name": {
+          "en": "Angkor",
+          "zh": "吴哥"
+        },
+        "polity": {
+          "en": "Siam (Siem Reap province)",
+          "zh": "暹罗（暹粒省）"
+        }
+      },
+      {
+        "from": 1907,
+        "to": null,
+        "name": {
+          "en": "Angkor",
+          "zh": "吴哥"
+        },
+        "polity": {
+          "en": "Cambodia",
+          "zh": "柬埔寨"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Yasovarman I founded Yasodharapura around 889, and for five centuries the Angkor region was the heart of the Khmer Empire. After 1431 the court moved south, though Angkor Wat remained a pilgrimage centre; Siam returned the province to French Cambodia in 1907.",
+      "zh": "耶输跋摩一世约于889年建立耶输陀罗补罗，此后五个世纪里吴哥地区一直是高棉帝国的中心。1431年后王廷南迁，吴哥窟仍为朝圣之地；1907年暹罗将该省归还法属柬埔寨。"
+    },
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Angkor (Siem Reap)",
+        "url": "https://www.britannica.com/place/Angkor"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Angkor",
+        "url": "https://whc.unesco.org/en/list/668"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "Wikipedia: Angkor",
+        "url": "https://en.wikipedia.org/wiki/Angkor"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The capital moved between Angkor and nearby sites (e.g. Koh Ker, 928–944)."
+  },
+  {
+    "id": "place-bagan",
+    "qid": "Q29317",
+    "region": "southeast-asia",
+    "lat": 21.1725,
+    "lon": 94.86,
+    "modern": {
+      "en": "Bagan",
+      "zh": "蒲甘"
+    },
+    "names": [
+      {
+        "from": 849,
+        "to": 1297,
+        "name": {
+          "en": "Pagan (Arimaddanapura)",
+          "zh": "蒲甘"
+        },
+        "polity": {
+          "en": "Pagan Kingdom",
+          "zh": "蒲甘王朝"
+        },
+        "capital": true
+      },
+      {
+        "from": 1297,
+        "to": 1885,
+        "name": {
+          "en": "Pagan",
+          "zh": "蒲甘"
+        },
+        "polity": {
+          "en": "Successive Burmese kingdoms",
+          "zh": "缅甸历代王朝"
+        }
+      },
+      {
+        "from": 1885,
+        "to": 1948,
+        "name": {
+          "en": "Pagan",
+          "zh": "蒲甘"
+        },
+        "polity": {
+          "en": "British Burma",
+          "zh": "英属缅甸"
+        }
+      },
+      {
+        "from": 1948,
+        "to": null,
+        "name": {
+          "en": "Bagan",
+          "zh": "蒲甘"
+        },
+        "polity": {
+          "en": "Myanmar",
+          "zh": "缅甸"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Capital of the first Burmese empire, whose rulers and subjects built over 10,000 Buddhist temples and stupas on the plain beside the Irrawaddy between the 11th and 13th centuries; more than 2,000 survive.",
+      "zh": "缅甸第一个帝国的都城。11至13世纪间，君主与臣民在伊洛瓦底江畔的平原上建造了一万多座佛寺与佛塔，现存两千余座。"
+    },
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Bagan",
+        "url": "https://whc.unesco.org/en/list/1588"
+      },
+      {
+        "title": "Michael Aung-Thwin, Pagan: The Origins of Modern Burma (University of Hawaii Press, 1985)"
+      },
+      {
+        "title": "Wikipedia: Bagan",
+        "url": "https://en.wikipedia.org/wiki/Bagan"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 849 founding date is traditional (chronicles)."
+  }
+]

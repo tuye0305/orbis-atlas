@@ -1,0 +1,41 @@
+{
+  "name": "orbis-atlas",
+  "description": "Orbis · 寰宇时序 — an interactive 3D historical atlas of Europe, Africa and Asia over 2,000 years",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "data": "node scripts/validate-data.mjs && node scripts/wd.mjs enrich && node scripts/build-data.mjs",
+    "shots": "node scripts/shots.mjs"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.2",
+    "gsap": "^3.15.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0",
+    "three-globe": "^2.45.6",
+    "topojson-client": "^3.1.0",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "@types/topojson-client": "^3.1.5",
+    "@vitejs/plugin-react": "^6.1.2",
+    "mapshaper": "^0.8.1",
+    "oxlint": "^1.90.0",
+    "playwright": "^1.65.1",
+    "topojson-server": "^3.0.1",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  }
+}

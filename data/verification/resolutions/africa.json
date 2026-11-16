@@ -1,0 +1,117 @@
+{
+  "ev-arab-conquest-of-egypt:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point (28, 32.1) is a generic centroid of Egypt. Our marker at Babylon/Fustat (Old Cairo) is the site of the decisive siege of 640–641 and of the garrison town founded afterwards (Kennedy; Ibn ʿAbd al-Hakam).",
+    "checked": ["Hugh Kennedy, The Great Arab Conquests (2007), ch. 4", "https://en.wikipedia.org/wiki/Arab_conquest_of_Egypt"]
+  },
+  "ev-muslim-conquest-of-the-maghreb:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's (30, 5) is a point in the Algerian Sahara. Our marker is Kairouan, the base founded by ʿUqba ibn Nafiʿ in 670, and the full campaign path is given as a route.",
+    "checked": ["UNESCO General History of Africa, Vol. III, ch. 9", "https://en.wikipedia.org/wiki/Kairouan"]
+  },
+  "ev-founding-of-marrakesh:year": {
+    "verdict": "disputed",
+    "reason": "The chronicles disagree: Ibn Abi Zarʿ and Ibn Khaldun give 1062, Ibn ʿIdhari gives 1070. Bennison and most recent scholarship follow 1070, and Britannica says only 'mid-11th century'. Wikidata's 1065 matches neither. We keep 1070 at medium confidence, and the note now states the dispute.",
+    "checked": ["Britannica: Marrakech (search snippet: 'founded in the mid-11th century')", "Amira K. Bennison, The Almoravid and Almohad Empires (2016)", "https://en.wikipedia.org/wiki/History_of_Marrakesh"]
+  },
+  "ev-battle-of-ridaniya:coord": {
+    "verdict": "keep-ours",
+    "reason": "The battle was fought at al-Raydaniyya, just north-east of Cairo (modern ʿAbbasiyya). Wikidata's (27, 29) is a point in the Western Desert.",
+    "checked": ["Britannica: Mamluk (Ottoman conquest of Egypt)", "Ibn Iyas, Badaʾiʿ al-Zuhur, as cited in https://en.wikipedia.org/wiki/Battle_of_Ridaniya"]
+  },
+  "ev-ethiopian-adal-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's (9, 40) is a generic Horn of Africa point. Our marker is near Wayna Daga, east of Lake Tana, where the decisive battle of 1543 was fought; the note says the war ranged over the whole highlands.",
+    "checked": ["Richard Pankhurst, The Ethiopians: A History (1998)", "https://en.wikipedia.org/wiki/Battle_of_Wayna_Daga"]
+  },
+  "ev-fula-jihads-sokoto:year": {
+    "verdict": "keep-ours",
+    "reason": "1804 is correct for Usman dan Fodio's jihad (Britannica: 1804–08). The diff came from a wrong-scope QID: Q2736105 covers the whole series of Fula jihads from 1725. The record now uses Q16707899 (Jihad of Usman dan Fodio, 21 February 1804–1808).",
+    "checked": ["https://www.britannica.com/biography/Usman-dan-Fodio", "https://www.britannica.com/place/western-Africa/The-jihad-of-Usman-dan-Fodio", "https://www.wikidata.org/wiki/Q16707899"]
+  },
+  "ev-fula-jihads-sokoto:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's (12, 3) is a point near the Niger–Benin border, not a jihad site. Our marker is Sokoto, the caliphate's capital; the stops for Usman dan Fodio give Degel, Gudu and Alkalawa.",
+    "checked": ["Murray Last, The Sokoto Caliphate (1967)", "https://en.wikipedia.org/wiki/Jihad_of_Usman_dan_Fodio"]
+  },
+  "ev-french-conquest-of-algeria:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's (28, 1) is a Saharan centroid. Our marker is Algiers, taken on 5 July 1830 after the landing at Sidi Ferruch on 14 June.",
+    "checked": ["Benjamin Stora, Algeria 1830–2000 (2001)", "https://en.wikipedia.org/wiki/Invasion_of_Algiers_in_1830"]
+  },
+  "ev-scramble-for-africa:year": {
+    "verdict": "keep-ours",
+    "reason": "1881, the French protectorate over Tunisia, is the start most historians use. Pakenham begins in 1876 and Wikidata starts with the Berlin Act of 1885. The record is already medium confidence with a note on the convention.",
+    "checked": ["Thomas Pakenham, The Scramble for Africa 1876–1912 (1991)", "UNESCO General History of Africa, Vol. VII (1985), ch. 2", "https://africamap.net/history/scramble-for-africa-timeline"]
+  },
+  "ev-second-boer-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's (-29, 24) is a centroid of South Africa. Our marker is Pretoria, capital of the South African Republic, which was taken in June 1900; the Treaty of Vereeniging was signed there in 1902.",
+    "checked": ["Thomas Pakenham, The Boer War (1979)", "https://en.wikipedia.org/wiki/Treaty_of_Vereeniging"]
+  },
+  "ev-herero-and-nama-genocide:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's (-22, 17) is a centroid of Namibia. Our marker is the Waterberg, site of the battle of 11 August 1904, after which von Trotha drove the Herero into the Omaheke.",
+    "checked": ["Olusoga & Erichsen, The Kaiser's Holocaust (2010)", "https://en.wikipedia.org/wiki/Battle_of_Waterberg"]
+  },
+  "ev-maji-maji-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's coordinate (-2.41, 30.54) lies in Rwanda, outside the war zone. The rising began in the Matumbi Hills inland from Kilwa in July 1905, and our marker is there.",
+    "checked": ["John Iliffe, A Modern History of Tanganyika (1979), ch. 6", "https://en.wikipedia.org/wiki/Maji_Maji_Rebellion"]
+  },
+  "ev-second-italo-ethiopian-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Addis Ababa, occupied on 5 May 1936, is the natural marker for the capital's fall. Wikidata's point near Gondar is not a defining site of the war. The end year of 1936 also stands: Bahru Zewde dates the conventional war 1935–36.",
+    "checked": ["Bahru Zewde, A History of Modern Ethiopia (2001)", "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War"]
+  },
+  "ev-mau-mau-uprising:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point (-4.04, 39.67) is Mombasa, on the coast, outside the conflict zone. The insurgency centred on the central highlands (Nyeri, Aberdares, Mount Kenya), and our marker is at Nyeri.",
+    "checked": ["David Anderson, Histories of the Hanged (2005)", "Caroline Elkins, Imperial Reckoning (2005)"]
+  },
+  "ev-african-union-launched:year": {
+    "verdict": "keep-ours",
+    "reason": "Britannica says the AU officially came into being on 9 July 2002 at the Durban summit. 1999, Wikidata's value, is the Sirte Declaration that proposed it, and the Constitutive Act entered into force in May 2001.",
+    "checked": ["https://www.britannica.com/topic/African-Union", "https://kids.britannica.com/students/article/African-Union/276210"]
+  },
+  "ev-african-union-launched:coord": {
+    "verdict": "keep-ours",
+    "reason": "The event is the launch summit, so it is marked at Durban. Wikidata's (0, 15) is a continental centroid for the organisation, not a site.",
+    "checked": ["https://www.britannica.com/topic/African-Union"]
+  },
+  "ev-tunisian-revolution:coord": {
+    "verdict": "keep-ours",
+    "reason": "The revolution began with Bouazizi's self-immolation in Sidi Bouzid; Wikidata's (34, 10) is a national centroid. Separately, the start date was corrected from 18 to 17 December 2010.",
+    "checked": ["Britannica: Jasmine Revolution", "https://en.wikipedia.org/wiki/Tunisian_revolution"]
+  },
+  "polity-ayyubid-egypt:to": {
+    "verdict": "keep-ours",
+    "reason": "1250 was the correct end of the Ayyubid sultanate in Egypt; Wikidata's 1341 counts the Syrian branches (Hama). The record has since been removed from data/africa as a duplicate of west-asia's polity-ayyubid (same QID Q180114).",
+    "checked": ["Britannica: Ayyubid dynasty", "R. Stephen Humphreys, From Saladin to the Mongols (1977)"]
+  },
+  "polity-ghana-empire:from": {
+    "verdict": "keep-ours",
+    "reason": "Britannica cites an unconfirmed tradition dating the kingdom's origins to the 4th century CE, which our 300 reflects. Wikidata's c. 100 has weaker support. The record stays low confidence, and its note says the origins are unknown.",
+    "checked": ["https://www.britannica.com/place/Ghana-historical-West-African-empire", "Nehemia Levtzion, Ancient Ghana and Mali (1973)"]
+  },
+  "polity-zagwe:from": {
+    "verdict": "keep-ours",
+    "reason": "Britannica places the Zagwe in the 12th–13th centuries, and c. 1137 is the conventional start date. The c. 900 start in Wikidata rests on late Solomonic traditions that give the dynasty a much longer span. The record remains low confidence and its note records the dispute.",
+    "checked": ["https://www.britannica.com/topic/Zagwe-dynasty", "https://www.britannica.com/place/Ethiopia/The-Zagwe-and-Solomonic-dynasties", "Taddesse Tamrat, Church and State in Ethiopia 1270–1527 (1972)"]
+  },
+  "polity-marinid:from": {
+    "verdict": "keep-ours",
+    "reason": "Britannica says the Banu Marin advanced into Morocco in the 1240s, took Fez in 1248 and Marrakesh in 1269. 1244 is the accession of Abu Yahya and the usual start of the dynasty proper; Wikidata's 1215 marks the first tribal incursions.",
+    "checked": ["https://www.britannica.com/topic/Marinid-dynasty", "https://www.britannica.com/place/North-Africa/Political-fragmentation-and-the-triumph-of-Islamic-culture-c-1250-c-1500"]
+  },
+  "polity-benin-kingdom:from": {
+    "verdict": "disputed",
+    "reason": "All the start dates are traditional. 1180 (Eweka I, Egharevba's chronology) and Wikidata's 1170 differ by a decade, Britannica puts Eweka in the 13th century, and the Ogiso kingdom goes back to c. 900. Kept at 1180, medium confidence, with an explicit note.",
+    "checked": ["https://www.britannica.com/place/Benin-historical-kingdom-West-Africa", "https://www.britannica.com/topic/ogiso"]
+  },
+  "polity-kongo:to": {
+    "verdict": "keep-ours",
+    "reason": "Curator moved the end from 1888 to 1914 (REPORT-africa note). Portugal abolished the titular Kongo monarchy in 1914 after suppressing the 1913–14 revolt; Wikidata's 1888 is the date of formal vassalage, when the kingdom still existed. Record is medium with a note.",
+    "checked": ["https://www.ebsco.com/research-starters/history/kongo-historical-kingdom", "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"]
+  }
+}

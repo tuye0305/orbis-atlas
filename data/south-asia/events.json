@@ -1,0 +1,2264 @@
+[
+  {
+    "id": "ev-kanishka-accession-rabatak",
+    "qid": "Q2382049",
+    "type": "political",
+    "year": 127,
+    "name": {
+      "en": "Accession of Kanishka (Rabatak inscription)",
+      "zh": "迦腻色伽即位（罗巴塔克铭文）"
+    },
+    "summary": {
+      "en": "The Bactrian-language Rabatak inscription, found in northern Afghanistan in 1993, records Kanishka’s royal genealogy and the first year of his era, when Kushan authority reached cities of the Ganges plain. Most scholars now place that year near 127 CE.",
+      "zh": "1993年在阿富汗北部发现的大夏语罗巴塔克铭文记载了迦腻色伽的王统世系及其纪元元年，当时贵霜势力已达恒河平原诸城。今多数学者将该元年定在公元127年前后。"
+    },
+    "lat": 36.1494,
+    "lon": 68.4036,
+    "region": "south-asia",
+    "importance": 4,
+    "people": [
+      "person-kanishka"
+    ],
+    "polities": [
+      "polity-kushan"
+    ],
+    "sources": [
+      {
+        "title": "N. Sims-Williams & J. Cribb, “A new Bactrian inscription of Kanishka the Great”, Silk Road Art and Archaeology 4 (1996)"
+      },
+      {
+        "title": "Harry Falk, “The yuga of Sphujiddhvaja and the era of the Kuṣāṇas”, Silk Road Art and Archaeology 7 (2001)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Kanishka"
+      },
+      {
+        "title": "Wikidata Q2382049",
+        "url": "https://www.wikidata.org/wiki/Q2382049"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Kanishka’s accession has been placed anywhere between 78 and 144 CE; 127 follows Falk (2001) and is now the majority view. The inscription itself gives only regnal year 1."
+  },
+  {
+    "id": "ev-gupta-era-begins",
+    "qid": "Q28174068",
+    "type": "political",
+    "year": 320,
+    "name": {
+      "en": "Beginning of the Gupta era",
+      "zh": "笈多纪元开始"
+    },
+    "summary": {
+      "en": "The accession of Chandragupta I at Pataliputra, linked in Gupta coinage to his marriage alliance with the Licchavis, became the epoch of the Gupta era used in inscriptions across northern India for centuries.",
+      "zh": "旃陀罗笈多一世在华氏城即位，笈多钱币将此与其和离车族的联姻相联系；这一年成为笈多纪元的起点，此后数百年间北印度碑铭普遍采用。"
+    },
+    "lat": 25.61,
+    "lon": 85.14,
+    "region": "south-asia",
+    "importance": 4,
+    "place": "place-patna",
+    "polities": [
+      "polity-gupta"
+    ],
+    "sources": [
+      {
+        "title": "Upinder Singh, A History of Ancient and Early Medieval India (2008)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Gupta dynasty"
+      },
+      {
+        "title": "Wikidata Q28174068",
+        "url": "https://www.wikidata.org/wiki/Q28174068"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The era’s epoch is reckoned as 319–320 CE; Wikidata dates the broader “Gupta era” period from 318."
+  },
+  {
+    "id": "ev-iron-pillar-of-delhi",
+    "qid": "Q543419",
+    "type": "science",
+    "year": 400,
+    "name": {
+      "en": "Iron Pillar of Delhi",
+      "zh": "德里铁柱"
+    },
+    "summary": {
+      "en": "A seven-metre wrought-iron column bearing a Sanskrit eulogy of a king “Chandra”, usually identified with Chandragupta II, it was forged around 400 CE and has resisted corrosion remarkably; it now stands in the Qutb complex in Delhi.",
+      "zh": "这根约七米高的熟铁柱刻有赞颂“旃陀罗”王的梵文铭文，一般认为即旃陀罗笈多二世；约铸于公元400年，至今几乎不锈，现立于德里顾特卜建筑群内。"
+    },
+    "lat": 28.5247,
+    "lon": 77.1851,
+    "region": "south-asia",
+    "importance": 3,
+    "people": [
+      "person-chandragupta-ii"
+    ],
+    "place": "place-delhi",
+    "polities": [
+      "polity-gupta"
+    ],
+    "sources": [
+      {
+        "title": "R. Balasubramaniam, Delhi Iron Pillar: New Insights (2002)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Iron pillar of Delhi"
+      },
+      {
+        "title": "Wikidata Q543419",
+        "url": "https://www.wikidata.org/wiki/Q543419"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Dated by palaeography to c. 400 CE (Wikidata: 5th century); it was probably moved to Delhi from elsewhere, possibly Udayagiri, centuries later."
+  },
+  {
+    "id": "ev-ajanta-vakataka-caves",
+    "qid": "Q184427",
+    "type": "cultural",
+    "year": 460,
+    "endYear": 480,
+    "name": {
+      "en": "Ajanta Caves (Vakataka phase)",
+      "zh": "阿旃陀石窟（伐迦陀迦时期）"
+    },
+    "summary": {
+      "en": "Under the Vakataka king Harisena, Buddhist patrons cut most of Ajanta’s richly painted caves within a few decades, adding to an earlier group of the 2nd–1st centuries BCE. The murals are the finest surviving ancient Indian paintings.",
+      "zh": "在伐迦陀迦王诃利犀那统治时期，佛教施主于数十年间开凿了阿旃陀的大部分彩绘石窟，与公元前2至前1世纪的早期洞窟相接续。其壁画是现存最精美的古印度绘画。"
+    },
+    "lat": 20.5534,
+    "lon": 75.7005,
+    "region": "south-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Walter M. Spink, Ajanta: History and Development, vol. 1 (2005)"
+      },
+      {
+        "title": "UNESCO World Heritage List: Ajanta Caves",
+        "url": "https://whc.unesco.org/en/list/242"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Ajanta Caves"
+      },
+      {
+        "title": "Wikidata Q184427",
+        "url": "https://www.wikidata.org/wiki/Q184427"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Spink’s short chronology (c. 460–480) is influential but debated; Wikidata’s start date (c. 2nd century BCE) refers to the earliest caves."
+  },
+  {
+    "id": "ev-nalanda-founded",
+    "qid": "Q216243",
+    "type": "founding",
+    "year": 427,
+    "name": {
+      "en": "Nalanda mahavihara founded",
+      "zh": "那烂陀寺创建"
+    },
+    "summary": {
+      "en": "Founded under the Gupta king Kumaragupta I, Nalanda grew into Asia’s foremost Buddhist monastic university, drawing scholars such as Xuanzang and Yijing, until it declined after attacks around 1200.",
+      "zh": "那烂陀寺创建于笈多王鸠摩罗笈多一世时期，发展为亚洲首屈一指的佛教寺院大学，玄奘、义净等皆曾来此求学，约1200年遭攻击后衰落。"
+    },
+    "lat": 25.1368,
+    "lon": 85.4438,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-gupta"
+    ],
+    "sources": [
+      {
+        "title": "Xuanzang, Da Tang Xiyu Ji (Records of the Western Regions), tr. Samuel Beal (1884)"
+      },
+      {
+        "title": "UNESCO World Heritage List: Archaeological Site of Nalanda Mahavihara at Nalanda, Bihar",
+        "url": "https://whc.unesco.org/en/list/1502"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Nalanda"
+      },
+      {
+        "title": "Wikidata Q216243",
+        "url": "https://www.wikidata.org/wiki/Q216243"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The c. 427 founding date is conventional, resting on seals naming Kumaragupta I (r. c. 415–455) and on Xuanzang’s account."
+  },
+  {
+    "id": "ev-sigiriya",
+    "qid": "Q272153",
+    "type": "founding",
+    "year": 477,
+    "endYear": 495,
+    "name": {
+      "en": "Kashyapa I builds Sigiriya",
+      "zh": "迦叶波一世营建狮子岩"
+    },
+    "summary": {
+      "en": "King Kashyapa I of Anuradhapura moved his court to this granite monolith, crowning it with a palace and surrounding it with frescoes, water gardens and a lion gateway; after his fall it became a Buddhist monastery.",
+      "zh": "阿努拉德普勒王迦叶波一世将宫廷迁至这块花岗岩巨石，在其顶部建宫殿，四周饰以壁画、水园和狮爪门；其败亡后此地改为佛教寺院。"
+    },
+    "lat": 7.9569,
+    "lon": 80.7597,
+    "region": "south-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Culavamsa, ch. 39 (tr. Wilhelm Geiger, 1929)"
+      },
+      {
+        "title": "UNESCO World Heritage List: Ancient City of Sigiriya",
+        "url": "https://whc.unesco.org/en/list/202"
+      },
+      {
+        "title": "K. M. de Silva, A History of Sri Lanka (1981)"
+      },
+      {
+        "title": "Wikidata Q272153",
+        "url": "https://www.wikidata.org/wiki/Q272153"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Kashyapa’s reign (c. 477–495) is dated from the Culavamsa chronicle."
+  },
+  {
+    "id": "ev-aryabhatiya",
+    "qid": "Q3518429",
+    "type": "science",
+    "year": 499,
+    "name": {
+      "en": "Aryabhata writes the Āryabhaṭīya",
+      "zh": "阿耶波多著《阿耶波多历书》"
+    },
+    "summary": {
+      "en": "Writing at Kusumapura (Pataliputra) aged 23, Aryabhata set out place-value computation, an accurate value of π, a sine table and the daily rotation of the Earth, shaping Indian mathematical astronomy for a millennium.",
+      "zh": "阿耶波多23岁时在拘苏摩补罗（华氏城）写成此书，阐述位值计算、精确的圆周率、正弦表以及地球自转之说，影响印度数理天文学达千年之久。"
+    },
+    "lat": 25.61,
+    "lon": 85.14,
+    "region": "south-asia",
+    "importance": 4,
+    "people": [
+      "person-aryabhata"
+    ],
+    "place": "place-patna",
+    "sources": [
+      {
+        "title": "Kim Plofker, Mathematics in India (2009)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Aryabhata I"
+      },
+      {
+        "title": "Wikidata Q3518429",
+        "url": "https://www.wikidata.org/wiki/Q3518429"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-xuanzang-in-india",
+    "qid": "Q1146069",
+    "type": "exploration",
+    "year": 630,
+    "endYear": 645,
+    "name": {
+      "en": "Xuanzang’s travels in India",
+      "zh": "玄奘游学印度"
+    },
+    "summary": {
+      "en": "The Chinese monk Xuanzang studied at Nalanda, met King Harsha at Kannauj and toured the subcontinent before returning to Chang’an with hundreds of texts; his Records of the Western Regions (646) is a key source for 7th-century India.",
+      "zh": "唐僧玄奘在那烂陀寺求学，于曲女城会见戒日王，并遍游南亚次大陆，后携数百部经典返回长安；其《大唐西域记》（646年）是研究7世纪印度的重要史料。"
+    },
+    "lat": 25.1368,
+    "lon": 85.4438,
+    "region": "south-asia",
+    "importance": 4,
+    "people": [
+      "person-harsha"
+    ],
+    "sources": [
+      {
+        "title": "Xuanzang, Da Tang Xiyu Ji (Records of the Western Regions), tr. Samuel Beal (1884)"
+      },
+      {
+        "title": "Huili, A Biography of the Tripitaka Master of the Great Ci’en Monastery"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Xuanzang"
+      },
+      {
+        "title": "Wikidata Q1146069",
+        "url": "https://www.wikidata.org/wiki/Q1146069"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The QID is the Records (completed 646); the travel dates (c. 630–645) come from that text and Huili’s biography."
+  },
+  {
+    "id": "ev-battle-of-narmada",
+    "qid": "Q115809322",
+    "type": "battle",
+    "year": 618,
+    "name": {
+      "en": "Battle of the Narmada",
+      "zh": "讷尔默达河之战"
+    },
+    "summary": {
+      "en": "Harsha’s southward advance was halted on the Narmada by the Chalukya king Pulakeshin II, a victory celebrated in the Aihole inscription of 634; the river became the frontier between their realms.",
+      "zh": "戒日王南下的攻势在讷尔默达河畔被遮娄其王补罗稽舍二世阻止，634年的艾霍莱铭文颂扬此胜；此后该河成为两国的分界。"
+    },
+    "lat": 22.18,
+    "lon": 75.59,
+    "region": "south-asia",
+    "importance": 3,
+    "people": [
+      "person-harsha"
+    ],
+    "polities": [
+      "polity-chalukya"
+    ],
+    "sources": [
+      {
+        "title": "Aihole inscription of Pulakeshin II (634 CE), Epigraphia Indica vol. 6"
+      },
+      {
+        "title": "Upinder Singh, A History of Ancient and Early Medieval India (2008)"
+      },
+      {
+        "title": "Wikidata Q115809322",
+        "url": "https://www.wikidata.org/wiki/Q115809322"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Dated variously 618–619 or c. 630s; the exact battlefield on the Narmada is unknown, so the coordinates are approximate."
+  },
+  {
+    "id": "ev-umayyad-conquest-of-sindh",
+    "qid": "Q112182472",
+    "type": "war",
+    "year": 711,
+    "endYear": 713,
+    "name": {
+      "en": "Umayyad conquest of Sindh",
+      "zh": "倭马亚王朝征服信德"
+    },
+    "summary": {
+      "en": "The Arab commander Muhammad ibn al-Qasim took the port of Debal, defeated King Dahir and occupied Sindh and Multan, bringing the lower Indus valley into the caliphate.",
+      "zh": "阿拉伯将领穆罕默德·本·卡西姆攻克德巴尔港，击败达希尔王，占领信德和木尔坦，将印度河下游纳入哈里发国。"
+    },
+    "lat": 24.75,
+    "lon": 67.52,
+    "region": "south-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Chach Nama (13th-century Persian history of the conquest)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Muhammad ibn al-Qasim"
+      },
+      {
+        "title": "Wikidata Q112182472",
+        "url": "https://www.wikidata.org/wiki/Q112182472"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-brihadisvara-temple",
+    "qid": "Q916943",
+    "type": "religious",
+    "year": 1010,
+    "name": {
+      "en": "Brihadisvara Temple completed",
+      "zh": "布里哈迪希瓦拉神庙落成"
+    },
+    "summary": {
+      "en": "Rajaraja I dedicated this granite Shiva temple at Thanjavur, whose 66-metre vimana was among the tallest buildings of its age; its inscriptions record the Chola state’s revenues, staff and endowments.",
+      "zh": "罗阇罗阇一世在坦贾武尔建成这座花岗岩湿婆神庙，其66米高的主塔在当时世界上数一数二；庙中铭文记录了朱罗王朝的税收、人员与捐赠。"
+    },
+    "lat": 10.7831,
+    "lon": 79.1325,
+    "region": "south-asia",
+    "importance": 3,
+    "polities": [
+      "polity-chola"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage List: Great Living Chola Temples",
+        "url": "https://whc.unesco.org/en/list/250"
+      },
+      {
+        "title": "K. A. Nilakanta Sastri, The Cōḻas, 2nd ed. (1955)"
+      },
+      {
+        "title": "Wikidata Q916943",
+        "url": "https://www.wikidata.org/wiki/Q916943"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-chola-expedition-srivijaya",
+    "qid": "Q16957926",
+    "type": "war",
+    "year": 1025,
+    "name": {
+      "en": "Chola naval expedition against Srivijaya",
+      "zh": "朱罗王朝远征室利佛逝"
+    },
+    "summary": {
+      "en": "Rajendra Chola I’s fleet raided the Srivijaya maritime realm, sacking ports in Sumatra and the Malay Peninsula including Kadaram (Kedah) and capturing its king; the Tanjore inscription of 1030–31 lists the places taken.",
+      "zh": "拉金德拉一世的舰队袭击海上强国室利佛逝，洗劫苏门答腊和马来半岛诸港，包括羯荼（吉打），并俘获其国王；1030—1031年的坦贾武尔铭文列出了所攻占之地。"
+    },
+    "lat": 5.72,
+    "lon": 100.41,
+    "region": "south-asia",
+    "importance": 4,
+    "people": [
+      "person-rajendra-chola-i"
+    ],
+    "polities": [
+      "polity-chola"
+    ],
+    "route": [
+      {
+        "year": 1025,
+        "lat": 10.77,
+        "lon": 79.84,
+        "label": {
+          "en": "Nagapattinam",
+          "zh": "纳加帕蒂南"
+        }
+      },
+      {
+        "year": 1025,
+        "lat": 8,
+        "lon": 93.6,
+        "label": {
+          "en": "Manakkavaram (Nicobar Islands)",
+          "zh": "马纳卡瓦拉姆（尼科巴群岛）"
+        }
+      },
+      {
+        "year": 1025,
+        "lat": 5.55,
+        "lon": 95.32,
+        "label": {
+          "en": "Ilamuri-desam (Lamuri, Aceh)",
+          "zh": "伊拉穆里（南巫里，亚齐）"
+        }
+      },
+      {
+        "year": 1025,
+        "lat": -2.99,
+        "lon": 104.76,
+        "label": {
+          "en": "Srivijaya (Palembang)",
+          "zh": "室利佛逝（巨港）"
+        }
+      },
+      {
+        "year": 1025,
+        "lat": -1.6,
+        "lon": 103.6,
+        "label": {
+          "en": "Malaiyur (Jambi)",
+          "zh": "末罗瑜（占碑）"
+        }
+      },
+      {
+        "year": 1025,
+        "lat": 5.72,
+        "lon": 100.41,
+        "label": {
+          "en": "Kadaram (Kedah)",
+          "zh": "羯荼（吉打）"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "K. A. Nilakanta Sastri, The Cōḻas, 2nd ed. (1955)"
+      },
+      {
+        "title": "Hermann Kulke, K. Kesavapany & Vijay Sakhuja (eds.), Nagapattinam to Suvarnadwipa: Reflections on the Chola Naval Expeditions to Southeast Asia (2009)"
+      },
+      {
+        "title": "Wikidata Q16957926",
+        "url": "https://www.wikidata.org/wiki/Q16957926"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The inscription lists conquered places but not an itinerary; the route order is a reconstruction."
+  },
+  {
+    "id": "ev-sack-of-somnath",
+    "qid": "Q123488342",
+    "type": "battle",
+    "year": 1026,
+    "name": {
+      "en": "Mahmud of Ghazni sacks Somnath",
+      "zh": "加兹尼的马哈茂德洗劫索姆纳特"
+    },
+    "summary": {
+      "en": "Climaxing some seventeen raids into India, Mahmud crossed the Thar desert, took the Somnath temple on the Gujarat coast and carried off its treasure; the episode became a contested symbol in later memory.",
+      "zh": "马哈茂德前后约十七次入侵印度，此役穿越塔尔沙漠，攻陷古吉拉特海岸的索姆纳特神庙并掠走其财宝；此事在后世记忆中成为争议性的象征。"
+    },
+    "lat": 20.888,
+    "lon": 70.4014,
+    "region": "south-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Romila Thapar, Somanatha: The Many Voices of a History (2004)"
+      },
+      {
+        "title": "C. E. Bosworth, The Ghaznavids (1963)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Mahmud of Ghazna"
+      },
+      {
+        "title": "Wikidata Q123488342",
+        "url": "https://www.wikidata.org/wiki/Q123488342"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Mahmud left Ghazni in late 1025; the temple fell in January 1026."
+  },
+  {
+    "id": "ev-first-battle-of-tarain",
+    "qid": "Q65089139",
+    "type": "battle",
+    "year": 1191,
+    "name": {
+      "en": "First Battle of Tarain",
+      "zh": "第一次塔拉因战役"
+    },
+    "summary": {
+      "en": "A Rajput coalition under Prithviraj Chauhan defeated Muhammad of Ghor near Taraori in Haryana, wounding the Ghurid ruler and checking his advance into the Ganges plain.",
+      "zh": "普里特维拉杰·乔汉率领的拉其普特联军在哈里亚纳的塔拉奥里附近击败古尔王朝的穆罕默德，使其负伤，暂时阻止了他向恒河平原的推进。"
+    },
+    "lat": 29.78,
+    "lon": 76.94,
+    "region": "south-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Peter Jackson, The Delhi Sultanate: A Political and Military History (1999)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Battles of Tarain"
+      },
+      {
+        "title": "Wikidata Q65089139",
+        "url": "https://www.wikidata.org/wiki/Q65089139"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-second-battle-of-tarain",
+    "qid": "Q2890128",
+    "type": "battle",
+    "year": 1192,
+    "name": {
+      "en": "Second Battle of Tarain",
+      "zh": "第二次塔拉因战役"
+    },
+    "summary": {
+      "en": "Returning with mounted archers, Muhammad of Ghor routed Prithviraj Chauhan on the same field; Prithviraj was captured and killed, opening north India to Ghurid rule and the later Delhi Sultanate.",
+      "zh": "古尔的穆罕默德率骑射手卷土重来，在同一战场击溃普里特维拉杰·乔汉，后者被俘遇害，北印度从此向古尔王朝及其后的德里苏丹国敞开。"
+    },
+    "lat": 29.78,
+    "lon": 76.94,
+    "region": "south-asia",
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Peter Jackson, The Delhi Sultanate: A Political and Military History (1999)"
+      },
+      {
+        "title": "Minhaj-i Siraj Juzjani, Tabaqat-i Nasiri (tr. H. G. Raverty, 1881)"
+      },
+      {
+        "title": "Wikidata Q2890128",
+        "url": "https://www.wikidata.org/wiki/Q2890128"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-qutb-minar",
+    "qid": "Q187635",
+    "type": "cultural",
+    "year": 1199,
+    "endYear": 1220,
+    "name": {
+      "en": "Qutb Minar begun",
+      "zh": "顾特卜塔始建"
+    },
+    "summary": {
+      "en": "Qutb ud-Din Aibak began this fluted sandstone victory tower beside Delhi’s first congregational mosque after the Ghurid conquest; Iltutmish added storeys, and at about 73 m it is the tallest medieval minaret in India.",
+      "zh": "古尔王朝征服后，库特布丁·艾巴克在德里第一座聚礼清真寺旁兴建这座带棱纹的砂岩胜利塔，伊勒图特米什续建上层；塔高约73米，是印度最高的中世纪宣礼塔。"
+    },
+    "lat": 28.5244,
+    "lon": 77.1852,
+    "region": "south-asia",
+    "importance": 3,
+    "place": "place-delhi",
+    "polities": [
+      "polity-delhi-sultanate"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage List: Qutb Minar and its Monuments, Delhi",
+        "url": "https://whc.unesco.org/en/list/233"
+      },
+      {
+        "title": "Peter Jackson, The Delhi Sultanate: A Political and Military History (1999)"
+      },
+      {
+        "title": "Wikidata Q187635",
+        "url": "https://www.wikidata.org/wiki/Q187635"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Construction start c. 1199 is conventional (Wikidata gives no date); the top storeys were rebuilt by Firuz Shah Tughluq in 1369."
+  },
+  {
+    "id": "ev-battle-of-kili",
+    "qid": "Q19840229",
+    "type": "battle",
+    "year": 1299,
+    "name": {
+      "en": "Battle of Kili",
+      "zh": "基利之战"
+    },
+    "summary": {
+      "en": "Alauddin Khalji’s army met a large Chagatai Mongol force under Qutlugh Khwaja at Kili near Delhi; the Mongols withdrew after heavy fighting, one of several invasions the sultanate repelled around 1300.",
+      "zh": "阿拉乌丁·卡尔吉的军队在德里附近的基利迎战忽都鲁·火者率领的察合台蒙古大军，激战后蒙古人撤退；这是约1300年前后德里苏丹国击退的多次蒙古入侵之一。"
+    },
+    "lat": 28.6546,
+    "lon": 77.2309,
+    "region": "south-asia",
+    "importance": 3,
+    "people": [
+      "person-alauddin-khalji"
+    ],
+    "polities": [
+      "polity-delhi-sultanate",
+      "polity-chagatai-khanate"
+    ],
+    "sources": [
+      {
+        "title": "Peter Jackson, The Delhi Sultanate: A Political and Military History (1999)"
+      },
+      {
+        "title": "Ziauddin Barani, Tarikh-i Firuz Shahi"
+      },
+      {
+        "title": "Wikidata Q19840229",
+        "url": "https://www.wikidata.org/wiki/Q19840229"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-timur-sack-of-delhi",
+    "qid": "Q123179707",
+    "type": "war",
+    "year": 1398,
+    "endYear": 1399,
+    "date": "1398-12-17",
+    "name": {
+      "en": "Timur’s sack of Delhi",
+      "zh": "帖木儿洗劫德里"
+    },
+    "summary": {
+      "en": "Timur crossed the Indus, defeated Sultan Nasir-ud-Din Mahmud Tughluq outside Delhi and let his army plunder the city for days, leaving the sultanate shattered before he returned to Samarkand with captives and craftsmen.",
+      "zh": "帖木儿渡过印度河，在德里城外击败图格鲁克王朝苏丹纳绥尔丁·马哈茂德，纵兵劫掠全城数日，德里苏丹国由此残破；随后他携俘虏和工匠返回撒马尔罕。"
+    },
+    "lat": 28.65,
+    "lon": 77.23,
+    "region": "south-asia",
+    "importance": 4,
+    "place": "place-delhi",
+    "polities": [
+      "polity-timurid",
+      "polity-delhi-sultanate"
+    ],
+    "route": [
+      {
+        "year": 1398,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Samarkand",
+          "zh": "撒马尔罕"
+        }
+      },
+      {
+        "year": 1398,
+        "lat": 34.53,
+        "lon": 69.17,
+        "label": {
+          "en": "Kabul",
+          "zh": "喀布尔"
+        }
+      },
+      {
+        "year": 1398,
+        "lat": 32.9,
+        "lon": 71.6,
+        "label": {
+          "en": "Crosses the Indus",
+          "zh": "渡印度河"
+        }
+      },
+      {
+        "year": 1398,
+        "lat": 30.2,
+        "lon": 71.47,
+        "label": {
+          "en": "Multan",
+          "zh": "木尔坦"
+        }
+      },
+      {
+        "year": 1398,
+        "lat": 29.58,
+        "lon": 74.32,
+        "label": {
+          "en": "Bhatnair",
+          "zh": "巴特奈尔"
+        }
+      },
+      {
+        "year": 1398,
+        "lat": 29.39,
+        "lon": 76.97,
+        "label": {
+          "en": "Panipat",
+          "zh": "帕尼帕特"
+        }
+      },
+      {
+        "year": 1398,
+        "lat": 28.65,
+        "lon": 77.23,
+        "label": {
+          "en": "Delhi",
+          "zh": "德里"
+        }
+      },
+      {
+        "year": 1399,
+        "lat": 28.98,
+        "lon": 77.71,
+        "label": {
+          "en": "Meerut",
+          "zh": "密拉特"
+        }
+      },
+      {
+        "year": 1399,
+        "lat": 29.95,
+        "lon": 78.16,
+        "label": {
+          "en": "Haridwar",
+          "zh": "赫尔德瓦尔"
+        }
+      },
+      {
+        "year": 1399,
+        "lat": 32.73,
+        "lon": 74.86,
+        "label": {
+          "en": "Jammu",
+          "zh": "查谟"
+        }
+      },
+      {
+        "year": 1399,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Back to Samarkand",
+          "zh": "返回撒马尔罕"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sharaf al-Din Ali Yazdi, Zafarnama"
+      },
+      {
+        "title": "Peter Jackson, The Delhi Sultanate: A Political and Military History (1999)"
+      },
+      {
+        "title": "Beatrice Forbes Manz, The Rise and Rule of Tamerlane (1989)"
+      },
+      {
+        "title": "Wikidata Q123179707",
+        "url": "https://www.wikidata.org/wiki/Q123179707"
+      }
+    ],
+    "confidence": "high",
+    "note": "The date is the battle outside Delhi; the sack followed over the next days."
+  },
+  {
+    "id": "ev-vasco-da-gama-calicut",
+    "qid": "Q30717033",
+    "type": "exploration",
+    "year": 1498,
+    "date": "1498-05-20",
+    "name": {
+      "en": "Vasco da Gama reaches Calicut",
+      "zh": "达·伽马抵达卡利卡特"
+    },
+    "summary": {
+      "en": "Guided across the Arabian Sea from Malindi, the Portuguese fleet anchored near Calicut, the Zamorin’s spice port, completing the first sea voyage from Europe to India and opening the era of European sea power in the Indian Ocean.",
+      "zh": "葡萄牙船队在马林迪领航员引导下横渡阿拉伯海，停泊于扎莫林的香料港卡利卡特附近，完成了从欧洲到印度的首次航行，开启了欧洲海上势力进入印度洋的时代。"
+    },
+    "lat": 11.384,
+    "lon": 75.718,
+    "region": "south-asia",
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Álvaro Velho (attrib.), Roteiro da primeira viagem de Vasco da Gama (journal of the first voyage)"
+      },
+      {
+        "title": "Sanjay Subrahmanyam, The Career and Legend of Vasco da Gama (1997)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Vasco da Gama",
+        "url": "https://www.britannica.com/biography/Vasco-da-Gama"
+      },
+      {
+        "title": "Wikidata Q30717033",
+        "url": "https://www.wikidata.org/wiki/Q30717033"
+      }
+    ],
+    "confidence": "high",
+    "note": "QID is the 1st Portuguese India Armada (1497–1499); coordinates are Kappad beach, the traditional landing place near Calicut (Kozhikode)."
+  },
+  {
+    "id": "ev-portuguese-conquest-of-goa",
+    "qid": "Q2357384",
+    "type": "battle",
+    "year": 1510,
+    "date": "1510-11-25",
+    "name": {
+      "en": "Portuguese conquest of Goa",
+      "zh": "葡萄牙攻占果阿"
+    },
+    "summary": {
+      "en": "Afonso de Albuquerque stormed Goa from the Bijapur Sultanate at the second attempt; it became the capital of Portuguese India and stayed Portuguese until 1961.",
+      "zh": "阿方索·德·阿尔布克尔克第二次进攻时从比贾布尔苏丹国手中夺取果阿；此地成为葡属印度首府，直至1961年仍归葡萄牙所有。"
+    },
+    "lat": 15.5009,
+    "lon": 73.9116,
+    "region": "south-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Sanjay Subrahmanyam, The Portuguese Empire in Asia, 1500–1700 (1993)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Afonso de Albuquerque"
+      },
+      {
+        "title": "Wikidata Q2357384",
+        "url": "https://www.wikidata.org/wiki/Q2357384"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-first-battle-of-panipat",
+    "qid": "Q605321",
+    "type": "battle",
+    "year": 1526,
+    "date": "1526-04-21",
+    "name": {
+      "en": "First Battle of Panipat",
+      "zh": "第一次帕尼帕特战役"
+    },
+    "summary": {
+      "en": "Babur’s smaller army, using field guns behind a wagon barricade and flanking cavalry, defeated Sultan Ibrahim Lodi, who died on the field; the victory ended the Delhi Sultanate and founded the Mughal Empire.",
+      "zh": "巴布尔兵力较少，以车阵掩护火炮并辅以侧翼骑兵，击败苏丹易卜拉欣·洛迪，后者阵亡；此战终结了德里苏丹国，开创莫卧儿帝国。"
+    },
+    "lat": 29.4017,
+    "lon": 76.9728,
+    "region": "south-asia",
+    "importance": 5,
+    "people": [
+      "person-babur"
+    ],
+    "polities": [
+      "polity-mughal",
+      "polity-delhi-sultanate"
+    ],
+    "route": [
+      {
+        "year": 1525,
+        "lat": 34.53,
+        "lon": 69.17,
+        "label": {
+          "en": "Sets out from Kabul (Nov 1525)",
+          "zh": "从喀布尔出发（1525年11月）"
+        }
+      },
+      {
+        "year": 1525,
+        "lat": 34.43,
+        "lon": 70.45,
+        "label": {
+          "en": "Jalalabad",
+          "zh": "贾拉拉巴德"
+        }
+      },
+      {
+        "year": 1525,
+        "lat": 33.89,
+        "lon": 72.24,
+        "label": {
+          "en": "Crosses the Indus",
+          "zh": "渡印度河"
+        }
+      },
+      {
+        "year": 1526,
+        "lat": 32.49,
+        "lon": 74.53,
+        "label": {
+          "en": "Sialkot",
+          "zh": "锡亚尔科特"
+        }
+      },
+      {
+        "year": 1526,
+        "lat": 30.64,
+        "lon": 76.39,
+        "label": {
+          "en": "Sirhind",
+          "zh": "锡尔欣德"
+        }
+      },
+      {
+        "year": 1526,
+        "lat": 29.4017,
+        "lon": 76.9728,
+        "label": {
+          "en": "Panipat",
+          "zh": "帕尼帕特"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Babur, Baburnama (tr. Wheeler M. Thackston, 1996)"
+      },
+      {
+        "title": "John F. Richards, The Mughal Empire (New Cambridge History of India I.5, 1993)"
+      },
+      {
+        "title": "Wikidata Q605321",
+        "url": "https://www.wikidata.org/wiki/Q605321"
+      }
+    ],
+    "confidence": "high",
+    "note": "21 April 1526 is the Julian date used by most historians; Wikidata stores the proleptic Gregorian equivalent (1 May)."
+  },
+  {
+    "id": "ev-battle-of-khanwa",
+    "qid": "Q4166578",
+    "type": "battle",
+    "year": 1527,
+    "name": {
+      "en": "Battle of Khanwa",
+      "zh": "坎瓦战役"
+    },
+    "summary": {
+      "en": "Babur defeated the Rajput confederacy of Rana Sanga of Mewar near Fatehpur Sikri, securing Mughal control of the upper Ganges plain against its strongest rival.",
+      "zh": "巴布尔在法塔赫布尔西格里附近击败梅瓦尔的拉纳·桑加所领导的拉其普特联盟，确保了莫卧儿王朝对恒河上游平原的控制。"
+    },
+    "lat": 27.0353,
+    "lon": 77.5431,
+    "region": "south-asia",
+    "importance": 3,
+    "people": [
+      "person-babur"
+    ],
+    "polities": [
+      "polity-mughal"
+    ],
+    "sources": [
+      {
+        "title": "Babur, Baburnama (tr. Wheeler M. Thackston, 1996)"
+      },
+      {
+        "title": "John F. Richards, The Mughal Empire (New Cambridge History of India I.5, 1993)"
+      },
+      {
+        "title": "Wikidata Q4166578",
+        "url": "https://www.wikidata.org/wiki/Q4166578"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-second-battle-of-panipat",
+    "qid": "Q233414",
+    "type": "battle",
+    "year": 1556,
+    "date": "1556-11-05",
+    "name": {
+      "en": "Second Battle of Panipat",
+      "zh": "第二次帕尼帕特战役"
+    },
+    "summary": {
+      "en": "Akbar’s regent Bairam Khan defeated Hemu, the Sur dynasty general who had just seized Delhi; Hemu was struck by an arrow and captured, restoring Mughal rule under the 14-year-old Akbar.",
+      "zh": "阿克巴的摄政拜拉姆汗击败刚刚夺取德里的苏尔王朝将领希穆；希穆中箭被俘，莫卧儿王朝在14岁的阿克巴治下得以复兴。"
+    },
+    "lat": 29.39,
+    "lon": 76.97,
+    "region": "south-asia",
+    "importance": 4,
+    "people": [
+      "person-akbar"
+    ],
+    "polities": [
+      "polity-mughal"
+    ],
+    "sources": [
+      {
+        "title": "Abu'l-Fazl, Akbarnama (tr. H. Beveridge)"
+      },
+      {
+        "title": "John F. Richards, The Mughal Empire (New Cambridge History of India I.5, 1993)"
+      },
+      {
+        "title": "Wikidata Q233414",
+        "url": "https://www.wikidata.org/wiki/Q233414"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-talikota",
+    "qid": "Q1362188",
+    "type": "battle",
+    "year": 1565,
+    "date": "1565-01-26",
+    "name": {
+      "en": "Battle of Talikota",
+      "zh": "塔利科塔战役"
+    },
+    "summary": {
+      "en": "An alliance of the Deccan sultanates defeated Vijayanagara’s regent Rama Raya, who was beheaded; the capital at Hampi was then sacked and the empire never regained its power.",
+      "zh": "德干诸苏丹国联军击败毗奢耶那伽罗的摄政罗摩·罗阇，并将其斩首；都城亨比随后遭洗劫，帝国从此一蹶不振。"
+    },
+    "lat": 16.4733,
+    "lon": 76.3118,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-vijayanagara"
+    ],
+    "sources": [
+      {
+        "title": "Burton Stein, Vijayanagara (New Cambridge History of India I.2, 1989)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Battle of Talikota"
+      },
+      {
+        "title": "Wikidata Q1362188",
+        "url": "https://www.wikidata.org/wiki/Q1362188"
+      }
+    ],
+    "confidence": "high",
+    "note": "Some sources give 23 January 1565."
+  },
+  {
+    "id": "ev-battle-of-haldighati",
+    "qid": "Q3635360",
+    "type": "battle",
+    "year": 1576,
+    "date": "1576-06-18",
+    "name": {
+      "en": "Battle of Haldighati",
+      "zh": "哈尔迪加蒂战役"
+    },
+    "summary": {
+      "en": "Mughal forces under Man Singh fought Maharana Pratap of Mewar in a narrow Aravalli pass; Pratap withdrew but kept up resistance and became a lasting emblem of Rajput defiance.",
+      "zh": "曼·辛格率领的莫卧儿军队在阿拉瓦利山的狭窄山口与梅瓦尔的普拉塔普王交战；普拉塔普虽撤退但坚持抵抗，成为拉其普特人不屈的长久象征。"
+    },
+    "lat": 24.8922,
+    "lon": 73.6978,
+    "region": "south-asia",
+    "importance": 2,
+    "polities": [
+      "polity-mughal"
+    ],
+    "sources": [
+      {
+        "title": "Abu'l-Fazl, Akbarnama (tr. H. Beveridge)"
+      },
+      {
+        "title": "John F. Richards, The Mughal Empire (New Cambridge History of India I.5, 1993)"
+      },
+      {
+        "title": "Wikidata Q3635360",
+        "url": "https://www.wikidata.org/wiki/Q3635360"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-fatehpur-sikri",
+    "qid": "Q179046",
+    "type": "founding",
+    "year": 1569,
+    "endYear": 1585,
+    "name": {
+      "en": "Akbar builds Fatehpur Sikri",
+      "zh": "阿克巴营建法塔赫布尔西格里"
+    },
+    "summary": {
+      "en": "Akbar raised a red-sandstone capital at Sikri to honour the Sufi Shaikh Salim Chishti, who had foretold the birth of his heir; it hosted his religious debates in the Ibadat Khana before the court left around 1585.",
+      "zh": "阿克巴在西格里兴建红砂岩新都，以纪念曾预言其继承人诞生的苏菲长老萨利姆·契斯提；宫廷约1585年迁离之前，阿克巴在此的“礼拜堂”主持宗教辩论。"
+    },
+    "lat": 27.0911,
+    "lon": 77.6611,
+    "region": "south-asia",
+    "importance": 3,
+    "people": [
+      "person-akbar"
+    ],
+    "polities": [
+      "polity-mughal"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage List: Fatehpur Sikri",
+        "url": "https://whc.unesco.org/en/list/255"
+      },
+      {
+        "title": "Abu'l-Fazl, Akbarnama (tr. H. Beveridge)"
+      },
+      {
+        "title": "Wikidata Q179046",
+        "url": "https://www.wikidata.org/wiki/Q179046"
+      }
+    ],
+    "confidence": "high",
+    "note": "Work began in 1569 (Wikidata); the city was proclaimed capital in 1571."
+  },
+  {
+    "id": "ev-harmandir-sahib",
+    "qid": "Q180422",
+    "type": "religious",
+    "year": 1589,
+    "endYear": 1604,
+    "name": {
+      "en": "Harmandir Sahib built at Amritsar",
+      "zh": "阿姆利则金庙兴建"
+    },
+    "summary": {
+      "en": "Guru Arjan built the Harmandir Sahib in the sacred pool of Amritsar and installed the newly compiled Adi Granth there in 1604; rebuilt and gilded under Ranjit Singh, the Golden Temple is Sikhism’s holiest shrine.",
+      "zh": "古鲁阿尔琼在阿姆利则圣池中建造哈曼迪尔寺，并于1604年将新编成的《阿迪·格兰特》供奉于此；该寺在兰吉特·辛格时期重建并贴金，即锡克教最神圣的金庙。"
+    },
+    "lat": 31.62,
+    "lon": 74.8767,
+    "region": "south-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "J. S. Grewal, The Sikhs of the Punjab (New Cambridge History of India II.3, 1990)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Golden Temple"
+      },
+      {
+        "title": "Wikidata Q180422",
+        "url": "https://www.wikidata.org/wiki/Q180422"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 1589 foundation follows Wikidata; some accounts place the start in 1581 or 1588."
+  },
+  {
+    "id": "ev-taj-mahal",
+    "qid": "Q9141",
+    "type": "cultural",
+    "year": 1632,
+    "endYear": 1653,
+    "name": {
+      "en": "Construction of the Taj Mahal",
+      "zh": "泰姬陵兴建"
+    },
+    "summary": {
+      "en": "Shah Jahan commissioned this white-marble mausoleum at Agra for his wife Mumtaz Mahal, who died in 1631; built by thousands of artisans over two decades, it is the masterpiece of Mughal architecture.",
+      "zh": "沙贾汗为1631年去世的皇后慕塔芝·玛哈在阿格拉修建这座白色大理石陵墓；数千名工匠历时二十余年建成，是莫卧儿建筑的巅峰之作。"
+    },
+    "lat": 27.175,
+    "lon": 78.0419,
+    "region": "south-asia",
+    "importance": 5,
+    "people": [
+      "person-shah-jahan"
+    ],
+    "polities": [
+      "polity-mughal"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage List: Taj Mahal",
+        "url": "https://whc.unesco.org/en/list/252"
+      },
+      {
+        "title": "Ebba Koch, The Complete Taj Mahal (2006)"
+      },
+      {
+        "title": "Wikidata Q9141",
+        "url": "https://www.wikidata.org/wiki/Q9141"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-karnal",
+    "qid": "Q2736986",
+    "type": "battle",
+    "year": 1739,
+    "date": "1739-02-24",
+    "name": {
+      "en": "Battle of Karnal",
+      "zh": "卡尔纳尔战役"
+    },
+    "summary": {
+      "en": "Nader Shah of Persia routed the far larger army of the Mughal emperor Muhammad Shah, then occupied and plundered Delhi, carrying off the Peacock Throne and exposing Mughal weakness.",
+      "zh": "波斯的纳迪尔沙击溃兵力远胜于己的莫卧儿皇帝穆罕默德沙的军队，随即占领并劫掠德里，掠走孔雀宝座，莫卧儿王朝的衰弱暴露无遗。"
+    },
+    "lat": 29.725,
+    "lon": 77.07,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-mughal"
+    ],
+    "sources": [
+      {
+        "title": "Michael Axworthy, The Sword of Persia (2006)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Nadir Shah"
+      },
+      {
+        "title": "Wikidata Q2736986",
+        "url": "https://www.wikidata.org/wiki/Q2736986"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-plassey",
+    "qid": "Q203233",
+    "type": "battle",
+    "year": 1757,
+    "date": "1757-06-23",
+    "name": {
+      "en": "Battle of Plassey",
+      "zh": "普拉西战役"
+    },
+    "summary": {
+      "en": "Robert Clive’s East India Company force defeated Siraj-ud-Daulah, Nawab of Bengal, after his commander Mir Jafar defected; the battle made the Company the power behind the Bengal throne and began British territorial rule in India.",
+      "zh": "罗伯特·克莱武率领的东印度公司军队在孟加拉纳瓦卜西拉杰·乌德·达乌拉的将领米尔·贾法尔倒戈后将其击败；公司由此操纵孟加拉政权，英国在印度的领土统治自此开始。"
+    },
+    "lat": 23.8,
+    "lon": 88.25,
+    "region": "south-asia",
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Plassey",
+        "url": "https://www.britannica.com/event/Battle-of-Plassey"
+      },
+      {
+        "title": "P. J. Marshall, Bengal: The British Bridgehead (New Cambridge History of India II.2, 1987)"
+      },
+      {
+        "title": "Wikidata Q203233",
+        "url": "https://www.wikidata.org/wiki/Q203233"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-third-battle-of-panipat",
+    "qid": "Q1259218",
+    "type": "battle",
+    "year": 1761,
+    "date": "1761-01-14",
+    "name": {
+      "en": "Third Battle of Panipat",
+      "zh": "第三次帕尼帕特战役"
+    },
+    "summary": {
+      "en": "Ahmad Shah Durrani’s Afghan army, with Rohilla and Awadh allies, crushed the Maratha army under Sadashivrao Bhau in one of the largest battles of the 18th century, halting Maratha expansion in the north.",
+      "zh": "艾哈迈德沙·杜兰尼的阿富汗军队联合罗赫拉人和奥德军队，击溃萨达希夫拉奥·鲍率领的马拉塔大军；这是18世纪规模最大的战役之一，遏止了马拉塔人向北扩张。"
+    },
+    "lat": 29.39,
+    "lon": 76.97,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-maratha"
+    ],
+    "sources": [
+      {
+        "title": "T. S. Shejwalkar, Panipat 1761 (1946)"
+      },
+      {
+        "title": "Stewart Gordon, The Marathas 1600–1818 (New Cambridge History of India II.4, 1993)"
+      },
+      {
+        "title": "Wikidata Q1259218",
+        "url": "https://www.wikidata.org/wiki/Q1259218"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-buxar",
+    "qid": "Q2355467",
+    "type": "battle",
+    "year": 1764,
+    "date": "1764-10-22",
+    "name": {
+      "en": "Battle of Buxar",
+      "zh": "布克萨尔战役"
+    },
+    "summary": {
+      "en": "Company troops under Hector Munro defeated the combined forces of Mir Qasim, Shuja-ud-Daulah of Awadh and the Mughal emperor Shah Alam II; the Treaty of Allahabad (1765) then gave the Company the revenue rights of Bengal, Bihar and Orissa.",
+      "zh": "赫克托·芒罗率领的东印度公司军队击败米尔·卡西姆、奥德的舒贾·乌德·达乌拉与莫卧儿皇帝沙·阿拉姆二世的联军；1765年的《阿拉哈巴德条约》使公司获得孟加拉、比哈尔和奥里萨的财税权。"
+    },
+    "lat": 25.5667,
+    "lon": 83.9833,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-mughal"
+    ],
+    "sources": [
+      {
+        "title": "P. J. Marshall, Bengal: The British Bridgehead (New Cambridge History of India II.2, 1987)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Battle of Buxar"
+      },
+      {
+        "title": "Wikidata Q2355467",
+        "url": "https://www.wikidata.org/wiki/Q2355467"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Standard histories date the battle 22–23 October 1764; Wikidata records 6 November 1764, which appears to be an error."
+  },
+  {
+    "id": "ev-anglo-mysore-wars",
+    "qid": "Q617321",
+    "type": "war",
+    "year": 1767,
+    "endYear": 1799,
+    "name": {
+      "en": "Anglo-Mysore Wars",
+      "zh": "英国—迈索尔战争"
+    },
+    "summary": {
+      "en": "Four wars between the East India Company and Mysore under Hyder Ali and Tipu Sultan, whose rocket corps and French ties made them the Company’s most formidable southern foe; they ended with Mysore reduced to a subsidiary state.",
+      "zh": "东印度公司与海德尔·阿里和蒂普苏丹统治下的迈索尔之间的四次战争；迈索尔凭借火箭部队和与法国的联系，成为公司在南印度最强劲的对手，最终沦为附属国。"
+    },
+    "lat": 12.4244,
+    "lon": 76.6903,
+    "region": "south-asia",
+    "importance": 3,
+    "people": [
+      "person-tipu-sultan"
+    ],
+    "polities": [
+      "polity-mysore"
+    ],
+    "sources": [
+      {
+        "title": "Kate Brittlebank, Tipu Sultan’s Search for Legitimacy (1997)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Mysore Wars"
+      },
+      {
+        "title": "Wikidata Q617321",
+        "url": "https://www.wikidata.org/wiki/Q617321"
+      }
+    ],
+    "confidence": "high",
+    "note": "Plotted at Srirangapatna, Mysore’s capital; Wikidata gives a generic point (13°N 77°E) for the wars."
+  },
+  {
+    "id": "ev-siege-of-seringapatam-1799",
+    "qid": "Q815204",
+    "type": "battle",
+    "year": 1799,
+    "date": "1799-05-04",
+    "name": {
+      "en": "Fall of Seringapatam",
+      "zh": "塞林伽巴丹陷落"
+    },
+    "summary": {
+      "en": "British and Hyderabad troops stormed Tipu Sultan’s island capital; Tipu was killed defending a breach, and the Company restored the Wodeyar dynasty over a reduced Mysore.",
+      "zh": "英军与海得拉巴军队攻陷蒂普苏丹的河洲都城；蒂普在城墙缺口处战死，公司随后在缩小了的迈索尔恢复沃迪亚尔王朝。"
+    },
+    "lat": 12.424,
+    "lon": 76.6903,
+    "region": "south-asia",
+    "importance": 3,
+    "people": [
+      "person-tipu-sultan"
+    ],
+    "polities": [
+      "polity-mysore"
+    ],
+    "sources": [
+      {
+        "title": "Kate Brittlebank, Tipu Sultan’s Search for Legitimacy (1997)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Tippu Sultan"
+      },
+      {
+        "title": "Wikidata Q815204",
+        "url": "https://www.wikidata.org/wiki/Q815204"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-second-anglo-sikh-war",
+    "qid": "Q243590",
+    "type": "war",
+    "year": 1848,
+    "endYear": 1849,
+    "name": {
+      "en": "Second Anglo-Sikh War",
+      "zh": "第二次英国—锡克战争"
+    },
+    "summary": {
+      "en": "After a revolt at Multan, Company armies fought the Sikh Khalsa at Chillianwala and Gujrat; victory led to the annexation of the Punjab in March 1849 and the exile of the boy-maharaja Duleep Singh.",
+      "zh": "木尔坦叛乱后，东印度公司军队在奇利安瓦拉和古杰拉特与锡克卡尔萨军交战；获胜后于1849年3月吞并旁遮普，少年土邦主杜利普·辛格被流放。"
+    },
+    "lat": 32.5742,
+    "lon": 74.0789,
+    "region": "south-asia",
+    "importance": 3,
+    "polities": [
+      "polity-sikh-empire"
+    ],
+    "sources": [
+      {
+        "title": "J. S. Grewal, The Sikhs of the Punjab (New Cambridge History of India II.3, 1990)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Sikh Wars"
+      },
+      {
+        "title": "Wikidata Q243590",
+        "url": "https://www.wikidata.org/wiki/Q243590"
+      }
+    ],
+    "confidence": "high",
+    "note": "Plotted at Gujrat, site of the decisive battle (21 February 1849)."
+  },
+  {
+    "id": "ev-indian-rebellion-1857",
+    "qid": "Q129864",
+    "type": "war",
+    "year": 1857,
+    "endYear": 1858,
+    "date": "1857-05-10",
+    "name": {
+      "en": "Indian Rebellion of 1857",
+      "zh": "1857年印度民族起义"
+    },
+    "summary": {
+      "en": "Beginning with a sepoy mutiny at Meerut, revolt spread across north and central India, rallying around the Mughal emperor Bahadur Shah II; after its suppression the Crown abolished Company rule and ended the Mughal dynasty.",
+      "zh": "起义始于密拉特的印度兵哗变，迅速蔓延至北印度和中印度，起义者拥戴莫卧儿皇帝巴哈杜尔·沙二世；镇压之后，英国王室废除东印度公司统治，莫卧儿王朝亦告终结。"
+    },
+    "lat": 28.98,
+    "lon": 77.71,
+    "region": "south-asia",
+    "importance": 5,
+    "people": [
+      "person-rani-lakshmibai"
+    ],
+    "polities": [
+      "polity-mughal",
+      "polity-british-raj"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Indian Mutiny",
+        "url": "https://www.britannica.com/event/Indian-Mutiny"
+      },
+      {
+        "title": "William Dalrymple, The Last Mughal (2006)"
+      },
+      {
+        "title": "Wikidata Q129864",
+        "url": "https://www.wikidata.org/wiki/Q129864"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-indian-national-congress-founded",
+    "qid": "Q10225",
+    "type": "political",
+    "year": 1885,
+    "date": "1885-12-28",
+    "name": {
+      "en": "Indian National Congress founded",
+      "zh": "印度国民大会党成立"
+    },
+    "summary": {
+      "en": "Seventy-two delegates met in Bombay for the first session of the Indian National Congress, convened with the help of A. O. Hume; it became the main vehicle of the independence movement.",
+      "zh": "72名代表在孟买召开印度国民大会党首届会议，会议得到休谟协助召集；国大党后来成为独立运动的主要力量。"
+    },
+    "lat": 18.95,
+    "lon": 72.83,
+    "region": "south-asia",
+    "importance": 4,
+    "place": "place-mumbai",
+    "polities": [
+      "polity-british-raj"
+    ],
+    "sources": [
+      {
+        "title": "Sumit Sarkar, Modern India 1885–1947 (1983)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Indian National Congress"
+      },
+      {
+        "title": "Wikidata Q10225",
+        "url": "https://www.wikidata.org/wiki/Q10225"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-partition-of-bengal-1905",
+    "qid": "Q2047143",
+    "type": "political",
+    "year": 1905,
+    "endYear": 1911,
+    "date": "1905-10-16",
+    "name": {
+      "en": "Partition of Bengal",
+      "zh": "孟加拉分治（1905年）"
+    },
+    "summary": {
+      "en": "Viceroy Lord Curzon split Bengal, separating the largely Muslim east; mass protest and the Swadeshi boycott forced its reversal in 1911, when the capital of British India also moved from Calcutta to Delhi.",
+      "zh": "总督寇松将孟加拉一分为二，使以穆斯林为主的东部独立成省；大规模抗议和“司瓦德西”抵制运动迫使英国于1911年撤销分治，同年英属印度首都由加尔各答迁往德里。"
+    },
+    "lat": 22.5675,
+    "lon": 88.37,
+    "region": "south-asia",
+    "importance": 3,
+    "place": "place-kolkata",
+    "polities": [
+      "polity-british-raj"
+    ],
+    "sources": [
+      {
+        "title": "Sumit Sarkar, Modern India 1885–1947 (1983)"
+      },
+      {
+        "title": "Sumit Sarkar, The Swadeshi Movement in Bengal 1903–1908 (1973)"
+      },
+      {
+        "title": "Wikidata Q2047143",
+        "url": "https://www.wikidata.org/wiki/Q2047143"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-jallianwala-bagh-massacre",
+    "qid": "Q208855",
+    "type": "political",
+    "year": 1919,
+    "date": "1919-04-13",
+    "name": {
+      "en": "Jallianwala Bagh massacre",
+      "zh": "阿姆利则惨案（扎连瓦拉园惨案）"
+    },
+    "summary": {
+      "en": "Troops under Brigadier-General Reginald Dyer fired without warning on a crowd in an enclosed garden at Amritsar, killing hundreds (379 by the official count, many more by Indian estimates); it turned many moderates against British rule.",
+      "zh": "戴尔准将率部在阿姆利则一处封闭园地内不加警告地向人群开枪，造成数百人死亡（官方统计379人，印方估计远多于此），使许多温和派转而反对英国统治。"
+    },
+    "lat": 31.6206,
+    "lon": 74.8806,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-british-raj"
+    ],
+    "sources": [
+      {
+        "title": "Kim A. Wagner, Amritsar 1919: An Empire of Fear and the Making of a Massacre (2019)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Jallianwala Bagh Massacre"
+      },
+      {
+        "title": "Wikidata Q208855",
+        "url": "https://www.wikidata.org/wiki/Q208855"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-salt-march",
+    "qid": "Q239344",
+    "type": "political",
+    "year": 1930,
+    "endYear": 1930,
+    "date": "1930-03-12",
+    "name": {
+      "en": "Salt March",
+      "zh": "食盐进军"
+    },
+    "summary": {
+      "en": "Gandhi and 78 followers walked about 390 km from Sabarmati Ashram to Dandi to make salt in defiance of the British salt tax; the march launched nationwide civil disobedience and drew world attention.",
+      "zh": "甘地与78名追随者从萨巴尔马蒂修道院步行约390公里至丹迪海边自行制盐，以抗议英国的盐税；此举掀起全国性的不合作运动，引起世界关注。"
+    },
+    "lat": 20.89,
+    "lon": 72.8,
+    "region": "south-asia",
+    "importance": 5,
+    "people": [
+      "person-gandhi"
+    ],
+    "polities": [
+      "polity-british-raj"
+    ],
+    "route": [
+      {
+        "year": 1930,
+        "lat": 23.0607,
+        "lon": 72.5809,
+        "label": {
+          "en": "Sabarmati Ashram (12 March)",
+          "zh": "萨巴尔马蒂修道院（3月12日）"
+        }
+      },
+      {
+        "year": 1930,
+        "lat": 22.69,
+        "lon": 72.86,
+        "label": {
+          "en": "Nadiad",
+          "zh": "纳迪亚德"
+        }
+      },
+      {
+        "year": 1930,
+        "lat": 22.56,
+        "lon": 72.95,
+        "label": {
+          "en": "Anand",
+          "zh": "阿南德"
+        }
+      },
+      {
+        "year": 1930,
+        "lat": 21.71,
+        "lon": 72.98,
+        "label": {
+          "en": "Broach (Bharuch)",
+          "zh": "布罗奇（巴鲁奇）"
+        }
+      },
+      {
+        "year": 1930,
+        "lat": 21.17,
+        "lon": 72.83,
+        "label": {
+          "en": "Surat",
+          "zh": "苏拉特"
+        }
+      },
+      {
+        "year": 1930,
+        "lat": 20.95,
+        "lon": 72.93,
+        "label": {
+          "en": "Navsari",
+          "zh": "瑙萨里"
+        }
+      },
+      {
+        "year": 1930,
+        "lat": 20.89,
+        "lon": 72.8,
+        "label": {
+          "en": "Dandi (5–6 April)",
+          "zh": "丹迪（4月5—6日）"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Judith M. Brown, Gandhi: Prisoner of Hope (1989)"
+      },
+      {
+        "title": "Thomas Weber, On the Salt March (1997)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Salt March"
+      },
+      {
+        "title": "Wikidata Q239344",
+        "url": "https://www.wikidata.org/wiki/Q239344"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-lahore-resolution",
+    "qid": "Q1800631",
+    "type": "political",
+    "year": 1940,
+    "date": "1940-03-23",
+    "name": {
+      "en": "Lahore Resolution",
+      "zh": "拉合尔决议"
+    },
+    "summary": {
+      "en": "At its Lahore session the All-India Muslim League under Jinnah demanded independent states for the Muslim-majority regions of north-western and eastern India—the founding demand of the Pakistan movement.",
+      "zh": "全印穆斯林联盟在真纳领导下于拉合尔年会上要求在印度西北部和东部穆斯林占多数的地区建立独立国家，这成为巴基斯坦运动的纲领性诉求。"
+    },
+    "lat": 31.5925,
+    "lon": 74.3095,
+    "region": "south-asia",
+    "importance": 4,
+    "people": [
+      "person-jinnah"
+    ],
+    "place": "place-lahore",
+    "polities": [
+      "polity-british-raj"
+    ],
+    "sources": [
+      {
+        "title": "Ayesha Jalal, The Sole Spokesman (1985)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Lahore Resolution"
+      },
+      {
+        "title": "Wikidata Q1800631",
+        "url": "https://www.wikidata.org/wiki/Q1800631"
+      }
+    ],
+    "confidence": "high",
+    "note": "Moved on 23 March and adopted on 24 March 1940."
+  },
+  {
+    "id": "ev-independence-and-partition-1947",
+    "qid": "Q129053",
+    "type": "political",
+    "year": 1947,
+    "date": "1947-08-15",
+    "name": {
+      "en": "Independence and Partition of India",
+      "zh": "印度独立与印巴分治"
+    },
+    "summary": {
+      "en": "British India was divided into the dominions of India and Pakistan at midnight on 14–15 August 1947; the partition of Punjab and Bengal brought communal massacres and displaced roughly 12–15 million people.",
+      "zh": "1947年8月14日至15日午夜，英属印度分为印度和巴基斯坦两个自治领；旁遮普和孟加拉的分割引发教派屠杀，约1200万至1500万人流离失所。"
+    },
+    "lat": 28.6129,
+    "lon": 77.2295,
+    "region": "south-asia",
+    "importance": 5,
+    "people": [
+      "person-nehru",
+      "person-jinnah",
+      "person-gandhi"
+    ],
+    "place": "place-delhi",
+    "polities": [
+      "polity-british-raj",
+      "polity-india",
+      "polity-pakistan"
+    ],
+    "sources": [
+      {
+        "title": "Yasmin Khan, The Great Partition: The Making of India and Pakistan (2007)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Partition of India"
+      },
+      {
+        "title": "Wikidata Q129053",
+        "url": "https://www.wikidata.org/wiki/Q129053"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-ceylon-independence",
+    "type": "political",
+    "year": 1948,
+    "date": "1948-02-04",
+    "name": {
+      "en": "Independence of Ceylon",
+      "zh": "锡兰独立"
+    },
+    "summary": {
+      "en": "Ceylon became an independent dominion within the Commonwealth under Prime Minister D. S. Senanayake; it became the Republic of Sri Lanka in 1972.",
+      "zh": "锡兰在总理森那那亚克领导下成为英联邦内的独立自治领，1972年改为斯里兰卡共和国。"
+    },
+    "lat": 6.9344,
+    "lon": 79.8428,
+    "region": "south-asia",
+    "importance": 3,
+    "place": "place-colombo",
+    "polities": [
+      "polity-sri-lanka"
+    ],
+    "sources": [
+      {
+        "title": "K. M. de Silva, A History of Sri Lanka (1981)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Sri Lanka"
+      }
+    ],
+    "confidence": "high",
+    "note": "No Wikidata item exists for the independence event itself; Q2670092 (Dominion of Ceylon) is the polity, so no QID is given here."
+  },
+  {
+    "id": "ev-constitution-of-india",
+    "qid": "Q477108",
+    "type": "political",
+    "year": 1950,
+    "date": "1950-01-26",
+    "name": {
+      "en": "Constitution of India comes into force",
+      "zh": "《印度宪法》生效"
+    },
+    "summary": {
+      "en": "Drafted by the Constituent Assembly, with B. R. Ambedkar chairing its drafting committee, the constitution made India a sovereign democratic republic with universal adult suffrage.",
+      "zh": "由制宪会议起草、安贝德卡尔主持起草委员会的宪法正式生效，印度成为实行成人普选的主权民主共和国。"
+    },
+    "lat": 28.6172,
+    "lon": 77.2082,
+    "region": "south-asia",
+    "importance": 4,
+    "people": [
+      "person-nehru"
+    ],
+    "place": "place-delhi",
+    "polities": [
+      "polity-india"
+    ],
+    "sources": [
+      {
+        "title": "Granville Austin, The Indian Constitution: Cornerstone of a Nation (1966)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Constitution of India"
+      },
+      {
+        "title": "Wikidata Q477108",
+        "url": "https://www.wikidata.org/wiki/Q477108"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-bangladesh-liberation-war",
+    "qid": "Q371394",
+    "type": "war",
+    "year": 1971,
+    "endYear": 1971,
+    "date": "1971-03-26",
+    "name": {
+      "en": "Bangladesh Liberation War",
+      "zh": "孟加拉国解放战争"
+    },
+    "summary": {
+      "en": "After Pakistan’s army cracked down in East Pakistan in March 1971, Bengali forces fought for independence; millions fled to India, which intervened in December, and Pakistani forces surrendered at Dhaka on 16 December.",
+      "zh": "1971年3月巴基斯坦军队在东巴基斯坦实施镇压后，孟加拉人武装争取独立；数百万难民逃往印度，印度于12月出兵干预，巴军于12月16日在达卡投降。"
+    },
+    "lat": 23.7289,
+    "lon": 90.3944,
+    "region": "south-asia",
+    "importance": 5,
+    "place": "place-dhaka",
+    "polities": [
+      "polity-bangladesh",
+      "polity-pakistan",
+      "polity-india"
+    ],
+    "sources": [
+      {
+        "title": "Srinath Raghavan, 1971: A Global History of the Creation of Bangladesh (2013)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Bangladesh Liberation War"
+      },
+      {
+        "title": "Wikidata Q371394",
+        "url": "https://www.wikidata.org/wiki/Q371394"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-sri-lankan-civil-war",
+    "qid": "Q213394",
+    "type": "war",
+    "year": 1983,
+    "endYear": 2009,
+    "name": {
+      "en": "Sri Lankan Civil War",
+      "zh": "斯里兰卡内战"
+    },
+    "summary": {
+      "en": "War between the Sri Lankan state and the Liberation Tigers of Tamil Eelam, who sought a separate Tamil state in the north and east, killed tens of thousands; it ended with the army’s defeat of the LTTE in May 2009.",
+      "zh": "斯里兰卡政府与谋求在北部和东部建立泰米尔国家的“泰米尔伊拉姆猛虎解放组织”之间的战争造成数万人死亡，2009年5月政府军击败猛虎组织后结束。"
+    },
+    "lat": 7,
+    "lon": 81,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-sri-lanka"
+    ],
+    "sources": [
+      {
+        "title": "K. M. de Silva, A History of Sri Lanka, rev. ed. (2005)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Sri Lankan Civil War"
+      },
+      {
+        "title": "Wikidata Q213394",
+        "url": "https://www.wikidata.org/wiki/Q213394"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-bhopal-disaster",
+    "qid": "Q129029",
+    "type": "disaster",
+    "year": 1984,
+    "date": "1984-12-03",
+    "name": {
+      "en": "Bhopal gas disaster",
+      "zh": "博帕尔毒气泄漏事件"
+    },
+    "summary": {
+      "en": "Methyl isocyanate gas escaped from a Union Carbide pesticide plant in Bhopal, killing thousands within days and injuring hundreds of thousands—the world’s worst industrial disaster.",
+      "zh": "博帕尔一家联合碳化物公司农药厂泄漏异氰酸甲酯毒气，数日内致数千人死亡，数十万人受伤，是世界上最严重的工业灾难。"
+    },
+    "lat": 23.2808,
+    "lon": 77.4106,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-india"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Bhopal disaster"
+      },
+      {
+        "title": "Edward Broughton, “The Bhopal disaster and its aftermath: a review”, Environmental Health 4 (2005)"
+      },
+      {
+        "title": "Wikidata Q129029",
+        "url": "https://www.wikidata.org/wiki/Q129029"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-nepal-becomes-republic",
+    "qid": "Q1534989",
+    "type": "political",
+    "year": 2008,
+    "date": "2008-05-28",
+    "name": {
+      "en": "Nepal’s Constituent Assembly ends the monarchy",
+      "zh": "尼泊尔制宪会议废除君主制"
+    },
+    "summary": {
+      "en": "After a decade of Maoist insurgency and the 2006 people’s movement, Nepal elected a Constituent Assembly in April 2008, which at its first sitting on 28 May abolished the 240-year Shah monarchy and declared a federal republic.",
+      "zh": "经历十年毛派武装斗争和2006年人民运动后，尼泊尔于2008年4月选出制宪会议；该会议在5月28日首次会议上废除延续240年的沙阿王朝君主制，宣布成立联邦共和国。"
+    },
+    "lat": 27.7172,
+    "lon": 85.324,
+    "region": "south-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "John Whelpton, A History of Nepal (2005)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Nepal"
+      },
+      {
+        "title": "Wikidata Q1534989",
+        "url": "https://www.wikidata.org/wiki/Q1534989"
+      }
+    ],
+    "confidence": "high",
+    "note": "The date is the Constituent Assembly’s first sitting, which abolished the monarchy (28 May 2008); the QID is the Assembly election of 10 April 2008, as no separate Wikidata item exists for the abolition."
+  },
+  {
+    "id": "ev-periplus-erythraean-sea",
+    "qid": "Q664162",
+    "type": "exploration",
+    "year": 50,
+    "name": {
+      "en": "Periplus of the Erythraean Sea and the monsoon trade",
+      "zh": "《爱利脱利亚海周航记》与季风贸易"
+    },
+    "summary": {
+      "en": "A Greek-speaking merchant from Roman Egypt wrote a guide to the ports of the Red Sea, East Africa, Arabia and India, explaining how ships used the monsoon winds to cross the open sea. It names Muziris on the Malabar coast, where Roman gold and wine bought pepper and gems.",
+      "zh": "一位来自罗马埃及、讲希腊语的商人撰写了这部介绍红海、东非、阿拉伯和印度沿岸港口的指南，说明商船如何借助季风横渡大洋。书中提到马拉巴尔海岸的穆济里斯，罗马的黄金和葡萄酒在此换取胡椒和宝石。"
+    },
+    "lat": 10.1565,
+    "lon": 76.209,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-roman-empire"
+    ],
+    "sources": [
+      {
+        "title": "Lionel Casson (ed. and trans.), The Periplus Maris Erythraei (1989)"
+      },
+      {
+        "title": "Fordham University Internet History Sourcebooks: The Periplus of the Erythraean Sea",
+        "url": "https://sourcebooks.fordham.edu/ancient/periplus.asp"
+      },
+      {
+        "title": "Wikipedia: Periplus of the Erythraean Sea",
+        "url": "https://en.wikipedia.org/wiki/Periplus_of_the_Erythraean_Sea"
+      },
+      {
+        "title": "Wikipedia: Muziris",
+        "url": "https://en.wikipedia.org/wiki/Muziris"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Usually dated c. 40–70 CE; Muziris is generally identified with the excavated site of Pattanam in Kerala, where the marker is placed."
+  },
+  {
+    "id": "ev-brahmasphutasiddhanta",
+    "qid": "Q1290001",
+    "type": "science",
+    "year": 628,
+    "name": {
+      "en": "Brahmagupta's Brāhmasphuṭasiddhānta",
+      "zh": "婆罗摩笈多著《婆罗摩历算书》"
+    },
+    "summary": {
+      "en": "Working at Bhillamala (Bhinmal) in Rajasthan, Brahmagupta wrote an astronomical treatise containing the first known rules for arithmetic with zero and negative numbers and methods for quadratic and indeterminate equations. Translated into Arabic in Baghdad around 771, it shaped Islamic astronomy and mathematics.",
+      "zh": "婆罗摩笈多在拉贾斯坦的毗罗摩罗（今宾马尔）撰写这部天文学著作，其中包含已知最早的零与负数运算规则，以及二次方程和不定方程的解法。约771年该书在巴格达被译成阿拉伯文，影响了伊斯兰天文学和数学。"
+    },
+    "lat": 25,
+    "lon": 72.25,
+    "region": "south-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "MacTutor History of Mathematics: Brahmagupta",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/"
+      },
+      {
+        "title": "Britannica: Brahmagupta",
+        "url": "https://www.britannica.com/biography/Brahmagupta"
+      },
+      {
+        "title": "Wikipedia: Brāhmasphuṭasiddhānta",
+        "url": "https://en.wikipedia.org/wiki/Brāhmasphuṭasiddhānta"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-kailasa-temple-ellora",
+    "qid": "Q1268562",
+    "type": "religious",
+    "year": 756,
+    "endYear": 773,
+    "name": {
+      "en": "Kailasa temple carved at Ellora",
+      "zh": "埃洛拉凯拉萨神庙开凿"
+    },
+    "summary": {
+      "en": "Under the Rashtrakuta king Krishna I, workers cut a complete Shiva temple, with shrine, halls and courtyard, downward into a single basalt hillside at Ellora. It is the largest monolithic rock-cut monument in the world, part of a site with Buddhist, Hindu and Jain caves.",
+      "zh": "在罗湿陀罗拘陀王朝国王克里希纳一世治下，工匠在埃洛拉从一整块玄武岩山体向下凿出一座完整的湿婆神庙，包括主殿、厅堂和庭院。这是世界上最大的整石凿成的古迹，所在的石窟群兼有佛教、印度教和耆那教洞窟。"
+    },
+    "lat": 20.0239,
+    "lon": 75.1792,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-rashtrakuta"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Ellora Caves",
+        "url": "https://whc.unesco.org/en/list/243"
+      },
+      {
+        "title": "Britannica: Ellora Caves",
+        "url": "https://www.britannica.com/place/Ellora-Caves"
+      },
+      {
+        "title": "Wikipedia: Kailasa Temple, Ellora",
+        "url": "https://en.wikipedia.org/wiki/Kailasa_Temple,_Ellora"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Span is the reign of Krishna I (c. 756–773), to whom the Baroda copper plates of 812 attribute the temple; work may have continued under his successors."
+  },
+  {
+    "id": "ev-asiatic-society",
+    "qid": "Q374902",
+    "type": "cultural",
+    "year": 1784,
+    "date": "1784-01-15",
+    "name": {
+      "en": "Asiatic Society founded in Calcutta",
+      "zh": "亚洲学会在加尔各答成立"
+    },
+    "summary": {
+      "en": "The judge and philologist William Jones founded the Asiatic Society in Calcutta to study Asia's languages, history and sciences. His 1786 address to the Society, noting that Sanskrit, Greek and Latin shared a common source, helped found comparative linguistics and the idea of an Indo-European family.",
+      "zh": "法官兼语文学家威廉·琼斯在加尔各答创立亚洲学会，研究亚洲的语言、历史和科学。他1786年在学会的演讲指出梵语、希腊语和拉丁语同出一源，为比较语言学和印欧语系概念奠定了基础。"
+    },
+    "lat": 22.5552,
+    "lon": 88.3505,
+    "region": "south-asia",
+    "importance": 3,
+    "place": "place-kolkata",
+    "sources": [
+      {
+        "title": "Britannica: Sir William Jones",
+        "url": "https://www.britannica.com/biography/William-Jones-British-orientalist-and-jurist"
+      },
+      {
+        "title": "Wikipedia: The Asiatic Society",
+        "url": "https://en.wikipedia.org/wiki/The_Asiatic_Society"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-bengal-famine-1943",
+    "qid": "Q522837",
+    "type": "disaster",
+    "year": 1943,
+    "endYear": 1944,
+    "name": {
+      "en": "Bengal famine",
+      "zh": "孟加拉大饥荒"
+    },
+    "summary": {
+      "en": "Wartime inflation, the loss of rice imports from Burma, a cyclone and crop disease, and the failure of the colonial and British governments to respond turned scarcity into famine in Bengal. An estimated 2.1 to 3 million people died of starvation and disease.",
+      "zh": "战时通货膨胀、缅甸大米进口断绝、气旋与稻作病害，加之殖民政府和英国政府应对失当，使孟加拉的粮食短缺演变为大饥荒。估计有210万至300万人死于饥饿和疾病。"
+    },
+    "lat": 23.9888,
+    "lon": 88.7311,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-british-raj"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Bengal famine",
+        "url": "https://www.britannica.com/topic/Bengal-famine"
+      },
+      {
+        "title": "Wikipedia: Bengal famine of 1943",
+        "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943"
+      },
+      {
+        "title": "Amartya Sen, Poverty and Famines: An Essay on Entitlement and Deprivation (1981)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Death estimates range from about 2.1 million (Dyson and Maharatna) to 3 million."
+  },
+  {
+    "id": "ev-bhola-cyclone",
+    "qid": "Q245551",
+    "type": "disaster",
+    "year": 1970,
+    "date": "1970-11-12",
+    "name": {
+      "en": "Bhola cyclone",
+      "zh": "1970年波拉气旋"
+    },
+    "summary": {
+      "en": "A severe cyclone drove a storm surge across the low islands and coast of East Pakistan on the night of 12–13 November 1970, killing an estimated 300,000–500,000 people, the deadliest tropical cyclone on record. Anger at the government's slow relief fed the movement that led to Bangladesh's independence.",
+      "zh": "1970年11月12日至13日夜，一场强烈气旋引发的风暴潮横扫东巴基斯坦的低洼岛屿和沿海地区，估计造成30万至50万人死亡，是有记录以来最致命的热带气旋。政府救灾迟缓引发的愤怒推动了最终导致孟加拉国独立的运动。"
+    },
+    "lat": 22.5,
+    "lon": 90.75,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-pakistan"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Ganges-Brahmaputra delta cyclone of 1970",
+        "url": "https://www.britannica.com/event/Ganges-Brahmaputra-delta-cyclone"
+      },
+      {
+        "title": "World Meteorological Organization: WMO Weather and Climate Extremes Archive",
+        "url": "https://wmo.asu.edu/"
+      },
+      {
+        "title": "Wikipedia: 1970 Bhola cyclone",
+        "url": "https://en.wikipedia.org/wiki/1970_Bhola_cyclone"
+      }
+    ],
+    "confidence": "medium",
+    "note": "WMO lists it as the deadliest tropical cyclone on record (about 300,000 deaths); other estimates reach 500,000. Marker at Bhola Island."
+  }
+]

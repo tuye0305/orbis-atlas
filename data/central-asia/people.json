@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "person-bumin-qaghan",
+    "qid": "Q29001",
+    "name": {
+      "en": "Bumin Qaghan",
+      "zh": "土门（伊利可汗）"
+    },
+    "born": 490,
+    "died": 552,
+    "role": {
+      "en": "Founder of the Turkic Khaganate",
+      "zh": "突厥汗国创建者"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Chief of the Ashina Türks, Bumin opened relations with the Western Wei, crushed the Tiele and then his Rouran overlords, and proclaimed himself Il-Qaghan in 552, dying the same year; his brother Istämi extended Turkic rule west.",
+      "zh": "阿史那突厥首领土门与西魏通好，先击败铁勒，再推翻宗主柔然，于552年自立为伊利可汗，同年去世；其弟室点密向西扩展了突厥的统治。"
+    },
+    "stops": [
+      {
+        "year": 545,
+        "lat": 47,
+        "lon": 89,
+        "label": {
+          "en": "Western Wei envoy reaches the Türks in the Altai",
+          "zh": "西魏使者抵达阿尔泰的突厥"
+        }
+      },
+      {
+        "year": 546,
+        "lat": 46,
+        "lon": 92,
+        "label": {
+          "en": "Defeats the Tiele",
+          "zh": "击败铁勒"
+        }
+      },
+      {
+        "year": 551,
+        "lat": 34.27,
+        "lon": 108.94,
+        "label": {
+          "en": "Receives a Western Wei princess (envoys to Chang’an)",
+          "zh": "迎娶西魏公主（遣使长安）"
+        }
+      },
+      {
+        "year": 552,
+        "lat": 47.5,
+        "lon": 101.5,
+        "label": {
+          "en": "Overthrows the Rouran; proclaimed Il-Qaghan",
+          "zh": "推翻柔然，称伊利可汗"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Linghu Defen et al., Zhoushu, ch. 50: the Tujue"
+      },
+      {
+        "title": "Peter B. Golden, An Introduction to the History of the Turkic Peoples (1992)"
+      },
+      {
+        "title": "Wikidata Q29001",
+        "url": "https://www.wikidata.org/wiki/Q29001"
+      }
+    ],
+    "confidence": "low",
+    "note": "Birth year unknown; 490 follows Wikidata and is not attested in the sources. Locations are approximate."
+  },
+  {
+    "id": "person-genghis-khan",
+    "qid": "Q720",
+    "name": {
+      "en": "Genghis Khan",
+      "zh": "成吉思汗"
+    },
+    "born": 1162,
+    "died": 1227,
+    "role": {
+      "en": "Founder of the Mongol Empire",
+      "zh": "蒙古帝国创建者"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Temüjin rose from an outcast childhood to unite the steppe tribes in 1206, reorganised them into decimal military units under a law code, and launched conquests of the Jin, Western Xia and Khwarazm that began the largest contiguous land empire in history.",
+      "zh": "铁木真幼年孤苦，后于1206年统一草原诸部，以十进制军事组织和札撒法令加以整编，并发动对金、西夏和花剌子模的征服，开创了历史上疆域最大的连续陆地帝国。"
+    },
+    "stops": [
+      {
+        "year": 1162,
+        "lat": 49.03,
+        "lon": 111.62,
+        "label": {
+          "en": "Born near the Onon river (Delüün Boldog)",
+          "zh": "生于斡难河畔（迭里温孛勒答黑）"
+        }
+      },
+      {
+        "year": 1204,
+        "lat": 47.5,
+        "lon": 102.5,
+        "label": {
+          "en": "Defeats the Naimans at Chakirma’ut",
+          "zh": "在纳忽山崖击败乃蛮"
+        }
+      },
+      {
+        "year": 1206,
+        "lat": 48.9,
+        "lon": 109,
+        "label": {
+          "en": "Proclaimed Genghis Khan at the Onon source",
+          "zh": "在斡难河源称成吉思汗"
+        }
+      },
+      {
+        "year": 1215,
+        "lat": 39.9,
+        "lon": 116.4,
+        "label": {
+          "en": "Captures the Jin capital Zhongdu",
+          "zh": "攻陷金中都"
+        }
+      },
+      {
+        "year": 1219,
+        "lat": 42.85,
+        "lon": 68.3,
+        "label": {
+          "en": "Invades Khwarazm at Otrar",
+          "zh": "自讹答剌入侵花剌子模"
+        }
+      },
+      {
+        "year": 1220,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Takes Samarkand",
+          "zh": "攻占撒马尔罕"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 33.77,
+        "lon": 72.18,
+        "label": {
+          "en": "Defeats Jalal al-Din on the Indus",
+          "zh": "在印度河击败札兰丁"
+        }
+      },
+      {
+        "year": 1227,
+        "lat": 35.6,
+        "lon": 106.2,
+        "label": {
+          "en": "Dies during the Western Xia campaign",
+          "zh": "在征西夏途中去世"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Secret History of the Mongols, tr. Igor de Rachewiltz (2004)"
+      },
+      {
+        "title": "Ata-Malik Juvaini, Tarikh-i Jahangushay (The History of the World-Conqueror), tr. J. A. Boyle (1958)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Genghis Khan",
+        "url": "https://www.britannica.com/biography/Genghis-Khan"
+      },
+      {
+        "title": "Wikidata Q720",
+        "url": "https://www.wikidata.org/wiki/Q720"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth year is disputed (1155, 1162 or 1167); 1162 follows Wikidata and most modern accounts. Place of death is approximate."
+  },
+  {
+    "id": "person-subutai",
+    "qid": "Q162217",
+    "name": {
+      "en": "Subutai",
+      "zh": "速不台"
+    },
+    "born": 1175,
+    "died": 1248,
+    "role": {
+      "en": "Mongol general",
+      "zh": "蒙古大将"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "A Uriankhai commoner who became Genghis Khan’s foremost general, Subutai led the great raid around the Caspian to the Kalka, helped destroy the Jin dynasty, and planned the invasion of Rus’ and Hungary under Batu.",
+      "zh": "速不台出身兀良哈平民，成为成吉思汗麾下最杰出的将领，曾率军绕里海远袭至迦勒迦河，参与灭金，并在拔都统帅下策划了征服罗斯和匈牙利的西征。"
+    },
+    "stops": [
+      {
+        "year": 1220,
+        "lat": 36.21,
+        "lon": 58.8,
+        "label": {
+          "en": "Pursues Muhammad II across Khurasan",
+          "zh": "追击摩诃末二世穿越呼罗珊"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 41.7,
+        "lon": 44.8,
+        "label": {
+          "en": "Defeats the Georgians",
+          "zh": "击败格鲁吉亚人"
+        }
+      },
+      {
+        "year": 1223,
+        "lat": 47.2508,
+        "lon": 37.4957,
+        "label": {
+          "en": "Victory at the Kalka",
+          "zh": "迦勒迦河大捷"
+        }
+      },
+      {
+        "year": 1232,
+        "lat": 34.16,
+        "lon": 113.47,
+        "label": {
+          "en": "Defeats the Jin at Sanfengshan",
+          "zh": "三峰山之战击败金军"
+        }
+      },
+      {
+        "year": 1237,
+        "lat": 54.63,
+        "lon": 39.73,
+        "label": {
+          "en": "Sack of Ryazan",
+          "zh": "攻陷梁赞"
+        }
+      },
+      {
+        "year": 1241,
+        "lat": 47.98,
+        "lon": 20.98,
+        "label": {
+          "en": "Victory at Mohi in Hungary",
+          "zh": "匈牙利赛约河之战获胜"
+        }
+      },
+      {
+        "year": 1248,
+        "lat": 47.9,
+        "lon": 106.9,
+        "label": {
+          "en": "Dies by the Tuul river",
+          "zh": "卒于土拉河畔"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Yuanshi (History of Yuan), chs. 121–122: biographies of Subutai"
+      },
+      {
+        "title": "Carl Sverdrup, The Mongol Conquests: The Military Operations of Genghis Khan and Sübe’etei (2017)"
+      },
+      {
+        "title": "Wikidata Q162217",
+        "url": "https://www.wikidata.org/wiki/Q162217"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-ogedei",
+    "qid": "Q7519",
+    "name": {
+      "en": "Ögedei Khan",
+      "zh": "窝阔台"
+    },
+    "born": 1186,
+    "died": 1241,
+    "role": {
+      "en": "Second Great Khan of the Mongol Empire",
+      "zh": "蒙古帝国第二任大汗"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Third son and chosen heir of Genghis Khan, Ögedei completed the conquest of the Jin, built a walled capital at Karakorum, set up a postal relay system and sent armies into Europe, Iran and Korea before his death in 1241.",
+      "zh": "成吉思汗第三子及指定继承人，窝阔台完成灭金，在哈拉和林修筑都城，建立驿站制度，并派兵进攻欧洲、伊朗和高丽，1241年去世。"
+    },
+    "stops": [
+      {
+        "year": 1219,
+        "lat": 42.85,
+        "lon": 68.3,
+        "label": {
+          "en": "Besieges Otrar",
+          "zh": "围攻讹答剌"
+        }
+      },
+      {
+        "year": 1221,
+        "lat": 42.3261,
+        "lon": 59.1531,
+        "label": {
+          "en": "Takes Gurganj",
+          "zh": "攻陷玉龙杰赤"
+        }
+      },
+      {
+        "year": 1229,
+        "lat": 47.4,
+        "lon": 109.9,
+        "label": {
+          "en": "Elected Great Khan on the Kherlen",
+          "zh": "在克鲁伦河畔被推举为大汗"
+        }
+      },
+      {
+        "year": 1232,
+        "lat": 34.16,
+        "lon": 113.47,
+        "label": {
+          "en": "Campaign against the Jin",
+          "zh": "亲征金朝"
+        }
+      },
+      {
+        "year": 1235,
+        "lat": 47.1975,
+        "lon": 102.8238,
+        "label": {
+          "en": "Walls Karakorum as capital",
+          "zh": "修筑哈拉和林城"
+        }
+      },
+      {
+        "year": 1241,
+        "lat": 47.1975,
+        "lon": 102.8238,
+        "label": {
+          "en": "Dies near Karakorum",
+          "zh": "卒于哈拉和林附近"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Secret History of the Mongols, tr. Igor de Rachewiltz (2004)"
+      },
+      {
+        "title": "Ata-Malik Juvaini, Tarikh-i Jahangushay (The History of the World-Conqueror), tr. J. A. Boyle (1958)"
+      },
+      {
+        "title": "Thomas T. Allsen, Mongol Imperialism (1987)"
+      },
+      {
+        "title": "Wikidata Q7519",
+        "url": "https://www.wikidata.org/wiki/Q7519"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-kublai-khan",
+    "qid": "Q7523",
+    "name": {
+      "en": "Kublai Khan",
+      "zh": "忽必烈"
+    },
+    "born": 1215,
+    "died": 1294,
+    "role": {
+      "en": "Great Khan; founder of the Yuan dynasty",
+      "zh": "大汗、元朝开国皇帝"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Grandson of Genghis Khan, Kublai defeated his brother Ariq Böke for the throne, moved the imperial centre from Karakorum to China, proclaimed the Yuan dynasty in 1271 and completed the conquest of the Southern Song.",
+      "zh": "成吉思汗之孙，忽必烈击败其弟阿里不哥夺得汗位，将帝国重心从哈拉和林移至汉地，1271年建国号“大元”，并完成对南宋的征服。"
+    },
+    "stops": [
+      {
+        "year": 1215,
+        "lat": 47.9,
+        "lon": 107,
+        "label": {
+          "en": "Born in Mongolia",
+          "zh": "生于蒙古"
+        }
+      },
+      {
+        "year": 1253,
+        "lat": 25.6,
+        "lon": 100.2,
+        "label": {
+          "en": "Conquers the Dali kingdom",
+          "zh": "征服大理"
+        }
+      },
+      {
+        "year": 1256,
+        "lat": 42.36,
+        "lon": 116.18,
+        "label": {
+          "en": "Founds Kaiping (Shangdu)",
+          "zh": "营建开平（上都）"
+        }
+      },
+      {
+        "year": 1260,
+        "lat": 42.36,
+        "lon": 116.18,
+        "label": {
+          "en": "Proclaimed Great Khan at Kaiping",
+          "zh": "在开平即大汗位"
+        }
+      },
+      {
+        "year": 1264,
+        "lat": 42.36,
+        "lon": 116.18,
+        "label": {
+          "en": "Ariq Böke surrenders at Shangdu",
+          "zh": "阿里不哥在上都投降"
+        }
+      },
+      {
+        "year": 1272,
+        "lat": 39.9,
+        "lon": 116.4,
+        "label": {
+          "en": "Makes Dadu (Beijing) his capital",
+          "zh": "定都大都（北京）"
+        }
+      },
+      {
+        "year": 1279,
+        "lat": 22.2,
+        "lon": 113.1,
+        "label": {
+          "en": "Song defeated at Yamen",
+          "zh": "崖山之战南宋灭亡"
+        }
+      },
+      {
+        "year": 1294,
+        "lat": 39.9,
+        "lon": 116.4,
+        "label": {
+          "en": "Dies at Dadu",
+          "zh": "卒于大都"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Morris Rossabi, Khubilai Khan: His Life and Times (1988)"
+      },
+      {
+        "title": "Song Lian et al., Yuanshi (History of Yuan), chs. 4–17"
+      },
+      {
+        "title": "Wikidata Q7523",
+        "url": "https://www.wikidata.org/wiki/Q7523"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-hulagu-khan",
+    "qid": "Q177320",
+    "name": {
+      "en": "Hulagu Khan",
+      "zh": "旭烈兀"
+    },
+    "born": 1217,
+    "died": 1265,
+    "role": {
+      "en": "Founder of the Ilkhanate",
+      "zh": "伊儿汗国创建者"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Sent west by his brother Möngke, Hulagu destroyed the Nizari Ismaili fortresses, sacked Baghdad and executed the last Abbasid caliph in 1258, and founded the Ilkhanate in Iran, though his advance into Syria was checked at Ain Jalut.",
+      "zh": "旭烈兀受其兄蒙哥派遣西征，摧毁尼查里伊斯玛仪派诸堡，于1258年攻陷巴格达、处死末代阿拔斯哈里发，并在伊朗建立伊儿汗国，但其向叙利亚的推进在艾因贾鲁特受阻。"
+    },
+    "stops": [
+      {
+        "year": 1253,
+        "lat": 47.1975,
+        "lon": 102.8238,
+        "label": {
+          "en": "Leaves Mongolia on the western campaign",
+          "zh": "自蒙古出发西征"
+        }
+      },
+      {
+        "year": 1256,
+        "lat": 36.44,
+        "lon": 50.59,
+        "label": {
+          "en": "Takes Alamut",
+          "zh": "攻取阿拉穆特"
+        }
+      },
+      {
+        "year": 1258,
+        "lat": 33.34,
+        "lon": 44.4,
+        "label": {
+          "en": "Sacks Baghdad",
+          "zh": "攻陷巴格达"
+        }
+      },
+      {
+        "year": 1260,
+        "lat": 36.2,
+        "lon": 37.16,
+        "label": {
+          "en": "Takes Aleppo",
+          "zh": "攻取阿勒颇"
+        }
+      },
+      {
+        "year": 1263,
+        "lat": 43.5,
+        "lon": 46.5,
+        "label": {
+          "en": "Defeated by Berke on the Terek",
+          "zh": "在捷列克河败于别儿哥"
+        }
+      },
+      {
+        "year": 1265,
+        "lat": 37.39,
+        "lon": 46.24,
+        "label": {
+          "en": "Dies near Maragheh",
+          "zh": "卒于马拉盖附近"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rashid al-Din, Jami al-Tawarikh (tr. W. M. Thackston)"
+      },
+      {
+        "title": "Timothy May, The Mongol Conquests in World History (2012)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Hülegü"
+      },
+      {
+        "title": "Wikidata Q177320",
+        "url": "https://www.wikidata.org/wiki/Q177320"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-timur",
+    "qid": "Q8462",
+    "name": {
+      "en": "Timur (Tamerlane)",
+      "zh": "帖木儿"
+    },
+    "born": 1336,
+    "died": 1405,
+    "role": {
+      "en": "Founder of the Timurid Empire",
+      "zh": "帖木儿帝国创建者"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "A Barlas Turkic emir from near Kesh, Timur seized Transoxiana in 1370 and in ceaseless campaigns ravaged Iran, the Golden Horde, India and Anatolia while making Samarkand a showpiece capital; he died marching on Ming China.",
+      "zh": "帖木儿是渴石附近巴鲁剌思部的突厥埃米尔，1370年夺取河中，此后连年征战，蹂躏伊朗、金帐汗国、印度和安纳托利亚，同时将撒马尔罕营建为壮丽的都城；他在进军明朝途中去世。"
+    },
+    "stops": [
+      {
+        "year": 1336,
+        "lat": 39.06,
+        "lon": 66.83,
+        "label": {
+          "en": "Born near Kesh (Shahrisabz)",
+          "zh": "生于渴石（沙赫里萨布兹）附近"
+        }
+      },
+      {
+        "year": 1370,
+        "lat": 36.76,
+        "lon": 66.9,
+        "label": {
+          "en": "Takes power at Balkh",
+          "zh": "在巴尔赫夺取政权"
+        }
+      },
+      {
+        "year": 1370,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Makes Samarkand his capital",
+          "zh": "以撒马尔罕为都"
+        }
+      },
+      {
+        "year": 1387,
+        "lat": 32.65,
+        "lon": 51.67,
+        "label": {
+          "en": "Massacre at Isfahan",
+          "zh": "屠戮伊斯法罕"
+        }
+      },
+      {
+        "year": 1395,
+        "lat": 43.6,
+        "lon": 45.9,
+        "label": {
+          "en": "Defeats Tokhtamysh on the Terek",
+          "zh": "在捷列克河击败脱脱迷失"
+        }
+      },
+      {
+        "year": 1398,
+        "lat": 28.65,
+        "lon": 77.23,
+        "label": {
+          "en": "Sacks Delhi",
+          "zh": "洗劫德里"
+        }
+      },
+      {
+        "year": 1402,
+        "lat": 39.93,
+        "lon": 32.86,
+        "label": {
+          "en": "Defeats Bayezid I at Ankara",
+          "zh": "在安卡拉击败巴耶济德一世"
+        }
+      },
+      {
+        "year": 1404,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Receives Clavijo at Samarkand",
+          "zh": "在撒马尔罕接见克拉维约"
+        }
+      },
+      {
+        "year": 1405,
+        "lat": 42.85,
+        "lon": 68.3,
+        "label": {
+          "en": "Dies at Otrar marching on China",
+          "zh": "进军中国途中卒于讹答剌"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Beatrice Forbes Manz, The Rise and Rule of Tamerlane (1989)"
+      },
+      {
+        "title": "Sharaf al-Din Ali Yazdi, Zafarnama"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Timur",
+        "url": "https://www.britannica.com/biography/Timur"
+      },
+      {
+        "title": "Wikidata Q8462",
+        "url": "https://www.wikidata.org/wiki/Q8462"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-ulugh-beg",
+    "qid": "Q486088",
+    "name": {
+      "en": "Ulugh Beg",
+      "zh": "兀鲁伯"
+    },
+    "born": 1394,
+    "died": 1449,
+    "role": {
+      "en": "Timurid ruler and astronomer",
+      "zh": "帖木儿王朝君主、天文学家"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Grandson of Timur, Ulugh Beg governed Samarkand for four decades, turning it into a centre of science with his madrasa and observatory; his star catalogue was unrivalled for accuracy, but he was murdered soon after becoming supreme ruler.",
+      "zh": "帖木儿之孙，兀鲁伯治理撒马尔罕近四十年，以其经学院和天文台使之成为科学中心；其星表精度在当时无与伦比，但他成为最高统治者后不久即遭杀害。"
+    },
+    "stops": [
+      {
+        "year": 1394,
+        "lat": 36.43,
+        "lon": 48.8,
+        "label": {
+          "en": "Born at Sultaniyeh",
+          "zh": "生于苏丹尼耶"
+        }
+      },
+      {
+        "year": 1409,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Governor of Samarkand",
+          "zh": "出任撒马尔罕总督"
+        }
+      },
+      {
+        "year": 1420,
+        "lat": 39.6547,
+        "lon": 66.9747,
+        "label": {
+          "en": "Madrasa on the Registan completed",
+          "zh": "雷吉斯坦经学院落成"
+        }
+      },
+      {
+        "year": 1424,
+        "lat": 39.6747,
+        "lon": 67.0056,
+        "label": {
+          "en": "Builds the observatory",
+          "zh": "兴建天文台"
+        }
+      },
+      {
+        "year": 1437,
+        "lat": 39.6747,
+        "lon": 67.0056,
+        "label": {
+          "en": "Zij-i Sultani star catalogue",
+          "zh": "完成《苏丹历数书》星表"
+        }
+      },
+      {
+        "year": 1447,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Succeeds Shah Rukh as head of the dynasty",
+          "zh": "继沙哈鲁为王朝之主"
+        }
+      },
+      {
+        "year": 1449,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Killed on his son’s orders near Samarkand",
+          "zh": "在撒马尔罕附近被其子下令杀害"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Aydın Sayılı, The Observatory in Islam (1960)"
+      },
+      {
+        "title": "Beatrice Forbes Manz, The Rise and Rule of Tamerlane (1989)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Ulugh Beg"
+      },
+      {
+        "title": "Wikidata Q486088",
+        "url": "https://www.wikidata.org/wiki/Q486088"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-al-biruni",
+    "qid": "Q11826",
+    "name": {
+      "en": "Al-Biruni",
+      "zh": "比鲁尼"
+    },
+    "born": 973,
+    "died": 1048,
+    "role": {
+      "en": "Polymath and scientist",
+      "zh": "博学家、科学家"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Born in Khwarazm, al-Biruni wrote on astronomy, geodesy, mineralogy and chronology, measured the Earth’s radius from a mountain in the Punjab, and after years at Ghazni produced a pioneering study of Indian religion and science.",
+      "zh": "比鲁尼生于花剌子模，著述涉及天文、测地、矿物和年代学，曾在旁遮普的山上测算地球半径；在伽色尼多年后写成开创性的印度宗教与科学研究著作。"
+    },
+    "stops": [
+      {
+        "year": 973,
+        "lat": 41.38,
+        "lon": 60.89,
+        "label": {
+          "en": "Born at Kath, Khwarazm",
+          "zh": "生于花剌子模的柯提"
+        }
+      },
+      {
+        "year": 1000,
+        "lat": 36.84,
+        "lon": 54.43,
+        "label": {
+          "en": "Gurgan: The Chronology of Ancient Nations",
+          "zh": "在古尔干写成《古代民族编年史》"
+        }
+      },
+      {
+        "year": 1017,
+        "lat": 33.55,
+        "lon": 68.42,
+        "label": {
+          "en": "Taken to Ghazni by Mahmud",
+          "zh": "被马哈茂德带往伽色尼"
+        }
+      },
+      {
+        "year": 1025,
+        "lat": 32.72,
+        "lon": 73.27,
+        "label": {
+          "en": "Measures the Earth at Nandana, Punjab",
+          "zh": "在旁遮普南达纳测量地球"
+        }
+      },
+      {
+        "year": 1030,
+        "lat": 33.55,
+        "lon": 68.42,
+        "label": {
+          "en": "Completes his book on India (Tahqiq ma li-l-Hind)",
+          "zh": "完成《印度志》"
+        }
+      },
+      {
+        "year": 1048,
+        "lat": 33.55,
+        "lon": 68.42,
+        "label": {
+          "en": "Dies at Ghazni",
+          "zh": "卒于伽色尼"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Al-Biruni, Alberuni’s India, tr. Edward C. Sachau (1888)"
+      },
+      {
+        "title": "S. Frederick Starr, Lost Enlightenment: Central Asia’s Golden Age from the Arab Conquest to Tamerlane (2013)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: al-Biruni"
+      },
+      {
+        "title": "Wikidata Q11826",
+        "url": "https://www.wikidata.org/wiki/Q11826"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The Nandana measurement is undated in his text; 1025 is an approximation."
+  },
+  {
+    "id": "person-al-farabi",
+    "qid": "Q160460",
+    "name": {
+      "en": "Al-Farabi",
+      "zh": "法拉比"
+    },
+    "born": 870,
+    "died": 951,
+    "role": {
+      "en": "Philosopher and music theorist",
+      "zh": "哲学家、音乐理论家"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Known as the “Second Teacher” after Aristotle, al-Farabi harmonised Greek logic and political philosophy with Islamic thought and wrote a major treatise on music; he worked in Baghdad and later at the Hamdanid court.",
+      "zh": "法拉比被誉为继亚里士多德之后的“第二导师”，他将希腊逻辑与政治哲学同伊斯兰思想相融合，并著有重要的音乐论著；曾在巴格达治学，后入哈姆丹王朝宫廷。"
+    },
+    "stops": [
+      {
+        "year": 870,
+        "lat": 42.85,
+        "lon": 68.3,
+        "label": {
+          "en": "Born, probably at Farab (Otrar) on the Syr Darya",
+          "zh": "可能生于锡尔河畔的法拉布（讹答剌）"
+        }
+      },
+      {
+        "year": 901,
+        "lat": 33.34,
+        "lon": 44.4,
+        "label": {
+          "en": "Studies and teaches in Baghdad",
+          "zh": "在巴格达求学讲学"
+        }
+      },
+      {
+        "year": 942,
+        "lat": 36.2,
+        "lon": 37.16,
+        "label": {
+          "en": "Moves to Aleppo and the Hamdanid court",
+          "zh": "迁往阿勒颇，入哈姆丹宫廷"
+        }
+      },
+      {
+        "year": 951,
+        "lat": 33.51,
+        "lon": 36.29,
+        "label": {
+          "en": "Dies at Damascus",
+          "zh": "卒于大马士革"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Muhsin Mahdi, Alfarabi and the Foundation of Islamic Political Philosophy (2001)"
+      },
+      {
+        "title": "S. Frederick Starr, Lost Enlightenment: Central Asia’s Golden Age from the Arab Conquest to Tamerlane (2013)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: al-Farabi"
+      },
+      {
+        "title": "Wikidata Q160460",
+        "url": "https://www.wikidata.org/wiki/Q160460"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birthplace is disputed between Farab on the Syr Darya and Faryab in Khurasan; Kazakhstan claims him as a native son. Stop years are approximate."
+  },
+  {
+    "id": "person-alisher-navoi",
+    "qid": "Q503340",
+    "name": {
+      "en": "Ali-Shir Nava’i",
+      "zh": "阿里希尔·纳沃伊"
+    },
+    "born": 1441,
+    "died": 1501,
+    "role": {
+      "en": "Poet and statesman",
+      "zh": "诗人、政治家"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Boyhood friend and minister of the Timurid sultan Husayn Bayqara, Nava’i made Chagatai Turkic a great literary language through his five-part Khamsa and his treatise comparing Turkic and Persian, and endowed many buildings in Herat.",
+      "zh": "纳沃伊是帖木儿王朝苏丹侯赛因·拜哈拉的少年好友和重臣，他以《五卷诗》和比较突厥语与波斯语的论著使察合台突厥语成为伟大的文学语言，并在赫拉特捐建了众多建筑。"
+    },
+    "stops": [
+      {
+        "year": 1441,
+        "lat": 34.3419,
+        "lon": 62.2031,
+        "label": {
+          "en": "Born at Herat",
+          "zh": "生于赫拉特"
+        }
+      },
+      {
+        "year": 1464,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Studies in Samarkand",
+          "zh": "在撒马尔罕求学"
+        }
+      },
+      {
+        "year": 1469,
+        "lat": 34.3419,
+        "lon": 62.2031,
+        "label": {
+          "en": "Keeper of the seal under Husayn Bayqara",
+          "zh": "在侯赛因·拜哈拉治下掌玺"
+        }
+      },
+      {
+        "year": 1485,
+        "lat": 34.3419,
+        "lon": 62.2031,
+        "label": {
+          "en": "Completes the Khamsa",
+          "zh": "完成《五卷诗》"
+        }
+      },
+      {
+        "year": 1487,
+        "lat": 36.84,
+        "lon": 54.43,
+        "label": {
+          "en": "Governor of Astarabad",
+          "zh": "出任阿斯特拉巴德总督"
+        }
+      },
+      {
+        "year": 1499,
+        "lat": 34.3419,
+        "lon": 62.2031,
+        "label": {
+          "en": "Writes Muhakamat al-Lughatayn",
+          "zh": "写成《两种语言之辩》"
+        }
+      },
+      {
+        "year": 1501,
+        "lat": 34.3419,
+        "lon": 62.2031,
+        "label": {
+          "en": "Dies at Herat",
+          "zh": "卒于赫拉特"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maria E. Subtelny, “Ali Shir Nava’i: Bakhshi and Beg”, Harvard Ukrainian Studies 3–4 (1979–80)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Alisher Navoi"
+      },
+      {
+        "title": "Wikidata Q503340",
+        "url": "https://www.wikidata.org/wiki/Q503340"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Dates of individual works are approximate."
+  },
+  {
+    "id": "person-ablai-khan",
+    "qid": "Q322100",
+    "name": {
+      "en": "Ablai Khan",
+      "zh": "阿布赉汗"
+    },
+    "born": 1711,
+    "died": 1781,
+    "role": {
+      "en": "Khan of the Kazakh Middle Horde",
+      "zh": "哈萨克中玉兹汗"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "A warrior-sultan of the Middle Horde, Ablai led Kazakh resistance to the Dzungars, balanced Russia and Qing China after the Dzungar collapse, and was proclaimed khan of all three hordes at Turkistan in 1771.",
+      "zh": "阿布赉是中玉兹的武士苏丹，领导哈萨克人抵抗准噶尔，在准噶尔灭亡后周旋于俄国与清朝之间，1771年在突厥斯坦被推举为三玉兹共主。"
+    },
+    "stops": [
+      {
+        "year": 1711,
+        "lat": 43.2972,
+        "lon": 68.2706,
+        "label": {
+          "en": "Born (traditionally near Turkistan)",
+          "zh": "出生（传统说法在突厥斯坦附近）"
+        }
+      },
+      {
+        "year": 1740,
+        "lat": 51.77,
+        "lon": 55.1,
+        "label": {
+          "en": "Swears allegiance to Russia at Orenburg",
+          "zh": "在奥伦堡宣誓效忠俄国"
+        }
+      },
+      {
+        "year": 1742,
+        "lat": 43.9167,
+        "lon": 81.3167,
+        "label": {
+          "en": "Held captive by the Dzungars at Ghulja",
+          "zh": "被准噶尔囚于伊犁"
+        }
+      },
+      {
+        "year": 1757,
+        "lat": 43.9167,
+        "lon": 81.3167,
+        "label": {
+          "en": "Accepts Qing suzerainty after the Dzungar collapse",
+          "zh": "准噶尔覆灭后归附清朝"
+        }
+      },
+      {
+        "year": 1771,
+        "lat": 43.2972,
+        "lon": 68.2706,
+        "label": {
+          "en": "Proclaimed khan at Turkistan",
+          "zh": "在突厥斯坦被推举为汗"
+        }
+      },
+      {
+        "year": 1781,
+        "lat": 43.2972,
+        "lon": 68.2706,
+        "label": {
+          "en": "Dies; buried at the Yasawi mausoleum",
+          "zh": "去世，葬于亚萨维陵"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Martha Brill Olcott, The Kazakhs, 2nd ed. (1995)"
+      },
+      {
+        "title": "Peter C. Perdue, China Marches West (2005)"
+      },
+      {
+        "title": "Wikidata Q322100",
+        "url": "https://www.wikidata.org/wiki/Q322100"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth year and place are traditional; he died near Tashkent per some accounts."
+  },
+  {
+    "id": "person-muhammad-shaybani",
+    "qid": "Q553193",
+    "name": {
+      "en": "Muhammad Shaybani Khan",
+      "zh": "穆罕默德·昔班尼"
+    },
+    "born": 1451,
+    "died": 1510,
+    "role": {
+      "en": "Founder of the Shaybanid Uzbek state",
+      "zh": "昔班尼乌兹别克国家创建者"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Grandson of Abu’l-Khayr, Shaybani led the Uzbeks south from the Qipchaq steppe, took Samarkand from the Timurids, drove out Babur and captured Herat, before being killed by Shah Ismail I near Merv.",
+      "zh": "阿布海尔之孙，昔班尼率乌兹别克人从钦察草原南下，从帖木儿王朝手中夺取撒马尔罕，逐走巴布尔并攻陷赫拉特，后在梅尔夫附近被萨法维国王伊斯玛仪一世击杀。"
+    },
+    "stops": [
+      {
+        "year": 1500,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Takes Samarkand",
+          "zh": "攻取撒马尔罕"
+        }
+      },
+      {
+        "year": 1501,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Defeats Babur at Sar-i Pul",
+          "zh": "在萨里普勒击败巴布尔"
+        }
+      },
+      {
+        "year": 1505,
+        "lat": 42.3261,
+        "lon": 59.1531,
+        "label": {
+          "en": "Conquers Khwarazm (Urgench)",
+          "zh": "征服花剌子模（乌尔根奇）"
+        }
+      },
+      {
+        "year": 1507,
+        "lat": 34.3419,
+        "lon": 62.2031,
+        "label": {
+          "en": "Captures Herat",
+          "zh": "攻陷赫拉特"
+        }
+      },
+      {
+        "year": 1510,
+        "lat": 37.6,
+        "lon": 61.83,
+        "label": {
+          "en": "Killed by Shah Ismail near Merv",
+          "zh": "在梅尔夫附近被伊斯玛仪国王击杀"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Babur, Baburnama (tr. Wheeler M. Thackston, 1996)"
+      },
+      {
+        "title": "R. D. McChesney, “Shaybanids”, Encyclopaedia Iranica"
+      },
+      {
+        "title": "Wikidata Q553193",
+        "url": "https://www.wikidata.org/wiki/Q553193"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-rudaki",
+    "qid": "Q312954",
+    "name": {
+      "en": "Rudaki",
+      "zh": "鲁达基"
+    },
+    "born": 858,
+    "died": 941,
+    "role": {
+      "en": "Poet",
+      "zh": "诗人"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Born in Panjrud near Panjakent, Rudaki became court poet of the Samanid amir Nasr II in Bukhara and is regarded as the father of New Persian poetry. Only fragments of his vast output survive; late in life he lost royal favour and died in his native village.",
+      "zh": "鲁达基生于片治肯特附近的潘杰鲁德，成为布哈拉萨曼王朝埃米尔纳斯尔二世的宫廷诗人，被誉为新波斯诗歌之父。他的大量作品仅有片段存世；晚年失宠，卒于故乡。"
+    },
+    "stops": [
+      {
+        "year": 858,
+        "lat": 39.5,
+        "lon": 67.6167,
+        "label": {
+          "en": "Born at Panjrud, near Panjakent",
+          "zh": "生于片治肯特附近的潘杰鲁德"
+        }
+      },
+      {
+        "year": 914,
+        "lat": 39.7747,
+        "lon": 64.4286,
+        "label": {
+          "en": "Court poet of Nasr II at Bukhara",
+          "zh": "在布哈拉任纳斯尔二世的宫廷诗人"
+        }
+      },
+      {
+        "year": 937,
+        "lat": 39.5,
+        "lon": 67.6167,
+        "label": {
+          "en": "Loses favour and returns home",
+          "zh": "失宠后返回故乡"
+        }
+      },
+      {
+        "year": 941,
+        "lat": 39.5,
+        "lon": 67.6167,
+        "label": {
+          "en": "Dies at Panjrud",
+          "zh": "卒于潘杰鲁德"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Rudaki",
+        "url": "https://www.britannica.com/biography/Rudaki"
+      },
+      {
+        "title": "Wikipedia: Rudaki",
+        "url": "https://en.wikipedia.org/wiki/Rudaki"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth year c. 858–859; the date of his fall from favour (c. 937) is approximate. Panjrud stops use Panjakent coordinates."
+  }
+]

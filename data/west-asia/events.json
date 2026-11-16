@@ -1,0 +1,2969 @@
+[
+  {
+    "id": "ev-siege-of-jerusalem-70",
+    "qid": "Q844886",
+    "type": "battle",
+    "year": 70,
+    "name": {
+      "en": "Siege of Jerusalem",
+      "zh": "耶路撒冷之围（70年）"
+    },
+    "summary": {
+      "en": "Roman legions under Titus besieged Jerusalem during the First Jewish–Roman War. The city fell in late summer 70 and the Second Temple was destroyed, a turning point for Judaism and for Jewish life in Judaea.",
+      "zh": "第一次犹太-罗马战争期间，提图斯率罗马军团围攻耶路撒冷。公元70年夏末城破，第二圣殿被毁，成为犹太教历史和犹地亚犹太人生活的转折点。"
+    },
+    "lat": 31.7781,
+    "lon": 35.2358,
+    "region": "west-asia",
+    "importance": 5,
+    "place": "place-jerusalem",
+    "sources": [
+      {
+        "title": "Josephus, The Jewish War, Books V–VI"
+      },
+      {
+        "title": "Encyclopaedia Britannica: First Jewish Revolt",
+        "url": "https://www.britannica.com/event/First-Jewish-Revolt"
+      },
+      {
+        "title": "Wikipedia: Siege of Jerusalem (70 CE)",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-bar-kokhba-revolt",
+    "qid": "Q334502",
+    "type": "war",
+    "year": 132,
+    "endYear": 136,
+    "name": {
+      "en": "Bar Kokhba revolt",
+      "zh": "巴尔·科赫巴起义"
+    },
+    "summary": {
+      "en": "Simon bar Kokhba led a Jewish uprising in Judaea against Hadrian, provoked in part by plans to refound Jerusalem as the Roman colony Aelia Capitolina. Its suppression, ending at Betar, devastated Judaea, and the province was renamed Syria Palaestina.",
+      "zh": "西蒙·巴尔·科赫巴领导犹地亚犹太人反抗哈德良，起因之一是罗马计划把耶路撒冷重建为殖民城市爱利亚加比多连。起义最终在贝塔尔被镇压，犹地亚遭到重创，行省更名为叙利亚-巴勒斯坦。"
+    },
+    "lat": 31.7311,
+    "lon": 35.1358,
+    "region": "west-asia",
+    "importance": 3,
+    "place": "place-jerusalem",
+    "sources": [
+      {
+        "title": "Cassius Dio, Roman History 69.12–14"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Second Jewish Revolt",
+        "url": "https://www.britannica.com/event/Second-Jewish-Revolt"
+      },
+      {
+        "title": "Wikipedia: Bar Kokhba Revolt",
+        "url": "https://en.wikipedia.org/wiki/Bar_Kokhba_Revolt"
+      }
+    ],
+    "confidence": "high",
+    "note": "Plotted at Betar (modern Battir), the revolt's last stronghold, taken in 135/136."
+  },
+  {
+    "id": "ev-battle-of-hormozdgan",
+    "qid": "Q2887977",
+    "type": "battle",
+    "year": 224,
+    "date": "0224-04-28",
+    "name": {
+      "en": "Battle of Hormozdgan (founding of the Sasanian Empire)",
+      "zh": "霍尔木兹甘之战（萨珊王朝建立）"
+    },
+    "summary": {
+      "en": "Ardashir, a Persian vassal king from Fars, defeated and killed the Parthian king Artabanus IV. The victory ended nearly five centuries of Arsacid rule and founded the Sasanian Empire, which rivalled Rome for four hundred years.",
+      "zh": "法尔斯的波斯藩王阿尔达希尔击败并杀死安息国王阿尔达班四世。此战结束了阿萨息斯王朝近五百年的统治，建立了此后与罗马抗衡四百年的萨珊王朝。"
+    },
+    "lat": 32.05,
+    "lon": 48.85,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-parthian",
+      "polity-sasanian"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Hormizdagan",
+        "url": "https://www.britannica.com/topic/Battle-of-Hormizdagan"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Sasanian dynasty",
+        "url": "https://www.iranicaonline.org/articles/sasanian-dynasty"
+      },
+      {
+        "title": "al-Tabari, History of Prophets and Kings, vol. V (trans. Bosworth)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The battlefield has not been located; the date 28 April 224 is the conventional reconstruction."
+  },
+  {
+    "id": "ev-battle-of-edessa",
+    "qid": "Q1165502",
+    "type": "battle",
+    "year": 260,
+    "name": {
+      "en": "Battle of Edessa",
+      "zh": "埃德萨战役"
+    },
+    "summary": {
+      "en": "Shapur I defeated a Roman army near Edessa and captured Emperor Valerian, the first Roman emperor taken prisoner by a foreign enemy. Shapur commemorated the triumph in rock reliefs and in his trilingual inscription at Naqsh-e Rostam.",
+      "zh": "沙普尔一世在埃德萨附近击败罗马军队，俘虏皇帝瓦勒良——这是第一位被外敌俘获的罗马皇帝。沙普尔在纳克什-鲁斯塔姆以浮雕和三语铭文纪念此役。"
+    },
+    "lat": 37.15,
+    "lon": 38.8,
+    "region": "west-asia",
+    "importance": 4,
+    "people": [
+      "person-shapur-i"
+    ],
+    "place": "place-urfa",
+    "polities": [
+      "polity-sasanian"
+    ],
+    "sources": [
+      {
+        "title": "Shapur I, inscription on the Ka'ba-ye Zartosht (ŠKZ), Naqsh-e Rostam"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Shapur I",
+        "url": "https://www.iranicaonline.org/articles/shapur-i"
+      },
+      {
+        "title": "Wikipedia: Battle of Edessa",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Edessa"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Usually dated 260; some scholars prefer 259."
+  },
+  {
+    "id": "ev-christianization-of-armenia",
+    "qid": "Q16402123",
+    "type": "religious",
+    "year": 301,
+    "name": {
+      "en": "Armenia adopts Christianity",
+      "zh": "亚美尼亚皈依基督教"
+    },
+    "summary": {
+      "en": "According to Armenian tradition, King Tiridates III was converted by Gregory the Illuminator and made Christianity the religion of his kingdom, the first state to adopt it officially. The cathedral of Etchmiadzin was founded at the royal city of Vagharshapat.",
+      "zh": "据亚美尼亚传统，国王梯里达底三世受启蒙者格列高利感化而皈依，并定基督教为国教，使亚美尼亚成为第一个正式奉基督教为国教的国家。埃奇米阿津大教堂建于王城瓦加尔沙帕特。"
+    },
+    "lat": 40.1622,
+    "lon": 44.2919,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-arsacid-armenia"
+    ],
+    "sources": [
+      {
+        "title": "Agathangelos, History of the Armenians"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Tiridates III",
+        "url": "https://www.britannica.com/biography/Tiridates-III-king-of-Armenia"
+      },
+      {
+        "title": "Wikipedia: Christianization of Armenia",
+        "url": "https://en.wikipedia.org/wiki/Christianization_of_Armenia"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Traditional date 301; many historians prefer c. 314."
+  },
+  {
+    "id": "ev-first-council-of-nicaea",
+    "qid": "Q133331",
+    "type": "religious",
+    "year": 325,
+    "name": {
+      "en": "First Council of Nicaea",
+      "zh": "第一次尼西亚公会议"
+    },
+    "summary": {
+      "en": "Emperor Constantine convened bishops from across the empire at Nicaea in Bithynia. The council rejected Arianism, issued the original Nicene Creed and set common rules such as the method of dating Easter. It is counted as the first ecumenical council.",
+      "zh": "君士坦丁皇帝召集帝国各地主教在比提尼亚的尼西亚开会。会议否定阿里乌派，颁布最初的《尼西亚信经》，并统一了复活节日期的推算等规定，被视为第一次大公会议。"
+    },
+    "lat": 40.43,
+    "lon": 29.72,
+    "region": "west-asia",
+    "importance": 5,
+    "place": "place-iznik",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Council of Nicaea",
+        "url": "https://www.britannica.com/event/Council-of-Nicaea-Christianity-325"
+      },
+      {
+        "title": "Eusebius, Life of Constantine, Book III"
+      },
+      {
+        "title": "Wikipedia: First Council of Nicaea",
+        "url": "https://en.wikipedia.org/wiki/First_Council_of_Nicaea"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-armenian-alphabet",
+    "qid": "Q11932",
+    "type": "cultural",
+    "year": 405,
+    "name": {
+      "en": "Creation of the Armenian alphabet",
+      "zh": "亚美尼亚字母的创制"
+    },
+    "summary": {
+      "en": "The monk Mesrop Mashtots, supported by King Vramshapuh and Catholicos Sahak, devised a 36-letter alphabet for Armenian. It launched the translation of the Bible and a native literature that anchored Armenian identity.",
+      "zh": "修士梅斯罗布·马什托茨在国王弗拉姆沙普和大主教萨哈克支持下，为亚美尼亚语创制了36个字母。由此开始了《圣经》翻译和本土文学创作，奠定了亚美尼亚民族认同。"
+    },
+    "lat": 40.1622,
+    "lon": 44.2919,
+    "region": "west-asia",
+    "importance": 3,
+    "polities": [
+      "polity-arsacid-armenia"
+    ],
+    "sources": [
+      {
+        "title": "Koriun, The Life of Mashtots"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Saint Mesrop Mashtots",
+        "url": "https://www.britannica.com/biography/Saint-Mesrop-Mashtots"
+      },
+      {
+        "title": "Wikipedia: Armenian alphabet",
+        "url": "https://en.wikipedia.org/wiki/Armenian_alphabet"
+      }
+    ],
+    "confidence": "medium",
+    "note": "c. 405 following Koriun; exact year debated."
+  },
+  {
+    "id": "ev-council-of-chalcedon",
+    "qid": "Q170531",
+    "type": "religious",
+    "year": 451,
+    "date": "0451-10-08",
+    "name": {
+      "en": "Council of Chalcedon",
+      "zh": "迦克墩公会议"
+    },
+    "summary": {
+      "en": "The fourth ecumenical council, meeting at Chalcedon across the Bosporus from Constantinople, defined Christ as one person in two natures. Many Christians in Egypt, Syria and Armenia rejected it, producing the lasting split between Chalcedonian and Oriental Orthodox churches.",
+      "zh": "第四次大公会议在君士坦丁堡对岸的迦克墩召开，确定基督为“一个位格、两种本性”。埃及、叙利亚和亚美尼亚的许多基督徒拒绝这一定义，形成迦克墩派与东方正统教会之间的长期分裂。"
+    },
+    "lat": 40.98,
+    "lon": 29.03,
+    "region": "west-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Council of Chalcedon",
+        "url": "https://www.britannica.com/event/Council-of-Chalcedon"
+      },
+      {
+        "title": "R. Price & M. Gaddis (trans.), The Acts of the Council of Chalcedon (2005)"
+      },
+      {
+        "title": "Wikipedia: Council of Chalcedon",
+        "url": "https://en.wikipedia.org/wiki/Council_of_Chalcedon"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-antioch-earthquake-526",
+    "qid": "Q541723",
+    "type": "disaster",
+    "year": 526,
+    "name": {
+      "en": "Antioch earthquake of 526",
+      "zh": "526年安条克地震"
+    },
+    "summary": {
+      "en": "A powerful earthquake, followed by fire, destroyed much of Antioch, one of the great cities of the Eastern Roman Empire. Chroniclers reported about 250,000 deaths, probably an exaggeration but a sign of immense devastation.",
+      "zh": "一场强烈地震及随后的大火摧毁了东罗马帝国大城安条克的大部分地区。编年史家记载死者约25万人，虽可能夸大，但足见灾难之惨烈。"
+    },
+    "lat": 36.23,
+    "lon": 36.12,
+    "region": "west-asia",
+    "importance": 3,
+    "place": "place-antakya",
+    "sources": [
+      {
+        "title": "John Malalas, Chronographia, Book 17"
+      },
+      {
+        "title": "E. Guidoboni, Catalogue of Ancient Earthquakes in the Mediterranean Area up to the 10th Century (1994)"
+      },
+      {
+        "title": "Wikipedia: 526 Antioch earthquake",
+        "url": "https://en.wikipedia.org/wiki/526_Antioch_earthquake"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-byzantine-sasanian-war-602",
+    "qid": "Q2326099",
+    "type": "war",
+    "year": 602,
+    "endYear": 628,
+    "name": {
+      "en": "Byzantine–Sasanian War of 602–628",
+      "zh": "602—628年拜占庭-萨珊战争"
+    },
+    "summary": {
+      "en": "The last and most destructive war between Rome and Persia. Khosrow II's armies took Syria, Jerusalem and Egypt, but Heraclius counter-attacked through the Caucasus, won near Nineveh in 627 and forced peace, leaving both empires exhausted on the eve of the Arab conquests.",
+      "zh": "罗马与波斯之间最后也是最具破坏性的战争。霍斯劳二世的军队夺取叙利亚、耶路撒冷和埃及，但希拉克略经高加索反攻，627年在尼尼微附近获胜并迫使波斯议和，两大帝国在阿拉伯征服前夕均已精疲力竭。"
+    },
+    "lat": 36.36,
+    "lon": 43.15,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-sasanian"
+    ],
+    "sources": [
+      {
+        "title": "J. Howard-Johnston, The Last Great War of Antiquity (2021)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Heraclius",
+        "url": "https://www.britannica.com/biography/Heraclius-Byzantine-emperor"
+      },
+      {
+        "title": "Wikipedia: Byzantine–Sasanian War of 602–628",
+        "url": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Sasanian_War_of_602%E2%80%93628"
+      }
+    ],
+    "confidence": "high",
+    "note": "Plotted near Nineveh, site of the decisive battle of 627."
+  },
+  {
+    "id": "ev-first-revelation",
+    "qid": "Q4115424",
+    "type": "religious",
+    "year": 610,
+    "name": {
+      "en": "Muhammad's first revelation",
+      "zh": "穆罕默德首次受启示"
+    },
+    "summary": {
+      "en": "Islamic tradition holds that Muhammad, meditating in the cave of Hira on a mountain above Mecca, received the first verses of the Qur'an through the angel Gabriel. Muslims regard this as the beginning of his prophethood.",
+      "zh": "据伊斯兰传统，穆罕默德在麦加附近山上的希拉山洞中静修时，经天使吉卜利勒（加百列）接受了《古兰经》最初的经文。穆斯林视此为其使命的开端。"
+    },
+    "lat": 21.4576,
+    "lon": 39.8593,
+    "region": "west-asia",
+    "importance": 4,
+    "people": [
+      "person-muhammad"
+    ],
+    "place": "place-mecca",
+    "sources": [
+      {
+        "title": "Ibn Ishaq, Sirat Rasul Allah (trans. A. Guillaume, The Life of Muhammad, 1955)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Muhammad",
+        "url": "https://www.britannica.com/biography/Muhammad"
+      },
+      {
+        "title": "Wikipedia: Muhammad's first revelation",
+        "url": "https://en.wikipedia.org/wiki/Muhammad's_first_revelation"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Traditional date c. 610."
+  },
+  {
+    "id": "ev-hijra",
+    "qid": "Q131482",
+    "type": "religious",
+    "year": 622,
+    "name": {
+      "en": "Hijra",
+      "zh": "希吉拉（迁徙）"
+    },
+    "summary": {
+      "en": "Facing hostility in Mecca, Muhammad and his followers migrated to Yathrib, thereafter called Medina, where he founded the first Muslim community. The year of the migration later became the epoch of the Islamic (Hijri) calendar.",
+      "zh": "因在麦加受到敌视，穆罕默德与追随者迁往叶斯里卜（此后称麦地那），建立了第一个穆斯林社团。迁徙之年后来成为伊斯兰教历（希吉拉历）的纪元。"
+    },
+    "lat": 24.4672,
+    "lon": 39.6111,
+    "region": "west-asia",
+    "importance": 5,
+    "people": [
+      "person-muhammad",
+      "person-ali-ibn-abi-talib"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Hijrah",
+        "url": "https://www.britannica.com/event/Hijrah-Islam"
+      },
+      {
+        "title": "Ibn Ishaq, Sirat Rasul Allah (trans. Guillaume)"
+      },
+      {
+        "title": "Wikipedia: Hijrah",
+        "url": "https://en.wikipedia.org/wiki/Hijrah"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-badr",
+    "qid": "Q486124",
+    "type": "battle",
+    "year": 624,
+    "name": {
+      "en": "Battle of Badr",
+      "zh": "白德尔之战"
+    },
+    "summary": {
+      "en": "At the wells of Badr, a small Muslim force from Medina defeated a larger army of the Quraysh of Mecca. The victory, in the second year after the Hijra, greatly strengthened Muhammad's position in Arabia.",
+      "zh": "在白德尔水井旁，麦地那的一支小规模穆斯林队伍击败了人数更多的麦加古莱什军队。这场发生在希吉拉后第二年的胜利大大巩固了穆罕默德在阿拉伯半岛的地位。"
+    },
+    "lat": 23.7333,
+    "lon": 38.7667,
+    "region": "west-asia",
+    "importance": 3,
+    "people": [
+      "person-muhammad",
+      "person-ali-ibn-abi-talib"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Badr",
+        "url": "https://www.britannica.com/event/Battle-of-Badr"
+      },
+      {
+        "title": "al-Waqidi, Kitab al-Maghazi"
+      },
+      {
+        "title": "Wikipedia: Battle of Badr",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Badr"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-conquest-of-mecca",
+    "qid": "Q2092033",
+    "type": "political",
+    "year": 630,
+    "name": {
+      "en": "Conquest of Mecca",
+      "zh": "征服麦加"
+    },
+    "summary": {
+      "en": "Muhammad entered Mecca with a large army almost without bloodshed. The idols around the Kaaba were removed and most of the Quraysh accepted Islam, making Mecca the religious centre of the new faith.",
+      "zh": "穆罕默德率大军几乎兵不血刃地进入麦加。克尔白周围的偶像被清除，古莱什人大多皈依伊斯兰教，麦加从此成为这一新宗教的中心。"
+    },
+    "lat": 21.4225,
+    "lon": 39.8233,
+    "region": "west-asia",
+    "importance": 4,
+    "people": [
+      "person-muhammad",
+      "person-ali-ibn-abi-talib"
+    ],
+    "place": "place-mecca",
+    "sources": [
+      {
+        "title": "Ibn Ishaq, Sirat Rasul Allah (trans. Guillaume)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Muhammad",
+        "url": "https://www.britannica.com/biography/Muhammad"
+      },
+      {
+        "title": "Wikipedia: Conquest of Mecca",
+        "url": "https://en.wikipedia.org/wiki/Conquest_of_Mecca"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata gives 629; Muslim sources date it to Ramadan 8 AH, i.e. January 630 CE, which is used here."
+  },
+  {
+    "id": "ev-early-muslim-conquests",
+    "qid": "Q275918",
+    "type": "war",
+    "year": 632,
+    "endYear": 750,
+    "name": {
+      "en": "Early Muslim conquests",
+      "zh": "早期穆斯林征服"
+    },
+    "summary": {
+      "en": "Within a century of Muhammad's death, Arab Muslim armies under the Rashidun and Umayyad caliphs conquered the Sasanian Empire, Byzantine Syria and Egypt, North Africa, Iberia and parts of Central Asia, creating one of the largest empires in history and reshaping the region's religions and languages.",
+      "zh": "穆罕默德去世后不到一个世纪，四大哈里发和倭马亚王朝的阿拉伯穆斯林军队征服了萨珊帝国、拜占庭的叙利亚和埃及、北非、伊比利亚及中亚部分地区，建立起历史上最大的帝国之一，深刻改变了该地区的宗教与语言。"
+    },
+    "lat": 34,
+    "lon": 36,
+    "region": "west-asia",
+    "importance": 5,
+    "polities": [
+      "polity-rashidun",
+      "polity-umayyad",
+      "polity-sasanian"
+    ],
+    "route": [
+      {
+        "year": 632,
+        "lat": 24.4672,
+        "lon": 39.6111,
+        "label": {
+          "en": "Medina",
+          "zh": "麦地那"
+        }
+      },
+      {
+        "year": 633,
+        "lat": 31.88,
+        "lon": 44.45,
+        "label": {
+          "en": "al-Hira taken",
+          "zh": "攻占希拉"
+        }
+      },
+      {
+        "year": 636,
+        "lat": 32.8142,
+        "lon": 35.9547,
+        "label": {
+          "en": "Yarmouk",
+          "zh": "雅尔穆克"
+        }
+      },
+      {
+        "year": 637,
+        "lat": 33.0936,
+        "lon": 44.5808,
+        "label": {
+          "en": "Ctesiphon taken",
+          "zh": "攻占泰西封"
+        }
+      },
+      {
+        "year": 638,
+        "lat": 31.7767,
+        "lon": 35.2342,
+        "label": {
+          "en": "Jerusalem surrenders",
+          "zh": "耶路撒冷投降"
+        }
+      },
+      {
+        "year": 641,
+        "lat": 31.2001,
+        "lon": 29.9187,
+        "label": {
+          "en": "Alexandria",
+          "zh": "亚历山大"
+        }
+      },
+      {
+        "year": 642,
+        "lat": 34.19,
+        "lon": 48.37,
+        "label": {
+          "en": "Nahavand",
+          "zh": "纳哈万德"
+        }
+      },
+      {
+        "year": 651,
+        "lat": 37.66,
+        "lon": 62.19,
+        "label": {
+          "en": "Merv; death of Yazdegerd III",
+          "zh": "梅尔夫；伊嗣俟三世之死"
+        }
+      },
+      {
+        "year": 698,
+        "lat": 36.8528,
+        "lon": 10.3233,
+        "label": {
+          "en": "Carthage",
+          "zh": "迦太基"
+        }
+      },
+      {
+        "year": 711,
+        "lat": 39.8628,
+        "lon": -4.0273,
+        "label": {
+          "en": "Toledo",
+          "zh": "托莱多"
+        }
+      },
+      {
+        "year": 712,
+        "lat": 39.6542,
+        "lon": 66.9597,
+        "label": {
+          "en": "Samarkand",
+          "zh": "撒马尔罕"
+        }
+      },
+      {
+        "year": 732,
+        "lat": 46.75,
+        "lon": 0.42,
+        "label": {
+          "en": "Battle of Tours (Poitiers)",
+          "zh": "图尔（普瓦捷）战役"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "H. Kennedy, The Great Arab Conquests (2007)"
+      },
+      {
+        "title": "al-Baladhuri, Futuh al-Buldan"
+      },
+      {
+        "title": "Wikipedia: Early Muslim conquests",
+        "url": "https://en.wikipedia.org/wiki/Early_Muslim_conquests"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata dates the overall process 622–750; here the start is 632, when expansion beyond Arabia began. Point is Wikidata's generic coordinate."
+  },
+  {
+    "id": "ev-battle-of-yarmouk",
+    "qid": "Q194226",
+    "type": "battle",
+    "year": 636,
+    "date": "0636-08-20",
+    "name": {
+      "en": "Battle of the Yarmouk",
+      "zh": "雅尔穆克战役"
+    },
+    "summary": {
+      "en": "Over six days by the Yarmouk River, a Rashidun army commanded by Khalid ibn al-Walid destroyed a large Byzantine force. The defeat ended Byzantine rule in Syria and opened the Levant to Muslim rule.",
+      "zh": "在雅尔穆克河畔历时六天的战斗中，哈立德·本·瓦利德指挥的正统哈里发军队歼灭了一支庞大的拜占庭军队。此役终结了拜占庭对叙利亚的统治，黎凡特由此归于穆斯林。"
+    },
+    "lat": 32.8142,
+    "lon": 35.9547,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-rashidun"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of the Yarmuk River",
+        "url": "https://www.britannica.com/topic/Battle-of-the-Yarmuk-River"
+      },
+      {
+        "title": "H. Kennedy, The Great Arab Conquests (2007)"
+      },
+      {
+        "title": "Wikipedia: Battle of the Yarmuk",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-qadisiyyah",
+    "qid": "Q836844",
+    "type": "battle",
+    "year": 636,
+    "name": {
+      "en": "Battle of al-Qadisiyyah",
+      "zh": "卡迪西亚战役"
+    },
+    "summary": {
+      "en": "An Arab army under Sa'd ibn Abi Waqqas defeated the Sasanian general Rostam Farrokhzad in several days of fighting near al-Hira. The victory opened Mesopotamia and the Sasanian capital Ctesiphon to the Muslims.",
+      "zh": "赛义德·本·阿比·瓦卡斯率领的阿拉伯军队在希拉附近经数日激战击败萨珊将领鲁斯塔姆。此役为穆斯林打开了美索不达米亚和萨珊首都泰西封的大门。"
+    },
+    "lat": 31.5833,
+    "lon": 44.5,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-rashidun",
+      "polity-sasanian"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of al-Qadisiyyah",
+        "url": "https://www.britannica.com/event/Battle-of-al-Qadisiyyah"
+      },
+      {
+        "title": "al-Tabari, History of Prophets and Kings, vol. XII (trans. Friedmann)"
+      },
+      {
+        "title": "Wikipedia: Battle of al-Qadisiyyah",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_al-Qadisiyyah"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata and most modern works give November 636; some sources date it to 637."
+  },
+  {
+    "id": "ev-battle-of-nahavand",
+    "qid": "Q603549",
+    "type": "battle",
+    "year": 642,
+    "name": {
+      "en": "Battle of Nahavand",
+      "zh": "纳哈万德战役"
+    },
+    "summary": {
+      "en": "Arab forces defeated the last major Sasanian field army near Nahavand in the Zagros. Muslim chroniclers called it the \"victory of victories\"; afterwards Persian resistance fragmented and Yazdegerd III fled east.",
+      "zh": "阿拉伯军队在扎格罗斯山区的纳哈万德附近击败萨珊最后一支主力野战军。穆斯林史家称之为“胜利中的胜利”；此后波斯抵抗分崩离析，伊嗣俟三世东逃。"
+    },
+    "lat": 34.19,
+    "lon": 48.37,
+    "region": "west-asia",
+    "importance": 3,
+    "polities": [
+      "polity-rashidun",
+      "polity-sasanian"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Nahavand",
+        "url": "https://www.britannica.com/event/Battle-of-Nahavand"
+      },
+      {
+        "title": "al-Tabari, History of Prophets and Kings, vol. XIII"
+      },
+      {
+        "title": "Wikipedia: Battle of Nahavand",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nahavand"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Dated 642 (some sources 641). Wikidata's coordinates duplicate al-Qadisiyyah; plotted here at Nahavand town."
+  },
+  {
+    "id": "ev-battle-of-karbala",
+    "qid": "Q626058",
+    "type": "battle",
+    "year": 680,
+    "date": "0680-10-10",
+    "name": {
+      "en": "Battle of Karbala",
+      "zh": "卡尔巴拉战役"
+    },
+    "summary": {
+      "en": "Husayn ibn Ali, grandson of the Prophet Muhammad, was killed at Karbala with members of his family and companions by an army sent by the Umayyad governor of Kufa. His martyrdom on 10 Muharram (Ashura) is central to Shia Islam and commemorated every year.",
+      "zh": "先知穆罕默德的外孙侯赛因·本·阿里及其家人、追随者在卡尔巴拉被倭马亚王朝库法总督派出的军队杀害。他于穆哈兰月十日（阿舒拉日）的殉难是什叶派信仰的核心，每年都被隆重纪念。"
+    },
+    "lat": 32.6153,
+    "lon": 44.0314,
+    "region": "west-asia",
+    "importance": 5,
+    "polities": [
+      "polity-umayyad"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: al-Husayn ibn Ali",
+        "url": "https://www.britannica.com/biography/al-Husayn-ibn-Ali-Muslim-leader-and-martyr"
+      },
+      {
+        "title": "al-Tabari, History of Prophets and Kings, vol. XIX (trans. Howard)"
+      },
+      {
+        "title": "Wikipedia: Battle of Karbala",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Karbala"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-dome-of-the-rock",
+    "qid": "Q172077",
+    "type": "cultural",
+    "year": 691,
+    "name": {
+      "en": "Dome of the Rock completed",
+      "zh": "圆顶清真寺落成"
+    },
+    "summary": {
+      "en": "The Umayyad caliph Abd al-Malik completed the Dome of the Rock on the Haram al-Sharif (Temple Mount) in Jerusalem. It is the oldest surviving major Islamic monument; its mosaic inscription is dated 72 AH (691–692).",
+      "zh": "倭马亚哈里发阿卜杜勒-马利克在耶路撒冷的尊贵禁地（圣殿山）建成圆顶清真寺。它是现存最古老的大型伊斯兰建筑，其马赛克铭文纪年为希吉拉历72年（691—692年）。"
+    },
+    "lat": 31.7781,
+    "lon": 35.2353,
+    "region": "west-asia",
+    "importance": 4,
+    "place": "place-jerusalem",
+    "polities": [
+      "polity-umayyad"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Dome of the Rock",
+        "url": "https://www.britannica.com/topic/Dome-of-the-Rock"
+      },
+      {
+        "title": "O. Grabar, The Dome of the Rock (2006)"
+      },
+      {
+        "title": "Wikipedia: Dome of the Rock",
+        "url": "https://en.wikipedia.org/wiki/Dome_of_the_Rock"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-umayyad-mosque",
+    "qid": "Q183562",
+    "type": "cultural",
+    "year": 706,
+    "endYear": 715,
+    "name": {
+      "en": "Great Mosque of Damascus built",
+      "zh": "大马士革倭马亚清真寺建成"
+    },
+    "summary": {
+      "en": "Caliph al-Walid I built the Great Mosque of Damascus on the site of a Roman temple and the church of St John the Baptist. Its mosaics and layout became a model for later congregational mosques.",
+      "zh": "哈里发瓦利德一世在罗马神庙和施洗者约翰教堂的旧址上修建大马士革大清真寺。其马赛克装饰和布局成为后世聚礼清真寺的典范。"
+    },
+    "lat": 33.5114,
+    "lon": 36.3067,
+    "region": "west-asia",
+    "importance": 3,
+    "place": "place-damascus",
+    "polities": [
+      "polity-umayyad"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Great Mosque of Damascus",
+        "url": "https://www.britannica.com/topic/Great-Mosque-of-Damascus"
+      },
+      {
+        "title": "F. B. Flood, The Great Mosque of Damascus (2001)"
+      },
+      {
+        "title": "Wikipedia: Umayyad Mosque",
+        "url": "https://en.wikipedia.org/wiki/Umayyad_Mosque"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-abbasid-revolution",
+    "qid": "Q5933860",
+    "type": "political",
+    "year": 747,
+    "endYear": 750,
+    "name": {
+      "en": "Abbasid Revolution",
+      "zh": "阿拔斯革命"
+    },
+    "summary": {
+      "en": "A movement launched in Khorasan by Abu Muslim in the name of the Prophet's family overthrew the Umayyads. After victory on the Great Zab in 750 the Abbasids took power, shifting the caliphate's centre from Syria to Iraq.",
+      "zh": "阿布·穆斯林以先知家族之名在呼罗珊发动起义，推翻倭马亚王朝。750年大扎卜河之战获胜后阿拔斯家族掌权，哈里发国的中心由叙利亚移至伊拉克。"
+    },
+    "lat": 32.0288,
+    "lon": 44.4011,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-umayyad",
+      "polity-abbasid"
+    ],
+    "route": [
+      {
+        "year": 747,
+        "lat": 37.66,
+        "lon": 62.19,
+        "label": {
+          "en": "Revolt proclaimed near Merv",
+          "zh": "梅尔夫附近举兵"
+        }
+      },
+      {
+        "year": 749,
+        "lat": 32.0288,
+        "lon": 44.4011,
+        "label": {
+          "en": "Kufa: al-Saffah proclaimed caliph",
+          "zh": "库法：萨法赫称哈里发"
+        }
+      },
+      {
+        "year": 750,
+        "lat": 36.07,
+        "lon": 43.4,
+        "label": {
+          "en": "Battle of the Great Zab",
+          "zh": "大扎卜河之战"
+        }
+      },
+      {
+        "year": 750,
+        "lat": 33.5131,
+        "lon": 36.2919,
+        "label": {
+          "en": "Damascus taken",
+          "zh": "攻占大马士革"
+        }
+      },
+      {
+        "year": 750,
+        "lat": 29.15,
+        "lon": 31.1,
+        "label": {
+          "en": "Marwan II killed in Egypt",
+          "zh": "迈尔万二世在埃及被杀"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Abbasid caliphate",
+        "url": "https://www.britannica.com/topic/Abbasid-caliphate"
+      },
+      {
+        "title": "al-Tabari, History of Prophets and Kings, vol. XXVII (trans. Williams)"
+      },
+      {
+        "title": "Wikipedia: Abbasid revolution",
+        "url": "https://en.wikipedia.org/wiki/Abbasid_revolution"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Open revolt began 9 June 747 (25 Ramadan 129 AH); Wikidata gives 746. Point placed at Kufa, where al-Saffah was proclaimed caliph in 749; the revolt itself began near Merv (first route stop)."
+  },
+  {
+    "id": "ev-founding-of-baghdad",
+    "qid": "Q1191316",
+    "type": "founding",
+    "year": 762,
+    "name": {
+      "en": "Founding of Baghdad",
+      "zh": "巴格达建城"
+    },
+    "summary": {
+      "en": "Caliph al-Mansur founded his round capital, Madinat al-Salam (\"City of Peace\"), on the west bank of the Tigris. Baghdad grew into the largest city of the Islamic world and a centre of trade, learning and government for five centuries.",
+      "zh": "哈里发曼苏尔在底格里斯河西岸兴建圆形新都“和平之城”。巴格达发展为伊斯兰世界最大的城市，五百年间一直是商业、学术和政治中心。"
+    },
+    "lat": 33.3475,
+    "lon": 44.335,
+    "region": "west-asia",
+    "importance": 5,
+    "place": "place-baghdad",
+    "polities": [
+      "polity-abbasid"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Baghdad",
+        "url": "https://www.britannica.com/place/Baghdad"
+      },
+      {
+        "title": "al-Ya'qubi, Kitab al-Buldan"
+      },
+      {
+        "title": "Wikipedia: Round City of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Round_City_of_Baghdad"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-house-of-wisdom",
+    "qid": "Q33018",
+    "type": "science",
+    "year": 830,
+    "name": {
+      "en": "House of Wisdom flourishes",
+      "zh": "智慧宫的兴盛"
+    },
+    "summary": {
+      "en": "The Abbasid palace library known as the Bayt al-Hikma became associated with translating Greek, Persian and Indian works into Arabic. Under al-Ma'mun, scholars such as al-Khwarizmi worked in Baghdad, part of a translation movement that underpinned medieval science.",
+      "zh": "阿拔斯宫廷图书馆“智慧宫”与把希腊、波斯和印度典籍译成阿拉伯文的事业密切相关。马蒙在位时，花剌子密等学者在巴格达从事研究，这场翻译运动奠定了中世纪科学的基础。"
+    },
+    "lat": 33.3423,
+    "lon": 44.3836,
+    "region": "west-asia",
+    "importance": 4,
+    "people": [
+      "person-al-khwarizmi",
+      "person-harun-al-rashid"
+    ],
+    "place": "place-baghdad",
+    "polities": [
+      "polity-abbasid"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Bayt al-Hikmah",
+        "url": "https://www.britannica.com/place/Bayt-al-Hikmah"
+      },
+      {
+        "title": "D. Gutas, Greek Thought, Arabic Culture (1998)"
+      },
+      {
+        "title": "Wikipedia: House of Wisdom",
+        "url": "https://en.wikipedia.org/wiki/House_of_Wisdom"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata gives c. 800 as its start (Harun al-Rashid's library); placed at c. 830, its peak under al-Ma'mun (813–833)."
+  },
+  {
+    "id": "ev-shahnameh",
+    "qid": "Q8279",
+    "type": "cultural",
+    "year": 1010,
+    "name": {
+      "en": "Ferdowsi completes the Shahnameh",
+      "zh": "菲尔多西完成《列王纪》"
+    },
+    "summary": {
+      "en": "In Tus, Ferdowsi completed the Shahnameh (\"Book of Kings\"), an epic of some 50,000 couplets recounting Iran's myths and history down to the Arab conquest. Written in Persian with few Arabic loanwords, it became Iran's national epic.",
+      "zh": "菲尔多西在图斯完成《列王纪》，以约五万联诗句讲述伊朗从神话时代到阿拉伯征服的历史。全诗以少用阿拉伯借词的波斯语写成，成为伊朗的民族史诗。"
+    },
+    "lat": 36.49,
+    "lon": 59.52,
+    "region": "west-asia",
+    "importance": 3,
+    "people": [
+      "person-ferdowsi"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Shah-nameh",
+        "url": "https://www.britannica.com/topic/Shah-nameh"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Ferdowsi",
+        "url": "https://www.iranicaonline.org/articles/ferdowsi-index"
+      },
+      {
+        "title": "Wikipedia: Shahnameh",
+        "url": "https://en.wikipedia.org/wiki/Shahnameh"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata dates the work c. 1000; the final version is dated 1010 in the poem itself."
+  },
+  {
+    "id": "ev-canon-of-medicine",
+    "qid": "Q466060",
+    "type": "science",
+    "year": 1025,
+    "name": {
+      "en": "Avicenna's Canon of Medicine",
+      "zh": "伊本·西那《医典》"
+    },
+    "summary": {
+      "en": "Avicenna (Ibn Sina) completed al-Qanun fi al-Tibb, a five-book synthesis of Greek and Islamic medicine written in Hamadan and Isfahan. Translated into Latin in the 12th century, it remained a standard medical textbook in Europe and the Islamic world for centuries.",
+      "zh": "伊本·西那在哈马丹和伊斯法罕写成五卷本《医典》，集希腊与伊斯兰医学之大成。12世纪译为拉丁文后，数百年间一直是欧洲和伊斯兰世界的标准医学教科书。"
+    },
+    "lat": 34.7988,
+    "lon": 48.5146,
+    "region": "west-asia",
+    "importance": 3,
+    "people": [
+      "person-avicenna"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: The Canon of Medicine",
+        "url": "https://www.britannica.com/topic/The-Canon-of-Medicine"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Avicenna",
+        "url": "https://www.iranicaonline.org/articles/avicenna-index"
+      },
+      {
+        "title": "Wikipedia: The Canon of Medicine",
+        "url": "https://en.wikipedia.org/wiki/The_Canon_of_Medicine"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Completion date c. 1025 is approximate."
+  },
+  {
+    "id": "ev-battle-of-manzikert",
+    "qid": "Q200032",
+    "type": "battle",
+    "year": 1071,
+    "date": "1071-08-26",
+    "name": {
+      "en": "Battle of Manzikert",
+      "zh": "曼齐刻尔特战役"
+    },
+    "summary": {
+      "en": "The Seljuk sultan Alp Arslan routed the Byzantine army near Manzikert, north of Lake Van, and captured Emperor Romanos IV Diogenes. The Byzantine civil strife that followed let Turkish groups settle across Anatolia, beginning its gradual Turkification.",
+      "zh": "塞尔柱苏丹阿尔普·阿尔斯兰在凡湖以北的曼齐刻尔特附近大败拜占庭军队，俘虏皇帝罗曼努斯四世。此后拜占庭陷入内乱，突厥部众得以遍布安纳托利亚，开启了该地区逐步突厥化的进程。"
+    },
+    "lat": 39.1,
+    "lon": 42.59,
+    "region": "west-asia",
+    "importance": 5,
+    "polities": [
+      "polity-great-seljuk"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Manzikert",
+        "url": "https://www.britannica.com/event/Battle-of-Manzikert"
+      },
+      {
+        "title": "C. Hillenbrand, Turkish Myth and Muslim Symbol: The Battle of Manzikert (2007)"
+      },
+      {
+        "title": "Wikipedia: Battle of Manzikert",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Manzikert"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-first-crusade-levant",
+    "qid": "Q51649",
+    "type": "war",
+    "year": 1096,
+    "endYear": 1099,
+    "name": {
+      "en": "First Crusade",
+      "zh": "第一次十字军东征"
+    },
+    "summary": {
+      "en": "Answering Pope Urban II's appeal, Western European armies marched through Anatolia and Syria, took Nicaea, Antioch and finally Jerusalem, and founded the crusader states of Edessa, Antioch, Jerusalem and later Tripoli.",
+      "zh": "响应教皇乌尔班二世的号召，西欧军队穿越安纳托利亚和叙利亚，先后攻占尼西亚、安条克，最终夺取耶路撒冷，建立了埃德萨、安条克、耶路撒冷以及稍后的的黎波里等十字军国家。"
+    },
+    "lat": 36.2025,
+    "lon": 36.1606,
+    "region": "west-asia",
+    "importance": 5,
+    "polities": [
+      "polity-kingdom-of-jerusalem",
+      "polity-rum-seljuk"
+    ],
+    "route": [
+      {
+        "year": 1096,
+        "lat": 41.0082,
+        "lon": 28.9784,
+        "label": {
+          "en": "Constantinople",
+          "zh": "君士坦丁堡"
+        }
+      },
+      {
+        "year": 1097,
+        "lat": 40.4289,
+        "lon": 29.7194,
+        "label": {
+          "en": "Siege of Nicaea",
+          "zh": "围攻尼西亚"
+        }
+      },
+      {
+        "year": 1097,
+        "lat": 39.78,
+        "lon": 30.52,
+        "label": {
+          "en": "Battle of Dorylaeum",
+          "zh": "多利留姆之战"
+        }
+      },
+      {
+        "year": 1097,
+        "lat": 36.2025,
+        "lon": 36.1606,
+        "label": {
+          "en": "Siege of Antioch begins",
+          "zh": "开始围攻安条克"
+        }
+      },
+      {
+        "year": 1098,
+        "lat": 37.1583,
+        "lon": 38.7917,
+        "label": {
+          "en": "Baldwin takes Edessa",
+          "zh": "鲍德温取得埃德萨"
+        }
+      },
+      {
+        "year": 1098,
+        "lat": 36.2025,
+        "lon": 36.1606,
+        "label": {
+          "en": "Antioch captured",
+          "zh": "攻陷安条克"
+        }
+      },
+      {
+        "year": 1098,
+        "lat": 35.6436,
+        "lon": 36.6744,
+        "label": {
+          "en": "Ma'arrat al-Nu'man",
+          "zh": "马阿拉"
+        }
+      },
+      {
+        "year": 1099,
+        "lat": 34.53,
+        "lon": 36.05,
+        "label": {
+          "en": "Siege of Arqa",
+          "zh": "围攻阿尔卡"
+        }
+      },
+      {
+        "year": 1099,
+        "lat": 31.9286,
+        "lon": 34.8728,
+        "label": {
+          "en": "Ramla",
+          "zh": "拉姆拉"
+        }
+      },
+      {
+        "year": 1099,
+        "lat": 31.7767,
+        "lon": 35.2342,
+        "label": {
+          "en": "Jerusalem captured",
+          "zh": "攻陷耶路撒冷"
+        }
+      },
+      {
+        "year": 1099,
+        "lat": 31.6667,
+        "lon": 34.5667,
+        "label": {
+          "en": "Battle of Ascalon",
+          "zh": "阿斯卡隆之战"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: First Crusade",
+        "url": "https://www.britannica.com/topic/First-Crusade"
+      },
+      {
+        "title": "T. Asbridge, The First Crusade: A New History (2004)"
+      },
+      {
+        "title": "Gesta Francorum et aliorum Hierosolimitanorum"
+      },
+      {
+        "title": "Wikipedia: First Crusade",
+        "url": "https://en.wikipedia.org/wiki/First_Crusade"
+      }
+    ],
+    "confidence": "high",
+    "note": "Event point placed at Antioch, the crusade's longest siege."
+  },
+  {
+    "id": "ev-siege-of-jerusalem-1099",
+    "qid": "Q456993",
+    "type": "battle",
+    "year": 1099,
+    "date": "1099-07-15",
+    "name": {
+      "en": "Crusader capture of Jerusalem",
+      "zh": "十字军攻占耶路撒冷"
+    },
+    "summary": {
+      "en": "Crusader forces stormed Jerusalem, then held by the Fatimids, on 15 July 1099 after a five-week siege. The capture was followed by a massacre of many Muslim and Jewish inhabitants, and Godfrey of Bouillon became the first ruler of the Kingdom of Jerusalem.",
+      "zh": "经五周围攻，十字军于1099年7月15日攻破法蒂玛王朝控制下的耶路撒冷，随后屠杀了大批穆斯林和犹太居民。布永的戈弗雷成为耶路撒冷王国的首位统治者。"
+    },
+    "lat": 31.7833,
+    "lon": 35.2167,
+    "region": "west-asia",
+    "importance": 4,
+    "place": "place-jerusalem",
+    "polities": [
+      "polity-kingdom-of-jerusalem"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Crusades",
+        "url": "https://www.britannica.com/event/Crusades"
+      },
+      {
+        "title": "Ibn al-Athir, al-Kamil fi al-Tarikh (trans. D. S. Richards)"
+      },
+      {
+        "title": "Wikipedia: Siege of Jerusalem (1099)",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(1099)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-didgori",
+    "qid": "Q1192616",
+    "type": "battle",
+    "year": 1121,
+    "date": "1121-08-12",
+    "name": {
+      "en": "Battle of Didgori",
+      "zh": "迪德戈里战役"
+    },
+    "summary": {
+      "en": "King David IV \"the Builder\" of Georgia defeated a large Seljuk-led Muslim coalition at Didgori, west of Tbilisi. The victory allowed him to take Tbilisi in 1122 and opened Georgia's golden age.",
+      "zh": "格鲁吉亚“建设者”大卫四世在第比利斯以西的迪德戈里击败塞尔柱人领导的穆斯林联军。此役使他于1122年收复第比利斯，开启了格鲁吉亚的黄金时代。"
+    },
+    "lat": 41.6833,
+    "lon": 44.5167,
+    "region": "west-asia",
+    "importance": 2,
+    "place": "place-tbilisi",
+    "polities": [
+      "polity-kingdom-of-georgia"
+    ],
+    "sources": [
+      {
+        "title": "Kartlis Tskhovreba (The Georgian Chronicles): Life of David, King of Kings"
+      },
+      {
+        "title": "D. Rayfield, Edge of Empires: A History of Georgia (2012)"
+      },
+      {
+        "title": "Wikipedia: Battle of Didgori",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Didgori"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-hattin",
+    "qid": "Q233568",
+    "type": "battle",
+    "year": 1187,
+    "date": "1187-07-04",
+    "name": {
+      "en": "Battle of Hattin",
+      "zh": "哈丁战役"
+    },
+    "summary": {
+      "en": "Saladin trapped and destroyed the army of the Kingdom of Jerusalem near the Horns of Hattin above Lake Tiberias, capturing King Guy of Lusignan. Jerusalem surrendered to him on 2 October, prompting the Third Crusade.",
+      "zh": "萨拉丁在太巴列湖上方的哈丁角附近围歼耶路撒冷王国军队，俘虏国王居伊。同年10月2日耶路撒冷向他投降，引发了第三次十字军东征。"
+    },
+    "lat": 32.7983,
+    "lon": 35.4596,
+    "region": "west-asia",
+    "importance": 4,
+    "people": [
+      "person-saladin"
+    ],
+    "polities": [
+      "polity-ayyubid",
+      "polity-kingdom-of-jerusalem"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Hattin",
+        "url": "https://www.britannica.com/event/Battle-of-Hattin"
+      },
+      {
+        "title": "Baha al-Din Ibn Shaddad, The Rare and Excellent History of Saladin (trans. D. S. Richards)"
+      },
+      {
+        "title": "Wikipedia: Battle of Hattin",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Hattin"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-hulagu-campaign",
+    "qid": "Q17215083",
+    "type": "war",
+    "year": 1253,
+    "endYear": 1260,
+    "name": {
+      "en": "Hulagu's western campaign",
+      "zh": "旭烈兀西征"
+    },
+    "summary": {
+      "en": "Sent west by his brother, the Great Khan Möngke, Hulagu destroyed the Nizari Ismaili strongholds of Iran, sacked Baghdad and ended the Abbasid caliphate, then invaded Syria. The campaign founded the Ilkhanate and was checked only at Ain Jalut.",
+      "zh": "旭烈兀奉其兄蒙哥大汗之命西征，摧毁伊朗的尼扎里伊斯玛仪派堡垒，攻陷巴格达、终结阿拔斯哈里发政权，随后入侵叙利亚。此次西征建立了伊利汗国，直到阿音札鲁特才被遏止。"
+    },
+    "lat": 34.7988,
+    "lon": 48.5146,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-ilkhanate",
+      "polity-abbasid"
+    ],
+    "route": [
+      {
+        "year": 1253,
+        "lat": 47.1975,
+        "lon": 102.8238,
+        "label": {
+          "en": "Departs Karakorum",
+          "zh": "从哈拉和林出发"
+        }
+      },
+      {
+        "year": 1256,
+        "lat": 36.4447,
+        "lon": 50.5861,
+        "label": {
+          "en": "Alamut surrenders",
+          "zh": "阿剌模忒投降"
+        }
+      },
+      {
+        "year": 1257,
+        "lat": 34.7988,
+        "lon": 48.5146,
+        "label": {
+          "en": "Hamadan",
+          "zh": "哈马丹"
+        }
+      },
+      {
+        "year": 1258,
+        "lat": 33.3153,
+        "lon": 44.3661,
+        "label": {
+          "en": "Sack of Baghdad",
+          "zh": "攻陷巴格达"
+        }
+      },
+      {
+        "year": 1260,
+        "lat": 36.2021,
+        "lon": 37.1343,
+        "label": {
+          "en": "Aleppo taken",
+          "zh": "攻占阿勒颇"
+        }
+      },
+      {
+        "year": 1260,
+        "lat": 33.5131,
+        "lon": 36.2919,
+        "label": {
+          "en": "Damascus submits",
+          "zh": "大马士革归降"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rashid al-Din, Jami' al-Tawarikh (trans. W. Thackston, 1998)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Hulegu",
+        "url": "https://www.britannica.com/biography/Hulegu"
+      },
+      {
+        "title": "P. Jackson, The Mongols and the Islamic World (2017)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The Wikidata item carries no dates; dates follow Rashid al-Din and modern accounts."
+  },
+  {
+    "id": "ev-siege-of-baghdad-1258",
+    "qid": "Q369560",
+    "type": "battle",
+    "year": 1258,
+    "date": "1258-02-10",
+    "name": {
+      "en": "Mongol sack of Baghdad",
+      "zh": "蒙古攻陷巴格达"
+    },
+    "summary": {
+      "en": "After a short siege, Hulagu's Mongol army took Baghdad, sacked the city and executed the last Abbasid caliph, al-Musta'sim. The fall of the caliphal capital, with great loss of life and of libraries, was long remembered as one of the great catastrophes of Islamic history.",
+      "zh": "经短暂围攻，旭烈兀的蒙古军攻陷巴格达，洗劫全城并处死末代阿拔斯哈里发穆斯台绥木。哈里发首都的陷落造成大量人员死亡和典籍损毁，长期被视为伊斯兰历史上的重大浩劫之一。"
+    },
+    "lat": 33.3475,
+    "lon": 44.335,
+    "region": "west-asia",
+    "importance": 5,
+    "place": "place-baghdad",
+    "polities": [
+      "polity-ilkhanate",
+      "polity-abbasid"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Hulegu",
+        "url": "https://www.britannica.com/biography/Hulegu"
+      },
+      {
+        "title": "Rashid al-Din, Jami' al-Tawarikh (trans. Thackston)"
+      },
+      {
+        "title": "Wikipedia: Siege of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Baghdad"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-maragheh-observatory",
+    "qid": "Q2461462",
+    "type": "science",
+    "year": 1259,
+    "name": {
+      "en": "Maragheh Observatory founded",
+      "zh": "马拉盖天文台建立"
+    },
+    "summary": {
+      "en": "Under Hulagu's patronage, Nasir al-Din al-Tusi founded an observatory and library at Maragheh. Its astronomers compiled the Zij-i Ilkhani tables and developed planetary models closely resembling those later used by Copernicus.",
+      "zh": "在旭烈兀资助下，纳西尔丁·图西在马拉盖建立天文台和图书馆。那里的天文学家编成《伊利汗天文表》，并提出与后来哥白尼所用模型极为相似的行星模型。"
+    },
+    "lat": 37.3959,
+    "lon": 46.2093,
+    "region": "west-asia",
+    "importance": 3,
+    "polities": [
+      "polity-ilkhanate"
+    ],
+    "sources": [
+      {
+        "title": "G. Saliba, Islamic Science and the Making of the European Renaissance (2007)"
+      },
+      {
+        "title": "A. Sayılı, The Observatory in Islam (1960)"
+      },
+      {
+        "title": "Wikipedia: Maragheh observatory",
+        "url": "https://en.wikipedia.org/wiki/Maragheh_observatory"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-ain-jalut",
+    "qid": "Q244356",
+    "type": "battle",
+    "year": 1260,
+    "date": "1260-09-03",
+    "name": {
+      "en": "Battle of Ain Jalut",
+      "zh": "阿音札鲁特战役"
+    },
+    "summary": {
+      "en": "In the Jezreel Valley in Palestine, the Mamluks of Egypt under Qutuz and Baybars defeated a Mongol army left in Syria by Hulagu. It was the first major check to Mongol expansion in the west and secured Mamluk rule over Syria.",
+      "zh": "在巴勒斯坦的耶斯列谷，忽都思和拜巴尔斯率领的埃及马穆鲁克军击败了旭烈兀留在叙利亚的蒙古军。这是蒙古西进遭遇的第一次重大挫败，确立了马穆鲁克王朝对叙利亚的统治。"
+    },
+    "lat": 32.55,
+    "lon": 35.357,
+    "region": "west-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Ayn Jalut",
+        "url": "https://www.britannica.com/event/Battle-of-Ayn-Jalut"
+      },
+      {
+        "title": "R. Amitai-Preiss, Mongols and Mamluks: The Mamluk–Ilkhanid War, 1260–1281 (1995)"
+      },
+      {
+        "title": "Wikipedia: Battle of Ain Jalut",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-ankara",
+    "qid": "Q209387",
+    "type": "battle",
+    "year": 1402,
+    "date": "1402-07-20",
+    "name": {
+      "en": "Battle of Ankara",
+      "zh": "安卡拉战役"
+    },
+    "summary": {
+      "en": "Timur defeated and captured the Ottoman sultan Bayezid I near Ankara. The Ottoman state nearly disintegrated in the civil war that followed (1402–1413), delaying its expansion and the fall of Constantinople by half a century.",
+      "zh": "帖木儿在安卡拉附近击败并俘虏奥斯曼苏丹巴耶济德一世。奥斯曼国家在随后的内战（1402—1413年）中几近瓦解，扩张和攻取君士坦丁堡因此推迟了半个世纪。"
+    },
+    "lat": 40.15,
+    "lon": 32.95,
+    "region": "west-asia",
+    "importance": 4,
+    "place": "place-ankara",
+    "polities": [
+      "polity-ottoman"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Ankara",
+        "url": "https://www.britannica.com/event/Battle-of-Ankara"
+      },
+      {
+        "title": "C. Finkel, Osman's Dream: The History of the Ottoman Empire (2005)"
+      },
+      {
+        "title": "Wikipedia: Battle of Ankara",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ankara"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-fall-of-trebizond",
+    "qid": "Q9366875",
+    "type": "fall",
+    "year": 1461,
+    "date": "1461-08-15",
+    "name": {
+      "en": "Fall of Trebizond",
+      "zh": "特拉布宗陷落"
+    },
+    "summary": {
+      "en": "Mehmed II besieged Trebizond, capital of the last Byzantine successor state, and Emperor David Komnenos surrendered in August 1461. Its fall ended the Empire of Trebizond, founded in 1204, and the last Byzantine rule in Anatolia.",
+      "zh": "穆罕默德二世围攻最后一个拜占庭继承国的首都特拉布宗，皇帝大卫·科穆宁于1461年8月投降。特拉比松帝国（建于1204年）随之灭亡，拜占庭在安纳托利亚的统治宣告终结。"
+    },
+    "lat": 41.005,
+    "lon": 39.73,
+    "region": "west-asia",
+    "importance": 2,
+    "people": [
+      "person-mehmed-ii"
+    ],
+    "place": "place-trabzon",
+    "polities": [
+      "polity-ottoman"
+    ],
+    "sources": [
+      {
+        "title": "Kritovoulos, History of Mehmed the Conqueror (trans. C. T. Riggs, 1954)"
+      },
+      {
+        "title": "F. Babinger, Mehmed the Conqueror and His Time (1978)"
+      },
+      {
+        "title": "Wikipedia: Siege of Trebizond (1461)",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Trebizond_(1461)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata starts the siege in September 1460; the 1461 campaign and surrender (15 August 1461) are used for the year."
+  },
+  {
+    "id": "ev-safavid-founding",
+    "qid": "Q12849799",
+    "type": "founding",
+    "year": 1501,
+    "name": {
+      "en": "Battle of Sharur and the rise of the Safavids",
+      "zh": "沙鲁尔之战与萨法维王朝兴起"
+    },
+    "summary": {
+      "en": "Leading Qizilbash Turkmen followers, the teenage Ismail defeated the Aq Qoyunlu at Sharur, entered Tabriz and was proclaimed shah. He made Twelver Shi'ism the state religion, founding the Safavid dynasty that shaped modern Iran.",
+      "zh": "少年伊斯玛仪率领红头军土库曼部众在沙鲁尔击败白羊王朝，进入大不里士称沙阿。他定十二伊玛目什叶派为国教，建立了塑造近代伊朗的萨法维王朝。"
+    },
+    "lat": 39.55,
+    "lon": 45.05,
+    "region": "west-asia",
+    "importance": 4,
+    "people": [
+      "person-ismail-i"
+    ],
+    "place": "place-tabriz",
+    "polities": [
+      "polity-safavid"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Ismail I",
+        "url": "https://www.britannica.com/biography/Ismail-I-shah-of-Iran"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Safavids",
+        "url": "https://www.iranicaonline.org/articles/safavids"
+      },
+      {
+        "title": "Wikipedia: Battle of Sharur",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Sharur"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata dates the battle 17 July 1501; other sources place it a few weeks earlier. Coronation at Tabriz followed in 1501."
+  },
+  {
+    "id": "ev-battle-of-chaldiran",
+    "qid": "Q745110",
+    "type": "battle",
+    "year": 1514,
+    "date": "1514-08-23",
+    "name": {
+      "en": "Battle of Chaldiran",
+      "zh": "查尔迪兰战役"
+    },
+    "summary": {
+      "en": "The Ottoman sultan Selim I, with artillery and Janissary firearms, defeated Shah Ismail's Qizilbash cavalry at Chaldiran and briefly occupied Tabriz. The battle set a long-lasting Ottoman–Safavid frontier across eastern Anatolia and Mesopotamia.",
+      "zh": "奥斯曼苏丹塞利姆一世凭借火炮和近卫军火器，在查尔迪兰击败伊斯玛仪沙阿的红头军骑兵，并一度占领大不里士。此役确立了横贯安纳托利亚东部和美索不达米亚的奥斯曼—萨法维长期边界。"
+    },
+    "lat": 39.0889,
+    "lon": 44.327,
+    "region": "west-asia",
+    "importance": 4,
+    "people": [
+      "person-ismail-i"
+    ],
+    "polities": [
+      "polity-ottoman",
+      "polity-safavid"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Chaldiran",
+        "url": "https://www.britannica.com/event/Battle-of-Chaldiran"
+      },
+      {
+        "title": "C. Finkel, Osman's Dream (2005)"
+      },
+      {
+        "title": "Wikipedia: Battle of Chaldiran",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Chaldiran"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-ottoman-mamluk-war",
+    "qid": "Q4338038",
+    "type": "war",
+    "year": 1516,
+    "endYear": 1517,
+    "name": {
+      "en": "Ottoman–Mamluk War (Ottoman conquest of Syria and Egypt)",
+      "zh": "奥斯曼-马穆鲁克战争（奥斯曼征服叙利亚与埃及）"
+    },
+    "summary": {
+      "en": "Selim I turned south after Chaldiran, killing the Mamluk sultan Qansuh al-Ghawri at Marj Dabiq and taking Aleppo, Damascus and Jerusalem, then Cairo in January 1517. The Ottomans gained Syria, Egypt and guardianship of Mecca and Medina.",
+      "zh": "查尔迪兰之战后，塞利姆一世挥师南下，在达比格草原击毙马穆鲁克苏丹甘苏赫·古里，夺取阿勒颇、大马士革和耶路撒冷，并于1517年1月攻入开罗。奥斯曼由此获得叙利亚、埃及及麦加和麦地那的守护权。"
+    },
+    "lat": 36.53,
+    "lon": 37.27,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-ottoman"
+    ],
+    "route": [
+      {
+        "year": 1516,
+        "lat": 41.0082,
+        "lon": 28.9784,
+        "label": {
+          "en": "Istanbul",
+          "zh": "伊斯坦布尔"
+        }
+      },
+      {
+        "year": 1516,
+        "lat": 37.8713,
+        "lon": 32.4846,
+        "label": {
+          "en": "Konya",
+          "zh": "科尼亚"
+        }
+      },
+      {
+        "year": 1516,
+        "lat": 36.53,
+        "lon": 37.27,
+        "label": {
+          "en": "Marj Dabiq",
+          "zh": "达比格草原"
+        }
+      },
+      {
+        "year": 1516,
+        "lat": 36.2021,
+        "lon": 37.1343,
+        "label": {
+          "en": "Aleppo",
+          "zh": "阿勒颇"
+        }
+      },
+      {
+        "year": 1516,
+        "lat": 33.5131,
+        "lon": 36.2919,
+        "label": {
+          "en": "Damascus",
+          "zh": "大马士革"
+        }
+      },
+      {
+        "year": 1516,
+        "lat": 31.5,
+        "lon": 34.4667,
+        "label": {
+          "en": "Gaza (Yaunis Khan)",
+          "zh": "加沙（尤努斯汗）"
+        }
+      },
+      {
+        "year": 1517,
+        "lat": 30.0444,
+        "lon": 31.2357,
+        "label": {
+          "en": "Ridaniya and Cairo",
+          "zh": "里达尼亚与开罗"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Ottoman Empire",
+        "url": "https://www.britannica.com/place/Ottoman-Empire"
+      },
+      {
+        "title": "Ibn Iyas, Bada'i al-Zuhur fi Waqa'i al-Duhur"
+      },
+      {
+        "title": "Wikipedia: Ottoman–Mamluk War (1516–1517)",
+        "url": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Mamluk_War_(1516%E2%80%931517)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Event point at Marj Dabiq (24 August 1516)."
+  },
+  {
+    "id": "ev-peace-of-amasya",
+    "qid": "Q2119319",
+    "type": "treaty",
+    "year": 1555,
+    "date": "1555-05-29",
+    "name": {
+      "en": "Peace of Amasya",
+      "zh": "阿马西亚和约"
+    },
+    "summary": {
+      "en": "Suleiman I and Shah Tahmasp I ended four decades of war with the first formal Ottoman–Safavid peace. The Ottomans kept Baghdad, most of Iraq and eastern Anatolia; Iran kept Azerbaijan, and the South Caucasus was divided.",
+      "zh": "苏莱曼一世与塔赫玛斯普一世签订首个正式的奥斯曼—萨法维和约，结束了四十年战争。奥斯曼保有巴格达、伊拉克大部和安纳托利亚东部，伊朗保有阿塞拜疆，南高加索被瓜分。"
+    },
+    "lat": 40.65,
+    "lon": 35.83,
+    "region": "west-asia",
+    "importance": 2,
+    "people": [
+      "person-suleiman-the-magnificent"
+    ],
+    "polities": [
+      "polity-ottoman",
+      "polity-safavid"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Peace of Amasya",
+        "url": "https://www.britannica.com/topic/Peace-of-Amasya"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Amasya, Peace of",
+        "url": "https://www.iranicaonline.org/articles/amasya-peace"
+      },
+      {
+        "title": "Wikipedia: Peace of Amasya",
+        "url": "https://en.wikipedia.org/wiki/Peace_of_Amasya"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-isfahan-capital",
+    "qid": "Q4519",
+    "type": "political",
+    "year": 1598,
+    "name": {
+      "en": "Isfahan becomes the Safavid capital",
+      "zh": "伊斯法罕成为萨法维首都"
+    },
+    "summary": {
+      "en": "Shah Abbas I moved his capital from Qazvin to Isfahan and rebuilt the city around the vast Naqsh-e Jahan Square with its royal mosque, palace and bazaar. \"Isfahan is half the world\" became a proverb for its splendour.",
+      "zh": "阿拔斯一世将首都从加兹温迁至伊斯法罕，并围绕宏大的伊玛目广场（世界图景广场）兴建王家清真寺、宫殿和巴扎。“伊斯法罕半天下”成为赞美其繁华的谚语。"
+    },
+    "lat": 32.6582,
+    "lon": 51.6773,
+    "region": "west-asia",
+    "importance": 3,
+    "people": [
+      "person-abbas-i"
+    ],
+    "place": "place-isfahan",
+    "polities": [
+      "polity-safavid"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Iranica: Abbas I",
+        "url": "https://www.iranicaonline.org/articles/abbas-i"
+      },
+      {
+        "title": "S. Babaie, Isfahan and Its Palaces (2008)"
+      },
+      {
+        "title": "Wikipedia: Naqsh-e Jahan Square",
+        "url": "https://en.wikipedia.org/wiki/Naqsh-e_Jahan_Square"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Uses the Naqsh-e Jahan Square item; Wikidata dates the square from 1591, while the move of the capital is usually dated 1598."
+  },
+  {
+    "id": "ev-treaty-of-zuhab",
+    "qid": "Q2060524",
+    "type": "treaty",
+    "year": 1639,
+    "date": "1639-05-17",
+    "name": {
+      "en": "Treaty of Zuhab",
+      "zh": "祖哈布条约"
+    },
+    "summary": {
+      "en": "Signed near Qasr-e Shirin, the treaty ended the Ottoman–Safavid war of 1623–1639. Baghdad and Mesopotamia stayed Ottoman, and the Zagros frontier it set roughly anticipates today's Iran–Iraq and Iran–Turkey borders.",
+      "zh": "条约在席林堡附近签订，结束了1623—1639年的奥斯曼—萨法维战争。巴格达和美索不达米亚归奥斯曼所有，所定的扎格罗斯边界大致与今日伊朗—伊拉克、伊朗—土耳其边界相当。"
+    },
+    "lat": 34.5156,
+    "lon": 45.5797,
+    "region": "west-asia",
+    "importance": 3,
+    "polities": [
+      "polity-ottoman",
+      "polity-safavid"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Treaty of Qasr-e Shirin",
+        "url": "https://www.britannica.com/topic/Treaty-of-Qasr-i-Shirin"
+      },
+      {
+        "title": "C. Finkel, Osman's Dream (2005)"
+      },
+      {
+        "title": "Wikipedia: Treaty of Zuhab",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Zuhab"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-treaty-of-turkmenchay",
+    "qid": "Q875512",
+    "type": "treaty",
+    "year": 1828,
+    "name": {
+      "en": "Treaty of Turkmenchay",
+      "zh": "土库曼恰伊条约"
+    },
+    "summary": {
+      "en": "Ending the Russo-Persian War of 1826–1828, Qajar Iran ceded the khanates of Erivan and Nakhchivan to Russia, paid a heavy indemnity and granted Russian subjects extraterritorial rights. It fixed the Aras River frontier and marked Iran's loss of the South Caucasus.",
+      "zh": "条约结束了1826—1828年俄波战争。卡扎尔伊朗将埃里温和纳希切万两汗国割让给俄国，支付巨额赔款，并给予俄国臣民治外法权。条约确定以阿拉斯河为界，标志伊朗丧失南高加索。"
+    },
+    "lat": 37.6,
+    "lon": 47.39,
+    "region": "west-asia",
+    "importance": 3,
+    "place": "place-yerevan",
+    "polities": [
+      "polity-qajar"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Treaty of Turkmenchay",
+        "url": "https://www.britannica.com/topic/Treaty-of-Turkmenchay"
+      },
+      {
+        "title": "F. Kazemzadeh, \"Iranian relations with Russia and the Soviet Union, to 1921\", Cambridge History of Iran, vol. 7 (1991)"
+      },
+      {
+        "title": "Wikipedia: Treaty of Turkmenchay",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Turkmenchay"
+      }
+    ],
+    "confidence": "high",
+    "note": "Signed 10 February 1828 (Julian; 22 February Gregorian); only the year is given."
+  },
+  {
+    "id": "ev-persian-constitutional-revolution",
+    "qid": "Q1368440",
+    "type": "political",
+    "year": 1905,
+    "endYear": 1911,
+    "name": {
+      "en": "Persian Constitutional Revolution",
+      "zh": "波斯立宪革命"
+    },
+    "summary": {
+      "en": "Protests by merchants, clerics and reformers forced Mozaffar al-Din Shah to accept an elected parliament (Majles) and, in 1906, a constitution, one of the first in Asia. Royalist reaction, civil war and Russian intervention closed the revolutionary period in 1911.",
+      "zh": "商人、宗教人士和改革者的抗议迫使穆扎法尔丁沙接受民选议会（马吉利斯），并于1906年颁布宪法，这是亚洲最早的宪法之一。保皇派反扑、内战和俄国干涉使革命时期于1911年结束。"
+    },
+    "lat": 35.6889,
+    "lon": 51.3897,
+    "region": "west-asia",
+    "importance": 3,
+    "place": "place-tehran",
+    "polities": [
+      "polity-qajar"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Constitutional Revolution",
+        "url": "https://www.britannica.com/topic/Constitutional-Revolution"
+      },
+      {
+        "title": "E. Abrahamian, Iran Between Two Revolutions (1982)"
+      },
+      {
+        "title": "Wikipedia: Persian Constitutional Revolution",
+        "url": "https://en.wikipedia.org/wiki/Persian_Constitutional_Revolution"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-oil-masjed-soleyman",
+    "qid": "Q6556445",
+    "type": "exploration",
+    "year": 1908,
+    "date": "1908-05-26",
+    "name": {
+      "en": "Oil struck at Masjed Soleyman",
+      "zh": "马斯吉德苏莱曼发现石油"
+    },
+    "summary": {
+      "en": "Drillers working William Knox D'Arcy's concession struck oil at Masjed Soleyman in Khuzestan, the first commercial oil discovery in the Middle East. It led to the Anglo-Persian Oil Company (later BP) and transformed the region's strategic importance.",
+      "zh": "在威廉·诺克斯·达西特许权下作业的钻井队在胡齐斯坦的马斯吉德苏莱曼钻出石油，这是中东首次商业性石油发现。此后成立英波石油公司（后来的BP），该地区的战略地位由此改变。"
+    },
+    "lat": 31.9364,
+    "lon": 49.3039,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-qajar"
+    ],
+    "sources": [
+      {
+        "title": "D. Yergin, The Prize: The Epic Quest for Oil, Money, and Power (1991)"
+      },
+      {
+        "title": "Wikipedia: Masjed Soleyman oil field",
+        "url": "https://en.wikipedia.org/wiki/Masjed_Soleyman_oil_field"
+      },
+      {
+        "title": "Wikipedia: Anglo-Persian Oil Company",
+        "url": "https://en.wikipedia.org/wiki/Anglo-Persian_Oil_Company"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-young-turk-revolution",
+    "qid": "Q4298662",
+    "type": "political",
+    "year": 1908,
+    "date": "1908-07-24",
+    "name": {
+      "en": "Young Turk Revolution",
+      "zh": "青年土耳其党人革命"
+    },
+    "summary": {
+      "en": "Officers of the Committee of Union and Progress, starting in Ottoman Macedonia, forced Sultan Abdul Hamid II to restore the 1876 constitution and parliament. The Second Constitutional Era that followed brought the Unionists to power; they later led the empire into World War I.",
+      "zh": "统一与进步委员会的军官从奥斯曼马其顿起事，迫使苏丹阿卜杜勒-哈米德二世恢复1876年宪法和议会。随后的第二立宪时期使统一派掌权，他们后来带领帝国加入第一次世界大战。"
+    },
+    "lat": 40.6401,
+    "lon": 22.9444,
+    "region": "west-asia",
+    "importance": 3,
+    "polities": [
+      "polity-ottoman"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Young Turk Revolution of 1908",
+        "url": "https://www.britannica.com/topic/Young-Turk-Revolution-of-1908"
+      },
+      {
+        "title": "F. Ahmad, The Young Turks (1969)"
+      },
+      {
+        "title": "Wikipedia: Young Turk Revolution",
+        "url": "https://en.wikipedia.org/wiki/Young_Turk_Revolution"
+      }
+    ],
+    "confidence": "high",
+    "note": "Plotted at Salonica (Thessaloniki), the CUP's centre, where the movement began; geographically in Europe."
+  },
+  {
+    "id": "ev-armenian-genocide",
+    "qid": "Q80034",
+    "type": "disaster",
+    "year": 1915,
+    "endYear": 1923,
+    "date": "1915-04-24",
+    "name": {
+      "en": "Armenian genocide",
+      "zh": "亚美尼亚种族灭绝"
+    },
+    "summary": {
+      "en": "During World War I the Ottoman government of the Committee of Union and Progress carried out the systematic deportation and mass killing of the empire's Armenians, beginning with the arrest of Armenian leaders in Constantinople on 24 April 1915. Scholars estimate 600,000 to 1.5 million deaths; Turkey disputes the term genocide.",
+      "zh": "第一次世界大战期间，统一与进步委员会领导的奥斯曼政府对帝国境内的亚美尼亚人实施有组织的驱逐和大规模屠杀，始于1915年4月24日在君士坦丁堡逮捕亚美尼亚知名人士。学者估计死者约60万至150万人；土耳其对“种族灭绝”这一定性持异议。"
+    },
+    "lat": 35.336,
+    "lon": 40.14,
+    "region": "west-asia",
+    "importance": 5,
+    "polities": [
+      "polity-ottoman"
+    ],
+    "sources": [
+      {
+        "title": "R. G. Suny, \"They Can Live in the Desert but Nowhere Else\": A History of the Armenian Genocide (2015)"
+      },
+      {
+        "title": "T. Akçam, The Young Turks' Crime against Humanity (2012)"
+      },
+      {
+        "title": "Wikipedia: Armenian genocide",
+        "url": "https://en.wikipedia.org/wiki/Armenian_genocide"
+      }
+    ],
+    "confidence": "high",
+    "note": "Plotted at Deir ez-Zor, destination of the deportation marches; the killings took place across Anatolia and Syria."
+  },
+  {
+    "id": "ev-gallipoli-campaign",
+    "qid": "Q164983",
+    "type": "battle",
+    "year": 1915,
+    "endYear": 1916,
+    "date": "1915-04-25",
+    "name": {
+      "en": "Gallipoli campaign",
+      "zh": "加里波利战役"
+    },
+    "summary": {
+      "en": "The Allies tried to force the Dardanelles and knock the Ottoman Empire out of the war. After naval attacks failed, British, ANZAC and French landings on the Gallipoli peninsula were contained by Ottoman defenders, among them Mustafa Kemal, and evacuated in January 1916.",
+      "zh": "协约国企图强行打通达达尼尔海峡，迫使奥斯曼帝国退出战争。海军进攻失败后，英国、澳新军团和法国部队在加里波利半岛登陆，但被包括穆斯塔法·凯末尔在内的奥斯曼守军遏制，最终于1916年1月撤离。"
+    },
+    "lat": 40.2375,
+    "lon": 26.2775,
+    "region": "west-asia",
+    "importance": 4,
+    "people": [
+      "person-ataturk"
+    ],
+    "polities": [
+      "polity-ottoman"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Gallipoli",
+        "url": "https://www.britannica.com/event/battle-of-Gallipoli"
+      },
+      {
+        "title": "P. Hart, Gallipoli (2011)"
+      },
+      {
+        "title": "Wikipedia: Gallipoli campaign",
+        "url": "https://en.wikipedia.org/wiki/Gallipoli_campaign"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-sykes-picot",
+    "qid": "Q211674",
+    "type": "treaty",
+    "year": 1916,
+    "date": "1916-05-16",
+    "name": {
+      "en": "Sykes–Picot Agreement",
+      "zh": "赛克斯-皮科协定"
+    },
+    "summary": {
+      "en": "In a secret agreement, British and French diplomats Mark Sykes and François Georges-Picot, with Russian assent, divided the Ottoman Arab provinces into zones of influence. It shaped the post-war mandates and is widely remembered in the region as a symbol of imperial partition.",
+      "zh": "英法外交官马克·赛克斯和弗朗索瓦·乔治-皮科在俄国同意下秘密划分奥斯曼帝国阿拉伯诸省的势力范围。协定影响了战后的委任统治格局，在当地被普遍视为帝国主义瓜分的象征。"
+    },
+    "lat": 33.5131,
+    "lon": 36.2919,
+    "region": "west-asia",
+    "importance": 4,
+    "place": "place-damascus",
+    "polities": [
+      "polity-ottoman"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Sykes-Picot Agreement",
+        "url": "https://www.britannica.com/event/Sykes-Picot-Agreement"
+      },
+      {
+        "title": "J. Barr, A Line in the Sand (2011)"
+      },
+      {
+        "title": "Wikipedia: Sykes–Picot Agreement",
+        "url": "https://en.wikipedia.org/wiki/Sykes%E2%80%93Picot_Agreement"
+      }
+    ],
+    "confidence": "high",
+    "note": "Negotiated in London; plotted at Damascus, at the heart of the territories it divided."
+  },
+  {
+    "id": "ev-arab-revolt",
+    "qid": "Q239060",
+    "type": "war",
+    "year": 1916,
+    "endYear": 1918,
+    "date": "1916-06-10",
+    "name": {
+      "en": "Arab Revolt",
+      "zh": "阿拉伯大起义"
+    },
+    "summary": {
+      "en": "Sharif Husayn ibn Ali of Mecca, encouraged by Britain, launched a revolt against Ottoman rule in the Hejaz. Arab forces led by his son Faisal, aided by British officers including T. E. Lawrence, advanced north via Aqaba and entered Damascus in October 1918.",
+      "zh": "麦加谢里夫侯赛因·本·阿里在英国鼓动下于汉志发动反抗奥斯曼统治的起义。其子费萨尔率领的阿拉伯部队在T. E. 劳伦斯等英国军官协助下经亚喀巴北上，1918年10月进入大马士革。"
+    },
+    "lat": 21.4225,
+    "lon": 39.8261,
+    "region": "west-asia",
+    "importance": 4,
+    "place": "place-mecca",
+    "polities": [
+      "polity-ottoman"
+    ],
+    "route": [
+      {
+        "year": 1916,
+        "lat": 21.4225,
+        "lon": 39.8261,
+        "label": {
+          "en": "Mecca: revolt proclaimed",
+          "zh": "麦加：宣布起义"
+        }
+      },
+      {
+        "year": 1916,
+        "lat": 21.5433,
+        "lon": 39.1728,
+        "label": {
+          "en": "Jeddah taken",
+          "zh": "攻占吉达"
+        }
+      },
+      {
+        "year": 1917,
+        "lat": 26.2286,
+        "lon": 36.4664,
+        "label": {
+          "en": "Wejh",
+          "zh": "沃季赫"
+        }
+      },
+      {
+        "year": 1917,
+        "lat": 29.5267,
+        "lon": 35.0078,
+        "label": {
+          "en": "Aqaba taken",
+          "zh": "攻占亚喀巴"
+        }
+      },
+      {
+        "year": 1918,
+        "lat": 30.8375,
+        "lon": 35.6044,
+        "label": {
+          "en": "Tafilah",
+          "zh": "塔菲拉"
+        }
+      },
+      {
+        "year": 1918,
+        "lat": 32.6189,
+        "lon": 36.1021,
+        "label": {
+          "en": "Deraa",
+          "zh": "德拉"
+        }
+      },
+      {
+        "year": 1918,
+        "lat": 33.5131,
+        "lon": 36.2919,
+        "label": {
+          "en": "Damascus entered",
+          "zh": "进入大马士革"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "E. Rogan, The Fall of the Ottomans (2015)"
+      },
+      {
+        "title": "T. E. Lawrence, Seven Pillars of Wisdom (1926)"
+      },
+      {
+        "title": "Wikipedia: Arab Revolt",
+        "url": "https://en.wikipedia.org/wiki/Arab_Revolt"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-republic-of-turkey",
+    "qid": "Q31187690",
+    "type": "founding",
+    "year": 1923,
+    "date": "1923-10-29",
+    "name": {
+      "en": "Proclamation of the Republic of Turkey",
+      "zh": "土耳其共和国成立"
+    },
+    "summary": {
+      "en": "After victory in the War of Independence and the Treaty of Lausanne, the Grand National Assembly in Ankara proclaimed the Republic of Turkey, with Mustafa Kemal (Atatürk) as its first president. The caliphate was abolished in 1924 and sweeping secularising reforms followed.",
+      "zh": "独立战争胜利和《洛桑条约》签订后，安卡拉的大国民议会宣布成立土耳其共和国，穆斯塔法·凯末尔（阿塔图尔克）任首任总统。1924年哈里发制度被废除，此后推行了全面的世俗化改革。"
+    },
+    "lat": 39.9358,
+    "lon": 32.8387,
+    "region": "west-asia",
+    "importance": 4,
+    "people": [
+      "person-ataturk"
+    ],
+    "place": "place-ankara",
+    "polities": [
+      "polity-turkey",
+      "polity-ottoman"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Turkey",
+        "url": "https://www.britannica.com/place/Turkey"
+      },
+      {
+        "title": "E.-J. Zürcher, Turkey: A Modern History (4th ed., 2017)"
+      },
+      {
+        "title": "Wikipedia: Proclamation of the Republic of Turkey",
+        "url": "https://en.wikipedia.org/wiki/Proclamation_of_the_Republic_of_Turkey"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-saudi-arabia-1932",
+    "qid": "Q251600",
+    "type": "founding",
+    "year": 1932,
+    "date": "1932-09-23",
+    "name": {
+      "en": "Kingdom of Saudi Arabia proclaimed",
+      "zh": "沙特阿拉伯王国成立"
+    },
+    "summary": {
+      "en": "Abdulaziz ibn Saud, who had retaken Riyadh in 1902 and conquered the Hejaz in 1924–25, united his domains as the Kingdom of Saudi Arabia. The discovery of commercial oil in 1938 later turned it into a leading petroleum producer.",
+      "zh": "1902年收复利雅得、1924—1925年征服汉志的阿卜杜勒-阿齐兹·伊本·沙特，将其领地合并为沙特阿拉伯王国。1938年发现商业石油后，王国逐渐成为主要产油国。"
+    },
+    "lat": 24.6333,
+    "lon": 46.7167,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-saudi-arabia"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Saudi Arabia",
+        "url": "https://www.britannica.com/place/Saudi-Arabia"
+      },
+      {
+        "title": "M. al-Rasheed, A History of Saudi Arabia (2nd ed., 2010)"
+      },
+      {
+        "title": "Wikipedia: Unification of Saudi Arabia",
+        "url": "https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata dates the unification process 1902–1932; placed here at the proclamation of the kingdom, 23 September 1932."
+  },
+  {
+    "id": "ev-dead-sea-scrolls",
+    "qid": "Q145780",
+    "type": "cultural",
+    "year": 1947,
+    "name": {
+      "en": "Discovery of the Dead Sea Scrolls",
+      "zh": "死海古卷的发现"
+    },
+    "summary": {
+      "en": "Bedouin shepherds found ancient manuscripts in a cave near Qumran by the Dead Sea; by 1956 eleven caves had yielded fragments of hundreds of scrolls. Dating from about the 3rd century BCE to the 1st century CE, they include the oldest known manuscripts of the Hebrew Bible.",
+      "zh": "贝都因牧人在死海岸边库姆兰附近的山洞中发现古代手稿；到1956年，十一个洞穴共出土数百部古卷的残片。这些文献约成于公元前3世纪至公元1世纪，包括已知最古老的希伯来圣经抄本。"
+    },
+    "lat": 31.7408,
+    "lon": 35.4586,
+    "region": "west-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Dead Sea Scrolls",
+        "url": "https://www.britannica.com/topic/Dead-Sea-Scrolls"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Dead Sea Scrolls",
+        "url": "https://www.iranicaonline.org/articles/dead-sea-scrolls"
+      },
+      {
+        "title": "Wikipedia: Dead Sea Scrolls",
+        "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The first cave was found in late 1946 or early 1947."
+  },
+  {
+    "id": "ev-israel-independence",
+    "qid": "Q25487937",
+    "type": "founding",
+    "year": 1948,
+    "date": "1948-05-14",
+    "name": {
+      "en": "Declaration of the State of Israel",
+      "zh": "以色列宣布建国"
+    },
+    "summary": {
+      "en": "As the British Mandate ended, David Ben-Gurion proclaimed the State of Israel in Tel Aviv. Neighbouring Arab states intervened the next day; during the 1947–1949 war more than 700,000 Palestinians fled or were expelled, an event Palestinians call the Nakba (\"catastrophe\").",
+      "zh": "英国委任统治结束之际，戴维·本-古里安在特拉维夫宣布以色列建国。次日周边阿拉伯国家出兵；在1947—1949年战争中，七十多万巴勒斯坦人逃离或被驱逐，巴勒斯坦人称之为“纳克巴”（浩劫）。"
+    },
+    "lat": 32.0627,
+    "lon": 34.7709,
+    "region": "west-asia",
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Israel",
+        "url": "https://www.britannica.com/place/Israel"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Arab-Israeli wars",
+        "url": "https://www.britannica.com/event/Arab-Israeli-wars"
+      },
+      {
+        "title": "B. Morris, 1948: A History of the First Arab–Israeli War (2008)"
+      },
+      {
+        "title": "Wikipedia: Israeli Declaration of Independence",
+        "url": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-opec",
+    "qid": "Q7795",
+    "type": "founding",
+    "year": 1960,
+    "date": "1960-09-14",
+    "name": {
+      "en": "OPEC founded in Baghdad",
+      "zh": "石油输出国组织在巴格达成立"
+    },
+    "summary": {
+      "en": "At a conference in Baghdad, Iran, Iraq, Kuwait, Saudi Arabia and Venezuela founded the Organization of the Petroleum Exporting Countries to coordinate oil policy. Its power over prices peaked during the oil shocks of the 1970s.",
+      "zh": "伊朗、伊拉克、科威特、沙特阿拉伯和委内瑞拉在巴格达会议上成立石油输出国组织，以协调石油政策。其对油价的影响力在1970年代的石油危机中达到顶峰。"
+    },
+    "lat": 33.3153,
+    "lon": 44.3661,
+    "region": "west-asia",
+    "importance": 3,
+    "place": "place-baghdad",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: OPEC",
+        "url": "https://www.britannica.com/topic/OPEC"
+      },
+      {
+        "title": "D. Yergin, The Prize (1991)"
+      },
+      {
+        "title": "Wikipedia: OPEC",
+        "url": "https://en.wikipedia.org/wiki/OPEC"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-1953-coup",
+    "qid": "Q593774",
+    "type": "political",
+    "year": 1953,
+    "date": "1953-08-19",
+    "name": {
+      "en": "1953 Iranian coup d'état",
+      "zh": "1953年伊朗政变"
+    },
+    "summary": {
+      "en": "Iranian army officers and royalists, organised with the help of the US CIA and British intelligence, overthrew Prime Minister Mohammad Mosaddegh, who had nationalised the Anglo-Iranian Oil Company. The coup restored the power of Mohammad Reza Shah and left lasting distrust of the West in Iran.",
+      "zh": "在美国中央情报局和英国情报机构协助策划下，伊朗军官和保皇派推翻了将英伊石油公司国有化的首相穆罕默德·摩萨台。政变恢复了穆罕默德-礼萨·沙的权力，并在伊朗留下对西方的长期不信任。"
+    },
+    "lat": 35.6889,
+    "lon": 51.3897,
+    "region": "west-asia",
+    "importance": 3,
+    "place": "place-tehran",
+    "polities": [
+      "polity-pahlavi"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: 1953 coup in Iran",
+        "url": "https://www.britannica.com/event/1953-coup-in-Iran"
+      },
+      {
+        "title": "Encyclopaedia Iranica: Coup d'etat of 1332 Š./1953",
+        "url": "https://www.iranicaonline.org/articles/coup-detat-1953"
+      },
+      {
+        "title": "Wikipedia: 1953 Iranian coup d'état",
+        "url": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d'%C3%A9tat"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-iranian-revolution",
+    "qid": "Q126065",
+    "type": "political",
+    "year": 1978,
+    "endYear": 1979,
+    "name": {
+      "en": "Iranian Revolution",
+      "zh": "伊朗伊斯兰革命"
+    },
+    "summary": {
+      "en": "Mass protests against Mohammad Reza Shah, uniting clerics, leftists, liberals and bazaar merchants, led to the Shah's departure and Ayatollah Ruhollah Khomeini's return in February 1979. A referendum then created the Islamic Republic of Iran, led by a clerical Supreme Leader.",
+      "zh": "宗教人士、左翼、自由派和巴扎商人共同参与的反对穆罕默德-礼萨·沙的群众运动，迫使国王出走，阿亚图拉鲁霍拉·霍梅尼于1979年2月回国。随后经公民投票建立伊朗伊斯兰共和国，由宗教领袖担任最高领袖。"
+    },
+    "lat": 35.6889,
+    "lon": 51.3897,
+    "region": "west-asia",
+    "importance": 5,
+    "place": "place-tehran",
+    "polities": [
+      "polity-pahlavi",
+      "polity-islamic-republic-of-iran"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Iranian Revolution of 1978–79",
+        "url": "https://www.britannica.com/event/Iranian-Revolution-of-1978-1979"
+      },
+      {
+        "title": "E. Abrahamian, A History of Modern Iran (2008)"
+      },
+      {
+        "title": "Wikipedia: Iranian Revolution",
+        "url": "https://en.wikipedia.org/wiki/Iranian_Revolution"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-iran-iraq-war",
+    "qid": "Q82664",
+    "type": "war",
+    "year": 1980,
+    "endYear": 1988,
+    "date": "1980-09-22",
+    "name": {
+      "en": "Iran–Iraq War",
+      "zh": "两伊战争"
+    },
+    "summary": {
+      "en": "Saddam Hussein's Iraq invaded Iran, hoping to exploit revolutionary turmoil and control the Shatt al-Arab. The war became a costly stalemate with trench warfare, attacks on cities and Iraqi use of chemical weapons; a UN-brokered ceasefire in 1988 left the borders unchanged.",
+      "zh": "萨达姆·侯赛因统治的伊拉克企图利用伊朗革命后的动荡控制阿拉伯河而入侵伊朗。战争陷入代价高昂的僵局，伴随堑壕战、对城市的袭击和伊拉克使用化学武器；1988年联合国斡旋停火，边界未变。"
+    },
+    "lat": 30.4397,
+    "lon": 48.1664,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-islamic-republic-of-iran"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Iran-Iraq War",
+        "url": "https://www.britannica.com/event/Iran-Iraq-War"
+      },
+      {
+        "title": "P. Razoux, The Iran–Iraq War (2015)"
+      },
+      {
+        "title": "Wikipedia: Iran–Iraq War",
+        "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War"
+      }
+    ],
+    "confidence": "high",
+    "note": "Plotted at Khorramshahr on the Shatt al-Arab front."
+  },
+  {
+    "id": "ev-gulf-war",
+    "qid": "Q37643",
+    "type": "war",
+    "year": 1990,
+    "endYear": 1991,
+    "date": "1990-08-02",
+    "name": {
+      "en": "Gulf War",
+      "zh": "海湾战争"
+    },
+    "summary": {
+      "en": "Iraq invaded and annexed Kuwait in August 1990. With UN authorisation, a US-led coalition of some 42 countries began an air campaign in January 1991, and a ground offensive liberated Kuwait by 28 February.",
+      "zh": "1990年8月伊拉克入侵并吞并科威特。经联合国授权，美国领导的约42国联军于1991年1月展开空袭，随后的地面攻势于2月28日前解放科威特。"
+    },
+    "lat": 29.3759,
+    "lon": 47.9774,
+    "region": "west-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Persian Gulf War",
+        "url": "https://www.britannica.com/event/Persian-Gulf-War"
+      },
+      {
+        "title": "L. Freedman & E. Karsh, The Gulf Conflict 1990–1991 (1993)"
+      },
+      {
+        "title": "Wikipedia: Gulf War",
+        "url": "https://en.wikipedia.org/wiki/Gulf_War"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-iraq-war",
+    "qid": "Q545449",
+    "type": "war",
+    "year": 2003,
+    "endYear": 2011,
+    "date": "2003-03-20",
+    "name": {
+      "en": "Iraq War",
+      "zh": "伊拉克战争"
+    },
+    "summary": {
+      "en": "A US-led coalition invaded Iraq and overthrew Saddam Hussein's government, citing weapons of mass destruction that were never found. The occupation was followed by insurgency and sectarian conflict; US forces withdrew in December 2011.",
+      "zh": "美国领导的联军以伊拉克拥有大规模杀伤性武器为由（后证实并未发现）入侵伊拉克，推翻萨达姆·侯赛因政权。占领期间叛乱和教派冲突不断，美军于2011年12月撤出。"
+    },
+    "lat": 33.3153,
+    "lon": 44.3661,
+    "region": "west-asia",
+    "importance": 4,
+    "place": "place-baghdad",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Iraq War",
+        "url": "https://www.britannica.com/event/Iraq-War"
+      },
+      {
+        "title": "T. E. Ricks, Fiasco: The American Military Adventure in Iraq (2006)"
+      },
+      {
+        "title": "Wikipedia: Iraq War",
+        "url": "https://en.wikipedia.org/wiki/Iraq_War"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-syrian-civil-war",
+    "qid": "Q178810",
+    "type": "war",
+    "year": 2011,
+    "endYear": 2024,
+    "date": "2011-03-15",
+    "name": {
+      "en": "Syrian civil war",
+      "zh": "叙利亚内战"
+    },
+    "summary": {
+      "en": "Peaceful protests against Bashar al-Assad in 2011 were met with force and escalated into a multi-sided war involving regional and world powers and the Islamic State group. Hundreds of thousands were killed and millions displaced before rebel forces toppled Assad in December 2024.",
+      "zh": "2011年反对巴沙尔·阿萨德的和平抗议遭到武力镇压，演变为地区和世界大国及“伊斯兰国”组织卷入的多方战争。数十万人死亡、数百万人流离失所，直至2024年12月反对派武装推翻阿萨德政权。"
+    },
+    "lat": 35,
+    "lon": 38,
+    "region": "west-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Syrian Civil War",
+        "url": "https://www.britannica.com/event/Syrian-Civil-War"
+      },
+      {
+        "title": "C. Phillips, The Battle for Syria (2016)"
+      },
+      {
+        "title": "Wikipedia: Syrian civil war",
+        "url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
+      }
+    ],
+    "confidence": "high",
+    "note": "Point is a generic location in central Syria; the conflict was country-wide."
+  },
+  {
+    "id": "ev-2023-earthquake",
+    "qid": "Q116691303",
+    "type": "disaster",
+    "year": 2023,
+    "date": "2023-02-06",
+    "name": {
+      "en": "2023 Turkey–Syria earthquakes",
+      "zh": "2023年土耳其-叙利亚地震"
+    },
+    "summary": {
+      "en": "Two earthquakes of magnitude 7.8 and 7.5 struck south-eastern Turkey and north-western Syria on 6 February 2023, killing more than 50,000 people. Antakya and other historic cities were devastated.",
+      "zh": "2023年2月6日，7.8级和7.5级两次地震袭击土耳其东南部和叙利亚西北部，造成五万多人死亡，安塔基亚等历史名城遭到严重破坏。"
+    },
+    "lat": 37.174,
+    "lon": 37.032,
+    "region": "west-asia",
+    "importance": 3,
+    "place": "place-antakya",
+    "sources": [
+      {
+        "title": "USGS: M 7.8 Pazarcık, Kahramanmaraş earthquake sequence, 6 February 2023"
+      },
+      {
+        "title": "Wikipedia: 2023 Turkey–Syria earthquakes",
+        "url": "https://en.wikipedia.org/wiki/2023_Turkey%E2%80%93Syria_earthquakes"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-al-jabr",
+    "qid": "Q8369",
+    "type": "science",
+    "year": 820,
+    "name": {
+      "en": "al-Khwarizmi's book on al-jabr",
+      "zh": "花剌子密著《还原与对消计算概要》"
+    },
+    "summary": {
+      "en": "In Baghdad al-Khwarizmi wrote a handbook for solving linear and quadratic equations by 'restoring' (al-jabr) and 'balancing', with geometric proofs and practical problems of inheritance and trade. Its title gave algebra its name, and 12th-century Latin translations spread the method in Europe.",
+      "zh": "花剌子密在巴格达撰写了一部以“还原”（al-jabr）与“对消”求解一次和二次方程的手册，附有几何证明以及遗产分配和商贸等实际问题。书名成为“代数”一词的来源，12世纪的拉丁文译本将这一方法传入欧洲。"
+    },
+    "lat": 33.3153,
+    "lon": 44.3661,
+    "region": "west-asia",
+    "importance": 5,
+    "people": [
+      "person-al-khwarizmi"
+    ],
+    "place": "place-baghdad",
+    "polities": [
+      "polity-abbasid"
+    ],
+    "sources": [
+      {
+        "title": "MacTutor History of Mathematics: Abu Ja'far Muhammad ibn Musa Al-Khwarizmi",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/"
+      },
+      {
+        "title": "Britannica: The Book of Restoring and Balancing",
+        "url": "https://www.britannica.com/topic/Book-of-Restoring-and-Balancing"
+      },
+      {
+        "title": "Britannica: al-Khwarizmi",
+        "url": "https://www.britannica.com/biography/al-Khwarizmi"
+      },
+      {
+        "title": "Wikipedia: Al-Jabr",
+        "url": "https://en.wikipedia.org/wiki/Al-Jabr"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Written under al-Ma'mun (r. 813–833), to whom it is dedicated; c. 820 is a conventional date."
+  },
+  {
+    "id": "ev-babylonian-talmud",
+    "qid": "Q2747862",
+    "type": "religious",
+    "year": 500,
+    "name": {
+      "en": "Babylonian Talmud compiled",
+      "zh": "《巴比伦塔木德》编成"
+    },
+    "summary": {
+      "en": "Generations of rabbis at the academies of Sura and Pumbedita in Sasanian Mesopotamia debated and expanded the Mishnah; their discussions were redacted into the Babylonian Talmud around 500. It became the central text of rabbinic Judaism, studied and commented on ever since.",
+      "zh": "在萨珊波斯治下美索不达米亚的苏拉和蓬贝迪塔经学院，历代拉比对《密西拿》展开辩论和阐发；这些讨论约在500年前后被编订为《巴比伦塔木德》，成为拉比犹太教的核心经典，此后一直被研习和注释。"
+    },
+    "lat": 31.8667,
+    "lon": 44.45,
+    "region": "west-asia",
+    "importance": 4,
+    "polities": [
+      "polity-sasanian"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Bavli (Babylonian Talmud)",
+        "url": "https://www.britannica.com/topic/Bavli"
+      },
+      {
+        "title": "Britannica: Talmud and Midrash",
+        "url": "https://www.britannica.com/topic/Talmud"
+      },
+      {
+        "title": "Wikipedia: Talmud",
+        "url": "https://en.wikipedia.org/wiki/Talmud"
+      },
+      {
+        "title": "Wikipedia: Sura Academy",
+        "url": "https://en.wikipedia.org/wiki/Sura_Academy"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Redaction was gradual (c. 450–550, with later Savoraic editing); 500 is conventional. Marker at Sura."
+  },
+  {
+    "id": "ev-nizamiyya-baghdad",
+    "qid": "Q4703031",
+    "type": "cultural",
+    "year": 1067,
+    "name": {
+      "en": "Nizamiyya madrasa of Baghdad opens",
+      "zh": "巴格达尼扎米亚学院开办"
+    },
+    "summary": {
+      "en": "The Seljuk vizier Nizam al-Mulk founded a network of endowed colleges teaching Shafi'i law and Ash'ari theology. The Baghdad Nizamiyya, opened in 1067, became the most famous, with al-Ghazali among its teachers, and the endowed madrasa spread across the Islamic world.",
+      "zh": "塞尔柱首相尼扎姆·穆尔克创办了一批由宗教基金资助、讲授沙斐仪派法学和艾什尔里派教义的学院。1067年开办的巴格达尼扎米亚学院最为著名，安萨里曾在此任教，这种由基金资助的经学院随后遍及伊斯兰世界。"
+    },
+    "lat": 33.3153,
+    "lon": 44.3661,
+    "region": "west-asia",
+    "importance": 3,
+    "people": [
+      "person-al-ghazali"
+    ],
+    "place": "place-baghdad",
+    "polities": [
+      "polity-great-seljuk",
+      "polity-abbasid"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Nizam al-Mulk",
+        "url": "https://www.britannica.com/biography/Nizam-al-Mulk-Seljuq-vizier"
+      },
+      {
+        "title": "Wikipedia: Nizamiyya of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Nizamiyya_of_Baghdad"
+      },
+      {
+        "title": "Wikipedia: Nizamiyya",
+        "url": "https://en.wikipedia.org/wiki/Nizamiyya"
+      },
+      {
+        "title": "George Makdisi, The Rise of Colleges: Institutions of Learning in Islam and the West (1981)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Founded in 457 AH (1065) and inaugurated in Dhu al-Qa'da 459 AH (September 1067); the record marks the opening."
+  },
+  {
+    "id": "ev-aleppo-earthquake-1138",
+    "qid": "Q733739",
+    "type": "disaster",
+    "year": 1138,
+    "date": "1138-10-11",
+    "name": {
+      "en": "Aleppo earthquake",
+      "zh": "阿勒颇大地震"
+    },
+    "summary": {
+      "en": "A series of strong earthquakes struck northern Syria in October 1138, wrecking the citadel of Aleppo and nearby fortresses such as Harim and Atharib, held by Muslim and Crusader garrisons alike. Chroniclers reported heavy losses; the often-quoted toll of 230,000 rests on a later conflation with other quakes.",
+      "zh": "1138年10月，一系列强烈地震袭击叙利亚北部，阿勒颇城堡及哈里姆、阿塔里卜等分别由穆斯林和十字军驻守的要塞遭到严重破坏。编年史家记载伤亡惨重；常被引用的23万死亡人数源于后世与其他地震的混淆。"
+    },
+    "lat": 36.1994,
+    "lon": 37.163,
+    "region": "west-asia",
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Wikipedia: 1138 Aleppo earthquake",
+        "url": "https://en.wikipedia.org/wiki/1138_Aleppo_earthquake"
+      },
+      {
+        "title": "M. Sbeinati, R. Darawcheh & M. Mouty, \"The historical earthquakes of Syria: an analysis of large and moderate earthquakes from 1365 B.C. to 1900 A.D.\", Annals of Geophysics 48 (2005)",
+        "url": "https://doi.org/10.4401/ag-3206"
+      },
+      {
+        "title": "N. N. Ambraseys, Earthquakes in the Mediterranean and Middle East (2009)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 230,000 figure comes from Ibn Taghribirdi (15th c.) and probably merges this event with the 1137 Jazira and 1139 Ganja earthquakes."
+  },
+  {
+    "id": "ev-hejaz-railway",
+    "qid": "Q924225",
+    "type": "science",
+    "year": 1908,
+    "date": "1908-09-01",
+    "name": {
+      "en": "Hejaz Railway reaches Medina",
+      "zh": "汉志铁路通抵麦地那"
+    },
+    "summary": {
+      "en": "Built by the Ottoman state largely with donations from Muslims worldwide, the narrow-gauge line from Damascus reached Medina in 1908, cutting the pilgrimage journey from weeks to days. Repeatedly attacked during the Arab Revolt of 1916–18, its southern section was never restored.",
+      "zh": "汉志铁路由奥斯曼政府主要依靠世界各地穆斯林的捐款修建，这条窄轨铁路自大马士革南下，1908年通抵麦地那，使朝觐旅程由数周缩短为数日。1916至1918年阿拉伯起义期间屡遭袭击，其南段此后再未恢复。"
+    },
+    "lat": 24.4672,
+    "lon": 39.6024,
+    "region": "west-asia",
+    "importance": 3,
+    "polities": [
+      "polity-ottoman"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Hejaz Railway",
+        "url": "https://www.britannica.com/topic/Hejaz-Railway"
+      },
+      {
+        "title": "Wikipedia: Hejaz railway",
+        "url": "https://en.wikipedia.org/wiki/Hejaz_railway"
+      },
+      {
+        "title": "W. Ochsenwald, The Hijaz Railroad (1980)"
+      }
+    ],
+    "confidence": "high",
+    "note": "The first train reached Medina on 22 August 1908; the line was formally opened on 1 September 1908, the anniversary of Abdulhamid II's accession. Marker at the Medina terminus."
+  }
+]

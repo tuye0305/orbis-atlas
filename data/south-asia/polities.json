@@ -1,0 +1,1536 @@
+[
+  {
+    "id": "polity-kushan",
+    "qid": "Q25979",
+    "name": {
+      "en": "Kushan Empire",
+      "zh": "贵霜帝国"
+    },
+    "region": "south-asia",
+    "from": 30,
+    "to": 375,
+    "capital": {
+      "en": "Purushapura (Peshawar); Mathura",
+      "zh": "布路沙布逻（白沙瓦）；秣菟罗"
+    },
+    "capitalLat": 34.0144,
+    "capitalLon": 71.5675,
+    "summary": {
+      "en": "Founded by Yuezhi clans who had settled in Bactria, the Kushan Empire spanned Central Asia and north India, linked the Silk Road to the Indian Ocean trade and fostered Gandhara and Mathura Buddhist art.",
+      "zh": "贵霜帝国由定居大夏的月氏部落建立，疆域横跨中亚和北印度，连接丝绸之路与印度洋贸易，并孕育了犍陀罗和秣菟罗佛教艺术。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Kujula Kadphises",
+          "zh": "丘就却"
+        },
+        "from": 30,
+        "to": 80,
+        "qid": "Q560157"
+      },
+      {
+        "name": {
+          "en": "Vima Kadphises",
+          "zh": "阎膏珍"
+        },
+        "from": 113,
+        "to": 127,
+        "qid": "Q1275140"
+      },
+      {
+        "name": {
+          "en": "Kanishka",
+          "zh": "迦腻色伽"
+        },
+        "from": 127,
+        "to": 150,
+        "qid": "Q312544"
+      },
+      {
+        "name": {
+          "en": "Huvishka",
+          "zh": "胡维色迦"
+        },
+        "from": 150,
+        "to": 190,
+        "qid": "Q1396420"
+      },
+      {
+        "name": {
+          "en": "Vasudeva I",
+          "zh": "波调（韦苏提婆一世）"
+        },
+        "from": 191,
+        "to": 232,
+        "qid": "Q1282366"
+      }
+    ],
+    "sources": [
+      {
+        "title": "János Harmatta (ed.), History of Civilizations of Central Asia, vol. II (UNESCO, 1994)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Kushan dynasty"
+      },
+      {
+        "title": "Wikidata Q25979",
+        "url": "https://www.wikidata.org/wiki/Q25979"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Kushan regnal dates depend on the debated date of Kanishka’s accession (here c. 127, after Falk 2001)."
+  },
+  {
+    "id": "polity-satavahana",
+    "qid": "Q5257",
+    "name": {
+      "en": "Satavahana dynasty",
+      "zh": "百乘王朝（娑多婆诃王朝）"
+    },
+    "region": "south-asia",
+    "from": -230,
+    "to": 220,
+    "capital": {
+      "en": "Pratishthana (Paithan); Amaravati",
+      "zh": "普拉蒂什塔纳（派坦）；阿默拉沃蒂"
+    },
+    "capitalLat": 19.48,
+    "capitalLon": 75.38,
+    "summary": {
+      "en": "The Satavahanas ruled the Deccan from Pratishthana and later the Krishna delta, issuing bilingual coins, patronising Buddhist sites such as Amaravati and Karla and contesting western India with the Shaka Kshatrapas.",
+      "zh": "百乘王朝以普拉蒂什塔纳为中心统治德干，后期重心移至克里希纳河三角洲；他们发行双语钱币，护持阿默拉沃蒂、卡尔拉等佛教圣地，并与塞种西部总督争夺西印度。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Simuka",
+          "zh": "西穆卡"
+        },
+        "from": -230,
+        "to": -207,
+        "qid": "Q1568644"
+      },
+      {
+        "name": {
+          "en": "Gautamiputra Satakarni",
+          "zh": "乔达弥子·娑多迦尼"
+        },
+        "from": 106,
+        "to": 130,
+        "qid": "Q1276014"
+      },
+      {
+        "name": {
+          "en": "Vasishthiputra Pulumavi",
+          "zh": "婆悉须弥子·补卢摩维"
+        },
+        "from": 130,
+        "to": 158,
+        "qid": "Q7916834"
+      },
+      {
+        "name": {
+          "en": "Yajna Sri Satakarni",
+          "zh": "耶若·室利·娑多迦尼"
+        },
+        "from": 170,
+        "to": 199,
+        "qid": "Q3764500"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Upinder Singh, A History of Ancient and Early Medieval India (2008)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Satavahana dynasty"
+      },
+      {
+        "title": "Wikidata Q5257",
+        "url": "https://www.wikidata.org/wiki/Q5257"
+      }
+    ],
+    "confidence": "low",
+    "note": "The “long chronology” (from c. 230 BCE, used by Wikidata) competes with a short one starting in the 1st century BCE; early reign dates are very uncertain."
+  },
+  {
+    "id": "polity-gupta",
+    "qid": "Q11774",
+    "name": {
+      "en": "Gupta Empire",
+      "zh": "笈多王朝"
+    },
+    "region": "south-asia",
+    "from": 320,
+    "to": 550,
+    "capital": {
+      "en": "Pataliputra",
+      "zh": "华氏城"
+    },
+    "capitalLat": 25.61,
+    "capitalLon": 85.14,
+    "summary": {
+      "en": "From Pataliputra the Guptas united most of north India; their era is remembered for Sanskrit literature (Kalidasa), mathematics (Aryabhata), temple architecture and Nalanda, before Hun invasions and regional revolts broke the empire.",
+      "zh": "笈多王朝以华氏城为中心统一北印度大部，以梵语文学（迦梨陀娑）、数学（阿耶波多）、神庙建筑和那烂陀寺著称，后因嚈哒（白匈奴）入侵和地方叛离而瓦解。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Chandragupta I",
+          "zh": "旃陀罗笈多一世"
+        },
+        "from": 320,
+        "to": 335,
+        "qid": "Q849802"
+      },
+      {
+        "name": {
+          "en": "Samudragupta",
+          "zh": "沙摩陀罗笈多"
+        },
+        "from": 335,
+        "to": 375,
+        "qid": "Q1133363"
+      },
+      {
+        "name": {
+          "en": "Chandragupta II",
+          "zh": "旃陀罗笈多二世"
+        },
+        "from": 375,
+        "to": 415,
+        "qid": "Q844536"
+      },
+      {
+        "name": {
+          "en": "Kumaragupta I",
+          "zh": "鸠摩罗笈多一世"
+        },
+        "from": 415,
+        "to": 455,
+        "qid": "Q470715"
+      },
+      {
+        "name": {
+          "en": "Skandagupta",
+          "zh": "塞建陀笈多"
+        },
+        "from": 455,
+        "to": 467,
+        "qid": "Q1275876"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Upinder Singh, A History of Ancient and Early Medieval India (2008)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Gupta dynasty"
+      },
+      {
+        "title": "Wikidata Q11774",
+        "url": "https://www.wikidata.org/wiki/Q11774"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The end date (c. 550) is conventional; Gupta rulers persisted locally into the late 6th century."
+  },
+  {
+    "id": "polity-pallava",
+    "qid": "Q466803",
+    "name": {
+      "en": "Pallava dynasty",
+      "zh": "帕拉瓦王朝"
+    },
+    "region": "south-asia",
+    "from": 275,
+    "to": 897,
+    "capital": {
+      "en": "Kanchipuram",
+      "zh": "甘吉布勒姆"
+    },
+    "capitalLat": 12.8308,
+    "capitalLon": 79.7078,
+    "summary": {
+      "en": "The Pallavas of Kanchipuram dominated the Tamil north, fought long wars with the Chalukyas of Badami and pioneered Dravidian stone architecture at Mamallapuram before being supplanted by the Cholas.",
+      "zh": "甘吉布勒姆的帕拉瓦王朝称雄泰米尔北部，与巴达米的遮娄其王朝长期交战，并在马马拉普拉姆开创达罗毗荼石构建筑，后被朱罗王朝取代。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Simhavishnu",
+          "zh": "辛哈毗湿奴"
+        },
+        "from": 575,
+        "to": 600,
+        "qid": "Q3537060"
+      },
+      {
+        "name": {
+          "en": "Mahendravarman I",
+          "zh": "摩亨陀罗跋摩一世"
+        },
+        "from": 600,
+        "to": 630,
+        "qid": "Q3537043"
+      },
+      {
+        "name": {
+          "en": "Narasimhavarman I",
+          "zh": "那罗僧诃跋摩一世"
+        },
+        "from": 630,
+        "to": 668,
+        "qid": "Q3537058"
+      },
+      {
+        "name": {
+          "en": "Narasimhavarman II (Rajasimha)",
+          "zh": "那罗僧诃跋摩二世（罗阇僧诃）"
+        },
+        "from": 690,
+        "to": 728,
+        "qid": "Q707745"
+      }
+    ],
+    "sources": [
+      {
+        "title": "K. A. Nilakanta Sastri, A History of South India, 4th ed. (1975)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Pallava dynasty"
+      },
+      {
+        "title": "Wikidata Q466803",
+        "url": "https://www.wikidata.org/wiki/Q466803"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Early Pallava chronology (3rd–6th c.) is poorly known."
+  },
+  {
+    "id": "polity-chalukya",
+    "qid": "Q1395011",
+    "name": {
+      "en": "Chalukya dynasty of Badami",
+      "zh": "巴达米遮娄其王朝"
+    },
+    "region": "south-asia",
+    "from": 543,
+    "to": 753,
+    "capital": {
+      "en": "Vatapi (Badami)",
+      "zh": "伐陀毗（巴达米）"
+    },
+    "capitalLat": 15.9203,
+    "capitalLon": 75.6803,
+    "summary": {
+      "en": "Ruling the western Deccan from Vatapi, the early Chalukyas reached their height under Pulakeshin II, who stopped Harsha on the Narmada; their temples at Aihole, Badami and Pattadakal shaped Deccan architecture.",
+      "zh": "早期遮娄其王朝以伐陀毗为都统治德干西部，在补罗稽舍二世时达到鼎盛，曾于讷尔默达河击退戒日王；其在艾霍莱、巴达米和帕塔达卡尔的神庙深刻影响了德干建筑。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Pulakeshin I",
+          "zh": "补罗稽舍一世"
+        },
+        "from": 543,
+        "to": 566,
+        "qid": "Q7259171"
+      },
+      {
+        "name": {
+          "en": "Pulakeshin II",
+          "zh": "补罗稽舍二世"
+        },
+        "from": 610,
+        "to": 642,
+        "qid": "Q708370"
+      },
+      {
+        "name": {
+          "en": "Vikramaditya II",
+          "zh": "超日王二世"
+        },
+        "from": 733,
+        "to": 744,
+        "qid": "Q5477720"
+      }
+    ],
+    "sources": [
+      {
+        "title": "K. A. Nilakanta Sastri, A History of South India, 4th ed. (1975)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Chalukya dynasty"
+      },
+      {
+        "title": "Wikidata Q1395011",
+        "url": "https://www.wikidata.org/wiki/Q1395011"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-chola",
+    "qid": "Q151148",
+    "name": {
+      "en": "Chola dynasty",
+      "zh": "朱罗王朝"
+    },
+    "region": "south-asia",
+    "from": -300,
+    "to": 1279,
+    "capital": {
+      "en": "Thanjavur; Gangaikonda Cholapuram",
+      "zh": "坦贾武尔；恒伽贡达朱罗补罗"
+    },
+    "capitalLat": 10.7867,
+    "capitalLon": 79.1378,
+    "summary": {
+      "en": "An ancient Tamil lineage revived by Vijayalaya in the 9th century, the Cholas built an empire over south India and Sri Lanka, projected naval power into Southeast Asia and left monumental temples and a rich bronze tradition.",
+      "zh": "朱罗是古老的泰米尔王族，9世纪由维阇耶拉耶复兴，建立起囊括南印度和斯里兰卡的帝国，海上力量远及东南亚，留下宏伟的神庙和精美的青铜造像传统。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Vijayalaya",
+          "zh": "维阇耶拉耶"
+        },
+        "from": 848,
+        "to": 871,
+        "qid": "Q7929271"
+      },
+      {
+        "name": {
+          "en": "Rajaraja I",
+          "zh": "罗阇罗阇一世"
+        },
+        "from": 985,
+        "to": 1014,
+        "qid": "Q2128757"
+      },
+      {
+        "name": {
+          "en": "Rajendra I",
+          "zh": "拉金德拉一世"
+        },
+        "from": 1014,
+        "to": 1044,
+        "qid": "Q211483"
+      },
+      {
+        "name": {
+          "en": "Kulothunga I",
+          "zh": "库洛通加一世"
+        },
+        "from": 1070,
+        "to": 1122,
+        "qid": "Q2119008"
+      }
+    ],
+    "sources": [
+      {
+        "title": "K. A. Nilakanta Sastri, The Cōḻas, 2nd ed. (1955)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Chola dynasty"
+      },
+      {
+        "title": "Wikidata Q151148",
+        "url": "https://www.wikidata.org/wiki/Q151148"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The span follows Wikidata (from the Sangam-age Cholas, c. 300 BCE); the imperial Chola state ran from 848 to 1279."
+  },
+  {
+    "id": "polity-pala",
+    "qid": "Q668412",
+    "name": {
+      "en": "Pala Empire",
+      "zh": "波罗王朝"
+    },
+    "region": "south-asia",
+    "from": 750,
+    "to": 1174,
+    "capital": {
+      "en": "Pataliputra; later Gauda and Monghyr",
+      "zh": "华氏城；后为高达、蒙吉尔"
+    },
+    "capitalLat": 25.61,
+    "capitalLon": 85.14,
+    "summary": {
+      "en": "Elected king by Bengal’s chiefs around 750, Gopala founded a Buddhist dynasty that ruled Bengal and Bihar, patronised Nalanda and founded Vikramashila, and spread Mahayana and Vajrayana Buddhism to Tibet and Southeast Asia.",
+      "zh": "约750年孟加拉诸首领推举瞿波罗为王，其建立的佛教王朝统治孟加拉与比哈尔，护持那烂陀并创建超戒寺，将大乘和金刚乘佛教传播到西藏与东南亚。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Gopala",
+          "zh": "瞿波罗"
+        },
+        "from": 750,
+        "to": 770,
+        "qid": "Q3352284"
+      },
+      {
+        "name": {
+          "en": "Dharmapala",
+          "zh": "达摩波罗"
+        },
+        "from": 770,
+        "to": 810,
+        "qid": "Q3183804"
+      },
+      {
+        "name": {
+          "en": "Devapala",
+          "zh": "提婆波罗"
+        },
+        "from": 810,
+        "to": 850,
+        "qid": "Q15649142"
+      },
+      {
+        "name": {
+          "en": "Mahipala I",
+          "zh": "摩醯波罗一世"
+        },
+        "from": 988,
+        "to": 1038,
+        "qid": "Q16863944"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Upinder Singh, A History of Ancient and Early Medieval India (2008)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Pala dynasty"
+      },
+      {
+        "title": "Wikidata Q668412",
+        "url": "https://www.wikidata.org/wiki/Q668412"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Pala regnal years are approximate."
+  },
+  {
+    "id": "polity-rashtrakuta",
+    "qid": "Q856691",
+    "name": {
+      "en": "Rashtrakuta dynasty",
+      "zh": "罗湿陀罗拘陀王朝"
+    },
+    "region": "south-asia",
+    "from": 753,
+    "to": 982,
+    "capital": {
+      "en": "Manyakheta",
+      "zh": "曼耶凯塔"
+    },
+    "capitalLat": 17.195,
+    "capitalLon": 77.1608,
+    "summary": {
+      "en": "Overthrowing the Chalukyas in 753, the Rashtrakutas made the Deccan a great power that raided Kannauj and the Tamil south; they carved the Kailasa temple at Ellora, and Arab travellers counted their king among the world’s greatest.",
+      "zh": "罗湿陀罗拘陀王朝于753年推翻遮娄其王朝，使德干成为强国，曾北袭曲女城、南侵泰米尔地区；他们开凿了埃洛拉的凯拉萨神庙，阿拉伯旅行者将其国王列为世界最伟大的君主之一。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Dantidurga",
+          "zh": "丹蒂杜尔加"
+        },
+        "from": 735,
+        "to": 756,
+        "qid": "Q3764262"
+      },
+      {
+        "name": {
+          "en": "Govinda III",
+          "zh": "乔宾达三世"
+        },
+        "from": 793,
+        "to": 814,
+        "qid": "Q3634713"
+      },
+      {
+        "name": {
+          "en": "Amoghavarsha I",
+          "zh": "阿慕伽婆沙一世"
+        },
+        "from": 814,
+        "to": 878,
+        "qid": "Q3630862"
+      },
+      {
+        "name": {
+          "en": "Krishna III",
+          "zh": "克里希纳三世"
+        },
+        "from": 939,
+        "to": 967,
+        "qid": "Q3536697"
+      }
+    ],
+    "sources": [
+      {
+        "title": "K. A. Nilakanta Sastri, A History of South India, 4th ed. (1975)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Rashtrakuta dynasty"
+      },
+      {
+        "title": "Wikidata Q856691",
+        "url": "https://www.wikidata.org/wiki/Q856691"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-delhi-sultanate",
+    "qid": "Q229411",
+    "name": {
+      "en": "Delhi Sultanate",
+      "zh": "德里苏丹国"
+    },
+    "region": "south-asia",
+    "from": 1206,
+    "to": 1526,
+    "capital": {
+      "en": "Delhi",
+      "zh": "德里"
+    },
+    "capitalLat": 28.65,
+    "capitalLon": 77.23,
+    "summary": {
+      "en": "Five successive dynasties—Mamluk, Khalji, Tughluq, Sayyid and Lodi—ruled from Delhi, resisting the Mongols and at their height under Muhammad bin Tughluq reaching almost the whole subcontinent, until Babur’s victory at Panipat.",
+      "zh": "马穆鲁克、卡尔吉、图格鲁克、赛义德和洛迪五个王朝相继以德里为都，抵御了蒙古人的进攻，在穆罕默德·本·图格鲁克时疆域几乎覆盖整个次大陆，直至巴布尔在帕尼帕特获胜。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Qutb ud-Din Aibak",
+          "zh": "库特布丁·艾巴克"
+        },
+        "from": 1206,
+        "to": 1210,
+        "qid": "Q311151"
+      },
+      {
+        "name": {
+          "en": "Iltutmish",
+          "zh": "伊勒图特米什"
+        },
+        "from": 1211,
+        "to": 1236,
+        "qid": "Q336312"
+      },
+      {
+        "name": {
+          "en": "Ghiyas ud-Din Balban",
+          "zh": "吉亚斯丁·巴尔班"
+        },
+        "from": 1266,
+        "to": 1287,
+        "qid": "Q374288"
+      },
+      {
+        "name": {
+          "en": "Alauddin Khalji",
+          "zh": "阿拉乌丁·卡尔吉"
+        },
+        "from": 1296,
+        "to": 1316,
+        "qid": "Q335362"
+      },
+      {
+        "name": {
+          "en": "Muhammad bin Tughluq",
+          "zh": "穆罕默德·本·图格鲁克"
+        },
+        "from": 1325,
+        "to": 1351,
+        "qid": "Q381830"
+      },
+      {
+        "name": {
+          "en": "Firuz Shah Tughluq",
+          "zh": "菲鲁兹沙·图格鲁克"
+        },
+        "from": 1351,
+        "to": 1388,
+        "qid": "Q455442"
+      },
+      {
+        "name": {
+          "en": "Ibrahim Lodi",
+          "zh": "易卜拉欣·洛迪"
+        },
+        "from": 1517,
+        "to": 1526,
+        "qid": "Q381754"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Peter Jackson, The Delhi Sultanate: A Political and Military History (1999)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Delhi sultanate"
+      },
+      {
+        "title": "Wikidata Q229411",
+        "url": "https://www.wikidata.org/wiki/Q229411"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-vijayanagara",
+    "qid": "Q167639",
+    "name": {
+      "en": "Vijayanagara Empire",
+      "zh": "毗奢耶那伽罗帝国"
+    },
+    "region": "south-asia",
+    "from": 1336,
+    "to": 1646,
+    "capital": {
+      "en": "Vijayanagara (Hampi)",
+      "zh": "毗奢耶那伽罗（亨比）"
+    },
+    "capitalLat": 15.3345,
+    "capitalLon": 76.4622,
+    "summary": {
+      "en": "Founded by the brothers Harihara and Bukka on the Tungabhadra, Vijayanagara dominated south India for two centuries; its capital at Hampi astonished Persian and Portuguese visitors before the defeat at Talikota in 1565.",
+      "zh": "毗奢耶那伽罗由诃里诃罗与布迦兄弟在栋格珀德拉河畔建立，称雄南印度两百年；其都城亨比曾令波斯与葡萄牙访客惊叹，1565年塔利科塔之败后衰落。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Harihara I",
+          "zh": "诃里诃罗一世"
+        },
+        "from": 1336,
+        "to": 1356,
+        "qid": "Q2726068"
+      },
+      {
+        "name": {
+          "en": "Bukka Raya I",
+          "zh": "布迦一世"
+        },
+        "from": 1356,
+        "to": 1377,
+        "qid": "Q2484694"
+      },
+      {
+        "name": {
+          "en": "Deva Raya II",
+          "zh": "提婆罗耶二世"
+        },
+        "from": 1424,
+        "to": 1446,
+        "qid": "Q2336381"
+      },
+      {
+        "name": {
+          "en": "Krishnadevaraya",
+          "zh": "克里希纳德瓦拉亚"
+        },
+        "from": 1509,
+        "to": 1529,
+        "qid": "Q121235"
+      },
+      {
+        "name": {
+          "en": "Sadashiva Raya (regent Rama Raya)",
+          "zh": "萨达湿婆·罗耶（摄政罗摩·罗阇）"
+        },
+        "from": 1542,
+        "to": 1570,
+        "qid": "Q1452340"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Burton Stein, Vijayanagara (New Cambridge History of India I.2, 1989)"
+      },
+      {
+        "title": "UNESCO World Heritage List: Group of Monuments at Hampi",
+        "url": "https://whc.unesco.org/en/list/241"
+      },
+      {
+        "title": "Wikidata Q167639",
+        "url": "https://www.wikidata.org/wiki/Q167639"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-bahmani",
+    "qid": "Q374521",
+    "name": {
+      "en": "Bahmani Sultanate",
+      "zh": "巴赫曼尼苏丹国"
+    },
+    "region": "south-asia",
+    "from": 1347,
+    "to": 1527,
+    "capital": {
+      "en": "Gulbarga; Bidar (from 1429)",
+      "zh": "古尔伯加；比德尔（1429年起）"
+    },
+    "capitalLat": 17.3333,
+    "capitalLon": 76.8333,
+    "summary": {
+      "en": "Created by a revolt of Deccan nobles against Muhammad bin Tughluq, the Bahmani Sultanate ruled the northern Deccan, fought Vijayanagara and, after the minister Mahmud Gawan’s execution, split into five successor sultanates.",
+      "zh": "巴赫曼尼苏丹国由德干贵族反叛穆罕默德·本·图格鲁克而建立，统治德干北部，与毗奢耶那伽罗长期交战；宰相马哈茂德·加万被处死后分裂为五个继承苏丹国。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Ala-ud-Din Bahman Shah",
+          "zh": "阿拉丁·巴赫曼沙"
+        },
+        "from": 1347,
+        "to": 1358,
+        "qid": "Q2749271"
+      },
+      {
+        "name": {
+          "en": "Taj ud-Din Firuz Shah",
+          "zh": "塔朱丁·菲鲁兹沙"
+        },
+        "from": 1397,
+        "to": 1422,
+        "qid": "Q7676751"
+      },
+      {
+        "name": {
+          "en": "Muhammad Shah III",
+          "zh": "穆罕默德沙三世"
+        },
+        "from": 1463,
+        "to": 1482
+      }
+    ],
+    "sources": [
+      {
+        "title": "Richard M. Eaton, A Social History of the Deccan, 1300–1761 (2005)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Bahmani sultanate"
+      },
+      {
+        "title": "Wikidata Q374521",
+        "url": "https://www.wikidata.org/wiki/Q374521"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-mughal",
+    "qid": "Q33296",
+    "name": {
+      "en": "Mughal Empire",
+      "zh": "莫卧儿帝国"
+    },
+    "region": "south-asia",
+    "from": 1526,
+    "to": 1857,
+    "capital": {
+      "en": "Agra; Fatehpur Sikri; Lahore; Delhi (Shahjahanabad)",
+      "zh": "阿格拉；法塔赫布尔西格里；拉合尔；德里（沙贾汉纳巴德）"
+    },
+    "capitalLat": 28.6562,
+    "capitalLon": 77.241,
+    "summary": {
+      "en": "Founded by the Timurid Babur, the Mughal Empire ruled most of South Asia by 1700, combining Persianate court culture with a vast revenue system; after Aurangzeb it fragmented, and the British deposed the last emperor in 1857.",
+      "zh": "莫卧儿帝国由帖木儿后裔巴布尔创建，至1700年已统治南亚大部，融合波斯化宫廷文化与庞大的税收体系；奥朗则布之后帝国分崩离析，1857年英国废黜末代皇帝。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Babur",
+          "zh": "巴布尔"
+        },
+        "from": 1526,
+        "to": 1530,
+        "qid": "Q797848"
+      },
+      {
+        "name": {
+          "en": "Humayun",
+          "zh": "胡马雍"
+        },
+        "from": 1530,
+        "to": 1556,
+        "qid": "Q486188"
+      },
+      {
+        "name": {
+          "en": "Akbar",
+          "zh": "阿克巴"
+        },
+        "from": 1556,
+        "to": 1605,
+        "qid": "Q8597"
+      },
+      {
+        "name": {
+          "en": "Jahangir",
+          "zh": "贾汉吉尔"
+        },
+        "from": 1605,
+        "to": 1627,
+        "qid": "Q83653"
+      },
+      {
+        "name": {
+          "en": "Shah Jahan",
+          "zh": "沙贾汗"
+        },
+        "from": 1628,
+        "to": 1658,
+        "qid": "Q83672"
+      },
+      {
+        "name": {
+          "en": "Aurangzeb",
+          "zh": "奥朗则布"
+        },
+        "from": 1658,
+        "to": 1707,
+        "qid": "Q485547"
+      },
+      {
+        "name": {
+          "en": "Bahadur Shah II",
+          "zh": "巴哈杜尔·沙二世"
+        },
+        "from": 1837,
+        "to": 1857,
+        "qid": "Q127369"
+      }
+    ],
+    "sources": [
+      {
+        "title": "John F. Richards, The Mughal Empire (New Cambridge History of India I.5, 1993)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Mughal dynasty"
+      },
+      {
+        "title": "Wikidata Q33296",
+        "url": "https://www.wikidata.org/wiki/Q33296"
+      }
+    ],
+    "confidence": "high",
+    "note": "Humayun was in exile 1540–1555 during the Sur interregnum."
+  },
+  {
+    "id": "polity-maratha",
+    "qid": "Q83618",
+    "name": {
+      "en": "Maratha Empire",
+      "zh": "马拉塔帝国"
+    },
+    "region": "south-asia",
+    "from": 1674,
+    "to": 1818,
+    "capital": {
+      "en": "Raigad; Satara; Pune (Peshwas)",
+      "zh": "赖格尔；萨塔拉；浦那（佩什瓦）"
+    },
+    "capitalLat": 18.52,
+    "capitalLon": 73.86,
+    "summary": {
+      "en": "From Shivaji’s hill-fort kingdom the Marathas expanded under the Peshwas into a confederacy dominating much of India in the 18th century; checked at Panipat in 1761, they recovered, but defeat in the Anglo-Maratha wars ended their power in 1818.",
+      "zh": "马拉塔人从希瓦吉的山堡王国起家，在佩什瓦领导下扩张为18世纪称雄印度大部的联盟；1761年帕尼帕特之败使其受挫，此后虽有恢复，但英马战争的失败使其势力于1818年终结。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Shivaji",
+          "zh": "希瓦吉"
+        },
+        "from": 1674,
+        "to": 1680,
+        "qid": "Q239505"
+      },
+      {
+        "name": {
+          "en": "Sambhaji",
+          "zh": "桑巴吉"
+        },
+        "from": 1681,
+        "to": 1689,
+        "qid": "Q2737041"
+      },
+      {
+        "name": {
+          "en": "Shahu I",
+          "zh": "沙胡一世"
+        },
+        "from": 1707,
+        "to": 1749,
+        "qid": "Q3633171"
+      },
+      {
+        "name": {
+          "en": "Baji Rao I (Peshwa)",
+          "zh": "巴吉·拉奥一世（佩什瓦）"
+        },
+        "from": 1720,
+        "to": 1740,
+        "qid": "Q2514706"
+      },
+      {
+        "name": {
+          "en": "Madhavrao I (Peshwa)",
+          "zh": "马达夫拉奥一世（佩什瓦）"
+        },
+        "from": 1761,
+        "to": 1772,
+        "qid": "Q5971343"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stewart Gordon, The Marathas 1600–1818 (New Cambridge History of India II.4, 1993)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Maratha confederacy"
+      },
+      {
+        "title": "Wikidata Q83618",
+        "url": "https://www.wikidata.org/wiki/Q83618"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-mysore",
+    "qid": "Q266923",
+    "name": {
+      "en": "Kingdom of Mysore",
+      "zh": "迈索尔王国"
+    },
+    "region": "south-asia",
+    "from": 1399,
+    "to": 1950,
+    "capital": {
+      "en": "Mysore; Srirangapatna",
+      "zh": "迈索尔；斯里兰加帕特纳"
+    },
+    "capitalLat": 12.4244,
+    "capitalLon": 76.6903,
+    "summary": {
+      "en": "A Wodeyar kingdom that began as a Vijayanagara vassal, Mysore became a major military power under Hyder Ali and Tipu Sultan; after 1799 the restored Wodeyars ruled it as a princely state until it joined India.",
+      "zh": "迈索尔原为毗奢耶那伽罗属下的沃迪亚尔王国，在海德尔·阿里和蒂普苏丹时期成为军事强国；1799年后复辟的沃迪亚尔王室以土邦形式统治，直至并入印度。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Raja Wodeyar I",
+          "zh": "罗阇·沃迪亚尔一世"
+        },
+        "from": 1578,
+        "to": 1617,
+        "qid": "Q15912370"
+      },
+      {
+        "name": {
+          "en": "Hyder Ali",
+          "zh": "海德尔·阿里"
+        },
+        "from": 1761,
+        "to": 1782,
+        "qid": "Q1569078"
+      },
+      {
+        "name": {
+          "en": "Tipu Sultan",
+          "zh": "蒂普苏丹"
+        },
+        "from": 1782,
+        "to": 1799,
+        "qid": "Q10088"
+      },
+      {
+        "name": {
+          "en": "Krishnaraja Wodeyar III",
+          "zh": "克里希纳罗阇·沃迪亚尔三世"
+        },
+        "from": 1799,
+        "to": 1868,
+        "qid": "Q3817019"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kate Brittlebank, Tipu Sultan’s Search for Legitimacy (1997)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Mysore"
+      },
+      {
+        "title": "Wikidata Q266923",
+        "url": "https://www.wikidata.org/wiki/Q266923"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 1399 founding is traditional; the state was integrated into India in 1947–1950."
+  },
+  {
+    "id": "polity-sikh-empire",
+    "qid": "Q83572",
+    "name": {
+      "en": "Sikh Empire",
+      "zh": "锡克帝国"
+    },
+    "region": "south-asia",
+    "from": 1799,
+    "to": 1849,
+    "capital": {
+      "en": "Lahore",
+      "zh": "拉合尔"
+    },
+    "capitalLat": 31.5497,
+    "capitalLon": 74.3436,
+    "summary": {
+      "en": "Ranjit Singh unified the Sikh misls into a Punjab state stretching from the Khyber Pass to Kashmir; after his death succession struggles weakened it, and two wars with the British ended in annexation in 1849.",
+      "zh": "兰吉特·辛格将锡克各米斯尔统一为从开伯尔山口延伸至克什米尔的旁遮普国家；他死后王位之争削弱了国力，与英国的两次战争后于1849年被吞并。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Ranjit Singh",
+          "zh": "兰吉特·辛格"
+        },
+        "from": 1801,
+        "to": 1839,
+        "qid": "Q332620"
+      },
+      {
+        "name": {
+          "en": "Kharak Singh",
+          "zh": "卡拉克·辛格"
+        },
+        "from": 1839,
+        "to": 1840,
+        "qid": "Q6400556"
+      },
+      {
+        "name": {
+          "en": "Sher Singh",
+          "zh": "谢尔·辛格"
+        },
+        "from": 1841,
+        "to": 1843,
+        "qid": "Q7494639"
+      },
+      {
+        "name": {
+          "en": "Duleep Singh",
+          "zh": "杜利普·辛格"
+        },
+        "from": 1843,
+        "to": 1849,
+        "qid": "Q333140"
+      }
+    ],
+    "sources": [
+      {
+        "title": "J. S. Grewal, The Sikhs of the Punjab (New Cambridge History of India II.3, 1990)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Ranjit Singh"
+      },
+      {
+        "title": "Wikidata Q83572",
+        "url": "https://www.wikidata.org/wiki/Q83572"
+      }
+    ],
+    "confidence": "high",
+    "note": "Dated from Ranjit Singh’s capture of Lahore (1799); Wikidata’s inception of 1733 refers to earlier Sikh confederacies."
+  },
+  {
+    "id": "polity-british-raj",
+    "qid": "Q129286",
+    "name": {
+      "en": "British Raj",
+      "zh": "英属印度"
+    },
+    "region": "south-asia",
+    "from": 1858,
+    "to": 1947,
+    "capital": {
+      "en": "Calcutta (to 1911); New Delhi",
+      "zh": "加尔各答（至1911年）；新德里"
+    },
+    "capitalLat": 22.5411,
+    "capitalLon": 88.3378,
+    "summary": {
+      "en": "After the 1857 rebellion the British Crown took over the East India Company’s territories, ruling directly or through some 560 princely states until independence and partition in 1947.",
+      "zh": "1857年起义后英国王室接管东印度公司领地，通过直接统治或约560个土邦进行间接统治，直至1947年印巴独立与分治。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Queen Victoria (Empress of India from 1876)",
+          "zh": "维多利亚女王（1876年起兼印度女皇）"
+        },
+        "from": 1858,
+        "to": 1901,
+        "qid": "Q9439"
+      },
+      {
+        "name": {
+          "en": "Lord Canning (first Viceroy)",
+          "zh": "坎宁勋爵（首任总督）"
+        },
+        "from": 1858,
+        "to": 1862,
+        "qid": "Q335786"
+      },
+      {
+        "name": {
+          "en": "Lord Curzon (Viceroy)",
+          "zh": "寇松勋爵（总督）"
+        },
+        "from": 1899,
+        "to": 1905,
+        "qid": "Q271878"
+      },
+      {
+        "name": {
+          "en": "Lord Mountbatten (last Viceroy)",
+          "zh": "蒙巴顿勋爵（末任总督）"
+        },
+        "from": 1947,
+        "to": 1947,
+        "qid": "Q157068"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Barbara D. Metcalf & Thomas R. Metcalf, A Concise History of Modern India, 3rd ed. (2012)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: British raj"
+      },
+      {
+        "title": "Wikidata Q129286",
+        "url": "https://www.wikidata.org/wiki/Q129286"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-india",
+    "qid": "Q668",
+    "name": {
+      "en": "Republic of India",
+      "zh": "印度共和国"
+    },
+    "region": "south-asia",
+    "from": 1947,
+    "to": 2025,
+    "capital": {
+      "en": "New Delhi",
+      "zh": "新德里"
+    },
+    "capitalLat": 28.6139,
+    "capitalLon": 77.209,
+    "summary": {
+      "en": "Independent in 1947 and a republic from 1950, India is the world’s most populous democracy, a federal union of states organised largely on linguistic lines.",
+      "zh": "印度1947年独立，1950年成为共和国，是世界上人口最多的民主国家，由大体按语言划分的各邦组成联邦。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Jawaharlal Nehru (PM)",
+          "zh": "贾瓦哈拉尔·尼赫鲁（总理）"
+        },
+        "from": 1947,
+        "to": 1964,
+        "qid": "Q1047"
+      },
+      {
+        "name": {
+          "en": "Indira Gandhi (PM)",
+          "zh": "英迪拉·甘地（总理）"
+        },
+        "from": 1966,
+        "to": 1977,
+        "qid": "Q1149"
+      },
+      {
+        "name": {
+          "en": "Atal Bihari Vajpayee (PM)",
+          "zh": "阿塔尔·比哈里·瓦杰帕伊（总理）"
+        },
+        "from": 1998,
+        "to": 2004,
+        "qid": "Q233289"
+      },
+      {
+        "name": {
+          "en": "Manmohan Singh (PM)",
+          "zh": "曼莫汉·辛格（总理）"
+        },
+        "from": 2004,
+        "to": 2014,
+        "qid": "Q41914"
+      },
+      {
+        "name": {
+          "en": "Narendra Modi (PM)",
+          "zh": "纳伦德拉·莫迪（总理）"
+        },
+        "from": 2014,
+        "to": 2025,
+        "qid": "Q1058"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ramachandra Guha, India after Gandhi (2007)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: India"
+      },
+      {
+        "title": "Wikidata Q668",
+        "url": "https://www.wikidata.org/wiki/Q668"
+      }
+    ],
+    "confidence": "high",
+    "note": "“to” is the atlas end year; the state continues. Indira Gandhi also served 1980–1984."
+  },
+  {
+    "id": "polity-pakistan",
+    "qid": "Q843",
+    "name": {
+      "en": "Pakistan",
+      "zh": "巴基斯坦"
+    },
+    "region": "south-asia",
+    "from": 1947,
+    "to": 2025,
+    "capital": {
+      "en": "Karachi (to 1959); Islamabad (from 1967)",
+      "zh": "卡拉奇（至1959年）；伊斯兰堡（1967年起）"
+    },
+    "capitalLat": 33.6938,
+    "capitalLon": 73.0652,
+    "summary": {
+      "en": "Created in 1947 as a homeland for South Asia’s Muslims in two wings, Pakistan lost its eastern wing when Bangladesh became independent in 1971 and has alternated between civilian and military rule.",
+      "zh": "巴基斯坦于1947年作为南亚穆斯林的家园建立，分为东西两翼；1971年东翼独立为孟加拉国，此后国家在文官与军人统治之间交替。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Muhammad Ali Jinnah (Governor-General)",
+          "zh": "穆罕默德·阿里·真纳（总督）"
+        },
+        "from": 1947,
+        "to": 1948,
+        "qid": "Q160554"
+      },
+      {
+        "name": {
+          "en": "Liaquat Ali Khan (PM)",
+          "zh": "利亚卡特·阿里·汗（总理）"
+        },
+        "from": 1947,
+        "to": 1951,
+        "qid": "Q295713"
+      },
+      {
+        "name": {
+          "en": "Ayub Khan (President)",
+          "zh": "阿尤布·汗（总统）"
+        },
+        "from": 1958,
+        "to": 1969,
+        "qid": "Q190071"
+      },
+      {
+        "name": {
+          "en": "Zulfikar Ali Bhutto",
+          "zh": "佐勒菲卡尔·阿里·布托"
+        },
+        "from": 1971,
+        "to": 1977,
+        "qid": "Q131355"
+      },
+      {
+        "name": {
+          "en": "Muhammad Zia-ul-Haq (President)",
+          "zh": "齐亚·哈克（总统）"
+        },
+        "from": 1977,
+        "to": 1988,
+        "qid": "Q200499"
+      },
+      {
+        "name": {
+          "en": "Benazir Bhutto (PM)",
+          "zh": "贝娜齐尔·布托（总理）"
+        },
+        "from": 1988,
+        "to": 1990,
+        "qid": "Q34413"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ian Talbot, Pakistan: A New History (2012)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Pakistan"
+      },
+      {
+        "title": "Wikidata Q843",
+        "url": "https://www.wikidata.org/wiki/Q843"
+      }
+    ],
+    "confidence": "high",
+    "note": "“to” is the atlas end year; the state continues."
+  },
+  {
+    "id": "polity-bangladesh",
+    "qid": "Q902",
+    "name": {
+      "en": "Bangladesh",
+      "zh": "孟加拉国"
+    },
+    "region": "south-asia",
+    "from": 1971,
+    "to": 2025,
+    "capital": {
+      "en": "Dhaka",
+      "zh": "达卡"
+    },
+    "capitalLat": 23.7289,
+    "capitalLon": 90.3944,
+    "summary": {
+      "en": "Formerly East Pakistan, Bangladesh declared independence on 26 March 1971 and won it after a nine-month war; it is one of the world’s most densely populated countries.",
+      "zh": "孟加拉国原为东巴基斯坦，1971年3月26日宣布独立，经九个月战争取得独立，是世界上人口最稠密的国家之一。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Sheikh Mujibur Rahman",
+          "zh": "谢赫·穆吉布·拉赫曼"
+        },
+        "from": 1971,
+        "to": 1975,
+        "qid": "Q191375"
+      },
+      {
+        "name": {
+          "en": "Ziaur Rahman (President)",
+          "zh": "齐亚·拉赫曼（总统）"
+        },
+        "from": 1977,
+        "to": 1981,
+        "qid": "Q198313"
+      },
+      {
+        "name": {
+          "en": "Sheikh Hasina (PM)",
+          "zh": "谢赫·哈西娜（总理）"
+        },
+        "from": 2009,
+        "to": 2024,
+        "qid": "Q52183"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Willem van Schendel, A History of Bangladesh (2009)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Bangladesh"
+      },
+      {
+        "title": "Wikidata Q902",
+        "url": "https://www.wikidata.org/wiki/Q902"
+      }
+    ],
+    "confidence": "high",
+    "note": "“to” is the atlas end year; the state continues. Sheikh Hasina also served 1996–2001."
+  },
+  {
+    "id": "polity-sri-lanka",
+    "qid": "Q854",
+    "name": {
+      "en": "Sri Lanka (Ceylon)",
+      "zh": "斯里兰卡（锡兰）"
+    },
+    "region": "south-asia",
+    "from": 1948,
+    "to": 2025,
+    "capital": {
+      "en": "Colombo; Sri Jayawardenepura Kotte (from 1982)",
+      "zh": "科伦坡；斯里贾亚瓦德纳普拉科特（1982年起）"
+    },
+    "capitalLat": 6.9267,
+    "capitalLon": 79.8606,
+    "summary": {
+      "en": "Independent as the Dominion of Ceylon in 1948, the island became the Republic of Sri Lanka in 1972; its politics were long shaped by Sinhala–Tamil tensions and the civil war of 1983–2009.",
+      "zh": "该岛于1948年以锡兰自治领身份独立，1972年成为斯里兰卡共和国；其政治长期受僧伽罗人与泰米尔人之间的矛盾以及1983—2009年内战影响。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "D. S. Senanayake (PM)",
+          "zh": "D·S·森那那亚克（总理）"
+        },
+        "from": 1948,
+        "to": 1952,
+        "qid": "Q663001"
+      },
+      {
+        "name": {
+          "en": "Sirimavo Bandaranaike (PM)",
+          "zh": "西丽玛沃·班达拉奈克（总理）"
+        },
+        "from": 1960,
+        "to": 1965,
+        "qid": "Q194291"
+      },
+      {
+        "name": {
+          "en": "J. R. Jayewardene (President)",
+          "zh": "J·R·贾亚瓦德纳（总统）"
+        },
+        "from": 1978,
+        "to": 1989,
+        "qid": "Q469661"
+      }
+    ],
+    "sources": [
+      {
+        "title": "K. M. de Silva, A History of Sri Lanka, rev. ed. (2005)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Sri Lanka"
+      },
+      {
+        "title": "Wikidata Q854",
+        "url": "https://www.wikidata.org/wiki/Q854"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata’s Q854 starts in 1972 (republic); 1948–1972 is the Dominion of Ceylon (Q2670092). “to” is the atlas end year."
+  }
+]
