@@ -222,6 +222,13 @@ kbd {
 .music-btn.on .eq { display: flex; }
 .note-icon { flex: none; }
 .music-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* Top-bar squeeze (≈1280–1500 px): the music label gives way first (ellipsis), never the brand or
+   the small buttons, so the brand no longer slides under the search box and 中文 never wraps. */
+.topbar .brand { flex-shrink: 0; }
+.topbar .controls { min-width: 0; }
+.topbar .controls > * { flex-shrink: 0; }
+.topbar .controls > .music-btn { flex-shrink: 1; min-width: 0; max-width: clamp(130px, 15vw, 260px); }
+.icon-btn { white-space: nowrap; }
 .eq { display: flex; align-items: flex-end; gap: 2px; height: 12px; }
 .eq i { width: 2px; height: 3px; background: currentColor; border-radius: 1px; }
 .music-btn.on .eq i { animation: eq 0.9s ease-in-out infinite; }

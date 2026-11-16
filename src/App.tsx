@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import type { MusicEngine } from './audio/MusicEngine';
+import type { TrackPlayer } from './audio/TrackPlayer';
 import type { GlobeEngine } from './globe/GlobeEngine';
 import { s } from './i18n';
 import { REGION_BY_KEY } from './regions';
@@ -22,11 +23,20 @@ const globeModule = import('./globe/GlobeEngine');
 const loadAbout = () => import('./ui/About');
 const About = lazy(loadAbout);
 
-// The music engine is only needed once someone turns music on. It is fetched in the background
-// after the globe is up, so that enabling music still happens inside the click (autoplay rules).
-let music: MusicEngine | null = null;
-let musicLoading: Promise<MusicEngine> | null = null;
-const loadMusic = () => (musicLoading ??= import('./audio/MusicEngine').then((m) => (music = new m.MusicEngine())));
+// Music is only needed once someone turns it on. The player is fetched in the background after the
+// globe is up, so that enabling music still happens inside the click (autoplay rules). It plays the
+// recorded per-region tracks in public/music (scripts/gen-music.mjs); the procedural MusicEngine is
+// only a fallback for builds that have no tracks.
+type Music = Pick<MusicEngine, 'setEnabled' | 'setRegion'>;
+let music: Music | null = null;
+let musicLoading: Promise<Music> | null = null;
+const loadMusic = () =>
+  (musicLoading ??= import('./audio/TrackPlayer').then(async ({ TrackPlayer, loadManifest }) => {
+    const manifest = await loadManifest();
+    if (manifest) return (music = new TrackPlayer(manifest));
+    const { MusicEngine } = await import('./audio/MusicEngine');
+    return (music = new MusicEngine());
+  }));
 
 /** GSAP fly-to duration: an instant cut when the user asked for reduced motion, else the engine default. */
 const flyDuration = () => (prefersReducedMotion() ? 0.01 : undefined);
@@ -223,6 +233,12 @@ export default function App() {
     const reduced = prefersReducedMotion();
     if (reduced) engine.current?.flyTo(36, 40, 2.1, 0.01);
     else engine.current?.intro();
+    // Start the music once the intro has landed, not on each region the swing passes over.
+    const { selection: deepLink } = useStore.getState();
+    // Intro flight 3.2 s + region tracking settle (~0.6 s) + margin; deep links fly on afterwards.
+    const settleMs = reduced ? 900 : deepLink ? 6200 : 4600;
+    if (music && 'holdFor' in music) (music as TrackPlayer).holdFor(settleMs);
+    else musicLoading?.then((m) => 'holdFor' in m && (m as TrackPlayer).holdFor(settleMs));
     if (withMusic) useStore.getState().set({ musicOn: true });
     // Warm the lazily-loaded About dialog so “?” opens without a network round trip.
     void loadAbout();

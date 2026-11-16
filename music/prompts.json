@@ -1,0 +1,50 @@
+{
+  "_doc": "Suno prompts for the per-region soundtrack. Edit a style and re-run `node scripts/gen-music.mjs --only <region>`. All tracks are instrumental, calm and loopable, so they sit under the map instead of competing with it.",
+  "defaults": {
+    "duration": 180,
+    "negativeTags": "vocals, singing, lyrics, choir words, rap, spoken word, EDM, dubstep, trap beat, heavy drums, distorted guitar, harsh, aggressive, lo-fi hiss",
+    "styleSuffix": "instrumental, no vocals, cinematic ambient underscore for a historical atlas, calm and spacious, slow tempo, warm natural reverb, gentle dynamics, seamless loop, high fidelity"
+  },
+  "regions": {
+    "europe": {
+      "title": "Orbis · Europe",
+      "label": { "en": "Lute, viol & organ", "zh": "鲁特琴、古提琴与管风琴" },
+      "style": "medieval and renaissance European chamber music, lute, recorder, viola da gamba, soft pipe organ pad, Dorian mode, contemplative, candlelit cathedral"
+    },
+    "africa": {
+      "title": "Orbis · Africa",
+      "label": { "en": "Kora & balafon", "zh": "科拉琴与巴拉丰木琴" },
+      "style": "West African kora and balafon, soft hand percussion and shaker, Sahel desert guitar, flowing interlocking patterns, warm, hopeful, golden savanna"
+    },
+    "west-asia": {
+      "title": "Orbis · West Asia",
+      "label": { "en": "Oud, ney & qanun", "zh": "乌德琴、奈伊笛与卡侬琴" },
+      "style": "Middle Eastern classical, oud, ney flute, qanun, soft daf frame drum, maqam hijaz, slow taqsim opening into a gentle rhythm, mysterious, desert night"
+    },
+    "central-asia": {
+      "title": "Orbis · Central Asia",
+      "label": { "en": "Dombra & horse-head fiddle", "zh": "冬不拉与马头琴" },
+      "style": "Central Asian steppe music, dombra, morin khuur horse-head fiddle, low drone, distant wind, galloping soft rhythm, vast open grassland, Silk Road caravan"
+    },
+    "south-asia": {
+      "title": "Orbis · South Asia",
+      "label": { "en": "Sitar & bansuri over tanpura", "zh": "西塔琴与竹笛 · 坦普拉" },
+      "style": "Indian classical, sitar and bansuri bamboo flute over tanpura drone, soft tabla, raga Yaman evening mood, meditative, river at dusk"
+    },
+    "east-asia": {
+      "title": "Orbis · East Asia",
+      "label": { "en": "Guzheng, dizi & erhu", "zh": "古筝、笛子与二胡" },
+      "style": "traditional Chinese instrumental, guzheng, dizi bamboo flute, erhu, pipa over a soft continuous string pad, pentatonic, flowing without pauses, serene mountains and rivers, ink-wash painting mood, elegant"
+    },
+    "southeast-asia": {
+      "title": "Orbis · Southeast Asia",
+      "label": { "en": "Gamelan", "zh": "甘美兰" },
+      "style": "Javanese and Balinese gamelan, bronze metallophones, gongs, soft kendang drum, slendro scale, shimmering, meditative, tropical temple at dawn"
+    },
+    "ocean": {
+      "title": "Orbis · Open Sea",
+      "label": { "en": "Open sea", "zh": "远洋" },
+      "style": "ambient seascape, soft strings, felt piano, distant bells, gentle swells, exploratory, wonder, age of sail at night"
+    }
+  }
+}

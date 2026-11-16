@@ -16,7 +16,7 @@ export function TopBar() {
   const layersBtn = useRef<HTMLButtonElement>(null);
   const menuId = useId();
   const cur = region ? REGION_BY_KEY[region] : null;
-  const track = cur ? cur.music[lang] : lang === 'zh' ? '远洋 · 琴声' : 'Open sea · bells';
+  const track = cur ? cur.music[lang] : lang === 'zh' ? '远洋' : 'Open sea';
 
   // The layers popover closes on outside click and on Escape (returning focus to its button).
   useEffect(() => {

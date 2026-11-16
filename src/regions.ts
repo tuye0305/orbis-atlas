@@ -11,13 +11,13 @@ export interface RegionDef {
 }
 
 export const REGIONS: RegionDef[] = [
-  { key: 'europe', name: { en: 'Europe', zh: '欧洲' }, lat: 49, lon: 14, altitude: 1.25, accent: '#7f9cc0', music: { en: 'Dorian organ & lute', zh: '多利亚调式 · 管风琴与鲁特琴' } },
-  { key: 'africa', name: { en: 'Africa', zh: '非洲' }, lat: 4, lon: 19, altitude: 1.7, accent: '#d08a3e', music: { en: 'Kora ostinato & djembe', zh: '科拉琴与非洲鼓' } },
-  { key: 'west-asia', name: { en: 'West Asia', zh: '西亚' }, lat: 32, lon: 45, altitude: 1.3, accent: '#c9a54a', music: { en: 'Maqam Hijaz, oud & daf', zh: '希贾兹木卡姆 · 乌德琴与手鼓' } },
-  { key: 'central-asia', name: { en: 'Central Asia', zh: '中亚草原' }, lat: 45, lon: 72, altitude: 1.45, accent: '#9aa86a', music: { en: 'Steppe drone & dombra', zh: '草原泛音与冬不拉' } },
-  { key: 'south-asia', name: { en: 'South Asia', zh: '南亚' }, lat: 22, lon: 79, altitude: 1.3, accent: '#c0675a', music: { en: 'Tanpura drone & sitar', zh: '坦普拉持续音与西塔琴' } },
-  { key: 'east-asia', name: { en: 'East Asia', zh: '东亚' }, lat: 34, lon: 113, altitude: 1.35, accent: '#b5523b', music: { en: 'Pentatonic guzheng', zh: '五声音阶 · 古筝' } },
-  { key: 'southeast-asia', name: { en: 'Southeast Asia', zh: '东南亚' }, lat: 9, lon: 109, altitude: 1.4, accent: '#5f9a86', music: { en: 'Slendro gamelan', zh: '斯连德罗甘美兰' } },
+  { key: 'europe', name: { en: 'Europe', zh: '欧洲' }, lat: 49, lon: 14, altitude: 1.25, accent: '#7f9cc0', music: { en: 'Lute, viol & organ', zh: '鲁特琴、古提琴与管风琴' } },
+  { key: 'africa', name: { en: 'Africa', zh: '非洲' }, lat: 4, lon: 19, altitude: 1.7, accent: '#d08a3e', music: { en: 'Kora & balafon', zh: '科拉琴与巴拉丰木琴' } },
+  { key: 'west-asia', name: { en: 'West Asia', zh: '西亚' }, lat: 32, lon: 45, altitude: 1.3, accent: '#c9a54a', music: { en: 'Oud, ney & qanun', zh: '乌德琴、奈伊笛与卡侬琴' } },
+  { key: 'central-asia', name: { en: 'Central Asia', zh: '中亚草原' }, lat: 45, lon: 72, altitude: 1.45, accent: '#9aa86a', music: { en: 'Dombra & horse-head fiddle', zh: '冬不拉与马头琴' } },
+  { key: 'south-asia', name: { en: 'South Asia', zh: '南亚' }, lat: 22, lon: 79, altitude: 1.3, accent: '#c0675a', music: { en: 'Sitar & bansuri over tanpura', zh: '西塔琴与竹笛 · 坦普拉' } },
+  { key: 'east-asia', name: { en: 'East Asia', zh: '东亚' }, lat: 34, lon: 113, altitude: 1.35, accent: '#b5523b', music: { en: 'Guzheng, dizi & erhu', zh: '古筝、笛子与二胡' } },
+  { key: 'southeast-asia', name: { en: 'Southeast Asia', zh: '东南亚' }, lat: 9, lon: 109, altitude: 1.4, accent: '#5f9a86', music: { en: 'Gamelan', zh: '甘美兰' } },
 ];
 
 export const REGION_BY_KEY = Object.fromEntries(REGIONS.map((r) => [r.key, r])) as Record<RegionKey, RegionDef>;

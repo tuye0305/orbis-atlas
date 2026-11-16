@@ -1,0 +1,77 @@
+{
+ "generated": "2026-11-16",
+ "regions": {
+  "europe": [
+   {
+    "file": "europe-1.mp3",
+    "title": "Orbis · Europe",
+    "duration": 150,
+    "model": "elevenlabs/music",
+    "id": "2e7db880be6c4051b72e8868a27f5f84"
+   }
+  ],
+  "africa": [
+   {
+    "file": "africa-1.mp3",
+    "title": "Orbis · Africa",
+    "duration": 150,
+    "model": "elevenlabs/music",
+    "id": "95c7e5fecf754b8eace89959cf4beb1f"
+   }
+  ],
+  "west-asia": [
+   {
+    "file": "west-asia-1.mp3",
+    "title": "Orbis · West Asia",
+    "duration": 150,
+    "model": "elevenlabs/music",
+    "id": "1ae138738441409c94f08f73679dc604"
+   }
+  ],
+  "central-asia": [
+   {
+    "file": "central-asia-1.mp3",
+    "title": "Orbis · Central Asia",
+    "duration": 150,
+    "model": "elevenlabs/music",
+    "id": "aeb8044222bc443a8f210efb199c4a36"
+   }
+  ],
+  "south-asia": [
+   {
+    "file": "south-asia-1.mp3",
+    "title": "Orbis · South Asia",
+    "duration": 150,
+    "model": "elevenlabs/music",
+    "id": "d89857731bcb4e4588d3def0b609e869"
+   }
+  ],
+  "east-asia": [
+   {
+    "file": "east-asia-1.mp3",
+    "title": "Orbis · East Asia",
+    "duration": 150,
+    "model": "elevenlabs/music",
+    "id": "95bec3c3bd08452aa2d757fa24643451"
+   }
+  ],
+  "southeast-asia": [
+   {
+    "file": "southeast-asia-1.mp3",
+    "title": "Orbis · Southeast Asia",
+    "duration": 150,
+    "model": "elevenlabs/music",
+    "id": "8a392e57c30e47fda5fd696bfc2f9e6c"
+   }
+  ],
+  "ocean": [
+   {
+    "file": "ocean-1.mp3",
+    "title": "Orbis · Open Sea",
+    "duration": 150,
+    "model": "elevenlabs/music",
+    "id": "1283ad83e80644b7b09b2473e26f46b2"
+   }
+  ]
+ }
+}
