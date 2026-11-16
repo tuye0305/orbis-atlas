@@ -1216,5 +1216,74 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "person-rudaki",
+    "qid": "Q312954",
+    "name": {
+      "en": "Rudaki",
+      "zh": "鲁达基"
+    },
+    "born": 858,
+    "died": 941,
+    "role": {
+      "en": "Poet",
+      "zh": "诗人"
+    },
+    "region": "central-asia",
+    "summary": {
+      "en": "Born in Panjrud near Panjakent, Rudaki became court poet of the Samanid amir Nasr II in Bukhara and is regarded as the father of New Persian poetry. Only fragments of his vast output survive; late in life he lost royal favour and died in his native village.",
+      "zh": "鲁达基生于片治肯特附近的潘杰鲁德，成为布哈拉萨曼王朝埃米尔纳斯尔二世的宫廷诗人，被誉为新波斯诗歌之父。他的大量作品仅有片段存世；晚年失宠，卒于故乡。"
+    },
+    "stops": [
+      {
+        "year": 858,
+        "lat": 39.5,
+        "lon": 67.6167,
+        "label": {
+          "en": "Born at Panjrud, near Panjakent",
+          "zh": "生于片治肯特附近的潘杰鲁德"
+        }
+      },
+      {
+        "year": 914,
+        "lat": 39.7747,
+        "lon": 64.4286,
+        "label": {
+          "en": "Court poet of Nasr II at Bukhara",
+          "zh": "在布哈拉任纳斯尔二世的宫廷诗人"
+        }
+      },
+      {
+        "year": 937,
+        "lat": 39.5,
+        "lon": 67.6167,
+        "label": {
+          "en": "Loses favour and returns home",
+          "zh": "失宠后返回故乡"
+        }
+      },
+      {
+        "year": 941,
+        "lat": 39.5,
+        "lon": 67.6167,
+        "label": {
+          "en": "Dies at Panjrud",
+          "zh": "卒于潘杰鲁德"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Rudaki",
+        "url": "https://www.britannica.com/biography/Rudaki"
+      },
+      {
+        "title": "Wikipedia: Rudaki",
+        "url": "https://en.wikipedia.org/wiki/Rudaki"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth year c. 858–859; the date of his fall from favour (c. 937) is approximate. Panjrud stops use Panjakent coordinates."
   }
 ]

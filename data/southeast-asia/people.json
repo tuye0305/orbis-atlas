@@ -1234,5 +1234,85 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "person-kartini",
+    "qid": "Q1373764",
+    "name": {
+      "en": "Kartini",
+      "zh": "卡蒂妮"
+    },
+    "born": 1879,
+    "died": 1904,
+    "role": {
+      "en": "Advocate of women's education",
+      "zh": "女性教育倡导者"
+    },
+    "region": "southeast-asia",
+    "summary": {
+      "en": "Daughter of a Javanese regent, Kartini was secluded at home from the age of 12 but corresponded in Dutch with European friends about colonial injustice, polygamy and women's education. She opened a small school for girls and died after childbirth at 25; her letters, published in 1911, made her a national heroine of Indonesia.",
+      "zh": "卡蒂妮是爪哇一位县长之女，12岁起被闭居家中，却用荷兰文与欧洲友人通信，探讨殖民不公、一夫多妻和女性教育。她开办了一所小型女子学校，25岁时死于产后并发症；1911年出版的书信集使她成为印度尼西亚的民族英雄。"
+    },
+    "stops": [
+      {
+        "year": 1879,
+        "lat": -6.5333,
+        "lon": 110.6667,
+        "label": {
+          "en": "Born near Jepara",
+          "zh": "生于哲帕拉附近"
+        }
+      },
+      {
+        "year": 1891,
+        "lat": -6.5333,
+        "lon": 110.6667,
+        "label": {
+          "en": "Begins seclusion (pingitan) at Jepara",
+          "zh": "在哲帕拉开始闭居"
+        }
+      },
+      {
+        "year": 1903,
+        "lat": -6.5333,
+        "lon": 110.6667,
+        "label": {
+          "en": "Opens a school for girls",
+          "zh": "开办女子学校"
+        }
+      },
+      {
+        "year": 1903,
+        "lat": -6.7167,
+        "lon": 111.35,
+        "label": {
+          "en": "Marries the regent of Rembang",
+          "zh": "嫁南旺县长"
+        }
+      },
+      {
+        "year": 1904,
+        "lat": -6.7167,
+        "lon": 111.35,
+        "label": {
+          "en": "Dies after childbirth in Rembang",
+          "zh": "产后卒于南旺"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Raden Adjeng Kartini",
+        "url": "https://www.britannica.com/biography/Raden-Adjeng-Kartini"
+      },
+      {
+        "title": "Wikipedia: Kartini",
+        "url": "https://en.wikipedia.org/wiki/Kartini"
+      },
+      {
+        "title": "Joost Coté (trans.), Kartini: The Complete Writings 1898–1904 (2014)"
+      }
+    ],
+    "confidence": "high"
   }
 ]

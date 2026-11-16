@@ -2180,5 +2180,222 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "ev-buddhism-reaches-japan",
+    "type": "religious",
+    "year": 552,
+    "name": {
+      "en": "Buddhism introduced to Japan",
+      "zh": "佛教传入日本"
+    },
+    "summary": {
+      "en": "King Seong of Baekje sent a gilt-bronze Buddha image and sutras to the Yamato court of Emperor Kinmei. The Soga clan championed the new faith against the Mononobe and Nakatomi; after the Soga victory in 587, Buddhism became a pillar of the Asuka state.",
+      "zh": "百济圣王向钦明天皇的大和朝廷献上金铜佛像和经论。苏我氏支持这一新信仰，与物部氏和中臣氏对立；587年苏我氏获胜后，佛教成为飞鸟时代国家的支柱。"
+    },
+    "lat": 34.52,
+    "lon": 135.84,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-yamato",
+      "polity-baekje"
+    ],
+    "sources": [
+      {
+        "title": "《日本书纪》卷第十九 钦明天皇十三年（维基文库）",
+        "url": "https://zh.wikisource.org/wiki/日本書紀/卷第十九"
+      },
+      {
+        "title": "Wikipedia: Buddhism in Japan",
+        "url": "https://en.wikipedia.org/wiki/Buddhism_in_Japan"
+      },
+      {
+        "title": "William E. Deal & Brian Ruppert, A Cultural History of Japanese Buddhism (2015)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The Nihon shoki dates the gift to 552; the Gangōji engi and Jōgū Shōtoku hōō teisetsu give 538, which many historians prefer. Marker near Kinmei's palace at Shikishima (Sakurai). No Wikidata item exists for the event."
+  },
+  {
+    "id": "ev-cheomseongdae",
+    "qid": "Q562765",
+    "type": "science",
+    "year": 633,
+    "name": {
+      "en": "Cheomseongdae observatory built",
+      "zh": "瞻星台建成"
+    },
+    "summary": {
+      "en": "Built in the Silla capital Gyeongju during the reign of Queen Seondeok, this bottle-shaped tower of about 360 granite blocks is often called the oldest surviving astronomical observatory in East Asia, though its exact function is still debated.",
+      "zh": "瞻星台建于新罗善德女王在位时的都城庆州，由约360块花岗岩砌成瓶形塔身，常被称为东亚现存最古老的天文台，但其确切用途至今仍有争议。"
+    },
+    "lat": 35.8347,
+    "lon": 129.219,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-gyeongju",
+    "polities": [
+      "polity-silla"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Gyeongju Historic Areas",
+        "url": "https://whc.unesco.org/en/list/976"
+      },
+      {
+        "title": "一然《三国遗事》卷1 善德王知几三事"
+      },
+      {
+        "title": "Wikipedia: Cheomseongdae",
+        "url": "https://en.wikipedia.org/wiki/Cheomseongdae"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The Samguk yusa places it in Seondeok's reign (632–647); the Sejong sillok jiriji gives 633 (Zhenguan 7), and 647 is also cited."
+  },
+  {
+    "id": "ev-manyoshu",
+    "qid": "Q834321",
+    "type": "cultural",
+    "year": 759,
+    "name": {
+      "en": "Man'yōshū compiled",
+      "zh": "《万叶集》编成"
+    },
+    "summary": {
+      "en": "Japan's oldest poetry anthology gathers about 4,500 poems by emperors, courtiers, frontier guards and commoners, written with Chinese characters used for their sounds (man'yōgana). Its latest datable poem is from 759, and Ōtomo no Yakamochi is thought to have been its main compiler.",
+      "zh": "《万叶集》是日本现存最古老的和歌集，收录天皇、贵族、戍边防人和平民的约4500首和歌，以借汉字表音的“万叶假名”书写。其中可确定年代的最晚一首作于759年，一般认为大伴家持是主要编纂者。"
+    },
+    "lat": 34.685,
+    "lon": 135.8048,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-nara",
+    "polities": [
+      "polity-nara-japan"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Man'yō-shū",
+        "url": "https://www.britannica.com/topic/Manyo-shu"
+      },
+      {
+        "title": "Wikipedia: Man'yōshū",
+        "url": "https://en.wikipedia.org/wiki/Man'yōshū"
+      },
+      {
+        "title": "Ian Hideo Levy (trans.), The Ten Thousand Leaves: A Translation of the Man'yōshū (1981)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Compiled after 759; the collection probably reached its final form in the 780s."
+  },
+  {
+    "id": "ev-dongui-bogam",
+    "qid": "Q494387",
+    "type": "science",
+    "year": 1613,
+    "name": {
+      "en": "Heo Jun's Dongui Bogam published",
+      "zh": "许浚《东医宝鉴》刊行"
+    },
+    "summary": {
+      "en": "Commissioned by King Seonjo in 1596 and completed by the royal physician Heo Jun in 1610, this 25-volume compendium organised East Asian medicine for Korean use and was printed in 1613. It was reprinted in China and Japan and is on the UNESCO Memory of the World Register.",
+      "zh": "《东医宝鉴》由宣祖于1596年下令编纂，御医许浚于1610年完成，1613年刊行。这部25卷的医学全书将东亚医学系统整理以适合朝鲜之用，曾在中国和日本翻刻，已列入联合国教科文组织《世界记忆名录》。"
+    },
+    "lat": 37.56,
+    "lon": 126.99,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-seoul",
+    "polities": [
+      "polity-joseon"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Memory of the World: Donguibogam: Principles and Practice of Eastern Medicine",
+        "url": "https://www.unesco.org/en/memory-world/donguibogam-principles-and-practice-eastern-medicine"
+      },
+      {
+        "title": "Wikipedia: Donguibogam",
+        "url": "https://en.wikipedia.org/wiki/Donguibogam"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-great-fire-of-meireki",
+    "qid": "Q1336847",
+    "type": "disaster",
+    "year": 1657,
+    "date": "1657-03-02",
+    "name": {
+      "en": "Great Fire of Meireki",
+      "zh": "明历大火"
+    },
+    "summary": {
+      "en": "Over three days a fire driven by strong winds burned most of Edo, including the main keep of Edo Castle, and killed perhaps 100,000 people. The shogunate rebuilt the city with firebreaks, wider streets and relocated temples and daimyo mansions; the keep was never rebuilt.",
+      "zh": "强风助长下的大火连烧三日，焚毁江户大半城区，包括江户城天守阁，死者或达10万人。幕府重建时设置防火带、拓宽街道，并迁移寺院和大名宅邸；天守阁此后再未重建。"
+    },
+    "lat": 35.6875,
+    "lon": 139.7545,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-tokyo",
+    "polities": [
+      "polity-tokugawa"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Great Fire of Meireki",
+        "url": "https://en.wikipedia.org/wiki/Great_Fire_of_Meireki"
+      },
+      {
+        "title": "Wikipedia (ja): 明暦の大火",
+        "url": "https://ja.wikipedia.org/wiki/明暦の大火"
+      },
+      {
+        "title": "Jeffrey Hanes, \"Urban Planning as an Urban Problem\", in J. L. McClain et al. (eds.), Edo and Paris (1994)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Began on the 18th day of the 1st month of Meireki 3 (2 March 1657, Gregorian). Death estimates range from about 30,000 to over 100,000."
+  },
+  {
+    "id": "ev-tokaido-shinkansen",
+    "qid": "Q660895",
+    "type": "science",
+    "year": 1964,
+    "date": "1964-10-01",
+    "name": {
+      "en": "Tōkaidō Shinkansen opens",
+      "zh": "东海道新干线开通"
+    },
+    "summary": {
+      "en": "Nine days before the Tokyo Olympics opened, Japanese National Railways began services on the world's first high-speed railway, between Tokyo and Shin-Ōsaka, at up to 210 km/h. The 'bullet train' cut the journey from about 6.5 to 4 hours and inspired high-speed rail worldwide.",
+      "zh": "东京奥运会开幕前九天，日本国有铁道开通了东京至新大阪之间的世界首条高速铁路，最高时速210公里。“子弹列车”将行程由约6个半小时缩短为4小时，并带动了全球高速铁路的发展。"
+    },
+    "lat": 35.6812,
+    "lon": 139.7671,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-tokyo",
+    "sources": [
+      {
+        "title": "Britannica: Shinkansen",
+        "url": "https://www.britannica.com/topic/Shinkansen"
+      },
+      {
+        "title": "Central Japan Railway Company: About the Shinkansen",
+        "url": "https://global.jr-central.co.jp/en/company/about_shinkansen/"
+      },
+      {
+        "title": "Wikipedia: Tokaido Shinkansen",
+        "url": "https://en.wikipedia.org/wiki/Tokaido_Shinkansen"
+      }
+    ],
+    "confidence": "high",
+    "note": "Journey time fell to 4 hours at opening and to 3 hours 10 minutes in November 1965."
   }
 ]

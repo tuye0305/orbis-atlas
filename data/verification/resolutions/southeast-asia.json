@@ -62,5 +62,13 @@
       "Encyclopaedia Britannica: Toungoo dynasty (https://www.britannica.com/topic/Toungoo-dynasty) – 1486–1752 or 1531–1752",
       "Wikipedia: Toungoo dynasty – 1510–1752"
     ]
+  },
+  "ev-nagarakretagama:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's coordinates are those of the National Library in Jakarta, which holds the manuscript. The record marks the Majapahit court where Prapanca composed it in 1365, at Trowulan, the site generally identified as the capital (BRIN, Berkala Arkeologi).",
+    "checked": [
+      "https://ejournal.brin.go.id/berkalaarkeologi/article/view/5466",
+      "https://en.wikipedia.org/wiki/Trowulan"
+    ]
   }
 }

@@ -392,6 +392,24 @@
   }
  },
  {
+  "key": "polity-kongo:to",
+  "id": "polity-kongo",
+  "dataset": "africa",
+  "kind": "polities",
+  "field": "to",
+  "ours": 1914,
+  "wikidata": 1888,
+  "qid": "Q796583",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Curator moved the end from 1888 to 1914 (REPORT-africa note). Portugal abolished the titular Kongo monarchy in 1914 after suppressing the 1913–14 revolt; Wikidata's 1888 is the date of formal vassalage, when the kingdom still existed. Record is medium with a note.",
+   "checked": [
+    "https://www.ebsco.com/research-starters/history/kongo-historical-kingdom",
+    "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   ]
+  }
+ },
+ {
   "key": "polity-marinid:from",
   "id": "polity-marinid",
   "dataset": "africa",
@@ -567,6 +585,24 @@
    "checked": [
     "https://www.britannica.com/place/Tajikistan/History",
     "Shirin Akiner, Tajikistan: Disintegration or Reconciliation? (2001)"
+   ]
+  }
+ },
+ {
+  "key": "ev-al-biruni-india:year",
+  "id": "ev-al-biruni-india",
+  "dataset": "central-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1030,
+  "wikidata": 1017,
+  "qid": "Q16127829",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The Tahqiq ma li-l-Hind was composed c. 1030 (Encyclopedia.com/DSB; Britannica topic entry). Wikidata's 1017 is the year al-Biruni was taken to Ghazni, not the date of the book.",
+   "checked": [
+    "https://encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/biruni-al",
+    "https://www.britannica.com/topic/Tahqiq-ma-li-l-hind-min-maqulah-maqbulah-fi-al-aql-aw-mardhulah (via search)"
    ]
   }
  },
@@ -1186,6 +1222,24 @@
   }
  },
  {
+  "key": "person-faxian:born",
+  "id": "person-faxian",
+  "dataset": "china",
+  "kind": "people",
+  "field": "born",
+  "ours": 337,
+  "wikidata": 340,
+  "qid": "Q312978",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Standard references give c. 337 (EBSCO research starter; Banglapedia). Wikidata's 340 is a rounded value. Both are approximate; record is medium confidence with a note.",
+   "checked": [
+    "https://ebsco.com/research-starters/biography/faxian",
+    "https://en.banglapedia.org/index.php/Fa-hien"
+   ]
+  }
+ },
+ {
   "key": "polity-eastern-wu:from",
   "id": "polity-eastern-wu",
   "dataset": "china",
@@ -1752,6 +1806,49 @@
   }
  },
  {
+  "key": "ev-industrial-revolution:endYear",
+  "id": "ev-industrial-revolution",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "endYear",
+  "ours": 1840,
+  "wikidata": 1820,
+  "qid": "Q2269",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica follows Toynbee's span of 1760 to 1840 for Britain; other Britannica pages and Ashton end it c. 1830, and Wikidata gives 1820. 1840 is the conventional end used by Britannica; the note states the range.",
+   "checked": [
+    "https://www.britannica.com/event/Industrial-Revolution (via search)",
+    "https://explore.britannica.com/explore/savingearth/industrial-revolution"
+   ]
+  }
+ },
+ {
+  "key": "ev-great-irish-famine:coord",
+  "id": "ev-great-irish-famine",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   51.5492,
+   -9.2675
+  ],
+  "wikidata": [
+   53.351,
+   -7.921
+  ],
+  "qid": "Q188371",
+  "km": 220,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata gives the centre of Ireland. The marker is deliberately at Skibbereen, Co. Cork, whose Poor Law Union was among the worst affected and which became the emblem of the Famine in 1846–47 (UCC; Cambridge). Placement explained in the record note.",
+   "checked": [
+    "https://www.ucc.ie/en/news/2018/the-famine-in-cork.html",
+    "https://historyhome.co.uk/peel/ireland/skibber.htm"
+   ]
+  }
+ },
+ {
   "key": "person-eleanor-of-aquitaine:born",
   "id": "person-eleanor-of-aquitaine",
   "dataset": "europe",
@@ -2230,6 +2327,49 @@
   }
  },
  {
+  "key": "ev-kailasa-temple-ellora:year",
+  "id": "ev-kailasa-temple-ellora",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 756,
+  "wikidata": 773,
+  "qid": "Q1268562",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The temple has no dedicatory inscription; two epigraphs credit 'Krishnaraja', i.e. Krishna I (r. c. 756–773), with most of it. The record spans his reign (756–773); Wikidata's 773 is only the end of that reign. Medium confidence with a note.",
+   "checked": [
+    "https://www.britannica.com/biography/Krishna-I (via search)",
+    "https://www.worldhistory.org/article/874/ellora-caves/"
+   ]
+  }
+ },
+ {
+  "key": "ev-bhola-cyclone:coord",
+  "id": "ev-bhola-cyclone",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   22.5,
+   90.75
+  ],
+  "wikidata": [
+   23.801,
+   90.409
+  ],
+  "qid": "Q245551",
+  "km": 149,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's point is the centroid of Bangladesh (via its location property). The storm surge struck the coast and islands; Bhola Island, which gave the storm its name, was devastated across its southern half. Marker at Bhola Island.",
+   "checked": [
+    "https://www.britannica.com/print/article/1471692",
+    "https://scroll.in/article/1011059/in-1970-a-cyclone-in-the-bay-of-bengal-claimed-5-lakh-lives-and-changed-the-course-of-a-nation"
+   ]
+  }
+ },
+ {
   "key": "person-kanishka:born",
   "id": "person-kanishka",
   "dataset": "south-asia",
@@ -2478,6 +2618,31 @@
    "checked": [
     "Documentation Center of Cambodia (DC-Cam)",
     "B. Kiernan, The Pol Pot Regime (1996)"
+   ]
+  }
+ },
+ {
+  "key": "ev-nagarakretagama:coord",
+  "id": "ev-nagarakretagama",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -7.5419,
+   112.391
+  ],
+  "wikidata": [
+   -6.1726,
+   106.8215
+  ],
+  "qid": "Q49335",
+  "km": 633,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's coordinates are those of the National Library in Jakarta, which holds the manuscript. The record marks the Majapahit court where Prapanca composed it in 1365, at Trowulan, the site generally identified as the capital (BRIN, Berkala Arkeologi).",
+   "checked": [
+    "https://ejournal.brin.go.id/berkalaarkeologi/article/view/5466",
+    "https://en.wikipedia.org/wiki/Trowulan"
    ]
   }
  },
@@ -2937,6 +3102,49 @@
    "checked": [
     "Encyclopaedia Britannica: Iraq War",
     "T. E. Ricks, Fiasco (2006)"
+   ]
+  }
+ },
+ {
+  "key": "ev-nizamiyya-baghdad:year",
+  "id": "ev-nizamiyya-baghdad",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1067,
+  "wikidata": 1065,
+  "qid": "Q4703031",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The college was founded in 457 AH/1065 and inaugurated in Dhu al-Qa'da 459 AH/September 1067 (Makdisi; Britannica 'Nizamiyyah' gives 1067). The record marks the opening; Wikidata's 1065 is the founding. Note added.",
+   "checked": [
+    "https://www.britannica.com/place/Nizamiyyah (via search)",
+    "https://www.ilmgate.org/wp-content/uploads/2011/02/Muslim-Institutions-of-Learning-in-Eleventh-Century-Baghdad.pdf"
+   ]
+  }
+ },
+ {
+  "key": "ev-hejaz-railway:coord",
+  "id": "ev-hejaz-railway",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   24.4672,
+   39.6024
+  ],
+  "wikidata": [
+   32.6298,
+   36.1037
+  ],
+  "qid": "Q924225",
+  "km": 970,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's point (32.63, 36.10) is near Daraa on the northern section. The event is the line reaching Medina, its terminus, formally opened on 1 September 1908 (Otago Witness, 21 Oct 1908; The Spectator, 5 Sep 1908).",
+   "checked": [
+    "https://paperspast.natlib.govt.nz/newspapers/OW19081021.2.225.3",
+    "https://archive.spectator.co.uk/article/5th-september-1908/2/the-times-of-thursday-published-an-extremely-inter"
    ]
   }
  },

@@ -475,14 +475,26 @@
       },
       {
         "from": 1945,
+        "to": 1948,
+        "name": {
+          "en": "Pyongyang",
+          "zh": "平壤"
+        },
+        "polity": {
+          "en": "Soviet Civil Administration (Soviet-occupied northern Korea)",
+          "zh": "苏联民政局（苏联占领下的朝鲜北部）"
+        }
+      },
+      {
+        "from": 1948,
         "to": null,
         "name": {
           "en": "Pyongyang",
           "zh": "平壤"
         },
         "polity": {
-          "en": "North Korea",
-          "zh": "朝鲜"
+          "en": "North Korea (Democratic People's Republic of Korea)",
+          "zh": "朝鲜民主主义人民共和国"
         },
         "capital": true
       }
@@ -508,7 +520,7 @@
       }
     ],
     "confidence": "medium",
-    "note": "Lelang boundaries and dates before 313 are approximate."
+    "note": "Lelang boundaries and dates before 313 are approximate. 1945–1948: seat of the Soviet Civil Administration and the Provisional People's Committee; the DPRK was proclaimed on 9 September 1948."
   },
   {
     "id": "place-nara",

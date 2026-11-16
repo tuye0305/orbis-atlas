@@ -2043,5 +2043,222 @@
     ],
     "confidence": "high",
     "note": "The date is the Constituent Assembly’s first sitting, which abolished the monarchy (28 May 2008); the QID is the Assembly election of 10 April 2008, as no separate Wikidata item exists for the abolition."
+  },
+  {
+    "id": "ev-periplus-erythraean-sea",
+    "qid": "Q664162",
+    "type": "exploration",
+    "year": 50,
+    "name": {
+      "en": "Periplus of the Erythraean Sea and the monsoon trade",
+      "zh": "《爱利脱利亚海周航记》与季风贸易"
+    },
+    "summary": {
+      "en": "A Greek-speaking merchant from Roman Egypt wrote a guide to the ports of the Red Sea, East Africa, Arabia and India, explaining how ships used the monsoon winds to cross the open sea. It names Muziris on the Malabar coast, where Roman gold and wine bought pepper and gems.",
+      "zh": "一位来自罗马埃及、讲希腊语的商人撰写了这部介绍红海、东非、阿拉伯和印度沿岸港口的指南，说明商船如何借助季风横渡大洋。书中提到马拉巴尔海岸的穆济里斯，罗马的黄金和葡萄酒在此换取胡椒和宝石。"
+    },
+    "lat": 10.1565,
+    "lon": 76.209,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-roman-empire"
+    ],
+    "sources": [
+      {
+        "title": "Lionel Casson (ed. and trans.), The Periplus Maris Erythraei (1989)"
+      },
+      {
+        "title": "Fordham University Internet History Sourcebooks: The Periplus of the Erythraean Sea",
+        "url": "https://sourcebooks.fordham.edu/ancient/periplus.asp"
+      },
+      {
+        "title": "Wikipedia: Periplus of the Erythraean Sea",
+        "url": "https://en.wikipedia.org/wiki/Periplus_of_the_Erythraean_Sea"
+      },
+      {
+        "title": "Wikipedia: Muziris",
+        "url": "https://en.wikipedia.org/wiki/Muziris"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Usually dated c. 40–70 CE; Muziris is generally identified with the excavated site of Pattanam in Kerala, where the marker is placed."
+  },
+  {
+    "id": "ev-brahmasphutasiddhanta",
+    "qid": "Q1290001",
+    "type": "science",
+    "year": 628,
+    "name": {
+      "en": "Brahmagupta's Brāhmasphuṭasiddhānta",
+      "zh": "婆罗摩笈多著《婆罗摩历算书》"
+    },
+    "summary": {
+      "en": "Working at Bhillamala (Bhinmal) in Rajasthan, Brahmagupta wrote an astronomical treatise containing the first known rules for arithmetic with zero and negative numbers and methods for quadratic and indeterminate equations. Translated into Arabic in Baghdad around 771, it shaped Islamic astronomy and mathematics.",
+      "zh": "婆罗摩笈多在拉贾斯坦的毗罗摩罗（今宾马尔）撰写这部天文学著作，其中包含已知最早的零与负数运算规则，以及二次方程和不定方程的解法。约771年该书在巴格达被译成阿拉伯文，影响了伊斯兰天文学和数学。"
+    },
+    "lat": 25,
+    "lon": 72.25,
+    "region": "south-asia",
+    "importance": 4,
+    "sources": [
+      {
+        "title": "MacTutor History of Mathematics: Brahmagupta",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/"
+      },
+      {
+        "title": "Britannica: Brahmagupta",
+        "url": "https://www.britannica.com/biography/Brahmagupta"
+      },
+      {
+        "title": "Wikipedia: Brāhmasphuṭasiddhānta",
+        "url": "https://en.wikipedia.org/wiki/Brāhmasphuṭasiddhānta"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-kailasa-temple-ellora",
+    "qid": "Q1268562",
+    "type": "religious",
+    "year": 756,
+    "endYear": 773,
+    "name": {
+      "en": "Kailasa temple carved at Ellora",
+      "zh": "埃洛拉凯拉萨神庙开凿"
+    },
+    "summary": {
+      "en": "Under the Rashtrakuta king Krishna I, workers cut a complete Shiva temple, with shrine, halls and courtyard, downward into a single basalt hillside at Ellora. It is the largest monolithic rock-cut monument in the world, part of a site with Buddhist, Hindu and Jain caves.",
+      "zh": "在罗湿陀罗拘陀王朝国王克里希纳一世治下，工匠在埃洛拉从一整块玄武岩山体向下凿出一座完整的湿婆神庙，包括主殿、厅堂和庭院。这是世界上最大的整石凿成的古迹，所在的石窟群兼有佛教、印度教和耆那教洞窟。"
+    },
+    "lat": 20.0239,
+    "lon": 75.1792,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-rashtrakuta"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Ellora Caves",
+        "url": "https://whc.unesco.org/en/list/243"
+      },
+      {
+        "title": "Britannica: Ellora Caves",
+        "url": "https://www.britannica.com/place/Ellora-Caves"
+      },
+      {
+        "title": "Wikipedia: Kailasa Temple, Ellora",
+        "url": "https://en.wikipedia.org/wiki/Kailasa_Temple,_Ellora"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Span is the reign of Krishna I (c. 756–773), to whom the Baroda copper plates of 812 attribute the temple; work may have continued under his successors."
+  },
+  {
+    "id": "ev-asiatic-society",
+    "qid": "Q374902",
+    "type": "cultural",
+    "year": 1784,
+    "date": "1784-01-15",
+    "name": {
+      "en": "Asiatic Society founded in Calcutta",
+      "zh": "亚洲学会在加尔各答成立"
+    },
+    "summary": {
+      "en": "The judge and philologist William Jones founded the Asiatic Society in Calcutta to study Asia's languages, history and sciences. His 1786 address to the Society, noting that Sanskrit, Greek and Latin shared a common source, helped found comparative linguistics and the idea of an Indo-European family.",
+      "zh": "法官兼语文学家威廉·琼斯在加尔各答创立亚洲学会，研究亚洲的语言、历史和科学。他1786年在学会的演讲指出梵语、希腊语和拉丁语同出一源，为比较语言学和印欧语系概念奠定了基础。"
+    },
+    "lat": 22.5552,
+    "lon": 88.3505,
+    "region": "south-asia",
+    "importance": 3,
+    "place": "place-kolkata",
+    "sources": [
+      {
+        "title": "Britannica: Sir William Jones",
+        "url": "https://www.britannica.com/biography/William-Jones-British-orientalist-and-jurist"
+      },
+      {
+        "title": "Wikipedia: The Asiatic Society",
+        "url": "https://en.wikipedia.org/wiki/The_Asiatic_Society"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-bengal-famine-1943",
+    "qid": "Q522837",
+    "type": "disaster",
+    "year": 1943,
+    "endYear": 1944,
+    "name": {
+      "en": "Bengal famine",
+      "zh": "孟加拉大饥荒"
+    },
+    "summary": {
+      "en": "Wartime inflation, the loss of rice imports from Burma, a cyclone and crop disease, and the failure of the colonial and British governments to respond turned scarcity into famine in Bengal. An estimated 2.1 to 3 million people died of starvation and disease.",
+      "zh": "战时通货膨胀、缅甸大米进口断绝、气旋与稻作病害，加之殖民政府和英国政府应对失当，使孟加拉的粮食短缺演变为大饥荒。估计有210万至300万人死于饥饿和疾病。"
+    },
+    "lat": 23.9888,
+    "lon": 88.7311,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-british-raj"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Bengal famine",
+        "url": "https://www.britannica.com/topic/Bengal-famine"
+      },
+      {
+        "title": "Wikipedia: Bengal famine of 1943",
+        "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943"
+      },
+      {
+        "title": "Amartya Sen, Poverty and Famines: An Essay on Entitlement and Deprivation (1981)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Death estimates range from about 2.1 million (Dyson and Maharatna) to 3 million."
+  },
+  {
+    "id": "ev-bhola-cyclone",
+    "qid": "Q245551",
+    "type": "disaster",
+    "year": 1970,
+    "date": "1970-11-12",
+    "name": {
+      "en": "Bhola cyclone",
+      "zh": "1970年波拉气旋"
+    },
+    "summary": {
+      "en": "A severe cyclone drove a storm surge across the low islands and coast of East Pakistan on the night of 12–13 November 1970, killing an estimated 300,000–500,000 people, the deadliest tropical cyclone on record. Anger at the government's slow relief fed the movement that led to Bangladesh's independence.",
+      "zh": "1970年11月12日至13日夜，一场强烈气旋引发的风暴潮横扫东巴基斯坦的低洼岛屿和沿海地区，估计造成30万至50万人死亡，是有记录以来最致命的热带气旋。政府救灾迟缓引发的愤怒推动了最终导致孟加拉国独立的运动。"
+    },
+    "lat": 22.5,
+    "lon": 90.75,
+    "region": "south-asia",
+    "importance": 4,
+    "polities": [
+      "polity-pakistan"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Ganges-Brahmaputra delta cyclone of 1970",
+        "url": "https://www.britannica.com/event/Ganges-Brahmaputra-delta-cyclone"
+      },
+      {
+        "title": "World Meteorological Organization: WMO Weather and Climate Extremes Archive",
+        "url": "https://wmo.asu.edu/"
+      },
+      {
+        "title": "Wikipedia: 1970 Bhola cyclone",
+        "url": "https://en.wikipedia.org/wiki/1970_Bhola_cyclone"
+      }
+    ],
+    "confidence": "medium",
+    "note": "WMO lists it as the deadliest tropical cyclone on record (about 300,000 deaths); other estimates reach 500,000. Marker at Bhola Island."
   }
 ]

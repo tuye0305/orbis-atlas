@@ -1673,5 +1673,248 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "person-guru-nanak",
+    "qid": "Q83322",
+    "name": {
+      "en": "Guru Nanak",
+      "zh": "古鲁·那纳克"
+    },
+    "born": 1469,
+    "died": 1539,
+    "role": {
+      "en": "Founder of Sikhism",
+      "zh": "锡克教创始人"
+    },
+    "region": "south-asia",
+    "summary": {
+      "en": "Born at Talwandi (now Nankana Sahib) in Punjab, Nanak taught devotion to one formless God, equality regardless of caste or creed, and honest work. After long journeys he settled at Kartarpur on the Ravi, where the first Sikh community formed; his hymns are the core of the Guru Granth Sahib.",
+      "zh": "那纳克生于旁遮普的塔尔万迪（今南卡纳萨希卜），倡导虔信唯一无形之神，主张不分种姓与信仰的平等和诚实劳动。长期游历后，他定居拉维河畔的卡尔塔普尔，形成第一个锡克教社群；他的赞美诗构成《古鲁·格兰特·萨希卜》的核心。"
+    },
+    "stops": [
+      {
+        "year": 1469,
+        "lat": 31.45,
+        "lon": 73.7067,
+        "label": {
+          "en": "Born at Talwandi (Nankana Sahib)",
+          "zh": "生于塔尔万迪（今南卡纳萨希卜）"
+        }
+      },
+      {
+        "year": 1499,
+        "lat": 31.2132,
+        "lon": 75.1985,
+        "label": {
+          "en": "Spiritual awakening at Sultanpur Lodhi",
+          "zh": "在苏尔坦布尔洛迪得道"
+        }
+      },
+      {
+        "year": 1521,
+        "lat": 32.08,
+        "lon": 75.01,
+        "label": {
+          "en": "Settles at Kartarpur",
+          "zh": "定居卡尔塔普尔"
+        }
+      },
+      {
+        "year": 1539,
+        "lat": 32.08,
+        "lon": 75.01,
+        "label": {
+          "en": "Dies at Kartarpur",
+          "zh": "卒于卡尔塔普尔"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Nanak",
+        "url": "https://www.britannica.com/biography/Nanak"
+      },
+      {
+        "title": "Wikipedia: Guru Nanak",
+        "url": "https://en.wikipedia.org/wiki/Guru_Nanak"
+      },
+      {
+        "title": "W. H. McLeod, Guru Nanak and the Sikh Religion (1968)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The journeys (udasis) and the dates of his Sultanpur revelation and of the founding of Kartarpur (given as 1504 or c. 1520) rest on later janamsakhi traditions."
+  },
+  {
+    "id": "person-mirabai",
+    "qid": "Q466330",
+    "name": {
+      "en": "Mirabai",
+      "zh": "米拉巴伊"
+    },
+    "born": 1498,
+    "died": 1547,
+    "role": {
+      "en": "Bhakti poet-saint",
+      "zh": "虔信派诗人、圣徒"
+    },
+    "region": "south-asia",
+    "summary": {
+      "en": "A Rajput princess of Merta married into the ruling house of Mewar, Mirabai devoted herself to Krishna against family expectations and composed passionate devotional songs in Rajasthani and Braj. Legends of persecution surround her, and she is said to have ended her days at Dwarka. Her bhajans are still widely sung.",
+      "zh": "米拉巴伊是梅尔塔的拉杰普特公主，嫁入梅瓦尔王室，不顾家族期望专心敬奉黑天，用拉贾斯坦语和布拉吉语创作热烈的虔信歌曲。关于她遭受迫害的传说众多，据称她晚年在德瓦尔卡辞世。她的颂歌至今广为传唱。"
+    },
+    "stops": [
+      {
+        "year": 1498,
+        "lat": 26.65,
+        "lon": 74.03,
+        "label": {
+          "en": "Born in the Merta Rathore family",
+          "zh": "生于梅尔塔的拉托尔家族"
+        }
+      },
+      {
+        "year": 1516,
+        "lat": 24.88,
+        "lon": 74.63,
+        "label": {
+          "en": "Marries Bhoj Raj of Mewar at Chittor",
+          "zh": "在奇托尔嫁梅瓦尔王子博杰·拉吉"
+        }
+      },
+      {
+        "year": 1530,
+        "lat": 27.58,
+        "lon": 77.7,
+        "label": {
+          "en": "Pilgrimage to Vrindavan",
+          "zh": "朝圣温达文"
+        }
+      },
+      {
+        "year": 1547,
+        "lat": 22.2464,
+        "lon": 68.9667,
+        "label": {
+          "en": "Dies at Dwarka (tradition)",
+          "zh": "据传卒于德瓦尔卡"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Mira Bai",
+        "url": "https://www.britannica.com/biography/Mira-Bai"
+      },
+      {
+        "title": "Wikipedia: Mirabai",
+        "url": "https://en.wikipedia.org/wiki/Mirabai"
+      },
+      {
+        "title": "John Stratton Hawley, Three Bhakti Voices: Mirabai, Surdas, and Kabir in Their Times and Ours (2005)"
+      }
+    ],
+    "confidence": "low",
+    "note": "Almost all biographical detail comes from later hagiography; life dates c. 1498–c. 1547 are approximate."
+  },
+  {
+    "id": "person-srinivasa-ramanujan",
+    "qid": "Q83163",
+    "name": {
+      "en": "Srinivasa Ramanujan",
+      "zh": "斯里尼瓦瑟·拉马努金"
+    },
+    "born": 1887,
+    "died": 1920,
+    "role": {
+      "en": "Mathematician",
+      "zh": "数学家"
+    },
+    "region": "south-asia",
+    "summary": {
+      "en": "Largely self-taught, Ramanujan worked as a clerk in Madras while filling notebooks with results on infinite series, continued fractions and number theory. In 1913 he wrote to G. H. Hardy, who brought him to Cambridge; elected a Fellow of the Royal Society in 1918, he died at 32 in Kumbakonam.",
+      "zh": "拉马努金基本自学成才，在马德拉斯任职员时在笔记本中写下大量关于无穷级数、连分数和数论的结果。1913年他致信哈代，后者邀他赴剑桥；1918年当选英国皇家学会会员，1920年在贡伯戈讷姆去世，年仅32岁。"
+    },
+    "stops": [
+      {
+        "year": 1887,
+        "lat": 11.3409,
+        "lon": 77.7171,
+        "label": {
+          "en": "Born in Erode",
+          "zh": "生于伊罗德"
+        }
+      },
+      {
+        "year": 1888,
+        "lat": 10.9602,
+        "lon": 79.3845,
+        "label": {
+          "en": "Grows up in Kumbakonam",
+          "zh": "在贡伯戈讷姆长大"
+        }
+      },
+      {
+        "year": 1912,
+        "lat": 13.0825,
+        "lon": 80.275,
+        "label": {
+          "en": "Clerk at the Madras Port Trust",
+          "zh": "任马德拉斯港务局职员"
+        }
+      },
+      {
+        "year": 1914,
+        "lat": 52.207,
+        "lon": 0.1146,
+        "label": {
+          "en": "Arrives at Trinity College, Cambridge",
+          "zh": "抵达剑桥大学三一学院"
+        }
+      },
+      {
+        "year": 1918,
+        "lat": 52.207,
+        "lon": 0.1146,
+        "label": {
+          "en": "Elected Fellow of the Royal Society",
+          "zh": "当选皇家学会会员"
+        }
+      },
+      {
+        "year": 1919,
+        "lat": 13.0825,
+        "lon": 80.275,
+        "label": {
+          "en": "Returns to India, gravely ill",
+          "zh": "病重返回印度"
+        }
+      },
+      {
+        "year": 1920,
+        "lat": 10.9602,
+        "lon": 79.3845,
+        "label": {
+          "en": "Dies in Kumbakonam",
+          "zh": "卒于贡伯戈讷姆"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "MacTutor History of Mathematics: Srinivasa Aiyangar Ramanujan",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/"
+      },
+      {
+        "title": "Britannica: Srinivasa Ramanujan",
+        "url": "https://www.britannica.com/biography/Srinivasa-Ramanujan"
+      },
+      {
+        "title": "Wikipedia: Srinivasa Ramanujan",
+        "url": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"
+      }
+    ],
+    "confidence": "high"
   }
 ]

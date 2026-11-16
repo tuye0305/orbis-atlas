@@ -1190,5 +1190,175 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "person-matsuo-basho",
+    "qid": "Q5676",
+    "name": {
+      "en": "Matsuo Bashō",
+      "zh": "松尾芭蕉"
+    },
+    "born": 1644,
+    "died": 1694,
+    "role": {
+      "en": "Haikai poet",
+      "zh": "俳谐诗人"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "A samurai's son from Iga, Bashō moved to Edo and turned haikai linked verse into a serious art valuing sabi and lightness. His travel journals, above all Oku no Hosomichi from the journey of 1689, blend prose and haiku; he died on the road in Osaka.",
+      "zh": "芭蕉出身伊贺的武士家庭，迁居江户后把俳谐连句提升为崇尚“寂”与“轻”的严肃艺术。他的纪行文，尤其是记述1689年旅行的《奥之细道》，融散文与俳句于一体；他病逝于旅途中的大阪。"
+    },
+    "stops": [
+      {
+        "year": 1644,
+        "lat": 34.75,
+        "lon": 136.1422,
+        "label": {
+          "en": "Born in Iga Province",
+          "zh": "生于伊贺国"
+        }
+      },
+      {
+        "year": 1672,
+        "lat": 35.6894,
+        "lon": 139.6917,
+        "label": {
+          "en": "Moves to Edo",
+          "zh": "迁居江户"
+        }
+      },
+      {
+        "year": 1680,
+        "lat": 35.6769,
+        "lon": 139.7969,
+        "label": {
+          "en": "Settles in the Bashō hut at Fukagawa",
+          "zh": "移居深川芭蕉庵"
+        }
+      },
+      {
+        "year": 1689,
+        "lat": 38.9866,
+        "lon": 141.1138,
+        "label": {
+          "en": "Oku no Hosomichi journey reaches Hiraizumi",
+          "zh": "奥之细道之旅抵达平泉"
+        }
+      },
+      {
+        "year": 1689,
+        "lat": 35.3594,
+        "lon": 136.6129,
+        "label": {
+          "en": "Journey ends at Ōgaki",
+          "zh": "旅程终于大垣"
+        }
+      },
+      {
+        "year": 1694,
+        "lat": 34.6938,
+        "lon": 135.5021,
+        "label": {
+          "en": "Dies in Osaka",
+          "zh": "卒于大阪"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Britannica: Bashō",
+        "url": "https://www.britannica.com/biography/Basho-Japanese-poet"
+      },
+      {
+        "title": "Wikipedia: Matsuo Bashō",
+        "url": "https://en.wikipedia.org/wiki/Matsuo_Bashō"
+      },
+      {
+        "title": "Makoto Ueda, Matsuo Bashō (1970)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-shin-saimdang",
+    "qid": "Q464485",
+    "name": {
+      "en": "Shin Saimdang",
+      "zh": "申师任堂"
+    },
+    "born": 1504,
+    "died": 1551,
+    "role": {
+      "en": "Painter, calligrapher and poet",
+      "zh": "画家、书法家、诗人"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Born at Ojukheon in Gangneung, Shin Saimdang was admired for her paintings of plants and insects, her landscapes and her calligraphy. Mother of the Neo-Confucian scholar Yi I (Yulgok), she was later idealised as a model mother, and since 2009 her portrait has appeared on the 50,000-won note.",
+      "zh": "申师任堂生于江陵乌竹轩，以草虫图、山水画和书法著称。她是理学家李珥（栗谷）的母亲，后世被奉为贤母良妻的典范，2009年起其肖像印于韩国五万韩元纸币上。"
+    },
+    "stops": [
+      {
+        "year": 1504,
+        "lat": 37.7786,
+        "lon": 128.8778,
+        "label": {
+          "en": "Born at Ojukheon, Gangneung",
+          "zh": "生于江陵乌竹轩"
+        }
+      },
+      {
+        "year": 1522,
+        "lat": 37.7786,
+        "lon": 128.8778,
+        "label": {
+          "en": "Marries Yi Won-su",
+          "zh": "嫁李元秀"
+        }
+      },
+      {
+        "year": 1536,
+        "lat": 37.7786,
+        "lon": 128.8778,
+        "label": {
+          "en": "Gives birth to Yi I at Ojukheon",
+          "zh": "在乌竹轩生下李珥"
+        }
+      },
+      {
+        "year": 1541,
+        "lat": 37.56,
+        "lon": 126.99,
+        "label": {
+          "en": "Moves to Hanseong",
+          "zh": "迁居汉城"
+        }
+      },
+      {
+        "year": 1551,
+        "lat": 37.56,
+        "lon": 126.99,
+        "label": {
+          "en": "Dies in Hanseong",
+          "zh": "卒于汉城"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopedia of Korean Culture: 신사임당 (Shin Saimdang)",
+        "url": "https://encykorea.aks.ac.kr/Article/E0033467"
+      },
+      {
+        "title": "Wikipedia: Shin Saimdang",
+        "url": "https://en.wikipedia.org/wiki/Shin_Saimdang"
+      },
+      {
+        "title": "Britannica: Shin Saimdang",
+        "url": "https://www.britannica.com/biography/Shin-Saim-dang"
+      }
+    ],
+    "confidence": "high"
   }
 ]

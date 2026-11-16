@@ -1584,5 +1584,224 @@
       }
     ],
     "confidence": "high"
+  },
+  {
+    "id": "ev-paper-reaches-samarkand",
+    "type": "science",
+    "year": 751,
+    "name": {
+      "en": "Papermaking reaches Samarkand",
+      "zh": "造纸术传入撒马尔罕"
+    },
+    "summary": {
+      "en": "According to al-Tha'alibi's 11th-century account, Chinese prisoners taken at the Battle of Talas in 751 taught papermaking in Samarkand. Paper was already known in Central Asia, but Samarkand paper became famous, and the craft reached Baghdad by the 790s and then Egypt, Spain and Europe.",
+      "zh": "据11世纪塔阿利比的记载，751年怛罗斯之战中被俘的中国工匠在撒马尔罕传授造纸术。纸张此前已为中亚所知，但“撒马尔罕纸”从此闻名，造纸技艺于790年代传至巴格达，随后传入埃及、西班牙和欧洲。"
+    },
+    "lat": 39.6547,
+    "lon": 66.9758,
+    "region": "central-asia",
+    "importance": 5,
+    "place": "place-samarkand",
+    "polities": [
+      "polity-abbasid",
+      "polity-tang"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: paper",
+        "url": "https://www.britannica.com/technology/paper"
+      },
+      {
+        "title": "Wikipedia: History of paper",
+        "url": "https://en.wikipedia.org/wiki/History_of_paper"
+      },
+      {
+        "title": "Jonathan M. Bloom, Paper Before Print: The History and Impact of Paper in the Islamic World (2001)"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The Talas story comes from al-Tha'alibi (d. 1038) and is probably simplified; Sogdian letters on paper predate 751. No Wikidata item exists for the event."
+  },
+  {
+    "id": "ev-silk-road",
+    "qid": "Q36288",
+    "type": "cultural",
+    "year": 1,
+    "endYear": 1450,
+    "name": {
+      "en": "Silk Road caravan trade",
+      "zh": "丝绸之路商队贸易"
+    },
+    "summary": {
+      "en": "Overland routes linked China with Central Asia, Iran and the Mediterranean, carrying silk, horses, glass, paper and spices. Sogdian merchants of Samarkand and Bukhara handled much of the traffic, which also spread Buddhism, Manichaeism, the Church of the East and Islam, and in the 14th century, plague.",
+      "zh": "陆上商路连接中国与中亚、伊朗和地中海，运送丝绸、马匹、玻璃、纸张和香料。撒马尔罕和布哈拉的粟特商人承担了大部分贸易，这些商路还传播了佛教、摩尼教、景教和伊斯兰教，14世纪时也传播了鼠疫。"
+    },
+    "lat": 37.6628,
+    "lon": 62.1925,
+    "region": "central-asia",
+    "importance": 5,
+    "place": "place-merv",
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+        "url": "https://whc.unesco.org/en/list/1442"
+      },
+      {
+        "title": "Britannica: Silk Road",
+        "url": "https://www.britannica.com/topic/Silk-Road-trade-route"
+      },
+      {
+        "title": "Wikipedia: Silk Road",
+        "url": "https://en.wikipedia.org/wiki/Silk_Road"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The routes opened after Zhang Qian's missions (c. 138–126 BCE), before the atlas begins; the span 1–1450 is conventional. Marker at Merv, a junction of the routes."
+  },
+  {
+    "id": "ev-al-biruni-india",
+    "qid": "Q16127829",
+    "type": "science",
+    "year": 1030,
+    "name": {
+      "en": "al-Biruni's India",
+      "zh": "比鲁尼著《印度志》"
+    },
+    "summary": {
+      "en": "Brought to Ghazni by Mahmud of Ghazni, al-Biruni learned Sanskrit and wrote a systematic study of Indian religion, philosophy, astronomy and customs, completed around 1030. Its comparative, source-based method has led many to call him a founder of Indology and anthropology.",
+      "zh": "比鲁尼被伽色尼的马哈茂德带到伽色尼后学习梵文，撰写了一部系统研究印度宗教、哲学、天文和风俗的著作，约1030年完成。书中依据原典进行比较的方法，使许多人称他为印度学和人类学的奠基者。"
+    },
+    "lat": 33.5492,
+    "lon": 68.4233,
+    "region": "central-asia",
+    "importance": 4,
+    "people": [
+      "person-al-biruni"
+    ],
+    "sources": [
+      {
+        "title": "Britannica: al-Biruni",
+        "url": "https://www.britannica.com/biography/al-Biruni"
+      },
+      {
+        "title": "Encyclopaedia Iranica: BĪRŪNĪ, ABŪ RAYḤĀN",
+        "url": "https://www.iranicaonline.org/articles/biruni-abu-rayhan-index"
+      },
+      {
+        "title": "Wikipedia: India (Al-Biruni)",
+        "url": "https://en.wikipedia.org/wiki/India_(Al-Biruni)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata gives 1017, the year al-Biruni reached Ghazni; the book was completed c. 1030, shortly after Mahmud's death."
+  },
+  {
+    "id": "ev-sputnik-1",
+    "qid": "Q80811",
+    "type": "science",
+    "year": 1957,
+    "date": "1957-10-04",
+    "name": {
+      "en": "Sputnik 1 launched",
+      "zh": "斯普特尼克1号发射"
+    },
+    "summary": {
+      "en": "An R-7 rocket launched from the Soviet test range at Tyuratam (later Baikonur) in Kazakhstan put Sputnik 1, the first artificial satellite, into orbit. Its radio beeps, picked up around the world, opened the Space Age and spurred the United States to create NASA.",
+      "zh": "一枚R-7火箭从苏联位于哈萨克斯坦秋拉塔姆（后称拜科努尔）的试验场升空，将第一颗人造地球卫星斯普特尼克1号送入轨道。它发出的无线电信号被世界各地接收，开启了太空时代，并促使美国成立国家航空航天局。"
+    },
+    "lat": 45.92,
+    "lon": 63.342,
+    "region": "central-asia",
+    "importance": 5,
+    "polities": [
+      "polity-soviet-union"
+    ],
+    "sources": [
+      {
+        "title": "NASA History: Sputnik and the Origins of the Space Age",
+        "url": "https://www.nasa.gov/history/sputnik/"
+      },
+      {
+        "title": "Britannica: Sputnik",
+        "url": "https://www.britannica.com/technology/Sputnik"
+      },
+      {
+        "title": "Wikipedia: Sputnik 1",
+        "url": "https://en.wikipedia.org/wiki/Sputnik_1"
+      }
+    ],
+    "confidence": "high",
+    "note": "Marker at Site 1 (\"Gagarin's Start\") of the Baikonur Cosmodrome."
+  },
+  {
+    "id": "ev-buddhas-of-bamiyan",
+    "qid": "Q484458",
+    "type": "religious",
+    "year": 570,
+    "endYear": 618,
+    "name": {
+      "en": "Buddhas of Bamiyan carved",
+      "zh": "巴米扬大佛开凿"
+    },
+    "summary": {
+      "en": "Monks and patrons in the Bamiyan valley carved two colossal standing Buddhas, about 38 and 55 metres high, into the cliff in the 6th and early 7th centuries; Xuanzang described them around 630. The Taliban blew them up in March 2001; the valley is a UNESCO World Heritage site.",
+      "zh": "巴米扬河谷的僧侣和施主于6世纪至7世纪初在崖壁上凿出两尊高约38米和55米的巨型立佛，约630年玄奘曾记述其盛况。2001年3月，两尊大佛被塔利班炸毁；该河谷现为世界遗产。"
+    },
+    "lat": 34.832,
+    "lon": 67.8268,
+    "region": "central-asia",
+    "importance": 4,
+    "people": [
+      "person-xuanzang"
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre: Cultural Landscape and Archaeological Remains of the Bamiyan Valley",
+        "url": "https://whc.unesco.org/en/list/208"
+      },
+      {
+        "title": "Britannica: Bamiyan",
+        "url": "https://www.britannica.com/place/Bamiyan"
+      },
+      {
+        "title": "Wikipedia: Buddhas of Bamiyan",
+        "url": "https://en.wikipedia.org/wiki/Buddhas_of_Bamiyan"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Radiocarbon dates: eastern (38 m) Buddha c. 544–595, western (55 m) c. 591–644; the span shown is approximate."
+  },
+  {
+    "id": "ev-chuy-valley-plague",
+    "type": "disaster",
+    "year": 1338,
+    "endYear": 1339,
+    "name": {
+      "en": "Plague in the Chüy Valley",
+      "zh": "楚河谷鼠疫"
+    },
+    "summary": {
+      "en": "Syriac gravestones of a Church of the East community near Lake Issyk-Kul record a spike in deaths in 1338–39, some from 'pestilence'. In 2022 ancient DNA from these burials identified Yersinia pestis ancestral to the Black Death strains, pointing to this region as a source shortly before the plague reached Europe.",
+      "zh": "伊塞克湖附近景教社群的叙利亚文墓碑记录了1338至1339年死亡人数的激增，部分碑文称死于“瘟疫”。2022年对这些墓葬的古DNA研究鉴定出鼠疫耶尔森菌，属于黑死病菌株的直系祖先，表明此地是黑死病传入欧洲前不久的源头之一。"
+    },
+    "lat": 42.7469,
+    "lon": 75.2486,
+    "region": "central-asia",
+    "importance": 4,
+    "polities": [
+      "polity-chagatai-khanate"
+    ],
+    "sources": [
+      {
+        "title": "M. A. Spyrou et al., \"The source of the Black Death in fourteenth-century central Eurasia\", Nature 606 (2022)",
+        "url": "https://doi.org/10.1038/s41586-022-04800-3"
+      },
+      {
+        "title": "Wikipedia: Black Death",
+        "url": "https://en.wikipedia.org/wiki/Black_Death"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Marker at Burana, one of the two cemeteries (with Kara-Djigach near Bishkek) sampled in the 2022 study. Whether the outbreak spread widely from here is debated. No Wikidata item exists for the event."
   }
 ]

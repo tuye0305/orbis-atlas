@@ -70,5 +70,13 @@
       "Encyclopaedia Iranica: Hephthalites (A. D. H. Bivar)",
       "Cambridge History of Early Inner Asia (1990), ch. 6"
     ]
+  },
+  "ev-al-biruni-india:year": {
+    "verdict": "keep-ours",
+    "reason": "The Tahqiq ma li-l-Hind was composed c. 1030 (Encyclopedia.com/DSB; Britannica topic entry). Wikidata's 1017 is the year al-Biruni was taken to Ghazni, not the date of the book.",
+    "checked": [
+      "https://encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/biruni-al",
+      "https://www.britannica.com/topic/Tahqiq-ma-li-l-hind-min-maqulah-maqbulah-fi-al-aql-aw-mardhulah (via search)"
+    ]
   }
 }
