@@ -7,7 +7,7 @@ import { prefersReducedMotion, useStore } from './state/store';
 import type { Atlas, Selection } from './types';
 import { DetailCard } from './ui/DetailCard';
 import { Drawer } from './ui/Drawer';
-import { framedTarget } from './ui/framing';
+import { framedTarget, freeArea } from './ui/framing';
 import { HoverTip } from './ui/HoverTip';
 import { Intro, type LoadError } from './ui/Intro';
 import Search from './ui/Search';
@@ -91,6 +91,11 @@ export default function App() {
             },
             onSelect: (sel) => useStore.getState().select(sel),
             onHoverBorder: (name) => useStore.getState().set({ hoverBorder: name }),
+            focusPoint: () => {
+              const sel = useStore.getState().selection;
+              const a = freeArea(!!sel && sel.kind !== 'border');
+              return { x: (a.left + a.right) / 2, y: (a.top + a.bottom) / 2 };
+            },
             onReady: () => {
               setGlobeReady(true);
               loadMusic();

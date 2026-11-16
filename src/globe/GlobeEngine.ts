@@ -30,6 +30,11 @@ export interface EngineCallbacks {
   onSelect: (s: Selection) => void;
   onHoverBorder: (name: { en: string; zh: string } | null) => void;
   onReady: () => void;
+  /**
+   * Screen point (client px) the user is actually looking at, e.g. the centre of the area no panel
+   * covers. Region tracking probes the globe there; without it, the camera's sub-point is used.
+   */
+  focusPoint?: () => { x: number; y: number } | null;
 }
 
 type MarkerKind = 'event' | 'person' | 'place' | 'label' | 'stop';
@@ -993,7 +998,10 @@ export class GlobeEngine {
 
   private trackRegion() {
     const g = this.cameraGeo();
-    const r = regionAt(g.lat, g.lon);
+    // The camera aims off-target so panels don't cover it; judge the region where the user looks.
+    const p = this.cb.focusPoint?.();
+    const look = (p && this.geoAt(p.x, p.y)) || g;
+    const r = regionAt(look.lat, look.lon);
     const now = performance.now();
     if (r !== this.regionCandidate.r) this.regionCandidate = { r, since: now };
     if (r !== this.region && now - this.regionCandidate.since > 600) {
