@@ -1,0 +1,2681 @@
+[
+ {
+  "key": "ev-yellow-turban-rebellion:coord",
+  "id": "ev-yellow-turban-rebellion",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   37.201,
+   115.001
+  ],
+  "wikidata": [
+   34.8781,
+   113.0836
+  ],
+  "qid": "Q751743",
+  "km": 311,
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-guandu:coord",
+  "id": "ev-battle-of-guandu",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   34.751,
+   114.001
+  ],
+  "wikidata": [
+   34.9072,
+   114.6203
+  ],
+  "qid": "Q1057910",
+  "km": 59,
+  "resolution": null
+ },
+ {
+  "key": "ev-zhuge-liang-northern-expeditions:coord",
+  "id": "ev-zhuge-liang-northern-expeditions",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   34.33,
+   105.32
+  ],
+  "wikidata": [
+   38,
+   102
+  ],
+  "qid": "Q1198171",
+  "km": 505,
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-fei-river:coord",
+  "id": "ev-battle-of-fei-river",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   32.581,
+   116.781
+  ],
+  "wikidata": [
+   31.7361,
+   116.52
+  ],
+  "qid": "Q1333898",
+  "km": 97,
+  "resolution": null
+ },
+ {
+  "key": "ev-tang-conquest-of-eastern-turks:coord",
+  "id": "ev-tang-conquest-of-eastern-turks",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   41.201,
+   110.501
+  ],
+  "wikidata": [
+   41,
+   112
+  ],
+  "qid": "Q15911628",
+  "km": 128,
+  "resolution": null
+ },
+ {
+  "key": "ev-an-lushan-rebellion:coord",
+  "id": "ev-an-lushan-rebellion",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.88,
+   116.35
+  ],
+  "wikidata": [
+   35.8447,
+   103.4519
+  ],
+  "qid": "Q253774",
+  "km": 1216,
+  "resolution": null
+ },
+ {
+  "key": "ev-huang-chao-rebellion:coord",
+  "id": "ev-huang-chao-rebellion",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.201,
+   115.501
+  ],
+  "wikidata": [
+   34.3083,
+   108.8583
+  ],
+  "qid": "Q620621",
+  "km": 615,
+  "resolution": null
+ },
+ {
+  "key": "ev-treaty-of-shaoxing:coord",
+  "id": "ev-treaty-of-shaoxing",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.201,
+   116.501
+  ],
+  "wikidata": [
+   30,
+   120.5833
+  ],
+  "qid": "Q842316",
+  "km": 525,
+  "resolution": null
+ },
+ {
+  "key": "ev-red-turban-rebellion:coord",
+  "id": "ev-red-turban-rebellion",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   32.901,
+   115.801
+  ],
+  "wikidata": [
+   33.4289,
+   91.1825
+  ],
+  "qid": "Q112524",
+  "km": 2287,
+  "resolution": null
+ },
+ {
+  "key": "ev-founding-of-ming:coord",
+  "id": "ev-founding-of-ming",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   32.061,
+   118.801
+  ],
+  "wikidata": [
+   32.8,
+   103.0833
+  ],
+  "qid": "Q9903",
+  "km": 1476,
+  "resolution": null
+ },
+ {
+  "key": "ev-jingnan-campaign:coord",
+  "id": "ev-jingnan-campaign",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.901,
+   116.401
+  ],
+  "wikidata": [
+   36.58,
+   117.16
+  ],
+  "qid": "Q1207697",
+  "km": 375,
+  "resolution": null
+ },
+ {
+  "key": "ev-revolt-of-three-feudatories:year",
+  "id": "ev-revolt-of-three-feudatories",
+  "dataset": "china",
+  "kind": "events",
+  "field": "year",
+  "ours": 1673,
+  "wikidata": 1681,
+  "qid": "Q112501",
+  "resolution": null
+ },
+ {
+  "key": "ev-revolt-of-three-feudatories:coord",
+  "id": "ev-revolt-of-three-feudatories",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   25.051,
+   102.701
+  ],
+  "wikidata": [
+   35.8447,
+   103.4519
+  ],
+  "qid": "Q112501",
+  "km": 1202,
+  "resolution": null
+ },
+ {
+  "key": "ev-first-opium-war:coord",
+  "id": "ev-first-opium-war",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   22.801,
+   113.651
+  ],
+  "wikidata": [
+   35.8447,
+   103.4519
+  ],
+  "qid": "Q191282",
+  "km": 1753,
+  "resolution": null
+ },
+ {
+  "key": "ev-second-opium-war:coord",
+  "id": "ev-second-opium-war",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   40.008,
+   116.301
+  ],
+  "wikidata": [
+   38,
+   103
+  ],
+  "qid": "Q418151",
+  "km": 1170,
+  "resolution": null
+ },
+ {
+  "key": "ev-first-sino-japanese-war:coord",
+  "id": "ev-first-sino-japanese-war",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.651,
+   123.601
+  ],
+  "wikidata": [
+   37.58,
+   126.9775
+  ],
+  "qid": "Q178687",
+  "km": 373,
+  "resolution": null
+ },
+ {
+  "key": "ev-boxer-rebellion:coord",
+  "id": "ev-boxer-rebellion",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.9,
+   116.4
+  ],
+  "wikidata": [
+   41.4,
+   105.1
+  ],
+  "qid": "Q150229",
+  "km": 967,
+  "resolution": null
+ },
+ {
+  "key": "ev-xinhai-revolution:coord",
+  "id": "ev-xinhai-revolution",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   32.061,
+   118.801
+  ],
+  "wikidata": [
+   38,
+   103
+  ],
+  "qid": "Q190517",
+  "km": 1580,
+  "resolution": null
+ },
+ {
+  "key": "ev-northern-expedition:year",
+  "id": "ev-northern-expedition",
+  "dataset": "china",
+  "kind": "events",
+  "field": "year",
+  "ours": 1926,
+  "wikidata": 1928,
+  "qid": "Q1073476",
+  "resolution": null
+ },
+ {
+  "key": "ev-northern-expedition:coord",
+  "id": "ev-northern-expedition",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   23.131,
+   113.261
+  ],
+  "wikidata": [
+   35.8447,
+   103.4519
+  ],
+  "qid": "Q1073476",
+  "km": 1701,
+  "resolution": null
+ },
+ {
+  "key": "ev-long-march:coord",
+  "id": "ev-long-march",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   27.701,
+   106.921
+  ],
+  "wikidata": [
+   35.8447,
+   103.4519
+  ],
+  "qid": "Q46333",
+  "km": 963,
+  "resolution": null
+ },
+ {
+  "key": "ev-retrocession-of-taiwan:coord",
+  "id": "ev-retrocession-of-taiwan",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   25.04,
+   121.51
+  ],
+  "wikidata": [
+   23.7667,
+   121
+  ],
+  "qid": "Q13578439",
+  "km": 151,
+  "resolution": null
+ },
+ {
+  "key": "ev-huaihai-campaign:coord",
+  "id": "ev-huaihai-campaign",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   34.261,
+   117.201
+  ],
+  "wikidata": [
+   36.4,
+   118.4
+  ],
+  "qid": "Q372153",
+  "km": 262,
+  "resolution": null
+ },
+ {
+  "key": "ev-first-chinese-nuclear-test:coord",
+  "id": "ev-first-chinese-nuclear-test",
+  "dataset": "china",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   40.801,
+   89.901
+  ],
+  "wikidata": [
+   42.583,
+   88.5
+  ],
+  "qid": "Q2420139",
+  "km": 230,
+  "resolution": null
+ },
+ {
+  "key": "person-wang-xizhi:born",
+  "id": "person-wang-xizhi",
+  "dataset": "china",
+  "kind": "people",
+  "field": "born",
+  "ours": 303,
+  "wikidata": 321,
+  "qid": "Q378564",
+  "resolution": null
+ },
+ {
+  "key": "polity-eastern-wu:from",
+  "id": "polity-eastern-wu",
+  "dataset": "china",
+  "kind": "polities",
+  "field": "from",
+  "ours": 222,
+  "wikidata": 229,
+  "qid": "Q274488",
+  "resolution": null
+ },
+ {
+  "key": "polity-liang:to",
+  "id": "polity-liang",
+  "dataset": "china",
+  "kind": "polities",
+  "field": "to",
+  "ours": 557,
+  "wikidata": 587,
+  "qid": "Q1069868",
+  "resolution": null
+ },
+ {
+  "key": "ev-dedication-of-hagia-sophia:year",
+  "id": "ev-dedication-of-hagia-sophia",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 537,
+  "wikidata": 532,
+  "qid": "Q12506",
+  "resolution": null
+ },
+ {
+  "key": "ev-plague-of-justinian:endYear",
+  "id": "ev-plague-of-justinian",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "endYear",
+  "ours": 549,
+  "wikidata": 750,
+  "qid": "Q821711",
+  "resolution": null
+ },
+ {
+  "key": "ev-umayyad-conquest-of-hispania:coord",
+  "id": "ev-umayyad-conquest-of-hispania",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   36.6,
+   -6.2167
+  ],
+  "wikidata": [
+   40.24,
+   -4.2392
+  ],
+  "qid": "Q1455917",
+  "km": 440,
+  "resolution": null
+ },
+ {
+  "key": "ev-first-crusade:coord",
+  "id": "ev-first-crusade",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   45.7772,
+   3.087
+  ],
+  "wikidata": [
+   34,
+   36
+  ],
+  "qid": "Q51649",
+  "km": 3070,
+  "resolution": null
+ },
+ {
+  "key": "ev-hundred-years-war:coord",
+  "id": "ev-hundred-years-war",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   47.9029,
+   1.9093
+  ],
+  "wikidata": [
+   47,
+   2
+  ],
+  "qid": "Q12551",
+  "km": 101,
+  "resolution": null
+ },
+ {
+  "key": "ev-black-death:coord",
+  "id": "ev-black-death",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.1938,
+   15.554
+  ],
+  "wikidata": [
+   35,
+   108
+  ],
+  "qid": "Q42005",
+  "km": 7884,
+  "resolution": null
+ },
+ {
+  "key": "ev-fall-of-granada:coord",
+  "id": "ev-fall-of-granada",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   37.1773,
+   -3.5986
+  ],
+  "wikidata": [
+   40.4175,
+   -3.715
+  ],
+  "qid": "Q1552718",
+  "km": 360,
+  "resolution": null
+ },
+ {
+  "key": "ev-columbus-first-voyage:endYear",
+  "id": "ev-columbus-first-voyage",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "endYear",
+  "ours": 1493,
+  "wikidata": 1504,
+  "qid": "Q18578423",
+  "resolution": null
+ },
+ {
+  "key": "ev-columbus-first-voyage:coord",
+  "id": "ev-columbus-first-voyage",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   37.2275,
+   -6.8936
+  ],
+  "wikidata": [
+   15,
+   -75
+  ],
+  "qid": "Q18578423",
+  "km": 7081,
+  "resolution": null
+ },
+ {
+  "key": "ev-thirty-years-war:coord",
+  "id": "ev-thirty-years-war",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   50.0905,
+   14.4005
+  ],
+  "wikidata": [
+   51,
+   10
+  ],
+  "qid": "Q2487",
+  "km": 327,
+  "resolution": null
+ },
+ {
+  "key": "ev-trial-of-galileo:year",
+  "id": "ev-trial-of-galileo",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 1633,
+  "wikidata": 1610,
+  "qid": "Q2517983",
+  "resolution": null
+ },
+ {
+  "key": "ev-principia:year",
+  "id": "ev-principia",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 1687,
+  "wikidata": 1680,
+  "qid": "Q205921",
+  "resolution": null
+ },
+ {
+  "key": "ev-lisbon-earthquake-1755:coord",
+  "id": "ev-lisbon-earthquake-1755",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.7139,
+   -9.1394
+  ],
+  "wikidata": [
+   36,
+   -11
+  ],
+  "qid": "Q191055",
+  "km": 344,
+  "resolution": null
+ },
+ {
+  "key": "ev-french-revolution:coord",
+  "id": "ev-french-revolution",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   48.8532,
+   2.3692
+  ],
+  "wikidata": [
+   47,
+   2
+  ],
+  "qid": "Q6534",
+  "km": 208,
+  "resolution": null
+ },
+ {
+  "key": "ev-french-invasion-of-russia:coord",
+  "id": "ev-french-invasion-of-russia",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   55.5167,
+   35.8167
+  ],
+  "wikidata": [
+   58.65,
+   70.1167
+  ],
+  "qid": "Q179250",
+  "km": 2078,
+  "resolution": null
+ },
+ {
+  "key": "ev-revolutions-of-1848:coord",
+  "id": "ev-revolutions-of-1848",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   48.8566,
+   2.3522
+  ],
+  "wikidata": [
+   53.5,
+   15.5
+  ],
+  "qid": "Q3588",
+  "km": 1050,
+  "resolution": null
+ },
+ {
+  "key": "ev-unification-of-italy:year",
+  "id": "ev-unification-of-italy",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 1861,
+  "wikidata": 1815,
+  "qid": "Q51122",
+  "resolution": null
+ },
+ {
+  "key": "ev-unification-of-italy:coord",
+  "id": "ev-unification-of-italy",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   45.0703,
+   7.6869
+  ],
+  "wikidata": [
+   42.5,
+   12.5
+  ],
+  "qid": "Q51122",
+  "km": 480,
+  "resolution": null
+ },
+ {
+  "key": "ev-world-war-i:year",
+  "id": "ev-world-war-i",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "year",
+  "ours": 1914,
+  "wikidata": 1918,
+  "qid": "Q361",
+  "resolution": null
+ },
+ {
+  "key": "ev-world-war-i:coord",
+  "id": "ev-world-war-i",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   49.16,
+   5.38
+  ],
+  "wikidata": [
+   53.5,
+   15.5
+  ],
+  "qid": "Q361",
+  "km": 852,
+  "resolution": null
+ },
+ {
+  "key": "ev-world-war-ii:coord",
+  "id": "ev-world-war-ii",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   54.4067,
+   18.6667
+  ],
+  "wikidata": [
+   66.4167,
+   94.25
+  ],
+  "qid": "Q362",
+  "km": 4065,
+  "resolution": null
+ },
+ {
+  "key": "ev-eastern-front-wwii:coord",
+  "id": "ev-eastern-front-wwii",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   52.0828,
+   23.6556
+  ],
+  "wikidata": [
+   65,
+   90
+  ],
+  "qid": "Q189266",
+  "km": 3891,
+  "resolution": null
+ },
+ {
+  "key": "ev-dissolution-of-the-soviet-union:coord",
+  "id": "ev-dissolution-of-the-soviet-union",
+  "dataset": "europe",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   55.752,
+   37.6175
+  ],
+  "wikidata": [
+   65,
+   90
+  ],
+  "qid": "Q5167679",
+  "km": 2955,
+  "resolution": null
+ },
+ {
+  "key": "ev-goguryeo-tang-war:coord",
+  "id": "ev-goguryeo-tang-war",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.0167,
+   125.7475
+  ],
+  "wikidata": [
+   40,
+   122.5
+  ],
+  "qid": "Q703179",
+  "km": 299,
+  "resolution": null
+ },
+ {
+  "key": "ev-silla-tang-war:coord",
+  "id": "ev-silla-tang-war",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   37.95,
+   127.05
+  ],
+  "wikidata": [
+   37.5,
+   127
+  ],
+  "qid": "Q710709",
+  "km": 50,
+  "resolution": null
+ },
+ {
+  "key": "ev-mongol-invasions-of-korea:coord",
+  "id": "ev-mongol-invasions-of-korea",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   37.747,
+   126.486
+  ],
+  "wikidata": [
+   37.5,
+   127
+  ],
+  "qid": "Q702266",
+  "km": 53,
+  "resolution": null
+ },
+ {
+  "key": "ev-genpei-war:coord",
+  "id": "ev-genpei-war",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.9651,
+   130.9566
+  ],
+  "wikidata": [
+   35,
+   136
+  ],
+  "qid": "Q737542",
+  "km": 476,
+  "resolution": null
+ },
+ {
+  "key": "ev-mongol-invasions-of-japan:coord",
+  "id": "ev-mongol-invasions-of-japan",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.618,
+   130.333
+  ],
+  "wikidata": [
+   33.358,
+   130.825
+  ],
+  "qid": "Q208156",
+  "km": 54,
+  "resolution": null
+ },
+ {
+  "key": "ev-jikji:coord",
+  "id": "ev-jikji",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   36.6424,
+   127.4703
+  ],
+  "wikidata": [
+   48.8336,
+   2.3758
+  ],
+  "qid": "Q494611",
+  "km": 9076,
+  "resolution": null
+ },
+ {
+  "key": "ev-founding-of-joseon:coord",
+  "id": "ev-founding-of-joseon",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   37.9717,
+   126.5528
+  ],
+  "wikidata": [
+   37.58,
+   126.9775
+  ],
+  "qid": "Q28179",
+  "km": 57,
+  "resolution": null
+ },
+ {
+  "key": "ev-imjin-war:coord",
+  "id": "ev-imjin-war",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.1,
+   129.04
+  ],
+  "wikidata": [
+   37.5,
+   127
+  ],
+  "qid": "Q576338",
+  "km": 323,
+  "resolution": null
+ },
+ {
+  "key": "ev-donghak-peasant-revolution:coord",
+  "id": "ev-donghak-peasant-revolution",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.6,
+   126.85
+  ],
+  "wikidata": [
+   37.5,
+   127
+  ],
+  "qid": "Q701045",
+  "km": 212,
+  "resolution": null
+ },
+ {
+  "key": "ev-russo-japanese-war:coord",
+  "id": "ev-russo-japanese-war",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.81,
+   121.26
+  ],
+  "wikidata": [
+   45,
+   125
+  ],
+  "qid": "Q159950",
+  "km": 754,
+  "resolution": null
+ },
+ {
+  "key": "ev-korean-war:coord",
+  "id": "ev-korean-war",
+  "dataset": "japan-korea",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   37.9611,
+   126.6645
+  ],
+  "wikidata": [
+   34.5994,
+   129.7967
+  ],
+  "qid": "Q8663",
+  "km": 467,
+  "resolution": null
+ },
+ {
+  "key": "polity-silla:to",
+  "id": "polity-silla",
+  "dataset": "japan-korea",
+  "kind": "polities",
+  "field": "to",
+  "ours": 935,
+  "wikidata": 892,
+  "qid": "Q28456",
+  "resolution": null
+ },
+ {
+  "key": "ev-gupta-era-begins:year",
+  "id": "ev-gupta-era-begins",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 320,
+  "wikidata": 318,
+  "qid": "Q28174068",
+  "resolution": null
+ },
+ {
+  "key": "ev-xuanzang-in-india:year",
+  "id": "ev-xuanzang-in-india",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 630,
+  "wikidata": 646,
+  "qid": "Q1146069",
+  "resolution": null
+ },
+ {
+  "key": "ev-chola-expedition-srivijaya:coord",
+  "id": "ev-chola-expedition-srivijaya",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   5.72,
+   100.41
+  ],
+  "wikidata": [
+   -2.9833,
+   104.7644
+  ],
+  "qid": "Q16957926",
+  "km": 1082,
+  "resolution": null
+ },
+ {
+  "key": "ev-anglo-mysore-wars:coord",
+  "id": "ev-anglo-mysore-wars",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   12.4244,
+   76.6903
+  ],
+  "wikidata": [
+   13,
+   77
+  ],
+  "qid": "Q617321",
+  "km": 72,
+  "resolution": null
+ },
+ {
+  "key": "ev-second-anglo-sikh-war:coord",
+  "id": "ev-second-anglo-sikh-war",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   32.5742,
+   74.0789
+  ],
+  "wikidata": [
+   31,
+   74
+  ],
+  "qid": "Q243590",
+  "km": 175,
+  "resolution": null
+ },
+ {
+  "key": "ev-independence-and-partition-1947:coord",
+  "id": "ev-independence-and-partition-1947",
+  "dataset": "south-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   28.6129,
+   77.2295
+  ],
+  "wikidata": [
+   22.5411,
+   88.3378
+  ],
+  "qid": "Q129053",
+  "km": 1302,
+  "resolution": null
+ },
+ {
+  "key": "person-kanishka:born",
+  "id": "person-kanishka",
+  "dataset": "south-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 100,
+  "wikidata": 78,
+  "qid": "Q312544",
+  "resolution": null
+ },
+ {
+  "key": "person-kanishka:died",
+  "id": "person-kanishka",
+  "dataset": "south-asia",
+  "kind": "people",
+  "field": "died",
+  "ours": 150,
+  "wikidata": 144,
+  "qid": "Q312544",
+  "resolution": null
+ },
+ {
+  "key": "person-shivaji:born",
+  "id": "person-shivaji",
+  "dataset": "south-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 1630,
+  "wikidata": 1627,
+  "qid": "Q239505",
+  "resolution": null
+ },
+ {
+  "key": "polity-sikh-empire:from",
+  "id": "polity-sikh-empire",
+  "dataset": "south-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1799,
+  "wikidata": 1733,
+  "qid": "Q83572",
+  "resolution": null
+ },
+ {
+  "key": "polity-sri-lanka:from",
+  "id": "polity-sri-lanka",
+  "dataset": "south-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1948,
+  "wikidata": 1972,
+  "qid": "Q854",
+  "resolution": null
+ },
+ {
+  "key": "ev-kedukan-bukit-inscription:coord",
+  "id": "ev-kedukan-bukit-inscription",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -2.99,
+   104.76
+  ],
+  "wikidata": [
+   -6.1761,
+   106.8217
+  ],
+  "qid": "Q6382635",
+  "km": 422,
+  "resolution": null
+ },
+ {
+  "key": "ev-prambanan:year",
+  "id": "ev-prambanan",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 856,
+  "wikidata": 850,
+  "qid": "Q47721",
+  "resolution": null
+ },
+ {
+  "key": "ev-fall-of-ayutthaya:coord",
+  "id": "ev-fall-of-ayutthaya",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   14.3532,
+   100.5689
+  ],
+  "wikidata": [
+   13,
+   98.75
+  ],
+  "qid": "Q31307",
+  "km": 248,
+  "resolution": null
+ },
+ {
+  "key": "ev-philippine-revolution:coord",
+  "id": "ev-philippine-revolution",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   14.66,
+   121.02
+  ],
+  "wikidata": [
+   12,
+   123
+  ],
+  "qid": "Q422082",
+  "km": 365,
+  "resolution": null
+ },
+ {
+  "key": "ev-vietnam-war:year",
+  "id": "ev-vietnam-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1955,
+  "wikidata": 1975,
+  "qid": "Q8740",
+  "resolution": null
+ },
+ {
+  "key": "ev-vietnam-war:coord",
+  "id": "ev-vietnam-war",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   16.4637,
+   107.5909
+  ],
+  "wikidata": [
+   18.2,
+   104.1
+  ],
+  "qid": "Q8740",
+  "km": 418,
+  "resolution": null
+ },
+ {
+  "key": "ev-cambodian-genocide:coord",
+  "id": "ev-cambodian-genocide",
+  "dataset": "southeast-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   11.4847,
+   104.902
+  ],
+  "wikidata": [
+   12.25,
+   105.6
+  ],
+  "qid": "Q2885072",
+  "km": 114,
+  "resolution": null
+ },
+ {
+  "key": "polity-toungoo:from",
+  "id": "polity-toungoo",
+  "dataset": "southeast-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1510,
+  "wikidata": 1485,
+  "qid": "Q519718",
+  "resolution": null
+ },
+ {
+  "key": "ev-siege-of-jerusalem-70:qid",
+  "id": "ev-siege-of-jerusalem-70",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q844886",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q844886",
+  "resolution": null
+ },
+ {
+  "key": "ev-bar-kokhba-revolt:qid",
+  "id": "ev-bar-kokhba-revolt",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q334502",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q334502",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-hormozdgan:qid",
+  "id": "ev-battle-of-hormozdgan",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q2887977",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q2887977",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-edessa:qid",
+  "id": "ev-battle-of-edessa",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q1165502",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q1165502",
+  "resolution": null
+ },
+ {
+  "key": "ev-christianization-of-armenia:qid",
+  "id": "ev-christianization-of-armenia",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q16402123",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q16402123",
+  "resolution": null
+ },
+ {
+  "key": "ev-first-council-of-nicaea:qid",
+  "id": "ev-first-council-of-nicaea",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q133331",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q133331",
+  "resolution": null
+ },
+ {
+  "key": "ev-armenian-alphabet:qid",
+  "id": "ev-armenian-alphabet",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q11932",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q11932",
+  "resolution": null
+ },
+ {
+  "key": "ev-council-of-chalcedon:qid",
+  "id": "ev-council-of-chalcedon",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q170531",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q170531",
+  "resolution": null
+ },
+ {
+  "key": "ev-antioch-earthquake-526:qid",
+  "id": "ev-antioch-earthquake-526",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q541723",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q541723",
+  "resolution": null
+ },
+ {
+  "key": "ev-byzantine-sasanian-war-602:qid",
+  "id": "ev-byzantine-sasanian-war-602",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q2326099",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q2326099",
+  "resolution": null
+ },
+ {
+  "key": "ev-first-revelation:qid",
+  "id": "ev-first-revelation",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q4115424",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q4115424",
+  "resolution": null
+ },
+ {
+  "key": "ev-hijra:qid",
+  "id": "ev-hijra",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q131482",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q131482",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-badr:qid",
+  "id": "ev-battle-of-badr",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q486124",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q486124",
+  "resolution": null
+ },
+ {
+  "key": "ev-conquest-of-mecca:qid",
+  "id": "ev-conquest-of-mecca",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q2092033",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q2092033",
+  "resolution": null
+ },
+ {
+  "key": "ev-early-muslim-conquests:qid",
+  "id": "ev-early-muslim-conquests",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q275918",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q275918",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-yarmouk:qid",
+  "id": "ev-battle-of-yarmouk",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q194226",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q194226",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-qadisiyyah:qid",
+  "id": "ev-battle-of-qadisiyyah",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q836844",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q836844",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-nahavand:qid",
+  "id": "ev-battle-of-nahavand",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q603549",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q603549",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-karbala:qid",
+  "id": "ev-battle-of-karbala",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q626058",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q626058",
+  "resolution": null
+ },
+ {
+  "key": "ev-dome-of-the-rock:qid",
+  "id": "ev-dome-of-the-rock",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q172077",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q172077",
+  "resolution": null
+ },
+ {
+  "key": "ev-umayyad-mosque:qid",
+  "id": "ev-umayyad-mosque",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q183562",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q183562",
+  "resolution": null
+ },
+ {
+  "key": "ev-abbasid-revolution:qid",
+  "id": "ev-abbasid-revolution",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q5933860",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q5933860",
+  "resolution": null
+ },
+ {
+  "key": "ev-founding-of-baghdad:qid",
+  "id": "ev-founding-of-baghdad",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q1191316",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q1191316",
+  "resolution": null
+ },
+ {
+  "key": "ev-house-of-wisdom:qid",
+  "id": "ev-house-of-wisdom",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q33018",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q33018",
+  "resolution": null
+ },
+ {
+  "key": "ev-shahnameh:qid",
+  "id": "ev-shahnameh",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q8279",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q8279",
+  "resolution": null
+ },
+ {
+  "key": "ev-canon-of-medicine:qid",
+  "id": "ev-canon-of-medicine",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q466060",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q466060",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-manzikert:qid",
+  "id": "ev-battle-of-manzikert",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q200032",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q200032",
+  "resolution": null
+ },
+ {
+  "key": "ev-first-crusade:coord",
+  "id": "ev-first-crusade",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   36.2025,
+   36.1606
+  ],
+  "wikidata": [
+   34,
+   36
+  ],
+  "qid": "Q51649",
+  "km": 245,
+  "resolution": null
+ },
+ {
+  "key": "ev-siege-of-jerusalem-1099:qid",
+  "id": "ev-siege-of-jerusalem-1099",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q456993",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q456993",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-didgori:qid",
+  "id": "ev-battle-of-didgori",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q1192616",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q1192616",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-hattin:qid",
+  "id": "ev-battle-of-hattin",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q233568",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q233568",
+  "resolution": null
+ },
+ {
+  "key": "ev-hulagu-campaign:qid",
+  "id": "ev-hulagu-campaign",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q17215083",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q17215083",
+  "resolution": null
+ },
+ {
+  "key": "ev-siege-of-baghdad-1258:qid",
+  "id": "ev-siege-of-baghdad-1258",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q369560",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q369560",
+  "resolution": null
+ },
+ {
+  "key": "ev-maragheh-observatory:qid",
+  "id": "ev-maragheh-observatory",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q2461462",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q2461462",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-ain-jalut:qid",
+  "id": "ev-battle-of-ain-jalut",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q244356",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q244356",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-ankara:qid",
+  "id": "ev-battle-of-ankara",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q209387",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q209387",
+  "resolution": null
+ },
+ {
+  "key": "ev-fall-of-trebizond:qid",
+  "id": "ev-fall-of-trebizond",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q9366875",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q9366875",
+  "resolution": null
+ },
+ {
+  "key": "ev-safavid-founding:qid",
+  "id": "ev-safavid-founding",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q12849799",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q12849799",
+  "resolution": null
+ },
+ {
+  "key": "ev-battle-of-chaldiran:qid",
+  "id": "ev-battle-of-chaldiran",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q745110",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q745110",
+  "resolution": null
+ },
+ {
+  "key": "ev-ottoman-mamluk-war:qid",
+  "id": "ev-ottoman-mamluk-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q4338038",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q4338038",
+  "resolution": null
+ },
+ {
+  "key": "ev-peace-of-amasya:qid",
+  "id": "ev-peace-of-amasya",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q2119319",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q2119319",
+  "resolution": null
+ },
+ {
+  "key": "ev-isfahan-capital:qid",
+  "id": "ev-isfahan-capital",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q4519",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q4519",
+  "resolution": null
+ },
+ {
+  "key": "ev-treaty-of-zuhab:qid",
+  "id": "ev-treaty-of-zuhab",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q2060524",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q2060524",
+  "resolution": null
+ },
+ {
+  "key": "ev-treaty-of-turkmenchay:qid",
+  "id": "ev-treaty-of-turkmenchay",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q875512",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q875512",
+  "resolution": null
+ },
+ {
+  "key": "ev-persian-constitutional-revolution:qid",
+  "id": "ev-persian-constitutional-revolution",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q1368440",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q1368440",
+  "resolution": null
+ },
+ {
+  "key": "ev-oil-masjed-soleyman:qid",
+  "id": "ev-oil-masjed-soleyman",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q6556445",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q6556445",
+  "resolution": null
+ },
+ {
+  "key": "ev-young-turk-revolution:qid",
+  "id": "ev-young-turk-revolution",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q4298662",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q4298662",
+  "resolution": null
+ },
+ {
+  "key": "ev-armenian-genocide:qid",
+  "id": "ev-armenian-genocide",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q80034",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q80034",
+  "resolution": null
+ },
+ {
+  "key": "ev-gallipoli-campaign:qid",
+  "id": "ev-gallipoli-campaign",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q164983",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q164983",
+  "resolution": null
+ },
+ {
+  "key": "ev-sykes-picot:qid",
+  "id": "ev-sykes-picot",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q211674",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q211674",
+  "resolution": null
+ },
+ {
+  "key": "ev-arab-revolt:qid",
+  "id": "ev-arab-revolt",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q239060",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q239060",
+  "resolution": null
+ },
+ {
+  "key": "ev-republic-of-turkey:qid",
+  "id": "ev-republic-of-turkey",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q31187690",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q31187690",
+  "resolution": null
+ },
+ {
+  "key": "ev-saudi-arabia-1932:qid",
+  "id": "ev-saudi-arabia-1932",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q251600",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q251600",
+  "resolution": null
+ },
+ {
+  "key": "ev-dead-sea-scrolls:qid",
+  "id": "ev-dead-sea-scrolls",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q145780",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q145780",
+  "resolution": null
+ },
+ {
+  "key": "ev-israel-independence:qid",
+  "id": "ev-israel-independence",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q25487937",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q25487937",
+  "resolution": null
+ },
+ {
+  "key": "ev-opec:qid",
+  "id": "ev-opec",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q7795",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q7795",
+  "resolution": null
+ },
+ {
+  "key": "ev-1953-coup:qid",
+  "id": "ev-1953-coup",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q593774",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q593774",
+  "resolution": null
+ },
+ {
+  "key": "ev-iranian-revolution:qid",
+  "id": "ev-iranian-revolution",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q126065",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q126065",
+  "resolution": null
+ },
+ {
+  "key": "ev-iran-iraq-war:qid",
+  "id": "ev-iran-iraq-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q82664",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q82664",
+  "resolution": null
+ },
+ {
+  "key": "ev-gulf-war:qid",
+  "id": "ev-gulf-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q37643",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q37643",
+  "resolution": null
+ },
+ {
+  "key": "ev-iraq-war:qid",
+  "id": "ev-iraq-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q545449",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q545449",
+  "resolution": null
+ },
+ {
+  "key": "ev-syrian-civil-war:qid",
+  "id": "ev-syrian-civil-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q178810",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q178810",
+  "resolution": null
+ },
+ {
+  "key": "ev-2023-earthquake:qid",
+  "id": "ev-2023-earthquake",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "qid",
+  "ours": "Q116691303",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q116691303",
+  "resolution": null
+ },
+ {
+  "key": "person-jesus:qid",
+  "id": "person-jesus",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q302",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q302",
+  "resolution": null
+ },
+ {
+  "key": "person-paul-the-apostle:qid",
+  "id": "person-paul-the-apostle",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q9200",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q9200",
+  "resolution": null
+ },
+ {
+  "key": "person-zenobia:qid",
+  "id": "person-zenobia",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q189705",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q189705",
+  "resolution": null
+ },
+ {
+  "key": "person-shapur-i:qid",
+  "id": "person-shapur-i",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q191455",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q191455",
+  "resolution": null
+ },
+ {
+  "key": "person-khosrow-i:qid",
+  "id": "person-khosrow-i",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q207381",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q207381",
+  "resolution": null
+ },
+ {
+  "key": "person-muhammad:qid",
+  "id": "person-muhammad",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q9458",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q9458",
+  "resolution": null
+ },
+ {
+  "key": "person-ali-ibn-abi-talib:qid",
+  "id": "person-ali-ibn-abi-talib",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q39619",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q39619",
+  "resolution": null
+ },
+ {
+  "key": "person-harun-al-rashid:qid",
+  "id": "person-harun-al-rashid",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q131002",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q131002",
+  "resolution": null
+ },
+ {
+  "key": "person-al-khwarizmi:qid",
+  "id": "person-al-khwarizmi",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q9038",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q9038",
+  "resolution": null
+ },
+ {
+  "key": "person-ferdowsi:qid",
+  "id": "person-ferdowsi",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q43459",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q43459",
+  "resolution": null
+ },
+ {
+  "key": "person-avicenna:qid",
+  "id": "person-avicenna",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q8011",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q8011",
+  "resolution": null
+ },
+ {
+  "key": "person-al-ghazali:qid",
+  "id": "person-al-ghazali",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q9546",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q9546",
+  "resolution": null
+ },
+ {
+  "key": "person-omar-khayyam:qid",
+  "id": "person-omar-khayyam",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q35900",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q35900",
+  "resolution": null
+ },
+ {
+  "key": "person-saladin:qid",
+  "id": "person-saladin",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q8581",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q8581",
+  "resolution": null
+ },
+ {
+  "key": "person-tamar-of-georgia:qid",
+  "id": "person-tamar-of-georgia",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q244007",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q244007",
+  "resolution": null
+ },
+ {
+  "key": "person-rumi:qid",
+  "id": "person-rumi",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q43347",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q43347",
+  "resolution": null
+ },
+ {
+  "key": "person-mehmed-ii:qid",
+  "id": "person-mehmed-ii",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q34503",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q34503",
+  "resolution": null
+ },
+ {
+  "key": "person-ismail-i:qid",
+  "id": "person-ismail-i",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q214559",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q214559",
+  "resolution": null
+ },
+ {
+  "key": "person-suleiman-the-magnificent:qid",
+  "id": "person-suleiman-the-magnificent",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q8474",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q8474",
+  "resolution": null
+ },
+ {
+  "key": "person-abbas-i:qid",
+  "id": "person-abbas-i",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q171349",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q171349",
+  "resolution": null
+ },
+ {
+  "key": "person-nader-shah:qid",
+  "id": "person-nader-shah",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q192868",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q192868",
+  "resolution": null
+ },
+ {
+  "key": "person-ataturk:qid",
+  "id": "person-ataturk",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q5152",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q5152",
+  "resolution": null
+ },
+ {
+  "key": "person-gertrude-bell:qid",
+  "id": "person-gertrude-bell",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "qid",
+  "ours": "Q231360",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q231360",
+  "resolution": null
+ },
+ {
+  "key": "place-jerusalem:qid",
+  "id": "place-jerusalem",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q1218",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q1218",
+  "resolution": null
+ },
+ {
+  "key": "place-baghdad:qid",
+  "id": "place-baghdad",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q1530",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q1530",
+  "resolution": null
+ },
+ {
+  "key": "place-isfahan:qid",
+  "id": "place-isfahan",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q42053",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q42053",
+  "resolution": null
+ },
+ {
+  "key": "place-tbilisi:qid",
+  "id": "place-tbilisi",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q994",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q994",
+  "resolution": null
+ },
+ {
+  "key": "place-ankara:qid",
+  "id": "place-ankara",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q3640",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q3640",
+  "resolution": null
+ },
+ {
+  "key": "place-izmir:qid",
+  "id": "place-izmir",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q35997",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q35997",
+  "resolution": null
+ },
+ {
+  "key": "place-trabzon:qid",
+  "id": "place-trabzon",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q45301",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q45301",
+  "resolution": null
+ },
+ {
+  "key": "place-antakya:qid",
+  "id": "place-antakya",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q80561",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q80561",
+  "resolution": null
+ },
+ {
+  "key": "place-urfa:qid",
+  "id": "place-urfa",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q133118",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q133118",
+  "resolution": null
+ },
+ {
+  "key": "place-mosul:qid",
+  "id": "place-mosul",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q83317",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q83317",
+  "resolution": null
+ },
+ {
+  "key": "place-tehran:qid",
+  "id": "place-tehran",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q3616",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q3616",
+  "resolution": null
+ },
+ {
+  "key": "place-ctesiphon:qid",
+  "id": "place-ctesiphon",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q192541",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q192541",
+  "resolution": null
+ },
+ {
+  "key": "place-damascus:qid",
+  "id": "place-damascus",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q3766",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q3766",
+  "resolution": null
+ },
+ {
+  "key": "place-mecca:qid",
+  "id": "place-mecca",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q5806",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q5806",
+  "resolution": null
+ },
+ {
+  "key": "place-yerevan:qid",
+  "id": "place-yerevan",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q1953",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q1953",
+  "resolution": null
+ },
+ {
+  "key": "place-iznik:qid",
+  "id": "place-iznik",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q217125",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q217125",
+  "resolution": null
+ },
+ {
+  "key": "place-tabriz:qid",
+  "id": "place-tabriz",
+  "dataset": "west-asia",
+  "kind": "places",
+  "field": "qid",
+  "ours": "Q80053",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q80053",
+  "resolution": null
+ },
+ {
+  "key": "polity-parthian:qid",
+  "id": "polity-parthian",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q1986139",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q1986139",
+  "resolution": null
+ },
+ {
+  "key": "polity-arsacid-armenia:qid",
+  "id": "polity-arsacid-armenia",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q704151",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q704151",
+  "resolution": null
+ },
+ {
+  "key": "polity-palmyrene:qid",
+  "id": "polity-palmyrene",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q877875",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q877875",
+  "resolution": null
+ },
+ {
+  "key": "polity-sasanian:qid",
+  "id": "polity-sasanian",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q83891",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q83891",
+  "resolution": null
+ },
+ {
+  "key": "polity-rashidun:qid",
+  "id": "polity-rashidun",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q12490507",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q12490507",
+  "resolution": null
+ },
+ {
+  "key": "polity-umayyad:qid",
+  "id": "polity-umayyad",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q8575586",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q8575586",
+  "resolution": null
+ },
+ {
+  "key": "polity-abbasid:qid",
+  "id": "polity-abbasid",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q12536",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q12536",
+  "resolution": null
+ },
+ {
+  "key": "polity-great-seljuk:qid",
+  "id": "polity-great-seljuk",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q3708094",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q3708094",
+  "resolution": null
+ },
+ {
+  "key": "polity-rum-seljuk:qid",
+  "id": "polity-rum-seljuk",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q975405",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q975405",
+  "resolution": null
+ },
+ {
+  "key": "polity-kingdom-of-georgia:qid",
+  "id": "polity-kingdom-of-georgia",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q154667",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q154667",
+  "resolution": null
+ },
+ {
+  "key": "polity-kingdom-of-jerusalem:qid",
+  "id": "polity-kingdom-of-jerusalem",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q55502",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q55502",
+  "resolution": null
+ },
+ {
+  "key": "polity-cilician-armenia:qid",
+  "id": "polity-cilician-armenia",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q335088",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q335088",
+  "resolution": null
+ },
+ {
+  "key": "polity-ayyubid:qid",
+  "id": "polity-ayyubid",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q180114",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q180114",
+  "resolution": null
+ },
+ {
+  "key": "polity-ilkhanate:qid",
+  "id": "polity-ilkhanate",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q178084",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q178084",
+  "resolution": null
+ },
+ {
+  "key": "polity-ottoman:qid",
+  "id": "polity-ottoman",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q12560",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q12560",
+  "resolution": null
+ },
+ {
+  "key": "polity-safavid:qid",
+  "id": "polity-safavid",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q18234383",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q18234383",
+  "resolution": null
+ },
+ {
+  "key": "polity-afsharid:qid",
+  "id": "polity-afsharid",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q388739",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q388739",
+  "resolution": null
+ },
+ {
+  "key": "polity-qajar:qid",
+  "id": "polity-qajar",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q63158027",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q63158027",
+  "resolution": null
+ },
+ {
+  "key": "polity-pahlavi:qid",
+  "id": "polity-pahlavi",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q107258515",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q107258515",
+  "resolution": null
+ },
+ {
+  "key": "polity-turkey:qid",
+  "id": "polity-turkey",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q43",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q43",
+  "resolution": null
+ },
+ {
+  "key": "polity-islamic-republic-of-iran:qid",
+  "id": "polity-islamic-republic-of-iran",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q794",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q794",
+  "resolution": null
+ },
+ {
+  "key": "polity-saudi-arabia:qid",
+  "id": "polity-saudi-arabia",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "qid",
+  "ours": "Q851",
+  "wikidata": "missing on Wikidata",
+  "qid": "Q851",
+  "resolution": null
+ }
+]

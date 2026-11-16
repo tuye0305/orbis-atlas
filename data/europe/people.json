@@ -1,0 +1,391 @@
+[
+{"id":"person-augustus","qid":"Q1405","name":{"en":"Augustus","zh":"奥古斯都"},"born":-63,"died":14,
+ "role":{"en":"First Roman emperor","zh":"罗马帝国首位皇帝"},"region":"europe",
+ "summary":{"en":"Great-nephew and adopted heir of Julius Caesar, Octavian defeated Antony and Cleopatra at Actium and in 27 BCE received the name Augustus. His long reign turned the Republic into a monarchy and began two centuries of relative peace.","zh":"屋大维是尤利乌斯·恺撒的甥孙和养子，他在亚克兴击败安东尼与克娄巴特拉，于公元前27年获“奥古斯都”称号。他漫长的统治将共和国转变为君主制，开启了约两个世纪的相对和平。"},
+ "stops":[
+  {"year":-63,"lat":41.8931,"lon":12.4828,"label":{"en":"Born in Rome","zh":"生于罗马"}},
+  {"year":-44,"lat":40.7225,"lon":19.475,"label":{"en":"Studying at Apollonia when Caesar is murdered","zh":"恺撒遇刺时在阿波罗尼亚求学"}},
+  {"year":-42,"lat":41.0125,"lon":24.2847,"label":{"en":"Defeats Brutus and Cassius at Philippi","zh":"在腓立比击败布鲁图斯与卡西乌斯"}},
+  {"year":-31,"lat":38.95,"lon":20.77,"label":{"en":"Victory at Actium","zh":"亚克兴海战获胜"}},
+  {"year":-30,"lat":31.2001,"lon":29.9187,"label":{"en":"Takes Alexandria and Egypt","zh":"攻取亚历山大港与埃及"}},
+  {"year":-27,"lat":41.8931,"lon":12.4828,"label":{"en":"Receives the name Augustus","zh":"获“奥古斯都”称号"}},
+  {"year":-26,"lat":41.1189,"lon":1.2445,"label":{"en":"Directs the Cantabrian War from Tarraco","zh":"在塔拉科指挥坎塔布里亚战争"}},
+  {"year":14,"lat":40.926,"lon":14.527,"label":{"en":"Dies at Nola","zh":"卒于诺拉"}}
+ ],
+ "sources":[{"title":"Suetonius, Life of Augustus"},{"title":"Res Gestae Divi Augusti"},{"title":"Britannica: Augustus","url":"https://www.britannica.com/biography/Augustus-Roman-emperor"}],"confidence":"high"},
+
+{"id":"person-constantine-the-great","qid":"Q8413","name":{"en":"Constantine the Great","zh":"君士坦丁大帝"},"born":272,"died":337,
+ "role":{"en":"Roman emperor","zh":"罗马皇帝"},"region":"europe",
+ "summary":{"en":"Proclaimed emperor by the army at York in 306, Constantine won the West at the Milvian Bridge in 312 and the whole empire in 324. He legalised and favoured Christianity, convened the Council of Nicaea and founded Constantinople.","zh":"君士坦丁306年在约克被军队拥立为皇帝，312年在米尔维安桥战役中夺得西部，324年统一整个帝国。他使基督教合法化并予以扶持，召开尼西亚公会议，并建立君士坦丁堡。"},
+ "stops":[
+  {"year":272,"lat":43.3209,"lon":21.8958,"label":{"en":"Born at Naissus","zh":"生于纳伊苏斯"}},
+  {"year":306,"lat":53.96,"lon":-1.0873,"label":{"en":"Proclaimed emperor at Eboracum (York)","zh":"在埃博拉库姆（约克）被拥立为帝"}},
+  {"year":310,"lat":49.7499,"lon":6.6371,"label":{"en":"Rules the West from Trier","zh":"以特里尔为驻地统治西部"}},
+  {"year":312,"lat":41.9356,"lon":12.4669,"label":{"en":"Victory at the Milvian Bridge","zh":"米尔维安桥大捷"}},
+  {"year":313,"lat":45.4642,"lon":9.19,"label":{"en":"Agreement of Milan with Licinius","zh":"与李锡尼达成米兰协议"}},
+  {"year":325,"lat":40.4292,"lon":29.7211,"label":{"en":"Council of Nicaea","zh":"尼西亚公会议"}},
+  {"year":330,"lat":41.0082,"lon":28.9784,"label":{"en":"Dedicates Constantinople","zh":"君士坦丁堡落成"}},
+  {"year":337,"lat":40.7654,"lon":29.9408,"label":{"en":"Baptised and dies near Nicomedia","zh":"在尼科米底亚附近受洗并去世"}}
+ ],
+ "sources":[{"title":"Eusebius, Life of Constantine"},{"title":"Lactantius, De mortibus persecutorum"},{"title":"Britannica: Constantine I","url":"https://www.britannica.com/biography/Constantine-I-Roman-emperor"}],
+ "confidence":"medium","note":"Wikidata gives birth 27 February 272; some historians prefer c. 280."},
+
+{"id":"person-attila","qid":"Q36724","name":{"en":"Attila","zh":"阿提拉"},"born":406,"died":453,
+ "role":{"en":"King of the Huns","zh":"匈人国王"},"region":"europe",
+ "summary":{"en":"Ruler of the Huns from 434 (jointly with his brother Bleda until c. 445), Attila extracted huge tributes from the Eastern Roman Empire and invaded Gaul in 451 and Italy in 452. His empire collapsed soon after his death in 453.","zh":"阿提拉自434年起统治匈人（约445年前与其兄布列达共治），向东罗马帝国勒索巨额贡金，并于451年入侵高卢、452年入侵意大利。453年他死后不久，匈人帝国即告瓦解。"},
+ "stops":[
+  {"year":434,"lat":46.9,"lon":20.1,"label":{"en":"Becomes king on the Hungarian plain","zh":"在匈牙利平原继位"}},
+  {"year":443,"lat":43.3209,"lon":21.8958,"label":{"en":"Sacks Naissus","zh":"洗劫纳伊苏斯"}},
+  {"year":451,"lat":49.1193,"lon":6.1757,"label":{"en":"Sacks Metz","zh":"洗劫梅斯"}},
+  {"year":451,"lat":49.0,"lon":4.5,"label":{"en":"Battle of the Catalaunian Plains","zh":"沙隆战役"}},
+  {"year":452,"lat":45.769,"lon":13.37,"label":{"en":"Destroys Aquileia","zh":"摧毁阿奎莱亚"}},
+  {"year":452,"lat":45.16,"lon":10.79,"label":{"en":"Meets Pope Leo I near the Mincio","zh":"在明乔河畔会见教宗利奥一世"}},
+  {"year":453,"lat":46.9,"lon":20.1,"label":{"en":"Dies on his wedding night","zh":"新婚之夜猝死"}}
+ ],
+ "sources":[{"title":"Priscus of Panium, History (fragments)"},{"title":"Jordanes, Getica 34–49"},{"title":"Britannica: Attila","url":"https://www.britannica.com/biography/Attila-king-of-the-Huns"}],
+ "confidence":"medium","note":"Birth year unknown (c. 406 is a common estimate); Wikidata's birth value of 500 is evidently erroneous. The site of his court on the Hungarian plain is unknown, so those stops are approximate."},
+
+{"id":"person-justinian-i","qid":"Q41866","name":{"en":"Justinian I","zh":"查士丁尼一世"},"born":482,"died":565,
+ "role":{"en":"Byzantine emperor","zh":"拜占庭皇帝"},"region":"europe",
+ "summary":{"en":"Born to a peasant family in the Balkans, Justinian ruled from Constantinople from 527. His generals reconquered North Africa, Italy and southern Spain; he codified Roman law in the Corpus Juris Civilis and rebuilt Hagia Sophia.","zh":"查士丁尼出身巴尔干农家，527年起在君士坦丁堡执政。他的将领收复了北非、意大利和西班牙南部；他主持编纂《民法大全》，并重建圣索菲亚大教堂。"},
+ "stops":[
+  {"year":482,"lat":41.94,"lon":21.6,"label":{"en":"Born at Tauresium (near Skopje)","zh":"生于陶雷西乌姆（斯科普里附近）"}},
+  {"year":518,"lat":41.0082,"lon":28.9784,"label":{"en":"Rises at court under his uncle Justin I","zh":"在舅父查士丁一世朝中崛起"}},
+  {"year":527,"lat":41.0082,"lon":28.9784,"label":{"en":"Becomes emperor","zh":"即位为帝"}},
+  {"year":532,"lat":41.0082,"lon":28.9784,"label":{"en":"Survives the Nika riots","zh":"平定尼卡暴动"}},
+  {"year":534,"lat":36.8528,"lon":10.3233,"label":{"en":"Belisarius retakes Carthage for him","zh":"贝利撒留为其收复迦太基"}},
+  {"year":540,"lat":44.4184,"lon":12.2035,"label":{"en":"Ravenna taken from the Ostrogoths","zh":"从东哥特人手中夺取拉文纳"}},
+  {"year":552,"lat":37.6,"lon":-0.98,"label":{"en":"Expedition to Spain; province of Spania","zh":"远征西班牙，设立西班尼亚行省"}},
+  {"year":565,"lat":41.0082,"lon":28.9784,"label":{"en":"Dies in Constantinople","zh":"卒于君士坦丁堡"}}
+ ],
+ "sources":[{"title":"Procopius, History of the Wars; Secret History"},{"title":"Britannica: Justinian I","url":"https://www.britannica.com/biography/Justinian-I"}],"confidence":"high"},
+
+{"id":"person-charlemagne","qid":"Q3044","name":{"en":"Charlemagne","zh":"查理曼"},"born":748,"died":814,
+ "role":{"en":"King of the Franks and Lombards, Emperor","zh":"法兰克与伦巴第国王、皇帝"},"region":"europe",
+ "summary":{"en":"King of the Franks from 768 and of the Lombards from 774, Charlemagne campaigned against Saxons, Avars and the Muslims of Spain to build an empire spanning much of western Europe. Crowned emperor in Rome in 800, he sponsored the Carolingian Renaissance from his court at Aachen.","zh":"查理曼768年起为法兰克国王，774年兼领伦巴第王位，他征讨萨克森人、阿瓦尔人及西班牙穆斯林，建立了横跨西欧大部的帝国。800年他在罗马加冕称帝，并以亚琛宫廷为中心推动了“加洛林文艺复兴”。"},
+ "stops":[
+  {"year":768,"lat":49.5817,"lon":2.9997,"label":{"en":"Crowned king at Noyon","zh":"在努瓦永加冕为王"}},
+  {"year":774,"lat":45.1847,"lon":9.1582,"label":{"en":"Takes Pavia, becomes King of the Lombards","zh":"攻取帕维亚，成为伦巴第国王"}},
+  {"year":778,"lat":43.0094,"lon":-1.3194,"label":{"en":"Rearguard ambushed at Roncevaux","zh":"后卫在龙塞斯瓦耶斯遭伏击"}},
+  {"year":782,"lat":52.9226,"lon":9.2347,"label":{"en":"Massacre of Saxons at Verden","zh":"费尔登屠杀萨克森人"}},
+  {"year":799,"lat":51.7189,"lon":8.7575,"label":{"en":"Receives Pope Leo III at Paderborn","zh":"在帕德博恩接见教宗利奥三世"}},
+  {"year":800,"lat":41.9022,"lon":12.4539,"label":{"en":"Crowned emperor in Rome","zh":"在罗马加冕称帝"}},
+  {"year":814,"lat":50.7753,"lon":6.0839,"label":{"en":"Dies at Aachen","zh":"卒于亚琛"}}
+ ],
+ "sources":[{"title":"Einhard, Vita Karoli Magni"},{"title":"Royal Frankish Annals"},{"title":"Britannica: Charlemagne","url":"https://www.britannica.com/biography/Charlemagne"}],
+ "confidence":"medium","note":"Wikidata gives birth 2 April 748; 742 and 747 are also proposed. Birthplace unknown, so no birth stop."},
+
+{"id":"person-william-the-conqueror","qid":"Q37594","name":{"en":"William the Conqueror","zh":"征服者威廉"},"born":1028,"died":1087,
+ "role":{"en":"Duke of Normandy, King of England","zh":"诺曼底公爵、英格兰国王"},"region":"europe",
+ "summary":{"en":"Illegitimate son of Duke Robert I of Normandy, William secured his duchy after years of rebellion and invaded England in 1066, winning at Hastings. As king he replaced the English elite with Normans, built castles across the land and ordered the Domesday survey.","zh":"威廉是诺曼底公爵罗贝尔一世的私生子，历经多年叛乱后稳固公国，1066年入侵英格兰并在黑斯廷斯获胜。为王期间，他以诺曼人取代英格兰原有精英，在各地修筑城堡，并下令编制《末日审判书》。"},
+ "stops":[
+  {"year":1028,"lat":48.8955,"lon":-0.1964,"label":{"en":"Born at Falaise","zh":"生于法莱斯"}},
+  {"year":1047,"lat":49.09,"lon":-0.27,"label":{"en":"Wins at Val-ès-Dunes","zh":"瓦勒斯迪讷之战获胜"}},
+  {"year":1066,"lat":50.185,"lon":1.633,"label":{"en":"Fleet sails from Saint-Valery-sur-Somme","zh":"舰队从索姆河畔圣瓦莱里出航"}},
+  {"year":1066,"lat":50.8193,"lon":0.3344,"label":{"en":"Lands at Pevensey","zh":"在佩文西登陆"}},
+  {"year":1066,"lat":50.9144,"lon":0.4878,"label":{"en":"Battle of Hastings","zh":"黑斯廷斯战役"}},
+  {"year":1066,"lat":51.4993,"lon":-0.1273,"label":{"en":"Crowned at Westminster Abbey","zh":"在威斯敏斯特教堂加冕"}},
+  {"year":1069,"lat":53.959,"lon":-1.0815,"label":{"en":"Harrying of the North (York)","zh":"“北方浩劫”（约克）"}},
+  {"year":1086,"lat":51.0936,"lon":-1.8048,"label":{"en":"Oath of Salisbury; Domesday survey","zh":"索尔兹伯里誓约，编制《末日审判书》"}},
+  {"year":1087,"lat":49.4432,"lon":1.0999,"label":{"en":"Dies at Rouen","zh":"卒于鲁昂"}}
+ ],
+ "sources":[{"title":"William of Poitiers, Gesta Guillelmi"},{"title":"Anglo-Saxon Chronicle, entries 1066–1087"},{"title":"Britannica: William I","url":"https://www.britannica.com/biography/William-I-king-of-England"}],
+ "confidence":"medium","note":"Born c. 1027/1028; Wikidata's exact day is not well supported."},
+
+{"id":"person-eleanor-of-aquitaine","qid":"Q178525","name":{"en":"Eleanor of Aquitaine","zh":"阿基坦的埃莉诺"},"born":1124,"died":1204,
+ "role":{"en":"Duchess of Aquitaine; queen of France and of England","zh":"阿基坦女公爵，法兰西王后及英格兰王后"},"region":"europe",
+ "summary":{"en":"Heiress to the duchy of Aquitaine, Eleanor married Louis VII of France and joined the Second Crusade. After their annulment in 1152 she married Henry of Anjou, soon Henry II of England; mother of Richard I and John, she remained a political force into her eighties.","zh":"埃莉诺是阿基坦公国的女继承人，嫁给法王路易七世并随其参加第二次十字军东征。1152年婚姻被宣告无效后，她改嫁安茹的亨利（不久成为英格兰国王亨利二世）；作为理查一世和约翰王之母，她直至八十多岁仍活跃于政坛。"},
+ "stops":[
+  {"year":1137,"lat":44.8378,"lon":-0.5792,"label":{"en":"Marries Louis VII at Bordeaux","zh":"在波尔多嫁给路易七世"}},
+  {"year":1137,"lat":48.8566,"lon":2.3522,"label":{"en":"Queen of France in Paris","zh":"在巴黎成为法兰西王后"}},
+  {"year":1146,"lat":47.4661,"lon":3.7486,"label":{"en":"Takes the cross at Vézelay","zh":"在韦兹莱宣誓参加十字军"}},
+  {"year":1148,"lat":36.2021,"lon":36.1604,"label":{"en":"At Antioch on crusade","zh":"十字军途中驻留安条克"}},
+  {"year":1152,"lat":46.5802,"lon":0.3404,"label":{"en":"Marries Henry of Anjou at Poitiers","zh":"在普瓦捷嫁给安茹的亨利"}},
+  {"year":1154,"lat":51.4993,"lon":-0.1273,"label":{"en":"Crowned queen of England at Westminster","zh":"在威斯敏斯特加冕为英格兰王后"}},
+  {"year":1174,"lat":51.0936,"lon":-1.8048,"label":{"en":"Held captive after her sons' revolt","zh":"诸子叛乱后遭软禁"}},
+  {"year":1204,"lat":47.1816,"lon":0.0516,"label":{"en":"Dies at Fontevraud Abbey","zh":"卒于丰特夫罗修道院"}}
+ ],
+ "sources":[{"title":"Ralph V. Turner, Eleanor of Aquitaine: Queen of France, Queen of England (2009)"},{"title":"Britannica: Eleanor of Aquitaine","url":"https://www.britannica.com/biography/Eleanor-of-Aquitaine"}],
+ "confidence":"medium","note":"Wikidata gives birth in 1124; many historians prefer c. 1122. Her places of captivity (1174–1189) varied; Salisbury is representative."},
+
+{"id":"person-dante-alighieri","qid":"Q1067","name":{"en":"Dante Alighieri","zh":"但丁·阿利吉耶里"},"born":1265,"died":1321,
+ "role":{"en":"Poet and politician","zh":"诗人、政治家"},"region":"europe",
+ "summary":{"en":"A Florentine poet and politician, Dante served as one of the city's priors in 1300 but was exiled in 1302 when the Black Guelphs took power. In exile he wrote the Divine Comedy, dying at Ravenna in 1321.","zh":"但丁是佛罗伦萨诗人和政治家，1300年曾任该城执政官之一，1302年黑党掌权后被流放。流亡期间他写成《神曲》，1321年卒于拉文纳。"},
+ "stops":[
+  {"year":1265,"lat":43.7696,"lon":11.2558,"label":{"en":"Born in Florence","zh":"生于佛罗伦萨"}},
+  {"year":1289,"lat":43.7376,"lon":11.765,"label":{"en":"Fights at Campaldino","zh":"参加坎帕尔迪诺战役"}},
+  {"year":1300,"lat":43.7696,"lon":11.2558,"label":{"en":"Serves as prior of Florence","zh":"出任佛罗伦萨执政官"}},
+  {"year":1302,"lat":43.7696,"lon":11.2558,"label":{"en":"Sentenced to exile","zh":"被判流放"}},
+  {"year":1312,"lat":45.4384,"lon":10.9916,"label":{"en":"Refuge with Cangrande della Scala at Verona","zh":"在维罗纳投靠坎格兰德·德拉·斯卡拉"}},
+  {"year":1318,"lat":44.4184,"lon":12.2035,"label":{"en":"Settles at Ravenna","zh":"定居拉文纳"}},
+  {"year":1321,"lat":45.4408,"lon":12.3155,"label":{"en":"Embassy to Venice","zh":"出使威尼斯"}},
+  {"year":1321,"lat":44.4184,"lon":12.2035,"label":{"en":"Dies at Ravenna","zh":"卒于拉文纳"}}
+ ],
+ "sources":[{"title":"Giovanni Boccaccio, Trattatello in laude di Dante"},{"title":"Britannica: Dante","url":"https://www.britannica.com/biography/Dante-Alighieri"}],
+ "confidence":"medium","note":"Dates of his stays in Verona (c. 1312–1318) are approximate."},
+
+{"id":"person-joan-of-arc","qid":"Q7226","name":{"en":"Joan of Arc","zh":"贞德"},"born":1412,"died":1431,
+ "role":{"en":"French military leader and saint","zh":"法国军事领袖、圣人"},"region":"europe",
+ "summary":{"en":"A peasant girl from Domrémy who said saints' voices had commanded her to save France, Joan persuaded the Dauphin Charles to let her join the relief of Orléans in 1429. After his coronation at Reims she was captured at Compiègne, tried for heresy by a pro-English court and burned at Rouen.","zh":"贞德是来自栋雷米的农家少女，自称受圣徒之声召唤拯救法兰西，她说服王太子查理准许她参与1429年解救奥尔良。查理在兰斯加冕后，她在贡比涅被俘，经亲英法庭以异端罪审判，在鲁昂被处以火刑。"},
+ "stops":[
+  {"year":1412,"lat":48.4422,"lon":5.6731,"label":{"en":"Born at Domrémy","zh":"生于栋雷米"}},
+  {"year":1429,"lat":48.6022,"lon":5.6658,"label":{"en":"Gains an escort at Vaucouleurs","zh":"在沃库勒尔获得护卫"}},
+  {"year":1429,"lat":47.1675,"lon":0.2425,"label":{"en":"Meets the Dauphin at Chinon","zh":"在希农觐见王太子"}},
+  {"year":1429,"lat":47.9029,"lon":1.9093,"label":{"en":"Relief of Orléans","zh":"解奥尔良之围"}},
+  {"year":1429,"lat":48.0478,"lon":1.695,"label":{"en":"Victory at Patay","zh":"帕提战役获胜"}},
+  {"year":1429,"lat":49.2535,"lon":4.0341,"label":{"en":"Coronation of Charles VII at Reims","zh":"查理七世在兰斯加冕"}},
+  {"year":1430,"lat":49.4179,"lon":2.8261,"label":{"en":"Captured at Compiègne","zh":"在贡比涅被俘"}},
+  {"year":1431,"lat":49.4432,"lon":1.0999,"label":{"en":"Tried and burned at Rouen","zh":"在鲁昂受审并被处火刑"}}
+ ],
+ "sources":[{"title":"Procès de condamnation et de réhabilitation de Jeanne d'Arc (trial records)"},{"title":"Britannica: Saint Joan of Arc","url":"https://www.britannica.com/biography/Saint-Joan-of-Arc"}],"confidence":"high"},
+
+{"id":"person-johannes-gutenberg","qid":"Q8958","name":{"en":"Johannes Gutenberg","zh":"约翰内斯·谷登堡"},"born":1400,"died":1468,
+ "role":{"en":"Printer; pioneer of movable-type printing in Europe","zh":"印刷商，欧洲活字印刷术的开创者"},"region":"europe",
+ "summary":{"en":"A goldsmith from Mainz, Gutenberg experimented with printing in Strasbourg in the 1430s and developed movable metal type, oil-based ink and a press. His Mainz workshop produced the 42-line Bible about 1455; after losing a lawsuit to his financier Johann Fust he continued printing on a smaller scale.","zh":"谷登堡是美因茨的金匠，15世纪30年代在斯特拉斯堡试验印刷，发展出金属活字、油性墨水与印刷机相结合的技术。他的美因茨作坊约于1455年印成四十二行《圣经》；在与出资人约翰·富斯特的诉讼中败诉后，他仍以较小规模继续印刷。"},
+ "stops":[
+  {"year":1400,"lat":49.9929,"lon":8.2473,"label":{"en":"Born in Mainz","zh":"生于美因茨"}},
+  {"year":1434,"lat":48.5734,"lon":7.7521,"label":{"en":"In Strasbourg; early experiments","zh":"在斯特拉斯堡进行早期试验"}},
+  {"year":1448,"lat":49.9929,"lon":8.2473,"label":{"en":"Returns to Mainz","zh":"返回美因茨"}},
+  {"year":1455,"lat":49.9929,"lon":8.2473,"label":{"en":"42-line Bible; lawsuit with Fust","zh":"四十二行《圣经》；与富斯特诉讼"}},
+  {"year":1465,"lat":50.0283,"lon":8.1186,"label":{"en":"Honoured by Archbishop Adolf II (Eltville)","zh":"获大主教阿道夫二世礼遇（埃尔特维勒）"}},
+  {"year":1468,"lat":49.9929,"lon":8.2473,"label":{"en":"Dies in Mainz","zh":"卒于美因茨"}}
+ ],
+ "sources":[{"title":"Albert Kapr, Johann Gutenberg: The Man and His Invention (1996)"},{"title":"Britannica: Johannes Gutenberg","url":"https://www.britannica.com/biography/Johannes-Gutenberg"}],
+ "confidence":"medium","note":"Birth year is approximate (c. 1400); the documentary record of his life is fragmentary."},
+
+{"id":"person-christopher-columbus","qid":"Q7322","name":{"en":"Christopher Columbus","zh":"克里斯托弗·哥伦布"},"born":1451,"died":1506,
+ "role":{"en":"Navigator and explorer","zh":"航海家、探险家"},"region":"europe",
+ "summary":{"en":"A Genoese navigator who settled in Portugal, Columbus won backing from Ferdinand and Isabella of Spain for a westward route to Asia. His four voyages (1492–1504) reached the Caribbean and Central and South America, opening the Americas to European colonisation.","zh":"哥伦布是热那亚航海家，曾定居葡萄牙，后获西班牙的斐迪南与伊莎贝拉资助，向西航行寻找通往亚洲的航线。他的四次航行（1492—1504年）抵达加勒比海以及中美洲和南美洲，开启了欧洲对美洲的殖民。"},
+ "stops":[
+  {"year":1451,"lat":44.4056,"lon":8.9463,"label":{"en":"Born in Genoa","zh":"生于热那亚"}},
+  {"year":1476,"lat":38.7223,"lon":-9.1393,"label":{"en":"Settles in Lisbon","zh":"定居里斯本"}},
+  {"year":1479,"lat":33.0606,"lon":-16.3417,"label":{"en":"Lives on Porto Santo after marrying","zh":"婚后居于圣港岛"}},
+  {"year":1486,"lat":40.4818,"lon":-3.3643,"label":{"en":"First audience with the Catholic Monarchs (Alcalá)","zh":"在阿尔卡拉首次觐见天主教双王"}},
+  {"year":1492,"lat":37.1906,"lon":-3.7189,"label":{"en":"Capitulations of Santa Fe","zh":"签订圣塔菲协定"}},
+  {"year":1492,"lat":37.2275,"lon":-6.8936,"label":{"en":"Sails from Palos","zh":"从帕洛斯出航"}},
+  {"year":1492,"lat":24.05,"lon":-74.53,"label":{"en":"Landfall in the Bahamas","zh":"登陆巴哈马"}},
+  {"year":1493,"lat":41.3874,"lon":2.1686,"label":{"en":"Received by the monarchs in Barcelona","zh":"在巴塞罗那受双王接见"}},
+  {"year":1506,"lat":41.6523,"lon":-4.7245,"label":{"en":"Dies in Valladolid","zh":"卒于巴利亚多利德"}}
+ ],
+ "sources":[{"title":"Felipe Fernández-Armesto, Columbus (1991)"},{"title":"Christopher Columbus, Diario of the First Voyage"},{"title":"Britannica: Christopher Columbus","url":"https://www.britannica.com/biography/Christopher-Columbus"}],
+ "confidence":"medium","note":"Born in Genoa between August and October 1451 according to most scholars; the dates of his Portuguese years are approximate."},
+
+{"id":"person-leonardo-da-vinci","qid":"Q762","name":{"en":"Leonardo da Vinci","zh":"列奥纳多·达·芬奇"},"born":1452,"died":1519,
+ "role":{"en":"Painter, engineer and polymath","zh":"画家、工程师、博学家"},"region":"europe",
+ "summary":{"en":"Trained in Verrocchio's Florentine workshop, Leonardo worked for Ludovico Sforza in Milan, where he painted The Last Supper, then returned to Florence and began the Mona Lisa. His notebooks record studies of anatomy, engineering and nature; he died in France as a guest of Francis I.","zh":"列奥纳多在佛罗伦萨韦罗基奥的作坊学艺，后为米兰的卢多维科·斯福尔扎效力，绘制了《最后的晚餐》，又回到佛罗伦萨开始创作《蒙娜丽莎》。他的笔记记录了解剖、工程与自然研究；他作为弗朗索瓦一世的宾客卒于法国。"},
+ "stops":[
+  {"year":1452,"lat":43.7867,"lon":10.9256,"label":{"en":"Born at Vinci","zh":"生于芬奇镇"}},
+  {"year":1466,"lat":43.7696,"lon":11.2558,"label":{"en":"Apprenticed to Verrocchio in Florence","zh":"在佛罗伦萨师从韦罗基奥"}},
+  {"year":1482,"lat":45.4642,"lon":9.19,"label":{"en":"Enters Sforza service in Milan","zh":"在米兰为斯福尔扎效力"}},
+  {"year":1495,"lat":45.4659,"lon":9.1709,"label":{"en":"Paints The Last Supper","zh":"绘制《最后的晚餐》"}},
+  {"year":1500,"lat":45.4408,"lon":12.3155,"label":{"en":"Visits Venice","zh":"造访威尼斯"}},
+  {"year":1503,"lat":43.7696,"lon":11.2558,"label":{"en":"Begins the Mona Lisa in Florence","zh":"在佛罗伦萨开始创作《蒙娜丽莎》"}},
+  {"year":1513,"lat":41.9029,"lon":12.4534,"label":{"en":"Works in Rome at the Vatican","zh":"在罗马梵蒂冈工作"}},
+  {"year":1516,"lat":47.4106,"lon":0.9911,"label":{"en":"Moves to Clos Lucé, Amboise","zh":"迁居昂布瓦斯克洛吕斯城堡"}},
+  {"year":1519,"lat":47.4106,"lon":0.9911,"label":{"en":"Dies at Amboise","zh":"卒于昂布瓦斯"}}
+ ],
+ "sources":[{"title":"Giorgio Vasari, Lives of the Most Excellent Painters, Sculptors and Architects (1550)"},{"title":"Martin Kemp, Leonardo da Vinci: The Marvellous Works of Nature and Man (1981)"},{"title":"Britannica: Leonardo da Vinci","url":"https://www.britannica.com/biography/Leonardo-da-Vinci"}],
+ "confidence":"high","note":"The start of his apprenticeship (c. 1466) is approximate."},
+
+{"id":"person-martin-luther","qid":"Q9554","name":{"en":"Martin Luther","zh":"马丁·路德"},"born":1483,"died":1546,
+ "role":{"en":"Theologian and church reformer","zh":"神学家、宗教改革家"},"region":"europe",
+ "summary":{"en":"An Augustinian friar and professor at Wittenberg, Luther challenged the sale of indulgences in 1517 and was excommunicated after refusing to recant at the Diet of Worms in 1521. His German Bible and writings founded Lutheranism and shaped the German language.","zh":"路德是奥古斯丁会修士和维滕贝格大学教授，1517年抨击出售赎罪券，1521年在沃尔姆斯帝国议会上拒绝收回主张，遂遭绝罚。他的德文《圣经》译本及著作奠定了路德宗，并深刻影响了德语。"},
+ "stops":[
+  {"year":1483,"lat":51.5279,"lon":11.5481,"label":{"en":"Born at Eisleben","zh":"生于艾斯莱本"}},
+  {"year":1505,"lat":50.9787,"lon":11.0328,"label":{"en":"Enters the Augustinian friary at Erfurt","zh":"进入埃尔福特奥古斯丁会修道院"}},
+  {"year":1510,"lat":41.9028,"lon":12.4964,"label":{"en":"Journey to Rome","zh":"前往罗马"}},
+  {"year":1517,"lat":51.8664,"lon":12.6431,"label":{"en":"Ninety-five Theses at Wittenberg","zh":"在维滕贝格发表《九十五条论纲》"}},
+  {"year":1519,"lat":51.3397,"lon":12.3731,"label":{"en":"Leipzig Disputation","zh":"莱比锡辩论"}},
+  {"year":1521,"lat":49.6341,"lon":8.3507,"label":{"en":"Refuses to recant at the Diet of Worms","zh":"在沃尔姆斯帝国议会拒绝认错"}},
+  {"year":1521,"lat":50.9663,"lon":10.3062,"label":{"en":"Translates the New Testament at the Wartburg","zh":"在瓦特堡翻译《新约》"}},
+  {"year":1530,"lat":50.2639,"lon":10.964,"label":{"en":"At Coburg during the Diet of Augsburg","zh":"奥格斯堡帝国议会期间驻留科堡"}},
+  {"year":1546,"lat":51.5279,"lon":11.5481,"label":{"en":"Dies at Eisleben","zh":"卒于艾斯莱本"}}
+ ],
+ "sources":[{"title":"Heiko A. Oberman, Luther: Man between God and the Devil (1989)"},{"title":"Britannica: Martin Luther","url":"https://www.britannica.com/biography/Martin-Luther"}],"confidence":"high"},
+
+{"id":"person-nicolaus-copernicus","qid":"Q619","name":{"en":"Nicolaus Copernicus","zh":"尼古拉·哥白尼"},"born":1473,"died":1543,
+ "role":{"en":"Astronomer","zh":"天文学家"},"region":"europe",
+ "summary":{"en":"Born in Toruń in Royal Prussia, Copernicus studied in Kraków, Bologna, Padua and Ferrara before serving as a canon of Warmia at Frombork. There he developed a heliocentric model of the cosmos, published in De revolutionibus in the year of his death.","zh":"哥白尼生于王室普鲁士的托伦，先后在克拉科夫、博洛尼亚、帕多瓦和费拉拉求学，之后在弗龙堡担任瓦尔米亚教区的教士。他在那里提出日心宇宙模型，并于去世当年出版《天体运行论》。"},
+ "stops":[
+  {"year":1473,"lat":53.0138,"lon":18.5984,"label":{"en":"Born in Toruń","zh":"生于托伦"}},
+  {"year":1491,"lat":50.0647,"lon":19.945,"label":{"en":"Studies at Kraków","zh":"在克拉科夫求学"}},
+  {"year":1496,"lat":44.4949,"lon":11.3426,"label":{"en":"Studies law and astronomy at Bologna","zh":"在博洛尼亚学习法律与天文"}},
+  {"year":1501,"lat":45.4064,"lon":11.8768,"label":{"en":"Studies medicine at Padua","zh":"在帕多瓦学习医学"}},
+  {"year":1503,"lat":44.8381,"lon":11.6198,"label":{"en":"Doctorate in canon law at Ferrara","zh":"在费拉拉获教会法博士"}},
+  {"year":1503,"lat":54.1265,"lon":20.5797,"label":{"en":"Physician to his uncle at Lidzbark","zh":"在利兹巴克为舅父任医生"}},
+  {"year":1510,"lat":54.3576,"lon":19.6823,"label":{"en":"Settles at Frombork","zh":"定居弗龙堡"}},
+  {"year":1516,"lat":53.7784,"lon":20.4801,"label":{"en":"Administers chapter estates at Olsztyn","zh":"在奥尔什丁管理教团领地"}},
+  {"year":1543,"lat":54.3576,"lon":19.6823,"label":{"en":"Dies at Frombork","zh":"卒于弗龙堡"}}
+ ],
+ "sources":[{"title":"Owen Gingerich, The Book Nobody Read (2004)"},{"title":"Britannica: Nicolaus Copernicus","url":"https://www.britannica.com/biography/Nicolaus-Copernicus"}],"confidence":"high"},
+
+{"id":"person-charles-v","qid":"Q32500","name":{"en":"Charles V","zh":"查理五世"},"born":1500,"died":1558,
+ "role":{"en":"Holy Roman Emperor and King of Spain","zh":"神圣罗马帝国皇帝、西班牙国王"},"region":"europe",
+ "summary":{"en":"Heir of the Habsburg, Burgundian and Spanish dynasties, Charles ruled the Low Countries, Spain and its American empire, southern Italy and, as emperor from 1519, the Holy Roman Empire. He fought France, the Ottomans and the Protestant princes before abdicating in 1555–56 and retiring to Yuste.","zh":"查理五世集哈布斯堡、勃艮第和西班牙王朝遗产于一身，统治尼德兰、西班牙及其美洲帝国、意大利南部，并自1519年起为神圣罗马帝国皇帝。他与法国、奥斯曼帝国及新教诸侯连年征战，1555—1556年退位后隐居尤斯特修道院。"},
+ "stops":[
+  {"year":1500,"lat":51.0543,"lon":3.7174,"label":{"en":"Born in Ghent","zh":"生于根特"}},
+  {"year":1518,"lat":41.6523,"lon":-4.7245,"label":{"en":"Recognised as king by the Cortes at Valladolid","zh":"在巴利亚多利德获议会承认为王"}},
+  {"year":1520,"lat":50.7753,"lon":6.0839,"label":{"en":"Crowned King of the Romans at Aachen","zh":"在亚琛加冕为罗马人的国王"}},
+  {"year":1521,"lat":49.6341,"lon":8.3507,"label":{"en":"Presides over the Diet of Worms","zh":"主持沃尔姆斯帝国议会"}},
+  {"year":1530,"lat":44.4949,"lon":11.3426,"label":{"en":"Crowned emperor by Clement VII at Bologna","zh":"在博洛尼亚由教宗克雷芒七世加冕为皇帝"}},
+  {"year":1535,"lat":36.8065,"lon":10.1815,"label":{"en":"Conquers Tunis","zh":"攻占突尼斯"}},
+  {"year":1547,"lat":51.4333,"lon":13.2167,"label":{"en":"Defeats the Schmalkaldic League at Mühlberg","zh":"在米尔贝格击败施马尔卡尔登同盟"}},
+  {"year":1555,"lat":50.8467,"lon":4.3525,"label":{"en":"Abdicates in Brussels","zh":"在布鲁塞尔退位"}},
+  {"year":1558,"lat":40.1225,"lon":-5.7447,"label":{"en":"Dies at Yuste","zh":"卒于尤斯特"}}
+ ],
+ "sources":[{"title":"Geoffrey Parker, Emperor: A New Life of Charles V (2019)"},{"title":"Britannica: Charles V","url":"https://www.britannica.com/biography/Charles-V-Holy-Roman-emperor"}],"confidence":"high"},
+
+{"id":"person-elizabeth-i","qid":"Q7207","name":{"en":"Elizabeth I","zh":"伊丽莎白一世"},"born":1533,"died":1603,
+ "role":{"en":"Queen of England and Ireland","zh":"英格兰与爱尔兰女王"},"region":"europe",
+ "summary":{"en":"Daughter of Henry VIII and Anne Boleyn, Elizabeth survived imprisonment under her half-sister Mary I to become queen in 1558. Her reign settled a Protestant church, saw the defeat of the Spanish Armada and a flowering of literature; she died unmarried, the last Tudor monarch.","zh":"伊丽莎白是亨利八世与安妮·博林之女，在同父异母的姐姐玛丽一世治下曾遭囚禁，1558年即位为女王。她在位期间确立新教教会体制，击败西班牙无敌舰队，文学亦臻繁荣；她终身未婚，是都铎王朝最后一位君主。"},
+ "stops":[
+  {"year":1533,"lat":51.4816,"lon":-0.006,"label":{"en":"Born at Greenwich Palace","zh":"生于格林尼治宫"}},
+  {"year":1554,"lat":51.5081,"lon":-0.0759,"label":{"en":"Imprisoned in the Tower of London","zh":"被囚于伦敦塔"}},
+  {"year":1558,"lat":51.7636,"lon":-0.216,"label":{"en":"Learns of her accession at Hatfield","zh":"在哈特菲尔德获悉即位"}},
+  {"year":1559,"lat":51.4993,"lon":-0.1273,"label":{"en":"Crowned at Westminster Abbey","zh":"在威斯敏斯特教堂加冕"}},
+  {"year":1588,"lat":51.4625,"lon":0.3717,"label":{"en":"Addresses the troops at Tilbury","zh":"在蒂尔伯里检阅并训示军队"}},
+  {"year":1603,"lat":51.4613,"lon":-0.3037,"label":{"en":"Dies at Richmond Palace","zh":"卒于里士满宫"}}
+ ],
+ "sources":[{"title":"John Guy, Elizabeth: The Forgotten Years (2016)"},{"title":"Britannica: Elizabeth I","url":"https://www.britannica.com/biography/Elizabeth-I"}],"confidence":"high"},
+
+{"id":"person-galileo-galilei","qid":"Q307","name":{"en":"Galileo Galilei","zh":"伽利略·伽利莱"},"born":1564,"died":1642,
+ "role":{"en":"Astronomer and physicist","zh":"天文学家、物理学家"},"region":"europe",
+ "summary":{"en":"Professor at Pisa and Padua, Galileo studied motion and in 1609–10 turned a telescope on the sky, discovering Jupiter's moons and the phases of Venus. His defence of Copernicus led to his condemnation by the Roman Inquisition in 1633.","zh":"伽利略曾任比萨大学和帕多瓦大学教授，研究运动规律，1609—1610年用望远镜观测天空，发现木星卫星和金星相位。他为哥白尼学说辩护，1633年遭罗马宗教裁判所定罪。"},
+ "stops":[
+  {"year":1564,"lat":43.7228,"lon":10.4017,"label":{"en":"Born in Pisa","zh":"生于比萨"}},
+  {"year":1589,"lat":43.7167,"lon":10.4,"label":{"en":"Chair of mathematics at Pisa","zh":"任比萨大学数学教席"}},
+  {"year":1592,"lat":45.4064,"lon":11.8768,"label":{"en":"Professor at Padua","zh":"任帕多瓦大学教授"}},
+  {"year":1609,"lat":45.4408,"lon":12.3155,"label":{"en":"Demonstrates his telescope in Venice","zh":"在威尼斯展示望远镜"}},
+  {"year":1610,"lat":43.7696,"lon":11.2558,"label":{"en":"Court mathematician to the Medici in Florence","zh":"在佛罗伦萨任美第奇宫廷数学家"}},
+  {"year":1616,"lat":41.9028,"lon":12.4964,"label":{"en":"Warned against Copernicanism in Rome","zh":"在罗马被警告勿持哥白尼学说"}},
+  {"year":1633,"lat":41.898,"lon":12.4777,"label":{"en":"Tried by the Inquisition","zh":"受宗教裁判所审判"}},
+  {"year":1642,"lat":43.7489,"lon":11.2551,"label":{"en":"Dies under house arrest at Arcetri","zh":"在阿切特里软禁中去世"}}
+ ],
+ "sources":[{"title":"Galileo Galilei, Sidereus Nuncius (1610)"},{"title":"J. L. Heilbron, Galileo (2010)"},{"title":"Britannica: Galileo","url":"https://www.britannica.com/biography/Galileo-Galilei"}],"confidence":"high"},
+
+{"id":"person-isaac-newton","qid":"Q935","name":{"en":"Isaac Newton","zh":"艾萨克·牛顿"},"born":1642,"died":1727,
+ "role":{"en":"Mathematician and physicist","zh":"数学家、物理学家"},"region":"europe",
+ "summary":{"en":"At Cambridge, and at his family farm during the plague years, Newton developed calculus, optics and the theory of gravitation, published in the Principia (1687). Later Warden and Master of the Royal Mint and President of the Royal Society, he died in London.","zh":"牛顿在剑桥以及瘟疫期间回乡的农庄里，发展出微积分、光学与万有引力理论，并于1687年发表于《自然哲学的数学原理》。他后来担任皇家铸币厂监管和厂长，以及皇家学会会长，卒于伦敦。"},
+ "stops":[
+  {"year":1642,"lat":52.8094,"lon":-0.6297,"label":{"en":"Born at Woolsthorpe Manor","zh":"生于伍尔斯索普庄园"}},
+  {"year":1661,"lat":52.2069,"lon":0.1166,"label":{"en":"Enters Trinity College, Cambridge","zh":"进入剑桥三一学院"}},
+  {"year":1665,"lat":52.8094,"lon":-0.6297,"label":{"en":"Plague years at Woolsthorpe: optics, calculus, gravity","zh":"瘟疫期间返乡，研究光学、微积分与引力"}},
+  {"year":1669,"lat":52.2069,"lon":0.1166,"label":{"en":"Lucasian Professor at Cambridge","zh":"任剑桥卢卡斯数学教授"}},
+  {"year":1687,"lat":52.2069,"lon":0.1166,"label":{"en":"Completes the Principia","zh":"完成《自然哲学的数学原理》"}},
+  {"year":1696,"lat":51.5081,"lon":-0.0759,"label":{"en":"Warden of the Royal Mint, Tower of London","zh":"任伦敦塔皇家铸币厂监管"}},
+  {"year":1703,"lat":51.5155,"lon":-0.108,"label":{"en":"President of the Royal Society","zh":"任皇家学会会长"}},
+  {"year":1727,"lat":51.5009,"lon":-0.1925,"label":{"en":"Dies in Kensington","zh":"卒于肯辛顿"}}
+ ],
+ "sources":[{"title":"Richard S. Westfall, Never at Rest: A Biography of Isaac Newton (1980)"},{"title":"Britannica: Isaac Newton","url":"https://www.britannica.com/biography/Isaac-Newton"}],
+ "confidence":"high","note":"Born 25 December 1642 in the Julian calendar then used in England (4 January 1643 Gregorian); Wikidata gives the Julian date."},
+
+{"id":"person-peter-the-great","qid":"Q8479","name":{"en":"Peter the Great","zh":"彼得大帝"},"born":1672,"died":1725,
+ "role":{"en":"Tsar and first Emperor of Russia","zh":"沙皇、俄罗斯帝国首位皇帝"},"region":"europe",
+ "summary":{"en":"Tsar from 1682 (sole ruler from 1696), Peter toured western Europe with the Grand Embassy, then forced sweeping military, administrative and cultural reforms on Russia. Victory over Sweden in the Great Northern War gave Russia the Baltic coast, where he built Saint Petersburg as his new capital.","zh":"彼得1682年即沙皇位（1696年起独掌大权），曾随“大使团”游历西欧，随后在俄国强力推行军事、行政和文化的全面改革。大北方战争战胜瑞典使俄国获得波罗的海沿岸，他在那里兴建圣彼得堡作为新都。"},
+ "stops":[
+  {"year":1672,"lat":55.752,"lon":37.6175,"label":{"en":"Born in Moscow","zh":"生于莫斯科"}},
+  {"year":1696,"lat":47.1072,"lon":39.4229,"label":{"en":"Captures Azov","zh":"攻占亚速"}},
+  {"year":1697,"lat":52.4389,"lon":4.8264,"label":{"en":"Works in a shipyard at Zaandam","zh":"在赞丹船厂做工"}},
+  {"year":1698,"lat":51.4826,"lon":-0.026,"label":{"en":"Studies shipbuilding at Deptford","zh":"在德特福德学习造船"}},
+  {"year":1700,"lat":59.3797,"lon":28.1791,"label":{"en":"Defeated by Charles XII at Narva","zh":"在纳尔瓦败于卡尔十二世"}},
+  {"year":1703,"lat":59.95,"lon":30.3167,"label":{"en":"Founds Saint Petersburg","zh":"建立圣彼得堡"}},
+  {"year":1709,"lat":49.6314,"lon":34.5528,"label":{"en":"Victory at Poltava","zh":"波尔塔瓦大捷"}},
+  {"year":1721,"lat":60.8,"lon":21.41,"label":{"en":"Peace of Nystad; proclaimed Emperor","zh":"签订尼斯塔德和约，称皇帝"}},
+  {"year":1725,"lat":59.9398,"lon":30.3146,"label":{"en":"Dies in Saint Petersburg","zh":"卒于圣彼得堡"}}
+ ],
+ "sources":[{"title":"Lindsey Hughes, Russia in the Age of Peter the Great (1998)"},{"title":"Britannica: Peter I","url":"https://www.britannica.com/biography/Peter-I-emperor-of-Russia"}],
+ "confidence":"high","note":"Wikidata gives Gregorian dates of birth and death; Russian sources of the time used the Julian calendar."},
+
+{"id":"person-catherine-the-great","qid":"Q36450","name":{"en":"Catherine the Great","zh":"叶卡捷琳娜大帝"},"born":1729,"died":1796,
+ "role":{"en":"Empress of Russia","zh":"俄罗斯女皇"},"region":"europe",
+ "summary":{"en":"A German princess born in Stettin, Catherine married the future Peter III and seized the throne from him in a 1762 coup. A correspondent of Enlightenment thinkers, she expanded Russia through wars with the Ottomans, the annexation of Crimea and the partitions of Poland.","zh":"叶卡捷琳娜是生于什切青的德意志公主，嫁给后来的彼得三世，并于1762年发动政变夺取皇位。她与启蒙思想家通信往来，并通过对奥斯曼帝国的战争、吞并克里米亚和瓜分波兰大大扩张了俄国版图。"},
+ "stops":[
+  {"year":1729,"lat":53.4285,"lon":14.5528,"label":{"en":"Born in Stettin","zh":"生于什切青"}},
+  {"year":1744,"lat":55.752,"lon":37.6175,"label":{"en":"Arrives at the Russian court in Moscow","zh":"抵达莫斯科的俄国宫廷"}},
+  {"year":1745,"lat":59.9398,"lon":30.3146,"label":{"en":"Marries Grand Duke Peter","zh":"嫁给彼得大公"}},
+  {"year":1762,"lat":59.9398,"lon":30.3146,"label":{"en":"Seizes the throne in a coup","zh":"发动政变登上皇位"}},
+  {"year":1767,"lat":55.752,"lon":37.6175,"label":{"en":"Opens the Legislative Commission","zh":"召开法典编纂委员会"}},
+  {"year":1787,"lat":50.45,"lon":30.5236,"label":{"en":"Journey south via Kyiv","zh":"经基辅南巡"}},
+  {"year":1787,"lat":46.6354,"lon":32.6169,"label":{"en":"Visits Kherson","zh":"巡视赫尔松"}},
+  {"year":1787,"lat":44.7517,"lon":33.8607,"label":{"en":"Tours Crimea (Bakhchysarai)","zh":"巡视克里米亚（巴赫奇萨赖）"}},
+  {"year":1796,"lat":59.9398,"lon":30.3146,"label":{"en":"Dies at the Winter Palace","zh":"卒于冬宫"}}
+ ],
+ "sources":[{"title":"Isabel de Madariaga, Russia in the Age of Catherine the Great (1981)"},{"title":"Britannica: Catherine the Great","url":"https://www.britannica.com/biography/Catherine-the-Great"}],"confidence":"high"},
+
+{"id":"person-napoleon","qid":"Q517","name":{"en":"Napoleon Bonaparte","zh":"拿破仑·波拿巴"},"born":1769,"died":1821,
+ "role":{"en":"French general, Emperor of the French","zh":"法国军事统帅、法兰西皇帝"},"region":"europe",
+ "summary":{"en":"A Corsican-born artillery officer, Napoleon rose through the Revolutionary wars, seized power in 1799 and crowned himself emperor in 1804. His armies dominated continental Europe until the disastrous Russian campaign of 1812; defeated at Leipzig and finally at Waterloo, he died in exile on Saint Helena.","zh":"拿破仑生于科西嘉，以炮兵军官身份在大革命战争中崛起，1799年夺取政权，1804年加冕称帝。他的军队称雄欧陆，直至1812年远征俄国惨败；此后他在莱比锡战败，最终兵败滑铁卢，卒于流放地圣赫勒拿岛。"},
+ "stops":[
+  {"year":1769,"lat":41.9192,"lon":8.7386,"label":{"en":"Born in Ajaccio, Corsica","zh":"生于科西嘉岛阿雅克肖"}},
+  {"year":1793,"lat":43.1242,"lon":5.928,"label":{"en":"Siege of Toulon","zh":"土伦之围"}},
+  {"year":1796,"lat":45.3575,"lon":11.2858,"label":{"en":"Italian campaign: Arcole","zh":"意大利战役：阿尔科莱"}},
+  {"year":1798,"lat":30.0444,"lon":31.2357,"label":{"en":"Egyptian campaign: Cairo","zh":"埃及远征：开罗"}},
+  {"year":1804,"lat":48.853,"lon":2.3499,"label":{"en":"Crowned emperor at Notre-Dame","zh":"在巴黎圣母院加冕称帝"}},
+  {"year":1805,"lat":49.1281,"lon":16.7625,"label":{"en":"Victory at Austerlitz","zh":"奥斯特里茨大捷"}},
+  {"year":1812,"lat":55.752,"lon":37.6175,"label":{"en":"Enters Moscow","zh":"进入莫斯科"}},
+  {"year":1813,"lat":51.3397,"lon":12.3731,"label":{"en":"Defeated at Leipzig","zh":"莱比锡战败"}},
+  {"year":1814,"lat":42.8131,"lon":10.3155,"label":{"en":"Exiled to Elba","zh":"流放厄尔巴岛"}},
+  {"year":1815,"lat":50.6781,"lon":4.4122,"label":{"en":"Defeated at Waterloo","zh":"兵败滑铁卢"}},
+  {"year":1821,"lat":-15.9506,"lon":-5.6837,"label":{"en":"Dies at Longwood, Saint Helena","zh":"卒于圣赫勒拿岛朗伍德"}}
+ ],
+ "sources":[{"title":"Andrew Roberts, Napoleon the Great (2014)"},{"title":"Britannica: Napoleon I","url":"https://www.britannica.com/biography/Napoleon-I"}],"confidence":"high"},
+
+{"id":"person-ludwig-van-beethoven","qid":"Q255","name":{"en":"Ludwig van Beethoven","zh":"路德维希·范·贝多芬"},"born":1770,"died":1827,
+ "role":{"en":"Composer","zh":"作曲家"},"region":"europe",
+ "summary":{"en":"Born in Bonn, Beethoven settled in Vienna in 1792 to study with Haydn and became the city's leading pianist-composer. Despite growing deafness, described in his Heiligenstadt Testament of 1802, he wrote nine symphonies, the Missa solemnis and late string quartets bridging the Classical and Romantic eras.","zh":"贝多芬生于波恩，1792年移居维也纳师从海顿，成为该城首屈一指的钢琴家兼作曲家。尽管听力日益衰退（1802年的《海利根施塔特遗嘱》对此有所记述），他仍创作了九部交响曲、《庄严弥撒》和晚期弦乐四重奏，成为连接古典主义与浪漫主义的桥梁。"},
+ "stops":[
+  {"year":1770,"lat":50.7374,"lon":7.0982,"label":{"en":"Born in Bonn","zh":"生于波恩"}},
+  {"year":1792,"lat":48.2083,"lon":16.3725,"label":{"en":"Moves to Vienna to study with Haydn","zh":"移居维也纳师从海顿"}},
+  {"year":1802,"lat":48.2547,"lon":16.3533,"label":{"en":"Writes the Heiligenstadt Testament","zh":"写下《海利根施塔特遗嘱》"}},
+  {"year":1808,"lat":48.1997,"lon":16.3633,"label":{"en":"Premieres Fifth and Sixth Symphonies (Theater an der Wien)","zh":"在维也纳河畔剧院首演第五、第六交响曲"}},
+  {"year":1824,"lat":48.2025,"lon":16.37,"label":{"en":"Premiere of the Ninth Symphony (Kärntnertortheater)","zh":"在克恩滕门剧院首演第九交响曲"}},
+  {"year":1827,"lat":48.216,"lon":16.3585,"label":{"en":"Dies in Vienna","zh":"卒于维也纳"}}
+ ],
+ "sources":[{"title":"Maynard Solomon, Beethoven (2nd ed., 1998)"},{"title":"Britannica: Ludwig van Beethoven","url":"https://www.britannica.com/biography/Ludwig-van-Beethoven"}],
+ "confidence":"high","note":"Baptised 17 December 1770; his birth on 16 December (Wikidata) is inferred, not documented."},
+
+{"id":"person-marie-curie","qid":"Q7186","name":{"en":"Marie Curie","zh":"玛丽·居里"},"born":1867,"died":1934,
+ "role":{"en":"Physicist and chemist","zh":"物理学家、化学家"},"region":"europe",
+ "summary":{"en":"Born Maria Skłodowska in Warsaw, she moved to Paris in 1891, where with Pierre Curie she discovered polonium and radium. The first woman to win a Nobel Prize, she remains the only person honoured in two different sciences (physics 1903, chemistry 1911).","zh":"玛丽·居里原名玛丽亚·斯克沃多夫斯卡，生于华沙，1891年赴巴黎求学，后与皮埃尔·居里共同发现钋和镭。她是首位获得诺贝尔奖的女性，也是迄今唯一在两个不同科学领域获奖的人（1903年物理学奖、1911年化学奖）。"},
+ "stops":[
+  {"year":1867,"lat":52.2297,"lon":21.0122,"label":{"en":"Born in Warsaw","zh":"生于华沙"}},
+  {"year":1891,"lat":48.8507,"lon":2.3431,"label":{"en":"Studies at the Sorbonne","zh":"在索邦大学求学"}},
+  {"year":1898,"lat":48.8414,"lon":2.3478,"label":{"en":"Discovers polonium and radium (ESPCI)","zh":"在巴黎工业物理化学学校发现钋和镭"}},
+  {"year":1911,"lat":59.3293,"lon":18.0686,"label":{"en":"Receives the Nobel Prize in Chemistry in Stockholm","zh":"在斯德哥尔摩领取诺贝尔化学奖"}},
+  {"year":1914,"lat":48.8444,"lon":2.3442,"label":{"en":"Radium Institute; organises mobile X-ray units","zh":"镭研究所落成，组织流动X光车"}},
+  {"year":1932,"lat":52.2297,"lon":21.0122,"label":{"en":"Opens the Radium Institute in Warsaw","zh":"华沙镭研究所揭幕"}},
+  {"year":1934,"lat":45.9206,"lon":6.6814,"label":{"en":"Dies at Sancellemoz sanatorium","zh":"卒于桑塞勒莫疗养院"}}
+ ],
+ "sources":[{"title":"Nobel Prize: Marie Curie – Biographical","url":"https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/"},{"title":"Britannica: Marie Curie","url":"https://www.britannica.com/biography/Marie-Curie"}],"confidence":"high"},
+
+{"id":"person-vladimir-lenin","qid":"Q1394","name":{"en":"Vladimir Lenin","zh":"弗拉基米尔·列宁"},"born":1870,"died":1924,
+ "role":{"en":"Revolutionary; founder of the Soviet state","zh":"革命家、苏维埃国家缔造者"},"region":"europe",
+ "summary":{"en":"A Marxist lawyer from Simbirsk, Lenin led the Bolshevik faction from exile in western Europe. Returning to Petrograd in April 1917, he led the October Revolution, headed the Soviet government through the civil war and founded the USSR in 1922, dying two years later.","zh":"列宁出身辛比尔斯克，是一名马克思主义者兼律师，长期流亡西欧领导布尔什维克派。1917年4月他回到彼得格勒，领导十月革命，在内战期间主持苏维埃政府，并于1922年建立苏联，两年后去世。"},
+ "stops":[
+  {"year":1870,"lat":54.3142,"lon":48.4031,"label":{"en":"Born in Simbirsk","zh":"生于辛比尔斯克"}},
+  {"year":1887,"lat":55.7963,"lon":49.1088,"label":{"en":"Expelled from Kazan University","zh":"被喀山大学开除"}},
+  {"year":1893,"lat":59.9386,"lon":30.3141,"label":{"en":"Marxist circles in Saint Petersburg","zh":"在圣彼得堡参加马克思主义小组"}},
+  {"year":1897,"lat":53.3264,"lon":91.9406,"label":{"en":"Exile at Shushenskoye, Siberia","zh":"流放西伯利亚舒申斯克"}},
+  {"year":1903,"lat":51.5074,"lon":-0.1278,"label":{"en":"Bolshevik–Menshevik split (London congress)","zh":"伦敦代表大会，布尔什维克与孟什维克分裂"}},
+  {"year":1916,"lat":47.3769,"lon":8.5417,"label":{"en":"Exile in Zurich","zh":"流亡苏黎世"}},
+  {"year":1917,"lat":59.9556,"lon":30.3561,"label":{"en":"Arrives at Finland Station; leads the October Revolution","zh":"抵达芬兰车站，领导十月革命"}},
+  {"year":1918,"lat":55.752,"lon":37.6175,"label":{"en":"Moves the government to Moscow","zh":"将政府迁往莫斯科"}},
+  {"year":1924,"lat":55.5017,"lon":37.7414,"label":{"en":"Dies at Gorki","zh":"卒于哥尔克"}}
+ ],
+ "sources":[{"title":"Robert Service, Lenin: A Biography (2000)"},{"title":"Britannica: Vladimir Lenin","url":"https://www.britannica.com/biography/Vladimir-Lenin"}],"confidence":"high"},
+
+{"id":"person-winston-churchill","qid":"Q8016","name":{"en":"Winston Churchill","zh":"温斯顿·丘吉尔"},"born":1874,"died":1965,
+ "role":{"en":"British statesman","zh":"英国政治家"},"region":"europe",
+ "summary":{"en":"Soldier, journalist and politician, Churchill held major offices including First Lord of the Admiralty in the First World War. As prime minister from 1940 to 1945 he led Britain's resistance to Nazi Germany; he served again in 1951–55 and won the Nobel Prize in Literature in 1953.","zh":"丘吉尔曾是军人、记者和政治家，第一次世界大战期间担任海军大臣等要职。1940至1945年他出任首相，领导英国抵抗纳粹德国；1951至1955年再度出任首相，并于1953年获诺贝尔文学奖。"},
+ "stops":[
+  {"year":1874,"lat":51.8413,"lon":-1.361,"label":{"en":"Born at Blenheim Palace","zh":"生于布伦海姆宫"}},
+  {"year":1893,"lat":51.3456,"lon":-0.7853,"label":{"en":"Enters Sandhurst","zh":"进入桑赫斯特军校"}},
+  {"year":1898,"lat":15.65,"lon":32.48,"label":{"en":"Charges at Omdurman","zh":"参加恩图曼战役冲锋"}},
+  {"year":1899,"lat":-25.7479,"lon":28.2293,"label":{"en":"Escapes Boer captivity in Pretoria","zh":"从比勒陀利亚的布尔人战俘营脱逃"}},
+  {"year":1916,"lat":50.7253,"lon":2.8794,"label":{"en":"Commands a battalion at Ploegsteert","zh":"在普卢赫斯泰尔特指挥一个营"}},
+  {"year":1940,"lat":51.5034,"lon":-0.1276,"label":{"en":"Becomes prime minister (Downing Street)","zh":"出任首相（唐宁街）"}},
+  {"year":1945,"lat":44.4678,"lon":34.1433,"label":{"en":"Yalta Conference","zh":"雅尔塔会议"}},
+  {"year":1965,"lat":51.5009,"lon":-0.1832,"label":{"en":"Dies in London","zh":"卒于伦敦"}}
+ ],
+ "sources":[{"title":"Martin Gilbert, Churchill: A Life (1991)"},{"title":"Britannica: Winston Churchill","url":"https://www.britannica.com/biography/Winston-Churchill"}],"confidence":"high"}
+]

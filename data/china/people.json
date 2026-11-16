@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "person-zhuge-liang",
+    "qid": "Q198211",
+    "name": {
+      "en": "Zhuge Liang",
+      "zh": "诸葛亮"
+    },
+    "born": 181,
+    "died": 234,
+    "role": {
+      "en": "Chancellor of Shu Han and strategist",
+      "zh": "蜀汉丞相、政治家、军事家"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Recruited by Liu Bei with the Longzhong Plan for a three-way division of China, he helped win at Red Cliffs, founded Shu Han's administration, pacified the south and led repeated northern campaigns until his death at Wuzhang Plains.",
+      "zh": "以《隆中对》三分天下之策辅佐刘备，联吴抗曹胜于赤壁，主政蜀汉，南征南中，五次北伐，病逝五丈原。"
+    },
+    "stops": [
+      {
+        "year": 207,
+        "lat": 32,
+        "lon": 112.04,
+        "label": {
+          "en": "Longzhong: Three Visits to the Thatched Cottage — The Longzhong Plan",
+          "zh": "隆中·三顾茅庐·隆中决策"
+        }
+      },
+      {
+        "year": 208,
+        "lat": 29.71,
+        "lon": 115.98,
+        "label": {
+          "en": "Chaisang: Diplomatic Mission to Chaisang — Forging the Wu Alliance",
+          "zh": "柴桑·奉使柴桑·舌战联吴"
+        }
+      },
+      {
+        "year": 208,
+        "lat": 29.85,
+        "lon": 113.94,
+        "label": {
+          "en": "Red Cliffs: Allied Victory at the Red Cliffs",
+          "zh": "赤壁·赤壁鏖兵·三分奠基"
+        }
+      },
+      {
+        "year": 214,
+        "lat": 30.67,
+        "lon": 104.07,
+        "label": {
+          "en": "Chengdu: Ascending the Yangtze into Shu & Taking Chengdu",
+          "zh": "成都·溯江入蜀·会师成都"
+        }
+      },
+      {
+        "year": 221,
+        "lat": 30.67,
+        "lon": 104.07,
+        "label": {
+          "en": "Chengdu: Founding of Shu Han & Appointment as Imperial Chancellor",
+          "zh": "成都·劝进昭烈·开府拜相"
+        }
+      },
+      {
+        "year": 223,
+        "lat": 31.04,
+        "lon": 109.57,
+        "label": {
+          "en": "Baidicheng: Entrustment of the Orphan Emperor at Baidicheng",
+          "zh": "白帝城·白帝托孤·受命危难"
+        }
+      },
+      {
+        "year": 225,
+        "lat": 25.04,
+        "lon": 102.71,
+        "label": {
+          "en": "Dianchi: Southern Campaign Across the Lu River — Pacifying Nanzhong",
+          "zh": "滇池·渡泸南征·七擒孟获"
+        }
+      },
+      {
+        "year": 227,
+        "lat": 33.07,
+        "lon": 107.02,
+        "label": {
+          "en": "Hanzhong: Garrisoning Hanzhong & Presenting the Chu Shi Biao",
+          "zh": "汉中·进驻汉中·上出师表"
+        }
+      },
+      {
+        "year": 228,
+        "lat": 34.33,
+        "lon": 105.32,
+        "label": {
+          "en": "Mount Qi: First Expedition from Mount Qi — Recruiting Jiang Wei",
+          "zh": "祁山·一出祁山·收姜维失街亭"
+        }
+      },
+      {
+        "year": 231,
+        "lat": 34.22,
+        "lon": 105.38,
+        "label": {
+          "en": "Mumen Trail: Fourth Expedition — Victory at Lucheng & Mumen Ambush",
+          "zh": "木门道·木牛流马·木门道射杀张郃"
+        }
+      },
+      {
+        "year": 234,
+        "lat": 34.34,
+        "lon": 107.63,
+        "label": {
+          "en": "Wuzhang Plains: Final Stand on the Wuzhang Plains",
+          "zh": "五丈原·出斜谷屯五丈原·秋风星落"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《三国志》 卷35 蜀书五 诸葛亮传",
+        "url": "https://zh.wikisource.org/wiki/三國志"
+      },
+      {
+        "title": "《资治通鉴》 卷70 魏纪二 黄初六年",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑"
+      },
+      {
+        "title": "《资治通鉴》 卷70 魏纪二 太和元年",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑"
+      },
+      {
+        "title": "《三国志》 卷17 魏书十七 张郃传",
+        "url": "https://zh.wikisource.org/wiki/三國志"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-xuanzang",
+    "qid": "Q42063",
+    "name": {
+      "en": "Xuanzang",
+      "zh": "玄奘"
+    },
+    "born": 602,
+    "died": 664,
+    "role": {
+      "en": "Buddhist monk, pilgrim and translator",
+      "zh": "高僧、旅行家、佛经翻译家"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Tang monk who left Chang'an secretly in 627, crossed the Gobi, Tianshan and Hindu Kush to study at Nalanda, and returned in 645 with hundreds of scriptures, which he translated; his Great Tang Records on the Western Regions describe the journey.",
+      "zh": "唐僧玄奘627年私出长安，越沙漠、天山与兴都库什山至那烂陀寺求法，645年携经六百余部归国译经，口述《大唐西域记》。"
+    },
+    "stops": [
+      {
+        "year": 627,
+        "lat": 34.26,
+        "lon": 108.94,
+        "label": {
+          "en": "Chang'an: Departing Chang'an for the West",
+          "zh": "长安·发足长安·孤身西迈"
+        }
+      },
+      {
+        "year": 627,
+        "lat": 37.93,
+        "lon": 102.64,
+        "label": {
+          "en": "Liangzhou: Preaching in Liangzhou & Night Crossing",
+          "zh": "凉州·凉州开讲·昼伏夜行"
+        }
+      },
+      {
+        "year": 627,
+        "lat": 40.52,
+        "lon": 95.78,
+        "label": {
+          "en": "Guazhou: Crossing the Gobi of Moheyan",
+          "zh": "瓜州·夜渡葫芦河·闯莫贺延碛"
+        }
+      },
+      {
+        "year": 628,
+        "lat": 42.85,
+        "lon": 89.53,
+        "label": {
+          "en": "Gaochang: Sworn Brotherhood with the King of Gaochang",
+          "zh": "高昌王城·高昌结义·修书通西域"
+        }
+      },
+      {
+        "year": 628,
+        "lat": 41.72,
+        "lon": 82.96,
+        "label": {
+          "en": "Kucha: Kucha Oasis & Crossing the Icy Tian Shan",
+          "zh": "龟兹·驻锡龟兹·翻越凌山雪岭"
+        }
+      },
+      {
+        "year": 628,
+        "lat": 42.83,
+        "lon": 75.29,
+        "label": {
+          "en": "Suyab: Audience with the Western Turkic Khagan at Suyab",
+          "zh": "碎叶城·过大清池·会西突厥叶护可汗"
+        }
+      },
+      {
+        "year": 628,
+        "lat": 36.76,
+        "lon": 66.9,
+        "label": {
+          "en": "Balkh: Through the Iron Gate to Balkh",
+          "zh": "缚喝·过铁门关·参礼小王舍城"
+        }
+      },
+      {
+        "year": 629,
+        "lat": 34.01,
+        "lon": 71.52,
+        "label": {
+          "en": "Gandhara: Crossing the Hindu Kush into Gandhara & India",
+          "zh": "健驮逻·越雪山礼大佛·入天竺求法"
+        }
+      },
+      {
+        "year": 631,
+        "lat": 25.14,
+        "lon": 85.44,
+        "label": {
+          "en": "Nalanda Monastery: Studying the Yogacara under Silabhadra at Nalanda",
+          "zh": "那烂陀寺·那烂陀寺·师从戒贤学《瑜伽》"
+        }
+      },
+      {
+        "year": 642,
+        "lat": 27.05,
+        "lon": 79.92,
+        "label": {
+          "en": "Kanyakubja: The Grand Debate at Kannauj",
+          "zh": "曲女城·曲女城大会·十八日无人能难"
+        }
+      },
+      {
+        "year": 644,
+        "lat": 37.11,
+        "lon": 79.92,
+        "label": {
+          "en": "Khotan: Return via Khotan & Memorial to Emperor Taizong",
+          "zh": "于阗·越葱岭载经东归·奉表唐廷"
+        }
+      },
+      {
+        "year": 645,
+        "lat": 34.05,
+        "lon": 109.35,
+        "label": {
+          "en": "Chang'an: Triumphal Return to Chang'an & Translation Bureau",
+          "zh": "长安·归至京师·开场译经撰记"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "慧立、彦悰《大慈恩寺三藏法师传》",
+        "url": "https://zh.wikisource.org/wiki/大慈恩寺三藏法師傳"
+      },
+      {
+        "title": "玄奘、辩机《大唐西域记》"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Departure is dated 627 by Jiangshan-map following the Biography; some scholars prefer 629."
+  },
+  {
+    "id": "person-li-bai",
+    "qid": "Q7071",
+    "name": {
+      "en": "Li Bai",
+      "zh": "李白"
+    },
+    "born": 701,
+    "died": 762,
+    "role": {
+      "en": "Tang poet",
+      "zh": "唐代诗人"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "\"Immortal of poetry\" of the High Tang, born at Suyab in Central Asia and raised in Sichuan. He wandered the Yangtze lands, served briefly at Xuanzong's court, was exiled after the An Lushan rebellion and died at Dangtu.",
+      "zh": "盛唐“诗仙”，生于碎叶，长于蜀中，仗剑去国漫游江南，曾供奉翰林；安史之乱后因永王事流放夜郎，终老当涂。"
+    },
+    "stops": [
+      {
+        "year": 701,
+        "lat": 42.83,
+        "lon": 75.29,
+        "label": {
+          "en": "Suyab: Birth at Suyab in the Western Regions",
+          "zh": "碎叶城·诞于西域·安西碎叶"
+        }
+      },
+      {
+        "year": 705,
+        "lat": 31.78,
+        "lon": 104.74,
+        "label": {
+          "en": "Qinglian, Mianzhou: Youth in Qinglian & Studying on Mount Dakuang",
+          "zh": "绵州青莲·卜居青莲·大匡山读书"
+        }
+      },
+      {
+        "year": 724,
+        "lat": 29.56,
+        "lon": 106.55,
+        "label": {
+          "en": "Yuzhou: Sailing Down the Min & Yangtze Rivers to Yuzhou",
+          "zh": "渝州·夜发清溪·思君下渝州"
+        }
+      },
+      {
+        "year": 725,
+        "lat": 30.69,
+        "lon": 111.45,
+        "label": {
+          "en": "Jingmen: Leaving Shu with Sword in Hand Through the Three Gorges",
+          "zh": "荆门·仗剑去国·辞亲出三峡"
+        }
+      },
+      {
+        "year": 726,
+        "lat": 32.39,
+        "lon": 119.41,
+        "label": {
+          "en": "Yangzhou: Grand Tour of Wu-Yue & Spending 300,000 Cash in Yangzhou",
+          "zh": "扬州·漫游吴越·散金三十万"
+        }
+      },
+      {
+        "year": 727,
+        "lat": 31.26,
+        "lon": 113.69,
+        "label": {
+          "en": "Anlu: Ten Years in Anlu & Farewell at Yellow Crane Tower",
+          "zh": "安陆·酒隐安陆·登临黄鹤楼"
+        }
+      },
+      {
+        "year": 742,
+        "lat": 34.26,
+        "lon": 108.94,
+        "label": {
+          "en": "Chang'an: Summoned to Chang'an — Imperial Hanlin Academy",
+          "zh": "长安·奉诏入京·翰林待诏"
+        }
+      },
+      {
+        "year": 744,
+        "lat": 34.62,
+        "lon": 112.45,
+        "label": {
+          "en": "Luoyang: Leaving Court & Historic Meeting with Du Fu in Luoyang",
+          "zh": "洛阳·赐金放还·洛阳逢杜甫"
+        }
+      },
+      {
+        "year": 744,
+        "lat": 34.44,
+        "lon": 115.65,
+        "label": {
+          "en": "Suiyang: Roaming Liang-Song with Du Fu & Gao Shi",
+          "zh": "睢阳·梁园豪游·偕杜甫高适猎孟诸"
+        }
+      },
+      {
+        "year": 745,
+        "lat": 35.41,
+        "lon": 116.59,
+        "label": {
+          "en": "Rencheng: Sojourn in Qilu & Dreaming of Mount Tianmu",
+          "zh": "任城·东游齐鲁·梦游天姥"
+        }
+      },
+      {
+        "year": 759,
+        "lat": 31.04,
+        "lon": 109.57,
+        "label": {
+          "en": "Baidicheng: Exile to Yelang & Imperial Pardon at Baidicheng",
+          "zh": "白帝城·长流夜郎·白帝遇赦还江陵"
+        }
+      },
+      {
+        "year": 762,
+        "lat": 31.55,
+        "lon": 118.49,
+        "label": {
+          "en": "Dangtu: Final Song at Dangtu & Resting by Mount Qing",
+          "zh": "当涂·赋临路歌·终老当涂青山"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷190下 文苑传下 李白",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷190下"
+      },
+      {
+        "title": "欧阳修等《新唐书》卷202 文艺传中 李白"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth at Suyab follows the traditional account adopted by Jiangshan-map; it is debated."
+  },
+  {
+    "id": "person-du-fu",
+    "qid": "Q33772",
+    "name": {
+      "en": "Du Fu",
+      "zh": "杜甫"
+    },
+    "born": 712,
+    "died": 770,
+    "role": {
+      "en": "Tang poet",
+      "zh": "唐代诗人"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "\"Sage of poetry\" whose verse recorded the An Lushan rebellion and the suffering it caused. After failing to gain high office in Chang'an he lived as a refugee in Sichuan and along the Yangtze, dying on a boat in Hunan.",
+      "zh": "“诗圣”，其诗以“诗史”记录安史之乱与民间疾苦。仕途失意，流寓成都、夔州，晚年漂泊湖湘，卒于舟中。"
+    },
+    "stops": [
+      {
+        "year": 712,
+        "lat": 34.75,
+        "lon": 113,
+        "label": {
+          "en": "Born at Gong county near Luoyang",
+          "zh": "生于河南巩县"
+        }
+      },
+      {
+        "year": 744,
+        "lat": 34.62,
+        "lon": 112.45,
+        "label": {
+          "en": "Meets Li Bai in Luoyang",
+          "zh": "洛阳初逢李白"
+        }
+      },
+      {
+        "year": 744,
+        "lat": 34.44,
+        "lon": 115.65,
+        "label": {
+          "en": "Roams Liang-Song with Li Bai and Gao Shi",
+          "zh": "偕李白、高适游梁宋"
+        }
+      },
+      {
+        "year": 752,
+        "lat": 34.22,
+        "lon": 108.96,
+        "label": {
+          "en": "Climbs the Ci'en pagoda in Chang'an",
+          "zh": "长安登慈恩寺塔"
+        }
+      },
+      {
+        "year": 757,
+        "lat": 34.28,
+        "lon": 108.93,
+        "label": {
+          "en": "Witnesses the recapture of Chang'an",
+          "zh": "长安收复"
+        }
+      },
+      {
+        "year": 760,
+        "lat": 30.66,
+        "lon": 104.03,
+        "label": {
+          "en": "Builds the Thatched Cottage in Chengdu",
+          "zh": "成都浣花溪草堂"
+        }
+      },
+      {
+        "year": 766,
+        "lat": 31.04,
+        "lon": 109.57,
+        "label": {
+          "en": "Settles at Kuizhou (Baidicheng)",
+          "zh": "寓居夔州"
+        }
+      },
+      {
+        "year": 770,
+        "lat": 28.23,
+        "lon": 112.94,
+        "label": {
+          "en": "Dies on the Xiang River near Tanzhou",
+          "zh": "卒于潭州湘江舟中"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷190下 文苑传下 杜甫",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷190下"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 766 and 770 stops are from standard biographies, not Jiangshan-map."
+  },
+  {
+    "id": "person-su-shi",
+    "qid": "Q36020",
+    "name": {
+      "en": "Su Shi (Su Dongpo)",
+      "zh": "苏轼"
+    },
+    "born": 1037,
+    "died": 1101,
+    "role": {
+      "en": "Song poet, essayist and statesman",
+      "zh": "北宋文学家、书画家、政治家"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Leading writer of the Song, who passed the 1057 examination with his brother. Opposed to Wang Anshi's reforms, he was tried for his poems in 1079 and exiled to Huangzhou, Huizhou and finally Danzhou on Hainan, before dying on his way home.",
+      "zh": "北宋文坛领袖，1057年与弟苏辙同榜。反对新法，1079年乌台诗案后贬黄州，晚年再贬惠州、儋州，北归途中卒于常州。"
+    },
+    "stops": [
+      {
+        "year": 1056,
+        "lat": 30.05,
+        "lon": 103.85,
+        "label": {
+          "en": "Meizhou: Leaving Meizhou for the Imperial Capital",
+          "zh": "眉州·弱冠出蜀·仗剑远游"
+        }
+      },
+      {
+        "year": 1057,
+        "lat": 34.79,
+        "lon": 114.35,
+        "label": {
+          "en": "Dongjing Kaifeng: Triumph at the Kaifeng Imperial Court",
+          "zh": "东京开封府·金榜题名·名动京师"
+        }
+      },
+      {
+        "year": 1061,
+        "lat": 34.52,
+        "lon": 107.39,
+        "label": {
+          "en": "Fengxiang: First Official Post in Fengxiang",
+          "zh": "凤翔府·初仕关中·签判凤翔"
+        }
+      },
+      {
+        "year": 1071,
+        "lat": 30.28,
+        "lon": 120.15,
+        "label": {
+          "en": "Hangzhou: Vice-Prefect of Hangzhou & West Lake",
+          "zh": "杭州·外放通判·寄情西湖"
+        }
+      },
+      {
+        "year": 1075,
+        "lat": 35.99,
+        "lon": 119.4,
+        "label": {
+          "en": "Mizhou: Governor of Mizhou — Birth of the Heroic Style",
+          "zh": "密州·知密州·超然豪放"
+        }
+      },
+      {
+        "year": 1077,
+        "lat": 34.26,
+        "lon": 117.18,
+        "label": {
+          "en": "Xuzhou: Governor of Xuzhou — Holding the Yellow River Dykes",
+          "zh": "徐州·知徐州·抗洪筑黄楼"
+        }
+      },
+      {
+        "year": 1079,
+        "lat": 30.89,
+        "lon": 120.09,
+        "label": {
+          "en": "Huzhou: Transfer to Huzhou & the Crow Terrace Poetry Trial",
+          "zh": "湖州·移知湖州·乌台诗案"
+        }
+      },
+      {
+        "year": 1080,
+        "lat": 30.45,
+        "lon": 114.87,
+        "label": {
+          "en": "Huangzhou: Exile in Huangzhou — Dongpo & the Red Cliffs",
+          "zh": "黄州·贬谪黄州·东坡赤壁"
+        }
+      },
+      {
+        "year": 1089,
+        "lat": 30.28,
+        "lon": 120.15,
+        "label": {
+          "en": "Hangzhou: Governor of Hangzhou — Building the Su Causeway",
+          "zh": "杭州·再知杭州·浚湖筑苏堤"
+        }
+      },
+      {
+        "year": 1094,
+        "lat": 23.11,
+        "lon": 114.41,
+        "label": {
+          "en": "Huizhou: Banished South of the Nanling to Huizhou",
+          "zh": "惠州·再贬岭南·寓居惠州"
+        }
+      },
+      {
+        "year": 1097,
+        "lat": 19.52,
+        "lon": 109.58,
+        "label": {
+          "en": "Danzhou: Across the Sea to Danzhou (Hainan Island)",
+          "zh": "儋州·渡海琼州·敷文儋耳"
+        }
+      },
+      {
+        "year": 1101,
+        "lat": 31.81,
+        "lon": 119.97,
+        "label": {
+          "en": "Changzhou: Pardoned Return North & Final Rest in Changzhou",
+          "zh": "常州·遇赦北归·终老毗陵"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《宋史》 卷338 列传第九十七 苏轼传",
+        "url": "https://zh.wikisource.org/wiki/宋史"
+      },
+      {
+        "title": "脱脱等《宋史》卷338 苏轼传",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷338"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-wang-yangming",
+    "qid": "Q378462",
+    "name": {
+      "en": "Wang Yangming",
+      "zh": "王阳明"
+    },
+    "born": 1472,
+    "died": 1529,
+    "role": {
+      "en": "Ming philosopher, official and general",
+      "zh": "明代思想家、军事家"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Ming scholar-official who, exiled to Longchang in Guizhou, concluded that principle is found in the mind and taught the unity of knowledge and action. He also crushed the Prince of Ning's rebellion in 1519.",
+      "zh": "明代心学集大成者，谪居贵州龙场悟道，倡“心即理”“知行合一”“致良知”；1519年平定宁王之乱。"
+    },
+    "stops": [
+      {
+        "year": 1472,
+        "lat": 30.04,
+        "lon": 121.15,
+        "label": {
+          "en": "Yuyao: Birth at Ruiyun Tower & Aspiration for Sagehood",
+          "zh": "余姚·降生瑞云·志在圣贤"
+        }
+      },
+      {
+        "year": 1489,
+        "lat": 28.45,
+        "lon": 117.97,
+        "label": {
+          "en": "Guangxin: Meeting Lou Liang at Guangxin & Inquiring into Gewu",
+          "zh": "广信·谒娄一斋·始闻格物"
+        }
+      },
+      {
+        "year": 1492,
+        "lat": 39.9,
+        "lon": 116.4,
+        "label": {
+          "en": "Jingshi: Investigating Bamboo & Passing the Metropolitan Exam",
+          "zh": "京师·格竹致疾·进士及第"
+        }
+      },
+      {
+        "year": 1506,
+        "lat": 30.22,
+        "lon": 120.2,
+        "label": {
+          "en": "Qiantang River: Flogged in Court & Escaping Assassins at Qiantang",
+          "zh": "钱塘江·廷杖下狱·投江脱险"
+        }
+      },
+      {
+        "year": 1508,
+        "lat": 26.84,
+        "lon": 106.59,
+        "label": {
+          "en": "Longchang: Longchang Enlightenment & Philosophy of Mind",
+          "zh": "龙场·龙场大悟·创立心学"
+        }
+      },
+      {
+        "year": 1510,
+        "lat": 27.11,
+        "lon": 114.98,
+        "label": {
+          "en": "Luling: Magistrate of Luling — Benevolent Governance",
+          "zh": "庐陵·知县庐陵·兴教善政"
+        }
+      },
+      {
+        "year": 1517,
+        "lat": 25.83,
+        "lon": 114.93,
+        "label": {
+          "en": "Ganzhou: Governor of Southern Gan — Quelling Mountain Bandits",
+          "zh": "赣州·巡抚南赣·破山中贼"
+        }
+      },
+      {
+        "year": 1519,
+        "lat": 28.68,
+        "lon": 115.89,
+        "label": {
+          "en": "Nanchang: Crushing Prince of Ning's Rebellion in 35 Days",
+          "zh": "南昌·平宁王乱·奇兵定难"
+        }
+      },
+      {
+        "year": 1521,
+        "lat": 30,
+        "lon": 120.58,
+        "label": {
+          "en": "Shaoxing: Doctrine of Liangzhi & Tianquan Bridge Discourse",
+          "zh": "绍兴·致良知教·天泉证道"
+        }
+      },
+      {
+        "year": 1529,
+        "lat": 25.4,
+        "lon": 114.36,
+        "label": {
+          "en": "Nan'an: Radiant Mind — Final Passing at Qinglongpu",
+          "zh": "南安·此心光明·亦复何言"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷195 王守仁传",
+        "url": "https://zh.wikisource.org/wiki/明史/卷195"
+      },
+      {
+        "title": "钱德洪编《王阳明年谱》"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-cao-cao",
+    "qid": "Q204077",
+    "name": {
+      "en": "Cao Cao",
+      "zh": "曹操"
+    },
+    "born": 155,
+    "died": 220,
+    "role": {
+      "en": "Warlord and chancellor of Eastern Han",
+      "zh": "东汉丞相、魏王、诗人"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Statesman and general who controlled the last Han emperor, reunified north China after defeating Yuan Shao at Guandu, was checked at Red Cliffs, and laid the foundation of the Wei state; also a notable poet.",
+      "zh": "挟天子以令诸侯，官渡之战击败袁绍统一北方，赤壁受挫，奠定曹魏基业；亦为建安文学代表诗人。"
+    },
+    "stops": [
+      {
+        "year": 155,
+        "lat": 33.87,
+        "lon": 115.78,
+        "label": {
+          "en": "Born at Qiao",
+          "zh": "生于沛国谯县"
+        }
+      },
+      {
+        "year": 196,
+        "lat": 34.03,
+        "lon": 113.85,
+        "label": {
+          "en": "Brings Emperor Xian to Xu",
+          "zh": "迎汉献帝都许"
+        }
+      },
+      {
+        "year": 198,
+        "lat": 34.31,
+        "lon": 117.96,
+        "label": {
+          "en": "Captures Lü Bu at Xiapi",
+          "zh": "下邳擒吕布"
+        }
+      },
+      {
+        "year": 200,
+        "lat": 34.751,
+        "lon": 114.001,
+        "label": {
+          "en": "Defeats Yuan Shao at Guandu",
+          "zh": "官渡破袁绍"
+        }
+      },
+      {
+        "year": 204,
+        "lat": 36.101,
+        "lon": 114.391,
+        "label": {
+          "en": "Takes Ye and makes it his base",
+          "zh": "克邺城，建霸府"
+        }
+      },
+      {
+        "year": 208,
+        "lat": 29.85,
+        "lon": 113.94,
+        "label": {
+          "en": "Defeated at Red Cliffs",
+          "zh": "赤壁兵败"
+        }
+      },
+      {
+        "year": 211,
+        "lat": 34.611,
+        "lon": 110.291,
+        "label": {
+          "en": "Wins at Tong Pass",
+          "zh": "潼关破马超"
+        }
+      },
+      {
+        "year": 216,
+        "lat": 36.101,
+        "lon": 114.391,
+        "label": {
+          "en": "Made King of Wei at Ye",
+          "zh": "进爵魏王"
+        }
+      },
+      {
+        "year": 220,
+        "lat": 34.621,
+        "lon": 112.451,
+        "label": {
+          "en": "Dies at Luoyang",
+          "zh": "卒于洛阳"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "陈寿《三国志》卷1 魏书一 武帝纪",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-liu-bei",
+    "qid": "Q245315",
+    "name": {
+      "en": "Liu Bei",
+      "zh": "刘备"
+    },
+    "born": 161,
+    "died": 223,
+    "role": {
+      "en": "Founding emperor of Shu Han",
+      "zh": "蜀汉开国皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "A minor Han kinsman who rose from selling sandals to found Shu Han. With Guan Yu, Zhang Fei and Zhuge Liang he survived years of defeat, won Jingzhou and Yizhou, and proclaimed himself emperor in Chengdu in 221.",
+      "zh": "汉室宗亲，织席贩履出身，与关羽、张飞、诸葛亮相辅，历经颠沛据有荆益，221年于成都称帝建蜀汉。"
+    },
+    "stops": [
+      {
+        "year": 184,
+        "lat": 39.48,
+        "lon": 115.97,
+        "label": {
+          "en": "Raises volunteers at Zhuo",
+          "zh": "涿县起兵"
+        }
+      },
+      {
+        "year": 196,
+        "lat": 34.26,
+        "lon": 117.18,
+        "label": {
+          "en": "Governor of Xuzhou",
+          "zh": "领徐州"
+        }
+      },
+      {
+        "year": 207,
+        "lat": 32.01,
+        "lon": 112.14,
+        "label": {
+          "en": "Visits Zhuge Liang at Longzhong",
+          "zh": "三顾茅庐"
+        }
+      },
+      {
+        "year": 208,
+        "lat": 30.82,
+        "lon": 111.79,
+        "label": {
+          "en": "Overtaken at Changban",
+          "zh": "当阳长坂"
+        }
+      },
+      {
+        "year": 208,
+        "lat": 29.85,
+        "lon": 113.94,
+        "label": {
+          "en": "Allied victory at Red Cliffs",
+          "zh": "赤壁之战"
+        }
+      },
+      {
+        "year": 214,
+        "lat": 30.67,
+        "lon": 104.06,
+        "label": {
+          "en": "Takes Chengdu",
+          "zh": "取成都"
+        }
+      },
+      {
+        "year": 219,
+        "lat": 33.11,
+        "lon": 106.12,
+        "label": {
+          "en": "King of Hanzhong",
+          "zh": "汉中称王"
+        }
+      },
+      {
+        "year": 221,
+        "lat": 30.67,
+        "lon": 104.06,
+        "label": {
+          "en": "Proclaims Shu Han",
+          "zh": "成都称帝"
+        }
+      },
+      {
+        "year": 222,
+        "lat": 30.691,
+        "lon": 111.291,
+        "label": {
+          "en": "Defeated at Yiling",
+          "zh": "夷陵之败"
+        }
+      },
+      {
+        "year": 223,
+        "lat": 31.04,
+        "lon": 109.57,
+        "label": {
+          "en": "Dies at Baidicheng",
+          "zh": "白帝城托孤"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "陈寿《三国志》卷32 蜀书二 先主传",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-sun-quan",
+    "qid": "Q313327",
+    "name": {
+      "en": "Sun Quan",
+      "zh": "孙权"
+    },
+    "born": 182,
+    "died": 252,
+    "role": {
+      "en": "Founding emperor of Eastern Wu",
+      "zh": "东吴开国皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Ruler of the lower Yangtze for half a century. He allied with Liu Bei to defeat Cao Cao at Red Cliffs, later took Jingzhou, and in 229 declared himself emperor of Wu, developing the south and its navy.",
+      "zh": "继父兄基业统治江东五十余年，联刘抗曹胜于赤壁，后夺荆州，229年称帝，开发江南、经略海上。"
+    },
+    "stops": [
+      {
+        "year": 200,
+        "lat": 31.3,
+        "lon": 120.6,
+        "label": {
+          "en": "Succeeds his brother Sun Ce",
+          "zh": "继孙策领江东"
+        }
+      },
+      {
+        "year": 208,
+        "lat": 29.71,
+        "lon": 115.98,
+        "label": {
+          "en": "Allies with Liu Bei at Chaisang",
+          "zh": "柴桑定策联刘"
+        }
+      },
+      {
+        "year": 208,
+        "lat": 29.85,
+        "lon": 113.94,
+        "label": {
+          "en": "Victory at Red Cliffs",
+          "zh": "赤壁之战"
+        }
+      },
+      {
+        "year": 215,
+        "lat": 31.86,
+        "lon": 117.27,
+        "label": {
+          "en": "Repulsed at Hefei",
+          "zh": "合肥逍遥津"
+        }
+      },
+      {
+        "year": 219,
+        "lat": 29.82,
+        "lon": 113.45,
+        "label": {
+          "en": "Seizes Jingzhou from Guan Yu",
+          "zh": "袭取荆州"
+        }
+      },
+      {
+        "year": 221,
+        "lat": 30.39,
+        "lon": 114.89,
+        "label": {
+          "en": "Moves his seat to Wuchang",
+          "zh": "都鄂改名武昌"
+        }
+      },
+      {
+        "year": 229,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Proclaims himself emperor, settles at Jianye",
+          "zh": "称帝迁都建业"
+        }
+      },
+      {
+        "year": 252,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Dies at Jianye",
+          "zh": "卒于建业"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "陈寿《三国志》卷47 吴书二 吴主传",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷47"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-guan-yu",
+    "qid": "Q222797",
+    "name": {
+      "en": "Guan Yu",
+      "zh": "关羽"
+    },
+    "born": 160,
+    "died": 220,
+    "role": {
+      "en": "General of Liu Bei",
+      "zh": "蜀汉名将"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Sworn companion of Liu Bei, famed for loyalty. He held Jingzhou for Shu, won a great victory at Fancheng in 219, but was cut off when Wu seized Jiangling and was executed; later worshipped as a god of war and loyalty.",
+      "zh": "刘备的结义兄弟，以忠义著称。镇守荆州，219年水淹七军威震华夏，旋因东吴袭取江陵败走麦城被杀；后世尊为“武圣”。"
+    },
+    "stops": [
+      {
+        "year": 184,
+        "lat": 39.48,
+        "lon": 115.97,
+        "label": {
+          "en": "Joins Liu Bei at Zhuo",
+          "zh": "涿县从刘备起兵"
+        }
+      },
+      {
+        "year": 200,
+        "lat": 35.61,
+        "lon": 114.53,
+        "label": {
+          "en": "Slays Yan Liang at Baima",
+          "zh": "白马斩颜良"
+        }
+      },
+      {
+        "year": 200,
+        "lat": 34.03,
+        "lon": 113.98,
+        "label": {
+          "en": "Leaves Cao Cao to rejoin Liu Bei",
+          "zh": "封金辞曹"
+        }
+      },
+      {
+        "year": 208,
+        "lat": 29.85,
+        "lon": 113.94,
+        "label": {
+          "en": "Red Cliffs campaign",
+          "zh": "赤壁之战"
+        }
+      },
+      {
+        "year": 219,
+        "lat": 32.01,
+        "lon": 112.14,
+        "label": {
+          "en": "Floods Yu Jin's armies at Fancheng",
+          "zh": "水淹七军"
+        }
+      },
+      {
+        "year": 220,
+        "lat": 30.82,
+        "lon": 111.79,
+        "label": {
+          "en": "Captured near Maicheng and executed",
+          "zh": "败走麦城"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "陈寿《三国志》卷36 蜀书六 关羽传",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷36"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth year is uncertain; he was executed in the 12th month of Jian'an 24, i.e. early 220."
+  },
+  {
+    "id": "person-emperor-taizong-of-tang",
+    "qid": "Q9701",
+    "name": {
+      "en": "Emperor Taizong of Tang (Li Shimin)",
+      "zh": "唐太宗李世民"
+    },
+    "born": 598,
+    "died": 649,
+    "role": {
+      "en": "Second emperor of Tang",
+      "zh": "唐朝第二位皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Co-founder of the Tang who seized power at the Xuanwu Gate in 626. His Zhenguan reign, with ministers such as Wei Zheng, became the model of good government, while his generals destroyed the Eastern Turks and opened the Western Regions.",
+      "zh": "唐朝实际开创者之一，626年玄武门之变夺位。任用魏征等虚心纳谏，开创“贞观之治”；灭东突厥，经营西域，被尊为“天可汗”。"
+    },
+    "stops": [
+      {
+        "year": 598,
+        "lat": 34.26,
+        "lon": 108.2,
+        "label": {
+          "en": "Born at Wugong",
+          "zh": "生于武功"
+        }
+      },
+      {
+        "year": 617,
+        "lat": 37.871,
+        "lon": 112.551,
+        "label": {
+          "en": "Urges the Taiyuan uprising",
+          "zh": "太原起兵"
+        }
+      },
+      {
+        "year": 621,
+        "lat": 34.851,
+        "lon": 113.201,
+        "label": {
+          "en": "Captures Dou Jiande at Hulao",
+          "zh": "虎牢擒窦建德"
+        }
+      },
+      {
+        "year": 626,
+        "lat": 34.2778,
+        "lon": 108.9431,
+        "label": {
+          "en": "Xuanwu Gate coup",
+          "zh": "玄武门之变"
+        }
+      },
+      {
+        "year": 630,
+        "lat": 34.341,
+        "lon": 108.941,
+        "label": {
+          "en": "Hailed \"Heavenly Khagan\"",
+          "zh": "被尊为天可汗"
+        }
+      },
+      {
+        "year": 645,
+        "lat": 41.27,
+        "lon": 123.17,
+        "label": {
+          "en": "Leads the Liaodong campaign",
+          "zh": "亲征辽东"
+        }
+      },
+      {
+        "year": 649,
+        "lat": 34.341,
+        "lon": 108.941,
+        "label": {
+          "en": "Dies in Chang'an",
+          "zh": "崩于长安"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷2–3 太宗本纪",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷2"
+      },
+      {
+        "title": "吴兢《贞观政要》"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-wu-zetian",
+    "qid": "Q9738",
+    "name": {
+      "en": "Wu Zetian",
+      "zh": "武则天"
+    },
+    "born": 624,
+    "died": 705,
+    "role": {
+      "en": "Empress and sole female emperor of China",
+      "zh": "武周皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Consort of Gaozong who dominated the Tang court for half a century and in 690 became the only woman to rule China as emperor in her own right, promoting examination officials and Buddhism.",
+      "zh": "唐高宗皇后，掌控朝政半个世纪，690年自立为帝建武周，是中国历史上唯一的女皇帝；重用科举士人，崇奉佛教。"
+    },
+    "stops": [
+      {
+        "year": 637,
+        "lat": 34.341,
+        "lon": 108.941,
+        "label": {
+          "en": "Enters Taizong's palace",
+          "zh": "入宫为才人"
+        }
+      },
+      {
+        "year": 655,
+        "lat": 34.341,
+        "lon": 108.941,
+        "label": {
+          "en": "Becomes empress of Gaozong",
+          "zh": "立为皇后"
+        }
+      },
+      {
+        "year": 684,
+        "lat": 34.621,
+        "lon": 112.451,
+        "label": {
+          "en": "Rules as regent from Luoyang",
+          "zh": "临朝称制"
+        }
+      },
+      {
+        "year": 690,
+        "lat": 34.621,
+        "lon": 112.451,
+        "label": {
+          "en": "Proclaims the Zhou dynasty",
+          "zh": "改唐为周"
+        }
+      },
+      {
+        "year": 705,
+        "lat": 34.62,
+        "lon": 112.45,
+        "label": {
+          "en": "Deposed in the Shenlong coup; dies",
+          "zh": "神龙政变退位"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷6 则天皇后本纪",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷6"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-yue-fei",
+    "qid": "Q334398",
+    "name": {
+      "en": "Yue Fei",
+      "zh": "岳飞"
+    },
+    "born": 1103,
+    "died": 1142,
+    "role": {
+      "en": "Southern Song general",
+      "zh": "南宋抗金名将"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Commander of the Yue army that won major victories against the Jin in the 1130s and 1140. Recalled by Emperor Gaozong as Qin Hui negotiated peace, he was imprisoned on false charges and put to death; he became the emblem of loyalty.",
+      "zh": "南宋抗金名将，岳家军屡败金军，1140年郾城大捷进抵朱仙镇。秦桧主和，诏令班师，以“莫须有”罪名被害，后世奉为忠义象征。"
+    },
+    "stops": [
+      {
+        "year": 1103,
+        "lat": 35.92,
+        "lon": 114.36,
+        "label": {
+          "en": "Born at Tangyin",
+          "zh": "生于相州汤阴"
+        }
+      },
+      {
+        "year": 1130,
+        "lat": 31.92,
+        "lon": 118.78,
+        "label": {
+          "en": "Ambushes the Jin at Niutou Mountain, retakes Jiankang",
+          "zh": "牛头山设伏，收复建康"
+        }
+      },
+      {
+        "year": 1134,
+        "lat": 32.02,
+        "lon": 112.14,
+        "label": {
+          "en": "Recovers Xiangyang and six prefectures",
+          "zh": "收复襄阳六郡"
+        }
+      },
+      {
+        "year": 1140,
+        "lat": 33.58,
+        "lon": 114.02,
+        "label": {
+          "en": "Victory at Yancheng",
+          "zh": "郾城大捷"
+        }
+      },
+      {
+        "year": 1140,
+        "lat": 34.63,
+        "lon": 114.3,
+        "label": {
+          "en": "Advances to Zhuxian town; recalled",
+          "zh": "进军朱仙镇，奉诏班师"
+        }
+      },
+      {
+        "year": 1142,
+        "lat": 30.25,
+        "lon": 120.15,
+        "label": {
+          "en": "Executed at Lin'an",
+          "zh": "风波亭遇害"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《宋史》 卷23 钦宗纪、卷24–29 高宗纪、卷360 宗泽传、卷364 韩世忠传、卷365 岳飞传、卷366 吴玠传、卷446 王禀传",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷023"
+      },
+      {
+        "title": "脱脱等《宋史》卷365 岳飞传",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷365"
+      }
+    ],
+    "confidence": "medium",
+    "note": "He died on the 29th day of the 12th month of Shaoxing 11, i.e. 27 January 1142."
+  },
+  {
+    "id": "person-zheng-he",
+    "qid": "Q7333",
+    "name": {
+      "en": "Zheng He",
+      "zh": "郑和"
+    },
+    "born": 1371,
+    "died": 1433,
+    "role": {
+      "en": "Ming admiral and diplomat",
+      "zh": "明代航海家、宦官"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Hui Muslim eunuch from Yunnan who served the Yongle Emperor and commanded seven great Ming fleets across the Indian Ocean between 1405 and 1433, reaching Arabia and East Africa.",
+      "zh": "云南回族人，入燕王府为宦官，靖难有功赐姓郑。1405至1433年七次率宝船队下西洋，远达阿拉伯半岛与东非。"
+    },
+    "stops": [
+      {
+        "year": 1371,
+        "lat": 24.68,
+        "lon": 102.6,
+        "label": {
+          "en": "Born at Kunyang, Yunnan",
+          "zh": "生于云南昆阳"
+        }
+      },
+      {
+        "year": 1382,
+        "lat": 24.881,
+        "lon": 102.831,
+        "label": {
+          "en": "Captured in the Ming conquest of Yunnan",
+          "zh": "明军平云南被俘入宫"
+        }
+      },
+      {
+        "year": 1399,
+        "lat": 39.901,
+        "lon": 116.401,
+        "label": {
+          "en": "Serves Zhu Di in the Jingnan war",
+          "zh": "随燕王靖难"
+        }
+      },
+      {
+        "year": 1405,
+        "lat": 31.52,
+        "lon": 121.18,
+        "label": {
+          "en": "First voyage from Liujiagang",
+          "zh": "刘家港首下西洋"
+        }
+      },
+      {
+        "year": 1407,
+        "lat": 11.25,
+        "lon": 75.78,
+        "label": {
+          "en": "Reaches Calicut",
+          "zh": "抵古里"
+        }
+      },
+      {
+        "year": 1414,
+        "lat": 27.1,
+        "lon": 56.45,
+        "label": {
+          "en": "Fleet reaches Hormuz",
+          "zh": "船队至忽鲁谟斯"
+        }
+      },
+      {
+        "year": 1418,
+        "lat": -3.22,
+        "lon": 40.12,
+        "label": {
+          "en": "Fleet visits Malindi",
+          "zh": "船队访麻林"
+        }
+      },
+      {
+        "year": 1431,
+        "lat": 25.95,
+        "lon": 119.5,
+        "label": {
+          "en": "Erects stele at Changle before last voyage",
+          "zh": "长乐立天妃灵应碑"
+        }
+      },
+      {
+        "year": 1433,
+        "lat": 11.25,
+        "lon": 75.78,
+        "label": {
+          "en": "Dies near Calicut on the seventh voyage",
+          "zh": "第七次航行卒于古里"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷304 宦官传一 郑和",
+        "url": "https://zh.wikisource.org/wiki/明史/卷304"
+      },
+      {
+        "title": "马欢《瀛涯胜览》"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Place and year of death are uncertain; most accounts place it near Calicut in 1433."
+  },
+  {
+    "id": "person-kangxi-emperor",
+    "qid": "Q17790",
+    "name": {
+      "en": "Kangxi Emperor",
+      "zh": "康熙帝"
+    },
+    "born": 1654,
+    "died": 1722,
+    "role": {
+      "en": "Emperor of the Qing dynasty",
+      "zh": "清朝皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Longest-reigning Chinese emperor (1661–1722). He suppressed the Three Feudatories, annexed Taiwan, fixed the Russian border at Nerchinsk and defeated the Dzungar Galdan, while patronising scholarship such as the Kangxi Dictionary.",
+      "zh": "在位六十一年，平三藩、收台湾、签订《尼布楚条约》、亲征噶尔丹，奠定清代疆域；崇儒重学，敕修《康熙字典》。"
+    },
+    "stops": [
+      {
+        "year": 1654,
+        "lat": 39.916,
+        "lon": 116.391,
+        "label": {
+          "en": "Born in Beijing",
+          "zh": "生于北京紫禁城"
+        }
+      },
+      {
+        "year": 1669,
+        "lat": 39.916,
+        "lon": 116.391,
+        "label": {
+          "en": "Arrests the regent Oboi",
+          "zh": "智擒鳌拜亲政"
+        }
+      },
+      {
+        "year": 1684,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "First southern tour, visits Nanjing",
+          "zh": "首次南巡至江宁"
+        }
+      },
+      {
+        "year": 1691,
+        "lat": 42.2,
+        "lon": 116.5,
+        "label": {
+          "en": "Dolon Nor assembly with Khalkha Mongols",
+          "zh": "多伦会盟"
+        }
+      },
+      {
+        "year": 1696,
+        "lat": 47.71,
+        "lon": 106.91,
+        "label": {
+          "en": "Campaign against Galdan; Jao Modo",
+          "zh": "亲征噶尔丹，昭莫多之战"
+        }
+      },
+      {
+        "year": 1703,
+        "lat": 40.991,
+        "lon": 117.941,
+        "label": {
+          "en": "Builds the Chengde summer palace",
+          "zh": "营建热河行宫"
+        }
+      },
+      {
+        "year": 1722,
+        "lat": 40,
+        "lon": 116.29,
+        "label": {
+          "en": "Dies at the Changchun Garden",
+          "zh": "崩于畅春园"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷6–8 圣祖本纪",
+        "url": "https://zh.wikisource.org/wiki/清史稿/卷6"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-sun-yat-sen",
+    "qid": "Q8573",
+    "name": {
+      "en": "Sun Yat-sen",
+      "zh": "孙中山"
+    },
+    "born": 1866,
+    "died": 1925,
+    "role": {
+      "en": "Revolutionary and founding father of the Republic of China",
+      "zh": "革命家、中华民国国父"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Physician turned revolutionary who organised anti-Qing societies abroad and the Tongmenghui, became the first provisional president of the Republic in 1912, and later rebuilt the Kuomintang in Guangzhou with Soviet help.",
+      "zh": "由医生转为革命家，创立兴中会、同盟会，提出三民主义；1912年任中华民国临时大总统，晚年在广州联俄联共改组国民党。"
+    },
+    "stops": [
+      {
+        "year": 1866,
+        "lat": 22.45,
+        "lon": 113.53,
+        "label": {
+          "en": "Born at Cuiheng, Xiangshan",
+          "zh": "生于香山翠亨村"
+        }
+      },
+      {
+        "year": 1892,
+        "lat": 22.28,
+        "lon": 114.16,
+        "label": {
+          "en": "Graduates in medicine in Hong Kong",
+          "zh": "香港西医书院毕业"
+        }
+      },
+      {
+        "year": 1894,
+        "lat": 21.31,
+        "lon": -157.86,
+        "label": {
+          "en": "Founds the Revive China Society in Honolulu",
+          "zh": "檀香山创立兴中会"
+        }
+      },
+      {
+        "year": 1905,
+        "lat": 35.68,
+        "lon": 139.69,
+        "label": {
+          "en": "Founds the Tongmenghui in Tokyo",
+          "zh": "东京成立同盟会"
+        }
+      },
+      {
+        "year": 1912,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Provisional president in Nanjing",
+          "zh": "南京就任临时大总统"
+        }
+      },
+      {
+        "year": 1917,
+        "lat": 23.13,
+        "lon": 113.26,
+        "label": {
+          "en": "Leads the Constitutional Protection government at Guangzhou",
+          "zh": "广州护法"
+        }
+      },
+      {
+        "year": 1924,
+        "lat": 23.091,
+        "lon": 113.431,
+        "label": {
+          "en": "Founds the Whampoa Military Academy",
+          "zh": "创办黄埔军校"
+        }
+      },
+      {
+        "year": 1925,
+        "lat": 39.901,
+        "lon": 116.401,
+        "label": {
+          "en": "Dies in Beijing",
+          "zh": "病逝北京"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Sun Yat-sen",
+        "url": "https://www.britannica.com/biography/Sun-Yat-sen"
+      },
+      {
+        "title": "《孙中山全集》（中华书局）"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-emperor-guangwu",
+    "qid": "Q7268",
+    "name": {
+      "en": "Emperor Guangwu of Han (Liu Xiu)",
+      "zh": "汉光武帝刘秀"
+    },
+    "born": -5,
+    "died": 57,
+    "role": {
+      "en": "Founder of the Eastern Han",
+      "zh": "东汉开国皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Distant Han kinsman who joined the rebellion against Wang Mang, won the Battle of Kunyang, built a power base in Hebei and restored the Han in 25 CE; he reunified China by 36 and ruled frugally from Luoyang.",
+      "zh": "汉室远支，起兵反莽，昆阳之战一举成名，经略河北后于25年称帝复汉，36年统一全国，定都洛阳，史称“光武中兴”。"
+    },
+    "stops": [
+      {
+        "year": -5,
+        "lat": 34.88,
+        "lon": 114.85,
+        "label": {
+          "en": "Born at Jiyang",
+          "zh": "生于陈留济阳"
+        }
+      },
+      {
+        "year": 23,
+        "lat": 33.731,
+        "lon": 113.301,
+        "label": {
+          "en": "Victory at Kunyang",
+          "zh": "昆阳之战"
+        }
+      },
+      {
+        "year": 24,
+        "lat": 36.61,
+        "lon": 114.48,
+        "label": {
+          "en": "Takes Handan in Hebei",
+          "zh": "克邯郸，经略河北"
+        }
+      },
+      {
+        "year": 25,
+        "lat": 37.62,
+        "lon": 114.6,
+        "label": {
+          "en": "Proclaimed emperor at Hao",
+          "zh": "鄗城即位"
+        }
+      },
+      {
+        "year": 25,
+        "lat": 34.621,
+        "lon": 112.451,
+        "label": {
+          "en": "Makes Luoyang his capital",
+          "zh": "定都洛阳"
+        }
+      },
+      {
+        "year": 57,
+        "lat": 34.621,
+        "lon": 112.451,
+        "label": {
+          "en": "Dies at Luoyang",
+          "zh": "崩于洛阳"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "范晔《后汉书》卷1 光武帝纪",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷1上"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Born in the 12th month of Jianping 1, i.e. 15 January 5 BCE; Wikidata records the date as 5 CE, apparently missing the BCE sign."
+  },
+  {
+    "id": "person-wang-xizhi",
+    "qid": "Q378564",
+    "name": {
+      "en": "Wang Xizhi",
+      "zh": "王羲之"
+    },
+    "born": 303,
+    "died": 361,
+    "role": {
+      "en": "Calligrapher",
+      "zh": "东晋书法家"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Eastern Jin official of the great Wang clan, honoured as the \"Sage of Calligraphy\". His running-script Preface to the Orchid Pavilion Poems of 353 became the most famous work of Chinese calligraphy.",
+      "zh": "出身琅琊王氏，官至右军将军、会稽内史，被尊为“书圣”；353年所作行书《兰亭集序》号称天下第一行书。"
+    },
+    "stops": [
+      {
+        "year": 303,
+        "lat": 35.1,
+        "lon": 118.35,
+        "label": {
+          "en": "Born into the Wang clan of Langya",
+          "zh": "生于琅琊临沂"
+        }
+      },
+      {
+        "year": 317,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Family settles at Jiankang after the fall of the north",
+          "zh": "随家族南渡建康"
+        }
+      },
+      {
+        "year": 351,
+        "lat": 30,
+        "lon": 120.58,
+        "label": {
+          "en": "Governor of Kuaiji",
+          "zh": "任会稽内史"
+        }
+      },
+      {
+        "year": 353,
+        "lat": 29.93,
+        "lon": 120.49,
+        "label": {
+          "en": "Writes the Orchid Pavilion Preface",
+          "zh": "作《兰亭集序》"
+        }
+      },
+      {
+        "year": 361,
+        "lat": 29.6,
+        "lon": 120.83,
+        "label": {
+          "en": "Dies in retirement at Jinting",
+          "zh": "隐居金庭终老"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "房玄龄等《晋书》卷80 王羲之传",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷080"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Birth year is disputed: Jiangshan-map uses 303–361, Wikidata gives 321–361 (other accounts 321–379). 303 is kept following Jiangshan-map and the Jin shu age at death (59 sui)."
+  },
+  {
+    "id": "person-emperor-xiaowen",
+    "qid": "Q1327614",
+    "name": {
+      "en": "Emperor Xiaowen of Northern Wei",
+      "zh": "北魏孝文帝"
+    },
+    "born": 467,
+    "died": 499,
+    "role": {
+      "en": "Emperor of Northern Wei",
+      "zh": "北魏皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Northern Wei ruler who, after the regency of Empress Dowager Feng, moved the capital from Pingcheng to Luoyang in 494 and ordered the Xianbei elite to adopt Chinese language, dress and surnames.",
+      "zh": "北魏孝文帝拓跋宏（元宏），冯太后临朝后亲政，494年迁都洛阳，推行禁胡服胡语、改汉姓等汉化改革。"
+    },
+    "stops": [
+      {
+        "year": 467,
+        "lat": 40.081,
+        "lon": 113.301,
+        "label": {
+          "en": "Born at Pingcheng",
+          "zh": "生于平城"
+        }
+      },
+      {
+        "year": 471,
+        "lat": 40.081,
+        "lon": 113.301,
+        "label": {
+          "en": "Enthroned at age four",
+          "zh": "即位于平城"
+        }
+      },
+      {
+        "year": 485,
+        "lat": 40.08,
+        "lon": 113.3,
+        "label": {
+          "en": "Equal-field system decreed under Empress Dowager Feng",
+          "zh": "颁均田制"
+        }
+      },
+      {
+        "year": 493,
+        "lat": 34.621,
+        "lon": 112.451,
+        "label": {
+          "en": "Southern campaign halts at Luoyang",
+          "zh": "南伐止于洛阳，定迁都"
+        }
+      },
+      {
+        "year": 494,
+        "lat": 34.621,
+        "lon": 112.451,
+        "label": {
+          "en": "Moves the capital to Luoyang",
+          "zh": "迁都洛阳"
+        }
+      },
+      {
+        "year": 499,
+        "lat": 32.6,
+        "lon": 112.5,
+        "label": {
+          "en": "Dies on campaign in Nanyang",
+          "zh": "南征途中病逝"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "魏收《魏书》卷7 高祖纪",
+        "url": "https://zh.wikisource.org/wiki/魏書/卷7上"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-emperor-yang-of-sui",
+    "qid": "Q7419",
+    "name": {
+      "en": "Emperor Yang of Sui (Yang Guang)",
+      "zh": "隋炀帝杨广"
+    },
+    "born": 569,
+    "died": 618,
+    "role": {
+      "en": "Second emperor of Sui",
+      "zh": "隋朝第二位皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Sui emperor who built Luoyang, the Grand Canal and a western road through the Hexi Corridor. His three disastrous campaigns against Goguryeo provoked rebellion, and he was strangled by his guards at Jiangdu.",
+      "zh": "隋朝第二帝，营建东都、开凿大运河、西巡张掖；三征高句丽耗尽国力，天下大乱，618年于江都被宇文化及所杀。"
+    },
+    "stops": [
+      {
+        "year": 589,
+        "lat": 32.06,
+        "lon": 118.78,
+        "label": {
+          "en": "Commands the conquest of Chen",
+          "zh": "统军灭陈"
+        }
+      },
+      {
+        "year": 604,
+        "lat": 34.341,
+        "lon": 108.941,
+        "label": {
+          "en": "Succeeds his father",
+          "zh": "即位"
+        }
+      },
+      {
+        "year": 605,
+        "lat": 34.621,
+        "lon": 112.451,
+        "label": {
+          "en": "Builds the Eastern Capital and the Tongji Canal",
+          "zh": "营建东都，开通济渠"
+        }
+      },
+      {
+        "year": 609,
+        "lat": 38.931,
+        "lon": 100.451,
+        "label": {
+          "en": "Western tour to Zhangye",
+          "zh": "西巡张掖"
+        }
+      },
+      {
+        "year": 612,
+        "lat": 41.271,
+        "lon": 123.171,
+        "label": {
+          "en": "First invasion of Goguryeo",
+          "zh": "亲征高句丽"
+        }
+      },
+      {
+        "year": 615,
+        "lat": 39.19,
+        "lon": 112.88,
+        "label": {
+          "en": "Besieged by the Turks at Yanmen",
+          "zh": "雁门被围"
+        }
+      },
+      {
+        "year": 618,
+        "lat": 32.391,
+        "lon": 119.411,
+        "label": {
+          "en": "Killed at Jiangdu",
+          "zh": "江都遇弑"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "魏征等《隋书》卷3–4 炀帝纪",
+        "url": "https://zh.wikisource.org/wiki/隋書/卷3"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-emperor-taizu-of-song",
+    "qid": "Q7471",
+    "name": {
+      "en": "Emperor Taizu of Song (Zhao Kuangyin)",
+      "zh": "宋太祖赵匡胤"
+    },
+    "born": 927,
+    "died": 976,
+    "role": {
+      "en": "Founding emperor of Song",
+      "zh": "北宋开国皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Later Zhou general who was acclaimed emperor by his troops at Chenqiao in 960. He persuaded his generals to retire, placed armies under civil control and conquered most southern kingdoms.",
+      "zh": "后周禁军统帅，960年陈桥兵变黄袍加身建宋；以“杯酒释兵权”削夺武将兵柄，确立重文抑武之制，先南后北统一大半中国。"
+    },
+    "stops": [
+      {
+        "year": 927,
+        "lat": 34.621,
+        "lon": 112.451,
+        "label": {
+          "en": "Born at Luoyang",
+          "zh": "生于洛阳夹马营"
+        }
+      },
+      {
+        "year": 954,
+        "lat": 35.8,
+        "lon": 112.92,
+        "label": {
+          "en": "Distinguishes himself at Gaoping",
+          "zh": "高平之战立功"
+        }
+      },
+      {
+        "year": 960,
+        "lat": 34.951,
+        "lon": 114.501,
+        "label": {
+          "en": "Chenqiao mutiny",
+          "zh": "陈桥兵变"
+        }
+      },
+      {
+        "year": 961,
+        "lat": 34.801,
+        "lon": 114.311,
+        "label": {
+          "en": "\"Releases military power over a cup of wine\"",
+          "zh": "杯酒释兵权"
+        }
+      },
+      {
+        "year": 976,
+        "lat": 34.791,
+        "lon": 114.351,
+        "label": {
+          "en": "Dies suddenly at Kaifeng",
+          "zh": "崩于开封"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷1–3 太祖本纪",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷1"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-wang-anshi",
+    "qid": "Q319618",
+    "name": {
+      "en": "Wang Anshi",
+      "zh": "王安石"
+    },
+    "born": 1021,
+    "died": 1086,
+    "role": {
+      "en": "Song chancellor and reformer",
+      "zh": "北宋宰相、改革家、文学家"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Chancellor under Emperor Shenzong whose New Policies tried to strengthen state finances and defence through loans, tax and militia reforms. A major prose writer, he spent his last decade in retirement in Nanjing.",
+      "zh": "宋神宗时宰相，推行青苗、免役、保甲等新法以富国强兵；唐宋八大家之一，晚年退居江宁。"
+    },
+    "stops": [
+      {
+        "year": 1021,
+        "lat": 28.06,
+        "lon": 115.54,
+        "label": {
+          "en": "Born at Linjiang",
+          "zh": "生于临江军"
+        }
+      },
+      {
+        "year": 1047,
+        "lat": 29.87,
+        "lon": 121.55,
+        "label": {
+          "en": "Magistrate of Yin county (Ningbo)",
+          "zh": "知鄞县"
+        }
+      },
+      {
+        "year": 1058,
+        "lat": 34.79,
+        "lon": 114.35,
+        "label": {
+          "en": "Submits the Myriad-Word Memorial",
+          "zh": "上万言书"
+        }
+      },
+      {
+        "year": 1069,
+        "lat": 34.801,
+        "lon": 114.311,
+        "label": {
+          "en": "Launches the New Policies",
+          "zh": "主持熙宁变法"
+        }
+      },
+      {
+        "year": 1076,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Retires to Jiangning",
+          "zh": "罢相退居江宁"
+        }
+      },
+      {
+        "year": 1086,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Dies at Jiangning",
+          "zh": "卒于江宁"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷327 王安石传",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷327"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-hongwu-emperor",
+    "qid": "Q9957",
+    "name": {
+      "en": "Hongwu Emperor (Zhu Yuanzhang)",
+      "zh": "明太祖朱元璋"
+    },
+    "born": 1328,
+    "died": 1398,
+    "role": {
+      "en": "Founding emperor of Ming",
+      "zh": "明朝开国皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Former orphan and monk who rose through the Red Turban armies, defeated rival warlords and the Yuan, and ruled as an autocrat from Nanjing, abolishing the chancellorship and purging tens of thousands.",
+      "zh": "出身贫苦、曾为僧人，投身红巾军，削平群雄、驱逐元廷，1368年建明；废丞相、大兴党狱，强化皇权。"
+    },
+    "stops": [
+      {
+        "year": 1328,
+        "lat": 32.87,
+        "lon": 117.56,
+        "label": {
+          "en": "Born into a poor family at Zhongli",
+          "zh": "生于濠州钟离"
+        }
+      },
+      {
+        "year": 1352,
+        "lat": 32.87,
+        "lon": 117.56,
+        "label": {
+          "en": "Joins the Red Turbans at Haozhou",
+          "zh": "投濠州红巾军"
+        }
+      },
+      {
+        "year": 1356,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Takes Jiqing, renamed Yingtian",
+          "zh": "克集庆改应天"
+        }
+      },
+      {
+        "year": 1363,
+        "lat": 29.181,
+        "lon": 116.151,
+        "label": {
+          "en": "Defeats Chen Youliang on Lake Poyang",
+          "zh": "鄱阳湖大败陈友谅"
+        }
+      },
+      {
+        "year": 1368,
+        "lat": 32.06,
+        "lon": 118.78,
+        "label": {
+          "en": "Proclaims the Ming",
+          "zh": "称帝建明"
+        }
+      },
+      {
+        "year": 1380,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Abolishes the chancellorship",
+          "zh": "罢中书省废丞相"
+        }
+      },
+      {
+        "year": 1398,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Dies at Nanjing",
+          "zh": "崩于南京"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷1–3 太祖本纪",
+        "url": "https://zh.wikisource.org/wiki/明史/卷1"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-yongle-emperor",
+    "qid": "Q9965",
+    "name": {
+      "en": "Yongle Emperor (Zhu Di)",
+      "zh": "明成祖朱棣"
+    },
+    "born": 1360,
+    "died": 1424,
+    "role": {
+      "en": "Third emperor of Ming",
+      "zh": "明朝第三位皇帝"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Son of the Hongwu Emperor who usurped the throne from his nephew, moved the capital to Beijing, built the Forbidden City, sent Zheng He's fleets abroad, commissioned the Yongle Encyclopedia and led five campaigns into Mongolia.",
+      "zh": "朱元璋第四子，靖难夺位，迁都北京、营建紫禁城，遣郑和下西洋，修《永乐大典》，五次亲征漠北。"
+    },
+    "stops": [
+      {
+        "year": 1360,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Born at Yingtian",
+          "zh": "生于应天"
+        }
+      },
+      {
+        "year": 1380,
+        "lat": 39.901,
+        "lon": 116.401,
+        "label": {
+          "en": "Takes up his fief as Prince of Yan at Beiping",
+          "zh": "就藩北平"
+        }
+      },
+      {
+        "year": 1399,
+        "lat": 39.901,
+        "lon": 116.401,
+        "label": {
+          "en": "Launches the Jingnan rebellion",
+          "zh": "起兵靖难"
+        }
+      },
+      {
+        "year": 1402,
+        "lat": 32.061,
+        "lon": 118.801,
+        "label": {
+          "en": "Takes Nanjing and the throne",
+          "zh": "入南京即位"
+        }
+      },
+      {
+        "year": 1421,
+        "lat": 39.901,
+        "lon": 116.401,
+        "label": {
+          "en": "Moves the capital to Beijing",
+          "zh": "迁都北京"
+        }
+      },
+      {
+        "year": 1424,
+        "lat": 42.2,
+        "lon": 116.5,
+        "label": {
+          "en": "Dies at Yumuchuan returning from Mongolia",
+          "zh": "北征回师崩于榆木川"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷5–7 成祖本纪",
+        "url": "https://zh.wikisource.org/wiki/明史/卷5"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Yumuchuan is placed approximately in modern Duolun, Inner Mongolia."
+  },
+  {
+    "id": "person-lin-zexu",
+    "qid": "Q184999",
+    "name": {
+      "en": "Lin Zexu",
+      "zh": "林则徐"
+    },
+    "born": 1785,
+    "died": 1850,
+    "role": {
+      "en": "Qing official and anti-opium commissioner",
+      "zh": "清代政治家、禁烟钦差"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Upright Qing official sent to Canton as imperial commissioner in 1839, where he destroyed British opium at Humen. Blamed for the ensuing war, he was exiled to Ili, where he promoted irrigation; he also sponsored translations about the West.",
+      "zh": "清代名臣，1839年以钦差大臣赴广东禁烟，主持虎门销烟；战后被革职遣戍伊犁，兴修水利；组织编译《四洲志》，“开眼看世界”。"
+    },
+    "stops": [
+      {
+        "year": 1785,
+        "lat": 26.08,
+        "lon": 119.3,
+        "label": {
+          "en": "Born at Fuzhou",
+          "zh": "生于福州"
+        }
+      },
+      {
+        "year": 1811,
+        "lat": 39.9,
+        "lon": 116.4,
+        "label": {
+          "en": "Passes the palace examination",
+          "zh": "中进士"
+        }
+      },
+      {
+        "year": 1837,
+        "lat": 30.551,
+        "lon": 114.301,
+        "label": {
+          "en": "Governor-general of Huguang at Wuchang",
+          "zh": "任湖广总督"
+        }
+      },
+      {
+        "year": 1839,
+        "lat": 22.82,
+        "lon": 113.67,
+        "label": {
+          "en": "Destroys opium at Humen",
+          "zh": "虎门销烟"
+        }
+      },
+      {
+        "year": 1842,
+        "lat": 43.9,
+        "lon": 81.3,
+        "label": {
+          "en": "Exiled to Ili",
+          "zh": "遣戍伊犁"
+        }
+      },
+      {
+        "year": 1850,
+        "lat": 23.3,
+        "lon": 116.17,
+        "label": {
+          "en": "Dies at Puning en route to Guangxi",
+          "zh": "赴广西途中卒于普宁"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷369 林则徐传",
+        "url": "https://zh.wikisource.org/wiki/清史稿/卷369"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "person-mao-zedong",
+    "qid": "Q5816",
+    "name": {
+      "en": "Mao Zedong",
+      "zh": "毛泽东"
+    },
+    "born": 1893,
+    "died": 1976,
+    "role": {
+      "en": "Communist revolutionary and founder of the PRC",
+      "zh": "中国共产党主要领导人、中华人民共和国缔造者"
+    },
+    "region": "east-asia",
+    "summary": {
+      "en": "Communist leader who rose to command during the Long March, led the party to victory in the civil war and founded the People's Republic in 1949; his later campaigns, the Great Leap Forward and the Cultural Revolution, caused great suffering.",
+      "zh": "中国共产党主要领导人，长征中确立领导地位，领导取得革命胜利，1949年缔造中华人民共和国；晚年发动“大跃进”与“文化大革命”，造成严重灾难。"
+    },
+    "stops": [
+      {
+        "year": 1893,
+        "lat": 27.92,
+        "lon": 112.52,
+        "label": {
+          "en": "Born at Shaoshan, Hunan",
+          "zh": "生于湖南湘潭韶山"
+        }
+      },
+      {
+        "year": 1921,
+        "lat": 31.2221,
+        "lon": 121.4707,
+        "label": {
+          "en": "Attends the First CCP Congress",
+          "zh": "出席中共一大"
+        }
+      },
+      {
+        "year": 1927,
+        "lat": 26.57,
+        "lon": 114.17,
+        "label": {
+          "en": "Establishes the Jinggangshan base",
+          "zh": "创建井冈山根据地"
+        }
+      },
+      {
+        "year": 1935,
+        "lat": 27.7,
+        "lon": 106.92,
+        "label": {
+          "en": "Zunyi Conference",
+          "zh": "遵义会议"
+        }
+      },
+      {
+        "year": 1937,
+        "lat": 36.6,
+        "lon": 109.49,
+        "label": {
+          "en": "Leads from Yan'an",
+          "zh": "驻延安"
+        }
+      },
+      {
+        "year": 1948,
+        "lat": 38.34,
+        "lon": 113.94,
+        "label": {
+          "en": "Directs the decisive campaigns from Xibaipo",
+          "zh": "西柏坡指挥三大战役"
+        }
+      },
+      {
+        "year": 1949,
+        "lat": 39.901,
+        "lon": 116.401,
+        "label": {
+          "en": "Proclaims the PRC",
+          "zh": "宣告中华人民共和国成立"
+        }
+      },
+      {
+        "year": 1976,
+        "lat": 39.901,
+        "lon": 116.401,
+        "label": {
+          "en": "Dies in Beijing",
+          "zh": "逝世于北京"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Mao Zedong",
+        "url": "https://www.britannica.com/biography/Mao-Zedong"
+      },
+      {
+        "title": "中共中央文献研究室《毛泽东年谱》"
+      }
+    ],
+    "confidence": "high"
+  }
+]

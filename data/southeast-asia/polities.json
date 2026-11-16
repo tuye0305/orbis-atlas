@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "polity-funan",
+    "qid": "Q867782",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Funan",
+      "zh": "扶南"
+    },
+    "from": 68,
+    "to": 550,
+    "capital": {
+      "en": "Vyadhapura (probably near Ba Phnom)",
+      "zh": "特牧城（可能在巴普农附近）"
+    },
+    "capitalLat": 11.27,
+    "capitalLon": 105.38,
+    "summary": {
+      "en": "An early Indianised trading state of the lower Mekong, known chiefly from Chinese records. Its port of Óc Eo linked Indian Ocean and South China Sea commerce until Funan was eclipsed by Zhenla in the 6th century.",
+      "zh": "湄公河下游早期受印度文化影响的贸易国家，主要见于中国史籍记载。其港口俄厄连接印度洋与南海贸易，6世纪被真腊取代。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Fan Shiman",
+          "zh": "范师蔓"
+        },
+        "from": 205,
+        "to": 225
+      },
+      {
+        "name": {
+          "en": "Jayavarman of Funan",
+          "zh": "阇耶跋摩（憍陈如阇耶跋摩）"
+        },
+        "from": 478,
+        "to": 514
+      },
+      {
+        "name": {
+          "en": "Rudravarman",
+          "zh": "留陁跋摩"
+        },
+        "from": 514,
+        "to": 550
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Funan",
+        "url": "https://www.britannica.com/place/Funan"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "Michael Vickery, Society, Economics, and Politics in Pre-Angkor Cambodia (Centre for East Asian Cultural Studies, 1998)"
+      },
+      {
+        "title": "Wikipedia: Funan",
+        "url": "https://en.wikipedia.org/wiki/Funan"
+      }
+    ],
+    "confidence": "low",
+    "note": "Founding and end dates are approximate (Wikidata gives 68–550); Fan Shiman's reign dates are estimates from Chinese accounts."
+  },
+  {
+    "id": "polity-champa",
+    "qid": "Q216786",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Champa",
+      "zh": "占婆"
+    },
+    "from": 192,
+    "to": 1832,
+    "capital": {
+      "en": "Vijaya (Chà Bàn)",
+      "zh": "毗阇耶（阇槃）"
+    },
+    "capitalLat": 13.88,
+    "capitalLon": 109.11,
+    "summary": {
+      "en": "A coastal civilisation of central and southern Vietnam made up of several Hindu–Buddhist Cham principalities that thrived on maritime trade. Gradually pushed south by Đại Việt, its last remnant was annexed by the Nguyễn in 1832.",
+      "zh": "越南中南部沿海由多个信奉印度教与佛教的占族邦国组成的文明，以海上贸易兴盛。占婆逐渐被大越向南挤压，最后的残余于1832年被阮朝吞并。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Bhadravarman I",
+          "zh": "跋陀罗跋摩一世"
+        },
+        "from": 380,
+        "to": 413,
+        "qid": "Q5433550"
+      },
+      {
+        "name": {
+          "en": "Jaya Harivarman I",
+          "zh": "阇耶诃梨跋摩一世"
+        },
+        "from": 1147,
+        "to": 1167,
+        "qid": "Q12415692"
+      },
+      {
+        "name": {
+          "en": "Po Binasuor (Chế Bồng Nga)",
+          "zh": "制蓬峩"
+        },
+        "from": 1360,
+        "to": 1390,
+        "qid": "Q1923816"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Champa",
+        "url": "https://www.britannica.com/place/Champa-ancient-kingdom-Indochina"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, Vol. 1: From Early Times to c. 1800 (1992)"
+      },
+      {
+        "title": "Wikipedia: Champa",
+        "url": "https://en.wikipedia.org/wiki/Champa"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 192 start follows the Chinese record of Lâm Ấp (Linyi); capitals shifted between Indrapura, Vijaya and Panduranga."
+  },
+  {
+    "id": "polity-srivijaya",
+    "qid": "Q234197",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Srivijaya",
+      "zh": "室利佛逝（三佛齐）"
+    },
+    "from": 650,
+    "to": 1377,
+    "capital": {
+      "en": "Palembang",
+      "zh": "巨港"
+    },
+    "capitalLat": -2.99,
+    "capitalLon": 104.76,
+    "summary": {
+      "en": "A Buddhist maritime power centred on Palembang in Sumatra that controlled the Straits of Malacca and Sunda and was a centre of Buddhist learning visited by the Chinese pilgrim Yijing. Chola raids in 1025 weakened it.",
+      "zh": "以苏门答腊巨港为中心的佛教海上强国，控制马六甲海峡与巽他海峡，也是佛学中心，唐代高僧义净曾在此求学。1025年朱罗王朝的袭击使其衰落。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Dapunta Hyang Sri Jayanasa",
+          "zh": "达本达·希扬·室利·阇耶那沙"
+        },
+        "from": 671,
+        "to": 702
+      },
+      {
+        "name": {
+          "en": "Balaputra",
+          "zh": "巴拉普特拉"
+        },
+        "from": 850,
+        "to": 870,
+        "qid": "Q4199265"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Srivijaya",
+        "url": "https://www.britannica.com/place/Srivijaya-empire"
+      },
+      {
+        "title": "O. W. Wolters, Early Indonesian Commerce: A Study of the Origins of Śrīvijaya (Cornell University Press, 1967)"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "Wikipedia: Srivijaya",
+        "url": "https://en.wikipedia.org/wiki/Srivijaya"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Dates are approximate; Wikidata gives 650–1377, and the later \"Sanfoqi\" of Chinese sources may refer to successor centres such as Jambi."
+  },
+  {
+    "id": "polity-khmer",
+    "qid": "Q201705",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Khmer Empire",
+      "zh": "高棉帝国（吴哥王朝）"
+    },
+    "from": 802,
+    "to": 1431,
+    "capital": {
+      "en": "Yasodharapura (Angkor)",
+      "zh": "耶输陀罗补罗（吴哥）"
+    },
+    "capitalLat": 13.4333,
+    "capitalLon": 103.8333,
+    "summary": {
+      "en": "Founded when Jayavarman II proclaimed himself universal monarch on Phnom Kulen in 802, the Angkorian empire dominated mainland Southeast Asia, engineered vast reservoirs and built Angkor Wat and the Bayon.",
+      "zh": "802年阇耶跋摩二世在荔枝山自立为“转轮王”，吴哥帝国由此建立。它称雄东南亚大陆，修建了庞大的水利系统以及吴哥窟、巴戎寺等建筑。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Jayavarman II",
+          "zh": "阇耶跋摩二世"
+        },
+        "from": 802,
+        "to": 850,
+        "qid": "Q379239"
+      },
+      {
+        "name": {
+          "en": "Indravarman I",
+          "zh": "因陀罗跋摩一世"
+        },
+        "from": 877,
+        "to": 889,
+        "qid": "Q562153"
+      },
+      {
+        "name": {
+          "en": "Yasovarman I",
+          "zh": "耶输跋摩一世"
+        },
+        "from": 889,
+        "to": 910,
+        "qid": "Q559810"
+      },
+      {
+        "name": {
+          "en": "Suryavarman I",
+          "zh": "苏利耶跋摩一世"
+        },
+        "from": 1006,
+        "to": 1050,
+        "qid": "Q501356"
+      },
+      {
+        "name": {
+          "en": "Suryavarman II",
+          "zh": "苏利耶跋摩二世"
+        },
+        "from": 1113,
+        "to": 1150,
+        "qid": "Q313298"
+      },
+      {
+        "name": {
+          "en": "Jayavarman VII",
+          "zh": "阇耶跋摩七世"
+        },
+        "from": 1181,
+        "to": 1218,
+        "qid": "Q335273"
+      }
+    ],
+    "sources": [
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "David Chandler, A History of Cambodia (Westview, 4th ed. 2008)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Angkor",
+        "url": "https://whc.unesco.org/en/list/668"
+      },
+      {
+        "title": "Wikipedia: Khmer Empire",
+        "url": "https://en.wikipedia.org/wiki/Khmer_Empire"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Both 802 and 1431 are conventional dates."
+  },
+  {
+    "id": "polity-pagan",
+    "qid": "Q888574",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Pagan Kingdom",
+      "zh": "蒲甘王朝"
+    },
+    "from": 849,
+    "to": 1297,
+    "capital": {
+      "en": "Pagan",
+      "zh": "蒲甘"
+    },
+    "capitalLat": 21.1722,
+    "capitalLon": 94.8603,
+    "summary": {
+      "en": "The first kingdom to unite the Irrawaddy valley, under Anawrahta from 1044. It spread Theravada Buddhism and the Burmese script, filled its capital with temples, and fragmented after the Mongol invasions of the 1280s.",
+      "zh": "1044年阿奴律陀即位后首次统一伊洛瓦底江流域的王国。它传播上座部佛教与缅文，都城佛塔林立，13世纪80年代蒙古入侵后分裂瓦解。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Anawrahta",
+          "zh": "阿奴律陀"
+        },
+        "from": 1044,
+        "to": 1077,
+        "qid": "Q45241"
+      },
+      {
+        "name": {
+          "en": "Kyansittha",
+          "zh": "江喜陀"
+        },
+        "from": 1084,
+        "to": 1112,
+        "qid": "Q887132"
+      },
+      {
+        "name": {
+          "en": "Alaungsithu",
+          "zh": "阿隆悉都"
+        },
+        "from": 1112,
+        "to": 1167,
+        "qid": "Q887114"
+      },
+      {
+        "name": {
+          "en": "Narapatisithu",
+          "zh": "那罗波帝悉都"
+        },
+        "from": 1174,
+        "to": 1211,
+        "qid": "Q3182709"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Pagan Kingdom",
+        "url": "https://www.britannica.com/place/Pagan-kingdom"
+      },
+      {
+        "title": "Michael Aung-Thwin, Pagan: The Origins of Modern Burma (University of Hawaii Press, 1985)"
+      },
+      {
+        "title": "Hmannan Yazawin (Glass Palace Chronicle, 1832)"
+      },
+      {
+        "title": "Wikipedia: Pagan Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 849 founding is from the chronicles; the imperial phase begins in 1044."
+  },
+  {
+    "id": "polity-ly",
+    "qid": "Q878309",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Lý dynasty",
+      "zh": "李朝"
+    },
+    "from": 1009,
+    "to": 1226,
+    "capital": {
+      "en": "Thăng Long",
+      "zh": "升龙"
+    },
+    "capitalLat": 21.0352,
+    "capitalLon": 105.8403,
+    "summary": {
+      "en": "The first long-lived Vietnamese dynasty, which founded Thăng Long, named the state Đại Việt (1054), patronised Buddhism, set up the Temple of Literature (1070) and defeated a Song invasion in 1077.",
+      "zh": "越南第一个长期统治的王朝。李朝建都升龙，1054年定国号大越，崇奉佛教，1070年兴建文庙，并于1077年击退宋军入侵。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Lý Thái Tổ",
+          "zh": "李太祖"
+        },
+        "from": 1009,
+        "to": 1028,
+        "qid": "Q716945"
+      },
+      {
+        "name": {
+          "en": "Lý Thánh Tông",
+          "zh": "李圣宗"
+        },
+        "from": 1054,
+        "to": 1072,
+        "qid": "Q68398"
+      },
+      {
+        "name": {
+          "en": "Lý Nhân Tông",
+          "zh": "李仁宗"
+        },
+        "from": 1072,
+        "to": 1127,
+        "qid": "Q705577"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Lý dynasty",
+        "url": "https://en.wikipedia.org/wiki/L%C3%BD_dynasty"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-tran",
+    "qid": "Q3111454",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Trần dynasty",
+      "zh": "陈朝"
+    },
+    "from": 1226,
+    "to": 1400,
+    "capital": {
+      "en": "Thăng Long",
+      "zh": "升龙"
+    },
+    "capitalLat": 21.0375,
+    "capitalLon": 105.8386,
+    "summary": {
+      "en": "Successor to the Lý through a marriage engineered by Trần Thủ Độ, the Trần repelled three Mongol–Yuan invasions and fostered the Trúc Lâm school of Vietnamese Zen before being usurped by Hồ Quý Ly.",
+      "zh": "经陈守度安排的联姻继承李朝的王朝。陈朝三次击退蒙元入侵，倡导越南禅宗竹林派，后被胡季犛篡夺。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Trần Thái Tông",
+          "zh": "陈太宗"
+        },
+        "from": 1226,
+        "to": 1258,
+        "qid": "Q713224"
+      },
+      {
+        "name": {
+          "en": "Trần Thánh Tông",
+          "zh": "陈圣宗"
+        },
+        "from": 1258,
+        "to": 1278,
+        "qid": "Q711456"
+      },
+      {
+        "name": {
+          "en": "Trần Nhân Tông",
+          "zh": "陈仁宗"
+        },
+        "from": 1278,
+        "to": 1293,
+        "qid": "Q72083"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Trần dynasty",
+        "url": "https://www.britannica.com/topic/Tran-dynasty"
+      },
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Trần dynasty",
+        "url": "https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_dynasty"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-later-le",
+    "qid": "Q878276",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Later Lê dynasty",
+      "zh": "后黎朝"
+    },
+    "from": 1428,
+    "to": 1789,
+    "capital": {
+      "en": "Đông Kinh (Thăng Long)",
+      "zh": "东京（升龙）"
+    },
+    "capitalLat": 21.0167,
+    "capitalLon": 105.85,
+    "summary": {
+      "en": "Founded by Lê Lợi after expelling the Ming, it reached its height under Lê Thánh Tông, who conquered Vijaya in 1471 and issued the Hồng Đức code. Later the Lê emperors were figureheads under the Mạc, Trịnh and Nguyễn lords until the Tây Sơn ended the dynasty.",
+      "zh": "黎利驱逐明军后建立的王朝，在黎圣宗时期臻于鼎盛：1471年攻取毗阇耶，颁布《洪德法典》。后期黎帝成为莫氏、郑主和阮主控制下的傀儡，最终被西山朝终结。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Lê Thái Tổ (Lê Lợi)",
+          "zh": "黎太祖（黎利）"
+        },
+        "from": 1428,
+        "to": 1433,
+        "qid": "Q1195391"
+      },
+      {
+        "name": {
+          "en": "Lê Thánh Tông",
+          "zh": "黎圣宗"
+        },
+        "from": 1460,
+        "to": 1497,
+        "qid": "Q1771050"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Later Lê dynasty",
+        "url": "https://www.britannica.com/topic/Later-Le-dynasty"
+      },
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Later Lê dynasty early period",
+        "url": "https://en.wikipedia.org/wiki/Later_L%C3%AA_dynasty_early_period"
+      }
+    ],
+    "confidence": "high",
+    "note": "Interrupted by the Mạc dynasty (1527–1533/92); the restored Lê (1533–1789) were largely nominal rulers."
+  },
+  {
+    "id": "polity-majapahit",
+    "qid": "Q49326",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Majapahit",
+      "zh": "满者伯夷"
+    },
+    "from": 1293,
+    "to": 1527,
+    "capital": {
+      "en": "Trowulan",
+      "zh": "特罗武兰"
+    },
+    "capitalLat": -7.56,
+    "capitalLon": 112.38,
+    "summary": {
+      "en": "A Hindu–Buddhist kingdom of East Java founded by Raden Wijaya after the Yuan invasion. Under Hayam Wuruk and Gajah Mada it claimed tribute from much of the archipelago, as celebrated in the Nāgarakṛtāgama, before declining amid the rise of Muslim coastal states.",
+      "zh": "元军入侵后由罗登·威查耶在东爪哇建立的印度教—佛教王国。在哈奄·武禄与加查·马达治下，它向群岛大部分地区索取朝贡，《爪哇史颂》对此多有颂扬；后在沿海穆斯林国家兴起中衰落。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Raden Wijaya (Kertarajasa)",
+          "zh": "罗登·威查耶"
+        },
+        "from": 1293,
+        "to": 1309,
+        "qid": "Q49334"
+      },
+      {
+        "name": {
+          "en": "Tribhuwana Wijayatunggadewi",
+          "zh": "特里布瓦娜"
+        },
+        "from": 1328,
+        "to": 1350,
+        "qid": "Q3631722"
+      },
+      {
+        "name": {
+          "en": "Hayam Wuruk (Rajasanagara)",
+          "zh": "哈奄·武禄"
+        },
+        "from": 1350,
+        "to": 1389,
+        "qid": "Q29085"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Majapahit",
+        "url": "https://www.britannica.com/place/Majapahit-empire"
+      },
+      {
+        "title": "Mpu Prapañca, Deśawarṇana (Nāgarakṛtāgama, 1365), trans. Stuart Robson (KITLV, 1995)"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: Majapahit",
+        "url": "https://en.wikipedia.org/wiki/Majapahit"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The end date (c. 1527, fall to Demak) is debated; the extent of its \"empire\" is likely overstated in court poetry."
+  },
+  {
+    "id": "polity-sukhothai",
+    "qid": "Q863279",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Sukhothai Kingdom",
+      "zh": "素可泰王朝"
+    },
+    "from": 1238,
+    "to": 1438,
+    "capital": {
+      "en": "Sukhothai",
+      "zh": "素可泰"
+    },
+    "capitalLat": 17.02,
+    "capitalLon": 99.7,
+    "summary": {
+      "en": "An early Tai kingdom in the upper Chao Phraya basin, traditionally regarded as the first Thai state. Under Ram Khamhaeng it expanded and adopted Theravada Buddhism; it later became a vassal and then part of Ayutthaya.",
+      "zh": "湄南河上游早期的泰族王国，传统上被视为第一个泰国国家。兰甘亨在位时向外扩张并奉行上座部佛教，后沦为阿瑜陀耶的藩属，最终被并入。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Si Inthrathit",
+          "zh": "室利·膺沙罗铁"
+        },
+        "from": 1238,
+        "to": 1270,
+        "qid": "Q887310"
+      },
+      {
+        "name": {
+          "en": "Ram Khamhaeng",
+          "zh": "兰甘亨"
+        },
+        "from": 1279,
+        "to": 1298,
+        "qid": "Q349249"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Sukhothai Kingdom",
+        "url": "https://www.britannica.com/place/Sukhothai-kingdom"
+      },
+      {
+        "title": "Chris Baker & Pasuk Phongpaichit, A History of Thailand (Cambridge University Press, 2nd ed. 2009)"
+      },
+      {
+        "title": "David K. Wyatt, Thailand: A Short History (Yale University Press, 2nd ed. 2003)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Historic Town of Sukhothai and Associated Historic Towns",
+        "url": "https://whc.unesco.org/en/list/574"
+      },
+      {
+        "title": "Wikipedia: Sukhothai Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Sukhothai_Kingdom"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 1238 founding is conventional; the authenticity of the Ram Khamhaeng inscription has been debated."
+  },
+  {
+    "id": "polity-ayutthaya",
+    "qid": "Q841364",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Ayutthaya Kingdom",
+      "zh": "阿瑜陀耶王朝（大城王朝）"
+    },
+    "from": 1351,
+    "to": 1767,
+    "capital": {
+      "en": "Ayutthaya",
+      "zh": "阿瑜陀耶（大城）"
+    },
+    "capitalLat": 14.3532,
+    "capitalLon": 100.5689,
+    "summary": {
+      "en": "A Siamese kingdom founded by U Thong on an island in the Chao Phraya. For four centuries it was one of Asia's great trading capitals, absorbing Sukhothai and sacking Angkor, until the Burmese destroyed it in 1767.",
+      "zh": "乌通王在湄南河中的岛上建立的暹罗王国。四个世纪里它是亚洲重要的贸易都城之一，兼并素可泰并攻陷吴哥，1767年被缅军摧毁。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Uthong (Ramathibodi I)",
+          "zh": "乌通王（拉玛铁菩提一世）"
+        },
+        "from": 1351,
+        "to": 1369,
+        "qid": "Q718191"
+      },
+      {
+        "name": {
+          "en": "Borommatrailokkanat",
+          "zh": "波隆摩·戴莱洛迦纳"
+        },
+        "from": 1448,
+        "to": 1488,
+        "qid": "Q889173"
+      },
+      {
+        "name": {
+          "en": "Naresuan",
+          "zh": "纳黎萱"
+        },
+        "from": 1590,
+        "to": 1605,
+        "qid": "Q515704"
+      },
+      {
+        "name": {
+          "en": "Narai",
+          "zh": "那莱"
+        },
+        "from": 1656,
+        "to": 1688,
+        "qid": "Q718197"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Ayutthaya Kingdom",
+        "url": "https://www.britannica.com/place/Ayutthaya-kingdom-Thailand"
+      },
+      {
+        "title": "Chris Baker & Pasuk Phongpaichit, A History of Thailand (Cambridge University Press, 2nd ed. 2009)"
+      },
+      {
+        "title": "Royal Chronicles of Ayutthaya, trans. Richard D. Cushman (Siam Society, 2000)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Historic City of Ayutthaya",
+        "url": "https://whc.unesco.org/en/list/576"
+      },
+      {
+        "title": "Wikipedia: Ayutthaya Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Ayutthaya_Kingdom"
+      }
+    ],
+    "confidence": "high",
+    "note": "Wikidata gives 1350; the traditional founding date is 1351."
+  },
+  {
+    "id": "polity-malacca",
+    "qid": "Q46652",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Malacca Sultanate",
+      "zh": "马六甲苏丹国（满剌加）"
+    },
+    "from": 1400,
+    "to": 1511,
+    "capital": {
+      "en": "Malacca",
+      "zh": "马六甲"
+    },
+    "capitalLat": 2.1946,
+    "capitalLon": 102.2492,
+    "summary": {
+      "en": "A Malay maritime state that grew from Parameswara's settlement into the dominant entrepôt of the Straits. Its rulers adopted Islam, received Zheng He's fleets, and set the model of Malay kingship before the Portuguese conquest of 1511.",
+      "zh": "由拜里米苏拉的聚落发展而来的马来海上国家，成为海峡地区首要的转口贸易港。其君主皈依伊斯兰教，接待郑和船队，奠定了马来王权的典范，1511年被葡萄牙征服。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Parameswara",
+          "zh": "拜里米苏拉"
+        },
+        "from": 1400,
+        "to": 1414,
+        "qid": "Q3363540"
+      },
+      {
+        "name": {
+          "en": "Muzaffar Shah",
+          "zh": "穆扎法尔沙"
+        },
+        "from": 1445,
+        "to": 1459,
+        "qid": "Q4260059"
+      },
+      {
+        "name": {
+          "en": "Mansur Shah",
+          "zh": "满速沙"
+        },
+        "from": 1459,
+        "to": 1477,
+        "qid": "Q1015747"
+      },
+      {
+        "name": {
+          "en": "Mahmud Shah",
+          "zh": "马哈茂德沙"
+        },
+        "from": 1488,
+        "to": 1511,
+        "qid": "Q3244637"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Malacca Sultanate",
+        "url": "https://www.britannica.com/place/sultanate-of-Malacca"
+      },
+      {
+        "title": "Sejarah Melayu (Malay Annals), trans. C. C. Brown (1952)"
+      },
+      {
+        "title": "Tomé Pires, Suma Oriental (1512–1515), trans. Armando Cortesão (Hakluyt Society, 1944)"
+      },
+      {
+        "title": "Barbara Watson Andaya & Leonard Y. Andaya, A History of Malaysia (Palgrave, 3rd ed. 2017)"
+      },
+      {
+        "title": "Wikipedia: Malacca Sultanate",
+        "url": "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-toungoo",
+    "qid": "Q519718",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Toungoo dynasty",
+      "zh": "东吁王朝"
+    },
+    "from": 1510,
+    "to": 1752,
+    "capital": {
+      "en": "Pegu (Bago); later Ava",
+      "zh": "勃固；后迁阿瓦"
+    },
+    "capitalLat": 17.3352,
+    "capitalLon": 96.4814,
+    "summary": {
+      "en": "Rising from the small principality of Toungoo, Tabinshwehti and Bayinnaung reunited Burma and built a vast but short-lived empire. A restored Toungoo state ruled from Ava until Mon rebels sacked it in 1752.",
+      "zh": "东吁王朝从小邦东吁崛起，莽瑞体与莽应龙重新统一缅甸，建立了庞大但短暂的帝国。复兴后的东吁王朝以阿瓦为都，直至1752年被孟族起义军攻破。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Tabinshwehti",
+          "zh": "莽瑞体"
+        },
+        "from": 1530,
+        "to": 1550,
+        "qid": "Q981475"
+      },
+      {
+        "name": {
+          "en": "Bayinnaung",
+          "zh": "莽应龙"
+        },
+        "from": 1550,
+        "to": 1581,
+        "qid": "Q470984"
+      },
+      {
+        "name": {
+          "en": "Nanda Bayin",
+          "zh": "南达勃因"
+        },
+        "from": 1581,
+        "to": 1599,
+        "qid": "Q3182715"
+      },
+      {
+        "name": {
+          "en": "Anaukpetlun",
+          "zh": "阿那毕隆"
+        },
+        "from": 1605,
+        "to": 1628,
+        "qid": "Q488485"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Toungoo dynasty",
+        "url": "https://www.britannica.com/topic/Toungoo-dynasty"
+      },
+      {
+        "title": "Victor Lieberman, Strange Parallels: Southeast Asia in Global Context, c. 800–1830, Vol. 1 (Cambridge University Press, 2003)"
+      },
+      {
+        "title": "Hmannan Yazawin (Glass Palace Chronicle, 1832)"
+      },
+      {
+        "title": "Wikipedia: Toungoo dynasty",
+        "url": "https://en.wikipedia.org/wiki/Toungoo_dynasty"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata starts the dynasty in 1485 (Mingyi Nyo's accession as a vassal ruler); 1510 marks Toungoo's independence from Ava."
+  },
+  {
+    "id": "polity-konbaung",
+    "qid": "Q1062422",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Konbaung dynasty",
+      "zh": "贡榜王朝"
+    },
+    "from": 1752,
+    "to": 1885,
+    "capital": {
+      "en": "Mandalay (from 1857); earlier Ava and Amarapura",
+      "zh": "曼德勒（1857年起）；此前为阿瓦、阿摩罗补罗"
+    },
+    "capitalLat": 21.9947,
+    "capitalLon": 96.0975,
+    "summary": {
+      "en": "Founded by Alaungpaya, the last Burmese dynasty destroyed Ayutthaya, repelled Qing invasions and expanded into Arakan, Manipur and Assam, before losing three wars to Britain; Thibaw was deposed in 1885.",
+      "zh": "由雍籍牙建立的缅甸末代王朝。它摧毁阿瑜陀耶、击退清军入侵，并向若开、曼尼普尔与阿萨姆扩张，后在三次英缅战争中战败，1885年锡袍王被废黜。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Alaungpaya",
+          "zh": "雍籍牙"
+        },
+        "from": 1752,
+        "to": 1760,
+        "qid": "Q470978"
+      },
+      {
+        "name": {
+          "en": "Hsinbyushin",
+          "zh": "孟驳（辛古）"
+        },
+        "from": 1763,
+        "to": 1776,
+        "qid": "Q1395046"
+      },
+      {
+        "name": {
+          "en": "Bodawpaya",
+          "zh": "孟云"
+        },
+        "from": 1782,
+        "to": 1819,
+        "qid": "Q796571"
+      },
+      {
+        "name": {
+          "en": "Mindon",
+          "zh": "敏东"
+        },
+        "from": 1853,
+        "to": 1878,
+        "qid": "Q574358"
+      },
+      {
+        "name": {
+          "en": "Thibaw",
+          "zh": "锡袍"
+        },
+        "from": 1878,
+        "to": 1885,
+        "qid": "Q470986"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Konbaung dynasty",
+        "url": "https://www.britannica.com/topic/Alaungpaya-Dynasty"
+      },
+      {
+        "title": "Victor Lieberman, Strange Parallels: Southeast Asia in Global Context, c. 800–1830, Vol. 1 (Cambridge University Press, 2003)"
+      },
+      {
+        "title": "G. E. Harvey, History of Burma (Longmans, 1925)"
+      },
+      {
+        "title": "Wikipedia: Konbaung dynasty",
+        "url": "https://en.wikipedia.org/wiki/Konbaung_dynasty"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-rattanakosin",
+    "qid": "Q1155700",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Rattanakosin Kingdom (Siam)",
+      "zh": "拉达那哥欣王朝（暹罗曼谷王朝）"
+    },
+    "from": 1782,
+    "to": 1932,
+    "capital": {
+      "en": "Bangkok",
+      "zh": "曼谷"
+    },
+    "capitalLat": 13.75,
+    "capitalLon": 100.4917,
+    "summary": {
+      "en": "The Chakri kingdom founded by Rama I at Bangkok. Mongkut and Chulalongkorn modernised the state and ceded border territories, keeping Siam the only Southeast Asian country never colonised, until the 1932 revolution ended absolute monarchy.",
+      "zh": "拉玛一世在曼谷建立的却克里王朝。蒙固王与朱拉隆功推行现代化改革并割让部分边地，使暹罗成为东南亚唯一未被殖民的国家，直至1932年革命结束君主专制。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Rama I (Phutthayotfa Chulalok)",
+          "zh": "拉玛一世"
+        },
+        "from": 1782,
+        "to": 1809,
+        "qid": "Q310992"
+      },
+      {
+        "name": {
+          "en": "Mongkut (Rama IV)",
+          "zh": "蒙固（拉玛四世）"
+        },
+        "from": 1851,
+        "to": 1868,
+        "qid": "Q312849"
+      },
+      {
+        "name": {
+          "en": "Chulalongkorn (Rama V)",
+          "zh": "朱拉隆功（拉玛五世）"
+        },
+        "from": 1868,
+        "to": 1910,
+        "qid": "Q158861"
+      },
+      {
+        "name": {
+          "en": "Prajadhipok (Rama VII)",
+          "zh": "巴差提勃（拉玛七世）"
+        },
+        "from": 1925,
+        "to": 1932,
+        "qid": "Q313124"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chris Baker & Pasuk Phongpaichit, A History of Thailand (Cambridge University Press, 2nd ed. 2009)"
+      },
+      {
+        "title": "David K. Wyatt, Thailand: A Short History (Yale University Press, 2nd ed. 2003)"
+      },
+      {
+        "title": "Wikipedia: Rattanakosin Kingdom (1782–1932)",
+        "url": "https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)"
+      }
+    ],
+    "confidence": "high",
+    "note": "Prajadhipok reigned until 1935; his entry is truncated at the end of absolute monarchy."
+  },
+  {
+    "id": "polity-nguyen",
+    "qid": "Q6500483",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Nguyễn dynasty",
+      "zh": "阮朝"
+    },
+    "from": 1802,
+    "to": 1945,
+    "capital": {
+      "en": "Huế",
+      "zh": "顺化"
+    },
+    "capitalLat": 16.4698,
+    "capitalLon": 107.5786,
+    "summary": {
+      "en": "Founded by Gia Long after defeating the Tây Sơn, it ruled a unified Vietnam from Huế and named the country Việt Nam. France conquered it between 1858 and 1885, after which the emperors reigned under French protection until Bảo Đại abdicated in 1945.",
+      "zh": "嘉隆帝击败西山朝后建立的王朝，以顺化为都统治统一的越南，并定国号“越南”。1858至1885年间被法国征服，此后皇帝在法国保护下名义在位，直至1945年保大帝退位。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Gia Long",
+          "zh": "嘉隆帝"
+        },
+        "from": 1802,
+        "to": 1820,
+        "qid": "Q210417"
+      },
+      {
+        "name": {
+          "en": "Minh Mạng",
+          "zh": "明命帝"
+        },
+        "from": 1820,
+        "to": 1841,
+        "qid": "Q434419"
+      },
+      {
+        "name": {
+          "en": "Tự Đức",
+          "zh": "嗣德帝"
+        },
+        "from": 1847,
+        "to": 1883,
+        "qid": "Q466976"
+      },
+      {
+        "name": {
+          "en": "Bảo Đại",
+          "zh": "保大帝"
+        },
+        "from": 1926,
+        "to": 1945,
+        "qid": "Q223771"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Nguyễn dynasty",
+        "url": "https://www.britannica.com/topic/Nguyen-dynasty"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Complex of Hué Monuments",
+        "url": "https://whc.unesco.org/en/list/678"
+      },
+      {
+        "title": "Wikipedia: Nguyễn dynasty",
+        "url": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_dynasty"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polity-mataram",
+    "qid": "Q402145",
+    "region": "southeast-asia",
+    "name": {
+      "en": "Mataram Sultanate",
+      "zh": "马打兰苏丹国"
+    },
+    "from": 1586,
+    "to": 1755,
+    "capital": {
+      "en": "Kotagede, later Kartasura",
+      "zh": "哥打格德，后迁卡尔塔苏拉"
+    },
+    "capitalLat": -7.8014,
+    "capitalLon": 110.3644,
+    "summary": {
+      "en": "The last great Javanese kingdom before Dutch dominance. Sultan Agung conquered most of Java and twice besieged Batavia (1628–29); later succession wars drew in the VOC, and the 1755 Treaty of Giyanti split it into Yogyakarta and Surakarta.",
+      "zh": "荷兰称霸前爪哇最后一个强大王国。苏丹阿贡征服爪哇大部，并两度围攻巴达维亚（1628—1629年）；此后的王位继承战争引来荷兰东印度公司介入，1755年《吉扬蒂条约》将其分裂为日惹与梭罗。"
+    },
+    "rulers": [
+      {
+        "name": {
+          "en": "Sultan Agung",
+          "zh": "苏丹阿贡"
+        },
+        "from": 1613,
+        "to": 1645,
+        "qid": "Q1771129"
+      }
+    ],
+    "sources": [
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, Vol. 1: From Early Times to c. 1800 (1992)"
+      },
+      {
+        "title": "Wikipedia: Mataram Sultanate",
+        "url": "https://en.wikipedia.org/wiki/Mataram_Sultanate"
+      }
+    ],
+    "confidence": "high"
+  }
+]

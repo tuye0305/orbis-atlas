@@ -1,0 +1,3292 @@
+[
+  {
+    "id": "place-xian",
+    "qid": "Q5826",
+    "lat": 34.26,
+    "lon": 108.94,
+    "region": "east-asia",
+    "modern": {
+      "en": "Xi'an",
+      "zh": "西安"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 9,
+        "name": {
+          "en": "Chang'an",
+          "zh": "长安"
+        },
+        "polity": {
+          "en": "Western Han",
+          "zh": "西汉"
+        },
+        "capital": true
+      },
+      {
+        "from": 9,
+        "to": 23,
+        "name": {
+          "en": "Chang'an (styled 常安)",
+          "zh": "常安"
+        },
+        "polity": {
+          "en": "Xin",
+          "zh": "新"
+        },
+        "capital": true
+      },
+      {
+        "from": 23,
+        "to": 316,
+        "name": {
+          "en": "Chang'an",
+          "zh": "长安"
+        },
+        "polity": {
+          "en": "Eastern Han / Wei / Western Jin",
+          "zh": "东汉 / 曹魏 / 西晋"
+        }
+      },
+      {
+        "from": 316,
+        "to": 581,
+        "name": {
+          "en": "Chang'an",
+          "zh": "长安"
+        },
+        "polity": {
+          "en": "Han-Zhao, Former and Later Qin, Western Wei, Northern Zhou",
+          "zh": "前赵、前秦、后秦、西魏、北周"
+        },
+        "capital": true
+      },
+      {
+        "from": 581,
+        "to": 618,
+        "name": {
+          "en": "Daxing",
+          "zh": "大兴城"
+        },
+        "polity": {
+          "en": "Sui",
+          "zh": "隋"
+        },
+        "capital": true
+      },
+      {
+        "from": 618,
+        "to": 904,
+        "name": {
+          "en": "Chang'an",
+          "zh": "长安"
+        },
+        "polity": {
+          "en": "Tang",
+          "zh": "唐"
+        },
+        "capital": true
+      },
+      {
+        "from": 904,
+        "to": 1279,
+        "name": {
+          "en": "Jingzhao",
+          "zh": "京兆府"
+        },
+        "polity": {
+          "en": "Five Dynasties / Song / Jin",
+          "zh": "五代 / 宋 / 金"
+        }
+      },
+      {
+        "from": 1279,
+        "to": 1369,
+        "name": {
+          "en": "Fengyuan",
+          "zh": "奉元路"
+        },
+        "polity": {
+          "en": "Yuan",
+          "zh": "元"
+        }
+      },
+      {
+        "from": 1369,
+        "to": 1912,
+        "name": {
+          "en": "Xi'an",
+          "zh": "西安府"
+        },
+        "polity": {
+          "en": "Ming / Qing",
+          "zh": "明 / 清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": 1949,
+        "name": {
+          "en": "Xi'an",
+          "zh": "西安"
+        },
+        "polity": {
+          "en": "Republic of China",
+          "zh": "中华民国"
+        }
+      },
+      {
+        "from": 1949,
+        "to": null,
+        "name": {
+          "en": "Xi'an",
+          "zh": "西安"
+        },
+        "polity": {
+          "en": "PRC",
+          "zh": "中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Guanzhong capital of over ten dynasties including the Western Han, Sui and Tang, whose Chang'an was the eastern terminus of the Silk Road; renamed Xi'an by the Ming in 1369.",
+      "zh": "关中形胜之地，西汉、隋、唐等十余朝建都于此，长安为丝绸之路东端起点；明洪武二年改称西安。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Xi'an",
+        "url": "https://www.britannica.com/place/Xian-China"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Tang Chang'an and Han Chang'an occupy slightly different sites; one point is used."
+  },
+  {
+    "id": "place-luoyang",
+    "qid": "Q187136",
+    "lat": 34.62,
+    "lon": 112.45,
+    "region": "east-asia",
+    "modern": {
+      "en": "Luoyang",
+      "zh": "洛阳"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 25,
+        "name": {
+          "en": "Luoyang (Henan commandery)",
+          "zh": "洛阳（河南郡）"
+        },
+        "polity": {
+          "en": "Western Han",
+          "zh": "西汉"
+        }
+      },
+      {
+        "from": 25,
+        "to": 190,
+        "name": {
+          "en": "Luoyang",
+          "zh": "雒阳"
+        },
+        "polity": {
+          "en": "Eastern Han",
+          "zh": "东汉"
+        },
+        "capital": true
+      },
+      {
+        "from": 190,
+        "to": 220,
+        "name": {
+          "en": "Luoyang (burned by Dong Zhuo)",
+          "zh": "雒阳"
+        },
+        "polity": {
+          "en": "Eastern Han (court moved to Chang'an, then Xu)",
+          "zh": "东汉（朝廷西迁长安，后都许）"
+        }
+      },
+      {
+        "from": 220,
+        "to": 311,
+        "name": {
+          "en": "Luoyang",
+          "zh": "洛阳"
+        },
+        "polity": {
+          "en": "Cao Wei / Western Jin",
+          "zh": "曹魏 / 西晋"
+        },
+        "capital": true
+      },
+      {
+        "from": 311,
+        "to": 494,
+        "name": {
+          "en": "Luoyang",
+          "zh": "洛阳"
+        },
+        "polity": {
+          "en": "Sixteen Kingdoms / Northern Wei",
+          "zh": "十六国 / 北魏"
+        }
+      },
+      {
+        "from": 494,
+        "to": 534,
+        "name": {
+          "en": "Luoyang",
+          "zh": "洛阳"
+        },
+        "polity": {
+          "en": "Northern Wei",
+          "zh": "北魏"
+        },
+        "capital": true
+      },
+      {
+        "from": 534,
+        "to": 605,
+        "name": {
+          "en": "Luoyang",
+          "zh": "洛阳"
+        },
+        "polity": {
+          "en": "Eastern Wei – Sui",
+          "zh": "东魏 – 隋"
+        }
+      },
+      {
+        "from": 605,
+        "to": 690,
+        "name": {
+          "en": "Eastern Capital (Dongdu)",
+          "zh": "东都洛阳"
+        },
+        "polity": {
+          "en": "Sui / Tang",
+          "zh": "隋 / 唐"
+        }
+      },
+      {
+        "from": 690,
+        "to": 705,
+        "name": {
+          "en": "Shendu (Divine Capital)",
+          "zh": "神都"
+        },
+        "polity": {
+          "en": "Wu Zhou",
+          "zh": "武周"
+        },
+        "capital": true
+      },
+      {
+        "from": 705,
+        "to": 907,
+        "name": {
+          "en": "Eastern Capital",
+          "zh": "东都"
+        },
+        "polity": {
+          "en": "Tang",
+          "zh": "唐"
+        }
+      },
+      {
+        "from": 907,
+        "to": 923,
+        "name": {
+          "en": "Western Capital (Xidu)",
+          "zh": "西都洛阳"
+        },
+        "polity": {
+          "en": "Later Liang",
+          "zh": "后梁"
+        }
+      },
+      {
+        "from": 923,
+        "to": 937,
+        "name": {
+          "en": "Luoyang",
+          "zh": "洛阳"
+        },
+        "polity": {
+          "en": "Later Tang",
+          "zh": "后唐"
+        },
+        "capital": true
+      },
+      {
+        "from": 937,
+        "to": 960,
+        "name": {
+          "en": "Western Capital (Xijing)",
+          "zh": "西京洛阳"
+        },
+        "polity": {
+          "en": "Later Jin / Later Han / Later Zhou",
+          "zh": "后晋 / 后汉 / 后周"
+        }
+      },
+      {
+        "from": 960,
+        "to": 1127,
+        "name": {
+          "en": "Western Capital (Xijing Henan)",
+          "zh": "西京河南府"
+        },
+        "polity": {
+          "en": "Northern Song",
+          "zh": "北宋"
+        }
+      },
+      {
+        "from": 1127,
+        "to": 1912,
+        "name": {
+          "en": "Henan / Luoyang",
+          "zh": "河南府"
+        },
+        "polity": {
+          "en": "Jin / Yuan / Ming / Qing",
+          "zh": "金 / 元 / 明 / 清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": null,
+        "name": {
+          "en": "Luoyang",
+          "zh": "洛阳"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "City on the Luo River that served as capital of the Eastern Han, Wei, Western Jin, Northern Wei and Later Tang, and as Wu Zetian's \"Divine Capital\"; site of the White Horse Temple and the Longmen Grottoes.",
+      "zh": "洛河之滨的古都，东汉、曹魏、西晋、北魏、后唐建都于此，武周称神都；有白马寺与龙门石窟。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Luoyang",
+        "url": "https://www.britannica.com/place/Luoyang"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-kaifeng",
+    "qid": "Q208471",
+    "lat": 34.79,
+    "lon": 114.35,
+    "region": "east-asia",
+    "modern": {
+      "en": "Kaifeng",
+      "zh": "开封"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 781,
+        "name": {
+          "en": "Chenliu / Junyi",
+          "zh": "陈留 / 浚仪"
+        },
+        "polity": {
+          "en": "Han – Tang",
+          "zh": "汉 – 唐"
+        }
+      },
+      {
+        "from": 781,
+        "to": 907,
+        "name": {
+          "en": "Bianzhou",
+          "zh": "汴州"
+        },
+        "polity": {
+          "en": "Tang",
+          "zh": "唐"
+        }
+      },
+      {
+        "from": 907,
+        "to": 923,
+        "name": {
+          "en": "Dongdu Kaifeng",
+          "zh": "东都开封府"
+        },
+        "polity": {
+          "en": "Later Liang",
+          "zh": "后梁"
+        },
+        "capital": true
+      },
+      {
+        "from": 923,
+        "to": 936,
+        "name": {
+          "en": "Bianzhou (Kaifeng)",
+          "zh": "汴州"
+        },
+        "polity": {
+          "en": "Later Tang",
+          "zh": "后唐"
+        }
+      },
+      {
+        "from": 936,
+        "to": 1127,
+        "name": {
+          "en": "Dongjing (Bianjing / Bianliang)",
+          "zh": "东京开封府（汴京）"
+        },
+        "polity": {
+          "en": "Later Jin, Han, Zhou / Northern Song",
+          "zh": "后晋、后汉、后周 / 北宋"
+        },
+        "capital": true
+      },
+      {
+        "from": 1127,
+        "to": 1214,
+        "name": {
+          "en": "Bianjing",
+          "zh": "汴京（南京开封府）"
+        },
+        "polity": {
+          "en": "Jin",
+          "zh": "金"
+        }
+      },
+      {
+        "from": 1214,
+        "to": 1233,
+        "name": {
+          "en": "Nanjing (Bian)",
+          "zh": "南京开封府"
+        },
+        "polity": {
+          "en": "Jin",
+          "zh": "金"
+        },
+        "capital": true
+      },
+      {
+        "from": 1233,
+        "to": 1368,
+        "name": {
+          "en": "Bianliang",
+          "zh": "汴梁路"
+        },
+        "polity": {
+          "en": "Yuan",
+          "zh": "元"
+        }
+      },
+      {
+        "from": 1368,
+        "to": 1912,
+        "name": {
+          "en": "Kaifeng",
+          "zh": "开封府"
+        },
+        "polity": {
+          "en": "Ming / Qing",
+          "zh": "明 / 清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": null,
+        "name": {
+          "en": "Kaifeng",
+          "zh": "开封"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Capital of four of the Five Dynasties and of the Northern Song, when Bianjing was among the largest cities in the world, as pictured in Along the River During the Qingming Festival; sacked by the Jin in 1127.",
+      "zh": "五代中后梁、后晋、后汉、后周及北宋都城，北宋东京为当时世界大都会，《清明上河图》绘其繁华；1127年靖康之变陷落。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Kaifeng",
+        "url": "https://www.britannica.com/place/Kaifeng"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Bianzhou dates from the Northern Zhou/Sui; the 781 boundary marks its becoming the Xuanwu circuit seat (simplified)."
+  },
+  {
+    "id": "place-nanjing",
+    "qid": "Q16666",
+    "lat": 32.06,
+    "lon": 118.8,
+    "region": "east-asia",
+    "modern": {
+      "en": "Nanjing",
+      "zh": "南京"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 211,
+        "name": {
+          "en": "Moling",
+          "zh": "秣陵"
+        },
+        "polity": {
+          "en": "Han",
+          "zh": "汉"
+        }
+      },
+      {
+        "from": 211,
+        "to": 280,
+        "name": {
+          "en": "Jianye",
+          "zh": "建业"
+        },
+        "polity": {
+          "en": "Eastern Wu",
+          "zh": "孙吴"
+        },
+        "capital": true
+      },
+      {
+        "from": 280,
+        "to": 317,
+        "name": {
+          "en": "Jianye / Jianye (建邺)",
+          "zh": "建邺"
+        },
+        "polity": {
+          "en": "Western Jin",
+          "zh": "西晋"
+        }
+      },
+      {
+        "from": 317,
+        "to": 589,
+        "name": {
+          "en": "Jiankang",
+          "zh": "建康"
+        },
+        "polity": {
+          "en": "Eastern Jin, Song, Qi, Liang, Chen",
+          "zh": "东晋、宋、齐、梁、陈"
+        },
+        "capital": true
+      },
+      {
+        "from": 589,
+        "to": 937,
+        "name": {
+          "en": "Jiangning / Shengzhou",
+          "zh": "江宁 / 升州"
+        },
+        "polity": {
+          "en": "Sui / Tang",
+          "zh": "隋 / 唐"
+        }
+      },
+      {
+        "from": 937,
+        "to": 975,
+        "name": {
+          "en": "Jinling (Jiangning)",
+          "zh": "金陵（江宁府）"
+        },
+        "polity": {
+          "en": "Southern Tang",
+          "zh": "南唐"
+        },
+        "capital": true
+      },
+      {
+        "from": 975,
+        "to": 1129,
+        "name": {
+          "en": "Jiangning",
+          "zh": "江宁府"
+        },
+        "polity": {
+          "en": "Northern Song",
+          "zh": "北宋"
+        }
+      },
+      {
+        "from": 1129,
+        "to": 1276,
+        "name": {
+          "en": "Jiankang",
+          "zh": "建康府"
+        },
+        "polity": {
+          "en": "Southern Song",
+          "zh": "南宋"
+        }
+      },
+      {
+        "from": 1276,
+        "to": 1356,
+        "name": {
+          "en": "Jiqing",
+          "zh": "集庆路"
+        },
+        "polity": {
+          "en": "Yuan",
+          "zh": "元"
+        }
+      },
+      {
+        "from": 1356,
+        "to": 1421,
+        "name": {
+          "en": "Yingtian",
+          "zh": "应天府"
+        },
+        "polity": {
+          "en": "Ming",
+          "zh": "明"
+        },
+        "capital": true
+      },
+      {
+        "from": 1421,
+        "to": 1645,
+        "name": {
+          "en": "Nanjing (auxiliary capital)",
+          "zh": "南京（留都）"
+        },
+        "polity": {
+          "en": "Ming",
+          "zh": "明"
+        }
+      },
+      {
+        "from": 1645,
+        "to": 1853,
+        "name": {
+          "en": "Jiangning",
+          "zh": "江宁府"
+        },
+        "polity": {
+          "en": "Qing",
+          "zh": "清"
+        }
+      },
+      {
+        "from": 1853,
+        "to": 1864,
+        "name": {
+          "en": "Tianjing",
+          "zh": "天京"
+        },
+        "polity": {
+          "en": "Taiping Heavenly Kingdom",
+          "zh": "太平天国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1864,
+        "to": 1912,
+        "name": {
+          "en": "Jiangning",
+          "zh": "江宁府"
+        },
+        "polity": {
+          "en": "Qing",
+          "zh": "清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": 1949,
+        "name": {
+          "en": "Nanjing",
+          "zh": "南京"
+        },
+        "polity": {
+          "en": "Republic of China",
+          "zh": "中华民国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1949,
+        "to": null,
+        "name": {
+          "en": "Nanjing",
+          "zh": "南京"
+        },
+        "polity": {
+          "en": "PRC",
+          "zh": "中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Yangtze city that was the capital of the Six Dynasties as Jianye/Jiankang, of Southern Tang, the early Ming, the Taiping and the Republic of China; the Treaty of Nanjing was signed here in 1842.",
+      "zh": "长江下游名城，六朝建业、建康，南唐金陵，明初应天，太平天国天京及中华民国首都皆在此；1842年《南京条约》签订于此。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Nanjing",
+        "url": "https://www.britannica.com/place/Nanjing"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The ROC capital was in Beijing 1912–1927 and Chongqing 1937–1946; Nanjing is marked as capital for the period overall."
+  },
+  {
+    "id": "place-beijing",
+    "qid": "Q956",
+    "lat": 39.9,
+    "lon": 116.4,
+    "region": "east-asia",
+    "modern": {
+      "en": "Beijing",
+      "zh": "北京"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 607,
+        "name": {
+          "en": "Ji",
+          "zh": "蓟"
+        },
+        "polity": {
+          "en": "Han – Northern dynasties (Youzhou seat)",
+          "zh": "汉 – 北朝（幽州治所）"
+        }
+      },
+      {
+        "from": 607,
+        "to": 618,
+        "name": {
+          "en": "Zhuojun",
+          "zh": "涿郡"
+        },
+        "polity": {
+          "en": "Sui",
+          "zh": "隋"
+        }
+      },
+      {
+        "from": 618,
+        "to": 938,
+        "name": {
+          "en": "Youzhou (Fanyang)",
+          "zh": "幽州（范阳）"
+        },
+        "polity": {
+          "en": "Tang / Five Dynasties",
+          "zh": "唐 / 五代"
+        }
+      },
+      {
+        "from": 938,
+        "to": 1122,
+        "name": {
+          "en": "Nanjing (Yanjing), Xijin prefecture",
+          "zh": "南京析津府（燕京）"
+        },
+        "polity": {
+          "en": "Liao",
+          "zh": "辽"
+        }
+      },
+      {
+        "from": 1122,
+        "to": 1153,
+        "name": {
+          "en": "Yanshan / Yanjing",
+          "zh": "燕山府 / 燕京"
+        },
+        "polity": {
+          "en": "Song / Jin",
+          "zh": "宋 / 金"
+        }
+      },
+      {
+        "from": 1153,
+        "to": 1215,
+        "name": {
+          "en": "Zhongdu",
+          "zh": "中都大兴府"
+        },
+        "polity": {
+          "en": "Jin",
+          "zh": "金"
+        },
+        "capital": true
+      },
+      {
+        "from": 1215,
+        "to": 1267,
+        "name": {
+          "en": "Yanjing",
+          "zh": "燕京"
+        },
+        "polity": {
+          "en": "Mongol Empire",
+          "zh": "大蒙古国"
+        }
+      },
+      {
+        "from": 1267,
+        "to": 1368,
+        "name": {
+          "en": "Dadu (Khanbaliq)",
+          "zh": "大都"
+        },
+        "polity": {
+          "en": "Yuan",
+          "zh": "元"
+        },
+        "capital": true
+      },
+      {
+        "from": 1368,
+        "to": 1403,
+        "name": {
+          "en": "Beiping",
+          "zh": "北平府"
+        },
+        "polity": {
+          "en": "Ming",
+          "zh": "明"
+        }
+      },
+      {
+        "from": 1403,
+        "to": 1421,
+        "name": {
+          "en": "Beijing (Shuntian)",
+          "zh": "北京顺天府"
+        },
+        "polity": {
+          "en": "Ming",
+          "zh": "明"
+        }
+      },
+      {
+        "from": 1421,
+        "to": 1644,
+        "name": {
+          "en": "Beijing (Shuntian)",
+          "zh": "京师顺天府"
+        },
+        "polity": {
+          "en": "Ming",
+          "zh": "明"
+        },
+        "capital": true
+      },
+      {
+        "from": 1644,
+        "to": 1912,
+        "name": {
+          "en": "Jingshi (Beijing)",
+          "zh": "京师"
+        },
+        "polity": {
+          "en": "Qing",
+          "zh": "清"
+        },
+        "capital": true
+      },
+      {
+        "from": 1912,
+        "to": 1928,
+        "name": {
+          "en": "Beijing",
+          "zh": "北京"
+        },
+        "polity": {
+          "en": "Republic of China (Beiyang government)",
+          "zh": "中华民国（北洋政府）"
+        },
+        "capital": true
+      },
+      {
+        "from": 1928,
+        "to": 1949,
+        "name": {
+          "en": "Beiping",
+          "zh": "北平"
+        },
+        "polity": {
+          "en": "Republic of China",
+          "zh": "中华民国"
+        }
+      },
+      {
+        "from": 1949,
+        "to": null,
+        "name": {
+          "en": "Beijing",
+          "zh": "北京"
+        },
+        "polity": {
+          "en": "PRC",
+          "zh": "中华人民共和国"
+        },
+        "capital": true
+      }
+    ],
+    "summary": {
+      "en": "Frontier city of Ji and Youzhou that became a Liao secondary capital, the Jin Zhongdu and Kublai's Dadu, then the capital of the Ming from 1421, the Qing, the early Republic and the People's Republic.",
+      "zh": "古称蓟、幽州，辽为南京，金建中都，元为大都；明永乐迁都后为明、清、北洋政府及中华人民共和国首都。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Beijing – History",
+        "url": "https://www.britannica.com/place/Beijing"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-hangzhou",
+    "qid": "Q4970",
+    "lat": 30.27,
+    "lon": 120.15,
+    "region": "east-asia",
+    "modern": {
+      "en": "Hangzhou",
+      "zh": "杭州"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 589,
+        "name": {
+          "en": "Qiantang",
+          "zh": "钱唐 / 钱塘"
+        },
+        "polity": {
+          "en": "Han – Chen",
+          "zh": "汉 – 陈"
+        }
+      },
+      {
+        "from": 589,
+        "to": 907,
+        "name": {
+          "en": "Hangzhou (Yuhang)",
+          "zh": "杭州（余杭郡）"
+        },
+        "polity": {
+          "en": "Sui / Tang",
+          "zh": "隋 / 唐"
+        }
+      },
+      {
+        "from": 907,
+        "to": 978,
+        "name": {
+          "en": "Hangzhou (Xifu)",
+          "zh": "杭州（西府）"
+        },
+        "polity": {
+          "en": "Wuyue",
+          "zh": "吴越"
+        },
+        "capital": true
+      },
+      {
+        "from": 978,
+        "to": 1129,
+        "name": {
+          "en": "Hangzhou",
+          "zh": "杭州"
+        },
+        "polity": {
+          "en": "Northern Song",
+          "zh": "北宋"
+        }
+      },
+      {
+        "from": 1129,
+        "to": 1276,
+        "name": {
+          "en": "Lin'an",
+          "zh": "临安府"
+        },
+        "polity": {
+          "en": "Southern Song",
+          "zh": "南宋"
+        },
+        "capital": true
+      },
+      {
+        "from": 1276,
+        "to": 1912,
+        "name": {
+          "en": "Hangzhou",
+          "zh": "杭州路 / 杭州府"
+        },
+        "polity": {
+          "en": "Yuan / Ming / Qing",
+          "zh": "元 / 明 / 清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": null,
+        "name": {
+          "en": "Hangzhou",
+          "zh": "杭州"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Southern terminus of the Grand Canal on West Lake, capital of the Wuyue kingdom and, as Lin'an, the \"temporary\" capital of the Southern Song, which Marco Polo later described as Quinsay.",
+      "zh": "京杭大运河南端、西湖之畔，吴越国都；南宋称临安府为行在，马可·波罗称之为“行在”（Quinsay）。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Hangzhou",
+        "url": "https://www.britannica.com/place/Hangzhou"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-chengdu",
+    "qid": "Q30002",
+    "lat": 30.67,
+    "lon": 104.06,
+    "region": "east-asia",
+    "modern": {
+      "en": "Chengdu",
+      "zh": "成都"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 25,
+        "name": {
+          "en": "Chengdu (Shu commandery)",
+          "zh": "成都（蜀郡）"
+        },
+        "polity": {
+          "en": "Western Han",
+          "zh": "西汉"
+        }
+      },
+      {
+        "from": 25,
+        "to": 36,
+        "name": {
+          "en": "Chengdu",
+          "zh": "成都"
+        },
+        "polity": {
+          "en": "Chengjia (Gongsun Shu)",
+          "zh": "成家"
+        },
+        "capital": true
+      },
+      {
+        "from": 36,
+        "to": 221,
+        "name": {
+          "en": "Chengdu (Yizhou seat)",
+          "zh": "成都（益州治所）"
+        },
+        "polity": {
+          "en": "Eastern Han",
+          "zh": "东汉"
+        }
+      },
+      {
+        "from": 221,
+        "to": 263,
+        "name": {
+          "en": "Chengdu",
+          "zh": "成都"
+        },
+        "polity": {
+          "en": "Shu Han",
+          "zh": "蜀汉"
+        },
+        "capital": true
+      },
+      {
+        "from": 263,
+        "to": 304,
+        "name": {
+          "en": "Chengdu",
+          "zh": "成都"
+        },
+        "polity": {
+          "en": "Wei / Western Jin",
+          "zh": "魏 / 西晋"
+        }
+      },
+      {
+        "from": 304,
+        "to": 347,
+        "name": {
+          "en": "Chengdu",
+          "zh": "成都"
+        },
+        "polity": {
+          "en": "Cheng-Han",
+          "zh": "成汉"
+        },
+        "capital": true
+      },
+      {
+        "from": 347,
+        "to": 757,
+        "name": {
+          "en": "Chengdu / Yizhou",
+          "zh": "成都 / 益州"
+        },
+        "polity": {
+          "en": "Jin – Tang",
+          "zh": "晋 – 唐"
+        }
+      },
+      {
+        "from": 757,
+        "to": 907,
+        "name": {
+          "en": "Chengdu (Southern Capital)",
+          "zh": "成都府（南京）"
+        },
+        "polity": {
+          "en": "Tang",
+          "zh": "唐"
+        }
+      },
+      {
+        "from": 907,
+        "to": 965,
+        "name": {
+          "en": "Chengdu",
+          "zh": "成都"
+        },
+        "polity": {
+          "en": "Former and Later Shu",
+          "zh": "前蜀 / 后蜀"
+        },
+        "capital": true
+      },
+      {
+        "from": 965,
+        "to": null,
+        "name": {
+          "en": "Chengdu",
+          "zh": "成都"
+        },
+        "polity": {
+          "en": "Song – PRC",
+          "zh": "宋 – 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Capital of the Sichuan basin under the same name for over two thousand years; seat of Shu Han and of the Former and Later Shu kingdoms, and where the world's first government paper money was issued in 1023.",
+      "zh": "天府之国的中心，两千余年城名未改；蜀汉与前后蜀建都于此，北宋在此发行世界最早的官方纸币交子。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Chengdu",
+        "url": "https://www.britannica.com/place/Chengdu"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Short-lived regimes (Qiao Shu, Ming Xia, Da Xi) are omitted."
+  },
+  {
+    "id": "place-guangzhou",
+    "qid": "Q16572",
+    "lat": 23.13,
+    "lon": 113.26,
+    "region": "east-asia",
+    "modern": {
+      "en": "Guangzhou",
+      "zh": "广州"
+    },
+    "names": [
+      {
+        "from": -111,
+        "to": 226,
+        "name": {
+          "en": "Panyu (Nanhai commandery)",
+          "zh": "番禺（南海郡）"
+        },
+        "polity": {
+          "en": "Han",
+          "zh": "汉"
+        }
+      },
+      {
+        "from": 226,
+        "to": 917,
+        "name": {
+          "en": "Guangzhou (Panyu)",
+          "zh": "广州（番禺）"
+        },
+        "polity": {
+          "en": "Wu – Tang",
+          "zh": "孙吴 – 唐"
+        }
+      },
+      {
+        "from": 917,
+        "to": 971,
+        "name": {
+          "en": "Xingwang prefecture",
+          "zh": "兴王府"
+        },
+        "polity": {
+          "en": "Southern Han",
+          "zh": "南汉"
+        },
+        "capital": true
+      },
+      {
+        "from": 971,
+        "to": 1912,
+        "name": {
+          "en": "Guangzhou",
+          "zh": "广州"
+        },
+        "polity": {
+          "en": "Song – Qing",
+          "zh": "宋 – 清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": 1925,
+        "name": {
+          "en": "Guangzhou (Canton)",
+          "zh": "广州"
+        },
+        "polity": {
+          "en": "Republic of China",
+          "zh": "中华民国"
+        }
+      },
+      {
+        "from": 1925,
+        "to": 1927,
+        "name": {
+          "en": "Guangzhou",
+          "zh": "广州"
+        },
+        "polity": {
+          "en": "Nationalist Government",
+          "zh": "国民政府"
+        },
+        "capital": true
+      },
+      {
+        "from": 1927,
+        "to": null,
+        "name": {
+          "en": "Guangzhou",
+          "zh": "广州"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Pearl River port and southern gateway of maritime trade since the Han; capital of the Southern Han, the sole port open to Western trade under the Canton system after 1757, and base of Sun Yat-sen's revolutionary governments.",
+      "zh": "珠江口大港，自汉代即为海上贸易门户；南汉都城，1757年后为“一口通商”口岸，孙中山在此建立革命政权。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Guangzhou",
+        "url": "https://www.britannica.com/place/Guangzhou"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Guangzhou province was created in 226; the 1925–27 Nationalist capital period is simplified."
+  },
+  {
+    "id": "place-yangzhou",
+    "qid": "Q57906",
+    "lat": 32.39,
+    "lon": 119.41,
+    "region": "east-asia",
+    "modern": {
+      "en": "Yangzhou",
+      "zh": "扬州"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 589,
+        "name": {
+          "en": "Guangling",
+          "zh": "广陵"
+        },
+        "polity": {
+          "en": "Han – Chen",
+          "zh": "汉 – 陈"
+        }
+      },
+      {
+        "from": 589,
+        "to": 618,
+        "name": {
+          "en": "Jiangdu",
+          "zh": "江都"
+        },
+        "polity": {
+          "en": "Sui",
+          "zh": "隋"
+        }
+      },
+      {
+        "from": 618,
+        "to": 902,
+        "name": {
+          "en": "Yangzhou",
+          "zh": "扬州"
+        },
+        "polity": {
+          "en": "Tang",
+          "zh": "唐"
+        }
+      },
+      {
+        "from": 902,
+        "to": 937,
+        "name": {
+          "en": "Jiangdu (Guangling)",
+          "zh": "江都府"
+        },
+        "polity": {
+          "en": "Yang Wu",
+          "zh": "杨吴"
+        },
+        "capital": true
+      },
+      {
+        "from": 937,
+        "to": null,
+        "name": {
+          "en": "Yangzhou",
+          "zh": "扬州"
+        },
+        "polity": {
+          "en": "Southern Tang – PRC",
+          "zh": "南唐 – 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Grand Canal city at the junction with the Yangtze, Emperor Yang of Sui's favourite residence and the richest commercial city of Tang; the monk Jianzhen sailed from here to Japan in 753.",
+      "zh": "运河与长江交汇的名城，隋炀帝三下江都，唐代“扬一益二”最为富庶；鉴真自此东渡日本。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Yangzhou",
+        "url": "https://www.britannica.com/place/Yangzhou"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Yangzhou also served as the Sui emperor's secondary residence; Yang Wu capital period simplified."
+  },
+  {
+    "id": "place-wuhan",
+    "qid": "Q11746",
+    "lat": 30.55,
+    "lon": 114.3,
+    "region": "east-asia",
+    "modern": {
+      "en": "Wuhan",
+      "zh": "武汉"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 223,
+        "name": {
+          "en": "Shakou / Xiakou",
+          "zh": "沙羡 / 夏口"
+        },
+        "polity": {
+          "en": "Han",
+          "zh": "汉"
+        }
+      },
+      {
+        "from": 223,
+        "to": 589,
+        "name": {
+          "en": "Xiakou",
+          "zh": "夏口"
+        },
+        "polity": {
+          "en": "Wu – Chen",
+          "zh": "孙吴 – 陈"
+        }
+      },
+      {
+        "from": 589,
+        "to": 1301,
+        "name": {
+          "en": "Ezhou (Jiangxia)",
+          "zh": "鄂州（江夏）"
+        },
+        "polity": {
+          "en": "Sui – Song",
+          "zh": "隋 – 宋"
+        }
+      },
+      {
+        "from": 1301,
+        "to": 1912,
+        "name": {
+          "en": "Wuchang",
+          "zh": "武昌"
+        },
+        "polity": {
+          "en": "Yuan – Qing",
+          "zh": "元 – 清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": 1927,
+        "name": {
+          "en": "Wuchang / Hankou / Hanyang",
+          "zh": "武汉三镇"
+        },
+        "polity": {
+          "en": "Republic of China",
+          "zh": "中华民国"
+        }
+      },
+      {
+        "from": 1927,
+        "to": 1927,
+        "name": {
+          "en": "Wuhan",
+          "zh": "武汉"
+        },
+        "polity": {
+          "en": "Wuhan Nationalist Government",
+          "zh": "武汉国民政府"
+        },
+        "capital": true
+      },
+      {
+        "from": 1927,
+        "to": null,
+        "name": {
+          "en": "Wuhan",
+          "zh": "武汉"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Confluence of the Han and Yangtze, where the Wu fortress of Xiakou grew into the Tang–Song Ezhou and Ming–Qing Wuchang; the Wuchang Uprising of 1911 began the Xinhai Revolution.",
+      "zh": "汉水入江处，孙吴筑夏口城，唐宋为鄂州，元明清称武昌；1911年武昌起义揭开辛亥革命序幕。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Wuhan",
+        "url": "https://www.britannica.com/place/Wuhan"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wuchang of 221 (Sun Quan's capital) was at modern Ezhou, not Wuhan; the name moved upriver later."
+  },
+  {
+    "id": "place-dunhuang",
+    "qid": "Q319114",
+    "lat": 40.14,
+    "lon": 94.66,
+    "region": "east-asia",
+    "modern": {
+      "en": "Dunhuang",
+      "zh": "敦煌"
+    },
+    "names": [
+      {
+        "from": -111,
+        "to": 622,
+        "name": {
+          "en": "Dunhuang",
+          "zh": "敦煌"
+        },
+        "polity": {
+          "en": "Han – Sui",
+          "zh": "汉 – 隋"
+        }
+      },
+      {
+        "from": 622,
+        "to": 786,
+        "name": {
+          "en": "Shazhou",
+          "zh": "沙州"
+        },
+        "polity": {
+          "en": "Tang",
+          "zh": "唐"
+        }
+      },
+      {
+        "from": 786,
+        "to": 848,
+        "name": {
+          "en": "Shazhou",
+          "zh": "沙州"
+        },
+        "polity": {
+          "en": "Tibetan Empire",
+          "zh": "吐蕃"
+        }
+      },
+      {
+        "from": 848,
+        "to": 1036,
+        "name": {
+          "en": "Shazhou",
+          "zh": "沙州"
+        },
+        "polity": {
+          "en": "Guiyi Army",
+          "zh": "归义军"
+        }
+      },
+      {
+        "from": 1036,
+        "to": 1227,
+        "name": {
+          "en": "Shazhou",
+          "zh": "沙州"
+        },
+        "polity": {
+          "en": "Western Xia",
+          "zh": "西夏"
+        }
+      },
+      {
+        "from": 1227,
+        "to": 1723,
+        "name": {
+          "en": "Shazhou",
+          "zh": "沙州"
+        },
+        "polity": {
+          "en": "Yuan / Ming frontier",
+          "zh": "元 / 明"
+        }
+      },
+      {
+        "from": 1723,
+        "to": 1912,
+        "name": {
+          "en": "Dunhuang",
+          "zh": "敦煌县"
+        },
+        "polity": {
+          "en": "Qing",
+          "zh": "清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": null,
+        "name": {
+          "en": "Dunhuang",
+          "zh": "敦煌"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Oasis at the western end of the Hexi Corridor where the Silk Road forked; the Mogao Caves preserve a millennium of Buddhist art, and the library cave yielded tens of thousands of manuscripts.",
+      "zh": "河西走廊西端绿洲，丝绸之路分道之处；莫高窟保存千年佛教艺术，藏经洞出土数万件写本。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Dunhuang",
+        "url": "https://www.britannica.com/place/Dunhuang"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Ming–Qing administration was intermittent; dates are simplified."
+  },
+  {
+    "id": "place-kashgar",
+    "qid": "Q170521",
+    "lat": 39.47,
+    "lon": 75.99,
+    "region": "east-asia",
+    "modern": {
+      "en": "Kashgar",
+      "zh": "喀什"
+    },
+    "names": [
+      {
+        "from": -60,
+        "to": 790,
+        "name": {
+          "en": "Shule",
+          "zh": "疏勒"
+        },
+        "polity": {
+          "en": "Shule kingdom under Han / Tang protectorates",
+          "zh": "疏勒国（汉西域都护府 / 唐安西都护府）"
+        }
+      },
+      {
+        "from": 790,
+        "to": 1212,
+        "name": {
+          "en": "Kashgar",
+          "zh": "喀什噶尔"
+        },
+        "polity": {
+          "en": "Kara-Khanid Khanate",
+          "zh": "喀喇汗国"
+        }
+      },
+      {
+        "from": 1212,
+        "to": 1759,
+        "name": {
+          "en": "Kashgar",
+          "zh": "喀什噶尔"
+        },
+        "polity": {
+          "en": "Qara Khitai, Mongol and Chagatai successors, Yarkent Khanate",
+          "zh": "西辽、蒙古察合台系、叶尔羌汗国"
+        }
+      },
+      {
+        "from": 1759,
+        "to": 1912,
+        "name": {
+          "en": "Kashgar",
+          "zh": "喀什噶尔"
+        },
+        "polity": {
+          "en": "Qing",
+          "zh": "清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": null,
+        "name": {
+          "en": "Kashi (Kashgar)",
+          "zh": "喀什"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Oasis city at the western edge of the Tarim Basin where the northern and southern Silk Roads met; the Han general Ban Chao made Shule his base, and the Kara-Khanids made it a centre of Turkic Islamic culture.",
+      "zh": "塔里木盆地西缘的绿洲，丝路南北道交汇于此；班超以疏勒为据点，喀喇汗王朝时为突厥伊斯兰文化中心。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Kashgar",
+        "url": "https://www.britannica.com/place/Kashgar"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Medieval transitions are simplified."
+  },
+  {
+    "id": "place-lhasa",
+    "qid": "Q5869",
+    "lat": 29.65,
+    "lon": 91.11,
+    "region": "east-asia",
+    "modern": {
+      "en": "Lhasa",
+      "zh": "拉萨"
+    },
+    "names": [
+      {
+        "from": 633,
+        "to": 842,
+        "name": {
+          "en": "Rasa (Luoxie)",
+          "zh": "逻些"
+        },
+        "polity": {
+          "en": "Tibetan Empire",
+          "zh": "吐蕃"
+        },
+        "capital": true
+      },
+      {
+        "from": 842,
+        "to": 1264,
+        "name": {
+          "en": "Lhasa",
+          "zh": "拉萨"
+        },
+        "polity": {
+          "en": "Era of fragmentation",
+          "zh": "分裂时期"
+        }
+      },
+      {
+        "from": 1264,
+        "to": 1368,
+        "name": {
+          "en": "Lhasa",
+          "zh": "拉萨"
+        },
+        "polity": {
+          "en": "Yuan (Xuanzheng Yuan)",
+          "zh": "元（宣政院辖地）"
+        }
+      },
+      {
+        "from": 1368,
+        "to": 1642,
+        "name": {
+          "en": "Lhasa",
+          "zh": "拉萨"
+        },
+        "polity": {
+          "en": "Ming (U-Tsang regional command)",
+          "zh": "明（乌思藏都司）"
+        }
+      },
+      {
+        "from": 1642,
+        "to": 1720,
+        "name": {
+          "en": "Lhasa",
+          "zh": "拉萨"
+        },
+        "polity": {
+          "en": "Ganden Phodrang",
+          "zh": "甘丹颇章"
+        },
+        "capital": true
+      },
+      {
+        "from": 1720,
+        "to": 1912,
+        "name": {
+          "en": "Lhasa",
+          "zh": "拉萨"
+        },
+        "polity": {
+          "en": "Qing (with resident ambans)",
+          "zh": "清（驻藏大臣）"
+        },
+        "capital": true
+      },
+      {
+        "from": 1912,
+        "to": 1951,
+        "name": {
+          "en": "Lhasa",
+          "zh": "拉萨"
+        },
+        "polity": {
+          "en": "Ganden Phodrang",
+          "zh": "甘丹颇章"
+        },
+        "capital": true
+      },
+      {
+        "from": 1951,
+        "to": null,
+        "name": {
+          "en": "Lhasa",
+          "zh": "拉萨"
+        },
+        "polity": {
+          "en": "PRC",
+          "zh": "中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Capital of Songtsen Gampo's Tibetan Empire, where the Jokhang temple and the 823 Tang–Tibet treaty pillar stand, and later of the Dalai Lamas' Ganden Phodrang government around the Potala Palace.",
+      "zh": "松赞干布建都于此，有大昭寺与唐蕃会盟碑；后为达赖喇嘛甘丹颇章政权所在地，布达拉宫屹立其上。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Lhasa",
+        "url": "https://www.britannica.com/place/Lhasa"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Songtsen Gampo's move to Lhasa is dated c. 633 (Wikidata). Political status in 1912–1951 is contested; labels are descriptive."
+  },
+  {
+    "id": "place-hohhot",
+    "qid": "Q535534",
+    "lat": 40.84,
+    "lon": 111.75,
+    "region": "east-asia",
+    "modern": {
+      "en": "Hohhot",
+      "zh": "呼和浩特"
+    },
+    "names": [
+      {
+        "from": 258,
+        "to": 398,
+        "name": {
+          "en": "Shengle",
+          "zh": "盛乐"
+        },
+        "polity": {
+          "en": "Tuoba Dai / Northern Wei",
+          "zh": "代国 / 北魏"
+        },
+        "capital": true
+      },
+      {
+        "from": 398,
+        "to": 650,
+        "name": {
+          "en": "Shengle region",
+          "zh": "盛乐"
+        },
+        "polity": {
+          "en": "Northern Wei – Sui",
+          "zh": "北魏 – 隋"
+        }
+      },
+      {
+        "from": 650,
+        "to": 1572,
+        "name": {
+          "en": "Chanyu Protectorate / Fengzhou",
+          "zh": "单于都护府 / 丰州"
+        },
+        "polity": {
+          "en": "Tang – Ming",
+          "zh": "唐 – 明"
+        }
+      },
+      {
+        "from": 1572,
+        "to": 1735,
+        "name": {
+          "en": "Köke Qota (Guihua)",
+          "zh": "库库和屯（归化城）"
+        },
+        "polity": {
+          "en": "Tümed Mongols / Qing",
+          "zh": "土默特 / 清"
+        }
+      },
+      {
+        "from": 1735,
+        "to": 1913,
+        "name": {
+          "en": "Guihua and Suiyuan",
+          "zh": "归化城 / 绥远城"
+        },
+        "polity": {
+          "en": "Qing",
+          "zh": "清"
+        }
+      },
+      {
+        "from": 1913,
+        "to": 1954,
+        "name": {
+          "en": "Guisui",
+          "zh": "归绥"
+        },
+        "polity": {
+          "en": "Republic of China / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      },
+      {
+        "from": 1954,
+        "to": null,
+        "name": {
+          "en": "Hohhot",
+          "zh": "呼和浩特"
+        },
+        "polity": {
+          "en": "PRC",
+          "zh": "中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "\"Blue City\" founded by Altan Khan in 1572 near the old Tuoba capital Shengle; the Qing added the garrison city of Suiyuan, and the twin towns became the capital of Inner Mongolia.",
+      "zh": "近拓跋代国旧都盛乐，1572年俺答汗筑库库和屯（青城），明赐名归化；清筑绥远城，二城合为归绥，今为内蒙古首府。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Hohhot",
+        "url": "https://www.britannica.com/place/Hohhot"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Shengle lies about 40 km south (Horinger); periods before 1572 are approximate. Altan Khan began the city in 1572; Wikidata dates its completion to 1580."
+  },
+  {
+    "id": "place-shenyang",
+    "qid": "Q11720",
+    "lat": 41.8,
+    "lon": 123.43,
+    "region": "east-asia",
+    "modern": {
+      "en": "Shenyang",
+      "zh": "沈阳"
+    },
+    "names": [
+      {
+        "from": 1296,
+        "to": 1625,
+        "name": {
+          "en": "Shenyang",
+          "zh": "沈阳路 / 沈阳中卫"
+        },
+        "polity": {
+          "en": "Yuan / Ming",
+          "zh": "元 / 明"
+        }
+      },
+      {
+        "from": 1625,
+        "to": 1634,
+        "name": {
+          "en": "Shenyang",
+          "zh": "沈阳"
+        },
+        "polity": {
+          "en": "Later Jin",
+          "zh": "后金"
+        },
+        "capital": true
+      },
+      {
+        "from": 1634,
+        "to": 1657,
+        "name": {
+          "en": "Mukden (Shengjing)",
+          "zh": "盛京"
+        },
+        "polity": {
+          "en": "Later Jin / Qing",
+          "zh": "后金 / 清"
+        },
+        "capital": true
+      },
+      {
+        "from": 1657,
+        "to": 1912,
+        "name": {
+          "en": "Fengtian (Shengjing)",
+          "zh": "奉天府（盛京）"
+        },
+        "polity": {
+          "en": "Qing",
+          "zh": "清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": 1929,
+        "name": {
+          "en": "Fengtian",
+          "zh": "奉天"
+        },
+        "polity": {
+          "en": "Republic of China (Fengtian clique)",
+          "zh": "中华民国（奉系）"
+        }
+      },
+      {
+        "from": 1929,
+        "to": 1932,
+        "name": {
+          "en": "Shenyang",
+          "zh": "沈阳"
+        },
+        "polity": {
+          "en": "Republic of China",
+          "zh": "中华民国"
+        }
+      },
+      {
+        "from": 1932,
+        "to": 1945,
+        "name": {
+          "en": "Fengtian (Mukden)",
+          "zh": "奉天"
+        },
+        "polity": {
+          "en": "Manchukuo",
+          "zh": "伪满洲国"
+        }
+      },
+      {
+        "from": 1945,
+        "to": null,
+        "name": {
+          "en": "Shenyang",
+          "zh": "沈阳"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Nurhaci moved his Later Jin capital here in 1625; as Mukden (Shengjing) it was the Qing capital until 1644 and kept its palace. The 1931 railway sabotage nearby launched Japan's occupation of Manchuria.",
+      "zh": "1625年努尔哈赤迁都沈阳，皇太极改称盛京，为清入关前都城并存故宫；1931年九一八事变发生于城北柳条湖。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Shenyang",
+        "url": "https://www.britannica.com/place/Shenyang"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Earlier settlement (Han Houcheng, Liao–Jin Shenzhou) is omitted."
+  },
+  {
+    "id": "place-harbin",
+    "qid": "Q42956",
+    "lat": 45.76,
+    "lon": 126.63,
+    "region": "east-asia",
+    "modern": {
+      "en": "Harbin",
+      "zh": "哈尔滨"
+    },
+    "names": [
+      {
+        "from": 1115,
+        "to": 1153,
+        "name": {
+          "en": "Huining (Shangjing), at Acheng",
+          "zh": "上京会宁府（阿城）"
+        },
+        "polity": {
+          "en": "Jin",
+          "zh": "金"
+        },
+        "capital": true
+      },
+      {
+        "from": 1153,
+        "to": 1234,
+        "name": {
+          "en": "Huining",
+          "zh": "会宁府"
+        },
+        "polity": {
+          "en": "Jin",
+          "zh": "金"
+        }
+      },
+      {
+        "from": 1234,
+        "to": 1898,
+        "name": {
+          "en": "Acheng area / Alchuka",
+          "zh": "阿勒楚喀"
+        },
+        "polity": {
+          "en": "Yuan – Qing",
+          "zh": "元 – 清"
+        }
+      },
+      {
+        "from": 1898,
+        "to": 1932,
+        "name": {
+          "en": "Harbin",
+          "zh": "哈尔滨"
+        },
+        "polity": {
+          "en": "Qing / ROC (Chinese Eastern Railway)",
+          "zh": "清 / 中华民国（中东铁路）"
+        }
+      },
+      {
+        "from": 1932,
+        "to": 1945,
+        "name": {
+          "en": "Harbin",
+          "zh": "哈尔滨"
+        },
+        "polity": {
+          "en": "Manchukuo",
+          "zh": "伪满洲国"
+        }
+      },
+      {
+        "from": 1945,
+        "to": null,
+        "name": {
+          "en": "Harbin",
+          "zh": "哈尔滨"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "The Jurchen founded their first capital Huining at nearby Acheng in 1115; modern Harbin grew from 1898 as the Russian-built hub of the Chinese Eastern Railway.",
+      "zh": "1115年女真于今哈尔滨阿城建金上京会宁府；近代哈尔滨因1898年沙俄修建中东铁路而兴起。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Harbin",
+        "url": "https://www.britannica.com/place/Harbin"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Huining (Acheng) lies about 30 km southeast of central Harbin."
+  },
+  {
+    "id": "place-datong",
+    "qid": "Q72877",
+    "lat": 40.08,
+    "lon": 113.3,
+    "region": "east-asia",
+    "modern": {
+      "en": "Datong",
+      "zh": "大同"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 398,
+        "name": {
+          "en": "Pingcheng",
+          "zh": "平城"
+        },
+        "polity": {
+          "en": "Han – Dai",
+          "zh": "汉 – 代国"
+        }
+      },
+      {
+        "from": 398,
+        "to": 494,
+        "name": {
+          "en": "Pingcheng",
+          "zh": "平城"
+        },
+        "polity": {
+          "en": "Northern Wei",
+          "zh": "北魏"
+        },
+        "capital": true
+      },
+      {
+        "from": 494,
+        "to": 1044,
+        "name": {
+          "en": "Pingcheng / Yunzhou",
+          "zh": "平城 / 云州"
+        },
+        "polity": {
+          "en": "Northern Wei – Liao",
+          "zh": "北魏 – 辽"
+        }
+      },
+      {
+        "from": 1044,
+        "to": 1125,
+        "name": {
+          "en": "Xijing (Western Capital) Datong",
+          "zh": "西京大同府"
+        },
+        "polity": {
+          "en": "Liao",
+          "zh": "辽"
+        }
+      },
+      {
+        "from": 1125,
+        "to": 1368,
+        "name": {
+          "en": "Datong",
+          "zh": "大同府 / 大同路"
+        },
+        "polity": {
+          "en": "Jin / Yuan",
+          "zh": "金 / 元"
+        }
+      },
+      {
+        "from": 1368,
+        "to": null,
+        "name": {
+          "en": "Datong",
+          "zh": "大同"
+        },
+        "polity": {
+          "en": "Ming – PRC",
+          "zh": "明 – 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Northern Wei capital Pingcheng (398–494), beside which the Yungang Grottoes were carved; Liao and Jin \"Western Capital\", and a key Ming frontier garrison of the Great Wall.",
+      "zh": "北魏都城平城，城西开凿云冈石窟；辽金为西京大同府，明代为九边重镇。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Datong",
+        "url": "https://www.britannica.com/place/Datong"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-taiyuan",
+    "qid": "Q72778",
+    "lat": 37.87,
+    "lon": 112.55,
+    "region": "east-asia",
+    "modern": {
+      "en": "Taiyuan",
+      "zh": "太原"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 581,
+        "name": {
+          "en": "Jinyang (Taiyuan commandery)",
+          "zh": "晋阳（太原郡）"
+        },
+        "polity": {
+          "en": "Han – Northern Qi",
+          "zh": "汉 – 北齐"
+        }
+      },
+      {
+        "from": 581,
+        "to": 723,
+        "name": {
+          "en": "Taiyuan / Bingzhou",
+          "zh": "太原 / 并州"
+        },
+        "polity": {
+          "en": "Sui / Tang",
+          "zh": "隋 / 唐"
+        }
+      },
+      {
+        "from": 723,
+        "to": 907,
+        "name": {
+          "en": "Beidu (Northern Capital) Taiyuan",
+          "zh": "北都太原府"
+        },
+        "polity": {
+          "en": "Tang",
+          "zh": "唐"
+        }
+      },
+      {
+        "from": 907,
+        "to": 951,
+        "name": {
+          "en": "Taiyuan (Hedong)",
+          "zh": "太原（河东）"
+        },
+        "polity": {
+          "en": "Five Dynasties (Hedong base of Later Tang, Jin, Han)",
+          "zh": "五代（河东，后唐、后晋、后汉兴起之地）"
+        }
+      },
+      {
+        "from": 951,
+        "to": 979,
+        "name": {
+          "en": "Taiyuan",
+          "zh": "太原"
+        },
+        "polity": {
+          "en": "Northern Han",
+          "zh": "北汉"
+        },
+        "capital": true
+      },
+      {
+        "from": 979,
+        "to": null,
+        "name": {
+          "en": "Taiyuan",
+          "zh": "太原"
+        },
+        "polity": {
+          "en": "Song – PRC",
+          "zh": "宋 – 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Jinyang, base from which Li Yuan launched the Tang in 617 and the Tang \"Northern Capital\"; capital of Northern Han until Song destroyed the old city in 979 and rebuilt it nearby.",
+      "zh": "古称晋阳，北齐别都，李渊太原起兵建唐，唐为北都；北汉都城，979年宋灭北汉毁晋阳旧城，另筑新城。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Taiyuan",
+        "url": "https://www.britannica.com/place/Taiyuan"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Old Jinyang lay some 15 km southwest of modern Taiyuan."
+  },
+  {
+    "id": "place-suzhou",
+    "qid": "Q42622",
+    "lat": 31.3,
+    "lon": 120.6,
+    "region": "east-asia",
+    "modern": {
+      "en": "Suzhou",
+      "zh": "苏州"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 589,
+        "name": {
+          "en": "Wu (Kuaiji / Wu commandery)",
+          "zh": "吴县（吴郡）"
+        },
+        "polity": {
+          "en": "Han – Chen",
+          "zh": "汉 – 陈"
+        }
+      },
+      {
+        "from": 589,
+        "to": 1113,
+        "name": {
+          "en": "Suzhou",
+          "zh": "苏州"
+        },
+        "polity": {
+          "en": "Sui – Northern Song",
+          "zh": "隋 – 北宋"
+        }
+      },
+      {
+        "from": 1113,
+        "to": 1356,
+        "name": {
+          "en": "Pingjiang",
+          "zh": "平江府 / 平江路"
+        },
+        "polity": {
+          "en": "Song / Yuan",
+          "zh": "宋 / 元"
+        }
+      },
+      {
+        "from": 1356,
+        "to": 1367,
+        "name": {
+          "en": "Pingjiang (Longping)",
+          "zh": "平江（隆平府）"
+        },
+        "polity": {
+          "en": "Zhang Shicheng's Wu",
+          "zh": "张士诚"
+        },
+        "capital": true
+      },
+      {
+        "from": 1367,
+        "to": null,
+        "name": {
+          "en": "Suzhou",
+          "zh": "苏州"
+        },
+        "polity": {
+          "en": "Ming – PRC",
+          "zh": "明 – 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Ancient capital of the Wu state on the Grand Canal, renamed Suzhou in 589; famous for silk and gardens, it was Zhang Shicheng's capital before falling to Zhu Yuanzhang in 1367.",
+      "zh": "春秋吴国故都，隋开皇九年改名苏州，运河名城，以丝绸与园林著称；元末张士诚据此，1367年为朱元璋所破。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Suzhou",
+        "url": "https://www.britannica.com/place/Suzhou-Jiangsu-China"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "place-quanzhou",
+    "qid": "Q68695",
+    "lat": 24.9,
+    "lon": 118.6,
+    "region": "east-asia",
+    "modern": {
+      "en": "Quanzhou",
+      "zh": "泉州"
+    },
+    "names": [
+      {
+        "from": 711,
+        "to": 1087,
+        "name": {
+          "en": "Quanzhou",
+          "zh": "泉州"
+        },
+        "polity": {
+          "en": "Tang – Northern Song",
+          "zh": "唐 – 北宋"
+        }
+      },
+      {
+        "from": 1087,
+        "to": 1368,
+        "name": {
+          "en": "Quanzhou (Zayton)",
+          "zh": "泉州（刺桐）"
+        },
+        "polity": {
+          "en": "Song / Yuan (maritime trade office)",
+          "zh": "宋 / 元（市舶司）"
+        }
+      },
+      {
+        "from": 1368,
+        "to": 1912,
+        "name": {
+          "en": "Quanzhou",
+          "zh": "泉州府"
+        },
+        "polity": {
+          "en": "Ming / Qing",
+          "zh": "明 / 清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": null,
+        "name": {
+          "en": "Quanzhou",
+          "zh": "泉州"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Fujian port known to Arab and European travellers as Zayton; after a maritime trade office opened in 1087 it rivalled Alexandria as one of the world's greatest harbours under the Song and Yuan.",
+      "zh": "福建港口，阿拉伯与欧洲旅人称之“刺桐”；1087年设市舶司后，宋元时期与亚历山大港并称世界大港。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Quanzhou",
+        "url": "https://www.britannica.com/place/Quanzhou"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The name Quanzhou was given to the present city in 711."
+  },
+  {
+    "id": "place-kunming",
+    "qid": "Q182852",
+    "lat": 25.04,
+    "lon": 102.71,
+    "region": "east-asia",
+    "modern": {
+      "en": "Kunming",
+      "zh": "昆明"
+    },
+    "names": [
+      {
+        "from": -109,
+        "to": 765,
+        "name": {
+          "en": "Dian",
+          "zh": "滇池（益州郡）"
+        },
+        "polity": {
+          "en": "Han – Tang",
+          "zh": "汉 – 唐"
+        }
+      },
+      {
+        "from": 765,
+        "to": 937,
+        "name": {
+          "en": "Tuodong",
+          "zh": "拓东城"
+        },
+        "polity": {
+          "en": "Nanzhao",
+          "zh": "南诏"
+        }
+      },
+      {
+        "from": 937,
+        "to": 1276,
+        "name": {
+          "en": "Shanshan (Eastern Capital)",
+          "zh": "鄯阐府"
+        },
+        "polity": {
+          "en": "Dali",
+          "zh": "大理"
+        }
+      },
+      {
+        "from": 1276,
+        "to": 1382,
+        "name": {
+          "en": "Zhongqing",
+          "zh": "中庆路"
+        },
+        "polity": {
+          "en": "Yuan",
+          "zh": "元"
+        }
+      },
+      {
+        "from": 1382,
+        "to": 1913,
+        "name": {
+          "en": "Yunnan prefecture (Kunming)",
+          "zh": "云南府（昆明县）"
+        },
+        "polity": {
+          "en": "Ming / Qing",
+          "zh": "明 / 清"
+        }
+      },
+      {
+        "from": 1913,
+        "to": null,
+        "name": {
+          "en": "Kunming",
+          "zh": "昆明"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Lakeside city on Dian Lake, built as Tuodong by Nanzhao and the Dali kingdom's eastern capital; seat of Yunnan province from the Yuan, and where the last Southern Ming emperor was killed in 1662.",
+      "zh": "滇池之滨，南诏筑拓东城，大理称鄯阐府；元设云南行省于中庆，明清为云南府，1662年南明永历帝殒命于此。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Kunming",
+        "url": "https://www.britannica.com/place/Kunming"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Earlier periods are approximate."
+  },
+  {
+    "id": "place-dali",
+    "qid": "Q855228",
+    "lat": 25.69,
+    "lon": 100.16,
+    "region": "east-asia",
+    "modern": {
+      "en": "Dali",
+      "zh": "大理"
+    },
+    "names": [
+      {
+        "from": 738,
+        "to": 779,
+        "name": {
+          "en": "Taihe",
+          "zh": "太和城"
+        },
+        "polity": {
+          "en": "Nanzhao",
+          "zh": "南诏"
+        },
+        "capital": true
+      },
+      {
+        "from": 779,
+        "to": 902,
+        "name": {
+          "en": "Yangjumie",
+          "zh": "阳苴咩城"
+        },
+        "polity": {
+          "en": "Nanzhao",
+          "zh": "南诏"
+        },
+        "capital": true
+      },
+      {
+        "from": 902,
+        "to": 937,
+        "name": {
+          "en": "Yangjumie",
+          "zh": "阳苴咩城"
+        },
+        "polity": {
+          "en": "Dachanghe, Datianxing, Dayining",
+          "zh": "大长和、大天兴、大义宁"
+        },
+        "capital": true
+      },
+      {
+        "from": 937,
+        "to": 1254,
+        "name": {
+          "en": "Yangjumie (Dali)",
+          "zh": "羊苴咩城（大理）"
+        },
+        "polity": {
+          "en": "Dali Kingdom",
+          "zh": "大理国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1254,
+        "to": 1912,
+        "name": {
+          "en": "Dali",
+          "zh": "大理路 / 大理府"
+        },
+        "polity": {
+          "en": "Yuan / Ming / Qing",
+          "zh": "元 / 明 / 清"
+        }
+      },
+      {
+        "from": 1912,
+        "to": null,
+        "name": {
+          "en": "Dali",
+          "zh": "大理"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Capital of Nanzhao and of the Duan family's Dali kingdom on the shore of Erhai Lake, conquered by Kublai's Mongol army in 1253–54; its Three Pagodas date from the Nanzhao era.",
+      "zh": "洱海之滨，南诏与段氏大理国都城，1253至1254年为忽必烈所破；崇圣寺三塔建于南诏时期。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Dali",
+        "url": "https://www.britannica.com/place/Dali-China"
+      }
+    ],
+    "confidence": "high",
+    "note": "Point placed at the old walled town of Dali (Yangjumie site) rather than the modern city seat at Xiaguan used by Wikidata."
+  },
+  {
+    "id": "place-ye",
+    "qid": "Q1274372",
+    "lat": 36.2748,
+    "lon": 114.4002,
+    "region": "east-asia",
+    "modern": {
+      "en": "Ye (near Linzhang / Anyang)",
+      "zh": "邺城遗址（临漳）"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 204,
+        "name": {
+          "en": "Ye (Wei commandery)",
+          "zh": "邺（魏郡）"
+        },
+        "polity": {
+          "en": "Han",
+          "zh": "汉"
+        }
+      },
+      {
+        "from": 204,
+        "to": 220,
+        "name": {
+          "en": "Ye",
+          "zh": "邺"
+        },
+        "polity": {
+          "en": "Cao Cao's seat as Duke and King of Wei",
+          "zh": "曹操霸府（魏公、魏王）"
+        },
+        "capital": true
+      },
+      {
+        "from": 220,
+        "to": 335,
+        "name": {
+          "en": "Ye",
+          "zh": "邺"
+        },
+        "polity": {
+          "en": "Wei / Jin",
+          "zh": "魏 / 晋"
+        }
+      },
+      {
+        "from": 335,
+        "to": 370,
+        "name": {
+          "en": "Ye",
+          "zh": "邺"
+        },
+        "polity": {
+          "en": "Later Zhao, Ran Wei, Former Yan",
+          "zh": "后赵、冉魏、前燕"
+        },
+        "capital": true
+      },
+      {
+        "from": 370,
+        "to": 534,
+        "name": {
+          "en": "Ye",
+          "zh": "邺"
+        },
+        "polity": {
+          "en": "Former Qin – Northern Wei",
+          "zh": "前秦 – 北魏"
+        }
+      },
+      {
+        "from": 534,
+        "to": 577,
+        "name": {
+          "en": "Ye",
+          "zh": "邺"
+        },
+        "polity": {
+          "en": "Eastern Wei / Northern Qi",
+          "zh": "东魏 / 北齐"
+        },
+        "capital": true
+      },
+      {
+        "from": 577,
+        "to": 580,
+        "name": {
+          "en": "Ye",
+          "zh": "邺"
+        },
+        "polity": {
+          "en": "Northern Zhou",
+          "zh": "北周"
+        }
+      },
+      {
+        "from": 580,
+        "to": null,
+        "name": {
+          "en": "Ye ruins",
+          "zh": "邺城遗址"
+        },
+        "polity": {
+          "en": "destroyed by Yang Jian; seat moved to Anyang",
+          "zh": "杨坚焚毁，治所迁安阳"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Capital of Cao Cao and of five northern regimes, from Later Zhao to Northern Qi, celebrated for its Bronze Sparrow Terrace; Yang Jian razed it in 580 and moved its people to Anyang.",
+      "zh": "曹操魏国霸府所在，后赵、冉魏、前燕、东魏、北齐相继建都，有铜雀台；580年杨坚平尉迟迥后焚毁，民众迁往安阳。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Ye (ancient city)"
+      },
+      {
+        "title": "郦道元《水经注》卷10 浊漳水"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Jiangshan-map places Ye at Anyang city (36.10, 114.39); the Wikidata coordinates of the Ye site are used here. The exact extent of the walled city near Linzhang is debated."
+  },
+  {
+    "id": "place-wuwei",
+    "qid": "Q249007",
+    "lat": 37.93,
+    "lon": 102.64,
+    "region": "east-asia",
+    "modern": {
+      "en": "Wuwei",
+      "zh": "武威"
+    },
+    "names": [
+      {
+        "from": -121,
+        "to": 220,
+        "name": {
+          "en": "Guzang (Wuwei commandery)",
+          "zh": "姑臧（武威郡）"
+        },
+        "polity": {
+          "en": "Han",
+          "zh": "汉"
+        }
+      },
+      {
+        "from": 220,
+        "to": 301,
+        "name": {
+          "en": "Guzang (Liangzhou seat)",
+          "zh": "姑臧（凉州）"
+        },
+        "polity": {
+          "en": "Wei / Jin",
+          "zh": "魏 / 晋"
+        }
+      },
+      {
+        "from": 301,
+        "to": 439,
+        "name": {
+          "en": "Guzang",
+          "zh": "姑臧"
+        },
+        "polity": {
+          "en": "Former Liang, Later Liang, Northern Liang",
+          "zh": "前凉、后凉、北凉"
+        },
+        "capital": true
+      },
+      {
+        "from": 439,
+        "to": 764,
+        "name": {
+          "en": "Guzang / Liangzhou",
+          "zh": "姑臧 / 凉州"
+        },
+        "polity": {
+          "en": "Northern Wei – Tang",
+          "zh": "北魏 – 唐"
+        }
+      },
+      {
+        "from": 764,
+        "to": 1036,
+        "name": {
+          "en": "Liangzhou",
+          "zh": "凉州"
+        },
+        "polity": {
+          "en": "Tibetan Empire / local rule",
+          "zh": "吐蕃 / 地方政权"
+        }
+      },
+      {
+        "from": 1036,
+        "to": 1227,
+        "name": {
+          "en": "Liangzhou (Xiliang)",
+          "zh": "西凉府"
+        },
+        "polity": {
+          "en": "Western Xia",
+          "zh": "西夏"
+        }
+      },
+      {
+        "from": 1227,
+        "to": 1724,
+        "name": {
+          "en": "Liangzhou / Yongchang",
+          "zh": "凉州 / 永昌路"
+        },
+        "polity": {
+          "en": "Yuan / Ming",
+          "zh": "元 / 明"
+        }
+      },
+      {
+        "from": 1724,
+        "to": null,
+        "name": {
+          "en": "Wuwei",
+          "zh": "武威"
+        },
+        "polity": {
+          "en": "Qing – PRC",
+          "zh": "清 – 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Hexi Corridor city founded as Wuwei commandery by Emperor Wu of Han; as Guzang it was capital of several Liang states, and in 1247 the Sakya lama met the Mongol prince Köden here.",
+      "zh": "汉武帝开河西置武威郡，古称姑臧、凉州，前凉、后凉、北凉建都于此；1247年萨迦班智达与阔端在此会盟。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Wuwei",
+        "url": "https://www.britannica.com/place/Wuwei"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Some transitions are simplified."
+  },
+  {
+    "id": "place-xiangyang",
+    "qid": "Q71284",
+    "lat": 32.01,
+    "lon": 112.14,
+    "region": "east-asia",
+    "modern": {
+      "en": "Xiangyang",
+      "zh": "襄阳"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 208,
+        "name": {
+          "en": "Xiangyang (Nan commandery)",
+          "zh": "襄阳（南郡）"
+        },
+        "polity": {
+          "en": "Han",
+          "zh": "汉"
+        }
+      },
+      {
+        "from": 208,
+        "to": 1950,
+        "name": {
+          "en": "Xiangyang",
+          "zh": "襄阳"
+        },
+        "polity": {
+          "en": "Wei – Qing (Jingzhou / Xiangzhou / Xiangyang prefecture)",
+          "zh": "魏 – 清（荆州 / 襄州 / 襄阳府）"
+        }
+      },
+      {
+        "from": 1950,
+        "to": 2010,
+        "name": {
+          "en": "Xiangfan",
+          "zh": "襄樊"
+        },
+        "polity": {
+          "en": "PRC",
+          "zh": "中华人民共和国"
+        }
+      },
+      {
+        "from": 2010,
+        "to": null,
+        "name": {
+          "en": "Xiangyang",
+          "zh": "襄阳"
+        },
+        "polity": {
+          "en": "PRC",
+          "zh": "中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "Fortress on the Han River guarding the route between the Yangtze and the north; Zhuge Liang lived at nearby Longzhong, and the six-year Mongol siege that ended in 1273 opened the way to the Song heartland.",
+      "zh": "汉水重镇，扼南北要冲；诸葛亮隐居城西隆中，宋元襄樊之战历时六年，1273年襄阳陷落，南宋门户洞开。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Xiangyang",
+        "url": "https://www.britannica.com/place/Xiangyang"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 1950–2010 name Xiangfan merged Xiangyang with Fancheng."
+  },
+  {
+    "id": "place-chongqing",
+    "qid": "Q11725",
+    "lat": 29.56,
+    "lon": 106.55,
+    "region": "east-asia",
+    "modern": {
+      "en": "Chongqing",
+      "zh": "重庆"
+    },
+    "names": [
+      {
+        "from": -202,
+        "to": 581,
+        "name": {
+          "en": "Jiangzhou (Ba commandery)",
+          "zh": "江州（巴郡）"
+        },
+        "polity": {
+          "en": "Han – Northern Zhou",
+          "zh": "汉 – 北周"
+        }
+      },
+      {
+        "from": 581,
+        "to": 1102,
+        "name": {
+          "en": "Yuzhou",
+          "zh": "渝州"
+        },
+        "polity": {
+          "en": "Sui – Northern Song",
+          "zh": "隋 – 北宋"
+        }
+      },
+      {
+        "from": 1102,
+        "to": 1189,
+        "name": {
+          "en": "Gongzhou",
+          "zh": "恭州"
+        },
+        "polity": {
+          "en": "Song",
+          "zh": "宋"
+        }
+      },
+      {
+        "from": 1189,
+        "to": 1363,
+        "name": {
+          "en": "Chongqing",
+          "zh": "重庆府"
+        },
+        "polity": {
+          "en": "Southern Song / Yuan",
+          "zh": "南宋 / 元"
+        }
+      },
+      {
+        "from": 1363,
+        "to": 1371,
+        "name": {
+          "en": "Chongqing",
+          "zh": "重庆"
+        },
+        "polity": {
+          "en": "Ming Xia",
+          "zh": "明夏"
+        },
+        "capital": true
+      },
+      {
+        "from": 1371,
+        "to": 1937,
+        "name": {
+          "en": "Chongqing",
+          "zh": "重庆府"
+        },
+        "polity": {
+          "en": "Ming – ROC",
+          "zh": "明 – 中华民国"
+        }
+      },
+      {
+        "from": 1937,
+        "to": 1946,
+        "name": {
+          "en": "Chongqing (wartime capital)",
+          "zh": "重庆（陪都）"
+        },
+        "polity": {
+          "en": "Republic of China",
+          "zh": "中华民国"
+        },
+        "capital": true
+      },
+      {
+        "from": 1946,
+        "to": null,
+        "name": {
+          "en": "Chongqing",
+          "zh": "重庆"
+        },
+        "polity": {
+          "en": "ROC / PRC",
+          "zh": "中华民国 / 中华人民共和国"
+        }
+      }
+    ],
+    "summary": {
+      "en": "River port at the Jialing–Yangtze confluence, known as Jiangzhou and Yuzhou, named Chongqing (\"double celebration\") in 1189; capital of Ming Xia and the Nationalist wartime capital during the war with Japan.",
+      "zh": "嘉陵江与长江交汇处，古称江州、渝州，1189年宋光宗以“双重喜庆”升为重庆府；明夏都城，抗战时为国民政府陪都。"
+    },
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Chongqing",
+        "url": "https://www.britannica.com/place/Chongqing"
+      }
+    ],
+    "confidence": "high"
+  }
+]

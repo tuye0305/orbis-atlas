@@ -1,0 +1,3752 @@
+[
+  {
+    "id": "ev-battle-of-kunyang",
+    "qid": "Q3272217",
+    "type": "battle",
+    "year": 23,
+    "name": {
+      "en": "Battle of Kunyang",
+      "zh": "昆阳之战"
+    },
+    "summary": {
+      "en": "A few thousand Han loyalists under Liu Xiu broke a vastly larger Xin army besieging Kunyang. The rout doomed Wang Mang, whose capital Chang'an fell to rebels later that year.",
+      "zh": "刘秀率数千汉军冲破围攻昆阳的新莽大军，王莽主力溃散，同年长安被起义军攻破，王莽被杀。"
+    },
+    "lat": 33.731,
+    "lon": 113.301,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-emperor-guangwu"
+    ],
+    "polities": [
+      "polity-xin"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "范晔《后汉书》卷1上 光武帝纪上 地皇四年",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷1上"
+      },
+      {
+        "title": "资治通鉴 卷39 汉纪三十一 淮阳王更始元年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-founding-of-white-horse-temple",
+    "qid": "Q1264618",
+    "type": "religious",
+    "year": 68,
+    "name": {
+      "en": "Founding of the White Horse Temple",
+      "zh": "白马寺创建"
+    },
+    "summary": {
+      "en": "Traditionally regarded as China's first Buddhist temple, founded outside Luoyang under Emperor Ming after envoys returned from the west with the monks Kasyapa Matanga and Dharmaratna.",
+      "zh": "相传汉明帝遣使西行求法，迎摄摩腾、竺法兰至洛阳，于城西建白马寺，被视为中国第一座佛寺。"
+    },
+    "lat": 34.7239,
+    "lon": 112.5997,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-luoyang",
+    "polities": [
+      "polity-eastern-han"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "杨衒之《洛阳伽蓝记》卷4 白马寺"
+      },
+      {
+        "title": "Britannica: White Horse Temple",
+        "url": "https://www.britannica.com/topic/White-Horse-Temple"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The founding date of 68 is traditional."
+  },
+  {
+    "id": "ev-battle-of-ikh-bayan",
+    "qid": "Q726485",
+    "type": "battle",
+    "year": 89,
+    "name": {
+      "en": "Battle of Ikh Bayan and the Yanran inscription",
+      "zh": "稽落山之战与燕然勒石"
+    },
+    "summary": {
+      "en": "General Dou Xian crushed the Northern Xiongnu at Mount Jiluo and had Ban Gu compose a victory inscription carved on Mount Yanran in the Khangai range, rediscovered in Mongolia in 2017.",
+      "zh": "窦宪大破北匈奴于稽落山，登燕然山命班固作铭刻石记功；该摩崖石刻于2017年在蒙古国杭爱山发现。"
+    },
+    "lat": 47.501,
+    "lon": 100.501,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-eastern-han"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "范晔《后汉书》卷23 窦宪传",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷23"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-zhang-heng-seismoscope",
+    "qid": "Q15391579",
+    "type": "science",
+    "year": 132,
+    "name": {
+      "en": "Zhang Heng's seismoscope",
+      "zh": "张衡造候风地动仪"
+    },
+    "summary": {
+      "en": "At Luoyang the astronomer Zhang Heng built the Houfeng Didong Yi, a bronze vessel said to drop a ball from a dragon's mouth toward the direction of a distant earthquake.",
+      "zh": "太史令张衡在洛阳制成候风地动仪，据载地震时对应方向的龙口吐丸，可感知远方地震。"
+    },
+    "lat": 34.621,
+    "lon": 112.451,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-luoyang",
+    "polities": [
+      "polity-eastern-han"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "范晔《后汉书》卷59 张衡传",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷59"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-yellow-turban-rebellion",
+    "qid": "Q751743",
+    "type": "war",
+    "year": 184,
+    "endYear": 205,
+    "name": {
+      "en": "Yellow Turban Rebellion",
+      "zh": "黄巾起义"
+    },
+    "summary": {
+      "en": "Zhang Jue's Taiping Dao movement rose across eastern China in 184. The main armies were crushed within a year, but the emergency powers granted to regional commanders opened the way to warlordism.",
+      "zh": "张角以太平道起事于巨鹿，八州并起。主力当年即被镇压，但余部延续二十年，地方将帅坐大，开启军阀割据。"
+    },
+    "lat": 37.201,
+    "lon": 115.001,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-eastern-han"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "范晔《后汉书》卷71 皇甫嵩传",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷71"
+      },
+      {
+        "title": "资治通鉴 卷58 汉纪五十 光和七年"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata ends the rebellion in 205 (remnant risings); the main outbreak was 184, as in Jiangshan-map."
+  },
+  {
+    "id": "ev-end-of-han",
+    "qid": "Q116123",
+    "type": "fall",
+    "year": 189,
+    "endYear": 220,
+    "name": {
+      "en": "End of the Han dynasty",
+      "zh": "东汉末年与汉魏禅代"
+    },
+    "summary": {
+      "en": "Dong Zhuo's seizure of Luoyang in 189 reduced the Han emperors to puppets; Cao Cao later controlled Emperor Xian from Xu, and in 220 his son Cao Pi accepted the abdication and founded Wei.",
+      "zh": "189年董卓入洛废立，汉帝沦为傀儡；曹操迎献帝都许挟天子以令诸侯，220年曹丕受禅建魏，东汉亡。"
+    },
+    "lat": 34.621,
+    "lon": 112.451,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-cao-cao"
+    ],
+    "polities": [
+      "polity-eastern-han",
+      "polity-cao-wei"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《三国志》 卷2 魏书二 文帝纪 延康元年七月 军次于谯、大飨六军",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷02"
+      },
+      {
+        "title": "《三国志》 卷2 魏书二 文帝纪 黄初二年 裴注引《魏略》改长安、谯、许昌、邺、洛阳为五都",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷02"
+      },
+      {
+        "title": "《资治通鉴》 卷69 魏纪一 黄初元年七月 王次于谯大飨",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷069"
+      },
+      {
+        "title": "陈寿《三国志》卷2 魏书二 文帝纪",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷02"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-guandu",
+    "qid": "Q1057910",
+    "type": "battle",
+    "year": 200,
+    "name": {
+      "en": "Battle of Guandu",
+      "zh": "官渡之战"
+    },
+    "summary": {
+      "en": "Cao Cao defeated the far larger army of Yuan Shao by burning its grain depot at Wuchao, gaining control of north China.",
+      "zh": "曹操奇袭乌巢焚毁袁绍粮草，以少胜多大败袁军，奠定统一北方的基础。"
+    },
+    "lat": 34.751,
+    "lon": 114.001,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-cao-cao",
+      "person-guan-yu"
+    ],
+    "polities": [
+      "polity-eastern-han"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "陈寿《三国志》卷1 魏书一 武帝纪 建安五年",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "title": "资治通鉴 卷63 汉纪五十五 建安五年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-red-cliffs",
+    "qid": "Q830059",
+    "type": "battle",
+    "year": 208,
+    "name": {
+      "en": "Battle of Red Cliffs",
+      "zh": "赤壁之战"
+    },
+    "summary": {
+      "en": "The allied fleets of Sun Quan and Liu Bei, led by Zhou Yu, burned Cao Cao's armada on the Yangtze near Wulin, halting his drive south and setting the stage for the Three Kingdoms.",
+      "zh": "孙权、刘备联军由周瑜指挥，黄盖火攻，于乌林焚毁曹操战船，阻止其南下，奠定三国鼎立格局。"
+    },
+    "lat": 29.85,
+    "lon": 113.94,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-cao-cao",
+      "person-liu-bei",
+      "person-sun-quan",
+      "person-zhuge-liang",
+      "person-guan-yu"
+    ],
+    "polities": [
+      "polity-eastern-han"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "陈寿《三国志》卷54 吴书九 周瑜传",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷54"
+      },
+      {
+        "title": "资治通鉴 卷65 汉纪五十七 建安十三年",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷065"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-xiaoting",
+    "qid": "Q1141614",
+    "type": "battle",
+    "year": 221,
+    "endYear": 222,
+    "name": {
+      "en": "Battle of Xiaoting (Yiling)",
+      "zh": "夷陵之战"
+    },
+    "summary": {
+      "en": "Liu Bei invaded Wu to avenge Guan Yu and recover Jingzhou; the Wu commander Lu Xun waited, then burned the Shu camps strung along the gorges at Yiling, and Liu Bei withdrew to Baidicheng.",
+      "zh": "刘备为报关羽之仇、夺回荆州而伐吴，陆逊坚守待机，于夷陵火烧连营，刘备败退白帝城。"
+    },
+    "lat": 30.691,
+    "lon": 111.291,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-liu-bei",
+      "person-sun-quan"
+    ],
+    "polities": [
+      "polity-shu-han",
+      "polity-eastern-wu"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "陈寿《三国志》卷58 吴书十三 陆逊传",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷58"
+      },
+      {
+        "title": "资治通鉴 卷69 魏纪一 黄初三年"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The campaign began in 221 (Wikidata date) and the decisive fire attack came in 222 (Jiangshan-map date)."
+  },
+  {
+    "id": "ev-zhuge-liang-northern-expeditions",
+    "qid": "Q1198171",
+    "type": "war",
+    "year": 228,
+    "endYear": 234,
+    "name": {
+      "en": "Zhuge Liang's Northern Expeditions",
+      "zh": "诸葛亮北伐"
+    },
+    "summary": {
+      "en": "From Hanzhong, Shu chancellor Zhuge Liang launched five campaigns against Wei through the Qinling passes. Supply problems and Sima Yi's defensive strategy stalled them, and he died in camp at Wuzhang Plains in 234.",
+      "zh": "蜀相诸葛亮以汉中为基地，越秦岭五次北伐曹魏。粮运艰难，司马懿坚壁不战，234年病逝五丈原军中。"
+    },
+    "lat": 34.33,
+    "lon": 105.32,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-zhuge-liang"
+    ],
+    "polities": [
+      "polity-shu-han",
+      "polity-cao-wei"
+    ],
+    "route": [
+      {
+        "year": 227,
+        "lat": 33.07,
+        "lon": 107.02,
+        "label": {
+          "en": "Hanzhong base",
+          "zh": "汉中"
+        }
+      },
+      {
+        "year": 228,
+        "lat": 34.33,
+        "lon": 105.32,
+        "label": {
+          "en": "Mount Qi",
+          "zh": "祁山"
+        }
+      },
+      {
+        "year": 228,
+        "lat": 35,
+        "lon": 105.9,
+        "label": {
+          "en": "Jieting (Ma Su defeated)",
+          "zh": "街亭"
+        }
+      },
+      {
+        "year": 229,
+        "lat": 34.36,
+        "lon": 107.15,
+        "label": {
+          "en": "Chencang",
+          "zh": "陈仓"
+        }
+      },
+      {
+        "year": 231,
+        "lat": 34.22,
+        "lon": 105.38,
+        "label": {
+          "en": "Mumen Trail",
+          "zh": "木门道"
+        }
+      },
+      {
+        "year": 234,
+        "lat": 34.34,
+        "lon": 107.63,
+        "label": {
+          "en": "Wuzhang Plains",
+          "zh": "五丈原"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《三国志》 卷3 魏书三 明帝纪 太和二年春 丁未，行幸长安",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷03"
+      },
+      {
+        "title": "《资治通鉴》 卷71 魏纪三 太和二年 丁未，帝行如长安",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷071"
+      },
+      {
+        "title": "陈寿《三国志》卷35 蜀书五 诸葛亮传",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷35"
+      },
+      {
+        "title": "资治通鉴 卷71–72 魏纪三、四"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-incident-at-gaoping-tombs",
+    "qid": "Q1046407",
+    "type": "political",
+    "year": 249,
+    "date": "0249-02-05",
+    "name": {
+      "en": "Incident at Gaoping Tombs",
+      "zh": "高平陵之变"
+    },
+    "summary": {
+      "en": "While regent Cao Shuang escorted the Wei emperor to the Gaoping tombs, Sima Yi seized Luoyang and then executed Cao Shuang's faction, putting the Sima clan in control of Wei.",
+      "zh": "曹爽奉魏帝谒高平陵之际，司马懿闭城发动政变，诛曹爽一党，司马氏自此掌握曹魏朝政。"
+    },
+    "lat": 34.621,
+    "lon": 112.451,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-cao-wei"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《三国志》 卷9 魏书九 曹爽传 正始十年正月 车驾朝高平陵，爽兄弟皆从；宣王先据武库",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷09"
+      },
+      {
+        "title": "《三国志》 卷4 魏书四 三少帝纪 嘉平元年春正月甲午 车驾谒高平陵",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷04"
+      },
+      {
+        "title": "《晋书》 卷1 帝纪第一 宣帝 嘉平元年春正月 天子谒高平陵，爽兄弟皆从",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷001"
+      },
+      {
+        "title": "《资治通鉴》 卷75 魏纪七 嘉平元年春正月 闭诸城门，勒兵据武库",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷075"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-conquest-of-shu-by-wei",
+    "qid": "Q1196063",
+    "type": "war",
+    "year": 263,
+    "name": {
+      "en": "Wei conquest of Shu",
+      "zh": "魏灭蜀之战"
+    },
+    "summary": {
+      "en": "Wei armies under Zhong Hui and Deng Ai invaded Shu; while Jiang Wei held Jiange, Deng Ai crossed the mountains by the Yinping trail and reached Chengdu, where Liu Shan surrendered.",
+      "zh": "钟会、邓艾分道伐蜀，姜维据守剑阁，邓艾偷渡阴平直抵成都，后主刘禅出降，蜀汉亡。"
+    },
+    "lat": 30.571,
+    "lon": 104.071,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-cao-wei",
+      "polity-shu-han"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《三国志》 卷33 蜀书三 后主传 炎兴元年冬 邓艾破诸葛瞻于绵竹，用谯周策降于艾",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷33"
+      },
+      {
+        "title": "《三国志》 卷28 魏书二十八 邓艾传 艾至成都，禅率太子诸王及群臣面缚舆榇诣军门",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷28"
+      },
+      {
+        "title": "《资治通鉴》 卷78 魏纪十 景元四年 艾至成都城北，汉主面缚舆榇",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷078"
+      },
+      {
+        "title": "陈寿《三国志》卷28 魏书二十八 邓艾传",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷28"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-conquest-of-wu-by-jin",
+    "qid": "Q1151096",
+    "type": "war",
+    "year": 279,
+    "endYear": 280,
+    "name": {
+      "en": "Jin conquest of Wu",
+      "zh": "晋灭吴之战"
+    },
+    "summary": {
+      "en": "Six Jin columns attacked Wu, and Wang Jun's fleet sailed down the Yangtze from Sichuan to Jianye, where Sun Hao surrendered in 280, reunifying China for the first time since the Han.",
+      "zh": "西晋六路伐吴，王濬楼船自益州顺江而下直抵建业，280年孙皓出降，结束三国分裂。"
+    },
+    "lat": 32.061,
+    "lon": 118.801,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-western-jin",
+      "polity-eastern-wu"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《晋书》 卷3 帝纪第三 武帝 咸宁五年十一月 大举伐吴，六路东西凡二十余万",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷003"
+      },
+      {
+        "title": "《晋书》 卷42 列传第十二 王濬传 上疏请速伐吴",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷042"
+      },
+      {
+        "title": "《资治通鉴》 卷80 晋纪二 咸宁五年 王濬上疏，帝于是决意伐吴；十一月大举伐吴",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷080"
+      },
+      {
+        "title": "房玄龄等《晋书》卷42 王濬传",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷042"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-war-of-the-eight-princes",
+    "qid": "Q770951",
+    "type": "war",
+    "year": 291,
+    "endYear": 306,
+    "name": {
+      "en": "War of the Eight Princes",
+      "zh": "八王之乱"
+    },
+    "summary": {
+      "en": "A succession of Jin princes, beginning with Empress Jia's coup, fought for control of the weak Emperor Hui. The civil wars devastated the north and drew Xiongnu and other frontier troops into Chinese politics.",
+      "zh": "贾后乱政后，宗室诸王为控制晋惠帝相继混战十六年，中原残破，匈奴等内迁部族借机起兵。"
+    },
+    "lat": 34.621,
+    "lon": 112.451,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-western-jin"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《资治通鉴》 卷82 晋纪四 永熙元年四月；元康元年三月；六月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷082"
+      },
+      {
+        "title": "《资治通鉴》 卷86 晋纪八 光熙元年六月；十一月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷086"
+      },
+      {
+        "title": "《资治通鉴》 卷86 晋纪八 永兴二年十二月；光熙元年正月至六月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷086"
+      },
+      {
+        "title": "《晋书》 卷62 列传第三十二 刘琨传",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷062"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-disaster-of-yongjia",
+    "qid": "Q2481148",
+    "type": "fall",
+    "year": 311,
+    "date": "0311-07-13",
+    "name": {
+      "en": "Disaster of Yongjia",
+      "zh": "永嘉之乱"
+    },
+    "summary": {
+      "en": "Han-Zhao forces under Liu Yao and Wang Mi stormed Luoyang, captured Emperor Huai and burned the city, triggering a mass migration of northern elites south of the Yangtze.",
+      "zh": "汉赵刘曜、王弥攻陷洛阳，俘晋怀帝，焚掠宫城，引发中原士族大规模南迁（衣冠南渡）。"
+    },
+    "lat": 34.621,
+    "lon": 112.451,
+    "region": "east-asia",
+    "importance": 5,
+    "place": "place-luoyang",
+    "polities": [
+      "polity-western-jin",
+      "polity-han-zhao"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《资治通鉴》 卷87 晋纪九 永嘉五年六月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷087"
+      },
+      {
+        "title": "《晋书》 卷5 帝纪第五 孝怀帝纪 永嘉五年六月",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷005"
+      },
+      {
+        "title": "《晋书》 卷65 列传第三十五 王导传",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷065"
+      },
+      {
+        "title": "房玄龄等《晋书》卷5 孝怀帝纪 永嘉五年",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷005"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-orchid-pavilion-gathering",
+    "qid": "Q1420392",
+    "type": "cultural",
+    "year": 353,
+    "name": {
+      "en": "Orchid Pavilion Gathering",
+      "zh": "兰亭雅集"
+    },
+    "summary": {
+      "en": "Wang Xizhi hosted some forty literati at the Orchid Pavilion near Shanyin (Shaoxing) for the spring purification festival and wrote the preface to their poems, later revered as the supreme work of Chinese calligraphy.",
+      "zh": "王羲之与谢安等四十余人修禊于会稽山阴兰亭，作《兰亭集序》，被后世尊为“天下第一行书”。"
+    },
+    "lat": 29.931,
+    "lon": 120.491,
+    "region": "east-asia",
+    "importance": 3,
+    "people": [
+      "person-wang-xizhi"
+    ],
+    "polities": [
+      "polity-eastern-jin"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《晋书》 卷80 列传第五十 王羲之传",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷080"
+      },
+      {
+        "title": "《法书要录》 卷三 何延之《兰亭记》",
+        "url": "https://zh.wikisource.org/wiki/法書要錄/卷三"
+      },
+      {
+        "title": "房玄龄等《晋书》卷80 王羲之传",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷080"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-fei-river",
+    "qid": "Q1333898",
+    "type": "battle",
+    "year": 383,
+    "date": "0383-11-30",
+    "name": {
+      "en": "Battle of the Fei River",
+      "zh": "淝水之战"
+    },
+    "summary": {
+      "en": "Fu Jian's huge Former Qin army, attempting to conquer the south, was routed at the Fei River near Shouyang by about 80,000 Eastern Jin troops under Xie Xuan; the defeat broke up Former Qin.",
+      "zh": "前秦苻坚倾国南下，于寿阳淝水被谢玄所率八万北府兵击溃，前秦随之瓦解，南北对峙之局延续。"
+    },
+    "lat": 32.581,
+    "lon": 116.781,
+    "region": "east-asia",
+    "importance": 5,
+    "polities": [
+      "polity-eastern-jin",
+      "polity-former-qin"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《资治通鉴》 卷105 晋纪二十七 太元八年九月、十一月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷105"
+      },
+      {
+        "title": "《资治通鉴》 卷105 晋纪二十七 太元八年十一月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷105"
+      },
+      {
+        "title": "房玄龄等《晋书》卷79 谢玄传",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷079"
+      },
+      {
+        "title": "资治通鉴 卷105 晋纪二十七 太元八年",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷105"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-xiaowen-moves-capital-to-luoyang",
+    "qid": "Q10945016",
+    "type": "political",
+    "year": 494,
+    "name": {
+      "en": "Emperor Xiaowen moves the capital to Luoyang",
+      "zh": "孝文帝迁都洛阳"
+    },
+    "summary": {
+      "en": "Emperor Xiaowen of Northern Wei moved his court from Pingcheng to Luoyang and imposed Chinese dress, language and surnames on the Xianbei aristocracy as part of his sinicisation reforms.",
+      "zh": "北魏孝文帝自平城迁都洛阳，推行改汉服、说汉语、改汉姓等汉化改革。"
+    },
+    "lat": 34.621,
+    "lon": 112.451,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-emperor-xiaowen"
+    ],
+    "place": "place-luoyang",
+    "polities": [
+      "polity-northern-wei"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "魏收《魏书》卷7下 高祖纪下 太和十八年",
+        "url": "https://zh.wikisource.org/wiki/魏書/卷7下"
+      },
+      {
+        "title": "资治通鉴 卷139 齐纪五 建武元年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-rebellion-of-six-garrisons",
+    "qid": "Q831132",
+    "type": "war",
+    "year": 524,
+    "endYear": 530,
+    "name": {
+      "en": "Rebellion of the Six Garrisons",
+      "zh": "六镇之乱"
+    },
+    "summary": {
+      "en": "Neglected northern frontier garrisons of Northern Wei rose under Poliuhan Baling at Woye. The revolts brought warlords such as Erzhu Rong, Gao Huan and Yuwen Tai to power and split the empire.",
+      "zh": "北魏北边六镇军民因地位沦落而起事，破六韩拔陵首倡于沃野镇。尔朱荣、高欢、宇文泰由此崛起，北魏终至分裂。"
+    },
+    "lat": 40.95,
+    "lon": 109.5,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-northern-wei"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "魏收《魏书》卷9 肃宗纪 正光五年",
+        "url": "https://zh.wikisource.org/wiki/魏書/卷9"
+      },
+      {
+        "title": "资治通鉴 卷149 梁纪五 普通五年"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Jiangshan-map dates the outbreak to 523 (Huaihuang mutiny); Poliuhan Baling's rising at Woye, Wikidata's start, is dated 524 in the Zizhi Tongjian."
+  },
+  {
+    "id": "ev-hou-jing-rebellion",
+    "qid": "Q890077",
+    "type": "war",
+    "year": 548,
+    "endYear": 552,
+    "name": {
+      "en": "Hou Jing Rebellion",
+      "zh": "侯景之乱"
+    },
+    "summary": {
+      "en": "The defector Hou Jing rebelled against Liang, besieged Jiankang's palace city and starved Emperor Wu to death. The war ruined the Yangtze delta until Wang Sengbian and Chen Baxian destroyed him.",
+      "zh": "东魏降将侯景叛梁，围攻建康台城，梁武帝饿死。江南残破，至552年王僧辩、陈霸先平之。"
+    },
+    "lat": 32.061,
+    "lon": 118.801,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-nanjing",
+    "polities": [
+      "polity-liang"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "姚思廉《梁书》卷56 侯景传",
+        "url": "https://zh.wikisource.org/wiki/梁書/卷56"
+      },
+      {
+        "title": "资治通鉴 卷161–164 梁纪"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-founding-of-sui",
+    "qid": "Q7405",
+    "type": "founding",
+    "year": 581,
+    "name": {
+      "en": "Founding of the Sui dynasty",
+      "zh": "杨坚建隋"
+    },
+    "summary": {
+      "en": "Yang Jian, regent for a child emperor of Northern Zhou, took the throne as Emperor Wen of Sui, built the new capital Daxing beside old Chang'an and issued the Kaihuang code; in 589 he conquered Chen.",
+      "zh": "北周外戚杨坚受禅称帝建隋，营建大兴城，颁《开皇律》，确立三省六部制，589年灭陈统一。"
+    },
+    "lat": 34.341,
+    "lon": 108.941,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-sui",
+      "polity-northern-zhou"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《资治通鉴》 卷175 陈纪九 太建十三年（开皇元年）二月、十月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷175"
+      },
+      {
+        "title": "《资治通鉴》 卷175 陈纪九 至德元年（开皇三年）",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷175"
+      },
+      {
+        "title": "《隋书》 卷25 志第二十 刑法",
+        "url": "https://zh.wikisource.org/wiki/隋書/卷25"
+      },
+      {
+        "title": "《隋书》 卷28 志第二十三 百官下 高祖官制",
+        "url": "https://zh.wikisource.org/wiki/隋書/卷28"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-sui-grand-canal",
+    "qid": "Q15909875",
+    "type": "founding",
+    "year": 605,
+    "endYear": 610,
+    "name": {
+      "en": "Construction of the Sui Grand Canal",
+      "zh": "隋开大运河"
+    },
+    "summary": {
+      "en": "Emperor Yang linked Luoyang to the Huai and Yangtze by the Tongji Canal (605), to Zhuojun near Beijing by the Yongji Canal (608), and to Hangzhou by the Jiangnan Canal (610), creating China's north-south artery.",
+      "zh": "隋炀帝相继开通济渠（605）、永济渠（608）、江南河（610），以洛阳为中心北抵涿郡、南达余杭，贯通南北水运。"
+    },
+    "lat": 34.621,
+    "lon": 112.451,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-emperor-yang-of-sui"
+    ],
+    "polities": [
+      "polity-sui"
+    ],
+    "route": [
+      {
+        "year": 608,
+        "lat": 39.9,
+        "lon": 116.65,
+        "label": {
+          "en": "Zhuojun (Beijing), Yongji Canal",
+          "zh": "涿郡（永济渠北端）"
+        }
+      },
+      {
+        "year": 608,
+        "lat": 36.1,
+        "lon": 114.4,
+        "label": {
+          "en": "Weizhou section",
+          "zh": "卫州、魏州段"
+        }
+      },
+      {
+        "year": 608,
+        "lat": 34.9,
+        "lon": 113.4,
+        "label": {
+          "en": "Qin River mouth",
+          "zh": "沁口"
+        }
+      },
+      {
+        "year": 605,
+        "lat": 34.62,
+        "lon": 112.45,
+        "label": {
+          "en": "Luoyang",
+          "zh": "东都洛阳"
+        }
+      },
+      {
+        "year": 605,
+        "lat": 34.8,
+        "lon": 114.31,
+        "label": {
+          "en": "Bianzhou (Kaifeng)",
+          "zh": "汴州"
+        }
+      },
+      {
+        "year": 605,
+        "lat": 34.42,
+        "lon": 115.65,
+        "label": {
+          "en": "Songzhou (Shangqiu)",
+          "zh": "宋州"
+        }
+      },
+      {
+        "year": 605,
+        "lat": 33.6,
+        "lon": 119.02,
+        "label": {
+          "en": "Shanyang on the Huai",
+          "zh": "山阳（淮安）"
+        }
+      },
+      {
+        "year": 605,
+        "lat": 32.39,
+        "lon": 119.41,
+        "label": {
+          "en": "Jiangdu (Yangzhou)",
+          "zh": "江都"
+        }
+      },
+      {
+        "year": 610,
+        "lat": 32.2,
+        "lon": 119.45,
+        "label": {
+          "en": "Jingkou",
+          "zh": "京口"
+        }
+      },
+      {
+        "year": 610,
+        "lat": 30.27,
+        "lon": 120.15,
+        "label": {
+          "en": "Yuhang (Hangzhou)",
+          "zh": "余杭"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《资治通鉴》 卷180 隋纪四 大业元年三月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷180"
+      },
+      {
+        "title": "《通典》 卷14 选举二 历代制中 隋",
+        "url": "https://zh.wikisource.org/wiki/通典/卷014"
+      },
+      {
+        "title": "《唐摭言》 卷一 散序进士",
+        "url": "https://zh.wikisource.org/wiki/唐摭言/卷一"
+      },
+      {
+        "title": "《旧唐书》 卷119 列传第六十九 杨绾传",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷119"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-founding-of-tang",
+    "qid": "Q9683",
+    "type": "founding",
+    "year": 618,
+    "name": {
+      "en": "Founding of the Tang dynasty",
+      "zh": "李渊建唐"
+    },
+    "summary": {
+      "en": "After Emperor Yang was killed at Jiangdu, Li Yuan, who had risen at Taiyuan and taken the capital, accepted the abdication of the puppet Emperor Gong and proclaimed the Tang dynasty at Chang'an.",
+      "zh": "隋炀帝江都遇弑后，太原起兵入据长安的李渊迫隋恭帝禅位，于长安称帝建唐。"
+    },
+    "lat": 34.341,
+    "lon": 108.941,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-emperor-taizong-of-tang"
+    ],
+    "place": "place-xian",
+    "polities": [
+      "polity-tang",
+      "polity-sui"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《资治通鉴》 卷185 唐纪一 武德元年三月；五月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷185"
+      },
+      {
+        "title": "《旧唐书》 卷1 本纪第一 高祖 武德元年五月",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷1"
+      },
+      {
+        "title": "《资治通鉴》 卷185 唐纪一 武德元年五月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷185"
+      },
+      {
+        "title": "《大唐创业起居注》 卷三 武德元年五月",
+        "url": "https://zh.wikisource.org/wiki/大唐創業起居注/卷三"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-xuanwu-gate-incident",
+    "qid": "Q1192865",
+    "type": "political",
+    "year": 626,
+    "date": "0626-07-02",
+    "name": {
+      "en": "Xuanwu Gate Incident",
+      "zh": "玄武门之变"
+    },
+    "summary": {
+      "en": "Li Shimin ambushed and killed his brothers, Crown Prince Li Jiancheng and Li Yuanji, at the Xuanwu Gate of the palace in Chang'an; within two months his father abdicated in his favour.",
+      "zh": "秦王李世民在长安宫城玄武门伏兵杀太子建成、齐王元吉，两月后唐高祖传位，李世民即位为唐太宗。"
+    },
+    "lat": 34.2778,
+    "lon": 108.9431,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-emperor-taizong-of-tang"
+    ],
+    "place": "place-xian",
+    "polities": [
+      "polity-tang"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《资治通鉴》 卷191 唐纪七 武德九年六月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷2 太宗本纪上 武德九年",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷2"
+      },
+      {
+        "title": "资治通鉴 卷191 唐纪七 武德九年",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷191"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-tang-conquest-of-eastern-turks",
+    "qid": "Q15911628",
+    "type": "battle",
+    "year": 630,
+    "name": {
+      "en": "Tang defeat of the Eastern Turks at Yinshan",
+      "zh": "李靖阴山破东突厥"
+    },
+    "summary": {
+      "en": "Li Jing's surprise attack in the Yin Mountains destroyed the Eastern Turkic Khaganate and captured Illig Qaghan. The steppe chiefs then hailed Taizong as \"Heavenly Khagan\".",
+      "zh": "李靖率军夜袭阴山，大破东突厥，擒颉利可汗。西北诸部尊唐太宗为“天可汗”。"
+    },
+    "lat": 41.201,
+    "lon": 110.501,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-emperor-taizong-of-tang"
+    ],
+    "polities": [
+      "polity-tang"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《资治通鉴》 卷193 唐纪九 贞观四年",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷67 李靖传",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷67"
+      },
+      {
+        "title": "资治通鉴 卷193 唐纪九 贞观四年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-princess-wencheng-to-tibet",
+    "qid": "Q256555",
+    "type": "political",
+    "year": 641,
+    "name": {
+      "en": "Princess Wencheng marries Songtsen Gampo",
+      "zh": "文成公主入藏"
+    },
+    "summary": {
+      "en": "Emperor Taizong sent Princess Wencheng to Rasa (Lhasa) as consort of the Tibetan emperor Songtsen Gampo, sealing an alliance; tradition credits her with bringing Buddhist images and Chinese crafts to Tibet.",
+      "zh": "唐太宗以宗室女文成公主嫁吐蕃赞普松赞干布，唐蕃和亲；相传公主携佛像与工艺入藏。"
+    },
+    "lat": 29.651,
+    "lon": 91.111,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-lhasa",
+    "polities": [
+      "polity-tang",
+      "polity-tibetan-empire"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《资治通鉴》 卷196 唐纪十二 贞观十五年正月",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷196"
+      },
+      {
+        "title": "《旧唐书》 卷196上 列传第一百四十六上 吐蕃上",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷196上"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷196上 吐蕃传上 贞观十五年",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷196上"
+      }
+    ],
+    "confidence": "high",
+    "note": "The Wikidata item is the princess herself; no separate item exists for the marriage."
+  },
+  {
+    "id": "ev-wu-zetian-proclaims-zhou",
+    "qid": "Q835435",
+    "type": "political",
+    "year": 690,
+    "name": {
+      "en": "Wu Zetian proclaims the Zhou dynasty",
+      "zh": "武则天改唐为周"
+    },
+    "summary": {
+      "en": "Having ruled through her sons for years, Empress Wu took the throne herself as emperor of a new Zhou dynasty, with Luoyang as the \"Divine Capital\" – the only woman to reign as emperor in Chinese history.",
+      "zh": "武则天在临朝称制多年后自立为帝，改国号为周，以洛阳为神都，成为中国历史上唯一的女皇帝。"
+    },
+    "lat": 34.621,
+    "lon": 112.451,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-wu-zetian"
+    ],
+    "place": "place-luoyang",
+    "polities": [
+      "polity-wu-zhou",
+      "polity-tang"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷6 则天皇后本纪 天授元年",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷6"
+      },
+      {
+        "title": "资治通鉴 卷204 唐纪二十 天授元年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-an-lushan-rebellion",
+    "qid": "Q253774",
+    "type": "war",
+    "year": 755,
+    "endYear": 763,
+    "date": "0755-12-16",
+    "name": {
+      "en": "An Lushan Rebellion",
+      "zh": "安史之乱"
+    },
+    "summary": {
+      "en": "Frontier general An Lushan rose at Fanyang, took both Tang capitals and proclaimed a Yan dynasty. Emperor Xuanzong fled to Sichuan; Tang, with Uyghur help, needed eight years to suppress the rebels, and never regained its former strength.",
+      "zh": "节度使安禄山、史思明自范阳起兵，攻陷两京，僭号大燕；玄宗奔蜀。唐借回纥兵历八年始平定，盛唐由此转衰。"
+    },
+    "lat": 39.88,
+    "lon": 116.35,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-li-bai",
+      "person-du-fu"
+    ],
+    "polities": [
+      "polity-tang"
+    ],
+    "route": [
+      {
+        "year": 755,
+        "lat": 39.88,
+        "lon": 116.35,
+        "label": {
+          "en": "Revolt at Fanyang",
+          "zh": "范阳起兵"
+        }
+      },
+      {
+        "year": 755,
+        "lat": 34.62,
+        "lon": 112.45,
+        "label": {
+          "en": "Fall of Luoyang",
+          "zh": "陷洛阳"
+        }
+      },
+      {
+        "year": 756,
+        "lat": 34.55,
+        "lon": 110.25,
+        "label": {
+          "en": "Fall of Tongguan",
+          "zh": "潼关失守"
+        }
+      },
+      {
+        "year": 756,
+        "lat": 34.3,
+        "lon": 108.35,
+        "label": {
+          "en": "Mutiny at Mawei",
+          "zh": "马嵬兵变"
+        }
+      },
+      {
+        "year": 756,
+        "lat": 38.14,
+        "lon": 114.57,
+        "label": {
+          "en": "Resistance at Changshan",
+          "zh": "常山死节"
+        }
+      },
+      {
+        "year": 756,
+        "lat": 38.1,
+        "lon": 106.34,
+        "label": {
+          "en": "Suzong enthroned at Lingwu",
+          "zh": "灵武即位"
+        }
+      },
+      {
+        "year": 757,
+        "lat": 34.44,
+        "lon": 115.65,
+        "label": {
+          "en": "Siege of Suiyang",
+          "zh": "睢阳死守"
+        }
+      },
+      {
+        "year": 757,
+        "lat": 34.27,
+        "lon": 108.94,
+        "label": {
+          "en": "Recovery of Chang'an",
+          "zh": "收复长安"
+        }
+      },
+      {
+        "year": 759,
+        "lat": 36.1,
+        "lon": 114.35,
+        "label": {
+          "en": "Rout at Ye",
+          "zh": "邺城之溃"
+        }
+      },
+      {
+        "year": 763,
+        "lat": 38.75,
+        "lon": 116.1,
+        "label": {
+          "en": "End of the rebellion at Mozhou",
+          "zh": "莫州乱平"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "资治通鉴 卷217 唐纪三十三 天宝十四载",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷217"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷200上 安禄山传",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷200上"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-two-tax-law",
+    "qid": "Q10891841",
+    "type": "political",
+    "year": 780,
+    "name": {
+      "en": "Two-Tax Law of Yang Yan",
+      "zh": "杨炎两税法"
+    },
+    "summary": {
+      "en": "Chancellor Yang Yan replaced the per-capita grain, labour and cloth levies with taxes on land and property collected in summer and autumn, a basic shift in Chinese fiscal practice.",
+      "zh": "宰相杨炎废租庸调，改按户等资产与田亩于夏秋两季征税，是中国赋税制度的重大转变。"
+    },
+    "lat": 34.341,
+    "lon": 108.941,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-tang"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷118 杨炎传",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷118"
+      },
+      {
+        "title": "资治通鉴 卷226 唐纪四十二 建中元年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-tang-tibet-treaty-821",
+    "qid": "Q2398530",
+    "type": "treaty",
+    "year": 821,
+    "endYear": 823,
+    "name": {
+      "en": "Tang–Tibet Changqing Treaty",
+      "zh": "唐蕃长庆会盟"
+    },
+    "summary": {
+      "en": "Tang and Tibet swore a peace treaty at Chang'an (821) and again at Rasa (822); the bilingual text was carved on a pillar erected before the Jokhang in 823, where it still stands.",
+      "zh": "唐蕃先盟于长安（821），再盟于逻些（822），823年将汉藏双语盟文刻碑立于大昭寺前，至今尚存。"
+    },
+    "lat": 29.653,
+    "lon": 91.131,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-lhasa",
+    "polities": [
+      "polity-tang",
+      "polity-tibetan-empire"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷196下 吐蕃传下 长庆元年",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷196下"
+      },
+      {
+        "title": "唐蕃会盟碑（拉萨大昭寺）"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Jiangshan-map dates the Lhasa oath to 822, Wikidata's point in time; the Chang'an oath was in 821 and the pillar dates from 823."
+  },
+  {
+    "id": "ev-huichang-persecution",
+    "qid": "Q5598658",
+    "type": "religious",
+    "year": 845,
+    "name": {
+      "en": "Huichang persecution of Buddhism",
+      "zh": "会昌毁佛"
+    },
+    "summary": {
+      "en": "Emperor Wuzong ordered the closure of more than 4,600 Buddhist monasteries and the return of over 260,000 monks and nuns to lay life, seizing temple lands and bronze; Manichaeism and Nestorian Christianity were also suppressed.",
+      "zh": "唐武宗下诏拆毁佛寺四千六百余所，勒令僧尼二十六万余人还俗，没收寺田铜像；摩尼教、景教亦遭禁。"
+    },
+    "lat": 34.261,
+    "lon": 108.941,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-tang"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "刘昫等《旧唐书》卷18上 武宗本纪 会昌五年",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷18上"
+      },
+      {
+        "title": "资治通鉴 卷248 唐纪六十四 会昌五年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-zhang-yichao-guiyi-army",
+    "qid": "Q3916378",
+    "type": "political",
+    "year": 848,
+    "name": {
+      "en": "Zhang Yichao founds the Guiyi Army",
+      "zh": "张议潮起义建归义军"
+    },
+    "summary": {
+      "en": "Zhang Yichao led the people of Shazhou (Dunhuang) in expelling the Tibetan garrison and restored Gua, Sha and other Hexi prefectures to Tang allegiance; the court named his regime the Guiyi (\"Return to Allegiance\") Army.",
+      "zh": "张议潮率沙州军民驱逐吐蕃守将，收复瓜、沙等河西诸州归唐，唐廷置归义军，以其为节度使。"
+    },
+    "lat": 40.141,
+    "lon": 94.661,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-dunhuang",
+    "polities": [
+      "polity-tang",
+      "polity-tibetan-empire"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "欧阳修等《新唐书》卷216下 吐蕃传下",
+        "url": "https://zh.wikisource.org/wiki/新唐書/卷216下"
+      },
+      {
+        "title": "资治通鉴 卷249 唐纪六十五 大中五年"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The rising was in 848; the Guiyi Army title was granted in 851."
+  },
+  {
+    "id": "ev-huang-chao-rebellion",
+    "qid": "Q620621",
+    "type": "war",
+    "year": 875,
+    "endYear": 884,
+    "name": {
+      "en": "Huang Chao Rebellion",
+      "zh": "黄巢起义"
+    },
+    "summary": {
+      "en": "Salt smugglers Wang Xianzhi and Huang Chao led a peasant war that swept from Shandong to Guangzhou and back; Huang Chao captured Chang'an in 881 and proclaimed Qi. The rebellion left Tang power in the hands of regional warlords.",
+      "zh": "王仙芝、黄巢以私盐贩起事，转战南北远至广州；881年黄巢入长安称帝建齐。唐室自此名存实亡，藩镇坐大。"
+    },
+    "lat": 35.201,
+    "lon": 115.501,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-tang"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "欧阳修等《新唐书》卷225下 黄巢传",
+        "url": "https://zh.wikisource.org/wiki/新唐書/卷225下"
+      },
+      {
+        "title": "资治通鉴 卷252–256 唐纪"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-cession-of-sixteen-prefectures",
+    "qid": "Q1151682",
+    "type": "treaty",
+    "year": 936,
+    "name": {
+      "en": "Cession of the Sixteen Prefectures",
+      "zh": "石敬瑭割燕云十六州"
+    },
+    "summary": {
+      "en": "To win Khitan support against Later Tang, Shi Jingtang ceded sixteen prefectures around Youzhou (Beijing) and Yunzhou (Datong) to the Liao, giving the steppe empire a foothold south of the Great Wall for four centuries.",
+      "zh": "石敬瑭为借契丹兵灭后唐，割幽、云等十六州予辽，自此中原失去长城屏障达四百余年。"
+    },
+    "lat": 39.901,
+    "lon": 116.401,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-beijing",
+    "polities": [
+      "polity-later-jin",
+      "polity-liao",
+      "polity-later-tang"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "薛居正等《旧五代史》卷75 晋书一 高祖纪一",
+        "url": "https://zh.wikisource.org/wiki/舊五代史/卷75"
+      },
+      {
+        "title": "资治通鉴 卷280 后晋纪一 天福元年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-chenqiao-mutiny",
+    "qid": "Q8012976",
+    "type": "founding",
+    "year": 960,
+    "date": "0960-02-08",
+    "name": {
+      "en": "Chenqiao Mutiny and founding of Song",
+      "zh": "陈桥兵变"
+    },
+    "summary": {
+      "en": "At Chenqiao post station north of Kaifeng, troops of the Later Zhou palace army draped a yellow robe on their commander Zhao Kuangyin; he returned to the capital, accepted the child emperor's abdication and founded the Song.",
+      "zh": "后周殿前都点检赵匡胤于陈桥驿被部下黄袍加身，回师开封受禅，建立宋朝。"
+    },
+    "lat": 34.951,
+    "lon": 114.501,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-emperor-taizu-of-song"
+    ],
+    "polities": [
+      "polity-northern-song",
+      "polity-later-zhou"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷1 太祖本纪一 建隆元年",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷1"
+      },
+      {
+        "title": "李焘《续资治通鉴长编》卷1"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-treaty-of-chanyuan",
+    "qid": "Q1151686",
+    "type": "treaty",
+    "year": 1005,
+    "name": {
+      "en": "Treaty of Chanyuan",
+      "zh": "澶渊之盟"
+    },
+    "summary": {
+      "en": "After a Liao invasion reached Chanzhou on the Yellow River, Emperor Zhenzong, urged on by Kou Zhun, agreed peace: Song paid annual silk and silver, and the two empires kept the peace for over a century.",
+      "zh": "辽萧太后与圣宗南下至澶州，寇准力劝宋真宗亲征，双方议和：宋岁输辽银绢，宋辽此后百余年无大战。"
+    },
+    "lat": 35.751,
+    "lon": 115.001,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-northern-song",
+      "polity-liao"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷7 真宗本纪二 景德元年",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷7"
+      },
+      {
+        "title": "李焘《续资治通鉴长编》卷58"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Jiangshan-map uses 1004 (Jingde 1, 12th month); the oath was exchanged in January 1005 (Julian), the year Wikidata gives."
+  },
+  {
+    "id": "ev-jiaozi-paper-money",
+    "qid": "Q953729",
+    "type": "science",
+    "year": 1023,
+    "name": {
+      "en": "First government-issued paper money (jiaozi)",
+      "zh": "官交子发行"
+    },
+    "summary": {
+      "en": "The Song state took over the privately issued jiaozi notes of Sichuan merchants and set up an official Jiaozi bureau at Yizhou (Chengdu), creating the world's first government paper currency.",
+      "zh": "北宋于益州（成都）设交子务，将四川商人私发的交子收归官办，成为世界上最早的官方纸币。"
+    },
+    "lat": 30.571,
+    "lon": 104.071,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-chengdu",
+    "polities": [
+      "polity-northern-song"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷181 食货志下三 会子",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷181"
+      },
+      {
+        "title": "Britannica: Jiaozi / paper money in China"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The bureau was decreed in 1023 and the first official notes issued in 1024."
+  },
+  {
+    "id": "ev-founding-of-western-xia",
+    "qid": "Q7427",
+    "type": "founding",
+    "year": 1038,
+    "name": {
+      "en": "Li Yuanhao proclaims Western Xia",
+      "zh": "李元昊称帝建西夏"
+    },
+    "summary": {
+      "en": "The Tangut leader Li Yuanhao declared himself emperor of Great Xia at Xingqing (Yinchuan), introduced a Tangut script, and fought Song to a standstill before the Qingli peace of 1044.",
+      "zh": "党项首领李元昊于兴庆府称帝，国号大夏，创制西夏文；与宋连年交战，1044年订庆历和议。"
+    },
+    "lat": 38.471,
+    "lon": 106.271,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-western-xia",
+      "polity-northern-song"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷485 夏国传上",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷485"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-wang-anshi-new-policies",
+    "qid": "Q17035931",
+    "type": "political",
+    "year": 1069,
+    "endYear": 1086,
+    "name": {
+      "en": "Wang Anshi's New Policies",
+      "zh": "王安石变法"
+    },
+    "summary": {
+      "en": "Emperor Shenzong backed Wang Anshi's reforms – state loans to farmers, hired labour service, militia and trade measures – to enrich the state. Opponents led by Sima Guang reversed them in 1085–86, opening decades of factional strife.",
+      "zh": "宋神宗任用王安石推行青苗、免役、保甲、市易等新法以富国强兵；1085年后司马光等尽废新法，新旧党争延续数十年。"
+    },
+    "lat": 34.801,
+    "lon": 114.311,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-wang-anshi"
+    ],
+    "place": "place-kaifeng",
+    "polities": [
+      "polity-northern-song"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷327 王安石传",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷327"
+      },
+      {
+        "title": "Britannica: Wang Anshi",
+        "url": "https://www.britannica.com/biography/Wang-Anshi"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-zizhi-tongjian-completed",
+    "qid": "Q207062",
+    "type": "cultural",
+    "year": 1084,
+    "name": {
+      "en": "Completion of the Zizhi Tongjian",
+      "zh": "《资治通鉴》成书"
+    },
+    "summary": {
+      "en": "After nineteen years of work, Sima Guang presented the 294-chapter Comprehensive Mirror in Aid of Governance, a chronicle from 403 BCE to 959 CE, to Emperor Shenzong.",
+      "zh": "司马光历时十九年编成294卷编年体通史《资治通鉴》，起战国三家分晋（前403）迄五代（959），进呈宋神宗。"
+    },
+    "lat": 34.791,
+    "lon": 114.351,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-kaifeng",
+    "polities": [
+      "polity-northern-song"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "司马光《进资治通鉴表》",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑"
+      },
+      {
+        "title": "脱脱等《宋史》卷336 司马光传",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷336"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-jingkang-incident",
+    "qid": "Q1326831",
+    "type": "fall",
+    "year": 1125,
+    "endYear": 1127,
+    "name": {
+      "en": "Jingkang Incident",
+      "zh": "靖康之变"
+    },
+    "summary": {
+      "en": "Jin armies invaded Song in 1125, besieged Kaifeng twice and took it in early 1127, carrying off the emperors Huizong and Qinzong and thousands of courtiers. Prince Zhao Gou re-established the dynasty at Yingtian as the Southern Song.",
+      "zh": "金军1125年分两路南下，两围东京，1127年初攻破开封，掳徽、钦二帝及宗室北去，北宋亡；康王赵构于应天府即位，建立南宋。"
+    },
+    "lat": 34.801,
+    "lon": 114.311,
+    "region": "east-asia",
+    "importance": 5,
+    "place": "place-kaifeng",
+    "polities": [
+      "polity-northern-song",
+      "polity-jin-jurchen",
+      "polity-southern-song"
+    ],
+    "route": [
+      {
+        "year": 1125,
+        "lat": 39.9,
+        "lon": 116.39,
+        "label": {
+          "en": "Fall of Yanshan",
+          "zh": "燕山府失守"
+        }
+      },
+      {
+        "year": 1126,
+        "lat": 37.87,
+        "lon": 112.55,
+        "label": {
+          "en": "Siege of Taiyuan",
+          "zh": "太原死守"
+        }
+      },
+      {
+        "year": 1126,
+        "lat": 34.79,
+        "lon": 114.35,
+        "label": {
+          "en": "Siege and fall of Kaifeng",
+          "zh": "两围东京"
+        }
+      },
+      {
+        "year": 1127,
+        "lat": 34.42,
+        "lon": 115.65,
+        "label": {
+          "en": "Gaozong enthroned at Yingtian",
+          "zh": "应天即位"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷23 钦宗本纪 靖康二年",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷023"
+      },
+      {
+        "title": "徐梦莘《三朝北盟会编》"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-treaty-of-shaoxing",
+    "qid": "Q842316",
+    "type": "treaty",
+    "year": 1141,
+    "name": {
+      "en": "Treaty of Shaoxing",
+      "zh": "绍兴和议"
+    },
+    "summary": {
+      "en": "Chancellor Qin Hui recalled Yue Fei from his northern offensive, had him imprisoned and killed, and concluded peace with Jin: Song became a vassal paying tribute, with the border fixed along the Huai River and Dasan Pass.",
+      "zh": "秦桧召回北伐的岳飞并构陷致死，与金订立和约：宋向金称臣纳贡，以淮河至大散关为界。"
+    },
+    "lat": 33.201,
+    "lon": 116.501,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-yue-fei"
+    ],
+    "polities": [
+      "polity-southern-song",
+      "polity-jin-jurchen"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷29 高宗本纪六 绍兴十一年",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷029"
+      },
+      {
+        "title": "李心传《建炎以来系年要录》卷142"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-caishi",
+    "qid": "Q2397117",
+    "type": "battle",
+    "year": 1161,
+    "name": {
+      "en": "Battle of Caishi",
+      "zh": "采石之战"
+    },
+    "summary": {
+      "en": "When Jin emperor Hailing tried to cross the Yangtze, the official Yu Yunwen rallied leaderless Song troops at Caishi; paddle-wheel warships and incendiary weapons defeated the crossing, and Hailing was soon murdered by his officers.",
+      "zh": "金海陵王完颜亮南侵欲渡长江，文臣虞允文于采石收拾散兵，以车船与霹雳炮击败金军渡江；不久海陵王为部下所杀。"
+    },
+    "lat": 31.661,
+    "lon": 118.461,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-southern-song",
+      "polity-jin-jurchen"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷383 虞允文传",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷383"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-fall-of-jin-at-caizhou",
+    "qid": "Q15692881",
+    "type": "fall",
+    "year": 1233,
+    "endYear": 1234,
+    "name": {
+      "en": "Siege of Caizhou and fall of Jin",
+      "zh": "蔡州之战与金亡"
+    },
+    "summary": {
+      "en": "Mongol and Southern Song armies besieged the last Jin emperor Aizong at Caizhou. He abdicated and killed himself as the city fell in February 1234, ending the Jin dynasty and bringing Song and the Mongols into direct conflict.",
+      "zh": "蒙宋联军围攻蔡州，金哀宗传位后自缢，1234年城破金亡；宋蒙随即接壤开战。"
+    },
+    "lat": 33.001,
+    "lon": 114.361,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-jin-jurchen",
+      "polity-southern-song"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《金史》卷18 哀宗本纪下",
+        "url": "https://zh.wikisource.org/wiki/金史/卷18"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-siege-of-diaoyucheng",
+    "qid": "Q48880934",
+    "type": "battle",
+    "year": 1259,
+    "name": {
+      "en": "Siege of Diaoyucheng",
+      "zh": "钓鱼城之战"
+    },
+    "summary": {
+      "en": "The mountain fortress of Diaoyucheng near Hechuan held out against the army of the Great Khan Möngke, who died during the siege; his death halted the Mongol offensive on Song and set off a succession struggle.",
+      "zh": "合州钓鱼城据险坚守，蒙哥汗亲征死于城下，蒙古攻宋暂停，并引发汗位之争。"
+    },
+    "lat": 30.031,
+    "lon": 106.281,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-southern-song"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "宋濂等《元史》卷3 宪宗本纪 九年",
+        "url": "https://zh.wikisource.org/wiki/元史/卷003"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-xiangyang",
+    "qid": "Q1205096",
+    "type": "battle",
+    "year": 1267,
+    "endYear": 1273,
+    "name": {
+      "en": "Siege of Xiangyang",
+      "zh": "襄樊之战"
+    },
+    "summary": {
+      "en": "For six years Mongol-Yuan forces blockaded the twin Han River fortresses of Xiangyang and Fancheng; counterweight trebuchets built by Muslim engineers finally forced Lü Wenhuan to surrender in 1273, opening the Yangtze to the Yuan.",
+      "zh": "元军围困汉水两岸的襄阳、樊城六年，借回回炮破樊城，1273年吕文焕以襄阳降，长江门户洞开。"
+    },
+    "lat": 32.001,
+    "lon": 112.151,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-xiangyang",
+    "polities": [
+      "polity-yuan",
+      "polity-southern-song"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "宋濂等《元史》卷128 阿术传",
+        "url": "https://zh.wikisource.org/wiki/元史/卷128"
+      },
+      {
+        "title": "脱脱等《宋史》卷46 度宗本纪"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-yuan-dynasty-proclaimed",
+    "qid": "Q7313",
+    "type": "founding",
+    "year": 1271,
+    "name": {
+      "en": "Kublai Khan proclaims the Yuan dynasty",
+      "zh": "忽必烈建国号大元"
+    },
+    "summary": {
+      "en": "Having won the succession war against his brother Ariq Böke, Kublai Khan adopted the Chinese dynastic name Da Yuan, taken from the Book of Changes, and made Dadu (Beijing) his capital.",
+      "zh": "忽必烈战胜阿里不哥后，取《易经》“大哉乾元”之义建国号大元，定都大都。"
+    },
+    "lat": 39.901,
+    "lon": 116.401,
+    "region": "east-asia",
+    "importance": 5,
+    "place": "place-beijing",
+    "polities": [
+      "polity-yuan"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "宋濂等《元史》卷7 世祖本纪四 至元八年",
+        "url": "https://zh.wikisource.org/wiki/元史/卷007"
+      },
+      {
+        "title": "Britannica: Yuan dynasty",
+        "url": "https://www.britannica.com/topic/Yuan-dynasty"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-yamen",
+    "qid": "Q1078359",
+    "type": "battle",
+    "year": 1279,
+    "date": "1279-03-19",
+    "name": {
+      "en": "Battle of Yamen",
+      "zh": "崖山海战"
+    },
+    "summary": {
+      "en": "The last Song fleet, chained together in the Yamen estuary west of Macau, was destroyed by the Yuan admiral Zhang Hongfan; Lu Xiufu leapt into the sea with the child emperor Zhao Bing, ending the Song dynasty.",
+      "zh": "南宋残余船队于崖山海口连舟结阵，被元将张弘范击破，陆秀夫负幼帝赵昺投海，宋亡。"
+    },
+    "lat": 22.301,
+    "lon": 113.101,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-yuan",
+      "polity-southern-song"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "脱脱等《宋史》卷47 瀛国公纪附二王",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷047"
+      },
+      {
+        "title": "宋濂等《元史》卷156 张弘范传"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-red-turban-rebellion",
+    "qid": "Q112524",
+    "type": "war",
+    "year": 1351,
+    "endYear": 1368,
+    "name": {
+      "en": "Red Turban Rebellion",
+      "zh": "红巾军起义"
+    },
+    "summary": {
+      "en": "Conscripted labourers repairing the Yellow River rose under the White Lotus leaders Han Shantong and Liu Futong at Yingzhou. The red-turbaned armies spread across the Yuan realm; one of their commanders, Zhu Yuanzhang, founded the Ming.",
+      "zh": "元末征发民夫治黄河，韩山童、刘福通以白莲教在颍州起事，红巾军遍及各地，其部将朱元璋终建明朝。"
+    },
+    "lat": 32.901,
+    "lon": 115.801,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-hongwu-emperor"
+    ],
+    "polities": [
+      "polity-yuan"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "宋濂等《元史》卷42 顺帝本纪五 至正十一年",
+        "url": "https://zh.wikisource.org/wiki/元史/卷042"
+      },
+      {
+        "title": "张廷玉等《明史》卷122 韩林儿传"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-lake-poyang",
+    "qid": "Q1291963",
+    "type": "battle",
+    "year": 1363,
+    "name": {
+      "en": "Battle of Lake Poyang",
+      "zh": "鄱阳湖之战"
+    },
+    "summary": {
+      "en": "In one of history's largest naval battles, Zhu Yuanzhang's smaller fleet used fire ships to defeat the giant tower ships of his rival Chen Youliang, who was killed; the victory made Zhu master of the Yangtze.",
+      "zh": "朱元璋以较小船队用火攻大破陈友谅巨舰于鄱阳湖，陈友谅中箭身亡，朱元璋自此称雄长江中下游。"
+    },
+    "lat": 29.181,
+    "lon": 116.151,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-hongwu-emperor"
+    ],
+    "polities": [
+      "polity-ming"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷1 太祖本纪一",
+        "url": "https://zh.wikisource.org/wiki/明史/卷1"
+      }
+    ],
+    "confidence": "high",
+    "note": "The Wikidata item dates it 30 Aug–4 Oct 1363."
+  },
+  {
+    "id": "ev-founding-of-ming",
+    "qid": "Q9903",
+    "type": "founding",
+    "year": 1368,
+    "name": {
+      "en": "Founding of the Ming dynasty",
+      "zh": "朱元璋建明"
+    },
+    "summary": {
+      "en": "Zhu Yuanzhang proclaimed the Ming dynasty at Yingtian (Nanjing); that summer his generals Xu Da and Chang Yuchun took Dadu, and the last Yuan emperor fled to the steppe.",
+      "zh": "朱元璋于应天府称帝建明，同年徐达、常遇春北伐攻克大都，元顺帝北走。"
+    },
+    "lat": 32.061,
+    "lon": 118.801,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-hongwu-emperor"
+    ],
+    "place": "place-nanjing",
+    "polities": [
+      "polity-ming",
+      "polity-yuan"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷2 太祖本纪二 洪武元年",
+        "url": "https://zh.wikisource.org/wiki/明史/卷2"
+      },
+      {
+        "title": "Britannica: Ming dynasty",
+        "url": "https://www.britannica.com/topic/Ming-dynasty-Chinese-history"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-jingnan-campaign",
+    "qid": "Q1207697",
+    "type": "war",
+    "year": 1399,
+    "endYear": 1402,
+    "name": {
+      "en": "Jingnan Campaign",
+      "zh": "靖难之役"
+    },
+    "summary": {
+      "en": "Zhu Di, Prince of Yan, rebelled at Beiping against his nephew the Jianwen Emperor, who was stripping the princes of power. After three years of war he took Nanjing and enthroned himself as the Yongle Emperor.",
+      "zh": "燕王朱棣不满建文帝削藩，于北平起兵“靖难”，历时三年攻入南京，即位为明成祖。"
+    },
+    "lat": 39.901,
+    "lon": 116.401,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-yongle-emperor"
+    ],
+    "polities": [
+      "polity-ming"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷5 成祖本纪一",
+        "url": "https://zh.wikisource.org/wiki/明史/卷5"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-zheng-he-voyages",
+    "qid": "Q699127",
+    "type": "exploration",
+    "year": 1405,
+    "endYear": 1433,
+    "name": {
+      "en": "Zheng He's treasure voyages",
+      "zh": "郑和下西洋"
+    },
+    "summary": {
+      "en": "Between 1405 and 1433 the eunuch admiral Zheng He led seven fleets of large treasure ships from Liujiagang through Southeast Asia and the Indian Ocean to Hormuz, Arabia and the East African coast, enrolling dozens of states in the Ming tribute order.",
+      "zh": "1405至1433年，郑和七次率宝船队自刘家港出发，经东南亚、印度洋远达忽鲁谟斯、阿拉伯与东非，招徕数十国朝贡。"
+    },
+    "lat": 31.501,
+    "lon": 121.101,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-zheng-he",
+      "person-yongle-emperor"
+    ],
+    "polities": [
+      "polity-ming"
+    ],
+    "route": [
+      {
+        "year": 1405,
+        "lat": 32.06,
+        "lon": 118.8,
+        "label": {
+          "en": "Nanjing (Longjiang shipyard)",
+          "zh": "南京龙江关"
+        }
+      },
+      {
+        "year": 1405,
+        "lat": 31.5,
+        "lon": 121.1,
+        "label": {
+          "en": "Liujiagang (Taicang)",
+          "zh": "刘家港"
+        }
+      },
+      {
+        "year": 1405,
+        "lat": 25.95,
+        "lon": 119.5,
+        "label": {
+          "en": "Changle (Taiping harbour)",
+          "zh": "长乐太平港"
+        }
+      },
+      {
+        "year": 1406,
+        "lat": 13.8,
+        "lon": 109.3,
+        "label": {
+          "en": "Champa (Qui Nhon)",
+          "zh": "占城"
+        }
+      },
+      {
+        "year": 1407,
+        "lat": 2.99,
+        "lon": 104.75,
+        "label": {
+          "en": "Palembang",
+          "zh": "旧港"
+        }
+      },
+      {
+        "year": 1407,
+        "lat": 11.25,
+        "lon": 75.78,
+        "label": {
+          "en": "Calicut",
+          "zh": "古里"
+        }
+      },
+      {
+        "year": 1414,
+        "lat": 27.1,
+        "lon": 56.45,
+        "label": {
+          "en": "Hormuz (4th voyage)",
+          "zh": "忽鲁谟斯"
+        }
+      },
+      {
+        "year": 1418,
+        "lat": -3.22,
+        "lon": 40.12,
+        "label": {
+          "en": "Malindi (5th voyage)",
+          "zh": "麻林"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷304 宦官传一 郑和",
+        "url": "https://zh.wikisource.org/wiki/明史/卷304"
+      },
+      {
+        "title": "马欢《瀛涯胜览》"
+      },
+      {
+        "title": "《天妃灵应之记》碑（长乐，1431）"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-yongle-encyclopedia",
+    "qid": "Q696077",
+    "type": "cultural",
+    "year": 1408,
+    "name": {
+      "en": "Completion of the Yongle Encyclopedia",
+      "zh": "《永乐大典》成书"
+    },
+    "summary": {
+      "en": "More than two thousand scholars under Xie Jin and Yao Guangxiao compiled the Yongle Encyclopedia in Nanjing: 22,877 chapters copying some seven to eight thousand earlier works. Only about four percent survives.",
+      "zh": "解缙、姚广孝主持两千余人在南京编成《永乐大典》二万二千八百余卷，辑录古籍七八千种，今仅存约百分之四。"
+    },
+    "lat": 32.061,
+    "lon": 118.801,
+    "region": "east-asia",
+    "importance": 3,
+    "people": [
+      "person-yongle-emperor"
+    ],
+    "place": "place-nanjing",
+    "polities": [
+      "polity-ming"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷147 解缙传",
+        "url": "https://zh.wikisource.org/wiki/明史/卷147"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-ming-capital-moves-to-beijing",
+    "qid": "Q80290",
+    "type": "political",
+    "year": 1421,
+    "name": {
+      "en": "Ming capital moves to Beijing",
+      "zh": "明成祖迁都北京"
+    },
+    "summary": {
+      "en": "With the Forbidden City completed in 1420, the Yongle Emperor formally made Beijing the principal capital from New Year 1421, leaving Nanjing as the auxiliary capital; Beijing remained the capital until 1928.",
+      "zh": "紫禁城于1420年建成，永乐十九年正月明成祖正式迁都北京，以南京为留都；北京此后为都城至1928年。"
+    },
+    "lat": 39.9158,
+    "lon": 116.3908,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-yongle-emperor",
+      "person-zheng-he"
+    ],
+    "place": "place-beijing",
+    "polities": [
+      "polity-ming"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷7 成祖本纪三 永乐十八年、十九年",
+        "url": "https://zh.wikisource.org/wiki/明史/卷7"
+      }
+    ],
+    "confidence": "high",
+    "note": "The Wikidata item is the Forbidden City (completed 1420)."
+  },
+  {
+    "id": "ev-tumu-crisis",
+    "qid": "Q1196236",
+    "type": "battle",
+    "year": 1449,
+    "date": "1449-09-01",
+    "name": {
+      "en": "Tumu Crisis",
+      "zh": "土木堡之变"
+    },
+    "summary": {
+      "en": "Persuaded by the eunuch Wang Zhen to campaign in person, the Zhengtong Emperor was routed by the Oirat leader Esen at Tumu fortress and taken prisoner. Minister Yu Qian enthroned his brother and defended Beijing.",
+      "zh": "明英宗听信宦官王振亲征瓦剌，于土木堡被也先击溃俘虏；兵部尚书于谦拥立景泰帝，固守北京。"
+    },
+    "lat": 40.4,
+    "lon": 115.5,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-ming"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷10 英宗前纪 正统十四年",
+        "url": "https://zh.wikisource.org/wiki/明史/卷10"
+      },
+      {
+        "title": "张廷玉等《明史》卷170 于谦传"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-sarhu",
+    "qid": "Q488547",
+    "type": "battle",
+    "year": 1619,
+    "name": {
+      "en": "Battle of Sarhu",
+      "zh": "萨尔浒之战"
+    },
+    "summary": {
+      "en": "Nurhaci's Later Jin destroyed three of four converging Ming columns one after another in five days near Sarhu, shifting the balance of power in Liaodong to the Manchus.",
+      "zh": "努尔哈赤“凭尔几路来，我只一路去”，五日内于萨尔浒等地各个击破明军四路中的三路，辽东攻守之势自此逆转。"
+    },
+    "lat": 41.901,
+    "lon": 124.101,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-ming",
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷259 杨镐传",
+        "url": "https://zh.wikisource.org/wiki/明史/卷259"
+      },
+      {
+        "title": "《满洲实录》卷5"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-ningyuan",
+    "qid": "Q1047602",
+    "type": "battle",
+    "year": 1626,
+    "name": {
+      "en": "Battle of Ningyuan",
+      "zh": "宁远之战"
+    },
+    "summary": {
+      "en": "Ming commander Yuan Chonghuan, using Portuguese-style cannon on the walls of Ningyuan (Xingcheng), repulsed Nurhaci's assault – his first major defeat; Nurhaci died later that year.",
+      "zh": "袁崇焕凭宁远孤城与红夷大炮击退努尔哈赤，后金首遭大败，努尔哈赤同年病逝。"
+    },
+    "lat": 40.621,
+    "lon": 120.721,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-ming",
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "张廷玉等《明史》卷259 袁崇焕传",
+        "url": "https://zh.wikisource.org/wiki/明史/卷259"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-shanhai-pass",
+    "qid": "Q4520158",
+    "type": "battle",
+    "year": 1644,
+    "date": "1644-05-27",
+    "name": {
+      "en": "Battle of Shanhai Pass and fall of the Ming",
+      "zh": "山海关之战与明亡"
+    },
+    "summary": {
+      "en": "Weeks after Li Zicheng took Beijing and the Chongzhen Emperor hanged himself, the Ming general Wu Sangui opened Shanhai Pass to the Qing regent Dorgon; their combined forces routed Li, and the Qing moved its capital to Beijing.",
+      "zh": "李自成攻破北京、崇祯帝自缢后，吴三桂开山海关降清，与多尔衮合击大顺军，清军入关，定都北京。"
+    },
+    "lat": 40.001,
+    "lon": 119.751,
+    "region": "east-asia",
+    "importance": 5,
+    "polities": [
+      "polity-ming",
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷4 世祖本纪一 顺治元年",
+        "url": "https://zh.wikisource.org/wiki/清史稿/卷4"
+      },
+      {
+        "title": "张廷玉等《明史》卷24 庄烈帝纪二"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-siege-of-fort-zeelandia",
+    "qid": "Q697621",
+    "type": "battle",
+    "year": 1661,
+    "endYear": 1662,
+    "name": {
+      "en": "Koxinga takes Taiwan from the Dutch",
+      "zh": "郑成功收复台湾"
+    },
+    "summary": {
+      "en": "Ming loyalist Zheng Chenggong (Koxinga) landed at Luermen and besieged the Dutch East India Company's Fort Zeelandia for nine months, forcing its surrender in February 1662 and founding a Zheng regime on Taiwan.",
+      "zh": "明郑延平王郑成功自鹿耳门登陆，围攻荷兰东印度公司热兰遮城九个月，1662年2月荷军投降，郑氏据台。"
+    },
+    "lat": 23.001,
+    "lon": 120.211,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "江日昇《台湾外记》"
+      },
+      {
+        "title": "Britannica: Zheng Chenggong",
+        "url": "https://www.britannica.com/biography/Zheng-Chenggong"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-revolt-of-three-feudatories",
+    "qid": "Q112501",
+    "type": "war",
+    "year": 1673,
+    "endYear": 1681,
+    "name": {
+      "en": "Revolt of the Three Feudatories",
+      "zh": "三藩之乱"
+    },
+    "summary": {
+      "en": "When the Kangxi Emperor moved to abolish their fiefs, Wu Sangui in Yunnan and the princes in Guangdong and Fujian rebelled. After eight years of war Qing forces took Kunming in 1681.",
+      "zh": "康熙帝下令撤藩，吴三桂于云南起兵，广东尚氏、福建耿氏响应；历时八年，1681年清军攻克昆明平定。"
+    },
+    "lat": 25.051,
+    "lon": 102.701,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-kangxi-emperor"
+    ],
+    "place": "place-kunming",
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷474 吴三桂传",
+        "url": "https://zh.wikisource.org/wiki/清史稿/卷474"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-treaty-of-nerchinsk",
+    "qid": "Q696094",
+    "type": "treaty",
+    "year": 1689,
+    "date": "1689-09-07",
+    "name": {
+      "en": "Treaty of Nerchinsk",
+      "zh": "中俄尼布楚条约"
+    },
+    "summary": {
+      "en": "After Qing forces besieged the Russian fort of Albazin, envoys led by Songgotu signed China's first treaty with a European state at Nerchinsk, fixing the border along the Argun river and the Stanovoy range.",
+      "zh": "清军两次围攻雅克萨后，索额图与俄使在尼布楚签订条约，以额尔古纳河与外兴安岭划定中俄东段边界，是中国与欧洲国家的首个条约。"
+    },
+    "lat": 51.951,
+    "lon": 116.501,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-kangxi-emperor"
+    ],
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷7 圣祖本纪二 康熙二十八年",
+        "url": "https://zh.wikisource.org/wiki/清史稿/卷7"
+      },
+      {
+        "title": "Britannica: Treaty of Nerchinsk",
+        "url": "https://www.britannica.com/event/Treaty-of-Nerchinsk"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-siku-quanshu",
+    "qid": "Q699477",
+    "type": "cultural",
+    "year": 1773,
+    "endYear": 1782,
+    "name": {
+      "en": "Compilation of the Siku Quanshu",
+      "zh": "编纂《四库全书》"
+    },
+    "summary": {
+      "en": "The Qianlong Emperor's Complete Library of the Four Treasuries copied some 3,500 works into about 36,000 volumes, while the same review suppressed and destroyed thousands of books judged seditious.",
+      "zh": "乾隆帝开四库全书馆，抄录典籍约三千五百种、三万六千余册；修书同时禁毁大量“违碍”书籍。"
+    },
+    "lat": 39.916,
+    "lon": 116.391,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-beijing",
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《四库全书总目》卷首 圣谕"
+      },
+      {
+        "title": "Britannica: Siku quanshu",
+        "url": "https://www.britannica.com/topic/Siku-quanshu"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The first set was completed in 1782; Wikidata gives 1773–1783."
+  },
+  {
+    "id": "ev-macartney-embassy",
+    "qid": "Q6722675",
+    "type": "political",
+    "year": 1793,
+    "name": {
+      "en": "Macartney Embassy",
+      "zh": "马戛尔尼使团访华"
+    },
+    "summary": {
+      "en": "Britain's first embassy to China, led by George Macartney, was received by the Qianlong Emperor at the Chengde summer palace, but its requests for trade concessions and a permanent embassy were refused.",
+      "zh": "英国首个访华使团由马戛尔尼率领，于承德避暑山庄觐见乾隆帝，其通商与驻使要求均遭拒绝。"
+    },
+    "lat": 40.991,
+    "lon": 117.941,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: George Macartney",
+        "url": "https://www.britannica.com/biography/George-Macartney-Earl-Macartney"
+      },
+      {
+        "title": "《清高宗实录》乾隆五十八年八月"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-destruction-of-opium-at-humen",
+    "qid": "Q1825430",
+    "type": "political",
+    "year": 1839,
+    "name": {
+      "en": "Destruction of opium at Humen",
+      "zh": "虎门销烟"
+    },
+    "summary": {
+      "en": "Imperial commissioner Lin Zexu confiscated over 20,000 chests of British opium in Canton and destroyed it on the beach at Humen over 23 days, a confrontation that led directly to the First Opium War.",
+      "zh": "钦差大臣林则徐收缴英商鸦片两万余箱，于虎门海滩历时二十三天当众销毁，直接引发第一次鸦片战争。"
+    },
+    "lat": 22.82,
+    "lon": 113.67,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-lin-zexu"
+    ],
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷369 林则徐传",
+        "url": "https://zh.wikisource.org/wiki/清史稿/卷369"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-first-opium-war",
+    "qid": "Q191282",
+    "type": "war",
+    "year": 1839,
+    "endYear": 1842,
+    "name": {
+      "en": "First Opium War",
+      "zh": "第一次鸦片战争"
+    },
+    "summary": {
+      "en": "Britain sent an expeditionary force after the opium seizures; steam warships blockaded the coast, took Zhoushan, Xiamen and Zhenjiang and threatened Nanjing, forcing the Qing to sue for peace.",
+      "zh": "英国以禁烟为由派远征军来华，封锁沿海，攻占定海、厦门、镇江，兵临南京，清廷被迫求和。"
+    },
+    "lat": 22.801,
+    "lon": 113.651,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-lin-zexu"
+    ],
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Opium Wars",
+        "url": "https://www.britannica.com/topic/Opium-Wars"
+      },
+      {
+        "title": "《筹办夷务始末》道光朝"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Jiangshan-map dates the war from the 1840 British expedition; Wikidata starts it in March 1839 with Lin Zexu's blockade."
+  },
+  {
+    "id": "ev-treaty-of-nanjing",
+    "qid": "Q238262",
+    "type": "treaty",
+    "year": 1842,
+    "date": "1842-08-29",
+    "name": {
+      "en": "Treaty of Nanjing",
+      "zh": "《南京条约》"
+    },
+    "summary": {
+      "en": "Signed aboard HMS Cornwallis off Nanjing, the treaty ceded Hong Kong Island to Britain, opened five treaty ports and imposed an indemnity – the first of the \"unequal treaties\".",
+      "zh": "在南京江面英舰“康华丽”号上签订，割让香港岛，开放广州、厦门、福州、宁波、上海五口通商并赔款，为第一个不平等条约。"
+    },
+    "lat": 32.06,
+    "lon": 118.78,
+    "region": "east-asia",
+    "importance": 5,
+    "place": "place-nanjing",
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Treaty of Nanjing",
+        "url": "https://www.britannica.com/event/Treaty-of-Nanjing"
+      },
+      {
+        "title": "《中外旧约章汇编》第一册"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-taiping-rebellion",
+    "qid": "Q192408",
+    "type": "war",
+    "year": 1851,
+    "endYear": 1864,
+    "date": "1851-01-11",
+    "name": {
+      "en": "Taiping Rebellion",
+      "zh": "太平天国运动"
+    },
+    "summary": {
+      "en": "Hong Xiuquan's God Worshippers rose at Jintian in Guangxi, marched north and made Nanjing their Heavenly Capital in 1853. Internal purges and the Xiang Army of Zeng Guofan ended the movement in 1864; perhaps 20 million died.",
+      "zh": "洪秀全领导拜上帝会于广西金田起义，1853年定都天京。天京事变后由盛转衰，1864年为曾国藩湘军所灭，死难者或达二千万。"
+    },
+    "lat": 23.53,
+    "lon": 110.08,
+    "region": "east-asia",
+    "importance": 5,
+    "place": "place-nanjing",
+    "polities": [
+      "polity-taiping",
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Taiping Rebellion",
+        "url": "https://www.britannica.com/event/Taiping-Rebellion"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷475 洪秀全传"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata's point in time is 1850 (mobilisation at Jintian); the formal uprising was proclaimed on 11 January 1851, as in Jiangshan-map."
+  },
+  {
+    "id": "ev-second-opium-war",
+    "qid": "Q418151",
+    "type": "war",
+    "year": 1856,
+    "endYear": 1860,
+    "name": {
+      "en": "Second Opium War and burning of the Old Summer Palace",
+      "zh": "第二次鸦片战争与火烧圆明园"
+    },
+    "summary": {
+      "en": "Britain and France fought the Qing over trade and diplomatic access; in 1860 their troops entered Beijing and burned the Yuanmingyuan. The Conventions of Peking opened more ports and ceded Kowloon, while Russia gained the lands east of the Ussuri.",
+      "zh": "英法以修约为由对清开战，1860年联军攻入北京，劫掠焚毁圆明园；《北京条约》增开口岸、割九龙司，沙俄趁机攫取乌苏里江以东地区。"
+    },
+    "lat": 40.008,
+    "lon": 116.301,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-beijing",
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Opium Wars",
+        "url": "https://www.britannica.com/topic/Opium-Wars"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷20 文宗本纪 咸丰十年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-jiangnan-arsenal",
+    "qid": "Q10377974",
+    "type": "science",
+    "year": 1865,
+    "name": {
+      "en": "Founding of the Jiangnan Arsenal",
+      "zh": "江南制造总局创办"
+    },
+    "summary": {
+      "en": "Zeng Guofan and Li Hongzhang founded the Jiangnan Arsenal in Shanghai, the largest enterprise of the Self-Strengthening Movement; it built steamships and guns and translated Western science texts.",
+      "zh": "曾国藩、李鸿章在上海创办江南机器制造总局，为洋务运动最大的军工企业，造船造炮并设翻译馆译介西学。"
+    },
+    "lat": 31.1975,
+    "lon": 121.4845,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Self-Strengthening Movement",
+        "url": "https://www.britannica.com/event/Self-Strengthening-Movement"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷411 李鸿章传"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-first-sino-japanese-war",
+    "qid": "Q178687",
+    "type": "war",
+    "year": 1894,
+    "endYear": 1895,
+    "name": {
+      "en": "First Sino-Japanese War",
+      "zh": "甲午战争"
+    },
+    "summary": {
+      "en": "Fought over Korea, the war saw Japan destroy the Beiyang Fleet at the Yalu and Weihaiwei. In the Treaty of Shimonoseki China recognised Korean independence and ceded Taiwan, Penghu and (briefly) Liaodong.",
+      "zh": "中日因朝鲜问题开战，北洋舰队在黄海、威海卫覆没。《马关条约》中国承认朝鲜“独立”，割让台湾、澎湖及辽东半岛（后赎回）。"
+    },
+    "lat": 39.651,
+    "lon": 123.601,
+    "region": "east-asia",
+    "importance": 5,
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: First Sino-Japanese War",
+        "url": "https://www.britannica.com/event/First-Sino-Japanese-War-1894-1895"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷24 德宗本纪二"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-boxer-rebellion",
+    "qid": "Q150229",
+    "type": "war",
+    "year": 1899,
+    "endYear": 1901,
+    "name": {
+      "en": "Boxer Rebellion",
+      "zh": "义和团运动与八国联军"
+    },
+    "summary": {
+      "en": "Anti-foreign Boxer militias besieged the Beijing legations with court support in 1900; an eight-nation expeditionary force took the city, the Empress Dowager fled to Xi'an, and the Boxer Protocol imposed a vast indemnity.",
+      "zh": "义和团在清廷纵容下围攻北京使馆区，八国联军攻占北京，慈禧挟光绪西逃；1901年《辛丑条约》赔款四亿五千万两。"
+    },
+    "lat": 39.9,
+    "lon": 116.4,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-beijing",
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Boxer Rebellion",
+        "url": "https://www.britannica.com/event/Boxer-Rebellion"
+      },
+      {
+        "title": "赵尔巽等《清史稿》卷24 德宗本纪二 光绪二十六年"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-wuchang-uprising",
+    "qid": "Q339291",
+    "type": "war",
+    "year": 1911,
+    "date": "1911-10-10",
+    "name": {
+      "en": "Wuchang Uprising",
+      "zh": "武昌起义"
+    },
+    "summary": {
+      "en": "Revolutionary soldiers of the New Army rose at Wuchang on 10 October 1911 and took the Hubei capital; within weeks most provinces declared independence from the Qing.",
+      "zh": "1911年10月10日湖北新军革命党人在武昌起义，占领武汉三镇，各省纷纷响应宣布独立。"
+    },
+    "lat": 30.551,
+    "lon": 114.301,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-sun-yat-sen"
+    ],
+    "place": "place-wuhan",
+    "polities": [
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Wuchang Uprising",
+        "url": "https://www.britannica.com/event/Wuchang-Uprising"
+      },
+      {
+        "title": "中国第一历史档案馆编《辛亥革命档案史料》"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-xinhai-revolution",
+    "qid": "Q190517",
+    "type": "political",
+    "year": 1911,
+    "endYear": 1912,
+    "name": {
+      "en": "Xinhai Revolution and founding of the Republic",
+      "zh": "辛亥革命与中华民国成立"
+    },
+    "summary": {
+      "en": "Sun Yat-sen was inaugurated as provisional president of the Republic of China in Nanjing on 1 January 1912; on 12 February the child emperor Puyi abdicated, ending over two thousand years of imperial rule.",
+      "zh": "1912年1月1日孙中山在南京就任中华民国临时大总统；2月12日清帝溥仪退位，两千多年帝制终结。"
+    },
+    "lat": 32.061,
+    "lon": 118.801,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-sun-yat-sen"
+    ],
+    "place": "place-nanjing",
+    "polities": [
+      "polity-republic-of-china",
+      "polity-qing"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Chinese Revolution (1911–12)",
+        "url": "https://www.britannica.com/event/Chinese-Revolution-1911-1912"
+      },
+      {
+        "title": "《清帝逊位诏书》（1912年2月12日）"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-may-fourth-movement",
+    "qid": "Q279790",
+    "type": "political",
+    "year": 1919,
+    "date": "1919-05-04",
+    "name": {
+      "en": "May Fourth Movement",
+      "zh": "五四运动"
+    },
+    "summary": {
+      "en": "Beijing students protested the Paris Peace Conference decision to give Germany's Shandong concessions to Japan; the demonstrations grew into a nationwide movement for science, democracy and vernacular culture.",
+      "zh": "北京学生抗议巴黎和会将德国在山东权益转让日本，示威扩展为全国运动，推动了以科学、民主与白话文为旗帜的新文化运动。"
+    },
+    "lat": 39.901,
+    "lon": 116.401,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-beijing",
+    "polities": [
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: May Fourth Movement",
+        "url": "https://www.britannica.com/event/May-Fourth-Movement"
+      },
+      {
+        "title": "中共中央党史和文献研究院《中国共产党一百年大事记》",
+        "url": "http://www.npc.gov.cn/c2/c30834/202106/t20210628_312170.html"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-founding-of-ccp",
+    "qid": "Q2268189",
+    "type": "founding",
+    "year": 1921,
+    "date": "1921-07-23",
+    "name": {
+      "en": "First National Congress of the Chinese Communist Party",
+      "zh": "中共一大召开"
+    },
+    "summary": {
+      "en": "Thirteen delegates, including Mao Zedong, met secretly in Shanghai's French Concession, finishing on a boat on South Lake in Jiaxing, to found the Chinese Communist Party.",
+      "zh": "包括毛泽东在内的十三名代表在上海法租界秘密集会，后转至嘉兴南湖游船上闭幕，宣告中国共产党成立。"
+    },
+    "lat": 31.2221,
+    "lon": 121.4707,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-mao-zedong"
+    ],
+    "polities": [
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "中共中央党史和文献研究院《中国共产党一百年大事记》",
+        "url": "http://www.npc.gov.cn/c2/c30834/202106/t20210628_312170.html"
+      },
+      {
+        "title": "Britannica: Chinese Communist Party",
+        "url": "https://www.britannica.com/topic/Chinese-Communist-Party"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-northern-expedition",
+    "qid": "Q1073476",
+    "type": "war",
+    "year": 1926,
+    "endYear": 1928,
+    "name": {
+      "en": "Northern Expedition",
+      "zh": "国民革命军北伐"
+    },
+    "summary": {
+      "en": "The Nationalist army under Chiang Kai-shek marched north from Guangzhou, defeating the Beiyang warlords; after the 1927 split with the Communists it took Beijing in 1928, and Zhang Xueliang's Manchuria joined the Nanjing government.",
+      "zh": "蒋介石率国民革命军自广州誓师北伐，击败北洋军阀；1927年国共分裂，1928年克北京，张学良东北易帜，南京国民政府形式上统一全国。"
+    },
+    "lat": 23.131,
+    "lon": 113.261,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Northern Expedition",
+        "url": "https://www.britannica.com/event/Northern-Expedition"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-mukden-incident",
+    "qid": "Q242099",
+    "type": "war",
+    "year": 1931,
+    "date": "1931-09-18",
+    "name": {
+      "en": "Mukden Incident",
+      "zh": "九一八事变"
+    },
+    "summary": {
+      "en": "Japanese officers of the Kwantung Army blew up a section of railway near Mukden (Shenyang) and blamed Chinese troops, using it as pretext to occupy all of Manchuria within months.",
+      "zh": "日本关东军炸毁沈阳柳条湖附近铁路并嫁祸中国军队，借机数月内侵占东北全境。"
+    },
+    "lat": 41.8346,
+    "lon": 123.466,
+    "region": "east-asia",
+    "importance": 5,
+    "place": "place-shenyang",
+    "polities": [
+      "polity-republic-of-china",
+      "polity-manchukuo"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Mukden Incident",
+        "url": "https://www.britannica.com/event/Mukden-Incident"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-long-march",
+    "qid": "Q46333",
+    "type": "war",
+    "year": 1934,
+    "endYear": 1935,
+    "date": "1934-10-16",
+    "name": {
+      "en": "Long March",
+      "zh": "红军长征"
+    },
+    "summary": {
+      "en": "Encircled in Jiangxi, the Red Army broke out and marched roughly 10,000 km through the southwest and northwest to Shaanxi. At the Zunyi Conference of January 1935 Mao Zedong gained leadership of the army.",
+      "zh": "红军突破江西根据地包围，转战西南、西北约二万五千里抵达陕北；1935年1月遵义会议确立了毛泽东的领导地位。"
+    },
+    "lat": 27.701,
+    "lon": 106.921,
+    "region": "east-asia",
+    "importance": 4,
+    "people": [
+      "person-mao-zedong"
+    ],
+    "polities": [
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "中共中央党史和文献研究院《中国共产党一百年大事记》",
+        "url": "http://www.npc.gov.cn/c2/c30834/202106/t20210628_312170.html"
+      },
+      {
+        "title": "Britannica: Long March",
+        "url": "https://www.britannica.com/event/Long-March"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-xian-incident",
+    "qid": "Q244941",
+    "type": "political",
+    "year": 1936,
+    "date": "1936-12-12",
+    "name": {
+      "en": "Xi'an Incident",
+      "zh": "西安事变"
+    },
+    "summary": {
+      "en": "Generals Zhang Xueliang and Yang Hucheng detained Chiang Kai-shek at Xi'an to force him to stop fighting the Communists and resist Japan, paving the way for the Second United Front.",
+      "zh": "张学良、杨虎城在西安扣押蒋介石，逼其停止“剿共”、联共抗日，促成第二次国共合作。"
+    },
+    "lat": 34.341,
+    "lon": 108.941,
+    "region": "east-asia",
+    "importance": 4,
+    "place": "place-xian",
+    "polities": [
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Xi'an Incident",
+        "url": "https://www.britannica.com/event/Xian-Incident"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-marco-polo-bridge-incident",
+    "qid": "Q219230",
+    "type": "war",
+    "year": 1937,
+    "date": "1937-07-07",
+    "name": {
+      "en": "Marco Polo Bridge Incident",
+      "zh": "七七事变"
+    },
+    "summary": {
+      "en": "A clash between Japanese and Chinese troops at the Lugou (Marco Polo) Bridge near Wanping, southwest of Beiping, escalated into the full-scale Second Sino-Japanese War.",
+      "zh": "日军在北平西南宛平城、卢沟桥一带向中国守军开火，中国军队奋起抵抗，全面抗日战争爆发。"
+    },
+    "lat": 39.8492,
+    "lon": 116.2131,
+    "region": "east-asia",
+    "importance": 5,
+    "polities": [
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Marco Polo Bridge Incident",
+        "url": "https://www.britannica.com/event/Marco-Polo-Bridge-Incident"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-retrocession-of-taiwan",
+    "qid": "Q13578439",
+    "type": "treaty",
+    "year": 1945,
+    "date": "1945-10-25",
+    "name": {
+      "en": "Retrocession of Taiwan",
+      "zh": "台湾光复"
+    },
+    "summary": {
+      "en": "After Japan's surrender, the Japanese governor-general formally surrendered Taiwan and Penghu to the Republic of China in Taipei on 25 October 1945, ending fifty years of Japanese colonial rule.",
+      "zh": "日本投降后，1945年10月25日台湾总督在台北向中华民国政府代表投降，结束日本五十年殖民统治。"
+    },
+    "lat": 25.04,
+    "lon": 121.51,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Taiwan – History",
+        "url": "https://www.britannica.com/place/Taiwan"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-huaihai-campaign",
+    "qid": "Q372153",
+    "type": "battle",
+    "year": 1948,
+    "endYear": 1949,
+    "date": "1948-11-06",
+    "name": {
+      "en": "Huaihai Campaign",
+      "zh": "淮海战役"
+    },
+    "summary": {
+      "en": "Centred on Xuzhou, the largest of the three great campaigns of the Chinese Civil War destroyed the main Nationalist field armies north of the Yangtze, after the Liaoshen campaign and alongside the Pingjin campaign.",
+      "zh": "以徐州为中心，是解放战争三大战役中规模最大的一役，与辽沈、平津战役一起歼灭了国民党军主力。"
+    },
+    "lat": 34.261,
+    "lon": 117.201,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Huai-Hai Campaign",
+        "url": "https://www.britannica.com/event/Huai-Hai-Campaign"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-founding-of-prc",
+    "qid": "Q10872057",
+    "type": "founding",
+    "year": 1949,
+    "date": "1949-10-01",
+    "name": {
+      "en": "Founding of the People's Republic of China",
+      "zh": "中华人民共和国成立"
+    },
+    "summary": {
+      "en": "Mao Zedong proclaimed the People's Republic of China from the Tiananmen rostrum in Beijing on 1 October 1949; the Nationalist government withdrew to Taiwan in December.",
+      "zh": "1949年10月1日毛泽东在北京天安门城楼宣告中华人民共和国成立；同年12月国民政府迁往台湾。"
+    },
+    "lat": 39.901,
+    "lon": 116.401,
+    "region": "east-asia",
+    "importance": 5,
+    "people": [
+      "person-mao-zedong"
+    ],
+    "place": "place-beijing",
+    "polities": [
+      "polity-prc",
+      "polity-republic-of-china"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "中共中央党史和文献研究院《中国共产党一百年大事记》",
+        "url": "http://www.npc.gov.cn/c2/c30834/202106/t20210628_312170.html"
+      },
+      {
+        "title": "Britannica: China – Establishment of the People's Republic",
+        "url": "https://www.britannica.com/place/China/Establishment-of-the-Peoples-Republic"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-first-chinese-nuclear-test",
+    "qid": "Q2420139",
+    "type": "science",
+    "year": 1964,
+    "date": "1964-10-16",
+    "name": {
+      "en": "First Chinese nuclear test (Project 596)",
+      "zh": "第一颗原子弹爆炸成功"
+    },
+    "summary": {
+      "en": "China detonated its first atomic bomb on a tower at the Lop Nur test site in Xinjiang, becoming the fifth nuclear power.",
+      "zh": "中国第一颗原子弹在新疆罗布泊试验场铁塔上爆炸成功，成为第五个拥有核武器的国家。"
+    },
+    "lat": 40.801,
+    "lon": 89.901,
+    "region": "east-asia",
+    "importance": 3,
+    "polities": [
+      "polity-prc"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Lop Nur",
+        "url": "https://www.britannica.com/place/Lop-Nur"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Coordinates follow Jiangshan-map (Lop Nur); Wikidata places the item about 200 km northwest at the Malan base area."
+  },
+  {
+    "id": "ev-reform-and-opening-up",
+    "qid": "Q1205521",
+    "type": "political",
+    "year": 1978,
+    "date": "1978-12-18",
+    "name": {
+      "en": "Reform and opening-up",
+      "zh": "改革开放"
+    },
+    "summary": {
+      "en": "The Third Plenum of the 11th Central Committee in December 1978 shifted the party's focus to economic modernisation under Deng Xiaoping, leading to household farming, special economic zones and market reforms.",
+      "zh": "1978年12月中共十一届三中全会把工作重心转向经济建设，邓小平主导下推行家庭联产承包、设立经济特区和市场化改革。"
+    },
+    "lat": 39.901,
+    "lon": 116.401,
+    "region": "east-asia",
+    "importance": 5,
+    "place": "place-beijing",
+    "polities": [
+      "polity-prc"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "《小岗村实行“大包干”回顾》《党史博览》2018年第7期 1978年12月 安徽凤阳县小岗村18户农民将集体土地承包到户，搞起“大包干”",
+        "url": "http://zhongguoguoqing.cssn.cn/zt/qzggkf40znzt/lshm/201810/t20181016_5006037.shtml"
+      },
+      {
+        "title": "中共中央党史和文献研究院《中国共产党一百年大事记》",
+        "url": "http://www.npc.gov.cn/c2/c30834/202106/t20210628_312170.html"
+      },
+      {
+        "title": "Britannica: Deng Xiaoping",
+        "url": "https://www.britannica.com/biography/Deng-Xiaoping"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-handover-of-hong-kong",
+    "qid": "Q15251",
+    "type": "treaty",
+    "year": 1997,
+    "date": "1997-07-01",
+    "name": {
+      "en": "Handover of Hong Kong",
+      "zh": "香港回归"
+    },
+    "summary": {
+      "en": "Under the 1984 Sino-British Joint Declaration, sovereignty over Hong Kong passed from the United Kingdom to the People's Republic of China at midnight on 1 July 1997, under \"one country, two systems\".",
+      "zh": "根据1984年《中英联合声明》，1997年7月1日零时香港主权移交中华人民共和国，实行“一国两制”。"
+    },
+    "lat": 22.301,
+    "lon": 114.171,
+    "region": "east-asia",
+    "importance": 4,
+    "polities": [
+      "polity-prc"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Hong Kong – History",
+        "url": "https://www.britannica.com/place/Hong-Kong"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-beijing-olympics-2008",
+    "qid": "Q8567",
+    "type": "cultural",
+    "year": 2008,
+    "date": "2008-08-08",
+    "name": {
+      "en": "2008 Beijing Summer Olympics",
+      "zh": "2008年北京奥运会"
+    },
+    "summary": {
+      "en": "Beijing hosted the Games of the XXIX Olympiad from 8 to 24 August 2008, the first Summer Olympics held in China.",
+      "zh": "第29届夏季奥林匹克运动会于2008年8月8日至24日在北京举行，是中国首次举办夏季奥运会。"
+    },
+    "lat": 39.901,
+    "lon": 116.401,
+    "region": "east-asia",
+    "importance": 3,
+    "place": "place-beijing",
+    "polities": [
+      "polity-prc"
+    ],
+    "sources": [
+      {
+        "title": "Jiangshan Atlas 江山时序 (jiangshan-map, GPL-3.0)",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+      },
+      {
+        "title": "Britannica: Beijing 2008 Olympic Games",
+        "url": "https://www.britannica.com/event/Beijing-2008-Olympic-Games"
+      }
+    ],
+    "confidence": "high"
+  }
+]

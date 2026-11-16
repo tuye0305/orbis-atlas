@@ -1,0 +1,230 @@
+[
+ {
+  "year": -1,
+  "file": "-1.topo.json",
+  "kb": 170,
+  "china": "s_xihan_c"
+ },
+ {
+  "year": 100,
+  "file": "100.topo.json",
+  "kb": 179,
+  "china": "s_donghan"
+ },
+ {
+  "year": 200,
+  "file": "200.topo.json",
+  "kb": 56,
+  "china": "s_donghan_d"
+ },
+ {
+  "year": 300,
+  "file": "300.topo.json",
+  "kb": 167,
+  "china": "s_xijin_a"
+ },
+ {
+  "year": 400,
+  "file": "400.topo.json",
+  "kb": 59,
+  "china": "s_dongjin_399"
+ },
+ {
+  "year": 500,
+  "file": "500.topo.json",
+  "kb": 67,
+  "china": "s_nanbei_b"
+ },
+ {
+  "year": 600,
+  "file": "600.topo.json",
+  "kb": 66,
+  "china": "s_sui"
+ },
+ {
+  "year": 700,
+  "file": "700.topo.json",
+  "kb": 225,
+  "china": "s_tang_wz1b"
+ },
+ {
+  "year": 800,
+  "file": "800.topo.json",
+  "kb": 246,
+  "china": "s_tang_b"
+ },
+ {
+  "year": 900,
+  "file": "900.topo.json",
+  "kb": 286,
+  "china": "s_tang_d2"
+ },
+ {
+  "year": 1000,
+  "file": "1000.topo.json",
+  "kb": 248,
+  "china": "s_beisong_b0"
+ },
+ {
+  "year": 1100,
+  "file": "1100.topo.json",
+  "kb": 242,
+  "china": "s_beisong_b1"
+ },
+ {
+  "year": 1200,
+  "file": "1200.topo.json",
+  "kb": 247,
+  "china": "s_nansong_a"
+ },
+ {
+  "year": 1279,
+  "file": "1279.topo.json",
+  "kb": 224,
+  "china": "s_yuan_a"
+ },
+ {
+  "year": 1300,
+  "file": "1300.topo.json",
+  "kb": 216,
+  "china": "s_yuan"
+ },
+ {
+  "year": 1400,
+  "file": "1400.topo.json",
+  "kb": 237,
+  "china": "s_ming_a0"
+ },
+ {
+  "year": 1492,
+  "file": "1492.topo.json",
+  "kb": 636,
+  "china": "s_ming_b0"
+ },
+ {
+  "year": 1500,
+  "file": "1500.topo.json",
+  "kb": 94,
+  "china": "s_ming_b0"
+ },
+ {
+  "year": 1530,
+  "file": "1530.topo.json",
+  "kb": 289,
+  "china": "s_ming_b"
+ },
+ {
+  "year": 1600,
+  "file": "1600.topo.json",
+  "kb": 443,
+  "china": "s_ming_b"
+ },
+ {
+  "year": 1650,
+  "file": "1650.topo.json",
+  "kb": 433,
+  "china": "s_qing_a0"
+ },
+ {
+  "year": 1700,
+  "file": "1700.topo.json",
+  "kb": 425,
+  "china": "s_qing_b"
+ },
+ {
+  "year": 1715,
+  "file": "1715.topo.json",
+  "kb": 434,
+  "china": "s_qing_b"
+ },
+ {
+  "year": 1783,
+  "file": "1783.topo.json",
+  "kb": 252,
+  "china": "s_qing_d"
+ },
+ {
+  "year": 1800,
+  "file": "1800.topo.json",
+  "kb": 439,
+  "china": "s_qing_e"
+ },
+ {
+  "year": 1815,
+  "file": "1815.topo.json",
+  "kb": 174,
+  "china": "s_qing_e"
+ },
+ {
+  "year": 1878,
+  "file": "1878.topo.json",
+  "kb": 115,
+  "china": "s_qing_f0"
+ },
+ {
+  "year": 1880,
+  "file": "1880.topo.json",
+  "kb": 113,
+  "china": "s_qing_f0"
+ },
+ {
+  "year": 1900,
+  "file": "1900.topo.json",
+  "kb": 119,
+  "china": "s_qing_g"
+ },
+ {
+  "year": 1914,
+  "file": "1914.topo.json",
+  "kb": 112,
+  "china": "s_roc_a0"
+ },
+ {
+  "year": 1920,
+  "file": "1920.topo.json",
+  "kb": 367,
+  "china": "s_roc_w2"
+ },
+ {
+  "year": 1930,
+  "file": "1930.topo.json",
+  "kb": 121,
+  "china": "s_roc_a"
+ },
+ {
+  "year": 1938,
+  "file": "1938.topo.json",
+  "kb": 322,
+  "china": "s_roc"
+ },
+ {
+  "year": 1945,
+  "file": "1945.topo.json",
+  "kb": 324,
+  "china": "s_roc_c"
+ },
+ {
+  "year": 1960,
+  "file": "1960.topo.json",
+  "kb": 80,
+  "china": null
+ },
+ {
+  "year": 1994,
+  "file": "1994.topo.json",
+  "kb": 95,
+  "china": null
+ },
+ {
+  "year": 2000,
+  "file": "2000.topo.json",
+  "kb": 96,
+  "china": null
+ },
+ {
+  "year": 2010,
+  "file": "2010.topo.json",
+  "kb": 96,
+  "china": null
+ }
+]

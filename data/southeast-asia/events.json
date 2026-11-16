@@ -1,0 +1,1590 @@
+[
+  {
+    "id": "ev-trung-sisters-rebellion",
+    "qid": "Q4460644",
+    "region": "southeast-asia",
+    "type": "war",
+    "year": 40,
+    "endYear": 43,
+    "name": {
+      "en": "Trưng sisters' rebellion",
+      "zh": "二征夫人起义"
+    },
+    "summary": {
+      "en": "The sisters Trưng Trắc and Trưng Nhị led the Lạc lords of the Red River delta in revolt against the Han governor of Jiaozhi and ruled for about three years from Mê Linh, until the Han general Ma Yuan crushed the rising in 43.",
+      "zh": "征侧、征贰姐妹率领红河三角洲的雒将起兵反抗东汉交趾太守，以麊泠为中心自立约三年，43年被东汉将领马援镇压。"
+    },
+    "lat": 21.18,
+    "lon": 105.72,
+    "importance": 4,
+    "people": [
+      "person-trung-trac"
+    ],
+    "sources": [
+      {
+        "title": "Hou Hanshu (Book of the Later Han), \"Biography of Ma Yuan\" and \"Treatise on the Southern Man\""
+      },
+      {
+        "title": "Keith W. Taylor, The Birth of Vietnam (University of California Press, 1983)"
+      },
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Wikipedia: Trưng sisters' rebellion",
+        "url": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters'_rebellion"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-kedukan-bukit-inscription",
+    "qid": "Q6382635",
+    "region": "southeast-asia",
+    "type": "founding",
+    "year": 683,
+    "name": {
+      "en": "Kedukan Bukit inscription: rise of Srivijaya",
+      "zh": "格杜干武吉碑：室利佛逝兴起"
+    },
+    "summary": {
+      "en": "This Old Malay inscription found at Palembang records a sacred expedition by Dapunta Hyang with an army of thousands in 683, commonly read as the founding of the Srivijaya polity that soon dominated the Strait of Malacca.",
+      "zh": "在巨港发现的这块古马来语碑铭，记载了683年达本达·希扬率数万大军进行的神圣远征，通常被解读为室利佛逝政权的建立；此后不久它便称霸马六甲海峡。"
+    },
+    "lat": -2.99,
+    "lon": 104.76,
+    "importance": 3,
+    "polities": [
+      "polity-srivijaya"
+    ],
+    "sources": [
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "O. W. Wolters, Early Indonesian Commerce: A Study of the Origins of Śrīvijaya (Cornell University Press, 1967)"
+      },
+      {
+        "title": "Wikipedia: Kedukan Bukit inscription",
+        "url": "https://en.wikipedia.org/wiki/Kedukan_Bukit_inscription"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Interpretation of the expedition as a \"founding\" is debated; the inscription is dated Śaka 605 (683 CE)."
+  },
+  {
+    "id": "ev-borobudur",
+    "qid": "Q42798",
+    "region": "southeast-asia",
+    "type": "religious",
+    "year": 800,
+    "name": {
+      "en": "Borobudur built",
+      "zh": "婆罗浮屠建成"
+    },
+    "summary": {
+      "en": "The Shailendra dynasty of central Java raised Borobudur, the world's largest Buddhist monument: a stepped mandala of nine platforms with over 2,600 relief panels and 504 Buddha statues, built around 780–830.",
+      "zh": "中爪哇的夏连特拉王朝建造了世界上最大的佛教建筑婆罗浮屠：一座九层阶梯式曼荼罗，拥有两千六百多块浮雕和五百零四尊佛像，约建于780至830年间。"
+    },
+    "lat": -7.6079,
+    "lon": 110.2038,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Borobudur built",
+        "url": "https://www.britannica.com/topic/Borobudur"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Borobudur Temple Compounds",
+        "url": "https://whc.unesco.org/en/list/592"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "Wikipedia: Borobudur",
+        "url": "https://en.wikipedia.org/wiki/Borobudur"
+      }
+    ],
+    "confidence": "medium",
+    "note": "No foundation inscription survives; construction is dated by style and epigraphy to c. 780–830."
+  },
+  {
+    "id": "ev-prambanan",
+    "qid": "Q47721",
+    "region": "southeast-asia",
+    "type": "religious",
+    "year": 856,
+    "name": {
+      "en": "Prambanan temple consecrated",
+      "zh": "普兰巴南神庙落成"
+    },
+    "summary": {
+      "en": "The Shivagrha inscription of 856 records the completion of a great Shiva temple, identified with Prambanan, by the Sanjaya-line ruler of Mataram. Its soaring towers to Shiva, Vishnu and Brahma are Java's largest Hindu monument.",
+      "zh": "856年的湿婆屋碑铭记载了马打兰古国桑贾亚系君主建成一座宏伟的湿婆神庙，即普兰巴南。其供奉湿婆、毗湿奴与梵天的高塔是爪哇最大的印度教建筑群。"
+    },
+    "lat": -7.752,
+    "lon": 110.4912,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Prambanan temple consecrated",
+        "url": "https://www.britannica.com/place/Prambanan"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Prambanan Temple Compounds",
+        "url": "https://whc.unesco.org/en/list/642"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "Wikipedia: Prambanan",
+        "url": "https://en.wikipedia.org/wiki/Prambanan"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata gives c. 850; 856 is the date of the Shivagrha inscription usually associated with the complex."
+  },
+  {
+    "id": "ev-battle-of-bach-dang-938",
+    "qid": "Q2890760",
+    "region": "southeast-asia",
+    "type": "battle",
+    "year": 938,
+    "name": {
+      "en": "Battle of Bạch Đằng (938)",
+      "zh": "白藤江之战（938年）"
+    },
+    "summary": {
+      "en": "Ngô Quyền planted iron-tipped stakes in the bed of the Bạch Đằng River and lured a Southern Han fleet over them at high tide; as the tide fell the ships were impaled and destroyed. The victory ended a millennium of Chinese rule in northern Vietnam.",
+      "zh": "吴权在白藤江河床中埋下包铁木桩，趁涨潮引诱南汉舰队驶入，退潮时敌船触桩搁浅而被歼灭。此役结束了中国对越南北部近千年的统治。"
+    },
+    "lat": 20.8442,
+    "lon": 106.6317,
+    "importance": 4,
+    "people": [
+      "person-ngo-quyen"
+    ],
+    "sources": [
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Keith W. Taylor, The Birth of Vietnam (University of California Press, 1983)"
+      },
+      {
+        "title": "Wikipedia: Battle of Bạch Đằng (938)",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(938)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-thang-long-capital",
+    "qid": "Q5102689",
+    "region": "southeast-asia",
+    "type": "founding",
+    "year": 1010,
+    "name": {
+      "en": "Lý Thái Tổ moves the capital to Thăng Long",
+      "zh": "李太祖迁都升龙"
+    },
+    "summary": {
+      "en": "In his Edict on the Transfer of the Capital, Lý Thái Tổ moved the court from Hoa Lư to the site of the old Tang citadel of Đại La, renaming it Thăng Long (\"Ascending Dragon\"), the future Hanoi.",
+      "zh": "李太祖颁布《迁都诏》，将朝廷从华闾迁至唐代大罗城旧址，并改名升龙（意为“腾飞之龙”），即后来的河内。"
+    },
+    "lat": 21.0352,
+    "lon": 105.8403,
+    "importance": 3,
+    "place": "place-hanoi",
+    "polities": [
+      "polity-ly"
+    ],
+    "sources": [
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Central Sector of the Imperial Citadel of Thang Long – Hanoi",
+        "url": "https://whc.unesco.org/en/list/1328"
+      },
+      {
+        "title": "Wikipedia: Edict on the Transfer of the Capital",
+        "url": "https://en.wikipedia.org/wiki/Edict_on_the_Transfer_of_the_Capital"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-angkor-wat",
+    "qid": "Q43473",
+    "region": "southeast-asia",
+    "type": "religious",
+    "year": 1113,
+    "endYear": 1150,
+    "name": {
+      "en": "Angkor Wat built",
+      "zh": "吴哥窟建造"
+    },
+    "summary": {
+      "en": "King Suryavarman II built Angkor Wat as a temple to Vishnu and probably his own funerary monument. Its five lotus towers, moat and kilometre-long bas-reliefs make it the largest religious monument in the world.",
+      "zh": "苏利耶跋摩二世修建吴哥窟，供奉毗湿奴，很可能也是其陵庙。五座莲花状宝塔、护城河与绵延近一公里的浮雕回廊，使其成为世界上最大的宗教建筑。"
+    },
+    "lat": 13.4125,
+    "lon": 103.8667,
+    "importance": 5,
+    "place": "place-angkor",
+    "people": [
+      "person-suryavarman-ii"
+    ],
+    "polities": [
+      "polity-khmer"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Angkor Wat built",
+        "url": "https://www.britannica.com/topic/Angkor-Wat"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Angkor",
+        "url": "https://whc.unesco.org/en/list/668"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "Wikipedia: Angkor Wat",
+        "url": "https://en.wikipedia.org/wiki/Angkor_Wat"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata gives an inception of 1200; scholarly consensus places construction in the reign of Suryavarman II (1113–c. 1150)."
+  },
+  {
+    "id": "ev-bayon",
+    "qid": "Q654024",
+    "region": "southeast-asia",
+    "type": "religious",
+    "year": 1190,
+    "name": {
+      "en": "Bayon temple built",
+      "zh": "巴戎寺建造"
+    },
+    "summary": {
+      "en": "At the centre of his new walled city of Angkor Thom, Jayavarman VII raised the Buddhist Bayon, famous for its towers carved with serene giant faces and reliefs of daily life and wars with Champa.",
+      "zh": "阇耶跋摩七世在新建的吴哥城中心修建佛教寺庙巴戎寺，以刻有巨大安详面孔的佛塔群和描绘日常生活及与占婆战争的浮雕而闻名。"
+    },
+    "lat": 13.4413,
+    "lon": 103.8587,
+    "importance": 3,
+    "place": "place-angkor",
+    "people": [
+      "person-jayavarman-vii"
+    ],
+    "polities": [
+      "polity-khmer"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Bayon temple built",
+        "url": "https://www.britannica.com/topic/the-Bayon"
+      },
+      {
+        "title": "UNESCO World Heritage Centre: Angkor",
+        "url": "https://whc.unesco.org/en/list/668"
+      },
+      {
+        "title": "George Cœdès, The Indianized States of Southeast Asia (University of Hawaii Press, 1968)"
+      },
+      {
+        "title": "Wikipedia: Bayon",
+        "url": "https://en.wikipedia.org/wiki/Bayon"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Built over several phases in the late 12th and early 13th centuries; 1190 is an approximate date."
+  },
+  {
+    "id": "ev-mongol-invasions-of-vietnam",
+    "qid": "Q2448644",
+    "region": "southeast-asia",
+    "type": "war",
+    "year": 1258,
+    "endYear": 1288,
+    "name": {
+      "en": "Mongol invasions of Đại Việt and Champa",
+      "zh": "元越战争"
+    },
+    "summary": {
+      "en": "Three Mongol–Yuan invasions (1258, 1285, 1287–88) took Thăng Long but were each driven out by the Trần dynasty under Trần Hưng Đạo, who used scorched-earth tactics and guerrilla warfare before the decisive river battle at Bạch Đằng.",
+      "zh": "蒙古—元朝先后三次（1258年、1285年、1287—1288年）入侵，虽曾攻占升龙，但都被陈朝击退。陈兴道采取坚壁清野与游击战术，最终在白藤江决战中获胜。"
+    },
+    "lat": 21.0352,
+    "lon": 105.8403,
+    "importance": 4,
+    "people": [
+      "person-tran-hung-dao"
+    ],
+    "polities": [
+      "polity-tran",
+      "polity-champa"
+    ],
+    "route": [
+      {
+        "year": 1258,
+        "lat": 25.6,
+        "lon": 100.27,
+        "label": {
+          "en": "Uriyangqadai marches from Dali (Yunnan)",
+          "zh": "兀良合台自大理（云南）出兵"
+        }
+      },
+      {
+        "year": 1258,
+        "lat": 21.0352,
+        "lon": 105.8403,
+        "label": {
+          "en": "Thăng Long sacked",
+          "zh": "升龙被攻陷"
+        }
+      },
+      {
+        "year": 1285,
+        "lat": 21.85,
+        "lon": 106.76,
+        "label": {
+          "en": "Toghon invades through Lạng Sơn",
+          "zh": "脱欢经谅山入侵"
+        }
+      },
+      {
+        "year": 1285,
+        "lat": 13.88,
+        "lon": 109.11,
+        "label": {
+          "en": "Sogetu's army advances from Champa",
+          "zh": "唆都军自占城北上"
+        }
+      },
+      {
+        "year": 1285,
+        "lat": 21.0352,
+        "lon": 105.8403,
+        "label": {
+          "en": "Thăng Long taken, then retaken by Trần forces",
+          "zh": "升龙失守后被陈军收复"
+        }
+      },
+      {
+        "year": 1287,
+        "lat": 21.08,
+        "lon": 106.38,
+        "label": {
+          "en": "Trần headquarters at Vạn Kiếp",
+          "zh": "陈军以万劫为大本营"
+        }
+      },
+      {
+        "year": 1288,
+        "lat": 20.937,
+        "lon": 106.629,
+        "label": {
+          "en": "Yuan fleet destroyed at Bạch Đằng",
+          "zh": "元军舰队覆灭于白藤江"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Yuanshi (History of Yuan, 1370), \"Annan zhuan\" and \"Zhaowa zhuan\""
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Mongol invasions of Vietnam",
+        "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Vietnam"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-bach-dang-1288",
+    "qid": "Q1369379",
+    "region": "southeast-asia",
+    "type": "battle",
+    "year": 1288,
+    "name": {
+      "en": "Battle of Bạch Đằng (1288)",
+      "zh": "白藤江之战（1288年）"
+    },
+    "summary": {
+      "en": "Repeating Ngô Quyền's tactic, Trần Hưng Đạo staked the Bạch Đằng River and trapped the withdrawing Yuan fleet under Omar at low tide, destroying it and ending the third Mongol invasion.",
+      "zh": "陈兴道效仿吴权的战法，在白藤江中埋设木桩，趁退潮困住撤退中的元朝乌马儿舰队并将其歼灭，结束了元朝第三次入侵。"
+    },
+    "lat": 20.937,
+    "lon": 106.629,
+    "importance": 4,
+    "people": [
+      "person-tran-hung-dao"
+    ],
+    "polities": [
+      "polity-tran"
+    ],
+    "sources": [
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Yuanshi (History of Yuan, 1370), \"Annan zhuan\" and \"Zhaowa zhuan\""
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Battle of Bạch Đằng (1288)",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(1288)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-mongol-invasion-of-java",
+    "qid": "Q2672432",
+    "region": "southeast-asia",
+    "type": "war",
+    "year": 1293,
+    "name": {
+      "en": "Yuan invasion of Java",
+      "zh": "元朝远征爪哇"
+    },
+    "summary": {
+      "en": "Kublai Khan sent a fleet to punish King Kertanegara of Singhasari for mutilating his envoy. Raden Wijaya allied with the Yuan to defeat the usurper Jayakatwang, then turned on and expelled them, founding Majapahit.",
+      "zh": "忽必烈派遣舰队惩罚曾黥面元使的新柯沙里国王格尔达纳卡拉。罗登·威查耶先与元军联手击败篡位者查耶卡旺，随后反戈驱逐元军，建立了满者伯夷。"
+    },
+    "lat": -7.56,
+    "lon": 112.38,
+    "importance": 3,
+    "polities": [
+      "polity-majapahit"
+    ],
+    "sources": [
+      {
+        "title": "Yuanshi (History of Yuan, 1370), \"Annan zhuan\" and \"Zhaowa zhuan\""
+      },
+      {
+        "title": "Pararaton (Book of Kings, 15th–16th c.)"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: Mongol invasion of Java",
+        "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Java"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-lam-son-uprising",
+    "qid": "Q1848807",
+    "region": "southeast-asia",
+    "type": "war",
+    "year": 1418,
+    "endYear": 1427,
+    "name": {
+      "en": "Lam Sơn uprising",
+      "zh": "蓝山起义"
+    },
+    "summary": {
+      "en": "Lê Lợi raised a rebellion against Ming occupation at Lam Sơn in Thanh Hóa. After a decade of guerrilla war and the destruction of a Ming relief army at Chi Lăng in 1427, the Ming withdrew and Lê Lợi founded the Later Lê dynasty.",
+      "zh": "黎利在清化蓝山起兵反抗明朝统治。经过十年游击战，并于1427年在支棱歼灭明朝援军后，明军撤离，黎利建立后黎朝。"
+    },
+    "lat": 19.92,
+    "lon": 105.4,
+    "importance": 3,
+    "people": [
+      "person-le-loi"
+    ],
+    "polities": [
+      "polity-later-le"
+    ],
+    "sources": [
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Lam Sơn uprising",
+        "url": "https://en.wikipedia.org/wiki/Lam_S%C6%A1n_uprising"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-siege-of-angkor",
+    "qid": "Q24945556",
+    "region": "southeast-asia",
+    "type": "fall",
+    "year": 1431,
+    "name": {
+      "en": "Ayutthaya sacks Angkor",
+      "zh": "阿瑜陀耶攻陷吴哥"
+    },
+    "summary": {
+      "en": "An Ayutthayan army besieged and took the Khmer capital. The Khmer court soon moved south toward the Phnom Penh area, closing the Angkorian era.",
+      "zh": "阿瑜陀耶军队围攻并攻陷高棉都城。高棉王廷随后南迁至金边一带，吴哥时代就此结束。"
+    },
+    "lat": 13.4333,
+    "lon": 103.8333,
+    "importance": 3,
+    "place": "place-angkor",
+    "polities": [
+      "polity-khmer",
+      "polity-ayutthaya"
+    ],
+    "sources": [
+      {
+        "title": "David Chandler, A History of Cambodia (Westview, 4th ed. 2008)"
+      },
+      {
+        "title": "Royal Chronicles of Ayutthaya, trans. Richard D. Cushman (Siam Society, 2000)"
+      },
+      {
+        "title": "Wikipedia: Fall of Angkor",
+        "url": "https://en.wikipedia.org/wiki/Fall_of_Angkor"
+      }
+    ],
+    "confidence": "medium",
+    "note": "The 1431 date comes from later chronicles; historians see Angkor's decline as gradual and the date as conventional."
+  },
+  {
+    "id": "ev-founding-of-malacca",
+    "qid": "Q46652",
+    "region": "southeast-asia",
+    "type": "founding",
+    "year": 1400,
+    "name": {
+      "en": "Founding of the Malacca Sultanate",
+      "zh": "马六甲苏丹国建立"
+    },
+    "summary": {
+      "en": "The fugitive Palembang prince Parameswara settled at Malacca around 1400. With Ming recognition and its command of the strait, the port grew into the greatest entrepôt of Southeast Asia and a centre for the spread of Islam.",
+      "zh": "流亡的巨港王子拜里米苏拉约在1400年定居马六甲。凭借明朝的册封和对海峡的控制，这座港口发展为东南亚最大的转口贸易中心，也是伊斯兰教传播的中心。"
+    },
+    "lat": 2.1946,
+    "lon": 102.2492,
+    "importance": 4,
+    "place": "place-malacca",
+    "people": [
+      "person-parameswara"
+    ],
+    "polities": [
+      "polity-malacca"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Founding of the Malacca Sultanate",
+        "url": "https://www.britannica.com/place/sultanate-of-Malacca"
+      },
+      {
+        "title": "Sejarah Melayu (Malay Annals), trans. C. C. Brown (1952)"
+      },
+      {
+        "title": "Tomé Pires, Suma Oriental (1512–1515), trans. Armando Cortesão (Hakluyt Society, 1944)"
+      },
+      {
+        "title": "Barbara Watson Andaya & Leonard Y. Andaya, A History of Malaysia (Palgrave, 3rd ed. 2017)"
+      },
+      {
+        "title": "Wikipedia: Malacca Sultanate",
+        "url": "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Founding dates between c. 1396 and 1402 are proposed."
+  },
+  {
+    "id": "ev-capture-of-malacca",
+    "qid": "Q4110453",
+    "region": "southeast-asia",
+    "type": "battle",
+    "year": 1511,
+    "name": {
+      "en": "Portuguese capture of Malacca",
+      "zh": "葡萄牙攻占马六甲"
+    },
+    "summary": {
+      "en": "Afonso de Albuquerque's fleet stormed Malacca after weeks of fighting, driving out Sultan Mahmud Shah. Portugal gained a key base on the spice route, while Muslim traders dispersed to rival ports such as Aceh, Johor and Banten.",
+      "zh": "阿方索·德·阿尔布克尔克的舰队经数周激战攻占马六甲，苏丹马哈茂德沙出逃。葡萄牙由此获得香料航线上的关键据点，穆斯林商人则分散到亚齐、柔佛、万丹等竞争港口。"
+    },
+    "lat": 2.2057,
+    "lon": 102.256,
+    "importance": 4,
+    "place": "place-malacca",
+    "polities": [
+      "polity-malacca"
+    ],
+    "sources": [
+      {
+        "title": "Brás de Albuquerque, Commentaries of the Great Afonso Dalboquerque (1557; Hakluyt Society trans. 1875–84)"
+      },
+      {
+        "title": "Tomé Pires, Suma Oriental (1512–1515), trans. Armando Cortesão (Hakluyt Society, 1944)"
+      },
+      {
+        "title": "Barbara Watson Andaya & Leonard Y. Andaya, A History of Malaysia (Palgrave, 3rd ed. 2017)"
+      },
+      {
+        "title": "Wikipedia: Capture of Malacca (1511)",
+        "url": "https://en.wikipedia.org/wiki/Capture_of_Malacca_(1511)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-mactan",
+    "qid": "Q2091449",
+    "region": "southeast-asia",
+    "type": "battle",
+    "year": 1521,
+    "date": "1521-04-27",
+    "name": {
+      "en": "Battle of Mactan",
+      "zh": "麦克坦之战"
+    },
+    "summary": {
+      "en": "Ferdinand Magellan, seeking to force the chief Lapulapu to submit to his Christian ally Rajah Humabon of Cebu, landed on Mactan with about 50 men and was killed. The expedition sailed on and completed the first circumnavigation in 1522.",
+      "zh": "麦哲伦为迫使酋长拉普拉普臣服于已受洗的宿务王胡马邦，率约五十人登陆麦克坦岛，结果战死。船队继续航行，并于1522年完成首次环球航行。"
+    },
+    "lat": 10.3106,
+    "lon": 124.0151,
+    "importance": 4,
+    "people": [
+      "person-lapulapu"
+    ],
+    "route": [
+      {
+        "year": 1520,
+        "lat": -52.72,
+        "lon": -74.68,
+        "label": {
+          "en": "Exits the Strait of Magellan into the Pacific (Nov 1520)",
+          "zh": "驶出麦哲伦海峡进入太平洋（1520年11月）"
+        }
+      },
+      {
+        "year": 1521,
+        "lat": 13.29,
+        "lon": 144.66,
+        "label": {
+          "en": "Landfall at Guam (6 Mar)",
+          "zh": "抵达关岛（3月6日）"
+        }
+      },
+      {
+        "year": 1521,
+        "lat": 10.73,
+        "lon": 125.72,
+        "label": {
+          "en": "Homonhon Island (16 Mar)",
+          "zh": "霍蒙洪岛（3月16日）"
+        }
+      },
+      {
+        "year": 1521,
+        "lat": 9.93,
+        "lon": 125.07,
+        "label": {
+          "en": "Limasawa: first Mass (31 Mar)",
+          "zh": "利马萨瓦岛：首次弥撒（3月31日）"
+        }
+      },
+      {
+        "year": 1521,
+        "lat": 10.2933,
+        "lon": 123.9021,
+        "label": {
+          "en": "Cebu: Rajah Humabon baptised",
+          "zh": "宿务：胡马邦受洗"
+        }
+      },
+      {
+        "year": 1521,
+        "lat": 10.3106,
+        "lon": 124.0151,
+        "label": {
+          "en": "Killed at Mactan (27 Apr)",
+          "zh": "战死于麦克坦岛（4月27日）"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Antonio Pigafetta, Relazione del primo viaggio intorno al mondo (c. 1524), trans. R. A. Skelton (1969)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Ferdinand Magellan",
+        "url": "https://www.britannica.com/biography/Ferdinand-Magellan"
+      },
+      {
+        "title": "Wikipedia: Battle of Mactan",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Mactan"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-spanish-manila",
+    "qid": "Q772211",
+    "region": "southeast-asia",
+    "type": "founding",
+    "year": 1571,
+    "date": "1571-06-24",
+    "name": {
+      "en": "Spanish Manila founded",
+      "zh": "西班牙建立马尼拉城"
+    },
+    "summary": {
+      "en": "After defeating Rajah Sulayman's Maynila, Miguel López de Legazpi proclaimed the Spanish city of Manila, later walled as Intramuros. It became the capital of the Spanish Philippines and the Asian terminus of the Manila galleons to Acapulco.",
+      "zh": "米格尔·洛佩斯·德·黎牙实比击败苏莱曼王统治的马尼拉后，宣布建立西班牙马尼拉城，后筑城墙成为王城区（Intramuros）。这里成为西属菲律宾首府和通往阿卡普尔科的马尼拉大帆船贸易的亚洲终点。"
+    },
+    "lat": 14.5908,
+    "lon": 120.975,
+    "importance": 4,
+    "place": "place-manila",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Spanish Manila founded",
+        "url": "https://www.britannica.com/place/Intramuros"
+      },
+      {
+        "title": "Emma H. Blair & James A. Robertson (eds.), The Philippine Islands, 1493–1898, Vol. 3 (1903)"
+      },
+      {
+        "title": "Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, Vol. 1: From Early Times to c. 1800 (1992)"
+      },
+      {
+        "title": "Wikipedia: Intramuros",
+        "url": "https://en.wikipedia.org/wiki/Intramuros"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-founding-of-batavia",
+    "qid": "Q1199713",
+    "region": "southeast-asia",
+    "type": "founding",
+    "year": 1619,
+    "date": "1619-05-30",
+    "name": {
+      "en": "Dutch found Batavia",
+      "zh": "荷兰建立巴达维亚"
+    },
+    "summary": {
+      "en": "Jan Pieterszoon Coen of the Dutch East India Company (VOC) destroyed the town of Jayakarta and built Batavia on its ruins. It became the VOC's Asian headquarters and later the capital of the Dutch East Indies.",
+      "zh": "荷兰东印度公司的扬·彼得松·库恩摧毁查雅加达城，并在废墟上兴建巴达维亚。这里成为荷兰东印度公司的亚洲总部，后来成为荷属东印度首府。"
+    },
+    "lat": -6.1348,
+    "lon": 106.8132,
+    "importance": 4,
+    "place": "place-jakarta",
+    "sources": [
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, Vol. 1: From Early Times to c. 1800 (1992)"
+      },
+      {
+        "title": "Wikipedia: Batavia, Dutch East Indies",
+        "url": "https://en.wikipedia.org/wiki/Batavia,_Dutch_East_Indies"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-fall-of-ayutthaya",
+    "qid": "Q31307",
+    "region": "southeast-asia",
+    "type": "war",
+    "year": 1765,
+    "endYear": 1767,
+    "date": "1767-04-07",
+    "name": {
+      "en": "Burmese–Siamese War and fall of Ayutthaya",
+      "zh": "缅暹战争与阿瑜陀耶陷落"
+    },
+    "summary": {
+      "en": "Konbaung Burma under Hsinbyushin invaded Siam on two fronts and, after a 14-month siege, sacked and burned Ayutthaya in April 1767, ending the 417-year-old kingdom. Taksin soon regrouped the Siamese at Thonburi.",
+      "zh": "贡榜王朝孟驳王分两路入侵暹罗，经十四个月围城，于1767年4月攻陷并焚毁阿瑜陀耶，延续四百余年的王国就此灭亡。不久郑信在吞武里重整暹罗力量。"
+    },
+    "lat": 14.3532,
+    "lon": 100.5689,
+    "importance": 4,
+    "polities": [
+      "polity-ayutthaya",
+      "polity-konbaung"
+    ],
+    "sources": [
+      {
+        "title": "Victor Lieberman, Strange Parallels: Southeast Asia in Global Context, c. 800–1830, Vol. 1 (Cambridge University Press, 2003)"
+      },
+      {
+        "title": "Chris Baker & Pasuk Phongpaichit, A History of Thailand (Cambridge University Press, 2nd ed. 2009)"
+      },
+      {
+        "title": "Hmannan Yazawin (Glass Palace Chronicle, 1832)"
+      },
+      {
+        "title": "Wikipedia: Burmese–Siamese War (1765–1767)",
+        "url": "https://en.wikipedia.org/wiki/Burmese%E2%80%93Siamese_War_(1765%E2%80%931767)"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-founding-of-bangkok",
+    "qid": "Q2132910",
+    "region": "southeast-asia",
+    "type": "founding",
+    "year": 1782,
+    "date": "1782-04-21",
+    "name": {
+      "en": "Bangkok founded as royal capital",
+      "zh": "曼谷建都"
+    },
+    "summary": {
+      "en": "King Rama I, founder of the Chakri dynasty, moved the capital across the Chao Phraya from Thonburi to Rattanakosin Island, setting the city pillar on 21 April 1782 and building the Grand Palace.",
+      "zh": "却克里王朝开国君主拉玛一世将都城从吞武里迁至湄南河对岸的拉达那哥欣岛，于1782年4月21日立城柱，并修建大皇宫。"
+    },
+    "lat": 13.7492,
+    "lon": 100.4917,
+    "importance": 3,
+    "place": "place-bangkok",
+    "polities": [
+      "polity-rattanakosin"
+    ],
+    "sources": [
+      {
+        "title": "Chris Baker & Pasuk Phongpaichit, A History of Thailand (Cambridge University Press, 2nd ed. 2009)"
+      },
+      {
+        "title": "David K. Wyatt, Thailand: A Short History (Yale University Press, 2nd ed. 2003)"
+      },
+      {
+        "title": "Wikipedia: Rattanakosin Island",
+        "url": "https://en.wikipedia.org/wiki/Rattanakosin_Island"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-ngoc-hoi-dong-da",
+    "qid": "Q3539853",
+    "region": "southeast-asia",
+    "type": "battle",
+    "year": 1789,
+    "name": {
+      "en": "Battle of Ngọc Hồi–Đống Đa",
+      "zh": "玉洄—栋多之战"
+    },
+    "summary": {
+      "en": "Nguyễn Huệ of the Tây Sơn, newly proclaimed Emperor Quang Trung, made a lightning march north during Tết and routed the Qing army that had occupied Thăng Long to restore the Lê, ending Qing intervention.",
+      "zh": "西山朝阮惠刚称帝号光中，便于春节期间率军急行北上，击溃为扶持黎朝而占据升龙的清军，结束了清朝的干预。"
+    },
+    "lat": 21.0185,
+    "lon": 105.8236,
+    "importance": 3,
+    "place": "place-hanoi",
+    "sources": [
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt, 1479; 1697 ed.)"
+      },
+      {
+        "title": "Wikipedia: Battle of Ngọc Hồi-Đống Đa",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Ng%E1%BB%8Dc_H%E1%BB%93i-%C4%90%E1%BB%91ng_%C4%90a"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Wikidata gives 1788 (the Vietnamese lunar year Mậu Thân); the decisive fighting took place on 28–30 January 1789."
+  },
+  {
+    "id": "ev-tambora-eruption",
+    "qid": "Q3591483",
+    "region": "southeast-asia",
+    "type": "disaster",
+    "year": 1815,
+    "date": "1815-04-10",
+    "name": {
+      "en": "Eruption of Mount Tambora",
+      "zh": "坦博拉火山爆发"
+    },
+    "summary": {
+      "en": "The largest volcanic eruption in recorded history devastated Sumbawa, killing tens of thousands directly and through famine. Its aerosols cooled the northern hemisphere, causing the \"Year Without a Summer\" of 1816.",
+      "zh": "有记录以来规模最大的火山喷发摧毁了松巴哇岛，直接或因饥荒死亡者数以万计。喷发的气溶胶使北半球降温，导致1816年出现“无夏之年”。"
+    },
+    "lat": -8.25,
+    "lon": 118,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Clive Oppenheimer, \"Climatic, environmental and human consequences of the largest known historic eruption: Tambora volcano (Indonesia) 1815\", Progress in Physical Geography 27:2 (2003)"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: 1815 eruption of Mount Tambora",
+        "url": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-java-war",
+    "qid": "Q2045508",
+    "region": "southeast-asia",
+    "type": "war",
+    "year": 1825,
+    "endYear": 1830,
+    "name": {
+      "en": "Java War",
+      "zh": "爪哇战争"
+    },
+    "summary": {
+      "en": "Prince Diponegoro of Yogyakarta led a widespread rebellion against Dutch colonial rule and its Javanese allies. The war cost some 200,000 Javanese lives before Diponegoro was seized at negotiations and exiled.",
+      "zh": "日惹王子蒂博尼哥罗领导了一场反抗荷兰殖民统治及其爪哇盟友的大规模起义。战争造成约二十万爪哇人死亡，最终蒂博尼哥罗在谈判中被扣押并流放。"
+    },
+    "lat": -7.8014,
+    "lon": 110.3644,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Java War",
+        "url": "https://www.britannica.com/event/Java-War"
+      },
+      {
+        "title": "Peter Carey, The Power of Prophecy: Prince Dipanagara and the End of an Old Order in Java, 1785–1855 (KITLV, 2007)"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: Java War",
+        "url": "https://en.wikipedia.org/wiki/Java_War"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-krakatoa-eruption",
+    "qid": "Q8094772",
+    "region": "southeast-asia",
+    "type": "disaster",
+    "year": 1883,
+    "date": "1883-08-27",
+    "name": {
+      "en": "Eruption of Krakatoa",
+      "zh": "喀拉喀托火山爆发"
+    },
+    "summary": {
+      "en": "A cataclysmic eruption destroyed most of Krakatoa island in the Sunda Strait. Tsunamis killed more than 36,000 people on Java and Sumatra, and the explosion was heard thousands of kilometres away.",
+      "zh": "巽他海峡的喀拉喀托岛发生灾难性喷发，岛屿大部被摧毁。引发的海啸在爪哇和苏门答腊造成三万六千余人死亡，爆炸声远传数千公里。"
+    },
+    "lat": -6.102,
+    "lon": 105.423,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "G. J. Symons (ed.), The Eruption of Krakatoa and Subsequent Phenomena (Royal Society, 1888)"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: 1883 eruption of Krakatoa",
+        "url": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-philippine-revolution",
+    "qid": "Q422082",
+    "region": "southeast-asia",
+    "type": "war",
+    "year": 1896,
+    "endYear": 1898,
+    "name": {
+      "en": "Philippine Revolution",
+      "zh": "菲律宾革命"
+    },
+    "summary": {
+      "en": "The secret society Katipunan under Andrés Bonifacio launched an armed revolt against Spain in August 1896; the execution of José Rizal fuelled it. Led later by Emilio Aguinaldo, revolutionaries declared independence on 12 June 1898.",
+      "zh": "1896年8月，安德烈斯·博尼法西奥领导的秘密组织卡蒂普南发动反抗西班牙的武装起义，黎刹遭处决更激化了革命。后在埃米利奥·阿吉纳尔多领导下，革命者于1898年6月12日宣布独立。"
+    },
+    "lat": 14.66,
+    "lon": 121.02,
+    "importance": 4,
+    "people": [
+      "person-jose-rizal"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Philippine Revolution",
+        "url": "https://www.britannica.com/event/Philippine-Revolution"
+      },
+      {
+        "title": "Teodoro A. Agoncillo, The Revolt of the Masses: The Story of Bonifacio and the Katipunan (1956)"
+      },
+      {
+        "title": "Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, Vol. 2: The Nineteenth and Twentieth Centuries (1992)"
+      },
+      {
+        "title": "Wikipedia: Philippine Revolution",
+        "url": "https://en.wikipedia.org/wiki/Philippine_Revolution"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-siamese-revolution-1932",
+    "qid": "Q2120252",
+    "region": "southeast-asia",
+    "type": "political",
+    "year": 1932,
+    "date": "1932-06-24",
+    "name": {
+      "en": "Siamese revolution of 1932",
+      "zh": "1932年暹罗革命"
+    },
+    "summary": {
+      "en": "The People's Party, a group of military officers and civilian officials, staged a bloodless coup in Bangkok that ended absolute monarchy and gave Siam its first constitution under King Prajadhipok.",
+      "zh": "由军官与文官组成的民党在曼谷发动不流血政变，结束了君主专制，在巴差提勃国王治下颁布暹罗第一部宪法。"
+    },
+    "lat": 13.7713,
+    "lon": 100.5114,
+    "importance": 3,
+    "place": "place-bangkok",
+    "polities": [
+      "polity-rattanakosin"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Siamese revolution of 1932",
+        "url": "https://www.britannica.com/event/Promoters-Revolution"
+      },
+      {
+        "title": "Chris Baker & Pasuk Phongpaichit, A History of Thailand (Cambridge University Press, 2nd ed. 2009)"
+      },
+      {
+        "title": "David K. Wyatt, Thailand: A Short History (Yale University Press, 2nd ed. 2003)"
+      },
+      {
+        "title": "Wikipedia: Siamese revolution of 1932",
+        "url": "https://en.wikipedia.org/wiki/Siamese_revolution_of_1932"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-indonesian-independence",
+    "qid": "Q1661772",
+    "region": "southeast-asia",
+    "type": "political",
+    "year": 1945,
+    "date": "1945-08-17",
+    "name": {
+      "en": "Proclamation of Indonesian Independence",
+      "zh": "印度尼西亚独立宣言"
+    },
+    "summary": {
+      "en": "Two days after Japan's surrender, Sukarno and Mohammad Hatta read a brief proclamation of independence at Sukarno's house in Jakarta. Four years of war and diplomacy followed before the Netherlands transferred sovereignty in 1949.",
+      "zh": "日本投降两天后，苏加诺与穆罕默德·哈达在雅加达苏加诺寓所宣读简短的独立宣言。此后经过四年的战争与外交斗争，荷兰才于1949年移交主权。"
+    },
+    "lat": -6.2025,
+    "lon": 106.8452,
+    "importance": 4,
+    "place": "place-jakarta",
+    "people": [
+      "person-sukarno"
+    ],
+    "sources": [
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "J. D. Legge, Sukarno: A Political Biography (Allen Lane, 1972)"
+      },
+      {
+        "title": "Wikipedia: Proclamation of Indonesian Independence",
+        "url": "https://en.wikipedia.org/wiki/Proclamation_of_Indonesian_Independence"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-vietnam-declaration-of-independence",
+    "qid": "Q1925172",
+    "region": "southeast-asia",
+    "type": "political",
+    "year": 1945,
+    "date": "1945-09-02",
+    "name": {
+      "en": "Vietnamese Declaration of Independence",
+      "zh": "越南独立宣言"
+    },
+    "summary": {
+      "en": "At Ba Đình Square in Hanoi, Hồ Chí Minh proclaimed the Democratic Republic of Vietnam after the August Revolution, quoting the US Declaration of Independence. France's return to Indochina led to war the following year.",
+      "zh": "八月革命后，胡志明在河内巴亭广场宣布越南民主共和国成立，并引用了美国《独立宣言》的语句。法国重返印度支那，次年爆发战争。"
+    },
+    "lat": 21.0368,
+    "lon": 105.8346,
+    "importance": 4,
+    "place": "place-hanoi",
+    "people": [
+      "person-ho-chi-minh"
+    ],
+    "sources": [
+      {
+        "title": "Hồ Chí Minh, Tuyên ngôn độc lập (Declaration of Independence), 2 September 1945"
+      },
+      {
+        "title": "William J. Duiker, Ho Chi Minh: A Life (Hyperion, 2000)"
+      },
+      {
+        "title": "Wikipedia: Declaration of independence of the Democratic Republic of Vietnam",
+        "url": "https://en.wikipedia.org/wiki/Declaration_of_independence_of_the_Democratic_Republic_of_Vietnam"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-battle-of-dien-bien-phu",
+    "qid": "Q604897",
+    "region": "southeast-asia",
+    "type": "battle",
+    "year": 1954,
+    "date": "1954-03-13",
+    "name": {
+      "en": "Battle of Điện Biên Phủ",
+      "zh": "奠边府战役"
+    },
+    "summary": {
+      "en": "Việt Minh forces under Võ Nguyên Giáp hauled artillery onto the hills around a French fortified valley and forced its surrender after 56 days. The defeat ended French rule in Indochina at the Geneva Conference.",
+      "zh": "武元甲指挥越盟军队将火炮运上环绕法军谷地要塞的山头，经五十六天围攻迫使守军投降。此役使法国在日内瓦会议上结束了对印度支那的统治。"
+    },
+    "lat": 21.3869,
+    "lon": 103.0156,
+    "importance": 4,
+    "people": [
+      "person-ho-chi-minh"
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Battle of Điện Biên Phủ",
+        "url": "https://www.britannica.com/event/Battle-of-Dien-Bien-Phu"
+      },
+      {
+        "title": "Bernard B. Fall, Hell in a Very Small Place: The Siege of Dien Bien Phu (Lippincott, 1966)"
+      },
+      {
+        "title": "Fredrik Logevall, Embers of War: The Fall of an Empire and the Making of America's Vietnam (Random House, 2012)"
+      },
+      {
+        "title": "Wikipedia: Battle of Dien Bien Phu",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-vietnam-war",
+    "qid": "Q8740",
+    "region": "southeast-asia",
+    "type": "war",
+    "year": 1955,
+    "endYear": 1975,
+    "name": {
+      "en": "Vietnam War",
+      "zh": "越南战争"
+    },
+    "summary": {
+      "en": "A war between communist North Vietnam with the southern National Liberation Front and the US-backed South Vietnam. US combat involvement peaked at over 500,000 troops in 1968; after the US withdrawal of 1973, Saigon fell in April 1975 and Vietnam was reunified.",
+      "zh": "以越南北方及南方民族解放阵线为一方、美国支持的南越为另一方的战争。1968年美军在越兵力超过五十万；1973年美军撤出后，西贡于1975年4月陷落，越南实现统一。"
+    },
+    "lat": 16.4637,
+    "lon": 107.5909,
+    "importance": 5,
+    "people": [
+      "person-ho-chi-minh"
+    ],
+    "route": [
+      {
+        "year": 1964,
+        "lat": 19.7833,
+        "lon": 106.5183,
+        "label": {
+          "en": "Gulf of Tonkin incident",
+          "zh": "北部湾事件"
+        }
+      },
+      {
+        "year": 1965,
+        "lat": 16.0544,
+        "lon": 108.2022,
+        "label": {
+          "en": "US Marines land at Đà Nẵng",
+          "zh": "美国海军陆战队登陆岘港"
+        }
+      },
+      {
+        "year": 1965,
+        "lat": 13.6,
+        "lon": 107.7,
+        "label": {
+          "en": "Battle of Ia Drang",
+          "zh": "德浪河谷战役"
+        }
+      },
+      {
+        "year": 1968,
+        "lat": 16.63,
+        "lon": 106.73,
+        "label": {
+          "en": "Siege of Khe Sanh",
+          "zh": "溪山围困战"
+        }
+      },
+      {
+        "year": 1968,
+        "lat": 10.7756,
+        "lon": 106.7019,
+        "label": {
+          "en": "Tet Offensive strikes Saigon",
+          "zh": "春节攻势袭击西贡"
+        }
+      },
+      {
+        "year": 1968,
+        "lat": 16.4637,
+        "lon": 107.5909,
+        "label": {
+          "en": "Battle of Huế",
+          "zh": "顺化战役"
+        }
+      },
+      {
+        "year": 1970,
+        "lat": 11.1,
+        "lon": 105.9,
+        "label": {
+          "en": "Cambodian Campaign (Parrot's Beak)",
+          "zh": "入侵柬埔寨（鹦鹉嘴）"
+        }
+      },
+      {
+        "year": 1972,
+        "lat": 16.75,
+        "lon": 107.19,
+        "label": {
+          "en": "Easter Offensive at Quảng Trị",
+          "zh": "复活节攻势：广治"
+        }
+      },
+      {
+        "year": 1975,
+        "lat": 12.67,
+        "lon": 108.04,
+        "label": {
+          "en": "Fall of Buôn Ma Thuột",
+          "zh": "邦美蜀失守"
+        }
+      },
+      {
+        "year": 1975,
+        "lat": 10.7781,
+        "lon": 106.6961,
+        "label": {
+          "en": "Fall of Saigon (30 Apr)",
+          "zh": "西贡陷落（4月30日）"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Vietnam War",
+        "url": "https://www.britannica.com/event/Vietnam-War"
+      },
+      {
+        "title": "Stanley Karnow, Vietnam: A History (Viking, 1983)"
+      },
+      {
+        "title": "Fredrik Logevall, Embers of War: The Fall of an Empire and the Making of America's Vietnam (Random House, 2012)"
+      },
+      {
+        "title": "Wikipedia: Vietnam War",
+        "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-gulf-of-tonkin-incident",
+    "qid": "Q482402",
+    "region": "southeast-asia",
+    "type": "battle",
+    "year": 1964,
+    "date": "1964-08-02",
+    "name": {
+      "en": "Gulf of Tonkin incident",
+      "zh": "北部湾事件"
+    },
+    "summary": {
+      "en": "North Vietnamese torpedo boats clashed with the USS Maddox on 2 August; a second reported attack on 4 August probably never happened. Congress's resulting Gulf of Tonkin Resolution authorised escalation of the war.",
+      "zh": "8月2日北越鱼雷艇与美舰“马多克斯”号交火；8月4日所报告的第二次袭击很可能并未发生。随后国会通过《北部湾决议》，授权战争升级。"
+    },
+    "lat": 19.7833,
+    "lon": 106.5183,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Gulf of Tonkin incident",
+        "url": "https://www.britannica.com/event/Gulf-of-Tonkin-incident"
+      },
+      {
+        "title": "Stanley Karnow, Vietnam: A History (Viking, 1983)"
+      },
+      {
+        "title": "Fredrik Logevall, Embers of War: The Fall of an Empire and the Making of America's Vietnam (Random House, 2012)"
+      },
+      {
+        "title": "Wikipedia: Gulf of Tonkin incident",
+        "url": "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-asean-founded",
+    "qid": "Q3042723",
+    "region": "southeast-asia",
+    "type": "treaty",
+    "year": 1967,
+    "date": "1967-08-08",
+    "name": {
+      "en": "ASEAN founded",
+      "zh": "东南亚国家联盟成立"
+    },
+    "summary": {
+      "en": "The foreign ministers of Indonesia, Malaysia, the Philippines, Singapore and Thailand signed the Bangkok Declaration, creating the Association of Southeast Asian Nations to promote regional cooperation and stability.",
+      "zh": "印度尼西亚、马来西亚、菲律宾、新加坡和泰国外长签署《曼谷宣言》，成立东南亚国家联盟，以促进区域合作与稳定。"
+    },
+    "lat": 13.7465,
+    "lon": 100.4945,
+    "importance": 4,
+    "place": "place-bangkok",
+    "sources": [
+      {
+        "title": "The ASEAN Declaration (Bangkok Declaration), 8 August 1967"
+      },
+      {
+        "title": "Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, Vol. 2: The Nineteenth and Twentieth Centuries (1992)"
+      },
+      {
+        "title": "Wikipedia: ASEAN Declaration",
+        "url": "https://en.wikipedia.org/wiki/ASEAN_Declaration"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-tet-offensive",
+    "qid": "Q82542",
+    "region": "southeast-asia",
+    "type": "battle",
+    "year": 1968,
+    "endYear": 1968,
+    "date": "1968-01-30",
+    "name": {
+      "en": "Tet Offensive",
+      "zh": "春节攻势"
+    },
+    "summary": {
+      "en": "During the Tết truce, communist forces attacked more than 100 towns across South Vietnam, including the US embassy in Saigon and the old capital Huế. A military failure for the attackers, it was a political turning point that eroded American support for the war.",
+      "zh": "在春节休战期间，共产党军队对南越一百多个城镇发动进攻，包括西贡美国大使馆和古都顺化。进攻在军事上失利，却成为政治转折点，削弱了美国国内对战争的支持。"
+    },
+    "lat": 11,
+    "lon": 107,
+    "importance": 4,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Tet Offensive",
+        "url": "https://www.britannica.com/topic/Tet-Offensive"
+      },
+      {
+        "title": "Stanley Karnow, Vietnam: A History (Viking, 1983)"
+      },
+      {
+        "title": "Fredrik Logevall, Embers of War: The Fall of an Empire and the Making of America's Vietnam (Random House, 2012)"
+      },
+      {
+        "title": "Wikipedia: Tet Offensive",
+        "url": "https://en.wikipedia.org/wiki/Tet_Offensive"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-cambodian-genocide",
+    "qid": "Q2885072",
+    "region": "southeast-asia",
+    "type": "political",
+    "year": 1975,
+    "endYear": 1979,
+    "date": "1975-04-17",
+    "name": {
+      "en": "Khmer Rouge rule and the Cambodian genocide",
+      "zh": "红色高棉统治与柬埔寨大屠杀"
+    },
+    "summary": {
+      "en": "After taking Phnom Penh on 17 April 1975, the Khmer Rouge emptied the cities and forced the population into agrarian labour camps. Execution, starvation and disease killed roughly 1.5–2 million people before Vietnam's invasion ended the regime in January 1979.",
+      "zh": "1975年4月17日攻占金边后，红色高棉驱散城市居民，强迫全体民众进入农业劳动营。处决、饥饿和疾病造成约一百五十万至二百万人死亡，直至1979年1月越南出兵推翻该政权。"
+    },
+    "lat": 11.4847,
+    "lon": 104.902,
+    "importance": 5,
+    "place": "place-phnom-penh",
+    "sources": [
+      {
+        "title": "Ben Kiernan, The Pol Pot Regime: Race, Power, and Genocide in Cambodia under the Khmer Rouge, 1975–79 (Yale University Press, 1996)"
+      },
+      {
+        "title": "David Chandler, A History of Cambodia (Westview, 4th ed. 2008)"
+      },
+      {
+        "title": "Documentation Center of Cambodia (DC-Cam)",
+        "url": "https://dccam.org/"
+      },
+      {
+        "title": "Wikipedia: Cambodian genocide",
+        "url": "https://en.wikipedia.org/wiki/Cambodian_genocide"
+      }
+    ],
+    "confidence": "medium",
+    "note": "Death-toll estimates range from about 1.5 to over 2 million; coordinates mark the Choeung Ek killing field."
+  },
+  {
+    "id": "ev-fall-of-saigon",
+    "qid": "Q482456",
+    "region": "southeast-asia",
+    "type": "fall",
+    "year": 1975,
+    "date": "1975-04-30",
+    "name": {
+      "en": "Fall of Saigon",
+      "zh": "西贡解放（西贡陷落）"
+    },
+    "summary": {
+      "en": "North Vietnamese tanks crashed through the gates of the Independence Palace as the last Americans were evacuated by helicopter. The surrender of South Vietnam ended the war; Saigon was renamed Ho Chi Minh City in 1976.",
+      "zh": "北越坦克冲破独立宫大门，最后一批美国人乘直升机撤离。南越投降，战争结束；1976年西贡改名为胡志明市。"
+    },
+    "lat": 10.7781,
+    "lon": 106.6961,
+    "importance": 4,
+    "place": "place-ho-chi-minh-city",
+    "sources": [
+      {
+        "title": "Stanley Karnow, Vietnam: A History (Viking, 1983)"
+      },
+      {
+        "title": "Keith W. Taylor, A History of the Vietnamese (Cambridge University Press, 2013)"
+      },
+      {
+        "title": "Wikipedia: Fall of Saigon",
+        "url": "https://en.wikipedia.org/wiki/Fall_of_Saigon"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-people-power-revolution",
+    "qid": "Q1274389",
+    "region": "southeast-asia",
+    "type": "political",
+    "year": 1986,
+    "date": "1986-02-22",
+    "name": {
+      "en": "People Power Revolution",
+      "zh": "人民力量革命"
+    },
+    "summary": {
+      "en": "After a fraudulent snap election, a military revolt and millions of peaceful protesters on Manila's EDSA avenue forced President Ferdinand Marcos into exile, bringing Corazon Aquino to power.",
+      "zh": "在舞弊的提前选举之后，军方哗变与数百万和平示威者聚集马尼拉乙沙大道，迫使总统费迪南德·马科斯流亡，科拉松·阿基诺就任总统。"
+    },
+    "lat": 14.5893,
+    "lon": 121.0587,
+    "importance": 3,
+    "sources": [
+      {
+        "title": "Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, Vol. 2: The Nineteenth and Twentieth Centuries (1992)"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Ferdinand Marcos",
+        "url": "https://www.britannica.com/biography/Ferdinand-E-Marcos"
+      },
+      {
+        "title": "Wikipedia: People Power Revolution",
+        "url": "https://en.wikipedia.org/wiki/People_Power_Revolution"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ev-indian-ocean-tsunami-2004",
+    "qid": "Q130754",
+    "region": "southeast-asia",
+    "type": "disaster",
+    "year": 2004,
+    "date": "2004-12-26",
+    "name": {
+      "en": "Indian Ocean earthquake and tsunami",
+      "zh": "印度洋大地震及海啸"
+    },
+    "summary": {
+      "en": "A magnitude 9.1 megathrust earthquake off northern Sumatra sent tsunamis across the Indian Ocean, killing about 230,000 people in 14 countries; Aceh in Indonesia suffered most.",
+      "zh": "苏门答腊北部近海发生9.1级逆冲型大地震，引发的海啸横扫印度洋，在十四个国家造成约二十三万人死亡，其中印度尼西亚亚齐受灾最为惨重。"
+    },
+    "lat": 3.295,
+    "lon": 95.982,
+    "importance": 5,
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica: Indian Ocean earthquake and tsunami",
+        "url": "https://www.britannica.com/event/Indian-Ocean-tsunami-of-2004"
+      },
+      {
+        "title": "U.S. Geological Survey, M 9.1 – 2004 Sumatra–Andaman Islands Earthquake (event summary)"
+      },
+      {
+        "title": "M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Palgrave, 4th ed. 2008)"
+      },
+      {
+        "title": "Wikipedia: 2004 Indian Ocean earthquake and tsunami",
+        "url": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
+      }
+    ],
+    "confidence": "high"
+  }
+]
