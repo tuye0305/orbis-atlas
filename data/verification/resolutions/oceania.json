@@ -1,0 +1,102 @@
+{
+  "ev-taupo-hatepe-eruption:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's 180 CE reflects older radiocarbon and ice-core estimates; wiggle-matched dating of a tree killed by the eruption gives 232 ± 10 CE (Hogg et al. 2012), now the standard date. Record is medium with note.",
+    "checked": ["A. Hogg et al., The Holocene 22 (2012) 439–449", "https://teara.govt.nz/en/historic-volcanic-activity/page-3"]
+  },
+  "ev-spanish-chamorro-wars:year": {
+    "verdict": "keep-ours",
+    "reason": "The record covers the conquest from the founding of San Vitores's mission at Hagåtña in 1668; open warfare began in 1671 (Guampedia) and Wikidata's 1670 is a convention. Note added.",
+    "checked": ["https://www.guampedia.com/chiefs-hurao/", "https://en.wikipedia.org/wiki/Spanish%E2%80%93Chamorro_Wars"]
+  },
+  "ev-spanish-chamorro-wars:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Guampedia reports fighting on Guam until 1684 and the last uprising in the northern Marianas in 1695, after which survivors were removed to Guam and Rota; Wikidata's 1699 is not supported there. Note explains.",
+    "checked": ["https://guampedia.com/?p=157", "R. F. Rogers, Destiny's Landfall (rev. ed. 2011)"]
+  },
+  "ev-spanish-chamorro-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a centroid of the Mariana Islands; the point marks Hagåtña, site of the mission, the Spanish stockade and the main sieges.",
+    "checked": ["https://www.guampedia.com/chiefs-hurao/"]
+  },
+  "ev-mutiny-on-the-bounty:coord": {
+    "verdict": "keep-ours",
+    "reason": "Bligh's log places the mutiny off Tofua in Tonga (c. 19.75 S, 175.07 W); Wikidata's coordinate south of New Zealand is erroneous.",
+    "checked": ["https://www.britannica.com/event/Mutiny-on-the-Bounty", "G. Dening, Mr Bligh's Bad Language (1992)"]
+  },
+  "ev-musket-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata uses a generic New Zealand point near Wellington; the event point marks the Bay of Islands, base of the Ngāpuhi campaigns that opened the wars; the route carries the later theatres.",
+    "checked": ["https://nzhistory.govt.nz/war/new-zealands-19th-century-wars/the-musket-wars"]
+  },
+  "ev-ai-noa:coord": {
+    "verdict": "keep-ours",
+    "reason": "The breaking of the eating kapu took place at Liholiho's court at Kailua-Kona on Hawaiʻi Island; Wikidata's point is a generic location on Oʻahu.",
+    "checked": ["https://www.britannica.com/biography/Kamehameha-II", "J. Silverman, Kaahumanu: Molder of Change (1987)"]
+  },
+  "ev-he-whakaputanga:coord": {
+    "verdict": "keep-ours",
+    "reason": "The declaration was signed at James Busby's residence at Waitangi; Wikidata's coordinate is Wellington, where the document is held (National Library / Archives).",
+    "checked": ["https://nzhistory.govt.nz/politics/declaration-of-independence-taming-the-frontier"]
+  },
+  "ev-franco-tahitian-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Most fighting (Mahaena, Papenoo, Punaruu, Fautaua) took place on Tahiti near Papeʻete; Wikidata's point is Raʻiatea, where the queen took refuge and a later phase was fought.",
+    "checked": ["C. Newbury, Tahiti Nui (1980)", "https://www.britannica.com/place/French-Polynesia/History"]
+  },
+  "ev-new-zealand-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata uses a generic New Zealand point; the record's point marks Rangiriri in the Waikato, the largest campaign, and the route lists the main theatres.",
+    "checked": ["https://nzhistory.govt.nz/war/new-zealands-19th-century-wars"]
+  },
+  "ev-victorian-gold-rush:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a centroid of the Victorian goldfields; the point marks Ballarat, the richest early field (1851). The 87 km gap is a choice of representative point.",
+    "checked": ["https://www.slv.vic.gov.au/search-discover/explore-collections-theme/australian-history/gold-rush"]
+  },
+  "ev-kanak-revolt-1878:coord": {
+    "verdict": "keep-ours",
+    "reason": "The rising began in June 1878 around La Foa and Boulouparis, Ataï's country; Wikidata's point is a generic central New Caledonia location.",
+    "checked": ["https://www.britannica.com/place/New-Caledonia/History", "A. Saussol, L'Héritage (1979)"]
+  },
+  "ev-wave-hill-walk-off:endYear": {
+    "verdict": "keep-ours",
+    "reason": "The record spans the strike and land campaign to Whitlam's lease handback at Daguragu on 16 August 1975; Wikidata's 1971 end is not the usual endpoint (NMA treats 1966–1975 as one episode).",
+    "checked": ["https://www.nma.gov.au/defining-moments/resources/wave-hill-walk-off", "https://adb.anu.edu.au/biography/lingiari-vincent-14177"]
+  },
+  "ev-bougainville-conflict:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Armed conflict ended with the 1998 ceasefire (Wikidata), but this record deliberately covers the peace process through the 2019 independence referendum promised by the 2001 Bougainville Peace Agreement.",
+    "checked": ["https://www.britannica.com/place/Bougainville-island-Papua-New-Guinea", "A. J. Regan, Light Intervention (2010)"]
+  },
+  "ev-bougainville-conflict:coord": {
+    "verdict": "keep-ours",
+    "reason": "The point marks the Panguna mine, where the conflict began in 1988; Wikidata's coordinate is a rounded point on Bougainville Island.",
+    "checked": ["https://www.britannica.com/place/Bougainville-island-Papua-New-Guinea"]
+  },
+  "person-te-rauparaha:born": {
+    "verdict": "disputed",
+    "reason": "Te Ara's Dictionary of New Zealand Biography says only that he was born probably in the 1760s; Wikidata's 1760 and our 1765 are both estimates. Record is medium with note.",
+    "checked": ["https://teara.govt.nz/en/biographies/1t74/te-rauparaha"]
+  },
+  "polity-tui-tonga:to": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata ends the 'empire' at 1826, when Tāufaʻāhau defeated the Tuʻi Tonga's party at Velata; the sacred Tuʻi Tonga title itself lapsed with Laufilitonga's death in 1865 (Campbell, Island Kingdom), which this record follows.",
+    "checked": ["I. C. Campbell, Island Kingdom: Tonga Ancient and Modern (2001)", "https://teara.govt.nz/en/tongans"]
+  },
+  "polity-kingdom-of-tonga:from": {
+    "verdict": "keep-ours",
+    "reason": "Q678 is the modern state, whose Wikidata inception is independence from British protection in 1970; the record covers the Tupou monarchy from George Tupou I's unification in 1845 (Britannica).",
+    "checked": ["https://www.britannica.com/place/Tonga/History"]
+  },
+  "polity-new-zealand:from": {
+    "verdict": "keep-ours",
+    "reason": "Q664's inception is the 1907 Dominion; the record covers New Zealand as a British-ruled polity from Hobson's proclamation of sovereignty in 1840, with capitals and governors from that date (Te Ara).",
+    "checked": ["https://teara.govt.nz/en/history-of-government", "https://nzhistory.govt.nz/politics/treaty-of-waitangi"]
+  },
+  "ev-battle-of-the-coral-sea:coord": {
+    "verdict": "keep-ours",
+    "reason": "The battle ranged across the Coral Sea; the carrier actions of 7–8 May took place roughly 800 km (430 nmi) off Queensland, where Lexington's wreck was found in 2018. Wikidata's point (162.3°E) lies east of the main battle area. Note added.",
+    "checked": ["https://news.usni.org/2018/03/05/video-billionaire-paul-allen-finds-lost-world-war-ii-carrier-uss-lexington", "https://www.awm.gov.au/encyclopedia/coral_sea/doc.asp"]
+  }
+}
