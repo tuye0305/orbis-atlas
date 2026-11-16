@@ -1,30 +1,35 @@
 import { useEffect, useMemo, useState } from 'react';
 import { EVENT_COLOR, EVENT_GLYPH, EVENT_TYPE_LABEL, s } from '../i18n';
 import { formatYear, t, useStore } from '../state/store';
-import type { ImageRef, L10n, Lang, Source, Stop } from '../types';
+import type { Details, ImageRef, Lang, Stop } from '../types';
 
-// Long-form stories live in a separate file so the first paint only waits for atlas.json.
-let storiesPromise: Promise<Record<string, L10n>> | null = null;
-function loadStories() {
-  storiesPromise ??= fetch(`${import.meta.env.BASE_URL}data/stories.json`)
+// Stories, sources, notes and Wikipedia links live in details.json, so first paint only waits for
+// atlas.json. The file is fetched once, on the first card that needs it.
+let detailsPromise: Promise<Record<string, Details>> | null = null;
+function loadDetails() {
+  detailsPromise ??= fetch(`${import.meta.env.BASE_URL}data/details.json`)
     .then((r) => (r.ok ? r.json() : {}))
     .catch(() => {
-      storiesPromise = null;
+      detailsPromise = null;
       return {};
     });
-  return storiesPromise;
+  return detailsPromise;
 }
 
-function Story({ id, lang }: { id: string; lang: Lang }) {
-  const [loaded, setLoaded] = useState<{ id: string; story: L10n | null } | null>(null);
+function useDetails(id: string): Details | null {
+  const [loaded, setLoaded] = useState<{ id: string; d: Details } | null>(null);
   useEffect(() => {
     let live = true;
-    loadStories().then((all) => live && setLoaded({ id, story: all[id] ?? null }));
+    loadDetails().then((all) => live && setLoaded({ id, d: all[id] ?? {} }));
     return () => {
       live = false;
     };
   }, [id]);
-  const story = loaded?.id === id ? loaded.story : null;
+  return loaded?.id === id ? loaded.d : null;
+}
+
+function Story({ id, lang }: { id: string; lang: Lang }) {
+  const story = useDetails(id)?.story;
   if (!story) return null;
   return (
     <div className="story">
@@ -37,13 +42,15 @@ function Story({ id, lang }: { id: string; lang: Lang }) {
   );
 }
 
+const commonsPage = (file: string) => `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(file.replace(/ /g, '_'))}`;
+
 function Img({ img, alt }: { img?: ImageRef; alt: string }) {
   if (!img) return null;
   return (
     <figure className="card-img">
       <img src={img.thumb} alt={alt} referrerPolicy="no-referrer" />
       <figcaption>
-        <a href={img.page} target="_blank" rel="noreferrer">
+        <a href={commonsPage(img.file)} target="_blank" rel="noreferrer">
           {img.artist ? `${img.artist} · ` : ''}
           {img.license ?? 'Wikimedia Commons'}
         </a>
@@ -52,7 +59,10 @@ function Img({ img, alt }: { img?: ImageRef; alt: string }) {
   );
 }
 
-function Sources({ sources, qid, wiki, lang }: { sources?: Source[]; qid?: string; wiki?: { en: string | null; zh: string | null }; lang: Lang }) {
+function Sources({ id, qid, lang }: { id: string; qid?: string; lang: Lang }) {
+  const d = useDetails(id);
+  const sources = d?.sources;
+  const wiki = d?.wiki;
   const page = wiki?.[lang] ?? wiki?.en;
   return (
     <details className="sources">
@@ -85,7 +95,8 @@ function Sources({ sources, qid, wiki, lang }: { sources?: Source[]; qid?: strin
  * are labelled 备注（英文） and marked lang="en" rather than machine-translated. Notes on
  * high-confidence records used to be hidden; they explain sourcing choices, so show them too.
  */
-function Confidence({ c, note, lang }: { c?: string; note?: string; lang: Lang }) {
+function Confidence({ c, id, lang }: { c?: string; id: string; lang: Lang }) {
+  const note = useDetails(id)?.note;
   const flagged = c === 'medium' || c === 'low';
   if (!flagged && !note) return null;
   const label = lang === 'zh' ? (c === 'medium' ? '存在争议或为约数' : '传统说法 / 可信度较低') : c === 'medium' ? 'Approximate or debated' : 'Traditional / low confidence';
@@ -158,7 +169,7 @@ export function DetailCard() {
           </div>
           <p className="summary">{t(e.summary, lang)}</p>
           <Story id={e.id} lang={lang} />
-          <Confidence c={e.confidence} note={e.note} lang={lang} />
+          <Confidence c={e.confidence} id={e.id} lang={lang} />
           {people.length > 0 && (
             <>
               <h4>{s('people_involved', lang)}</h4>
@@ -178,7 +189,7 @@ export function DetailCard() {
               <StopList stops={e.route} lang={lang} active={journeyStop} onPick={(i) => pickStop(e.route!, i)} />
             </>
           )}
-          <Sources sources={e.sources} qid={e.qid} wiki={e.wiki} lang={lang} />
+          <Sources id={e.id} qid={e.qid} lang={lang} />
         </>
       );
     }
@@ -195,7 +206,7 @@ export function DetailCard() {
           <div className="alt-name" lang={lang === 'zh' ? 'en' : 'zh'}>{lang === 'zh' ? p.name.en : p.name.zh}</div>
           <p className="summary">{t(p.summary, lang)}</p>
           <Story id={p.id} lang={lang} />
-          <Confidence c={p.confidence} note={p.note} lang={lang} />
+          <Confidence c={p.confidence} id={p.id} lang={lang} />
           <h4>{s('journey', lang)}</h4>
           <StopList stops={p.stops} lang={lang} active={journeyStop} onPick={(i) => pickStop(p.stops, i)} />
           <div className="stop-nav">
@@ -209,7 +220,7 @@ export function DetailCard() {
               <span aria-hidden>›</span>
             </button>
           </div>
-          <Sources sources={p.sources} qid={p.qid} wiki={p.wiki} lang={lang} />
+          <Sources id={p.id} qid={p.qid} lang={lang} />
         </>
       );
     }
@@ -263,8 +274,8 @@ export function DetailCard() {
               </ul>
             </>
           )}
-          <Confidence c={p.confidence} note={p.note} lang={lang} />
-          <Sources sources={p.sources} qid={p.qid} wiki={p.wiki} lang={lang} />
+          <Confidence c={p.confidence} id={p.id} lang={lang} />
+          <Sources id={p.id} qid={p.qid} lang={lang} />
         </>
       );
     }
@@ -298,8 +309,8 @@ export function DetailCard() {
               </ol>
             </>
           )}
-          <Confidence c={p.confidence} note={p.note} lang={lang} />
-          <Sources sources={p.sources} qid={p.qid} wiki={p.wiki} lang={lang} />
+          <Confidence c={p.confidence} id={p.id} lang={lang} />
+          <Sources id={p.id} qid={p.qid} lang={lang} />
         </>
       );
     }

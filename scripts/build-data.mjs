@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-// Merge curated data + Wikidata/Commons cache → public/data/atlas.json (+ stories.json, the long
-// narratives loaded lazily by the detail card), and write the auto-diff report (curated value vs
+// Merge curated data + Wikidata/Commons cache → public/data/atlas.json (+ details.json: stories,
+// sources, notes and Wikipedia links, which only the detail card needs and loads lazily), and write the auto-diff report (curated value vs
 // Wikidata) per dataset to data/verification/auto-diff/<dataset>.{json,md}.
 //   node scripts/build-data.mjs
-// The two public files are build outputs (git-ignored); `npm run dev` and `npm run build` regenerate them.
+// Both public files are build outputs (git-ignored); `npm run dev` and `npm run build` regenerate them.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -30,13 +30,15 @@ function image(file) {
   if (!file) return undefined;
   const c = commons[file];
   if (!c || c.missing) return undefined;
-  return { file, thumb: c.thumb, page: c.page, license: c.license, artist: c.artist };
+  // The Commons page URL is derived from `file` client-side.
+  return { file, thumb: c.thumb, license: c.license, artist: c.artist };
 }
 
 const diffs = [];
 const seen = new Map();
 const out = { events: [], people: [], places: [], polities: [] };
-const stories = {};
+const details = {};
+const DETAIL_FIELDS = ['story', 'sources', 'note', 'wiki'];
 const datasets = new Set();
 
 for (const { region: dataset, kind, records } of readCuratedFiles()) {
@@ -88,10 +90,12 @@ for (const { region: dataset, kind, records } of readCuratedFiles()) {
     if (img) r.image = img;
     else delete r.image;
     if (kind === 'polities' && !r.color) r.color = PALETTE[hash(r.id) % PALETTE.length];
-    if (r.story) {
-      stories[r.id] = r.story;
-      delete r.story;
+    const d = {};
+    for (const f of DETAIL_FIELDS) {
+      if (r[f] !== undefined && r[f] !== null) d[f] = r[f];
+      delete r[f];
     }
+    if (Object.keys(d).length) details[r.id] = d;
     out[kind].push(r);
   }
 }
@@ -104,7 +108,8 @@ const polityNames = read(path.join(ROOT, 'data/borders/polity-names.json'), {});
 const atlas = { generated: new Date().toISOString().slice(0, 10), ...out, polityNames };
 fs.mkdirSync(path.join(ROOT, 'public/data'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, 'public/data/atlas.json'), JSON.stringify(atlas));
-fs.writeFileSync(path.join(ROOT, 'public/data/stories.json'), JSON.stringify(stories));
+fs.writeFileSync(path.join(ROOT, 'public/data/details.json'), JSON.stringify(details));
+fs.rmSync(path.join(ROOT, 'public/data/stories.json'), { force: true });
 
 // Report: one file pair per dataset, so pull requests on different datasets never collide.
 const diffDir = path.join(ROOT, 'data/verification/auto-diff');
@@ -133,5 +138,5 @@ const open = diffs.filter((d) => !d.resolution);
 
 const kb = (f) => Math.round(fs.statSync(path.join(ROOT, 'public/data', f)).size / 1024);
 console.log(
-  `atlas.json ${kb('atlas.json')} KB, stories.json ${kb('stories.json')} KB (${Object.keys(stories).length}) · ${out.events.length} events, ${out.people.length} people, ${out.places.length} places, ${out.polities.length} polities · ${diffs.length} diffs (${open.length} open) · ${Object.keys(polityNames).length} border names`,
+  `atlas.json ${kb('atlas.json')} KB, details.json ${kb('details.json')} KB (${Object.values(details).filter((d) => d.story).length} stories) · ${out.events.length} events, ${out.people.length} people, ${out.places.length} places, ${out.polities.length} polities · ${diffs.length} diffs (${open.length} open) · ${Object.keys(polityNames).length} border names`,
 );

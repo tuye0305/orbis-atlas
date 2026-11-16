@@ -22,7 +22,6 @@ export interface Source {
 export interface ImageRef {
   file: string;
   thumb: string;
-  page: string;
   license: string | null;
   artist: string | null;
 }
@@ -33,12 +32,16 @@ interface Base {
   region: RegionKey;
   dataset: string;
   summary?: L10n;
-  /** Longer narrative (stories, anecdotes, context). Built into stories.json and loaded lazily. */
+  confidence?: 'high' | 'medium' | 'low';
+  image?: ImageRef;
+}
+
+/** Per-record fields only the detail card needs; built into details.json and loaded lazily. */
+export interface Details {
+  /** Longer narrative (stories, anecdotes, context). */
   story?: L10n;
   sources?: Source[];
-  confidence?: 'high' | 'medium' | 'low';
   note?: string;
-  image?: ImageRef;
   wiki?: { en: string | null; zh: string | null };
 }
 
