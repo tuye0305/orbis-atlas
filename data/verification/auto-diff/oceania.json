@@ -334,6 +334,31 @@
   }
  },
  {
+  "key": "ev-battle-of-the-coral-sea:coord",
+  "id": "ev-battle-of-the-coral-sea",
+  "dataset": "oceania",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   -15.5,
+   155.5
+  ],
+  "wikidata": [
+   -16.2667,
+   162.3333
+  ],
+  "qid": "Q207165",
+  "km": 736,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The battle ranged across the Coral Sea; the carrier actions of 7–8 May took place roughly 800 km (430 nmi) off Queensland, where Lexington's wreck was found in 2018. Wikidata's point (162.3°E) lies east of the main battle area. Note added.",
+   "checked": [
+    "https://news.usni.org/2018/03/05/video-billionaire-paul-allen-finds-lost-world-war-ii-carrier-uss-lexington",
+    "https://www.awm.gov.au/encyclopedia/coral_sea/doc.asp"
+   ]
+  }
+ },
+ {
   "key": "person-te-rauparaha:born",
   "id": "person-te-rauparaha",
   "dataset": "oceania",

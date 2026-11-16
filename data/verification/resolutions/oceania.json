@@ -93,5 +93,10 @@
     "verdict": "keep-ours",
     "reason": "Q664's inception is the 1907 Dominion; the record covers New Zealand as a British-ruled polity from Hobson's proclamation of sovereignty in 1840, with capitals and governors from that date (Te Ara).",
     "checked": ["https://teara.govt.nz/en/history-of-government", "https://nzhistory.govt.nz/politics/treaty-of-waitangi"]
+  },
+  "ev-battle-of-the-coral-sea:coord": {
+    "verdict": "keep-ours",
+    "reason": "The battle ranged across the Coral Sea; the carrier actions of 7–8 May took place roughly 800 km (430 nmi) off Queensland, where Lexington's wreck was found in 2018. Wikidata's point (162.3°E) lies east of the main battle area. Note added.",
+    "checked": ["https://news.usni.org/2018/03/05/video-billionaire-paul-allen-finds-lost-world-war-ii-carrier-uss-lexington", "https://www.awm.gov.au/encyclopedia/coral_sea/doc.asp"]
   }
 }

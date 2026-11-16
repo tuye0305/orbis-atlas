@@ -100,3 +100,39 @@ No year, date or coordinate errors were found in the sample beyond those already
 - `polity-kingitanga` and `ev-kingitanga-founding` share Q1235723 (the validator allows it; consider splitting if Wikidata gains an item for the 1858 installation).
 - Hawaiian chiefdom reigns before 1750 and Saudeleur reigns are genealogical placeholders (low confidence, noted).
 - Pearl Harbor and the Coral Sea are not in this dataset; check that the north-america or japan-korea datasets cover them.
+
+## 2026-11 audit (web-sourced)
+
+Independent audit using only sources retrieved during the audit (web search results and fetched pages); nothing checked from memory. Te Ara pages returned HTTP 403 to fetches, so Te Ara content was read through search snippets, with Wikipedia and NZHistory alongside.
+
+- Seed: `20261116` (mulberry32 shuffle over the 149 records new in this PR; first 15 kept, 8 of them with stories).
+- Sample: 15 records (8 events, 5 people, 1 place, 1 polity).
+
+| Record | Claims checked | Source(s) retrieved | Result |
+| --- | --- | --- | --- |
+| ev-leluh-kosrae | c. 1250–1850, about 1,500 people, basalt walls, canals, coral tombs, Isokelekel link | en.wikipedia Leluh archaeological site; Archaeology magazine (2015); en.wikipedia Isokelekel; Nan Madol | Fixed: the summary called the Isokelekel link a Kosraean tradition; it is Pohnpeian tradition, which says Isokelekel came from Kosrae (Katau). en and zh |
+| ev-hawaii-statehood | 1898/1900, Admission Act 18 Mar 1959, 27 Jun plebiscite (94.3%), 21 Aug, 1954 Democratic Revolution, Inouye, 442nd | en.wikipedia Hawaii Admission Act; Densho Encyclopedia; statehoodhawaii.org; EBSCO; Japanese in Hawaii (42.7% in 1920) | Confirmed |
+| person-tupaia | c. 1725 Raʻiatea, Taputapuātea, Bora Bora invasion c. 1763, Purea, Wallis, chart (74 named islands), crayfish drawing, died Batavia 20 Dec 1770 | en.wikipedia Tupaia | Confirmed |
+| person-pomare-iv | 1827–1877, 1836 expulsion of two priests, 1842 protectorate, Raʻiatea 1844, return Feb 1847 | en.wikipedia Pōmare IV; Franco-Tahitian War; BYU Religious Studies Center | Confirmed |
+| ev-murujuga-world-heritage | 11 Jul 2025, Paris, five Ngarda-Ngarli groups, >1 million engravings, second site after Budj Bim | WA DBCA joint media release; National Indigenous Times; UWA; Murujuga Aboriginal Corporation | Confirmed |
+| person-george-tupou-i | Baptised 7 Aug 1831, Tuʻi Kanokupolu Nov/Dec 1845, 1875 constitution, died 18 Feb 1893 aged 95/96 | royalark.net; en.wikipedia George Tupou I; Britannica snippet | Confirmed (1862 emancipation code not directly confirmed; sources cite 1835 local and 1875 general emancipation, so left unchanged) |
+| place-sydney | Warrane, 26 Jan 1788, Lord Sydney, transportation ended 1840, city 1842 | en.wikipedia Sydney Cove; History of Australia (1788–1850); Museums of History NSW | Confirmed |
+| ev-lms-mission-tahiti | Duff, 5 Mar 1797, 30 men, 18 left on Tahiti, Te Feipī 1815 | en.wikipedia First missionaries in Polynesia; Duff (1794 ship) | Confirmed |
+| ev-taputapuatea-marae | Opoa, ʻOro, stones carried to new marae, UNESCO 2017 | UNESCO WHC 1529; Tahiti Tourisme; en.wikipedia Taputapuatea marae | Confirmed |
+| ev-moriori-rekohu | c. 1500, Nunuku’s law (thumb-thick staff, first blood), 1835 (~900 people), Te Awapātiki, about 300 killed, 101 left in 1862, 2020 deed and 2021 Act | en.wikipedia Moriori; Te Ara snippets; DigitalNZ (Lord Rodney); Te Ao News | Fixed: the story called the brig “chartered”; sources say the Māori seized its crew at Port Nicholson. en and zh |
+| person-te-rauparaha | 1760s, Ka Mate and the kūmara pit with Te Wharerangi at Rotoaira, migration 1821–22, Kaiapoi 1831, Wairau 17 Jun 1843 (22 settlers, 4 Māori), seized 1846, 18 months, died Ōtaki 1849 | NZHistory; en.wikipedia Te Rauparaha; NZ Geographic; MBIE Ka Mate guidelines | Confirmed |
+| ev-moa-extinction | Nine species, ~3.6 m, extinct c. 1400 within 1–2 centuries, Haast’s eagle, Allentoft 2014 | Mongabay; ScienceDaily (Allentoft et al. 2014) | Confirmed |
+| polity-kingdom-of-tahiti | 1788–1880, Pōmare II to Moʻorea 1808, Te Feipī 1815, rulers, 1880 annexation | en.wikipedia Kingdom of Tahiti; Pōmare dynasty | Confirmed |
+| person-pemulwuy | Bidjigal, McIntyre 1790, Parramatta 1797, escape, killed 2 Jun 1802, head to Banks | National Museum of Australia; en.wikipedia Battle of Parramatta | Confirmed |
+| ev-spanish-chamorro-wars | San Vitores June 1668, Choco, Hurao 1671, Matapang 2 Apr 1672, Guam pacified by 1684, north by 1695, population collapse | en.wikipedia Spanish–Chamorro Wars; Hurao; Guampedia | Fixed: the story put the baptism-water rumour on “a Chinese man in the mission’s company”; it was Choco, a Chinese castaway on Saipan, who said the water was poisoned. en and zh |
+
+**Error rate:** 3 of 15 records (20%), all minor attribution or wording errors. Dates, numbers, QIDs and the zh renderings checked out.
+
+### Gap events added
+
+A search of every worktree (`/Users/ye/work/world-map-wt/*/data/*/events.json`) and of `events.json` on every pushed branch found no record of either event by id or QID.
+
+- `ev-attack-on-pearl-harbor` (Q52418): 7 Dec 1941, Oʻahu, importance 5, linked to place-honolulu. Sources: NPS casualty page (2,390 killed; Arizona 1,177; Oklahoma 429), NHHC USS Arizona, Wikipedia. The note explains the 2,390 vs 2,403 death tolls.
+- `ev-battle-of-the-coral-sea`: the brief’s QID **Q208353 is wrong** (Wikidata: “circadian rhythm”). The correct item is **Q207165**, checked with `wd.mjs lookup`; no dataset uses it. 4–8 May 1942, importance 4, linked to polity-australia. Sources: AWM encyclopedia and *Wartime*, DVA Anzac Portal, Wikipedia. The marker sits in the carrier battle area, about 800 km off Queensland. A new coordinate diff with Wikidata (736 km; Wikidata's point is at 162°E) was resolved as keep-ours.
+
+Both have en/zh summaries and stories. Validator: 0 errors. Enrich and build are clean, with 0 open diffs.
