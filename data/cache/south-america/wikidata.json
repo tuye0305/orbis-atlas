@@ -1478,6 +1478,30 @@
   },
   "locationQid": null
  },
+ "Q15974702": {
+  "label": {
+   "en": "Bagno of French Guiana",
+   "zh": null
+  },
+  "description": null,
+  "coord": {
+   "lat": 5.283,
+   "lon": -52.583
+  },
+  "image": "Le bagne, îles du Salut.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q870455"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  }
+ },
  "Q1607862": {
   "label": {
    "en": "Antonio Caballero y Góngora",
@@ -4198,6 +4222,37 @@
    "zh": "智利"
   }
  },
+ "Q3001": {
+  "label": {
+   "en": "Paramaribo",
+   "zh": "帕拉马里博"
+  },
+  "description": "capital city of Suriname",
+  "coord": {
+   "lat": 5.8667,
+   "lon": -55.1667
+  },
+  "image": "Waterkant Paramaribo with the Unesco Heritage Buildings.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1613,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q56061"
+  ],
+  "wiki": {
+   "en": "Paramaribo",
+   "zh": "帕拉马里博"
+  }
+ },
  "Q3040480": {
   "label": {
    "en": "Duarte da Costa",
@@ -4780,6 +4835,38 @@
    "zh": "罗慕洛·贝坦科尔特"
   },
   "locationQid": null
+ },
+ "Q3337680": {
+  "label": {
+   "en": "Berbice Slave Uprising",
+   "zh": "伯比斯奴隶起义"
+  },
+  "description": "slave revolt in Berbice",
+  "coord": null,
+  "image": "Berbice -revolt 1763.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1763,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1764,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1155622"
+  ],
+  "wiki": {
+   "en": "Berbice Rebellion",
+   "zh": null
+  },
+  "locationQid": "Q675322"
  },
  "Q334711": {
   "label": {
@@ -6356,6 +6443,38 @@
    "en": "Muisca Confederations (political units)",
    "zh": "穆伊斯卡联盟"
   }
+ },
+ "Q5809": {
+  "label": {
+   "en": "Che Guevara",
+   "zh": "切·格瓦拉"
+  },
+  "description": "Argentine Marxist revolutionary (1928–1967)",
+  "coord": null,
+  "image": "Che Guevara - Guerrillero Heroico by Alberto Korda.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1928,
+   "date": "1928-06-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1967,
+   "date": "1967-10-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Che Guevara",
+   "zh": "切·格瓦拉"
+  },
+  "locationQid": null
  },
  "Q581741": {
   "label": {
@@ -8287,6 +8406,16 @@
   "label": {
    "en": "New Zealand",
    "zh": "新西兰"
+  }
+ },
+ "loc:Q675322": {
+  "coord": {
+   "lat": 6.2337,
+   "lon": -57.543
+  },
+  "label": {
+   "en": "Berbice",
+   "zh": "伯比斯"
   }
  },
  "loc:Q867885": {

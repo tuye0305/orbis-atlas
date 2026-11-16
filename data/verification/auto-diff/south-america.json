@@ -714,6 +714,31 @@
   }
  },
  {
+  "key": "ev-berbice-slave-uprising:coord",
+  "id": "ev-berbice-slave-uprising",
+  "dataset": "south-america",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   5.7724,
+   -57.6616
+  ],
+  "wikidata": [
+   6.2337,
+   -57.543
+  ],
+  "qid": "Q3337680",
+  "km": 53,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s point is New Amsterdam at the mouth of the Berbice and Canje rivers, a town laid out only in the 1790s. The rising spread along both rivers; our marker is Fort Nassau, the seat of the colony, which Governor van Hoogenheim abandoned in 1763 (Kars, Blood on the River).",
+   "checked": [
+    "https://www.britannica.com/place/Guyana/History",
+    "https://en.wikipedia.org/wiki/Berbice_Rebellion"
+   ]
+  }
+ },
+ {
   "key": "person-pachacuti:born",
   "id": "person-pachacuti",
   "dataset": "south-america",

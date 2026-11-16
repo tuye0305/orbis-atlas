@@ -71,3 +71,65 @@ Each record below was checked against at least one independent source by web sea
 - No Humboldt or Che Guevara person records, to avoid cross-region id collisions.
 - Guyana, Suriname and French Guiana are covered thinly.
 - Amazonian societies after 1500 and 20th-century Indigenous movements could be deepened.
+
+## 2026-11 review
+
+Independent reviewer, working on top of the curator's branch. The curator's spot-check covered 38 records. This review sampled **108 other records (62% of 174)**:
+- all 50 stories that the curator had not sampled, read in full in English, with the zh text read for the 9 records corrected below;
+- 17 people, 15 polities (with ruler lists), 16 events without stories and 10 places, at field level (years, stops, `names` ranges, rulers, coordinates, summary claims).
+
+Every QID label and description was compared with the cached Wikidata entity, and every zh name with its 中文维基 title and zh label. Every event coordinate was checked against the site it names. The checks used Britannica, Wikipedia (as a second source only), the Darwin Correspondence Project, OpenStreetMap/Nominatim for coordinates, and the works cited below.
+
+### Corrections
+
+| Record | Old | New | Reason / source |
+| --- | --- | --- | --- |
+| ev-cabral-reaches-brazil (story) | "His letter lay forgotten…" (reads as Cabral's) | "Caminha's letter…" | The letter rediscovered in 1773 is Pero Vaz de Caminha's; the zh text already said so. |
+| ev-chaco-war (story) | fighting "broke out at Boquerón in 1932" | the Pitiantuta clash of June 1932 escalated into war; first great battle at Boquerón in September | Britannica (Chaco War); Encyclopedia.com (Pitiantuta). |
+| ev-rebellion-of-tupac-amaru-ii (story) | La Paz besieged "for a total of more than 100 days" | the first siege lasted 109 days from March, the second ran from August to October | Thomson, *We Alone Will Rule*; Wikipedia (Túpac Katari). The old wording understated the sieges, which lasted about six months in all. |
+| person-eva-peron (story) | body "hidden in Italy for 16 years" | hidden for 16 years, most of them in a Milan grave under a false name; handed to Perón in 1971; back in Argentina in 1974 | Fraser & Navarro, *Evita*: seized 1955, buried in Milan 1957–71. |
+| person-pedro-ii-of-brazil | "corresponded with Darwin, Pasteur and Victor Hugo"; 1840 stop "Declared of age and crowned" | Darwin dropped; stop reads "Declared of age (crowned in July 1841)" | The Darwin Correspondence Project has no letters between them, only Hooker's 1877 letters about the Emperor wishing to meet Darwin. He was crowned on 18 July 1841. |
+| person-pachacuti, ev-machu-picchu (stories) | a 1568 document "found in Cusco archives in the 1980s" "shows" Machu Picchu was Pachacuti's | land records of 1568, published by John Rowe in 1990, place the Picchu valley fields in Pachacuti's estate; most scholars infer the site was too | Rowe, *Histórica* 14 (1990). The attribution is an inference, and Rowe was an archaeologist, not a historian. |
+| ev-guayaquil-conference | San Martín "left South America" after Guayaquil | withdrew from the war and later left for Europe | He went to Chile and Argentina first and sailed for Europe only in 1824 (Lynch). |
+| ev-huacas-de-moche | "tens of millions of marked bricks" | "an estimated 140 million" | Hastings & Moseley, *American Antiquity* 40 (1975), estimate more than 143 million; source added. |
+| place-salvador | "which made it the most African city of the Americas" | "often called the most African city…" | The superlative is a characterisation, not a fact. |
+| person-francisco-de-orellana | royal licence stop dated 1543 | 1544 | His capitulation for New Andalusia was signed in Valladolid in February 1544. |
+| person-pedro-de-valdivia | confidence high, born 1497 | medium, with a note | Sources give 1497 to c. 1502; Britannica gives c. 1498. |
+| polity-empire-of-brazil | rulers listed Pedro I, Feijó (1835), Pedro II (1831) | sorted by start year | The schema requires rulers in time order. |
+| ev-parliament-of-quilin | -38.05, -72.65 (about 40 km north of the Quillén river) | -38.46, -72.50, with a note | The parliament met on the plain of the Quillén river in Cautín province (es.wikipedia, Río Quillén; OSM). |
+| zh names | 尊比 / 阿莱雅丁尼奥 / 米凯拉 / 库埃拉普 | 祖比 (祖比·多斯帕尔马雷斯) / 阿莱雅迪尼奥 / 米卡埃拉 / 奎拉普 | Changed throughout the dataset to the 中文维基 renderings. |
+| ev-voyage-of-the-beagle | `people` empty; note pointed to ev-origin-of-species | `people: ["person-charles-darwin"]` | That id exists on the Europe branch (`data/europe/people.json`). Until that branch merges, the validator shows an "unknown person" warning. |
+
+Every other zh name matched 中文维基 or a standard rendering. Some kept renderings differ from the zhwiki title: 皮萨罗 (zhwiki 皮泽洛), 庇隆 (zhwiki 裴隆, a Taiwan form), 帕查库蒂 (zhwiki 帕查库特克), 瓦曼·波马 (zh label 瓜曼·波马) and 蒂瓦纳库 (zhwiki 蒂亚瓦纳科). All of these are standard mainland forms or closer transliterations, so they stay.
+
+### Disputed verdicts
+
+`resolutions/south-america.json` holds **7** disputed verdicts, not the 10 the curator's summary reported; the file has 42 keep-ours. Each was rechecked:
+- **ev-arauco-war (start and end):** a matter of periodisation, so no source can settle it.
+- **person-pachacuti (born), person-atahualpa (born):** neither date is documented, and the chroniclers conflict.
+- **person-aleijadinho (born):** the 1730 baptism record and the 1814 age at death cannot both be right.
+- **polity-chachapoya (from), polity-muisca (from):** archaeological chronologies.
+
+All seven are genuinely disputed. Each record carries medium or low confidence with a note, which is correct.
+
+### Pre-Columbian chronology
+
+Every Moche, Nazca, Tiwanaku, Wari, Chimú, Sicán, Chachapoya, Muisca and Kingdom of Cusco record carries medium or low confidence. polity-inca-empire (from 1438) and the Pachacuti, Topa Inca and Huayna Capac records note that their dates follow Rowe's Cabello Valboa-based chronology. ev-machu-picchu notes the Burger et al. (2021) AMS dates.
+
+### Coordinates
+
+The Peru-centroid items (Q2890406, Q1763918, Q152004, Q852133, and Q923516 for polity-wari) all have markers at the real sites: Anta plain/Cusco, Quipaipan, Antofagasta, Ayacucho and Huari. Every other event was checked against the site it names. Only Quilín needed a fix. San José mine (Copiapó) matches the mine's coordinates.
+
+### Additions (4 new records, 3 with stories)
+
+- `person-che-guevara` (Q5809, 1928–1967): 9 stops, from Rosario to La Higuera, and a story. The disputed number of La Cabaña executions is stated as a range. Sources: Britannica; Anderson (1997).
+- `ev-berbice-slave-uprising` (Q3337680, 1763–64, Guyana), with a story. Sources: Kars, *Blood on the River* (2020); Britannica. Its coordinate diff is resolved keep-ours (Fort Nassau rather than New Amsterdam).
+- `ev-french-guiana-penal-colony` (Q15974702, 1852–1953), with a story. Sources: Britannica; Toth, *Beyond Papillon* (2006); Criminocorpus.
+- `place-paramaribo` (Q3001), with a name genealogy from 1650 to today. Sources: UNESCO 940; Britannica.
+- `ev-humboldt-climbs-chimborazo`: the route now includes the departure from Guayaquil (1803) and the return to Bordeaux (1804). This event already covers the journey, so no separate Humboldt person record was added.
+
+### Left for a human
+
+- `person-charles-darwin` is on the Europe branch. Merge both branches before release, or the Beagle link stays a validator warning.
+- ev-columbus-reaches-paria links `person-christopher-columbus`, which another dataset defines.
+- The modern state polities (Paraguay to Brazil) were checked for dates only.

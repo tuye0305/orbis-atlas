@@ -397,5 +397,13 @@
       "https://en.wikipedia.org/wiki/History_of_Brazil",
       "Boris Fausto, A Concise History of Brazil (1999)"
     ]
+  },
+  "ev-berbice-slave-uprising:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is New Amsterdam at the mouth of the Berbice and Canje rivers, a town laid out only in the 1790s. The rising spread along both rivers; our marker is Fort Nassau, the seat of the colony, which Governor van Hoogenheim abandoned in 1763 (Kars, Blood on the River).",
+    "checked": [
+      "https://www.britannica.com/place/Guyana/History",
+      "https://en.wikipedia.org/wiki/Berbice_Rebellion"
+    ]
   }
 }
