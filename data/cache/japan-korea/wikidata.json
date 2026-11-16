@@ -26,6 +26,38 @@
   },
   "locationQid": "Q42088"
  },
+ "Q1041401": {
+  "label": {
+   "en": "Shō Kei",
+   "zh": "尚敬王"
+  },
+  "description": "13th king of the Ryukyu Kingdom",
+  "coord": null,
+  "image": "ShoKeireturned.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1700,
+   "date": "1700-08-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1752,
+   "date": "1752-03-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō Kei",
+   "zh": "尚敬王"
+  },
+  "locationQid": null
+ },
  "Q1059474": {
   "label": {
    "en": "Japanese economic miracle",
@@ -261,6 +293,38 @@
   "wiki": {
    "en": "Wajinden",
    "zh": "魏志倭人傳"
+  },
+  "locationQid": null
+ },
+ "Q1139907": {
+  "label": {
+   "en": "Shō Sei",
+   "zh": "尚清王"
+  },
+  "description": "4th king of the Ryukyu Kingdom",
+  "coord": null,
+  "image": "Sho-Sei-color.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1497,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1555,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō Sei",
+   "zh": "尚清王"
   },
   "locationQid": null
  },
@@ -5685,6 +5749,33 @@
   },
   "locationQid": null
  },
+ "Q485343": {
+  "label": {
+   "en": "Treaty on Basic Relations between Japan and the Republic of Korea",
+   "zh": "韩日基本条约"
+  },
+  "description": "treaty signed on June 22, 1965, establishing basic diplomatic relations between Japan and South Korea",
+  "coord": null,
+  "image": "A copy of Treaty on Basic Relations between Japan and the Republic of Korea.jpg",
+  "pointInTime": {
+   "year": 1965,
+   "date": "1965-06-22",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q9557810"
+  ],
+  "wiki": {
+   "en": "Treaty on Basic Relations Between Japan and the Republic of Korea",
+   "zh": "日韩基本条约"
+  },
+  "locationQid": null
+ },
  "Q485578": {
   "label": {
    "en": "Gyeongsun of Silla",
@@ -6238,6 +6329,28 @@
    "zh": "三別抄之亂"
   },
   "locationQid": "Q485651"
+ },
+ "Q490868": {
+  "label": {
+   "en": "Guhyeong of Geumgwan Gaya",
+   "zh": "金仇衡"
+  },
+  "description": null,
+  "coord": null,
+  "image": "Portraits of kings at Tongiljeon.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Guhyeong of Geumgwan Gaya",
+   "zh": "仇衡王"
+  },
+  "locationQid": null
  },
  "Q493702": {
   "label": {
@@ -7685,6 +7798,33 @@
    "zh": "出島"
   }
  },
+ "Q6429581": {
+  "label": {
+   "en": "Kono Statement",
+   "zh": "河野談話"
+  },
+  "description": "political statement from 1993 about comfort women by the government of Japan",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1993,
+   "date": "1993-08-04",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7225113"
+  ],
+  "wiki": {
+   "en": "Kono Statement",
+   "zh": "河野談話"
+  },
+  "locationQid": null
+ },
  "Q6540361": {
   "label": {
    "en": "surrender of Japan",
@@ -8156,6 +8296,38 @@
    "en": "Atomic bombing of Hiroshima",
    "zh": "广岛市原子弹爆炸"
   }
+ },
+ "Q704083": {
+  "label": {
+   "en": "Mu of Balhae",
+   "zh": "大武艺"
+  },
+  "description": "Balhae ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 650,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 737,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mu of Balhae",
+   "zh": "大武藝"
+  },
+  "locationQid": null
  },
  "Q706397": {
   "label": {
@@ -8948,6 +9120,65 @@
    "zh": "1988年夏季奥林匹克运动会"
   },
   "locationQid": "Q392086"
+ },
+ "Q8514298": {
+  "label": {
+   "en": "Matsumae Norihiro",
+   "zh": "松前矩廣"
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1660,
+   "date": "1660-01-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1721,
+   "date": "1721-01-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "松前矩廣"
+  },
+  "locationQid": null
+ },
+ "Q85869754": {
+  "label": {
+   "en": "Act Promoting Measures to Achieve a Society in which the Pride of Ainu People is Respected",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 2019,
+   "date": "2019-04-19",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q820655"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q862509": {
   "label": {
