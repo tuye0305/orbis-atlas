@@ -1,0 +1,8808 @@
+{
+ "Q102870": {
+  "label": {
+   "en": "Harriet Tubman",
+   "zh": "哈莉特·塔布曼"
+  },
+  "description": "African-American abolitionist (1822–1913)",
+  "coord": null,
+  "image": "Harriet Tubman (circa 1885).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1912,
+   "date": "1912-03-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Harriet Tubman",
+   "zh": "哈莉特·塔布曼"
+  },
+  "locationQid": null
+ },
+ "Q10459867": {
+  "label": {
+   "en": "Coronado expedition",
+   "zh": null
+  },
+  "description": "1540-1542 Spanish venture along the west coast of Mexico north into what is now Arizona, New Mexico, Texas, Oklahoma and Kansas",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1540,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1542,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2401485"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1052095": {
+  "label": {
+   "en": "Mississippian culture",
+   "zh": "密西西比文化"
+  },
+  "description": "mound-building Native American culture in Midwestern, Eastern, and Southeastern United States",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 800,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1600,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q465299",
+   "Q262714"
+  ],
+  "wiki": {
+   "en": "Mississippian period (archaeology)",
+   "zh": "密西西比文化"
+  },
+  "locationQid": null
+ },
+ "Q10525989": {
+  "label": {
+   "en": "Hopewell Ceremonial Earthworks",
+   "zh": null
+  },
+  "description": "World Heritage Site in the United States",
+  "coord": {
+   "lat": 40.0537,
+   "lon": -82.4461
+  },
+  "image": "Hopewell Culture National Historical Park.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q18247357"
+  ],
+  "wiki": {
+   "en": "Hopewell Ceremonial Earthworks",
+   "zh": null
+  }
+ },
+ "Q1052780": {
+  "label": {
+   "en": "Sherman's March to the Sea",
+   "zh": "舍曼向大海进军"
+  },
+  "description": "1864 military campaign of the American Civil War",
+  "coord": {
+   "lat": 32.1287,
+   "lon": -81.1519
+  },
+  "image": "F.O.C. Darley and Alexander Hay Ritchie - Sherman's March to the Sea.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1864,
+   "date": "1864-11-15",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1864,
+   "date": "1864-12-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q831663",
+   "Q2001676"
+  ],
+  "wiki": {
+   "en": "Sherman's March to the Sea",
+   "zh": "舍曼向大海进军"
+  }
+ },
+ "Q1060888": {
+  "label": {
+   "en": "Pueblo Bonito",
+   "zh": "博尼托鎮"
+  },
+  "description": "ancient Puebloan ruin in New Mexico",
+  "coord": {
+   "lat": 36.0606,
+   "lon": -107.962
+  },
+  "image": "Chaco Canyon Pueblo Bonito digital reconstruction.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3947"
+  ],
+  "wiki": {
+   "en": "Pueblo Bonito",
+   "zh": null
+  }
+ },
+ "Q1061891": {
+  "label": {
+   "en": "Selma to Montgomery marches",
+   "zh": "从塞尔玛到蒙哥马利游行"
+  },
+  "description": "1965 march for African-American citizens to exercise their constitutional right to vote",
+  "coord": null,
+  "image": "Bloody Sunday-Alabama police attack.jpeg",
+  "pointInTime": {
+   "year": 1965,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1965,
+   "date": "1965-03-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1965,
+   "date": "1965-03-25",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q175331"
+  ],
+  "wiki": {
+   "en": "Selma to Montgomery marches",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1073716": {
+  "label": {
+   "en": "Chinese Exclusion Act",
+   "zh": "排华法案"
+  },
+  "description": "act of US Congress in 1882 that prohibited all immigration of Chinese laborers",
+  "coord": null,
+  "image": "Chineseexclusionact.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": {
+   "year": 1943,
+   "date": "1943-12-17",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q476068"
+  ],
+  "wiki": {
+   "en": "Chinese Exclusion Act",
+   "zh": "美国排华法案"
+  },
+  "locationQid": null
+ },
+ "Q10806": {
+  "label": {
+   "en": "September 11 attacks",
+   "zh": "九一一袭击事件"
+  },
+  "description": "2001 attacks in the United States",
+  "coord": null,
+  "image": "North face south tower after plane strike 9-11.jpg",
+  "pointInTime": {
+   "year": 2001,
+   "date": "2001-09-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q898712",
+   "Q750215",
+   "Q217327"
+  ],
+  "wiki": {
+   "en": "September 11 attacks",
+   "zh": "九一一袭击事件"
+  },
+  "locationQid": "Q107126"
+ },
+ "Q108413": {
+  "label": {
+   "en": "Wounded Knee Massacre",
+   "zh": "伤膝河大屠杀"
+  },
+  "description": "violent attack on Lakota Indians in 1890 by the United States Army",
+  "coord": {
+   "lat": 43.1425,
+   "lon": -102.365
+  },
+  "image": "Woundedkneesceneafterbattle.jpg",
+  "pointInTime": {
+   "year": 1890,
+   "date": "1890-12-29",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Wounded Knee Massacre",
+   "zh": "伤膝河大屠杀"
+  }
+ },
+ "Q1128871": {
+  "label": {
+   "en": "March on Washington for Jobs and Freedom",
+   "zh": "向华盛顿进军"
+  },
+  "description": "1963 demonstration of the civil rights movement",
+  "coord": {
+   "lat": 38.8893,
+   "lon": -77.0501
+  },
+  "image": "March on Washington for Jobs and Freedom, Martin Luther King, Jr. and Joachim Prinz 1963.jpg",
+  "pointInTime": {
+   "year": 1963,
+   "date": "1963-08-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15631336"
+  ],
+  "wiki": {
+   "en": "March on Washington",
+   "zh": "向华盛顿进军"
+  }
+ },
+ "Q1134261": {
+  "label": {
+   "en": "Cornplanter",
+   "zh": "種粟者"
+  },
+  "description": "Seneca war chief (1752-1836)",
+  "coord": null,
+  "image": "Cornplanter.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1732,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1836,
+   "date": "1836-02-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cornplanter",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q11698": {
+  "label": {
+   "en": "United States Constitution",
+   "zh": "美国宪法"
+  },
+  "description": "supreme law of the United States of America since March 4th, 1789",
+  "coord": null,
+  "image": "Constitution of the United States - DPLA - 9ca804144bd5965e992ae3528bc3c6a3 (page 1).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 2026,
+   "date": "2026-09-17",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7755",
+   "Q47461344"
+  ],
+  "wiki": {
+   "en": "Constitution of the United States",
+   "zh": "美国宪法"
+  },
+  "locationQid": null
+ },
+ "Q11812": {
+  "label": {
+   "en": "Thomas Jefferson",
+   "zh": "托马斯·杰斐逊"
+  },
+  "description": "Founding Father, U.S. president from 1801 to 1809 (1743–1826)",
+  "coord": null,
+  "image": "Official Presidential portrait of Thomas Jefferson (by Rembrandt Peale, 1800)(cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1743,
+   "date": "1743-04-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1826,
+   "date": "1826-07-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Thomas Jefferson",
+   "zh": "托马斯·杰斐逊"
+  },
+  "locationQid": null
+ },
+ "Q11817": {
+  "label": {
+   "en": "Andrew Jackson",
+   "zh": "安德鲁·杰克逊"
+  },
+  "description": "president of the United States from 1829 to 1837",
+  "coord": null,
+  "image": "Andrew jackson head.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1767,
+   "date": "1767-03-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1845,
+   "date": "1845-06-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrew Jackson",
+   "zh": "安德鲁·杰克逊"
+  },
+  "locationQid": null
+ },
+ "Q11917982": {
+  "label": {
+   "en": "Ecueracapa",
+   "zh": null
+  },
+  "description": "Comanche war leader",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1779,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1793,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q119702": {
+  "label": {
+   "en": "Anne of Great Britain",
+   "zh": "安妮"
+  },
+  "description": "Queen of Great Britain and Ireland from 1702 to 1714 (1665–1714)",
+  "coord": null,
+  "image": "Dahl, Michael - Queen Anne - NPG 6187.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1665,
+   "date": "1665-02-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1714,
+   "date": "1714-08-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anne, Queen of Great Britain",
+   "zh": "安妮女王"
+  },
+  "locationQid": null
+ },
+ "Q11973056": {
+  "label": {
+   "en": "Greenland home rule",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2752458"
+  ],
+  "wiki": {
+   "en": "Greenland home rule",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1207617": {
+  "label": {
+   "en": "Pequot War",
+   "zh": "佩克特战争"
+  },
+  "description": "war",
+  "coord": null,
+  "image": "Pequot war.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1636,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1638,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Pequot War",
+   "zh": null
+  },
+  "locationQid": "Q18389"
+ },
+ "Q122553": {
+  "label": {
+   "en": "Charles II of England",
+   "zh": "查理二世"
+  },
+  "description": "King of England, Scotland, and Ireland (1630–1685)",
+  "coord": null,
+  "image": "Sir Peter Lely (1618-80) - Charles II (1630-1685) - RCIN 405672 - Royal Collection.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1630,
+   "date": "1630-05-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1685,
+   "date": "1685-02-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles II of England",
+   "zh": "查理二世 (英格兰)"
+  },
+  "locationQid": null
+ },
+ "Q1230986": {
+  "label": {
+   "en": "Patriation",
+   "zh": "宪法回归"
+  },
+  "description": "political process that led to full Canadian sovereignty from the UK",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1982,
+   "date": "1982-04-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q37055"
+  ],
+  "wiki": {
+   "en": "Patriation",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q12439": {
+  "label": {
+   "en": "Detroit",
+   "zh": "底特律"
+  },
+  "description": "city in and county seat of Wayne County, and largest city in State of Michigan, United States",
+  "coord": {
+   "lat": 42.3317,
+   "lon": -83.0475
+  },
+  "image": "Detroit montage 2020.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1701,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1093829",
+   "Q62049",
+   "Q902814",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Detroit",
+   "zh": "底特律"
+  }
+ },
+ "Q125029": {
+  "label": {
+   "en": "Louis de Buade de Frontenac",
+   "zh": "路易斯·包德"
+  },
+  "description": "Governor of New France",
+  "coord": null,
+  "image": "Louis de Buade, comte de Frontenac et de Palluau (1622-1698).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1622,
+   "date": "1622-05-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1698,
+   "date": "1698-11-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis de Buade de Frontenac",
+   "zh": "路易·德·比阿德·德·弗龙特纳克"
+  },
+  "locationQid": null
+ },
+ "Q1255768": {
+  "label": {
+   "en": "Hohokam",
+   "zh": "霍霍坎文化"
+  },
+  "description": "archaeological culture",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 300,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q465299"
+  ],
+  "wiki": {
+   "en": "Hohokam",
+   "zh": "霍霍坎文化"
+  },
+  "locationQid": null
+ },
+ "Q126195": {
+  "label": {
+   "en": "Plymouth Colony",
+   "zh": "普利茅斯殖民地"
+  },
+  "description": "17th century English possession in North America",
+  "coord": {
+   "lat": 41.9575,
+   "lon": -70.6625
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1620,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1691,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q617219",
+   "Q1048835",
+   "Q19953632"
+  ],
+  "wiki": {
+   "en": "Plymouth Colony",
+   "zh": "普利茅斯殖民地"
+  }
+ },
+ "Q127050": {
+  "label": {
+   "en": "Manhattan Project",
+   "zh": "曼哈顿计划"
+  },
+  "description": "World War II American R&D program that produced the first nuclear weapons",
+  "coord": null,
+  "image": "Trinity shot color.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1939,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1946,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q27665152",
+   "Q759676",
+   "Q16334295",
+   "Q101965",
+   "Q2475641"
+  ],
+  "wiki": {
+   "en": "Manhattan Project",
+   "zh": "曼哈顿计划"
+  },
+  "locationQid": "Q48809"
+ },
+ "Q127318": {
+  "label": {
+   "en": "George III of Great Britain",
+   "zh": "乔治三世"
+  },
+  "description": "King of Great Britain and Ireland from 1760 to 1820 (1738–1820)",
+  "coord": null,
+  "image": "Allan Ramsay (1713-84) - George III (1738-1820) - RCIN 405307 - Royal Collection.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1738,
+   "date": "1738-05-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1820,
+   "date": "1820-01-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George III",
+   "zh": "喬治三世"
+  },
+  "locationQid": null
+ },
+ "Q127912": {
+  "label": {
+   "en": "United States Declaration of Independence",
+   "zh": "美国独立宣言"
+  },
+  "description": "1776 assertion of colonial America's independence from Great Britain",
+  "coord": {
+   "lat": 39.9489,
+   "lon": -75.15
+  },
+  "image": "United States Declaration of Independence.jpg",
+  "pointInTime": {
+   "year": 1776,
+   "date": "1776-07-04",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916"
+  ],
+  "wiki": {
+   "en": "United States Declaration of Independence",
+   "zh": "美國獨立宣言"
+  }
+ },
+ "Q128543": {
+  "label": {
+   "en": "Jean Chrétien",
+   "zh": "让·克雷蒂安"
+  },
+  "description": "prime minister of Canada from 1993 to 2003",
+  "coord": null,
+  "image": "Jean Chrétien 2010.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1934,
+   "date": "1934-01-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jean Chrétien",
+   "zh": "让·克雷蒂安"
+  },
+  "locationQid": null
+ },
+ "Q128563": {
+  "label": {
+   "en": "Brian Mulroney",
+   "zh": "马丁·布赖恩·马尔罗尼"
+  },
+  "description": "Prime Minister of Canada from 1984 to 1993",
+  "coord": null,
+  "image": "Brian Mulroney in 1984.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1939,
+   "date": "1939-03-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2024,
+   "date": "2024-02-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Brian Mulroney",
+   "zh": "布赖恩·马尔罗尼"
+  },
+  "locationQid": null
+ },
+ "Q128604": {
+  "label": {
+   "en": "Lester B. Pearson",
+   "zh": "莱斯特·皮尔逊"
+  },
+  "description": "14th Prime Minister of Canada, from 1963 to 1968 (1897–1972)",
+  "coord": null,
+  "image": "Lester B. Pearson (1963 ABC press photo).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1897,
+   "date": "1897-04-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1972,
+   "date": "1972-12-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lester B. Pearson",
+   "zh": "莱斯特·皮尔逊"
+  },
+  "locationQid": null
+ },
+ "Q128633": {
+  "label": {
+   "en": "William Lyon Mackenzie King",
+   "zh": "威廉·莱昂·麦肯齐·金"
+  },
+  "description": "10th Prime Minister of Canada (1874–1950)",
+  "coord": null,
+  "image": "Wm Lyon Mackenzie King.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1874,
+   "date": "1874-12-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1950,
+   "date": "1950-07-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "William Lyon Mackenzie King",
+   "zh": "威廉·莱昂·麦肯齐·金"
+  },
+  "locationQid": null
+ },
+ "Q128664": {
+  "label": {
+   "en": "Wilfrid Laurier",
+   "zh": "威尔弗里德·劳雷尔"
+  },
+  "description": "7th prime minister of Canada (1841-1919)",
+  "coord": null,
+  "image": "The Honourable Sir Wilfrid Laurier Photo C (HS85-10-16873) - medium crop.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1841,
+   "date": "1841-11-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1919,
+   "date": "1919-02-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wilfrid Laurier",
+   "zh": "威爾弗里德·洛里埃"
+  },
+  "locationQid": null
+ },
+ "Q128702": {
+  "label": {
+   "en": "John A. Macdonald",
+   "zh": "约翰·亚历山大·麦克唐纳"
+  },
+  "description": "1st prime minister of Canada from 1867 to 1873 and 1878 to 1891",
+  "coord": null,
+  "image": "JaMAC.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1815,
+   "date": "1815-01-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1891,
+   "date": "1891-06-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John A. Macdonald",
+   "zh": "约翰·亚历山大·麦克唐纳"
+  },
+  "locationQid": null
+ },
+ "Q1294303": {
+  "label": {
+   "en": "Edwards v Canada (Attorney General)",
+   "zh": null
+  },
+  "description": "1929 court case which declared the word \"person\" in the Constitution of Canada includes women",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7307130"
+  ],
+  "wiki": {
+   "en": "Edwards v Canada (AG)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1296201": {
+  "label": {
+   "en": "Effigy Mounds National Monument",
+   "zh": "象形堆国家名胜"
+  },
+  "description": "national monument of prehistoric mounds built by Native Americans, in Iowa, United States",
+  "coord": {
+   "lat": 43.0886,
+   "lon": -91.1856
+  },
+  "image": "Effigy-Mounds-Great-Bear.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1949,
+   "date": "1949-10-25",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q893775",
+   "Q30304302",
+   "Q893745"
+  ],
+  "wiki": {
+   "en": "Effigy Mounds National Monument",
+   "zh": null
+  }
+ },
+ "Q1297": {
+  "label": {
+   "en": "Chicago",
+   "zh": "芝加哥"
+  },
+  "description": "city and county seat of Cook County, and largest city in State of Illinois, United States of America",
+  "coord": {
+   "lat": 41.8819,
+   "lon": -87.6278
+  },
+  "image": "2010-02-19 3000x2000 chicago skyline.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1837,
+   "date": "1837-03-04",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q110071194",
+   "Q208511",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Chicago",
+   "zh": "芝加哥"
+  }
+ },
+ "Q129987": {
+  "label": {
+   "en": "William III of England",
+   "zh": "威廉三世"
+  },
+  "description": "King of England, Scotland, and Ireland from 1689 to 1702 (1650–1702)",
+  "coord": null,
+  "image": "G. Kneller - Willem III (1650-1702), prins van Oranje, koning van Engeland - C252 - Cultural Heritage Agency of the Netherlands Art Collection.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1650,
+   "date": "1650-11-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1702,
+   "date": "1702-03-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "William III of England",
+   "zh": "威廉三世 (英格兰)"
+  },
+  "locationQid": null
+ },
+ "Q1305793": {
+  "label": {
+   "en": "Hopewell tradition",
+   "zh": "霍普韦尔文化"
+  },
+  "description": "common aspects of Native American culture that flourished in northeastern and midwestern United States",
+  "coord": null,
+  "image": "Mound City Chillicothe Ohio HRoe 2008.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q465299"
+  ],
+  "wiki": {
+   "en": "Hopewell tradition",
+   "zh": "霍普韦尔文化"
+  },
+  "locationQid": null
+ },
+ "Q131981": {
+  "label": {
+   "en": "George II of Great Britain",
+   "zh": "乔治二世"
+  },
+  "description": "King of Great Britain and Ireland from 1727 to 1760 (1683–1760)",
+  "coord": null,
+  "image": "Portrait of King George II of Great Britain.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1683,
+   "date": "1683-11-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1760,
+   "date": "1760-10-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George II of Great Britain",
+   "zh": "乔治二世 (大不列颠)"
+  },
+  "locationQid": null
+ },
+ "Q1320821": {
+  "label": {
+   "en": "Moundville Archaeological Site",
+   "zh": "蒙德维尔遗址"
+  },
+  "description": "archaeological site",
+  "coord": {
+   "lat": 33.0047,
+   "lon": -87.6311
+  },
+  "image": "Moundville Archaeological Park 03.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Moundville Archaeological Site",
+   "zh": "蒙德维尔遗址"
+  }
+ },
+ "Q132431": {
+  "label": {
+   "en": "Grigory Shelikhov",
+   "zh": "切林考夫"
+  },
+  "description": "Russian explorer",
+  "coord": null,
+  "image": "Grigory Shelikov.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1747,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1795,
+   "date": "1795-07-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Grigory Shelikhov",
+   "zh": "格里戈里·舍利霍夫"
+  },
+  "locationQid": null
+ },
+ "Q132537": {
+  "label": {
+   "en": "J. Robert Oppenheimer",
+   "zh": "罗伯特·奥本海默"
+  },
+  "description": "American theoretical physicist (1904–1967)",
+  "coord": null,
+  "image": "Oppenheimer (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1904,
+   "date": "1904-04-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1967,
+   "date": "1967-02-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "J. Robert Oppenheimer",
+   "zh": "罗伯特·奥本海默"
+  },
+  "locationQid": null
+ },
+ "Q1342": {
+  "label": {
+   "en": "Pittsburgh",
+   "zh": "匹兹堡"
+  },
+  "description": "city and county seat in Allegheny County, Pennsylvania, United States",
+  "coord": {
+   "lat": 40.4417,
+   "lon": -80
+  },
+  "image": "Duquesne Incline (50076338942) (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1758,
+   "date": "1758-11-26",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q21010817",
+   "Q62049",
+   "Q1549591",
+   "Q5888666"
+  ],
+  "wiki": {
+   "en": "Pittsburgh",
+   "zh": "匹兹堡"
+  }
+ },
+ "Q1343075": {
+  "label": {
+   "en": "Quanah Parker",
+   "zh": "誇納·帕克"
+  },
+  "description": "Native American Indian leader (1845–1911)",
+  "coord": null,
+  "image": "Chief Quanah Parker of the Kwahadi Comanche.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1845,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1911,
+   "date": "1911-02-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Quanah Parker",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q13443401": {
+  "label": {
+   "en": "invention of telephone",
+   "zh": "电话发明"
+  },
+  "description": "overview about the invention of the telephone",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q108696953"
+  ],
+  "wiki": {
+   "en": "Invention of the telephone",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1344988": {
+  "label": {
+   "en": "Expo 67",
+   "zh": "蒙特利尔世博会"
+  },
+  "description": "International and Universal Exposition from April 27 to October 29, 1967, in Montreal, Quebec, Canada",
+  "coord": {
+   "lat": 45.5167,
+   "lon": -73.5356
+  },
+  "image": "Expo67 USA Pavilion 2 minirail.jpg",
+  "pointInTime": {
+   "year": 1967,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q172754"
+  ],
+  "wiki": {
+   "en": "Expo 67",
+   "zh": "1967年世界博覽會"
+  }
+ },
+ "Q1345118": {
+  "label": {
+   "en": "Hendrick Theyanoguin",
+   "zh": null
+  },
+  "description": "Mohawk leader",
+  "coord": null,
+  "image": "Hendrick Theyanoguin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1692,
+   "date": "1692-03-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1755,
+   "date": "1755-09-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hendrick Theyanoguin",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1349446": {
+  "label": {
+   "en": "Red Jacket",
+   "zh": "红外套"
+  },
+  "description": "Seneca chief (1750-1830)",
+  "coord": null,
+  "image": "Red Jacket 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1750,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1830,
+   "date": "1830-01-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Red Jacket",
+   "zh": "紅外套"
+  },
+  "locationQid": null
+ },
+ "Q135329": {
+  "label": {
+   "en": "Ferdinand von Wrangel",
+   "zh": "斐迪南·冯·弗兰格尔"
+  },
+  "description": "Baltic German explorer and Russian admiral (1797-1870)",
+  "coord": null,
+  "image": "Vrangel FP.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1796,
+   "date": "1796-12-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1870,
+   "date": "1870-05-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ferdinand von Wrangel",
+   "zh": "费迪南德·冯·弗兰格尔"
+  },
+  "locationQid": null
+ },
+ "Q1356274": {
+  "label": {
+   "en": "Pierre de Rigaud, Marquis de Vaudreuil-Cavagnal",
+   "zh": "尔德·沃德勒伊"
+  },
+  "description": "Colonial governor of Louisiana (1698-1778)",
+  "coord": null,
+  "image": "Marquis de Vaudreuil.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1698,
+   "date": "1698-11-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1778,
+   "date": "1778-08-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pierre de Rigaud, marquis de Vaudreuil-Cavagnial",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q144430": {
+  "label": {
+   "en": "Willem Kieft",
+   "zh": "威廉·基夫特"
+  },
+  "description": "Director of New Netherland (1597–1647)",
+  "coord": null,
+  "image": "Willem (Wilhelm) Kieft (1597-1647) Director of New Netherland.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1597,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1647,
+   "date": "1647-09-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Willem Kieft",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1446212": {
+  "label": {
+   "en": "Opechancanough",
+   "zh": "奥普查纳坎奴"
+  },
+  "description": "Powhatan Confederacy chief",
+  "coord": null,
+  "image": "Opechancanough statue Jamestown Settlement 20250517.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1554,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1646,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Opechancanough",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1479984": {
+  "label": {
+   "en": "Popé",
+   "zh": "波·依"
+  },
+  "description": "Tewa religious leader",
+  "coord": null,
+  "image": "U.S. Capitol Po’pay Statue.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1630,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1688,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Po'pay",
+   "zh": "波·依"
+  },
+  "locationQid": null
+ },
+ "Q1506365": {
+  "label": {
+   "en": "Great Migration",
+   "zh": "非裔美国人大移民"
+  },
+  "description": "movement of African Americans out of the rural Southern United States",
+  "coord": null,
+  "image": "Great migration.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1916,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1970,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q177626"
+  ],
+  "wiki": {
+   "en": "Great Migration (African American)",
+   "zh": "非裔美国人大迁徙"
+  },
+  "locationQid": null
+ },
+ "Q1506788": {
+  "label": {
+   "en": "North-West Rebellion",
+   "zh": "西北叛亂"
+  },
+  "description": "1885 resistance by the Métis and Cree peoples against Canada",
+  "coord": null,
+  "image": "Battle of Batoche Print by Seargent Grundy.jpg",
+  "pointInTime": {
+   "year": 1885,
+   "date": "1885-06-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1885,
+   "date": "1885-03-26",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1885,
+   "date": "1885-06-03",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "North-West Rebellion",
+   "zh": null
+  },
+  "locationQid": "Q1989"
+ },
+ "Q1520743": {
+  "label": {
+   "en": "Canadian Confederation",
+   "zh": "加拿大联邦"
+  },
+  "description": "process by which the British colonies of Canada, Nova Scotia, and New Brunswick were united into one Dominion of Canada on July 1, 1867",
+  "coord": null,
+  "image": "Canada provinces 1867-1870.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1867,
+   "date": "1867-05-24",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3249551"
+  ],
+  "wiki": {
+   "en": "Canadian Confederation",
+   "zh": "加拿大联邦化"
+  },
+  "locationQid": null
+ },
+ "Q154697": {
+  "label": {
+   "en": "French and Indian War",
+   "zh": "法国－印第安人战争"
+  },
+  "description": "North American theatre of the worldwide Seven Years' War",
+  "coord": null,
+  "image": "French and indian war map.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1754,
+   "date": "1754-05-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1763,
+   "date": "1763-10-07",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "French and Indian War",
+   "zh": "英法北美战争"
+  },
+  "locationQid": "Q49"
+ },
+ "Q1547791": {
+  "label": {
+   "en": "Pueblo Revolt",
+   "zh": "普韦布洛起义"
+  },
+  "description": "1680 Indigenous Pueblo uprising against Spanish colonizers",
+  "coord": null,
+  "image": "Loren Mozley Pueblo Revolt 1680 installed 1936 ABQ NM.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1680,
+   "date": "1680-08-10",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1680,
+   "date": "1680-08-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6107280"
+  ],
+  "wiki": {
+   "en": "Pueblo Revolt",
+   "zh": "普韦布洛起义"
+  },
+  "locationQid": "Q921283"
+ },
+ "Q16": {
+  "label": {
+   "en": "Canada",
+   "zh": "加拿大"
+  },
+  "description": "country in North America",
+  "coord": {
+   "lat": 56,
+   "lon": -109
+  },
+  "image": "Canada - Location Map (2013) - CAN - UNOCHA.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1867,
+   "date": "1867-07-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Canada",
+   "zh": "加拿大"
+  }
+ },
+ "Q16065625": {
+  "label": {
+   "en": "Buffalo Hump",
+   "zh": null
+  },
+  "description": "19th century Comanche leader who fought the Texans",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1800,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1870,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Buffalo Hump",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1615": {
+  "label": {
+   "en": "Neil Armstrong",
+   "zh": "尼尔·阿姆斯特朗"
+  },
+  "description": "American astronaut and lunar explorer (1930–2012)",
+  "coord": null,
+  "image": "Neil Armstrong pose.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1930,
+   "date": "1930-08-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2012,
+   "date": "2012-08-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Neil Armstrong",
+   "zh": "尼尔·阿姆斯特朗"
+  },
+  "locationQid": null
+ },
+ "Q161536": {
+  "label": {
+   "en": "Peter Stuyvesant",
+   "zh": "彼得·斯泰弗森特"
+  },
+  "description": "Dutch politician; director-general of New Netherland (1612-1672)",
+  "coord": null,
+  "image": "Petrus (Peter Pieter) Stuyvesant portrait c1660.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1612,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1672,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter Stuyvesant",
+   "zh": "彼得·斯泰弗森特"
+  },
+  "locationQid": null
+ },
+ "Q162269": {
+  "label": {
+   "en": "Jefferson Davis",
+   "zh": "杰斐逊·戴维斯"
+  },
+  "description": "President of the Confederate States from 1861 to 1865 (1808–1889)",
+  "coord": null,
+  "image": "President-Jefferson-Davis.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1808,
+   "date": "1808-06-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1889,
+   "date": "1889-12-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jefferson Davis",
+   "zh": "傑佛遜·戴維斯"
+  },
+  "locationQid": null
+ },
+ "Q16262782": {
+  "label": {
+   "en": "Jens-Frederik Nielsen",
+   "zh": "延斯-弗雷德里克·尼尔森"
+  },
+  "description": "Greenlandic politician and badminton player",
+  "coord": null,
+  "image": "Jens-Frederik Nielsen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1991,
+   "date": "1991-06-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jens-Frederik Nielsen",
+   "zh": "延斯-弗雷德里克·尼尔森"
+  },
+  "locationQid": null
+ },
+ "Q16422": {
+  "label": {
+   "en": "Hurricane Katrina",
+   "zh": "飓风卡特里娜"
+  },
+  "description": "Category 5 Atlantic hurricane in 2005",
+  "coord": null,
+  "image": "Katrina 2005-08-28 1700Z.jpg",
+  "pointInTime": {
+   "year": 2005,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2005,
+   "date": "2005-08-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2005,
+   "date": "2005-08-31",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q34439356"
+  ],
+  "wiki": {
+   "en": "Hurricane Katrina",
+   "zh": "2005年飓风卡特里娜"
+  },
+  "locationQid": null
+ },
+ "Q16488964": {
+  "label": {
+   "en": "Norse settlements in Greenland",
+   "zh": "格陵兰岛的诺斯人定居点"
+  },
+  "description": "Norse settlements in Greenland during the Middle Age",
+  "coord": null,
+  "image": "Hvalsey Church.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156"
+  ],
+  "wiki": {
+   "en": "Norse settlements in Greenland",
+   "zh": "格陵兰岛的诺斯人定居点"
+  },
+  "locationQid": null
+ },
+ "Q17013288": {
+  "label": {
+   "en": "Ozette Indian Village Archaeological Site",
+   "zh": null
+  },
+  "description": "archaeological site in Washington state, USA",
+  "coord": {
+   "lat": 48.1643,
+   "lon": -124.7328
+  },
+  "image": "Ozette village.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q532"
+  ],
+  "wiki": {
+   "en": "Ozette Indian Village Archeological Site",
+   "zh": null
+  }
+ },
+ "Q170588": {
+  "label": {
+   "en": "Republic of Texas",
+   "zh": "得克萨斯共和国"
+  },
+  "description": "sovereign nation (not recognized by Mexico) in North America that existed from March 2, 1836, to February 19, 1846",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1836,
+   "date": "1836-03-02",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1846,
+   "date": "1846-02-19",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Republic of Texas",
+   "zh": "德克萨斯共和国"
+  },
+  "locationQid": null
+ },
+ "Q170604": {
+  "label": {
+   "en": "New France",
+   "zh": "新法蘭西"
+  },
+  "description": "area colonized by France in North America",
+  "coord": {
+   "lat": 46.8167,
+   "lon": -71.2
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1534,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1763,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156",
+   "Q12356456"
+  ],
+  "wiki": {
+   "en": "New France",
+   "zh": "新法蘭西"
+  }
+ },
+ "Q172": {
+  "label": {
+   "en": "Toronto",
+   "zh": "多伦多"
+  },
+  "description": "capital and largest city of the province of Ontario, Canada",
+  "coord": {
+   "lat": 43.6703,
+   "lon": -79.3867
+  },
+  "image": "Sunset Toronto Skyline Panorama Crop from Snake Island.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1750,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q21507383",
+   "Q14762300",
+   "Q1549591",
+   "Q51929311",
+   "Q1066984",
+   "Q18810091"
+  ],
+  "wiki": {
+   "en": "Toronto",
+   "zh": "多伦多"
+  }
+ },
+ "Q172345": {
+  "label": {
+   "en": "Erik the Red",
+   "zh": "红胡子埃里克"
+  },
+  "description": "explorer and founder of the first viking settlement in Greenland",
+  "coord": null,
+  "image": "Eric the Red.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 950,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1003,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Erik the Red",
+   "zh": "红胡子埃里克"
+  },
+  "locationQid": null
+ },
+ "Q1735004": {
+  "label": {
+   "en": "1700 Cascadia earthquake",
+   "zh": "1700年卡斯凯迪亚地震"
+  },
+  "description": "January 1700 megathrust earthquake affecting the North American Pacific North West coast",
+  "coord": {
+   "lat": 45,
+   "lon": -125
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1700,
+   "date": "1700-01-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "1700 Cascadia earthquake",
+   "zh": "1700年卡斯凯迪亚地震"
+  }
+ },
+ "Q1751399": {
+  "label": {
+   "en": "Charles de la Boische, Marquis de Beauharnois",
+   "zh": null
+  },
+  "description": "French Naval officer (1671-1749)",
+  "coord": null,
+  "image": "Marquis de Beauharnois.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1671,
+   "date": "1671-10-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1749,
+   "date": "1749-07-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles de la Boische, Marquis de Beauharnois",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1753108": {
+  "label": {
+   "en": "First Transcontinental Railroad",
+   "zh": "第一条横贯大陆铁路"
+  },
+  "description": "first railroad in the United States to reach the Pacific coast from the eastern states",
+  "coord": {
+   "lat": 39.3176,
+   "lon": -120.3584
+  },
+  "image": "69workmen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q728937",
+   "Q1064041"
+  ],
+  "wiki": {
+   "en": "First transcontinental railroad",
+   "zh": "第一條橫貫大陸鐵路"
+  }
+ },
+ "Q17550": {
+  "label": {
+   "en": "California Gold Rush",
+   "zh": "加利福尼亞淘金潮"
+  },
+  "description": "gold rush from C.E.1848 until 1855 in California",
+  "coord": {
+   "lat": 38.8003,
+   "lon": -120.8922
+  },
+  "image": "California Gold Rush handbill.jpg",
+  "pointInTime": {
+   "year": 1855,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1848,
+   "date": "1848-01-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1854,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q273182"
+  ],
+  "wiki": {
+   "en": "California gold rush",
+   "zh": "加利福尼亞淘金潮"
+  }
+ },
+ "Q177524": {
+  "label": {
+   "en": null,
+   "zh": "高等研究計劃署網路"
+  },
+  "description": "early packet switching network (1969–1990)",
+  "coord": null,
+  "image": "Arpanet logical map, march 1977.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1301371",
+   "Q5249081",
+   "Q132364"
+  ],
+  "wiki": {
+   "en": "ARPANET",
+   "zh": "ARPANET"
+  },
+  "locationQid": null
+ },
+ "Q1779": {
+  "label": {
+   "en": "Louis Armstrong",
+   "zh": "路易斯·阿姆斯特朗"
+  },
+  "description": "American jazz musician, trumpeter and singer (1901–1971)",
+  "coord": null,
+  "image": "Louis Armstrong restored.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1901,
+   "date": "1901-08-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1971,
+   "date": "1971-07-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis Armstrong",
+   "zh": "路易斯·阿姆斯特朗"
+  },
+  "locationQid": null
+ },
+ "Q1780964": {
+  "label": {
+   "en": "David G. Burnet",
+   "zh": "大衛·G·布尼特"
+  },
+  "description": "early politician within the Republic of Texas (1788-1870)",
+  "coord": null,
+  "image": "Davidgburnet2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1788,
+   "date": "1788-04-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1870,
+   "date": "1870-12-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "David G. Burnet",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q179077": {
+  "label": {
+   "en": "Pontiac's War",
+   "zh": "庞蒂亚克战争"
+  },
+  "description": "1763 war launched by Native American tribes primarily from the Great Lakes region, the Illinois Country, and Ohio country against Kingdom of Great Britain",
+  "coord": null,
+  "image": "Pontiac conspiracy.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1763,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1765,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Pontiac's War",
+   "zh": "龐蒂亞克戰爭"
+  },
+  "locationQid": "Q1548416"
+ },
+ "Q179997": {
+  "label": {
+   "en": "Thirteen Colonies",
+   "zh": "十三个殖民地"
+  },
+  "description": "group of 13 North American colonies of Great Britain from the founding of Georgia until American Independence (1732–1776)",
+  "coord": {
+   "lat": 39.284,
+   "lon": -76.61
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1607,
+   "date": "1607-05-14",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1776,
+   "date": "1776-07-04",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156",
+   "Q34876",
+   "Q1351282",
+   "Q93465891"
+  ],
+  "wiki": {
+   "en": "Thirteen Colonies",
+   "zh": "十三殖民地"
+  }
+ },
+ "Q182323": {
+  "label": {
+   "en": "Ford Model T",
+   "zh": "福特T型车"
+  },
+  "description": "American car (1908-1927)",
+  "coord": null,
+  "image": "Ford T Jon Sullivan.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1908,
+   "date": "1908-08-12",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3231690"
+  ],
+  "wiki": {
+   "en": "Ford Model T",
+   "zh": "福特T型车"
+  },
+  "locationQid": null
+ },
+ "Q186356": {
+  "label": {
+   "en": "New Deal",
+   "zh": "罗斯福新政"
+  },
+  "description": "economic programs of U.S. president Franklin D. Roosevelt",
+  "coord": null,
+  "image": "New Deal collage.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1933,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1939,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q546113"
+  ],
+  "wiki": {
+   "en": "New Deal",
+   "zh": "罗斯福新政"
+  },
+  "locationQid": "Q30"
+ },
+ "Q188936": {
+  "label": {
+   "en": "William Tecumseh Sherman",
+   "zh": "威廉·特库姆塞·舍曼"
+  },
+  "description": "United States Army general (1820–1891)",
+  "coord": null,
+  "image": "William Tecumseh Sherman.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1820,
+   "date": "1820-02-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1891,
+   "date": "1891-02-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "William Tecumseh Sherman",
+   "zh": "威廉·特库姆塞·舍曼"
+  },
+  "locationQid": null
+ },
+ "Q189113": {
+  "label": {
+   "en": "L'Anse aux Meadows",
+   "zh": "拉安斯欧克斯梅多国家历史遗址"
+  },
+  "description": "archaeological site on the island of Newfoundland, Canada",
+  "coord": {
+   "lat": 51.5953,
+   "lon": -55.5312
+  },
+  "image": "Authentic Viking recreation.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "L'Anse aux Meadows",
+   "zh": "蘭塞奧茲牧草地"
+  }
+ },
+ "Q19024": {
+  "label": {
+   "en": "Boston Tea Party",
+   "zh": "波士顿倾茶事件"
+  },
+  "description": "1773 American protest against British taxation",
+  "coord": {
+   "lat": 42.3536,
+   "lon": -71.0524
+  },
+  "image": "Boston Tea Party Currier colored.jpg",
+  "pointInTime": {
+   "year": 1773,
+   "date": "1773-12-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q273120",
+   "Q12890393"
+  ],
+  "wiki": {
+   "en": "Boston Tea Party",
+   "zh": "波士頓傾茶事件"
+  }
+ },
+ "Q192245": {
+  "label": {
+   "en": "Susan B. Anthony",
+   "zh": "苏珊·安东尼"
+  },
+  "description": "American women's rights activist (1820–1906)",
+  "coord": null,
+  "image": "SB Anthony from WoC.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1820,
+   "date": "1820-02-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1906,
+   "date": "1906-03-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Susan B. Anthony",
+   "zh": "苏珊·安东尼"
+  },
+  "locationQid": null
+ },
+ "Q192533": {
+  "label": {
+   "en": "Mark Carney",
+   "zh": "马克·卡尼"
+  },
+  "description": "24th prime minister of Canada since 2025",
+  "coord": null,
+  "image": "Mark Carney Argentina v Spain 19 July 2026-303 (3x4 close up cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1965,
+   "date": "1965-03-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mark Carney",
+   "zh": "馬克·卡尼"
+  },
+  "locationQid": null
+ },
+ "Q1930": {
+  "label": {
+   "en": "Ottawa",
+   "zh": "渥太华"
+  },
+  "description": "capital city of Canada",
+  "coord": {
+   "lat": 45.4247,
+   "lon": -75.695
+  },
+  "image": "Ottawa Montage 2020.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1855,
+   "date": "1855-01-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q18810091",
+   "Q17457753",
+   "Q14762300",
+   "Q1549591",
+   "Q257391"
+  ],
+  "wiki": {
+   "en": "Ottawa",
+   "zh": "渥太華"
+  }
+ },
+ "Q193155": {
+  "label": {
+   "en": "Louisiana Purchase",
+   "zh": "路易斯安那購地"
+  },
+  "description": "1803 acquisition by the U.S. of France's claim to the territory of Louisiana",
+  "coord": null,
+  "image": "Handover ceremony of Lousiana.jpg",
+  "pointInTime": {
+   "year": 1803,
+   "date": "1803-04-30",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q25929224"
+  ],
+  "wiki": {
+   "en": "Louisiana Purchase",
+   "zh": "路易斯安那購地"
+  },
+  "locationQid": null
+ },
+ "Q193406": {
+  "label": {
+   "en": "Pocahontas",
+   "zh": "宝嘉康蒂"
+  },
+  "description": "American native woman",
+  "coord": null,
+  "image": "NPG 65 61 Pocahontas.tif",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1596,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1617,
+   "date": "1617-03-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pocahontas",
+   "zh": "宝嘉康蒂"
+  },
+  "locationQid": null
+ },
+ "Q193484": {
+  "label": {
+   "en": "assassination of John F. Kennedy",
+   "zh": "肯尼迪遇刺案"
+  },
+  "description": "1963 murder in Dallas, Texas, U.S",
+  "coord": {
+   "lat": 32.7793,
+   "lon": -96.8085
+  },
+  "image": "JFK Motorcade GettyImages-517330536.jpg",
+  "pointInTime": {
+   "year": 1963,
+   "date": "1963-11-22",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1139665",
+   "Q3882219",
+   "Q9026907"
+  ],
+  "wiki": {
+   "en": "Assassination of John F. Kennedy",
+   "zh": "约翰·F·肯尼迪遇刺案"
+  }
+ },
+ "Q201684": {
+  "label": {
+   "en": "Wall Street crash of 1929",
+   "zh": "1929年华尔街股灾"
+  },
+  "description": "major American stock market crash",
+  "coord": null,
+  "image": "Crowd outside nyse.jpg",
+  "pointInTime": {
+   "year": 1929,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1929,
+   "date": "1929-10-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1929,
+   "date": "1929-10-29",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1020018"
+  ],
+  "wiki": {
+   "en": "Wall Street crash of 1929",
+   "zh": "1929年華爾街股災"
+  },
+  "locationQid": "Q30"
+ },
+ "Q202175": {
+  "label": {
+   "en": "Ellis Island",
+   "zh": "埃利斯岛"
+  },
+  "description": "island in New York Harbor in the United States of America",
+  "coord": {
+   "lat": 40.6994,
+   "lon": -74.0397
+  },
+  "image": "Ellis island air photo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q23442"
+  ],
+  "wiki": {
+   "en": "Ellis Island",
+   "zh": "埃利斯島"
+  }
+ },
+ "Q202266": {
+  "label": {
+   "en": "Margaret I of Denmark",
+   "zh": "玛格丽特一世"
+  },
+  "description": "Queen of Denmark, Norway, and Sweden",
+  "coord": null,
+  "image": "Margaret of Denmark, Norway & Sweden (1389) effigy 2010 (2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1353,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1412,
+   "date": "1412-10-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Margaret I of Denmark",
+   "zh": "玛格丽特一世"
+  },
+  "locationQid": null
+ },
+ "Q2023": {
+  "label": {
+   "en": "Nunavut",
+   "zh": "努纳武特"
+  },
+  "description": "territory of Canada",
+  "coord": {
+   "lat": 67.35,
+   "lon": -90.9
+  },
+  "image": "Baffin Island Northeast Coast 1997-08-07.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1999,
+   "date": "1999-04-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q9357527"
+  ],
+  "wiki": {
+   "en": "Nunavut",
+   "zh": "努納武特地區"
+  }
+ },
+ "Q202973": {
+  "label": {
+   "en": "Kingston",
+   "zh": "金斯顿"
+  },
+  "description": "city in Ontario, Canada",
+  "coord": {
+   "lat": 44.2306,
+   "lon": -76.4811
+  },
+  "image": "Kingston - ON - Town hall at night.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1673,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6593035",
+   "Q14762300",
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Kingston, Ontario",
+   "zh": "金斯顿 (安大略省)"
+  }
+ },
+ "Q2030": {
+  "label": {
+   "en": "Iqaluit",
+   "zh": "伊魁特"
+  },
+  "description": "capital of the territory of Nunavut, Canada",
+  "coord": {
+   "lat": 63.7494,
+   "lon": -68.5217
+  },
+  "image": "Iqaluit skyline.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1942,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515"
+  ],
+  "wiki": {
+   "en": "Iqaluit",
+   "zh": "伊魁特"
+  }
+ },
+ "Q2040026": {
+  "label": {
+   "en": "Juan de Oñate",
+   "zh": "胡安·德·奥纳特"
+  },
+  "description": "Spanish Conquistador, explorer, and colonial governor",
+  "coord": null,
+  "image": "NEW MEXICO San Juan Pueblo DonJuan De Onate First Govenor of New Spain.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1550,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1626,
+   "date": "1626-06-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan de Oñate",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2044290": {
+  "label": {
+   "en": "Spiro Mounds",
+   "zh": null
+  },
+  "description": "archaeological site in Oklahoma, United States of America",
+  "coord": {
+   "lat": 35.3119,
+   "lon": -94.5686
+  },
+  "image": "Spiro Craigs Mound 1 HRoe.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Spiro Mounds",
+   "zh": null
+  }
+ },
+ "Q205304": {
+  "label": {
+   "en": "Nineteenth Amendment to the United States Constitution",
+   "zh": "美國憲法第十九修正案"
+  },
+  "description": "1920 amendment mandating women's suffrage",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q102410240"
+  ],
+  "wiki": {
+   "en": "Nineteenth Amendment to the United States Constitution",
+   "zh": "美國憲法第十九修正案"
+  },
+  "locationQid": null
+ },
+ "Q205422": {
+  "label": {
+   "en": "Battle of the Little Bighorn",
+   "zh": "小大角战役"
+  },
+  "description": "June 1876 battle of the Great Sioux War",
+  "coord": {
+   "lat": 45.565,
+   "lon": -107.4289
+  },
+  "image": "Charles Marion Russell - The Custer Fight (1903).jpg",
+  "pointInTime": {
+   "year": 1876,
+   "date": "1876-06-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of the Little Bighorn",
+   "zh": "小大角战役"
+  }
+ },
+ "Q206": {
+  "label": {
+   "en": "Stephen Harper",
+   "zh": "史蒂芬·哈珀"
+  },
+  "description": "22nd prime minister of Canada from 2006 to 2015",
+  "coord": null,
+  "image": "Stephen Harper by Remy Steinegger Infobox.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1959,
+   "date": "1959-04-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stephen Harper",
+   "zh": "史蒂芬·哈珀"
+  },
+  "locationQid": null
+ },
+ "Q2064289": {
+  "label": {
+   "en": "Quebec referendum, 1980",
+   "zh": "1980年魁北克公民投票"
+  },
+  "description": "1980 plebiscite on Quebec's independence from Canada",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1980,
+   "date": "1980-05-20",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q16674288"
+  ],
+  "wiki": {
+   "en": "1980 Quebec referendum",
+   "zh": "1980年魁北克公民投票"
+  },
+  "locationQid": "Q176"
+ },
+ "Q207342": {
+  "label": {
+   "en": "Trinity",
+   "zh": "三位一体核试"
+  },
+  "description": "1945 first detonation of a nuclear weapon",
+  "coord": {
+   "lat": 33.6772,
+   "lon": -106.4753
+  },
+  "image": "Trinity Test Fireball 16ms.jpg",
+  "pointInTime": {
+   "year": 1945,
+   "date": "1945-07-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q210112"
+  ],
+  "wiki": {
+   "en": "Trinity (nuclear test)",
+   "zh": "三位一體 (核試驗)"
+  }
+ },
+ "Q209573": {
+  "label": {
+   "en": "Royal Proclamation of 1763",
+   "zh": "1763年公告"
+  },
+  "description": "British Parliamentary act setting a western border for the American colonies",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1572600",
+   "Q112915372"
+  ],
+  "wiki": {
+   "en": "Royal Proclamation of 1763",
+   "zh": "1763年公告"
+  },
+  "locationQid": null
+ },
+ "Q211386": {
+  "label": {
+   "en": "1906 San Francisco earthquake",
+   "zh": "1906年旧金山大地震"
+  },
+  "description": "major earthquake that struck San Francisco and the coast of Northern California",
+  "coord": {
+   "lat": 37.75,
+   "lon": -122.55
+  },
+  "image": "Post-and-Grant-Avenue-Look.jpg",
+  "pointInTime": {
+   "year": 1906,
+   "date": "1906-04-18",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "1906 San Francisco earthquake",
+   "zh": "1906年舊金山大地震"
+  }
+ },
+ "Q2135": {
+  "label": {
+   "en": "Winnipeg",
+   "zh": "温尼伯"
+  },
+  "description": "capital and largest city of the province of Manitoba, Canada",
+  "coord": {
+   "lat": 49.8956,
+   "lon": -97.1386
+  },
+  "image": "Winnipeg skyline (2025).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1738,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q130626256"
+  ],
+  "wiki": {
+   "en": "Winnipeg",
+   "zh": "温尼伯"
+  }
+ },
+ "Q2141": {
+  "label": {
+   "en": "Halifax",
+   "zh": "哈利法克斯"
+  },
+  "description": "municipality in the province of Nova Scotia, Canada",
+  "coord": {
+   "lat": 44.6478,
+   "lon": -63.5714
+  },
+  "image": "Halifax City Hall, summer 2014.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1749,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1388464",
+   "Q1907114"
+  ],
+  "wiki": {
+   "en": "Halifax, Nova Scotia",
+   "zh": "哈利法克斯"
+  }
+ },
+ "Q2145": {
+  "label": {
+   "en": "Quebec City",
+   "zh": "魁北克市"
+  },
+  "description": "capital city of the province of Quebec, Canada",
+  "coord": {
+   "lat": 46.8161,
+   "lon": -71.2242
+  },
+  "image": "Buildings and Roads of Old Quebec City 14.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1608,
+   "date": "1608-07-03",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q27676416",
+   "Q1549591",
+   "Q104782082"
+  ],
+  "wiki": {
+   "en": "Quebec City",
+   "zh": "魁北克市"
+  }
+ },
+ "Q215562": {
+  "label": {
+   "en": "Frederick Douglass",
+   "zh": "弗雷德里克·道格拉斯"
+  },
+  "description": "African-American social reformer, writer, and abolitionist (c. 1818–1895)",
+  "coord": null,
+  "image": "Frederick Douglass as a younger man.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1818,
+   "date": "1818-02-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1895,
+   "date": "1895-02-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frederick Douglass",
+   "zh": "弗雷德里克·道格拉斯"
+  },
+  "locationQid": null
+ },
+ "Q216547": {
+  "label": {
+   "en": "Sam Houston",
+   "zh": "山姆·休斯敦"
+  },
+  "description": "American statesman, politician, and soldier (1793-1863)",
+  "coord": null,
+  "image": "Samuel houston.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1793,
+   "date": "1793-03-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1863,
+   "date": "1863-07-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sam Houston",
+   "zh": "山姆·休士頓"
+  },
+  "locationQid": null
+ },
+ "Q219698": {
+  "label": {
+   "en": "Salem Witch Trials",
+   "zh": "塞勒姆审巫案"
+  },
+  "description": "series of hearings and prosecutions of people accused of witchcraft in colonial Massachusetts",
+  "coord": {
+   "lat": 42.5222,
+   "lon": -70.8961
+  },
+  "image": "Witchcraft at Salem Village.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1692,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1693,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19902850"
+  ],
+  "wiki": {
+   "en": "Salem witch trials",
+   "zh": "塞勒姆审巫案"
+  }
+ },
+ "Q223": {
+  "label": {
+   "en": "Greenland",
+   "zh": "格陵兰"
+  },
+  "description": "autonomous territory of the Kingdom of Denmark and world's largest island",
+  "coord": {
+   "lat": 72,
+   "lon": -40
+  },
+  "image": "Greenland 42.74746W 71.57394N.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q66724388",
+   "Q192611",
+   "Q112099",
+   "Q161243",
+   "Q788176",
+   "Q140892892"
+  ],
+  "wiki": {
+   "en": "Greenland",
+   "zh": "格陵兰"
+  }
+ },
+ "Q226": {
+  "label": {
+   "en": "Nuuk",
+   "zh": "努克"
+  },
+  "description": "capital of Greenland",
+  "coord": {
+   "lat": 64.175,
+   "lon": -51.7333
+  },
+  "image": "Nuuk - capital of Greenland - panoramio.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1721,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Nuuk",
+   "zh": "努克"
+  }
+ },
+ "Q22686": {
+  "label": {
+   "en": "Donald Trump",
+   "zh": "唐纳德·特朗普"
+  },
+  "description": "President of the United States (2017–2021; since 2025)",
+  "coord": null,
+  "image": "Official Presidential Portrait of President Donald J. Trump (2025) (3x4).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1946,
+   "date": "1946-06-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Donald Trump",
+   "zh": "唐納·川普"
+  },
+  "locationQid": null
+ },
+ "Q2275715": {
+  "label": {
+   "en": "Wouter van Twiller",
+   "zh": null
+  },
+  "description": "Dutch colonial administrator",
+  "coord": null,
+  "image": "Wouter van Twiller crop.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1606,
+   "date": "1606-05-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1654,
+   "date": "1654-08-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wouter van Twiller",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q23": {
+  "label": {
+   "en": "George Washington",
+   "zh": "乔治·华盛顿"
+  },
+  "description": "Founding Father and first U.S. president (1732–1799)",
+  "coord": null,
+  "image": "Gilbert Stuart Williamstown Portrait of George Washington.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1732,
+   "date": "1732-02-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1799,
+   "date": "1799-12-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George Washington",
+   "zh": "乔治·华盛顿"
+  },
+  "locationQid": null
+ },
+ "Q233260": {
+  "label": {
+   "en": "Great Northern Expedition",
+   "zh": "大北极探险"
+  },
+  "description": "research expedition in Siberia (1733–1743)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1733,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1743,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q366301",
+   "Q6502154"
+  ],
+  "wiki": {
+   "en": "Great Northern Expedition",
+   "zh": "大北极探险"
+  },
+  "locationQid": null
+ },
+ "Q2344888": {
+  "label": {
+   "en": "First Great Awakening",
+   "zh": "第一次大觉醒"
+  },
+  "description": "Christian revivals in Britain and the Thirteen Colonies in the 1730s–1740s",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1731,
+   "date": null,
+   "precision": 8,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1755,
+   "date": null,
+   "precision": 8,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q835439"
+  ],
+  "wiki": {
+   "en": "First Great Awakening",
+   "zh": "第一次大覺醒"
+  },
+  "locationQid": null
+ },
+ "Q238960": {
+  "label": {
+   "en": null,
+   "zh": "萨卡加维亚"
+  },
+  "description": "Native American woman & companion to Lewis and Clark at age 16",
+  "coord": null,
+  "image": "Sacagawea Detail Lewis & Clark at Three Forks (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1788,
+   "date": "1788-05-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1812,
+   "date": "1812-12-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sacagawea",
+   "zh": "萨卡加维亚"
+  },
+  "locationQid": null
+ },
+ "Q239514": {
+  "label": {
+   "en": "Quiet Revolution",
+   "zh": "寂静革命"
+  },
+  "description": "1960s period of social and political change in Quebec",
+  "coord": null,
+  "image": "Maitres chez nous 1962.jpg",
+  "pointInTime": {
+   "year": 1960,
+   "date": null,
+   "precision": 8,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1960,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1966,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2198855"
+  ],
+  "wiki": {
+   "en": "Quiet Revolution",
+   "zh": "寂静革命"
+  },
+  "locationQid": null
+ },
+ "Q248452": {
+  "label": {
+   "en": "British North America",
+   "zh": "英属北美"
+  },
+  "description": "former British posessions in North America",
+  "coord": {
+   "lat": 48.6002,
+   "lon": -67.6842
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1783,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1907,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1620908"
+  ],
+  "wiki": {
+   "en": "British North America",
+   "zh": "英屬北美"
+  }
+ },
+ "Q249367": {
+  "label": {
+   "en": "Montgomery bus boycott",
+   "zh": "联合抵制蒙哥马利公车运动"
+  },
+  "description": "protest campaign against racial segregation on buses in Montgomery, Alabama",
+  "coord": {
+   "lat": 32.3675,
+   "lon": -86.3
+  },
+  "image": "Rosa Parks Bus.jpg",
+  "pointInTime": {
+   "year": 1956,
+   "date": "1956-12-20",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1955,
+   "date": "1955-12-05",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1956,
+   "date": "1956-12-20",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q179366",
+   "Q180684"
+  ],
+  "wiki": {
+   "en": "Montgomery bus boycott",
+   "zh": "聯合抵制蒙哥馬利公車運動"
+  }
+ },
+ "Q254682": {
+  "label": {
+   "en": "Tenskwatawa",
+   "zh": "滕斯夸塔瓦"
+  },
+  "description": "Shawnee Native American leader, brother of Tecumseh (1775–1836)",
+  "coord": null,
+  "image": "Shawnee Prophet, Tenskwatawa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1775,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1836,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tenskwatawa",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q257808": {
+  "label": {
+   "en": "Tecumseh",
+   "zh": "蒂卡姆西"
+  },
+  "description": "Shawnee Native American military leader (1768-1813)",
+  "coord": null,
+  "image": "Tecumseh02.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1768,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1813,
+   "date": "1813-10-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tecumseh",
+   "zh": "特库姆塞"
+  },
+  "locationQid": null
+ },
+ "Q258011": {
+  "label": {
+   "en": "Great Peacemaker",
+   "zh": "大媾合家"
+  },
+  "description": "Native American prophet who founded the Iroquois Confederacy",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1500,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Great Peacemaker",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q26013": {
+  "label": {
+   "en": "War of 1812",
+   "zh": "1812年战争"
+  },
+  "description": "conflict between the United States and the British Empire from 1812 to 1815",
+  "coord": null,
+  "image": "USS Constitution vs Guerriere.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1812,
+   "date": "1812-06-18",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1815,
+   "date": "1815-02-18",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "War of 1812",
+   "zh": "1812年战争"
+  },
+  "locationQid": "Q97"
+ },
+ "Q26549": {
+  "label": {
+   "en": "Cherokee syllabary",
+   "zh": "切羅基語音節字母"
+  },
+  "description": "writing system invented by Sequoyah for the Cherokee language",
+  "coord": null,
+  "image": "Cherokee Syllabary.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q182133",
+   "Q1191702",
+   "Q65045986"
+  ],
+  "wiki": {
+   "en": "Cherokee syllabary",
+   "zh": "切罗基音节文字"
+  },
+  "locationQid": null
+ },
+ "Q267752": {
+  "label": {
+   "en": "Spotted Tail",
+   "zh": "斑尾"
+  },
+  "description": "Brulé Sioux chief, Native American leader (1823–1881)",
+  "coord": null,
+  "image": "Spotted Tail.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1823,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1881,
+   "date": "1881-08-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Spotted Tail",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2723587": {
+  "label": {
+   "en": "Expulsion of the Acadians",
+   "zh": "阿卡迪亚流亡者"
+  },
+  "description": "1755–1764 British forced removal of Acadians from Maritime Canada",
+  "coord": null,
+  "image": "Deportation of Acadians order, painting by Jefferys.jpg",
+  "pointInTime": {
+   "year": 1764,
+   "date": "1764-07-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q379693"
+  ],
+  "wiki": {
+   "en": "Expulsion of the Acadians",
+   "zh": null
+  },
+  "locationQid": "Q731613"
+ },
+ "Q2723596": {
+  "label": {
+   "en": "Great Law of Peace",
+   "zh": "和平大法"
+  },
+  "description": "oral constitution whereby the Iroquois Confederacy was bound together",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1190,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7755"
+  ],
+  "wiki": {
+   "en": "Great Law of Peace",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2736155": {
+  "label": {
+   "en": "Seneca Falls Convention",
+   "zh": "塞内卡福尔斯会议"
+  },
+  "description": "1848 women's rights convention in New York",
+  "coord": null,
+  "image": "Woman's Rights Convention.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1848,
+   "date": "1848-07-19",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1848,
+   "date": "1848-07-20",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625994"
+  ],
+  "wiki": {
+   "en": "Seneca Falls Convention",
+   "zh": "塞内卡福尔斯会议"
+  },
+  "locationQid": "Q2270851"
+ },
+ "Q27702": {
+  "label": {
+   "en": "October Crisis",
+   "zh": "十月危机"
+  },
+  "description": "1970 series of events in Quebec, Canada",
+  "coord": {
+   "lat": 52,
+   "lon": -72
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1970,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3002772"
+  ],
+  "wiki": {
+   "en": "October Crisis",
+   "zh": "十月危机"
+  }
+ },
+ "Q281763": {
+  "label": {
+   "en": "Hans Egede",
+   "zh": "汉斯·艾吉提"
+  },
+  "description": "missionary to Greenland, Lutheran pastor (1686-1758)",
+  "coord": null,
+  "image": "Hans Egede - Johan Horner.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1686,
+   "date": "1686-01-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1758,
+   "date": "1758-11-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hans Egede",
+   "zh": "漢斯·埃格德"
+  },
+  "locationQid": null
+ },
+ "Q2979068": {
+  "label": {
+   "en": "Cliff Palace",
+   "zh": null
+  },
+  "description": "human settlement in Mesa Verde National Park, Colorado, United States of America",
+  "coord": {
+   "lat": 37.1667,
+   "lon": -108.4728
+  },
+  "image": "00895 Mesa Verde National Park (Colorado, USA) - Historische Felsbehausungen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q532",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Cliff Palace",
+   "zh": null
+  }
+ },
+ "Q298156": {
+  "label": {
+   "en": "René-Robert Cavelier, Sieur de La Salle",
+   "zh": "勒内-罗贝尔·卡弗利耶·德·拉萨勒"
+  },
+  "description": "17th-century French explorer and fur trader in North America",
+  "coord": null,
+  "image": "Cavelier de la salle.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1643,
+   "date": "1643-11-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1687,
+   "date": "1687-03-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "René-Robert Cavelier, Sieur de La Salle",
+   "zh": "勒內-羅貝爾·卡弗利耶·德·拉薩勒"
+  },
+  "locationQid": null
+ },
+ "Q30": {
+  "label": {
+   "en": "United States",
+   "zh": "美国"
+  },
+  "description": "country located primarily in North America",
+  "coord": {
+   "lat": 39.8282,
+   "lon": -98.5795
+  },
+  "image": "United States - Location Map (2013) - USA - UNOCHA.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1784,
+   "date": "1784-05-12",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "United States",
+   "zh": "美国"
+  }
+ },
+ "Q309029": {
+  "label": {
+   "en": "Alaska Purchase",
+   "zh": "阿拉斯加易手"
+  },
+  "description": "1867 sale of Alaska to the USA by Russia",
+  "coord": {
+   "lat": 38.895,
+   "lon": -77.0367
+  },
+  "image": "Alaska Purchase (hi-res).jpg",
+  "pointInTime": {
+   "year": 1867,
+   "date": "1867-03-30",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "Alaska Purchase",
+   "zh": "阿拉斯加購地"
+  }
+ },
+ "Q3099714": {
+  "label": {
+   "en": "Justin Trudeau",
+   "zh": "贾斯廷·特鲁多"
+  },
+  "description": "23rd prime minister of Canada from 2015 to 2025",
+  "coord": null,
+  "image": "Justin Trudeau at the European Commission - 2025.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1971,
+   "date": "1971-12-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Justin Trudeau",
+   "zh": "賈斯汀·杜魯多"
+  },
+  "locationQid": null
+ },
+ "Q310653": {
+  "label": {
+   "en": "Hans Enoksen",
+   "zh": "汉斯·埃诺克森"
+  },
+  "description": "Prime Minister of Greenland",
+  "coord": null,
+  "image": "Landsstyreformand Hans Enoksen til Folkeafstemning i Multihallen i Nuuk med Pipaluk Petersen pa 5 ar (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1956,
+   "date": "1956-08-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2025,
+   "date": "2025-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hans Enoksen",
+   "zh": "漢斯·埃諾克森"
+  },
+  "locationQid": null
+ },
+ "Q311726": {
+  "label": {
+   "en": "Battle of the Plains of Abraham",
+   "zh": "亚伯拉罕平原战役"
+  },
+  "description": "1759 battle between British and French near Quebec City, Canada",
+  "coord": {
+   "lat": 46.8017,
+   "lon": -71.22
+  },
+  "image": "Benjamin West 005.jpg",
+  "pointInTime": {
+   "year": 1759,
+   "date": "1759-09-13",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of the Plains of Abraham",
+   "zh": "亞伯拉罕平原之戰"
+  }
+ },
+ "Q3119025": {
+  "label": {
+   "en": "Red River War",
+   "zh": "美国红河战争"
+  },
+  "description": "military campaign launched by the United States Army in 1874",
+  "coord": null,
+  "image": "Ledger-sm2.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1874,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1875,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Red River War",
+   "zh": "美国红河战争"
+  },
+  "locationQid": "Q12707"
+ },
+ "Q312721": {
+  "label": {
+   "en": "Red Cloud",
+   "zh": "红云"
+  },
+  "description": "chief of Oglala Lakota",
+  "coord": null,
+  "image": "Red Cloud by John K Hillers circa 1880.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1822,
+   "date": "1822-12-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1909,
+   "date": "1909-12-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Red Cloud",
+   "zh": "红云"
+  },
+  "locationQid": null
+ },
+ "Q312769": {
+  "label": {
+   "en": "Knud Rasmussen",
+   "zh": "克努德·拉斯穆森"
+  },
+  "description": "Danish explorer and anthropologist",
+  "coord": null,
+  "image": "Knud Rasmussen 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1879,
+   "date": "1879-06-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1933,
+   "date": "1933-12-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Knud Rasmussen",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q312889": {
+  "label": {
+   "en": "Peter Minuit",
+   "zh": "彼得·米纽特"
+  },
+  "description": "third director-general of New Netherland, founder of the Swedish colony of New Sweden in 1638 (1580–1638)",
+  "coord": null,
+  "image": "Peter Minuit (Minnewit) old portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1580,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1638,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter Minuit",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q313492": {
+  "label": {
+   "en": "Meriwether Lewis",
+   "zh": "梅里韦瑟·刘易斯"
+  },
+  "description": "American explorer (1774-1809)",
+  "coord": null,
+  "image": "Meriwether Lewis-Charles Willson Peale.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1774,
+   "date": "1774-08-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1809,
+   "date": "1809-10-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Meriwether Lewis",
+   "zh": "梅里韦瑟·刘易斯"
+  },
+  "locationQid": null
+ },
+ "Q313595": {
+  "label": {
+   "en": "Sequoyah",
+   "zh": "塞阔雅"
+  },
+  "description": "Cherokee silversmith and creator of the Cherokee syllabary",
+  "coord": null,
+  "image": "Sequoyah.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1770,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1843,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sequoyah",
+   "zh": "塞闊雅"
+  },
+  "locationQid": null
+ },
+ "Q313691": {
+  "label": {
+   "en": "Louis Riel",
+   "zh": "路易斯·瑞尔"
+  },
+  "description": "Métis leader in Canada (1844–1885)",
+  "coord": null,
+  "image": "Louis Riel.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1844,
+   "date": "1844-10-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1885,
+   "date": "1885-11-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis Riel",
+   "zh": "路易·里尔"
+  },
+  "locationQid": null
+ },
+ "Q316039": {
+  "label": {
+   "en": "Haakon IV of Norway",
+   "zh": "候昆四世"
+  },
+  "description": "King of Norway",
+  "coord": null,
+  "image": "Kong Haakon Haakonsson PI III 1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1204,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1263,
+   "date": "1263-12-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Haakon IV",
+   "zh": "哈康四世"
+  },
+  "locationQid": null
+ },
+ "Q317400": {
+  "label": {
+   "en": "Kuupik Kleist",
+   "zh": "库皮克·克雷斯特"
+  },
+  "description": "Greenlandic politician",
+  "coord": null,
+  "image": "Kuupik Kleist.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1958,
+   "date": "1958-03-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kuupik Kleist",
+   "zh": "库皮克·克莱斯特"
+  },
+  "locationQid": null
+ },
+ "Q323813": {
+  "label": {
+   "en": "Jamestown",
+   "zh": "詹姆斯镇"
+  },
+  "description": "fort and town established in the Virginia Colony",
+  "coord": {
+   "lat": 37.2092,
+   "lon": -76.7775
+  },
+  "image": "Jamestown Virginia in 1622 Conquestofvirg1939sams 0590.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1607,
+   "date": null,
+   "precision": 10,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q17343829"
+  ],
+  "wiki": {
+   "en": "Jamestown",
+   "zh": "詹姆斯敦 (維吉尼亞州)"
+  }
+ },
+ "Q326028": {
+  "label": {
+   "en": "Great Peace of Montreal",
+   "zh": "滿地可大和約"
+  },
+  "description": "1701 peace treaty between New France and Indigenous nations",
+  "coord": null,
+  "image": "Grande Paix Montreal.jpg",
+  "pointInTime": {
+   "year": 1701,
+   "date": "1701-08-04",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625298"
+  ],
+  "wiki": {
+   "en": "Great Peace of Montreal",
+   "zh": null
+  },
+  "locationQid": "Q340"
+ },
+ "Q33132": {
+  "label": {
+   "en": "Battle of Gettysburg",
+   "zh": "蓋茨堡之役"
+  },
+  "description": "1863 battle of the American Civil War",
+  "coord": {
+   "lat": 39.8114,
+   "lon": -77.2258
+  },
+  "image": "Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1863,
+   "date": "1863-07-01",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1863,
+   "date": "1863-07-03",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Gettysburg",
+   "zh": "蓋茨堡之戰"
+  }
+ },
+ "Q333233": {
+  "label": {
+   "en": "Charles Monck, 4th Viscount Monck",
+   "zh": "查尔斯·斯坦利·蒙克，第4代蒙克子爵"
+  },
+  "description": "British politician and first Governor General of Canada (1819–1894)",
+  "coord": null,
+  "image": "Charles Stanley Monck.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1819,
+   "date": "1819-10-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1894,
+   "date": "1894-11-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles Monck, 4th Viscount Monck",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q333661": {
+  "label": {
+   "en": "Cahokia",
+   "zh": "卡霍基亚遗址"
+  },
+  "description": "archaeological site near East St. Louis, Illinois, USA",
+  "coord": {
+   "lat": 38.6539,
+   "lon": -90.0644
+  },
+  "image": "Monks Mound in July.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1050,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q5999924",
+   "Q15661340"
+  ],
+  "wiki": {
+   "en": "Cahokia",
+   "zh": "卡霍基亞土墩遺址"
+  }
+ },
+ "Q334673": {
+  "label": {
+   "en": "Magnus VI of Norway",
+   "zh": "瑪克尼斯六世"
+  },
+  "description": "King of Norway (1238–1280)",
+  "coord": null,
+  "image": "Magnus Haakonsson (Stavanger cathedral).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1238,
+   "date": "1238-05-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1280,
+   "date": "1280-05-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Magnus the Lawmender",
+   "zh": "馬格努斯六世"
+  },
+  "locationQid": null
+ },
+ "Q335163": {
+  "label": {
+   "en": "Guy Carleton",
+   "zh": "第一代多爾切斯特男爵蓋伊·卡爾頓"
+  },
+  "description": "Governor of the Province of Quebec (1724-1808)",
+  "coord": null,
+  "image": "Guy Carleton.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1724,
+   "date": "1724-09-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1808,
+   "date": "1808-11-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Guy Carleton, 1st Baron Dorchester",
+   "zh": "第一代多爾切斯特男爵蓋伊·卡爾頓"
+  },
+  "locationQid": null
+ },
+ "Q335230": {
+  "label": {
+   "en": "James Bruce, 8th Earl of Elgin",
+   "zh": "詹姆斯·布鲁斯，第八代额尔金伯爵"
+  },
+  "description": "British nobleman, politician and diplomat (1811–1863)",
+  "coord": null,
+  "image": "Lord Elgin, Plenipotentiary and Ambassador.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1811,
+   "date": "1811-07-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1863,
+   "date": "1863-11-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "James Bruce, 8th Earl of Elgin",
+   "zh": "第八代額爾金伯爵詹姆斯·布魯斯"
+  },
+  "locationQid": null
+ },
+ "Q336437": {
+  "label": {
+   "en": "John George Lambton Durham",
+   "zh": "第一代杜倫伯爵約翰·蘭姆頓"
+  },
+  "description": "British politician (1792-1840)",
+  "coord": null,
+  "image": "John George Lambton, 1st Earl of Durham by Thomas Phillips.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1792,
+   "date": "1792-04-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1840,
+   "date": "1840-07-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John Lambton, 1st Earl of Durham",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3373852": {
+  "label": {
+   "en": "Pearl Street Station",
+   "zh": null
+  },
+  "description": "First power station in the US",
+  "coord": {
+   "lat": 40.7078,
+   "lon": -74.0047
+  },
+  "image": "PearlStreetStation.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6558431"
+  ],
+  "wiki": {
+   "en": "Pearl Street Station",
+   "zh": null
+  }
+ },
+ "Q3381002": {
+  "label": {
+   "en": "Philippe de Rigaud Vaudreuil",
+   "zh": null
+  },
+  "description": "French noble",
+  "coord": null,
+  "image": "Philippe de Rigaud de Vaudreuil.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1643,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1725,
+   "date": "1725-10-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Philippe de Rigaud, Marquis de Vaudreuil",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q33866": {
+  "label": {
+   "en": "Theodore Roosevelt",
+   "zh": "西奥多·罗斯福"
+  },
+  "description": "26th President of the United States from 1901 to 1909 (1858–1919)",
+  "coord": null,
+  "image": "Theodore Roosevelt by the Pach Bros.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1858,
+   "date": "1858-10-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1919,
+   "date": "1919-01-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Theodore Roosevelt",
+   "zh": "西奥多·罗斯福"
+  },
+  "locationQid": null
+ },
+ "Q340": {
+  "label": {
+   "en": "Montreal",
+   "zh": "蒙特利尔"
+  },
+  "description": "largest city in Quebec, Canada",
+  "coord": {
+   "lat": 45.5033,
+   "lon": -73.5868
+  },
+  "image": "Montreal-canada-parc-urban.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1642,
+   "date": "1642-05-17",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q27676416",
+   "Q200250",
+   "Q104782082",
+   "Q1187811"
+  ],
+  "wiki": {
+   "en": "Montreal",
+   "zh": "蒙特利尔"
+  }
+ },
+ "Q34286": {
+  "label": {
+   "en": "Alexander Graham Bell",
+   "zh": "亚历山大·格雷厄姆·贝尔"
+  },
+  "description": "Canadian-American scientist inventor of telephone (1847–1922)",
+  "coord": null,
+  "image": "Alexander Graham Bell by Harris & Ewing.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1847,
+   "date": "1847-03-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1922,
+   "date": "1922-08-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander Graham Bell",
+   "zh": "亚历山大·格雷厄姆·贝尔"
+  },
+  "locationQid": null
+ },
+ "Q34404": {
+  "label": {
+   "en": "New Orleans",
+   "zh": "新奥尔良"
+  },
+  "description": "largest city of the state of Louisiana, United States",
+  "coord": {
+   "lat": 29.9761,
+   "lon": -90.0783
+  },
+  "image": "New Orleans skyline-02.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1718,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1093829",
+   "Q1549591",
+   "Q3301053"
+  ],
+  "wiki": {
+   "en": "New Orleans",
+   "zh": "新奥尔良"
+  }
+ },
+ "Q34836": {
+  "label": {
+   "en": "Ulysses S. Grant",
+   "zh": "尤利西斯·格兰特"
+  },
+  "description": "president of the United States from 1869 to 1877",
+  "coord": null,
+  "image": "Ulysses S. Grant 1870-1880.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1822,
+   "date": "1822-04-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1885,
+   "date": "1885-07-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ulysses S. Grant",
+   "zh": "尤利西斯·格兰特"
+  },
+  "locationQid": null
+ },
+ "Q34969": {
+  "label": {
+   "en": "Benjamin Franklin",
+   "zh": "本杰明·富兰克林"
+  },
+  "description": "American polymath and statesman (1706–1790)",
+  "coord": null,
+  "image": "Joseph Siffrein Duplessis - Benjamin Franklin - Google Art Project.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1706,
+   "date": "1706-01-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1790,
+   "date": "1790-04-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Benjamin Franklin",
+   "zh": "班哲文·富蘭克林"
+  },
+  "locationQid": null
+ },
+ "Q381007": {
+  "label": {
+   "en": "René Lévesque",
+   "zh": "勒内·莱韦克"
+  },
+  "description": "Québécois politician and journalist (1922–1987)",
+  "coord": null,
+  "image": "René Lévesque, 18 octobre 1960.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1922,
+   "date": "1922-08-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1987,
+   "date": "1987-11-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "René Lévesque",
+   "zh": "勒内·莱韦克"
+  },
+  "locationQid": null
+ },
+ "Q381139": {
+  "label": {
+   "en": "Jonathan Motzfeldt",
+   "zh": "约纳坦·莫茨费尔特"
+  },
+  "description": "Prime Minister of Greenland (1938-2010)",
+  "coord": null,
+  "image": "Jonathan Motzfeldt 2003.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1938,
+   "date": "1938-09-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2010,
+   "date": "2010-10-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jonathan Motzfeldt",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q382593": {
+  "label": {
+   "en": "New Netherland",
+   "zh": "新尼德兰"
+  },
+  "description": "17th-century Dutch colony on the East Coast of North America",
+  "coord": {
+   "lat": 40.7667,
+   "lon": -73.9833
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1609,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1667,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "New Netherland",
+   "zh": "新尼德兰"
+  }
+ },
+ "Q3829231": {
+  "label": {
+   "en": "United Empire Loyalist",
+   "zh": "美国保皇党"
+  },
+  "description": "American Loyalists who resettled in British North America and other British Colonies",
+  "coord": null,
+  "image": "United Empire Loyalist statue and plaque in Hamilton, Ontario.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3320743"
+  ],
+  "wiki": {
+   "en": "United Empire Loyalist",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q38555": {
+  "label": {
+   "en": "Santa Fe",
+   "zh": "圣菲"
+  },
+  "description": "capital city of the U.S. state of New Mexico and seat of Santa Fe County",
+  "coord": {
+   "lat": 35.6667,
+   "lon": -105.9667
+  },
+  "image": "Santa Fe NM.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1610,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1093829",
+   "Q62049",
+   "Q11630531"
+  ],
+  "wiki": {
+   "en": "Santa Fe, New Mexico",
+   "zh": "圣菲 (新墨西哥州)"
+  }
+ },
+ "Q391358": {
+  "label": {
+   "en": "Emancipation Proclamation",
+   "zh": "解放奴隶宣言"
+  },
+  "description": "executive order issued by president Abraham Lincoln on January 1, 1863 that freed southern slaves",
+  "coord": null,
+  "image": "Emancipation Proclamation.jpg",
+  "pointInTime": {
+   "year": 1862,
+   "date": "1862-09-22",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1862,
+   "date": "1862-09-22",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1338798",
+   "Q7241458"
+  ],
+  "wiki": {
+   "en": "Emancipation Proclamation",
+   "zh": "解放奴隸宣言"
+  },
+  "locationQid": null
+ },
+ "Q40949": {
+  "label": {
+   "en": "American Revolutionary War",
+   "zh": "美國獨立戰爭"
+  },
+  "description": "1775–1783 war between Great Britain and the Thirteen Colonies, which won independence as the United States of America",
+  "coord": null,
+  "image": "Rev collage.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1775,
+   "date": "1775-04-19",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1783,
+   "date": "1783-09-03",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1006311"
+  ],
+  "wiki": {
+   "en": "American Revolutionary War",
+   "zh": "美國獨立戰爭"
+  },
+  "locationQid": "Q1189650"
+ },
+ "Q4167852": {
+  "label": {
+   "en": "Ipiutak Site",
+   "zh": "伊皮尤塔克文化"
+  },
+  "description": "archaeological type site",
+  "coord": {
+   "lat": 68.3431,
+   "lon": -166.8222
+  },
+  "image": "Ipiutak Site.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Ipiutak site",
+   "zh": "伊皮尤塔克文化"
+  }
+ },
+ "Q41921": {
+  "label": {
+   "en": "Rosa Parks",
+   "zh": "罗莎·帕克斯"
+  },
+  "description": "civil rights activist",
+  "coord": null,
+  "image": "Rosa Parks 1997.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1913,
+   "date": "1913-02-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2005,
+   "date": "2005-10-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rosa Parks",
+   "zh": "羅莎·帕克斯"
+  },
+  "locationQid": null
+ },
+ "Q4228402": {
+  "label": {
+   "en": "Kolomoki Mounds State Park",
+   "zh": null
+  },
+  "description": "archaeological site and state park in Blakely, Georgia, USA",
+  "coord": {
+   "lat": 31.4686,
+   "lon": -84.9485
+  },
+  "image": "Kolomoki-temple-mound.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q37993793"
+  ],
+  "wiki": {
+   "en": "Kolomoki Mounds",
+   "zh": null
+  }
+ },
+ "Q4241801": {
+  "label": {
+   "en": "Crow Creek massacre",
+   "zh": null
+  },
+  "description": "14th-century AD massacre from conflict between Indian groups near present-day central South Dakota, USA",
+  "coord": {
+   "lat": 43.98,
+   "lon": -99.3317
+  },
+  "image": "Crow Creek Site.jpg",
+  "pointInTime": {
+   "year": 1400,
+   "date": null,
+   "precision": 7,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Crow Creek massacre",
+   "zh": null
+  }
+ },
+ "Q426381": {
+  "label": {
+   "en": "José María Coppinger",
+   "zh": null
+  },
+  "description": "Cuban politician (1773-1844)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1773,
+   "date": "1773-04-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1844,
+   "date": "1844-08-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José María Coppinger",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q42761": {
+  "label": {
+   "en": "Watergate scandal",
+   "zh": "水门事件"
+  },
+  "description": "political scandal that occurred in the United States (1972–1974)",
+  "coord": null,
+  "image": "2013 Watergate complex 01.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1972,
+   "date": "1972-06-17",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1974,
+   "date": "1974-08-09",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q934744"
+  ],
+  "wiki": {
+   "en": "Watergate scandal",
+   "zh": "水门事件"
+  },
+  "locationQid": null
+ },
+ "Q42838": {
+  "label": {
+   "en": "Leif Erikson",
+   "zh": "萊夫·埃里克松"
+  },
+  "description": "norse explorer (c. 970 – c. 1020)",
+  "coord": null,
+  "image": "Viking at MN Capitol.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 972,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1020,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Leif Erikson",
+   "zh": "萊夫·埃里克松"
+  },
+  "locationQid": null
+ },
+ "Q431985": {
+  "label": {
+   "en": "Dmitry Petrovich Maksutov",
+   "zh": "德米特里·彼得罗维奇·马克苏托夫"
+  },
+  "description": "Russian admiral (1832-1889)",
+  "coord": null,
+  "image": "Dmitri P Maksutov.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1832,
+   "date": "1832-05-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1889,
+   "date": "1889-04-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dmitry Petrovich Maksutov",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q43527": {
+  "label": {
+   "en": "Sitting Bull",
+   "zh": "坐牛"
+  },
+  "description": "Hunkpapa Lakota medicine man and holy man (1831–1890)",
+  "coord": null,
+  "image": "Sitting Bull.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1831,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1890,
+   "date": "1890-12-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sitting Bull",
+   "zh": "坐牛"
+  },
+  "locationQid": null
+ },
+ "Q4360142": {
+  "label": {
+   "en": "Peta Nocona",
+   "zh": null
+  },
+  "description": "Comanche chief, husband of Cynthia Parker, father of Quanah Parker (1820–1860)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1820,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1860,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peta Nocona",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q43653": {
+  "label": {
+   "en": "Apollo 11",
+   "zh": "阿波罗11号"
+  },
+  "description": "first Moon landing and fifth crewed flight of the United States Apollo program",
+  "coord": null,
+  "image": "Apollo 11 Crew.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q752783"
+  ],
+  "wiki": {
+   "en": "Apollo 11",
+   "zh": "阿波罗11号"
+  },
+  "locationQid": null
+ },
+ "Q440782": {
+  "label": {
+   "en": "Alexander Baranov",
+   "zh": "亞歷山大·巴拉諾夫"
+  },
+  "description": "trader and manager of trading posts in Russian America (1746-1819)",
+  "coord": null,
+  "image": "Baranov Alexandr.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1747,
+   "date": "1747-11-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1819,
+   "date": "1819-04-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander Andreyevich Baranov",
+   "zh": "亚历山大·安德烈耶维奇·巴拉诺夫"
+  },
+  "locationQid": null
+ },
+ "Q4421193": {
+  "label": {
+   "en": "Great Sioux Nation",
+   "zh": "蘇族國"
+  },
+  "description": "political structure of the Sioux in North America",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q41710"
+  ],
+  "wiki": {
+   "en": "Great Sioux Nation",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q44555": {
+  "label": {
+   "en": "Crazy Horse",
+   "zh": "疯马"
+  },
+  "description": "Oglala Sioux chief (1840–1877)",
+  "coord": null,
+  "image": "Crazy Horse in Fiedler Museum.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1849,
+   "date": "1849-12-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1877,
+   "date": "1877-09-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Crazy Horse",
+   "zh": "疯马"
+  },
+  "locationQid": null
+ },
+ "Q44853": {
+  "label": {
+   "en": "Hiawatha",
+   "zh": "海华沙"
+  },
+  "description": "First Nations leader and co-founder of the Iroquois League",
+  "coord": null,
+  "image": "Hiawatha by Augustus Saint-Gaudens 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hiawatha",
+   "zh": "海华沙"
+  },
+  "locationQid": null
+ },
+ "Q4533107": {
+  "label": {
+   "en": "Etowah Indian Mounds",
+   "zh": null
+  },
+  "description": "archaeological site in Bartow County, Georgia",
+  "coord": {
+   "lat": 34.128,
+   "lon": -84.8071
+  },
+  "image": "USA-Georgia-Etowah Indian Mounds-Mound B.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q358"
+  ],
+  "wiki": {
+   "en": "Etowah Indian Mounds",
+   "zh": null
+  }
+ },
+ "Q45578": {
+  "label": {
+   "en": "2008 United States presidential election",
+   "zh": "2008年美国总统选举"
+  },
+  "description": "56th quadrennial U.S. presidential election",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 2008,
+   "date": "2008-11-04",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47566"
+  ],
+  "wiki": {
+   "en": "2008 United States presidential election",
+   "zh": "2008年美国总统选举"
+  },
+  "locationQid": null
+ },
+ "Q456633": {
+  "label": {
+   "en": "Mirabeau B. Lamar",
+   "zh": "米拉波·波拿巴·拉马尔"
+  },
+  "description": "American politician (1798–1859)",
+  "coord": null,
+  "image": "Mirabeaulamar.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1798,
+   "date": "1798-08-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1859,
+   "date": "1859-12-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mirabeau B. Lamar",
+   "zh": "米拉波·波拿巴·拉馬爾"
+  },
+  "locationQid": null
+ },
+ "Q459447": {
+  "label": {
+   "en": "Siege of Yorktown",
+   "zh": "约克镇围城战役"
+  },
+  "description": "siege, part of American Revolutionary War",
+  "coord": {
+   "lat": 37.2308,
+   "lon": -76.5025
+  },
+  "image": "Surrender of Lord Cornwallis.jpg",
+  "pointInTime": {
+   "year": 1781,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1781,
+   "date": "1781-09-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1781,
+   "date": "1781-10-19",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Yorktown",
+   "zh": "約克鎮圍城戰"
+  }
+ },
+ "Q459578": {
+  "label": {
+   "en": "Erie Canal",
+   "zh": "伊利运河"
+  },
+  "description": "canal in New York State",
+  "coord": {
+   "lat": 43.0223,
+   "lon": -78.8808
+  },
+  "image": "Sunset over the Erie Canal in North Tonawanda, NY..jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12284"
+  ],
+  "wiki": {
+   "en": "Erie Canal",
+   "zh": "伊利運河"
+  }
+ },
+ "Q46974": {
+  "label": {
+   "en": "Canadian Pacific Railway",
+   "zh": "加拿大太平洋鐵路"
+  },
+  "description": "Class I railroad in Canada and U.S.",
+  "coord": {
+   "lat": 50.9909,
+   "lon": -114
+  },
+  "image": "Eastbound over SCB.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1881,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q249556",
+   "Q4830453",
+   "Q22667"
+  ],
+  "wiki": {
+   "en": "Canadian Pacific Railway",
+   "zh": "加拿大太平洋鐵路"
+  }
+ },
+ "Q4777071": {
+  "label": {
+   "en": "Antonio de Otermin",
+   "zh": null
+  },
+  "description": "Spanish colonial governor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1700,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Antonio de Otermín",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q478805": {
+  "label": {
+   "en": "Ancestral Puebloans",
+   "zh": "阿那萨吉人"
+  },
+  "description": "ancient Native American culture in Four Corners region of the United States",
+  "coord": null,
+  "image": "Map Anasazi, Hohokam and Mogollon cultures-nl.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4204501",
+   "Q465299",
+   "Q8432"
+  ],
+  "wiki": {
+   "en": "Ancestral Puebloans",
+   "zh": "阿那萨吉人"
+  },
+  "locationQid": "Q15672"
+ },
+ "Q487988": {
+  "label": {
+   "en": "St. Augustine",
+   "zh": "圣奥古斯丁"
+  },
+  "description": "city in St. Johns County, Florida, United States",
+  "coord": {
+   "lat": 29.8947,
+   "lon": -81.3144
+  },
+  "image": "StAugustineC12.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1565,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1093829",
+   "Q27554677",
+   "Q35127"
+  ],
+  "wiki": {
+   "en": "St. Augustine, Florida",
+   "zh": "聖奧古斯丁 (佛羅里達州)"
+  }
+ },
+ "Q49291": {
+  "label": {
+   "en": "Powhatan",
+   "zh": "波瓦坦"
+  },
+  "description": "Virginia Indian confederation of tribes",
+  "coord": null,
+  "image": "De Bry Chief Virginia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q41710"
+  ],
+  "wiki": {
+   "en": "Powhatan",
+   "zh": "波瓦坦人"
+  },
+  "locationQid": null
+ },
+ "Q502073": {
+  "label": {
+   "en": "Halifax explosion",
+   "zh": "哈利法克斯爆炸"
+  },
+  "description": "1917 maritime disaster in Halifax, Nova Scotia, Canada",
+  "coord": {
+   "lat": 44.6692,
+   "lon": -63.5964
+  },
+  "image": "Halifax Explosion blast cloud restored.jpg",
+  "pointInTime": {
+   "year": 1917,
+   "date": "1917-12-06",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q179057",
+   "Q3839081",
+   "Q2620513",
+   "Q171558"
+  ],
+  "wiki": {
+   "en": "Halifax Explosion",
+   "zh": "哈利法克斯爆炸"
+  }
+ },
+ "Q5031214": {
+  "label": {
+   "en": "Canassatego",
+   "zh": null
+  },
+  "description": "Onondaga leader",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1684,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1750,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Canassatego",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q505146": {
+  "label": {
+   "en": "Joseph Brant",
+   "zh": "約瑟·布蘭特"
+  },
+  "description": "Mohawk leader (1742-1807)",
+  "coord": null,
+  "image": "Joseph Brant painting by George Romney 1776.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1742,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1807,
+   "date": "1807-11-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Joseph Brant",
+   "zh": "約瑟·布蘭特"
+  },
+  "locationQid": null
+ },
+ "Q505802": {
+  "label": {
+   "en": "Lewis and Clark Expedition",
+   "zh": "刘易斯与克拉克远征"
+  },
+  "description": "American overland expedition to the Pacific coast",
+  "coord": {
+   "lat": 38.8027,
+   "lon": -90.1012
+  },
+  "image": "Lewis and clark-expedition.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1804,
+   "date": "1804-05-14",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1806,
+   "date": "1806-09-23",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q17524420",
+   "Q366301"
+  ],
+  "wiki": {
+   "en": "Lewis and Clark Expedition",
+   "zh": "刘易斯与克拉克远征"
+  }
+ },
+ "Q5092177": {
+  "label": {
+   "en": "Cherokee Nation",
+   "zh": "切羅基自治政府領導人"
+  },
+  "description": "autonomous tribal Native American government in North America; recognized from 1794 to 1907",
+  "coord": {
+   "lat": 35.9,
+   "lon": -94.9667
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1794,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6266",
+   "Q471855",
+   "Q43229"
+  ],
+  "wiki": {
+   "en": "Cherokee Nation (1794–1907)",
+   "zh": "切罗基国"
+  }
+ },
+ "Q513705": {
+  "label": {
+   "en": "Eastern Settlement",
+   "zh": "格陵兰东殖民地"
+  },
+  "description": "Area of Norse Greenland",
+  "coord": {
+   "lat": 61,
+   "lon": -45.4167
+  },
+  "image": "Eastern-settlement-eng.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486972"
+  ],
+  "wiki": {
+   "en": "Eastern Settlement",
+   "zh": "格陵蘭東殖民地"
+  }
+ },
+ "Q51402": {
+  "label": {
+   "en": "Stonewall riots",
+   "zh": "石牆暴動"
+  },
+  "description": "1969 LGBT rights demonstrations in New York City, United States",
+  "coord": {
+   "lat": 40.7338,
+   "lon": -74.0021
+  },
+  "image": "Stonewall Inn raid sign pride weekend 2016.jpg",
+  "pointInTime": {
+   "year": 1969,
+   "date": "1969-07-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1969,
+   "date": "1969-06-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1969,
+   "date": "1969-07-03",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q125506609"
+  ],
+  "wiki": {
+   "en": "Stonewall riots",
+   "zh": "石牆暴動"
+  }
+ },
+ "Q51776": {
+  "label": {
+   "en": "Dennis Bushyhead",
+   "zh": null
+  },
+  "description": "Principal Chief of the Cherokee Nation",
+  "coord": null,
+  "image": "Chiefbushyhead.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1826,
+   "date": "1826-03-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1898,
+   "date": "1898-02-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dennis Bushyhead",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q51846080": {
+  "label": {
+   "en": "Múte Bourup Egede",
+   "zh": "穆特·博鲁普·埃格德"
+  },
+  "description": "former (7th) Prime Minister of Greenland, current Minister of Finance and Taxation",
+  "coord": null,
+  "image": "Múte Bourup Egede - 2024 (P064386-932290) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1987,
+   "date": "1987-03-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Múte Bourup Egede",
+   "zh": "穆特·博鲁普·埃格德"
+  },
+  "locationQid": null
+ },
+ "Q5192605": {
+  "label": {
+   "en": "Cuerno Verde",
+   "zh": null
+  },
+  "description": "leader of the Comanche in the late 18th century",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1701,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1779,
+   "date": "1779-09-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cuerno Verde",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q549495": {
+  "label": {
+   "en": "Alexander H. Stephens",
+   "zh": "亚历山大·史蒂芬斯"
+  },
+  "description": "vice president of the Confederate States from 1861 to 1865 (1812–1883)",
+  "coord": null,
+  "image": "Alexander Hamilton Stephens.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1812,
+   "date": "1812-02-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1883,
+   "date": "1883-03-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander H. Stephens",
+   "zh": "亚历山大·汉密尔顿·斯蒂芬斯"
+  },
+  "locationQid": null
+ },
+ "Q553152": {
+  "label": {
+   "en": "Pedro Menéndez de Avilés",
+   "zh": "佩德罗·梅嫩德斯·德·阿维莱斯"
+  },
+  "description": "Spanish explorer and governor (1519–1574)",
+  "coord": null,
+  "image": "Pedro Menéndez de Avilés.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1519,
+   "date": "1519-02-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1574,
+   "date": "1574-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro Menéndez de Avilés",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q555528": {
+  "label": {
+   "en": "Spanish Florida",
+   "zh": "西属佛罗里达"
+  },
+  "description": "former Spanish possession in North America (1513–1763, 1783–1821)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1513,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1818,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q17259945"
+  ],
+  "wiki": {
+   "en": "Spanish Florida",
+   "zh": "西属佛罗里达"
+  },
+  "locationQid": null
+ },
+ "Q569983": {
+  "label": {
+   "en": "Anson Jones",
+   "zh": "安生·瓊斯"
+  },
+  "description": "Texan politician (1798-1858)",
+  "coord": null,
+  "image": "Anson jones.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1798,
+   "date": "1798-01-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1858,
+   "date": "1858-01-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anson Jones",
+   "zh": "安森·瓊斯"
+  },
+  "locationQid": null
+ },
+ "Q578878": {
+  "label": {
+   "en": "Chief Powhatan",
+   "zh": "波瓦坦"
+  },
+  "description": "Paramount chief of Tsenacommacah (1549-1618)",
+  "coord": null,
+  "image": "Powhatan john smith map.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1549,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1618,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Powhatan (Native American leader)",
+   "zh": "波瓦坦 (酋長)"
+  },
+  "locationQid": null
+ },
+ "Q59222": {
+  "label": {
+   "en": "Roanoke Colony",
+   "zh": "羅安諾克殖民地"
+  },
+  "description": "former colony in present-day Dare County, North Carolina, US (1585–1590)",
+  "coord": {
+   "lat": 35.9369,
+   "lon": -75.7089
+  },
+  "image": "Fort Raleigh Archaelogical Dig 2009.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1584,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q74047",
+   "Q133156"
+  ],
+  "wiki": {
+   "en": "Roanoke Colony",
+   "zh": "罗阿诺克殖民地"
+  }
+ },
+ "Q60": {
+  "label": {
+   "en": "New York City",
+   "zh": "纽约"
+  },
+  "description": "most populous city in the United States",
+  "coord": {
+   "lat": 40.7128,
+   "lon": -74.0061
+  },
+  "image": "NYC Downtown Manhattan Skyline seen from Paulus Hook 2019-12-20 IMG 7347 FRD (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1624,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q208511",
+   "Q2264924",
+   "Q1093829",
+   "Q515",
+   "Q1549591",
+   "Q51929311",
+   "Q15063611",
+   "Q200250",
+   "Q174844"
+  ],
+  "wiki": {
+   "en": "New York City",
+   "zh": "纽约"
+  }
+ },
+ "Q60040": {
+  "label": {
+   "en": "Hernando de Soto",
+   "zh": "埃尔南多·德索托"
+  },
+  "description": "Spanish explorer and conquistador",
+  "coord": null,
+  "image": "De Soto by Telfer & Sartain.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1542,
+   "date": "1542-05-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hernando de Soto",
+   "zh": "埃尔南多·德·索托"
+  },
+  "locationQid": null
+ },
+ "Q6021399": {
+  "label": {
+   "en": "Truth and Reconciliation Commission of Canada",
+   "zh": "加拿大真相与和解委员会"
+  },
+  "description": "commission responsible for responding to harm inflicted on Canadian indigenous people by Canadian institutions",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 2008,
+   "date": "2008-06-02",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 2015,
+   "date": null,
+   "precision": 10,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1501336"
+  ],
+  "wiki": {
+   "en": "Truth and Reconciliation Commission of Canada",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q602260": {
+  "label": {
+   "en": "George Prevost",
+   "zh": "乔治·普荷沃"
+  },
+  "description": "British soldier and colonial administrator (1767-1816)",
+  "coord": null,
+  "image": "Georgeprevost.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1767,
+   "date": "1767-05-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1816,
+   "date": "1816-01-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George Prevost",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6072624": {
+  "label": {
+   "en": "Iron Jacket",
+   "zh": null
+  },
+  "description": "Native American leader",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1790,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1858,
+   "date": "1858-05-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Iron Jacket",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q62": {
+  "label": {
+   "en": "San Francisco",
+   "zh": "旧金山"
+  },
+  "description": "city and county in California, United States",
+  "coord": {
+   "lat": 37.775,
+   "lon": -122.4194
+  },
+  "image": "San Francisco from the Marin Headlands in March 2019.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1776,
+   "date": "1776-06-29",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13218382",
+   "Q1093829",
+   "Q1549591",
+   "Q3559093"
+  ],
+  "wiki": {
+   "en": "San Francisco",
+   "zh": "旧金山"
+  }
+ },
+ "Q623429": {
+  "label": {
+   "en": "Reconstruction Era",
+   "zh": "美国重建时期"
+  },
+  "description": "era after American Civil War (1865–1877)",
+  "coord": null,
+  "image": "ReconstructionEraColl.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1863,
+   "date": "1863-12-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1877,
+   "date": "1877-03-31",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q186081",
+   "Q188686"
+  ],
+  "wiki": {
+   "en": "Reconstruction era",
+   "zh": "美國重建時期"
+  },
+  "locationQid": "Q49042"
+ },
+ "Q631489": {
+  "label": {
+   "en": "Klondike Gold Rush",
+   "zh": "克朗代克淘金热"
+  },
+  "description": "C.E.1890s migration",
+  "coord": {
+   "lat": 64.0349,
+   "lon": -139.286
+  },
+  "image": "Miners register claims.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1896,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1899,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q273182"
+  ],
+  "wiki": {
+   "en": "Klondike Gold Rush",
+   "zh": "克朗代克淘金热"
+  }
+ },
+ "Q638530": {
+  "label": {
+   "en": "Texas Revolution",
+   "zh": "得克萨斯革命"
+  },
+  "description": "war between Texans and Mexico, 1835-1836, resulting in the independent Republic of Texas",
+  "coord": {
+   "lat": 31,
+   "lon": -100
+  },
+  "image": "Sam Houston at San Jacinto.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1835,
+   "date": "1835-10-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1836,
+   "date": "1836-04-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3119121"
+  ],
+  "wiki": {
+   "en": "Texas Revolution",
+   "zh": "得克萨斯革命"
+  }
+ },
+ "Q645288": {
+  "label": {
+   "en": "Battle of the Thames",
+   "zh": "泰晤士河战役"
+  },
+  "description": "American victory over Tecumseh's Confederacy and allied British Forces in Upper Canada",
+  "coord": {
+   "lat": 42.5625,
+   "lon": -81.9314
+  },
+  "image": "Battle of the Thames.PNG",
+  "pointInTime": {
+   "year": 1813,
+   "date": "1813-10-05",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of the Thames",
+   "zh": null
+  }
+ },
+ "Q648279": {
+  "label": {
+   "en": "Comancheria",
+   "zh": "科曼奇利亞"
+  },
+  "description": "former region of New Mexico, traditional homeland of the Comanche tribe",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Comancheria",
+   "zh": "科曼奇里亚"
+  },
+  "locationQid": null
+ },
+ "Q65": {
+  "label": {
+   "en": "Los Angeles",
+   "zh": "洛杉矶"
+  },
+  "description": "seat of Los Angeles County, and largest city in California, United States",
+  "coord": {
+   "lat": 34.0522,
+   "lon": -118.2437
+  },
+  "image": "Los Angeles with Mount Baldy.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1781,
+   "date": "1781-09-04",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13218391"
+  ],
+  "wiki": {
+   "en": "Los Angeles",
+   "zh": "洛杉矶"
+  }
+ },
+ "Q6536494": {
+  "label": {
+   "en": "Lewis Downing",
+   "zh": null
+  },
+  "description": "Cherokee leader",
+  "coord": null,
+  "image": "Lewis Downing.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1823,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1872,
+   "date": "1872-11-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lewis Downing",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6652364": {
+  "label": {
+   "en": "Little Turkey",
+   "zh": "小火雞酋長"
+  },
+  "description": "Cherokee leader",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1758,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1801,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Little Turkey",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6683": {
+  "label": {
+   "en": "Mexican-American War",
+   "zh": "美墨戰爭"
+  },
+  "description": "military conflict between the United States of America and Mexico from 1846 to 1848",
+  "coord": null,
+  "image": "Battle Molino del Rey.jpg",
+  "pointInTime": {
+   "year": 1840,
+   "date": null,
+   "precision": 8,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1846,
+   "date": "1846-04-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1848,
+   "date": "1848-02-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Mexican–American War",
+   "zh": "美墨戰爭"
+  },
+  "locationQid": "Q96"
+ },
+ "Q6752990": {
+  "label": {
+   "en": "Manuel de Montiano",
+   "zh": null
+  },
+  "description": "Spanish colonial administrator (1685-1762)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1685,
+   "date": "1685-01-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1762,
+   "date": "1762-01-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel de Montiano",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q68518": {
+  "label": {
+   "en": "Iroquois",
+   "zh": "易洛魁聯盟"
+  },
+  "description": "confederacy of northeast Native American people",
+  "coord": null,
+  "image": "1914 Panoramic View of Iroquois.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6266",
+   "Q29428439"
+  ],
+  "wiki": {
+   "en": "Haudenosaunee",
+   "zh": "易洛魁聯盟"
+  },
+  "locationQid": null
+ },
+ "Q68529": {
+  "label": {
+   "en": "Samuel de Champlain",
+   "zh": "萨米埃尔·德·尚普兰"
+  },
+  "description": "16/17th-century French explorer of North America",
+  "coord": null,
+  "image": "Samchamprifle.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1567,
+   "date": "1567-08-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1635,
+   "date": "1635-12-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Samuel de Champlain",
+   "zh": "萨米埃尔·德·尚普兰"
+  },
+  "locationQid": null
+ },
+ "Q688605": {
+  "label": {
+   "en": "Flyer I",
+   "zh": "莱特飞行器"
+  },
+  "description": "heavier-than-air powered aircraft, designed and built by the Wright Brothers",
+  "coord": null,
+  "image": "First flight2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": {
+   "year": 1903,
+   "date": "1903-12-17",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q197",
+   "Q113164444"
+  ],
+  "wiki": {
+   "en": "Wright Flyer",
+   "zh": "莱特飞行器"
+  },
+  "locationQid": null
+ },
+ "Q70520": {
+  "label": {
+   "en": "Great Chicago Fire",
+   "zh": "芝加哥大火"
+  },
+  "description": "1871 conflagration in Chicago, Illinois",
+  "coord": {
+   "lat": 41.8692,
+   "lon": -87.642
+  },
+  "image": "Chicago-fire1.jpg",
+  "pointInTime": {
+   "year": 1871,
+   "date": "1871-10-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1871,
+   "date": "1871-10-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1871,
+   "date": "1871-10-10",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q838718"
+  ],
+  "wiki": {
+   "en": "Great Chicago Fire",
+   "zh": "芝加哥大火"
+  }
+ },
+ "Q7144795": {
+  "label": {
+   "en": "Pathkiller",
+   "zh": null
+  },
+  "description": "Principal Chief of the Cherokee",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1749,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pathkiller (principal chief)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7160043": {
+  "label": {
+   "en": "Pedro de Peralta",
+   "zh": null
+  },
+  "description": "Spanish colonial governor of New Mexico",
+  "coord": null,
+  "image": "Plaza, Santa Fe, NM 7-29-13e (11388399064).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1584,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1666,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro de Peralta",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q717738": {
+  "label": {
+   "en": "Tecumseh's Confederacy",
+   "zh": "特庫姆塞聯盟"
+  },
+  "description": "19th Century Native American confederation in the Great Lakes region",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1805,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1824,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q170156"
+  ],
+  "wiki": {
+   "en": "Tecumseh's confederacy",
+   "zh": "特库姆塞联盟"
+  },
+  "locationQid": null
+ },
+ "Q7245": {
+  "label": {
+   "en": "Mark Twain",
+   "zh": "马克·吐温"
+  },
+  "description": "American author and humorist (1835–1910)",
+  "coord": null,
+  "image": "MarkTwain.LOC.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1835,
+   "date": "1835-11-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1910,
+   "date": "1910-04-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mark Twain",
+   "zh": "马克·吐温"
+  },
+  "locationQid": null
+ },
+ "Q726501": {
+  "label": {
+   "en": "Dust Bowl",
+   "zh": "黑色风暴事件"
+  },
+  "description": "period of severe dust storms in North America",
+  "coord": null,
+  "image": "Dust Bowl - Dallas, South Dakota 1936.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1930,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1936,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3193890"
+  ],
+  "wiki": {
+   "en": "Dust Bowl",
+   "zh": "黑色风暴事件"
+  },
+  "locationQid": null
+ },
+ "Q727612": {
+  "label": {
+   "en": "Juan Bautista de Anza",
+   "zh": "胡安·鮑提斯塔·德·安萨"
+  },
+  "description": "Basque explorer and governor (1736-1788)",
+  "coord": null,
+  "image": "Portrait of Juan Bautista de Anza (Painted by Fray Orci; 1774, Mexico City).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1736,
+   "date": "1736-07-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1788,
+   "date": "1788-12-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Bautista de Anza",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q72813": {
+  "label": {
+   "en": "Thule people",
+   "zh": "图勒人"
+  },
+  "description": "ancestors of modern Inuit people",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11042"
+  ],
+  "wiki": {
+   "en": "Thule people",
+   "zh": "图勒人"
+  },
+  "locationQid": null
+ },
+ "Q7321": {
+  "label": {
+   "en": "Jacques Cartier",
+   "zh": "雅克·卡蒂埃"
+  },
+  "description": "Breton maritime explorer of North America (1491–1557)",
+  "coord": null,
+  "image": "Jacques Cartier 1851-1852.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1491,
+   "date": "1491-12-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1557,
+   "date": "1557-09-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jacques Cartier",
+   "zh": "雅克·卡蒂埃"
+  },
+  "locationQid": null
+ },
+ "Q750448": {
+  "label": {
+   "en": "Trail of Tears",
+   "zh": "美国西进运动"
+  },
+  "description": "forced displacement of Five Civilized Tribes",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q154278",
+   "Q3289720",
+   "Q837556"
+  ],
+  "wiki": {
+   "en": "Trail of Tears",
+   "zh": "眼泪之路"
+  },
+  "locationQid": null
+ },
+ "Q76": {
+  "label": {
+   "en": "Barack Obama",
+   "zh": "贝拉克·奥巴马"
+  },
+  "description": "44th President of the United States (2009–2017)",
+  "coord": null,
+  "image": "President Barack Obama.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1961,
+   "date": "1961-08-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Barack Obama",
+   "zh": "巴拉克·奧巴馬"
+  },
+  "locationQid": null
+ },
+ "Q76039": {
+  "label": {
+   "en": "Hudson's Bay Company",
+   "zh": "哈德逊湾公司"
+  },
+  "description": "Canadian retail business group, former fur trading business",
+  "coord": {
+   "lat": 43.6516,
+   "lon": -79.3811
+  },
+  "image": "Edificio Henry Morgan, Montreal, Canadá, 2017-08-11, DD 43.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1670,
+   "date": "1670-05-02",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 2025,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4830453",
+   "Q6881511"
+  ],
+  "wiki": {
+   "en": "Hudson's Bay Company",
+   "zh": "哈德逊湾公司"
+  }
+ },
+ "Q765499": {
+  "label": {
+   "en": "Red River Rebellion",
+   "zh": "红河叛乱"
+  },
+  "description": "sequence of events that led up to the 1869 establishment of a provisional government by the Métis leader Louis Riel and his followers at the Red River Colony, in what is now the Canadian province of Manitoba",
+  "coord": {
+   "lat": 49.8879,
+   "lon": -97.1353
+  },
+  "image": "ProvisionalMetisGovernment.jpg",
+  "pointInTime": {
+   "year": 1869,
+   "date": "1869-10-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Red River Rebellion",
+   "zh": "里埃尔起义"
+  }
+ },
+ "Q778010": {
+  "label": {
+   "en": "Battles of Lexington and Concord",
+   "zh": "列克星敦和康科德战役"
+  },
+  "description": "first military engagements of the American Revolutionary War (1775)",
+  "coord": {
+   "lat": 42.4494,
+   "lon": -71.2308
+  },
+  "image": "The Battle of Lexington.jpg",
+  "pointInTime": {
+   "year": 1775,
+   "date": "1775-04-19",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battles of Lexington and Concord",
+   "zh": "列克星敦和康科德战役"
+  }
+ },
+ "Q778218": {
+  "label": {
+   "en": "1980 eruption of Mount St. Helens",
+   "zh": "1980年圣海伦斯火山爆发"
+  },
+  "description": "volcanic eruption",
+  "coord": {
+   "lat": 46.2003,
+   "lon": -122.1867
+  },
+  "image": "MSH80 eruption mount st helens plume 05-18-80.jpg",
+  "pointInTime": {
+   "year": 1980,
+   "date": "1980-02-18",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1980,
+   "date": "1980-05-18",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q747501"
+  ],
+  "wiki": {
+   "en": "1980 eruption of Mount St. Helens",
+   "zh": "1980年圣海伦火山爆发"
+  }
+ },
+ "Q7925171": {
+  "label": {
+   "en": "Vicente Manuel de Céspedes y Velasco",
+   "zh": null
+  },
+  "description": "Spanish governor of the 18th century",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1721,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1794,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vicente Manuel de Céspedes",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q79804": {
+  "label": {
+   "en": "Sitka",
+   "zh": "锡特卡"
+  },
+  "description": "consolidated city-borough in Alaska, United States of America",
+  "coord": {
+   "lat": 57.0533,
+   "lon": -135.3347
+  },
+  "image": "Sitka 84 Elev 135.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1799,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1093829",
+   "Q3301053"
+  ],
+  "wiki": {
+   "en": "Sitka, Alaska",
+   "zh": "锡特卡 (阿拉斯加州)"
+  }
+ },
+ "Q798672": {
+  "label": {
+   "en": "Brattahlíð",
+   "zh": "布拉塔赫利兹"
+  },
+  "description": "Erik the Red's estate in the Eastern Settlement Viking colony",
+  "coord": {
+   "lat": 61.156,
+   "lon": -45.516
+  },
+  "image": "Brattachurch.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q109607"
+  ],
+  "wiki": {
+   "en": "Brattahlíð",
+   "zh": null
+  }
+ },
+ "Q79972": {
+  "label": {
+   "en": "James VI and I",
+   "zh": "詹姆斯一世"
+  },
+  "description": "King of Scotland from 1567 to 1625, King of England and Ireland from 1603 to 1625 (1566–1625)",
+  "coord": null,
+  "image": "John de Critz - James VI and I, 1566 - 1625. King of Scotland 1567 - 1625. King of England and Ireland 1603 - 1625 - PG 561 - National Galleries of Scotland.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1566,
+   "date": "1566-06-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1625,
+   "date": "1625-03-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "James VI and I",
+   "zh": "詹姆士六世及一世"
+  },
+  "locationQid": null
+ },
+ "Q8007": {
+  "label": {
+   "en": "Franklin Delano Roosevelt",
+   "zh": "富兰克林·德拉诺·罗斯福"
+  },
+  "description": "president of the United States from 1933 to 1945 (1882–1945)",
+  "coord": null,
+  "image": "FDR 1944 Color Portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1882,
+   "date": "1882-01-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1945,
+   "date": "1945-04-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Franklin D. Roosevelt",
+   "zh": "富兰克林·德拉诺·罗斯福"
+  },
+  "locationQid": null
+ },
+ "Q8027": {
+  "label": {
+   "en": "Martin Luther King Jr.",
+   "zh": "马丁·路德·金"
+  },
+  "description": "American Baptist minister and civil rights leader (1929–1968)",
+  "coord": null,
+  "image": "The Rev. Dr. Martin Luther King Jr. Color Portrait (high quality).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1929,
+   "date": "1929-01-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1968,
+   "date": "1968-04-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Martin Luther King Jr.",
+   "zh": "马丁·路德·金"
+  },
+  "locationQid": null
+ },
+ "Q80341064": {
+  "label": {
+   "en": "purchase of Manhattan Island",
+   "zh": null
+  },
+  "description": "1626 event",
+  "coord": null,
+  "image": "The Purchase of Manhattan Island.png",
+  "pointInTime": {
+   "year": 1626,
+   "date": "1626-05-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q601401",
+   "Q107353247"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": "Q11253"
+ },
+ "Q81506": {
+  "label": {
+   "en": "Charles I of England",
+   "zh": "查理一世"
+  },
+  "description": "King of England, Scotland, and Ireland from 1625 to 1649 (1600–1649)",
+  "coord": null,
+  "image": "Anthony van Dyck (1599-1641) - Charles I (1600-1649) - RCIN 404398 - Royal Collection.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1600,
+   "date": "1600-11-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1649,
+   "date": "1649-01-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles I of England",
+   "zh": "查理一世 (英格蘭)"
+  },
+  "locationQid": null
+ },
+ "Q81931": {
+  "label": {
+   "en": "Confederate States of America",
+   "zh": "美利堅聯盟國"
+  },
+  "description": "former country in North America formed by the Southern United States during the American Civil War (1861-1865)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1861,
+   "date": "1861-02-08",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1865,
+   "date": null,
+   "precision": 10,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q99541706"
+  ],
+  "wiki": {
+   "en": "Confederate States of America",
+   "zh": "美利堅聯盟國"
+  },
+  "locationQid": null
+ },
+ "Q829895": {
+  "label": {
+   "en": "Harlem Renaissance",
+   "zh": "哈莱姆文艺复兴"
+  },
+  "description": "African-American cultural movement in New York City in the 1920s",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3533467",
+   "Q968159",
+   "Q2198855"
+  ],
+  "wiki": {
+   "en": "Harlem Renaissance",
+   "zh": "哈莱姆文艺复兴"
+  },
+  "locationQid": null
+ },
+ "Q837144": {
+  "label": {
+   "en": "Numbered Treaties",
+   "zh": "11项条约"
+  },
+  "description": "series of treaties between the Government of Canada and the First Nations",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "Numbered Treaties",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q846674": {
+  "label": {
+   "en": "Battles of Saratoga",
+   "zh": "萨拉托加之役"
+  },
+  "description": "1777 major turning point of the American Revolutionary War",
+  "coord": {
+   "lat": 42.9989,
+   "lon": -73.6375
+  },
+  "image": "Surrender of General Burgoyne.jpg",
+  "pointInTime": {
+   "year": 1777,
+   "date": "1777-10-07",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1777,
+   "date": "1777-09-19",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1777,
+   "date": "1777-12-17",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battles of Saratoga",
+   "zh": "薩拉托加之戰"
+  }
+ },
+ "Q856216": {
+  "label": {
+   "en": "Beaver Wars",
+   "zh": "河狸战争"
+  },
+  "description": "1609–1701 wars between Hurons and Iroquois",
+  "coord": null,
+  "image": "Champlain's Battle with the Iroquois, Ticonderoga, July, 1609 (NYPL b12647398-79471).tiff",
+  "pointInTime": null,
+  "start": {
+   "year": 1609,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1701,
+   "date": "1701-08-04",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q104212151"
+  ],
+  "wiki": {
+   "en": "Beaver Wars",
+   "zh": null
+  },
+  "locationQid": "Q1548416"
+ },
+ "Q8619": {
+  "label": {
+   "en": "Pierre Trudeau",
+   "zh": "皮埃尔·特鲁多"
+  },
+  "description": "Prime Minister of Canada from 1968 to 1979 and 1980 to 1984 (1919–2000)",
+  "coord": null,
+  "image": "Prime Minister Pierre Trudeau 1975 (UPI press photo) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1919,
+   "date": "1919-10-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2000,
+   "date": "2000-09-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pierre Trudeau",
+   "zh": "皮埃尔·特鲁多"
+  },
+  "locationQid": null
+ },
+ "Q862257": {
+  "label": {
+   "en": "King Philip's War",
+   "zh": "菲利普国王战争"
+  },
+  "description": "conflict between Native American inhabitants of present-day New England and English colonists",
+  "coord": null,
+  "image": "Philip King of Mount Hope by Paul Revere.jpeg",
+  "pointInTime": null,
+  "start": {
+   "year": 1675,
+   "date": "1675-06-20",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1678,
+   "date": "1678-04-12",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "King Philip's War",
+   "zh": "菲利普國王戰爭"
+  },
+  "locationQid": "Q1191350"
+ },
+ "Q862312": {
+  "label": {
+   "en": "Oregon Trail",
+   "zh": "奥勒冈小径"
+  },
+  "description": "historic migration route spanning Independence, MO–Oregon City, OR",
+  "coord": null,
+  "image": "Emigrants Crossing the Plains, or The Oregon Trail (Albert Bierstadt), 1869.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1811,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7989796",
+   "Q96982121",
+   "Q1322323"
+  ],
+  "wiki": {
+   "en": "Oregon Trail",
+   "zh": "奧勒岡小徑"
+  },
+  "locationQid": null
+ },
+ "Q867316": {
+  "label": {
+   "en": "Triangle Shirtwaist Factory fire",
+   "zh": "纽约三角内衣工厂火灾"
+  },
+  "description": "1911 factory fire in New York City",
+  "coord": {
+   "lat": 40.73,
+   "lon": -73.9953
+  },
+  "image": "Image of Triangle Shirtwaist Factory fire on March 25 - 1911.jpg",
+  "pointInTime": {
+   "year": 1911,
+   "date": "1911-03-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3839081",
+   "Q168983"
+  ],
+  "wiki": {
+   "en": "Triangle Shirtwaist Factory fire",
+   "zh": "纽约三角内衣工厂火灾"
+  }
+ },
+ "Q86753505": {
+  "label": {
+   "en": "White Lion",
+   "zh": null
+  },
+  "description": "slave ship",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11446"
+  ],
+  "wiki": {
+   "en": "White Lion (privateer)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q8676": {
+  "label": {
+   "en": "American Civil War",
+   "zh": "南北战争"
+  },
+  "description": "1861–1865 civil war in the United States between the North and the South over the enslavement of African-Americans",
+  "coord": null,
+  "image": "CivilWarUSAColl.png",
+  "pointInTime": {
+   "year": 1865,
+   "date": "1865-04-12",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1861,
+   "date": "1861-04-12",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1865,
+   "date": "1865-04-09",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465",
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "American Civil War",
+   "zh": "南北战争"
+  },
+  "locationQid": "Q49042"
+ },
+ "Q8743": {
+  "label": {
+   "en": "Thomas Edison",
+   "zh": "托马斯·爱迪生"
+  },
+  "description": "American inventor and businessman (1847–1931)",
+  "coord": null,
+  "image": "Thomas Edison2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1847,
+   "date": "1847-02-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1931,
+   "date": "1931-10-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Thomas Edison",
+   "zh": "托马斯·爱迪生"
+  },
+  "locationQid": null
+ },
+ "Q875738": {
+  "label": {
+   "en": "Brown v. Board of Education",
+   "zh": "布朗诉托皮卡教育局案"
+  },
+  "description": "1954 U.S. Supreme Court case which declared school segregation unconstitutional",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1954,
+   "date": "1954-05-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19692072",
+   "Q2334719"
+  ],
+  "wiki": {
+   "en": "Brown v. Board of Education",
+   "zh": "布朗訴托皮卡教育局案"
+  },
+  "locationQid": null
+ },
+ "Q91": {
+  "label": {
+   "en": "Abraham Lincoln",
+   "zh": "亚伯拉罕·林肯"
+  },
+  "description": "president of the United States from 1861 to 1865 (1809–1865)",
+  "coord": null,
+  "image": "Abraham Lincoln O-77 matte collodion print.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1809,
+   "date": "1809-02-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1865,
+   "date": "1865-04-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Abraham Lincoln",
+   "zh": "亚伯拉罕·林肯"
+  },
+  "locationQid": null
+ },
+ "Q910495": {
+  "label": {
+   "en": "Russian America",
+   "zh": "俄属北美"
+  },
+  "description": "Russian possessions in North America in the 18th century until 1867",
+  "coord": {
+   "lat": 57.05,
+   "lon": -135.3167
+  },
+  "image": "Пароход Император Николай I 1844.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1772,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1867,
+   "date": "1867-10-18",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156"
+  ],
+  "wiki": {
+   "en": "Russian America",
+   "zh": "俄属美洲"
+  }
+ },
+ "Q921283": {
+  "label": {
+   "en": "Santa Fe de Nuevo México",
+   "zh": "新墨西哥圣菲"
+  },
+  "description": "province of New Spain (1598-1821), territory of Mexico (1821-1846), provisional government of the USA (1846-1850)",
+  "coord": {
+   "lat": 35.6667,
+   "lon": -105.965
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1598,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1824,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q162620",
+   "Q2216973",
+   "Q7863478",
+   "Q55379806"
+  ],
+  "wiki": {
+   "en": "Santa Fe de Nuevo México",
+   "zh": null
+  }
+ },
+ "Q936604": {
+  "label": {
+   "en": "internment of Japanese Americans",
+   "zh": "日裔美國人囚禁"
+  },
+  "description": "mass incarceration, in the US, of Japanese during WWII",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1942,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1942,
+   "date": "1942-02-19",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1946,
+   "date": "1946-03-20",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1668049"
+  ],
+  "wiki": {
+   "en": "Internment of Japanese Americans",
+   "zh": "對日裔美國人的囚禁"
+  },
+  "locationQid": "Q37501518"
+ },
+ "Q943044": {
+  "label": {
+   "en": "1995 Quebec referendum",
+   "zh": "1995年魁北克公民投票"
+  },
+  "description": "historic vote on the independence of Quebec from Canada",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1995,
+   "date": "1995-10-30",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1219394"
+  ],
+  "wiki": {
+   "en": "1995 Quebec referendum",
+   "zh": "1995年魁北克公民投票"
+  },
+  "locationQid": null
+ },
+ "Q945507": {
+  "label": {
+   "en": "Canadian Indian residential school system",
+   "zh": "加拿大印第安寄宿学校制度"
+  },
+  "description": "residential school system",
+  "coord": null,
+  "image": "Students of Fort Albany Residential School in class.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q744026"
+  ],
+  "wiki": {
+   "en": "Canadian Indian residential school system",
+   "zh": "加拿大印地安人寄宿學校系統"
+  },
+  "locationQid": null
+ },
+ "Q968802": {
+  "label": {
+   "en": "Serpent Mound",
+   "zh": "大蛇丘"
+  },
+  "description": "prehistoric effigy mound in Ohio, United States",
+  "coord": {
+   "lat": 39.0259,
+   "lon": -83.4304
+  },
+  "image": "26 of 'A School History of the United States ...Serpent Mound in Ohio\"' no cap (11303842305) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q8502"
+  ],
+  "wiki": {
+   "en": "Serpent Mound",
+   "zh": null
+  }
+ },
+ "Q9696": {
+  "label": {
+   "en": "John F. Kennedy",
+   "zh": "约翰·肯尼迪"
+  },
+  "description": "president of the United States from 1961 to 1963 (1917–1963)",
+  "coord": null,
+  "image": "John F. Kennedy, White House color photo portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1917,
+   "date": "1917-05-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1963,
+   "date": "1963-11-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John F. Kennedy",
+   "zh": "约翰·肯尼迪"
+  },
+  "locationQid": null
+ },
+ "Q972422": {
+  "label": {
+   "en": null,
+   "zh": null
+  },
+  "description": "Spanish governor of New Mexico (1643-1704)",
+  "coord": null,
+  "image": "Ddevargas.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1643,
+   "date": "1643-11-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1704,
+   "date": "1704-04-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Diego de Vargas",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q984347": {
+  "label": {
+   "en": "John Ross",
+   "zh": null
+  },
+  "description": "1st principal chief of the Cherokee Nation (1790–1866)",
+  "coord": null,
+  "image": "John Ross of the Cherokee.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1790,
+   "date": "1790-10-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1866,
+   "date": "1866-08-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John Ross (Cherokee chief)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q9960": {
+  "label": {
+   "en": "Ronald Reagan",
+   "zh": "罗纳德·里根"
+  },
+  "description": "president of the United States from 1981 to 1989 and actor (1911–2004)",
+  "coord": null,
+  "image": "Ronald Reagan 1981 presidential portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1911,
+   "date": "1911-02-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2004,
+   "date": "2004-06-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ronald Reagan",
+   "zh": "罗纳德·里根"
+  },
+  "locationQid": null
+ },
+ "loc:Q107126": {
+  "coord": {
+   "lat": 38.8803,
+   "lon": -77.1083
+  },
+  "label": {
+   "en": "Arlington County",
+   "zh": "阿灵顿县"
+  }
+ },
+ "loc:Q11253": {
+  "coord": {
+   "lat": 40.7075,
+   "lon": -74.0119
+  },
+  "label": {
+   "en": "Lower Manhattan",
+   "zh": "曼哈顿下城"
+  }
+ },
+ "loc:Q1189650": {
+  "coord": {
+   "lat": 38,
+   "lon": -82
+  },
+  "label": {
+   "en": "Eastern United States",
+   "zh": "美国东部"
+  }
+ },
+ "loc:Q1191350": {
+  "coord": null,
+  "label": {
+   "en": "Massachusetts Bay Colony",
+   "zh": "馬薩諸塞灣殖民地"
+  }
+ },
+ "loc:Q12707": {
+  "coord": {
+   "lat": 40,
+   "lon": -100
+  },
+  "label": {
+   "en": "Great Plains",
+   "zh": "大平原"
+  }
+ },
+ "loc:Q1548416": {
+  "coord": {
+   "lat": 45,
+   "lon": -82
+  },
+  "label": {
+   "en": "Great Lakes region",
+   "zh": "五大湖地区"
+  }
+ },
+ "loc:Q15672": {
+  "coord": {
+   "lat": 36.999,
+   "lon": -109.0452
+  },
+  "label": {
+   "en": "Four Corners",
+   "zh": "四角落"
+  }
+ },
+ "loc:Q176": {
+  "coord": {
+   "lat": 52,
+   "lon": -72
+  },
+  "label": {
+   "en": "Quebec",
+   "zh": "魁北克省"
+  }
+ },
+ "loc:Q18389": {
+  "coord": {
+   "lat": 44.2056,
+   "lon": -70.3064
+  },
+  "label": {
+   "en": "New England",
+   "zh": "新英格蘭"
+  }
+ },
+ "loc:Q1989": {
+  "coord": {
+   "lat": 55,
+   "lon": -106
+  },
+  "label": {
+   "en": "Saskatchewan",
+   "zh": "萨斯喀彻温省"
+  }
+ },
+ "loc:Q2270851": {
+  "coord": {
+   "lat": 42.9136,
+   "lon": -76.7903
+  },
+  "label": {
+   "en": "Seneca Falls",
+   "zh": "色内加瀑布市"
+  }
+ },
+ "loc:Q30": {
+  "coord": {
+   "lat": 39.8282,
+   "lon": -98.5795
+  },
+  "label": {
+   "en": "United States",
+   "zh": "美国"
+  }
+ },
+ "loc:Q340": {
+  "coord": {
+   "lat": 45.5033,
+   "lon": -73.5868
+  },
+  "label": {
+   "en": "Montreal",
+   "zh": "蒙特利尔"
+  }
+ },
+ "loc:Q37501518": {
+  "coord": null,
+  "label": {
+   "en": "Japanese-American relocation camp",
+   "zh": null
+  }
+ },
+ "loc:Q48809": {
+  "coord": {
+   "lat": 36.0133,
+   "lon": -84.2625
+  },
+  "label": {
+   "en": "Oak Ridge",
+   "zh": "橡树岭"
+  }
+ },
+ "loc:Q49": {
+  "coord": {
+   "lat": 47,
+   "lon": -105
+  },
+  "label": {
+   "en": "North America",
+   "zh": "北美洲"
+  }
+ },
+ "loc:Q49042": {
+  "coord": {
+   "lat": 33.9,
+   "lon": -89.5
+  },
+  "label": {
+   "en": "Southern United States",
+   "zh": "美國南部"
+  }
+ },
+ "loc:Q731613": {
+  "coord": {
+   "lat": 46,
+   "lon": -64
+  },
+  "label": {
+   "en": "Maritimes",
+   "zh": "加拿大海洋省份"
+  }
+ },
+ "loc:Q921283": {
+  "coord": {
+   "lat": 35.6667,
+   "lon": -105.965
+  },
+  "label": {
+   "en": "Santa Fe de Nuevo México",
+   "zh": "新墨西哥圣菲"
+  }
+ },
+ "loc:Q96": {
+  "coord": {
+   "lat": 23,
+   "lon": -102
+  },
+  "label": {
+   "en": "Mexico",
+   "zh": "墨西哥"
+  }
+ },
+ "loc:Q97": {
+  "coord": {
+   "lat": 0,
+   "lon": -30
+  },
+  "label": {
+   "en": "Atlantic Ocean",
+   "zh": "大西洋"
+  }
+ }
+}
