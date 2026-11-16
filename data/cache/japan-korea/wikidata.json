@@ -26,6 +26,198 @@
   },
   "locationQid": "Q42088"
  },
+ "Q1041401": {
+  "label": {
+   "en": "Shō Kei",
+   "zh": "尚敬王"
+  },
+  "description": "13th king of the Ryukyu Kingdom",
+  "coord": null,
+  "image": "ShoKeireturned.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1700,
+   "date": "1700-08-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1752,
+   "date": "1752-03-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō Kei",
+   "zh": "尚敬王"
+  },
+  "locationQid": null
+ },
+ "Q1059474": {
+  "label": {
+   "en": "Japanese economic miracle",
+   "zh": "日本战后经济奇迹"
+  },
+  "description": "period of Japan's rapid economic growth",
+  "coord": null,
+  "image": "Skyscrapers of Shinjuku 2009 January.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1954,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1973,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11692772"
+  ],
+  "wiki": {
+   "en": "Japanese economic miracle",
+   "zh": "日本战后经济奇迹"
+  },
+  "locationQid": null
+ },
+ "Q1060226": {
+  "label": {
+   "en": "Bunei",
+   "zh": "武宁"
+  },
+  "description": "King of Chuzan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1356,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1407,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bunei",
+   "zh": "武寧 (琉球國王)"
+  },
+  "locationQid": null
+ },
+ "Q1060294": {
+  "label": {
+   "en": "Shō Shishō",
+   "zh": "尚思绍王"
+  },
+  "description": "King of Ryūkyū",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1354,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1421,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shishō",
+   "zh": "尚思紹王"
+  },
+  "locationQid": null
+ },
+ "Q10665": {
+  "label": {
+   "en": "Kim Jong-il",
+   "zh": "金正日"
+  },
+  "description": "Supreme Leader of North Korea from 1994 to 2011",
+  "coord": null,
+  "image": "Kim Jong-il on August 24, 2011.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1941,
+   "date": "1941-02-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2011,
+   "date": "2011-12-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kim Jong Il",
+   "zh": "金正日"
+  },
+  "locationQid": null
+ },
+ "Q1074326": {
+  "label": {
+   "en": "Shō En",
+   "zh": "尚圆王"
+  },
+  "description": "first king of the Ryukyu Kingdom",
+  "coord": null,
+  "image": "King Sho En.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1415,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1476,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō En",
+   "zh": "尚圓王"
+  },
+  "locationQid": null
+ },
  "Q109079": {
   "label": {
    "en": "Kaesong",
@@ -49,6 +241,194 @@
    "en": "Kaesong",
    "zh": "開城市"
   }
+ },
+ "Q1096375": {
+  "label": {
+   "en": "Shakushain's revolt",
+   "zh": "相库相郢之战"
+  },
+  "description": "1669–1672 Ainu revolt",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1669,
+   "date": "1669-06-01",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1672,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6107280"
+  ],
+  "wiki": {
+   "en": "Shakushain's revolt",
+   "zh": "沙牟奢允之戰"
+  },
+  "locationQid": "Q1040184"
+ },
+ "Q1135798": {
+  "label": {
+   "en": "Treatise on the people of Wa",
+   "zh": "魏志倭人传"
+  },
+  "description": "section in the Book of Wei in the Records of the Three Kingdoms",
+  "coord": null,
+  "image": "Text of the Wei Zhi (魏志), 297.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Wajinden",
+   "zh": "魏志倭人傳"
+  },
+  "locationQid": null
+ },
+ "Q1139907": {
+  "label": {
+   "en": "Shō Sei",
+   "zh": "尚清王"
+  },
+  "description": "4th king of the Ryukyu Kingdom",
+  "coord": null,
+  "image": "Sho-Sei-color.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1497,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1555,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō Sei",
+   "zh": "尚清王"
+  },
+  "locationQid": null
+ },
+ "Q1140124": {
+  "label": {
+   "en": "Satto",
+   "zh": "察度"
+  },
+  "description": "King of Chuzan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1320,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1395,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Satto",
+   "zh": "察度"
+  },
+  "locationQid": null
+ },
+ "Q1140134": {
+  "label": {
+   "en": "Invasion of Ryukyu",
+   "zh": "庆长琉球之役"
+  },
+  "description": "invasion of the Ryukyu Kingdom by the Satsuma Domain, resulting in the former’s being reduced to a vassal state of the latter",
+  "coord": null,
+  "image": "Ryukyu orthographic.svg",
+  "pointInTime": {
+   "year": 1609,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1609,
+   "date": "1609-03-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1609,
+   "date": "1609-04-05",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Invasion of Ryukyu",
+   "zh": "慶長琉球之役"
+  },
+  "locationQid": "Q10905515"
+ },
+ "Q1148095": {
+  "label": {
+   "en": "Kazushige Ugaki",
+   "zh": "宇垣一成"
+  },
+  "description": "Japanese general (1868–1956)",
+  "coord": null,
+  "image": "Kazushige Ugaki 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1868,
+   "date": "1868-08-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1956,
+   "date": "1956-04-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ugaki Kazushige",
+   "zh": "宇垣一成"
+  },
+  "locationQid": null
  },
  "Q11526469": {
   "label": {
@@ -147,6 +527,184 @@
   },
   "locationQid": null
  },
+ "Q122804": {
+  "label": {
+   "en": "Constitution of the Empire of Japan",
+   "zh": "大日本帝國憲法"
+  },
+  "description": "constitution of Japan from 1889 to 1947",
+  "coord": null,
+  "image": "Meiji Kenpo03.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": {
+   "year": 1947,
+   "date": "1947-05-03",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7755",
+   "Q1524972"
+  ],
+  "wiki": {
+   "en": "Meiji Constitution",
+   "zh": "大日本帝國憲法"
+  },
+  "locationQid": null
+ },
+ "Q12580295": {
+  "label": {
+   "en": "2000 inter-Korean summit",
+   "zh": "2000年朝韩首脑会晤"
+  },
+  "description": "first meeting between the North and South Korean leaders",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 2000,
+   "date": "2000-06-13",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2000,
+   "date": "2000-06-15",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q485644"
+  ],
+  "wiki": {
+   "en": "2000 inter-Korean summit",
+   "zh": "2000年朝韓首腦會晤"
+  },
+  "locationQid": "Q18808"
+ },
+ "Q12612463": {
+  "label": {
+   "en": "Lee Jae Myung",
+   "zh": "李在明"
+  },
+  "description": "President of South Korea since 2025",
+  "coord": null,
+  "image": "President Lee Jae-myung 2025 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1963,
+   "date": "1963-12-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lee Jae Myung",
+   "zh": "李在明"
+  },
+  "locationQid": null
+ },
+ "Q127417": {
+  "label": {
+   "en": "Douglas MacArthur",
+   "zh": "道格拉斯·麦克阿瑟"
+  },
+  "description": "United States Army general in WWI, WWII and Korea (1880–1964)",
+  "coord": null,
+  "image": "MacArthur Manila (cropped2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1880,
+   "date": "1880-01-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1964,
+   "date": "1964-04-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Douglas MacArthur",
+   "zh": "道格拉斯·麦克阿瑟"
+  },
+  "locationQid": null
+ },
+ "Q130852": {
+  "label": {
+   "en": "Junichiro Koizumi",
+   "zh": "小泉纯一郎"
+  },
+  "description": "Prime Minister of Japan from 2001 to 2006",
+  "coord": null,
+  "image": "Junichiro Koizumi 20010426.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1942,
+   "date": "1942-01-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Junichiro Koizumi",
+   "zh": "小泉纯一郎"
+  },
+  "locationQid": null
+ },
+ "Q132345": {
+  "label": {
+   "en": "Shinzō Abe",
+   "zh": "安倍晋三"
+  },
+  "description": "Prime Minister of Japan from 2006–2007 and 2012–2020 (1954–2022)",
+  "coord": null,
+  "image": "Shinzō Abe 20120501.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1954,
+   "date": "1954-09-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2022,
+   "date": "2022-07-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shinzo Abe",
+   "zh": "安倍晋三"
+  },
+  "locationQid": null
+ },
  "Q1336847": {
   "label": {
    "en": "Great Fire of Meireki",
@@ -185,6 +743,109 @@
    "en": "Great Fire of Meireki",
    "zh": "明曆大火"
   }
+ },
+ "Q1372130": {
+  "label": {
+   "en": "Shō Hashi",
+   "zh": "尚巴志王"
+  },
+  "description": "King of Ryūkyū",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1372,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1439,
+   "date": "1439-06-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō Hashi",
+   "zh": "尚巴志王"
+  },
+  "locationQid": null
+ },
+ "Q1372308": {
+  "label": {
+   "en": "Jōkyū War",
+   "zh": "承久之乱"
+  },
+  "description": "Japanese civil war (1221) between Retired Emperor Go-Toba and the Hōjō clan, regents of the Kamakura shogunate",
+  "coord": {
+   "lat": 35.0117,
+   "lon": 135.7683
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1221,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1221,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1221,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Jōkyū War",
+   "zh": "承久之亂"
+  }
+ },
+ "Q1372454": {
+  "label": {
+   "en": "Shō Tai",
+   "zh": "尚泰王"
+  },
+  "description": "last king of the Ryūkyū Kingdom (1843-1901)",
+  "coord": null,
+  "image": "King Sho Tai.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1843,
+   "date": "1843-08-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-08-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō Tai",
+   "zh": "尚泰王"
+  },
+  "locationQid": null
  },
  "Q138733": {
   "label": {
@@ -250,6 +911,102 @@
   },
   "locationQid": null
  },
+ "Q14345": {
+  "label": {
+   "en": "Roh Moo-hyun",
+   "zh": "卢武铉"
+  },
+  "description": "16th President of the Republic of Korea (1946–2009)",
+  "coord": null,
+  "image": "Roh Moo-hyun presidential portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1946,
+   "date": "1946-09-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2009,
+   "date": "2009-05-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Roh Moo-hyun",
+   "zh": "盧武鉉"
+  },
+  "locationQid": null
+ },
+ "Q14356": {
+  "label": {
+   "en": "Park Chung-hee",
+   "zh": "朴正熙"
+  },
+  "description": "3rd President of the Republic of Korea",
+  "coord": null,
+  "image": "Park Chung Hee (박정희) Presidential Portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1917,
+   "date": "1917-11-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1979,
+   "date": "1979-10-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Park Chung Hee",
+   "zh": "朴正熙"
+  },
+  "locationQid": null
+ },
+ "Q14362": {
+  "label": {
+   "en": "Chun Doo-hwan",
+   "zh": "全斗焕"
+  },
+  "description": "11th and 12th President of the Republic of Korea (1931~2021)",
+  "coord": null,
+  "image": "Chun Doo-hwan (전두환) Presidential Portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1931,
+   "date": "1931-01-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2021,
+   "date": "2021-11-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chun Doo-hwan",
+   "zh": "全斗煥"
+  },
+  "locationQid": null
+ },
  "Q1490": {
   "label": {
    "en": "Tokyo",
@@ -288,6 +1045,71 @@
    "en": "Tokyo",
    "zh": "東京都"
   }
+ },
+ "Q150132": {
+  "label": {
+   "en": "Kyŏn Hwŏn",
+   "zh": "甄萱"
+  },
+  "description": "King of Later Baekje",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 867,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 936,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kyŏn Hwŏn",
+   "zh": "甄萱"
+  },
+  "locationQid": null
+ },
+ "Q15242873": {
+  "label": {
+   "en": "Soviet Civil Administration",
+   "zh": "苏联民政厅"
+  },
+  "description": "Soviet administration of North Korea after WWII",
+  "coord": null,
+  "image": "Welcome Celebration for Red Army in Pyongyang2.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1945,
+   "date": "1945-10-03",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1946,
+   "date": "1946-02-15",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q59281",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Soviet Civil Administration",
+   "zh": "蘇聯民政廳"
+  },
+  "locationQid": null
  },
  "Q157052": {
   "label": {
@@ -354,6 +1176,93 @@
   },
   "locationQid": "Q81126"
  },
+ "Q16184309": {
+  "label": {
+   "en": "assassination of Itō Hirobumi",
+   "zh": "伊藤博文遇刺案"
+  },
+  "description": "1909 assassination of Japanese prime minister Ito Hirobumi by Korean nationalist An Jung-geun",
+  "coord": null,
+  "image": "Assassination of the 'Japanese Bismarck' (Das interessante Blatt, 1909).jpg",
+  "pointInTime": {
+   "year": 1909,
+   "date": "1909-10-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1139665",
+   "Q3882219"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "伊藤博文遇刺案"
+  },
+  "locationQid": "Q1059254"
+ },
+ "Q16520": {
+  "label": {
+   "en": "Busan",
+   "zh": "釜山"
+  },
+  "description": "metropolitan city of South Korea",
+  "coord": {
+   "lat": 35.18,
+   "lon": 129.075
+  },
+  "image": "Korea-Busan-Busan Tower-01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2264924",
+   "Q482821",
+   "Q515",
+   "Q200250"
+  ],
+  "wiki": {
+   "en": "Busan",
+   "zh": "釜山廣域市"
+  }
+ },
+ "Q165210": {
+  "label": {
+   "en": "Kim Young-sam",
+   "zh": "金泳三"
+  },
+  "description": "President of South Korea from 1993 to 1998",
+  "coord": null,
+  "image": "Kim Young-sam presidential portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1927,
+   "date": "1927-12-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2015,
+   "date": "2015-11-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kim Young-sam",
+   "zh": "金泳三"
+  },
+  "locationQid": null
+ },
  "Q169134": {
   "label": {
    "en": "Nara",
@@ -388,6 +1297,101 @@
    "zh": "奈良市"
   }
  },
+ "Q169598": {
+  "label": {
+   "en": "Honnō-ji Incident",
+   "zh": "本能寺之变"
+  },
+  "description": "forced suicide of Oda Nobunaga at the hands of traitor Akechi Mitsuhide",
+  "coord": {
+   "lat": 35.0058,
+   "lon": 135.7539
+  },
+  "image": "Honnoj.jpg",
+  "pointInTime": {
+   "year": 1582,
+   "date": "1582-06-21",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382",
+   "Q2166722"
+  ],
+  "wiki": {
+   "en": "Honnō-ji Incident",
+   "zh": "本能寺之变"
+  }
+ },
+ "Q17": {
+  "label": {
+   "en": "Japan",
+   "zh": "日本"
+  },
+  "description": "island country in East Asia",
+  "coord": {
+   "lat": 35,
+   "lon": 136
+  },
+  "image": "Satellite image of Japan in May 2003.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1947,
+   "date": "1947-05-03",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q112099",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Japan",
+   "zh": "日本"
+  }
+ },
+ "Q171178": {
+  "label": {
+   "en": "Fukushima Daiichi nuclear disaster",
+   "zh": "福岛核事故"
+  },
+  "description": "2011 nuclear disaster in Japan",
+  "coord": {
+   "lat": 37.4214,
+   "lon": 141.0325
+  },
+  "image": "Appearance of Fukushima I Nuclear Power Plant Unit 3 after the explosion 20110315.jpg",
+  "pointInTime": {
+   "year": 2011,
+   "date": "2011-03-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2011,
+   "date": "2011-03-11",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15725976"
+  ],
+  "wiki": {
+   "en": "Fukushima nuclear accident",
+   "zh": "福岛第一核电站事故"
+  }
+ },
  "Q171411": {
   "label": {
    "en": "Oda Nobunaga",
@@ -417,6 +1421,38 @@
   "wiki": {
    "en": "Oda Nobunaga",
    "zh": "織田信長"
+  },
+  "locationQid": null
+ },
+ "Q171684": {
+  "label": {
+   "en": "Syngman Rhee",
+   "zh": "李承晚"
+  },
+  "description": "President of South Korea from 1948 to 1960",
+  "coord": null,
+  "image": "Rhee Syng-Man in 1948.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1875,
+   "date": "1875-03-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1965,
+   "date": "1965-07-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Syngman Rhee",
+   "zh": "李承晚"
   },
   "locationQid": null
  },
@@ -481,6 +1517,203 @@
   "wiki": {
    "en": "Emperor Meiji",
    "zh": "明治天皇"
+  },
+  "locationQid": null
+ },
+ "Q174971": {
+  "label": {
+   "en": "Itō Hirobumi",
+   "zh": "伊藤博文"
+  },
+  "description": "1st, 5th, 7th and 10th Prime Minister of Japan (1841–1909)",
+  "coord": null,
+  "image": "ITŌ Hirobumi.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1841,
+   "date": "1841-10-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1909,
+   "date": "1909-10-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Itō Hirobumi",
+   "zh": "伊藤博文"
+  },
+  "locationQid": null
+ },
+ "Q174990": {
+  "label": {
+   "en": "Gwangju Uprising",
+   "zh": "光州起义"
+  },
+  "description": "1980 anti-government uprising in South Korea",
+  "coord": {
+   "lat": 35.1667,
+   "lon": 126.9167
+  },
+  "image": "May 18th Memorial Monument.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1980,
+   "date": "1980-05-18",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1980,
+   "date": "1980-05-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q49773",
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Gwangju Uprising",
+   "zh": "光州民主化運動"
+  }
+ },
+ "Q179871": {
+  "label": {
+   "en": "Eisaku Satō",
+   "zh": "佐藤荣作"
+  },
+  "description": "Prime Minister of Japan from 1964 to 1972",
+  "coord": null,
+  "image": "Eisaku Sato 19641109.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1901,
+   "date": "1901-03-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1975,
+   "date": "1975-06-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Eisaku Satō",
+   "zh": "佐藤荣作"
+  },
+  "locationQid": null
+ },
+ "Q181966": {
+  "label": {
+   "en": "Naha",
+   "zh": "那霸市"
+  },
+  "description": "capital city of Okinawa prefecture, Japan",
+  "coord": {
+   "lat": 26.2122,
+   "lon": 127.6792
+  },
+  "image": "Asahi-machi Naha Okinawa01s3s4410.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1921,
+   "date": "1921-05-20",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1137833",
+   "Q65589340",
+   "Q1549591",
+   "Q494721",
+   "Q515",
+   "Q11422368"
+  ],
+  "wiki": {
+   "en": "Naha",
+   "zh": "那霸市"
+  }
+ },
+ "Q184425": {
+  "label": {
+   "en": "Pacific War",
+   "zh": "太平洋战争"
+  },
+  "description": "theater of World War II fought in the Pacific and Asia",
+  "coord": null,
+  "image": "US landings.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1941,
+   "date": "1941-12-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1945,
+   "date": "1945-09-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q718893"
+  ],
+  "wiki": {
+   "en": "Pacific War",
+   "zh": "太平洋战争"
+  },
+  "locationQid": "Q98"
+ },
+ "Q18669712": {
+  "label": {
+   "en": "Matsumae Domain",
+   "zh": "松前藩"
+  },
+  "description": "Japanese historical estate in Oshima province",
+  "coord": null,
+  "image": "松前城.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1604,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1871,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q841985"
+  ],
+  "wiki": {
+   "en": "Matsumae Domain",
+   "zh": "松前藩"
   },
   "locationQid": null
  },
@@ -636,6 +1869,45 @@
    "zh": "訓民正音"
   },
   "locationQid": null
+ },
+ "Q192660": {
+  "label": {
+   "en": "Battle of Okinawa",
+   "zh": "冲绳岛战役"
+  },
+  "description": "1945 major battle of the Pacific War",
+  "coord": {
+   "lat": 26.5,
+   "lon": 128
+  },
+  "image": "Okinawa 01.jpg",
+  "pointInTime": {
+   "year": 1945,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1945,
+   "date": "1945-04-01",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1945,
+   "date": "1945-06-23",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Okinawa",
+   "zh": "沖繩島戰役"
+  }
  },
  "Q193292": {
   "label": {
@@ -822,6 +2094,189 @@
   },
   "locationQid": "Q397703"
  },
+ "Q20934": {
+  "label": {
+   "en": "Incheon",
+   "zh": "仁川"
+  },
+  "description": "city in Seoul Capital Area, South Korea",
+  "coord": {
+   "lat": 37.4639,
+   "lon": 126.6486
+  },
+  "image": "Incheon Cityscape.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1883,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q482821"
+  ],
+  "wiki": {
+   "en": "Incheon",
+   "zh": "仁川廣域市"
+  }
+ },
+ "Q21001": {
+  "label": {
+   "en": "Moon Jae-in",
+   "zh": "文在寅"
+  },
+  "description": "12th President of the Republic of Korea",
+  "coord": null,
+  "image": "President Moon Jae In.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1953,
+   "date": "1953-01-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Moon Jae-in",
+   "zh": "文在寅"
+  },
+  "locationQid": null
+ },
+ "Q214866": {
+  "label": {
+   "en": "Great Hanshin Earthquake",
+   "zh": "阪神大地震"
+  },
+  "description": "1995 earthquake in Kobe, Japan",
+  "coord": {
+   "lat": 34.5983,
+   "lon": 135.0347
+  },
+  "image": "HITO0230.JPG",
+  "pointInTime": {
+   "year": 1995,
+   "date": "1995-01-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944",
+   "Q3839081",
+   "Q8065"
+  ],
+  "wiki": {
+   "en": "Kobe earthquake",
+   "zh": "阪神大地震"
+  }
+ },
+ "Q215737": {
+  "label": {
+   "en": "Kim Ku",
+   "zh": "金九"
+  },
+  "description": "Korean politician (1876–1949)",
+  "coord": null,
+  "image": "Kim Gu in 1949.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1876,
+   "date": "1876-08-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1949,
+   "date": "1949-06-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kim Ku",
+   "zh": "金九"
+  },
+  "locationQid": null
+ },
+ "Q222227": {
+  "label": {
+   "en": "Kūkai",
+   "zh": "空海"
+  },
+  "description": "Japanese Buddhist monk and calligrapher, the founder of the Shingon school (774–835)",
+  "coord": null,
+  "image": "Kukai2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 774,
+   "date": "0774-07-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 835,
+   "date": "0835-04-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kūkai",
+   "zh": "空海"
+  },
+  "locationQid": null
+ },
+ "Q231603": {
+  "label": {
+   "en": "Sei Shōnagon",
+   "zh": "清少纳言"
+  },
+  "description": "Japanese author and court lady",
+  "coord": null,
+  "image": "Sei Shonagon2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 966,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1025,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sei Shōnagon",
+   "zh": "清少納言"
+  },
+  "locationQid": null
+ },
  "Q232026": {
   "label": {
    "en": "Jitō",
@@ -948,6 +2403,92 @@
    "zh": "關原之戰"
   }
  },
+ "Q234451": {
+  "label": {
+   "en": "Himiko",
+   "zh": "卑弥呼"
+  },
+  "description": "3rd century queen of Yamataikoku",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 248,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Himiko",
+   "zh": "卑弥呼"
+  },
+  "locationQid": null
+ },
+ "Q237082": {
+  "label": {
+   "en": "The Constitution of Japan",
+   "zh": "日本国宪法"
+  },
+  "description": "supreme law of Japan since 1947",
+  "coord": null,
+  "image": "Nihon Kenpo02.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1946,
+   "date": "1946-10-07",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7755"
+  ],
+  "wiki": {
+   "en": "Constitution of Japan",
+   "zh": "日本国宪法"
+  },
+  "locationQid": "Q1072875"
+ },
+ "Q242651": {
+  "label": {
+   "en": "Roh Tae-woo",
+   "zh": "卢泰愚"
+  },
+  "description": "President of South Korea from 1988 to 1993",
+  "coord": null,
+  "image": "Roh Tae-woo - cropped, 1989-Mar-13.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1932,
+   "date": "1932-12-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2021,
+   "date": "2021-10-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Roh Tae-woo",
+   "zh": "盧泰愚"
+  },
+  "locationQid": null
+ },
  "Q242800": {
   "label": {
    "en": "Minamoto no Yoritomo",
@@ -1012,6 +2553,97 @@
   },
   "locationQid": null
  },
+ "Q250828": {
+  "label": {
+   "en": "Yasuhiro Nakasone",
+   "zh": "中曾根康弘"
+  },
+  "description": "Japanese politician (1918–2019)",
+  "coord": null,
+  "image": "Yasuhiro Nakasone 19821127.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1918,
+   "date": "1918-05-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2019,
+   "date": "2019-11-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yasuhiro Nakasone",
+   "zh": "中曾根康弘"
+  },
+  "locationQid": null
+ },
+ "Q252485": {
+  "label": {
+   "en": "The Great Wave off Kanagawa",
+   "zh": "神奈川沖浪裏"
+  },
+  "description": "woodblock print by Hokusai",
+  "coord": null,
+  "image": "Katsushika Hokusai - The Great Wave off the Coast of Kanagawa LCCN2008660568.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1830,
+   "date": null,
+   "precision": 8,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q28913685"
+  ],
+  "wiki": {
+   "en": "The Great Wave off Kanagawa",
+   "zh": "神奈川沖浪裏"
+  },
+  "locationQid": null
+ },
+ "Q256246": {
+  "label": {
+   "en": "Jeong Yak-yong",
+   "zh": "丁若镛"
+  },
+  "description": "Korean scholar and philosopher (1762 - 1836)",
+  "coord": null,
+  "image": "Jeong Yak-yong.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1762,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1836,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chŏng Yagyong",
+   "zh": "丁若镛"
+  },
+  "locationQid": null
+ },
  "Q257425": {
   "label": {
    "en": "Gojong of the Korean Empire",
@@ -1043,6 +2675,35 @@
    "zh": "朝鮮高宗"
   },
   "locationQid": null
+ },
+ "Q261932": {
+  "label": {
+   "en": "Hōryū-ji Temple",
+   "zh": "法隆寺"
+  },
+  "description": "Buddhist temple in Nara Prefecture, Japan",
+  "coord": {
+   "lat": 34.6144,
+   "lon": 135.7342
+  },
+  "image": "Horyu-ji45s2s4500.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 607,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5393308"
+  ],
+  "wiki": {
+   "en": "Hōryū-ji",
+   "zh": "法隆寺"
+  }
  },
  "Q263972": {
   "label": {
@@ -1076,6 +2737,39 @@
   },
   "locationQid": null
  },
+ "Q26418": {
+  "label": {
+   "en": "Hakodate",
+   "zh": "函馆市"
+  },
+  "description": "city in Hokkaido, Japan",
+  "coord": {
+   "lat": 41.7687,
+   "lon": 140.7289
+  },
+  "image": "View from Mt.Hakodate (Hakodateyama),Hakodate Hokkaido, Japan 27 April 2016 - panoramio.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1922,
+   "date": "1922-08-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1137833",
+   "Q1549591",
+   "Q677678",
+   "Q2264924",
+   "Q494721"
+  ],
+  "wiki": {
+   "en": "Hakodate",
+   "zh": "函館市"
+  }
+ },
  "Q26530": {
   "label": {
    "en": "Jeongjo of Joseon",
@@ -1108,6 +2802,71 @@
   },
   "locationQid": null
  },
+ "Q26600": {
+  "label": {
+   "en": "Fukuoka",
+   "zh": "福冈市"
+  },
+  "description": "capital city of Fukuoka prefecture, Japan",
+  "coord": {
+   "lat": 33.5901,
+   "lon": 130.4017
+  },
+  "image": "Hakata Port from Fukuoka Tower.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1889,
+   "date": "1889-04-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1749269",
+   "Q65589340",
+   "Q1549591",
+   "Q494721",
+   "Q11422368",
+   "Q1187811",
+   "Q2264924"
+  ],
+  "wiki": {
+   "en": "Fukuoka",
+   "zh": "福岡市"
+  }
+ },
+ "Q270983": {
+  "label": {
+   "en": "Kinkaku-ji Temple",
+   "zh": "鹿苑寺"
+  },
+  "description": "Zen Buddhist temple in Kyoto, Japan",
+  "coord": {
+   "lat": 35.0395,
+   "lon": 135.7285
+  },
+  "image": "Water reflection of Kinkaku-ji Temple a sunny day, Kyoto, Japan.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1397,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15835",
+   "Q5393308"
+  ],
+  "wiki": {
+   "en": "Kinkaku-ji",
+   "zh": "鹿苑寺"
+  }
+ },
  "Q274498": {
   "label": {
    "en": "1923 Great Kantō Earthquake",
@@ -1135,6 +2894,40 @@
   "wiki": {
    "en": "Great Kantō Earthquake",
    "zh": "關東大地震"
+  }
+ },
+ "Q28025": {
+  "label": {
+   "en": "Ryukyu Kingdom",
+   "zh": "琉球国"
+  },
+  "description": "historical kingdom in parts of present-day Japan",
+  "coord": {
+   "lat": 26.2,
+   "lon": 127.6833
+  },
+  "image": "King Sho Shin.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1429,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1879,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Ryukyu Kingdom",
+   "zh": "琉球国"
   }
  },
  "Q28084": {
@@ -1170,6 +2963,38 @@
    "en": "Kaya confederacy",
    "zh": "伽倻"
   }
+ },
+ "Q281765": {
+  "label": {
+   "en": "Shō Shin",
+   "zh": "尚真王"
+  },
+  "description": "3rd king of the Ryukyu Kingdom (1465-1526)",
+  "coord": null,
+  "image": "King Sho Shin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1465,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1526,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō Shin",
+   "zh": "尚真王"
+  },
+  "locationQid": null
  },
  "Q28179": {
   "label": {
@@ -1272,6 +3097,42 @@
   "wiki": {
    "en": "Korean Empire",
    "zh": "大韓帝國"
+  }
+ },
+ "Q28278": {
+  "label": {
+   "en": "Provisional Government of the Republic of Korea",
+   "zh": "大韩民国临时政府"
+  },
+  "description": "political association established by independence activists seeking independence from Japanese rule",
+  "coord": {
+   "lat": 37.5333,
+   "lon": 126.9833
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1919,
+   "date": "1919-09-11",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1945,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q678116",
+   "Q59281",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Provisional Government of the Republic of Korea",
+   "zh": "大韩民国临时政府"
   }
  },
  "Q28322": {
@@ -1529,6 +3390,38 @@
   },
   "locationQid": null
  },
+ "Q297644": {
+  "label": {
+   "en": "Kakuei Tanaka",
+   "zh": "田中角荣"
+  },
+  "description": "Japanese politician (1918–1993)",
+  "coord": null,
+  "image": "Kakuei Tanaka 19720707.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1918,
+   "date": "1918-05-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1993,
+   "date": "1993-12-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kakuei Tanaka",
+   "zh": "田中角荣"
+  },
+  "locationQid": null
+ },
  "Q298057": {
   "label": {
    "en": "Suiko",
@@ -1561,6 +3454,166 @@
   },
   "locationQid": null
  },
+ "Q299142": {
+  "label": {
+   "en": "Hayato Ikeda",
+   "zh": "池田勇人"
+  },
+  "description": "Prime Minister of Japan from 1960 to 1964",
+  "coord": null,
+  "image": "JFKWHP-KN-C18157 in Hayato Ikeda (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1899,
+   "date": "1899-12-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1965,
+   "date": "1965-08-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hayato Ikeda",
+   "zh": "池田勇人"
+  },
+  "locationQid": null
+ },
+ "Q301804": {
+  "label": {
+   "en": "Shigeru Yoshida",
+   "zh": "吉田茂"
+  },
+  "description": "Prime minister of Japan (1878–1967)",
+  "coord": null,
+  "image": "Shigeru Yoshida suit.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1878,
+   "date": "1878-09-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1967,
+   "date": "1967-10-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shigeru Yoshida",
+   "zh": "吉田茂"
+  },
+  "locationQid": null
+ },
+ "Q309184": {
+  "label": {
+   "en": "Boshin War",
+   "zh": "戊辰战争"
+  },
+  "description": "civil war in Japan, fought from 1868 to 1869",
+  "coord": null,
+  "image": "Satsuma-samurai-during-boshin-war-period.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1868,
+   "date": "1868-01-27",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1869,
+   "date": "1869-06-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Boshin War",
+   "zh": "戊辰戰爭"
+  },
+  "locationQid": null
+ },
+ "Q310445": {
+  "label": {
+   "en": "Minamoto no Yoshitsune",
+   "zh": "源义经"
+  },
+  "description": "samurai of the late Heian and early Kamakura period",
+  "coord": null,
+  "image": "Minamoto no Yoshitsune.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1159,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1189,
+   "date": "1189-06-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Minamoto no Yoshitsune",
+   "zh": "源義經"
+  },
+  "locationQid": null
+ },
+ "Q310462": {
+  "label": {
+   "en": "Saigō Takamori",
+   "zh": "西乡隆盛"
+  },
+  "description": "samurai of the Satsuma domain, supreme commander of Japanese army, one of the three great nobles who led the Meiji Restoration (1828-1877)",
+  "coord": null,
+  "image": "Saigo Takamori Portrait by Ishikawa Shizumasa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1828,
+   "date": "1828-01-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1877,
+   "date": "1877-09-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Saigō Takamori",
+   "zh": "西鄉隆盛"
+  },
+  "locationQid": null
+ },
  "Q313745": {
   "label": {
    "en": "Tokugawa Tsunayoshi",
@@ -1590,6 +3643,38 @@
   "wiki": {
    "en": "Tokugawa Tsunayoshi",
    "zh": "德川綱吉"
+  },
+  "locationQid": null
+ },
+ "Q313942": {
+  "label": {
+   "en": "Go-Daigo",
+   "zh": "后醍醐天皇"
+  },
+  "description": "96th emperor of Japan (r. 1318–1339)",
+  "coord": null,
+  "image": "Emperor Godaigo by Monkan-bō Kōshin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1288,
+   "date": "1288-11-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1339,
+   "date": "1339-09-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emperor Go-Daigo",
+   "zh": "後醍醐天皇"
   },
   "locationQid": null
  },
@@ -1721,6 +3806,38 @@
   },
   "locationQid": null
  },
+ "Q315549": {
+  "label": {
+   "en": "Kuniaki Koiso",
+   "zh": "小矶国昭"
+  },
+  "description": "Japanese officer, former Prime Minister (1880–1950)",
+  "coord": null,
+  "image": "Kuniaki Koiso.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1880,
+   "date": "1880-03-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1950,
+   "date": "1950-11-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kuniaki Koiso",
+   "zh": "小矶国昭"
+  },
+  "locationQid": null
+ },
  "Q315559": {
   "label": {
    "en": "Terauchi Masatake",
@@ -1750,6 +3867,38 @@
   "wiki": {
    "en": "Terauchi Masatake",
    "zh": "寺內正毅"
+  },
+  "locationQid": null
+ },
+ "Q315574": {
+  "label": {
+   "en": "Nobuyuki Abe",
+   "zh": "阿部信行"
+  },
+  "description": "Japanese general and politician (1875–1953)",
+  "coord": null,
+  "image": "Nobuyuki Abe, generał i minister spraw zagranicznych Japonii.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1875,
+   "date": "1875-11-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1953,
+   "date": "1953-09-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nobuyuki Abe",
+   "zh": "阿部信行"
   },
   "locationQid": null
  },
@@ -1785,6 +3934,38 @@
   },
   "locationQid": null
  },
+ "Q319531": {
+  "label": {
+   "en": "Azuchi-Momoyama period",
+   "zh": "安土桃山时代"
+  },
+  "description": "final phase of the Sengoku period of Japanese history (1568-1600)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1568,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1600,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Azuchi–Momoyama period",
+   "zh": "安土桃山时代"
+  },
+  "locationQid": null
+ },
  "Q319664": {
   "label": {
    "en": "Tokugawa Yoshimune",
@@ -1814,6 +3995,38 @@
   "wiki": {
    "en": "Tokugawa Yoshimune",
    "zh": "德川吉宗"
+  },
+  "locationQid": null
+ },
+ "Q3280296": {
+  "label": {
+   "en": "Shakushain",
+   "zh": "沙牟奢允"
+  },
+  "description": "17th-century chief of Ainu",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1606,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1669,
+   "date": "1669-11-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shakushain",
+   "zh": "沙牟奢允"
   },
   "locationQid": null
  },
@@ -2138,6 +4351,38 @@
    "zh": "桶狹間之戰"
   }
  },
+ "Q355447": {
+  "label": {
+   "en": "Fukuzawa Yukichi",
+   "zh": "福泽谕吉"
+  },
+  "description": "Modern Enlightenment thinker, educator, philosopher, scholar, author, writer, journalist, translator, entrepreneur, and founder of Keio University in Japan's Meiji era (1835-1901)",
+  "coord": null,
+  "image": "Fukuzawa Yukichi 1891.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1835,
+   "date": "1835-01-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-02-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fukuzawa Yukichi",
+   "zh": "福泽谕吉"
+  },
+  "locationQid": null
+ },
  "Q35765": {
   "label": {
    "en": "Osaka",
@@ -2173,6 +4418,55 @@
    "en": "Osaka",
    "zh": "大阪市"
   }
+ },
+ "Q358057": {
+  "label": {
+   "en": "Tanegashima",
+   "zh": "铁炮"
+  },
+  "description": "Japanese firearm",
+  "coord": null,
+  "image": "Antique Japanese (samurai) tanegashima rack.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15142894"
+  ],
+  "wiki": {
+   "en": "Tanegashima (gun)",
+   "zh": "鐵炮"
+  },
+  "locationQid": null
+ },
+ "Q359480": {
+  "label": {
+   "en": "Fumio Kishida",
+   "zh": "岸田文雄"
+  },
+  "description": "Prime Minister of Japan from 2021 to 2024",
+  "coord": null,
+  "image": "Fumio Kishida 20211005 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1957,
+   "date": "1957-07-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fumio Kishida",
+   "zh": "岸田文雄"
+  },
+  "locationQid": null
  },
  "Q36204": {
   "label": {
@@ -2335,6 +4629,39 @@
   },
   "locationQid": null
  },
+ "Q37951": {
+  "label": {
+   "en": "Sapporo",
+   "zh": "札幌市"
+  },
+  "description": "city on Hokkaido, Japan",
+  "coord": {
+   "lat": 43.0619,
+   "lon": 141.3544
+  },
+  "image": "札幌タワー電波塔展望台から札幌駅方面 - panoramio.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1922,
+   "date": "1922-08-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1749269",
+   "Q65589340",
+   "Q1549591",
+   "Q11422368",
+   "Q494721"
+  ],
+  "wiki": {
+   "en": "Sapporo",
+   "zh": "札幌市"
+  }
+ },
  "Q385676": {
   "label": {
    "en": "Ōnin War",
@@ -2398,6 +4725,122 @@
    "zh": "鸣梁海战"
   }
  },
+ "Q392541": {
+  "label": {
+   "en": "Treaty of San Francisco",
+   "zh": "旧金山和约"
+  },
+  "description": "peace treaty between Japan and the Allied Powers of World War II, officially ending the American-led Allied Occupation of Japan.",
+  "coord": null,
+  "image": "Yoshida signs San Francisco Peace Treaty.jpg",
+  "pointInTime": {
+   "year": 1951,
+   "date": "1951-09-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1952,
+   "date": "1952-04-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625298"
+  ],
+  "wiki": {
+   "en": "Treaty of San Francisco",
+   "zh": "舊金山和約"
+  },
+  "locationQid": "Q2915772"
+ },
+ "Q408318": {
+  "label": {
+   "en": "Bulguksa",
+   "zh": "佛国寺"
+  },
+  "description": "temple",
+  "coord": {
+   "lat": 35.79,
+   "lon": 129.3322
+  },
+  "image": "Geungnakjeon, Bulguksa 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1566035",
+   "Q1081138",
+   "Q44539"
+  ],
+  "wiki": {
+   "en": "Bulguksa",
+   "zh": "佛国寺"
+  }
+ },
+ "Q41117": {
+  "label": {
+   "en": "Kim Il-sung",
+   "zh": "金日成"
+  },
+  "description": "Supreme Leader of North Korea from 1948 to 1994",
+  "coord": null,
+  "image": "Kim Il-sung in 1950.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1912,
+   "date": "1912-04-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1994,
+   "date": "1994-07-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kim Il Sung",
+   "zh": "金日成"
+  },
+  "locationQid": null
+ },
+ "Q42062": {
+  "label": {
+   "en": "Gongju",
+   "zh": "公州市"
+  },
+  "description": "City in South Chungcheong Province, South Korea",
+  "coord": {
+   "lat": 36.4556,
+   "lon": 127.1247
+  },
+  "image": "View of Gongju 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q29045252",
+   "Q1549591",
+   "Q486972"
+  ],
+  "wiki": {
+   "en": "Gongju",
+   "zh": "公州市"
+  }
+ },
  "Q42097": {
   "label": {
    "en": "Gyeongju",
@@ -2421,6 +4864,68 @@
   "wiki": {
    "en": "Gyeongju",
    "zh": "慶州市"
+  }
+ },
+ "Q423": {
+  "label": {
+   "en": "North Korea",
+   "zh": "朝鲜民主主义人民共和国"
+  },
+  "description": "sovereign state in East Asia",
+  "coord": {
+   "lat": 40,
+   "lon": 127
+  },
+  "image": "North Korea - Location Map (2013) - PRK - UNOCHA.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1948,
+   "date": "1948-09-09",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256",
+   "Q465613",
+   "Q1309121",
+   "Q3303230"
+  ],
+  "wiki": {
+   "en": "North Korea",
+   "zh": "朝鲜民主主义人民共和国"
+  }
+ },
+ "Q428369": {
+  "label": {
+   "en": "Battle of Nagashino",
+   "zh": "長篠之戰"
+  },
+  "description": "1575 battle in Japan",
+  "coord": {
+   "lat": 34.9215,
+   "lon": 137.5251
+  },
+  "image": "Battle-of-Nagashino-Map-Folding-Screen-1575.png",
+  "pointInTime": {
+   "year": 1575,
+   "date": "1575-06-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Nagashino",
+   "zh": "長篠之戰"
   }
  },
  "Q430964": {
@@ -2581,6 +5086,70 @@
   },
   "locationQid": null
  },
+ "Q45785": {
+  "label": {
+   "en": "Kim Dae-jung",
+   "zh": "金大中"
+  },
+  "description": "8th President of the Republic of Korea (1924–2009)",
+  "coord": null,
+  "image": "Kim Dae-jung presidential portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1924,
+   "date": "1924-01-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2009,
+   "date": "2009-08-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kim Dae-jung",
+   "zh": "金大中"
+  },
+  "locationQid": null
+ },
+ "Q463961": {
+  "label": {
+   "en": "Hōjō Masako",
+   "zh": "北条政子"
+  },
+  "description": "political leader of Kamakura shogunate",
+  "coord": null,
+  "image": "Hojo Masako.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1157,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1225,
+   "date": "1225-08-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hōjō Masako",
+   "zh": "北条政子"
+  },
+  "locationQid": null
+ },
  "Q464485": {
   "label": {
    "en": "Shin Saimdang",
@@ -2610,6 +5179,38 @@
   "wiki": {
    "en": "Shin Saimdang",
    "zh": "申師任堂"
+  },
+  "locationQid": null
+ },
+ "Q464503": {
+  "label": {
+   "en": "Empress Myeongseong",
+   "zh": "明成皇后"
+  },
+  "description": "Empress Consort of Korea (1851–1895)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1851,
+   "date": "1851-09-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1895,
+   "date": "1895-08-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Empress Myeongseong",
+   "zh": "明成皇后"
   },
   "locationQid": null
  },
@@ -2679,6 +5280,93 @@
    "zh": "大坂之役"
   }
  },
+ "Q482413": {
+  "label": {
+   "en": "An Jung-geun",
+   "zh": "安重根"
+  },
+  "description": "Korean independence activist (1879–1910)",
+  "coord": null,
+  "image": "An Jung-geun.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1879,
+   "date": "1879-09-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1910,
+   "date": "1910-03-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "An Jung-geun",
+   "zh": "安重根"
+  },
+  "locationQid": null
+ },
+ "Q482423": {
+  "label": {
+   "en": "Hwaseong Fortress",
+   "zh": "华城"
+  },
+  "description": "palace",
+  "coord": {
+   "lat": 37.2807,
+   "lon": 127.0102
+  },
+  "image": "Hwaseong Fortress, Suwon, Gyeonggi-do, Republic of Korea (2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q16560",
+   "Q57831",
+   "Q1081138"
+  ],
+  "wiki": {
+   "en": "Hwaseong Fortress",
+   "zh": "水原华城"
+  }
+ },
+ "Q482485": {
+  "label": {
+   "en": "Gyeongbokgung",
+   "zh": "景福宫"
+  },
+  "description": "palace in Seoul, South Korea",
+  "coord": {
+   "lat": 37.5799,
+   "lon": 126.9768
+  },
+  "image": "광화문 월대.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1395,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q16560"
+  ],
+  "wiki": {
+   "en": "Gyeongbokgung",
+   "zh": "景福宮"
+  }
+ },
  "Q482525": {
   "label": {
    "en": "March First Movement",
@@ -2704,6 +5392,26 @@
   "wiki": {
    "en": "March First Movement",
    "zh": "三一運動"
+  },
+  "locationQid": null
+ },
+ "Q482690": {
+  "label": {
+   "en": "Joseon Tongsinsa",
+   "zh": "朝鲜通信使"
+  },
+  "description": "diplomatic missions from Korea to Japan during the 14th–19th centuries",
+  "coord": null,
+  "image": "KoreanEmbassy1655KanoTounYasunobu.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [],
+  "wiki": {
+   "en": "Joseon Tongsinsa",
+   "zh": "朝鮮通信使"
   },
   "locationQid": null
  },
@@ -2740,6 +5448,114 @@
    "en": "Battle of Inchon",
    "zh": "仁川登陆"
   }
+ },
+ "Q48320": {
+  "label": {
+   "en": "Kobe",
+   "zh": "神户市"
+  },
+  "description": "capital city of Hyogo Prefecture, Japan",
+  "coord": {
+   "lat": 34.6902,
+   "lon": 135.1954
+  },
+  "image": "Kobe Port Tower and Maritime Museum, November 2016.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1889,
+   "date": "1889-04-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1749269",
+   "Q65589340",
+   "Q1549591",
+   "Q2264924",
+   "Q494721",
+   "Q11422368"
+  ],
+  "wiki": {
+   "en": "Kobe",
+   "zh": "神户市"
+  }
+ },
+ "Q483458": {
+  "label": {
+   "en": "Jeju Uprising",
+   "zh": "济州四·三事件"
+  },
+  "description": "1948–49 uprising in Jeju Island, South Korea",
+  "coord": {
+   "lat": 33.3667,
+   "lon": 126.5333
+  },
+  "image": "Jeju Massacre.jpg",
+  "pointInTime": {
+   "year": 1948,
+   "date": "1948-04-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1948,
+   "date": "1948-04-03",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1949,
+   "date": "1949-08-17",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734",
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Jeju uprising",
+   "zh": "濟州四·三事件"
+  }
+ },
+ "Q484104": {
+  "label": {
+   "en": "United States Army Military Government in Korea",
+   "zh": "驻朝鲜美国陆军司令部军政厅"
+  },
+  "description": "1945–1950 US administration of southern Korea",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1945,
+   "date": "1945-09-12",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1948,
+   "date": "1948-08-15",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19832712",
+   "Q3024240",
+   "Q859563"
+  ],
+  "wiki": {
+   "en": "United States Army Military Government in Korea",
+   "zh": "駐朝鮮美國陸軍司令部軍政廳"
+  },
+  "locationQid": "Q884"
  },
  "Q484359": {
   "label": {
@@ -2837,6 +5653,38 @@
   },
   "locationQid": null
  },
+ "Q485114": {
+  "label": {
+   "en": "Wonhyo",
+   "zh": "元晓"
+  },
+  "description": "Korean Buddhist monk and commentator (617–686)",
+  "coord": null,
+  "image": "원효대사 영정.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 617,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 686,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wonhyo",
+   "zh": "元曉"
+  },
+  "locationQid": null
+ },
  "Q485131": {
   "label": {
    "en": "Queen Seondeok of Silla",
@@ -2866,6 +5714,65 @@
   "wiki": {
    "en": "Queen Seondeok of Silla",
    "zh": "善德女王"
+  },
+  "locationQid": null
+ },
+ "Q48514": {
+  "label": {
+   "en": "Sesshū Tōyō",
+   "zh": "雪舟"
+  },
+  "description": "Japanese artist (1420-1506)",
+  "coord": null,
+  "image": "Portrait of Sesshu.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1420,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1506,
+   "date": "1506-08-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sesshū Tōyō",
+   "zh": "雪舟"
+  },
+  "locationQid": null
+ },
+ "Q485343": {
+  "label": {
+   "en": "Treaty on Basic Relations between Japan and the Republic of Korea",
+   "zh": "韩日基本条约"
+  },
+  "description": "treaty signed on June 22, 1965, establishing basic diplomatic relations between Japan and South Korea",
+  "coord": null,
+  "image": "A copy of Treaty on Basic Relations between Japan and the Republic of Korea.jpg",
+  "pointInTime": {
+   "year": 1965,
+   "date": "1965-06-22",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q9557810"
+  ],
+  "wiki": {
+   "en": "Treaty on Basic Relations Between Japan and the Republic of Korea",
+   "zh": "日韩基本条约"
   },
   "locationQid": null
  },
@@ -2933,6 +5840,70 @@
   },
   "locationQid": null
  },
+ "Q486291": {
+  "label": {
+   "en": "Yi Hwang",
+   "zh": "李滉"
+  },
+  "description": "Korean Confucian scholar (1502 -1571)",
+  "coord": null,
+  "image": "Statue of Yi Hwang.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1501,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1570,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yi Hwang",
+   "zh": "李滉"
+  },
+  "locationQid": null
+ },
+ "Q486308": {
+  "label": {
+   "en": "Kung Ye",
+   "zh": "弓裔"
+  },
+  "description": "king of the short-lived Hugoguryeo on the Korean peninsula",
+  "coord": null,
+  "image": "궁예.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 869,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 918,
+   "date": "0918-06-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kung Ye",
+   "zh": "弓裔"
+  },
+  "locationQid": null
+ },
  "Q487332": {
   "label": {
    "en": "Battle of Hansan Island",
@@ -2966,6 +5937,97 @@
    "en": "Battle of Hansan Island",
    "zh": "闲山岛海战"
   }
+ },
+ "Q487757": {
+  "label": {
+   "en": "Second Manchu invasion of Korea",
+   "zh": "丙子之役"
+  },
+  "description": "invasion of Joseon by the Qing Empire in 1636, ending with Joseon defeat and Joseon cutting ties with the Ming",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1636,
+   "date": "1636-12-09",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Qing invasion of Joseon",
+   "zh": "丙子戰爭"
+  },
+  "locationQid": null
+ },
+ "Q487810": {
+  "label": {
+   "en": "May 16 coup",
+   "zh": "5·16军事政变"
+  },
+  "description": "military coup in South Korea",
+  "coord": null,
+  "image": "5.16 Coup Park Chung-hee.jpg",
+  "pointInTime": {
+   "year": 1961,
+   "date": "1961-05-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3449092"
+  ],
+  "wiki": {
+   "en": "May 16 coup",
+   "zh": "五一六軍事政變"
+  },
+  "locationQid": "Q884"
+ },
+ "Q488282": {
+  "label": {
+   "en": "Gapsin Coup",
+   "zh": "甲申政变"
+  },
+  "description": "1884 coup d'état attempt in Joseon Korea",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1884,
+   "date": "1884-12-07",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1884,
+   "date": "1884-12-04",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1884,
+   "date": "1884-12-07",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q25906438"
+  ],
+  "wiki": {
+   "en": "Kapsin Coup",
+   "zh": "甲申政变"
+  },
+  "locationQid": null
  },
  "Q488385": {
   "label": {
@@ -3031,6 +6093,126 @@
   },
   "locationQid": null
  },
+ "Q488771": {
+  "label": {
+   "en": "John R. Hodge",
+   "zh": "约翰霍吉"
+  },
+  "description": "United States Army general (1893-1963)",
+  "coord": null,
+  "image": "John reed hodge.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1893,
+   "date": "1893-06-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1963,
+   "date": "1963-11-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John R. Hodge",
+   "zh": "约翰·R·霍奇"
+  },
+  "locationQid": null
+ },
+ "Q488995": {
+  "label": {
+   "en": "Wihwado Retreat",
+   "zh": "威化岛回军"
+  },
+  "description": "1388 retreat of Goryeo's general Yi Seong-gye",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1388,
+   "date": "1388-06-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382",
+   "Q1760704"
+  ],
+  "wiki": {
+   "en": "Wihwado Retreat",
+   "zh": "威化島回軍"
+  },
+  "locationQid": "Q109079"
+ },
+ "Q489416": {
+  "label": {
+   "en": "April Revolution",
+   "zh": "四一九革命"
+  },
+  "description": "popular uprising in South Korea in April 1960 by labor and student groups, precipitated by the killing of a high school student by a tear-gas shell in March; led to the resignation of the president S. Rhee and the transition to the Second Republic",
+  "coord": null,
+  "image": "4.19 혁명.jpg",
+  "pointInTime": {
+   "year": 1960,
+   "date": "1960-04-19",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1679887",
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "April Revolution",
+   "zh": "四一九运动"
+  },
+  "locationQid": null
+ },
+ "Q489758": {
+  "label": {
+   "en": "Jeon Bong-jun",
+   "zh": "全琫准"
+  },
+  "description": "Korean revolutionary (1853-1895)",
+  "coord": null,
+  "image": "Jeon Bong-jun.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1855,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1895,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jeon Bong-jun",
+   "zh": "全琫準"
+  },
+  "locationQid": null
+ },
  "Q489820": {
   "label": {
    "en": "Seokguram",
@@ -3056,6 +6238,119 @@
    "en": "Seokguram",
    "zh": "石窟庵"
   }
+ },
+ "Q490020": {
+  "label": {
+   "en": "Yu Gwansun",
+   "zh": "柳宽顺"
+  },
+  "description": "Korean independence activist (1902-1920)",
+  "coord": null,
+  "image": "Ryu Gwan-sun.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1902,
+   "date": "1902-12-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1920,
+   "date": "1920-09-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yu Gwan-sun",
+   "zh": "柳寬順"
+  },
+  "locationQid": null
+ },
+ "Q490348": {
+  "label": {
+   "en": "First Manchu invasion of Korea",
+   "zh": "丁卯之役"
+  },
+  "description": "invasion of Joseon in 1627 by the Later Jin (Manchu), ending after 3 months with the Later Jin establishing itself as sovereign tributary overlord over Joseon",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1627,
+   "date": "1627-03-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Later Jin invasion of Joseon",
+   "zh": "丁卯戰爭"
+  },
+  "locationQid": null
+ },
+ "Q490792": {
+  "label": {
+   "en": "Sambyeolcho Rebellion",
+   "zh": "三别抄之乱"
+  },
+  "description": "civilian anti-Mongolian uprising in 13th century Korea",
+  "coord": null,
+  "image": "Gwandeokjeong Pavilion and Jeju Mok Office 2.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1270,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1273,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Sambyeolcho Rebellion",
+   "zh": "三別抄之亂"
+  },
+  "locationQid": "Q485651"
+ },
+ "Q490868": {
+  "label": {
+   "en": "Guhyeong of Geumgwan Gaya",
+   "zh": "金仇衡"
+  },
+  "description": null,
+  "coord": null,
+  "image": "Portraits of kings at Tongiljeon.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Guhyeong of Geumgwan Gaya",
+   "zh": "仇衡王"
+  },
+  "locationQid": null
  },
  "Q493702": {
   "label": {
@@ -3086,6 +6381,38 @@
   "wiki": {
    "en": "Seongjong of Goryeo",
    "zh": "高丽成宗"
+  },
+  "locationQid": null
+ },
+ "Q493856": {
+  "label": {
+   "en": "Chang Pogo",
+   "zh": "张保皋"
+  },
+  "description": "Maritime warlord of ancient Korea (787-846)",
+  "coord": null,
+  "image": "Portraits of kings at Tongiljeon.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 787,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 846,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chang Pogo",
+   "zh": "張保皐"
   },
   "locationQid": null
  },
@@ -3272,6 +6599,65 @@
   },
   "locationQid": "Q193563"
  },
+ "Q494615": {
+  "label": {
+   "en": "Chang Yŏngsil",
+   "zh": "蒋英实"
+  },
+  "description": "Korean mechanical engineer, scientist and inventor",
+  "coord": null,
+  "image": "Jang Youngsil 3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1400,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chang Yŏngsil",
+   "zh": "蔣英實"
+  },
+  "locationQid": null
+ },
+ "Q494930": {
+  "label": {
+   "en": "Matthew Ridgway",
+   "zh": "马修·李奇微"
+  },
+  "description": "United States Army general (1895–1993)",
+  "coord": null,
+  "image": "Matthew B. Ridgway.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1895,
+   "date": "1895-03-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1993,
+   "date": "1993-07-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Matthew Ridgway",
+   "zh": "马修·李奇威"
+  },
+  "locationQid": null
+ },
  "Q495558": {
   "label": {
    "en": "Japan–Korea Treaty of 1910",
@@ -3300,6 +6686,38 @@
   },
   "locationQid": null
  },
+ "Q496799": {
+  "label": {
+   "en": "Kang Kam-ch'an",
+   "zh": "姜邯赞"
+  },
+  "description": "Korean general during Third Koryŏ–Khitan War",
+  "coord": null,
+  "image": "Portraits of kings at Tongiljeon.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 948,
+   "date": "0948-12-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1031,
+   "date": "1031-09-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kang Kamch'an",
+   "zh": "姜邯赞"
+  },
+  "locationQid": null
+ },
  "Q496836": {
   "label": {
    "en": "Suro of Geumgwan Gaya",
@@ -3325,6 +6743,39 @@
   "wiki": {
    "en": "Suro of Geumgwan Gaya",
    "zh": "首露王"
+  },
+  "locationQid": null
+ },
+ "Q497194": {
+  "label": {
+   "en": "June Struggle",
+   "zh": "六月民主运动"
+  },
+  "description": "nationwide democracy movement in South Korea that generated mass protests from June 10 to June 29, 1987",
+  "coord": null,
+  "image": "이한열 추모행진 집회.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1987,
+   "date": "1987-06-10",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1987,
+   "date": "1987-06-29",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1064441",
+   "Q175331"
+  ],
+  "wiki": {
+   "en": "June Democratic Struggle",
+   "zh": "六月民主运动"
   },
   "locationQid": null
  },
@@ -3443,6 +6894,34 @@
   "wiki": {
    "en": "Uija of Baekje",
    "zh": "義慈王"
+  },
+  "locationQid": null
+ },
+ "Q498735": {
+  "label": {
+   "en": "division of Korea",
+   "zh": "朝鮮半島分裂"
+  },
+  "description": "historical event separating North and South Korea",
+  "coord": null,
+  "image": "Flag map of Divided Korea (1945 - 1950).png",
+  "pointInTime": null,
+  "start": {
+   "year": 1946,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q518554",
+   "Q13418847"
+  ],
+  "wiki": {
+   "en": "Division of Korea",
+   "zh": "朝鲜半岛南北分治"
   },
   "locationQid": null
  },
@@ -3606,6 +7085,30 @@
   },
   "locationQid": null
  },
+ "Q50247": {
+  "label": {
+   "en": "Buyeo County",
+   "zh": "扶馀郡"
+  },
+  "description": "administrative division of South Korea",
+  "coord": {
+   "lat": 36.2819,
+   "lon": 126.9125
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q17143371"
+  ],
+  "wiki": {
+   "en": "Buyeo County",
+   "zh": "扶餘郡"
+  }
+ },
  "Q503585": {
   "label": {
    "en": "Korea under Japanese rule",
@@ -3641,6 +7144,249 @@
    "en": "Korea under Japanese rule",
    "zh": "朝鮮日治時期"
   }
+ },
+ "Q5094226": {
+  "label": {
+   "en": "Cheugugi",
+   "zh": null
+  },
+  "description": "rain gauge invented and used during the Joseon dynasty of Korea",
+  "coord": null,
+  "image": "Jang Yeong-sil Science Garden-Rain Gauges 13-11789 Busan, South Korea 03.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1441,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q190052"
+  ],
+  "wiki": {
+   "en": "Ch'ŭgugi",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q524428": {
+  "label": {
+   "en": "Hokkaido Development Commission",
+   "zh": "開拓使"
+  },
+  "description": "government agency in Meiji Japan tasked with the administration, economic development, and securing of Hokkaido",
+  "coord": null,
+  "image": "KaitakushiSapporoHonchosha1873-restoration.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1869,
+   "date": "1869-08-15",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1882,
+   "date": "1882-02-08",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q327333"
+  ],
+  "wiki": {
+   "en": "Hokkaidō Development Commission",
+   "zh": "開拓使"
+  },
+  "locationQid": null
+ },
+ "Q535065": {
+  "label": {
+   "en": "Mount Kōya",
+   "zh": "高野山"
+  },
+  "description": "Buddhist temple complex and settlement in Wakayama Prefecture, Japan",
+  "coord": {
+   "lat": 34.2178,
+   "lon": 135.5833
+  },
+  "image": "Danjogaran Koyasan12n3200.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 810,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q46831",
+   "Q1595289",
+   "Q813672",
+   "Q424857",
+   "Q11058522",
+   "Q15135589",
+   "Q98116669",
+   "Q29428439"
+  ],
+  "wiki": {
+   "en": "Mount Kōya",
+   "zh": "高野山"
+  }
+ },
+ "Q5358937": {
+  "label": {
+   "en": "Toyo",
+   "zh": "台与"
+  },
+  "description": "Queen regnant of Yamatai (Japan)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 235,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Toyo (queen)",
+   "zh": "臺與"
+  },
+  "locationQid": null
+ },
+ "Q5367188": {
+  "label": {
+   "en": "transfer of sovereignty over Okinawa",
+   "zh": "冲绳返还"
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1972,
+   "date": "1972-05-15",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q25929224"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "沖繩返還"
+  },
+  "locationQid": "Q766445"
+ },
+ "Q55521": {
+  "label": {
+   "en": "Chūzan",
+   "zh": "中山王国"
+  },
+  "description": "14th century kingdom",
+  "coord": {
+   "lat": 26.2458,
+   "lon": 127.7219
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1314,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1429,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q417175"
+  ],
+  "wiki": {
+   "en": "Chūzan",
+   "zh": "中山王国"
+  }
+ },
+ "Q5586": {
+  "label": {
+   "en": "Katsushika Hokusai",
+   "zh": "葛饰北斋"
+  },
+  "description": "Japanese artist (1760-1849)",
+  "coord": null,
+  "image": "Hokusai as an old man.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1760,
+   "date": "1760-10-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1849,
+   "date": "1849-05-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hokusai",
+   "zh": "葛饰北斋"
+  },
+  "locationQid": null
+ },
+ "Q56226": {
+  "label": {
+   "en": "Kim Jong-un",
+   "zh": "金正恩"
+  },
+  "description": "Supreme Leader of North Korea since 2011",
+  "coord": null,
+  "image": "Kim Jong-un and Vladimir Putin (2023-09-13) 12 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1984,
+   "date": "1984-01-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kim Jong Un",
+   "zh": "金正恩"
+  },
+  "locationQid": null
  },
  "Q562765": {
   "label": {
@@ -3764,6 +7510,37 @@
   },
   "locationQid": "Q483134"
  },
+ "Q5849431": {
+  "label": {
+   "en": "Daisen Kofun",
+   "zh": "大仙陵古墳"
+  },
+  "description": "Burial mound in Sakai",
+  "coord": {
+   "lat": 34.5639,
+   "lon": 135.4873
+  },
+  "image": "Daisenryo Kofun from Sakai City Hall.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 500,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1141225",
+   "Q17218816",
+   "Q11268718"
+  ],
+  "wiki": {
+   "en": "Daisen Kofun",
+   "zh": "大仙陵古墳"
+  }
+ },
  "Q608727": {
   "label": {
    "en": "Battle of Baekgang",
@@ -3825,6 +7602,62 @@
   },
   "locationQid": null
  },
+ "Q61094": {
+  "label": {
+   "en": "Byōdō-in Temple",
+   "zh": "平等院"
+  },
+  "description": "Buddhist temple in Kyoto Prefecture, Japan",
+  "coord": {
+   "lat": 34.8894,
+   "lon": 135.8078
+  },
+  "image": "Phoenix Hall, Byodo-in, November 2016 -01.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1052,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5393308"
+  ],
+  "wiki": {
+   "en": "Byōdō-in",
+   "zh": "平等院"
+  }
+ },
+ "Q615137": {
+  "label": {
+   "en": "The Pillow Book",
+   "zh": "枕草子"
+  },
+  "description": "1002 book of observations and musings recorded by Sei Shōnagon",
+  "coord": null,
+  "image": "Sei Shonagon2.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1002,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "The Pillow Book",
+   "zh": "枕草子"
+  },
+  "locationQid": null
+ },
  "Q623391": {
   "label": {
    "en": "Japan–Korea Treaty of 1876",
@@ -3852,6 +7685,66 @@
   },
   "locationQid": "Q494786"
  },
+ "Q623757": {
+  "label": {
+   "en": "Eulmi Sabyeon",
+   "zh": "乙未事变"
+  },
+  "description": "assassination of Empress Myeongseong",
+  "coord": {
+   "lat": 37.5831,
+   "lon": 126.9772
+  },
+  "image": "Le Journal Illustré L`ASSASSINAT DE LA REINE CORÉE (cropped).jpg",
+  "pointInTime": {
+   "year": 1895,
+   "date": "1895-10-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1139665"
+  ],
+  "wiki": {
+   "en": "Assassination of Empress Myeongseong",
+   "zh": "乙未事变"
+  }
+ },
+ "Q625594": {
+  "label": {
+   "en": "Cheonghaejin",
+   "zh": "莞岛清海镇遗址"
+  },
+  "description": "historic site (ruins of a garrison)",
+  "coord": {
+   "lat": 34.3603,
+   "lon": 126.7356
+  },
+  "image": "Cheonghaejin jangdo.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 828,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1081138",
+   "Q109607",
+   "Q88556"
+  ],
+  "wiki": {
+   "en": "Cheonghaejin",
+   "zh": "清海镇"
+  }
+ },
  "Q633881": {
   "label": {
    "en": "Yamato period",
@@ -3873,6 +7766,93 @@
    "zh": "大和時代"
   },
   "locationQid": null
+ },
+ "Q640267": {
+  "label": {
+   "en": "Dejima",
+   "zh": "出島"
+  },
+  "description": "Former island at head of Nagasaki harbor, now reclaimed & part of mainland; was residence of Eutch East India Company 1641-1859; this was the only point of contact between Japan & the Western world during this time.",
+  "coord": {
+   "lat": 32.7435,
+   "lon": 129.873
+  },
+  "image": "View of Dejima in Nagasaki Bay Folding Screen by Kawahara Keiga c1836.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1636,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13691",
+   "Q123705",
+   "Q34763"
+  ],
+  "wiki": {
+   "en": "Dejima",
+   "zh": "出島"
+  }
+ },
+ "Q6429581": {
+  "label": {
+   "en": "Kono Statement",
+   "zh": "河野談話"
+  },
+  "description": "political statement from 1993 about comfort women by the government of Japan",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1993,
+   "date": "1993-08-04",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7225113"
+  ],
+  "wiki": {
+   "en": "Kono Statement",
+   "zh": "河野談話"
+  },
+  "locationQid": null
+ },
+ "Q6540361": {
+  "label": {
+   "en": "surrender of Japan",
+   "zh": "日本投降"
+  },
+  "description": "end of World War II, 2 September 1945",
+  "coord": {
+   "lat": 35.3547,
+   "lon": 139.76
+  },
+  "image": "Japanese Surrender at Tokyo Bay, 2 September 1945 A30427A.jpg",
+  "pointInTime": {
+   "year": 1945,
+   "date": "1945-09-02",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q217901"
+  ],
+  "wiki": {
+   "en": "Surrender of Japan",
+   "zh": "日本投降"
+  }
  },
  "Q660895": {
   "label": {
@@ -3898,6 +7878,38 @@
   "wiki": {
    "en": "Tokaido Shinkansen",
    "zh": "東海道新幹線"
+  },
+  "locationQid": null
+ },
+ "Q6788127": {
+  "label": {
+   "en": "Matsumae Takahiro",
+   "zh": "松前崇廣"
+  },
+  "description": "daimyo who ruled the Matsumae Domain",
+  "coord": null,
+  "image": "Matsumae-Takahiro-1864.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1829,
+   "date": "1829-12-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1866,
+   "date": "1866-06-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Matsumae Takahiro",
+   "zh": "松前崇廣"
   },
   "locationQid": null
  },
@@ -3938,6 +7950,105 @@
   },
   "locationQid": "Q522605"
  },
+ "Q696251": {
+  "label": {
+   "en": "Occupation of Japan",
+   "zh": "同盟国军事占领日本"
+  },
+  "description": "1945 Allied occupation of Japan following WWII",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1945,
+   "date": "1945-08-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1952,
+   "date": "1952-04-28",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188686",
+   "Q19953632",
+   "Q2577883",
+   "Q1048835"
+  ],
+  "wiki": {
+   "en": "Occupation of Japan",
+   "zh": "同盟國軍事佔領日本"
+  },
+  "locationQid": null
+ },
+ "Q696860": {
+  "label": {
+   "en": "Iwakura Mission",
+   "zh": "岩仓使节团"
+  },
+  "description": "1871–1873 Japanese diplomatic voyage",
+  "coord": null,
+  "image": "Iwakura mission.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1871,
+   "date": "1871-12-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1873,
+   "date": "1873-09-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q938711"
+  ],
+  "wiki": {
+   "en": "Iwakura Mission",
+   "zh": "岩倉使節團"
+  },
+  "locationQid": null
+ },
+ "Q698239": {
+  "label": {
+   "en": "Later Baekje",
+   "zh": "后百济"
+  },
+  "description": "former country",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 892,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 936,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Later Paekche",
+   "zh": "後百濟"
+  },
+  "locationQid": null
+ },
  "Q698268": {
   "label": {
    "en": "Later Three Kingdoms",
@@ -3968,6 +8079,38 @@
   "wiki": {
    "en": "Later Three Kingdoms",
    "zh": "後三國時代"
+  },
+  "locationQid": null
+ },
+ "Q699871": {
+  "label": {
+   "en": "Taebong",
+   "zh": "后高句丽"
+  },
+  "description": "former country",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 901,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 918,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "T'aebong",
+   "zh": "後高句麗"
   },
   "locationQid": null
  },
@@ -4154,6 +8297,38 @@
    "zh": "广岛市原子弹爆炸"
   }
  },
+ "Q704083": {
+  "label": {
+   "en": "Mu of Balhae",
+   "zh": "大武艺"
+  },
+  "description": "Balhae ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 650,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 737,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mu of Balhae",
+   "zh": "大武藝"
+  },
+  "locationQid": null
+ },
  "Q706397": {
   "label": {
    "en": "Dae Inseon",
@@ -4218,6 +8393,38 @@
   },
   "locationQid": null
  },
+ "Q706428": {
+  "label": {
+   "en": "Goryeo–Khitan War",
+   "zh": "高丽与契丹之战"
+  },
+  "description": "series of three conflicts (993, 1010, 1018) between Goryeo (Korea) and the Khitan Empire (Liao Dynasty)",
+  "coord": null,
+  "image": "Documentary painting of the Battle of Kwiju.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 993,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1022,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Goryeo–Khitan War",
+   "zh": "辽丽战争"
+  },
+  "locationQid": "Q483134"
+ },
  "Q706537": {
   "label": {
    "en": "King Mun of Balhae",
@@ -4247,6 +8454,38 @@
   "wiki": {
    "en": "Mun of Balhae",
    "zh": "大钦茂"
+  },
+  "locationQid": null
+ },
+ "Q706776": {
+  "label": {
+   "en": "Singeom",
+   "zh": "甄神剑"
+  },
+  "description": "King of Hunaekje",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 885,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 936,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kyŏn Sin'gŏm",
+   "zh": "甄神劍"
   },
   "locationQid": null
  },
@@ -4281,6 +8520,134 @@
    "zh": "唐朝与新罗的战争"
   },
   "locationQid": "Q483134"
+ },
+ "Q711757": {
+  "label": {
+   "en": "Taisho Democracy",
+   "zh": "大正民主"
+  },
+  "description": "liberal and democratic trend in Japan during the Taishō period",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1905,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1931,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Taishō Democracy",
+   "zh": "大正民主"
+  },
+  "locationQid": null
+ },
+ "Q712776": {
+  "label": {
+   "en": "Goryeo military regime",
+   "zh": "武臣政权"
+  },
+  "description": "government of the Korean's Goryeo dinasty",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1170,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1270,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q25424534"
+  ],
+  "wiki": {
+   "en": "Goryeo military regime",
+   "zh": "武臣政權"
+  },
+  "locationQid": null
+ },
+ "Q712893": {
+  "label": {
+   "en": "Jirō Minami",
+   "zh": "南次郎"
+  },
+  "description": "Japanese politician (1874-1955)",
+  "coord": null,
+  "image": "Minami Jirō 1931.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1874,
+   "date": "1874-08-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1955,
+   "date": "1955-12-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jirō Minami",
+   "zh": "南次郎"
+  },
+  "locationQid": null
+ },
+ "Q714820": {
+  "label": {
+   "en": "Satsuma Rebellion",
+   "zh": "西南战争"
+  },
+  "description": "revolt of disaffected samurai against the new imperial government, nine years into the Meiji Era",
+  "coord": null,
+  "image": "Satsuma rebeliion.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 2005,
+   "date": "2005-01-29",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1877,
+   "date": "1877-09-24",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931495"
+  ],
+  "wiki": {
+   "en": "Satsuma Rebellion",
+   "zh": "西南戰爭"
+  },
+  "locationQid": "Q13987"
  },
  "Q7169780": {
   "label": {
@@ -4438,6 +8805,33 @@
   },
   "locationQid": null
  },
+ "Q813935": {
+  "label": {
+   "en": "Nihon Shoki",
+   "zh": "日本书纪"
+  },
+  "description": "8th century book of classical Japanese history",
+  "coord": null,
+  "image": "Postscript from The Age of Gods chapter, The Chronicles of Japan (1286).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 720,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1517777"
+  ],
+  "wiki": {
+   "en": "Nihon Shoki",
+   "zh": "日本書紀"
+  },
+  "locationQid": null
+ },
  "Q81731": {
   "label": {
    "en": "Murasaki Shikibu",
@@ -4469,6 +8863,72 @@
    "zh": "紫式部"
   },
   "locationQid": null
+ },
+ "Q822472": {
+  "label": {
+   "en": "Akō Incident",
+   "zh": "赤穗事件"
+  },
+  "description": "18th century samurai battle",
+  "coord": {
+   "lat": 35.6375,
+   "lon": 139.7362
+  },
+  "image": "Reward for 47 Ronin by Yasuda Raishu (Homma Museum of Art).jpg",
+  "pointInTime": {
+   "year": 1703,
+   "date": "1703-01-30",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q44342",
+   "Q11499675"
+  ],
+  "wiki": {
+   "en": "Forty-seven rōnin",
+   "zh": "赤穗事件"
+  }
+ },
+ "Q826021": {
+  "label": {
+   "en": "Kenmu Restoration",
+   "zh": "建武新政"
+  },
+  "description": "period of Japanese history, 1333–1336",
+  "coord": {
+   "lat": 35,
+   "lon": 135.7667
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1333,
+   "date": "1333-07-17",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1336,
+   "date": "1336-10-10",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315",
+   "Q43229",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kenmu Restoration",
+   "zh": "建武新政"
+  }
  },
  "Q8269": {
   "label": {
@@ -4526,6 +8986,104 @@
   },
   "locationQid": null
  },
+ "Q844035": {
+  "label": {
+   "en": "Matsumae Yoshihiro",
+   "zh": "松前庆广"
+  },
+  "description": "Japanese samurai",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1548,
+   "date": "1548-10-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1616,
+   "date": "1616-11-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Matsumae Yoshihiro",
+   "zh": "松前慶廣"
+  },
+  "locationQid": null
+ },
+ "Q844295": {
+  "label": {
+   "en": "Yamatai",
+   "zh": "邪马台国"
+  },
+  "description": "ancient country in Wa (Japan) during the late Yayoi period",
+  "coord": {
+   "lat": 34.5167,
+   "lon": 135.85
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 100,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 300,
+   "date": null,
+   "precision": 7,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Yamatai",
+   "zh": "邪马台国"
+  }
+ },
+ "Q844311": {
+  "label": {
+   "en": "Koshamain's War",
+   "zh": "坷相曼夷之戰"
+  },
+  "description": "1457 war between the Ainu and Wajin in Japan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1457,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1458,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Koshamain's War",
+   "zh": "胡奢麻尹之战"
+  },
+  "locationQid": null
+ },
  "Q8470": {
   "label": {
    "en": "1988 Summer Olympics",
@@ -4562,6 +9120,65 @@
    "zh": "1988年夏季奥林匹克运动会"
   },
   "locationQid": "Q392086"
+ },
+ "Q8514298": {
+  "label": {
+   "en": "Matsumae Norihiro",
+   "zh": "松前矩廣"
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1660,
+   "date": "1660-01-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1721,
+   "date": "1721-01-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "松前矩廣"
+  },
+  "locationQid": null
+ },
+ "Q85869754": {
+  "label": {
+   "en": "Act Promoting Measures to Achieve a Society in which the Pride of Ainu People is Respected",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 2019,
+   "date": "2019-04-19",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q820655"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
  },
  "Q862509": {
   "label": {
@@ -4697,6 +9314,285 @@
   },
   "locationQid": null
  },
+ "Q884": {
+  "label": {
+   "en": "South Korea",
+   "zh": "大韩民国"
+  },
+  "description": "country in East Asia",
+  "coord": {
+   "lat": 36,
+   "lon": 128
+  },
+  "image": "South Korea - Location Map (2013) - KOR - UNOCHA.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1948,
+   "date": "1948-08-15",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q1520223",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "South Korea",
+   "zh": "大韩民国"
+  }
+ },
+ "Q9030108": {
+  "label": {
+   "en": "Tenmei famine",
+   "zh": "天明大饑荒"
+  },
+  "description": "famine which affected Japan during the Edo period",
+  "coord": null,
+  "image": "Great Tenmei Famine Map Artwork.png",
+  "pointInTime": {
+   "year": 1780,
+   "date": null,
+   "precision": 8,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1782,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1788,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q168247"
+  ],
+  "wiki": {
+   "en": "Great Tenmei famine",
+   "zh": "天明大饑荒"
+  },
+  "locationQid": "Q17"
+ },
+ "Q907273": {
+  "label": {
+   "en": "Shō Toku",
+   "zh": "尚德王"
+  },
+  "description": "King of Ryūkyū",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1441,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1469,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō Toku",
+   "zh": "尚德王"
+  },
+  "locationQid": null
+ },
+ "Q907317": {
+  "label": {
+   "en": "Shō Nei",
+   "zh": "尚宁王"
+  },
+  "description": "7th king of the Ryukyu Kingdom",
+  "coord": null,
+  "image": "King Sho Nei.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1564,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1620,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Shō Nei",
+   "zh": "尚寧王"
+  },
+  "locationQid": null
+ },
+ "Q917195": {
+  "label": {
+   "en": "Enryaku-ji Temple",
+   "zh": "延历寺"
+  },
+  "description": "Buddhist temple in Shiga Prefecture, Japan",
+  "coord": {
+   "lat": 35.0706,
+   "lon": 135.8411
+  },
+  "image": "Enryakuji Konponchudo02s5s3200.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 788,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5393308"
+  ],
+  "wiki": {
+   "en": "Enryaku-ji",
+   "zh": "延曆寺"
+  }
+ },
+ "Q968676": {
+  "label": {
+   "en": "Battle of Dan-no-ura",
+   "zh": "壇之浦之戰"
+  },
+  "description": "sea battle of the Genpei War, occurring at Dan-no-ura on April 25, 1185",
+  "coord": {
+   "lat": 33.9651,
+   "lon": 130.9566
+  },
+  "image": "AntokuTennou Engi.7&8 Dannoura Kassen.jpg",
+  "pointInTime": {
+   "year": 1185,
+   "date": "1185-04-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1261499"
+  ],
+  "wiki": {
+   "en": "Battle of Dan-no-ura",
+   "zh": "壇之浦之戰"
+  }
+ },
+ "Q98090884": {
+  "label": {
+   "en": "Ryūkyū Disposition",
+   "zh": "日本吞併琉球"
+  },
+  "description": "Japanese annexation of the Ryukyu Kingdom",
+  "coord": null,
+  "image": "Cartoon of Ryukyu Shobun from Marumaru Chinbun 1879-05-24.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1872,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1879,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q194465"
+  ],
+  "wiki": {
+   "en": "Ryukyu Disposition",
+   "zh": "琉球处分"
+  },
+  "locationQid": null
+ },
+ "loc:Q1040184": {
+  "coord": null,
+  "label": {
+   "en": "Ezo",
+   "zh": "虾夷地"
+  }
+ },
+ "loc:Q1059254": {
+  "coord": {
+   "lat": 45.7585,
+   "lon": 126.6239
+  },
+  "label": {
+   "en": "Harbin railway station",
+   "zh": "哈尔滨站"
+  }
+ },
+ "loc:Q1072875": {
+  "coord": {
+   "lat": 35.6903,
+   "lon": 139.7539
+  },
+  "label": {
+   "en": "National Archives of Japan",
+   "zh": "國立公文書館"
+  }
+ },
+ "loc:Q10905515": {
+  "coord": {
+   "lat": 26.5,
+   "lon": 127.9
+  },
+  "label": {
+   "en": "Ryukyu Islands",
+   "zh": "琉球群岛"
+  }
+ },
+ "loc:Q109079": {
+  "coord": {
+   "lat": 37.9717,
+   "lon": 126.5528
+  },
+  "label": {
+   "en": "Kaesong",
+   "zh": "开城特级市"
+  }
+ },
+ "loc:Q13987": {
+  "coord": {
+   "lat": 33,
+   "lon": 131
+  },
+  "label": {
+   "en": "Kyushu",
+   "zh": "九州"
+  }
+ },
  "loc:Q17": {
   "coord": {
    "lat": 35,
@@ -4707,6 +9603,16 @@
    "zh": "日本"
   }
  },
+ "loc:Q18808": {
+  "coord": {
+   "lat": 39.0167,
+   "lon": 125.7475
+  },
+  "label": {
+   "en": "Pyongyang",
+   "zh": "平壤"
+  }
+ },
  "loc:Q193563": {
   "coord": {
    "lat": 48.8336,
@@ -4715,6 +9621,16 @@
   "label": {
    "en": "Bibliothèque nationale de France",
    "zh": "法国国家图书馆"
+  }
+ },
+ "loc:Q2915772": {
+  "coord": {
+   "lat": 37.7786,
+   "lon": -122.421
+  },
+  "label": {
+   "en": "War Memorial Opera House",
+   "zh": "战争纪念歌剧院"
   }
  },
  "loc:Q326917": {
@@ -4777,6 +9693,16 @@
    "zh": "朝鲜半岛"
   }
  },
+ "loc:Q485651": {
+  "coord": {
+   "lat": 34.4831,
+   "lon": 126.2619
+  },
+  "label": {
+   "en": "Jindo",
+   "zh": "珍岛"
+  }
+ },
  "loc:Q494786": {
   "coord": {
    "lat": 37.71,
@@ -4827,6 +9753,16 @@
    "zh": "島原半島"
   }
  },
+ "loc:Q766445": {
+  "coord": {
+   "lat": 26.2122,
+   "lon": 127.6808
+  },
+  "label": {
+   "en": "Okinawa Prefecture",
+   "zh": "冲绳县"
+  }
+ },
  "loc:Q81126": {
   "coord": {
    "lat": 45,
@@ -4835,6 +9771,26 @@
   "label": {
    "en": "Manchuria",
    "zh": "满洲"
+  }
+ },
+ "loc:Q884": {
+  "coord": {
+   "lat": 36,
+   "lon": 128
+  },
+  "label": {
+   "en": "South Korea",
+   "zh": "大韩民国"
+  }
+ },
+ "loc:Q98": {
+  "coord": {
+   "lat": 0,
+   "lon": -160
+  },
+  "label": {
+   "en": "Pacific Ocean",
+   "zh": "太平洋"
   }
  }
 }
