@@ -152,7 +152,7 @@ and one new event without a Wikidata item). `build-data`: 0 open diffs.
 | R3 | Hayam Wuruk (5 records) | 哈奄·武禄 → 哈亚·乌鲁克 | 中文维基 哈亞·烏魯克 |
 | R4 | Iskandar Muda; Coen; Cut Nyak Dhien; Kahuripan; Dvaravati | zh 伊斯坎达·慕达 → 伊斯干达·穆达; 燕·彼得逊·昆 / 昆 → 扬·彼得生·库恩 / 库恩 (all records); 朱·娘·典 → 朱月婷（朱亚典）; 卡胡里潘 → 固里班（卡胡里潘）; 堕罗钵底 → 陀罗钵地（堕罗钵底） | 中文维基 titles |
 | R5 | ev-malayan-emergency | zh 双溪大年 (Sungai Petani, Kedah) → 和丰 (Sungai Siput, Perak) | 中文维基 和丰 |
-| R6 | person-ram-khamhaeng | zh label "难府昆三春" (Nan) → 乔城（今达府一带）坤三春; Mueang Chot is near Tak, not Nan | 中文维基 兰甘亨 |
+| R6 | person-ram-khamhaeng | zh label "难府昆三春" (Nan) → 达城（孟乔）城主坤三春; Mueang Chot is near Tak, not Nan | 中文维基 兰甘亨 |
 | R7 | ev-bandung-conference (story) | Nkrumah listed as attending → Kojo Botsio for the Gold Coast | Final communiqué; Nkrumah did not attend |
 | R8 | ev-french-indochina-formed, polity-french-indochina (summary, story) | Laos "added in 1893" → protectorate 1893, formally added 1899 | Wikipedia: French Indochina; WorldStatesmen |
 | R9 | person-diponegoro | Makassar stop 1834 → 1833 | Carey (via Kompas); GNFI |
