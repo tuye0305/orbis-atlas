@@ -252,3 +252,98 @@ After these changes, `validate-data` gives 0 errors and 0 warnings. `wd.mjs enri
 - **`ev-rise-of-cahokia` calls Cahokia the largest city in what is now the US "before the 1780s".** That holds only for the upper population estimates (about 20,000).
 - **Buffalo Hump's death date** (`polity-comancheria` leaders) varies between c. 1867 and 1870 across sources.
 - **Further gaps:** the 1500s are still thin outside Spanish expeditions, the Subarctic has no record of its own, and a fuller Haida or Nuu-chah-nulth record would be worth adding.
+
+## 2026-11 completion check (web-sourced)
+
+Checker: fact-checking agent, PR #23, after the review above. This check covers every record that neither the curator's spot-check (§2) nor the 2026-11 review had named. It also resolves the review's open doubts.
+
+### Scope and method
+
+- **97 records were checked**: the 96 that nobody but the curator had seen (58 events, 18 people, 8 places, 12 polities), plus the re-read TRC record.
+- **Every date, stop, name range, ruler span, number and summary/story claim** was compared with pages retrieved in this check via WebSearch or WebFetch, never with memory.
+- **Sources used:**
+  - NPS park and history pages, NPS Historical Handbooks, the National Archives, the Library of Congress, the US Census Bureau, USGS and the State Department Office of the Historian
+  - The Canadian Encyclopedia, the Dictionary of Canadian Biography, Parks Canada and Library and Archives Canada
+  - the Manitoba Historical Society, the City of Winnipeg and the Montréal city archives
+  - Mount Vernon, Monticello, the King Institute and the Atomic Heritage Foundation
+  - the Encyclopedia of Alabama, the Encyclopedia of Oklahoma History, the New Georgia Encyclopedia, the Wisconsin Historical Society and the Handbook of Texas
+  - American Battlefield Trust, Élections Québec, UCLA, NASA and Purdue
+  - Retail Insider and the court filings of the Hudson's Bay monitor (Alvarez & Marsal)
+  - Wikipedia, always alongside a second source
+  - Britannica, through search snippets only
+- **Rename.** `ev-truth-and-reconciliation-commission` (Canada, Q6021399) is now `ev-truth-and-reconciliation-commission-canada`. The Africa dataset uses the old id for South Africa's TRC (Q373032). No resolution or auto-diff key referred to the old id. Mentions of the old id earlier in this report are historical.
+
+### Result
+
+- **49 of the 96 records (51%) needed a correction.**
+  - About 20 were substantive: wrong facts, counts or attributions.
+  - The rest were overstated certainty, anachronistic labels, or pins several kilometres off.
+- **No systemic error was found**, and no year or QID changed in a way that creates a new auto-diff.
+
+| Record | Old | New | Source |
+| --- | --- | --- | --- |
+| `ev-thule-migration` | "4,000 kilometres to the east"; route start "Birnirk homeland" | "thousands of kilometres"; "Thule origins (Birnirk area)" | Friesen & Arnold 2008; TCE (Thule culture) |
+| `ev-end-of-norse-greenland` | wedding "letters they later carried home" | wedding documents written in Greenland, confirmed by witnesses in Iceland | Hvalsey sources; Nunatsiaq News |
+| `ev-coronado-expedition` | lands "left alone by Spain for half a century" | "no attempt to settle" them | Chamuscado–Rodríguez (1581) and Espejo (1582) entries |
+| `ev-mayflower-and-plymouth` | Separatists "first fled to Leiden" | fled to the Netherlands, settled in Leiden | Pilgrim Hall; Plimoth Patuxet |
+| `ev-founding-of-new-orleans` | "passed to Spain in 1763" | ceded in 1762–63 | 64 Parishes; American Battlefield Trust |
+| `ev-lexington-and-concord` | "minutemen" on Lexington Green | the town militia | NPS Minute Man; American Battlefield Trust |
+| `ev-american-revolutionary-war` | Delaware crossing "the night after Christmas" | Christmas night | American Battlefield Trust (Trenton) |
+| `ev-texas-revolution` | Anglo settlers outnumbered Tejanos "many times over"; Goliad "about 340" | perhaps four to one; more than 340 | Almonte's 1834 report; TSHA; American Battlefield Trust |
+| `ev-california-gold-rush` | "Swiss-born" Sutter; Brannan "within weeks"; Native population "150,000 in 1846" | Swiss emigrant (born in Baden); "in May"; 1848 | HLS-DHS-DSS; Smithsonian; LOC |
+| `ev-american-civil-war` | Antietam: 23,000 "killed or wounded" | killed, wounded or missing | American Battlefield Trust |
+| `ev-canadian-confederation` | Canadians "arrived uninvited" at Charlottetown | had asked to attend; champagne "it is said" | LAC; Britannica snippet |
+| `ev-first-transcontinental-railroad` | tunnelling "a few centimetres a day"; Stanford missed the spike | about 15–35 cm a day; "by some accounts" | PBS American Experience; Utah History to Go |
+| `ev-great-chicago-fire` | "about 300" dead; "100,000 homeless" | an estimated 300; 90,000–100,000 | History.com; National Geographic |
+| `ev-numbered-treaties` | pin 50.15, −96.88 | Lower Fort Garry (50.112, −96.932) | TCE (Treaties 1 and 2) |
+| `ev-chinese-exclusion-act` | "the first US law to bar immigrants by nationality" | "the first major" such law (the Page Act came in 1875) | National Archives |
+| `ev-wall-street-crash-and-depression` | tariff "helped cut world trade by about two thirds" | added to a collapse; trade fell by about two thirds in value, 1929–34 | State Dept Office of the Historian |
+| `ev-dust-bowl` | SCS planted shelterbelts; "200,000 or more" Okies; dust on the Capitol during Bennett's testimony; "farm families" | Forest Service planted shelterbelts; more than 250,000, many from outside the Dust Bowl; Bennett story hedged; "people" | Oklahoma Historical Society; NWS Norman |
+| `ev-patriation-and-charter` | Indigenous lobbying "in London" won s. 35; ministers' kitchen compromise "overnight" | dropped in November, restored with "existing" after protests and lobbying; three justice ministers sketched it, and the delegations finished it overnight | Canada's History; UBCIC; Nov 1981 motion |
+| `ev-hurricane-katrina` | note "about 1,200 to over 1,800" | NHC 2023 revision: 1,392 (520 direct) | Fox Weather / WGNO on the NHC update |
+| `ev-ipiutak-point-hope` | "more than 600" house pits; Scytho-Siberian link stated as fact; "one of the oldest continuously occupied" | 500–600; attributed to Larsen and Rainey, "treated with caution"; "often described as" | NPS Cape Krusenstern; EBSCO |
+| `ev-kolomoki-mounds` | "one of the most populous" | "perhaps one of" | New Georgia Encyclopedia |
+| `ev-effigy-mounds` | "some 200 survive" (implying effigies) | more than 200 mounds, 31 of them effigies; the note gives date ranges of 650–1200 | NPS; Wisconsin Historical Society |
+| `ev-etowah-mounds` | "seated man and woman"; de Soto's "visit" | cross-legged man and kneeling woman; Itaba identification debated | Etowah sources |
+| `ev-moundville` | "32-hectare plaza"; necropolis "by c. 1450" | "large central plaza" (no figure found); necropolis after c. 1300 | Encyclopedia of Alabama |
+| `ev-spiro-mounds` | "one dealer" blew up the mound; goods "from the Rockies" | the diggers blasted the chamber; goods from "as far as Mexico" | Encyclopedia of Oklahoma History |
+| `person-erik-the-red` | "twice exiled, first to Iceland"; Thorsnes pin in Dalir | went to Iceland with his exiled father; later outlawed himself; Þórsnes (65.06, −22.72) | Saga summaries; Erik the Red sources |
+| `person-jacques-cartier` | "nine-metre cross"; Charlesbourg-Royal pin | about 10 m (30 ft); Cap-Rouge (46.748, −71.341) | Parks Canada; DCB (Donnacona) |
+| `person-samuel-de-champlain` | "governed the colony" | led it, from 1633 as Richelieu's lieutenant; note on the 1574 baptism record; Port-Royal pin moved | Canadian Museum of History |
+| `person-benjamin-franklin` | 1752 stop "Kite experiment; Poor Richard's Almanack" | kite experiment only (the Almanack dates from 1732) | Founders Online |
+| `person-sequoyah` | "Tuskegee in Tennessee"; Horseshoe Bend pin; "Indian Territory" in 1829; death pin at Piedras Negras | present-day Tennessee; battlefield pin; Cherokee Nation West; San Fernando de Rosas | NPS Horseshoe Bend; Encyclopedia of Alabama |
+| `person-william-t-sherman`, `person-martin-luther-king-jr`, `person-neil-armstrong` | pins at Durham, Court Square and downtown Cincinnati | Bennett Place, Dexter Avenue church, Fairfield (Ohio) | NC Historic Sites; Space.com |
+| `person-mark-twain` | 1874 "writes his major novels at Hartford" | moves into the Hartford house (much of the drafting was done at Elmira) | Mark Twain Study (Elmira) |
+| `place-montreal` | Hochelaga 1535–1642; New France to 1763; "French missionaries"; capital "until 1849" | Hochelaga to 1600, then no town until 1642; British military rule 1760–63; lay colonists under Maisonneuve and Mance; capital 1844–49 | Montréal city archives; TCE |
+| `place-winnipeg` | Fort Garry 1822–70 flagged as capital of Rupert's Land; 1870–73 not a capital | seat of the District of Assiniboia; capital of Manitoba from 1870; note on Fort Douglas (c. 1813–15) | Manitoba Historical Society; City of Winnipeg |
+| `place-detroit` | "British (Quebec, then Upper Canada)" from 1760 | military post; Quebec from 1774; Upper Canada from 1791 | Detroit Historical Society |
+| `place-halifax` | "the main North Atlantic base of the Royal Navy" | a principal base, station headquarters until 1819 | Nova Scotia Archives; Parks Canada |
+| `place-new-orleans`, `place-ottawa` | — | notes: Spanish officials arrived only in 1766; the name Bytown dates from 1827 | LOC; Ottawa city documents |
+| `polity-nuevo-mexico` | Oñate to 1610; Otermín from 1677 | 1608; 1679, titular to 1683 | List of Spanish governors of New Mexico |
+| `polity-hopewell` | flourished "1 to 500"; note "clipped to the atlas range" | 1–400 (NPS), some to 500; note corrected | NPS Hopewell Culture NHP |
+| `polity-hohokam`, `polity-mississippian-cahokia` | confidence low | medium (approximate archaeological dates, not legend, per SCHEMA); Cahokia's estimate range and the Etowah and Moundville end dates corrected | NPS; Encyclopedia of Alabama |
+| `polity-united-states`, `polity-british-north-america`, `polity-tecumseh-confederacy`, `polity-danish-greenland` | Wikidata "1784"; "New York and Philadelphia"; capitals lacked Ottawa, Greenville and Håbets Ø | both Wikidata inceptions; "several cities"; Ottawa from 1866; Greenville, then Prophetstown from 1808; Godthåb from 1728 | Wikidata API; Senate (nine capitals); TCE (Tenskwatawa); worldstatesmen |
+
+### The reviewer's open doubts
+
+| Doubt | Finding | Change |
+| --- | --- | --- |
+| Hamilton at Yorktown (`ev-siege-of-yorktown`) | **Confirmed.** Lt. Col. Hamilton led about 400 of Lafayette's light infantry against Redoubt 10, which fell in about ten minutes (NPS Historical Handbook 14; Army Heritage Center; American Battlefield Trust). | Wording made precise and the NPS handbook added as a source |
+| Antony and Isabella's son (`ev-first-africans-in-virginia`) | **Supported by the 1624 census.** It lists "Antoney", "Isabell" and "William theire child baptised" in Capt. William Tucker's household at Elizabeth City. Which ship brought the parents is unknown (NPS ethnography; BlackPast). | The story now cites the census and the Tucker household and states the uncertainty; BlackPast added |
+| Van Horne's "1881" (`ev-canadian-pacific-last-spike`) | **Wrong.** The syndicate took over in 1881, but Van Horne became general manager in January 1882, after a poor 1881 season of about 130 miles (TCE; DCB; Manitoba Historical Society). | Fixed; DCB added |
+| Sequoyah's dates (`person-sequoyah`) | **The 1821 demonstration** was before the Cherokee National Council, at Sauta, Jackson County, Alabama, according to the Encyclopedia of Alabama. The old pin was at the later New Echota. **The move west** is dated 1822, 1823 or 1824 in different references; 1824 follows the Oklahoma Historical Society and SNAC. | Stop moved and relabelled "by one account"; 1824 kept, with the range given in the note; two sources added |
+| HBC in 2025–26 (`ev-hudsons-bay-company-chartered`) | **Liquidated.** It filed for CCAA on 7 March 2025, closed its last stores on 1 June 2025, and sold its trademarks and stripes, but not the Royal Charter, to Canadian Tire. The court approved the sale on 3 June 2025 for about C$30 million. Monitor filings show a court-supervised wind-down still running in July 2026. | Story updated; Retail Insider added |
+| Cahokia "largest city" (`ev-rise-of-cahokia`) | **Holds only on the top estimates.** The 1790 census counted 44,096 in Philadelphia and its suburbs (28,522 in the city proper), so Cahokia outranks every later US city before c. 1790 only on the top estimate of about 40,000. At the usual 10,000–20,000 it was the largest town north of Mexico, but Philadelphia passed that size earlier. | Summary reframed, census figure added to the note, Census Bureau source added |
+
+### Left open
+
+- **Claims searched for and not confirmed.** All are hedged or plausible and were left in place:
+  - Coronado's paraphrase that the friar "told the truth about nothing"
+  - the St. Augustine feast-day sighting
+  - "about 40,000" boycotters in Montgomery
+  - the Dow having "nearly quadrupled since 1924"
+  - Spiro's Great Mortuary "around 1400"
+  - the jet-inlaid Ipiutak mask eyes
+  - George III's remark on Washington (already marked "reportedly")
+- **Buffalo Hump's death year** (`polity-comancheria`) is still c. 1867–1870, from the review.
+- **A dozen Wikipedia-only checks.** These include Trudeau's biography and the Oñate/Otermín terms. Each agrees with the existing or corrected value, but none has a second source.
