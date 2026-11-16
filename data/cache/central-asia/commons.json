@@ -113,12 +113,6 @@
   "license": "Public domain",
   "artist": "1436 painter"
  },
- "Battle of Dafei River.png": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Battle_of_Dafei_River.png/500px-Battle_of_Dafei_River.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Battle_of_Dafei_River.png",
-  "license": "CC BY-SA 4.0",
-  "artist": "SY"
- },
  "Battle of Qatwan.png": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Battle_of_Qatwan.png/500px-Battle_of_Qatwan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "page": "https://commons.wikimedia.org/wiki/File:Battle_of_Qatwan.png",
@@ -317,12 +311,6 @@
   "license": "CC BY-SA 3.0",
   "artist": "The original uploader was John Hill at English Wikipedia."
  },
- "Kumarajiva at Kizil Caves, Kuqa (cropped).jpg": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Kumarajiva_at_Kizil_Caves%2C_Kuqa_%28cropped%29.jpg/500px-Kumarajiva_at_Kizil_Caves%2C_Kuqa_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Kumarajiva_at_Kizil_Caves,_Kuqa_(cropped).jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Yoshi Canopus"
- },
  "Kyrgyz fleeing to China after the 1916 Central Asian revolt.jpg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Kyrgyz_fleeing_to_China_after_the_1916_Central_Asian_revolt.jpg/500px-Kyrgyz_fleeing_to_China_after_the_1916_Central_Asian_revolt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "page": "https://commons.wikimedia.org/wiki/File:Kyrgyz_fleeing_to_China_after_the_1916_Central_Asian_revolt.jpg",
@@ -352,6 +340,12 @@
   "page": "https://commons.wikimedia.org/wiki/File:MNRA_soldiers_1939.jpg",
   "license": "Public domain",
   "artist": "Viktor Antonovich Temin"
+ },
+ "Map Iran 1900-en.png": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Map_Iran_1900-en.png/500px-Map_Iran_1900-en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Map_Iran_1900-en.png",
+  "license": "CC BY-SA 2.5",
+  "artist": "Fabienkhan"
  },
  "Merv City Walls (10) (44747325714).jpg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Merv_City_Walls_%2810%29_%2844747325714%29.jpg/500px-Merv_City_Walls_%2810%29_%2844747325714%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -509,6 +503,12 @@
   "license": "Public domain",
   "artist": "Soyuz235"
  },
+ "Staircase, Surkh Kotal, 2–4 century CE.jpg": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Staircase%2C_Surkh_Kotal%2C_2%E2%80%934_century_CE.jpg/500px-Staircase%2C_Surkh_Kotal%2C_2%E2%80%934_century_CE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Staircase,_Surkh_Kotal,_2%E2%80%934_century_CE.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Afghanistan in the Early 1960s"
+ },
  "Statue commemorating Ban Chao, Kashgar.jpg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Statue_commemorating_Ban_Chao%2C_Kashgar.jpg/500px-Statue_commemorating_Ban_Chao%2C_Kashgar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "page": "https://commons.wikimedia.org/wiki/File:Statue_commemorating_Ban_Chao,_Kashgar.jpg",
@@ -544,12 +544,6 @@
   "page": "https://commons.wikimedia.org/wiki/File:Tehron_Street_Dushanbe.jpg",
   "license": "CC BY-SA 4.0",
   "artist": "Kondephy"
- },
- "The Emperor at the Kherlen river.jpg": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/The_Emperor_at_the_Kherlen_river.jpg/500px-The_Emperor_at_the_Kherlen_river.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:The_Emperor_at_the_Kherlen_river.jpg",
-  "license": "Public domain",
-  "artist": "禹之鼎 (Yu Zhiding) 范承烈 (Fan Chenglie)"
  },
  "The army of the Indus entering Kandahar.jpg": {
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fc/The_army_of_the_Indus_entering_Kandahar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -604,12 +598,6 @@
   "page": "https://commons.wikimedia.org/wiki/File:Ulugh-beg_Madrassa_courtyard.JPG",
   "license": "CC BY-SA 2.5",
   "artist": "Alaexis"
- },
- "Urumqi Skyline July 2019.jpg": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Urumqi_Skyline_July_2019.jpg/500px-Urumqi_Skyline_July_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Urumqi_Skyline_July_2019.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Albertaont"
  },
  "Veselovski-1898-Yakub-Bek.jpg": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Veselovski-1898-Yakub-Bek.jpg/500px-Veselovski-1898-Yakub-Bek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

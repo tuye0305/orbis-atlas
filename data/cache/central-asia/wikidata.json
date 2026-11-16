@@ -224,6 +224,33 @@
   },
   "locationQid": "Q863"
  },
+ "Q1129893": {
+  "label": {
+   "en": "Anglo-Russian Entente",
+   "zh": "英俄条约"
+  },
+  "description": "treaty between the British and Russian Empires, signed on 1907 in St. Petersburg, ending their rivalry in Central Asia to unite against Germany, in which southern Persia, Tibet, and Afghanistan were acknowledged as British sphere of influence",
+  "coord": null,
+  "image": "Map Iran 1900-en.png",
+  "pointInTime": {
+   "year": 1907,
+   "date": "1907-08-31",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q19869179"
+  ],
+  "wiki": {
+   "en": "Anglo–Russian Entente",
+   "zh": "英俄條約"
+  },
+  "locationQid": "Q656"
+ },
  "Q1138904": {
   "label": {
    "en": "Kingdom of Afghanistan",
@@ -1329,31 +1356,6 @@
   },
   "locationQid": null
  },
- "Q16959": {
-  "label": {
-   "en": "Ürümqi",
-   "zh": "乌鲁木齐市"
-  },
-  "description": "capital of Xinjiang Uyghur Autonomous Region, China",
-  "coord": {
-   "lat": 43.8225,
-   "lon": 87.6125
-  },
-  "image": "Urumqi Skyline July 2019.jpg",
-  "pointInTime": null,
-  "start": null,
-  "end": null,
-  "born": null,
-  "died": null,
-  "instanceOf": [
-   "Q748149",
-   "Q1549591"
-  ],
-  "wiki": {
-   "en": "Ürümqi",
-   "zh": "乌鲁木齐市"
-  }
- },
  "Q17293": {
   "label": {
    "en": "Tenzin Gyatso",
@@ -1554,6 +1556,30 @@
    "zh": "英武可汗"
   },
   "locationQid": null
+ },
+ "Q1799523": {
+  "label": {
+   "en": "Surkh Kotal",
+   "zh": "紅柱"
+  },
+  "description": "archaeological site in Afghanistan",
+  "coord": {
+   "lat": 36.05,
+   "lon": 68.5667
+  },
+  "image": "Staircase, Surkh Kotal, 2–4 century CE.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Surkh Kotal",
+   "zh": null
+  }
  },
  "Q182159": {
   "label": {
@@ -3355,38 +3381,6 @@
   },
   "locationQid": null
  },
- "Q335293": {
-  "label": {
-   "en": "Kumārajīva",
-   "zh": "鸠摩罗什"
-  },
-  "description": "Kuchan Buddhist monk and translator (344-413)",
-  "coord": null,
-  "image": "Kumarajiva at Kizil Caves, Kuqa (cropped).jpg",
-  "pointInTime": null,
-  "start": null,
-  "end": null,
-  "born": {
-   "year": 344,
-   "date": null,
-   "precision": 9,
-   "pid": "P569"
-  },
-  "died": {
-   "year": 413,
-   "date": null,
-   "precision": 9,
-   "pid": "P570"
-  },
-  "instanceOf": [
-   "Q5"
-  ],
-  "wiki": {
-   "en": "Kumārajīva",
-   "zh": "鸠摩罗什"
-  },
-  "locationQid": null
- },
  "Q336146": {
   "label": {
    "en": "Abu al-Ghazi Bahadur",
@@ -3978,33 +3972,6 @@
    "zh": "骨咄禄"
   },
   "locationQid": null
- },
- "Q3874305": {
-  "label": {
-   "en": "Battle of Jao Modo",
-   "zh": "昭莫多之战"
-  },
-  "description": "1696 battle",
-  "coord": null,
-  "image": "The Emperor at the Kherlen river.jpg",
-  "pointInTime": {
-   "year": 1696,
-   "date": null,
-   "precision": 9,
-   "pid": "P585"
-  },
-  "start": null,
-  "end": null,
-  "born": null,
-  "died": null,
-  "instanceOf": [
-   "Q178561"
-  ],
-  "wiki": {
-   "en": "Battle of Jao Modo",
-   "zh": "昭莫多之战"
-  },
-  "locationQid": "Q711"
  },
  "Q39081822": {
   "label": {
@@ -5617,43 +5584,6 @@
    "zh": null
   }
  },
- "Q6140819": {
-  "label": {
-   "en": "Qing reconquest of Xinjiang",
-   "zh": "清军收复新疆之战"
-  },
-  "description": "Reconquest of Xinjiang by the Qing dynasty after the Dungan revolt (19th century)",
-  "coord": null,
-  "image": null,
-  "pointInTime": {
-   "year": 1876,
-   "date": null,
-   "precision": 9,
-   "pid": "P585"
-  },
-  "start": {
-   "year": 1876,
-   "date": null,
-   "precision": 9,
-   "pid": "P580"
-  },
-  "end": {
-   "year": 1878,
-   "date": null,
-   "precision": 9,
-   "pid": "P582"
-  },
-  "born": null,
-  "died": null,
-  "instanceOf": [
-   "Q180684"
-  ],
-  "wiki": {
-   "en": "Qing reconquest of Xinjiang",
-   "zh": "左宗棠收复新疆"
-  },
-  "locationQid": "Q34800"
- },
  "Q61944": {
   "label": {
    "en": "Semey",
@@ -7145,34 +7075,6 @@
   },
   "locationQid": "Q889"
  },
- "Q9968360": {
-  "label": {
-   "en": "Battle of Dafei River",
-   "zh": "大非川之战"
-  },
-  "description": "archaeological site",
-  "coord": null,
-  "image": "Battle of Dafei River.png",
-  "pointInTime": {
-   "year": 670,
-   "date": null,
-   "precision": 9,
-   "pid": "P585"
-  },
-  "start": null,
-  "end": null,
-  "born": null,
-  "died": null,
-  "instanceOf": [
-   "Q178561",
-   "Q839954"
-  ],
-  "wiki": {
-   "en": "Battle of Dafei River",
-   "zh": "大非川之战"
-  },
-  "locationQid": null
- },
  "loc:Q1027045": {
   "coord": {
    "lat": 40.1,
@@ -7290,16 +7192,6 @@
    "zh": "东欧"
   }
  },
- "loc:Q34800": {
-  "coord": {
-   "lat": 43.8253,
-   "lon": 87.6138
-  },
-  "label": {
-   "en": "Xinjiang",
-   "zh": "新疆维吾尔自治区"
-  }
- },
  "loc:Q35493": {
   "coord": {
    "lat": 43.24,
@@ -7340,6 +7232,16 @@
    "zh": "喀布尔"
   }
  },
+ "loc:Q656": {
+  "coord": {
+   "lat": 59.95,
+   "lon": 30.3167
+  },
+  "label": {
+   "en": "Saint Petersburg",
+   "zh": "圣彼得堡"
+  }
+ },
  "loc:Q6585222": {
   "coord": {
    "lat": 41.0174,
@@ -7348,16 +7250,6 @@
   "label": {
    "en": "Millet Library",
    "zh": null
-  }
- },
- "loc:Q711": {
-  "coord": {
-   "lat": 46,
-   "lon": 105
-  },
-  "label": {
-   "en": "Mongolia",
-   "zh": "蒙古国"
   }
  },
  "loc:Q863": {
