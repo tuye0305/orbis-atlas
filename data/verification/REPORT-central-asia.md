@@ -107,9 +107,9 @@ I checked 82 of the 113 new records (73%). None of them is in the curator's spot
 - **People (21):** every new person except the five the curator checked. I covered dates, every stop and the summary.
 - **Places (6):** Kabul, Herat, Balkh, Kandahar, Khujand and Gaochang, including every name period.
 - **Polities (14):** summaries, capitals and ruler reigns. The curator had checked only the ruler QIDs and spans.
-- **QIDs:** I ran `wd.mjs lookup` on every QID among the new records in the sample (49 QIDs). All of them are the intended subject.
+- **QIDs:** I ran `wd.mjs lookup` on every QID among the new records in the sample (50 QIDs). All of them are the intended subject.
 
-**Stories read in full: 39.** That is 31 of the new stories plus 8 on existing records: Talas, Genghis Khan proclaimed, Otrar, the Khwarazm invasion, Samarkand 1220, the Zunghar war, the Chüy valley plague, and Genghis Khan and Timur as people.
+**Stories read in full: 42.** That is 32 of the new stories (31 events and Abai) plus 10 on existing records: Talas, Genghis Khan proclaimed, Otrar, the Khwarazm invasion, Samarkand 1220, the Zunghar war, the Chüy valley plague, Genghis Khan and Timur as people, and the Mongol Empire polity.
 
 - **Death tolls:** Mongol-era figures are given as the chroniclers' figures. Examples are Juvaini's 110,000-man garrison at Samarkand, Changchun's "a quarter remained" and the Merv note saying the counts of over a million are not credible. Modern tolls give a range in `note`: the Kazakh famine (1.5–2.3 million), the Soviet–Afghan war (0.5–2 million), the Mongolian purges (20,000–30,000+), Andijan and the 2022 unrest.
 - **Checked against:** Hou Hanshu (Hill translation), Juvaini, Rubruck (Jackson & Morgan), Baburnama (Thackston), Perdue, Wei Yuan, Morrison, Barfield, Dalrymple, Goldman/Coox (Khalkhin Gol), Cameron (Kazakh famine), Bosworth, Biran, Golden, van Schaik, Elverskog and Iranica, plus live Wikipedia and Wikidata pages for dates and coordinates.
