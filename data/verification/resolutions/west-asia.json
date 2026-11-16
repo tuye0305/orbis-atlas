@@ -191,5 +191,209 @@
       "https://paperspast.natlib.govt.nz/newspapers/OW19081021.2.225.3",
       "https://archive.spectator.co.uk/article/5th-september-1908/2/the-times-of-thursday-published-an-extremely-inter"
     ]
+  },
+  "ev-trajan-parthian-campaign:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Ctesiphon, the Parthian capital Trajan took in 116 (route carries the other stops); Wikidata 34,36 is a generic Syria point near Homs, outside the theatre of operations.",
+    "checked": [
+      "Cassius Dio, Roman History 68.28",
+      "Encyclopaedia Britannica: Trajan"
+    ]
+  },
+  "ev-julian-persian-expedition:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Ctesiphon, where Julian fought his main battle in 363; Wikidata 33.7,43.5 is an undefined point in the Anbar desert. Route records Antioch, Carrhae and the retreat.",
+    "checked": [
+      "Ammianus Marcellinus, Res Gestae 24.6",
+      "Encyclopaedia Britannica: Julian"
+    ]
+  },
+  "ev-marib-dam-collapse:year": {
+    "verdict": "keep-ours",
+    "reason": "Q2303666 covers the Marib dam site; its inception 1986 is the modern replacement dam. This record is the final breach of the ancient Sabaean dam in the late 6th century (low confidence, note).",
+    "checked": [
+      "Encyclopaedia Britannica: Maʾrib",
+      "Qurʾān 34:15–16 and inscriptions CIH 541 (repairs 548)"
+    ]
+  },
+  "ev-ridda-wars:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at al-Yamama (Aqraba), site of the decisive battle against Musaylima in 632/633; Wikidata 23,46 is a centroid of Arabia.",
+    "checked": [
+      "E. Shoufani, Al-Riddah and the Muslim Conquest of Arabia (1973)",
+      "Encyclopaedia Britannica: Riddah"
+    ]
+  },
+  "ev-babak-revolt:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Babak Fort (Badhdh) near Kaleybar, the rebels’ stronghold taken by Afshin in 837; Wikidata 37.6,47 is a generic Azerbaijan point.",
+    "checked": [
+      "Encyclopaedia Iranica: Bābak Ḵorramī",
+      "Encyclopaedia Britannica: Bābak"
+    ]
+  },
+  "ev-zanj-rebellion:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Basra, centre of the salt-flat labour and sacked by the Zanj in 871; Wikidata 31.32,48.68 is Ahvaz, which the rebels also took but which was peripheral.",
+    "checked": [
+      "A. Popovic, The Revolt of African Slaves in Iraq (1999)",
+      "Encyclopaedia Britannica: Zanj rebellion"
+    ]
+  },
+  "ev-ottoman-capture-of-bursa:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives the start of the blockade (1317); the city surrendered to Orhan on 2 Jumada I 726 AH = 6 April 1326, the date this record marks.",
+    "checked": [
+      "Turkish Ministry of Culture, Bursa: The First Capital City of the Ottoman Empire (https://bursa.ktb.gov.tr/EN-91280/the-first-capital-city-of-the-ottoman-empire.html)",
+      "H. İnalcık, The Ottoman Empire: The Classical Age (1973)"
+    ]
+  },
+  "ev-celali-revolts:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata spans all Celali risings (1519–1659). This record is explicitly the great wave of c. 1595–1610 (Griswold; White), suppressed by Kuyucu Murad Pasha; note explains.",
+    "checked": [
+      "W. J. Griswold, The Great Anatolian Rebellion 1591–1611 (1983)",
+      "S. White, The Climate of Rebellion in the Early Modern Ottoman Empire (2011)"
+    ]
+  },
+  "ev-celali-revolts:endYear": {
+    "verdict": "keep-ours",
+    "reason": "See :year. The great revolts end with Kuyucu Murad Pasha’s campaigns of 1608–1610.",
+    "checked": [
+      "W. J. Griswold, The Great Anatolian Rebellion 1591–1611 (1983)"
+    ]
+  },
+  "ev-ottoman-wahhabi-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Diriyah, besieged and destroyed by Ibrahim Pasha in 1818 (the war’s end); Wikidata 23,46 is an Arabia centroid. Route carries the Hejaz stops.",
+    "checked": [
+      "M. Al-Rasheed, A History of Saudi Arabia (2010)",
+      "UNESCO World Heritage: At-Turaif District in ad-Dirʿiyah (https://whc.unesco.org/en/list/1329/)"
+    ]
+  },
+  "ev-mount-lebanon-1860:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Deir al-Qamar in Mount Lebanon, scene of one of the June 1860 massacres; Wikidata 34.30,36.12 lies in the northern Bekaa, away from the main violence. Note in record.",
+    "checked": [
+      "L. T. Fawaz, An Occasion for War (1994)",
+      "Encyclopaedia Britannica: Lebanon – History"
+    ]
+  },
+  "ev-hamidian-massacres:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Sasun, where the massacres began in 1894; Wikidata 41,29 (Istanbul) marks only the 1896 killings in the capital.",
+    "checked": [
+      "R. G. Suny, They Can Live in the Desert but Nowhere Else (2015)",
+      "Encyclopaedia Britannica: Armenian Genocide – background"
+    ]
+  },
+  "ev-turkish-war-of-independence:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 1922 is a point-in-time value (the Mudanya armistice); its own start is 19 May 1919, Kemal’s landing at Samsun, which this record uses.",
+    "checked": [
+      "E. J. Zürcher, Turkey: A Modern History (2004)",
+      "Encyclopaedia Britannica: Turkish War of Independence"
+    ]
+  },
+  "ev-turkish-war-of-independence:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Ankara, seat of the Grand National Assembly from April 1920; Wikidata 39,35 is a centroid of Turkey. Route carries Samsun, Erzurum, Sivas, Sakarya, Dumlupınar, İzmir, Lausanne.",
+    "checked": [
+      "E. J. Zürcher, Turkey: A Modern History (2004)"
+    ]
+  },
+  "ev-iraqi-revolt-1920:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 33.83,35.83 is in Lebanon, clearly wrong. The revolt broke out at Rumaytha on the middle Euphrates (June 1920), where the record is plotted.",
+    "checked": [
+      "C. Tripp, A History of Iraq (2007)",
+      "Encyclopaedia Britannica: Iraq – British mandate"
+    ]
+  },
+  "ev-1948-arab-israeli-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Latrun, on the fought-over road to Jerusalem (battles of May–July 1948); Wikidata 29.5,34 is in the southern Negev/Sinai. Note in record.",
+    "checked": [
+      "B. Morris, 1948 (2008)",
+      "Encyclopaedia Britannica: Arab-Israeli wars"
+    ]
+  },
+  "ev-six-day-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 28,45 lies in the Saudi desert. Plotted at Jerusalem, whose eastern part Israel took on 7 June 1967; the war had three fronts.",
+    "checked": [
+      "M. B. Oren, Six Days of War (2002)",
+      "Encyclopaedia Britannica: Six-Day War"
+    ]
+  },
+  "ev-uae-formed:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives the UAE’s capital Abu Dhabi; the federation was proclaimed on 2 December 1971 at Union House (Al Ittihad), Dubai, where the record is plotted.",
+    "checked": [
+      "F. Heard-Bey, From Trucial States to United Arab Emirates (2004)",
+      "Etihad Museum, Dubai (site of the signing)"
+    ]
+  },
+  "ev-first-intifada:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Jabalia camp, Gaza, where the uprising began on 8–9 December 1987; Wikidata 32,35.35 is a generic West Bank point.",
+    "checked": [
+      "R. Khalidi, The Hundred Years’ War on Palestine (2020)",
+      "Encyclopaedia Britannica: Intifada"
+    ]
+  },
+  "ev-first-nagorno-karabakh-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Stepanakert (Khankendi), the region’s capital and focus of the conflict; Wikidata 40.3,47.7 is a lowland Azerbaijan point outside the mountain enclave.",
+    "checked": [
+      "T. de Waal, Black Garden (2003)"
+    ]
+  },
+  "ev-yemeni-civil-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Plotted at Sanaa, whose seizure by the Houthis in September 2014 began the war; Wikidata 15.5,48 is a centroid of Yemen.",
+    "checked": [
+      "UN OCHA Yemen (https://www.unocha.org/yemen)",
+      "Encyclopaedia Britannica: Yemen Civil War"
+    ]
+  },
+  "ev-gaza-war-2023:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 34,36 is in Lebanon. The war is centred on the Gaza Strip; plotted at Gaza City.",
+    "checked": [
+      "UN OCHA oPt situation reports (https://www.ochaopt.org/)"
+    ]
+  },
+  "person-al-mutanabbi:born": {
+    "verdict": "keep-ours",
+    "reason": "Britannica gives born 915, Kufa, died 23 Sept 965 near Dayr al-ʿAqul; the 1911 Britannica gives 915/6. Wikidata’s 920 has no better source.",
+    "checked": [
+      "Encyclopaedia Britannica: al-Mutanabbī (https://www.britannica.com/biography/al-Mutanabbi)",
+      "Encyclopaedia Britannica (1911): Motanabbi"
+    ]
+  },
+  "person-hasan-i-sabbah:born": {
+    "verdict": "keep-ours",
+    "reason": "Daftary in Encyclopaedia Iranica: born Qom in the mid-440s AH / 1050s, died Alamut 518/1124. Wikidata’s 1037 rests on no early source. Record medium with note.",
+    "checked": [
+      "Encyclopaedia Iranica: Ḥasan Ṣabbāḥ (F. Daftary, 2003) (https://www.iranicaonline.org/?p=3265)",
+      "F. Daftary, The Ismāʿīlīs (2007)"
+    ]
+  },
+  "person-osman-i:died": {
+    "verdict": "keep-ours",
+    "reason": "Britannica: Osman died in 1324 or 1326; scholars place it in 1324, the year of Orhan’s first dated document, while tradition links it to the fall of Bursa (1326). Record low confidence, note gives both.",
+    "checked": [
+      "Encyclopaedia Britannica: Osman I (https://www.britannica.com/biography/Osman-I)",
+      "C. Kafadar, Between Two Worlds (1995)"
+    ]
+  },
+  "polity-first-saudi-state:from": {
+    "verdict": "keep-ours",
+    "reason": "The Saudi state officially dates its founding to Muhammad ibn Saud’s accession at Diriyah on 22 Feb 1727 (royal decree, Jan 2022, Founding Day); Wikidata’s 1744 is the alliance with Ibn Abd al-Wahhab. Note gives both.",
+    "checked": [
+      "Saudi Ministry of Foreign Affairs: Founding Day (https://mofa.gov.sa/en/ksa/Pages/foundingday.aspx)",
+      "M. Al-Rasheed, A History of Saudi Arabia (2010)"
+    ]
   }
 }
