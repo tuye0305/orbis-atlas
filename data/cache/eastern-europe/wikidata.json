@@ -1,0 +1,10362 @@
+{
+ "Q100188": {
+  "label": {
+   "en": "Cluj-Napoca",
+   "zh": "克卢日-纳波卡"
+  },
+  "description": "capital of the county of Cluj, Romania",
+  "coord": {
+   "lat": 46.7689,
+   "lon": 23.5907
+  },
+  "image": "CJROCluj-Napoca 19.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1213,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q640364",
+   "Q34843301",
+   "Q1549591",
+   "Q515",
+   "Q15284"
+  ],
+  "wiki": {
+   "en": "Cluj-Napoca",
+   "zh": "克卢日-纳波卡"
+  }
+ },
+ "Q1003": {
+  "label": {
+   "en": "Solidarity",
+   "zh": "团结工会"
+  },
+  "description": "Polish trade union federation evolved into broad anti-authoritarian social movement",
+  "coord": null,
+  "image": "Strajk sierpniowy w Stoczni Gdańskiej im. Lenina 34.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1980,
+   "date": null,
+   "precision": 10,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178790",
+   "Q43229"
+  ],
+  "wiki": {
+   "en": "Solidarity (Polish trade union)",
+   "zh": "團結工聯"
+  },
+  "locationQid": null
+ },
+ "Q101534": {
+  "label": {
+   "en": "February Revolution",
+   "zh": "俄國二月革命"
+  },
+  "description": "first of two revolutions in Russia in 1917",
+  "coord": null,
+  "image": "Arrest of generals.jpg",
+  "pointInTime": {
+   "year": 1917,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1917,
+   "date": "1917-03-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1917,
+   "date": "1917-03-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "February Revolution",
+   "zh": "俄國二月革命"
+  },
+  "locationQid": "Q656"
+ },
+ "Q1018769": {
+  "label": {
+   "en": "Byzantine Iconoclasm",
+   "zh": "毁坏圣像运动"
+  },
+  "description": "Two periods in the history of the Byzantine Empire when the use of religious images or icons was opposed by religious and imperial authorities.",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q181543"
+  ],
+  "wiki": {
+   "en": "Byzantine Iconoclasm",
+   "zh": "聖像破壞運動 (東羅馬帝國)"
+  },
+  "locationQid": null
+ },
+ "Q1059215": {
+  "label": {
+   "en": "dissolution of Czechoslovakia",
+   "zh": "天鹅绒分离"
+  },
+  "description": "process that led to the creation of two independent nations, the Czech Republic and Slovakia",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1992,
+   "date": "1992-12-31",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q18603729"
+  ],
+  "wiki": {
+   "en": "Dissolution of Czechoslovakia",
+   "zh": "天鵝絨分離"
+  },
+  "locationQid": null
+ },
+ "Q10693": {
+  "label": {
+   "en": "periodic table",
+   "zh": "元素周期表"
+  },
+  "description": "table systematically placing elements based on atomic number and recurrent properties",
+  "coord": null,
+  "image": "Periodic table (32-col, enwiki), black and white.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1869,
+   "date": "1869-03-06",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q732744"
+  ],
+  "wiki": {
+   "en": "Periodic table",
+   "zh": "元素周期表"
+  },
+  "locationQid": null
+ },
+ "Q10957559": {
+  "label": {
+   "en": "Principality of Moldavia",
+   "zh": "摩尔达维亚公国"
+  },
+  "description": "principality in Southeast Europe between 1346–1859",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1346,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1859,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Moldavia",
+   "zh": "摩尔达维亚公国"
+  },
+  "locationQid": null
+ },
+ "Q110999040": {
+  "label": {
+   "en": "full-scale Russo-Ukrainian war",
+   "zh": "俄罗斯入侵乌克兰"
+  },
+  "description": "full-scale invasion of Ukraine by Russia starting on 24 February 2022, part of Russo-Ukrainian War",
+  "coord": null,
+  "image": "Последствия удара ракеты по Голосеевскому району Киева (6).jpg",
+  "pointInTime": {
+   "year": 2022,
+   "date": "2022-02-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2022,
+   "date": "2022-02-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q645883",
+   "Q2001676",
+   "Q467011",
+   "Q7883019",
+   "Q11422542",
+   "Q474138",
+   "Q154605",
+   "Q123458523"
+  ],
+  "wiki": {
+   "en": "Russo-Ukrainian war (2022–present)",
+   "zh": "俄烏戰爭 (2022年至今)"
+  },
+  "locationQid": "Q27468"
+ },
+ "Q1121044": {
+  "label": {
+   "en": "Union of Krewo",
+   "zh": "克雷沃联合"
+  },
+  "description": "1385 document between Poland and Lithuania",
+  "coord": null,
+  "image": "Union of Krewo500x333.jpg",
+  "pointInTime": {
+   "year": 1385,
+   "date": "1385-08-14",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q131569"
+  ],
+  "wiki": {
+   "en": "Union of Krewo",
+   "zh": "克雷沃联合"
+  },
+  "locationQid": "Q2786026"
+ },
+ "Q1134220": {
+  "label": {
+   "en": "Mongol invasion of Kievan Rus'",
+   "zh": "蒙古征服基辅罗斯"
+  },
+  "description": "1223–1242 Mongol military invasion of Eastern Europe",
+  "coord": null,
+  "image": "Genghis Khan empire (mul).svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1223,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1240,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "Mongol invasion of Kievan Rus'",
+   "zh": "蒙古征服基輔羅斯"
+  },
+  "locationQid": "Q609850"
+ },
+ "Q118755": {
+  "label": {
+   "en": "Michael the Brave",
+   "zh": "勇敢者米哈伊"
+  },
+  "description": "Romanian prince and voivode of Wallachia, Transylvania and Moldavia (1558–1601)",
+  "coord": null,
+  "image": "MihaiViteazul.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1558,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1601,
+   "date": "1601-08-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Michael the Brave",
+   "zh": "勇敢的米哈伊"
+  },
+  "locationQid": null
+ },
+ "Q1192212": {
+  "label": {
+   "en": "Emancipation reform of 1861",
+   "zh": "1861年俄國農奴制度改革"
+  },
+  "description": "reform passed by Tsar Alexander II of Russia which effectively abolished serfdom throughout the Russian Empire",
+  "coord": null,
+  "image": "Reading of the Manifest (Liberation of peasants) - Kustodiev, 1907.jpg",
+  "pointInTime": {
+   "year": 1861,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3331189",
+   "Q1284645",
+   "Q900406"
+  ],
+  "wiki": {
+   "en": "Emancipation reform of 1861",
+   "zh": "1861年俄國農奴制度改革"
+  },
+  "locationQid": null
+ },
+ "Q122610": {
+  "label": {
+   "en": "Ivan Alexander of Bulgaria",
+   "zh": "伊凡·亞歷山大"
+  },
+  "description": "Tsar of Bulgaria (r. 1331 to 1371)",
+  "coord": null,
+  "image": "Ivan Alexander.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1371,
+   "date": "1371-02-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan Alexander of Bulgaria",
+   "zh": "伊凡·亞歷山大"
+  },
+  "locationQid": null
+ },
+ "Q1230874": {
+  "label": {
+   "en": "2004 enlargement of the European Union",
+   "zh": "2004年欧洲联盟扩大"
+  },
+  "description": "enlargement of the European Union",
+  "coord": null,
+  "image": "EU Enlargement 2004.png",
+  "pointInTime": {
+   "year": 2004,
+   "date": "2004-05-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47232"
+  ],
+  "wiki": {
+   "en": "2004 enlargement of the European Union",
+   "zh": "2004年欧洲联盟扩大"
+  },
+  "locationQid": null
+ },
+ "Q126306": {
+  "label": {
+   "en": "Decembrist revolt",
+   "zh": "十二月党人起义"
+  },
+  "description": "1825 revolt and attempted coup in the Russian Empire",
+  "coord": {
+   "lat": 59.9335,
+   "lon": 30.303
+  },
+  "image": "Peterburg, Senate Square, 1825, dec. 14.jpg",
+  "pointInTime": {
+   "year": 1825,
+   "date": "1825-12-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q25906438",
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Decembrist revolt",
+   "zh": "十二月党人起义"
+  }
+ },
+ "Q12762303": {
+  "label": {
+   "en": "Andrej Kiska",
+   "zh": "安德烈·基斯卡"
+  },
+  "description": "4th President of Slovakia",
+  "coord": null,
+  "image": "Andrej Kiska, President of Slovakia (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1963,
+   "date": "1963-02-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrej Kiska",
+   "zh": "安德烈·基斯卡"
+  },
+  "locationQid": null
+ },
+ "Q1281955": {
+  "label": {
+   "en": "Christianization of Bulgaria",
+   "zh": "保加利亚的基督教化"
+  },
+  "description": "Process by which 9th-century medieval Bulgaria converted to Christianity",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 864,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q59532"
+  ],
+  "wiki": {
+   "en": "Christianization of Bulgaria",
+   "zh": "保加利亚的基督化"
+  },
+  "locationQid": null
+ },
+ "Q128742": {
+  "label": {
+   "en": "Edict of Toleration by Galerius",
+   "zh": "寬容詔諭"
+  },
+  "description": "edict ending the Diocletianic persecution of Christianity in the East of the Roman Empire",
+  "coord": null,
+  "image": "Galerius Edict Sofia Plaque 04.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1284645"
+  ],
+  "wiki": {
+   "en": "Edict of Serdica",
+   "zh": "塞爾迪卡敕令"
+  },
+  "locationQid": null
+ },
+ "Q1331407": {
+  "label": {
+   "en": "Preslav Literary School",
+   "zh": "普雷斯拉夫文学学校"
+  },
+  "description": "literary school of the First Bulgarian Empire",
+  "coord": {
+   "lat": 43.1608,
+   "lon": 26.8194
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3914"
+  ],
+  "wiki": {
+   "en": "Preslav Literary School",
+   "zh": null
+  }
+ },
+ "Q134301": {
+  "label": {
+   "en": "Katyn massacre",
+   "zh": "卡廷大屠杀"
+  },
+  "description": "Soviet massacre of Polish military officers and intelligentsia in 1940",
+  "coord": {
+   "lat": 54.7733,
+   "lon": 31.7889
+  },
+  "image": "Trzy krzyze.jpg",
+  "pointInTime": {
+   "year": 1940,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1940,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1940,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915",
+   "Q750215",
+   "Q2235125",
+   "Q135010"
+  ],
+  "wiki": {
+   "en": "Katyn massacre",
+   "zh": "卡廷大屠殺"
+  }
+ },
+ "Q134958": {
+  "label": {
+   "en": "Taras Shevchenko",
+   "zh": "塔拉斯·舍甫琴科"
+  },
+  "description": "Ukrainian poet and artist (1814–1861)",
+  "coord": null,
+  "image": "Т. Г. Шевченко. Квітень 1859.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1814,
+   "date": "1814-02-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1861,
+   "date": "1861-02-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Taras Shevchenko",
+   "zh": "塔拉斯·舍甫琴科"
+  },
+  "locationQid": null
+ },
+ "Q13972": {
+  "label": {
+   "en": "Tartu",
+   "zh": "塔尔图"
+  },
+  "description": "second most populous city in Estonia",
+  "coord": {
+   "lat": 58.38,
+   "lon": 26.7225
+  },
+  "image": "Tartu asv2022-04 img31 View from Emajõe Tower.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11881845",
+   "Q1187811",
+   "Q707813"
+  ],
+  "wiki": {
+   "en": "Tartu",
+   "zh": "塔尔图"
+  }
+ },
+ "Q1400402": {
+  "label": {
+   "en": "Reconquest of Constantinople",
+   "zh": "尼西亚帝国收复君士坦丁堡"
+  },
+  "description": "1261 battle between the Latin and Nicaean Empires",
+  "coord": {
+   "lat": 41.0167,
+   "lon": 28.9769
+  },
+  "image": "Theodosian Walls in Constantinople. Gate of Springs (Silivri) 1.jpg",
+  "pointInTime": {
+   "year": 1261,
+   "date": "1261-07-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Reconquest of Constantinople",
+   "zh": "收复君士坦丁堡"
+  }
+ },
+ "Q1402078": {
+  "label": {
+   "en": "Warsaw Uprising",
+   "zh": "华沙起义"
+  },
+  "description": "major World War II operation by the Polish resistance Home Army",
+  "coord": {
+   "lat": 52.23,
+   "lon": 21.0108
+  },
+  "image": "Polish Soldier's Grave Warsaw 1945.jpg",
+  "pointInTime": {
+   "year": 1944,
+   "date": "1944-10-02",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1944,
+   "date": "1944-08-01",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1944,
+   "date": "1944-10-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1323212"
+  ],
+  "wiki": {
+   "en": "Warsaw Uprising",
+   "zh": "华沙起义"
+  }
+ },
+ "Q1406298": {
+  "label": {
+   "en": "Serbian Empire",
+   "zh": "塞尔维亚帝国"
+  },
+  "description": "1346–1371 empire in the Balkan Peninsula",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1346,
+   "date": "1346-04-16",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1371,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q48349"
+  ],
+  "wiki": {
+   "en": "Serbian Empire",
+   "zh": "塞尔维亚帝国"
+  },
+  "locationQid": null
+ },
+ "Q1421082": {
+  "label": {
+   "en": "Battle of Abritus",
+   "zh": "阿伯里图斯战役"
+  },
+  "description": "battle between Romans and Gothic and Scythian tribesmen (251)",
+  "coord": {
+   "lat": 43.51,
+   "lon": 26.54
+  },
+  "image": "GothicInvasions250-251-en.svg",
+  "pointInTime": {
+   "year": 251,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Abritus",
+   "zh": "阿伯里圖斯戰役"
+  }
+ },
+ "Q145625": {
+  "label": {
+   "en": "Glagolitic",
+   "zh": "格拉哥里字母"
+  },
+  "description": "oldest known Slavic alphabet",
+  "coord": null,
+  "image": "Tabla Za Dicu 03.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 862,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q9779",
+   "Q4004706",
+   "Q8192",
+   "Q29517555"
+  ],
+  "wiki": {
+   "en": "Glagolitic script",
+   "zh": "格拉哥里字母"
+  },
+  "locationQid": "Q193152"
+ },
+ "Q1459658": {
+  "label": {
+   "en": "Viktor Yanukovych",
+   "zh": "维克托·亚努科维奇"
+  },
+  "description": "President of Ukraine from 2010 to 2014",
+  "coord": null,
+  "image": "Viktor Yanukovych official portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1950,
+   "date": "1950-07-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Viktor Yanukovych",
+   "zh": "維克托·亞努科維奇"
+  },
+  "locationQid": null
+ },
+ "Q1459699": {
+  "label": {
+   "en": "Viktor Yushchenko",
+   "zh": "維克多·安德烈耶維奇·尤先科"
+  },
+  "description": "3rd President of Ukraine",
+  "coord": null,
+  "image": "Портрет 3-го президента України Віктора Ющенка.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1954,
+   "date": "1954-02-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Viktor Yushchenko",
+   "zh": "維克托·尤先科"
+  },
+  "locationQid": null
+ },
+ "Q14689": {
+  "label": {
+   "en": "Battle of the Ice",
+   "zh": "楚德湖战役"
+  },
+  "description": "1242 battle during Northern Crusades",
+  "coord": {
+   "lat": 58.2333,
+   "lon": 27.5
+  },
+  "image": "Facial Chronicle - b.06, p.083 - Battle of the Ice.jpg",
+  "pointInTime": {
+   "year": 1242,
+   "date": "1242-04-05",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle on the Ice",
+   "zh": "楚德湖战役"
+  }
+ },
+ "Q14974": {
+  "label": {
+   "en": "Vladimir the Great",
+   "zh": "弗拉基米尔一世·斯维亚托斯拉维奇"
+  },
+  "description": "Grand Prince of Kiev",
+  "coord": null,
+  "image": "Vladimir I of Kiev.PNG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 956,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1015,
+   "date": "1015-07-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vladimir the Great",
+   "zh": "弗拉基米爾一世·斯維亞托斯拉維奇"
+  },
+  "locationQid": null
+ },
+ "Q150320": {
+  "label": {
+   "en": "Ottokar II of Bohemia",
+   "zh": "普热米斯尔·奥托卡二世"
+  },
+  "description": "King of Bohemia (1253-1278)",
+  "coord": null,
+  "image": "PecetpoII.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1233,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1278,
+   "date": "1278-08-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ottokar II of Bohemia",
+   "zh": "普热米斯尔·奥托卡二世"
+  },
+  "locationQid": null
+ },
+ "Q150586": {
+  "label": {
+   "en": "Emperor Rudolf II",
+   "zh": "鲁道夫二世"
+  },
+  "description": "Holy Roman Emperor, King of Hungary and Croatia, King of Bohemia and Archduke of Austria (1552-1612)",
+  "coord": null,
+  "image": "Joseph Heintz d. Ä. 002.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1552,
+   "date": "1552-07-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1612,
+   "date": "1612-01-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rudolf II, Holy Roman Emperor",
+   "zh": "鲁道夫二世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q150611": {
+  "label": {
+   "en": "Ferdinand I, Holy Roman Emperor",
+   "zh": "斐迪南一世"
+  },
+  "description": "Holy Roman Emperor from 1556 to 1564 (1503-1564)",
+  "coord": null,
+  "image": "Hans Bocksberger (I) - Emperor Ferdinand I - WGA02326.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1503,
+   "date": "1503-03-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1564,
+   "date": "1564-07-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ferdinand I, Holy Roman Emperor",
+   "zh": "斐迪南一世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q151536": {
+  "label": {
+   "en": "Novgorod Republic",
+   "zh": "诺夫哥罗德共和国"
+  },
+  "description": "Russian city-state (1136–1478)",
+  "coord": {
+   "lat": 58.5214,
+   "lon": 31.2753
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1136,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1478,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Novgorod Republic",
+   "zh": "诺夫哥罗德共和国"
+  }
+ },
+ "Q151860": {
+  "label": {
+   "en": "Siege of Leningrad",
+   "zh": "列宁格勒围城战"
+  },
+  "description": "8 September 1941 – 27 January 1944 blockade of Leningrad by the Axis",
+  "coord": {
+   "lat": 59.9303,
+   "lon": 30.3192
+  },
+  "image": "Leningrad Siege May 1942 - January 1943.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1941,
+   "date": "1941-09-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1944,
+   "date": "1944-01-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Leningrad",
+   "zh": "列寧格勒圍城戰"
+  }
+ },
+ "Q152006": {
+  "label": {
+   "en": "partitions of Poland",
+   "zh": "瓜分波兰"
+  },
+  "description": "forced partition of the Polish–Lithuanian Commonwealth",
+  "coord": null,
+  "image": "ChelmonskiJozef.1875.KazimierzPulaskiPodCzestochowa.jpg",
+  "pointInTime": {
+   "year": 1772,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q194465"
+  ],
+  "wiki": {
+   "en": "Partitions of Poland",
+   "zh": "瓜分波蘭"
+  },
+  "locationQid": null
+ },
+ "Q15224558": {
+  "label": {
+   "en": "Euromaidan",
+   "zh": "乌克兰亲欧盟示威运动"
+  },
+  "description": "2013–2014 pro-european protests in Ukraine",
+  "coord": {
+   "lat": 50.4502,
+   "lon": 30.5239
+  },
+  "image": "Euromaidan Kyiv 1-12-13 by Gnatoush 005.jpg",
+  "pointInTime": {
+   "year": 2010,
+   "date": null,
+   "precision": 8,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2013,
+   "date": "2013-11-21",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2014,
+   "date": "2014-02-23",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q686984",
+   "Q175331",
+   "Q273120",
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "Euromaidan",
+   "zh": "广场起义"
+  }
+ },
+ "Q152274": {
+  "label": {
+   "en": "Edvard Beneš",
+   "zh": "爱德华·贝奈斯"
+  },
+  "description": "Czechoslovak politician (1884-1948)",
+  "coord": null,
+  "image": "Edvard Beneš.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1884,
+   "date": "1884-05-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1948,
+   "date": "1948-09-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Edvard Beneš",
+   "zh": "愛德華·貝內什"
+  },
+  "locationQid": null
+ },
+ "Q152370": {
+  "label": {
+   "en": "Béla IV of Hungary",
+   "zh": "贝拉四世"
+  },
+  "description": "King of Hungary (1206-1270)",
+  "coord": null,
+  "image": "Béla IV (Chronica Hungarorum).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1206,
+   "date": "1206-11-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1270,
+   "date": "1270-05-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Béla IV of Hungary",
+   "zh": "贝拉四世"
+  },
+  "locationQid": null
+ },
+ "Q153702": {
+  "label": {
+   "en": "Battle of Beroia",
+   "zh": "韦里亚战役"
+  },
+  "description": "1122 battle between Pecheneg and Byzantine armies",
+  "coord": {
+   "lat": 42.4333,
+   "lon": 25.65
+  },
+  "image": "John II Komnenos.jpg",
+  "pointInTime": {
+   "year": 1122,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Beroia",
+   "zh": null
+  }
+ },
+ "Q154100": {
+  "label": {
+   "en": "Pugachev's Rebellion",
+   "zh": "普加乔夫起义"
+  },
+  "description": "peasant revolt against Empress Catherine II of Russia",
+  "coord": null,
+  "image": "Gorelov lynching 2.jpg",
+  "pointInTime": {
+   "year": 1773,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1773,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1775,
+   "date": "1775-01-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13427116"
+  ],
+  "wiki": {
+   "en": "Pugachev's Rebellion",
+   "zh": "普加乔夫起义"
+  },
+  "locationQid": "Q392133"
+ },
+ "Q154240": {
+  "label": {
+   "en": "Yemelyan Pugachev",
+   "zh": "叶米里扬·普加乔夫"
+  },
+  "description": "leader of a Russian peasant uprising (1742–1775)",
+  "coord": null,
+  "image": "Yemelyan Pugachev (2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1742,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1775,
+   "date": "1775-01-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yemelyan Pugachev",
+   "zh": "叶梅利扬·普加乔夫"
+  },
+  "locationQid": null
+ },
+ "Q155167": {
+  "label": {
+   "en": "John of Bohemia",
+   "zh": "约翰"
+  },
+  "description": "king of Bohemia",
+  "coord": null,
+  "image": "John of Luxemburg.PNG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1296,
+   "date": "1296-08-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1346,
+   "date": "1346-08-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John of Bohemia",
+   "zh": "约翰一世 (波希米亚)"
+  },
+  "locationQid": null
+ },
+ "Q155581": {
+  "label": {
+   "en": "Wenceslaus II of Bohemia",
+   "zh": "瓦茨拉夫二世"
+  },
+  "description": "King of Bohemia and Poland",
+  "coord": null,
+  "image": "Vaclav2 trun.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1271,
+   "date": "1271-09-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1305,
+   "date": "1305-06-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wenceslaus II of Bohemia",
+   "zh": "瓦茨拉夫二世"
+  },
+  "locationQid": null
+ },
+ "Q155669": {
+  "label": {
+   "en": "Charles IV",
+   "zh": "查理四世"
+  },
+  "description": "Holy Roman Emperor",
+  "coord": null,
+  "image": "Charles IV-John Ocko votive picture-fragment.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1316,
+   "date": "1316-05-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1378,
+   "date": "1378-11-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles IV, Holy Roman Emperor",
+   "zh": "查理四世 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q156020": {
+  "label": {
+   "en": "State of the Teutonic Order",
+   "zh": "条顿骑士团国"
+  },
+  "description": "crusader state formed by the Teutonic Order during the 13th century Northern Crusades",
+  "coord": {
+   "lat": 54.7167,
+   "lon": 20.5167
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1230,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1525,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q190967",
+   "Q188063"
+  ],
+  "wiki": {
+   "en": "State of the Teutonic Order",
+   "zh": "条顿骑士团国"
+  }
+ },
+ "Q156357": {
+  "label": {
+   "en": "Lev I of Galicia",
+   "zh": "列夫一世"
+  },
+  "description": "prince of Ruthenia (1269–1301)",
+  "coord": null,
+  "image": "Лев Данилович.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1228,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1301,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Leo I of Galicia",
+   "zh": "列夫一世·丹尼洛維奇"
+  },
+  "locationQid": null
+ },
+ "Q157651": {
+  "label": {
+   "en": "Gustáv Husák",
+   "zh": "古斯塔夫·胡萨克"
+  },
+  "description": "Czechoslovak politician, 8th President of Czechoslovakia (1913-1991)",
+  "coord": null,
+  "image": "Gustáv Husák - oříznuto.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1913,
+   "date": "1913-01-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1991,
+   "date": "1991-11-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gustáv Husák",
+   "zh": "古斯塔夫·胡萨克"
+  },
+  "locationQid": null
+ },
+ "Q158504": {
+  "label": {
+   "en": "Clement of Ohrid",
+   "zh": "奥赫里德的克莱门特"
+  },
+  "description": "medieval Bulgarian scholar",
+  "coord": null,
+  "image": "Saint Clement of Ohrid (icon, 13th-14th century).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 840,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 916,
+   "date": "0916-07-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Clement of Ohrid",
+   "zh": "奧赫里德的克萊門特"
+  },
+  "locationQid": null
+ },
+ "Q159": {
+  "label": {
+   "en": "Russia",
+   "zh": "俄罗斯"
+  },
+  "description": "country in Eastern Europe and Northern Asia, the largest in the world by area",
+  "coord": {
+   "lat": 66.4167,
+   "lon": 94.25
+  },
+  "image": "Kremlin Moscow.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1263,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q859563",
+   "Q6256",
+   "Q1323642",
+   "Q127693126"
+  ],
+  "wiki": {
+   "en": "Russia",
+   "zh": "俄罗斯"
+  }
+ },
+ "Q15920546": {
+  "label": {
+   "en": "Russian annexation of Crimea",
+   "zh": "俄罗斯合并克里米亚"
+  },
+  "description": "annexation of Crimea into Russia in 2014",
+  "coord": null,
+  "image": "Flags over Supreme Council of Crimea (3 March 2014).png",
+  "pointInTime": {
+   "year": 2014,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 2014,
+   "date": "2014-02-20",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2014,
+   "date": "2014-03-26",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q194465",
+   "Q156595",
+   "Q645883"
+  ],
+  "wiki": {
+   "en": "2014 Russian annexation of Crimea",
+   "zh": "俄羅斯聯邦併吞克里米亞"
+  },
+  "locationQid": "Q7835"
+ },
+ "Q159512": {
+  "label": {
+   "en": "Battle of Legnica",
+   "zh": "列格尼卡战役"
+  },
+  "description": "1241 battle between Polish and Mongol forces",
+  "coord": {
+   "lat": 51.1453,
+   "lon": 16.2228
+  },
+  "image": "Bitwa pod Legnicą.jpg",
+  "pointInTime": {
+   "year": 1241,
+   "date": "1241-04-09",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Legnica",
+   "zh": "莱格尼察战役"
+  }
+ },
+ "Q159603": {
+  "label": {
+   "en": "Władysław Gomułka",
+   "zh": "瓦迪斯瓦夫·哥穆尔卡"
+  },
+  "description": "Polish politician (1905-1982)",
+  "coord": null,
+  "image": "Władysław Gomułka 1960.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1905,
+   "date": "1905-02-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1982,
+   "date": "1982-09-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Władysław Gomułka",
+   "zh": "瓦迪斯瓦夫·哥穆尔卡"
+  },
+  "locationQid": null
+ },
+ "Q159679": {
+  "label": {
+   "en": "George of Poděbrady",
+   "zh": "波傑布拉德的乔治"
+  },
+  "description": "king of Bohemia",
+  "coord": null,
+  "image": "Martin Kuthen-George of Podebrady.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1420,
+   "date": "1420-04-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1471,
+   "date": "1471-03-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "George of Poděbrady",
+   "zh": "波傑布拉德的伊日"
+  },
+  "locationQid": null
+ },
+ "Q159933": {
+  "label": {
+   "en": "Dimitrie Cantemir",
+   "zh": "德米特里·坎捷米爾"
+  },
+  "description": "Prince of Moldavia",
+  "coord": null,
+  "image": "Dimitrie Cantemir - Portrait from Descriptio Moldaviae, 1716 (crop).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1674,
+   "date": "1674-10-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1723,
+   "date": "1723-08-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dimitrie Cantemir",
+   "zh": "迪米特里耶·坎泰米尔"
+  },
+  "locationQid": null
+ },
+ "Q160161": {
+  "label": {
+   "en": "Warsaw Ghetto Uprising",
+   "zh": "华沙犹太区起义"
+  },
+  "description": "Jewish insurgency against Nazi Germany in German-occupied Poland during World War II",
+  "coord": {
+   "lat": 52.2461,
+   "lon": 20.9958
+  },
+  "image": "Ghetto Uprising Warsaw2.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1943,
+   "date": "1943-04-19",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1943,
+   "date": "1943-05-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1323212"
+  ],
+  "wiki": {
+   "en": "Warsaw Ghetto Uprising",
+   "zh": "華沙猶太區起義"
+  }
+ },
+ "Q160440": {
+  "label": {
+   "en": "Crimean Khanate",
+   "zh": "克里米亚汗国"
+  },
+  "description": "former state at the Crimean Peninsula until April 1783",
+  "coord": {
+   "lat": 44.755,
+   "lon": 33.8525
+  },
+  "image": "Карло Боссоли. Ханский дворец.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1441,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1783,
+   "date": "1783-04-19",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Crimean Khanate",
+   "zh": "克里米亞汗國"
+  }
+ },
+ "Q160614": {
+  "label": {
+   "en": "Skanderbeg",
+   "zh": "斯坎德培"
+  },
+  "description": "Albanian noble and military commander (1405–1468)",
+  "coord": null,
+  "image": "Skanderbeg by Antonio Maria Crespi.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1405,
+   "date": "1405-05-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1468,
+   "date": "1468-01-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Skanderbeg",
+   "zh": "斯坎德培"
+  },
+  "locationQid": null
+ },
+ "Q162401": {
+  "label": {
+   "en": "Prague Spring",
+   "zh": "布拉格之春"
+  },
+  "description": "period of liberalisation in Czechoslovakia from 5 January to 21 August 1968",
+  "coord": null,
+  "image": "10 Soviet Invasion of Czechoslovakia - Flickr - The Central Intelligence Agency.jpg",
+  "pointInTime": {
+   "year": 1968,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q207639"
+  ],
+  "wiki": {
+   "en": "Prague Spring",
+   "zh": "布拉格之春"
+  },
+  "locationQid": "Q33946"
+ },
+ "Q162665": {
+  "label": {
+   "en": "Nika Riots",
+   "zh": "尼卡暴动"
+  },
+  "description": "rebellion in the Byzantine empire",
+  "coord": null,
+  "image": "Turkey-03228 - Hippodrome of Constantinople (11312626353).jpg",
+  "pointInTime": {
+   "year": 532,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734",
+   "Q7579940"
+  ],
+  "wiki": {
+   "en": "Nika riots",
+   "zh": "尼卡暴动"
+  },
+  "locationQid": "Q16869"
+ },
+ "Q163813": {
+  "label": {
+   "en": "Rudolf Schuster",
+   "zh": "鲁道夫·舒斯特"
+  },
+  "description": "Slovak President, head of Slovak National Council and politician",
+  "coord": null,
+  "image": "Pres. Rudolf Schuster.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1934,
+   "date": "1934-01-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rudolf Schuster",
+   "zh": "鲁道夫·舒斯特"
+  },
+  "locationQid": null
+ },
+ "Q164348": {
+  "label": {
+   "en": "Hungarian Revolution of 1956",
+   "zh": "1956年匈牙利革命"
+  },
+  "description": "1956 revolution in Hungary",
+  "coord": null,
+  "image": "Hungarian Revolution of 1956.png",
+  "pointInTime": {
+   "year": 1956,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1956,
+   "date": "1956-10-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1956,
+   "date": "1956-11-10",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Hungarian Revolution of 1956",
+   "zh": "1956年匈牙利革命"
+  },
+  "locationQid": "Q16410"
+ },
+ "Q165058": {
+  "label": {
+   "en": "Holodomor",
+   "zh": "乌克兰大饥荒"
+  },
+  "description": "man-made famine in Soviet Ukraine in 1932–33 that killed as many as seven million Ukrainians",
+  "coord": {
+   "lat": 49,
+   "lon": 32
+  },
+  "image": "HolodomorKharkiv 1933 Wienerberger.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1932,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1933,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q168247",
+   "Q105967822",
+   "Q2235125",
+   "Q41397"
+  ],
+  "wiki": {
+   "en": "Holodomor",
+   "zh": "乌克兰大饥荒"
+  }
+ },
+ "Q165419": {
+  "label": {
+   "en": "Ivan Mazepa",
+   "zh": "伊万·马泽帕"
+  },
+  "description": "Hetman of Ukrainian Cossacks from 1687 to 1708",
+  "coord": null,
+  "image": "Portret Mazepa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1639,
+   "date": "1639-03-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1709,
+   "date": "1709-09-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan Mazepa",
+   "zh": "伊万·马泽帕"
+  },
+  "locationQid": null
+ },
+ "Q165725": {
+  "label": {
+   "en": "Balkan Wars",
+   "zh": "巴尔干战争"
+  },
+  "description": "two consecutive wars in 1912 and 1913",
+  "coord": null,
+  "image": "Balkan Wars Boundaries.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1912,
+   "date": "1912-10-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1913,
+   "date": "1913-07-18",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q104212151"
+  ],
+  "wiki": {
+   "en": "Balkan Wars",
+   "zh": "巴尔干战争"
+  },
+  "locationQid": "Q23522"
+ },
+ "Q170334": {
+  "label": {
+   "en": "Srebrenica massacre",
+   "zh": "斯雷布雷尼察种族灭绝"
+  },
+  "description": "mass killings of Bosniaks in July 1995",
+  "coord": {
+   "lat": 44.1,
+   "lon": 19.3
+  },
+  "image": "Map of Bosnia and Hercegovina showing Srebrenica.png",
+  "pointInTime": {
+   "year": 1995,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1995,
+   "date": "1995-07-11",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1995,
+   "date": "1995-07-22",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q135010",
+   "Q173462",
+   "Q41397",
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Srebrenica massacre",
+   "zh": "斯雷布雷尼察大屠杀"
+  }
+ },
+ "Q171150": {
+  "label": {
+   "en": "Kingdom of Hungary",
+   "zh": "匈牙利王国"
+  },
+  "description": "Central European monarchy (1000–1946)",
+  "coord": {
+   "lat": 47,
+   "lon": 19
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1000,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1946,
+   "date": "1946-02-01",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Hungary",
+   "zh": "匈牙利王国"
+  }
+ },
+ "Q171185": {
+  "label": {
+   "en": "Ivan III of Moscow",
+   "zh": "伊凡三世"
+  },
+  "description": "Grand Prince of Moscow and all Russia from 1462 to 1505",
+  "coord": null,
+  "image": "Ivan III of Russia 3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1440,
+   "date": "1440-01-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1505,
+   "date": "1505-10-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan III of Russia",
+   "zh": "伊凡三世"
+  },
+  "locationQid": null
+ },
+ "Q171348": {
+  "label": {
+   "en": "Crown of the Kingdom of Poland",
+   "zh": "波兰王国王冠领地"
+  },
+  "description": "1385–1795 territorial possessions of the King of Poland",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1386,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1795,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1250464",
+   "Q5473816"
+  ],
+  "wiki": {
+   "en": "Crown of the Kingdom of Poland",
+   "zh": "波兰王国王冠领地"
+  },
+  "locationQid": null
+ },
+ "Q172368": {
+  "label": {
+   "en": "Battle of Sirmium",
+   "zh": null
+  },
+  "description": "1167 battle",
+  "coord": null,
+  "image": "Battle of Sirmium, 8 July 1167 - battle map.jpg",
+  "pointInTime": {
+   "year": 1167,
+   "date": "1167-07-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Sirmium",
+   "zh": null
+  },
+  "locationQid": "Q833060"
+ },
+ "Q17330556": {
+  "label": {
+   "en": "Peter Pellegrini",
+   "zh": "彼得·佩列格里尼"
+  },
+  "description": "President of Slovakia",
+  "coord": null,
+  "image": "Peter Pellegrini, 2024 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1975,
+   "date": "1975-10-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter Pellegrini",
+   "zh": "彼得·佩莱格里尼"
+  },
+  "locationQid": null
+ },
+ "Q174044": {
+  "label": {
+   "en": "Alexander Nevsky",
+   "zh": "亚历山大·涅夫斯基"
+  },
+  "description": "political and military figure of Kievan Rus' (1246–1263)",
+  "coord": null,
+  "image": "AlexanderNevskyTitul.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1220,
+   "date": "1220-05-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1263,
+   "date": "1263-11-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander Nevsky",
+   "zh": "亚历山大·涅夫斯基"
+  },
+  "locationQid": null
+ },
+ "Q1750892": {
+  "label": {
+   "en": "Siege of Constantinople",
+   "zh": "君士坦丁堡之围"
+  },
+  "description": "1204 siege",
+  "coord": {
+   "lat": 41.0375,
+   "lon": 28.945
+  },
+  "image": "PriseDeConstantinople1204PalmaLeJeune.JPG",
+  "pointInTime": {
+   "year": 1204,
+   "date": "1204-04-13",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1204,
+   "date": "1204-04-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1204,
+   "date": "1204-04-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Sack of Constantinople",
+   "zh": "君士坦丁堡之围 (1204年)"
+  }
+ },
+ "Q1756168": {
+  "label": {
+   "en": "Ostrih Bible",
+   "zh": "奥斯特罗格圣经"
+  },
+  "description": "book by Ivan Fyodorov",
+  "coord": null,
+  "image": "Ostrog Bible, title page, 1581.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3331189"
+  ],
+  "wiki": {
+   "en": "Ostrog Bible",
+   "zh": "奧斯特羅格聖經"
+  },
+  "locationQid": null
+ },
+ "Q1770": {
+  "label": {
+   "en": "Tallinn",
+   "zh": "塔林"
+  },
+  "description": "capital and most populous city of Estonia",
+  "coord": {
+   "lat": 59.4372,
+   "lon": 24.745
+  },
+  "image": "Tallinna vanalinn 2015.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q707813",
+   "Q11881845",
+   "Q1549591",
+   "Q2264924",
+   "Q1200957"
+  ],
+  "wiki": {
+   "en": "Tallinn",
+   "zh": "塔林"
+  }
+ },
+ "Q17704749": {
+  "label": {
+   "en": "Karol Nawrocki",
+   "zh": "卡罗尔·纳瓦罗基"
+  },
+  "description": "Polish politician and historian, President of the Republic of Poland since 2025",
+  "coord": null,
+  "image": "Karol Nawrocki i Roberta Metsola (2026) (cropped2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1983,
+   "date": "1983-03-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Karol Nawrocki",
+   "zh": "卡罗尔·纳夫罗茨基"
+  },
+  "locationQid": null
+ },
+ "Q177903": {
+  "label": {
+   "en": "Stephen I of Hungary",
+   "zh": "伊什特万一世"
+  },
+  "description": "11th-century king of Hungary and saint",
+  "coord": null,
+  "image": "StefanIHongarije.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 975,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1038,
+   "date": "1038-08-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stephen I of Hungary",
+   "zh": "伊什特万一世"
+  },
+  "locationQid": null
+ },
+ "Q1780": {
+  "label": {
+   "en": "Bratislava",
+   "zh": "布拉迪斯拉发"
+  },
+  "description": "capital city of Slovakia",
+  "coord": {
+   "lat": 48.1517,
+   "lon": 17.1093
+  },
+  "image": "Hlavné Namestie (35096533142).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 907,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q6784672"
+  ],
+  "wiki": {
+   "en": "Bratislava",
+   "zh": "布拉迪斯拉发"
+  }
+ },
+ "Q178510": {
+  "label": {
+   "en": "Battle of Mohács",
+   "zh": "第一次摩哈赤战役"
+  },
+  "description": "1526 major battle in 16th-century Central Europe",
+  "coord": {
+   "lat": 45.9414,
+   "lon": 18.6472
+  },
+  "image": "Than Mór Mohácsi csata.jpg",
+  "pointInTime": {
+   "year": 1526,
+   "date": "1526-08-29",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Mohács",
+   "zh": "摩哈赤战役"
+  }
+ },
+ "Q178897": {
+  "label": {
+   "en": "Latin Empire",
+   "zh": "拉丁帝国"
+  },
+  "description": "feudal Crusader state founded by the leaders of the Fourth Crusade on lands captured from the Byzantine Empire",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1204,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1261,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Latin Empire",
+   "zh": "拉丁帝国"
+  },
+  "locationQid": null
+ },
+ "Q179284": {
+  "label": {
+   "en": "Anna Komnene",
+   "zh": "安娜·科穆宁娜"
+  },
+  "description": "Byzantine princess and historian",
+  "coord": null,
+  "image": "Anna Komnene (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1083,
+   "date": "1083-12-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1153,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anna Komnene",
+   "zh": "安娜·科穆宁娜"
+  },
+  "locationQid": null
+ },
+ "Q179288": {
+  "label": {
+   "en": "Battle of Kosovo",
+   "zh": "科索沃战役"
+  },
+  "description": "battle on 28th June 1389",
+  "coord": {
+   "lat": 42.63,
+   "lon": 21.12
+  },
+  "image": "Battle of Kosovo, Adam Stefanović, 1870.jpg",
+  "pointInTime": {
+   "year": 1389,
+   "date": "1389-06-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Kosovo",
+   "zh": "科索沃战役 (1389年)"
+  }
+ },
+ "Q1799": {
+  "label": {
+   "en": "Wrocław",
+   "zh": "弗罗茨瓦夫"
+  },
+  "description": "city in the Lower Silesian Voivodeship, southwestern Poland, and historical capital of Silesia",
+  "coord": {
+   "lat": 51.11,
+   "lon": 17.0325
+  },
+  "image": "Rynek Starego Miasta We Wroclawiu (152991773).jpeg",
+  "pointInTime": null,
+  "start": {
+   "year": 1000,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q925381"
+  ],
+  "wiki": {
+   "en": "Wrocław",
+   "zh": "弗罗茨瓦夫"
+  }
+ },
+ "Q182817": {
+  "label": {
+   "en": "Velvet Revolution",
+   "zh": "天鹅绒革命"
+  },
+  "description": "democratization process in Czechoslovakia in 1989",
+  "coord": null,
+  "image": "1989 November Prague Velvet Revolution Wenceslas Square night time protest.jpg",
+  "pointInTime": {
+   "year": 1989,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1989,
+   "date": "1989-11-17",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1989,
+   "date": "1989-12-29",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Velvet Revolution",
+   "zh": "天鵝絨革命"
+  },
+  "locationQid": "Q33946"
+ },
+ "Q184": {
+  "label": {
+   "en": "Belarus",
+   "zh": "白俄罗斯"
+  },
+  "description": "country in Eastern Europe",
+  "coord": {
+   "lat": 53.5283,
+   "lon": 28.0467
+  },
+  "image": "Satellite image of Belarus in December 2002.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1991,
+   "date": "1991-08-25",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q179164",
+   "Q619610",
+   "Q6256",
+   "Q123480"
+  ],
+  "wiki": {
+   "en": "Belarus",
+   "zh": "白俄罗斯"
+  }
+ },
+ "Q184928": {
+  "label": {
+   "en": "Russian Revolution of 1905",
+   "zh": "1905年俄国革命"
+  },
+  "description": "wave of mass political and social unrest that spread through vast areas of the Russian Empire",
+  "coord": null,
+  "image": "The Russian Revolution, 1905 Q81553.jpg",
+  "pointInTime": {
+   "year": 1905,
+   "date": "1905-01-22",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1905,
+   "date": "1905-01-22",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1907,
+   "date": "1907-06-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Russian Revolution of 1905",
+   "zh": "1905年俄国革命"
+  },
+  "locationQid": "Q159"
+ },
+ "Q187650": {
+  "label": {
+   "en": "Great Purge",
+   "zh": "大清洗"
+  },
+  "description": "Soviet campaign of political repression, imprisonment, and execution (August 1936 - March 1938)",
+  "coord": null,
+  "image": "Great Purge Resolution of Central Committee.jpg",
+  "pointInTime": {
+   "year": 1938,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1936,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1938,
+   "date": "1938-11-17",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3249551",
+   "Q1262732"
+  ],
+  "wiki": {
+   "en": "Great Purge",
+   "zh": "大清洗"
+  },
+  "locationQid": "Q15180"
+ },
+ "Q187719": {
+  "label": {
+   "en": "Corpus Juris Civilis",
+   "zh": "民法大全"
+  },
+  "description": "collection of fundamental works in jurisprudence as codified by Justinian",
+  "coord": null,
+  "image": "Corpus juris civilis (1663).jpg",
+  "pointInTime": {
+   "year": 528,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q922203",
+   "Q116889157",
+   "Q13136"
+  ],
+  "wiki": {
+   "en": "Corpus Juris Civilis",
+   "zh": "民法大全"
+  },
+  "locationQid": null
+ },
+ "Q188634": {
+  "label": {
+   "en": "Matthias Corvinus",
+   "zh": "马加什一世"
+  },
+  "description": "King of Hungary and Bohemia, Duke of Austria (1443–1490)",
+  "coord": null,
+  "image": "Andrea Mantegna - King Matthias Corvinus of Hungary.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1443,
+   "date": "1443-02-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1490,
+   "date": "1490-04-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Matthias Corvinus",
+   "zh": "马加什一世"
+  },
+  "locationQid": null
+ },
+ "Q188943": {
+  "label": {
+   "en": "Yaroslav the Wise",
+   "zh": "智者雅罗斯拉夫"
+  },
+  "description": "Grand Prince of Kiev from 1019 to 1054",
+  "coord": null,
+  "image": "Coin of Yaroslav the Wise with his lifetime image.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 978,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1054,
+   "date": "1054-02-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yaroslav the Wise",
+   "zh": "智者雅罗斯拉夫"
+  },
+  "locationQid": null
+ },
+ "Q189450": {
+  "label": {
+   "en": "Asparuh of Bulgaria",
+   "zh": "阿斯巴鲁赫"
+  },
+  "description": "Bulgarian ruler",
+  "coord": null,
+  "image": "Asparukh of Bulgaria.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 640,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 701,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Asparuh of Bulgaria",
+   "zh": "阿斯巴鲁赫"
+  },
+  "locationQid": null
+ },
+ "Q189732": {
+  "label": {
+   "en": "Leonid Kravchuk",
+   "zh": "列昂尼德·克拉夫丘克"
+  },
+  "description": "Ukrainian politician, 1st President of Ukraine",
+  "coord": null,
+  "image": "Leonid Kravchuk (1).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1934,
+   "date": "1934-01-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2022,
+   "date": "2022-05-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Leonid Kravchuk",
+   "zh": "列昂尼德·克拉夫丘克"
+  },
+  "locationQid": null
+ },
+ "Q191479": {
+  "label": {
+   "en": "Tadeusz Kościuszko",
+   "zh": "塔德乌什·柯斯丘什科"
+  },
+  "description": "Polish, Lithuanian and American military leader (1746–1817)",
+  "coord": null,
+  "image": "Tadevuš Kaściuška. Тадэвуш Касьцюшка (J. Grassi, 1792).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1746,
+   "date": "1746-02-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1817,
+   "date": "1817-10-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tadeusz Kościuszko",
+   "zh": "塔德乌什·柯斯丘什科"
+  },
+  "locationQid": null
+ },
+ "Q192050": {
+  "label": {
+   "en": "assassination of Archduke Franz Ferdinand",
+   "zh": "萨拉热窝事件"
+  },
+  "description": "1914 murder in Sarajevo, Austria-Hungary",
+  "coord": {
+   "lat": 43.8579,
+   "lon": 18.4289
+  },
+  "image": "DC-1914-27-d-Sarajevo.jpg",
+  "pointInTime": {
+   "year": 1914,
+   "date": "1914-06-29",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3882219",
+   "Q1139665",
+   "Q891854",
+   "Q5510053",
+   "Q45635",
+   "Q132821"
+  ],
+  "wiki": {
+   "en": "Assassination of Archduke Franz Ferdinand",
+   "zh": "萨拉热窝事件"
+  }
+ },
+ "Q192104": {
+  "label": {
+   "en": "Krum",
+   "zh": "克鲁姆"
+  },
+  "description": "Bulgarian ruler",
+  "coord": null,
+  "image": "AntonoffKrum.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 755,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 814,
+   "date": "0814-04-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Krum",
+   "zh": "克鲁姆"
+  },
+  "locationQid": null
+ },
+ "Q192264": {
+  "label": {
+   "en": "Simeon I of Bulgaria",
+   "zh": "西美昂一世"
+  },
+  "description": "Bulgarian Tsar who ruled from 893 to 927",
+  "coord": null,
+  "image": "Видин, май 2013 - panoramio (79).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 863,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 927,
+   "date": "0927-05-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Simeon I of Bulgaria",
+   "zh": "西美昂一世"
+  },
+  "locationQid": null
+ },
+ "Q192303": {
+  "label": {
+   "en": "treaty of Karlowitz",
+   "zh": "卡洛维茨条约"
+  },
+  "description": "peace treaty",
+  "coord": {
+   "lat": 45.2,
+   "lon": 19.93
+  },
+  "image": "Negotiation of the peace of Karlowitz.jpg",
+  "pointInTime": {
+   "year": 1699,
+   "date": "1699-01-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625298"
+  ],
+  "wiki": {
+   "en": "Treaty of Karlowitz",
+   "zh": "卡洛维茨条约"
+  }
+ },
+ "Q193152": {
+  "label": {
+   "en": "Great Moravia",
+   "zh": "大摩拉维亚公国"
+  },
+  "description": "9th-century Slavic state",
+  "coord": {
+   "lat": 49.6034,
+   "lon": 18.1528
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 833,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 907,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Great Moravia",
+   "zh": "大摩拉维亚公国"
+  }
+ },
+ "Q193198": {
+  "label": {
+   "en": "Olga of Kiev",
+   "zh": "奥丽加"
+  },
+  "description": "princess of Kiev, Orthodox saint (c. 890–925)",
+  "coord": null,
+  "image": "St Olga by Nesterov in 1892.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 890,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 969,
+   "date": "0969-07-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Olga of Kiev",
+   "zh": "基辅的奥莉加"
+  },
+  "locationQid": null
+ },
+ "Q196176": {
+  "label": {
+   "en": "Uprising of Asen and Peter",
+   "zh": "阿森與彼得起義"
+  },
+  "description": "1185 uprising against Byzantine rule in the eastern Balkans",
+  "coord": null,
+  "image": "Second Bulgarian Empire (1185-1196).png",
+  "pointInTime": {
+   "year": 1185,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1185,
+   "date": "1185-10-26",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1187,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Uprising of Asen and Peter",
+   "zh": "阿森與彼得起義"
+  },
+  "locationQid": "Q23522"
+ },
+ "Q196527": {
+  "label": {
+   "en": "Saint Wenceslaus I, Duke of Bohemia",
+   "zh": "圣文策老"
+  },
+  "description": "duke and saint",
+  "coord": null,
+  "image": "Votivni obraz Ocko - Vaclav.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 907,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 935,
+   "date": "0935-09-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wenceslaus I, Duke of Bohemia",
+   "zh": "瓦茨拉夫一世 (公爵)"
+  },
+  "locationQid": null
+ },
+ "Q203808": {
+  "label": {
+   "en": "Bohdan Khmelnytsky",
+   "zh": "波格丹·赫梅利尼茨基"
+  },
+  "description": "Ukrainian military, political and statesman, Hetman of the Zaporizhzhya Army, head of Ukraine (1648–1657) during the Hetmanship",
+  "coord": null,
+  "image": "Bohdan Khmelnytsky.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1595,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1657,
+   "date": "1657-07-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bohdan Khmelnytsky",
+   "zh": "博赫丹·赫梅利尼茨基"
+  },
+  "locationQid": null
+ },
+ "Q203817": {
+  "label": {
+   "en": "First Bulgarian Empire",
+   "zh": "保加利亚第一帝国"
+  },
+  "description": "medieval Bulgar-Slavic and later Bulgarian state that existed in Southeastern Europe between the 7th and 11th centuries AD.",
+  "coord": {
+   "lat": 43.3667,
+   "lon": 27.1167
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 681,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1018,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "First Bulgarian Empire",
+   "zh": "保加利亚第一帝国"
+  }
+ },
+ "Q204843": {
+  "label": {
+   "en": "Theodora",
+   "zh": "狄奥多拉皇后"
+  },
+  "description": "Byzantine empress from 527 to 548",
+  "coord": null,
+  "image": "Meister von San Vitale in Ravenna 008.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 500,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 548,
+   "date": "0548-06-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Theodora (wife of Justinian I)",
+   "zh": "狄奥多拉皇后 (查士丁尼一世)"
+  },
+  "locationQid": null
+ },
+ "Q207272": {
+  "label": {
+   "en": "Second Polish Republic",
+   "zh": "波兰第二共和国"
+  },
+  "description": "country in Central and Eastern Europe (1918–1939)",
+  "coord": {
+   "lat": 52.23,
+   "lon": 21.0111
+  },
+  "image": "Polonia Tryumphans by Stanisław Kaczor-Batowski, 1929.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1918,
+   "date": "1918-11-16",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1939,
+   "date": "1939-09-28",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Second Polish Republic",
+   "zh": "波兰第二共和国"
+  }
+ },
+ "Q207303": {
+  "label": {
+   "en": "Stefan Dušan",
+   "zh": "斯特凡·乌罗什四世"
+  },
+  "description": "emperor of Serbia 1331–1355",
+  "coord": null,
+  "image": "Car Dušan, Manastir Lesnovo, XIV vek.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1308,
+   "date": "1308-07-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1355,
+   "date": "1355-12-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stefan Dušan",
+   "zh": "斯特凡·烏羅什四世"
+  },
+  "locationQid": null
+ },
+ "Q207384": {
+  "label": {
+   "en": "Alexander I of Yugoslavia",
+   "zh": "亚历山大一世"
+  },
+  "description": "Prince regent of Kingdom of Serbia and later King of Yugoslavia 1921–34",
+  "coord": null,
+  "image": "Propriété d' Albert Kahn , Boulogne , France S .A .R Alexandre , Prince Régent du Royaume des Serbes , Croates et Slovènes.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1888,
+   "date": "1888-12-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1934,
+   "date": "1934-10-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander I of Yugoslavia",
+   "zh": "亞歷山大一世 (南斯拉夫)"
+  },
+  "locationQid": null
+ },
+ "Q2080040": {
+  "label": {
+   "en": "Petr Pavel",
+   "zh": "彼得·帕維爾"
+  },
+  "description": "Czech general and statesman, 4th president of the Czech Republic (born 1961)",
+  "coord": null,
+  "image": "Petr Pavel.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1961,
+   "date": "1961-11-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Petr Pavel",
+   "zh": "彼得·帕維爾"
+  },
+  "locationQid": null
+ },
+ "Q210207": {
+  "label": {
+   "en": "Árpád",
+   "zh": "阿尔帕德大公"
+  },
+  "description": "Grand Prince of the Hungarians",
+  "coord": null,
+  "image": "Árpád Ráckeve.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 845,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 907,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Árpád",
+   "zh": "阿尔帕德大公"
+  },
+  "locationQid": null
+ },
+ "Q210354": {
+  "label": {
+   "en": "Battle of Kulikovo",
+   "zh": "库里科沃战役"
+  },
+  "description": "1380 battle between Russian principalities and Golden Horde",
+  "coord": {
+   "lat": 53.6525,
+   "lon": 38.6535
+  },
+  "image": "Kulikovo lubok.jpg",
+  "pointInTime": {
+   "year": 1380,
+   "date": "1380-09-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Kulikovo",
+   "zh": "库里科沃之战"
+  }
+ },
+ "Q211274": {
+  "label": {
+   "en": "Polish People's Republic",
+   "zh": "波兰人民共和国"
+  },
+  "description": "country of the Warsaw Pact and Eastern Bloc from 1947 to 1989",
+  "coord": {
+   "lat": 52.2167,
+   "lon": 21.0333
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1944,
+   "date": "1944-07-22",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1989,
+   "date": "1989-12-31",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Polish People's Republic",
+   "zh": "波兰人民共和国"
+  }
+ },
+ "Q212": {
+  "label": {
+   "en": "Ukraine",
+   "zh": "乌克兰"
+  },
+  "description": "country in Eastern Europe",
+  "coord": {
+   "lat": 49,
+   "lon": 32
+  },
+  "image": "Maidan Nezalezhnosti view.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1991,
+   "date": "1991-08-24",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256",
+   "Q179164",
+   "Q7270",
+   "Q619610",
+   "Q4209223",
+   "Q4835091"
+  ],
+  "wiki": {
+   "en": "Ukraine",
+   "zh": "乌克兰"
+  }
+ },
+ "Q212220": {
+  "label": {
+   "en": "Battle of Nicopolis",
+   "zh": "尼科波利斯战役"
+  },
+  "description": "Ottoman victory and raising of the siege of the fortress of Nicopolis in September 1396",
+  "coord": {
+   "lat": 43.7058,
+   "lon": 24.8958
+  },
+  "image": "Nicopol final battle 1398.jpg",
+  "pointInTime": {
+   "year": 1396,
+   "date": "1396-09-25",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Nicopolis",
+   "zh": "尼科波利斯戰役"
+  }
+ },
+ "Q212439": {
+  "label": {
+   "en": "Cossack Hetmanate",
+   "zh": "哥萨克酋长国"
+  },
+  "description": "1649–1764 Cossack state in Ukraine",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1648,
+   "date": "1648-01-30",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1764,
+   "date": "1764-11-21",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2560551",
+   "Q135437929"
+  ],
+  "wiki": {
+   "en": "Cossack Hetmanate",
+   "zh": "哥萨克酋长国"
+  },
+  "locationQid": null
+ },
+ "Q213": {
+  "label": {
+   "en": "Czech Republic",
+   "zh": "捷克"
+  },
+  "description": "country in Central Europe",
+  "coord": {
+   "lat": 50,
+   "lon": 15
+  },
+  "image": "Czechia Montage.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1993,
+   "date": "1993-01-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6256",
+   "Q3624078",
+   "Q123480",
+   "Q7270",
+   "Q127693126"
+  ],
+  "wiki": {
+   "en": "Czech Republic",
+   "zh": "捷克"
+  }
+ },
+ "Q213061": {
+  "label": {
+   "en": "Charles I of Hungary",
+   "zh": "查理一世"
+  },
+  "description": "King of Hungary",
+  "coord": null,
+  "image": "Charles I (Chronica Hungarorum).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1288,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1342,
+   "date": "1342-07-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles I of Hungary",
+   "zh": "卡罗伊一世"
+  },
+  "locationQid": null
+ },
+ "Q214": {
+  "label": {
+   "en": "Slovakia",
+   "zh": "斯洛伐克"
+  },
+  "description": "country in Central Europe",
+  "coord": {
+   "lat": 48.7,
+   "lon": 19.7
+  },
+  "image": "000 Sllovakia harta.PNG",
+  "pointInTime": null,
+  "start": {
+   "year": 1993,
+   "date": "1993-01-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q7270",
+   "Q123480",
+   "Q6256",
+   "Q127693126"
+  ],
+  "wiki": {
+   "en": "Slovakia",
+   "zh": "斯洛伐克"
+  }
+ },
+ "Q215968": {
+  "label": {
+   "en": "Jan Žižka",
+   "zh": "扬·杰式卡"
+  },
+  "description": "Czech Hussite military leader (circa 1360 - 1424)",
+  "coord": null,
+  "image": "Jan Žižka (Adolf Liebscher, 1904).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1360,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1424,
+   "date": "1424-10-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jan Žižka",
+   "zh": "揚·傑式卡"
+  },
+  "locationQid": null
+ },
+ "Q216": {
+  "label": {
+   "en": "Vilnius",
+   "zh": "维尔纽斯"
+  },
+  "description": "capital and largest city of Lithuania",
+  "coord": {
+   "lat": 54.6872,
+   "lon": 25.28
+  },
+  "image": "Gedimino pilis by Augustas Didzgalvis.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1201,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Vilnius",
+   "zh": "维尔纽斯"
+  }
+ },
+ "Q2162698": {
+  "label": {
+   "en": "Duchy of Bohemia",
+   "zh": "波希米亚公国"
+  },
+  "description": "historical country",
+  "coord": {
+   "lat": 50.0875,
+   "lon": 14.4214
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 870,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1198,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Duchy of Bohemia",
+   "zh": "波希米亚公国"
+  }
+ },
+ "Q218134": {
+  "label": {
+   "en": "Stephen III of Moldavia",
+   "zh": "斯特凡三世"
+  },
+  "description": "Prince of Moldavia from 1457 to 1504",
+  "coord": null,
+  "image": "Stefan cel Mare.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1433,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1504,
+   "date": "1504-07-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stephen the Great",
+   "zh": "斯特凡三世"
+  },
+  "locationQid": null
+ },
+ "Q218186": {
+  "label": {
+   "en": "Vytautas",
+   "zh": "维陶塔斯"
+  },
+  "description": "Grand Duke of Lithuania",
+  "coord": null,
+  "image": "Vytautas dydysis.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1350,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1430,
+   "date": "1430-10-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vytautas the Great",
+   "zh": "维陶塔斯大帝"
+  },
+  "locationQid": null
+ },
+ "Q222373": {
+  "label": {
+   "en": "Lazar Branković",
+   "zh": "拉扎尔·布拉科维奇"
+  },
+  "description": "Despot of Serbia",
+  "coord": null,
+  "image": "Lazar Branković, Esphigmenou charter (1429).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1421,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1458,
+   "date": "1458-02-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lazar Branković",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q223183": {
+  "label": {
+   "en": "Peter II of Yugoslavia",
+   "zh": "彼得二世"
+  },
+  "description": "last King of Yugoslavia from 1934 to 1945 (1923-1970)",
+  "coord": null,
+  "image": "Kralj Petar II.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1923,
+   "date": "1923-09-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1970,
+   "date": "1970-11-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter II of Yugoslavia",
+   "zh": "彼得二世 (南斯拉夫)"
+  },
+  "locationQid": null
+ },
+ "Q2273304": {
+  "label": {
+   "en": "Moravian Serbia",
+   "zh": "塞尔维亚公国"
+  },
+  "description": "Serbian principality between 1371 and 1402",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1365,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1403,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Moravian Serbia",
+   "zh": "摩拉维亚塞尔维亚"
+  },
+  "locationQid": null
+ },
+ "Q2280915": {
+  "label": {
+   "en": "Vsevolod of Pskov",
+   "zh": "弗谢沃洛德·姆斯季斯拉维奇 (维什哥罗德)"
+  },
+  "description": "Russian prince and saint",
+  "coord": null,
+  "image": "Vsevolod of Pskov.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1103,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1138,
+   "date": "1138-02-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vsevolod of Pskov",
+   "zh": "弗谢沃洛德·姆斯季斯拉维奇 (维什哥罗德)"
+  },
+  "locationQid": null
+ },
+ "Q23530": {
+  "label": {
+   "en": "Dmitry Medvedev",
+   "zh": "德米特里·梅德韦杰夫"
+  },
+  "description": "President of Russia from 2008 to 2012, Prime Minister of Russia (2012-2020) and Deputy Chairman of the Security Council of Russia since 2020",
+  "coord": null,
+  "image": "Dmitry Medvedev and Li Keqiang 20191101 (cropped-2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1965,
+   "date": "1965-09-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dmitry Medvedev",
+   "zh": "德米特里·梅德韦杰夫"
+  },
+  "locationQid": null
+ },
+ "Q23564": {
+  "label": {
+   "en": "Podgorica",
+   "zh": "波德戈里察"
+  },
+  "description": "capital city of Montenegro",
+  "coord": {
+   "lat": 42.4414,
+   "lon": 19.2628
+  },
+  "image": "Titograd.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q515",
+   "Q10864048"
+  ],
+  "wiki": {
+   "en": "Podgorica",
+   "zh": "波德戈里察"
+  }
+ },
+ "Q239502": {
+  "label": {
+   "en": "Principality of Galicia–Volhynia",
+   "zh": "加利西亚－沃里尼亚王国"
+  },
+  "description": "principality in Central Europe",
+  "coord": {
+   "lat": 49.9053,
+   "lon": 24.9609
+  },
+  "image": "Equestrian figure from the seal of Yuri I of Galicia.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1199,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1349,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q208500"
+  ],
+  "wiki": {
+   "en": "Kingdom of Galicia–Volhynia",
+   "zh": "加利西亚-沃伦王国"
+  }
+ },
+ "Q2415003": {
+  "label": {
+   "en": "Kingdom of Serbia",
+   "zh": "塞尔维亚王国"
+  },
+  "description": "1217–1346 Medieval kingdom in Eastern Europe",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1217,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1346,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Serbia (1217–1346)",
+   "zh": "塞尔维亚王国 (中世纪)"
+  },
+  "locationQid": null
+ },
+ "Q242436": {
+  "label": {
+   "en": "Mindaugas",
+   "zh": "明道加斯"
+  },
+  "description": "king of Lithuania",
+  "coord": null,
+  "image": "Mindaugas 1831 (117707054).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1203,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1263,
+   "date": "1263-09-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mindaugas",
+   "zh": "明道加斯"
+  },
+  "locationQid": null
+ },
+ "Q242688": {
+  "label": {
+   "en": "John Hunyadi",
+   "zh": "匈雅提·亚诺什"
+  },
+  "description": "Regent-Governor of the Kingdom of Hungary, 1446–1453",
+  "coord": null,
+  "image": "Hunyadi János - Nemzeti Múzeum.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1407,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1456,
+   "date": "1456-08-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "John Hunyadi",
+   "zh": "匈雅提·亚诺什"
+  },
+  "locationQid": null
+ },
+ "Q242711": {
+  "label": {
+   "en": "Kyiv Pechersk Lavra",
+   "zh": "基輔洞窟修道院"
+  },
+  "description": "historic Orthodox Christian monastery in Kyiv",
+  "coord": {
+   "lat": 50.4341,
+   "lon": 30.5583
+  },
+  "image": "Києво-Печерська лавра, вид з мосту Патона.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1051,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11784935"
+  ],
+  "wiki": {
+   "en": "Kyiv Pechersk Lavra",
+   "zh": "基輔洞窟修道院"
+  }
+ },
+ "Q24445": {
+  "label": {
+   "en": "Stefan the First-Crowned",
+   "zh": "斯特凡"
+  },
+  "description": "King of Serbia",
+  "coord": null,
+  "image": "Stefan the First-Crowned, fresco from Mileševa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1165,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1227,
+   "date": "1227-09-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stefan the First-Crowned",
+   "zh": "斯特凡·尼曼伊奇"
+  },
+  "locationQid": null
+ },
+ "Q244852": {
+  "label": {
+   "en": "Gediminas",
+   "zh": "格迪米纳斯"
+  },
+  "description": "Grand Duke of Lithuania (1316-1341)",
+  "coord": null,
+  "image": "Gediminas 1581 (118503418).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1275,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1341,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gediminas",
+   "zh": "格迪米纳斯"
+  },
+  "locationQid": null
+ },
+ "Q244980": {
+  "label": {
+   "en": "Siege of Belgrade",
+   "zh": "贝尔格莱德之围"
+  },
+  "description": "1456 military blockade halting Ottoman advance",
+  "coord": {
+   "lat": 44.8167,
+   "lon": 20.4667
+  },
+  "image": "Battle of Nandorfehervar.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1456,
+   "date": "1456-07-04",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1456,
+   "date": "1456-07-22",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Belgrade (1456)",
+   "zh": "贝尔格莱德围城战 (1456年)"
+  }
+ },
+ "Q254106": {
+  "label": {
+   "en": "Crimean War",
+   "zh": "克里米亚战争"
+  },
+  "description": "military conflict fought between October 1853 – March 1856",
+  "coord": null,
+  "image": "The Crimean War, 1854-1856 Q69851.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1853,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1856,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Crimean War",
+   "zh": "克里米亚战争"
+  },
+  "locationQid": "Q7835"
+ },
+ "Q25628": {
+  "label": {
+   "en": "Great stand on the Ugra river",
+   "zh": "乌格拉河对峙"
+  },
+  "description": "standoff in 1480 between Muscovy and Great Horde",
+  "coord": {
+   "lat": 54.5667,
+   "lon": 36.05
+  },
+  "image": "Facial Chronicle - b.16, p. 462 - Great standing on the Ugra.jpg",
+  "pointInTime": {
+   "year": 1480,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Great Stand on the Ugra River",
+   "zh": "烏格拉河對峙"
+  }
+ },
+ "Q26273268": {
+  "label": {
+   "en": "Zuzana Čaputová",
+   "zh": "苏珊娜·查普托娃"
+  },
+  "description": "Slovak lawyer, environmental activist and politician",
+  "coord": null,
+  "image": "Zuzana Čaputová (20.6.2019) VIII.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1973,
+   "date": "1973-06-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Zuzana Čaputová",
+   "zh": "苏珊娜·恰普托娃"
+  },
+  "locationQid": null
+ },
+ "Q26486": {
+  "label": {
+   "en": "Ladislaus I of Hungary",
+   "zh": "拉斯洛一世"
+  },
+  "description": "King of Hungary from 1077 to 1095",
+  "coord": null,
+  "image": "Képes krónika - 93.oldal - Szent László, a lovagkirály.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1040,
+   "date": "1040-06-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1095,
+   "date": "1095-07-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ladislaus I of Hungary",
+   "zh": "拉斯洛一世"
+  },
+  "locationQid": null
+ },
+ "Q2670327": {
+  "label": {
+   "en": "Siege of Kazan",
+   "zh": "喀山之圍"
+  },
+  "description": "1552 Russian conquest of Kazan",
+  "coord": {
+   "lat": 55.7908,
+   "lon": 49.1144
+  },
+  "image": "Capture of Kazan (Shamshin, 1894).jpeg",
+  "pointInTime": {
+   "year": 1552,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1552,
+   "date": "1552-09-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1552,
+   "date": "1552-10-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Kazan",
+   "zh": null
+  }
+ },
+ "Q269235": {
+  "label": {
+   "en": "Henry of Flanders",
+   "zh": "佛兰德斯的亨利"
+  },
+  "description": "Emperor of Constantinople",
+  "coord": null,
+  "image": "Henri I de Constantinople.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1174,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1216,
+   "date": "1216-06-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Henry of Flanders",
+   "zh": "佛兰德的亨利"
+  },
+  "locationQid": null
+ },
+ "Q269573": {
+  "label": {
+   "en": "Baldwin II of Constantinople",
+   "zh": "鲍德温二世"
+  },
+  "description": "Emperor of Constantinople",
+  "coord": null,
+  "image": "Baudouin II.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1217,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1273,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Baldwin II, Latin Emperor",
+   "zh": "鮑德溫二世 (拉丁帝國)"
+  },
+  "locationQid": null
+ },
+ "Q270740": {
+  "label": {
+   "en": "Samuel of Bulgaria",
+   "zh": "保加利亚的萨穆伊尔"
+  },
+  "description": "Tsar of Bulgaria from 997 to 1014",
+  "coord": null,
+  "image": "Samuil of Bulgaria.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 950,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1014,
+   "date": "1014-10-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Samuel of Bulgaria",
+   "zh": "保加利亚的萨穆伊尔"
+  },
+  "locationQid": null
+ },
+ "Q271104": {
+  "label": {
+   "en": "Andrew II of Hungary",
+   "zh": "安德烈二世"
+  },
+  "description": "King of Hungary (1175-1235)",
+  "coord": null,
+  "image": "Andrew II seal 1224.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1175,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1235,
+   "date": "1235-10-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrew II of Hungary",
+   "zh": "安德拉什二世"
+  },
+  "locationQid": null
+ },
+ "Q2757": {
+  "label": {
+   "en": "Lech Kaczyński",
+   "zh": "莱赫·卡钦斯基"
+  },
+  "description": "Polish politician, democratic oppositionist, ministry of justice, president of Poland (1949–2010)",
+  "coord": null,
+  "image": "Lech Kaczyński.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1949,
+   "date": "1949-06-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2010,
+   "date": "2010-04-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lech Kaczyński",
+   "zh": "萊赫·卡欽斯基"
+  },
+  "locationQid": null
+ },
+ "Q277182": {
+  "label": {
+   "en": "Declaration of Independence of Ukraine",
+   "zh": "乌克兰独立宣言"
+  },
+  "description": "Ukrainian secession from the USSR",
+  "coord": null,
+  "image": "Declaration of Independence of Ukraine, 1991.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916",
+   "Q679847",
+   "Q3771738"
+  ],
+  "wiki": {
+   "en": "Declaration of Independence of Ukraine",
+   "zh": "乌克兰独立宣言"
+  },
+  "locationQid": null
+ },
+ "Q27900": {
+  "label": {
+   "en": "Siege of Constantinople",
+   "zh": "君士坦丁堡之围"
+  },
+  "description": "717-718 combined land and sea offensive by the Arabs of the Umayyad Caliphate against the capital city of the Byzantine Empire, Constantinople",
+  "coord": {
+   "lat": 41.0125,
+   "lon": 28.975
+  },
+  "image": "Constantinople area map.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 717,
+   "date": "0717-07-15",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 718,
+   "date": "0718-08-15",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Constantinople (717–718)",
+   "zh": "君士坦丁堡之围 (717年—718年)"
+  }
+ },
+ "Q279693": {
+  "label": {
+   "en": "Stefan Uroš V of Serbia",
+   "zh": "斯特凡·乌罗什五世"
+  },
+  "description": "Emperor of the Serbs",
+  "coord": null,
+  "image": "UrosV.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1336,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1371,
+   "date": "1371-12-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stefan Uroš V",
+   "zh": "斯特凡·烏羅什五世"
+  },
+  "locationQid": null
+ },
+ "Q281316": {
+  "label": {
+   "en": "Peter Krešimir IV of Croatia",
+   "zh": "佩塔爾·克雷希米爾四世"
+  },
+  "description": "King of Croatia",
+  "coord": null,
+  "image": "Petar Kresimir IV.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1074,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter Krešimir IV",
+   "zh": "佩塔尔·克雷希米尔四世"
+  },
+  "locationQid": null
+ },
+ "Q2866": {
+  "label": {
+   "en": "Alexander Lukashenka",
+   "zh": "亚历山大·卢卡申科"
+  },
+  "description": "President of the Republic of Belarus",
+  "coord": null,
+  "image": "Александр Лукашенко (13-04-2023) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1954,
+   "date": "1954-08-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander Lukashenko",
+   "zh": "亚历山大·卢卡申科"
+  },
+  "locationQid": null
+ },
+ "Q2899771": {
+  "label": {
+   "en": "Principality of Hungary",
+   "zh": "匈牙利公國"
+  },
+  "description": "predecessor of the Kingdom of Hungary",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 895,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1000,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Principality of Hungary",
+   "zh": "匈牙利公國"
+  },
+  "locationQid": null
+ },
+ "Q29032": {
+  "label": {
+   "en": "Miloš Zeman",
+   "zh": "米洛什·泽曼"
+  },
+  "description": "Czech politician, president of the Czech Republic from 2013 to 2023",
+  "coord": null,
+  "image": "Miloš Zeman 2022.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1944,
+   "date": "1944-09-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Miloš Zeman",
+   "zh": "米洛什·泽曼"
+  },
+  "locationQid": null
+ },
+ "Q294439": {
+  "label": {
+   "en": "Kaloyan of Bulgaria",
+   "zh": "卡洛扬"
+  },
+  "description": "Bulgarian tsar",
+  "coord": null,
+  "image": "NHMB-Anthrolopogical-reconstruction-of-the-head-of-Tsar-Kaloyan-by-Prof.Yordan-Yordanov.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1168,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1207,
+   "date": "1207-10-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kaloyan of Bulgaria",
+   "zh": "卡洛扬 (保加利亚)"
+  },
+  "locationQid": null
+ },
+ "Q2947626": {
+  "label": {
+   "en": "Şahin Giray",
+   "zh": "沙希恩·格來"
+  },
+  "description": "Crimean Khan",
+  "coord": null,
+  "image": "Шахин Герай.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1745,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1787,
+   "date": "1787-08-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Şahin Giray",
+   "zh": "沙希恩·格來"
+  },
+  "locationQid": null
+ },
+ "Q294832": {
+  "label": {
+   "en": "Alexandru Ioan Cuza",
+   "zh": "亚历山德鲁·伊万·库扎"
+  },
+  "description": "first ruler of the United Principalities of Moldavia and Wallachia",
+  "coord": null,
+  "image": "Alexandru Ioan Cuza colorizat.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1820,
+   "date": "1820-03-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1873,
+   "date": "1873-05-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexandru Ioan Cuza",
+   "zh": "亚历山德鲁·约安·库扎"
+  },
+  "locationQid": null
+ },
+ "Q296054": {
+  "label": {
+   "en": "Klement Gottwald",
+   "zh": "克莱门特·哥特瓦尔德"
+  },
+  "description": "5th President of Czechoslovakia",
+  "coord": null,
+  "image": "Klement GOTTWALD, předseda československé vlády, oficiální portrét (ČTK, ID FO00075657).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1896,
+   "date": "1896-11-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1953,
+   "date": "1953-03-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Klement Gottwald",
+   "zh": "克莱门特·哥特瓦尔德"
+  },
+  "locationQid": null
+ },
+ "Q298298": {
+  "label": {
+   "en": "Géza",
+   "zh": "盖萨大公"
+  },
+  "description": "Grand Prince of the Hungarians (c.940–997)",
+  "coord": null,
+  "image": "Geza-ChroniconPictum.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 940,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 997,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Géza, Grand Prince of the Hungarians",
+   "zh": "蓋佐大公"
+  },
+  "locationQid": null
+ },
+ "Q298896": {
+  "label": {
+   "en": "Baldwin I of Constantinople",
+   "zh": "鲍德温一世"
+  },
+  "description": "Latin Emperor of Constantinople (1172 - c.1205)",
+  "coord": null,
+  "image": "Baudouin de Constantinople.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1172,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1205,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Baldwin I, Latin Emperor",
+   "zh": "鲍德温一世 (拉丁帝国)"
+  },
+  "locationQid": null
+ },
+ "Q30487": {
+  "label": {
+   "en": "Mikhail Gorbachev",
+   "zh": "米哈伊尔·戈尔巴乔夫"
+  },
+  "description": "leader of the Soviet Union from 1985 to 1991 (1931–2022)",
+  "coord": null,
+  "image": "GorbachevMS.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1931,
+   "date": "1931-03-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2022,
+   "date": "2022-08-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mikhail Gorbachev",
+   "zh": "米哈伊尔·戈尔巴乔夫"
+  },
+  "locationQid": null
+ },
+ "Q310197": {
+  "label": {
+   "en": "Lazar Hrebeljanović",
+   "zh": "拉扎尔·赫雷别利亚诺维奇"
+  },
+  "description": "Medieval Serbian ruler",
+  "coord": null,
+  "image": "Князь Лазарь Сербский.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1329,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1389,
+   "date": "1389-06-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lazar of Serbia",
+   "zh": "拉扎尔·赫雷别利亚诺维奇"
+  },
+  "locationQid": null
+ },
+ "Q310594": {
+  "label": {
+   "en": "Ignacy Mościcki",
+   "zh": "伊格纳齐·莫希奇茨基"
+  },
+  "description": "President of Poland from 1926 to 1939",
+  "coord": null,
+  "image": "Ignacy Mościcki (-1934).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1867,
+   "date": "1867-12-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1946,
+   "date": "1946-10-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ignacy Mościcki",
+   "zh": "伊格纳齐·莫希奇茨基"
+  },
+  "locationQid": null
+ },
+ "Q311057": {
+  "label": {
+   "en": "Boris I of Bulgaria",
+   "zh": "鲍里斯一世"
+  },
+  "description": "Bulgarian ruler",
+  "coord": null,
+  "image": "TzarBorisDidacticGospelConstantinePreslavski.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 827,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 907,
+   "date": "0907-05-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Boris I of Bulgaria",
+   "zh": "鲍里斯一世"
+  },
+  "locationQid": null
+ },
+ "Q311506": {
+  "label": {
+   "en": "Tervel of Bulgaria",
+   "zh": "保加利亚的捷尔维尔"
+  },
+  "description": "Bulgarian ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 721,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tervel of Bulgaria",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q312185": {
+  "label": {
+   "en": "Edward Gierek",
+   "zh": "爱德华·盖莱克"
+  },
+  "description": "Polish politician (1913-2001)",
+  "coord": null,
+  "image": "Edward Gierek 1980.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1913,
+   "date": "1913-01-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2001,
+   "date": "2001-07-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Edward Gierek",
+   "zh": "爱德华·盖莱克"
+  },
+  "locationQid": null
+ },
+ "Q312268": {
+  "label": {
+   "en": "Siege of Constantinople",
+   "zh": "君士坦丁堡之围"
+  },
+  "description": "unsuccessful 626 siege by the Sasanid empire",
+  "coord": {
+   "lat": 41.0122,
+   "lon": 28.976
+  },
+  "image": "42-manasses-chronicle.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 626,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 626,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Constantinople (626)",
+   "zh": "君士坦丁堡之围 (626年)"
+  }
+ },
+ "Q312938": {
+  "label": {
+   "en": "Ottokar I of Bohemia",
+   "zh": "普熱米斯爾·奧托卡一世"
+  },
+  "description": "duke and king of Bohemia",
+  "coord": null,
+  "image": "Premek(2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1167,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1230,
+   "date": "1230-12-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ottokar I of Bohemia",
+   "zh": "普熱米斯爾·奧托卡一世"
+  },
+  "locationQid": null
+ },
+ "Q313427": {
+  "label": {
+   "en": "Ivan Asen II of Bulgaria",
+   "zh": "咿方阿仙"
+  },
+  "description": "Bulgarian ruler",
+  "coord": null,
+  "image": "G danchov ivan asen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1190,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1241,
+   "date": "1241-06-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan Asen II",
+   "zh": "伊凡·阿森二世"
+  },
+  "locationQid": null
+ },
+ "Q314338": {
+  "label": {
+   "en": "Stanislaw Shushkievich",
+   "zh": "斯坦尼斯拉夫·舒什克维奇"
+  },
+  "description": "Belarusian nuclear physicist and politician (1934—2022)",
+  "coord": null,
+  "image": "Šuškievič bchd.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1934,
+   "date": "1934-12-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2022,
+   "date": "2022-05-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stanislav Shushkevich",
+   "zh": "斯坦尼斯拉夫·舒什克维奇"
+  },
+  "locationQid": null
+ },
+ "Q314346": {
+  "label": {
+   "en": "Stefan Uroš III",
+   "zh": "斯特凡·乌罗什三世"
+  },
+  "description": "King of Serbia from 1322 to 1331",
+  "coord": null,
+  "image": "Stefan Decanski ktitor.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1276,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1331,
+   "date": "1331-11-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stefan Dečanski",
+   "zh": "斯特凡·烏羅什三世"
+  },
+  "locationQid": null
+ },
+ "Q31519": {
+  "label": {
+   "en": "Charles University",
+   "zh": "查理大学"
+  },
+  "description": "oldest and largest university in the Czech Republic",
+  "coord": {
+   "lat": 50.0884,
+   "lon": 14.4037
+  },
+  "image": "Praha, Univerzita Karlova - Karolinum.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1348,
+   "date": "1348-04-07",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q875538",
+   "Q108935461",
+   "Q2085381",
+   "Q43229",
+   "Q3918"
+  ],
+  "wiki": {
+   "en": "Charles University",
+   "zh": "查理大学"
+  }
+ },
+ "Q315191": {
+  "label": {
+   "en": "Andrey Bogolyubsky",
+   "zh": "安德烈·博戈柳布斯基"
+  },
+  "description": "Russian Grand Prince",
+  "coord": null,
+  "image": "Андрей I Боголюбский, фреска Архангельского собора.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1111,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1174,
+   "date": "1174-06-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrey Bogolyubsky",
+   "zh": "安德烈·博戈柳布斯基"
+  },
+  "locationQid": null
+ },
+ "Q319597": {
+  "label": {
+   "en": "Stefan Milutin",
+   "zh": "斯特凡·烏羅什二世"
+  },
+  "description": "King of Serbia from 1282 to 1321",
+  "coord": null,
+  "image": "Ljevis31.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1253,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1321,
+   "date": "1321-11-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stefan Milutin",
+   "zh": "斯特凡·烏羅什二世"
+  },
+  "locationQid": null
+ },
+ "Q319638": {
+  "label": {
+   "en": "Tomislav of Croatia",
+   "zh": "托米斯拉夫 (克羅埃西亞)"
+  },
+  "description": "King of Croatia",
+  "coord": null,
+  "image": "Kralj Tomislav, Zagreb.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 928,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tomislav, King of Croatia",
+   "zh": "托米斯拉夫"
+  },
+  "locationQid": null
+ },
+ "Q322043": {
+  "label": {
+   "en": "Mircea the  Elder",
+   "zh": "米尔恰一世"
+  },
+  "description": "Ruler of Wallachia",
+  "coord": null,
+  "image": "MirceatheElder.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1355,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1418,
+   "date": "1418-01-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mircea the Elder",
+   "zh": "米尔恰一世"
+  },
+  "locationQid": null
+ },
+ "Q322287": {
+  "label": {
+   "en": "Diocletian's Palace",
+   "zh": "戴克里先宫"
+  },
+  "description": "ancient palace built for the Roman emperor Diocletian",
+  "coord": {
+   "lat": 43.5081,
+   "lon": 16.4383
+  },
+  "image": "Diocletian's Palace (original appearance).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 293,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q918230",
+   "Q136351774"
+  ],
+  "wiki": {
+   "en": "Diocletian's Palace",
+   "zh": "戴克里先宫"
+  }
+ },
+ "Q324748": {
+  "label": {
+   "en": "Basarab I of Wallachia",
+   "zh": "巴薩拉布一世"
+  },
+  "description": "Ruler of Wallachia",
+  "coord": null,
+  "image": "Basarab I of Wallachia.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1270,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1352,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Basarab I of Wallachia",
+   "zh": "巴薩拉布一世"
+  },
+  "locationQid": null
+ },
+ "Q32832": {
+  "label": {
+   "en": "Battle of Varna",
+   "zh": "瓦尔纳战役"
+  },
+  "description": "1444 battle",
+  "coord": {
+   "lat": 43.2167,
+   "lon": 27.8833
+  },
+  "image": "Battle of Varna 1444.PNG",
+  "pointInTime": {
+   "year": 1444,
+   "date": "1444-11-10",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Varna",
+   "zh": "瓦尔纳战役"
+  }
+ },
+ "Q330895": {
+  "label": {
+   "en": "Ulrich von Jungingen",
+   "zh": "烏爾利希·馮·容金根"
+  },
+  "description": "German noble (1360-1410)",
+  "coord": null,
+  "image": "Ulrich von Jungingen.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1360,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1410,
+   "date": "1410-07-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ulrich von Jungingen",
+   "zh": "乌尔里希·冯·容宁根"
+  },
+  "locationQid": null
+ },
+ "Q334283": {
+  "label": {
+   "en": "Peter I of Bulgaria",
+   "zh": "彼得一世"
+  },
+  "description": "Bulgarian ruler",
+  "coord": null,
+  "image": "Seal of Petar I.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 970,
+   "date": "0970-01-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter I of Bulgaria",
+   "zh": "彼得一世 (保加利亚)"
+  },
+  "locationQid": null
+ },
+ "Q336531": {
+  "label": {
+   "en": "Stefan Lazarević",
+   "zh": "斯特凡·拉扎列维奇"
+  },
+  "description": "prince and despot (1377-1427)",
+  "coord": null,
+  "image": "Stefan Lazarevic.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1374,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1427,
+   "date": "1427-07-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stefan Lazarević",
+   "zh": "斯特凡·拉扎列维奇"
+  },
+  "locationQid": null
+ },
+ "Q336754": {
+  "label": {
+   "en": "Algirdas",
+   "zh": "阿基尔达斯"
+  },
+  "description": "Grand Duke of Lithuania (1345–1377)",
+  "coord": null,
+  "image": "Algirdas kunigaikštis.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1296,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1377,
+   "date": "1377-05-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Algirdas",
+   "zh": "阿尔吉尔达斯"
+  },
+  "locationQid": null
+ },
+ "Q33946": {
+  "label": {
+   "en": "Czechoslovakia",
+   "zh": "捷克斯洛伐克"
+  },
+  "description": "country in Central Europe (1918–1992)",
+  "coord": {
+   "lat": 50.0833,
+   "lon": 14.4167
+  },
+  "image": "Czechoslovakia1920-38.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1918,
+   "date": "1918-10-28",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1992,
+   "date": "1992-12-31",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Czechoslovakia",
+   "zh": "捷克斯洛伐克"
+  }
+ },
+ "Q342130": {
+  "label": {
+   "en": "Đurađ Branković",
+   "zh": "杜拉德·布兰科维奇"
+  },
+  "description": "Despot of the Serbian Kingdom of Rascia (1377-1456) (ruled 1427-1456)",
+  "coord": null,
+  "image": "Đurađ Branković, Esphigmenou charter (1429).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1377,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1457,
+   "date": "1457-01-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Đurađ Branković",
+   "zh": "久拉吉·布兰科维奇"
+  },
+  "locationQid": null
+ },
+ "Q34453": {
+  "label": {
+   "en": "Boris Yeltsin",
+   "zh": "鲍里斯·叶利钦"
+  },
+  "description": "Soviet and Russian politician, 1st President of Russia (1931–2007)",
+  "coord": null,
+  "image": "Борис Николаевич Ельцин-1 (cropped) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1931,
+   "date": "1931-02-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2007,
+   "date": "2007-04-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Boris Yeltsin",
+   "zh": "鲍里斯·叶利钦"
+  },
+  "locationQid": null
+ },
+ "Q347013": {
+  "label": {
+   "en": "Vratislaus II of Bohemia",
+   "zh": "弗拉季斯拉夫二世"
+  },
+  "description": "Duke and king of Bohemia from 1061 to 1092",
+  "coord": null,
+  "image": "Vratislav II.PNG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1031,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1092,
+   "date": "1092-01-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vratislaus II of Bohemia",
+   "zh": "弗拉季斯拉夫二世"
+  },
+  "locationQid": null
+ },
+ "Q347148": {
+  "label": {
+   "en": "Rastislav",
+   "zh": "罗斯季斯拉夫"
+  },
+  "description": "Grand Duke of Moravia",
+  "coord": null,
+  "image": "Prince Rastislav.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 820,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rastislav of Moravia",
+   "zh": "罗斯季斯拉夫 (大摩拉维亚)"
+  },
+  "locationQid": null
+ },
+ "Q347935": {
+  "label": {
+   "en": "Taksony of Hungary",
+   "zh": "匈牙利的塔克斯尼"
+  },
+  "description": "Hungarian grand prince (931-972)",
+  "coord": null,
+  "image": "Taksony (Chronicon Pictum 033).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 931,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 972,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Taksony of Hungary",
+   "zh": "陶克紹尼"
+  },
+  "locationQid": null
+ },
+ "Q348689": {
+  "label": {
+   "en": "Vsevolod III the Big Nest",
+   "zh": "大窝弗谢沃洛德"
+  },
+  "description": "Grand Prince of Vladimir, 1176-1212",
+  "coord": null,
+  "image": "Prince Dmitry (Vsevolod Yurievich).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1154,
+   "date": "1154-10-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1212,
+   "date": "1212-04-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vsevolod the Big Nest",
+   "zh": "大窝弗谢沃洛德"
+  },
+  "locationQid": null
+ },
+ "Q351026": {
+  "label": {
+   "en": "Saint Cyril the Philosopher",
+   "zh": "基里尔"
+  },
+  "description": "Christian missionary to the Slavs (9th c.)",
+  "coord": null,
+  "image": "Icon of Saint Cyril, The Holy Mount of Grabarka.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 827,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 869,
+   "date": "0869-02-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cyril the Philosopher",
+   "zh": "基里尔 (东罗马帝国传教士)"
+  },
+  "locationQid": null
+ },
+ "Q354796": {
+  "label": {
+   "en": "Ivan Shishman of Bulgaria",
+   "zh": "伊凡·希什曼"
+  },
+  "description": "Bulgarian tsar",
+  "coord": null,
+  "image": "53 IoSisiman.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1350,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1395,
+   "date": "1395-06-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan Shishman of Bulgaria",
+   "zh": "伊凡·希什曼"
+  },
+  "locationQid": null
+ },
+ "Q355013": {
+  "label": {
+   "en": "Bretislaus I",
+   "zh": "布热蒂斯拉夫一世"
+  },
+  "description": "Duke of Bohemia from 1034 to 1055",
+  "coord": null,
+  "image": "Břetislav I.-Chrudim2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1000,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1055,
+   "date": "1055-01-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bretislav I",
+   "zh": "布熱季斯拉夫一世"
+  },
+  "locationQid": null
+ },
+ "Q356990": {
+  "label": {
+   "en": "Michal Kováč",
+   "zh": "米哈尔·科瓦奇"
+  },
+  "description": "Slovak economist, politician, president of the Slovakia (1993–1998)",
+  "coord": null,
+  "image": "Michal Kováč.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1930,
+   "date": "1930-08-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2016,
+   "date": "2016-10-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Michal Kováč",
+   "zh": "米哈尔·科瓦奇"
+  },
+  "locationQid": null
+ },
+ "Q359396": {
+  "label": {
+   "en": "Yaroslav II of Vladimir",
+   "zh": "雅罗斯拉夫二世·弗谢沃洛多维奇"
+  },
+  "description": "Grand Prince of Vladimir (1191-1246)",
+  "coord": null,
+  "image": "Yaroslav II Vsevolodovich grand duke of Vladimir.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1191,
+   "date": "1191-02-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1246,
+   "date": "1246-09-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yaroslav II of Vladimir",
+   "zh": "雅罗斯拉夫二世·弗谢沃洛多维奇"
+  },
+  "locationQid": null
+ },
+ "Q36": {
+  "label": {
+   "en": "Poland",
+   "zh": "波兰"
+  },
+  "description": "country in Central Europe",
+  "coord": {
+   "lat": 52,
+   "lon": 19
+  },
+  "image": "Warsaw Old Town Market Square 10.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1918,
+   "date": "1918-11-11",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Poland",
+   "zh": "波兰"
+  }
+ },
+ "Q360112": {
+  "label": {
+   "en": "Boleslaus I, Duke of Bohemia",
+   "zh": "博莱斯拉夫一世"
+  },
+  "description": "Duke of Bohemia from 935 to 972",
+  "coord": null,
+  "image": "Boleslav-I-Bohemian.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 915,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 972,
+   "date": "0972-07-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Boleslaus I of Bohemia",
+   "zh": "博莱斯拉夫一世"
+  },
+  "locationQid": null
+ },
+ "Q360116": {
+  "label": {
+   "en": "Bořivoj I",
+   "zh": "博日沃伊一世"
+  },
+  "description": "Duke of Bohemia (9th century)",
+  "coord": null,
+  "image": "Křest knížete Bořivoje.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 852,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 888,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bořivoj I of Bohemia",
+   "zh": "博日沃伊一世"
+  },
+  "locationQid": null
+ },
+ "Q36036": {
+  "label": {
+   "en": "Lviv",
+   "zh": "利沃夫"
+  },
+  "description": "capital city of Lviv Oblast in western Ukraine",
+  "coord": {
+   "lat": 49.842,
+   "lon": 24.0316
+  },
+  "image": "Lwów - Widok z wieży ratuszowej 01.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 950,
+   "date": null,
+   "precision": 7,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12131624",
+   "Q1549591",
+   "Q7930989"
+  ],
+  "wiki": {
+   "en": "Lviv",
+   "zh": "利沃夫"
+  }
+ },
+ "Q36233": {
+  "label": {
+   "en": "Václav Havel",
+   "zh": "瓦茨拉夫·哈维尔"
+  },
+  "description": "Czech statesman, playwright, and former dissident, the last president of Czechoslovakia and the first president of the Czech Republic (1936–2011)",
+  "coord": null,
+  "image": "Václav Havel cut out.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1936,
+   "date": "1936-10-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2011,
+   "date": "2011-12-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Václav Havel",
+   "zh": "瓦茨拉夫·哈维尔"
+  },
+  "locationQid": null
+ },
+ "Q36704": {
+  "label": {
+   "en": "Yugoslavia",
+   "zh": "南斯拉夫"
+  },
+  "description": "1918–1992 country in Southeastern Europe",
+  "coord": {
+   "lat": 44.82,
+   "lon": 20.4275
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1918,
+   "date": "1918-12-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1992,
+   "date": "1992-04-27",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Yugoslavia",
+   "zh": "南斯拉夫"
+  }
+ },
+ "Q379718": {
+  "label": {
+   "en": "Hacı I Giray",
+   "zh": "哈吉·格来"
+  },
+  "description": "Khan of Crimea",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1397,
+   "date": "1397-11-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1466,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Haji I Giray",
+   "zh": "哈吉一世·格來"
+  },
+  "locationQid": null
+ },
+ "Q379724": {
+  "label": {
+   "en": "Meñli I Giray",
+   "zh": "明里·格来"
+  },
+  "description": "Crimean Khan",
+  "coord": null,
+  "image": "Meñli I Giray.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1445,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1515,
+   "date": "1515-04-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Meñli I Giray",
+   "zh": "明里一世·格來"
+  },
+  "locationQid": null
+ },
+ "Q380071": {
+  "label": {
+   "en": "Vukašin Mrnjavčević",
+   "zh": "武卡欣·姆尔尼亚夫切维奇"
+  },
+  "description": "King of Serbia and Greece",
+  "coord": null,
+  "image": "King Vukašin, Psača.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1320,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1371,
+   "date": "1371-09-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vukašin of Serbia",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q381288": {
+  "label": {
+   "en": "Ivan Vladislav of Bulgaria",
+   "zh": "保加利亚的伊凡·弗拉迪斯拉夫"
+  },
+  "description": "Tsar of Bulgaria from 1015 to 1018",
+  "coord": null,
+  "image": "8 hour Bus Layover in Macedonia (15544655778).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 977,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1018,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan Vladislav of Bulgaria",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q38646": {
+  "label": {
+   "en": "Peter and Paul Fortress",
+   "zh": "彼得保罗要塞"
+  },
+  "description": "original citadel of St. Petersburg, Russia",
+  "coord": {
+   "lat": 59.95,
+   "lon": 30.3167
+  },
+  "image": "00 4645 Sankt Petersburg - Haseninsel.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1703,
+   "date": "1703-05-16",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2772772",
+   "Q88291",
+   "Q2319498",
+   "Q57831"
+  ],
+  "wiki": {
+   "en": "Peter and Paul Fortress",
+   "zh": "彼得保罗要塞"
+  }
+ },
+ "Q3874799": {
+  "label": {
+   "en": "Volodymyr Zelenskyy",
+   "zh": "弗拉基米尔·泽连斯基"
+  },
+  "description": "President of Ukraine since 2019",
+  "coord": null,
+  "image": "New Year's Eve from President of Ukraine Volodymyr Zelensky (31-12-2025) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1978,
+   "date": "1978-01-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Volodymyr Zelenskyy",
+   "zh": "弗拉基米尔·泽连斯基"
+  },
+  "locationQid": null
+ },
+ "Q389004": {
+  "label": {
+   "en": "Principality of Wallachia",
+   "zh": "瓦拉几亚公国"
+  },
+  "description": "principality in Southeast Europe between 1310–1859",
+  "coord": {
+   "lat": 44.4167,
+   "lon": 26.1
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1330,
+   "date": null,
+   "precision": 8,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1859,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2560551",
+   "Q208500",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Principality of Wallachia",
+   "zh": null
+  }
+ },
+ "Q389646": {
+  "label": {
+   "en": "Baltic Way",
+   "zh": "波罗的海之路"
+  },
+  "description": "1989 peaceful demonstration in the form of a human chain",
+  "coord": null,
+  "image": "BaltskýŘetěz.jpg",
+  "pointInTime": {
+   "year": 1989,
+   "date": "1989-08-23",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q273120",
+   "Q1562095"
+  ],
+  "wiki": {
+   "en": "Baltic Way",
+   "zh": "波羅的海之路"
+  },
+  "locationQid": "Q39731"
+ },
+ "Q403416": {
+  "label": {
+   "en": "Battle of Pliska",
+   "zh": "普利斯卡战役"
+  },
+  "description": "battle",
+  "coord": {
+   "lat": 42.9275,
+   "lon": 26.6683
+  },
+  "image": "Battle of Vărbitsa Pass.png",
+  "pointInTime": {
+   "year": 811,
+   "date": "0811-07-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Pliska",
+   "zh": "普利斯卡战役"
+  }
+ },
+ "Q40433": {
+  "label": {
+   "en": "Albert, Duke in Prussia",
+   "zh": "阿尔布雷希特"
+  },
+  "description": "Duke of Prussia from 1525 to 1568",
+  "coord": null,
+  "image": "Albrecht von Hohenzollern.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1490,
+   "date": "1490-05-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1568,
+   "date": "1568-03-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Albert, Duke of Prussia",
+   "zh": "阿尔布雷希特 (普鲁士)"
+  },
+  "locationQid": null
+ },
+ "Q4110452": {
+  "label": {
+   "en": "Sack of Kyiv",
+   "zh": "1169年基辅战役"
+  },
+  "description": "1169 siege and plundering of the capital of Kyivan Rus'",
+  "coord": {
+   "lat": 50.45,
+   "lon": 30.5236
+  },
+  "image": "Siege of Kiev1169.jpg",
+  "pointInTime": {
+   "year": 1169,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1169,
+   "date": "1169-03-08",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1169,
+   "date": "1169-03-12",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Sack of Kiev (1169)",
+   "zh": null
+  }
+ },
+ "Q4173525": {
+  "label": {
+   "en": "Evfimy II of Novgorod",
+   "zh": null
+  },
+  "description": "Archbishop of Novgorod in 1429–58",
+  "coord": null,
+  "image": "Святитель Евфимий, архиепископ Новгородский Рельеф с крышки раки.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1400,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1458,
+   "date": "1458-03-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Euthymius II of Novgorod",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q41833": {
+  "label": {
+   "en": "Basil II",
+   "zh": "巴兹尔二世"
+  },
+  "description": "Byzantine Emperor from the Macedonian dynasty",
+  "coord": null,
+  "image": "Basilios II.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 958,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1025,
+   "date": "1025-12-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Basil II",
+   "zh": "巴西尔二世"
+  },
+  "locationQid": null
+ },
+ "Q41852": {
+  "label": {
+   "en": "Heraclius",
+   "zh": "希拉克略"
+  },
+  "description": "Byzantine emperor from 610 to 641",
+  "coord": null,
+  "image": "Heraclius and Heraclius Constantine solidus.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 575,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 641,
+   "date": "0641-02-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Heraclius",
+   "zh": "希拉克略"
+  },
+  "locationQid": null
+ },
+ "Q420759": {
+  "label": {
+   "en": "Second Bulgarian Empire",
+   "zh": "保加利亚第二帝国"
+  },
+  "description": "Medieval Bulgarian state (1185–1396)",
+  "coord": {
+   "lat": 43.0667,
+   "lon": 25.65
+  },
+  "image": "Bulgaria-Iván Asen2-es.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1185,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1396,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Second Bulgarian Empire",
+   "zh": "保加利亚第二帝国"
+  }
+ },
+ "Q421772": {
+  "label": {
+   "en": "Congress of Gniezno",
+   "zh": "格涅兹诺会议"
+  },
+  "description": "meeting between European rulers in year 1000",
+  "coord": null,
+  "image": "Kolobrzeg 2000 Gniezno 1000.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1000,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2495862"
+  ],
+  "wiki": {
+   "en": "Congress of Gniezno",
+   "zh": "格涅茲諾會晤"
+  },
+  "locationQid": null
+ },
+ "Q4218": {
+  "label": {
+   "en": "Hungarian conquest of the Carpathian Basin",
+   "zh": "匈牙利征服喀尔巴阡盆地"
+  },
+  "description": "series of historical events ending with the settlement of the Hungarian people in Central Europe",
+  "coord": {
+   "lat": 47,
+   "lon": 19
+  },
+  "image": "Honfoglalas.gif",
+  "pointInTime": null,
+  "start": {
+   "year": 900,
+   "date": null,
+   "precision": 7,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1000,
+   "date": null,
+   "precision": 7,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1361229"
+  ],
+  "wiki": {
+   "en": "Hungarian conquest of the Carpathian Basin",
+   "zh": "马扎尔人征服喀尔巴阡盆地"
+  }
+ },
+ "Q42585": {
+  "label": {
+   "en": "Kingdom of Bohemia",
+   "zh": "波希米亞王國"
+  },
+  "description": "monarchy in Central Europe, predecessor of modern Czechia",
+  "coord": {
+   "lat": 50.0875,
+   "lon": 14.4214
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1198,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1918,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kingdom of Bohemia",
+   "zh": "波希米亞王國"
+  }
+ },
+ "Q42939": {
+  "label": {
+   "en": "Bronisław Komorowski",
+   "zh": "布羅尼斯瓦夫·科莫羅夫斯基"
+  },
+  "description": "Polish politician; President of Poland (2010–2015)",
+  "coord": null,
+  "image": "Bronisław Komorowski (2).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1952,
+   "date": "1952-06-04",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bronisław Komorowski",
+   "zh": "布羅尼斯瓦夫·科莫羅夫斯基"
+  },
+  "locationQid": null
+ },
+ "Q4300": {
+  "label": {
+   "en": "Codex Theodosianus",
+   "zh": "狄奥多西法典"
+  },
+  "description": "Compilation of laws of Roman Empire (438)",
+  "coord": null,
+  "image": "Codex Theodosianus.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q922203"
+  ],
+  "wiki": {
+   "en": "Codex Theodosianus",
+   "zh": "狄奥多西法典"
+  },
+  "locationQid": null
+ },
+ "Q43070": {
+  "label": {
+   "en": "Donetsk",
+   "zh": "顿涅茨克"
+  },
+  "description": "city in Ukraine",
+  "coord": {
+   "lat": 48.0158,
+   "lon": 37.8028
+  },
+  "image": "Вид из Донецкой областной администрации 003.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1869,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5123999",
+   "Q12131624",
+   "Q515",
+   "Q7930989"
+  ],
+  "wiki": {
+   "en": "Donetsk",
+   "zh": "頓涅茨克"
+  }
+ },
+ "Q433975": {
+  "label": {
+   "en": "Mojmir I",
+   "zh": "莫伊米尔一世"
+  },
+  "description": "Duke of Great Moravia",
+  "coord": null,
+  "image": "Mojmir kniieza Velkomoravske.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 795,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 846,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mojmir I of Moravia",
+   "zh": "莫伊米尔一世"
+  },
+  "locationQid": null
+ },
+ "Q435994": {
+  "label": {
+   "en": "Alexander I of Moldavia",
+   "zh": null
+  },
+  "description": "voivode of Moldavia",
+  "coord": null,
+  "image": "Stamp of Moldova 440.gif",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1375,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1432,
+   "date": "1432-01-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander the Good",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q437": {
+  "label": {
+   "en": "Ljubljana",
+   "zh": "卢布尔雅那"
+  },
+  "description": "capital city of Slovenia",
+  "coord": {
+   "lat": 46.0514,
+   "lon": 14.5061
+  },
+  "image": "2021-07-28 Ljubljana-0881.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591",
+   "Q51929311",
+   "Q108178728"
+  ],
+  "wiki": {
+   "en": "Ljubljana",
+   "zh": "卢布尔雅那"
+  }
+ },
+ "Q43715": {
+  "label": {
+   "en": "Vlad the Impaler",
+   "zh": "弗拉德三世"
+  },
+  "description": "15th-century ruler of Wallachia",
+  "coord": null,
+  "image": "Vlad Ţepeş, the Impaler, Prince of Wallachia (1456-1462) (died 1477).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1431,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1476,
+   "date": "1476-12-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vlad the Impaler",
+   "zh": "弗拉德三世"
+  },
+  "locationQid": null
+ },
+ "Q4373": {
+  "label": {
+   "en": "Battle of White Mountain",
+   "zh": "白山之戰"
+  },
+  "description": "battle ending Bohemian phase of Thirty Years' War (1620)",
+  "coord": {
+   "lat": 50.0783,
+   "lon": 14.3194
+  },
+  "image": "Schlacht am Weißen Berg C-K 063.jpg",
+  "pointInTime": {
+   "year": 1620,
+   "date": "1620-11-08",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of White Mountain",
+   "zh": "白山之戰"
+  }
+ },
+ "Q437589": {
+  "label": {
+   "en": "Svatopluk I",
+   "zh": "斯瓦托普魯克"
+  },
+  "description": "ruler of Moravia",
+  "coord": null,
+  "image": "Kašna se sochou Svatopluka (Loštice).JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 840,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 894,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Svatopluk I of Moravia",
+   "zh": "摩拉维亚的斯瓦托普卢克一世"
+  },
+  "locationQid": null
+ },
+ "Q4378226": {
+  "label": {
+   "en": "calling of the Varangians",
+   "zh": null
+  },
+  "description": "historical legend about the origins of Rus",
+  "coord": null,
+  "image": "Calling of varangians 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q24336466"
+  ],
+  "wiki": {
+   "en": "Calling of the Varangians",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q439595": {
+  "label": {
+   "en": "Milica Hrebeljanović",
+   "zh": "米莉察"
+  },
+  "description": "poet (1335-1405)",
+  "coord": null,
+  "image": "Milica Ljubostinja1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1335,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1405,
+   "date": "1405-11-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Princess Milica of Serbia",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q43977": {
+  "label": {
+   "en": "Jan Hus",
+   "zh": "扬·胡斯"
+  },
+  "description": "Czech theologian, philosopher and preacher (1369-1415)",
+  "coord": null,
+  "image": "Jan hus 1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1370,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1415,
+   "date": "1415-07-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jan Hus",
+   "zh": "扬·胡斯"
+  },
+  "locationQid": null
+ },
+ "Q444": {
+  "label": {
+   "en": "Lech Wałęsa",
+   "zh": "莱赫·瓦文萨"
+  },
+  "description": "President of Poland from 1990 to 1995 (born 1943)",
+  "coord": null,
+  "image": "Lech Walesa - 2009.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1943,
+   "date": "1943-09-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lech Wałęsa",
+   "zh": "莱赫·瓦文萨"
+  },
+  "locationQid": null
+ },
+ "Q459": {
+  "label": {
+   "en": "Plovdiv",
+   "zh": "普罗夫迪夫"
+  },
+  "description": "city in Plovdiv municipality, Plovdiv oblast, Bulgaria",
+  "coord": {
+   "lat": 42.1421,
+   "lon": 24.7415
+  },
+  "image": "Plovdiv view.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q129676344",
+   "Q15303838",
+   "Q15344922",
+   "Q89487741"
+  ],
+  "wiki": {
+   "en": "Plovdiv",
+   "zh": "普罗夫迪夫"
+  }
+ },
+ "Q461926": {
+  "label": {
+   "en": "Constantin Brâncoveanu",
+   "zh": null
+  },
+  "description": "Prince of Wallachia",
+  "coord": null,
+  "image": "The Votive Portrait of Prince Constantin Brâncoveanu with Cyrillic inscription at Horezu Monastery (1709).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1654,
+   "date": "1654-08-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1714,
+   "date": "1714-08-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Constantin Brâncoveanu",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q462964": {
+  "label": {
+   "en": "November Uprising",
+   "zh": "十一月叛亂"
+  },
+  "description": "Polish uprising against occupying Russian Empire from November 1830 to September 1831",
+  "coord": null,
+  "image": "Marcin Zaleski, Wzięcie Arsenału.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1830,
+   "date": "1830-11-29",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1831,
+   "date": "1831-10-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "November Uprising",
+   "zh": "十一月起义"
+  },
+  "locationQid": "Q221457"
+ },
+ "Q470621": {
+  "label": {
+   "en": "Methodius of Thessaloniki",
+   "zh": "美多德"
+  },
+  "description": "Christian missionary to the Slavs",
+  "coord": null,
+  "image": "Icon of Saint Methodius, The Holy Mount of Grabarka.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 815,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 885,
+   "date": "0885-04-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Methodius of Thessaloniki",
+   "zh": "美多德"
+  },
+  "locationQid": null
+ },
+ "Q470647": {
+  "label": {
+   "en": "Demetrius Zvonimir of Croatia",
+   "zh": "狄米塔·茲沃尼米爾 (克羅埃西亞)"
+  },
+  "description": "King of Croatia from 8 October 1076 until his death",
+  "coord": null,
+  "image": "Demetrius Sunimirio crop.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1089,
+   "date": "1089-04-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Demetrius Zvonimir",
+   "zh": "德米特里乌斯·兹沃尼米尔"
+  },
+  "locationQid": null
+ },
+ "Q472": {
+  "label": {
+   "en": "Sofia",
+   "zh": "索非亚"
+  },
+  "description": "capital city of Bulgaria",
+  "coord": {
+   "lat": 42.6979,
+   "lon": 23.3217
+  },
+  "image": "Panoramic view over central Sofia and the Vitosha Mountain 2017-10-08.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q200250",
+   "Q15303838",
+   "Q15344922",
+   "Q89487741",
+   "Q1901835",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Sofia",
+   "zh": "索菲亞"
+  }
+ },
+ "Q473670": {
+  "label": {
+   "en": "January Uprising",
+   "zh": "一月起義"
+  },
+  "description": "Polish national uprising against the Russian occupation of the former Polish-Lithuanian Commonwealth",
+  "coord": null,
+  "image": "Bitwa - Grottger (5579025).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1863,
+   "date": "1863-01-22",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1864,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "January Uprising",
+   "zh": "一月起義"
+  },
+  "locationQid": "Q221457"
+ },
+ "Q47504": {
+  "label": {
+   "en": "The Tale of Igor's Campaign",
+   "zh": "伊戈尔远征记"
+  },
+  "description": "Old East Slavic heroic poem",
+  "coord": null,
+  "image": "Slowo o polku Igorewe 1800.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1187,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q37484",
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "The Tale of Igor's Campaign",
+   "zh": "伊戈尔远征记"
+  },
+  "locationQid": null
+ },
+ "Q477973": {
+  "label": {
+   "en": "Gothic War of 535–554",
+   "zh": "哥特战争"
+  },
+  "description": "535–554 war between the Byzantine Empire and the Ostrogothic Kingdom of Italy",
+  "coord": null,
+  "image": "Gothic Battle of Mons Lactarius on Vesuvius.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 535,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 554,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Gothic War (535–554)",
+   "zh": "哥特战争 (535年—554年)"
+  },
+  "locationQid": "Q4951156"
+ },
+ "Q478301": {
+  "label": {
+   "en": "Hussite Wars",
+   "zh": "胡斯战争"
+  },
+  "description": "15th-century wars fought between proto-Protestant Hussites and Catholic forces",
+  "coord": null,
+  "image": "Hussitenkriege.tif",
+  "pointInTime": null,
+  "start": {
+   "year": 1419,
+   "date": "1419-07-30",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1434,
+   "date": "1434-05-30",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1827102"
+  ],
+  "wiki": {
+   "en": "Hussite Wars",
+   "zh": "胡斯战争"
+  },
+  "locationQid": "Q27509"
+ },
+ "Q48256": {
+  "label": {
+   "en": "Dnipro",
+   "zh": "第聂伯罗"
+  },
+  "description": "city and administrative center of Dnipropetrovsk Oblast, Ukraine",
+  "coord": {
+   "lat": 48.4675,
+   "lon": 35.04
+  },
+  "image": "Collage of Dnipro city images.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1526,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q12134916"
+  ],
+  "wiki": {
+   "en": "Dnipro",
+   "zh": "第聂伯罗"
+  }
+ },
+ "Q49683": {
+  "label": {
+   "en": "Grand Duchy of Lithuania",
+   "zh": "立陶宛大公国"
+  },
+  "description": "Eastern European monarchical state that existed from 1236 to 1795",
+  "coord": {
+   "lat": 54.6833,
+   "lon": 25.2833
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1236,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1795,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Grand Duchy of Lithuania",
+   "zh": "立陶宛大公国"
+  }
+ },
+ "Q497773": {
+  "label": {
+   "en": "Roman the Great",
+   "zh": "罗曼·姆斯季斯拉维奇"
+  },
+  "description": "Ruthenian prince",
+  "coord": null,
+  "image": "Роман II Великий.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1150,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1205,
+   "date": "1205-06-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Roman the Great",
+   "zh": "羅曼·姆斯季斯拉維奇"
+  },
+  "locationQid": null
+ },
+ "Q498766": {
+  "label": {
+   "en": "Wulfila Bible",
+   "zh": "哥特圣经"
+  },
+  "description": "bible translation",
+  "coord": null,
+  "image": "Wulfila bibel.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Gothic Bible",
+   "zh": "哥特圣经"
+  },
+  "locationQid": null
+ },
+ "Q51056": {
+  "label": {
+   "en": "Franz Joseph I of Austria",
+   "zh": "弗朗茨·约瑟夫一世"
+  },
+  "description": "Emperor of Austria and King of Hungary (1830–1916)",
+  "coord": null,
+  "image": "Franz Joseph I of Austria.1910 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1830,
+   "date": "1830-08-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1916,
+   "date": "1916-11-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Franz Joseph I",
+   "zh": "弗朗茨·约瑟夫一世"
+  },
+  "locationQid": null
+ },
+ "Q53435": {
+  "label": {
+   "en": "Mieszko I",
+   "zh": "梅什科一世"
+  },
+  "description": "Duke of Poland",
+  "coord": null,
+  "image": "Mieszko I (274939) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 992,
+   "date": "0992-05-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mieszko I",
+   "zh": "梅什科一世"
+  },
+  "locationQid": null
+ },
+ "Q53436": {
+  "label": {
+   "en": "Bolesław I the Brave",
+   "zh": "波列斯瓦夫一世"
+  },
+  "description": "first King of Poland (967–1025)",
+  "coord": null,
+  "image": "Bacciarelli - Chrobry.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 967,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1025,
+   "date": "1025-06-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bolesław I the Brave",
+   "zh": "波列斯瓦夫一世"
+  },
+  "locationQid": null
+ },
+ "Q53441": {
+  "label": {
+   "en": "Bolesław III Wrymouth",
+   "zh": "波列斯瓦夫三世"
+  },
+  "description": "duke of Poland between 1107 and 1138",
+  "coord": null,
+  "image": "Boleslaw III Wrymouth.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1086,
+   "date": "1086-08-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1138,
+   "date": "1138-10-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bolesław III Wrymouth",
+   "zh": "波列斯瓦夫三世"
+  },
+  "locationQid": null
+ },
+ "Q53449": {
+  "label": {
+   "en": "Jadwiga I of Poland",
+   "zh": "雅德维加"
+  },
+  "description": "Queen of Poland (1384–1399)",
+  "coord": null,
+  "image": "Jadwiga by Bacciarelli.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1370,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1399,
+   "date": "1399-07-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jadwiga of Poland",
+   "zh": "雅德维加 (波兰女王)"
+  },
+  "locationQid": null
+ },
+ "Q53455": {
+  "label": {
+   "en": "Casimir I the Restorer",
+   "zh": "卡齊米日一世"
+  },
+  "description": "Polish king (1016-1058)",
+  "coord": null,
+  "image": "Kazimierz I Odnowiciel (274971).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1016,
+   "date": "1016-07-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1058,
+   "date": "1058-03-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Casimir I the Restorer",
+   "zh": "卡齊米日一世"
+  },
+  "locationQid": null
+ },
+ "Q53457": {
+  "label": {
+   "en": "Casimir III the Great",
+   "zh": "卡齐米日三世"
+  },
+  "description": "King of Poland from 1333 to 1370",
+  "coord": null,
+  "image": "Kazimierz III Wielki (275138).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1310,
+   "date": "1310-04-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1370,
+   "date": "1370-11-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Casimir III the Great",
+   "zh": "卡齐米日三世"
+  },
+  "locationQid": null
+ },
+ "Q53459": {
+  "label": {
+   "en": "Casimir IV Jagiellon",
+   "zh": "卡齐米日四世"
+  },
+  "description": "King of Poland and Grand Duke of Lithuania",
+  "coord": null,
+  "image": "Kazimier Jagajłavič. Казімер Ягайлавіч (1645).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1427,
+   "date": "1427-11-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1492,
+   "date": "1492-06-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Casimir IV Jagiellon",
+   "zh": "卡齐米日四世·雅盖隆契克"
+  },
+  "locationQid": null
+ },
+ "Q53998": {
+  "label": {
+   "en": "Louis I of Hungary",
+   "zh": "拉约什一世"
+  },
+  "description": "King of Hungary, Poland and Croatia",
+  "coord": null,
+  "image": "Louis I (Chronica Hungarorum).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1326,
+   "date": "1326-03-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1382,
+   "date": "1382-09-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Louis I of Hungary",
+   "zh": "拉約什一世"
+  },
+  "locationQid": null
+ },
+ "Q54048": {
+  "label": {
+   "en": "Władysław I the Elbow-high",
+   "zh": "瓦迪斯瓦夫一世"
+  },
+  "description": "King of Poland (1260-1333)",
+  "coord": null,
+  "image": "Wladyslaw I Lokietek (76841156) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1260,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1333,
+   "date": "1333-03-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Władysław I Łokietek",
+   "zh": "瓦迪斯瓦夫一世"
+  },
+  "locationQid": null
+ },
+ "Q54049": {
+  "label": {
+   "en": "Władysław II Jagiełło",
+   "zh": "雅盖沃"
+  },
+  "description": "King of Poland and Grand Duke of Lithuania (1362-1434)",
+  "coord": null,
+  "image": "Jogaila of Lithuania.Image from around 1475-1480.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1362,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1434,
+   "date": "1434-06-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Władysław II Jagiełło",
+   "zh": "雅盖沃"
+  },
+  "locationQid": null
+ },
+ "Q54053": {
+  "label": {
+   "en": "Władysław III of Poland",
+   "zh": "瓦迪斯瓦夫三世"
+  },
+  "description": "king of Poland and Hungary",
+  "coord": null,
+  "image": "Ladislaus varna.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1424,
+   "date": "1424-10-31",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1444,
+   "date": "1444-11-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Władysław III of Poland",
+   "zh": "瓦迪斯瓦夫三世·雅盖隆契克"
+  },
+  "locationQid": null
+ },
+ "Q54056": {
+  "label": {
+   "en": "Sigismund I the Old",
+   "zh": "齐格蒙特一世"
+  },
+  "description": "King of Poland and Grand Duke of Lithuania",
+  "coord": null,
+  "image": "Kulmbach Sigismund I the Old.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1467,
+   "date": "1467-01-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1548,
+   "date": "1548-04-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sigismund I the Old",
+   "zh": "齐格蒙特一世"
+  },
+  "locationQid": null
+ },
+ "Q54058": {
+  "label": {
+   "en": "Sigismund II Augustus",
+   "zh": "齐格蒙特二世"
+  },
+  "description": "King of Poland and Grand Duke of Lithuania",
+  "coord": null,
+  "image": "Cranach the Younger Sigismund II Augustus.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1520,
+   "date": "1520-08-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1572,
+   "date": "1572-07-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sigismund II Augustus",
+   "zh": "齐格蒙特·奥古斯特"
+  },
+  "locationQid": null
+ },
+ "Q547839": {
+  "label": {
+   "en": "Yaroslav of Tver",
+   "zh": "雅罗斯拉夫三世·雅罗斯拉维奇"
+  },
+  "description": "Grand Prince of Vladimir (1230-1272)",
+  "coord": null,
+  "image": "Князь Ярослав Ярославич Тверской.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1230,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1272,
+   "date": "1272-09-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yaroslav of Tver",
+   "zh": "雅罗斯拉夫三世·雅罗斯拉维奇"
+  },
+  "locationQid": null
+ },
+ "Q547869": {
+  "label": {
+   "en": "Yuri II of Vladimir",
+   "zh": "尤里二世·弗謝沃洛多維奇"
+  },
+  "description": "Grand Prince of Vladimir (1188-1238)",
+  "coord": null,
+  "image": "Archangel Cathedral - SW column, 1st lev., south - Georgy Vsevolodovich.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1188,
+   "date": "1188-11-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1238,
+   "date": "1238-03-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yuri II of Vladimir",
+   "zh": "尤里二世·弗謝沃洛多維奇"
+  },
+  "locationQid": null
+ },
+ "Q551716": {
+  "label": {
+   "en": "Mojmir II",
+   "zh": "莫伊米爾二世"
+  },
+  "description": "Duke of Great Moravia",
+  "coord": null,
+  "image": "Mojhmir2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 871,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 906,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mojmir II of Moravia",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q55758": {
+  "label": {
+   "en": "Aleksander Kwaśniewski",
+   "zh": "亚历山大·克瓦希涅夫斯基"
+  },
+  "description": "President of Poland from 1995 to 2005",
+  "coord": null,
+  "image": "Aleksander Kwaśniewski (grudzień, 2025) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1954,
+   "date": "1954-11-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Aleksander Kwaśniewski",
+   "zh": "亞歷山大·克瓦希涅夫斯基"
+  },
+  "locationQid": null
+ },
+ "Q55832": {
+  "label": {
+   "en": "Bolesław Bierut",
+   "zh": "博莱斯瓦夫·贝鲁特"
+  },
+  "description": "Polish politician and leader of Poland (1947–1956)",
+  "coord": null,
+  "image": "PL Bolesław Bierut (1892-1956).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1892,
+   "date": "1892-04-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1956,
+   "date": "1956-03-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bolesław Bierut",
+   "zh": "博莱斯瓦夫·贝鲁特"
+  },
+  "locationQid": null
+ },
+ "Q55834": {
+  "label": {
+   "en": "Wojciech Jaruzelski",
+   "zh": "沃伊切赫·維爾托德·雅魯澤爾斯基"
+  },
+  "description": "Polish military and political official, leader of the Polish People's Republic from 1981 to 1989",
+  "coord": null,
+  "image": "Gen. Wojciech Jaruzelski 13 grudnia 1981.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1923,
+   "date": "1923-07-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2014,
+   "date": "2014-05-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wojciech Jaruzelski",
+   "zh": "沃伊切赫·雅鲁泽尔斯基"
+  },
+  "locationQid": null
+ },
+ "Q55836": {
+  "label": {
+   "en": "Gabriel Narutowicz",
+   "zh": "加布里埃尔·纳卢托维奇"
+  },
+  "description": "Polish politician (1865-1922)",
+  "coord": null,
+  "image": "Gabriel narutowicz.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1865,
+   "date": "1865-03-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1922,
+   "date": "1922-12-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gabriel Narutowicz",
+   "zh": "加布列尔·纳鲁托维奇"
+  },
+  "locationQid": null
+ },
+ "Q561414": {
+  "label": {
+   "en": "Ivan Vyhovskyi",
+   "zh": "伊凡·维霍夫斯基"
+  },
+  "description": "Hetman of Ukrainian Cossacks",
+  "coord": null,
+  "image": "Ivan Vyhovsky (Portrait, 19th century, after restoration).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1608,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1664,
+   "date": "1664-03-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan Vyhovsky",
+   "zh": "伊凡·维霍夫斯基"
+  },
+  "locationQid": null
+ },
+ "Q57124": {
+  "label": {
+   "en": "Sigismund",
+   "zh": "西吉斯蒙德"
+  },
+  "description": "Monarch from the House of Luxemburg (1368-1437)",
+  "coord": null,
+  "image": "Pisanello 024b.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1368,
+   "date": "1368-02-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1437,
+   "date": "1437-12-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sigismund, Holy Roman Emperor",
+   "zh": "西吉斯蒙德 (神圣罗马帝国)"
+  },
+  "locationQid": null
+ },
+ "Q57295": {
+  "label": {
+   "en": "Ivan Gašparovič",
+   "zh": "伊万·加什帕罗维奇"
+  },
+  "description": "Slovak politician and lawyer",
+  "coord": null,
+  "image": "Ivan Gašparovič.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1941,
+   "date": "1941-03-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan Gašparovič",
+   "zh": "伊万·加什帕罗维奇"
+  },
+  "locationQid": null
+ },
+ "Q57434": {
+  "label": {
+   "en": "Václav Klaus",
+   "zh": "瓦茨拉夫·克劳斯"
+  },
+  "description": "President of the Czech Republic from 2003 to 2013",
+  "coord": null,
+  "image": "Václav Klaus (2022).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1941,
+   "date": "1941-06-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Václav Klaus",
+   "zh": "瓦茨拉夫·克劳斯"
+  },
+  "locationQid": null
+ },
+ "Q577867": {
+  "label": {
+   "en": "Kingdom of Poland",
+   "zh": "波兰王国"
+  },
+  "description": "Polish state from the coronation of the first King Bolesław I the Brave in 1025 to the union with Lithuania and the rule of the Jagiellon dynasty in 1385",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1025,
+   "date": "1025-04-18",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1385,
+   "date": "1385-08-14",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": "波兰王国 (1025年—1385年)"
+  },
+  "locationQid": null
+ },
+ "Q57994": {
+  "label": {
+   "en": "Hermann von Salza",
+   "zh": "赫尔曼·冯·舒尔茨"
+  },
+  "description": "Grand Master of the Teutonic Knights (1170-1239)",
+  "coord": null,
+  "image": "Hermann von Salza Painting.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1170,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1239,
+   "date": "1239-03-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hermann von Salza",
+   "zh": "赫尔曼·冯·萨尔扎"
+  },
+  "locationQid": null
+ },
+ "Q58077": {
+  "label": {
+   "en": "Petro Poroshenko",
+   "zh": "彼得罗·波罗申科"
+  },
+  "description": "President of Ukraine from 2014 to 2019",
+  "coord": null,
+  "image": "Official portrait of Petro Poroshenko.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1965,
+   "date": "1965-09-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Petro Poroshenko",
+   "zh": "彼得罗·波罗申科"
+  },
+  "locationQid": null
+ },
+ "Q584047": {
+  "label": {
+   "en": "Battle of Kleidion",
+   "zh": "克雷迪昂战役"
+  },
+  "description": "1014 battle of the Byzantine–Bulgarian Wars",
+  "coord": {
+   "lat": 41.3667,
+   "lon": 23.0167
+  },
+  "image": "The Chronicle of Ioannis Skylitzis Bulagar Defeat.jpg",
+  "pointInTime": {
+   "year": 1014,
+   "date": "1014-07-29",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Kleidion",
+   "zh": "克雷迪昂之战"
+  }
+ },
+ "Q58607": {
+  "label": {
+   "en": "Daniel of Galicia",
+   "zh": "加利西亚的丹尼尔"
+  },
+  "description": "Prince of Galicia (1201-1264)",
+  "coord": null,
+  "image": "Даниил Галицкий.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1201,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1264,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Daniel of Galicia",
+   "zh": "加利西亚的丹尼尔"
+  },
+  "locationQid": null
+ },
+ "Q606621": {
+  "label": {
+   "en": "Siege of Szigetvár",
+   "zh": "西盖特瓦尔战役"
+  },
+  "description": "1566 battle in Hungary during the Ottoman–Habsburg wars",
+  "coord": {
+   "lat": 46.0508,
+   "lon": 17.7969
+  },
+  "image": "Bataille de Szigetvár Krafft Peter.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1566,
+   "date": "1566-08-06",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1566,
+   "date": "1566-09-08",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Szigetvár",
+   "zh": "锡盖特堡战役"
+  }
+ },
+ "Q60863552": {
+  "label": {
+   "en": "Baptism of Poland",
+   "zh": null
+  },
+  "description": "baptism of Mieszko I of Poland and much of his court, which precipitated the Christianization of Poland",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 966,
+   "date": "0966-04-19",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q35856"
+  ],
+  "wiki": {
+   "en": "Baptism of Poland",
+   "zh": null
+  },
+  "locationQid": "Q268"
+ },
+ "Q611162": {
+  "label": {
+   "en": "oprichnina",
+   "zh": "特轄區"
+  },
+  "description": "policy of Ivan IV",
+  "coord": null,
+  "image": "Russian-coat-arm-1667.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1565,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1572,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2368252",
+   "Q2101516",
+   "Q176799"
+  ],
+  "wiki": {
+   "en": "Oprichnina",
+   "zh": "特轄區"
+  },
+  "locationQid": null
+ },
+ "Q629702": {
+  "label": {
+   "en": "Leonid Kuchma",
+   "zh": "列昂尼德·库奇马"
+  },
+  "description": "Ukrainian businessman and politician, second President of Ukraine from 1994 to 2005",
+  "coord": null,
+  "image": "Leonid Kuchma.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1938,
+   "date": "1938-08-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Leonid Kuchma",
+   "zh": "列昂尼德·库奇马"
+  },
+  "locationQid": null
+ },
+ "Q641479": {
+  "label": {
+   "en": "Khmelnytsky Uprising",
+   "zh": "赫梅利尼茨基起义"
+  },
+  "description": "Cossack rebellion within the Polish-Lithuanian Commonwealth in 1648–1657",
+  "coord": null,
+  "image": "Bohdan Khmelnytsky with Tugay Bey at Lviv by Jan Matejko (1885).png",
+  "pointInTime": {
+   "year": 1648,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1648,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1657,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Khmelnytsky Uprising",
+   "zh": "赫梅利尼茨基起义"
+  },
+  "locationQid": "Q212"
+ },
+ "Q658731": {
+  "label": {
+   "en": "Battle of Achelous",
+   "zh": "阿克卢斯河战役"
+  },
+  "description": "917 battle, part of the Byzantine–Bulgarian Wars",
+  "coord": {
+   "lat": 42.6431,
+   "lon": 27.6367
+  },
+  "image": "Simeon the Great anonymous seal.jpg",
+  "pointInTime": {
+   "year": 917,
+   "date": "0917-08-20",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Achelous (917)",
+   "zh": null
+  }
+ },
+ "Q683621": {
+  "label": {
+   "en": "Winrich von Kniprode",
+   "zh": "温里希·冯·克尼普罗德"
+  },
+  "description": "German noble (1310-1382)",
+  "coord": null,
+  "image": "Winrich von Kniprode 1838.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1310,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1382,
+   "date": "1382-06-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Winrich von Kniprode",
+   "zh": "溫里希·馮·克尼普羅德"
+  },
+  "locationQid": null
+ },
+ "Q698984": {
+  "label": {
+   "en": "Kirill Razumovsky",
+   "zh": "基里尔·格里戈里耶维奇·拉祖莫夫斯基"
+  },
+  "description": "Hetman of Zaporizhian Host (1728-1803)",
+  "coord": null,
+  "image": "Kyrylo Rozumovsky (Portrait, 1half 19th century, unknown author).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1728,
+   "date": "1728-03-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1803,
+   "date": "1803-01-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kirill Razumovsky",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q705874": {
+  "label": {
+   "en": "Battle of Mohi",
+   "zh": "蒂萨河之战"
+  },
+  "description": "1241 battle during the Mongol invasion of Hungary",
+  "coord": {
+   "lat": 47.9778,
+   "lon": 20.9131
+  },
+  "image": "Battle of Mohi 1241.PNG",
+  "pointInTime": {
+   "year": 1241,
+   "date": "1241-04-11",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Mohi",
+   "zh": "穆希之戰"
+  }
+ },
+ "Q7200": {
+  "label": {
+   "en": "Alexander Pushkin",
+   "zh": "亚历山大·谢尔盖耶维奇·普希金"
+  },
+  "description": "Russian poet, playwright, and novelist (1799–1837)",
+  "coord": null,
+  "image": "Kiprensky Pushkin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1799,
+   "date": "1799-05-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1837,
+   "date": "1837-01-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alexander Pushkin",
+   "zh": "亚历山大·普希金"
+  },
+  "locationQid": null
+ },
+ "Q723608": {
+  "label": {
+   "en": "Trajan's Dacian Wars",
+   "zh": "达西亚战争"
+  },
+  "description": "101–106 AD pair of Roman wars against Dacia",
+  "coord": null,
+  "image": "Separation of the two Dacian Wars on Trajan's Column.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 101,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 106,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q104212151"
+  ],
+  "wiki": {
+   "en": "Trajan's Dacian Wars",
+   "zh": "达契亚战争"
+  },
+  "locationQid": "Q173082"
+ },
+ "Q7243": {
+  "label": {
+   "en": "Leo Tolstoy",
+   "zh": "列夫·托尔斯泰"
+  },
+  "description": "Russian author (1828–1910)",
+  "coord": null,
+  "image": "L.N.Tolstoy Prokudin-Gorsky.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1828,
+   "date": "1828-08-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1910,
+   "date": "1910-11-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Leo Tolstoy",
+   "zh": "列夫·托爾斯泰"
+  },
+  "locationQid": null
+ },
+ "Q7341": {
+  "label": {
+   "en": "Auschwitz",
+   "zh": "奥斯威辛集中营"
+  },
+  "description": "German network of concentration and extermination camps in occupied Poland during World War II",
+  "coord": {
+   "lat": 50.0358,
+   "lon": 19.1783
+  },
+  "image": "Birkenau múzeum - panoramio (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1940,
+   "date": "1940-05-20",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1945,
+   "date": "1945-01-27",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q328468",
+   "Q33506",
+   "Q153813",
+   "Q1497375"
+  ],
+  "wiki": {
+   "en": "Auschwitz concentration camp",
+   "zh": "奥斯威辛集中营"
+  }
+ },
+ "Q735719": {
+  "label": {
+   "en": "Devlet I Giray",
+   "zh": "德夫莱特·格莱"
+  },
+  "description": "Crimean Khan",
+  "coord": null,
+  "image": "Devlet I Giray.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1512,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1577,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Devlet I Giray",
+   "zh": "德夫萊特一世·格來"
+  },
+  "locationQid": null
+ },
+ "Q737655": {
+  "label": {
+   "en": "Siege of Dorostolon",
+   "zh": "多洛斯特隆要塞"
+  },
+  "description": "byzantine military investment of the Kievan Rus in Dorostolon",
+  "coord": {
+   "lat": 44.1186,
+   "lon": 27.2603
+  },
+  "image": "BelagerungvonDorostolon.jpg",
+  "pointInTime": {
+   "year": 971,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 971,
+   "date": "0971-04-25",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 971,
+   "date": "0971-07-24",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Dorostolon",
+   "zh": null
+  }
+ },
+ "Q73810": {
+  "label": {
+   "en": "Stephen Uroš I of Serbia",
+   "zh": "斯特凡·烏羅什一世"
+  },
+  "description": "Serbian king (1220-1277)",
+  "coord": null,
+  "image": "King Stefan Uroš I with his son Stefan Dragutin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1220,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1277,
+   "date": "1277-05-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Stefan Uroš I",
+   "zh": "斯特凡·烏羅什一世"
+  },
+  "locationQid": null
+ },
+ "Q7747": {
+  "label": {
+   "en": "Vladimir Putin",
+   "zh": "弗拉基米尔·普京"
+  },
+  "description": "President of the Russian Federation",
+  "coord": null,
+  "image": "Putin V 2026 08 10.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1952,
+   "date": "1952-10-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vladimir Putin",
+   "zh": "弗拉基米尔·普京"
+  },
+  "locationQid": null
+ },
+ "Q775307": {
+  "label": {
+   "en": "Golden Bull of 1222",
+   "zh": "1222年金玺诏书"
+  },
+  "description": "golden bull, or edict, issued by King Andrew II of Hungary",
+  "coord": null,
+  "image": "II. András aranybullája.jpg",
+  "pointInTime": {
+   "year": 1222,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q93288",
+   "Q705914",
+   "Q198721"
+  ],
+  "wiki": {
+   "en": "Golden Bull of 1222",
+   "zh": "1222年金玺诏书"
+  },
+  "locationQid": "Q130212"
+ },
+ "Q780367": {
+  "label": {
+   "en": "Siege of Plevna",
+   "zh": "普列夫納圍困"
+  },
+  "description": "battle of the Russo-Turkish War of 1877-1878",
+  "coord": {
+   "lat": 43.4167,
+   "lon": 24.6167
+  },
+  "image": "Перед атакой. Под Плевной.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1877,
+   "date": "1877-07-20",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1877,
+   "date": "1877-12-10",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Siege of Plevna",
+   "zh": null
+  }
+ },
+ "Q78492": {
+  "label": {
+   "en": "Tomáš Garrigue Masaryk",
+   "zh": "托马什·马萨里克"
+  },
+  "description": "Czechoslovak politician, statesman, sociologist and philosopher; first Czechoslovak president (1850–1937)",
+  "coord": null,
+  "image": "Masaryk im Bild (1937) obr 088 – Podobizna z r. 1934 (Karel Novák) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1850,
+   "date": "1850-03-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1937,
+   "date": "1937-09-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tomáš Masaryk",
+   "zh": "托馬什·馬薩里克"
+  },
+  "locationQid": null
+ },
+ "Q79911": {
+  "label": {
+   "en": "Russian Civil War",
+   "zh": "俄国内战"
+  },
+  "description": "multi-sided civil war in the former Russian Empire, November 1917-October 1922",
+  "coord": null,
+  "image": "CWRArticleImage.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1917,
+   "date": "1917-11-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1922,
+   "date": "1922-10-25",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465",
+   "Q350604"
+  ],
+  "wiki": {
+   "en": "Russian Civil War",
+   "zh": "俄国内战"
+  },
+  "locationQid": "Q139319"
+ },
+ "Q7996": {
+  "label": {
+   "en": "Ivan the Terrible",
+   "zh": "伊凡四世"
+  },
+  "description": "Tsar of all Russia from 1547 to 1584",
+  "coord": null,
+  "image": "Ivan grozny frame.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1530,
+   "date": "1530-08-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1584,
+   "date": "1584-03-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ivan the Terrible",
+   "zh": "伊凡四世"
+  },
+  "locationQid": null
+ },
+ "Q821283": {
+  "label": {
+   "en": "Battle of Warsaw",
+   "zh": "华沙战役"
+  },
+  "description": "battle of the 1920 Polish–Soviet War",
+  "coord": {
+   "lat": 52.3,
+   "lon": 20.8167
+  },
+  "image": "Polish-soviet war 1920 Aftermath of Battle of Warsaw.jpg",
+  "pointInTime": {
+   "year": 1920,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1920,
+   "date": "1920-08-12",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1920,
+   "date": "1920-08-25",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Warsaw (1920)",
+   "zh": "华沙战役 (1920年)"
+  }
+ },
+ "Q830054": {
+  "label": {
+   "en": "Saint Sophia Cathedral",
+   "zh": "圣索菲亚大教堂"
+  },
+  "description": "cathedral in Kyiv, Ukraine",
+  "coord": {
+   "lat": 50.4528,
+   "lon": 30.5144
+  },
+  "image": "80-391-0151 Kyiv St.Sophia's Cathedral RB 18 2 (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1011,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1934,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q56242225",
+   "Q811165",
+   "Q16970"
+  ],
+  "wiki": {
+   "en": "Saint Sophia Cathedral, Kyiv",
+   "zh": "圣索菲亚大教堂 (基辅)"
+  }
+ },
+ "Q83546": {
+  "label": {
+   "en": "Grand Principality of Vladimir",
+   "zh": "弗拉基米尔-苏兹达尔大公国"
+  },
+  "description": "Russian duchy in 12th-14th century",
+  "coord": {
+   "lat": 56.1286,
+   "lon": 40.4058
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1125,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1389,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1371288"
+  ],
+  "wiki": {
+   "en": "Vladimir-Suzdal",
+   "zh": "弗拉基米尔-苏兹达尔大公国"
+  }
+ },
+ "Q841211": {
+  "label": {
+   "en": "Battle of Nedao",
+   "zh": "尼達歐之戰"
+  },
+  "description": "5th-century internal battle in the Hunnic Empire",
+  "coord": {
+   "lat": 44.9333,
+   "lon": 19.0167
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 454,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Nedao",
+   "zh": null
+  }
+ },
+ "Q845668": {
+  "label": {
+   "en": "Union of Brest",
+   "zh": "布雷斯特聯盟"
+  },
+  "description": "Subordination of the Russian Orthodox clergy to the Catholic clergy in Poland-Lithuania",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1595,
+   "date": null,
+   "precision": 8,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q705914",
+   "Q13418847"
+  ],
+  "wiki": {
+   "en": "Union of Brest",
+   "zh": "布列斯特聯合"
+  },
+  "locationQid": null
+ },
+ "Q849176": {
+  "label": {
+   "en": "Kościuszko Uprising",
+   "zh": "柯斯丘什科起义"
+  },
+  "description": "1794 failed rebellion against the second partition of the Polish–Lithuanian Commonwealth",
+  "coord": null,
+  "image": "Kościuszko uprising.svg",
+  "pointInTime": {
+   "year": 1794,
+   "date": "1794-11-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1794,
+   "date": "1794-03-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1794,
+   "date": "1794-11-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Kościuszko Uprising",
+   "zh": "柯斯丘什科起义"
+  },
+  "locationQid": "Q172107"
+ },
+ "Q855": {
+  "label": {
+   "en": "Joseph Stalin",
+   "zh": "约瑟夫·斯大林"
+  },
+  "description": "politician and leader of the Union of Soviet Socialist Republics from 1924 to 1953",
+  "coord": null,
+  "image": "StalinCropped1943.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1878,
+   "date": "1878-12-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1953,
+   "date": "1953-03-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Joseph Stalin",
+   "zh": "约瑟夫·斯大林"
+  },
+  "locationQid": null
+ },
+ "Q858841": {
+  "label": {
+   "en": "Kingdom of Croatia",
+   "zh": "克羅地亞王國"
+  },
+  "description": "(925–1102) a medieval kingdom comprising most of what is today Croatia as well as, periodically, parts of Bosnia and Herzegovina",
+  "coord": {
+   "lat": 44.2554,
+   "lon": 17.3027
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 925,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1102,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1250464"
+  ],
+  "wiki": {
+   "en": "Kingdom of Croatia (925–1102)",
+   "zh": "克羅埃西亞王國 (925年—1102年)"
+  }
+ },
+ "Q86978": {
+  "label": {
+   "en": "Béla III of Hungary",
+   "zh": "貝拉三世"
+  },
+  "description": "King of Hungary and Croatia from 1172 to 1196",
+  "coord": null,
+  "image": "Bela 3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1148,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1196,
+   "date": "1196-04-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Béla III of Hungary",
+   "zh": "貝拉三世"
+  },
+  "locationQid": null
+ },
+ "Q878319": {
+  "label": {
+   "en": "Serbian Despotate",
+   "zh": "塞尔维亚王国"
+  },
+  "description": "former country (1402-1459/1537)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1402,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1537,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Serbian Despotate",
+   "zh": "塞尔维亚专制国"
+  },
+  "locationQid": null
+ },
+ "Q885": {
+  "label": {
+   "en": "Józef Piłsudski",
+   "zh": "约瑟夫·毕苏斯基"
+  },
+  "description": "Polish politician, First Marshall, and Prime Minister (1867–1935)",
+  "coord": null,
+  "image": "Józefpiłsudski.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1867,
+   "date": "1867-12-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1935,
+   "date": "1935-05-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Józef Piłsudski",
+   "zh": "约瑟夫·毕苏斯基"
+  },
+  "locationQid": null
+ },
+ "Q887": {
+  "label": {
+   "en": "Yekaterinburg",
+   "zh": "叶卡捷琳堡"
+  },
+  "description": "forth-largest city in Russia, administrative center of Ural Federal District",
+  "coord": {
+   "lat": 56.8356,
+   "lon": 60.6128
+  },
+  "image": "Views of Yekaterinburg from Vysotsky viewpoint - 12.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1723,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q106389302",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Yekaterinburg",
+   "zh": "葉卡捷琳堡"
+  }
+ },
+ "Q891": {
+  "label": {
+   "en": "Nizhny Novgorod",
+   "zh": "下诺夫哥罗德"
+  },
+  "description": "capital of the Nizhny Novgorod Oblast and the Volga Federal District in central Russia",
+  "coord": {
+   "lat": 56.3269,
+   "lon": 44.0075
+  },
+  "image": "Nizhny Novgorod 2025-04-29 Minin and Pozharsky square 01.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1221,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1549591",
+   "Q7930989",
+   "Q97660032"
+  ],
+  "wiki": {
+   "en": "Nizhny Novgorod",
+   "zh": "下诺夫哥罗德"
+  }
+ },
+ "Q891323": {
+  "label": {
+   "en": "Bolesław Jerzy of Mazovia",
+   "zh": "波列斯瓦夫·尤里二世"
+  },
+  "description": "Polish noble (1308-1340)",
+  "coord": null,
+  "image": "Boleslaw-Yuri II of Galicia (127946410).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1308,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1340,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yuri II Boleslav",
+   "zh": "波列斯瓦夫·尤里二世"
+  },
+  "locationQid": null
+ },
+ "Q89917": {
+  "label": {
+   "en": "Walls of Constantinople",
+   "zh": "君士坦丁堡城牆"
+  },
+  "description": "city walls of Constantinople (modern Istanbul, Turkey)",
+  "coord": {
+   "lat": 41.0181,
+   "lon": 28.9233
+  },
+  "image": "Theodosianische Landmauer in Istanbul.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q57346",
+   "Q16748868"
+  ],
+  "wiki": {
+   "en": "Walls of Constantinople",
+   "zh": "君士坦丁堡城牆"
+  }
+ },
+ "Q903378": {
+  "label": {
+   "en": "Battle of Ongal",
+   "zh": "翁古尔战役"
+  },
+  "description": "battle",
+  "coord": null,
+  "image": "Balkans about 680 A.D., foundation of the First Bulgarian Empire.png",
+  "pointInTime": {
+   "year": 680,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Ongal",
+   "zh": null
+  },
+  "locationQid": "Q184429"
+ },
+ "Q905368": {
+  "label": {
+   "en": "Peter IV of Bulgaria",
+   "zh": "彼得四世"
+  },
+  "description": "Bulgarian emperor",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1197,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Peter II of Bulgaria",
+   "zh": "彼得二世 (保加利亚)"
+  },
+  "locationQid": null
+ },
+ "Q9106": {
+  "label": {
+   "en": "Dmitri Mendeleev",
+   "zh": "德米特里·伊万诺维奇·门捷列夫"
+  },
+  "description": "Russian chemist (1834–1907)",
+  "coord": null,
+  "image": "Dmitri Mendeleev.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1834,
+   "date": "1834-01-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1907,
+   "date": "1907-01-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Dmitri Mendeleev",
+   "zh": "德米特里·门捷列夫"
+  },
+  "locationQid": null
+ },
+ "Q9151911": {
+  "label": {
+   "en": null,
+   "zh": "安杰伊·杜达"
+  },
+  "description": "politician and lawyer, president of Poland from 2015 to 2025",
+  "coord": null,
+  "image": "President of Poland Andrzej Duda Full Resolution (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1972,
+   "date": "1972-05-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrzej Duda",
+   "zh": "安杰伊·杜达"
+  },
+  "locationQid": null
+ },
+ "Q9161": {
+  "label": {
+   "en": "Josip Broz Tito",
+   "zh": "约瑟普·布罗兹·铁托"
+  },
+  "description": "Yugoslav revolutionary and statesman (1892−1980)",
+  "coord": null,
+  "image": "Josip Broz Tito uniform portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1892,
+   "date": "1892-05-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1980,
+   "date": "1980-05-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Josip Broz Tito",
+   "zh": "约瑟普·布罗兹·铁托"
+  },
+  "locationQid": null
+ },
+ "Q933963": {
+  "label": {
+   "en": "Marcomannic Wars",
+   "zh": "马科曼尼战争"
+  },
+  "description": "war between the Roman Empire and Germanic peoples (166-180)",
+  "coord": null,
+  "image": "Column of Marcus Aurelius - detail3.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 166,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 180,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Marcomannic Wars",
+   "zh": "马科曼尼战争"
+  },
+  "locationQid": "Q1653"
+ },
+ "Q94080": {
+  "label": {
+   "en": "Time of Troubles",
+   "zh": "俄罗斯混乱时期"
+  },
+  "description": "period of Russian history from 1598 to 1613",
+  "coord": null,
+  "image": "Appeal of Minin.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1598,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1613,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q11514315"
+  ],
+  "wiki": {
+   "en": "Time of Troubles",
+   "zh": "混乱时期"
+  },
+  "locationQid": null
+ },
+ "Q946073": {
+  "label": {
+   "en": "Bogdan I of Moldavia",
+   "zh": "波格丹一世"
+  },
+  "description": "first independent ruler of Moldavia",
+  "coord": null,
+  "image": "Bogdan.I.pictura.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1306,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1367,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bogdan the Founder",
+   "zh": "波格丹一世"
+  },
+  "locationQid": null
+ },
+ "Q978404": {
+  "label": {
+   "en": "Dušan's Code",
+   "zh": "杜尚法典"
+  },
+  "description": "14th-century set of laws",
+  "coord": null,
+  "image": "Dušan's Code, Prizren manuscript, 15th c.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q922203"
+  ],
+  "wiki": {
+   "en": "Dušan's Code",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "loc:Q130212": {
+  "coord": {
+   "lat": 47.191,
+   "lon": 18.4108
+  },
+  "label": {
+   "en": "Székesfehérvár",
+   "zh": "塞克什白堡"
+  }
+ },
+ "loc:Q139319": {
+  "coord": {
+   "lat": 59.95,
+   "lon": 30.3167
+  },
+  "label": {
+   "en": "Russian Republic",
+   "zh": "俄羅斯共和國"
+  }
+ },
+ "loc:Q15180": {
+  "coord": {
+   "lat": 65,
+   "lon": 90
+  },
+  "label": {
+   "en": "Soviet Union",
+   "zh": "苏联"
+  }
+ },
+ "loc:Q159": {
+  "coord": {
+   "lat": 66.4167,
+   "lon": 94.25
+  },
+  "label": {
+   "en": "Russia",
+   "zh": "俄罗斯"
+  }
+ },
+ "loc:Q16410": {
+  "coord": {
+   "lat": 47,
+   "lon": 19
+  },
+  "label": {
+   "en": "Hungarian People's Republic",
+   "zh": "匈牙利人民共和国"
+  }
+ },
+ "loc:Q1653": {
+  "coord": {
+   "lat": 45.2219,
+   "lon": 29.7433
+  },
+  "label": {
+   "en": "Danube",
+   "zh": "多瑙河"
+  }
+ },
+ "loc:Q16869": {
+  "coord": {
+   "lat": 41.0122,
+   "lon": 28.976
+  },
+  "label": {
+   "en": "Constantinople",
+   "zh": "君士坦丁堡"
+  }
+ },
+ "loc:Q172107": {
+  "coord": {
+   "lat": 50.05,
+   "lon": 19.9333
+  },
+  "label": {
+   "en": "Polish–Lithuanian Commonwealth",
+   "zh": "波兰立陶宛联邦"
+  }
+ },
+ "loc:Q173082": {
+  "coord": {
+   "lat": 45.7,
+   "lon": 26.5
+  },
+  "label": {
+   "en": "Dacia",
+   "zh": "达契亚"
+  }
+ },
+ "loc:Q184429": {
+  "coord": {
+   "lat": 45.2,
+   "lon": 29.5
+  },
+  "label": {
+   "en": "Danube Delta",
+   "zh": "多瑙河三角洲"
+  }
+ },
+ "loc:Q193152": {
+  "coord": {
+   "lat": 49.6034,
+   "lon": 18.1528
+  },
+  "label": {
+   "en": "Great Moravia",
+   "zh": "大摩拉维亚公国"
+  }
+ },
+ "loc:Q212": {
+  "coord": {
+   "lat": 49,
+   "lon": 32
+  },
+  "label": {
+   "en": "Ukraine",
+   "zh": "乌克兰"
+  }
+ },
+ "loc:Q221457": {
+  "coord": {
+   "lat": 52.2333,
+   "lon": 21.0167
+  },
+  "label": {
+   "en": "Congress Poland",
+   "zh": "波兰会议王国"
+  }
+ },
+ "loc:Q23522": {
+  "coord": {
+   "lat": 42,
+   "lon": 22
+  },
+  "label": {
+   "en": "Balkans",
+   "zh": "巴尔干半岛"
+  }
+ },
+ "loc:Q268": {
+  "coord": {
+   "lat": 52.4083,
+   "lon": 16.9336
+  },
+  "label": {
+   "en": "Poznań",
+   "zh": "波茲南"
+  }
+ },
+ "loc:Q27468": {
+  "coord": {
+   "lat": 49,
+   "lon": 31
+  },
+  "label": {
+   "en": "Eastern Europe",
+   "zh": "东欧"
+  }
+ },
+ "loc:Q27509": {
+  "coord": {
+   "lat": 51,
+   "lon": 10
+  },
+  "label": {
+   "en": "Central Europe",
+   "zh": "中欧"
+  }
+ },
+ "loc:Q2786026": {
+  "coord": {
+   "lat": 54.3093,
+   "lon": 26.2825
+  },
+  "label": {
+   "en": "Kreva Castle",
+   "zh": "克雷瓦城堡"
+  }
+ },
+ "loc:Q33946": {
+  "coord": {
+   "lat": 50.0833,
+   "lon": 14.4167
+  },
+  "label": {
+   "en": "Czechoslovakia",
+   "zh": "捷克斯洛伐克"
+  }
+ },
+ "loc:Q392133": {
+  "coord": {
+   "lat": 51.7667,
+   "lon": 55.1
+  },
+  "label": {
+   "en": "Orenburg Governorate",
+   "zh": "奥伦堡省"
+  }
+ },
+ "loc:Q39731": {
+  "coord": {
+   "lat": 57,
+   "lon": 25
+  },
+  "label": {
+   "en": "Baltic states",
+   "zh": "波罗的海国家"
+  }
+ },
+ "loc:Q4951156": {
+  "coord": {
+   "lat": 37.5667,
+   "lon": 14.2667
+  },
+  "label": {
+   "en": "Sicily",
+   "zh": "西西里岛"
+  }
+ },
+ "loc:Q609850": {
+  "coord": null,
+  "label": {
+   "en": "Rus",
+   "zh": "羅斯 (東歐)"
+  }
+ },
+ "loc:Q656": {
+  "coord": {
+   "lat": 59.95,
+   "lon": 30.3167
+  },
+  "label": {
+   "en": "Saint Petersburg",
+   "zh": "圣彼得堡"
+  }
+ },
+ "loc:Q7835": {
+  "coord": {
+   "lat": 45,
+   "lon": 34
+  },
+  "label": {
+   "en": "Crimea",
+   "zh": "克里米亚"
+  }
+ },
+ "loc:Q833060": {
+  "coord": {
+   "lat": 44.9661,
+   "lon": 19.6106
+  },
+  "label": {
+   "en": "Sirmium",
+   "zh": "塞尔曼"
+  }
+ }
+}
