@@ -5341,6 +5341,33 @@
    "zh": "迦勒迦河之战"
   }
  },
+ "Q57394": {
+  "label": {
+   "en": "Nursultan Nazarbayev",
+   "zh": "努尔苏丹·纳扎尔巴耶夫"
+  },
+  "description": "President of Kazakhstan from 1991 to 2019",
+  "coord": null,
+  "image": "Nursultan Nazarbayev (2020-03-10) (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1940,
+   "date": "1940-07-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nursultan Nazarbayev",
+   "zh": "努尔苏丹·纳扎尔巴耶夫"
+  },
+  "locationQid": null
+ },
  "Q5753": {
   "label": {
    "en": "Samarkand",
