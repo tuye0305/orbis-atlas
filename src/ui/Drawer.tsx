@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useId, useMemo } from 'react';
 import { EVENT_COLOR, EVENT_GLYPH, s } from '../i18n';
 import { REGION_BY_KEY } from '../regions';
 import { formatYear, t, useStore } from '../state/store';
@@ -11,6 +11,7 @@ export function Drawer() {
   const open = useStore((st) => st.drawerOpen);
   const set = useStore((st) => st.set);
   const select = useStore((st) => st.select);
+  const bodyId = useId();
 
   const data = useMemo(() => {
     if (!atlas) return null;
@@ -26,11 +27,18 @@ export function Drawer() {
 
   if (!data) return null;
   return (
-    <aside className={`drawer ${open ? 'open' : ''}`}>
-      <button className="drawer-toggle" onClick={() => set({ drawerOpen: !open })} aria-label="toggle panel">
-        {open ? '‹' : '›'}
+    <aside className={`drawer ${open ? 'open' : ''}`} aria-label={s('dynasties', lang)}>
+      <button
+        className="drawer-toggle"
+        onClick={() => set({ drawerOpen: !open })}
+        aria-label={open ? s('hidePanel', lang) : s('showPanel', lang)}
+        aria-expanded={open}
+        aria-controls={bodyId}
+      >
+        <span aria-hidden>{open ? '‹' : '›'}</span>
       </button>
-      <div className="drawer-body">
+      {/* `inert` keeps the off-screen panel out of the Tab order and the accessibility tree. */}
+      <div className="drawer-body" id={bodyId} inert={!open}>
         <div className="drawer-title">
           <span>{region ? REGION_BY_KEY[region].name[lang] : lang === 'zh' ? '全球' : 'The world'}</span>
           <em>{formatYear(year, lang)}</em>
@@ -45,7 +53,7 @@ export function Drawer() {
               return (
                 <li key={p.id}>
                   <button onClick={() => select({ kind: 'polity', id: p.id })}>
-                    <i style={{ background: p.color }} />
+                    <i style={{ background: p.color }} aria-hidden />
                     <span className="pn">{t(p.name, lang)}</span>
                     {ruler && <span className="pr">{t(ruler.name, lang)}</span>}
                   </button>
@@ -62,7 +70,9 @@ export function Drawer() {
             {data.events.map((e) => (
               <li key={e.id}>
                 <button onClick={() => select({ kind: 'event', id: e.id })}>
-                  <b style={{ color: EVENT_COLOR[e.type] }}>{EVENT_GLYPH[e.type]}</b>
+                  <b style={{ color: EVENT_COLOR[e.type] }} aria-hidden>
+                    {EVENT_GLYPH[e.type]}
+                  </b>
                   <span className="ey">{e.year}</span>
                   <span className="en">{t(e.name, lang)}</span>
                 </button>
