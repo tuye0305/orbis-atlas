@@ -45,7 +45,7 @@ export default function Search() {
     const out: Hit[] = [];
     for (const p of atlas.people) {
       const sc = score(p.name.en, p.name.zh);
-      if (sc) out.push({ sel: { kind: 'person', id: p.id }, title: p.name[lang], sub: `${p.role[lang]} · ${formatYear(p.born, lang)}–${formatYear(p.died, lang)}`, glyph: '☺', score: sc + 5 });
+      if (sc) out.push({ sel: { kind: 'person', id: p.id }, title: p.name[lang], sub: `${p.role[lang]} · ${formatYear(p.born, lang)}–${p.died == null ? s('living', lang) : formatYear(p.died, lang)}`, glyph: '☺', score: sc + 5 });
     }
     for (const e of atlas.events) {
       const sc = score(e.name.en, e.name.zh);

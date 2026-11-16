@@ -67,7 +67,7 @@ Common rules:
   "id": "person-ibn-battuta",
   "qid": "Q7331",
   "name": { "en": "Ibn Battuta", "zh": "伊本·白图泰" },
-  "born": 1304, "died": 1369,
+  "born": 1304, "died": 1369,  // "died": null for a living person
   "role": { "en": "Traveller and scholar", "zh": "旅行家、学者" },
   "region": "africa",
   "summary": { "en": "...", "zh": "..." },

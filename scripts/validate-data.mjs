@@ -56,7 +56,7 @@ for (const { region: folder, kind, records } of files) {
       for (const s of r.route ?? []) if (!isYear(s.year) || !isLat(s.lat) || !isLon(s.lon) || !isL10n(s.label)) err('bad route stop');
     }
     if (kind === 'people') {
-      if (!isYear(r.born) || !isYear(r.died) || r.died < r.born) err('bad born/died');
+      if (!isYear(r.born) || (r.died !== null && (!isYear(r.died) || r.died < r.born))) err('bad born/died (died: null = living)');
       if (!isL10n(r.role)) err('role must be {en, zh}');
       if (!Array.isArray(r.stops) || r.stops.length < 2) warn('fewer than 2 stops');
       let prev = -Infinity;
