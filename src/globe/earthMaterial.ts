@@ -112,6 +112,66 @@ export function createEarthMaterial(base = '/') {
   });
 }
 
+/**
+ * Atmosphere rim: a back-faced shell shaded by the view ray's closest approach to the globe
+ * centre, so the glow hugs the limb at any zoom and falls off exponentially into space.
+ * Warm parchment-gold at the limb, cooling to a pale ink-blue at the outer edge, and brighter on
+ * the side facing the key light. Additive, so it never darkens the stars behind it.
+ */
+export function createAtmosphere(radius: number, shell = 1.2) {
+  const geo = new THREE.SphereGeometry(radius * shell, 96, 64);
+  const mat = new THREE.ShaderMaterial({
+    side: THREE.BackSide,
+    transparent: true,
+    depthWrite: false,
+    blending: THREE.AdditiveBlending,
+    uniforms: {
+      uRadius: { value: radius },
+      uShell: { value: radius * shell },
+      uLight: { value: new THREE.Vector3(0.4, 0.5, 1).normalize() },
+      uInner: { value: new THREE.Color('#e9c88c') },
+      uOuter: { value: new THREE.Color('#6f8fd0') },
+      uIntensity: { value: 0.72 },
+    },
+    vertexShader: /* glsl */ `
+      varying vec3 vWorld;
+      void main() {
+        vec4 w = modelMatrix * vec4(position, 1.0);
+        vWorld = w.xyz;
+        gl_Position = projectionMatrix * viewMatrix * w;
+      }
+    `,
+    fragmentShader: /* glsl */ `
+      uniform float uRadius;
+      uniform float uShell;
+      uniform vec3 uLight;
+      uniform vec3 uInner;
+      uniform vec3 uOuter;
+      uniform float uIntensity;
+      varying vec3 vWorld;
+      void main() {
+        vec3 ro = cameraPosition;
+        vec3 rd = normalize(vWorld - ro);
+        // Closest approach of the view ray to the centre (ignore points behind the camera).
+        float t = max(-dot(ro, rd), 0.0);
+        vec3 cp = ro + rd * t;
+        float b = length(cp);
+        float h = clamp((b - uRadius) / (uShell - uRadius), 0.0, 1.0); // 0 at the limb, 1 at the shell
+        float glow = exp(-h * 7.0) * (1.0 - h) + 0.4 * exp(-h * 26.0);
+        float lit = 0.45 + 0.55 * clamp(dot(cp / max(b, 1e-3), normalize(uLight)) * 0.5 + 0.5, 0.0, 1.0);
+        // Zoomed in, the camera sits inside the shell: fade rays whose closest point is at the eye.
+        float front = smoothstep(0.0, uRadius * 0.35, t);
+        vec3 col = mix(uInner, uOuter, smoothstep(0.0, 0.6, h));
+        gl_FragColor = vec4(col * glow * lit * front * uIntensity, 1.0);
+        #include <colorspace_fragment>
+      }
+    `,
+  });
+  const mesh = new THREE.Mesh(geo, mat);
+  mesh.renderOrder = -1;
+  return mesh;
+}
+
 /** A field of stars on a distant sphere that twinkle softly. */
 export function createStarfield(count = 5000, radius = 3000) {
   const geo = new THREE.BufferGeometry();
