@@ -37,6 +37,7 @@ const STR = {
   openWiki: { en: 'Wikipedia', zh: '维基百科' },
   born: { en: 'born', zh: '生' },
   died: { en: 'died', zh: '卒' },
+  living: { en: 'living', zh: '在世' },
   image: { en: 'Image', zh: '图片' },
   tapToBegin: { en: 'Enter the atlas', zh: '进入地图' },
   loading: { en: 'Charting two thousand years…', zh: '正在绘制两千年……' },

@@ -1,0 +1,409 @@
+{
+  "ev-nazca-lines:year": {
+    "verdict": "keep-ours",
+    "reason": "The geoglyphs were made between roughly 500 BCE and 700 CE. Wikidata gives one early date (-200). Our record spans 1–700 because the atlas begins at 1 CE, and the note states the full range. Most figurative geoglyphs belong to the Nasca period proper, c. 100 BCE–700 CE.",
+    "checked": [
+      "https://www.britannica.com/place/Nazca-Lines",
+      "https://whc.unesco.org/en/list/700",
+      "https://en.wikipedia.org/wiki/Nazca_lines"
+    ]
+  },
+  "ev-marajoara-culture:year": {
+    "verdict": "keep-ours",
+    "reason": "The Marajoara phase is conventionally dated c. 400–1400 CE (Roosevelt 1991; Schaan 2004). Wikidata’s 800 marks the florescence of the mound-building chiefdoms, not their start.",
+    "checked": [
+      "Anna C. Roosevelt, Moundbuilders of the Amazon (Academic Press, 1991)",
+      "Denise P. Schaan, The Camutins Chiefdom (PhD, Pittsburgh, 2004)",
+      "https://en.wikipedia.org/wiki/Marajoara_culture"
+    ]
+  },
+  "ev-pikillacta:year": {
+    "verdict": "keep-ours",
+    "reason": "Radiocarbon dates in McEwan’s site volume (calibrated ranges of AD 650–885 and AD 880–1045) place construction and use from about the 7th to the 10th–11th century. Wikidata’s 500–1200 is a broad bracket taken from an infobox that contradicts its own text.",
+    "checked": [
+      "Gordon F. McEwan (ed.), Pikillacta: The Wari Empire in Cuzco (University of Iowa Press, 2005), ch. “Dating Pikillacta”",
+      "https://en.wikipedia.org/wiki/Pikillacta"
+    ]
+  },
+  "ev-pikillacta:endYear": {
+    "verdict": "keep-ours",
+    "reason": "The site was abandoned unfinished around AD 900–1000 when Wari collapsed; McEwan’s dates do not support use until 1200.",
+    "checked": [
+      "Gordon F. McEwan (ed.), Pikillacta: The Wari Empire in Cuzco (2005)",
+      "https://eos.org/?p=241700"
+    ]
+  },
+  "ev-el-dorado-guatavita:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 1600 reflects the colonial account and legend. Our event is the Muisca offering ceremony itself, set at 1300 at low confidence; the Pasca gold raft is dated roughly 1200–1500, and Rodríguez Freyle’s El Carnero (1636) describes the ceremony as pre-conquest practice.",
+    "checked": [
+      "Juan Rodríguez Freyle, El Carnero (1636)",
+      "Museo del Oro, Banco de la República: Balsa muisca",
+      "https://en.wikipedia.org/wiki/El_Dorado"
+    ]
+  },
+  "ev-el-dorado-guatavita:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is central Bogotá (where the Museo del Oro holds the raft). The ceremony was held at Lake Guatavita, about 50 km north-east, where our marker sits.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Lake_Guatavita",
+      "Juan Rodríguez Freyle, El Carnero (1636)"
+    ]
+  },
+  "ev-battle-of-yahuarpampa:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point is a generic centroid of Peru, not a historical location. Our marker is the place where the event is centred, and the record carries a route or the summary names the theatre. The Chanka war was fought on the plain just outside Cusco.",
+    "checked": [
+      "Brian S. Bauer, Ancient Cuzco: Heartland of the Inca (2004)",
+      "https://en.wikipedia.org/wiki/Chanka–Inca_War"
+    ]
+  },
+  "ev-qhapaq-nan:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is one section of the road in the Bolivia–Chile highlands. The network radiated from Cusco’s central plaza, where our marker sits, and the record carries a route along its main trunks.",
+    "checked": [
+      "https://whc.unesco.org/en/list/1459",
+      "John Hyslop, The Inka Road System (Academic Press, 1984)"
+    ]
+  },
+  "ev-inca-civil-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point is a generic centroid of Peru, not a historical location. Our marker is the place where the event is centred, and the record carries a route or the summary names the theatre. The decisive actions were near Cusco (Quipaipan), and the record carries a route from Quito to Cusco.",
+    "checked": [
+      "https://www.britannica.com/biography/Atahuallpa",
+      "https://en.wikipedia.org/wiki/Inca_Civil_War"
+    ]
+  },
+  "ev-spanish-conquest-of-the-muisca:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is near Tunja (Hunza). Our marker is Bacatá/Santa Fe de Bogotá, which Quesada took and where he founded his city in 1538; the route includes Tunja.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Muisca",
+      "José Ignacio Avellaneda, The Conquerors of the New Kingdom of Granada (UNM Press, 1995)"
+    ]
+  },
+  "ev-arauco-war:year": {
+    "verdict": "disputed",
+    "reason": "Historians date the war variously from 1536, 1546 (Quilacura) or 1550 (Valdivia’s campaign south of the Biobío and the founding of Concepción). We keep 1550 at medium confidence, and the note states the range.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Arauco_War",
+      "José Bengoa, Historia de los antiguos mapuches del sur (2003)",
+      "https://www.icarito.cl/?p=27101"
+    ]
+  },
+  "ev-arauco-war:endYear": {
+    "verdict": "disputed",
+    "reason": "There is no agreed end date. Some works close it with the Parliament of Quilín (1641), the great uprising of 1655–56, or the Spanish–Mapuche parliaments of the 18th century, and Wikidata uses 1609 (the end of the defensive war phase). We keep 1656, the end of the last general uprising, at medium confidence with the range in the note.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Arauco_War",
+      "José Bengoa, Historia de los antiguos mapuches del sur (2003)"
+    ]
+  },
+  "ev-arauco-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s (-33, -71) is near Santiago and Valparaíso, far north of the frontier. Our marker is in Arauco province near the Biobío frontier, where most of the fighting took place.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Arauco_War",
+      "https://www.britannica.com/topic/Mapuche"
+    ]
+  },
+  "ev-jesuit-reductions-of-the-guarani:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is San Ignacio Miní in Misiones, Argentina. We mark San Ignacio Guazú, Paraguay, the first reduction (1609), where the event begins. Both are legitimate; the record spans the whole mission region.",
+    "checked": [
+      "https://whc.unesco.org/en/list/291",
+      "Barbara Ganson, The Guaraní under Spanish Rule (2003)"
+    ]
+  },
+  "ev-nueva-coronica:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is the Royal Danish Library in Copenhagen, where the manuscript is kept today. Our marker is in the Huamanga (Ayacucho) region of Peru, where Guaman Poma lived and wrote it.",
+    "checked": [
+      "http://www.kb.dk/permalink/2006/poma/info/en/frontpage.htm",
+      "Rolena Adorno, Guaman Poma (1986)"
+    ]
+  },
+  "ev-palmares:endYear": {
+    "verdict": "keep-ours",
+    "reason": "The capital Macaco fell in February 1694, and Zumbi was killed on 20 November 1695. Smaller runaway groups survived in the region afterwards, but the centralised Palmares polity ended in 1694. Wikidata’s 1710 refers to these later remnants.",
+    "checked": [
+      "https://new.blackpast.org/global-african-history/palmares-ca-1605-1694",
+      "https://en.wikipedia.org/wiki/Zumbi",
+      "R. K. Kent, Journal of African History 6:2 (1965)"
+    ]
+  },
+  "ev-lima-callao-earthquake-1746:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives an estimated offshore epicentre. Epicentre estimates for 1746 vary, so we mark Callao, which the tsunami destroyed, within sight of Lima.",
+    "checked": [
+      "Charles F. Walker, Shaky Colonialism (2008)",
+      "https://en.wikipedia.org/wiki/1746_Lima–Callao_earthquake"
+    ]
+  },
+  "ev-guarani-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is in Santa Catarina state, outside the theatre of war. Our marker is São Miguel das Missões, chief of the Seven Peoples, close to the battlefield of Caiboaté.",
+    "checked": [
+      "https://whc.unesco.org/en/list/275",
+      "https://en.wikipedia.org/wiki/Guaraní_War"
+    ]
+  },
+  "ev-rebellion-of-tupac-amaru-ii:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is Lima, the viceregal capital. The rebellion began at Tinta in the province of Canas y Canchis, our marker, and the record carries a route through the southern Andes.",
+    "checked": [
+      "Charles F. Walker, The Tupac Amaru Rebellion (2014)",
+      "https://www.britannica.com/biography/Tupac-Amaru-II"
+    ]
+  },
+  "ev-portuguese-court-to-brazil:endYear": {
+    "verdict": "keep-ours",
+    "reason": "Our event is the transfer itself: the fleet sailed on 29 November 1807 and reached Rio in March 1808. Wikidata’s 1821 counts the whole residence of the court in Brazil, until John VI returned to Lisbon.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Transfer_of_the_Portuguese_Court_to_Brazil",
+      "Kirsten Schultz, Tropical Versailles (2001)"
+    ]
+  },
+  "ev-voyage-of-the-beagle:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is in New Zealand, a single port of call. The voyage spent most of its time surveying South American coasts; our marker is Punta Alta near Bahía Blanca, where Darwin found his first great fossils, and the record carries the full route.",
+    "checked": [
+      "https://darwin-online.org.uk/",
+      "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle"
+    ]
+  },
+  "ev-paraguayan-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is in northern Patagonia, far from any fighting. Our marker is Humaitá on the Paraguay river, the war’s central fortress, and the record carries a route through the campaign.",
+    "checked": [
+      "https://www.britannica.com/event/War-of-the-Triple-Alliance",
+      "Thomas L. Whigham, The Paraguayan War (2002)"
+    ]
+  },
+  "ev-war-of-the-pacific:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point is a generic centroid of Peru, not a historical location. Our marker is the place where the event is centred, and the record carries a route or the summary names the theatre. The war began with Chile’s occupation of Antofagasta, our marker, and the record carries a route from Antofagasta to Lima.",
+    "checked": [
+      "https://www.britannica.com/event/War-of-the-Pacific",
+      "William F. Sater, Andean Tragedy (2007)"
+    ]
+  },
+  "ev-conquest-of-the-desert:year": {
+    "verdict": "keep-ours",
+    "reason": "Roca’s campaign was prepared in 1878, the main offensive reached the Río Negro on 25 May 1879, and operations ended with Sayhueque’s surrender in 1885. Wikidata’s 1884 is a late phase, not the start.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Conquest_of_the_Desert",
+      "David Rock, Argentina 1516–1987 (1987)"
+    ]
+  },
+  "ev-conquest-of-the-desert:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is in the middle of Río Negro province. Our marker is Choele Choel, where Roca’s columns converged on the Río Negro in 1879, the campaign’s symbolic goal.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Conquest_of_the_Desert",
+      "https://en.wikipedia.org/wiki/Choele_Choel"
+    ]
+  },
+  "ev-christ-the-redeemer:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 1920s value reflects the project and construction start (1922–26). The statue was inaugurated on 12 October 1931, the date our event marks.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+      "https://www.britannica.com/topic/Christ-the-Redeemer"
+    ]
+  },
+  "ev-chaco-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Both points are in the Paraguayan Chaco. Ours is near Fortín Boquerón, where the first major battle of September 1932 was fought; Wikidata’s is a generic point further north.",
+    "checked": [
+      "https://www.britannica.com/event/Chaco-War",
+      "https://en.wikipedia.org/wiki/Battle_of_Boquerón_(1932)"
+    ]
+  },
+  "ev-1973-chilean-coup:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s (-33, -71) is a rounded point near Valparaíso. Our marker is La Moneda palace in Santiago, which was bombed and where Allende died.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27état",
+      "https://www.britannica.com/biography/Salvador-Allende"
+    ]
+  },
+  "ev-falklands-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is the islands’ centroid. Our marker is Stanley, where Argentina landed on 2 April and surrendered on 14 June, and the record carries a route.",
+    "checked": [
+      "https://www.britannica.com/event/Falkland-Islands-War",
+      "Lawrence Freedman, The Official History of the Falklands Campaign (2005)"
+    ]
+  },
+  "ev-internal-conflict-in-peru:year": {
+    "verdict": "keep-ours",
+    "reason": "The conflict began on 17 May 1980 with the Shining Path attack on the ballot boxes at Chuschi. Wikidata’s 2002 is not a valid start date (it may reflect the truth commission period). The CVR covers 1980–2000.",
+    "checked": [
+      "Comisión de la Verdad y Reconciliación, Informe Final (2003)",
+      "https://en.wikipedia.org/wiki/Internal_conflict_in_Peru"
+    ]
+  },
+  "ev-internal-conflict-in-peru:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata's point is a generic centroid of Peru, not a historical location. Our marker is the place where the event is centred, and the record carries a route or the summary names the theatre. The war was centred on Ayacucho, our marker, where the Shining Path was founded and where most victims died.",
+    "checked": [
+      "Comisión de la Verdad y Reconciliación, Informe Final (2003)",
+      "Steve J. Stern (ed.), Shining and Other Paths (1998)"
+    ]
+  },
+  "ev-colombian-peace-agreement:year": {
+    "verdict": "keep-ours",
+    "reason": "Our event is the whole process: exploratory talks led to the formal opening of negotiations in Oslo and Havana in October–November 2012, and the final agreement was signed in November 2016 (endYear 2016). Wikidata dates only the final accord.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Colombian_peace_process",
+      "https://www.nobelprize.org/prizes/peace/2016/santos/facts/"
+    ]
+  },
+  "person-pachacuti:born": {
+    "verdict": "disputed",
+    "reason": "His birth date is unknown. Encyclopedia.com gives c. 1391, and other works give 1418. Britannica dates only his reign (1438–71, after Rowe). We keep 1418 at low confidence, and the note now states the range.",
+    "checked": [
+      "https://www.britannica.com/topic/Inca/History",
+      "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/pachacuti-c-1391-c-1473",
+      "https://en.wikipedia.org/wiki/Pachacuti"
+    ]
+  },
+  "person-atahualpa:born": {
+    "verdict": "disputed",
+    "reason": "Sources give c. 1497, 1500 or 1502. Britannica and most English-language biographies use c. 1502, which we keep at medium confidence; the note states that it is disputed.",
+    "checked": [
+      "https://www.britannica.com/biography/Atahuallpa",
+      "https://en.wikipedia.org/wiki/Atahualpa"
+    ]
+  },
+  "person-aleijadinho:born": {
+    "verdict": "disputed",
+    "reason": "A baptism record of 29 August 1730, cited by Bretas (1858), conflicts with his death record of 1814, which gives his age as 76 (so born 1738). The Museu Aleijadinho and Vasconcelos follow 1738, and the identity of the child in the 1730 baptism is doubted. We keep 1738 at medium confidence with the dispute in the note.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Aleijadinho",
+      "https://www.infopedia.pt/$aleijadinho",
+      "https://eba.ufmg.br/boletimceib/index.php/boletimdoceib/article/download/77/66/100"
+    ]
+  },
+  "polity-moche:from": {
+    "verdict": "keep-ours",
+    "reason": "Moche culture is conventionally dated c. 100–800 CE (Britannica: 1st–8th century). Wikidata’s 1 is a rounded start; ours follows the conventional chronology.",
+    "checked": [
+      "https://www.britannica.com/topic/Moche",
+      "Jeffrey Quilter, The Moche of Ancient Peru (2010)"
+    ]
+  },
+  "polity-wari:to": {
+    "verdict": "keep-ours",
+    "reason": "The Wari state collapsed around 1000 CE (Britannica; Schreiber). Its centres such as Pikillacta were abandoned in the 10th–11th centuries, while Wikidata’s 1100 is an outer bound.",
+    "checked": [
+      "https://www.britannica.com/place/Huari",
+      "Katharina Schreiber, Wari Imperialism in Middle Horizon Peru (1992)"
+    ]
+  },
+  "polity-sican:from": {
+    "verdict": "keep-ours",
+    "reason": "Shimada’s chronology places Early Sicán at c. 750–900 and Middle Sicán at 900–1100. Wikidata’s 700 marks the transition from Moche.",
+    "checked": [
+      "Izumi Shimada, “The Late Prehispanic Coastal States”, in The Inca World (2000)",
+      "https://en.wikipedia.org/wiki/Sican_culture"
+    ]
+  },
+  "polity-chachapoya:from": {
+    "verdict": "disputed",
+    "reason": "Dates for the Chachapoya culture vary: radiocarbon dates from Kuélap begin in the 6th–9th centuries, while the characteristic Chachapoya settlement pattern is often placed after 1000. We keep 800 as a compromise.",
+    "checked": [
+      "Warren B. Church, “Chachapoyas”, in Handbook of South American Archaeology (2008)",
+      "https://en.wikipedia.org/wiki/Chachapoya_culture"
+    ]
+  },
+  "polity-muisca:from": {
+    "verdict": "disputed",
+    "reason": "Muisca chronologies conflict: Early Muisca starts at 800 (Kruschek), 1000 (Boada, Langebaek) or 700, and a 2024 archaeomagnetic study questions all of them. The confederations as political units may date only from c. 1450. We keep 1000.",
+    "checked": [
+      "https://doaj.org/article/577115bd4b6b4e2c903b3d81cfe73510",
+      "https://en.wikipedia.org/wiki/Muisca_Confederation"
+    ]
+  },
+  "polity-kingdom-of-cusco:from": {
+    "verdict": "keep-ours",
+    "reason": "The founding by Manco Cápac is legendary and dated only approximately to c. 1200. The 3-year difference from Wikidata’s 1197 has no evidential basis either way.",
+    "checked": [
+      "https://www.britannica.com/topic/Inca/History",
+      "Brian S. Bauer, The Development of the Inca State (1992)"
+    ]
+  },
+  "polity-colonial-brazil:to": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 1815 marks Brazil’s elevation to a kingdom within the United Kingdom of Portugal, Brazil and the Algarves. We deliberately let this polity run until independence in 1822, so that the map shows continuous Portuguese rule.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Colonial_Brazil",
+      "https://en.wikipedia.org/wiki/United_Kingdom_of_Portugal,_Brazil_and_the_Algarves"
+    ]
+  },
+  "polity-viceroyalty-of-rio-de-la-plata:to": {
+    "verdict": "keep-ours",
+    "reason": "The May Revolution of 1810 removed the viceroy in Buenos Aires, but the last viceroy, Elío, governed from Montevideo until the royalist surrender of Montevideo in June 1814.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Viceroyalty_of_the_Río_de_la_Plata",
+      "https://www.britannica.com/place/Viceroyalty-of-the-Rio-de-la-Plata"
+    ]
+  },
+  "polity-chile:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata uses the first junta of 18 September 1810. Royalist forces reconquered Chile in 1814 (Rancagua), and independence was declared in February 1818. Our polity starts in 1818, with the Captaincy General covering the years before.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Chilean_Declaration_of_Independence",
+      "Simon Collier & William F. Sater, A History of Chile (2004)"
+    ]
+  },
+  "polity-uruguay:from": {
+    "verdict": "keep-ours",
+    "reason": "The declaration at Florida (1825) was followed by the Cisplatine War; Uruguay became a sovereign state with the Treaty of Montevideo (preliminary peace) in August 1828.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Treaty_of_Montevideo_(1828)",
+      "https://www.britannica.com/place/Uruguay/History"
+    ]
+  },
+  "polity-venezuela:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 1811 is the first declaration of independence. Venezuela was part of Gran Colombia from 1819 and became a separate state in 1830, which is where our polity starts, after polity-gran-colombia.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Gran_Colombia",
+      "https://www.britannica.com/place/Venezuela/History"
+    ]
+  },
+  "polity-ecuador:from": {
+    "verdict": "keep-ours",
+    "reason": "Ecuador seceded from Gran Colombia on 13 May 1830 and adopted its first constitution that year. Wikidata’s 1840 has no basis we could find.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Ecuador",
+      "https://www.britannica.com/place/Ecuador/History"
+    ]
+  },
+  "polity-colombia:from": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s 1810 is the Cry of Independence in Bogotá. Our modern polity begins with the Republic of New Granada (1831), after the dissolution of Gran Colombia, which has its own record.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Republic_of_New_Granada",
+      "https://www.britannica.com/place/Colombia/History"
+    ]
+  },
+  "polity-brazil:from": {
+    "verdict": "keep-ours",
+    "reason": "Brazil’s independence (1822) is represented by separate records, polity-empire-of-brazil (1822–89) and polity-first-brazilian-republic (1889–1930). This record covers the modern state from the Vargas era (1930).",
+    "checked": [
+      "https://en.wikipedia.org/wiki/History_of_Brazil",
+      "Boris Fausto, A Concise History of Brazil (1999)"
+    ]
+  },
+  "ev-berbice-slave-uprising:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata’s point is New Amsterdam at the mouth of the Berbice and Canje rivers, a town laid out only in the 1790s. The rising spread along both rivers; our marker is Fort Nassau, the seat of the colony, which Governor van Hoogenheim abandoned in 1763 (Kars, Blood on the River).",
+    "checked": [
+      "https://www.britannica.com/place/Guyana/History",
+      "https://en.wikipedia.org/wiki/Berbice_Rebellion"
+    ]
+  }
+}

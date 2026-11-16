@@ -94,5 +94,90 @@
       "https://www.britannica.com/place/Silla (via search)",
       "Kim Bu-sik, Samguk sagi, Silla bongi (Gyeongsun 9)"
     ]
+  },
+  "ev-mount-koya:year": {
+    "verdict": "keep-ours",
+    "reason": "Emperor Saga granted Kōyasan to Kūkai in 816 (the founding date used by Britannica and Kōyasan itself); Wikidata 810 has no support we could find. The first temple was consecrated c. 819.",
+    "checked": [
+      "https://www.britannica.com/biography/Kukai",
+      "https://www.koya.org/?p=126"
+    ]
+  },
+  "ev-tenmei-famine:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata gives a generic centre of Japan (35N 136E). The famine was worst in the northeast (Tsugaru, Nanbu); ours is Hirosaki in Tsugaru.",
+    "checked": [
+      "Conrad Totman, Early Modern Japan (1993), ch. 13",
+      "https://en.wikipedia.org/wiki/Tenmei_famine"
+    ]
+  },
+  "ev-satsuma-rebellion:year": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata start date 2005 is a data error; the rebellion ran February–September 1877.",
+    "checked": [
+      "https://www.britannica.com/event/Satsuma-Rebellion",
+      "https://en.wikipedia.org/wiki/Satsuma_Rebellion"
+    ]
+  },
+  "ev-satsuma-rebellion:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 33N 131E is a rounded placeholder in central Kyushu. Ours is Shiroyama, Kagoshima, where the rising began and ended.",
+    "checked": [
+      "Mark Ravina, The Last Samurai (2004)",
+      "https://en.wikipedia.org/wiki/Battle_of_Shiroyama"
+    ]
+  },
+  "ev-pacific-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 0N 160W is a placeholder in the open Pacific. Ours is Tokyo (Imperial General Headquarters); the route carries the campaign stops.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Pacific_War"
+    ]
+  },
+  "ev-goryeo-khitan-war:endYear": {
+    "verdict": "keep-ours",
+    "reason": "The last invasion was destroyed at Gwiju in 1019; Wikidata 1022 marks the formal peace (Goryeo adopting the Liao calendar). The record note explains both.",
+    "checked": [
+      "Goryeosa, annals of Hyeonjong",
+      "https://en.wikipedia.org/wiki/Goryeo%E2%80%93Khitan_War"
+    ]
+  },
+  "ev-goryeo-khitan-war:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 37.5N 127E is a placeholder near Seoul. Ours is Gwiju (Kusong), site of the decisive 1019 battle; the route covers 993–1019.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Battle_of_Kuju"
+    ]
+  },
+  "ev-wihwado-retreat:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata uses Kaesong, where the coup ended. The retreat itself took place on Wihwa Island in the Yalu (Sindo County, near Sinuiju); ours is the island.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Wihwa_Island",
+      "Goryeosa, biography of Yi Seong-gye"
+    ]
+  },
+  "ev-provisional-government-of-korea:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata places the item in Seoul, but the government was founded and sat in the French Concession of Shanghai (later Hangzhou, Changsha, Chongqing).",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Provisional_Government_of_the_Republic_of_Korea",
+      "Chong-sik Lee, The Politics of Korean Nationalism (1963)"
+    ]
+  },
+  "ev-may-16-coup:coord": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata 36N 128E is the centroid of South Korea. The coup troops crossed the Han River bridges and seized Seoul.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/May_16_coup"
+    ]
+  },
+  "polity-azuchi-momoyama:to": {
+    "verdict": "keep-ours",
+    "reason": "Wikidata ends the period at Sekigahara (1600). We end it in 1603, when Ieyasu became shogun, so the succession band joins the Tokugawa shogunate; the record note explains the choice.",
+    "checked": [
+      "https://www.britannica.com/event/Azuchi-Momoyama-period",
+      "Mary Elizabeth Berry, Hideyoshi (1982)"
+    ]
   }
 }

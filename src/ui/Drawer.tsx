@@ -21,7 +21,7 @@ export function Drawer() {
       .filter((e) => inRegion(e) && (e.endYear ? year >= e.year - 5 && year <= e.endYear + 5 : Math.abs(e.year - year) <= 15))
       .sort((a, b) => Math.abs(a.year - year) - Math.abs(b.year - year) || b.importance - a.importance)
       .slice(0, 8);
-    const people = atlas.people.filter((p) => inRegion(p) && year >= p.born && year <= p.died);
+    const people = atlas.people.filter((p) => inRegion(p) && year >= p.born && year <= (p.died ?? Infinity));
     return { polities, events, people };
   }, [atlas, year, region]);
 

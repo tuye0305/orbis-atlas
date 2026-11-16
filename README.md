@@ -1,6 +1,6 @@
 # Orbis · 寰宇时序 — Chronicles of the World
 
-**An interactive 3D historical atlas of Europe, Africa and Asia across the last 2,000 years.**
+**An interactive 3D historical atlas of the whole world — Europe, Africa, Asia, the Americas and Oceania — across the last 2,000 years.**
 Turn the globe, fly to a region, scrub the timeline from 1 CE to today, and watch borders shift,
 dynasties rise and fall, wars march across the map, famous people travel their lives, and city
 names change with their rulers (Byzantion → Constantinople → Istanbul; 长安 → 西安). Each region
@@ -16,12 +16,13 @@ has its own soundtrack, and the music crossfades as you turn the globe.
 | | |
 | --- | --- |
 | **3D globe** | three.js + three-globe. A custom "engraved atlas" shader gives parchment land with hill-shading, ink-blue seas, gold coastlines and a graticule. Lifted, colour-keyed polity caps keep one colour per lineage (Rome → Byzantium; Han → Tang → Ming → Qing) as borders move. |
-| **Regions** | Europe · Africa · West Asia · Central Asia · South Asia · East Asia · Southeast Asia: the camera flies there along a great-circle arc. Rotating freely also changes the region (and the music) under the camera. |
+| **Regions** | Europe · Africa · West Asia · Central Asia · South Asia · East Asia · Southeast Asia · North America · Mesoamerica · South America · Oceania: the camera flies there along a great-circle arc. Rotating freely also changes the region (and the music) under the camera. |
 | **Timeline** | Scrub or play 1 → 2025 CE at 5/12/30 years per second. Dynasty bands for the current region, event ticks, and the ruler reigning that year. |
+| **Stories** | Records carry a longer `story` (anecdotes, context, consequences) shown under the summary; stories ship in a separate lazily loaded `stories.json`. |
 | **Events** | Battles, wars, foundings and falls, treaties, religion, science, exploration and disasters. Pins glow near their year, and wars and expeditions draw animated campaign routes. |
 | **People** | Portraits stand where each person was in the current year. Opening a biography draws the numbered journey; step through it with ‹ › and the year follows. |
 | **Place genealogy** | City labels change as you scrub. A city's card lists every historical name, the polity that ruled it, its capital periods and the events that happened there. |
-| **Music** | One original instrumental score per region (plus an open-sea track), generated with ElevenLabs Music via WaveSpeed from the prompts in `music/prompts.json`: lute, viol and harp for Europe, kora and balafon for Africa, oud and ney for West Asia, dombra and horse-head fiddle for the steppe, sitar over tanpura for South Asia, guzheng and dizi for East Asia, gamelan and suling flute for Southeast Asia. The player streams `public/music/*.mp3` and crossfades over 3.5 s when the region under the camera changes. Regenerate with `node scripts/gen-music.mjs` (see the script header for providers and keys). To choose between takes, `scripts/score-music.py` rates each one with Meta’s Audiobox Aesthetics model; keep the higher “content enjoyment”. The procedural Web Audio score remains only as a fallback for builds without tracks. |
+| **Music** | One original instrumental score per region (plus an open-sea track), generated with ElevenLabs Music via WaveSpeed from the prompts in `music/prompts.json`: lute, viol and harp for Europe, kora and balafon for Africa, oud and ney for West Asia, dombra and horse-head fiddle for the steppe, sitar over tanpura for South Asia, guzheng and dizi for East Asia, gamelan and suling flute for Southeast Asia. The player streams `public/music/*.mp3` and crossfades over 3.5 s when the region under the camera changes. Regenerate with `node scripts/gen-music.mjs` (see the script header for providers and keys). To choose between takes, `scripts/score-music.py` rates each one with Meta’s Audiobox Aesthetics model; keep the higher “content enjoyment”. The procedural Web Audio score remains only as a fallback for builds without tracks. The Americas and Oceania have no recorded tracks yet: they play the open-sea track (and the top bar says so) until tracks are generated for them, while the procedural fallback has a score for every region (cedar flute and frame drum, clay flutes and teponaztli, siku panpipes and charango, didgeridoo and clapsticks). |
 | **Bilingual** | English / 简体中文 (`?lang=zh`). |
 | **Deep links** | `?year=1453&place=place-istanbul`, `?person=person-ibn-battuta`, `?event=…`, `?polity=…` |
 
@@ -39,7 +40,7 @@ Keys: `⌘K` or `/` search · `Space` play · `←/→` next event or journey st
 
 Every curated record carries its **Wikidata QID**, at least two **sources** (one non-Wikipedia
 where possible) and a **confidence** level. The build diffs each curated year and coordinate
-against Wikidata and writes [`data/verification/AUTO-DIFF.md`](data/verification/AUTO-DIFF.md).
+against Wikidata and writes one report per dataset to [`data/verification/auto-diff/`](data/verification/auto-diff/).
 Verifiers resolve every difference against a second independent source in
 `data/verification/resolutions.json`. Known source errors in the border layer are fixed in
 `data/borders/corrections.json`, and the China area of every snapshot is replaced by
@@ -55,14 +56,16 @@ npm install
 npm run dev                         # http://localhost:5173
 ```
 
-Data pipeline (outputs are committed, so you only need this when you change data):
+Data pipeline. The Wikidata/Commons caches (`data/cache/<dataset>/`) and verification reports are
+committed; `public/data/atlas.json` and `stories.json` are build outputs that `npm run dev` and
+`npm run build` regenerate from them, offline:
 
 ```bash
 node scripts/wd.mjs search "Battle of Hastings"   # find a QID
 node scripts/wd.mjs lookup Q83224                  # Wikidata facts for a QID
 node scripts/validate-data.mjs                     # schema + cross-reference checks
-node scripts/wd.mjs enrich                         # fetch Wikidata/Commons facts into data/cache
-node scripts/build-data.mjs                        # → public/data/atlas.json + auto-diff report
+node scripts/wd.mjs enrich [dataset]               # fetch Wikidata/Commons facts into data/cache/<dataset>/
+node scripts/build-data.mjs                        # → public/data/{atlas,stories}.json + auto-diff reports
 node scripts/build-borders.mjs <historical-basemaps>/geojson <jiangshan-map>   # → public/data/borders
 npm run shots                                      # Playwright smoke test + screenshots
 ```

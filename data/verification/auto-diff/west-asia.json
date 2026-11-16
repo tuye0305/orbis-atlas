@@ -1,0 +1,1190 @@
+[
+ {
+  "key": "ev-bar-kokhba-revolt:coord",
+  "id": "ev-bar-kokhba-revolt",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.7311,
+   35.1358
+  ],
+  "wikidata": [
+   32.5,
+   34.9
+  ],
+  "qid": "Q334502",
+  "km": 88,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Ours marks Betar (Battir), the revolt's last stronghold per Cassius Dio and Eusebius; Wikidata's 32.5,34.9 is a generic point on the coastal plain. Note added.",
+   "checked": [
+    "Encyclopaedia Britannica: Second Jewish Revolt (https://www.britannica.com/event/Second-Jewish-Revolt)",
+    "Cassius Dio, Roman History 69.12–14"
+   ]
+  }
+ },
+ {
+  "key": "ev-byzantine-sasanian-war-602:coord",
+  "id": "ev-byzantine-sasanian-war-602",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   36.36,
+   43.15
+  ],
+  "wikidata": [
+   33.7,
+   43.5
+  ],
+  "qid": "Q2326099",
+  "km": 297,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Nineveh, site of Heraclius' decisive victory in December 627 (noted in record); Wikidata's 33.7,43.5 is an arbitrary central-Iraq point.",
+   "checked": [
+    "J. Howard-Johnston, The Last Great War of Antiquity (2021)",
+    "Encyclopaedia Britannica: Heraclius"
+   ]
+  }
+ },
+ {
+  "key": "ev-early-muslim-conquests:year",
+  "id": "ev-early-muslim-conquests",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 632,
+  "wikidata": 622,
+  "qid": "Q275918",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Expansion beyond Arabia begins after Muhammad's death in 632 (Ridda wars, 633 Iraq campaign); Wikidata's 622 folds in Muhammad's own Arabian campaigns. Kennedy and Britannica start the conquests in 632/633.",
+   "checked": [
+    "H. Kennedy, The Great Arab Conquests (2007)",
+    "Encyclopaedia Britannica: Islamic world – the conquests"
+   ]
+  }
+ },
+ {
+  "key": "ev-battle-of-nahavand:coord",
+  "id": "ev-battle-of-nahavand",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   34.19,
+   48.37
+  ],
+  "wikidata": [
+   31.583,
+   44.5
+  ],
+  "qid": "Q603549",
+  "km": 463,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's 31.583,44.5 duplicates the al-Qadisiyyah coordinate in Iraq. Nahavand lies in the Zagros at c. 34.19 N, 48.37 E, where the curated point sits.",
+   "checked": [
+    "Encyclopaedia Britannica: Battle of Nahavand (https://www.britannica.com/event/Battle-of-Nahavand)",
+    "Wikidata Q836844 (al-Qadisiyyah): identical coordinates 31.583,44.5"
+   ]
+  }
+ },
+ {
+  "key": "ev-abbasid-revolution:coord",
+  "id": "ev-abbasid-revolution",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   32.0288,
+   44.4011
+  ],
+  "wikidata": [
+   36,
+   62
+  ],
+  "qid": "Q5933860",
+  "km": 1678,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Movement spanned Khorasan to Iraq; curated point is Kufa, where al-Saffah was proclaimed caliph (749); the route starts near Merv (June 747, Iranica). Wikidata's 36,62 is a vague Khorasan point. Note added.",
+   "checked": [
+    "Encyclopaedia Iranica: Abū Moslem (https://www.iranicaonline.org/?p=47484) – declaration Ramaḍān/Šawwāl 129 = June 747 near Merv",
+    "Encyclopaedia Britannica: Abbasid caliphate"
+   ]
+  }
+ },
+ {
+  "key": "ev-shahnameh:year",
+  "id": "ev-shahnameh",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1010,
+  "wikidata": 1000,
+  "qid": "Q8279",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Iranica (Ferdowsi, i. Life) dates the completed second redaction to 25 Esfand 378 Š. / 400 AH = 8 March 1010; c. 1000 on Wikidata is a vague floruit. A first version was finished in 384/994.",
+   "checked": [
+    "Encyclopaedia Iranica: Ferdowsi, Abu'l-Qāsem i. Life (https://www.iranicaonline.org/articles/ferdowsi-i)",
+    "Review of A. Khatibi in Al-ʿUṣūr al-Wusṭā (Columbia)"
+   ]
+  }
+ },
+ {
+  "key": "ev-first-crusade-levant:coord",
+  "id": "ev-first-crusade-levant",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   36.2025,
+   36.1606
+  ],
+  "wikidata": [
+   34,
+   36
+  ],
+  "qid": "Q51649",
+  "km": 245,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Record renamed from ev-first-crusade (id collided with data/europe). Point at Antioch, the crusade's longest siege (1097–98), is defensible; Wikidata's 34,36 is a generic Levant point. Old key not used, to avoid resolving the Europe record's diff.",
+   "checked": [
+    "Encyclopaedia Britannica: First Crusade",
+    "T. Asbridge, The First Crusade: A New History (2004)"
+   ]
+  }
+ },
+ {
+  "key": "ev-ottoman-mamluk-war:coord",
+  "id": "ev-ottoman-mamluk-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   36.53,
+   37.27
+  ],
+  "wikidata": [
+   39,
+   35
+  ],
+  "qid": "Q4338038",
+  "km": 339,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Point is Marj Dabiq (Dabiq village, c. 36.53 N 37.27 E), the decisive battle of 24 August 1516; Wikidata's 39,35 is a central-Anatolia centroid.",
+   "checked": [
+    "Encyclopaedia Britannica: Ottoman Empire – Selim I",
+    "Ibn Iyas, Bada'i al-Zuhur"
+   ]
+  }
+ },
+ {
+  "key": "ev-isfahan-capital:year",
+  "id": "ev-isfahan-capital",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1598,
+  "wikidata": 1591,
+  "qid": "Q4519",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's 1591 is the inception of Naqsh-e Jahan Square (the linked item), not the transfer. Iranica: most scholars date the move from Qazvin to Isfahan to 1006/1598, though it was gradual.",
+   "checked": [
+    "Encyclopaedia Iranica: Isfahan vii. Safavid period (https://iranicaonline.org/articles/isfahan-vii-safavid-period)",
+    "Encyclopaedia Iranica: Abbas I",
+    "De Gruyter/Edinburgh UP chronology: 1598 official transfer of capital to Isfahan (https://www.degruyterbrill.com/document/doi/10.1515/9780748633760-007/pdf)"
+   ]
+  }
+ },
+ {
+  "key": "ev-treaty-of-turkmenchay:coord",
+  "id": "ev-treaty-of-turkmenchay",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   37.6,
+   47.39
+  ],
+  "wikidata": [
+   38.0739,
+   46.2961
+  ],
+  "qid": "Q875512",
+  "km": 110,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Treaty was signed at the village of Torkamanchay (c. 37.60 N, 47.39 E) in East Azerbaijan; Wikidata's coordinate is Tabriz, ~110 km away.",
+   "checked": [
+    "Georgian Encyclopedia: Treaty of Turkmenchay (https://georgianencyclopedia.ge/ka/form_eng/943)",
+    "APA: city which hosted Turkmenchay treaty (https://en.apa.az/south-azerbaijan/city-which-hosted-turkmenchay-treaty-research-416201)"
+   ]
+  }
+ },
+ {
+  "key": "ev-persian-constitutional-revolution:coord",
+  "id": "ev-persian-constitutional-revolution",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.6889,
+   51.3897
+  ],
+  "wikidata": [
+   32,
+   53
+  ],
+  "qid": "Q1368440",
+  "km": 436,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The bast protests, the Majles and the 1906 constitution were centred in Tehran; Wikidata's 32,53 is Iran's centroid.",
+   "checked": [
+    "Encyclopaedia Britannica: Constitutional Revolution",
+    "E. Abrahamian, Iran Between Two Revolutions (1982)"
+   ]
+  }
+ },
+ {
+  "key": "ev-young-turk-revolution:coord",
+  "id": "ev-young-turk-revolution",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   40.6401,
+   22.9444
+  ],
+  "wikidata": [
+   41,
+   29
+  ],
+  "qid": "Q4298662",
+  "km": 511,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The CUP was headquartered in Salonica and the July 1908 revolt began in Ottoman Macedonia (Resne, Monastir); Wikidata's 41,29 is a generic Istanbul-area point. Symbolic placement noted in record.",
+   "checked": [
+    "Encyclopaedia Britannica: Young Turk Revolution of 1908",
+    "F. Ahmad, The Young Turks (1969)"
+   ]
+  }
+ },
+ {
+  "key": "ev-armenian-genocide:coord",
+  "id": "ev-armenian-genocide",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.336,
+   40.14
+  ],
+  "wikidata": [
+   41,
+   29
+  ],
+  "qid": "Q80034",
+  "km": 1158,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Deir ez-Zor was the terminus of the deportation routes and the site of the largest massacres of 1916; Wikidata's 41,29 (Istanbul area) marks only the 24 April arrests. Symbolic placement noted.",
+   "checked": [
+    "R. G. Suny, They Can Live in the Desert but Nowhere Else (2015)",
+    "Encyclopaedia Britannica: Armenian Genocide"
+   ]
+  }
+ },
+ {
+  "key": "ev-arab-revolt:year",
+  "id": "ev-arab-revolt",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1916,
+  "wikidata": 1918,
+  "qid": "Q239060",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The revolt was proclaimed at Mecca on 10 June 1916 and ended with the entry into Damascus in October 1918; Wikidata's start-type value 1918 conflicts with its own 1916 start.",
+   "checked": [
+    "Encyclopaedia Britannica: Arab Revolt",
+    "E. Rogan, The Fall of the Ottomans (2015)"
+   ]
+  }
+ },
+ {
+  "key": "ev-saudi-arabia-1932:year",
+  "id": "ev-saudi-arabia-1932",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1932,
+  "wikidata": 1902,
+  "qid": "Q251600",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The Wikidata item is the 1902–1932 unification process; the event plotted is the royal decree proclaiming the Kingdom of Saudi Arabia, effective 23 September 1932 (National Day).",
+   "checked": [
+    "Encyclopaedia Britannica: Saudi Arabia – the kingdom of Saudi Arabia",
+    "M. al-Rasheed, A History of Saudi Arabia (2010)"
+   ]
+  }
+ },
+ {
+  "key": "ev-saudi-arabia-1932:coord",
+  "id": "ev-saudi-arabia-1932",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   24.6333,
+   46.7167
+  ],
+  "wikidata": [
+   23,
+   46
+  ],
+  "qid": "Q251600",
+  "km": 196,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Riyadh was Ibn Saud's capital and seat of the proclamation; Wikidata's 23,46 is a generic central-Arabia point.",
+   "checked": [
+    "Encyclopaedia Britannica: Riyadh",
+    "M. al-Rasheed, A History of Saudi Arabia (2010)"
+   ]
+  }
+ },
+ {
+  "key": "ev-iranian-revolution:coord",
+  "id": "ev-iranian-revolution",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.6889,
+   51.3897
+  ],
+  "wikidata": [
+   32,
+   53
+  ],
+  "qid": "Q126065",
+  "km": 436,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The decisive demonstrations, Khomeini's return and the February 1979 collapse of the monarchy took place in Tehran; Wikidata gives Iran's centroid.",
+   "checked": [
+    "Encyclopaedia Britannica: Iranian Revolution of 1978–79",
+    "E. Abrahamian, A History of Modern Iran (2008)"
+   ]
+  }
+ },
+ {
+  "key": "ev-iran-iraq-war:coord",
+  "id": "ev-iran-iraq-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   30.4397,
+   48.1664
+  ],
+  "wikidata": [
+   32,
+   53
+  ],
+  "qid": "Q82664",
+  "km": 491,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Khorramshahr on the Shatt al-Arab was the war's emblematic front (taken 1980, retaken 1982); Wikidata gives Iran's centroid, far from the fighting.",
+   "checked": [
+    "Encyclopaedia Britannica: Iran-Iraq War",
+    "P. Razoux, The Iran–Iraq War (2015)"
+   ]
+  }
+ },
+ {
+  "key": "ev-iraq-war:coord",
+  "id": "ev-iraq-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.3153,
+   44.3661
+  ],
+  "wikidata": [
+   33,
+   43
+  ],
+  "qid": "Q545449",
+  "km": 132,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Baghdad, whose fall on 9 April 2003 ended Saddam's government, is a better anchor than Wikidata's 33,43 desert point west of the capital.",
+   "checked": [
+    "Encyclopaedia Britannica: Iraq War",
+    "T. E. Ricks, Fiasco (2006)"
+   ]
+  }
+ },
+ {
+  "key": "ev-nizamiyya-baghdad:year",
+  "id": "ev-nizamiyya-baghdad",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1067,
+  "wikidata": 1065,
+  "qid": "Q4703031",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The college was founded in 457 AH/1065 and inaugurated in Dhu al-Qa'da 459 AH/September 1067 (Makdisi; Britannica 'Nizamiyyah' gives 1067). The record marks the opening; Wikidata's 1065 is the founding. Note added.",
+   "checked": [
+    "https://www.britannica.com/place/Nizamiyyah (via search)",
+    "https://www.ilmgate.org/wp-content/uploads/2011/02/Muslim-Institutions-of-Learning-in-Eleventh-Century-Baghdad.pdf"
+   ]
+  }
+ },
+ {
+  "key": "ev-hejaz-railway:coord",
+  "id": "ev-hejaz-railway",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   24.4672,
+   39.6024
+  ],
+  "wikidata": [
+   32.6298,
+   36.1037
+  ],
+  "qid": "Q924225",
+  "km": 970,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's point (32.63, 36.10) is near Daraa on the northern section. The event is the line reaching Medina, its terminus, formally opened on 1 September 1908 (Otago Witness, 21 Oct 1908; The Spectator, 5 Sep 1908).",
+   "checked": [
+    "https://paperspast.natlib.govt.nz/newspapers/OW19081021.2.225.3",
+    "https://archive.spectator.co.uk/article/5th-september-1908/2/the-times-of-thursday-published-an-extremely-inter"
+   ]
+  }
+ },
+ {
+  "key": "ev-trajan-parthian-campaign:coord",
+  "id": "ev-trajan-parthian-campaign",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.0936,
+   44.5808
+  ],
+  "wikidata": [
+   34,
+   36
+  ],
+  "qid": "Q3651751",
+  "km": 801,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Ctesiphon, the Parthian capital Trajan took in 116 (route carries the other stops); Wikidata 34,36 is a generic Syria point near Homs, outside the theatre of operations.",
+   "checked": [
+    "Cassius Dio, Roman History 68.28",
+    "Encyclopaedia Britannica: Trajan"
+   ]
+  }
+ },
+ {
+  "key": "ev-julian-persian-expedition:coord",
+  "id": "ev-julian-persian-expedition",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.0936,
+   44.5808
+  ],
+  "wikidata": [
+   33.7,
+   43.5
+  ],
+  "qid": "Q1229305",
+  "km": 121,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Ctesiphon, where Julian fought his main battle in 363; Wikidata 33.7,43.5 is an undefined point in the Anbar desert. Route records Antioch, Carrhae and the retreat.",
+   "checked": [
+    "Ammianus Marcellinus, Res Gestae 24.6",
+    "Encyclopaedia Britannica: Julian"
+   ]
+  }
+ },
+ {
+  "key": "ev-battle-of-avarayr:coord",
+  "id": "ev-battle-of-avarayr",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.83,
+   45.0347
+  ],
+  "wikidata": [
+   39.3388,
+   45.0571
+  ],
+  "qid": "Q734700",
+  "km": 57,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "2026-11 review: the battle was fought on the Avarayr plain by the village of Churs (Chors) in West Azerbaijan, Iran (Wikidata Q5958318: 38.83, 45.035). Wikidata 39.34, 45.06 lies about 57 km further north, near Maku; it was copied from an infobox and does not match the plain the article itself names.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Churs",
+    "https://www.iranicaonline.org/articles/avarayr"
+   ]
+  }
+ },
+ {
+  "key": "ev-marib-dam-collapse:year",
+  "id": "ev-marib-dam-collapse",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 570,
+  "wikidata": 1986,
+  "qid": "Q2303666",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Q2303666 covers the Marib dam site; its inception 1986 is the modern replacement dam. This record is the final breach of the ancient Sabaean dam in the late 6th century (low confidence, note).",
+   "checked": [
+    "Encyclopaedia Britannica: Maʾrib",
+    "Qurʾān 34:15–16 and inscriptions CIH 541 (repairs 548)"
+   ]
+  }
+ },
+ {
+  "key": "ev-ridda-wars:coord",
+  "id": "ev-ridda-wars",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   24.9,
+   46.45
+  ],
+  "wikidata": [
+   23,
+   46
+  ],
+  "qid": "Q1348630",
+  "km": 216,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at al-Yamama (Aqraba), site of the decisive battle against Musaylima in 632/633; Wikidata 23,46 is a centroid of Arabia.",
+   "checked": [
+    "E. Shoufani, Al-Riddah and the Muslim Conquest of Arabia (1973)",
+    "Encyclopaedia Britannica: Riddah"
+   ]
+  }
+ },
+ {
+  "key": "ev-babak-revolt:coord",
+  "id": "ev-babak-revolt",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.83,
+   47.03
+  ],
+  "wikidata": [
+   37.6,
+   47
+  ],
+  "qid": "Q133294500",
+  "km": 137,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Babak Fort (Badhdh) near Kaleybar, the rebels’ stronghold taken by Afshin in 837; Wikidata 37.6,47 is a generic Azerbaijan point.",
+   "checked": [
+    "Encyclopaedia Iranica: Bābak Ḵorramī",
+    "Encyclopaedia Britannica: Bābak"
+   ]
+  }
+ },
+ {
+  "key": "ev-zanj-rebellion:coord",
+  "id": "ev-zanj-rebellion",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   30.508,
+   47.783
+  ],
+  "wikidata": [
+   31.3189,
+   48.6842
+  ],
+  "qid": "Q759988",
+  "km": 125,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Basra, centre of the salt-flat labour and sacked by the Zanj in 871; Wikidata 31.32,48.68 is Ahvaz, which the rebels also took but which was peripheral.",
+   "checked": [
+    "A. Popovic, The Revolt of African Slaves in Iraq (1999)",
+    "Encyclopaedia Britannica: Zanj rebellion"
+   ]
+  }
+ },
+ {
+  "key": "ev-ottoman-capture-of-bursa:year",
+  "id": "ev-ottoman-capture-of-bursa",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1326,
+  "wikidata": 1317,
+  "qid": "Q1099263",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata gives the start of the blockade (1317); the city surrendered to Orhan on 2 Jumada I 726 AH = 6 April 1326, the date this record marks.",
+   "checked": [
+    "Turkish Ministry of Culture, Bursa: The First Capital City of the Ottoman Empire (https://bursa.ktb.gov.tr/EN-91280/the-first-capital-city-of-the-ottoman-empire.html)",
+    "H. İnalcık, The Ottoman Empire: The Classical Age (1973)"
+   ]
+  }
+ },
+ {
+  "key": "ev-celali-revolts:year",
+  "id": "ev-celali-revolts",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1595,
+  "wikidata": 1519,
+  "qid": "Q1052771",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata spans all Celali risings (1519–1659). This record is explicitly the great wave of c. 1595–1610 (Griswold; White), suppressed by Kuyucu Murad Pasha; note explains.",
+   "checked": [
+    "W. J. Griswold, The Great Anatolian Rebellion 1591–1611 (1983)",
+    "S. White, The Climate of Rebellion in the Early Modern Ottoman Empire (2011)"
+   ]
+  }
+ },
+ {
+  "key": "ev-celali-revolts:endYear",
+  "id": "ev-celali-revolts",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "endYear",
+  "ours": 1610,
+  "wikidata": 1659,
+  "qid": "Q1052771",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "See :year. The great revolts end with Kuyucu Murad Pasha’s campaigns of 1608–1610.",
+   "checked": [
+    "W. J. Griswold, The Great Anatolian Rebellion 1591–1611 (1983)"
+   ]
+  }
+ },
+ {
+  "key": "ev-ottoman-wahhabi-war:coord",
+  "id": "ev-ottoman-wahhabi-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   24.7333,
+   46.5756
+  ],
+  "wikidata": [
+   23,
+   46
+  ],
+  "qid": "Q1809288",
+  "km": 201,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Diriyah, besieged and destroyed by Ibrahim Pasha in 1818 (the war’s end); Wikidata 23,46 is an Arabia centroid. Route carries the Hejaz stops.",
+   "checked": [
+    "M. Al-Rasheed, A History of Saudi Arabia (2010)",
+    "UNESCO World Heritage: At-Turaif District in ad-Dirʿiyah (https://whc.unesco.org/en/list/1329/)"
+   ]
+  }
+ },
+ {
+  "key": "ev-mount-lebanon-1860:coord",
+  "id": "ev-mount-lebanon-1860",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   33.6967,
+   35.5803
+  ],
+  "wikidata": [
+   34.3008,
+   36.1158
+  ],
+  "qid": "Q3772246",
+  "km": 83,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Deir al-Qamar in Mount Lebanon, scene of one of the June 1860 massacres; Wikidata 34.30,36.12 lies in the northern Bekaa, away from the main violence. Note in record.",
+   "checked": [
+    "L. T. Fawaz, An Occasion for War (1994)",
+    "Encyclopaedia Britannica: Lebanon – History"
+   ]
+  }
+ },
+ {
+  "key": "ev-hamidian-massacres:coord",
+  "id": "ev-hamidian-massacres",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   38.33,
+   41.42
+  ],
+  "wikidata": [
+   41,
+   29
+  ],
+  "qid": "Q2092950",
+  "km": 1103,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Sasun, where the massacres began in 1894; Wikidata 41,29 (Istanbul) marks only the 1896 killings in the capital.",
+   "checked": [
+    "R. G. Suny, They Can Live in the Desert but Nowhere Else (2015)",
+    "Encyclopaedia Britannica: Armenian Genocide – background"
+   ]
+  }
+ },
+ {
+  "key": "ev-turkish-war-of-independence:year",
+  "id": "ev-turkish-war-of-independence",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1919,
+  "wikidata": 1922,
+  "qid": "Q234738",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata’s 1922 is a point-in-time value (the Mudanya armistice); its own start is 19 May 1919, Kemal’s landing at Samsun, which this record uses.",
+   "checked": [
+    "E. J. Zürcher, Turkey: A Modern History (2004)",
+    "Encyclopaedia Britannica: Turkish War of Independence"
+   ]
+  }
+ },
+ {
+  "key": "ev-turkish-war-of-independence:coord",
+  "id": "ev-turkish-war-of-independence",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.9334,
+   32.8597
+  ],
+  "wikidata": [
+   39,
+   35
+  ],
+  "qid": "Q234738",
+  "km": 211,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Ankara, seat of the Grand National Assembly from April 1920; Wikidata 39,35 is a centroid of Turkey. Route carries Samsun, Erzurum, Sivas, Sakarya, Dumlupınar, İzmir, Lausanne.",
+   "checked": [
+    "E. J. Zürcher, Turkey: A Modern History (2004)"
+   ]
+  }
+ },
+ {
+  "key": "ev-iraqi-revolt-1920:coord",
+  "id": "ev-iraqi-revolt-1920",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.53,
+   45.2
+  ],
+  "wikidata": [
+   33.8333,
+   35.8333
+  ],
+  "qid": "Q616851",
+  "km": 913,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata 33.83,35.83 is in Lebanon, clearly wrong. The revolt broke out at Rumaytha on the middle Euphrates (June 1920), where the record is plotted.",
+   "checked": [
+    "C. Tripp, A History of Iraq (2007)",
+    "Encyclopaedia Britannica: Iraq – British mandate"
+   ]
+  }
+ },
+ {
+  "key": "ev-1948-arab-israeli-war:coord",
+  "id": "ev-1948-arab-israeli-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.84,
+   34.98
+  ],
+  "wikidata": [
+   29.5,
+   34
+  ],
+  "qid": "Q49092",
+  "km": 277,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Latrun, on the fought-over road to Jerusalem (battles of May–July 1948); Wikidata 29.5,34 is in the southern Negev/Sinai. Note in record.",
+   "checked": [
+    "B. Morris, 1948 (2008)",
+    "Encyclopaedia Britannica: Arab-Israeli wars"
+   ]
+  }
+ },
+ {
+  "key": "ev-six-day-war:coord",
+  "id": "ev-six-day-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.7767,
+   35.2342
+  ],
+  "wikidata": [
+   28,
+   45
+  ],
+  "qid": "Q49077",
+  "km": 1030,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata 28,45 lies in the Saudi desert. Plotted at Jerusalem, whose eastern part Israel took on 7 June 1967; the war had three fronts.",
+   "checked": [
+    "M. B. Oren, Six Days of War (2002)",
+    "Encyclopaedia Britannica: Six-Day War"
+   ]
+  }
+ },
+ {
+  "key": "ev-uae-formed:coord",
+  "id": "ev-uae-formed",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   25.2397,
+   55.2708
+  ],
+  "wikidata": [
+   24.4,
+   54.3
+  ],
+  "qid": "Q878",
+  "km": 135,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata gives the UAE’s capital Abu Dhabi; the federation was proclaimed on 2 December 1971 at Union House (Al Ittihad), Dubai, where the record is plotted.",
+   "checked": [
+    "F. Heard-Bey, From Trucial States to United Arab Emirates (2004)",
+    "Etihad Museum, Dubai (site of the signing)"
+   ]
+  }
+ },
+ {
+  "key": "ev-first-intifada:coord",
+  "id": "ev-first-intifada",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.5314,
+   34.4836
+  ],
+  "wikidata": [
+   32,
+   35.35
+  ],
+  "qid": "Q49105",
+  "km": 97,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Jabalia camp, Gaza, where the uprising began on 8–9 December 1987; Wikidata 32,35.35 is a generic West Bank point.",
+   "checked": [
+    "R. Khalidi, The Hundred Years’ War on Palestine (2020)",
+    "Encyclopaedia Britannica: Intifada"
+   ]
+  }
+ },
+ {
+  "key": "ev-first-nagorno-karabakh-war:coord",
+  "id": "ev-first-nagorno-karabakh-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   39.8153,
+   46.7519
+  ],
+  "wikidata": [
+   40.3,
+   47.7
+  ],
+  "qid": "Q381375",
+  "km": 97,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Stepanakert (Khankendi), the region’s capital and focus of the conflict; Wikidata 40.3,47.7 is a lowland Azerbaijan point outside the mountain enclave.",
+   "checked": [
+    "T. de Waal, Black Garden (2003)"
+   ]
+  }
+ },
+ {
+  "key": "ev-yemeni-civil-war:coord",
+  "id": "ev-yemeni-civil-war",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   15.3694,
+   44.191
+  ],
+  "wikidata": [
+   15.5,
+   48
+  ],
+  "qid": "Q19686631",
+  "km": 409,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Sanaa, whose seizure by the Houthis in September 2014 began the war; Wikidata 15.5,48 is a centroid of Yemen.",
+   "checked": [
+    "UN OCHA Yemen (https://www.unocha.org/yemen)",
+    "Encyclopaedia Britannica: Yemen Civil War"
+   ]
+  }
+ },
+ {
+  "key": "ev-gaza-war-2023:coord",
+  "id": "ev-gaza-war-2023",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   31.5017,
+   34.4668
+  ],
+  "wikidata": [
+   34,
+   36
+  ],
+  "qid": "Q122962941",
+  "km": 313,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata 34,36 is in Lebanon. The war is centred on the Gaza Strip; plotted at Gaza City.",
+   "checked": [
+    "UN OCHA oPt situation reports (https://www.ochaopt.org/)"
+   ]
+  }
+ },
+ {
+  "key": "ev-ghaznavid-capture-of-rayy:year",
+  "id": "ev-ghaznavid-capture-of-rayy",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "year",
+  "ours": 1029,
+  "wikidata": 1012,
+  "qid": "Q135397374",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The QID is the wider Ghaznavid campaigns in Persia (1012–1034); this record is the capture of Rayy from Majd al-Dawla, dated March–May 1029 (Bosworth; Wikipedia: Majd al-Dawla). Note explains the proxy.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Majd_al-Dawla",
+    "https://en.wikipedia.org/wiki/Ghaznavid_campaigns_in_Persia"
+   ]
+  }
+ },
+ {
+  "key": "ev-ghaznavid-capture-of-rayy:coord",
+  "id": "ev-ghaznavid-capture-of-rayy",
+  "dataset": "west-asia",
+  "kind": "events",
+  "field": "coord",
+  "ours": [
+   35.5958,
+   51.4342
+  ],
+  "wikidata": [
+   30,
+   52
+  ],
+  "qid": "Q135397374",
+  "km": 624,
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Plotted at Rayy (Ray, south of modern Tehran), the city taken in 1029; Wikidata 30,52 is a generic point in Fars for the whole campaign series.",
+   "checked": [
+    "https://en.wikipedia.org/wiki/Majd_al-Dawla"
+   ]
+  }
+ },
+ {
+  "key": "person-al-mutanabbi:born",
+  "id": "person-al-mutanabbi",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 915,
+  "wikidata": 920,
+  "qid": "Q284542",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica gives born 915, Kufa, died 23 Sept 965 near Dayr al-ʿAqul; the 1911 Britannica gives 915/6. Wikidata’s 920 has no better source.",
+   "checked": [
+    "Encyclopaedia Britannica: al-Mutanabbī (https://www.britannica.com/biography/al-Mutanabbi)",
+    "Encyclopaedia Britannica (1911): Motanabbi"
+   ]
+  }
+ },
+ {
+  "key": "person-hasan-i-sabbah:born",
+  "id": "person-hasan-i-sabbah",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "born",
+  "ours": 1050,
+  "wikidata": 1037,
+  "qid": "Q124745907",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Daftary in Encyclopaedia Iranica: born Qom in the mid-440s AH / 1050s, died Alamut 518/1124. Wikidata’s 1037 rests on no early source. Record medium with note.",
+   "checked": [
+    "Encyclopaedia Iranica: Ḥasan Ṣabbāḥ (F. Daftary, 2003) (https://www.iranicaonline.org/?p=3265)",
+    "F. Daftary, The Ismāʿīlīs (2007)"
+   ]
+  }
+ },
+ {
+  "key": "person-osman-i:died",
+  "id": "person-osman-i",
+  "dataset": "west-asia",
+  "kind": "people",
+  "field": "died",
+  "ours": 1324,
+  "wikidata": 1326,
+  "qid": "Q83100",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Britannica: Osman died in 1324 or 1326; scholars place it in 1324, the year of Orhan’s first dated document, while tradition links it to the fall of Bursa (1326). Record low confidence, note gives both.",
+   "checked": [
+    "Encyclopaedia Britannica: Osman I (https://www.britannica.com/biography/Osman-I)",
+    "C. Kafadar, Between Two Worlds (1995)"
+   ]
+  }
+ },
+ {
+  "key": "polity-arsacid-armenia:from",
+  "id": "polity-arsacid-armenia",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 12,
+  "wikidata": 66,
+  "qid": "Q704151",
+  "resolution": {
+   "verdict": "disputed",
+   "reason": "12 CE (Vonones I, Wikipedia) vs. 52/53–66 for Tiridates I; Iranica says he was recognised in 63, crowned by Nero in 66, and no stable line formed until Vologases II. Record medium, note updated.",
+   "checked": [
+    "Encyclopaedia Iranica: Arsacids vii. The Arsacid dynasty of Armenia (https://iranicaonline.org/articles/arsacids-vii)",
+    "World History Encyclopedia: Arsacid Dynasty of Armenia (https://www.worldhistory.org/Arsacid_Dynasty_of_Armenia/)"
+   ]
+  }
+ },
+ {
+  "key": "polity-kingdom-of-georgia:to",
+  "id": "polity-kingdom-of-georgia",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "to",
+  "ours": 1490,
+  "wikidata": 1466,
+  "qid": "Q154667",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "1466 marks Bagrat VI's seizure of Imereti during the civil war; the unified kingdom ended with the formal partition of 1490–91, when Constantine II recognised Kakheti and Imereti. Record already medium with note.",
+   "checked": [
+    "D. Rayfield, Edge of Empires: A History of Georgia (2012)",
+    "Wikipedia: Collapse of the Georgian realm; Constantine II of Georgia (recognition of Kakheti and Imereti, 1490–91)"
+   ]
+  }
+ },
+ {
+  "key": "polity-saudi-arabia:from",
+  "id": "polity-saudi-arabia",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1932,
+  "wikidata": 1727,
+  "qid": "Q851",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "Wikidata's 1727 is the founding of the Emirate of Diriyah (first Saudi state); this record is the Kingdom of Saudi Arabia, proclaimed 1932.",
+   "checked": [
+    "Encyclopaedia Britannica: Saudi Arabia",
+    "M. al-Rasheed, A History of Saudi Arabia (2010)"
+   ]
+  }
+ },
+ {
+  "key": "polity-first-saudi-state:from",
+  "id": "polity-first-saudi-state",
+  "dataset": "west-asia",
+  "kind": "polities",
+  "field": "from",
+  "ours": 1727,
+  "wikidata": 1744,
+  "qid": "Q146871",
+  "resolution": {
+   "verdict": "keep-ours",
+   "reason": "The Saudi state officially dates its founding to Muhammad ibn Saud’s accession at Diriyah on 22 Feb 1727 (royal decree, Jan 2022, Founding Day); Wikidata’s 1744 is the alliance with Ibn Abd al-Wahhab. Note gives both.",
+   "checked": [
+    "Saudi Ministry of Foreign Affairs: Founding Day (https://mofa.gov.sa/en/ksa/Pages/foundingday.aspx)",
+    "M. Al-Rasheed, A History of Saudi Arabia (2010)"
+   ]
+  }
+ }
+]

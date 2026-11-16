@@ -1,0 +1,10232 @@
+{
+ "Q103285": {
+  "label": {
+   "en": "José Martí",
+   "zh": "何塞·马蒂"
+  },
+  "description": "Cuban poet, philosopher and nationalist (1853-1895)",
+  "coord": null,
+  "image": "José Martí retrato hecho en México 1875.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1853,
+   "date": "1853-01-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1895,
+   "date": "1895-05-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Martí",
+   "zh": "何塞·马蒂"
+  },
+  "locationQid": null
+ },
+ "Q1035336": {
+  "label": {
+   "en": "Caracol",
+   "zh": "卡拉科尔 (玛雅)"
+  },
+  "description": "Maya city in Belize",
+  "coord": {
+   "lat": 16.7639,
+   "lon": -89.1176
+  },
+  "image": "Caracol-Temple.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q30504598",
+   "Q473972"
+  ],
+  "wiki": {
+   "en": "Caracol",
+   "zh": "卡拉科尔 (玛雅)"
+  }
+ },
+ "Q105123270": {
+  "label": {
+   "en": "Tierra Blanca Joven eruption",
+   "zh": null
+  },
+  "description": "catastrophic volcanic eruption of Lake Ilopango in El Salvador",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7692360"
+  ],
+  "wiki": {
+   "en": "Tierra Blanca Joven eruption",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1061228": {
+  "label": {
+   "en": "Battle of Puebla",
+   "zh": "普埃布拉戰役"
+  },
+  "description": "1862 part of the French intervention in Mexico",
+  "coord": {
+   "lat": 19.05,
+   "lon": -98.2078
+  },
+  "image": "Batalla de Puebla, 5-5-1862 (1870).png",
+  "pointInTime": {
+   "year": 1862,
+   "date": "1862-05-05",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Puebla",
+   "zh": null
+  }
+ },
+ "Q1106019": {
+  "label": {
+   "en": "Florentine Codex",
+   "zh": "佛羅倫薩法典"
+  },
+  "description": "book by Bernardino de Sahagún",
+  "coord": null,
+  "image": "Centro america, bernardino de Sahagún, historia general de las cosas de nueva españa, 1576-77, cod. m.p. 220.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1575,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q47461344",
+   "Q87167",
+   "Q7725634",
+   "Q2891173"
+  ],
+  "wiki": {
+   "en": "Florentine Codex",
+   "zh": "佛罗伦萨手抄本"
+  },
+  "locationQid": null
+ },
+ "Q1106134": {
+  "label": {
+   "en": "Codex Zouche-Nuttall",
+   "zh": null
+  },
+  "description": "manuscript",
+  "coord": null,
+  "image": "Codex Zouche-Nuttall, page 20.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q87167"
+  ],
+  "wiki": {
+   "en": "Codex Zouche-Nuttall",
+   "zh": null
+  },
+  "locationQid": "Q23308"
+ },
+ "Q111168991": {
+  "label": {
+   "en": "Tzitzipandáquare",
+   "zh": null
+  },
+  "description": "Cazonci of the Irechikwa Ts'intsuntsani",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tzitzipandáquare",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1121487": {
+  "label": {
+   "en": "New Laws",
+   "zh": "印第安新法"
+  },
+  "description": "laws intended to prevent the exploitation and mistreatment of the indigenous peoples of the Americas",
+  "coord": null,
+  "image": "Leyes Nuevas1.jpg",
+  "pointInTime": {
+   "year": 1542,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q49371"
+  ],
+  "wiki": {
+   "en": "New Laws",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q11256": {
+  "label": {
+   "en": "Fidel Castro",
+   "zh": "菲德尔·卡斯特罗"
+  },
+  "description": "Cuban politician, author and revolutionary (1926–2016)",
+  "coord": null,
+  "image": "Fidel Castro 1950s.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1926,
+   "date": "1926-08-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2016,
+   "date": "2016-11-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fidel Castro",
+   "zh": "菲德尔·卡斯特罗"
+  },
+  "locationQid": null
+ },
+ "Q11264": {
+  "label": {
+   "en": "Cuban Revolution",
+   "zh": "古巴革命"
+  },
+  "description": "revolution in Cuba starting in 1953 culminating in 1959",
+  "coord": null,
+  "image": "Fidel Castro - MATS Terminal Washington 1959.jpg",
+  "pointInTime": {
+   "year": 1959,
+   "date": "1959-01-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1953,
+   "date": "1953-07-26",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1959,
+   "date": "1959-01-01",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Cuban Revolution",
+   "zh": "古巴革命"
+  },
+  "locationQid": "Q241"
+ },
+ "Q11270": {
+  "label": {
+   "en": "Fulgencio Batista",
+   "zh": "富尔亨西奥·巴蒂斯塔"
+  },
+  "description": "President of Cuba, 1940–1944; dictator, 1952-1959 (1901-1973)",
+  "coord": null,
+  "image": "Fulgencio Batista, 1938.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1901,
+   "date": "1901-01-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1973,
+   "date": "1973-08-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fulgencio Batista",
+   "zh": "富尔亨西奥·巴蒂斯塔"
+  },
+  "locationQid": null
+ },
+ "Q1128327": {
+  "label": {
+   "en": "Temple of Kukulcan",
+   "zh": "卡斯蒂略金字塔"
+  },
+  "description": "pyramid in Chichén Itzá",
+  "coord": {
+   "lat": 20.6829,
+   "lon": -88.5686
+  },
+  "image": "Chichen Itza 3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12516",
+   "Q44539"
+  ],
+  "wiki": {
+   "en": "El Castillo, Chichen Itza",
+   "zh": "卡斯蒂略金字塔"
+  }
+ },
+ "Q1131442": {
+  "label": {
+   "en": "Massacre in the Great Temple of Tenochtitlan",
+   "zh": "大神庙大屠杀"
+  },
+  "description": null,
+  "coord": {
+   "lat": 19.435,
+   "lon": -99.1314
+  },
+  "image": "Matanza templo2.jpg",
+  "pointInTime": {
+   "year": 1520,
+   "date": "1520-05-22",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915"
+  ],
+  "wiki": {
+   "en": "Massacre in the Great Temple of Tenochtitlan",
+   "zh": null
+  }
+ },
+ "Q113317928": {
+  "label": {
+   "en": "2024 Mexican general election",
+   "zh": "2024年墨西哥大选"
+  },
+  "description": "Mexican election",
+  "coord": null,
+  "image": "Elecciones federales de México, 2024 07.jpg",
+  "pointInTime": {
+   "year": 2024,
+   "date": "2024-06-02",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q76853179"
+  ],
+  "wiki": {
+   "en": "2024 Mexican general election",
+   "zh": "2024年墨西哥大选"
+  },
+  "locationQid": null
+ },
+ "Q114142": {
+  "label": {
+   "en": "Violeta Barrios de Chamorro",
+   "zh": "比奥莱塔·查莫罗"
+  },
+  "description": "Nicaraguan publisher of La Prensa and the first woman elected president of Nicaragua, in office from 1990 to 1997 (1929–2025)",
+  "coord": null,
+  "image": "Violeta Chamorro 1993.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1929,
+   "date": "1929-10-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2025,
+   "date": "2025-06-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Violeta Chamorro",
+   "zh": "比奥莱塔·查莫罗"
+  },
+  "locationQid": null
+ },
+ "Q1145411": {
+  "label": {
+   "en": "Grito de Dolores",
+   "zh": "多洛雷斯呼声"
+  },
+  "description": "call to arms triggering the Mexican War of Independence",
+  "coord": {
+   "lat": 21.1585,
+   "lon": -100.9342
+  },
+  "image": "Dolores hidalgo.jpg",
+  "pointInTime": {
+   "year": 1810,
+   "date": "1810-09-16",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Grito de Dolores",
+   "zh": "多洛雷斯呼声"
+  }
+ },
+ "Q1151454": {
+  "label": {
+   "en": "K'uk' B'alam I",
+   "zh": null
+  },
+  "description": "ajaw of Palenque",
+  "coord": null,
+  "image": "K'uk' B'alam I.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 397,
+   "date": "0397-03-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 435,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼukʼ Bahlam I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1151465": {
+  "label": {
+   "en": "Yohl Ik'nal",
+   "zh": null
+  },
+  "description": "ajaw of Palenque",
+  "coord": null,
+  "image": "Yohl Ik'nal.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 600,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 604,
+   "date": "0604-11-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yohl Ikʼnal",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q11851010": {
+  "label": {
+   "en": "Alonso López de Cerrato",
+   "zh": null
+  },
+  "description": "politician",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1187198": {
+  "label": {
+   "en": "Ten Tragic Days",
+   "zh": "十日悲剧"
+  },
+  "description": "series of events that took place in Mexico City during the Mexican Revolution",
+  "coord": null,
+  "image": "Decena trágica.JPG",
+  "pointInTime": {
+   "year": 1913,
+   "date": "1913-02-19",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1913,
+   "date": "1913-02-09",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1910,
+   "date": "1910-02-19",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "Ten Tragic Days",
+   "zh": "十日悲剧"
+  },
+  "locationQid": "Q1489"
+ },
+ "Q1189077": {
+  "label": {
+   "en": "Tututepec",
+   "zh": "图图特佩克"
+  },
+  "description": "Mesoamerican archaeological site",
+  "coord": {
+   "lat": 16.1167,
+   "lon": -97.6
+  },
+  "image": "Tututepec.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1063,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1522,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Tututepec",
+   "zh": null
+  }
+ },
+ "Q1189098": {
+  "label": {
+   "en": "Eight Deer Jaguar Claw",
+   "zh": "鹿八日虎爪"
+  },
+  "description": "Mixtec king of Tututepec and Tilantongo",
+  "coord": null,
+  "image": "Oaxaca ocho venado.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1063,
+   "date": "1063-10-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1115,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Eight Deer Jaguar Claw",
+   "zh": "鹿八日虎爪"
+  },
+  "locationQid": null
+ },
+ "Q12156176": {
+  "label": {
+   "en": "Bohechío",
+   "zh": null
+  },
+  "description": "native ruler of Taino people of Hispaniola, ruled 1492-1502",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1502,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1240667": {
+  "label": {
+   "en": "Donatien-Marie-Joseph de Rochambeau",
+   "zh": "多纳西安·德·罗尚博"
+  },
+  "description": "French soldier (1755–1813)",
+  "coord": null,
+  "image": "Donatien-Marie-Joseph de Rochambeau.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1755,
+   "date": "1755-04-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1813,
+   "date": "1813-09-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Donatien de Rochambeau",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q124693": {
+  "label": {
+   "en": "Parsley massacre",
+   "zh": "香菜大屠杀"
+  },
+  "description": "Haitian genocidal massacre carried out in fall 1937",
+  "coord": {
+   "lat": 19.631,
+   "lon": -70.29
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1937,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1937,
+   "date": "1937-10-02",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1937,
+   "date": "1937-10-08",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5533440"
+  ],
+  "wiki": {
+   "en": "Parsley massacre",
+   "zh": "香菜大屠殺"
+  }
+ },
+ "Q12583": {
+  "label": {
+   "en": "Spanish–American War",
+   "zh": "美西战争"
+  },
+  "description": "1898 conflict between Spain and the United States",
+  "coord": null,
+  "image": "Maine explosion.jpg",
+  "pointInTime": {
+   "year": 1898,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1898,
+   "date": "1898-04-25",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1898,
+   "date": "1898-08-11",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Spanish–American War",
+   "zh": "美西战争"
+  },
+  "locationQid": "Q1247"
+ },
+ "Q128160": {
+  "label": {
+   "en": "Cuban Missile Crisis",
+   "zh": "古巴导弹危机"
+  },
+  "description": "October 1962 confrontation between the Soviet Union, Cuba and the United States",
+  "coord": {
+   "lat": 23.1166,
+   "lon": -82.3885
+  },
+  "image": "Soviet-R-12-nuclear-ballistic missile.jpg",
+  "pointInTime": {
+   "year": 1962,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1962,
+   "date": "1962-10-14",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1962,
+   "date": "1962-10-28",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3002772",
+   "Q180684"
+  ],
+  "wiki": {
+   "en": "Cuban Missile Crisis",
+   "zh": "古巴导弹危机"
+  }
+ },
+ "Q1282634": {
+  "label": {
+   "en": "K'inich Kan B'alam II",
+   "zh": "強·巴魯姆二世"
+  },
+  "description": "ajaw of Palenque",
+  "coord": null,
+  "image": "ChanBahlumCatherwood.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 635,
+   "date": "0635-05-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 702,
+   "date": "0702-02-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼinich Kan Bahlam II",
+   "zh": "坎巴拉姆二世"
+  },
+  "locationQid": null
+ },
+ "Q1282732": {
+  "label": {
+   "en": "Guatemalan Civil War",
+   "zh": "危地马拉内战"
+  },
+  "description": "1960–1996 civil war in Guatemala",
+  "coord": {
+   "lat": 14.6333,
+   "lon": -90.5
+  },
+  "image": "Exhumation in the ixil triangle in Guatemala.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1965,
+   "date": "1965-03-03",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1996,
+   "date": "1996-12-29",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Guatemalan Civil War",
+   "zh": "危地马拉内战"
+  }
+ },
+ "Q1291562": {
+  "label": {
+   "en": "Spearthrower Owl",
+   "zh": "掷矛者猫头鹰"
+  },
+  "description": "Teothiuacan ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 400,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 439,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Spearthrower Owl",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q1308854": {
+  "label": {
+   "en": "La Noche Triste",
+   "zh": "悲痛之夜"
+  },
+  "description": "important event during the Spanish Conquest of Mexico, wherein Hernán Cortés, his invading army of Spanish conquistadors, and their native allies were driven out of the Aztec capital at Tenochtitlan",
+  "coord": {
+   "lat": 30.6641,
+   "lon": -109.2346
+  },
+  "image": "The Sad Night (Noche Triste) (Conquest of Mexico) Painting.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1520,
+   "date": "1520-06-30",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1520,
+   "date": "1520-07-01",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "La Noche Triste",
+   "zh": "悲痛之夜"
+  }
+ },
+ "Q131429": {
+  "label": {
+   "en": "Oaxaca de Juárez",
+   "zh": "瓦哈卡"
+  },
+  "description": "capital of the Mexican state of Oaxaca",
+  "coord": {
+   "lat": 17.0606,
+   "lon": -96.7253
+  },
+  "image": "Oaxaca centro.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1486,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20202352"
+  ],
+  "wiki": {
+   "en": "Oaxaca City",
+   "zh": "瓦哈卡"
+  }
+ },
+ "Q133808": {
+  "label": {
+   "en": "Agustín I of Mexico",
+   "zh": "阿古斯丁一世"
+  },
+  "description": "first constitutional emperor of Mexico (1783-1824)",
+  "coord": null,
+  "image": "Agustin I of Mexico.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1783,
+   "date": "1783-09-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1824,
+   "date": "1824-07-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Agustín de Iturbide",
+   "zh": "阿古斯丁一世 (墨西哥)"
+  },
+  "locationQid": null
+ },
+ "Q1339565": {
+  "label": {
+   "en": "Pierre Belain d'Esnambuc",
+   "zh": "皮埃尔·贝兰·德南比克"
+  },
+  "description": "governor of St. Christopher",
+  "coord": null,
+  "image": "La fondation de la Martinique en 1635.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1585,
+   "date": null,
+   "precision": 10,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1636,
+   "date": null,
+   "precision": 10,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pierre Belain d'Esnambuc",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q13695": {
+  "label": {
+   "en": "Tenochtitlan",
+   "zh": "特諾奇提特蘭"
+  },
+  "description": "former city-state in the Valley of Mexico",
+  "coord": {
+   "lat": 19.435,
+   "lon": -99.1314
+  },
+  "image": "Vista completa de Tenochtitlán.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1325,
+   "date": "1325-03-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1521,
+   "date": "1521-08-13",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2479824",
+   "Q1549591",
+   "Q133442"
+  ],
+  "wiki": {
+   "en": "Tenochtitlan",
+   "zh": "特諾奇提特蘭"
+  }
+ },
+ "Q13702": {
+  "label": {
+   "en": "Moctezuma I",
+   "zh": "蒙特祖马一世"
+  },
+  "description": "Aztec emperor (1398–1469)",
+  "coord": null,
+  "image": "Huehuemoteuczoma mendoza.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1398,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1469,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Moctezuma I",
+   "zh": "蒙特苏马一世"
+  },
+  "locationQid": null
+ },
+ "Q139274": {
+  "label": {
+   "en": "2012 phenomenon",
+   "zh": "2012年预言"
+  },
+  "description": "eschatological beliefs surrounding 21 December 2012",
+  "coord": null,
+  "image": "La Mojarra Inscription and Long Count date.jpg",
+  "pointInTime": {
+   "year": 2012,
+   "date": "2012-12-21",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2927074",
+   "Q618859",
+   "Q170337"
+  ],
+  "wiki": {
+   "en": "2012 phenomenon",
+   "zh": "2012年現象"
+  },
+  "locationQid": null
+ },
+ "Q141791": {
+  "label": {
+   "en": "Moctezuma II",
+   "zh": "蒙特祖馬二世"
+  },
+  "description": "9th tlatoani of Tenochtitlan and ruler of the Aztec Triple Alliance (1466-1520)",
+  "coord": null,
+  "image": "Moctezuma Xocoyotzin.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1466,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1520,
+   "date": "1520-06-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Moctezuma II",
+   "zh": "蒙特蘇馬二世"
+  },
+  "locationQid": null
+ },
+ "Q1433911": {
+  "label": {
+   "en": "Manuel José Arce",
+   "zh": "曼努埃尔·何塞·阿尔塞"
+  },
+  "description": "President of the Federal Republic of Central America (1787-1847)",
+  "coord": null,
+  "image": "Manuel José Arce y Fagoaga.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1787,
+   "date": "1787-01-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1847,
+   "date": "1847-12-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel José Arce",
+   "zh": "曼努埃尔·何塞·阿尔塞"
+  },
+  "locationQid": null
+ },
+ "Q1463516": {
+  "label": {
+   "en": "Nicaraguan Revolution",
+   "zh": "尼加拉瓜革命"
+  },
+  "description": "political and armed revolutionary process in Nicaragua that overthrew the Somoza dictatorship in 1979 and continued through the Contra conflict until 1990",
+  "coord": null,
+  "image": "Revolución sandinista.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1978,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1990,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931"
+  ],
+  "wiki": {
+   "en": "Nicaraguan Revolution",
+   "zh": "尼加拉瓜革命"
+  },
+  "locationQid": "Q811"
+ },
+ "Q147989": {
+  "label": {
+   "en": "Joaquín Balaguer",
+   "zh": "华金·巴拉格尔"
+  },
+  "description": "President of the Dominican Republic (1906-2002)",
+  "coord": null,
+  "image": "Joaquin Balaguer 1977.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1906,
+   "date": "1906-09-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2002,
+   "date": "2002-07-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Joaquín Balaguer",
+   "zh": "华金·巴拉格尔"
+  },
+  "locationQid": null
+ },
+ "Q1489": {
+  "label": {
+   "en": "Mexico City",
+   "zh": "墨西哥城"
+  },
+  "description": "capital and largest city of Mexico",
+  "coord": {
+   "lat": 19.3538,
+   "lon": -99.1359
+  },
+  "image": "Sobrevuelos CDMX HJ2A5091 (40386338731).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1521,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20528428",
+   "Q1549591",
+   "Q515",
+   "Q200250",
+   "Q51929311",
+   "Q174844",
+   "Q257391",
+   "Q1422929"
+  ],
+  "wiki": {
+   "en": "Mexico City",
+   "zh": "墨西哥城"
+  }
+ },
+ "Q150688": {
+  "label": {
+   "en": "Porfirio Díaz",
+   "zh": "波菲里奥·迪亚斯"
+  },
+  "description": "President of Mexico (1830–1915)",
+  "coord": null,
+  "image": "Porfirio Diaz.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1830,
+   "date": "1830-09-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1915,
+   "date": "1915-07-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Porfirio Díaz",
+   "zh": "波菲里奥·迪亚斯"
+  },
+  "locationQid": null
+ },
+ "Q1514908": {
+  "label": {
+   "en": "Cuban War of Independence",
+   "zh": "古巴獨立戰爭"
+  },
+  "description": "armed conflict between the United States, Cuba and Spain",
+  "coord": null,
+  "image": "An illustrated history of our war with Spain - its causes, incidents, and results (1898) (14579399380).jpg",
+  "pointInTime": {
+   "year": 1895,
+   "date": "1895-02-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1895,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1898,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q21994376"
+  ],
+  "wiki": {
+   "en": "Cuban War of Independence",
+   "zh": "古巴獨立戰爭"
+  },
+  "locationQid": "Q241"
+ },
+ "Q152474": {
+  "label": {
+   "en": "Rafael Trujillo",
+   "zh": "拉斐尔·特鲁希略"
+  },
+  "description": "President of the Dominican Republic (1891-1961)",
+  "coord": null,
+  "image": "Rafael L. Trujillo en la silla presidencial (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1891,
+   "date": "1891-10-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1961,
+   "date": "1961-05-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rafael Trujillo",
+   "zh": "拉斐尔·特鲁希略"
+  },
+  "locationQid": null
+ },
+ "Q1537180": {
+  "label": {
+   "en": "Tepanec",
+   "zh": "特帕内克"
+  },
+  "description": "mesoamerican people",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2472587",
+   "Q3117863"
+  ],
+  "wiki": {
+   "en": "Tepanec",
+   "zh": "特帕内克人"
+  },
+  "locationQid": null
+ },
+ "Q1543031": {
+  "label": {
+   "en": "La Isabela",
+   "zh": "伊莎貝拉"
+  },
+  "description": "historic site in the Dominican Republic",
+  "coord": {
+   "lat": 19.89,
+   "lon": -71.0785
+  },
+  "image": "La Isabela SDQ 10 2019 1144.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1493,
+   "date": "1493-12-08",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486972"
+  ],
+  "wiki": {
+   "en": "La Isabela",
+   "zh": null
+  }
+ },
+ "Q154971": {
+  "label": {
+   "en": "Charlotte of Belgium",
+   "zh": "比利时的夏洛特"
+  },
+  "description": "Empress consort of Mexico (1863-1867)",
+  "coord": null,
+  "image": "Carlotta-of-Mexico.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1840,
+   "date": "1840-06-07",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1927,
+   "date": "1927-01-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charlotte of Belgium",
+   "zh": "卡洛塔 (墨西哥皇后)"
+  },
+  "locationQid": null
+ },
+ "Q1563": {
+  "label": {
+   "en": "Havana",
+   "zh": "哈瓦那"
+  },
+  "description": "capital and largest city of Cuba",
+  "coord": {
+   "lat": 23.1367,
+   "lon": -82.3589
+  },
+  "image": "Cuba libre (6941395159).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1515,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q51929311"
+  ],
+  "wiki": {
+   "en": "Havana",
+   "zh": "哈瓦那"
+  }
+ },
+ "Q1606520": {
+  "label": {
+   "en": "Plan of ayala",
+   "zh": "伊瓜拉法案"
+  },
+  "description": "revolutionary proclamation",
+  "coord": null,
+  "image": "Plan de Iguala foja 1.jpg",
+  "pointInTime": {
+   "year": 1821,
+   "date": "1821-02-24",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q625298"
+  ],
+  "wiki": {
+   "en": "Plan of Iguala",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q16242429": {
+  "label": {
+   "en": "K'an II",
+   "zh": null
+  },
+  "description": "ajaw of Caracol",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 588,
+   "date": "0588-04-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 658,
+   "date": "0658-07-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼan II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q165204": {
+  "label": {
+   "en": "Mérida",
+   "zh": "梅里达"
+  },
+  "description": "capital city of Yucatan, Mexico",
+  "coord": {
+   "lat": 20.97,
+   "lon": -89.62
+  },
+  "image": "Collage Merida Yucatan.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1542,
+   "date": "1542-01-06",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20202352",
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Mérida, Yucatán",
+   "zh": "梅里達 (墨西哥)"
+  }
+ },
+ "Q16594097": {
+  "label": {
+   "en": "Luis Abinader",
+   "zh": "路易斯·阿比纳德尔"
+  },
+  "description": "President of the Dominican Republic since 2020",
+  "coord": null,
+  "image": "President Luis Abinader at the National Palace of the Dominican Republic in Santo Domingo on April 25, 2024 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1967,
+   "date": "1967-07-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Luis Abinader",
+   "zh": "路易斯·阿比纳德尔"
+  },
+  "locationQid": null
+ },
+ "Q16848165": {
+  "label": {
+   "en": "Edward Trelawny",
+   "zh": null
+  },
+  "description": "British colonial administrator",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1699,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1754,
+   "date": "1754-01-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Edward Trelawny (colonial administrator)",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q17054": {
+  "label": {
+   "en": "Martinique",
+   "zh": "马提尼克"
+  },
+  "description": "island in the Lesser Antilles, overseas region and department of France",
+  "coord": {
+   "lat": 14.65,
+   "lon": -61.015
+  },
+  "image": "Martinique 14.6346N 61.0051W Landsat7.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1946,
+   "date": "1946-03-21",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q36784",
+   "Q202216",
+   "Q161243"
+  ],
+  "wiki": {
+   "en": "Martinique",
+   "zh": "馬提尼克"
+  }
+ },
+ "Q170603": {
+  "label": {
+   "en": "New Spain",
+   "zh": "新西班牙总督辖区"
+  },
+  "description": "viceroyalty of the Spanish Empire (1535-1821)",
+  "coord": {
+   "lat": 19.4333,
+   "lon": -99.1333
+  },
+  "image": "Mapa del Virreinato de la Nueva España (1794).svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1521,
+   "date": "1521-08-18",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1821,
+   "date": "1821-08-24",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20203507"
+  ],
+  "wiki": {
+   "en": "New Spain",
+   "zh": "新西班牙總督轄區"
+  }
+ },
+ "Q171128": {
+  "label": {
+   "en": "Diego Rivera",
+   "zh": "迭戈·里维拉"
+  },
+  "description": "Mexican muralist (1886–1957)",
+  "coord": null,
+  "image": "Diego Rivera - Google Art Project (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1886,
+   "date": "1886-12-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1957,
+   "date": "1957-11-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Diego Rivera",
+   "zh": "迭戈·里韋拉"
+  },
+  "locationQid": null
+ },
+ "Q17155784": {
+  "label": {
+   "en": "K'ak' Joplaj Chan K'awiil",
+   "zh": "卡克·霍普拉赫·钱·卡维尔"
+  },
+  "description": "ajaw of Copan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 749,
+   "date": "0749-02-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼakʼ Joplaj Chan Kʼawiil",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q17155785": {
+  "label": {
+   "en": "K'ak' Yipyaj Chan K'awiil",
+   "zh": null
+  },
+  "description": "ajaw of Copan",
+  "coord": null,
+  "image": "Copán Stela N.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 763,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼakʼ Yipyaj Chan Kʼawiil",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q172613": {
+  "label": {
+   "en": "Teotihuacan",
+   "zh": "特奥蒂瓦坎"
+  },
+  "description": "ancient Mesoamerican city",
+  "coord": {
+   "lat": 19.6925,
+   "lon": -98.8439
+  },
+  "image": "ZA77 Teotihuacán edo de mex Herberto de la rosa.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": -180,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 750,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q1081138"
+  ],
+  "wiki": {
+   "en": "Teotihuacan",
+   "zh": "特奧蒂瓦坎"
+  }
+ },
+ "Q17264397": {
+  "label": {
+   "en": "Ukit Took",
+   "zh": "乌基特·图克"
+  },
+  "description": "ajaw of Copan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ukit Took",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q17502440": {
+  "label": {
+   "en": "Haitian Declaration of Independence",
+   "zh": "海地獨立宣言"
+  },
+  "description": "document declaring Haiti as an independent nation",
+  "coord": null,
+  "image": "Deklarasyon Endepandans Ayiti.jpg",
+  "pointInTime": {
+   "year": 1804,
+   "date": "1804-01-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916",
+   "Q3771738"
+  ],
+  "wiki": {
+   "en": "Haitian Declaration of Independence",
+   "zh": "海地獨立宣言"
+  },
+  "locationQid": "Q852550"
+ },
+ "Q1756382": {
+  "label": {
+   "en": "Miguel Tacón y Rosique",
+   "zh": null
+  },
+  "description": "Spanish diplomat (1775-1855)",
+  "coord": null,
+  "image": "Luis Carlos Legrand-Retrato de Miguel Tacón.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1775,
+   "date": "1775-01-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1855,
+   "date": "1855-10-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Miguel Tacón y Rosique",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q17712353": {
+  "label": {
+   "en": "Nayib Bukele",
+   "zh": "納伊布·布克萊"
+  },
+  "description": "President of El Salvador since 2019",
+  "coord": null,
+  "image": "Nayib Bukele in the White House, 2025 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1981,
+   "date": "1981-07-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nayib Bukele",
+   "zh": "納伊布·布克萊"
+  },
+  "locationQid": null
+ },
+ "Q1783607": {
+  "label": {
+   "en": "Salvadoran Civil War",
+   "zh": "萨尔瓦多内战"
+  },
+  "description": "13 year 1979-1992 civil war in El Salvador",
+  "coord": null,
+  "image": "Monumento memoria y verdad.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1979,
+   "date": "1979-10-15",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1992,
+   "date": "1992-01-16",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Salvadoran Civil War",
+   "zh": "薩爾瓦多內戰"
+  },
+  "locationQid": "Q792"
+ },
+ "Q1798567": {
+  "label": {
+   "en": "1985 Mexico City earthquake",
+   "zh": "1985年墨西哥城大地震"
+  },
+  "description": "September 19th, 1985 earthquake in Mexico City, Mexico",
+  "coord": {
+   "lat": 18.19,
+   "lon": -102.53
+  },
+  "image": "1985 Mexico Earthquake - Collapsed General Hospital.jpg",
+  "pointInTime": {
+   "year": 1985,
+   "date": "1985-09-19",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "1985 Mexico City earthquake",
+   "zh": "1985年墨西哥城大地震"
+  }
+ },
+ "Q181172": {
+  "label": {
+   "en": "Tikal",
+   "zh": "蒂卡尔"
+  },
+  "description": "ruins of major ancient Maya city",
+  "coord": {
+   "lat": 17.2221,
+   "lon": -89.6236
+  },
+  "image": "Tikal 3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Tikal",
+   "zh": "蒂卡尔"
+  }
+ },
+ "Q181427": {
+  "label": {
+   "en": "Palenque",
+   "zh": "帕伦克"
+  },
+  "description": "former Maya city state in southern Mexico",
+  "coord": {
+   "lat": 17.4842,
+   "lon": -92.0464
+  },
+  "image": "055 Palenque Pakal Maji (29).JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Palenque",
+   "zh": "帕伦克考古区"
+  }
+ },
+ "Q18217425": {
+  "label": {
+   "en": "Yax Ehb' Xok",
+   "zh": null
+  },
+  "description": "first known ajaw of Tikal",
+  "coord": null,
+  "image": "Yax Ehb' Xook Glyph.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yax Ehb Xook",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q182276": {
+  "label": {
+   "en": null,
+   "zh": "贝尼托·华雷斯"
+  },
+  "description": "President of Mexico from 1858 to 1872",
+  "coord": null,
+  "image": "Benito Juarez (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1806,
+   "date": "1806-03-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1872,
+   "date": "1872-07-18",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Benito Juárez",
+   "zh": "贝尼托·华雷斯"
+  },
+  "locationQid": null
+ },
+ "Q183074": {
+  "label": {
+   "en": "Sor Juana Inés de la Cruz",
+   "zh": "胡安娜·伊内斯·德·拉·克鲁兹"
+  },
+  "description": "Mexican writer, philosopher, playwright and poet",
+  "coord": null,
+  "image": "Sor Juana Inés de la Cruz, 1732 - Fray Miguel de Herrera.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1651,
+   "date": "1651-11-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1695,
+   "date": "1695-04-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juana Inés de la Cruz",
+   "zh": "胡安娜·伊内斯·德拉克鲁兹"
+  },
+  "locationQid": null
+ },
+ "Q184637": {
+  "label": {
+   "en": "Ten Years' War",
+   "zh": "十年战争"
+  },
+  "description": "armed conflict in Cuba between 1868 and 1878",
+  "coord": {
+   "lat": 21.5,
+   "lon": -80
+  },
+  "image": "Embarcament dels voluntaris catalans al port de Barcelona.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1868,
+   "date": "1868-10-10",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1878,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Ten Years' War",
+   "zh": "十年战争"
+  }
+ },
+ "Q187697": {
+  "label": {
+   "en": "François Duvalier",
+   "zh": "弗朗索瓦·杜瓦利埃"
+  },
+  "description": "40th President of the Republic of Haiti (1907-1971)",
+  "coord": null,
+  "image": "François Duvalier (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1907,
+   "date": "1907-04-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1971,
+   "date": "1971-04-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "François Duvalier",
+   "zh": "弗朗索瓦·杜瓦利埃"
+  },
+  "locationQid": null
+ },
+ "Q187897": {
+  "label": {
+   "en": "Tolteca",
+   "zh": "托尔特克"
+  },
+  "description": "pre-columbian civilization in Tula, Hidalgo, Mexico",
+  "coord": null,
+  "image": "Toltec Stone Roof Ornaments.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 650,
+   "date": null,
+   "precision": 8,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1168,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q103817"
+  ],
+  "wiki": {
+   "en": "Toltec",
+   "zh": "托尔特克"
+  },
+  "locationQid": null
+ },
+ "Q188620": {
+  "label": {
+   "en": "Rigoberta Menchú",
+   "zh": "里戈韦塔·门楚"
+  },
+  "description": "Guatemalan human rights activist",
+  "coord": null,
+  "image": "20240620 NP PRESIDENTE BERNARDO AREVALO Y KARIN HERRERA PARTICIPAN EN DIALOGO PREMIO NOBEL DE LA PAZ 054.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1959,
+   "date": "1959-01-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rigoberta Menchú",
+   "zh": "里戈韦塔·门楚"
+  },
+  "locationQid": null
+ },
+ "Q189145": {
+  "label": {
+   "en": null,
+   "zh": "安东尼奥·洛佩斯·德·圣安纳"
+  },
+  "description": "Mexican politician and military leader (1794-1876)",
+  "coord": null,
+  "image": "Oleo Antonio Lopez de Santa Anna.PNG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1794,
+   "date": "1794-02-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1876,
+   "date": "1876-06-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Antonio López de Santa Anna",
+   "zh": "安东尼奥·洛佩斯·德·圣安纳"
+  },
+  "locationQid": null
+ },
+ "Q190025": {
+  "label": {
+   "en": "Federal Republic of Central America",
+   "zh": "中美洲聯邦共和國"
+  },
+  "description": "former country in Central America (1823–1839/1841)",
+  "coord": {
+   "lat": 14.6167,
+   "lon": -90.5167
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1823,
+   "date": "1823-07-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1841,
+   "date": "1841-01-30",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Federal Republic of Central America",
+   "zh": "中美洲联邦共和国"
+  }
+ },
+ "Q19080": {
+  "label": {
+   "en": "Vasco Núñez de Balboa",
+   "zh": "瓦斯科·努涅斯·德·巴尔沃亚"
+  },
+  "description": "Spanish explorer, governor, and conquistador",
+  "coord": null,
+  "image": "Retrato de Vasco Nuñez de Balboa (1475-1517) - Anónimo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1475,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1519,
+   "date": "1519-01-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Vasco Núñez de Balboa",
+   "zh": "瓦斯科·努涅斯·德·巴尔沃亚"
+  },
+  "locationQid": null
+ },
+ "Q191060": {
+  "label": {
+   "en": "Manuel Zelaya",
+   "zh": "曼努埃尔·塞拉亚"
+  },
+  "description": "Honduran politician and businessman (born 1952)",
+  "coord": null,
+  "image": "Manuel Zelaya 2022.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1952,
+   "date": "1952-09-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel Zelaya",
+   "zh": "曼努埃尔·塞拉亚"
+  },
+  "locationQid": null
+ },
+ "Q191721": {
+  "label": {
+   "en": "Bay of Pigs invasion",
+   "zh": "猪湾事件"
+  },
+  "description": "failed landing operation of Cuba in 1961",
+  "coord": {
+   "lat": 22.2167,
+   "lon": -81.1667
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1961,
+   "date": "1961-04-20",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1961,
+   "date": "1961-04-17",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1961,
+   "date": "1961-04-19",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q646740",
+   "Q348120"
+  ],
+  "wiki": {
+   "en": "Bay of Pigs Invasion",
+   "zh": "猪湾事件"
+  }
+ },
+ "Q192278": {
+  "label": {
+   "en": null,
+   "zh": "微拉"
+  },
+  "description": "Mexican revolutionary (1878-1923)",
+  "coord": null,
+  "image": "Pancho Villa bandolier (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1878,
+   "date": "1878-06-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1923,
+   "date": "1923-07-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pancho Villa",
+   "zh": "潘乔·比利亚"
+  },
+  "locationQid": null
+ },
+ "Q192667": {
+  "label": {
+   "en": "Manuel Noriega",
+   "zh": "曼努埃尔·诺列加"
+  },
+  "description": "Panamanian head of state (1934-2017)",
+  "coord": null,
+  "image": "Manuel Noriega mug shot.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1934,
+   "date": "1934-02-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2017,
+   "date": "2017-05-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel Noriega",
+   "zh": "曼努埃尔·诺列加"
+  },
+  "locationQid": null
+ },
+ "Q1932603": {
+  "label": {
+   "en": "Miguel Díaz-Canel",
+   "zh": "米格尔·迪亚斯-卡内尔"
+  },
+  "description": "First Secretary of the Communist Party of Cuba and top leader of Cuba since 2021",
+  "coord": null,
+  "image": "Miguel Díaz-Canel 2025.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1960,
+   "date": "1960-04-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Miguel Díaz-Canel",
+   "zh": "米格尔·迪亚斯-卡内尔"
+  },
+  "locationQid": null
+ },
+ "Q19816100": {
+  "label": {
+   "en": "Cuban thaw",
+   "zh": "古巴解凍"
+  },
+  "description": "2015–2017 normalization of Cuba–United States relations",
+  "coord": null,
+  "image": "Handshake between the President and Cuban President Raúl Castro.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q155705"
+  ],
+  "wiki": {
+   "en": "Cuban thaw",
+   "zh": "古巴解凍"
+  },
+  "locationQid": null
+ },
+ "Q1999889": {
+  "label": {
+   "en": "Battle of Santiago de Cuba",
+   "zh": "圣地亚哥-德古巴之战"
+  },
+  "description": "1898 naval battle near Santiago de Cuba during the Spanish-American war",
+  "coord": {
+   "lat": 19.96,
+   "lon": -75.875
+  },
+  "image": "Battle of Santiago de Cuba Illustration.jpg",
+  "pointInTime": {
+   "year": 1898,
+   "date": "1898-07-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1261499"
+  ],
+  "wiki": {
+   "en": "Battle of Santiago de Cuba",
+   "zh": null
+  }
+ },
+ "Q200252": {
+  "label": {
+   "en": "Morelia",
+   "zh": "莫雷利亚"
+  },
+  "description": "capital of the State of Michoacán, Mexico",
+  "coord": {
+   "lat": 19.7028,
+   "lon": -101.1922
+  },
+  "image": "Morelia panorama DSC 0400 ed AD.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1541,
+   "date": "1541-05-18",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20202352"
+  ],
+  "wiki": {
+   "en": "Morelia",
+   "zh": "莫雷利亚"
+  }
+ },
+ "Q200944": {
+  "label": {
+   "en": "Dresden Codex",
+   "zh": "德累斯顿手抄本"
+  },
+  "description": "Pre-columbian Maya astronomic manuscript from Chichen Itza, Mexico",
+  "coord": null,
+  "image": "Dresden codex, page 2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q87167"
+  ],
+  "wiki": {
+   "en": "Dresden Codex",
+   "zh": "德累斯顿手抄本"
+  },
+  "locationQid": null
+ },
+ "Q2039931": {
+  "label": {
+   "en": "Captaincy General of Cuba",
+   "zh": "西属西印度群岛"
+  },
+  "description": "Spanish 1607–1898 possession in the Caribbean",
+  "coord": {
+   "lat": 23.1167,
+   "lon": -82.35
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1607,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1898,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5036886",
+   "Q133156"
+  ],
+  "wiki": {
+   "en": "Captaincy General of Cuba",
+   "zh": null
+  }
+ },
+ "Q2047652": {
+  "label": {
+   "en": "Texcoco",
+   "zh": "德斯科科"
+  },
+  "description": "pre-Columbian city-state",
+  "coord": {
+   "lat": 19.5294,
+   "lon": -98.8967
+  },
+  "image": "Baños de Nezahualcoyotl.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133442",
+   "Q2479824"
+  ],
+  "wiki": {
+   "en": "Tetzcoco (altepetl)",
+   "zh": "特斯科科"
+  }
+ },
+ "Q205783": {
+  "label": {
+   "en": "Toussaint Louverture",
+   "zh": "杜桑·卢维杜尔"
+  },
+  "description": "Haitian national hero (1743–1803)",
+  "coord": null,
+  "image": "Général Toussaint Louverture.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1743,
+   "date": "1743-05-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1803,
+   "date": "1803-04-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5",
+   "Q148057"
+  ],
+  "wiki": {
+   "en": "Toussaint Louverture",
+   "zh": "杜桑·盧維杜爾"
+  },
+  "locationQid": null
+ },
+ "Q206194": {
+  "label": {
+   "en": "Citadelle Laferrière",
+   "zh": "拉费里埃尔堡"
+  },
+  "description": "large mountaintop fortress in northern Haiti",
+  "coord": {
+   "lat": 19.5736,
+   "lon": -72.2439
+  },
+  "image": "Citadelle Laferrière Aerial View.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1820,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1842,
+   "date": "1842-05-07",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q88291",
+   "Q1785071",
+   "Q9259"
+  ],
+  "wiki": {
+   "en": "Citadelle Laferrière",
+   "zh": "拉費里埃城堡"
+  }
+ },
+ "Q207416": {
+  "label": {
+   "en": "Bartolomé de las Casas",
+   "zh": "巴托洛梅·德拉斯·卡萨斯"
+  },
+  "description": "Spanish Dominican friar, historian, and social reformer (1474–1566)",
+  "coord": null,
+  "image": "Fray Bartolomé de las Casas.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1484,
+   "date": "1484-11-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1566,
+   "date": "1566-07-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bartolomé de las Casas",
+   "zh": "巴托洛梅·德拉斯·卡薩斯"
+  },
+  "locationQid": null
+ },
+ "Q2077243": {
+  "label": {
+   "en": "Captaincy General of Guatemala",
+   "zh": "危地馬拉都督府"
+  },
+  "description": "Spanish 1540-1821 possession in Central America; administrative division of the Spanish Empire, under the viceroyalty of New Spain",
+  "coord": {
+   "lat": 14.5667,
+   "lon": -90.7333
+  },
+  "image": "Spanish Caribbean Islands in the American Viceroyalties 1600.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1542,
+   "date": "1542-11-20",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5036886"
+  ],
+  "wiki": {
+   "en": "Captaincy General of Guatemala",
+   "zh": null
+  }
+ },
+ "Q2091916": {
+  "label": {
+   "en": "Reform War",
+   "zh": "改革战争"
+  },
+  "description": "1858–1861 internal conflict in Mexico",
+  "coord": null,
+  "image": "1858 Mexico Map Civil War Divisions.svg",
+  "pointInTime": {
+   "year": 1861,
+   "date": null,
+   "precision": 7,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1857,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1861,
+   "date": "1861-01-10",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Reform War",
+   "zh": "改革战争"
+  },
+  "locationQid": "Q96"
+ },
+ "Q209617": {
+  "label": {
+   "en": "Jean-Bertrand Aristide",
+   "zh": "让-贝特朗·阿里斯蒂德"
+  },
+  "description": "Haitian politician who became Haiti's first democratically elected president",
+  "coord": null,
+  "image": "Jean-Bertrand Aristide - 1991 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1953,
+   "date": "1953-07-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jean-Bertrand Aristide",
+   "zh": "让-贝特朗·阿里斯蒂德"
+  },
+  "locationQid": null
+ },
+ "Q210900": {
+  "label": {
+   "en": "Pedro de Alvarado",
+   "zh": "佩德羅·德·阿爾瓦拉多"
+  },
+  "description": "Spanish conquistador, explorer and condottiero",
+  "coord": null,
+  "image": "Pedro de Alvarado (Tomás Povedano).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1486,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1541,
+   "date": "1541-07-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro de Alvarado",
+   "zh": "佩德羅·德·阿爾瓦拉多"
+  },
+  "locationQid": null
+ },
+ "Q212068": {
+  "label": {
+   "en": "Jean-Jacques Dessalines",
+   "zh": "让-雅克·德萨林"
+  },
+  "description": "Leader of Haitian Revolution and first ruler of independent Haiti (1758-1806)",
+  "coord": null,
+  "image": "Jean Jacques Dessalines.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1758,
+   "date": "1758-09-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1806,
+   "date": "1806-10-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jean-Jacques Dessalines",
+   "zh": "让-雅克·德萨林"
+  },
+  "locationQid": null
+ },
+ "Q2121220": {
+  "label": {
+   "en": "Quiché' Kingdom of Q'umarkaj",
+   "zh": "基切王国"
+  },
+  "description": "capital city of the pre-Columbian K'iche' Maya of highland Guatemala.",
+  "coord": {
+   "lat": 15.0235,
+   "lon": -91.172
+  },
+  "image": "Utatlan1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": {
+   "year": 1524,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kʼicheʼ kingdom of Qʼumarkaj",
+   "zh": null
+  }
+ },
+ "Q212773": {
+  "label": {
+   "en": "Antigua Guatemala",
+   "zh": "安提瓜危地马拉"
+  },
+  "description": "city in the central highlands of Guatemala",
+  "coord": {
+   "lat": 14.5575,
+   "lon": -90.7333
+  },
+  "image": "Santa Catalina Arch - Antigua Guatemala Feb 2020.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1543,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1872284"
+  ],
+  "wiki": {
+   "en": "Antigua Guatemala",
+   "zh": "安地瓜"
+  }
+ },
+ "Q213746": {
+  "label": {
+   "en": "Augusto César Sandino",
+   "zh": "奥古斯托·塞萨尔·桑地诺"
+  },
+  "description": "Nicaraguan general, anti-imperialist revolutionary and national hero (1895–1934), born in Niquinohomo; EDSN founder who led resistance to U.S. occupation (1927–1933); assassinated in Managua by the National Guard on Somoza’s orders",
+  "coord": null,
+  "image": "Augusto César Sandino.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1895,
+   "date": "1895-05-18",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1934,
+   "date": "1934-02-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Augusto César Sandino",
+   "zh": "奥古斯托·塞萨尔·桑地诺"
+  },
+  "locationQid": null
+ },
+ "Q214426": {
+  "label": {
+   "en": "Mexican Revolution",
+   "zh": "墨西哥革命"
+  },
+  "description": "nationwide armed struggle in Mexico (1910–1920)",
+  "coord": null,
+  "image": "Revolución mexicana 1915.svg",
+  "pointInTime": null,
+  "start": {
+   "year": 1910,
+   "date": "1910-11-20",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1920,
+   "date": "1920-05-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931",
+   "Q8465"
+  ],
+  "wiki": {
+   "en": "Mexican Revolution",
+   "zh": "墨西哥革命"
+  },
+  "locationQid": "Q96"
+ },
+ "Q214827": {
+  "label": {
+   "en": "Copán",
+   "zh": "科潘"
+  },
+  "description": "maya archaeological site in western Honduras",
+  "coord": {
+   "lat": 14.838,
+   "lon": -89.1424
+  },
+  "image": "Copán Stela B.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Copán",
+   "zh": "科潘"
+  }
+ },
+ "Q215502": {
+  "label": {
+   "en": "Henry Morgan",
+   "zh": "亨利·摩根"
+  },
+  "description": "Welsh pirate (1635-1688)",
+  "coord": null,
+  "image": "Morgan,Henry.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1631,
+   "date": "1631-01-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1688,
+   "date": "1688-08-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Henry Morgan",
+   "zh": "亨利·摩根"
+  },
+  "locationQid": null
+ },
+ "Q2161196": {
+  "label": {
+   "en": "Mexican oil expropriation",
+   "zh": null
+  },
+  "description": null,
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1938,
+   "date": "1938-03-18",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6979827",
+   "Q86757"
+  ],
+  "wiki": {
+   "en": "Mexican oil expropriation",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q216766": {
+  "label": {
+   "en": "Francisco I. Madero",
+   "zh": "弗朗西斯科·马德罗"
+  },
+  "description": "Mexican revolutionary leader and president (1873-1913)",
+  "coord": null,
+  "image": "Francisco I Madero.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1873,
+   "date": "1873-10-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1913,
+   "date": "1913-02-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco I. Madero",
+   "zh": "弗朗西斯科·馬德羅"
+  },
+  "locationQid": null
+ },
+ "Q216835": {
+  "label": {
+   "en": "Cap-Haïtien",
+   "zh": "海地角"
+  },
+  "description": "city in Haiti",
+  "coord": {
+   "lat": 19.75,
+   "lon": -72.2
+  },
+  "image": "View of Cap-Haitien.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1670,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q3685462",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Cap-Haïtien",
+   "zh": "海地角"
+  }
+ },
+ "Q216943": {
+  "label": {
+   "en": "Jacobo Árbenz",
+   "zh": "哈科沃·阿文斯·古斯曼"
+  },
+  "description": "president of Guatemala in 1951–54",
+  "coord": null,
+  "image": "Jacobo Arbenz 1951 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1913,
+   "date": "1913-09-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1971,
+   "date": "1971-01-27",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jacobo Árbenz",
+   "zh": "哈科沃·阿本斯"
+  },
+  "locationQid": null
+ },
+ "Q2170072": {
+  "label": {
+   "en": "Political Constitution of Mexico",
+   "zh": "墨西哥1917年宪法"
+  },
+  "description": "supreme law of Mexico",
+  "coord": null,
+  "image": "Portada Original de la Constitucion Mexicana de 1917.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7755"
+  ],
+  "wiki": {
+   "en": "Constitution of Mexico",
+   "zh": "墨西哥宪法"
+  },
+  "locationQid": null
+ },
+ "Q218443": {
+  "label": {
+   "en": "Anastasio Somoza Debayle",
+   "zh": "安纳斯塔西奥·索摩查·德瓦伊莱"
+  },
+  "description": "Nicaraguan National Guard commander and president of Nicaragua from 1967 to 1972 and from 1974 to 1979, the last ruler of the Somoza dynasty (1925–1980)",
+  "coord": null,
+  "image": "1975 Press Photo Nicaragua President Anastasio Somoza (cropped).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1925,
+   "date": "1925-12-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1980,
+   "date": "1980-09-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anastasio Somoza Debayle",
+   "zh": "安纳斯塔西奥·索摩查·德瓦伊莱"
+  },
+  "locationQid": null
+ },
+ "Q220264": {
+  "label": {
+   "en": "Popol Vuh",
+   "zh": "波波尔·乌"
+  },
+  "description": "sacred text of the Maya",
+  "coord": null,
+  "image": "Popol vuh.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "Popol Vuh",
+   "zh": "波波爾·烏"
+  },
+  "locationQid": null
+ },
+ "Q2258793": {
+  "label": {
+   "en": "Ramón Blanco y Erenas",
+   "zh": "拉蒙·布兰科-埃雷纳斯"
+  },
+  "description": "Spanish colonial governor, General of Spain",
+  "coord": null,
+  "image": "General Ramón Blanco y Erenas.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1833,
+   "date": "1833-09-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1906,
+   "date": "1906-03-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ramón Blanco, 1st Marquess of Peña Plata",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q230314": {
+  "label": {
+   "en": "La Malinche",
+   "zh": "马林切"
+  },
+  "description": "Nahua woman who was the interpreter, advisor, and intermediary to Hernán Cortés",
+  "coord": null,
+  "image": "MOM D093 Donna Marina (La Malinche).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1551,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "La Malinche",
+   "zh": "馬林切"
+  },
+  "locationQid": null
+ },
+ "Q231946": {
+  "label": {
+   "en": "Mireya Moscoso",
+   "zh": "米雷娅·莫斯科索"
+  },
+  "description": "Panama's first female president",
+  "coord": null,
+  "image": "Mireya Moscoso.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1946,
+   "date": "1946-07-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Mireya Moscoso",
+   "zh": "米雷娅·莫斯科索"
+  },
+  "locationQid": null
+ },
+ "Q2357768": {
+  "label": {
+   "en": "Jasaw Chan K'awiil II",
+   "zh": null
+  },
+  "description": "last-known ajaw of Tikal, identifiable from extant inscriptions",
+  "coord": null,
+  "image": "Tikal St11.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 850,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 898,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jasaw Chan Kʼawiil II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2386936": {
+  "label": {
+   "en": "Tacky's War",
+   "zh": null
+  },
+  "description": "slave revolt in Jamaica",
+  "coord": {
+   "lat": 2.8485,
+   "lon": -51.125
+  },
+  "image": "Soulèvement des esclaves à la Jamaïque en 1760 (cropped 02).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1760,
+   "date": "1760-04-07",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1761,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1155622"
+  ],
+  "wiki": {
+   "en": "Tacky's Revolt",
+   "zh": null
+  }
+ },
+ "Q23895035": {
+  "label": {
+   "en": "Zapatista uprising",
+   "zh": "萨帕塔起义"
+  },
+  "description": "rebellion coordinated by the Zapatista Army of National Liberation.",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1994,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q6107280"
+  ],
+  "wiki": {
+   "en": "Zapatista uprising",
+   "zh": "萨帕塔起义"
+  },
+  "locationQid": "Q60123"
+ },
+ "Q241": {
+  "label": {
+   "en": "Cuba",
+   "zh": "古巴"
+  },
+  "description": "sovereign state situated on an island in the Caribbean Sea",
+  "coord": {
+   "lat": 22,
+   "lon": -79.5
+  },
+  "image": "Santa Clara (Cuba).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1898,
+   "date": "1898-12-10",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q112099",
+   "Q3624078",
+   "Q179164",
+   "Q849866",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Cuba",
+   "zh": "古巴"
+  }
+ },
+ "Q2413702": {
+  "label": {
+   "en": "Tangaxuan II",
+   "zh": "坦加苏安二世"
+  },
+  "description": "Cazonci of Tarascan",
+  "coord": null,
+  "image": "Tangaxuan II being executed.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 1530,
+   "date": "1530-02-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tangaxuan II",
+   "zh": "坦加苏安二世"
+  },
+  "locationQid": null
+ },
+ "Q2448974": {
+  "label": {
+   "en": "Juan de Palafox y Mendoza",
+   "zh": "帕莱福,"
+  },
+  "description": "Spanish Roman Catholic archbishop and Viceroy of New Spain (1600-1659)",
+  "coord": null,
+  "image": "JuandePalafoxyMendoza.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1600,
+   "date": "1600-06-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1659,
+   "date": "1659-10-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan de Palafox y Mendoza",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2484240": {
+  "label": {
+   "en": "Battle of Vertières",
+   "zh": "韦尔蒂埃尔战役"
+  },
+  "description": "1803 major battle of the Second War of Haitian Independence",
+  "coord": {
+   "lat": 19.7333,
+   "lon": -72.2244
+  },
+  "image": "Combat et prise de la Crête-à-Pierrot - Auguste Raffet.jpg",
+  "pointInTime": {
+   "year": 1803,
+   "date": "1803-11-18",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Vertières",
+   "zh": "韦尔蒂埃尔战役"
+  }
+ },
+ "Q2526023": {
+  "label": {
+   "en": "Colony of Jamaica",
+   "zh": "英屬牙買加"
+  },
+  "description": "British colony on the island of Jamaica, 1655–1962",
+  "coord": {
+   "lat": 17.9833,
+   "lon": -76.8
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1655,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1962,
+   "date": "1962-08-06",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q133156"
+  ],
+  "wiki": {
+   "en": "Colony of Jamaica",
+   "zh": null
+  }
+ },
+ "Q2532976": {
+  "label": {
+   "en": "Congress of Chilpancingo",
+   "zh": "奇尔潘辛戈大会"
+  },
+  "description": "legislative body in present-day Mexico",
+  "coord": {
+   "lat": 17.5519,
+   "lon": -99.5013
+  },
+  "image": "Congreso de Chilpancingo.png",
+  "pointInTime": {
+   "year": 1813,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1813,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1813,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q2761147",
+   "Q1900755"
+  ],
+  "wiki": {
+   "en": "Congress of Chilpancingo",
+   "zh": null
+  }
+ },
+ "Q25403478": {
+  "label": {
+   "en": "Tangáxoan I",
+   "zh": null
+  },
+  "description": "Cazonci of the Irechikwa Ts'intsuntsani",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tangáxuan I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q255874": {
+  "label": {
+   "en": "Sir Thomas Modyford, 1st Baronet",
+   "zh": null
+  },
+  "description": "British Baronet",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1620,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1679,
+   "date": "1679-09-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Thomas Modyford",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2559153": {
+  "label": {
+   "en": "Temple of the Inscriptions",
+   "zh": "铭文寺"
+  },
+  "description": "Mesoamerican stepped pyramid structure at the pre-Columbian Maya civilization site of Palenque",
+  "coord": {
+   "lat": 17.4836,
+   "lon": -92.0468
+  },
+  "image": "Palenque temple 1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1456099"
+  ],
+  "wiki": {
+   "en": "Temple of the Inscriptions",
+   "zh": null
+  }
+ },
+ "Q2564895": {
+  "label": {
+   "en": "Western Design",
+   "zh": null
+  },
+  "description": "Cromwellian expedition to the Caribbean",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1655,
+   "date": "1655-05-19",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1655,
+   "date": "1655-05-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1384277"
+  ],
+  "wiki": {
+   "en": "Western Design",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2574259": {
+  "label": {
+   "en": "Cacamatzin",
+   "zh": "卡卡马特辛"
+  },
+  "description": "King of Texcoco",
+  "coord": null,
+  "image": "COM V1 D458 Prince Cacama arrested.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1483,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1520,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cacamatzin",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q257811": {
+  "label": {
+   "en": "Chimalpopoca",
+   "zh": "奇马尔波波卡"
+  },
+  "description": "Aztec Emperor, King of Tenochtitlan (1397-1427)",
+  "coord": null,
+  "image": "Chimalpopoca huitzilopochtli.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1397,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1427,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chimalpopoca",
+   "zh": "奇马尔波波卡"
+  },
+  "locationQid": null
+ },
+ "Q2601431": {
+  "label": {
+   "en": "Ixtlilxochitl I",
+   "zh": "伊斯特利尔索奇特尔一世"
+  },
+  "description": "Ruler of the Acolhua city-state of Texcoco",
+  "coord": null,
+  "image": "Ixtlilxochitl I.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1380,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1418,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ixtlilxochitl I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2603010": {
+  "label": {
+   "en": "Matías de Gálvez y Gallardo",
+   "zh": null
+  },
+  "description": "Spanish general and colonial governor (1717-1784)",
+  "coord": null,
+  "image": "Portrait of Matías de Gálvez.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1717,
+   "date": "1717-07-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1784,
+   "date": "1784-11-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Matías de Gálvez y Gallardo",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2605410": {
+  "label": {
+   "en": "Tarascan State",
+   "zh": "塔拉斯卡城邦"
+  },
+  "description": "state in present-day central Mexico (c. 1300-1530)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1300,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1530,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Purépecha Empire",
+   "zh": "普雷佩查帝国"
+  },
+  "locationQid": null
+ },
+ "Q2620151": {
+  "label": {
+   "en": "Yik'in Chan K'awiil",
+   "zh": "伊金·钱·卡维尔"
+  },
+  "description": "ajaw of Tikal",
+  "coord": null,
+  "image": "TempleIIILintelMaudslay.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yikʼin Chan Kʼawiil",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2623438": {
+  "label": {
+   "en": "Jasaw Chan K'awiil I",
+   "zh": "哈萨乌·钱·卡维尔一世"
+  },
+  "description": "ajaw of Tikal",
+  "coord": null,
+  "image": "MutalImage3.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 601,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 734,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jasaw Chan Kʼawiil I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q26590": {
+  "label": {
+   "en": "Ciudad Juárez",
+   "zh": "华雷斯城"
+  },
+  "description": "municipal seat of Juárez, State of Chihuahua, Mexico",
+  "coord": {
+   "lat": 31.6685,
+   "lon": -106.42
+  },
+  "image": "Juarez montage.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1659,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20202352",
+   "Q902814",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Ciudad Juárez",
+   "zh": "華雷斯城"
+  }
+ },
+ "Q26904572": {
+  "label": {
+   "en": "K’ak’upakal K’awiil",
+   "zh": null
+  },
+  "description": "Ruler of Chichen Itza",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼakʼupakal",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q272771": {
+  "label": {
+   "en": "Calakmul",
+   "zh": "卡拉克穆尔"
+  },
+  "description": "archaeological site",
+  "coord": {
+   "lat": 18.105,
+   "lon": -89.8106
+  },
+  "image": "In Calakmul, Mexico (8726963632).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Calakmul",
+   "zh": "卡拉克穆尔"
+  }
+ },
+ "Q2735571": {
+  "label": {
+   "en": "Juan Vicente de Güemes, 2nd Count of Revillagigedo",
+   "zh": "第二代雷維利亞希赫多伯爵胡安·維森特·德·格梅斯"
+  },
+  "description": "Spanish general and viceroy of New Spain",
+  "coord": null,
+  "image": "JuanVicentedeGuemesPachecoyPadilla.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1738,
+   "date": "1738-04-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1799,
+   "date": "1799-05-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Vicente de Güemes, 2nd Count of Revillagigedo",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q2736642": {
+  "label": {
+   "en": "Classic Maya collapse",
+   "zh": "古典期玛雅文明的衰落"
+  },
+  "description": "decline of classic Maya civilization",
+  "coord": null,
+  "image": "TulumCatherwood1844.jpg",
+  "pointInTime": {
+   "year": 900,
+   "date": null,
+   "precision": 7,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3042783",
+   "Q945895"
+  ],
+  "wiki": {
+   "en": "Classic Maya collapse",
+   "zh": "古典期玛雅文明的衰落"
+  },
+  "locationQid": "Q130978"
+ },
+ "Q274041": {
+  "label": {
+   "en": "Nanny of the Maroons",
+   "zh": "马龙人的保姆"
+  },
+  "description": "leader of Windward Maroons in Jamaica",
+  "coord": null,
+  "image": "Nanny of the Maroons.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1686,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1760,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nanny of the Maroons",
+   "zh": "马龙人的保姆"
+  },
+  "locationQid": null
+ },
+ "Q277343": {
+  "label": {
+   "en": "Torrijos–Carter Treaties",
+   "zh": "托裏霍斯-卡特條約"
+  },
+  "description": "treaties signed by the United States and Panama in 1977",
+  "coord": null,
+  "image": "Jimmy Carter and General Omar Torrijos signing the Panama Canal Treaty.jpg",
+  "pointInTime": {
+   "year": 1977,
+   "date": "1977-09-07",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q9557810"
+  ],
+  "wiki": {
+   "en": "Torrijos–Carter Treaties",
+   "zh": "巴拿马运河条约"
+  },
+  "locationQid": null
+ },
+ "Q279662": {
+  "label": {
+   "en": "Cristero War",
+   "zh": "基督战争"
+  },
+  "description": "widespread struggle in many central-western Mexican states from 1926 to 1929",
+  "coord": null,
+  "image": "Cristeroscolgados.jpg",
+  "pointInTime": {
+   "year": 1926,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1926,
+   "date": "1926-08-03",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1929,
+   "date": "1929-06-21",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q124734"
+  ],
+  "wiki": {
+   "en": "Cristero War",
+   "zh": "基督战争"
+  },
+  "locationQid": "Q96"
+ },
+ "Q27985": {
+  "label": {
+   "en": "Joya de Cerén",
+   "zh": "霍亚德赛伦"
+  },
+  "description": "archaeological site in La Libertad Department, El Salvador",
+  "coord": {
+   "lat": 13.8275,
+   "lon": -89.3562
+  },
+  "image": "ES Joya Ceren 05 2012 Estructura 9 Area 2 Tamazcal wide angle 1479.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Joya de Cerén",
+   "zh": "霍亚德赛伦"
+  }
+ },
+ "Q285658": {
+  "label": {
+   "en": "First Mexican Empire",
+   "zh": "墨西哥第一帝國"
+  },
+  "description": "former empire in America (1821-1823)",
+  "coord": {
+   "lat": 19.4106,
+   "lon": -99.1306
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1822,
+   "date": "1822-05-19",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1823,
+   "date": "1823-03-19",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "First Mexican Empire",
+   "zh": "墨西哥第一帝國"
+  }
+ },
+ "Q29238": {
+  "label": {
+   "en": "Pyramid of the Sun",
+   "zh": "太陽金字塔"
+  },
+  "description": "Mesoamerica structure in Teotihuacan, first built in 100 CE",
+  "coord": {
+   "lat": 19.6925,
+   "lon": -98.8438
+  },
+  "image": "2020-02-11 Teotihuacan la Avenida de los Muertos y la Pirámide del Sol.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q44539",
+   "Q839954",
+   "Q12516"
+  ],
+  "wiki": {
+   "en": "Pyramid of the Sun",
+   "zh": "太陽金字塔"
+  }
+ },
+ "Q293455": {
+  "label": {
+   "en": "Óscar Romero",
+   "zh": "奥斯卡·阿努尔福·罗梅罗"
+  },
+  "description": "Salvadoran Catholic archbishop and saint (1917–1980)",
+  "coord": null,
+  "image": "Monseñor Romero (colour).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1917,
+   "date": "1917-08-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1980,
+   "date": "1980-03-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Óscar Romero",
+   "zh": "奥斯卡·罗梅罗"
+  },
+  "locationQid": null
+ },
+ "Q296718": {
+  "label": {
+   "en": "Lázaro Cárdenas",
+   "zh": "拉萨罗·卡尔德纳斯"
+  },
+  "description": "51st President of Mexico",
+  "coord": null,
+  "image": "Lazaro cardenas2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1895,
+   "date": "1895-05-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1970,
+   "date": "1970-10-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lázaro Cárdenas",
+   "zh": "拉萨罗·卡德纳斯"
+  },
+  "locationQid": null
+ },
+ "Q297050": {
+  "label": {
+   "en": null,
+   "zh": "瓜特穆斯"
+  },
+  "description": "tlatoani of Tenochtitlan",
+  "coord": null,
+  "image": "Relieve de Cuauhtémoc (Jesús F. Contreras), Patio Jesús F. Contreras, Aguascalientes.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1495,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1525,
+   "date": "1525-02-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cuauhtémoc",
+   "zh": "夸烏特莫克"
+  },
+  "locationQid": null
+ },
+ "Q2993582": {
+  "label": {
+   "en": "Spanish conquest of Guatemala",
+   "zh": "西班牙征服瓜地马拉"
+  },
+  "description": "1521 conquest",
+  "coord": {
+   "lat": 15.5,
+   "lon": -90.25
+  },
+  "image": "Pedro de Alvarado (Tomás Povedano).jpg",
+  "pointInTime": {
+   "year": 1524,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1521,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1697,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1361229"
+  ],
+  "wiki": {
+   "en": "Spanish conquest of Guatemala",
+   "zh": null
+  }
+ },
+ "Q3010371": {
+  "label": {
+   "en": "Bois Caïman",
+   "zh": null
+  },
+  "description": "Voodoo ceremony that started the Haitian Revolution in 1791",
+  "coord": {
+   "lat": 19.723,
+   "lon": -72.273
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1791,
+   "date": "1791-08-14",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q13226383",
+   "Q1155622",
+   "Q302729"
+  ],
+  "wiki": {
+   "en": "Bois Caïman",
+   "zh": null
+  }
+ },
+ "Q3010694": {
+  "label": {
+   "en": "Caonabo",
+   "zh": null
+  },
+  "description": "Taino ruler at the time of Columbus",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1500,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1496,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Caonabo",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3062299": {
+  "label": {
+   "en": "Haiti indemnity controversy",
+   "zh": "海地的赔款争议"
+  },
+  "description": "payments by Haiti to France in compensation for property lost in the Haitian Revolution",
+  "coord": null,
+  "image": "DEBT AND DEVELOPMENT- HOW TO PROVIDE EFFICIENT, EFFECTIVE ASSISTANCE TO THE WORLD'S POOREST COUNTRIES (IA gov.gpo.fdsys.CHRG-109hhrg25875).pdf",
+  "pointInTime": {
+   "year": 1825,
+   "date": "1825-04-17",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q131569",
+   "Q3196867"
+  ],
+  "wiki": {
+   "en": "Haitian independence debt",
+   "zh": null
+  },
+  "locationQid": "Q34261"
+ },
+ "Q3083253": {
+  "label": {
+   "en": "Yuknoom Ch'een II",
+   "zh": "尤克诺姆·琴二世"
+  },
+  "description": "Maya ruler of the Kaan kingdom (Dzibanche-Calakmul)",
+  "coord": null,
+  "image": "Funerary Mask of Yuknoom Ch'een II (Jade, Omphacite, Green Quartz, and diverse Shell)... Calakmul, Late Classic (600-800 AD).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 600,
+   "date": "0600-09-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 686,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yuknoom Chʼeen II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3089201": {
+  "label": {
+   "en": "separation of Panama from Colombia",
+   "zh": "巴拿馬獨立"
+  },
+  "description": "historical event in 1903, establishing the Republic of Panama",
+  "coord": null,
+  "image": "Acta de independencia de Panamá 1903.jpg",
+  "pointInTime": {
+   "year": 1903,
+   "date": "1903-11-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1464916"
+  ],
+  "wiki": {
+   "en": "Secession of Panama from Colombia",
+   "zh": "巴拿馬獨立"
+  },
+  "locationQid": null
+ },
+ "Q310566": {
+  "label": {
+   "en": "Diego Velazquez de Cuéllar",
+   "zh": "迭戈·贝拉斯克斯·德奎利亚尔"
+  },
+  "description": "Spanish military officer and first ruler of Cuba",
+  "coord": null,
+  "image": "DiegoVelazquezCuellar.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1465,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1524,
+   "date": "1524-06-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Diego Velázquez de Cuéllar",
+   "zh": "迪亞哥·委拉斯蓋茲·德·奎埃亞爾"
+  },
+  "locationQid": null
+ },
+ "Q310775": {
+  "label": {
+   "en": "Jean-Claude Duvalier",
+   "zh": "让-克洛德·杜瓦利埃"
+  },
+  "description": "President of the Republic of Haiti (1951-2014)",
+  "coord": null,
+  "image": "Baby Doc (centrée).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1951,
+   "date": "1951-07-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2014,
+   "date": "2014-10-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jean-Claude Duvalier",
+   "zh": "让-克洛德·杜瓦利埃"
+  },
+  "locationQid": null
+ },
+ "Q311126": {
+  "label": {
+   "en": "José Figueres Ferrer",
+   "zh": "何塞·菲格雷斯·费雷尔"
+  },
+  "description": "Costa Rican politician (1906–1990)",
+  "coord": null,
+  "image": "José Figueres Ferrer 1.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1906,
+   "date": "1906-09-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1990,
+   "date": "1990-06-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Figueres Ferrer",
+   "zh": "何塞·菲格雷斯·费雷尔"
+  },
+  "locationQid": null
+ },
+ "Q311425": {
+  "label": {
+   "en": null,
+   "zh": "瓜达卢佩·维多利亚"
+  },
+  "description": "first president of Mexico (1786-1845)",
+  "coord": null,
+  "image": "Guadalupe Victoria - 02.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1786,
+   "date": "1786-09-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1845,
+   "date": "1845-03-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Guadalupe Victoria",
+   "zh": "瓜达卢佩·维多利亚"
+  },
+  "locationQid": null
+ },
+ "Q312622": {
+  "label": {
+   "en": "Anastasio Somoza García",
+   "zh": "安纳斯塔西奥·索摩查·加西亚"
+  },
+  "description": "former President of Nicaragua (1896–1956)",
+  "coord": null,
+  "image": "Anastasio Somoza García.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1896,
+   "date": "1896-02-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1956,
+   "date": "1956-09-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anastasio Somoza García",
+   "zh": "安纳斯塔西奥·索摩查·加西亚"
+  },
+  "locationQid": null
+ },
+ "Q315628": {
+  "label": {
+   "en": "Cuitláhuac",
+   "zh": "库伊特拉华克"
+  },
+  "description": "Tlatoani of Tenochtitlan (1476-1638)",
+  "coord": null,
+  "image": "Cuitlahuac2.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1476,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1520,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cuitláhuac",
+   "zh": "奎特拉瓦克"
+  },
+  "locationQid": null
+ },
+ "Q3158836": {
+  "label": {
+   "en": "Jacques Dyel du Parquet",
+   "zh": "雅克·迪耶尔·迪帕尔凯"
+  },
+  "description": "French colonial governor and slave plantations owner",
+  "coord": null,
+  "image": "Dyel du Parquet.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1606,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1658,
+   "date": "1658-01-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jacques Dyel du Parquet",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3164708": {
+  "label": {
+   "en": "Jean-Charles de Baas",
+   "zh": "让-夏尔·德巴斯"
+  },
+  "description": "French colonial administrator",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1650,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1677,
+   "date": "1677-01-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jean-Charles de Baas",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3179190": {
+  "label": {
+   "en": "Yuknoom Yich'aak K'ahk'",
+   "zh": null
+  },
+  "description": "ajaw of Maya Kaan kingdom",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 649,
+   "date": "0649-10-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 696,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yuknoom Yichʼaak Kʼahkʼ",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q318072": {
+  "label": {
+   "en": "Itzcoatl",
+   "zh": "伊兹柯阿特尔"
+  },
+  "description": "4th Aztec emperor",
+  "coord": null,
+  "image": "Itzcoatl.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1380,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1440,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Itzcoatl",
+   "zh": "伊斯科阿特尔"
+  },
+  "locationQid": null
+ },
+ "Q318508": {
+  "label": {
+   "en": null,
+   "zh": "安德烈斯·曼努埃尔·洛佩斯·奥夫拉多尔"
+  },
+  "description": "Mexican politician. President of Mexico from 2018 to 2024",
+  "coord": null,
+  "image": "Conferencia de prensa del Presidente de México - Miércoles 24 de junio de 2020 6 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1953,
+   "date": "1953-11-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Andrés Manuel López Obrador",
+   "zh": "安德烈斯·曼努埃尔·洛佩斯·奥夫拉多尔"
+  },
+  "locationQid": null
+ },
+ "Q31877": {
+  "label": {
+   "en": "Our Lady of Guadalupe",
+   "zh": "瓜达卢佩的圣母"
+  },
+  "description": "title of the Virgin Mary as she appeared to an Indigenous man in Mexico in December 1531",
+  "coord": {
+   "lat": 19.4844,
+   "lon": -99.1172
+  },
+  "image": "Virgen de guadalupe1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1509831",
+   "Q82821"
+  ],
+  "wiki": {
+   "en": "Our Lady of Guadalupe",
+   "zh": "瓜達露佩聖母"
+  }
+ },
+ "Q319419": {
+  "label": {
+   "en": "Maximiliano Hernández Martínez",
+   "zh": "马克西米亚诺·埃尔南德斯·马丁内斯"
+  },
+  "description": "president of El Salvador (1882–1966)",
+  "coord": null,
+  "image": "General Maximiliano Hernández Martínez, President of El Salvador.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1882,
+   "date": "1882-10-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1966,
+   "date": "1966-05-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Maximiliano Hernández Martínez",
+   "zh": "马克西米利亚诺·埃尔南德斯·马丁内斯"
+  },
+  "locationQid": null
+ },
+ "Q322173": {
+  "label": {
+   "en": "Tomás Estrada Palma",
+   "zh": "托马斯·埃斯特拉达·帕尔马"
+  },
+  "description": "Cuban politician (1835–1908); President of Cuba (1902–1906)",
+  "coord": null,
+  "image": "Portrait of Tomás Estrada Palma.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1835,
+   "date": "1835-07-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1908,
+   "date": "1908-11-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tomás Estrada Palma",
+   "zh": "托马斯·埃斯特拉达·帕尔马"
+  },
+  "locationQid": null
+ },
+ "Q3241673": {
+  "label": {
+   "en": "Yaxchilan Lintel 24",
+   "zh": null
+  },
+  "description": "Ancient Maya limestone carving from Yaxchilan in modern Chiapas, Mexico",
+  "coord": null,
+  "image": "Yaxchilan Lintel 24.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q12573007"
+  ],
+  "wiki": {
+   "en": "Yaxchilan Lintel 24",
+   "zh": null
+  },
+  "locationQid": "Q6373"
+ },
+ "Q328323": {
+  "label": {
+   "en": "José Francisco Barrundia",
+   "zh": null
+  },
+  "description": "President of the United Provinces of Central America (1787-1854)",
+  "coord": null,
+  "image": "José Francisco Barrundia.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1787,
+   "date": "1787-05-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1854,
+   "date": "1854-08-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Francisco Barrundia",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3297424": {
+  "label": {
+   "en": "Cholula Massacre",
+   "zh": null
+  },
+  "description": "1519 Spanish attack by Cortés in Mexico",
+  "coord": null,
+  "image": "Felix Parra Episodios de la conquista La matanza de Cholula.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1519,
+   "date": "1519-10-24",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1519,
+   "date": "1519-10-23",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Cholula massacre",
+   "zh": null
+  },
+  "locationQid": "Q7380613"
+ },
+ "Q3298759": {
+  "label": {
+   "en": "United States occupation of Haiti",
+   "zh": "美國佔領海地"
+  },
+  "description": "1915 overview of the occupation of Haiti by the United States of America",
+  "coord": null,
+  "image": "Occupation of Haiti.jpg",
+  "pointInTime": {
+   "year": 1915,
+   "date": "1915-07-28",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1915,
+   "date": "1915-07-28",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1934,
+   "date": "1934-08-01",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188686"
+  ],
+  "wiki": {
+   "en": "United States occupation of Haiti",
+   "zh": "美國佔領海地"
+  },
+  "locationQid": "Q790"
+ },
+ "Q332055": {
+  "label": {
+   "en": "Omar Torrijos",
+   "zh": "奥马尔·托里霍斯"
+  },
+  "description": "Panamanian military leader and de facto ruler (1929–1981)",
+  "coord": null,
+  "image": "Omar Torrijos with Panamanian farmers.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1929,
+   "date": "1929-02-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1981,
+   "date": "1981-07-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Omar Torrijos",
+   "zh": "歐瑪·陶瑞賀士"
+  },
+  "locationQid": null
+ },
+ "Q332111": {
+  "label": {
+   "en": "Francisco Morazán",
+   "zh": "弗朗西斯科·莫拉桑"
+  },
+  "description": "President of Federal Republic of Central America (1830-1839)",
+  "coord": null,
+  "image": "General Francisco Morazán.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1792,
+   "date": "1792-10-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1842,
+   "date": "1842-09-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco Morazán",
+   "zh": "弗朗西斯科·莫拉桑"
+  },
+  "locationQid": null
+ },
+ "Q335525": {
+  "label": {
+   "en": "Acamapichtli",
+   "zh": "阿卡瑪皮茨提里"
+  },
+  "description": "1st Tlatoani of Tenochtitlan",
+  "coord": null,
+  "image": "Acamapichtli, - 1387, 1395 o 1403, retrato anónimo (~1541).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1400,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1395,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Acamapichtli",
+   "zh": "阿卡马皮奇特利"
+  },
+  "locationQid": null
+ },
+ "Q335539": {
+  "label": {
+   "en": "Juan Diego Cuauhtlatoatzin",
+   "zh": "圣若望·迭戈"
+  },
+  "description": "Layperson. Visionary of Our Lady of Guadalupe. First indigenous saint of the Americas. Roman Catholic Saint from Mexico.",
+  "coord": null,
+  "image": "Juan-Diego.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1474,
+   "date": "1474-05-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1548,
+   "date": "1548-05-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Diego",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3366368": {
+  "label": {
+   "en": "Kenneth Blackburne",
+   "zh": null
+  },
+  "description": "British colonial administrator (1907–1980)",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1907,
+   "date": "1907-12-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1980,
+   "date": "1980-11-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kenneth Blackburne",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q336816": {
+  "label": {
+   "en": "Tizoc",
+   "zh": "提佐克"
+  },
+  "description": "7th tlatoani of Tenochtitlan and ruler of the Aztec Triple Alliance",
+  "coord": null,
+  "image": "Tizoc.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1436,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1486,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tizoc",
+   "zh": "蒂索克"
+  },
+  "locationQid": null
+ },
+ "Q34261": {
+  "label": {
+   "en": "Port-au-Prince",
+   "zh": "太子港"
+  },
+  "description": "capital of Haiti",
+  "coord": {
+   "lat": 18.5469,
+   "lon": -72.3403
+  },
+  "image": "US Navy 100221-N-5787K-002 An aerial view of the logistical area near the port in Port-au-Prince (cropped).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1749,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3685462",
+   "Q7930989",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Port-au-Prince",
+   "zh": "太子港"
+  }
+ },
+ "Q3439047": {
+  "label": {
+   "en": "War of Dominican Independence",
+   "zh": "多明尼加獨立戰爭"
+  },
+  "description": "1843–1849 war between the Dominican Republic and Haiti",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1844,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1856,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Dominican War of Independence",
+   "zh": "多明尼加獨立戰爭"
+  },
+  "locationQid": "Q25277"
+ },
+ "Q344704": {
+  "label": {
+   "en": "Gabino Gaínza",
+   "zh": null
+  },
+  "description": "Spanish general and politician (1754-1829). Last Captain General of Guatemala before of central america independence and president of the Junta Provisional Consultiva after of the independence",
+  "coord": null,
+  "image": "Gabino Gaínza.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1754,
+   "date": "1754-10-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1829,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gabino Gaínza",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3447095": {
+  "label": {
+   "en": "Siyaj Chan K'awiil II",
+   "zh": null
+  },
+  "description": "ajaw of the Maya city of Tikal",
+  "coord": null,
+  "image": "Tikal Stela 31.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 456,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Sihyaj Chan Kʼawiil II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q34820": {
+  "label": {
+   "en": "Santo Domingo",
+   "zh": "圣多明哥"
+  },
+  "description": "capital of the Dominican Republic",
+  "coord": {
+   "lat": 18.4625,
+   "lon": -69.9361
+  },
+  "image": "Santo Domingo (Dominican Republic) taken atop Novocentro tower viewing the city to the southwest 2010.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1496,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q515",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "Santo Domingo",
+   "zh": "聖多明哥"
+  }
+ },
+ "Q351751": {
+  "label": {
+   "en": "Axayacatl",
+   "zh": "阿哈雅卡特尔"
+  },
+  "description": "6th tlatoani of Tenochtitlan and ruler of the Aztec Triple Alliance",
+  "coord": null,
+  "image": "Axayacatl.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1449,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1481,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Axayacatl",
+   "zh": "阿萨亚卡特尔"
+  },
+  "locationQid": null
+ },
+ "Q351758": {
+  "label": {
+   "en": "Ahuitzotl",
+   "zh": "奥伊佐特"
+  },
+  "description": "8th tlatoani of Tenochtitlan and ruler of the Aztec Triple Alliance",
+  "coord": null,
+  "image": "Ahuitzotl.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1450,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1502,
+   "date": "1502-09-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ahuitzotl",
+   "zh": "阿维特索特尔"
+  },
+  "locationQid": null
+ },
+ "Q353458": {
+  "label": {
+   "en": "Henri Christophe",
+   "zh": "亨利·克里斯托夫"
+  },
+  "description": "President and King of North Haiti (1767–1820)",
+  "coord": null,
+  "image": "Henri Christophe.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1767,
+   "date": "1767-10-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1820,
+   "date": "1820-10-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Henri Christophe",
+   "zh": "亨利·克里斯托夫"
+  },
+  "locationQid": null
+ },
+ "Q353464": {
+  "label": {
+   "en": "Alejandro Petion",
+   "zh": "亚历山大·佩蒂翁"
+  },
+  "description": "1st President of the Republic of Haiti (1770-1818)",
+  "coord": null,
+  "image": "Portrait du président Alexandre Pétion.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1770,
+   "date": "1770-04-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1818,
+   "date": "1818-03-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5",
+   "Q191923"
+  ],
+  "wiki": {
+   "en": "Alexandre Pétion",
+   "zh": "亚历山大·佩蒂翁"
+  },
+  "locationQid": null
+ },
+ "Q357792": {
+  "label": {
+   "en": "Edward John Eyre",
+   "zh": "爱德华·约翰·艾尔"
+  },
+  "description": "British explorer and colonial administrator (1815–1901)",
+  "coord": null,
+  "image": "Edward John Eyre.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1815,
+   "date": "1815-08-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1901,
+   "date": "1901-11-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Edward John Eyre",
+   "zh": "爱德华·约翰·艾尔"
+  },
+  "locationQid": null
+ },
+ "Q360283": {
+  "label": {
+   "en": "José Napoleón Duarte",
+   "zh": "何塞·纳波莱昂·杜阿尔特"
+  },
+  "description": "President of El Salvador (1925-1990)",
+  "coord": null,
+  "image": "José Napoleón Duarte 1987c.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1925,
+   "date": "1925-11-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1990,
+   "date": "1990-02-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Napoleón Duarte",
+   "zh": "何塞·纳波莱昂·杜阿尔特"
+  },
+  "locationQid": null
+ },
+ "Q365374": {
+  "label": {
+   "en": "Alfredo Cristiani",
+   "zh": "阿尔弗雷多·克里斯蒂亚尼·布尔卡德"
+  },
+  "description": "President of El Salvador",
+  "coord": null,
+  "image": "Alfredo Cristiani.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1947,
+   "date": "1947-11-22",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Alfredo Cristiani",
+   "zh": "阿尔弗雷多·克里斯蒂亚尼"
+  },
+  "locationQid": null
+ },
+ "Q365381": {
+  "label": {
+   "en": "Rafael Carrera",
+   "zh": "何塞·拉斐尔·卡雷拉·图尔西奥斯"
+  },
+  "description": "President of Guatemala (1815-1865)",
+  "coord": null,
+  "image": "Carrerayturcios 2014-06-22 09-46.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1815,
+   "date": "1815-10-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1865,
+   "date": "1865-04-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rafael Carrera",
+   "zh": "拉斐爾·卡雷拉"
+  },
+  "locationQid": null
+ },
+ "Q365703": {
+  "label": {
+   "en": "Gerardo Machado",
+   "zh": "赫拉爾多·馬查多"
+  },
+  "description": "President of Cuba from 1925 to 1933",
+  "coord": null,
+  "image": "Gmachado.PNG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1871,
+   "date": "1871-09-28",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1939,
+   "date": "1939-03-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gerardo Machado",
+   "zh": "格拉多·马查多"
+  },
+  "locationQid": null
+ },
+ "Q371186": {
+  "label": {
+   "en": "Oswaldo López Arellano",
+   "zh": "奥斯瓦尔多·洛佩斯·阿雷利亚诺"
+  },
+  "description": "President of Honduras from 1963–71 and 1972–75",
+  "coord": null,
+  "image": "Oswaldo López Arellano in 1965.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1921,
+   "date": "1921-06-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2010,
+   "date": "2010-05-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Oswaldo López Arellano",
+   "zh": "奧斯瓦爾多·羅培茲·阿雷利亞諾"
+  },
+  "locationQid": null
+ },
+ "Q371334": {
+  "label": {
+   "en": "Second Mexican Empire",
+   "zh": "墨西哥第二帝國"
+  },
+  "description": "Imperial Mexican state ruled by King Maximilian I for the duration of it's short existence",
+  "coord": {
+   "lat": 19.4333,
+   "lon": -99
+  },
+  "image": "Maximiliano de Habsburgo.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1864,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1867,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q1151405"
+  ],
+  "wiki": {
+   "en": "Second Mexican Empire",
+   "zh": "墨西哥第二帝國"
+  }
+ },
+ "Q371384": {
+  "label": {
+   "en": "K'inich Janaab' Pakal",
+   "zh": "巴加尔二世"
+  },
+  "description": "Maya ruler of Palenque",
+  "coord": null,
+  "image": "K'inich Janaab Pakal I.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 603,
+   "date": "0603-03-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 683,
+   "date": "0683-08-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼinich Janaabʼ Pakal",
+   "zh": "巴加尔大帝"
+  },
+  "locationQid": null
+ },
+ "Q372529": {
+  "label": {
+   "en": "Royal and Pontifical University of Mexico",
+   "zh": null
+  },
+  "description": "historic university in Mexico City (1551–1865)",
+  "coord": {
+   "lat": 19.4337,
+   "lon": -99.1318
+  },
+  "image": "Placa relativa a la Real y Pontificia Universidad de México.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1551,
+   "date": "1551-09-21",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1865,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3918",
+   "Q162633",
+   "Q55097243"
+  ],
+  "wiki": {
+   "en": "Royal and Pontifical University of Mexico",
+   "zh": null
+  }
+ },
+ "Q378420": {
+  "label": {
+   "en": null,
+   "zh": "何塞·玛丽亚·莫雷洛斯"
+  },
+  "description": "Mexican priest and rebel leader Me War in the notice Independence (1765–1815)",
+  "coord": null,
+  "image": "Mexico.JoseMariaMorelos.01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1765,
+   "date": "1765-09-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1815,
+   "date": "1815-12-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José María Morelos",
+   "zh": "何塞·玛丽亚·莫雷洛斯"
+  },
+  "locationQid": null
+ },
+ "Q3787431": {
+  "label": {
+   "en": "Huemac",
+   "zh": null
+  },
+  "description": "Toltec people",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Huemac",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q379672": {
+  "label": {
+   "en": "Diego de Landa",
+   "zh": "迭戈·德·蘭達"
+  },
+  "description": "Spanish Bishop of Yucatán (1524-1579)",
+  "coord": null,
+  "image": "Diego de Landa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1524,
+   "date": "1524-11-12",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1579,
+   "date": "1579-04-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Diego de Landa",
+   "zh": "雅各伯·德·兰达"
+  },
+  "locationQid": null
+ },
+ "Q379964": {
+  "label": {
+   "en": "Nezahualcóyotl",
+   "zh": "内萨瓦尔科约特尔"
+  },
+  "description": "ruler of Texcoco",
+  "coord": null,
+  "image": "Nezahualcoyotl.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1402,
+   "date": "1402-04-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1472,
+   "date": "1472-06-04",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nezahualcoyotl (tlatoani)",
+   "zh": "内萨瓦尔科约特尔"
+  },
+  "locationQid": null
+ },
+ "Q379972": {
+  "label": {
+   "en": "Bernardino de Sahagún",
+   "zh": "贝尔纳迪诺·德萨阿贡"
+  },
+  "description": "ca. 1499-1590, Spanish mesoamericanist, evangelizador, fraile franciscano, misionero",
+  "coord": null,
+  "image": "Bernardino de Sahagún.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1499,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1590,
+   "date": "1590-02-05",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bernardino de Sahagún",
+   "zh": "贝尔纳迪诺·德萨阿贡"
+  },
+  "locationQid": null
+ },
+ "Q379984": {
+  "label": {
+   "en": "Huitzilihuitl",
+   "zh": "惠提黎惠特"
+  },
+  "description": "Aztec emperor (1379-1417)",
+  "coord": null,
+  "image": "Huitzilihuitl, ~1379 - ~1415, retrato anónimo (~1541).png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1380,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1417,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Huitzilihuitl",
+   "zh": "维齐利维特尔"
+  },
+  "locationQid": null
+ },
+ "Q386230": {
+  "label": {
+   "en": "1902 eruption of Mount Pelée",
+   "zh": null
+  },
+  "description": "1902 volcanic eruption of Mount Pelée that destroyed the town of Saint Pierre",
+  "coord": {
+   "lat": 14.8075,
+   "lon": -61.1675
+  },
+  "image": "The National geographic magazine (1902) (14595295848).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1902,
+   "date": "1902-04-23",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1905,
+   "date": "1905-10-05",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7692360",
+   "Q1067217",
+   "Q2703194"
+  ],
+  "wiki": {
+   "en": "1902 eruption of Mount Pelée",
+   "zh": null
+  }
+ },
+ "Q386687": {
+  "label": {
+   "en": "Bernardo de Gálvez",
+   "zh": "伯纳多·德·加尔维斯"
+  },
+  "description": "Spanish colonial administrator (1746-1786)",
+  "coord": null,
+  "image": "The Viscount of Galveston.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1746,
+   "date": "1746-07-23",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1786,
+   "date": "1786-11-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bernardo de Gálvez",
+   "zh": "贝尔纳多·德·加尔维斯"
+  },
+  "locationQid": null
+ },
+ "Q390115": {
+  "label": {
+   "en": "Hurricane Mitch",
+   "zh": "飓风米奇"
+  },
+  "description": "Category 5 Atlantic hurricane in 1998",
+  "coord": null,
+  "image": "Mitch 1998-10-26 1915Z.jpg",
+  "pointInTime": {
+   "year": 1998,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1998,
+   "date": "1998-10-22",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1998,
+   "date": "1998-11-09",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q34439356"
+  ],
+  "wiki": {
+   "en": "Hurricane Mitch",
+   "zh": "飓风米奇"
+  },
+  "locationQid": null
+ },
+ "Q3982411": {
+  "label": {
+   "en": "Techotlalatzin",
+   "zh": "特乔特拉拉特辛"
+  },
+  "description": "Aztec ruler",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1323,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1409,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Techotlalatzin",
+   "zh": "特乔特拉拉特辛"
+  },
+  "locationQid": null
+ },
+ "Q40178187": {
+  "label": {
+   "en": "Hurricane Maria",
+   "zh": "颶風瑪麗亞"
+  },
+  "description": "Category 5 Atlantic hurricane in 2017",
+  "coord": null,
+  "image": "Maria 2017-09-19 2115Z.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 2017,
+   "date": "2017-09-16",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 2017,
+   "date": "2017-10-02",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q34439356"
+  ],
+  "wiki": {
+   "en": "Hurricane Maria",
+   "zh": "颶風瑪麗亞 (2017年)"
+  },
+  "locationQid": null
+ },
+ "Q41211": {
+  "label": {
+   "en": "San Juan",
+   "zh": "圣胡安"
+  },
+  "description": "capital of Puerto Rico",
+  "coord": {
+   "lat": 18.4653,
+   "lon": -66.1167
+  },
+  "image": "San Juan, Puerto Rico (2529298606).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1521,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q263639",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "San Juan, Puerto Rico",
+   "zh": "圣胡安 (波多黎各)"
+  }
+ },
+ "Q4164172": {
+  "label": {
+   "en": "K'inich Yax K'uk' Mo'",
+   "zh": "亚克库毛"
+  },
+  "description": "Ajaw of Copán",
+  "coord": null,
+  "image": "Cabeza de K'inich Yax K'uk Mo', rey maya (British Museum).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 437,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼinich Yax Kʼukʼ Moʼ",
+   "zh": "亚克库毛"
+  },
+  "locationQid": null
+ },
+ "Q41718": {
+  "label": {
+   "en": "Emiliano Zapata",
+   "zh": "埃米利亚诺·萨帕塔"
+  },
+  "description": "Mexican revolutionary (1879–1919)",
+  "coord": null,
+  "image": "Emiliano Zapata4.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1879,
+   "date": "1879-08-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1919,
+   "date": "1919-04-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Emiliano Zapata",
+   "zh": "埃米利亚诺·萨帕塔"
+  },
+  "locationQid": null
+ },
+ "Q4191082": {
+  "label": {
+   "en": "1692 Jamaica earthquake",
+   "zh": "1692年牙买加地震"
+  },
+  "description": "1692 earthquake and tsunami centered on Port Royal, British Jamaica",
+  "coord": {
+   "lat": 18,
+   "lon": -76.5
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1692,
+   "date": "1692-06-07",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944",
+   "Q8065",
+   "Q3839081"
+  ],
+  "wiki": {
+   "en": "1692 Jamaica earthquake",
+   "zh": null
+  }
+ },
+ "Q4212707": {
+  "label": {
+   "en": "Kaan kingdom",
+   "zh": null
+  },
+  "description": "Maya kingdom from the Classic period ruled by the Kaanu'l dynasty of Dzibanche",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Kaan kingdom",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q43777": {
+  "label": {
+   "en": "2010 Haiti earthquake",
+   "zh": "2010年海地地震"
+  },
+  "description": "12 January 2010 magnitude 7.0 Mw earthquake",
+  "coord": {
+   "lat": 18.4514,
+   "lon": -72.4452
+  },
+  "image": "Ruins of Haiti National Palace - Port au Prince 2012.jpg",
+  "pointInTime": {
+   "year": 2010,
+   "date": "2010-01-12",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944",
+   "Q8065",
+   "Q3839081"
+  ],
+  "wiki": {
+   "en": "2010 Haiti earthquake",
+   "zh": "2010年海地地震"
+  }
+ },
+ "Q439980": {
+  "label": {
+   "en": "Juan Bosch",
+   "zh": "胡安·博施"
+  },
+  "description": "First democratically elected President of the Dominican Republic (1909-2001)",
+  "coord": null,
+  "image": "Juan Bosch (1963).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1909,
+   "date": "1909-06-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2001,
+   "date": "2001-11-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Bosch (politician)",
+   "zh": "胡安·博什"
+  },
+  "locationQid": null
+ },
+ "Q440671": {
+  "label": {
+   "en": "Tomás Guardia Gutierrez",
+   "zh": "托馬斯·古鐵雷斯"
+  },
+  "description": "President of Costa Rica (1831-1882)",
+  "coord": null,
+  "image": "Tomás Guardia Gutiérrez.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1831,
+   "date": "1831-12-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1882,
+   "date": "1882-07-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tomás Guardia Gutiérrez",
+   "zh": "托馬斯·瓜迪亞·古鐵雷斯"
+  },
+  "locationQid": null
+ },
+ "Q441300": {
+  "label": {
+   "en": "Antonio de Mendoza",
+   "zh": "安东尼奥·德门多萨"
+  },
+  "description": "Spanish colonial administrator",
+  "coord": null,
+  "image": "AntonioMendoza.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1490,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1552,
+   "date": "1552-07-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Antonio de Mendoza",
+   "zh": "安东尼奥·德门多萨"
+  },
+  "locationQid": null
+ },
+ "Q449421": {
+  "label": {
+   "en": "Jean-Pierre Boyer",
+   "zh": "让-皮埃尔·布瓦耶"
+  },
+  "description": "2nd President of Haiti (1776-1850)",
+  "coord": null,
+  "image": "President Jean-Pierre Boyer of Haiti (Hispaniola Unification Regime) Portrait.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1776,
+   "date": "1776-02-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1850,
+   "date": "1850-07-09",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jean-Pierre Boyer",
+   "zh": "让-皮埃尔·布瓦耶"
+  },
+  "locationQid": null
+ },
+ "Q4506858": {
+  "label": {
+   "en": "Chak Tok Ich'aak I",
+   "zh": "查克·托克·伊查克一世"
+  },
+  "description": "ajaw of the Maya city of Tikal",
+  "coord": null,
+  "image": "Tikal St26.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 378,
+   "date": "0378-01-16",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Chak Tok Ichʼaak I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q4539887": {
+  "label": {
+   "en": "Yax Nuun Ayiin I",
+   "zh": "亚什·农·阿因一世"
+  },
+  "description": "ajaw of the Maya city of Tikal from 379 to c. 404",
+  "coord": null,
+  "image": "Tikal St04.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 411,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yax Nuun Ahiin I",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q4539889": {
+  "label": {
+   "en": "Wak Chan K'awiil",
+   "zh": null
+  },
+  "description": "ajaw of Tikal",
+  "coord": null,
+  "image": "Wak Chan K'awiil.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 508,
+   "date": "0508-01-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 562,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Wak Chan Kʼawiil",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q4553120": {
+  "label": {
+   "en": "1773 Guatemala earthquake",
+   "zh": null
+  },
+  "description": null,
+  "coord": {
+   "lat": 14.6,
+   "lon": -90.7
+  },
+  "image": "Sanfranciscoantigua.JPG",
+  "pointInTime": {
+   "year": 1773,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944"
+  ],
+  "wiki": {
+   "en": "1773 Guatemala earthquake",
+   "zh": null
+  }
+ },
+ "Q456259": {
+  "label": {
+   "en": "Anacaona",
+   "zh": null
+  },
+  "description": "Female cacique from Hispaniola",
+  "coord": null,
+  "image": "Vida y viajes de Cristóbal Colón-1852-Honores Tributados à la Reina Anacaona.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1474,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1504,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Anacaona",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q459282": {
+  "label": {
+   "en": "United States invasion of Panama",
+   "zh": "美国入侵巴拿马"
+  },
+  "description": "1989 military action in Panama",
+  "coord": null,
+  "image": "Panama clashes 1989.JPEG",
+  "pointInTime": null,
+  "start": {
+   "year": 1989,
+   "date": "1989-12-20",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1990,
+   "date": "1990-01-31",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q467011"
+  ],
+  "wiki": {
+   "en": "United States invasion of Panama",
+   "zh": "美国入侵巴拿马"
+  },
+  "locationQid": "Q804"
+ },
+ "Q464899": {
+  "label": {
+   "en": "Monte Albán",
+   "zh": "阿尔班山遗址"
+  },
+  "description": "pre-Columbian archaeological site in Mexico",
+  "coord": {
+   "lat": 17.0439,
+   "lon": -96.7678
+  },
+  "image": "Monte Albán archeological site, Oaxaca.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Monte Albán",
+   "zh": "阿尔万山遗址"
+  }
+ },
+ "Q467077": {
+  "label": {
+   "en": "Efraín Ríos Montt",
+   "zh": "里奧斯·蒙特"
+  },
+  "description": "former de facto President of Guatemala, army general, genocida and former president of Congress (1926-2018)",
+  "coord": null,
+  "image": "Retrato oficial de Presidente Efraín Ríos Montt (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1926,
+   "date": "1926-06-16",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 2018,
+   "date": "2018-04-01",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Efraín Ríos Montt",
+   "zh": "埃弗拉因·里奧斯·蒙特"
+  },
+  "locationQid": null
+ },
+ "Q46809": {
+  "label": {
+   "en": "Raúl Castro",
+   "zh": "劳尔·卡斯特罗"
+  },
+  "description": "former First Secretary of the Communist Party of Cuba",
+  "coord": null,
+  "image": "Raúl Castro Ruz en México, 2015 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1931,
+   "date": "1931-06-03",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Raúl Castro",
+   "zh": "劳尔·卡斯特罗"
+  },
+  "locationQid": null
+ },
+ "Q4833611": {
+  "label": {
+   "en": "B'alaj Chan K'awiil",
+   "zh": "巴拉赫·钱·卡维尔"
+  },
+  "description": "ajaw of Dos Pilas",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 625,
+   "date": "0625-10-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Bʼalaj Chan Kʼawiil",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q49344": {
+  "label": {
+   "en": "Óscar Arias Sánchez",
+   "zh": "奥斯卡·阿里亚斯·桑切斯"
+  },
+  "description": "President of Costa Rica (1986–1990, 2006–2010)",
+  "coord": null,
+  "image": "Óscar Arias (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1941,
+   "date": "1941-09-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Óscar Arias",
+   "zh": "奥斯卡·阿里亚斯"
+  },
+  "locationQid": null
+ },
+ "Q5027839": {
+  "label": {
+   "en": "Filibuster War",
+   "zh": "掠夺战争"
+  },
+  "description": "Attempt by William Walker to take over Nicaragua",
+  "coord": null,
+  "image": "Walker Nicaragua map.JPG",
+  "pointInTime": null,
+  "start": {
+   "year": 1855,
+   "date": "1855-06-16",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1857,
+   "date": "1857-05-01",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Filibuster War",
+   "zh": null
+  },
+  "locationQid": "Q811"
+ },
+ "Q503201": {
+  "label": {
+   "en": "Charles Victoire Emmanuel Leclerc",
+   "zh": "夏尔·维克图瓦·埃马纽埃尔·勒克莱尔"
+  },
+  "description": "French general (1772-1802)",
+  "coord": null,
+  "image": "Général CHARLES-EMMANUEL LECLERC (1772-1802).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1772,
+   "date": "1772-03-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1802,
+   "date": "1802-11-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Charles Leclerc (general, born 1772)",
+   "zh": "夏尔·维克图瓦·埃马纽埃尔·勒克莱尔"
+  },
+  "locationQid": null
+ },
+ "Q504904": {
+  "label": {
+   "en": "El Mirador",
+   "zh": "米拉多尔遗址"
+  },
+  "description": "pre-Columbian Maya settlement",
+  "coord": {
+   "lat": 17.7551,
+   "lon": -89.9204
+  },
+  "image": "Elmiradortigre.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954",
+   "Q486972"
+  ],
+  "wiki": {
+   "en": "El Mirador",
+   "zh": null
+  }
+ },
+ "Q522788": {
+  "label": {
+   "en": "Nezahualpilli",
+   "zh": "内萨瓦尔皮利"
+  },
+  "description": "Tlatoani of Texcoco",
+  "coord": null,
+  "image": "Nezahualpiltzintli.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1464,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1515,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Nezahualpilli",
+   "zh": "内萨瓦尔皮利"
+  },
+  "locationQid": null
+ },
+ "Q524894": {
+  "label": {
+   "en": "San Cristóbal de Las Casas",
+   "zh": "圣克里斯托瓦尔-德拉斯卡萨斯"
+  },
+  "description": "municipal seat of San Cristóbal, State of Chiapas, Mexico",
+  "coord": {
+   "lat": 16.737,
+   "lon": -92.6376
+  },
+  "image": "Montaje de San Cristóbal de Las Casas.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1528,
+   "date": "1528-03-31",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q20202352",
+   "Q1549591"
+  ],
+  "wiki": {
+   "en": "San Cristóbal de las Casas",
+   "zh": "圣克里斯托瓦尔-德拉斯卡萨斯"
+  }
+ },
+ "Q528758": {
+  "label": {
+   "en": "Mixtón War",
+   "zh": "米斯通战争"
+  },
+  "description": "1540–1542 war",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1540,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1542,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Mixtón War",
+   "zh": null
+  },
+  "locationQid": "Q2437292"
+ },
+ "Q540324": {
+  "label": {
+   "en": "Hatuey",
+   "zh": "哈土依"
+  },
+  "description": "hispaniolan Cacique (died 1512)",
+  "coord": null,
+  "image": "Hatuey.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1479,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1512,
+   "date": "1512-02-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hatuey",
+   "zh": "哈土依"
+  },
+  "locationQid": null
+ },
+ "Q5453254": {
+  "label": {
+   "en": "First Maroon War",
+   "zh": null
+  },
+  "description": "slave revolts in Jamaica",
+  "coord": {
+   "lat": 17.9833,
+   "lon": -76.8
+  },
+  "image": "CUDJOE MAKING PEACE WITH COLONEL JOHN GUTHRIE.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1728,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1739,
+   "date": null,
+   "precision": 10,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198",
+   "Q1155622"
+  ],
+  "wiki": {
+   "en": "First Maroon War",
+   "zh": null
+  }
+ },
+ "Q549431": {
+  "label": {
+   "en": "Jorge Ubico",
+   "zh": "豪尔赫·乌维科"
+  },
+  "description": "Guatemalan president and dictator (1878–1946)",
+  "coord": null,
+  "image": "Presidente Jorge Ubico Castañeda.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1878,
+   "date": "1878-11-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1946,
+   "date": "1946-06-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Jorge Ubico",
+   "zh": "豪尔赫·乌维科"
+  },
+  "locationQid": null
+ },
+ "Q554264": {
+  "label": {
+   "en": "Antonio Maceo",
+   "zh": "安东尼奥·马塞奥·格拉哈莱斯"
+  },
+  "description": "Cuban general (1845-1896)",
+  "coord": null,
+  "image": "Antonio Maceo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1845,
+   "date": "1845-06-14",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1896,
+   "date": "1896-12-07",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Antonio Maceo",
+   "zh": "安东尼奥·马塞奥"
+  },
+  "locationQid": null
+ },
+ "Q55636": {
+  "label": {
+   "en": "Miguel Hidalgo Y Costilla",
+   "zh": "米格尔·伊达尔戈-科斯蒂利亚"
+  },
+  "description": "Catholic priest, leader of the Mexican War of Independence",
+  "coord": null,
+  "image": "Miguel Hidalgo y Costilla1.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1753,
+   "date": "1753-05-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1811,
+   "date": "1811-07-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Miguel Hidalgo y Costilla",
+   "zh": "米格尔·伊达尔戈-科斯蒂利亚"
+  },
+  "locationQid": null
+ },
+ "Q557769": {
+  "label": {
+   "en": "Ce Acatl Topiltzin",
+   "zh": "阿卡特尔·托皮尔特辛"
+  },
+  "description": "Mexican priest",
+  "coord": null,
+  "image": "Topiltzin.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 947,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Cē Ācatl Topiltzin",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q558309": {
+  "label": {
+   "en": "Manuel Amador Guerrero",
+   "zh": "曼努埃尔·阿马多尔·格雷罗"
+  },
+  "description": "President of Panama (1833-1909)",
+  "coord": null,
+  "image": "Portrait of Manuel Amador Guerrero.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1833,
+   "date": "1833-06-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1909,
+   "date": "1909-05-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel Amador Guerrero",
+   "zh": "曼努埃尔·阿马多尔·格雷罗"
+  },
+  "locationQid": null
+ },
+ "Q5588": {
+  "label": {
+   "en": "Frida Kahlo",
+   "zh": "弗里达·卡罗"
+  },
+  "description": "Mexican painter (1907–1954)",
+  "coord": null,
+  "image": "Frida Kahlo, by Guillermo Kahlo (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1907,
+   "date": "1907-07-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1954,
+   "date": "1954-07-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Frida Kahlo",
+   "zh": "芙烈達·卡蘿"
+  },
+  "locationQid": null
+ },
+ "Q560853": {
+  "label": {
+   "en": "Faustin Soulouque",
+   "zh": "福斯坦·苏卢克"
+  },
+  "description": "president and emperor of Haiti (1782-1867)",
+  "coord": null,
+  "image": "Faustin I.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1782,
+   "date": "1782-08-15",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1867,
+   "date": "1867-08-06",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Faustin Soulouque",
+   "zh": "福斯坦·苏卢克"
+  },
+  "locationQid": null
+ },
+ "Q560938": {
+  "label": {
+   "en": "José Santos Zelayo",
+   "zh": "何塞·桑托斯·塞拉亚"
+  },
+  "description": "President of Nicaragua from 1893 to 1909",
+  "coord": null,
+  "image": "JZelaya.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1853,
+   "date": "1853-11-01",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1919,
+   "date": "1919-05-17",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Santos Zelaya",
+   "zh": "何塞·桑托斯·塞拉亚"
+  },
+  "locationQid": null
+ },
+ "Q562044": {
+  "label": {
+   "en": "Tiburcio Carías",
+   "zh": "蒂武西奧·卡里亚斯·安迪诺"
+  },
+  "description": "President of Honduras (1876–1969)",
+  "coord": null,
+  "image": "Pres. Andino of Honduras LCCN2016878325.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1876,
+   "date": "1876-03-05",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1969,
+   "date": "1969-12-23",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tiburcio Carías Andino",
+   "zh": "蒂武西奥·卡里亚斯·安迪诺"
+  },
+  "locationQid": null
+ },
+ "Q562277": {
+  "label": {
+   "en": "Battle of Havana",
+   "zh": "1762年哈瓦那戰役"
+  },
+  "description": "1762 battle",
+  "coord": {
+   "lat": 23.0964,
+   "lon": -82.3747
+  },
+  "image": "British fleet entering Havana.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1762,
+   "date": "1762-06-06",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1762,
+   "date": "1762-08-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561",
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Siege of Havana",
+   "zh": "哈瓦那圍城戰"
+  }
+ },
+ "Q5637706": {
+  "label": {
+   "en": "Zuangua",
+   "zh": null
+  },
+  "description": "Cazonci of Tzintzuntzan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1479,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1520,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q5656897": {
+  "label": {
+   "en": "Act of Independence of Central America",
+   "zh": null
+  },
+  "description": "declaration of independence from Spain",
+  "coord": null,
+  "image": "ActaIndepElSalvador.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q421829"
+  ],
+  "wiki": {
+   "en": "Act of Independence of Central America",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q567966": {
+  "label": {
+   "en": "Mayapan",
+   "zh": "玛雅潘"
+  },
+  "description": "pre-Columbian Maya site in Mexico",
+  "coord": {
+   "lat": 20.6294,
+   "lon": -89.4606
+  },
+  "image": "Mayapan perspectiva 1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Mayapan",
+   "zh": "玛雅潘"
+  }
+ },
+ "Q568672": {
+  "label": {
+   "en": "Tulasas",
+   "zh": "图拉"
+  },
+  "description": "archaeological site in Hidalgo, Mexico",
+  "coord": {
+   "lat": 20.0635,
+   "lon": -99.3411
+  },
+  "image": "Telamones Tula.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Tula (Mesoamerican site)",
+   "zh": "图拉 (中部美洲遗址)"
+  }
+ },
+ "Q57402": {
+  "label": {
+   "en": "Daniel Ortega",
+   "zh": "丹尼尔·奥尔特加"
+  },
+  "description": "Leader of Nicaragua (1979–1990; 2007–present)",
+  "coord": null,
+  "image": "Daniel Ortega on July 20, 2024.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1945,
+   "date": "1945-11-11",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Daniel Ortega",
+   "zh": "丹尼尔·奥尔特加"
+  },
+  "locationQid": null
+ },
+ "Q5771800": {
+  "label": {
+   "en": null,
+   "zh": "克劳迪娅·辛鲍姆"
+  },
+  "description": "president of Mexico since 2024",
+  "coord": null,
+  "image": "Claudia Sheinbaum Argentina v Spain 19 July 2026-283.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1962,
+   "date": "1962-06-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Claudia Sheinbaum",
+   "zh": "克劳迪娅·辛鲍姆"
+  },
+  "locationQid": null
+ },
+ "Q5859": {
+  "label": {
+   "en": "Chichen Itza",
+   "zh": "奇琴伊察"
+  },
+  "description": "pre-Columbian Maya city in Mexico",
+  "coord": {
+   "lat": 20.6831,
+   "lon": -88.5686
+  },
+  "image": "Chichen Itza 3.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 455,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1178,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q15661340",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Chichen Itza",
+   "zh": "奇琴伊察"
+  }
+ },
+ "Q593267": {
+  "label": {
+   "en": "Fall of Tenochtitlan",
+   "zh": null
+  },
+  "description": "investment, capture and fall of Tenochtitlan by the Spanish Empire",
+  "coord": {
+   "lat": 19.435,
+   "lon": -99.1314
+  },
+  "image": "Conquista-de-México-por-Cortés-Tenochtitlan-Painting.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1521,
+   "date": "1521-05-10",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1521,
+   "date": "1521-08-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q188055"
+  ],
+  "wiki": {
+   "en": "Fall of Tenochtitlan",
+   "zh": null
+  }
+ },
+ "Q60040": {
+  "label": {
+   "en": "Hernando de Soto",
+   "zh": "埃尔南多·德索托"
+  },
+  "description": "Spanish explorer and conquistador",
+  "coord": null,
+  "image": "De Soto by Telfer & Sartain.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1500,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1542,
+   "date": "1542-05-21",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hernando de Soto",
+   "zh": "埃尔南多·德·索托"
+  },
+  "locationQid": null
+ },
+ "Q605455": {
+  "label": {
+   "en": "Bonampak",
+   "zh": "波南帕克"
+  },
+  "description": "pre-Columbian archaeological site",
+  "coord": {
+   "lat": 16.704,
+   "lon": -91.065
+  },
+  "image": "Stairs bonampak.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Bonampak",
+   "zh": "波南帕克"
+  }
+ },
+ "Q6095239": {
+  "label": {
+   "en": "Itzamnaaj Bahlam III",
+   "zh": "伊察姆纳赫·巴拉姆三世"
+  },
+  "description": "ajaw of Yaxchilan",
+  "coord": null,
+  "image": "Yaxchilán lintel.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 647,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 742,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Itzamnaaj Bahlam III",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6095241": {
+  "label": {
+   "en": "Itzamnaaj K'awiil",
+   "zh": null
+  },
+  "description": "ajaw of Dos Pilas",
+  "coord": null,
+  "image": "Itzamnaaj K'awiil.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 673,
+   "date": "0673-01-25",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 726,
+   "date": "0726-10-22",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Itzamnaaj Kʼawiil",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6106514": {
+  "label": {
+   "en": "Respuesta a Sor Filotea de la Cruz",
+   "zh": null
+  },
+  "description": "1691 letter by Sor Juana Inés de la Cruz",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7725634"
+  ],
+  "wiki": {
+   "en": "La Respuesta a Sor Filotea de la Cruz",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6139016": {
+  "label": {
+   "en": "Tariácuri",
+   "zh": null
+  },
+  "description": "cazonci of the Tarascan state",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tariácuri",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q6159472": {
+  "label": {
+   "en": "Jaragua massacre",
+   "zh": null
+  },
+  "description": "Spanish entrap natives in Hispanolia in July 1503",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1503,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915",
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Jaragua massacre",
+   "zh": null
+  },
+  "locationQid": "Q6159468"
+ },
+ "Q6322440": {
+  "label": {
+   "en": "K'awiil Chan K'inich",
+   "zh": null
+  },
+  "description": "ajaw of Dos Pilas",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼawiil Chan Kʼinich",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q63472138": {
+  "label": {
+   "en": "cocoliztli epidemic",
+   "zh": "科科利兹利流行病"
+  },
+  "description": "16th century epidemics in New Spain",
+  "coord": null,
+  "image": "FlorentineCodex BK12 F54 smallpox.jpg",
+  "pointInTime": {
+   "year": 1600,
+   "date": null,
+   "precision": 7,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1545,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1631,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q44512"
+  ],
+  "wiki": {
+   "en": "Cocoliztli epidemics",
+   "zh": "科科利兹利流行病"
+  },
+  "locationQid": "Q27611"
+ },
+ "Q6352828": {
+  "label": {
+   "en": "Kalinago genocide of 1626",
+   "zh": null
+  },
+  "description": "genocidal massacre",
+  "coord": {
+   "lat": 17.3033,
+   "lon": -62.7885
+  },
+  "image": null,
+  "pointInTime": {
+   "year": 1626,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5533440"
+  ],
+  "wiki": {
+   "en": "Kalinago genocide of 1626",
+   "zh": null
+  }
+ },
+ "Q662263": {
+  "label": {
+   "en": "Yaxchilan",
+   "zh": "亚斯奇兰"
+  },
+  "description": "pre-Columbian archaeological site",
+  "coord": {
+   "lat": 16.9,
+   "lon": -90.9667
+  },
+  "image": "Yaxchilan 1.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Yaxchilan",
+   "zh": "亚斯奇兰"
+  }
+ },
+ "Q6644671": {
+  "label": {
+   "en": "Uaxaclajuun Ub'aah K'awiil",
+   "zh": "瓦沙克拉洪·乌巴·卡维尔"
+  },
+  "description": "ajaw of Copán",
+  "coord": null,
+  "image": "Copan St H.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 650,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 738,
+   "date": "0738-05-03",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Uaxaclajuun Ubʼaah Kʼawiil",
+   "zh": "瓦沙克拉洪·乌巴·卡维尔"
+  },
+  "locationQid": null
+ },
+ "Q671414": {
+  "label": {
+   "en": "Gerardo Barrios",
+   "zh": "赫拉多·巴里奥斯"
+  },
+  "description": "Salvadoran politician (1813-1865)",
+  "coord": null,
+  "image": "GBarrios.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1813,
+   "date": "1813-09-24",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1865,
+   "date": "1865-08-29",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Gerardo Barrios",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q679362": {
+  "label": {
+   "en": "Justo Rufino Barrios",
+   "zh": "胡斯托·鲁菲诺·巴里奥斯·奥延"
+  },
+  "description": "Guatemalan President (1835-1885)",
+  "coord": null,
+  "image": "Barriosretrato.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1835,
+   "date": "1835-07-19",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1885,
+   "date": "1885-04-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Justo Rufino Barrios",
+   "zh": "胡斯托·魯菲諾·巴里奧斯"
+  },
+  "locationQid": null
+ },
+ "Q685357": {
+  "label": {
+   "en": "Port Royal",
+   "zh": "罗亚尔港"
+  },
+  "description": "settlement in Jamaica",
+  "coord": {
+   "lat": 17.9375,
+   "lon": -76.8414
+  },
+  "image": "Aerial view of Port Royal Jamaica.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486972",
+   "Q20616831"
+  ],
+  "wiki": {
+   "en": "Port Royal",
+   "zh": "皇家港"
+  }
+ },
+ "Q68750": {
+  "label": {
+   "en": "Mexican War of Independence",
+   "zh": "墨西哥独立战争"
+  },
+  "description": "armed conflict which ended the rule of Spain in the territory of New Spain",
+  "coord": null,
+  "image": "Collage Independencia.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1800,
+   "date": "1800-09-16",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1821,
+   "date": "1821-09-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1006311"
+  ],
+  "wiki": {
+   "en": "Mexican War of Independence",
+   "zh": "墨西哥独立战争"
+  },
+  "locationQid": "Q19464773"
+ },
+ "Q689128": {
+  "label": {
+   "en": "Haitian Revolution",
+   "zh": "海地革命"
+  },
+  "description": "1791 slave revolt in the French colony of Saint-Domingue",
+  "coord": null,
+  "image": "Battle for Palm Tree Hill.jpg",
+  "pointInTime": {
+   "year": 1804,
+   "date": "1804-01-01",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1791,
+   "date": "1791-08-14",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1804,
+   "date": "1804-01-01",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q10931",
+   "Q1155622"
+  ],
+  "wiki": {
+   "en": "Haitian Revolution",
+   "zh": "海地革命"
+  },
+  "locationQid": "Q861551"
+ },
+ "Q714345": {
+  "label": {
+   "en": "Martín Enríquez de Almanza",
+   "zh": null
+  },
+  "description": "fourth viceroy of New Spain (1510-1583)",
+  "coord": null,
+  "image": "MartinEnriquezdeAlmansa.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1510,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1583,
+   "date": "1583-03-13",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Martín Enríquez de Almanza",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q722310": {
+  "label": {
+   "en": "Luis de Velasco",
+   "zh": "路易斯·德贝拉斯科"
+  },
+  "description": "Viceroy of New Spain (1511-1564)",
+  "coord": null,
+  "image": "LuisdeVelascoI.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1511,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1564,
+   "date": "1564-07-31",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Luis de Velasco, 2nd Viceroy of New Spain",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q722921": {
+  "label": {
+   "en": "Ulises Heureaux",
+   "zh": "尤里西斯·赫雷兹"
+  },
+  "description": "President of the Dominican Republic (1845-1898)",
+  "coord": null,
+  "image": "Hereaux2.gif",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1845,
+   "date": "1845-10-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1899,
+   "date": "1899-07-26",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ulises Heureaux",
+   "zh": "乌利塞斯·厄罗"
+  },
+  "locationQid": null
+ },
+ "Q7326": {
+  "label": {
+   "en": "Hernán Cortés",
+   "zh": "埃爾南·科爾特斯"
+  },
+  "description": "Spanish conquistador",
+  "coord": null,
+  "image": "Retrato de Hernán Cortés.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1485,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1547,
+   "date": "1547-12-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Hernán Cortés",
+   "zh": "埃爾南·科爾特斯"
+  },
+  "locationQid": null
+ },
+ "Q732892": {
+  "label": {
+   "en": "Valeriano Weyler",
+   "zh": "瓦勒利安·韦勒"
+  },
+  "description": "Spanish general (1838-1930)",
+  "coord": null,
+  "image": "Valeriano Weyler bust.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1838,
+   "date": "1838-09-17",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1930,
+   "date": "1930-10-20",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Valeriano Weyler",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7350": {
+  "label": {
+   "en": "Panama Canal",
+   "zh": "巴拿马运河"
+  },
+  "description": "large canal in Panama",
+  "coord": {
+   "lat": 9.12,
+   "lon": -79.75
+  },
+  "image": "Panama Canal Gatun Locks.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q949819"
+  ],
+  "wiki": {
+   "en": "Panama Canal",
+   "zh": "巴拿马运河"
+  }
+ },
+ "Q741356": {
+  "label": {
+   "en": "Guacanagaríx",
+   "zh": "瓜卡纳加利"
+  },
+  "description": "Taíno cacique of Marien in Hispaniola",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1500,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1494,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Guacanagaríx",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7533327": {
+  "label": {
+   "en": "Siyaj K'ak'",
+   "zh": "西亚赫·卡克"
+  },
+  "description": "Political figure in Maya civilization",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 350,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Siyaj Kʼakʼ",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q753895": {
+  "label": {
+   "en": "Tajín Veracruz",
+   "zh": "埃尔塔欣"
+  },
+  "description": "archaeological site in Mexico",
+  "coord": {
+   "lat": 20.4481,
+   "lon": -97.3782
+  },
+  "image": "El Tajín, Nischenpyramide.(fcm).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "El Tajín",
+   "zh": "埃尔塔欣"
+  }
+ },
+ "Q7689758": {
+  "label": {
+   "en": "Tayatzin",
+   "zh": null
+  },
+  "description": "king of Azcapotzalco",
+  "coord": null,
+  "image": "Unknown- bas-relief-02 - Pg183.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tayatzin",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q7698758": {
+  "label": {
+   "en": "Temple of the Feathered Serpent, Teotihuacan",
+   "zh": null
+  },
+  "description": "pre-Columbian Mesoamerican step pyramid at Teotihuacan",
+  "coord": {
+   "lat": 19.6818,
+   "lon": -98.8461
+  },
+  "image": "Teotihuacán, México, 2013-10-13, DD 80.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1456099"
+  ],
+  "wiki": {
+   "en": "Temple of the Feathered Serpent, Teotihuacan",
+   "zh": null
+  }
+ },
+ "Q772814": {
+  "label": {
+   "en": "Caste War of Yucatán",
+   "zh": "尤卡坦种姓之战"
+  },
+  "description": "1847-1901 armed conflicts on the Yucatán Peninsula in Mexico",
+  "coord": {
+   "lat": 19.5857,
+   "lon": -87.984
+  },
+  "image": "Chan Santa Cruz Maya.gif",
+  "pointInTime": null,
+  "start": {
+   "year": 1847,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1901,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Caste War of Yucatán",
+   "zh": "尤卡坦种姓之战"
+  }
+ },
+ "Q774": {
+  "label": {
+   "en": "Guatemala",
+   "zh": "危地马拉"
+  },
+  "description": "sovereign state in Central America",
+  "coord": {
+   "lat": 15.5,
+   "lon": -90.25
+  },
+  "image": "Satellite image of Guatemala in April 2002.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q7270",
+   "Q6256",
+   "Q171751"
+  ],
+  "wiki": {
+   "en": "Guatemala",
+   "zh": "危地马拉"
+  }
+ },
+ "Q778550": {
+  "label": {
+   "en": "Tezozomoc",
+   "zh": "特索索莫克"
+  },
+  "description": "Ruler of Azcapotzalco (1320-1426)",
+  "coord": null,
+  "image": "Tezozomoc.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1320,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1426,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Tezozomoc (Azcapotzalco)",
+   "zh": "特索索莫克"
+  },
+  "locationQid": null
+ },
+ "Q783": {
+  "label": {
+   "en": "Honduras",
+   "zh": "洪都拉斯"
+  },
+  "description": "sovereign state in Central America",
+  "coord": {
+   "lat": 14.6333,
+   "lon": -86.8167
+  },
+  "image": "Copan sculpture.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Honduras",
+   "zh": "洪都拉斯"
+  }
+ },
+ "Q783111": {
+  "label": {
+   "en": "Ramón Villeda Morales",
+   "zh": "拉蒙·比列达·莫拉莱斯"
+  },
+  "description": "President of Honduras from 1957 to 1963",
+  "coord": null,
+  "image": "Vilmorstamp.jpeg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1909,
+   "date": "1909-11-26",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1971,
+   "date": "1971-10-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Ramón Villeda Morales",
+   "zh": "拉蒙·比列達·莫拉萊斯"
+  },
+  "locationQid": null
+ },
+ "Q786": {
+  "label": {
+   "en": "Dominican Republic",
+   "zh": "多米尼加"
+  },
+  "description": "island sovereign state in the Caribbean Sea",
+  "coord": {
+   "lat": 18.8,
+   "lon": -70.2
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1844,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q112099",
+   "Q6256",
+   "Q11815167"
+  ],
+  "wiki": {
+   "en": "Dominican Republic",
+   "zh": "多明尼加"
+  }
+ },
+ "Q7876653": {
+  "label": {
+   "en": "Ucha'an K'in B'alam",
+   "zh": null
+  },
+  "description": "ajaw of Dos Pilas",
+  "coord": null,
+  "image": "DospilasSt5.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 741,
+   "date": "0741-05-28",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Uchaʼan Kʼin Bʼalam",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q790": {
+  "label": {
+   "en": "Haiti",
+   "zh": "海地"
+  },
+  "description": "country in the Caribbean Sea",
+  "coord": {
+   "lat": 19,
+   "lon": -72.8
+  },
+  "image": "ISS020-E-43300 - View of Haiti.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1804,
+   "date": "1804-01-01",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q112099",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Haiti",
+   "zh": "海地"
+  }
+ },
+ "Q792": {
+  "label": {
+   "en": "El Salvador",
+   "zh": "萨尔瓦多"
+  },
+  "description": "sovereign state in Central America",
+  "coord": {
+   "lat": 13.6689,
+   "lon": -88.8661
+  },
+  "image": "ES JoyadeCeren 06 2011 Estructura 9 Area 2 Tamazcal 2106 zoom out.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1841,
+   "date": "1841-02-02",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "El Salvador",
+   "zh": "萨尔瓦多"
+  }
+ },
+ "Q794210": {
+  "label": {
+   "en": "Aztec Triple Alliance",
+   "zh": "阿兹特克帝国"
+  },
+  "description": "last confederation of indigenous states on the Valley of Mexico",
+  "coord": {
+   "lat": 19.4333,
+   "lon": -99.1333
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1428,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1521,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240"
+  ],
+  "wiki": {
+   "en": "Aztec Triple Alliance",
+   "zh": null
+  }
+ },
+ "Q7960729": {
+  "label": {
+   "en": "Wak Chanil Ajaw",
+   "zh": "瓦克·查尼尔·阿豪"
+  },
+  "description": "noblewoman of Dos Pilas; politician",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 682,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 741,
+   "date": "0741-02-11",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Lady Six Sky",
+   "zh": "瓦克·查尼尔·阿豪"
+  },
+  "locationQid": null
+ },
+ "Q800": {
+  "label": {
+   "en": "Costa Rica",
+   "zh": "哥斯达黎加"
+  },
+  "description": "country in Central America",
+  "coord": {
+   "lat": 10,
+   "lon": -84
+  },
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Costa Rica",
+   "zh": "哥斯达黎加"
+  }
+ },
+ "Q804": {
+  "label": {
+   "en": "Panama",
+   "zh": "巴拿马"
+  },
+  "description": "sovereign state in Central America",
+  "coord": {
+   "lat": 8.6167,
+   "lon": -80.3667
+  },
+  "image": "Panama flag.png",
+  "pointInTime": null,
+  "start": {
+   "year": 1903,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q7270",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Panama",
+   "zh": "巴拿马"
+  }
+ },
+ "Q8044708": {
+  "label": {
+   "en": "Xiomara Castro",
+   "zh": "希奥玛拉·卡斯特罗"
+  },
+  "description": "Honduran politician and businesswoman (born 1959)",
+  "coord": null,
+  "image": "Xiomara Castro 2024 (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1959,
+   "date": "1959-09-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Xiomara Castro",
+   "zh": "希奥玛拉·卡斯特罗"
+  },
+  "locationQid": null
+ },
+ "Q8046995": {
+  "label": {
+   "en": "Yajaw Te' K'inich II",
+   "zh": null
+  },
+  "description": "ajaw of Caracol",
+  "coord": null,
+  "image": "Caracol ResidentialComplex.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 603,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yajaw Teʼ Kʼinich II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q8050487": {
+  "label": {
+   "en": "Yax Pasaj Chan Yopaat",
+   "zh": "雅克斯潘"
+  },
+  "description": "ajaw of Copan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 701,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 801,
+   "date": null,
+   "precision": 7,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yax Pasaj Chan Yopaat",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q8050500": {
+  "label": {
+   "en": "Yaxun B'alam IV",
+   "zh": null
+  },
+  "description": "ajaw of Yaxchilan",
+  "coord": null,
+  "image": "British Museum Yaxchilan lintel 16.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 709,
+   "date": "0709-08-27",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 768,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yaxun Bʼalam IV",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q8060773": {
+  "label": {
+   "en": "Yuknoom Took' K'awiil",
+   "zh": null
+  },
+  "description": "ajaw of Maya Kaan kingdom",
+  "coord": null,
+  "image": "Stele51CalakmulMuseum.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": {
+   "year": 736,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Yuknoom Tookʼ Kʼawiil",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q811": {
+  "label": {
+   "en": "Nicaragua",
+   "zh": "尼加拉瓜"
+  },
+  "description": "sovereign state in Central America",
+  "coord": {
+   "lat": 13,
+   "lon": -85
+  },
+  "image": "Кафедральный собор в Манагуа.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1821,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Nicaragua",
+   "zh": "尼加拉瓜"
+  }
+ },
+ "Q8244123": {
+  "label": {
+   "en": "Battle of Celaya",
+   "zh": null
+  },
+  "description": "1915 battle of the Mexican Revolution",
+  "coord": null,
+  "image": "Batalla celaya.jpg",
+  "pointInTime": {
+   "year": 1915,
+   "date": "1915-04-15",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1915,
+   "date": "1915-04-06",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1915,
+   "date": "1915-04-15",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Battle of Celaya",
+   "zh": null
+  },
+  "locationQid": "Q580649"
+ },
+ "Q828435": {
+  "label": {
+   "en": "Spanish conquest of the Aztec Empire",
+   "zh": "西班牙征服阿兹特克帝国"
+  },
+  "description": "16th-century Spanish invasion of Mesoamerica",
+  "coord": null,
+  "image": "Codex Mendoza folio 67r bottom.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1519,
+   "date": null,
+   "precision": 10,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1521,
+   "date": "1521-08-13",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q1361229",
+   "Q1377300"
+  ],
+  "wiki": {
+   "en": "Spanish conquest of the Aztec Empire",
+   "zh": "西班牙征服阿兹特克帝国"
+  },
+  "locationQid": "Q2608489"
+ },
+ "Q84192": {
+  "label": {
+   "en": "Maximilian I of Mexico",
+   "zh": "马西米连诺一世"
+  },
+  "description": "emperor of Mexico (1832-1867)",
+  "coord": null,
+  "image": "Maximilian of Mexico bw.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1832,
+   "date": "1832-07-06",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1867,
+   "date": "1867-06-19",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Maximilian I of Mexico",
+   "zh": "马西米连诺一世 (墨西哥)"
+  },
+  "locationQid": null
+ },
+ "Q8429": {
+  "label": {
+   "en": "1968 Summer Olympics",
+   "zh": "1968年夏季奥林匹克运动会"
+  },
+  "description": "Games of the XIX Olympiad, in Mexico City, Mexico",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1968,
+   "date": null,
+   "precision": 9,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1968,
+   "date": "1968-10-12",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1968,
+   "date": "1968-10-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q135976384",
+   "Q14547231"
+  ],
+  "wiki": {
+   "en": "1968 Summer Olympics",
+   "zh": "1968年夏季奥林匹克运动会"
+  },
+  "locationQid": "Q767558"
+ },
+ "Q861551": {
+  "label": {
+   "en": "Saint-Domingue",
+   "zh": "法属圣多明各"
+  },
+  "description": "French colony on the isle of Hispaniola",
+  "coord": {
+   "lat": 19.1,
+   "lon": -72.3333
+  },
+  "image": "SaintDomingue.360.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1626,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 1804,
+   "date": "1804-01-01",
+   "precision": 11,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q133156"
+  ],
+  "wiki": {
+   "en": "Saint-Domingue",
+   "zh": "法属圣多明各"
+  }
+ },
+ "Q8777565": {
+  "label": {
+   "en": "Hieroglyphic Stairway",
+   "zh": "象形文字阶梯"
+  },
+  "description": "monument in Honduras",
+  "coord": {
+   "lat": 14.8225,
+   "lon": -89.145
+  },
+  "image": "Stela M and the Hieroglyphic Stairway on the archeological site of Copán, a mayan city.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q4989906"
+  ],
+  "wiki": {
+   "en": null,
+   "zh": null
+  }
+ },
+ "Q879169": {
+  "label": {
+   "en": "Manuel Estrada Cabrera",
+   "zh": "曼努埃尔·埃斯特拉达·卡夫雷拉"
+  },
+  "description": "Guatemalan President (1857-67)",
+  "coord": null,
+  "image": "Manuel Estrada Cabrera 01.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1859,
+   "date": "1859-11-21",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1924,
+   "date": "1924-09-24",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Manuel Estrada Cabrera",
+   "zh": "曼努埃爾·埃斯特拉達·卡夫雷拉"
+  },
+  "locationQid": null
+ },
+ "Q880785": {
+  "label": {
+   "en": "Juan Rafael Mora Porras",
+   "zh": "胡安·拉斐尔·莫拉·波拉斯"
+  },
+  "description": "President of Costa Rica (1814–1860)",
+  "coord": null,
+  "image": "Juan Rafael Mora Porras.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1814,
+   "date": "1814-02-08",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1860,
+   "date": "1860-09-30",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan Rafael Mora Porras",
+   "zh": "胡安·拉斐爾·莫拉·波拉斯"
+  },
+  "locationQid": null
+ },
+ "Q881007": {
+  "label": {
+   "en": "José Trinidad Cabañas",
+   "zh": "何塞·特立尼达·卡瓦尼亚斯"
+  },
+  "description": "President of Honduras (1805-1871)",
+  "coord": null,
+  "image": "José Trinidad Cabañas in 1855.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1805,
+   "date": "1805-06-09",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1871,
+   "date": "1871-01-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "José Trinidad Cabañas",
+   "zh": "何塞·特立尼达·卡瓦尼亚斯"
+  },
+  "locationQid": null
+ },
+ "Q881158": {
+  "label": {
+   "en": "Juan José Arévalo",
+   "zh": "胡安·何塞·阿雷瓦洛"
+  },
+  "description": "Guatemalan politician (1904–1990)",
+  "coord": null,
+  "image": "JuanJoséArévaloBermejo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1904,
+   "date": "1904-09-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1990,
+   "date": "1990-10-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan José Arévalo",
+   "zh": "胡安·何塞·阿雷瓦洛"
+  },
+  "locationQid": null
+ },
+ "Q886263": {
+  "label": {
+   "en": "Flower War",
+   "zh": "荣冠战争"
+  },
+  "description": "ritual war fought intermittently between the Aztec Triple Alliance and its enemies from 1450s to the arrival of the Spaniards in 1519",
+  "coord": null,
+  "image": "Flower War Collage.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1454,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1519,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q198"
+  ],
+  "wiki": {
+   "en": "Flower war",
+   "zh": "荣冠战争"
+  },
+  "locationQid": null
+ },
+ "Q887185": {
+  "label": {
+   "en": "Pedro Santana",
+   "zh": "佩德罗·桑塔纳"
+  },
+  "description": "President of the Dominican Republic",
+  "coord": null,
+  "image": "Pedro Santana Dominican Republic president 1800s.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1801,
+   "date": "1801-06-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1864,
+   "date": "1864-06-14",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Pedro Santana",
+   "zh": "佩德罗·桑塔纳"
+  },
+  "locationQid": null
+ },
+ "Q887531": {
+  "label": {
+   "en": "Francisco Ferrera",
+   "zh": "弗朗西斯科·费雷拉"
+  },
+  "description": "president of Honduras (1794-1851)",
+  "coord": null,
+  "image": "Francisco-Ferrera.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1794,
+   "date": "1794-01-29",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1851,
+   "date": "1851-04-10",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Francisco Ferrera",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q887755": {
+  "label": {
+   "en": "Fruto Chamorro",
+   "zh": "弗鲁托·查莫罗·佩雷斯"
+  },
+  "description": "1st President of Nicaragua (1804-1855)",
+  "coord": null,
+  "image": "01 Fruto Chamorro Pérez 1854-1855.png",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1804,
+   "date": "1804-10-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1855,
+   "date": "1855-03-12",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Fruto Chamorro",
+   "zh": "弗鲁托·查莫罗"
+  },
+  "locationQid": null
+ },
+ "Q887758": {
+  "label": {
+   "en": "Rafael Zaldívar",
+   "zh": "拉斐尔·萨尔迪瓦"
+  },
+  "description": "President of El Salvador (1834-1903)",
+  "coord": null,
+  "image": "Zaldívar.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1834,
+   "date": null,
+   "precision": 9,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1903,
+   "date": "1903-03-02",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rafael Zaldívar",
+   "zh": "拉斐尔·萨尔迪瓦"
+  },
+  "locationQid": null
+ },
+ "Q888054": {
+  "label": {
+   "en": "Marco Aurelio Soto",
+   "zh": "马尔科·奥雷利奥·索托"
+  },
+  "description": "President of Honduras (1846-1908)",
+  "coord": null,
+  "image": "Doctor Marco Aurelio Soto.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1846,
+   "date": "1846-11-13",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1908,
+   "date": "1908-02-25",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Marco Aurelio Soto",
+   "zh": "马尔科·奥雷利奥·索托"
+  },
+  "locationQid": null
+ },
+ "Q888888": {
+  "label": {
+   "en": "Braulio Carrillo Colina",
+   "zh": "布勞略·卡里略·科利納"
+  },
+  "description": "Head of State of Costa Rica (1800-1845)",
+  "coord": null,
+  "image": "Braulio Carrillo.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1800,
+   "date": "1800-03-20",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1845,
+   "date": "1845-05-15",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Braulio Carrillo Colina",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q909286": {
+  "label": {
+   "en": "Dos Pilas",
+   "zh": "多斯皮拉斯"
+  },
+  "description": "human settlement",
+  "coord": {
+   "lat": 16.4458,
+   "lon": -90.2958
+  },
+  "image": "Dos Pilas 1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 629,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 761,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q486972",
+   "Q839954"
+  ],
+  "wiki": {
+   "en": "Dos Pilas",
+   "zh": null
+  }
+ },
+ "Q909737": {
+  "label": {
+   "en": "Tlatelolco massacre",
+   "zh": "特拉特洛尔科事件"
+  },
+  "description": "Social movement of Mexico",
+  "coord": {
+   "lat": 19.4517,
+   "lon": -99.1361
+  },
+  "image": "15-07-20-Plaza-de-las-tres-Culturas-RalfR-N3S 9336.jpg",
+  "pointInTime": {
+   "year": 1968,
+   "date": "1968-10-02",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3199915",
+   "Q49773",
+   "Q1679887"
+  ],
+  "wiki": {
+   "en": "Tlatelolco massacre",
+   "zh": "特拉特洛尔科事件"
+  }
+ },
+ "Q924446": {
+  "label": {
+   "en": "1972 Nicaragua earthquake",
+   "zh": "1972年尼加拉瓜地震"
+  },
+  "description": "December 1972 earthquake in Nicaragua",
+  "coord": {
+   "lat": 12.3,
+   "lon": -86.1
+  },
+  "image": "1972Nicaraguaquake5.jpg",
+  "pointInTime": {
+   "year": 1972,
+   "date": "1972-12-23",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7944",
+   "Q3839081",
+   "Q8065"
+  ],
+  "wiki": {
+   "en": "1972 Nicaragua earthquake",
+   "zh": "1972年尼加拉瓜地震"
+  }
+ },
+ "Q938864": {
+  "label": {
+   "en": "Mexican muralism",
+   "zh": "墨西哥壁畫運動"
+  },
+  "description": "global movement inspired by Mexican muralism",
+  "coord": null,
+  "image": "Epopeya del pueblo mexicano.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q968159"
+  ],
+  "wiki": {
+   "en": "Mexican muralism",
+   "zh": "墨西哥壁畫運動"
+  },
+  "locationQid": null
+ },
+ "Q951995": {
+  "label": {
+   "en": "K'inich K'an Joy Chitam II",
+   "zh": "伊尼奇·凱安·喬伊·奇塔姆二世"
+  },
+  "description": "ajaw of Palenque",
+  "coord": null,
+  "image": "K'inich K'an Joy Chitam II.svg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 644,
+   "date": "0644-11-02",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 711,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Kʼinich Kʼan Joy Chitam II",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q96": {
+  "label": {
+   "en": "Mexico",
+   "zh": "墨西哥"
+  },
+  "description": "country in North America",
+  "coord": {
+   "lat": 23,
+   "lon": -102
+  },
+  "image": "Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1810,
+   "date": "1810-09-16",
+   "precision": 11,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3624078",
+   "Q6256"
+  ],
+  "wiki": {
+   "en": "Mexico",
+   "zh": "墨西哥"
+  }
+ },
+ "Q973289": {
+  "label": {
+   "en": "Juan O’Donojú",
+   "zh": "胡安·奧多諾胡"
+  },
+  "description": "Spanish general and colonial governor (1762–1821)",
+  "coord": null,
+  "image": "JuanODonoju.jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1762,
+   "date": "1762-07-30",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1821,
+   "date": "1821-10-08",
+   "precision": 11,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Juan O'Donojú",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "Q976887": {
+  "label": {
+   "en": "1954 Guatemalan coup d'état",
+   "zh": "1954年瓜地馬拉政變"
+  },
+  "description": "coup d'état in Guatemala",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1954,
+   "date": null,
+   "precision": 10,
+   "pid": "P585"
+  },
+  "start": {
+   "year": 1954,
+   "date": "1954-06-18",
+   "precision": 11,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1954,
+   "date": "1954-06-27",
+   "precision": 11,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382"
+  ],
+  "wiki": {
+   "en": "1954 Guatemalan coup d'état",
+   "zh": "1954年危地马拉政变"
+  },
+  "locationQid": "Q774"
+ },
+ "Q98017689": {
+  "label": {
+   "en": "Rodrigo Chaves",
+   "zh": "罗德里戈·查韦斯·罗夫莱斯"
+  },
+  "description": "49th president of Costa Rica",
+  "coord": null,
+  "image": "Rodrigo Chaves 2022-5-16 Foto by Julieth Mendez (cropped).jpg",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1961,
+   "date": "1961-06-10",
+   "precision": 11,
+   "pid": "P569"
+  },
+  "died": null,
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Rodrigo Chaves",
+   "zh": "羅德里戈·查韋斯·羅夫萊斯"
+  },
+  "locationQid": null
+ },
+ "Q982515": {
+  "label": {
+   "en": "Maxtla",
+   "zh": "马斯特拉"
+  },
+  "description": "Ruler of Azcapotzalco",
+  "coord": null,
+  "image": "Maxtlatl.JPG",
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": {
+   "year": 1400,
+   "date": null,
+   "precision": 7,
+   "pid": "P569"
+  },
+  "died": {
+   "year": 1428,
+   "date": null,
+   "precision": 9,
+   "pid": "P570"
+  },
+  "instanceOf": [
+   "Q5"
+  ],
+  "wiki": {
+   "en": "Maxtla",
+   "zh": null
+  },
+  "locationQid": null
+ },
+ "loc:Q1247": {
+  "coord": {
+   "lat": 15,
+   "lon": -75
+  },
+  "label": {
+   "en": "Caribbean Sea",
+   "zh": "加勒比海"
+  }
+ },
+ "loc:Q130978": {
+  "coord": {
+   "lat": 19.5511,
+   "lon": -89.2964
+  },
+  "label": {
+   "en": "Yucatán Peninsula",
+   "zh": "尤卡坦半岛"
+  }
+ },
+ "loc:Q1489": {
+  "coord": {
+   "lat": 19.3538,
+   "lon": -99.1359
+  },
+  "label": {
+   "en": "Mexico City",
+   "zh": "墨西哥城"
+  }
+ },
+ "loc:Q19464773": {
+  "coord": {
+   "lat": 50,
+   "lon": -110
+  },
+  "label": {
+   "en": "Northern America and Mexico",
+   "zh": null
+  }
+ },
+ "loc:Q23308": {
+  "coord": {
+   "lat": 51.5294,
+   "lon": -0.1269
+  },
+  "label": {
+   "en": "British Library",
+   "zh": "大英图书馆"
+  }
+ },
+ "loc:Q241": {
+  "coord": {
+   "lat": 22,
+   "lon": -79.5
+  },
+  "label": {
+   "en": "Cuba",
+   "zh": "古巴"
+  }
+ },
+ "loc:Q2437292": {
+  "coord": null,
+  "label": {
+   "en": "Nueva Galicia",
+   "zh": "新加利西亚省"
+  }
+ },
+ "loc:Q25277": {
+  "coord": {
+   "lat": 19,
+   "lon": -71
+  },
+  "label": {
+   "en": "Hispaniola",
+   "zh": "伊斯帕尼奥拉岛"
+  }
+ },
+ "loc:Q2608489": {
+  "coord": {
+   "lat": 19.4333,
+   "lon": -99.1333
+  },
+  "label": {
+   "en": "Aztec Empire",
+   "zh": "阿兹特克联盟"
+  }
+ },
+ "loc:Q27611": {
+  "coord": {
+   "lat": 12,
+   "lon": -86
+  },
+  "label": {
+   "en": "Central America",
+   "zh": "中美洲"
+  }
+ },
+ "loc:Q34261": {
+  "coord": {
+   "lat": 18.5469,
+   "lon": -72.3403
+  },
+  "label": {
+   "en": "Port-au-Prince",
+   "zh": "太子港"
+  }
+ },
+ "loc:Q580649": {
+  "coord": {
+   "lat": 20.5289,
+   "lon": -100.815
+  },
+  "label": {
+   "en": "Celaya",
+   "zh": "塞拉亚"
+  }
+ },
+ "loc:Q60123": {
+  "coord": {
+   "lat": 16.53,
+   "lon": -92.45
+  },
+  "label": {
+   "en": "Chiapas",
+   "zh": "恰帕斯州"
+  }
+ },
+ "loc:Q6159468": {
+  "coord": null,
+  "label": {
+   "en": "Cacique of Jaragua",
+   "zh": "哈拉瓜"
+  }
+ },
+ "loc:Q6373": {
+  "coord": {
+   "lat": 51.5194,
+   "lon": -0.1269
+  },
+  "label": {
+   "en": "British Museum",
+   "zh": "大英博物馆"
+  }
+ },
+ "loc:Q7380613": {
+  "coord": {
+   "lat": 19.0569,
+   "lon": -98.3014
+  },
+  "label": {
+   "en": "Cholula",
+   "zh": "乔卢拉"
+  }
+ },
+ "loc:Q767558": {
+  "coord": {
+   "lat": 19.3319,
+   "lon": -99.1921
+  },
+  "label": {
+   "en": "Universitary Olympic Stadium",
+   "zh": "墨西哥国立自治大学奥运体育场"
+  }
+ },
+ "loc:Q774": {
+  "coord": {
+   "lat": 15.5,
+   "lon": -90.25
+  },
+  "label": {
+   "en": "Guatemala",
+   "zh": "危地马拉"
+  }
+ },
+ "loc:Q790": {
+  "coord": {
+   "lat": 19,
+   "lon": -72.8
+  },
+  "label": {
+   "en": "Haiti",
+   "zh": "海地"
+  }
+ },
+ "loc:Q792": {
+  "coord": {
+   "lat": 13.6689,
+   "lon": -88.8661
+  },
+  "label": {
+   "en": "El Salvador",
+   "zh": "萨尔瓦多"
+  }
+ },
+ "loc:Q804": {
+  "coord": {
+   "lat": 8.6167,
+   "lon": -80.3667
+  },
+  "label": {
+   "en": "Panama",
+   "zh": "巴拿马"
+  }
+ },
+ "loc:Q811": {
+  "coord": {
+   "lat": 13,
+   "lon": -85
+  },
+  "label": {
+   "en": "Nicaragua",
+   "zh": "尼加拉瓜"
+  }
+ },
+ "loc:Q852550": {
+  "coord": {
+   "lat": 19.4456,
+   "lon": -72.6883
+  },
+  "label": {
+   "en": "Gonaïves",
+   "zh": "戈纳伊夫"
+  }
+ },
+ "loc:Q861551": {
+  "coord": {
+   "lat": 19.1,
+   "lon": -72.3333
+  },
+  "label": {
+   "en": "Saint-Domingue",
+   "zh": "法属圣多明各"
+  }
+ },
+ "loc:Q96": {
+  "coord": {
+   "lat": 23,
+   "lon": -102
+  },
+  "label": {
+   "en": "Mexico",
+   "zh": "墨西哥"
+  }
+ }
+}

@@ -293,7 +293,7 @@ export class GlobeEngine {
   }
 
   intro() {
-    // Swing in from deep space toward the Old World.
+    // Swing in from deep space toward Afro-Eurasia (the densest part of the atlas).
     if (this.reduced) {
       this.setCameraGeo(36, 40, 2.1);
       this.controls.update();
@@ -708,7 +708,7 @@ export class GlobeEngine {
     if (layers.people) {
       for (const p of atlas.people) {
         const selected = selection?.kind === 'person' && selection.id === p.id;
-        if (!selected && (year < p.born || year > p.died)) continue;
+        if (!selected && (year < p.born || year > (p.died ?? Infinity))) continue;
         if (!p.stops.length) continue;
         const pos = personPosition(p, year);
         const key = `person:${p.id}`;
