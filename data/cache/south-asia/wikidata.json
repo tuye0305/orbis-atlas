@@ -942,6 +942,33 @@
    "zh": "海得拉巴土邦"
   }
  },
+ "Q124692827": {
+  "label": {
+   "en": "Independence of the Maldives",
+   "zh": null
+  },
+  "description": "Independence from the British empire territory over in the Maldives",
+  "coord": null,
+  "image": null,
+  "pointInTime": {
+   "year": 1965,
+   "date": "1965-07-26",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q37055"
+  ],
+  "wiki": {
+   "en": "Independence of the Maldives",
+   "zh": null
+  },
+  "locationQid": null
+ },
  "Q1259218": {
   "label": {
    "en": "Third Battle of Panipat",
@@ -2324,6 +2351,34 @@
    "en": "Prayagraj",
    "zh": "普拉亚格拉吉"
   }
+ },
+ "Q1634613": {
+  "label": {
+   "en": "1988 Maldives coup d'état attempt",
+   "zh": "仙人掌行動"
+  },
+  "description": "coup attempt",
+  "coord": null,
+  "image": "IAF IL-76 Hawaii.JPG",
+  "pointInTime": {
+   "year": 1988,
+   "date": "1988-11-03",
+   "precision": 11,
+   "pid": "P585"
+  },
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q45382",
+   "Q350604"
+  ],
+  "wiki": {
+   "en": "1988 Maldives coup attempt",
+   "zh": null
+  },
+  "locationQid": "Q826"
  },
  "Q1634624": {
   "label": {
@@ -3790,6 +3845,36 @@
   },
   "locationQid": null
  },
+ "Q2209873": {
+  "label": {
+   "en": "Paro Taktsang",
+   "zh": "塔克桑寺"
+  },
+  "description": "temple complex in Bhutan",
+  "coord": {
+   "lat": 27.4917,
+   "lon": 89.3633
+  },
+  "image": "Paro Taktsang, Bhutan (edited).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1692,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q54074585",
+   "Q5393308"
+  ],
+  "wiki": {
+   "en": "Paro Taktsang",
+   "zh": "塔克桑寺"
+  }
+ },
  "Q22330289": {
   "label": {
    "en": "Gommateshwara statue",
@@ -4463,6 +4548,38 @@
   "wiki": {
    "en": "Bajirao I",
    "zh": "巴吉拉奥一世"
+  },
+  "locationQid": null
+ },
+ "Q2564664": {
+  "label": {
+   "en": "Bhutan War",
+   "zh": "第一次英不战争"
+  },
+  "description": "war fought between British India and Bhutan in 1864–1865",
+  "coord": null,
+  "image": "India; (1909) (14566720270).jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1864,
+   "date": null,
+   "precision": 9,
+   "pid": "P580"
+  },
+  "end": {
+   "year": 1865,
+   "date": null,
+   "precision": 9,
+   "pid": "P582"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q178561"
+  ],
+  "wiki": {
+   "en": "Duar War",
+   "zh": null
   },
   "locationQid": null
  },
@@ -5581,6 +5698,40 @@
   "wiki": {
    "en": "Sangam literature",
    "zh": null
+  },
+  "locationQid": null
+ },
+ "Q3242360": {
+  "label": {
+   "en": "Licchavi",
+   "zh": "李查维"
+  },
+  "description": "ancient kingdom of Kathmandu valley",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": {
+   "year": 400,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": {
+   "year": 750,
+   "date": null,
+   "precision": 9,
+   "pid": "P576"
+  },
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q3024240",
+   "Q211503",
+   "Q164950"
+  ],
+  "wiki": {
+   "en": "Licchavis of Nepal",
+   "zh": "尼波羅國"
   },
   "locationQid": null
  },
@@ -7512,6 +7663,28 @@
   },
   "locationQid": null
  },
+ "Q4231519": {
+  "label": {
+   "en": "Constitution of Bhutan",
+   "zh": "不丹憲法"
+  },
+  "description": "Supreme law of Bhutan",
+  "coord": null,
+  "image": null,
+  "pointInTime": null,
+  "start": null,
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q7755"
+  ],
+  "wiki": {
+   "en": "Constitution of Bhutan",
+   "zh": "不丹憲法"
+  },
+  "locationQid": null
+ },
  "Q4383728": {
   "label": {
    "en": "Punakha Dzong",
@@ -7540,6 +7713,35 @@
   "wiki": {
    "en": "Punakha Dzong",
    "zh": "普那卡宗堡"
+  }
+ },
+ "Q4385992": {
+  "label": {
+   "en": "Malé Friday Mosque",
+   "zh": "马累星期五清真寺"
+  },
+  "description": "ancient decorated mosque",
+  "coord": {
+   "lat": 4.1781,
+   "lon": 73.5125
+  },
+  "image": "Male' Hukuru Miskiy 1.jpg",
+  "pointInTime": null,
+  "start": {
+   "year": 1658,
+   "date": null,
+   "precision": 9,
+   "pid": "P571"
+  },
+  "end": null,
+  "born": null,
+  "died": null,
+  "instanceOf": [
+   "Q32815"
+  ],
+  "wiki": {
+   "en": "Malé Friday Mosque",
+   "zh": "马累星期五清真寺"
   }
  },
  "Q455442": {
@@ -11086,6 +11288,16 @@
   "label": {
    "en": "Palembang",
    "zh": "巨港"
+  }
+ },
+ "loc:Q826": {
+  "coord": {
+   "lat": 4.18,
+   "lon": 73.51
+  },
+  "label": {
+   "en": "Maldives",
+   "zh": "马尔代夫"
   }
  },
  "loc:Q842931": {

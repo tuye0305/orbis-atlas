@@ -466,7 +466,7 @@
   "qid": "Q312544",
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "Kanishka’s birth year is unrecorded; 100 is a labelled placeholder (confidence low, note). Wikidata’s 78 comes from the obsolete equation of his era with the Shaka era; Falk (2001) and Iranica place year 1 in 127/128 CE.",
+   "reason": "Kanishka’s birth year is unrecorded; 100 is an estimate that makes him an adult at the start of his era in 127/128 (Falk; Iranica), explained in the note (confidence low). Wikidata’s 78 comes from the obsolete equation of his era with the Shaka era.",
    "checked": [
     "Harry Falk, Silk Road Art and Archaeology 7 (2001)",
     "Encyclopaedia Iranica: Kushan dynasty i. Dynastic history"
@@ -521,10 +521,11 @@
   "qid": "Q1133363",
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "Samudragupta’s birth year is not recorded; Wikidata’s 335 is the conventional start of his reign, which would make him a newborn king. 318 is a labelled placeholder (confidence low, note).",
+   "reason": "Samudragupta’s birth year is not recorded; Wikidata’s 335 is the conventional start of his reign. 318 is an inference from his adult accession c. 335 (Basham c. 335–376), explained in the record note (confidence low).",
    "checked": [
     "https://www.britannica.com/biography/Samudra-Gupta",
-    "U. Singh, A History of Ancient and Early Medieval India (2008), ch. 9"
+    "U. Singh, A History of Ancient and Early Medieval India (2008), ch. 9",
+    "https://en.wikipedia.org/wiki/Samudragupta"
    ]
   }
  },
@@ -557,9 +558,10 @@
   "qid": "Q708370",
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "Wikidata’s 610 is his accession, not his birth, which is unrecorded. 590 is a labelled placeholder (note).",
+   "reason": "Wikidata’s 610 is his accession, not his birth, which is unrecorded. c. 590 is inferred from his minority at his father Kirtivarman I’s death (c. 592–597) and his overthrow of Mangalesha c. 610; reasoning in the note.",
    "checked": [
-    "https://www.britannica.com/biography/Pulakeshin-II"
+    "https://www.britannica.com/biography/Pulakeshin-II",
+    "https://en.wikipedia.org/wiki/Mangalesha"
    ]
   }
  },
@@ -574,10 +576,11 @@
   "qid": "Q336312",
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "No contemporary source gives Iltutmish’s birth year; Britannica gives only his death (29 April 1236). He was bought as a youth c. 1200 and was already a governor by 1206, so 1192 (Wikidata) is too late; 1180 is a labelled placeholder.",
+   "reason": "No contemporary source gives Iltutmish’s birth year; Britannica gives only his death (29 April 1236). Minhaj has him bought as a boy by Aibak c. 1197, amir of Gwalior after 1200 and commanding the Badaun troops in 1205–06, so Wikidata’s uncited 1192 is too late; c. 1180 is the inferred estimate (confidence low, note).",
    "checked": [
     "https://www.britannica.com/biography/Iltutmish",
-    "P. Jackson, The Delhi Sultanate (1999)"
+    "P. Jackson, The Delhi Sultanate (1999)",
+    "https://en.wikipedia.org/wiki/Iltutmish"
    ]
   }
  },
@@ -587,15 +590,16 @@
   "dataset": "south-asia",
   "kind": "people",
   "field": "born",
-  "ours": 1240,
+  "ours": 1210,
   "wikidata": 1259,
   "qid": "Q3523666",
   "resolution": {
    "verdict": "keep-ours",
-   "reason": "Her birth year is unrecorded. Wikidata’s 1259 would make her three years old when she began to rule (1262); 1240 is a labelled placeholder (confidence low). The Chandupatla inscription confirms her death shortly before 27 November 1289.",
+   "reason": "Her birth year is unrecorded. Wikidata’s 1259 would make her a baby when she became co-regent (c. 1260). The record now follows P. V. P. Sastry (1978, p. 125), who put her at about eighty at her death in 1289, i.e. born c. 1210 (confidence low, note). The Chandupatla inscription confirms her death shortly before 27 November 1289.",
    "checked": [
     "C. Talbot, Precolonial India in Practice (2001)",
-    "https://en.wikipedia.org/wiki/Rudrama_Devi"
+    "https://en.wikipedia.org/wiki/Rudrama_Devi",
+    "P. V. P. Sastry, The Kākatīyas of Warangal (1978), p. 125"
    ]
   }
  },
