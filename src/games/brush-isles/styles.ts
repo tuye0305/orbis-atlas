@@ -26,7 +26,35 @@ export interface HouseCtx {
   neighbours: number;
   /** Next to a canal / river / shore. */
   waterside: boolean;
+  /**
+   * Which sides face water, in the house's own frame (+z is the front): 1 front, 2 right (+x),
+   * 4 back, 8 left. 0 when not waterside, or when the house stands at an odd angle.
+   */
+  waterSides?: number;
+  /** The engine walls those sides with a quay (see `Style.quay`): no need to model a bank there. */
+  quay?: boolean;
+  /** The water surface in the house's frame (its base is y = 0): a landing stage or water steps sit here. */
+  waterY?: number;
 }
+
+/** Quay walls where the town meets the water. `top` is the walk along the edge. */
+export interface Quay {
+  kind: 'brick' | 'stone';
+  wall: string;
+  cap: string;
+  top: string;
+  joint: string;
+  /** Lights along the quay edge, every few cells: a glazed street lantern, a paper lantern on a bracket, or a brazier. */
+  lamp?: { kind: 'lantern' | 'paper' | 'brazier'; post: string; glow: string };
+}
+
+/** Quays for the cities whose own style doesn't say: brick in Amsterdam, stone on the Bian and the Mexica canals. */
+export const QUAYS: Partial<Record<StyleId, Quay>> = {
+  // (Amsterdam lit its canals with oil lanterns on posts from 1669, Jan van der Heyden's design)
+  amsterdam: { kind: 'brick', wall: '#8c4a37', cap: '#d3cbb8', top: '#8d6a58', joint: '#6b5a50', lamp: { kind: 'lantern', post: '#2c2b29', glow: '#ffd08a' } },
+  kaifeng: { kind: 'stone', wall: '#a49d8d', cap: '#c9c1ad', top: '#b9a985', joint: '#7c766a', lamp: { kind: 'paper', post: '#4c3628', glow: '#ff8f5a' } },
+  tenochtitlan: { kind: 'stone', wall: '#b9ae98', cap: '#e4dac4', top: '#d6c9ab', joint: '#93887a', lamp: { kind: 'brazier', post: '#9a6a4c', glow: '#ff9a48' } },
+};
 
 export interface Bed {
   x: number;
@@ -100,6 +128,8 @@ export interface Style {
   people?: { clothes: string[]; skin: string };
   /** Cloud banks on the horizon and how dark their shadows are as they pass over the map (0–1). */
   clouds?: { color: string; shade: string; shadow: number };
+  /** Quay walls along the town's water sides; `false` for none. Unset: `QUAYS[id]`, if any. */
+  quay?: Quay | false;
 }
 
 export type ScatterZone = 'grass' | 'shore' | 'shallows' | 'hill';

@@ -97,12 +97,33 @@ export class Kit {
   private anchors: Record<string, THREE.Vector3> = {};
   readonly m = new THREE.Matrix4();
 
+  private glowParts: THREE.BufferGeometry[] = [];
+  private glowK = 0;
+
   /**
    * Name a point of the model for the engine: `smoke` is where a hearth's smoke rises (a chimney,
-   * a cooking fire). It travels with the built geometry as `geometry.userData.anchors`.
+   * a cooking fire); `nosmoke` (no position needed) keeps this building's hearth cold even when the
+   * dice say it smokes (a warehouse, a shrine, a shed). Anchors travel with the built geometry as
+   * `geometry.userData.anchors`.
    */
-  mark(name: 'smoke', x: number, y: number, z: number) {
+  mark(name: 'smoke' | 'nosmoke', x = 0, y = 0, z = 0) {
     this.anchors[name] = new THREE.Vector3(x, y, z);
+    return this;
+  }
+
+  /**
+   * Parts drawn inside `draw` glow: a lantern's paper, a lit window, the coals of a brazier. They
+   * are kept out of the shaded geometry and handed over as `geometry.userData.glow`, which the
+   * engine draws unlit at `strength` × their colour (about 1.5–3: past ~2 they bloom softly).
+   */
+  glow(strength: number, draw: () => void) {
+    const prev = this.glowK;
+    this.glowK = strength;
+    try {
+      draw();
+    } finally {
+      this.glowK = prev;
+    }
     return this;
   }
 
@@ -112,8 +133,13 @@ export class Kit {
       geo.applyMatrix4(m);
       geo.computeVertexNormals();
     }
-    paint(geo, color);
-    this.parts.push(geo);
+    if (this.glowK > 0) {
+      paint(geo, tmpColor.set(color).multiplyScalar(this.glowK));
+      this.glowParts.push(geo);
+    } else {
+      paint(geo, color);
+      this.parts.push(geo);
+    }
     return this;
   }
 
@@ -241,14 +267,30 @@ export class Kit {
    * occlusion into the vertex colours: walls darken toward the ground they stand on (y = 0) and
    * faces turned down (eave soffits, deck undersides) sit in shade, which is most of what makes
    * small boxes read as solid buildings rather than floating cut-outs.
+   *
+   * `lever` (for trees) adds the attribute `aLever` the breeze reads: wood (brown, dark parts:
+   * trunks, boughs, stumps) is -1 and stays put, every other part gets its distance from the point
+   * where it hangs on the tree (the vertex nearest the trunk axis, lowest first), so a crown bends
+   * about its own base and never tears off the trunk.
    */
-  build(o: { ao?: number } = {}) {
+  build(o: { ao?: number; lever?: boolean } = {}) {
+    if (o.lever) for (const p of this.parts) addLever(p);
     let g = mergeGeometries(this.parts, false) ?? new THREE.BufferGeometry();
     for (const p of this.parts) p.dispose();
     this.parts = [];
     g = dropDegenerate(g);
     g.userData.anchors = this.anchors;
     this.anchors = {};
+    if (this.glowParts.length) {
+      const gl = mergeGeometries(this.glowParts, false);
+      for (const p of this.glowParts) p.dispose();
+      this.glowParts = [];
+      if (gl) {
+        const glow = dropDegenerate(gl);
+        glow.computeBoundingSphere();
+        g.userData.glow = glow;
+      }
+    }
     const ao = o.ao ?? 1;
     const pos = g.attributes.position as THREE.BufferAttribute | undefined;
     const col = g.attributes.color as THREE.BufferAttribute | undefined;
@@ -265,4 +307,38 @@ export class Kit {
     g.computeBoundingSphere();
     return g;
   }
+}
+
+const hsl = { h: 0, s: 0, l: 0 };
+/** Bark and bare wood: warm hues, muted and dark. Leaves, needles, fronds and blossom are not. */
+const isWood = (c: THREE.Color) => {
+  c.getHSL(hsl);
+  return (hsl.h < 0.15 || hsl.h > 0.97) && hsl.s < 0.56 && hsl.l < 0.5;
+};
+
+function addLever(g: THREE.BufferGeometry) {
+  const pos = g.attributes.position as THREE.BufferAttribute;
+  const col = g.attributes.color as THREE.BufferAttribute;
+  const n = pos.count;
+  const lev = new Float32Array(n);
+  if (n && isWood(tmpColor.setRGB(col.getX(0), col.getY(0), col.getZ(0)))) lev.fill(-1);
+  else if (n) {
+    let best = 0;
+    let bestR = Infinity;
+    let bestY = Infinity;
+    for (let i = 0; i < n; i++) {
+      const r = Math.hypot(pos.getX(i), pos.getZ(i));
+      const y = pos.getY(i);
+      if (r < bestR - 0.01 || (r < bestR + 0.01 && y < bestY)) {
+        best = i;
+        bestR = Math.min(bestR, r);
+        bestY = y;
+      }
+    }
+    const px = pos.getX(best);
+    const py = pos.getY(best);
+    const pz = pos.getZ(best);
+    for (let i = 0; i < n; i++) lev[i] = Math.hypot(pos.getX(i) - px, pos.getY(i) - py, pos.getZ(i) - pz);
+  }
+  g.setAttribute('aLever', new THREE.BufferAttribute(lev, 1));
 }

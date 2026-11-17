@@ -5,10 +5,10 @@ import { createCoach, type Tone } from '../shared/coach';
 import { createSfx } from '../shared/sfx';
 import { clamp, createStage, gradientEnv, h, makeToast, mulberry } from '../shared/stage';
 import type { GameCtx, GameInstance, GameResult, MountGame } from '../types';
-import { Kit } from './kit';
-import { NOISE_GLSL, cloudUniforms, patchClouds, patchTerrain } from './shading';
+import { Kit, jitter } from './kit';
+import { NOISE_GLSL, cloudUniforms, patchClouds, patchQuay, patchTerrain } from './shading';
 import { STYLES } from './cities';
-import type { Stats, Style, StyleId } from './styles';
+import { QUAYS, type Stats, type Style, type StyleId } from './styles';
 
 /**
  * Brush Isles: paint land out of the water and a historical city grows on it. You never place a
@@ -37,6 +37,34 @@ const N = 128; // fine grid (height + paint masks)
 const CELL = S / (N - 1);
 const G = 40; // coarse grid: one building per cell, 1 world unit each
 const BRUSH = [1.3, 2.3, 3.8];
+/** The four sides of a cell; bit d of a side mask is DIRS[d]. */
+const DIRS = [[1, 0], [0, 1], [-1, 0], [0, -1]] as const;
+
+/**
+ * The quay blocks of a town cell, as [x0, x1, z0, z1] in cell-local units, given its water sides
+ * (`sub`) and how far out the bank reaches on each side (`out[d]`, where the ground meets the
+ * water). A house is fronted by a stretch from under its front (0.3) out to the waterline; a bank
+ * cell is paved over whole. Stretches along x stop short of a wall along z, which takes the
+ * corner, so no two blocks of one cell overlap.
+ */
+type Rect = [number, number, number, number];
+function quayRects(sub: number, out: readonly number[], bank: boolean): Rect[] {
+  const has = (d: number) => !!(sub & (1 << d));
+  const o = (d: number) => (has(d) ? out[d] : 0.5);
+  if (bank) return [[-o(2), o(0), -o(3), o(1)]];
+  const rects: Rect[] = [];
+  for (let d = 0; d < 4; d++) {
+    if (!has(d)) continue;
+    const [dx, dz] = DIRS[d];
+    if (dx) rects.push(dx > 0 ? [0.3, o(0), -o(3), o(1)] : [-o(2), -0.3, -o(3), o(1)]);
+    else {
+      const a = has(2) ? -0.3 : -0.5;
+      const b = has(0) ? 0.3 : 0.5;
+      rects.push(dz > 0 ? [a, b, 0.3, o(1)] : [a, b, -o(3), -0.3]);
+    }
+  }
+  return rects;
+}
 const GOAL_SHAPED = 30;
 const GOAL_HOUSES = 24;
 const GOAL_FIELDS = 8;
@@ -50,6 +78,8 @@ const enum K {
   Bridge,
   Reserved,
   Mill,
+  /** Town paint on the sloping bank between the houses and the water: an embankment walk. */
+  Quay,
 }
 
 type ToolId = 'land' | 'hill' | 'water' | 'houses' | 'fields' | 'trees' | 'landmark' | 'erase';
@@ -168,6 +198,11 @@ class Pool {
   private static q = new THREE.Quaternion();
   private static s = new THREE.Vector3();
   private static Y = new THREE.Vector3(0, 1, 0);
+  /** The span of instances written since the last flush (uploaded alone, not the whole buffer). */
+  private lo = Infinity;
+  private hi = -1;
+  private cLo = Infinity;
+  private cHi = -1;
   constructor(
     geo: THREE.BufferGeometry,
     mat: THREE.Material,
@@ -187,9 +222,13 @@ class Pool {
     this.items.push(it);
     this.mesh.count = this.items.length;
     this.write(it);
-    this.mesh.setColorAt(it.i, color);
-    this.mesh.instanceColor!.needsUpdate = true;
+    this.paint(it);
     return it;
+  }
+  private paint(it: Inst) {
+    this.mesh.setColorAt(it.i, it.color);
+    this.cLo = Math.min(this.cLo, it.i);
+    this.cHi = Math.max(this.cHi, it.i);
   }
   write(it: Inst) {
     if (it.i < 0) return;
@@ -197,7 +236,28 @@ class Pool {
     Pool.s.copy(it.scl).multiplyScalar(Math.max(1e-4, it.k));
     Pool.m.compose(it.pos, Pool.q, Pool.s);
     this.mesh.setMatrixAt(it.i, Pool.m);
-    this.mesh.instanceMatrix.needsUpdate = true;
+    this.lo = Math.min(this.lo, it.i);
+    this.hi = Math.max(this.hi, it.i);
+  }
+  /**
+   * Upload what changed this frame. The pools are sized for a whole map (thousands of copies), so
+   * re-sending the full buffers each frame of a growth animation cost megabytes per frame.
+   */
+  flush() {
+    if (this.hi >= this.lo) {
+      const a = this.mesh.instanceMatrix;
+      a.addUpdateRange(this.lo * 16, (this.hi - this.lo + 1) * 16);
+      a.needsUpdate = true;
+      this.lo = Infinity;
+      this.hi = -1;
+    }
+    const c = this.mesh.instanceColor;
+    if (c && this.cHi >= this.cLo) {
+      c.addUpdateRange(this.cLo * 3, (this.cHi - this.cLo + 1) * 3);
+      c.needsUpdate = true;
+      this.cLo = Infinity;
+      this.cHi = -1;
+    }
   }
   remove(it: Inst) {
     if (it.i < 0) return;
@@ -206,8 +266,7 @@ class Pool {
       last.i = it.i;
       this.items[it.i] = last;
       this.write(last);
-      this.mesh.setColorAt(last.i, last.color);
-      this.mesh.instanceColor!.needsUpdate = true;
+      this.paint(last);
     }
     this.mesh.count = this.items.length;
     it.i = -1;
@@ -222,6 +281,8 @@ interface Cell {
   /** Trees standing in the cell (its instances also hold undergrowth). */
   trees: number;
   shoreTrees: number;
+  /** A town cell walled along the water: its blocks (cell-local [x0, x1, z0, z1]) and the walk's height. */
+  quay: { rects: readonly Rect[]; sub: number; top: number; bank: boolean; out: number[] } | null;
 }
 
 interface Boat {
@@ -251,12 +312,14 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   const lang = ctx.lang;
   const tx = (o: L10n) => o[lang];
   const reduced = ctx.reduced;
+  // phones and tablets: a smaller shadow map, fewer townsfolk and smoke puffs
+  const lowEnd = typeof matchMedia === 'function' && matchMedia('(pointer: coarse)').matches;
 
   const stage = createStage(root, { bloom: { strength: 0.16, radius: 0.5, threshold: 1.25 }, fov: 32, grade: st.grade });
   const { renderer, scene, camera } = stage;
   renderer.toneMappingExposure = st.exposure;
   renderer.shadowMap.enabled = true;
-  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  renderer.shadowMap.type = THREE.PCFShadowMap; // (soft PCF is folded into it since r180)
   camera.far = 1200;
   camera.updateProjectionMatrix();
   scene.fog = new THREE.Fog(st.fog.color, st.fog.near, st.fog.far);
@@ -276,7 +339,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   sc.bottom = -25;
   sc.near = 1;
   sc.far = 150;
-  sun.shadow.mapSize.set(2048, 2048);
+  sun.shadow.mapSize.setScalar(lowEnd ? 1024 : 2048);
   sun.shadow.bias = -0.0004;
   sun.shadow.normalBias = 0.025;
   sun.shadow.radius = 3;
@@ -631,6 +694,21 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   // trees, reeds and grass: the same surface, bending in the breeze
   const matSway = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.85, metalness: 0, side: THREE.DoubleSide, envMapIntensity: 0.4 });
   patchClouds(matSway, cloudU, reduced ? 0 : 0.045);
+  // trees: trunks hold still, crowns and fronds swing about where they join the tree
+  const matTree = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.85, metalness: 0, side: THREE.DoubleSide, envMapIntensity: 0.4 });
+  patchClouds(matTree, cloudU, reduced ? 0 : 0.045, 0.14);
+  // lantern paper, lit windows, embers (Kit.glow): unlit, so they keep their warmth in the shade
+  const matGlow = new THREE.MeshBasicMaterial({ vertexColors: true });
+  /** Hang a model's glowing parts on it, as a child that grows, turns and goes with it. */
+  const withGlow = <T extends THREE.Mesh>(m: T): T => {
+    const g = m.geometry.userData.glow as THREE.BufferGeometry | undefined;
+    if (g) {
+      const c = new THREE.Mesh(g, matGlow);
+      c.userData.sharedGeo = !!m.userData.sharedGeo;
+      m.add(c);
+    }
+    return m;
+  };
   const ghostMat = new THREE.MeshBasicMaterial({ vertexColors: true, transparent: true, opacity: 0.45, depthWrite: false, fog: false });
 
   const bedKit = new Kit();
@@ -643,7 +721,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     const k = new Kit();
     st.treeKits[name](k);
     // room for every cell planted at full density with this one kind (Amsterdam's elms nearly are)
-    const p = new Pool(k.build(), matSway, G * G * 3);
+    const p = new Pool(k.build({ lever: true }), matTree, G * G * 3);
     treePools[name] = p;
     scene.add(p.mesh);
   }
@@ -654,12 +732,64 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     const k = new Kit();
     sc.kit(k);
     // (stones and lily pads sit still; anything taller than a pebble moves with the wind)
-    const p = new Pool(k.build({ ao: 0.5 }), sc.float ? matB : matSway, G * G * 4);
+    const geo = k.build({ ao: 0.5 });
+    const p = new Pool(geo, sc.float ? matB : matSway, G * G * 4);
     p.mesh.castShadow = !!sc.shadow;
     scene.add(p.mesh);
-    return { sc, p };
+    // leafy things (tufts, shrubs, ferns) share the trees' grove tints; stones and flowers don't
+    const col = geo.attributes.color as THREE.BufferAttribute | undefined;
+    const avg = new THREE.Color(0, 0, 0);
+    if (col) for (let i = 0; i < col.count; i++) avg.add(new THREE.Color(col.getX(i), col.getY(i), col.getZ(i)).multiplyScalar(1 / col.count));
+    const hsl = avg.getHSL({ h: 0, s: 0, l: 0 });
+    return { sc, p, leafy: hsl.h > 0.17 && hsl.h < 0.45 && hsl.s > 0.15 };
   });
   const hasHillScatter = scatterPools.some((s) => s.sc.zone === 'hill');
+
+  // quay walls where the town meets the water: one instanced unit block, faces drawn by the shader
+  const quaySt = st.quay === undefined ? QUAYS[st.id] : st.quay || undefined;
+  const quays = (() => {
+    if (!quaySt) return null;
+    const g = new THREE.BoxGeometry(1, 1, 1).translate(0, -0.5, 0);
+    g.deleteAttribute('uv');
+    const mat = new THREE.MeshStandardMaterial({ roughness: 0.9, metalness: 0, envMapIntensity: 0.35 });
+    patchQuay(mat, cloudU, quaySt, st.paving);
+    const p = new Pool(g, mat, G * G * 2);
+    scene.add(p.mesh);
+    return p;
+  })();
+  // a light on the quay edge every few cells: the fitting (shaded) and its flame or panes (unlit)
+  const lamps = (() => {
+    const lp = quaySt?.lamp;
+    if (!quays || !lp) return null;
+    const k = new Kit();
+    const glow = (draw: () => void) => k.glow(lp.kind === 'lantern' ? 2.2 : 1.8, draw);
+    if (lp.kind === 'lantern') {
+      k.cyl(0.007, 0.01, 0.16, 5, 0, 0, 0, lp.post);
+      k.box(0.036, 0.006, 0.036, 0, 0.158, 0, lp.post);
+      for (const [x, z] of [[-0.016, -0.016], [0.016, -0.016], [-0.016, 0.016], [0.016, 0.016]]) k.box(0.005, 0.042, 0.005, x, 0.163, z, lp.post);
+      k.cyl(0.004, 0.028, 0.022, 4, 0, 0.205, 0, lp.post, Math.PI / 4);
+      glow(() => k.box(0.028, 0.04, 0.028, 0, 0.164, 0, lp.glow));
+    } else if (lp.kind === 'paper') {
+      k.cyl(0.008, 0.011, 0.2, 5, 0, 0, 0, lp.post);
+      k.box(0.07, 0.008, 0.008, 0.03, 0.19, 0, lp.post);
+      k.box(0.002, 0.02, 0.002, 0.058, 0.17, 0, lp.post);
+      glow(() => k.sphere(0.022, 0.058, 0.145, 0, lp.glow, 1.3, 1));
+      k.cyl(0.012, 0.012, 0.006, 6, 0.058, 0.113, 0, '#3a2a20');
+    } else {
+      k.cyl(0.018, 0.03, 0.07, 6, 0, 0, 0, lp.post);
+      k.cyl(0.055, 0.03, 0.035, 7, 0, 0.07, 0, lp.post);
+      glow(() => {
+        k.cyl(0.045, 0.045, 0.01, 7, 0, 0.098, 0, lp.glow);
+        k.cyl(0, 0.028, 0.05, 5, 0, 0.1, 0, lp.glow);
+      });
+    }
+    const g = k.build({ ao: 0.3 });
+    const post = new Pool(g, matB, G * G);
+    const head = new Pool(g.userData.glow as THREE.BufferGeometry, matGlow, G * G);
+    head.mesh.castShadow = head.mesh.receiveShadow = false;
+    scene.add(post.mesh, head.mesh);
+    return { post, head };
+  })();
 
   // far scenery
   {
@@ -754,7 +884,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
 
   /* ---------- hearth smoke: thin grey puffs rising off a few roofs, drifting downwind */
   const smokers = new Set<THREE.Object3D>();
-  const MAXP = 640;
+  const MAXP = lowEnd ? 384 : 640;
   const smoke = new THREE.InstancedMesh(
     new THREE.IcosahedronGeometry(0.06, 1),
     // mostly self-lit, so the puffs read as haze rather than as lit, faceted bubbles
@@ -802,7 +932,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       if (o.userData.smokeT > 0) continue;
       // close enough that the puffs overlap into a plume; thinner when so many roofs smoke that the
       // puff buffer would otherwise cut the oldest plumes short
-      o.userData.smokeT = (0.14 + Math.random() * 0.12) * Math.max(1, smokers.size / 34);
+      o.userData.smokeT = (0.14 + Math.random() * 0.12) * Math.max(1, (smokers.size * 19) / MAXP);
       o.localToWorld(chimney.copy(o.userData.chimney));
       const i = pNext;
       pNext = (pNext + 1) % MAXP;
@@ -813,9 +943,13 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       pLife[i] = 3 + Math.random() * 1.4;
     }
     for (let i = 0; i < MAXP; i++) {
+      // (a spent puff is collapsed once, then left alone: most of the buffer is idle in a small town)
+      if (pAge[i] >= pLife[i] && pAge[i] > 50) continue;
       const t = (pAge[i] += dt) / pLife[i];
-      if (t >= 1) sm.makeScale(0, 0, 0);
-      else {
+      if (t >= 1) {
+        sm.makeScale(0, 0, 0);
+        pAge[i] = 99;
+      } else {
         const sway = Math.sin(pAge[i] * 1.7 + i) * 0.06;
         smP.set(pX[i] + wind.x * t * 2 + sway, pY[i] + t * 1.5, pZ[i] + wind.z * t * 2 - sway);
         smS.setScalar((0.5 + 2.2 * t) * Math.min(1, t / 0.08) * Math.min(1, (1 - t) / 0.5));
@@ -867,7 +1001,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   };
 
   /* ---------- cells */
-  const cells: Cell[] = Array.from({ length: G * G }, () => ({ kind: K.None, sig: -1, obj: null, inst: [], trees: 0, shoreTrees: 0 }));
+  const cells: Cell[] = Array.from({ length: G * G }, () => ({ kind: K.None, sig: -1, obj: null, inst: [], trees: 0, shoreTrees: 0, quay: null }));
   const reserved = new Uint8Array(G * G);
   const dirty = new Set<number>();
   const cxw = (c: number) => -HALF + c + 0.5;
@@ -897,7 +1031,25 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     const t = sample(Tf, x, z);
     const f = sample(Ff, x, z);
     const r = sample(Rf, x, z);
-    if (land && flat && t > 0.45) return [K.House, 0];
+    if (land && flat && t > 0.45) {
+      // which sides face water: part of the cell's signature, so the house (and its quay) is
+      // rebuilt when a canal is dug beside it or filled in
+      let ws = 0;
+      DIRS.forEach(([dx, dz], d) => {
+        if (isWater(cx + dx, cz + dz) && inG(cx + dx, cz + dz)) ws |= 1 << d;
+      });
+      return [K.House, ws];
+    }
+    // (a bank under a house's front is part of the town even where the paint has thinned out)
+    const houseBeside = () => DIRS.some(([dx, dz]) => inG(cx + dx, cz + dz) && cells[(cz + dz) * G + cx + dx].kind === K.House);
+    if (quaySt && h0 >= -0.03 && mx < 0.6 && (t > 0.45 || (t > 0.25 && houseBeside()))) {
+      let ws = 0;
+      DIRS.forEach(([dx, dz], d) => {
+        if (isWater(cx + dx, cz + dz) && inG(cx + dx, cz + dz)) ws |= 1 << d;
+      });
+      // (water only across a corner still makes a bank, or the quay would break at every bend)
+      if (ws || [[1, 1], [1, -1], [-1, 1], [-1, -1]].some(([dx, dz]) => inG(cx + dx, cz + dz) && isWater(cx + dx, cz + dz))) return [K.Quay, ws];
+    }
     if (f > 0.45) {
       if (land && flat) return st.windmill && hash(cx, cz, 5) < 0.07 ? [K.Mill, 0] : [K.Field, 0];
       if (st.chinampas && mx < 0.0 && mn > -1.0) return [K.Chinampa, 0];
@@ -967,14 +1119,28 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     c.inst = [];
     c.trees = 0;
     c.shoreTrees = 0;
+    c.quay = null;
   };
 
   const spinners = new Set<THREE.Object3D>();
   const v3 = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
 
+  /**
+   * Each tree's tint: broad patches drift warmer (sunlit, drier, a touch of yellow) or cooler (deep,
+   * blue-green), so a wood reads as groves rather than one repeated model; each tree then varies a
+   * little on its own in hue and brightness. Bark only takes the brightness (see patchClouds).
+   */
+  const WARM = new THREE.Color(1.2, 1.1, 0.72);
+  const COOL = new THREE.Color(0.84, 0.97, 1.06);
+  const leafTint = (x: number, z: number, rng: () => number) => {
+    const t = clamp((noise(x * 0.22 + 31, z * 0.22 - 17) - 0.5) * 3 + (rng() - 0.5) * 0.8, -1, 1);
+    const c = new THREE.Color(1, 1, 1).lerp(t > 0 ? WARM : COOL, Math.abs(t));
+    return c.multiplyScalar(0.86 + rng() * 0.26);
+  };
+
   /** Strew a cell with its zone's scatter; `mul` thins it out (the undergrowth under trees). */
   const scatterInto = (c: Cell, x: number, z: number, zone: string, rng: () => number, delay: number, mul: number) => {
-    for (const { sc, p } of scatterPools) {
+    for (const { sc, p, leafy } of scatterPools) {
       if (sc.zone !== zone) continue;
       const want = sc.density * mul * (0.5 + rng());
       const n = Math.floor(want) + (rng() < want % 1 ? 1 : 0);
@@ -988,7 +1154,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         if (wet ? hh > -0.06 : hh < (zone === 'shore' ? -0.02 : 0.04)) continue;
         const [s0, s1] = sc.scale ?? [0.85, 1.15];
         const sz = s0 + (s1 - s0) * rng();
-        const col = new THREE.Color(1, 1, 1).multiplyScalar(0.9 + rng() * 0.2);
+        const col = leafy ? leafTint(px, pz, rng) : new THREE.Color(1, 1, 1).multiplyScalar(0.9 + rng() * 0.2);
         const dy = sc.float ? 0.006 : wet ? -0.02 : -0.006;
         const it = p.add(v3(px, wet ? dy : hh + dy, pz), rng() * 6.28, v3(sz, sz, sz), col, dy, wet);
         if (it) {
@@ -997,6 +1163,78 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         }
       }
     }
+  };
+
+  /**
+   * A cell's quay: its blocks, with the wall face on each water side set where the ground meets
+   * the water (so a canal keeps its width), and the height of the walk on top.
+   */
+  const quayOf = (cx: number, cz: number, sub: number, bank: boolean) => {
+    const x = cxw(cx);
+    const z = cxw(cz);
+    const out = DIRS.map(([dx, dz]) => {
+      let t = bank ? 0.12 : 0.42;
+      while (t < 0.62 && heightAt(x + dx * t, z + dz * t) > 0.01) t += 0.04;
+      return Math.min(t, 0.62);
+    });
+    // A bank is paved level with the floors of the houses beside it (or, with none, its own high
+    // side), so the walk runs on unbroken from quay to quay; a few mm apart from cell to cell, so
+    // blocks that meet at an inside corner never z-fight.
+    let lvl = -1;
+    if (bank) {
+      for (let dz = -1; dz <= 1; dz++) for (let dx = -1; dx <= 1; dx++) if ((dx || dz) && inG(cx + dx, cz + dz) && cells[(cz + dz) * G + cx + dx].kind === K.House) lvl = Math.max(lvl, baseY(cx + dx, cz + dz));
+      if (lvl < 0) for (const [dx, dz] of [[0, 0], [0.4, 0], [-0.4, 0], [0, 0.4], [0, -0.4]]) lvl = Math.max(lvl, heightAt(x + dx, z + dz));
+    } else lvl = baseY(cx, cz);
+    const top = clamp(lvl, 0.06, 0.4) + 0.008 + hash(cx, cz, 11) * 0.004;
+    return { rects: quayRects(sub, out, bank), sub, top, bank, out };
+  };
+  const QUAY_FOOT = 0.45;
+  const buildQuays = (cx: number, cz: number, c: Cell, sub: number, bank: boolean, delay: number) => {
+    if (!quays || !quaySt) return;
+    const q = (c.quay = quayOf(cx, cz, sub, bank));
+    const rng = mulberry((cx * 31 + cz * 977 + 5) >>> 0);
+    const top = q.top;
+    for (const [x0, x1, z0, z1] of q.rects) {
+      const pos = v3(cxw(cx) + (x0 + x1) / 2, top, cxw(cz) + (z0 + z1) / 2);
+      const it = quays.add(pos, 0, v3(x1 - x0, top + QUAY_FOOT, z1 - z0), jitter(quaySt.wall, rng, 0.01, 0.08, 0.06), top, true);
+      if (it) {
+        c.inst.push(it);
+        animate({ inst: it, grow: true, dur: 0.45, delay });
+      }
+    }
+    // a lamp on every third cell or so, on the edge of the first water side with room for it
+    if (lamps && hash(cx, cz, 13) < 0.34) {
+      const d = [0, 1, 2, 3].find((d) => sub & (1 << d) && q.out[d] > (bank ? 0.2 : 0.56));
+      if (d !== undefined) {
+        const [dx, dz] = DIRS[d];
+        const off = q.out[d] - 0.045;
+        const pos = v3(cxw(cx) + dx * off, top, cxw(cz) + dz * off);
+        // (turned so a bracket reaches out over the water)
+        const rot = Math.atan2(-dz, dx);
+        for (const p of [lamps.post, lamps.head]) {
+          const it = p.add(pos.clone(), rot, v3(1, 1, 1), new THREE.Color(1, 1, 1), top, true);
+          if (it) {
+            c.inst.push(it);
+            animate({ inst: it, grow: true, dur: 0.4, delay: delay + 0.3 });
+          }
+        }
+      }
+    }
+  };
+  /** The height of a quay walk at (x, z), grown by `pad`; -Infinity off the quays. */
+  const quayY = (x: number, z: number, pad = 0) => {
+    let y = -Infinity;
+    const r = 0.62 + pad;
+    for (let cz = Math.floor(z + HALF - r); cz <= Math.floor(z + HALF + r); cz++)
+      for (let cx = Math.floor(x + HALF - r); cx <= Math.floor(x + HALF + r); cx++) {
+        if (!inG(cx, cz)) continue;
+        const q = cells[cz * G + cx].quay;
+        if (!q) continue;
+        const lx = x - cxw(cx);
+        const lz = z - cxw(cz);
+        for (const [x0, x1, z0, z1] of q.rects) if (lx >= x0 - pad && lx <= x1 + pad && lz >= z0 - pad && lz <= z1 + pad) y = Math.max(y, q.top);
+      }
+    return y;
   };
 
   const buildCell = (cx: number, cz: number, c: Cell, kind: K, sub: number) => {
@@ -1008,19 +1246,34 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     if (kind === K.House) {
       let nb = 0;
       for (let dz = -1; dz <= 1; dz++) for (let dx = -1; dx <= 1; dx++) if ((dx || dz) && isTown(cx + dx, cz + dz)) nb++;
-      const waterside = isWater(cx + 1, cz) || isWater(cx - 1, cz) || isWater(cx, cz + 1) || isWater(cx, cz - 1);
+      // (sub holds the water sides, world frame: bit d for DIRS[d])
+      const waterside = sub !== 0;
+      const ry = facing(cx, cz);
+      const y0 = baseY(cx, cz);
+      // the same sides in the house's own frame, when it stands square to the grid
+      let waterSides = 0;
+      const cr = Math.cos(ry);
+      const sr = Math.sin(ry);
+      DIRS.forEach(([dx, dz], d) => {
+        if (!(sub & (1 << d))) return;
+        const lx = dx * cr - dz * sr;
+        const lz = dx * sr + dz * cr;
+        if (Math.abs(lx) > 0.99) waterSides |= lx > 0 ? 2 : 8;
+        else if (Math.abs(lz) > 0.99) waterSides |= lz > 0 ? 1 : 4;
+      });
       const k = new Kit();
-      st.house(k, { rng, neighbours: nb, waterside });
-      const m = new THREE.Mesh(k.build(), matB);
+      st.house(k, { rng, neighbours: nb, waterside, waterSides, quay: !!quaySt && waterside, waterY: -y0 });
+      const m = withGlow(new THREE.Mesh(k.build(), matB));
       m.castShadow = true;
       m.receiveShadow = true;
-      m.position.set(x, baseY(cx, cz), z);
-      m.rotation.y = facing(cx, cz);
+      m.position.set(x, y0, z);
+      m.rotation.y = ry;
       m.scale.setScalar(1e-4);
       scene.add(m);
       c.obj = m;
       animate({ obj: m, grow: true, dur: 0.5, delay });
-      if (hash(cx, cz, 9) < st.smoke) addSmoker(m);
+      if (hash(cx, cz, 9) < st.smoke && !m.geometry.userData.anchors?.nosmoke) addSmoker(m);
+      if (quaySt && sub) buildQuays(cx, cz, c, sub, false, delay);
     } else if (kind === K.Mill && st.windmill) {
       const w = st.windmill(rng);
       const g = new THREE.Group();
@@ -1060,7 +1313,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         const sx = rng() < 0.5 ? -0.4 : 0.4;
         const pos = v3(x + sx * cr, 0.1, z - sx * sr);
         const s = 0.8 + rng() * 0.4;
-        const it = p.add(pos, rng() * 6, v3(s, s, s), new THREE.Color(1, 1, 1).multiplyScalar(0.9 + rng() * 0.2), 0.1, true);
+        const it = p.add(pos, rng() * 6, v3(s, s, s), leafTint(pos.x, pos.z, rng), 0.1, true);
         if (it) {
           c.inst.push(it);
           animate({ inst: it, grow: true, dur: 0.5, delay: delay + 0.15 });
@@ -1075,8 +1328,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         const px = x + (rng() - 0.5) * 0.7;
         const pz = z + (rng() - 0.5) * 0.7;
         const s = 0.75 + rng() * 0.5;
-        const col = new THREE.Color(1, 1, 1).multiplyScalar(0.86 + rng() * 0.26);
-        col.r *= 1 + (rng() - 0.5) * 0.12;
+        const col = leafTint(px, pz, rng);
         const it = treePools[name].add(v3(px, heightAt(px, pz) - 0.03, pz), rng() * 6.28, v3(s, s * (0.85 + rng() * 0.3), s), col, -0.03);
         if (it) {
           c.inst.push(it);
@@ -1087,12 +1339,14 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       }
       // undergrowth, so a wooded slope isn't bare ground between the trunks
       scatterInto(c, x, z, zone === 0 ? 'shore' : zone === 2 && hasHillScatter ? 'hill' : 'grass', rng, delay, 0.55);
+    } else if (kind === K.Quay) {
+      buildQuays(cx, cz, c, sub, true, delay);
     } else if (kind === K.None && sub) {
       scatterInto(c, x, z, SCATTER_ZONES[sub], rng, delay, 1);
     } else if (kind === K.Bridge && st.bridge) {
       const k = new Kit();
       st.bridge(k, sub & 3, (sub >> 2) & 3);
-      const m = new THREE.Mesh(k.build(), matB);
+      const m = withGlow(new THREE.Mesh(k.build(), matB));
       m.castShadow = m.receiveShadow = true;
       m.position.set(x, 0, z);
       m.rotation.y = sub >= 16 ? -Math.PI / 2 : 0;
@@ -1107,7 +1361,22 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   /** Keep what a cell holds sitting on the ground after the terrain under it moved. */
   const resettle = (cx: number, cz: number, c: Cell) => {
     if (c.obj && c.kind !== K.Bridge) c.obj.position.y = baseY(cx, cz);
+    if (c.quay) c.quay = quayOf(cx, cz, c.quay.sub, c.quay.bank);
+    let qi = 0;
     for (const it of c.inst) {
+      if (lamps && (it.pool === lamps.post || it.pool === lamps.head) && c.quay) {
+        it.pos.y = it.dy = c.quay.top;
+        it.pool.write(it);
+        continue;
+      }
+      if (it.pool === quays && c.quay) {
+        const [x0, x1, z0, z1] = c.quay.rects[qi++] ?? [0, 0, 0, 0];
+        it.pos.set(cxw(cx) + (x0 + x1) / 2, c.quay.top, cxw(cz) + (z0 + z1) / 2);
+        it.scl.set(x1 - x0, c.quay.top + QUAY_FOOT, z1 - z0);
+        it.dy = c.quay.top;
+        it.pool.write(it);
+        continue;
+      }
       if (it.abs) continue;
       it.pos.y = heightAt(it.pos.x, it.pos.z) + it.dy;
       it.pool.write(it);
@@ -1163,6 +1432,9 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         buildCell(cx, cz, c, kind, sub);
         if (wasWalled !== walled(cx, cz)) restampOcc(cx, cz);
         // neighbours may now face this house, or a bridge may now span to it
+        // a bank's walk is levelled to the houses beside it
+        if (wasHouse !== (kind === K.House) && quays)
+          for (let dz = -1; dz <= 1; dz++) for (let dx = -1; dx <= 1; dx++) if ((dx || dz) && inG(cx + dx, cz + dz)) dirty.add((cz + dz) * G + cx + dx);
         if (wasHouse !== (kind === K.House) && st.bridge)
           for (let dz = -4; dz <= 4; dz++) for (let dx = -4; dx <= 4; dx++) if ((dx || dz) && inG(cx + dx, cz + dz) && (dx === 0 || dz === 0)) dirty.add((cz + dz) * G + cx + dx);
       }
@@ -1216,6 +1488,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     }
     const m = new THREE.Mesh(lmGeo, matB);
     m.userData.sharedGeo = true;
+    withGlow(m);
     m.castShadow = m.receiveShadow = true;
     m.position.set(x, lmY(), z);
     m.rotation.y = ry;
@@ -1400,7 +1673,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     leaving: boolean;
     color: THREE.Color;
   }
-  const NW = reduced ? 0 : 90;
+  const NW = reduced ? 0 : lowEnd ? 56 : 90;
   const people = st.people ?? { clothes: ['#d9cfb8', '#7a5a3a', '#3b4a63'], skin: '#c89a74' };
   const figure = (() => {
     const kb = new Kit();
@@ -1429,7 +1702,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   /** A grid node (the corner shared by four cells) people can stand on. */
   const walkable = (i: number, j: number) => {
     if (i < 1 || j < 1 || i >= G || j >= G) return false;
-    const hh = heightAt(nodeW(i), nodeW(j));
+    const hh = Math.max(heightAt(nodeW(i), nodeW(j)), quays ? quayY(nodeW(i), nodeW(j)) : -1);
     if (hh < 0.05 || hh > 1.25) return false;
     // not inside the landmark's court, nor across a field
     let r = 0;
@@ -1540,7 +1813,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       const hdx = w.nx - w.px;
       const hdz = w.nz - w.pz;
       wq.setFromAxisAngle(wY, hdx || hdz ? Math.atan2(hdx, hdz) : 0);
-      wp.set(w.x, heightAt(w.x, w.z) + (moving ? Math.abs(Math.sin(w.phase)) * 0.008 : 0), w.z);
+      wp.set(w.x, Math.max(heightAt(w.x, w.z), quayY(w.x, w.z)) + (moving ? Math.abs(Math.sin(w.phase)) * 0.008 : 0), w.z);
       ws.setScalar(Math.max(1e-4, w.k));
       wm.compose(wp, wq, ws);
       bodies.setMatrixAt(n, wm);
@@ -1557,7 +1830,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
 
   /* ---------- boats */
   const boats: Boat[] = [];
-  const nav = (x: number, z: number) => Math.abs(x) < HALF - 1.2 && Math.abs(z) < HALF - 1.2 && heightAt(x, z) < -0.22;
+  const nav = (x: number, z: number) => Math.abs(x) < HALF - 1.2 && Math.abs(z) < HALF - 1.2 && heightAt(x, z) < -0.22 && (!quays || quayY(x, z, 0.16) === -Infinity);
   /** Open water all the way from a to b, so a boat does not set course across an island. */
   const clear = (ax: number, az: number, bx: number, bz: number) => {
     const n = Math.ceil(Math.hypot(bx - ax, bz - az) / 0.45);
@@ -1596,7 +1869,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       if (!nav(x, z)) continue;
       const k = new Kit();
       st.boat(k, boatRng);
-      const m = new THREE.Mesh(k.build(), matB);
+      const m = withGlow(new THREE.Mesh(k.build(), matB));
       m.castShadow = true;
       m.scale.setScalar(1e-4);
       scene.add(m);
@@ -2041,6 +2314,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   };
 
   /* ---------- frame loop */
+  const allPools = [beds, ...Object.values(treePools), ...scatterPools.map((s) => s.p), ...(quays ? [quays] : []), ...(lamps ? [lamps.post, lamps.head] : [])];
   let coachTimer = 0;
   let normalsTimer = 0;
   let statsTimer = 0;
@@ -2086,6 +2360,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       }
       waterU.uNB.value = nb;
     }
+    for (const p of allPools) p.flush();
     for (const sp of spinners) sp.rotation.z -= dt * (reduced ? 0.3 : 1.1);
     stepSmoke(dt);
     stepWalkers(dt, Math.floor(s.houses * 0.7));
@@ -2139,7 +2414,13 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       stats,
       finish,
       scene,
-      debug: () => ({ walkers: walkers.length, boats: boats.length, scatter: scatterPools.map((sp) => sp.p.items.length) }),
+      debug: () => {
+        // one plain render (shadow pass included) to count what the frame draws
+        renderer.render(scene, camera);
+        const r = renderer.info.render;
+        const q = cells.flatMap((c, i) => (c.quay ? [[cxw(i % G), cxw((i / G) | 0), c.quay.sub]] : []));
+        return { walkers: walkers.length, boats: boats.length, scatter: scatterPools.map((sp) => sp.p.items.length), calls: r.calls, tris: r.triangles, quays: q.length, quaySample: q[Math.floor(q.length / 2)] ?? null };
+      },
     };
 
   return {
@@ -2160,6 +2441,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       hTex.dispose();
       env.dispose();
       ghostMat.dispose();
+      (probe.material as THREE.Material).dispose();
       stage.dispose();
       hud.remove();
     },

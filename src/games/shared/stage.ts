@@ -164,14 +164,21 @@ export function createStage(root: HTMLElement, opts: { bloom?: { strength: numbe
       scene.traverse((o) => {
         const m = o as THREE.Mesh;
         m.geometry?.dispose?.();
+        // (an instanced mesh owns GPU buffers of its own: the per-copy matrices and colours)
+        if ((o as THREE.InstancedMesh).isInstancedMesh) (o as THREE.InstancedMesh).dispose();
         const mat = m.material as THREE.Material | THREE.Material[] | undefined;
         for (const x of Array.isArray(mat) ? mat : mat ? [mat] : []) {
           for (const v of Object.values(x)) if (v instanceof THREE.Texture) v.dispose();
           x.dispose();
         }
       });
+      // the passes hold render targets of their own (the bloom pass a whole mip chain)
+      for (const p of composer.passes) p.dispose();
       composer.dispose();
       renderer.dispose();
+      // Release the context now rather than whenever the canvas is collected: browsers keep only a
+      // handful alive, and opening a few games in a row would otherwise start evicting the oldest.
+      renderer.forceContextLoss();
       renderer.domElement.remove();
     },
   };

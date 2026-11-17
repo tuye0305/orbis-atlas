@@ -53,33 +53,141 @@ const FRAG_CLOUD = /* glsl */ `
 /**
  * Cloud shadows on a standard / lambert material (buildings, trees, boats). With `sway`, an
  * instanced mesh also bends in the breeze: the higher a vertex sits in its model, the further it
- * moves, each copy on its own phase (trees, reeds, grass).
+ * moves, each copy on its own phase (trees, reeds, grass). The lean is worked out in world space,
+ * so every copy bends the same way downwind whichever way it was turned.
+ *
+ * With `lever` the geometry carries `aLever` (see `Kit.build`): trunks keep almost still and each
+ * crown, frond or blossom cluster swings and flutters about the point where it joins the tree. The
+ * per-copy tint then colours only the leaves; bark keeps just its brightness.
  */
-export function patchClouds(mat: THREE.Material, u: CloudUniforms, sway = 0) {
+export function patchClouds(mat: THREE.Material, u: CloudUniforms, sway = 0, lever = 0) {
+  const lv = sway > 0 && lever > 0;
   mat.onBeforeCompile = (sh) => {
     Object.assign(sh.uniforms, u);
     const bend = sway
       ? /* glsl */ `
         #ifdef USE_INSTANCING
         {
+          mat3 im = mat3(instanceMatrix);
           vec3 o = instanceMatrix[3].xyz;
+          float sc = length(im[1]);
           float ph = uCloudT * 1.6 + o.x * 0.8 + o.z * 0.6;
           float gust = 0.65 + 0.35 * sin(uCloudT * 0.37 + o.x * 0.11);
-          float k = ${sway.toFixed(3)} * transformed.y * transformed.y * gust;
-          transformed.xz += vec2(sin(ph), cos(ph * 0.83)) * k + uWind * 40.0 * k;
+          vec2 sw = vec2(sin(ph), cos(ph * 0.83)) + uWind * 40.0;
+          float k = ${sway.toFixed(3)} * transformed.y * transformed.y * gust${lv ? ' * 0.3' : ''};
+          vec2 d = sw * k;
+          ${
+            lv
+              ? `float lev = clamp(aLever, 0.0, 0.45);
+          float fl = sin(uCloudT * 3.3 + ph * 1.9 + dot(transformed, vec3(9.0, 7.0, 8.0)));
+          d += (sw * gust + vec2(fl, -fl) * 0.3) * lev * ${lever.toFixed(3)};`
+              : ''
+          }
+          // a world-space offset (scaled with the copy) brought back into model space
+          vec3 dw = vec3(d.x, 0.0, d.y) * sc;
+          transformed += (transpose(im) * dw) / vec3(dot(im[0], im[0]), dot(im[1], im[1]), dot(im[2], im[2]));
         }
         #endif`
       : '';
+    const wood = lv
+      ? /* glsl */ `
+        #ifdef USE_INSTANCING_COLOR
+          vColor.rgb = mix(vColor.rgb, color.rgb * dot(instanceColor.rgb, vec3(0.3333)), step(aLever, -0.5));
+        #endif`
+      : '';
     sh.vertexShader = sh.vertexShader
-      .replace('#include <common>', '#include <common>\nvarying vec3 vBiW;\nuniform float uCloudT; uniform vec2 uWind;')
+      .replace('#include <common>', `#include <common>\nvarying vec3 vBiW;\nuniform float uCloudT; uniform vec2 uWind;${lv ? '\nattribute float aLever;' : ''}`)
+      .replace('#include <color_vertex>', '#include <color_vertex>' + wood)
       .replace('#include <begin_vertex>', '#include <begin_vertex>' + bend)
       .replace('#include <project_vertex>', '#include <project_vertex>\n' + VERT_WORLD);
     sh.fragmentShader = sh.fragmentShader
       .replace('#include <common>', '#include <common>\nvarying vec3 vBiW;\n' + NOISE_GLSL)
       .replace('#include <lights_fragment_end>', FRAG_CLOUD);
   };
-  mat.customProgramCacheKey = () => `bi-clouds-${sway}`;
+  mat.customProgramCacheKey = () => `bi-clouds-${sway}-${lv ? lever : 0}`;
 }
+
+export type QuayKind = 'brick' | 'stone';
+
+/**
+ * Quay walls: instanced unit blocks (y from -1 to 0) whose faces are drawn by the shader in world
+ * units — brick in running bond or coursed ashlar, a pale coping along the top edge, the walk on
+ * top in `top`, and the stone darkened and greened where the water laps it. The wall colour comes
+ * from each copy's instance colour, so neighbouring stretches differ a little.
+ */
+export function patchQuay(mat: THREE.MeshStandardMaterial, u: CloudUniforms, o: { kind: QuayKind; cap: string; top: string; joint: string }, pave?: Style['paving']) {
+  const uniforms = {
+    ...u,
+    uQCap: { value: new THREE.Color(o.cap) },
+    uQTop: { value: new THREE.Color(o.top) },
+    uQJoint: { value: new THREE.Color(o.joint) },
+    uPave: { value: new THREE.Color(pave?.color ?? o.top) },
+    uJoint: { value: new THREE.Color(pave?.joint ?? o.joint) },
+  };
+  mat.onBeforeCompile = (sh) => {
+    Object.assign(sh.uniforms, uniforms);
+    // the walk on top is paved like the streets it continues
+    sh.defines = { ...sh.defines, QK: o.kind === 'brick' ? 0 : 1, PAVE: pave ? PAVE_KIND[pave.kind] : -1 };
+    sh.vertexShader = sh.vertexShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vBiW; varying vec3 vBiN; varying float vTopD;')
+      .replace(
+        '#include <project_vertex>',
+        `#include <project_vertex>
+        ${VERT_WORLD}
+        #ifdef USE_INSTANCING
+          vBiN = normalize(mat3(modelMatrix) * mat3(instanceMatrix) * objectNormal);
+          vTopD = -position.y * length(instanceMatrix[1].xyz);
+        #else
+          vBiN = normalize(mat3(modelMatrix) * objectNormal);
+          vTopD = -position.y;
+        #endif`,
+      );
+    sh.fragmentShader = sh.fragmentShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vBiW; varying vec3 vBiN; varying float vTopD;\nuniform vec3 uQCap, uQTop, uQJoint, uPave, uJoint;\n' + NOISE_GLSL + PAVE_GLSL + QUAY_GLSL)
+      .replace('#include <color_fragment>', '#include <color_fragment>\n diffuseColor.rgb = quayColor(diffuseColor.rgb);')
+      .replace('#include <lights_fragment_end>', FRAG_CLOUD);
+  };
+  mat.customProgramCacheKey = () => `bi-quay-${o.kind}-${pave?.kind ?? 'none'}`;
+}
+
+const QUAY_GLSL = /* glsl */ `
+  float qJoint(vec2 f, vec2 w){ vec2 a = smoothstep(vec2(0.0), w, f) * smoothstep(vec2(1.0), 1.0 - w, f); return a.x * a.y; }
+  vec3 quayColor(vec3 wall){
+    vec3 w = vBiW;
+    vec3 n = normalize(vBiN);
+    // along the face: z on faces turned to ±x, x on faces turned to ±z
+    float u = abs(n.x) > abs(n.z) ? w.z : w.x;
+    #if QK == 0
+      vec2 q = vec2(u, w.y) / vec2(0.11, 0.042);
+      q.x += step(1.0, mod(floor(q.y), 2.0)) * 0.5;
+      vec2 jw = vec2(0.06, 0.13);
+    #else
+      vec2 q = vec2(u, w.y) / vec2(0.21, 0.07);
+      q.x += bi_hash(vec2(floor(q.y), 7.0)) * 0.7;
+      vec2 jw = vec2(0.035, 0.08);
+    #endif
+    vec2 id = floor(q);
+    vec2 f = fract(q);
+    float aa = clamp(1.0 - length(fwidth(q)) * 1.4, 0.0, 1.0);
+    vec3 c = wall * (0.84 + 0.26 * bi_hash(id)) * (0.94 + 0.1 * bi_noise(w.xz * 6.0 + w.y * 4.0));
+    c = mix(uQJoint, c, mix(0.82, qJoint(f, jw), aa));
+    // the coping: a pale band of dressed stone along the top, with a thin shadow line under it
+    float cap = 1.0 - smoothstep(0.022, 0.03, vTopD);
+    c = mix(c, uQCap * (0.95 + 0.08 * bi_noise(vec2(u * 14.0, 3.0))), cap);
+    c *= 1.0 - 0.3 * smoothstep(0.03, 0.036, vTopD) * (1.0 - smoothstep(0.036, 0.05, vTopD));
+    // wet stone at the water line, a little green with weed
+    float wet = 1.0 - smoothstep(-0.01, 0.045, w.y);
+    c = mix(c, c * vec3(0.55, 0.62, 0.52), wet);
+    // the walk on top, and a ribbon of the coping stone along its edge
+    float top = smoothstep(0.5, 0.8, n.y);
+    #if PAVE >= 0
+      vec3 walk = paving(w.xz);
+    #else
+      vec3 walk = uQTop * (0.9 + 0.14 * bi_noise(w.xz * 9.0)) * (0.96 + 0.06 * bi_hash(floor(w.xz * 8.0)));
+    #endif
+    return mix(c, walk, top);
+  }
+`;
 
 const PAVE_KIND = { stucco: 0, brick: 1, flag: 2, earth: 3 } as const;
 
