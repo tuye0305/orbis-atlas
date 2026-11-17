@@ -1,7 +1,7 @@
 import { useId, useRef } from 'react';
 import { s } from '../i18n';
 import { useStore } from '../state/store';
-import { useModal } from './dialog';
+import { useModal, useVisualViewport } from './dialog';
 
 export default function About() {
   const lang = useStore((st) => st.lang);
@@ -9,11 +9,13 @@ export default function About() {
   const set = useStore((st) => st.set);
   const zh = lang === 'zh';
   const box = useRef<HTMLDivElement>(null);
+  const backdrop = useRef<HTMLDivElement>(null);
   const titleId = useId();
   const onClose = () => set({ aboutOpen: false });
   useModal(box, onClose, undefined, '.controls [aria-haspopup="dialog"]');
+  useVisualViewport(backdrop);
   return (
-    <div className="search-backdrop" onClick={onClose}>
+    <div className="search-backdrop" ref={backdrop} onClick={onClose}>
       <div ref={box} className="about" role="dialog" aria-modal="true" aria-labelledby={titleId} onClick={(e) => e.stopPropagation()}>
         <button className="card-close" onClick={onClose} aria-label={s('close', lang)}>
           ×

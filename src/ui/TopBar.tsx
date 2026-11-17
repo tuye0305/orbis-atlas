@@ -12,13 +12,18 @@ import { RegionNav } from './RegionNav';
  * bar stacks them on a second, centred row of their own (where they may still scroll sideways).
  * Measured rather than guessed from a breakpoint: the answer depends on the language, the fonts and
  * the music label, and it is the same in both layouts, so it cannot flip back and forth.
+ * Windows 500 px tall or less (phones held sideways) never stack: a second row would cost the globe
+ * a seventh of the screen, so the chips scroll inside the one row instead.
  */
+const SHORT = '(max-height: 500px)';
 function useStacked(bar: React.RefObject<HTMLElement | null>, lang: string) {
   const [stacked, setStacked] = useState(true);
   useLayoutEffect(() => {
     const el = bar.current;
     if (!el) return;
+    const short = window.matchMedia(SHORT);
     const measure = () => {
+      if (short.matches) return setStacked(false);
       const nav = el.querySelector<HTMLElement>('.regions');
       const wrap = el.querySelector<HTMLElement>('.regions-wrap');
       if (!nav || !wrap) return;
@@ -38,7 +43,12 @@ function useStacked(bar: React.RefObject<HTMLElement | null>, lang: string) {
     const ro = new ResizeObserver(measure);
     ro.observe(el);
     void document.fonts?.ready.then(measure);
-    return () => ro.disconnect();
+    // A height change alone does not resize the bar, so the observer would not see it.
+    short.addEventListener('change', measure);
+    return () => {
+      ro.disconnect();
+      short.removeEventListener('change', measure);
+    };
   }, [bar, lang]);
   return stacked;
 }

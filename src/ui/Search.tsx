@@ -2,7 +2,7 @@ import { useId, useMemo, useRef, useState } from 'react';
 import { EVENT_GLYPH, s } from '../i18n';
 import { formatYear, useStore } from '../state/store';
 import type { Selection } from '../types';
-import { useModal } from './dialog';
+import { useModal, useVisualViewport } from './dialog';
 
 interface Hit {
   sel: Selection;
@@ -25,9 +25,11 @@ export default function Search() {
   const [cursor, setCursor] = useState(0);
   const input = useRef<HTMLInputElement>(null);
   const box = useRef<HTMLDivElement>(null);
+  const backdrop = useRef<HTMLDivElement>(null);
   const id = useId();
   const close = () => set({ searchOpen: false });
   useModal(box, close, input, '.search-trigger');
+  useVisualViewport(backdrop);
 
   const hits = useMemo<Hit[]>(() => {
     if (!atlas || !q.trim()) return [];
@@ -74,34 +76,40 @@ export default function Search() {
   const optId = (i: number) => `${id}-opt-${i}`;
   const active = hits[cursor] ? optId(cursor) : undefined;
   return (
-    <div className="search-backdrop" onClick={close}>
+    <div className="search-backdrop" ref={backdrop} onClick={close}>
       <div ref={box} className="search-box" role="dialog" aria-modal="true" aria-label={s('search', lang)} onClick={(e) => e.stopPropagation()}>
-        <input
-          ref={input}
-          value={q}
-          placeholder={s('search', lang)}
-          aria-label={s('search', lang)}
-          role="combobox"
-          aria-expanded={hits.length > 0}
-          aria-controls={listId}
-          aria-autocomplete="list"
-          aria-activedescendant={active}
-          autoComplete="off"
-          spellCheck={false}
-          onChange={(e) => {
-            setQ(e.target.value);
-            setCursor(0);
-          }}
-          onKeyDown={(e) => {
-            if (e.key === 'ArrowDown') {
-              e.preventDefault();
-              setCursor((c) => Math.max(0, Math.min(hits.length - 1, c + 1)));
-            } else if (e.key === 'ArrowUp') {
-              e.preventDefault();
-              setCursor((c) => Math.max(0, c - 1));
-            } else if (e.key === 'Enter' && hits[cursor]) choose(hits[cursor]);
-          }}
-        />
+        <div className="search-field">
+          <input
+            ref={input}
+            value={q}
+            placeholder={s('search', lang)}
+            aria-label={s('search', lang)}
+            role="combobox"
+            aria-expanded={hits.length > 0}
+            aria-controls={listId}
+            aria-autocomplete="list"
+            aria-activedescendant={active}
+            autoComplete="off"
+            spellCheck={false}
+            onChange={(e) => {
+              setQ(e.target.value);
+              setCursor(0);
+            }}
+            onKeyDown={(e) => {
+              if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                setCursor((c) => Math.max(0, Math.min(hits.length - 1, c + 1)));
+              } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                setCursor((c) => Math.max(0, c - 1));
+              } else if (e.key === 'Enter' && hits[cursor]) choose(hits[cursor]);
+            }}
+          />
+          {/* Phones have no Escape key, and the full-screen sheet leaves no backdrop to tap. */}
+          <button type="button" className="search-cancel" onClick={close}>
+            {s('cancel', lang)}
+          </button>
+        </div>
         <ul id={listId} role="listbox" aria-label={s('results', lang)} hidden={hits.length === 0}>
           {hits.map((h, i) => (
             <li

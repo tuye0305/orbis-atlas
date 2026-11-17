@@ -45,3 +45,27 @@ export function useModal(ref: RefObject<HTMLElement | null>, onClose: () => void
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 }
+
+/**
+ * Publish the visual viewport's height and top as `--vvh` / `--vvt` on a dialog's backdrop. On
+ * phones the on-screen keyboard shrinks the visual viewport but not `dvh`, so a full-height sheet
+ * sized from these keeps its results list above the keyboard instead of behind it.
+ */
+export function useVisualViewport(ref: RefObject<HTMLElement | null>) {
+  useLayoutEffect(() => {
+    const el = ref.current;
+    const vv = window.visualViewport;
+    if (!el || !vv) return;
+    const write = () => {
+      el.style.setProperty('--vvh', `${Math.round(vv.height)}px`);
+      el.style.setProperty('--vvt', `${Math.round(vv.offsetTop)}px`);
+    };
+    write();
+    vv.addEventListener('resize', write);
+    vv.addEventListener('scroll', write);
+    return () => {
+      vv.removeEventListener('resize', write);
+      vv.removeEventListener('scroll', write);
+    };
+  }, [ref]);
+}

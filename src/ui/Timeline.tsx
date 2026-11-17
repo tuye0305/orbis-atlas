@@ -1,4 +1,4 @@
-import { useMemo, useRef } from 'react';
+import { useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { EVENT_COLOR, s } from '../i18n';
 import { REGION_BY_KEY } from '../regions';
 import { formatYear, t, useStore, YEAR_MAX, YEAR_MIN } from '../state/store';
@@ -6,6 +6,9 @@ import type { Polity } from '../types';
 import { useHeightVar } from './layout';
 
 const SPAN = YEAR_MAX - YEAR_MIN;
+const SPEEDS = [5, 12, 30];
+/** Century labels at least this far apart (px), so "1000 1100" never run together. */
+const LABEL_GAP = 42;
 const pct = (y: number) => ((Math.min(YEAR_MAX, Math.max(YEAR_MIN, y)) - YEAR_MIN) / SPAN) * 100;
 
 /** Greedy lane packing so overlapping dynasties stack instead of overdrawing. */
@@ -38,6 +41,17 @@ export function Timeline() {
   const track = useRef<HTMLDivElement>(null);
   const root = useRef<HTMLElement>(null);
   useHeightVar(root, '--timeline-h');
+  // Label every century when there is room, else every 200 or 500 years (the track's own width).
+  const [trackW, setTrackW] = useState(0);
+  useLayoutEffect(() => {
+    const el = track.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => setTrackW(el.clientWidth));
+    ro.observe(el);
+    setTrackW(el.clientWidth);
+    return () => ro.disconnect();
+  }, []);
+  const labelStep = [100, 200, 500].find((st) => (trackW * st) / SPAN >= LABEL_GAP) ?? 1000;
 
   const regionPolities = useMemo(() => {
     if (!atlas || !region) return { items: [], count: 1 };
@@ -75,7 +89,7 @@ export function Timeline() {
   };
 
   const centuries = [];
-  for (let c = 100; c <= 2000; c += 100) centuries.push(c);
+  for (let c = labelStep; c <= 2000; c += labelStep) centuries.push(c);
   const rulerNow = atlas?.polities
     .filter((p) => p.region === region && year >= p.from && year <= p.to)
     .flatMap((p) => (p.rulers ?? []).filter((r) => year >= r.from && year <= r.to).map((r) => ({ r, p })))[0];
@@ -104,18 +118,29 @@ export function Timeline() {
           {rulerNow && (
             <span className="tl-ruler">
               <i style={{ background: rulerNow.p.color }} />
-              {t(rulerNow.p.name, lang)} · {t(rulerNow.r.name, lang)}
+              <span className="tl-ruler-text">
+                {t(rulerNow.p.name, lang)} · {t(rulerNow.r.name, lang)}
+              </span>
             </span>
           )}
         </div>
         <div className="speed" role="group" aria-label={s('speedLabel', lang)}>
-          {[5, 12, 30].map((v) => (
+          {SPEEDS.map((v) => (
             <button key={v} className={speed === v ? 'on' : ''} aria-pressed={speed === v} aria-label={`${v} ${s('speed', lang)}`} onClick={() => set({ speed: v })}>
               {v}
             </button>
           ))}
           <span aria-hidden>{s('speed', lang)}</span>
         </div>
+        {/* Phones have no room for three buttons: one that cycles 5 → 12 → 30 years per second. */}
+        <button
+          className="speed-cycle"
+          onClick={() => set({ speed: SPEEDS[(SPEEDS.indexOf(speed) + 1) % SPEEDS.length] })}
+          aria-label={`${s('speedLabel', lang)}: ${speed} ${s('speed', lang)}`}
+        >
+          <b>{speed}</b>
+          <small aria-hidden>{s('speed', lang)}</small>
+        </button>
       </div>
 
       <div
@@ -160,7 +185,7 @@ export function Timeline() {
         </div>
         <div className="tl-axis" aria-hidden>
           {centuries.map((c) => (
-            <span key={c} className={c % 500 ? 'minor' : ''} style={{ left: `${pct(c)}%` }}>
+            <span key={c} style={{ left: `${pct(c)}%` }}>
               {c}
             </span>
           ))}
