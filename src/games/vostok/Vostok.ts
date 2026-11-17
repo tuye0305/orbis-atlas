@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 import { createSfx } from '../shared/sfx';
-import { clamp, createStage, dotTexture, h, makeToast } from '../shared/stage';
+import { GAME_BY_ID } from '../registry';
+import { createCoach } from '../shared/coach';
+import { clamp, createStage, dotTexture, gradientEnv, h, makeToast, puffAtlas } from '../shared/stage';
 import type { GameCtx, GameResult, MountGame } from '../types';
 import * as P from './physics';
 
@@ -15,6 +17,14 @@ import * as P from './physics';
 type Phase = 'pad' | 'ascent' | 'orbit' | 'reentry' | 'done';
 const L = (lang: GameCtx['lang'], zh: string, en: string) => (lang === 'zh' ? zh : en);
 
+/** 3-D value noise and fBm, for detail that must stay fixed to the turning Earth. */
+const NOISE3_GLSL = /* glsl */ `
+  float hash3(vec3 p){ p = fract(p * 0.3183099 + 0.1); p *= 17.0; return fract(p.x * p.y * p.z * (p.x + p.y + p.z)); }
+  float vnoise3(vec3 x){ vec3 i = floor(x), f = fract(x); f = f * f * (3.0 - 2.0 * f);
+    return mix(mix(mix(hash3(i), hash3(i + vec3(1,0,0)), f.x), mix(hash3(i + vec3(0,1,0)), hash3(i + vec3(1,1,0)), f.x), f.y),
+               mix(mix(hash3(i + vec3(0,0,1)), hash3(i + vec3(1,0,1)), f.x), mix(hash3(i + vec3(0,1,1)), hash3(i + vec3(1,1,1)), f.x), f.y), f.z); }
+  float fbm3(vec3 p){ float a = 0.5, s = 0.0; for (int i = 0; i < 5; i++){ s += a * vnoise3(p); p = p * 2.02 + 3.1; a *= 0.5; } return s; }`;
+
 const LAUNCH_UTC_MIN = 6 * 60 + 7; // 06:07 UTC
 const SUN = new THREE.Vector3(...P.geo(8.6, 88.2)).normalize(); // subsolar point at launch
 const TARGET_PERI = 150;
@@ -24,7 +34,13 @@ const guidePitch = (t: number) => (t < 10 ? 90 : t < 118 ? 90 - (t - 10) * (55 /
 
 export const mount: MountGame = (root, ctx) => {
   const { lang } = ctx;
-  const stage = createStage(root, { bloom: { strength: 0.6, radius: 0.45, threshold: 0.92 }, fov: 50, logDepth: true });
+  const stage = createStage(root, {
+    bloom: { strength: 0.75, radius: 0.5, threshold: 0.88 },
+    fov: 50,
+    logDepth: true,
+    // bright desert noon: neutral-cool shadows, gently warm highlights, a touch of film
+    grade: { shadows: [0.004, 0.008, 0.016], highlights: [1.04, 1.0, 0.95], contrast: 1.07, saturation: 1.08, vignette: 0.36, grain: 0.022 },
+  });
   const { scene, camera, renderer } = stage;
   camera.near = 0.0005;
   camera.far = 120000;
@@ -44,15 +60,16 @@ export const mount: MountGame = (root, ctx) => {
   // ---------- Earth ----------
   const earth = new THREE.Group();
   scene.add(earth);
-  const earthUniforms = { uMap: { value: dayMap }, uWater: { value: waterMap }, uSun: { value: SUN.clone() }, uCamPos: { value: camera.position }, uHaze: { value: new THREE.Color('#79a9dc') } };
+  const earthUniforms = { uMap: { value: dayMap }, uWater: { value: waterMap }, uSun: { value: SUN.clone() }, uCamPos: { value: camera.position }, uHaze: { value: new THREE.Color('#9fc0e0') }, uCamAlt: { value: 0 } };
   const earthMat = new THREE.ShaderMaterial({
     uniforms: earthUniforms,
     vertexShader: /* glsl */ `
       #include <common>
       #include <logdepthbuf_pars_vertex>
-      varying vec2 vUv; varying vec3 vN; varying vec3 vW;
+      varying vec2 vUv; varying vec3 vN; varying vec3 vW; varying vec3 vO;
       void main(){
         vUv = uv;
+        vO = normal; // Earth-fixed direction: clouds and ground detail stay put as the globe turns
         vec4 w = modelMatrix * vec4(position, 1.0);
         vW = w.xyz; vN = normalize(mat3(modelMatrix) * normal);
         // modelViewMatrix is composed in double precision on the CPU; going through world space
@@ -63,8 +80,9 @@ export const mount: MountGame = (root, ctx) => {
     fragmentShader: /* glsl */ `
       #include <common>
       #include <logdepthbuf_pars_fragment>
-      uniform sampler2D uMap; uniform sampler2D uWater; uniform vec3 uSun; uniform vec3 uCamPos; uniform vec3 uHaze;
-      varying vec2 vUv; varying vec3 vN; varying vec3 vW;
+      uniform sampler2D uMap; uniform sampler2D uWater; uniform vec3 uSun; uniform vec3 uCamPos; uniform vec3 uHaze; uniform float uCamAlt;
+      varying vec2 vUv; varying vec3 vN; varying vec3 vW; varying vec3 vO;
+      ${NOISE3_GLSL}
       void main(){
         #include <logdepthbuf_fragment>
         vec3 N = normalize(vN);
@@ -73,7 +91,24 @@ export const mount: MountGame = (root, ctx) => {
         float water = texture2D(uWater, vUv).r;
         float ndl = dot(N, uSun);
         float lit = smoothstep(-0.08, 0.3, ndl);
+        // close to the ground the 2 km/px photo is a smear: weave in steppe at three scales
+        // (tens of km of terrain, km-scale fields and salt pans, 100 m tufts)
+        float near = 1.0 - smoothstep(25.0, 160.0, length(uCamPos - vW));
+        if (near > 0.0 && water < 0.5) {
+          vec3 o = normalize(vO) * 6371.0;
+          float n1 = fbm3(o * 0.05), n2 = fbm3(o * 0.6 + 7.0), n3 = vnoise3(o * 9.0), n4 = vnoise3(o * 70.0);
+          vec3 steppe = mix(vec3(0.50, 0.42, 0.27), vec3(0.30, 0.31, 0.19), smoothstep(0.3, 0.7, n1));
+          steppe = mix(steppe, vec3(0.70, 0.64, 0.52), smoothstep(0.6, 0.78, n2) * 0.8);
+          steppe = mix(steppe, vec3(0.26, 0.27, 0.16), smoothstep(0.55, 0.75, fbm3(o * 2.5 + 2.0)) * 0.5);
+          steppe *= (0.78 + 0.4 * n3) * (0.88 + 0.24 * n4);
+          day = mix(day, steppe, near * 0.85);
+        }
         vec3 c = day * (0.03 + 0.95 * lit);
+        // weather seen from orbit: cloud decks lit by the Sun, faded out near the ground where a
+        // painted-on cloud would read as a stain on the steppe
+        float cl = smoothstep(0.5, 0.8, fbm3(normalize(vO) * 4.0 + vec3(3.0)) * 0.78 + fbm3(normalize(vO) * 16.0) * 0.3);
+        cl *= smoothstep(80.0, 300.0, uCamAlt);
+        c = mix(c, vec3(0.95, 0.96, 0.98) * (0.04 + 1.05 * lit), cl * 0.85);
         // a thin warm line along the terminator
         c += vec3(0.6, 0.28, 0.1) * exp(-pow(ndl * 22.0, 2.0)) * 0.05;
         vec3 R = reflect(-uSun, N);
@@ -83,8 +118,8 @@ export const mount: MountGame = (root, ctx) => {
         c = mix(c, vec3(0.35, 0.6, 1.0) * (0.15 + lit), fres * 0.55 * smoothstep(-0.25, 0.2, ndl));
         // aerial perspective while still low: the far steppe fades into the sky
         float camAlt = length(uCamPos) - 6371.0;
-        float hz = (1.0 - exp(-length(uCamPos - vW) / 70.0)) * (1.0 - smoothstep(3.0, 45.0, camAlt));
-        c = mix(c, uHaze, hz * 0.85);
+        float hz = (1.0 - exp(-length(uCamPos - vW) / 140.0)) * (1.0 - smoothstep(3.0, 45.0, camAlt));
+        c = mix(c, uHaze, hz * 0.7);
         gl_FragColor = vec4(c, 1.0);
         #include <colorspace_fragment>
       }`,
@@ -145,14 +180,61 @@ export const mount: MountGame = (root, ctx) => {
     scene.add(stars);
   }
   const stars = scene.getObjectByName('stars') as THREE.Points;
-  const sunLight = new THREE.DirectionalLight(0xfff4e0, 3);
+  const sunLight = new THREE.DirectionalLight(0xfff1dc, 2.6);
   sunLight.position.copy(SUN).multiplyScalar(100000);
   scene.add(sunLight);
   scene.add(new THREE.AmbientLight(0x6688aa, 0.35));
   const sky = new THREE.Color();
-  const SKY_LOW = new THREE.Color('#79a9dc');
+  const SKY_LOW = new THREE.Color('#9fc0e0');
   const SKY_HIGH = new THREE.Color('#02030a');
-  scene.background = sky;
+  scene.background = new THREE.Color('#000000');
+  // The sky from inside the atmosphere: deep blue overhead, milky toward the horizon, a hot halo
+  // round the Sun, all thinning to black as the rocket climbs out of the air. It is a sphere that
+  // rides with the camera and draws first, so the Earth simply paints over its lower half.
+  const skyU = { uSun: { value: SUN.clone() }, uUp: { value: new THREE.Vector3(0, 1, 0) }, uAlt: { value: 0 }, uDip: { value: 0 } };
+  const skyDome = new THREE.Mesh(
+    new THREE.SphereGeometry(1, 64, 32),
+    new THREE.ShaderMaterial({
+      side: THREE.BackSide,
+      depthTest: false,
+      depthWrite: false,
+      uniforms: skyU,
+      vertexShader: /* glsl */ `
+        #include <common>
+        #include <logdepthbuf_pars_vertex>
+        varying vec3 vD; void main(){ vD = normalize(position); gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+        #include <logdepthbuf_vertex>
+        }`,
+      fragmentShader: /* glsl */ `
+        #include <common>
+        #include <logdepthbuf_pars_fragment>
+        uniform vec3 uSun, uUp; uniform float uAlt, uDip; varying vec3 vD;
+        void main(){
+          #include <logdepthbuf_fragment>
+          vec3 d = normalize(vD);
+          float h = dot(d, uUp) + uDip;           // elevation above the (dipping) horizon
+          float mu = max(dot(d, uSun), 0.0);
+          float air = exp(-uAlt / 9.0);           // how much atmosphere is still overhead
+          float sunH = clamp(dot(uUp, uSun) * 2.0 + 0.3, 0.0, 1.0);
+          vec3 zen = vec3(0.10, 0.28, 0.66);
+          vec3 hor = vec3(0.70, 0.80, 0.90);
+          vec3 c = mix(hor, zen, pow(clamp(h, 0.0, 1.0), 0.42));
+          c = mix(c, hor * 0.9, smoothstep(0.0, -0.06, h));
+          c += vec3(1.0, 0.92, 0.75) * (pow(mu, 9.0) * 0.35 + pow(mu, 80.0) * 0.6);
+          c *= sunH * air;
+          // above the air: black, with a thin blue band clinging to the horizon
+          c += vec3(0.25, 0.5, 1.0) * exp(-abs(h) * 40.0) * (1.0 - air) * smoothstep(5.0, 40.0, uAlt) * 0.35;
+          // the Sun itself, hot enough to bloom
+          c += vec3(1.0, 0.96, 0.88) * smoothstep(0.99965, 0.99985, mu) * 18.0;
+          gl_FragColor = vec4(c, 1.0);
+        }`,
+    }),
+  );
+  skyDome.renderOrder = -10;
+  skyDome.frustumCulled = false;
+  scene.add(skyDome);
+  scene.environment = gradientEnv(renderer, { top: '#3d6fb8', horizon: '#c8d8e6', ground: '#6a5f48', sun: { dir: SUN, color: '#fff2dc', size: 0.02, power: 3 } });
+  scene.environmentIntensity = 0.55;
 
   // ---------- the pad (on the Earth, so it turns away with it) ----------
   const padUp = new THREE.Vector3(...P.geo(P.BAIKONUR.lat, P.BAIKONUR.lon));
@@ -163,8 +245,8 @@ export const mount: MountGame = (root, ctx) => {
   const padM = new THREE.Group();
   padM.scale.setScalar(0.001); // build in metres
   pad.add(padM);
-  const concrete = new THREE.MeshStandardMaterial({ color: 0x8d8a80, roughness: 1 });
-  const steel = new THREE.MeshStandardMaterial({ color: 0x5a5c60, roughness: 0.6, metalness: 0.4 });
+  const concrete = new THREE.MeshStandardMaterial({ color: 0xa8a396, map: concreteTexture(), roughness: 0.95 });
+  const steel = new THREE.MeshStandardMaterial({ color: 0x8a4a32, roughness: 0.55, metalness: 0.55 });
   // deck top sits 0.6 m proud of the ground so the two never z-fight
   const deck = new THREE.Mesh(new THREE.CylinderGeometry(40, 46, 4, 40), concrete);
   deck.position.y = -1.4;
@@ -187,6 +269,46 @@ export const mount: MountGame = (root, ctx) => {
     arms.push(a);
   }
 
+  // The two cable masts and the low service buildings around Gagarin's Start, for scale.
+  {
+    const mastMat = new THREE.MeshStandardMaterial({ color: 0x9a9c98, roughness: 0.6, metalness: 0.5 });
+    for (const [x, z, hgt] of [
+      [-22, -8, 52],
+      [24, 6, 46],
+    ] as const) {
+      const g = new THREE.Group();
+      for (const [dx, dz] of [
+        [-1.2, -1.2],
+        [1.2, -1.2],
+        [-1.2, 1.2],
+        [1.2, 1.2],
+      ]) {
+        const leg = new THREE.Mesh(new THREE.BoxGeometry(0.35, hgt, 0.35), mastMat);
+        leg.position.set(dx, hgt / 2, dz);
+        g.add(leg);
+      }
+      for (let y = 4; y < hgt; y += 4) {
+        const ring = new THREE.Mesh(new THREE.BoxGeometry(2.8, 0.25, 2.8), mastMat);
+        ring.position.y = y;
+        g.add(ring);
+      }
+      g.position.set(x, 0, z);
+      padM.add(g);
+    }
+    const shed = new THREE.MeshStandardMaterial({ color: 0xb9b3a4, roughness: 0.9 });
+    for (let i = 0; i < 9; i++) {
+      const b = new THREE.Mesh(new THREE.BoxGeometry(14 + (i % 3) * 8, 5 + (i % 4) * 2, 10 + (i % 2) * 6), shed);
+      const a = (i / 9) * Math.PI * 2 + 0.4;
+      const r = 160 + (i % 3) * 70;
+      b.position.set(Math.cos(a) * r, 2, Math.sin(a) * r);
+      b.rotation.y = a;
+      padM.add(b);
+    }
+  }
+  // the engines light the pad, the stack and the cloud for the first seconds
+  const launchLight = new THREE.PointLight(0xffa04a, 0, 0.35, 1.2);
+  scene.add(launchLight);
+
   // ---------- rocket ----------
   const R7 = buildR7();
   scene.add(R7.root);
@@ -206,7 +328,9 @@ export const mount: MountGame = (root, ctx) => {
   upperPlume.visible = false;
 
   // Smoke / contrail, in world coordinates, left behind by the rocket.
-  const smoke = new WorldPuffs(1400, dotTexture(0.55));
+  const smoke = new WorldPuffs(4200, puffAtlas());
+  /** Stochastic count for a per-second emission rate, so smoke density is frame-rate independent. */
+  const perSec = (rate: number, dt: number) => Math.floor(rate * dt + Math.random());
   scene.add(smoke.points);
 
   // ---------- markers & tracks on the globe ----------
@@ -263,16 +387,18 @@ export const mount: MountGame = (root, ctx) => {
   orbitCv.width = orbitCv.height = 220 * 2;
   const orbitTxt = h('div', 'vk-orbit-txt', right);
   const dial = h('canvas', 'vk-dial', hud) as HTMLCanvasElement;
-  dial.width = dial.height = 150 * 2;
+  dial.width = dial.height = 200 * 2;
   const controls = h('div', 'vk-controls', hud);
   const btnDown = h('button', 'g-btn ghost vk-pitch', controls, L(lang, '◀ 压低', '◀ Pitch down')) as HTMLButtonElement;
   const btnAct = h('button', 'g-btn vk-act', controls, L(lang, '关机', 'Cut engine')) as HTMLButtonElement;
   const btnUp = h('button', 'g-btn ghost vk-pitch', controls, L(lang, '抬高 ▶', 'Pitch up ▶')) as HTMLButtonElement;
   const clock = h('div', 'vk-clock', hud);
+  const coach = createCoach(hud, GAME_BY_ID.vostok, lang);
+  let lastD = Infinity;
   const tag = h('div', 'vk-tag', hud);
   const style = h('style', '', hud);
   style.textContent = `
-    .vk-tele { position: absolute; left: 20px; top: calc(max(16px, env(safe-area-inset-top)) + 30px); display: grid; grid-template-columns: auto auto; gap: 3px 14px; font-size: 12.5px; min-width: 200px; }
+    .vk-tele { position: absolute; left: 20px; top: calc(max(16px, env(safe-area-inset-top)) + 84px); display: grid; grid-template-columns: auto auto; gap: 3px 14px; font-size: 12.5px; min-width: 200px; }
     .vk-tele b { color: #e8f1ff; font-variant-numeric: tabular-nums; text-align: right; font-weight: 600; }
     .vk-tele .warn { color: #ff8a6a; }
     .vk-tele .ok { color: #8ef0b0; }
@@ -282,12 +408,12 @@ export const mount: MountGame = (root, ctx) => {
     .vk-orbit-txt { font-size: 12px; line-height: 1.6; font-variant-numeric: tabular-nums; }
     .vk-orbit-txt b { color: #e8f1ff; }
     .vk-orbit-txt .ok { color: #8ef0b0; } .vk-orbit-txt .warn { color: #ffb07a; }
-    .vk-dial { position: absolute; left: 20px; bottom: max(22px, env(safe-area-inset-bottom)); width: 150px; height: 150px; }
+    .vk-dial { position: absolute; left: 20px; bottom: max(22px, env(safe-area-inset-bottom)); width: 200px; height: 200px; }
     .vk-controls { position: absolute; left: 50%; bottom: max(22px, env(safe-area-inset-bottom)); transform: translateX(-50%); display: flex; gap: 10px; }
     .vk-pitch { min-width: 116px; touch-action: none; user-select: none; -webkit-user-select: none; }
     .vk-pitch.held { border-color: var(--accent); color: #fff; }
     .vk-act { min-width: 120px; }
-    .vk-clock { position: absolute; left: 50%; top: max(16px, env(safe-area-inset-top)); transform: translateX(-50%); font-size: 12px; color: var(--ink-2); letter-spacing: .08em; text-shadow: 0 1px 4px #000; font-variant-numeric: tabular-nums; pointer-events: none; text-align: center; }
+    .vk-clock { position: absolute; left: 20px; top: calc(max(16px, env(safe-area-inset-top)) + 28px); font-size: 11.5px; color: var(--ink-2); letter-spacing: .06em; text-shadow: 0 1px 4px #000; font-variant-numeric: tabular-nums; pointer-events: none; }
     .vk-clock b { display: block; font-family: var(--serif); font-size: 22px; color: #fff; letter-spacing: .04em; }
     .vk-tag { position: absolute; left: 0; top: 0; pointer-events: none; font-size: 12px; color: #ffe6b0; white-space: nowrap; text-shadow: 0 1px 4px #000; transform: translate(-9999px, 0); }
     .vk-tag.target { color: #ffd36a; }
@@ -296,7 +422,8 @@ export const mount: MountGame = (root, ctx) => {
       .vk-orbit canvas { width: 120px; height: 120px; }
       .vk-orbit-txt { font-size: 10.5px; }
       .vk-tele { font-size: 11px; min-width: 0; left: 12px; }
-      .vk-dial { width: 96px; height: 96px; left: 10px; bottom: calc(max(22px, env(safe-area-inset-bottom)) + 60px); }
+      .vk-dial { width: 120px; height: 120px; left: 10px; bottom: calc(max(22px, env(safe-area-inset-bottom)) + 60px); }
+      .vk-clock { left: 12px; } .vk-tele { top: calc(max(16px, env(safe-area-inset-top)) + 150px); }
       .vk-pitch { min-width: 90px; } .vk-act { min-width: 84px; }
     }`;
 
@@ -304,6 +431,19 @@ export const mount: MountGame = (root, ctx) => {
   let phase: Phase = 'pad';
   let padT = ctx.reduced ? 2.2 : 4.2; // countdown
   const s: P.State = { x: 0, y: P.RE, vx: basis.freeSpeed, vy: 0, t: 0 };
+  // The flight is solved in its orbital plane, so the share of the Earth's spin that runs across
+  // that plane (~0.25 km/s at Baikonur) never reaches the rocket: drawn honestly, the pad would
+  // slide out from under it within seconds of lift-off. For the first part of the climb the globe
+  // is nudged by that amount, so pad, launch cloud and exhaust trail stay where the eye expects;
+  // the nudge then freezes (a few km, invisible at globe scale).
+  const HOLD_T = 50;
+  const crossV = new THREE.Vector3(padUp.z, 0, -padUp.x).multiplyScalar(P.OMEGA * P.RE).dot(NRM);
+  const holdAxis = new THREE.Vector3().crossVectors(padUp, NRM).normalize();
+  const holdQ = new THREE.Quaternion();
+  const spinQ = new THREE.Quaternion();
+  const prevEarthQ = new THREE.Quaternion();
+  const deltaQ = new THREE.Quaternion();
+  const Yaxis = new THREE.Vector3(0, 1, 0);
   let stageIdx = 0;
   let stageT = 0;
   let pitch = 90;
@@ -536,7 +676,10 @@ export const mount: MountGame = (root, ctx) => {
     }
 
     // --- 3-D placement ---
-    earth.rotation.y = P.OMEGA * s.t;
+    prevEarthQ.copy(earth.quaternion);
+    spinQ.setFromAxisAngle(Yaxis, P.OMEGA * s.t);
+    holdQ.setFromAxisAngle(holdAxis, (-crossV * Math.min(s.t, HOLD_T)) / P.RE);
+    earth.quaternion.multiplyQuaternions(holdQ, spinQ);
     to3(s.x, s.y, pos3);
     up3.copy(pos3).normalize();
     const f = P.frame(s);
@@ -563,15 +706,20 @@ export const mount: MountGame = (root, ctx) => {
     setPlume(upperPlume, firing && coreGone, (8 + 14 * thin) * flick, 1.6 + thin * 2, t);
     if (phase === 'pad' && padT < 1.4) {
       for (const p of [...boosterPlumes, corePlume]) setPlume(p, true, 6 + Math.random() * 3, 1.2, t);
-      for (let i = 0; i < 6; i++) smoke.emit(pos3, up3, dir3, 0.018 + Math.random() * 0.03, 3.5);
+      // ignition: exhaust slams into the flame trench and billows out sideways round the pad
+      for (let i = perSec(200, dt); i > 0; i--) smoke.emit(pos3, up3, dir3, 0.02 + Math.random() * 0.025, 6, false, 0.035);
     }
+    if (firing && altKm < 0.5) for (let i = perSec(220 * (1 - altKm * 1.6), dt); i > 0; i--) smoke.emit(tmp.copy(up3).multiplyScalar(P.RE + 0.004), up3, dir3, 0.025 + Math.random() * 0.03, 9, false, 0.06);
     if (firing && altKm < 28) {
-      const n = altKm < 3 ? 5 : 2;
+      const n = perSec(altKm < 3 ? 180 : 110, dt);
       for (let i = 0; i < n; i++) smoke.emit(pos3, up3, dir3, altKm < 2 ? 0.03 : 0.012 + altKm * 0.001, altKm < 3 ? 9 : 16);
     }
     smoke.setScale((stage.size.h * renderer.getPixelRatio()) / (2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2))));
-    smoke.update(dt);
+    // smoke hangs in the air, which turns with the (displayed) ground
+    smoke.update(dt, deltaQ.copy(prevEarthQ).invert().premultiply(earth.quaternion));
     const engineLevel = firing ? (1 - thin * 0.85) * (coreGone ? 0.5 : 1) : phase === 'pad' && padT < 1.4 ? 0.6 : 0;
+    launchLight.position.copy(pos3).addScaledVector(dir3, -0.012);
+    launchLight.intensity = (firing || (phase === 'pad' && padT < 1.4) ? 1 : 0) * (1 - smoothstep(0.5, 6, altKm)) * 0.02 * flick;
     engine.set(engineLevel * 0.55, 160 + engineLevel * 200);
     rumble.set(phase === 'reentry' ? clamp(peakG / 9, 0, 1) * 0.4 * (altKm < 100 && altKm > 10 ? 1 : 0.1) : engineLevel * 0.4);
 
@@ -582,6 +730,7 @@ export const mount: MountGame = (root, ctx) => {
     const sunUp = clamp(up3.dot(SUN) * 3 + 0.4, 0, 1);
     sky.copy(SKY_HIGH).lerp(SKY_LOW, (1 - smoothstep(4, 70, camAlt)) * sunUp);
     earthUniforms.uHaze.value.copy(sky);
+    earthUniforms.uCamAlt.value = camAlt;
     (stars.material as THREE.PointsMaterial).opacity = smoothstep(25, 90, camAlt) * 0.9;
     atmo.visible = camAlt > 40;
 
@@ -713,7 +862,9 @@ export const mount: MountGame = (root, ctx) => {
         const low = 1 - smoothstep(0.2, 2, altKm);
         tmp.copy(NRM).multiplyScalar(D).addScaledVector(dir3, -D * 0.25 * (1 - low)).addScaledVector(up3, lerpN(-D * 0.08, D * 0.18, low));
       }
-      tmp2.copy(pos3).addScaledVector(dir3, 0.012 * clamp(1 - altKm / 3, 0, 1));
+      // after lift-off, aim a little lower so the exhaust column and the launch cloud stay in shot
+      const lift = phase === 'ascent' ? smoothstep(0, 0.05, altKm) * (1 - smoothstep(1, 4, altKm)) : 0;
+      tmp2.copy(pos3).addScaledVector(dir3, 0.012 * clamp(1 - altKm / 3, 0, 1) - 0.016 * lift);
       camera.up.copy(up3);
     } else if (phase === 'orbit' || (phase === 'done' && insertion && !landing && retroAt < 0)) {
       // reveal: pull out from the capsule to see the whole Earth, then ride along the ground track
@@ -746,6 +897,11 @@ export const mount: MountGame = (root, ctx) => {
     const camAlt = camera.position.length() - P.RE;
     camera.near = camAlt > 2000 ? 5 : 0.0005;
     camera.updateProjectionMatrix();
+    skyDome.position.copy(camera.position);
+    skyDome.scale.setScalar(Math.max(1, camera.near * 50));
+    skyU.uUp.value.copy(camera.position).normalize();
+    skyU.uAlt.value = Math.max(0, camAlt);
+    skyU.uDip.value = Math.acos(clamp(P.RE / (P.RE + Math.max(0, camAlt)), 0, 1)) * 0.9;
   }
 
   // ---------- staging / debris ----------
@@ -848,6 +1004,61 @@ export const mount: MountGame = (root, ctx) => {
     controls.style.display = phase === 'done' ? 'none' : '';
     drawDial();
     drawOrbit(el);
+    updateCoach(el, q);
+  }
+
+  /** One instruction at a time, from what the flight needs right now. */
+  function updateCoach(el: P.Elements, q: number) {
+    let pulse = false;
+    const err = pitch - guidePitch(s.t);
+    /** Shows a steering instruction if one is needed; returns whether it did. */
+    const steer = () => {
+      if (q > 52) coach.say(L(lang, '动压太高 — 抬头！<small>稠密大气中飞得太平太快</small>', 'Too fast in thick air — pitch up!<small>Hold → until the warning clears</small>'), 'warn', '→');
+      else if (err > 5) coach.say(L(lang, '按住 ← 压低机头<small>让白针贴住金针</small>', 'Hold ← to lean over<small>Put the white needle on the gold one</small>'), 'do', '←');
+      else if (err < -5) coach.say(L(lang, '压得太低了 — 按住 → 抬头', 'Too flat — hold → to pitch up'), 'warn', '→');
+      else return false;
+      return true;
+    };
+    if (ended || phase === 'done') coach.say(landing ? L(lang, '着陆！', 'Touchdown!') : '', 'good');
+    else if (phase === 'pad') {
+      coach.step(0);
+      coach.say(L(lang, '准备点火……<small>升空后跟住金色参考针</small>', 'Ignition…<small>After lift-off, follow the gold needle</small>'), 'wait');
+    } else if (phase === 'ascent' && stageIdx < 2) {
+      coach.step(0);
+      if (s.t < 9) coach.say(L(lang, '垂直爬升中……<small>马上开始压低</small>', 'Climbing straight up…<small>Get ready to lean over</small>'), 'wait');
+      else if (!steer()) coach.say(L(lang, '正在金线上 ✓<small>保持白针贴住金针</small>', 'On the gold line ✓<small>Keep the white needle on the gold one</small>'), 'good');
+    } else if (phase === 'ascent') {
+      coach.step(1);
+      if (el.apo > TARGET_APO && el.peri >= 100) {
+        coach.say(L(lang, '立刻关机！轨道越来越高', 'Cut now — the orbit is getting too high!'), 'warn', L(lang, '空格', 'Space'));
+        pulse = true;
+      } else if (el.peri >= TARGET_PERI) {
+        coach.say(L(lang, '轨道变绿了 — 关机！', 'Orbit is green — cut the engine!'), 'do', L(lang, '空格', 'Space'));
+        pulse = true;
+      } else if (!(Math.abs(err) > 8 && steer())) {
+        const k = Math.max(0, Math.round(el.peri));
+        coach.say(L(lang, `继续加速…… 近地点 ${k} / ${TARGET_PERI} km<small>右侧圆圈变绿时关机</small>`, `Keep burning… perigee ${k} / ${TARGET_PERI} km<small>Cut when the ring on the right turns green</small>`), 'wait');
+      }
+    } else if (phase === 'orbit') {
+      coach.step(2);
+      const d = predicted?.d ?? Infinity;
+      if (windowState !== 'in') coach.say(L(lang, '入轨成功 ✓ 加速飞向非洲……<small>到达制动窗口时会提醒你</small>', 'In orbit ✓ Speeding on toward Africa…<small>You’ll be told when the window opens</small>'), 'wait');
+      else if (d < 160) {
+        coach.say(L(lang, `就是现在 — 制动点火！<small>落点距目标 ${d.toFixed(0)} km</small>`, `Fire now!<small>Landing ${d.toFixed(0)} km from the target</small>`), 'do', L(lang, '空格', 'Space'));
+        pulse = true;
+      } else if (d > lastD + 2 && d < 1200)
+        coach.say(L(lang, `红点在远离 — 快点火！<small>${d.toFixed(0)} km</small>`, `The red mark is moving away — fire!<small>${d.toFixed(0)} km</small>`), 'warn', L(lang, '空格', 'Space'));
+      else coach.say(L(lang, `红点正在靠近金色目标…… ${d.toFixed(0)} km<small>落到金圈上时点火</small>`, `Red mark closing on the gold target… ${d.toFixed(0)} km<small>Fire when it’s on the gold ring</small>`), 'wait', L(lang, '空格', 'Space'));
+      if (Number.isFinite(d)) lastD = d;
+    } else if (phase === 'reentry') {
+      coach.step(3);
+      coach.say(chuteK > 0 ? L(lang, '主伞张开 ✓', 'Parachute open ✓') : L(lang, '再入大气 — 无需操作', 'Re-entry — hands off'), 'good');
+    }
+    btnAct.classList.toggle('g-pulse', pulse);
+    const wantDown = phase === 'ascent' && s.t >= 9 && err > 5 && q <= 52;
+    const wantUp = phase === 'ascent' && (err < -5 || q > 52);
+    btnDown.classList.toggle('g-pulse', wantDown && !held.down);
+    btnUp.classList.toggle('g-pulse', wantUp && !held.up);
   }
 
   function drawDial() {
@@ -881,16 +1092,32 @@ export const mount: MountGame = (root, ctx) => {
       c.lineTo(cx + Math.cos(a) * len, cx - Math.sin(a) * len);
       c.stroke();
     };
-    if (phase === 'ascent') arrow(guidePitch(s.t), 'rgba(255,211,106,.45)', 6, r * 0.95);
-    arrow(P.fpa(s), 'rgba(160,200,255,.8)', 3, r * 0.7);
-    arrow(pitch, '#ffffff', 7, r * 0.9);
+    if (phase === 'ascent') {
+      // a gold wedge: the band around the guide that counts as "on the line"
+      const gp = THREE.MathUtils.degToRad(guidePitch(s.t));
+      c.fillStyle = 'rgba(255,211,106,.22)';
+      c.beginPath();
+      c.moveTo(cx, cx);
+      c.arc(cx, cx, r, -gp - 0.09, -gp + 0.09);
+      c.closePath();
+      c.fill();
+      arrow(guidePitch(s.t), '#ffd36a', 9, r * 0.98);
+    }
+    arrow(pitch, '#ffffff', 6, r * 0.86);
     c.fillStyle = '#fff';
     c.font = `${W * 0.085}px Inter, sans-serif`;
     c.textAlign = 'center';
     c.fillText(`${pitch.toFixed(0)}°`, cx, cx + r * 0.42);
-    c.fillStyle = 'rgba(255,211,106,.8)';
-    c.font = `${W * 0.06}px Inter, sans-serif`;
-    c.fillText(L(lang, '金：参考 · 蓝：航迹', 'gold: guide · blue: path'), cx, cx + r * 0.68);
+    c.font = `600 ${W * 0.055}px Inter, sans-serif`;
+    c.fillStyle = '#ffd36a';
+    c.fillText(L(lang, '■ 金：目标', '■ gold: aim here'), cx, cx + r * 0.66);
+    c.fillStyle = '#fff';
+    c.fillText(L(lang, '■ 白：你', '■ white: you'), cx, cx + r * 0.82);
+    c.fillStyle = 'rgba(255,255,255,.55)';
+    c.font = `${W * 0.05}px Inter, sans-serif`;
+    c.fillText('90°', cx, cx - r - 4);
+    c.textAlign = 'left';
+    c.fillText('0°', cx + r + 2, cx - 6);
   }
 
   function drawOrbit(el: P.Elements) {
@@ -1110,9 +1337,10 @@ function buildR7() {
   const m = new THREE.Group();
   m.scale.setScalar(0.001);
   root.add(m);
-  const white = new THREE.MeshStandardMaterial({ color: 0xd9d9d2, roughness: 0.55, metalness: 0.1 });
-  const grey = new THREE.MeshStandardMaterial({ color: 0x8f9188, roughness: 0.6, metalness: 0.2 });
-  const dark = new THREE.MeshStandardMaterial({ color: 0x2c2e2f, roughness: 0.5, metalness: 0.5 });
+  const panels = panelTexture();
+  const white = new THREE.MeshStandardMaterial({ color: 0xd2d5ce, map: panels, roughness: 0.42, metalness: 0.12 });
+  const grey = new THREE.MeshStandardMaterial({ color: 0x8c9088, map: panels, roughness: 0.5, metalness: 0.3 });
+  const dark = new THREE.MeshStandardMaterial({ color: 0x1e1f20, roughness: 0.35, metalness: 0.8 });
   const lathe = (pts: [number, number][], mat: THREE.Material) => new THREE.Mesh(new THREE.LatheGeometry(pts.map(([r, y]) => new THREE.Vector2(r, y)), 32), mat);
 
   // core (Block A): narrow at the base, widest just above the boosters' tips
@@ -1137,7 +1365,8 @@ function buildR7() {
   capsule.position.y = 3.4;
   const instrument = lathe([[1.2, 0], [1.25, 0.6], [0.7, 1.9], [0.3, 2.1]], grey); // instrument module
   capsule.add(instrument);
-  const ball = new THREE.Mesh(new THREE.SphereGeometry(1.15, 28, 20), new THREE.MeshStandardMaterial({ color: 0x9a8f7a, roughness: 0.8 }));
+  // the descent module wore a charred-looking ablative coat; its hatches and windows read as dark spots
+  const ball = new THREE.Mesh(new THREE.SphereGeometry(1.15, 36, 24), new THREE.MeshStandardMaterial({ color: 0x8e8574, roughness: 0.85, metalness: 0.05, map: panels }));
   ball.position.y = 3.0;
   capsule.add(ball);
   upper.add(capsule);
@@ -1186,6 +1415,68 @@ function buildR7() {
   return { root, core, upper, boosters, fairing, capsule, ball, instrument };
 }
 
+/** Sheet-metal panels: ring seams along the stage, stringers around it, faint weathering. */
+function panelTexture() {
+  const c = document.createElement('canvas');
+  c.width = 512;
+  c.height = 256;
+  const g = c.getContext('2d')!;
+  g.fillStyle = '#ffffff';
+  g.fillRect(0, 0, 512, 256);
+  for (let i = 0; i < 1800; i++) {
+    g.fillStyle = `rgba(70,75,70,${Math.random() * 0.05})`;
+    g.fillRect(Math.random() * 512, Math.random() * 256, 2 + Math.random() * 10, 1 + Math.random() * 3);
+  }
+  g.fillStyle = 'rgba(40,44,40,.28)';
+  for (let y = 0; y < 256; y += 21) g.fillRect(0, y, 512, 1.5);
+  g.fillStyle = 'rgba(40,44,40,.14)';
+  for (let x = 0; x < 512; x += 32) g.fillRect(x, 0, 1, 256);
+  // soot streaks toward the base
+  const grd = g.createLinearGradient(0, 0, 0, 256);
+  grd.addColorStop(0, 'rgba(60,55,50,.22)');
+  grd.addColorStop(0.25, 'rgba(60,55,50,0)');
+  g.fillStyle = grd;
+  g.fillRect(0, 0, 512, 256);
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  t.anisotropy = 8;
+  return t;
+}
+
+/** Poured slabs: expansion joints, stains and scorch rings round the flame pit. */
+function concreteTexture() {
+  const c = document.createElement('canvas');
+  c.width = c.height = 512;
+  const g = c.getContext('2d')!;
+  g.fillStyle = '#d8d4ca';
+  g.fillRect(0, 0, 512, 512);
+  for (let i = 0; i < 5000; i++) {
+    g.fillStyle = `rgba(${Math.random() < 0.5 ? '40,36,30' : '255,250,240'},${Math.random() * 0.06})`;
+    g.fillRect(Math.random() * 512, Math.random() * 512, 1 + Math.random() * 4, 1 + Math.random() * 4);
+  }
+  g.strokeStyle = 'rgba(50,46,40,.35)';
+  g.lineWidth = 1.5;
+  for (let x = 0; x <= 512; x += 64) {
+    g.beginPath();
+    g.moveTo(x, 0);
+    g.lineTo(x, 512);
+    g.moveTo(0, x);
+    g.lineTo(512, x);
+    g.stroke();
+  }
+  const r = g.createRadialGradient(256, 256, 20, 256, 256, 250);
+  r.addColorStop(0, 'rgba(20,16,12,.75)');
+  r.addColorStop(0.35, 'rgba(40,32,24,.35)');
+  r.addColorStop(1, 'rgba(0,0,0,0)');
+  g.fillStyle = r;
+  g.fillRect(0, 0, 512, 512);
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 8;
+  return t;
+}
+
 function plumeMaterial() {
   return new THREE.ShaderMaterial({
     transparent: true,
@@ -1207,11 +1498,15 @@ function plumeMaterial() {
       void main(){
         #include <logdepthbuf_fragment>
         float along = 1.0 - vUv.y;            // 0 at the nozzle … 1 at the tip
-        float edge = pow(abs(dot(normalize(vN), normalize(vV))), 1.5);
-        float shock = 0.75 + 0.25 * sin(along * 38.0 - uTime * 40.0);
-        float a = edge * pow(1.0 - along, 1.6) * shock * uK;
-        vec3 c = mix(vec3(1.0, 0.95, 0.8), vec3(1.0, 0.45, 0.12), smoothstep(0.0, 0.5, along));
-        gl_FragColor = vec4(c * a * 2.2, a);
+        float facing = abs(dot(normalize(vN), normalize(vV)));
+        float core = pow(facing, 4.0);        // the hot central jet
+        float env = pow(facing, 0.8);         // the cooler, wider envelope
+        float shock = 0.7 + 0.3 * smoothstep(0.2, 0.9, sin(along * 46.0 - uTime * 30.0)) * (1.0 - along);
+        float flick = 0.9 + 0.1 * sin(uTime * 53.0 + along * 9.0);
+        float a = (core * 1.0 + env * 0.3) * pow(1.0 - along, 1.6) * shock * flick * uK;
+        vec3 c = mix(vec3(1.0, 0.97, 0.88), vec3(1.0, 0.62, 0.22), smoothstep(0.0, 0.35, along));
+        c = mix(c, vec3(0.9, 0.3, 0.08), smoothstep(0.35, 0.9, along));
+        gl_FragColor = vec4(c * a * 2.0, a);
       }`,
   });
 }
@@ -1234,6 +1529,7 @@ class WorldPuffs {
   private size: Float32Array;
   private aLife: Float32Array;
   private next = 0;
+  private m = new THREE.Matrix4();
   constructor(
     private n: number,
     tex: THREE.Texture,
@@ -1244,19 +1540,22 @@ class WorldPuffs {
     this.max = new Float32Array(n).fill(1);
     this.size = new Float32Array(n);
     this.aLife = new Float32Array(n).fill(1);
+    const seed = new Float32Array(n);
+    for (let i = 0; i < n; i++) seed[i] = Math.floor(Math.random() * 4);
     const g = new THREE.BufferGeometry();
     g.setAttribute('position', new THREE.BufferAttribute(this.pos, 3));
     g.setAttribute('aLife', new THREE.BufferAttribute(this.aLife, 1));
+    g.setAttribute('aSeed', new THREE.BufferAttribute(seed, 1));
     g.setAttribute('aSize', new THREE.BufferAttribute(this.size, 1));
     const mat = new THREE.ShaderMaterial({
       transparent: true,
       depthWrite: false,
-      uniforms: { uTex: { value: tex }, uScale: { value: 900 } },
+      uniforms: { uTex: { value: tex }, uScale: { value: 900 }, uSunSide: { value: 1 } },
       vertexShader: /* glsl */ `
         #include <common>
         #include <logdepthbuf_pars_vertex>
-        attribute float aLife; attribute float aSize; varying float vLife; uniform float uScale;
-        void main(){ vLife = aLife; vec4 mv = modelViewMatrix * vec4(position,1.0);
+        attribute float aLife; attribute float aSize; attribute float aSeed; varying float vLife; varying float vSeed; uniform float uScale;
+        void main(){ vLife = aLife; vSeed = aSeed; vec4 mv = modelViewMatrix * vec4(position,1.0);
           gl_PointSize = aLife >= 1.0 ? 0.0 : min(900.0, aSize * (0.5 + aLife * 2.5) * uScale / -mv.z);
           gl_Position = projectionMatrix * mv;
           #include <logdepthbuf_vertex>
@@ -1264,12 +1563,19 @@ class WorldPuffs {
       fragmentShader: /* glsl */ `
         #include <common>
         #include <logdepthbuf_pars_fragment>
-        uniform sampler2D uTex; varying float vLife;
+        uniform sampler2D uTex; uniform float uSunSide; varying float vLife; varying float vSeed;
         void main(){
           #include <logdepthbuf_fragment>
-          float a = texture2D(uTex, gl_PointCoord).a;
-          vec3 c = mix(vec3(1.0, 0.85, 0.6), vec3(0.92, 0.93, 0.95), smoothstep(0.0, 0.08, vLife));
-          gl_FragColor = vec4(c, a * 0.55 * (1.0 - vLife));
+          float r = vSeed * 1.7 + vLife * 0.6;
+          vec2 pc = gl_PointCoord - 0.5;
+          pc = mat2(cos(r), -sin(r), sin(r), cos(r)) * pc * 1.15 + 0.5;
+          if (pc.x < 0.0 || pc.y < 0.0 || pc.x > 1.0 || pc.y > 1.0) discard;
+          vec2 uv = (pc + vec2(mod(vSeed, 2.0), floor(vSeed / 2.0))) * 0.5;
+          float a = texture2D(uTex, uv).a;
+          // sunlit tops, shaded bellies; glowing orange while still in the exhaust
+          float shade = mix(0.62, 1.08, smoothstep(0.85, 0.15, pc.y));
+          vec3 c = mix(vec3(1.0, 0.68, 0.38) * 1.15, vec3(0.9, 0.9, 0.92) * shade, smoothstep(0.0, 0.05, vLife));
+          gl_FragColor = vec4(c, a * 0.8 * (1.0 - vLife) * smoothstep(0.0, 0.02, vLife));
         }`,
     });
     this.points = new THREE.Points(g, mat);
@@ -1279,7 +1585,8 @@ class WorldPuffs {
   emit(p: THREE.Vector3, up: THREE.Vector3, dir: THREE.Vector3, size: number, life: number, burst = false, near = 0) {
     const i = this.next;
     this.next = (this.next + 1) % this.n;
-    const back = burst || near ? 0 : 0.03 + Math.random() * 0.01;
+    // trail puffs start just past the nozzles, where the visible flame ends
+    const back = burst || near ? 0 : 0.008 + Math.random() * 0.014;
     const j = near || 0.02;
     const rx = (Math.random() - 0.5) * j;
     const rz = (Math.random() - 0.5) * j;
@@ -1293,7 +1600,11 @@ class WorldPuffs {
   setScale(px: number) {
     (this.points.material as THREE.ShaderMaterial).uniforms.uScale.value = px;
   }
-  update(dt: number) {
+  /** `turn`: how the Earth, and the air with it, rotated this frame. The flight runs in an
+   *  inertial frame, so smoke left hanging there would be swept off the pad at the ground's
+   *  ~0.3 km/s; it has to turn with the atmosphere instead. */
+  update(dt: number, turn: THREE.Quaternion) {
+    const m = this.m.makeRotationFromQuaternion(turn).elements;
     for (let i = 0; i < this.n; i++) {
       if (this.life[i] >= 1) {
         this.aLife[i] = 1;
@@ -1301,9 +1612,12 @@ class WorldPuffs {
       }
       this.life[i] += dt / this.max[i];
       const j = i * 3;
-      this.pos[j] += this.vel[j] * dt;
-      this.pos[j + 1] += this.vel[j + 1] * dt;
-      this.pos[j + 2] += this.vel[j + 2] * dt;
+      const x = this.pos[j];
+      const y = this.pos[j + 1];
+      const z = this.pos[j + 2];
+      this.pos[j] = m[0] * x + m[4] * y + m[8] * z + this.vel[j] * dt;
+      this.pos[j + 1] = m[1] * x + m[5] * y + m[9] * z + this.vel[j + 1] * dt;
+      this.pos[j + 2] = m[2] * x + m[6] * y + m[10] * z + this.vel[j + 2] * dt;
       this.aLife[i] = Math.min(1, this.life[i]);
     }
     const g = this.points.geometry;
