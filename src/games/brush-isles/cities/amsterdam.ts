@@ -17,11 +17,13 @@ const UP = new THREE.Vector3(0, 1, 0);
 /* ---------------------------------------------------------------- palette */
 
 const BRICKS = ['#8a3826', '#7c3022', '#6e2a20', '#9a4630', '#a2553a', '#84402c', '#93482f', '#743a2c', '#8e4a34', '#6a3226'];
-const DARK_BRICKS = ['#5e2a22', '#542822', '#6a2e24', '#4e2620', '#5a3026'];
+const DARK_BRICKS = ['#6a3024', '#5f2d24', '#733428', '#5a2c24', '#66352a'];
 const STONE = '#e8dfca';
 const STONE2 = '#d3c7ad';
 const TAR = '#262220';
-const ROOF_RED = ['#9a4429', '#8c3d27', '#a65033', '#7e3a28', '#b05a38'];
+const ROOF_RED = ['#94432b', '#87402c', '#9c4c33', '#7a3a2a', '#a35538'];
+/** Smoked pantiles, fired black-grey: as common on the old roofs as the red ones. */
+const ROOF_SMOKED = ['#3c3b3c', '#444140', '#363537', '#4a4644'];
 const ROOF_BLUE = ['#4a525e', '#3f4652', '#565c66', '#454b52'];
 const FRAMES = ['#ece5d4', '#ece5d4', '#e9e1cd', '#e4dccb'];
 const OXBLOOD = '#6b2b24';
@@ -274,7 +276,7 @@ function gabledSpec(r: Rng, x: number, w: number, tall: number): Spec {
     floors: FLOORS.slice(0, n),
     gable,
     wall: jitter(pick(r, BRICKS), r, 0.012, 0.05, 0.06),
-    roof: jitter(r() < 0.55 ? pick(r, ROOF_RED) : pick(r, ROOF_BLUE), r, 0.01, 0.04, 0.05),
+    roof: jitter(pick(r, pick(r, [ROOF_RED, ROOF_RED, ROOF_SMOKED, ROOF_BLUE])), r, 0.01, 0.04, 0.05),
     frame: renaissance && r() < 0.3 ? OXBLOOD : pick(r, FRAMES),
     lower: sm < 0.4 ? sc : GLASS,
     shutter: sm > 0.72 ? sc : null,
@@ -295,7 +297,7 @@ function warehouseSpec(r: Rng, x: number, w: number, tall: number, wall: C, sc: 
     floors: STORES.slice(0, Math.min(6, 4 + tall + (r() < 0.5 ? 1 : 0))),
     gable: 'spout',
     wall,
-    roof: jitter(pick(r, ROOF_RED), r, 0.01, 0.04, 0.05),
+    roof: jitter(pick(r, r() < 0.6 ? ROOF_RED : ROOF_SMOKED), r, 0.01, 0.04, 0.05),
     frame: '#d9d0bc',
     lower: sc,
     shutter: sc,
@@ -318,7 +320,7 @@ function cornicedSpec(r: Rng, tall: number): Spec {
     floors: FLOORS.slice(0, Math.max(3, Math.min(4, 3 + tall))),
     gable: 'cornice',
     wall: grand && r() < 0.4 ? jitter('#d9ceb4', r, 0.01, 0.03, 0.04) : jitter(pick(r, BRICKS), r, 0.012, 0.05, 0.06),
-    roof: jitter(pick(r, ROOF_BLUE), r, 0.01, 0.04, 0.05),
+    roof: jitter(pick(r, r() < 0.65 ? ROOF_BLUE : ROOF_SMOKED), r, 0.01, 0.04, 0.05),
     frame: pick(r, FRAMES),
     lower: r() < 0.3 ? sc : GLASS,
     shutter: r() < 0.3 ? sc : null,
