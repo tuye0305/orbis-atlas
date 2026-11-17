@@ -1603,9 +1603,9 @@ class Particles {
       uniforms: { uTex: { value: tex }, uScale: { value: 420 }, uGlow: { value: 0 } },
       vertexShader: /* glsl */ `
         attribute float aLife; attribute float aSize; attribute float aKind; attribute float aRot; attribute float aSeed;
-        varying float vLife; varying float vKind; varying float vRot; varying float vSeed; uniform float uScale;
+        varying float vLife; varying float vKind; varying float vRot; varying float vSeed; varying float vY; uniform float uScale;
         void main(){
-          vLife = aLife; vKind = aKind; vRot = aRot; vSeed = aSeed;
+          vLife = aLife; vKind = aKind; vRot = aRot; vSeed = aSeed; vY = (modelMatrix * vec4(position, 1.0)).y;
           vec4 mv = modelViewMatrix * vec4(position, 1.0);
           float grow = ${additive ? 'aKind > 0.5 ? 1.0 : (0.6 + aLife * 1.2) * (1.0 - aLife * 0.75)' : '0.5 + aLife * 2.4'};
           gl_PointSize = aLife >= 1.0 ? 0.0 : min(600.0, aSize * grow * uScale / -mv.z);
@@ -1642,7 +1642,7 @@ class Particles {
           gl_FragColor = vec4(c * alpha * 0.95, alpha);
         }`
         : /* glsl */ `
-        uniform sampler2D uTex; uniform float uGlow; varying float vLife; varying float vRot; varying float vSeed;
+        uniform sampler2D uTex; uniform float uGlow; varying float vLife; varying float vRot; varying float vSeed; varying float vY;
         void main(){
           vec2 pc = gl_PointCoord - 0.5;
           float cs = cos(vRot), sn = sin(vRot);
@@ -1650,11 +1650,22 @@ class Particles {
           if (pc.x < 0.0 || pc.y < 0.0 || pc.x > 1.0 || pc.y > 1.0) discard;
           vec2 uv = (pc + vec2(mod(vSeed, 2.0), floor(vSeed / 2.0))) * 0.5;
           float a = texture2D(uTex, uv).a;
-          // lit from below by the fire while young and low; charcoal once it has risen and cooled
-          vec3 warm = vec3(0.62, 0.26, 0.08) * (0.6 + uGlow * 0.6);
-          vec3 c = mix(warm, vec3(0.055, 0.055, 0.065), smoothstep(0.0, 0.4, vLife));
-          c += vec3(0.05, 0.06, 0.08) * (1.0 - pc.y) * smoothstep(0.3, 1.0, vLife);
-          gl_FragColor = vec4(c, a * 0.6 * (1.0 - vLife) * smoothstep(0.0, 0.08, vLife));
+          // A billow, not a flat card: a ball normal across the sprite, roughened by the slope of
+          // the puff's own density. Bellies facing the fire glow orange, and the glow dies away
+          // with height, so the columns rise dark (charcoal, rimmed by the moon) over a lit base.
+          const float e = 0.012;
+          vec2 gr = vec2(texture2D(uTex, uv - vec2(e, 0.0)).a - texture2D(uTex, uv + vec2(e, 0.0)).a,
+                         texture2D(uTex, uv + vec2(0.0, e)).a - texture2D(uTex, uv - vec2(0.0, e)).a);
+          gr = mat2(cs, sn, -sn, cs) * gr;
+          vec2 sp = (gl_PointCoord - 0.5) * vec2(2.0, -2.0);
+          vec3 nrm = normalize(vec3(sp * 0.9 + gr * 2.4, sqrt(max(0.05, 1.0 - dot(sp, sp)))));
+          float below = clamp(-nrm.y * 0.65 + 0.4, 0.0, 1.0);
+          float heat = uGlow * exp(-max(0.0, vY - 3.0) / 7.0) * (1.0 - 0.6 * smoothstep(0.0, 0.6, vLife));
+          vec3 c = vec3(0.028, 0.026, 0.029) * (0.7 + 0.6 * clamp(nrm.y * 0.5 + 0.5, 0.0, 1.0));
+          c += vec3(0.03, 0.04, 0.058) * clamp(dot(nrm, normalize(vec3(-0.4, 0.8, 0.45))), 0.0, 1.0);
+          c += vec3(1.0, 0.38, 0.1) * heat * (0.06 + below * 0.7);
+          c *= mix(1.0, 0.72, a); // dense cores shade themselves
+          gl_FragColor = vec4(c, a * 0.78 * pow(1.0 - vLife, 0.7) * smoothstep(0.0, 0.08, vLife));
         }`,
     });
     this.points = new THREE.Points(geo, mat);
