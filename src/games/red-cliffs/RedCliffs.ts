@@ -78,6 +78,7 @@ const L = (lang: GameCtx['lang'], zh: string, en: string) => (lang === 'zh' ? zh
  */
 const SKY_GLSL = /* glsl */ `
   uniform vec3 uTop, uMid, uHor, uWest, uMoonDir, uFireTint; uniform float uFire, uTime;
+  uniform sampler2D uMilky; uniform mat3 uStarRot;
   float hash12(vec2 p){ vec3 p3 = fract(vec3(p.xyx) * 0.1031); p3 += dot(p3, p3.yzx + 33.33); return fract((p3.x + p3.y) * p3.z); }
   float vnoise(vec2 p){ vec2 i = floor(p), f = fract(p); vec2 u = f * f * (3.0 - 2.0 * f);
     return mix(mix(hash12(i), hash12(i + vec2(1.0, 0.0)), u.x), mix(hash12(i + vec2(0.0, 1.0)), hash12(i + vec2(1.0, 1.0)), u.x), u.y); }
@@ -103,6 +104,12 @@ const SKY_GLSL = /* glsl */ `
     }
     c += uFireTint * uFire * smoothstep(0.3, 0.95, -d.z) * exp(-abs(y) * 8.0) * 0.55;
     if (stars > 0.0) {
+      // the real night sky: NASA's all-sky star map (Milky Way, dust lanes, the faint background),
+      // dimmed near the moon and the horizon haze, hidden by cloud
+      vec3 q = uStarRot * d;
+      vec2 suv = vec2(atan(q.z, q.x) / 6.2831853 + 0.5, asin(clamp(q.y, -1.0, 1.0)) / 3.1415927 + 0.5);
+      vec3 mw = texture2D(uMilky, suv).rgb;
+      c += mw * 0.9 * smoothstep(0.03, 0.4, y) * (1.0 - cov) * (1.0 - pow(md, 6.0) * 0.8);
       vec3 cell = floor(d * 300.0);
       float s = step(0.9972, hash12(cell.xy + cell.z * 7.13)) * smoothstep(0.06, 0.4, y) * (1.0 - cov);
       s *= 0.55 + 0.45 * sin(time * 2.0 + hash12(cell.yz) * 30.0);
@@ -144,6 +151,9 @@ export const mount: MountGame = (root, ctx) => {
     uFireTint: { value: FIRE_TINT },
     uFire: fireGlow,
     uTime: { value: 0 },
+    // NASA/Goddard SVS Deep Star Maps 2020, tilted so the Milky Way arches up behind the fleet
+    uMilky: { value: (() => { const t = texLoader.load(`${BASE}textures/cc0/nasa_starmap_2020_1k.jpg`); t.colorSpace = THREE.SRGBColorSpace; return t; })() },
+    uStarRot: { value: new THREE.Matrix3().setFromMatrix4(new THREE.Matrix4().makeRotationFromEuler(new THREE.Euler(1.05, 0.6, 0.35))) },
   };
 
   const sky = new THREE.Mesh(

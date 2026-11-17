@@ -226,7 +226,10 @@ export const mount: MountGame = (root, ctx) => {
   // The sky from inside the atmosphere: deep blue overhead, milky toward the horizon, a hot halo
   // round the Sun, all thinning to black as the rocket climbs out of the air. It is a sphere that
   // rides with the camera and draws first, so the Earth simply paints over its lower half.
-  const skyU = { uSun: { value: SUN.clone() }, uUp: { value: new THREE.Vector3(0, 1, 0) }, uAlt: { value: 0 }, uDip: { value: 0 } };
+  // the real sky behind the stars: NASA/Goddard SVS Deep Star Maps 2020 (celestial coordinates)
+  const milky = tex.load(`${BASE}textures/cc0/nasa_starmap_2020_1k.jpg`);
+  milky.colorSpace = THREE.SRGBColorSpace;
+  const skyU = { uSun: { value: SUN.clone() }, uUp: { value: new THREE.Vector3(0, 1, 0) }, uAlt: { value: 0 }, uDip: { value: 0 }, uMilky: { value: milky } };
   const skyDome = new THREE.Mesh(
     new THREE.SphereGeometry(1, 64, 32),
     new THREE.ShaderMaterial({
@@ -243,7 +246,7 @@ export const mount: MountGame = (root, ctx) => {
       fragmentShader: /* glsl */ `
         #include <common>
         #include <logdepthbuf_pars_fragment>
-        uniform vec3 uSun, uUp; uniform float uAlt, uDip; varying vec3 vD;
+        uniform vec3 uSun, uUp; uniform float uAlt, uDip; uniform sampler2D uMilky; varying vec3 vD;
         void main(){
           #include <logdepthbuf_fragment>
           vec3 d = normalize(vD);
@@ -259,6 +262,12 @@ export const mount: MountGame = (root, ctx) => {
           c *= sunH * air;
           // above the air: black, with a thin blue band clinging to the horizon
           c += vec3(0.25, 0.5, 1.0) * exp(-abs(h) * 40.0) * (1.0 - air) * smoothstep(5.0, 40.0, uAlt) * 0.35;
+          // the Milky Way and the faint background of stars, once the air no longer outshines them.
+          // Scene +y is the celestial pole and +x pointed at 0°E at launch, when Greenwich sidereal
+          // time was ~19.6 h (294°); east is −z. The map has RA 0 h at its centre, rising leftward.
+          float ra = radians(294.0) + atan(-d.z, d.x);
+          vec2 suv = vec2(0.5 - ra / 6.2831853, asin(clamp(d.y, -1.0, 1.0)) / 3.1415927 + 0.5);
+          c += texture2D(uMilky, suv).rgb * 1.3 * (1.0 - air) * smoothstep(-0.02, 0.05, h + 0.05) * (1.0 - pow(mu, 4.0));
           // the Sun itself, hot enough to bloom
           c += vec3(1.0, 0.96, 0.88) * smoothstep(0.99965, 0.99985, mu) * 18.0;
           gl_FragColor = vec4(c, 1.0);
