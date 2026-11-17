@@ -56,11 +56,27 @@ export const mount: MountGame = (root, ctx) => {
   dayMap.colorSpace = THREE.SRGBColorSpace;
   dayMap.anisotropy = 8;
   const waterMap = tex.load(`${BASE}textures/earth-water.png`);
+  // CC0 photo textures from Poly Haven (see public/textures/cc0/CREDITS.md)
+  const photo = (name: string, color: boolean, repeat = 1) => {
+    const t = tex.load(`${BASE}textures/cc0/${name}.jpg`);
+    t.wrapS = t.wrapT = THREE.RepeatWrapping;
+    t.repeat.set(repeat, repeat);
+    t.anisotropy = 8;
+    if (color) t.colorSpace = THREE.SRGBColorSpace;
+    return t;
+  };
+  const groundMap = photo('aerial_ground_rock_diff', true);
+  const groundNrm = photo('aerial_ground_rock_nor', false);
+  // a flat east/north frame at Baikonur to lay the ground photo on (also good enough 1,400 km away
+  // at the landing site, where it just stretches a little)
+  const siteUp = new THREE.Vector3(...P.geo(P.BAIKONUR.lat, P.BAIKONUR.lon));
+  const siteE = new THREE.Vector3(0, 1, 0).cross(siteUp).normalize();
+  const siteN = siteUp.clone().cross(siteE).normalize();
 
   // ---------- Earth ----------
   const earth = new THREE.Group();
   scene.add(earth);
-  const earthUniforms = { uMap: { value: dayMap }, uWater: { value: waterMap }, uSun: { value: SUN.clone() }, uCamPos: { value: camera.position }, uHaze: { value: new THREE.Color('#9fc0e0') }, uCamAlt: { value: 0 } };
+  const earthUniforms = { uMap: { value: dayMap }, uWater: { value: waterMap }, uSun: { value: SUN.clone() }, uCamPos: { value: camera.position }, uHaze: { value: new THREE.Color('#9fc0e0') }, uCamAlt: { value: 0 }, uGround: { value: groundMap }, uGroundN: { value: groundNrm }, uSiteE: { value: siteE }, uSiteN: { value: siteN } };
   const earthMat = new THREE.ShaderMaterial({
     uniforms: earthUniforms,
     vertexShader: /* glsl */ `
@@ -81,6 +97,7 @@ export const mount: MountGame = (root, ctx) => {
       #include <common>
       #include <logdepthbuf_pars_fragment>
       uniform sampler2D uMap; uniform sampler2D uWater; uniform vec3 uSun; uniform vec3 uCamPos; uniform vec3 uHaze; uniform float uCamAlt;
+      uniform sampler2D uGround; uniform sampler2D uGroundN; uniform vec3 uSiteE; uniform vec3 uSiteN;
       varying vec2 vUv; varying vec3 vN; varying vec3 vW; varying vec3 vO;
       ${NOISE3_GLSL}
       void main(){
@@ -101,6 +118,23 @@ export const mount: MountGame = (root, ctx) => {
           steppe = mix(steppe, vec3(0.70, 0.64, 0.52), smoothstep(0.6, 0.78, n2) * 0.8);
           steppe = mix(steppe, vec3(0.26, 0.27, 0.16), smoothstep(0.55, 0.75, fbm3(o * 2.5 + 2.0)) * 0.5);
           steppe *= (0.78 + 0.4 * n3) * (0.88 + 0.24 * n4);
+          // photographed dry ground (stones, cracked crust, scrub) at 80 m and 700 m tiles: the
+          // close detail the noise cannot draw. Used as a relative tint so the steppe keeps its hue.
+          float d = length(uCamPos - vW);
+          vec2 pl = vec2(dot(o, uSiteE), dot(o, uSiteN));
+          vec3 ph1 = texture2D(uGround, pl / 0.08).rgb, ph2 = texture2D(uGround, pl / 0.7 + 0.37).rgb;
+          float fine = 1.0 - smoothstep(1.5, 9.0, d);
+          // (relative to the photo's mean; mostly its light and shade, a little of its colour)
+          const vec3 PH_MEAN = vec3(0.22, 0.146, 0.107);
+          vec3 rel1 = mix(vec3(dot(ph1, vec3(0.2126, 0.7152, 0.0722)) / 0.159), ph1 / PH_MEAN, 0.25);
+          vec3 rel2 = mix(vec3(dot(ph2, vec3(0.2126, 0.7152, 0.0722)) / 0.159), ph2 / PH_MEAN, 0.25);
+          vec3 tint = mix(vec3(1.0), rel2, 0.55 * (1.0 - smoothstep(10.0, 60.0, d)));
+          tint *= mix(vec3(1.0), rel1, 0.75 * fine);
+          steppe *= tint;
+          // its normal map, so the low Sun picks out every stone and rut near the pad
+          vec3 gn = texture2D(uGroundN, pl / 0.08).xyz * 2.0 - 1.0;
+          vec3 Np = normalize(N + (uSiteE * gn.x + uSiteN * gn.y) * 0.9 * fine);
+          steppe *= mix(1.0, clamp(max(dot(Np, uSun), 0.0) / max(ndl, 0.15), 0.55, 1.4), fine);
           day = mix(day, steppe, near * 0.85);
         }
         vec3 c = day * (0.03 + 0.95 * lit);
@@ -245,7 +279,9 @@ export const mount: MountGame = (root, ctx) => {
   const padM = new THREE.Group();
   padM.scale.setScalar(0.001); // build in metres
   pad.add(padM);
-  const concrete = new THREE.MeshStandardMaterial({ color: 0xa8a396, map: concreteTexture(), roughness: 0.95 });
+  // painted slabs and scorch rings, with the relief of worn poured concrete (Poly Haven, CC0) tiled
+  // ~13 m across the 80 m deck
+  const concrete = new THREE.MeshStandardMaterial({ color: 0xa8a396, map: concreteTexture(), normalMap: photo('concrete_floor_worn_001_nor', false, 6), normalScale: new THREE.Vector2(1.4, 1.4), roughness: 0.95 });
   const steel = new THREE.MeshStandardMaterial({ color: 0x8a4a32, roughness: 0.55, metalness: 0.55 });
   // deck top sits 0.6 m proud of the ground so the two never z-fight
   const deck = new THREE.Mesh(new THREE.CylinderGeometry(40, 46, 4, 40), concrete);

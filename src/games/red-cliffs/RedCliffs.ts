@@ -192,6 +192,7 @@ export const mount: MountGame = (root, ctx) => {
       uBandZ: { value: FRONT_Z + TWO_LI },
       uBand: { value: 0 },
       uFogC: { value: FOG },
+      uRipple: { value: photoTex('waternormals', false) },
     },
     vertexShader: /* glsl */ `
       varying vec3 vW;
@@ -200,6 +201,7 @@ export const mount: MountGame = (root, ctx) => {
       ${SKY_GLSL}
       uniform vec3 uCam; uniform vec4 uFires[${MAX_FIRES}];
       uniform vec3 uFogC; uniform float uBandZ, uBand;
+      uniform sampler2D uRipple;
       varying vec3 vW;
       vec2 wave(vec2 p, vec2 d, float f, float s, float a){ float ph = dot(p, d) * f + uTime * s; return d * cos(ph) * a * f; }
       void main(){
@@ -218,6 +220,11 @@ export const mount: MountGame = (root, ctx) => {
         float e = 0.35;
         float n0 = fbm(q), nx = fbm(q + vec2(e, 0.0)), nz = fbm(q + vec2(0.0, e));
         g += vec2(nx - n0, nz - n0) / e * 0.22 * fade;
+        // photographed capillary ripples at two scales drifting against each other: the small,
+        // sharp facets that break moonlight and firelight into glitter
+        vec2 r1 = texture2D(uRipple, p * 0.045 + uTime * vec2(0.011, 0.006)).rg * 2.0 - 1.0;
+        vec2 r2 = texture2D(uRipple, p * 0.13 - uTime * vec2(0.004, 0.017)).rg * 2.0 - 1.0;
+        g += (r1 * 0.07 + r2 * 0.05) * fade;
         vec3 n = normalize(vec3(-g.x, 1.0, -g.y));
         vec3 V = normalize(uCam - vW);
         float fres = 0.02 + 0.98 * pow(1.0 - max(dot(n, V), 0.0), 5.0);
@@ -410,7 +417,9 @@ export const mount: MountGame = (root, ctx) => {
   // ---------- ships ----------
   const sailTex = sailTexture('#5e4b34', '#2e2418');
   const sailTexFs = sailTexture('#a88d62', '#5c4428');
-  const woodTex = plankTexture();
+  // photographed weathered planking (Poly Haven, CC0): colour and a normal map so the moon and the
+  // fires rake across real seams and grain
+  const woodTex = { map: photoTex('brown_planks_03_diff', true), normal: photoTex('brown_planks_03_nor', false) };
   const flagCao = textTexture('曹', '#1a1410', 64, 64, 'bold 46px "Noto Serif SC", serif', '#b83a2a');
   const flagHuang = textTexture('黄', '#3a1a08', 64, 64, 'bold 46px "Noto Serif SC", serif', '#e3b341');
   const flags: THREE.Mesh[] = [];
@@ -420,7 +429,7 @@ export const mount: MountGame = (root, ctx) => {
     for (let c = 0; c < COLS; c++) {
       const x = -((COLS - 1) / 2) * COL_GAP + c * COL_GAP + (r % 2) * 2.2;
       const z = FRONT_Z - r * ROW_GAP;
-      const { g, hull } = buildJunk({ len: SHIP_LEN, beam: 2.8, color: 0x6a5240, wood: woodTex, sail: sailTex, flag: flagCao, flags, masts: 2 });
+      const { g, hull } = buildJunk({ len: SHIP_LEN, beam: 2.8, color: 0x8a6446, wood: woodTex, sail: sailTex, flag: flagCao, flags, masts: 2 });
       g.position.set(x, 0, z);
       g.rotation.y = (rnd() - 0.5) * 0.05;
       scene.add(g);
@@ -459,7 +468,7 @@ export const mount: MountGame = (root, ctx) => {
 
   const fireShips: FireShip[] = [];
   for (let i = 0; i < FIRE_SHIPS; i++) {
-    const { g, hull } = buildJunk({ len: 7, beam: 2.4, color: 0x8a6c50, wood: woodTex, sail: sailTexFs, flag: flagHuang, flags, masts: 1, cargo: true, squareSail: true });
+    const { g, hull } = buildJunk({ len: 7, beam: 2.4, color: 0xa8845c, wood: woodTex, sail: sailTexFs, flag: flagHuang, flags, masts: 1, cargo: true, squareSail: true });
     g.position.set(-4 + i * 6.2, 0, HOME_Z + (i % 2) * 1.5);
     g.rotation.y = Math.PI / 2; // bows pointing north
     const glow = new THREE.Mesh(
@@ -1169,65 +1178,76 @@ function textTexture(text: string, color: string, w: number, hgt: number, font: 
 }
 
 function sailTexture(cloth: string, batten: string) {
-  // woven bamboo matting between battens, weathered toward the foot
+  // woven matting between battens, weathered toward the foot. The weave itself is a photo of rush
+  // matting (Poly Haven tatami_mat, CC0): its light and shade are laid over the cloth colour once
+  // it loads, so the sail keeps its own hue but gains real fibre.
+  const W = 256, H = 320;
   const c = document.createElement('canvas');
-  c.width = 128;
-  c.height = 160;
+  c.width = W;
+  c.height = H;
   const g = c.getContext('2d')!;
-  g.fillStyle = cloth;
-  g.fillRect(0, 0, 128, 160);
-  for (let y = 0; y < 160; y += 3)
-    for (let x = (y / 3) % 2 ? 0 : 3; x < 128; x += 6) {
-      g.fillStyle = `rgba(0,0,0,${0.05 + Math.random() * 0.08})`;
-      g.fillRect(x, y, 3, 2);
+  const rnd = mulberry(7);
+  const paint = (weave?: HTMLImageElement) => {
+    g.globalCompositeOperation = 'source-over';
+    g.globalAlpha = 1;
+    g.fillStyle = cloth;
+    g.fillRect(0, 0, W, H);
+    if (weave) {
+      // a strip of the mat between its cloth borders, tiled twice across and four times down
+      g.globalCompositeOperation = 'luminosity';
+      g.globalAlpha = 0.55;
+      const sy = weave.height * 0.13, sh = weave.height * 0.33;
+      for (let ty = 0; ty < 4; ty++) for (let tx = 0; tx < 2; tx++) g.drawImage(weave, 0, sy, weave.width, sh, (tx * W) / 2, (ty * H) / 4, W / 2, H / 4);
+      g.globalCompositeOperation = 'source-over';
+      g.globalAlpha = 1;
+    } else {
+      for (let y = 0; y < H; y += 6)
+        for (let x = (y / 6) % 2 ? 0 : 6; x < W; x += 12) {
+          g.fillStyle = `rgba(0,0,0,${0.05 + rnd() * 0.08})`;
+          g.fillRect(x, y, 6, 4);
+        }
     }
-  const grd = g.createLinearGradient(0, 0, 0, 160);
-  grd.addColorStop(0, 'rgba(255,240,210,.08)');
-  grd.addColorStop(1, 'rgba(0,0,0,.28)');
-  g.fillStyle = grd;
-  g.fillRect(0, 0, 128, 160);
-  for (let i = 0; i < 14; i++) {
-    g.fillStyle = `rgba(0,0,0,${0.08 + Math.random() * 0.1})`;
-    g.fillRect(Math.random() * 128, Math.random() * 160, 6 + Math.random() * 14, 2 + Math.random() * 5);
-  }
-  g.strokeStyle = batten;
-  g.lineWidth = 4;
-  for (let y = 10; y < 160; y += 21) {
-    g.beginPath();
-    g.moveTo(0, y);
-    g.lineTo(128, y + 4);
-    g.stroke();
-  }
+    const grd = g.createLinearGradient(0, 0, 0, H);
+    grd.addColorStop(0, 'rgba(255,240,210,.08)');
+    grd.addColorStop(1, 'rgba(0,0,0,.3)');
+    g.fillStyle = grd;
+    g.fillRect(0, 0, W, H);
+    // patches and water stains
+    for (let i = 0; i < 18; i++) {
+      g.fillStyle = `rgba(0,0,0,${0.06 + rnd() * 0.1})`;
+      g.fillRect(rnd() * W, rnd() * H, 12 + rnd() * 28, 4 + rnd() * 10);
+    }
+    g.strokeStyle = batten;
+    g.lineWidth = 8;
+    for (let y = 20; y < H; y += 42) {
+      g.beginPath();
+      g.moveTo(0, y);
+      g.lineTo(W, y + 8);
+      g.stroke();
+    }
+  };
+  paint();
   const tex = new THREE.CanvasTexture(c);
   tex.colorSpace = THREE.SRGBColorSpace;
+  tex.anisotropy = 4;
+  const img = new Image();
+  img.onload = () => {
+    paint(img);
+    tex.needsUpdate = true;
+  };
+  img.src = `${BASE}textures/cc0/tatami_mat_diff.jpg`;
   return tex;
 }
 
-/** Tarred planking for the hulls: strakes, seams and grain. */
-function plankTexture() {
-  const c = document.createElement('canvas');
-  c.width = 256;
-  c.height = 64;
-  const g = c.getContext('2d')!;
-  g.fillStyle = '#5a4634';
-  g.fillRect(0, 0, 256, 64);
-  for (let y = 0; y < 64; y += 8) {
-    const k = 0.75 + Math.random() * 0.35;
-    g.fillStyle = `rgba(${Math.round(90 * k)},${Math.round(70 * k)},${Math.round(52 * k)},1)`;
-    g.fillRect(0, y, 256, 7);
-    for (let i = 0; i < 60; i++) {
-      g.fillStyle = `rgba(0,0,0,${Math.random() * 0.12})`;
-      g.fillRect(Math.random() * 256, y + Math.random() * 7, 10 + Math.random() * 30, 1);
-    }
-    g.fillStyle = 'rgba(10,6,4,.9)';
-    g.fillRect(0, y + 7, 256, 1);
-    for (let x = Math.random() * 60; x < 256; x += 50 + Math.random() * 60) g.fillRect(x, y, 1, 7);
-  }
-  const tex = new THREE.CanvasTexture(c);
-  tex.colorSpace = THREE.SRGBColorSpace;
-  tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
-  tex.anisotropy = 4;
-  return tex;
+const BASE = import.meta.env.BASE_URL;
+const texLoader = new THREE.TextureLoader();
+/** A tiling CC0 photo texture from public/textures/cc0 (see CREDITS.md there). */
+function photoTex(name: string, color: boolean) {
+  const t = texLoader.load(`${BASE}textures/cc0/${name}.jpg`);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  t.anisotropy = 8;
+  if (color) t.colorSpace = THREE.SRGBColorSpace;
+  return t;
 }
 
 /** A junk: tapered planked hull with sheer, deckhouse, masts with battened matting sails, banner. */
@@ -1275,13 +1295,19 @@ const JUNK_MATS = {
   _foam: undefined as THREE.MeshBasicMaterial | undefined,
 };
 
-function buildJunk(o: { len: number; beam: number; color: number; wood: THREE.Texture; sail: THREE.Texture; flag: THREE.Texture; flags: THREE.Mesh[]; masts: number; cargo?: boolean; squareSail?: boolean }) {
+function buildJunk(o: { len: number; beam: number; color: number; wood: { map: THREE.Texture; normal: THREE.Texture }; sail: THREE.Texture; flag: THREE.Texture; flags: THREE.Mesh[]; masts: number; cargo?: boolean; squareSail?: boolean }) {
   const g = new THREE.Group();
   const hullGeo = new THREE.BoxGeometry(o.len, 1.5, o.beam, 16, 3, 4);
   const pos = hullGeo.attributes.position as THREE.BufferAttribute;
+  const nrm = hullGeo.attributes.normal as THREE.BufferAttribute;
+  const uv = hullGeo.attributes.uv as THREE.BufferAttribute;
   for (let i = 0; i < pos.count; i++) {
     const x = pos.getX(i);
     const y = pos.getY(i);
+    // planks run stem to stern: the photo's vertical boards are laid on their side, ~0.3 m wide
+    // strakes up the topsides, deck boards across the beam
+    const across = Math.abs(nrm.getY(i)) > 0.5 ? pos.getZ(i) : y;
+    uv.setXY(i, across * 0.36 + (Math.abs(nrm.getY(i)) > 0.5 ? 0.5 : 0), x / 3.2);
     const u = x / (o.len / 2);
     let z = pos.getZ(i) * (1 - 0.5 * u * u);
     if (y < 0) z *= 0.5 + 0.25 * (y + 0.75);
@@ -1289,7 +1315,7 @@ function buildJunk(o: { len: number; beam: number; color: number; wood: THREE.Te
     pos.setXYZ(i, x, yy + 0.4, z);
   }
   hullGeo.computeVertexNormals();
-  const hull = new THREE.MeshStandardMaterial({ color: o.color, map: o.wood, roughness: 0.78, emissive: 0x000000, envMapIntensity: 0.8 });
+  const hull = new THREE.MeshStandardMaterial({ color: o.color, map: o.wood.map, normalMap: o.wood.normal, normalScale: new THREE.Vector2(1.1, 1.1), roughness: 0.82, emissive: 0x000000, envMapIntensity: 0.8 });
   g.add(new THREE.Mesh(hullGeo, hull));
   const trim = new THREE.MeshStandardMaterial({ color: 0x2a1c12, roughness: 0.7 });
   const house = new THREE.Mesh(new THREE.BoxGeometry(o.len * 0.22, 1.1, o.beam * 0.7), trim);
