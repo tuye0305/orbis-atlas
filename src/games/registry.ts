@@ -137,7 +137,7 @@ export const GAMES: GameDef[] = [
   },
   {
     id: 'orchid-pavilion',
-    title: { en: 'Orchid Pavilion · The Brush', zh: '兰亭 · 永字' },
+    title: { en: 'Orchid Pavilion · The Brush', zh: '兰亭 · 习字' },
     kicker: { en: 'Kuaiji, spring 353', zh: '永和九年暮春 · 会稽山阴' },
     targets: ['ev-orchid-pavilion-gathering', 'person-wang-xizhi'],
     accent: '#d8473b',
@@ -147,15 +147,20 @@ export const GAMES: GameDef[] = [
         zh: '永和九年三月初三，王羲之与谢安等四十余人修禊于兰亭，曲水流觞、饮酒赋诗。他为诗集所作的序，被后世尊为“天下第一行书”。',
       },
       {
-        en: 'First learn the Eight Principles of 永 (yǒng, “eternal”): its eight strokes hold every basic brush movement. Then write 之 three times, the character Wang wrote about twenty times in the Preface, never the same way twice.',
-        zh: '先写“永字八法”：一个“永”字的八笔包含了楷书的基本笔法。再写三个“之”。《兰亭集序》里约有二十个“之”字，写法各不相同。',
+        en: 'Open the copybook and pick any of 14 levels: single characters from 一 to 水 that teach the basic strokes, the Eight Principles of 永, 之 written three ways as Wang did, and whole lines of poetry, one character per square.',
+        zh: '翻开字帖，14 关任选：从“一”到“水”，一字一字学基本笔画；再写“永字八法”和王羲之笔下变化多端的“之”；最后一字一格，写下整句诗。',
+      },
+      {
+        en: 'Every character comes with a line of poetry it appears in — Li Bai, Wang Wei, Du Fu, Su Shi and the Book of Songs — inscribed on your finished sheet beside the seal.',
+        zh: '每个字都配有一句含着它的诗——李白、王维、杜甫、苏轼、《诗经》……写完后题在纸上，盖上印章。',
       },
     ],
     controls: [
+      { en: 'Pick a character in the copybook; you can switch at any time with “Copybook”.', zh: '在字帖里任选一个字开始；写的时候随时可以点“字帖”换字。' },
       { en: 'Drag to write. Slow = heavy, wet ink; fast = thin, dry brush.', zh: '按住拖动书写：行笔慢则墨重而润，快则线细而有飞白。' },
       { en: 'Follow the faint red guide and stroke direction; press harder with a pen for more ink.', zh: '沿淡红描红与箭头方向行笔；用手写笔时，压力越大墨越重。' },
       { en: 'Pause and the ink bleeds into the paper; lift while still moving for a sharp tip.', zh: '停笔不动，墨会在纸上洇开；边走边抬笔，留下锋尖。' },
-      { en: 'For 之, the more each one differs from the last (while still reading as 之), the higher the score.', zh: '写“之”时，三个字彼此越不相同（但仍要像“之”），得分越高。' },
+      { en: 'Each level earns up to three stars; for 之, the more each one differs (while still reading as 之), the higher the score.', zh: '每关最多三颗星；写“之”时，三个字彼此越不相同（但仍要像“之”），得分越高。' },
     ],
     history: [
       {
