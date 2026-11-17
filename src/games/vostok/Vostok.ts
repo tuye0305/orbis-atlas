@@ -254,9 +254,14 @@ export const mount: MountGame = (root, ctx) => {
           float mu = max(dot(d, uSun), 0.0);
           float air = exp(-uAlt / 9.0);           // how much atmosphere is still overhead
           float sunH = clamp(dot(uUp, uSun) * 2.0 + 0.3, 0.0, 1.0);
-          vec3 zen = vec3(0.10, 0.28, 0.66);
-          vec3 hor = vec3(0.70, 0.80, 0.90);
-          vec3 c = mix(hor, zen, pow(clamp(h, 0.0, 1.0), 0.42));
+          // Rayleigh-lit sky: the blue deepens and saturates overhead and is darkest 90° from the
+          // Sun (phase 1 + cos²θ); low down the long path through dusty steppe air whitens it.
+          vec3 zen = vec3(0.06, 0.21, 0.62);
+          vec3 hor = vec3(0.74, 0.79, 0.84);
+          float cosT = dot(d, uSun);
+          float hc = clamp(h, 0.0, 1.0);
+          vec3 c = mix(hor, zen, pow(hc, 0.5)) * (0.78 + 0.34 * cosT * cosT);
+          c = mix(c, vec3(0.80, 0.77, 0.70), exp(-hc * 22.0) * 0.4); // dust haze on the horizon
           c = mix(c, hor * 0.9, smoothstep(0.0, -0.06, h));
           c += vec3(1.0, 0.92, 0.75) * (pow(mu, 9.0) * 0.35 + pow(mu, 80.0) * 0.6);
           c *= sunH * air;
@@ -388,18 +393,38 @@ export const mount: MountGame = (root, ctx) => {
     const ballast = new THREE.Mesh(new THREE.BoxGeometry(4.2, 0.22, railLen), new THREE.MeshStandardMaterial({ color: 0x77706a, roughness: 1, normalMap: relief(1) }));
     ballast.position.set(0, 0.04, -56 - railLen / 2);
     padM.add(ballast);
-    const shed = new THREE.MeshStandardMaterial({ color: 0xb9b3a4, roughness: 0.9 });
+    // service sheds round the pad: whitewashed walls under pitched corrugated-steel roofs, each
+    // seated on the ground (bottom at 0) so none of them floats
+    const shed = new THREE.MeshStandardMaterial({ color: 0xb9b3a4, roughness: 0.9, normalMap: relief(1), normalScale: new THREE.Vector2(0.5, 0.5) });
+    const tin = new THREE.MeshStandardMaterial({ color: 0x67625a, roughness: 0.55, metalness: 0.45 });
+    const gable = (w: number, d: number, hgt: number) => {
+      const sh = new THREE.Shape();
+      sh.moveTo(-w / 2 - 0.6, 0);
+      sh.lineTo(w / 2 + 0.6, 0);
+      sh.lineTo(0, hgt);
+      sh.closePath();
+      return new THREE.ExtrudeGeometry(sh, { depth: d + 1, bevelEnabled: false }).translate(0, 0, -(d + 1) / 2);
+    };
+    const building = (w: number, hgt: number, d: number, pitch: number) => {
+      const g = new THREE.Group();
+      const body = new THREE.Mesh(new THREE.BoxGeometry(w, hgt, d), shed);
+      body.position.y = hgt / 2;
+      const roof = new THREE.Mesh(gable(w, d, w * pitch), tin);
+      roof.position.y = hgt;
+      g.add(body, roof);
+      return g;
+    };
     for (let i = 0; i < 9; i++) {
-      const b = new THREE.Mesh(new THREE.BoxGeometry(14 + (i % 3) * 8, 5 + (i % 4) * 2, 10 + (i % 2) * 6), shed);
+      const b = building(14 + (i % 3) * 8, 5 + (i % 4) * 2, 10 + (i % 2) * 6, 0.22);
       const a = (i / 9) * Math.PI * 2 + 0.4;
       const r = 160 + (i % 3) * 70;
-      b.position.set(Math.cos(a) * r, 2, Math.sin(a) * r);
+      b.position.set(Math.cos(a) * r, -0.3, Math.sin(a) * r);
       b.rotation.y = a;
       padM.add(b);
     }
     // the assembly hall at the far end of the rail line
-    const hall = new THREE.Mesh(new THREE.BoxGeometry(60, 26, 110), shed);
-    hall.position.set(0, 13, -56 - railLen - 55);
+    const hall = building(60, 26, 110, 0.14);
+    hall.position.set(0, -0.3, -56 - railLen - 55);
     padM.add(hall);
   }
   // the engines light the pad, the stack and the cloud for the first seconds
