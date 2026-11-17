@@ -88,6 +88,10 @@ export interface Style {
   backdrop: (k: Kit, rng: Rng) => void;
   notes: number[];
   bonus: { label: L10n; test: (s: Stats) => boolean };
+  /** Wing colour of the birds over the water (egrets, swallows, terns, gulls). */
+  bird: string;
+  /** Share of houses with a hearth smoking at any time. */
+  smoke: number;
 }
 
 /* ---------------------------------------------------------------- shared pieces */
@@ -435,6 +439,8 @@ const tenochtitlan: Style = {
   },
   notes: [392, 440, 523.25, 587.33, 659.25, 784],
   bonus: { label: { en: 'Chinampas feed the city', zh: '浮田养城' }, test: (s) => s.chinampas >= 12 },
+  bird: '#f4f1ea',
+  smoke: 0.16,
 };
 
 /* ---------------------------------------------------------------- Bianjing (Kaifeng), c. 1100 */
@@ -490,10 +496,19 @@ const kaifeng: Style = {
       k.box(w2 + 0.04, 0.04, 0.04, 0, top + 0.1, d2 / 2 + 0.02, '#7e3427');
       k.hip(w2 + 0.32, d2 + 0.32, 0.26, { ridge: w2 * 0.55, k: 1.9, lift: 0.07, y: top + 0.06 + hh * 0.8 - 0.02 }, roof);
       k.box(w2 * 0.55, 0.04, 0.04, 0, top + 0.06 + hh * 0.8 + 0.22, 0, '#3d4248');
+      // red lanterns under the lower eaves of an inn
+      if (r() < 0.5) for (const sx of [-1, 1]) k.sphere(0.035, sx * w * 0.36, top - 0.12, d / 2 + 0.11, '#c8402a', 1.35);
     } else {
       k.hip(w + 0.3, d + 0.3, 0.23, { ridge: w * 0.62, k: 1.9, lift: 0.07, y: top - 0.02 }, roof);
       k.box(w * 0.62, 0.04, 0.04, 0, top + 0.19, 0, '#3d4248');
       for (const sx of [-1, 1]) k.box(0.03, 0.07, 0.03, (sx * w * 0.62) / 2, top + 0.19, 0, '#3d4248');
+    }
+    if (r() < 0.3) {
+      // a shopfront: a cloth awning on two poles over the door, as along the scroll's streets
+      const aw = w * 0.7;
+      const m = new THREE.Matrix4().compose(new THREE.Vector3(0, 0.06 + hh * 0.78, d / 2 + 0.13), new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1, 0, 0), 0.35), new THREE.Vector3(1, 1, 1));
+      k.add(new THREE.BoxGeometry(aw, 0.015, 0.28), pick(r, ['#d9cba4', '#c9b98e', '#b8a47a']), m);
+      for (const sx of [-1, 1]) k.box(0.02, hh * 0.66, 0.02, (sx * aw) / 2 - sx * 0.02, 0.06, d / 2 + 0.25, '#5a3d2a');
     }
     if (c.waterside && r() < 0.35) {
       // a wine-shop banner on a pole
@@ -556,6 +571,8 @@ const kaifeng: Style = {
   },
   notes: [523.25, 587.33, 659.25, 783.99, 880, 1046.5],
   bonus: { label: { en: 'Bridges over the Bian', zh: '汴河上的桥' }, test: (s) => s.bridges >= 2 },
+  bird: '#3a3632',
+  smoke: 0.18,
 };
 
 /* ---------------------------------------------------------------- Raʻiatea, c. 1000 */
@@ -610,6 +627,14 @@ const raiatea: Style = {
     const w = oval ? 0.72 + r() * 0.12 : 0.58 + r() * 0.12;
     const d = oval ? 0.48 : 0.42;
     const thatch = jitter(pick(r, ['#b89455', '#a8844a', '#c4a15e', '#9c7a44']), r);
+    if (c.waterside && r() < 0.22) {
+      // a canoe shed (fare va'a): a long open roof on posts, a hull drawn up under it
+      for (const sx of [-1, 0, 1]) for (const sz of [-1, 1]) k.box(0.03, 0.2, 0.03, sx * 0.36, 0.05, sz * 0.2, '#5a4632');
+      k.box(0.72, 0.06, 0.1, 0, 0.05, 0, '#6a4628');
+      k.box(0.1, 0.06, 0.07, 0.4, 0.08, 0, '#6a4628');
+      k.hip(0.98, 0.58, 0.28, { ridge: 0.72, k: 0.7, y: 0.22 }, thatch);
+      return;
+    }
     for (const sx of [-1, 1]) for (const sz of [-1, 1]) k.box(0.03, 0.16, 0.03, (sx * w) / 2.4, 0.05, (sz * d) / 2.4, '#5a4632');
     k.box(w * 0.8, 0.12, d * 0.8, 0, 0.05, 0, jitter('#c8ad78', r, 0.01, 0.05, 0.08));
     k.hip(w + 0.2, d + 0.24, oval ? 0.42 : 0.5, { ridge: oval ? w * 0.25 : w * 0.55, k: oval ? 0.6 : 0.75, y: 0.1 }, thatch);
@@ -676,6 +701,8 @@ const raiatea: Style = {
   },
   notes: [349.23, 392, 440, 523.25, 587.33, 698.46],
   bonus: { label: { en: 'Palms line the lagoon', zh: '椰林环绕泻湖' }, test: (s) => s.shoreTrees >= 16 },
+  bird: '#f7f6f2',
+  smoke: 0.08,
 };
 
 /* ---------------------------------------------------------------- Amsterdam, 1600s */
@@ -728,17 +755,29 @@ const amsterdam: Style = {
     k.gable(d, w, rh, 0, H, 0, roof, Math.PI / 2);
     const type = r();
     const fz = d / 2 - 0.03;
-    if (type < 0.45) {
+    if (type < 0.38) {
       // stepped gable
       const steps = 5;
       for (let i = 0; i < steps; i++) k.box(w * (1 - i / steps) + 0.02, rh / steps, 0.07, 0, H + (i * rh) / steps, fz, wall);
       k.box(0.08, 0.06, 0.08, 0, H + rh, fz, stone);
-    } else if (type < 0.8) {
+    } else if (type < 0.66) {
       // neck gable with stone shoulders
       k.box(w * 0.46, rh * 0.95, 0.07, 0, H, fz, wall);
       for (const sx of [-1, 1]) k.box(w * 0.22, rh * 0.28, 0.07, sx * w * 0.32, H, fz, wall);
       for (const sx of [-1, 1]) k.sphere(0.05, sx * w * 0.32, H + rh * 0.3, fz, stone, 0.9, 0);
       k.box(w * 0.5, 0.05, 0.08, 0, H + rh * 0.95, fz, stone);
+    } else if (type < 0.86) {
+      // bell gable: a tall centre with a rounded top, low shoulders, a stone finial
+      const bw = w * 0.5;
+      const bh = rh * 0.7;
+      k.box(bw, bh, 0.07, 0, H, fz, wall);
+      const cap = new THREE.CylinderGeometry(bw / 2, bw / 2, 0.07, 12, 1, false, Math.PI / 2, Math.PI);
+      cap.rotateX(Math.PI / 2);
+      cap.translate(0, H + bh, fz);
+      k.add(cap, wall);
+      for (const sx of [-1, 1]) k.box(w * 0.2, rh * 0.26, 0.07, sx * w * 0.34, H, fz, wall);
+      k.box(bw + 0.04, 0.03, 0.08, 0, H + bh - 0.03, fz, stone);
+      k.sphere(0.035, 0, H + bh + bw / 2 + 0.01, fz, stone);
     } else {
       k.box(w + 0.02, 0.04, 0.08, 0, H - 0.02, fz, stone);
     }
@@ -849,6 +888,8 @@ const amsterdam: Style = {
   },
   notes: [523.25, 659.25, 783.99, 1046.5, 880, 1174.66],
   bonus: { label: { en: 'Windmills drain the polder', zh: '风车排干圩田' }, test: (s) => s.windmills >= 3 },
+  bird: '#eef0f0',
+  smoke: 0.22,
 };
 
 export const STYLES: Record<StyleId, Style> = { tenochtitlan, kaifeng, raiatea, amsterdam };

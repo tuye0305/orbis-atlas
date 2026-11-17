@@ -106,7 +106,7 @@ if (!only || only.includes('phone')) {
   await page.waitForFunction(() => window.__isle, null, { timeout: 30000 });
   await page.waitForTimeout(1500);
   await page.evaluate(`(() => { const I = window.__isle; ${PROGRAMS.tenochtitlan} })()`);
-  await page.waitForTimeout(4000);
+  await page.waitForTimeout(8000); // the camera glides in from far out; swiftshader is slow
   await page.screenshot({ path: path.join(OUT, 'phone-built.png') });
   await page.close();
 }

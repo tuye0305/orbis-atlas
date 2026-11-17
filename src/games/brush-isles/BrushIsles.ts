@@ -625,6 +625,117 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     else sfx.tone({ freq: f * 2, dur: 0.25, type: 'sine', gain: 0.022, attack: 0.003 });
   };
 
+  /* ---------- hearth smoke: thin grey puffs rising off a few roofs, drifting downwind */
+  const smokers = new Set<THREE.Object3D>();
+  const MAXP = 640;
+  const smoke = new THREE.InstancedMesh(
+    new THREE.IcosahedronGeometry(0.06, 1),
+    // mostly self-lit, so the puffs read as haze rather than as lit, faceted bubbles
+    new THREE.MeshLambertMaterial({ color: '#b9b5ae', emissive: '#a19d96', transparent: true, opacity: 0.26, depthWrite: false }),
+    MAXP,
+  );
+  smoke.frustumCulled = false;
+  smoke.count = reduced ? 0 : MAXP; // (instances start as identity matrices: never draw them unset)
+  smoke.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+  scene.add(smoke);
+  const pX = new Float32Array(MAXP);
+  const pY = new Float32Array(MAXP);
+  const pZ = new Float32Array(MAXP);
+  const pAge = new Float32Array(MAXP).fill(99);
+  const pLife = new Float32Array(MAXP).fill(1);
+  let pNext = 0;
+  const wind = new THREE.Vector3(sunDir.z, 0, -sunDir.x).normalize().multiplyScalar(0.55);
+  const chimney = new THREE.Vector3();
+  const sm = new THREE.Matrix4();
+  const smQ = new THREE.Quaternion();
+  const smS = new THREE.Vector3();
+  const smP = new THREE.Vector3();
+  const probe = new THREE.Mesh(undefined, new THREE.MeshBasicMaterial({ side: THREE.DoubleSide }));
+  const probeRay = new THREE.Raycaster(new THREE.Vector3(), new THREE.Vector3(0, -1, 0));
+  const addSmoker = (o: THREE.Mesh) => {
+    if (reduced) return;
+    // the roof just behind the centre, found by dropping a ray onto the house's own geometry (its
+    // bounding box would put the smoke at the top of a banner pole)
+    probe.geometry = o.geometry;
+    probeRay.ray.origin.set(0, 6, -0.08);
+    const hit = probeRay.intersectObject(probe, false)[0];
+    o.userData.chimney = new THREE.Vector3(0, (hit?.point.y ?? 0.5) - 0.03, -0.08);
+    o.userData.smokeT = hash(o.id, 1) * 2;
+    smokers.add(o);
+  };
+  const stepSmoke = (dt: number) => {
+    if (reduced) return;
+    for (const o of smokers) {
+      // only once the house has finished growing (its matrix is then the final one)
+      if (o.userData.anim || !o.parent) continue;
+      o.userData.smokeT -= dt;
+      if (o.userData.smokeT > 0) continue;
+      // close enough that the puffs overlap into a plume; thinner when so many roofs smoke that the
+      // puff buffer would otherwise cut the oldest plumes short
+      o.userData.smokeT = (0.14 + Math.random() * 0.12) * Math.max(1, smokers.size / 34);
+      o.localToWorld(chimney.copy(o.userData.chimney));
+      const i = pNext;
+      pNext = (pNext + 1) % MAXP;
+      pX[i] = chimney.x;
+      pY[i] = chimney.y;
+      pZ[i] = chimney.z;
+      pAge[i] = 0;
+      pLife[i] = 3 + Math.random() * 1.4;
+    }
+    for (let i = 0; i < MAXP; i++) {
+      const t = (pAge[i] += dt) / pLife[i];
+      if (t >= 1) sm.makeScale(0, 0, 0);
+      else {
+        const sway = Math.sin(pAge[i] * 1.7 + i) * 0.06;
+        smP.set(pX[i] + wind.x * t * 2 + sway, pY[i] + t * 1.5, pZ[i] + wind.z * t * 2 - sway);
+        smS.setScalar((0.5 + 2.2 * t) * Math.min(1, t / 0.08) * Math.min(1, (1 - t) / 0.5));
+        sm.compose(smP, smQ, smS);
+      }
+      smoke.setMatrixAt(i, sm);
+    }
+    smoke.instanceMatrix.needsUpdate = true;
+  };
+
+  /* ---------- birds: two small flocks wheeling over the town and water */
+  const birdGeo = new THREE.BufferGeometry();
+  birdGeo.setAttribute('position', new THREE.Float32BufferAttribute([0.06, 0, 0, -0.05, 0, 0, -0.02, 0.05, 0.17, 0.06, 0, 0, -0.02, 0.05, -0.17, -0.05, 0, 0], 3));
+  birdGeo.computeVertexNormals();
+  const NB = reduced ? 0 : 12;
+  const birds = new THREE.InstancedMesh(birdGeo, new THREE.MeshStandardMaterial({ color: st.bird, roughness: 0.9, side: THREE.DoubleSide }), Math.max(1, NB));
+  birds.count = NB;
+  birds.castShadow = true;
+  birds.frustumCulled = false;
+  scene.add(birds);
+  const bm = new THREE.Matrix4();
+  const bq = new THREE.Quaternion();
+  const bs = new THREE.Vector3();
+  const bp = new THREE.Vector3();
+  const bY = new THREE.Vector3(0, 1, 0);
+  const stepBirds = (t: number) => {
+    for (let i = 0; i < NB; i++) {
+      const f = i % 2;
+      const j = (i / 2) | 0;
+      const dir = f ? 1 : -1;
+      const cx = Math.sin(t * 0.03 + f * 2.4) * 7;
+      const cz = Math.cos(t * 0.024 + f * 1.3) * 7;
+      const r = 5 + f * 3 + ((j % 3) - 1) * 0.5;
+      const a = dir * t * (0.16 - f * 0.04) + j * 0.2 + f * 3;
+      const x = cx + Math.cos(a) * r;
+      const z = cz + Math.sin(a) * r;
+      // (lifted over high ground: Raʻiatea's peak tops the flocks' cruising height)
+      bp.set(x, Math.max(4.2 + f * 1.3, heightAt(x, z) + 1.4) + Math.sin(t * 0.5 + i) * 0.25, z);
+      // heading along the circle; wings beat in bursts, then the bird glides
+      const vx = -Math.sin(a) * dir;
+      const vz = Math.cos(a) * dir;
+      bq.setFromAxisAngle(bY, Math.atan2(-vz, vx));
+      const beat = Math.sin(t * 0.7 + i * 1.9) > -0.2 ? Math.sin(t * 10 + i * 2.3) : 0.3;
+      bs.set(1, 0.35 + beat * 1.1, 1);
+      bm.compose(bp, bq, bs);
+      birds.setMatrixAt(i, bm);
+    }
+    birds.instanceMatrix.needsUpdate = true;
+  };
+
   /* ---------- cells */
   const cells: Cell[] = Array.from({ length: G * G }, () => ({ kind: K.None, sig: -1, obj: null, inst: [], shoreTrees: 0 }));
   const reserved = new Uint8Array(G * G);
@@ -711,6 +822,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       const o = c.obj;
       animate({ obj: o, grow: false, dur: 0.25, done: () => disposeObj(o) });
       spinners.delete(o.userData.sails);
+      smokers.delete(o);
     }
     for (const it of c.inst) animate({ inst: it, grow: false, dur: 0.22, done: () => it.pool.remove(it) });
     c.obj = null;
@@ -742,6 +854,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       scene.add(m);
       c.obj = m;
       animate({ obj: m, grow: true, dur: 0.5, delay });
+      if (hash(cx, cz, 9) < st.smoke) addSmoker(m);
     } else if (kind === K.Mill && st.windmill) {
       const w = st.windmill(rng);
       const g = new THREE.Group();
@@ -1168,10 +1281,56 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   };
 
   /* ---------- brush cursor */
-  const ring = new THREE.Mesh(new THREE.RingGeometry(0.93, 1, 64).rotateX(-Math.PI / 2), new THREE.MeshBasicMaterial({ color: '#fff', transparent: true, opacity: 0.85, depthTest: false, depthWrite: false, fog: false }));
-  ring.renderOrder = 10;
-  ring.visible = false;
-  scene.add(ring);
+  // A rim and a faint fill draped over the ground each frame (a flat ring floated in the air or
+  // sank into hills), tinted red where the chosen brush can do nothing.
+  const RS = 64;
+  const drape = (radii: number[], opacity: number) => {
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(new Float32Array(RS * radii.length * 3), 3));
+    const idx: number[] = [];
+    for (let k = 0; k < radii.length - 1; k++)
+      for (let j = 0; j < RS; j++) {
+        const a = k * RS + j;
+        const b = k * RS + ((j + 1) % RS);
+        idx.push(a, a + RS, b, b, a + RS, b + RS);
+      }
+    g.setIndex(idx);
+    const m = new THREE.Mesh(g, new THREE.MeshBasicMaterial({ color: '#fff', transparent: true, opacity, depthTest: false, depthWrite: false, fog: false, side: THREE.DoubleSide }));
+    m.renderOrder = 10;
+    m.frustumCulled = false;
+    m.visible = false;
+    m.userData.radii = radii;
+    scene.add(m);
+    return m;
+  };
+  const ring = drape([0.93, 1], 0.8);
+  const fill = drape([0, 0.32, 0.62, 0.93], 0.12);
+  const BAD = new THREE.Color('#ff7a6a');
+  const placeCursor = (p: THREE.Vector3, R: number) => {
+    for (const m of [ring, fill]) {
+      const radii = m.userData.radii as number[];
+      const pos = m.geometry.attributes.position as THREE.BufferAttribute;
+      for (let k = 0; k < radii.length; k++)
+        for (let j = 0; j < RS; j++) {
+          const a = (j / RS) * Math.PI * 2;
+          const x = p.x + Math.cos(a) * radii[k] * R;
+          const z = p.z + Math.sin(a) * radii[k] * R;
+          pos.setXYZ(k * RS + j, x, surf(x, z) + 0.05, z);
+        }
+      pos.needsUpdate = true;
+      m.visible = true;
+    }
+    const hgt = heightAt(p.x, p.z);
+    const bad = (tool === 'houses' && (hgt < 0.05 || hgt > 1.3)) || (tool === 'fields' && hgt < 0.03 && !(st.chinampas && hgt > -1)) || (tool === 'trees' && hgt < 0.02);
+    const pulse = painting && !reduced ? 0.5 + 0.5 * Math.sin(clock * 14) : 0;
+    const rm = ring.material as THREE.MeshBasicMaterial;
+    const fm = fill.material as THREE.MeshBasicMaterial;
+    rm.color.set(CURSOR[tool]);
+    if (bad) rm.color.lerp(BAD, 0.85);
+    fm.color.copy(rm.color);
+    rm.opacity = painting ? 0.9 + pulse * 0.1 : 0.7;
+    fm.opacity = painting ? 0.16 + pulse * 0.08 : 0.09;
+  };
 
   /* ---------- HUD */
   const hud = h('div', 'g-hud bi-hud', root);
@@ -1237,7 +1396,6 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       toolBtns[t].setAttribute('aria-pressed', String(t === id));
       toolBtns[t].tabIndex = t === id ? 0 : -1;
     }
-    ring.material.color.set(CURSOR[id]);
     ghost.visible = false;
   };
   const setSize = (s: number) => {
@@ -1502,7 +1660,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     brushBed?.set(0);
     hud.classList.add('bi-ended');
     coach.hide(true);
-    ring.visible = false;
+    ring.visible = fill.visible = false;
     ghost.visible = false;
     ctx.end({ score, stars, headline, lines });
   };
@@ -1538,23 +1696,22 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     const s = cur;
     stepBoats(dt, t, Math.min(14, Math.floor(s.houses / 7) + Math.floor(s.chinampas / 6) + (st.id === 'raiatea' ? 3 : 1)));
     for (const sp of spinners) sp.rotation.z -= dt * (reduced ? 0.3 : 1.1);
+    stepSmoke(dt);
+    if (NB) stepBirds(t);
     waterU.uT.value = t;
 
     // brush cursor / landmark ghost
     if (hover && !ended && tool !== 'landmark') {
-      ring.visible = true;
-      ring.position.set(hover.x, hover.y + 0.04, hover.z);
-      ring.scale.setScalar(BRUSH[size]);
-      (ring.material as THREE.MeshBasicMaterial).opacity = painting ? 1 : 0.7;
+      placeCursor(hover, BRUSH[size]);
       ghost.visible = false;
     } else if (hover && !ended && tool === 'landmark') {
-      ring.visible = false;
+      ring.visible = fill.visible = false;
       const sp = landmarkSpot(hover);
       ghost.visible = true;
       ghost.position.set(cxw(sp.cx), lmY(), cxw(sp.cz));
       ghost.rotation.y = sp.ry;
     } else {
-      ring.visible = false;
+      ring.visible = fill.visible = false;
       ghost.visible = false;
     }
 
