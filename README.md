@@ -75,6 +75,10 @@ npm run shots                                      # Playwright smoke test + scr
 Curated data lives in `data/<dataset>/{events,people,places,polities}.json`; see
 [`data/SCHEMA.md`](data/SCHEMA.md). The project plan is in [`docs/PLAN.md`](docs/PLAN.md).
 
+## Author
+
+Made by **Iris**: [X @iris_ye_tu](https://x.com/iris_ye_tu) · [adant.ai](https://adant.ai)
+
 ## License
 
 Open source under GPL-3.0; the full text is in [`LICENSE`](LICENSE). The project is GPL-3.0 because it adapts GPL-3.0 data from historical-basemaps and jiangshan-map. When reusing maps
