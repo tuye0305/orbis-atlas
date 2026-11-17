@@ -8,8 +8,7 @@ Every region has its own soundtrack.
 
 ### ▶ [Open the atlas: atlas.anyloop.ai](https://atlas.anyloop.ai)
 
-Mirror: <https://tuye0305.github.io/orbis-atlas/>. It runs in any modern browser, on desktop or phone,
-in English or 简体中文.
+It runs in any modern browser, on desktop or phone, in English or 简体中文.
 
 [![Europe in 1066: the globe, the region panel, and the timeline](docs/readme/hero-europe-1066.jpg)](https://atlas.anyloop.ai/?year=1066)
 
@@ -248,8 +247,17 @@ node scripts/shots-readme.mjs         # the screenshots and videos in this READM
 
 ### Deploy
 
-- **GitHub Pages:** every push to `main` deploys through `.github/workflows/pages.yml`.
-- **atlas.anyloop.ai:** runs on Railway: a Docker build, served by Caddy (`Dockerfile`, `Caddyfile`, `railway.json`). Deploy it from `main` with `railway up`.
+The site runs on Railway at **atlas.anyloop.ai**: a Docker build, served by Caddy
+(`Dockerfile`, `Caddyfile`, `railway.json`). Railway is not connected to this repository, so deploy
+from `main` by hand:
+
+```bash
+railway up
+```
+
+GitHub Pages is switched off, because this repository is private and Pages for private repositories
+needs a paid plan. `.github/workflows/pages.yml` still builds a Pages-ready site, but only when run
+by hand.
 
 ## Credits
 
@@ -266,5 +274,8 @@ Thanks also to:
 ## License
 
 GPL-3.0, because Orbis adapts GPL-3.0 data from historical-basemaps and 江山时序 jiangshan-map.
+This repository is private, but the public site serves that GPL-3.0 material. The GPL lets anyone
+who receives it ask for the corresponding source, so keep a way to provide it.
+
 When you reuse maps or screenshots, credit Orbis, [江山时序 jiangshan-map](https://github.com/DeanChensj/jiangshan-map)
 and [historical-basemaps](https://github.com/aourednik/historical-basemaps).

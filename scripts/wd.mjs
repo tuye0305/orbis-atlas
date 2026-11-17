@@ -16,7 +16,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CACHE_DIR = path.join(ROOT, 'data', 'cache');
-const UA = 'OrbisAtlas/0.1 (https://github.com/tuye0305/orbis-atlas; open-source historical atlas)';
+const UA = 'OrbisAtlas/0.1 (https://atlas.anyloop.ai; historical atlas)';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
