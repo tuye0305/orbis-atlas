@@ -425,6 +425,17 @@ export const mount: MountGame = (root, ctx) => {
       .vk-dial { width: 120px; height: 120px; left: 10px; bottom: calc(max(22px, env(safe-area-inset-bottom)) + 60px); }
       .vk-clock { left: 12px; } .vk-tele { top: calc(max(16px, env(safe-area-inset-top)) + 150px); }
       .vk-pitch { min-width: 90px; } .vk-act { min-width: 84px; }
+    }
+    @media (max-width: 640px) {
+      /* phones: coach under the clock, telemetry under the coach, one-line buttons above the corners' gauges */
+      .vk-hud .g-coach { top: calc(max(14px, env(safe-area-inset-top)) + 66px); }
+      .vk-tele { top: calc(max(16px, env(safe-area-inset-top)) + 178px); gap: 1px 10px; }
+      .vk-controls { gap: 6px; width: calc(100vw - 24px); justify-content: center; }
+      .vk-controls .g-btn { white-space: nowrap; font-size: 13px; padding: 10px 12px; }
+      .vk-pitch, .vk-act { min-width: 0; flex: 1 1 0; }
+      .vk-dial, .vk-orbit { bottom: calc(max(22px, env(safe-area-inset-bottom)) + 56px); }
+      .vk-dial { width: 108px; height: 108px; }
+      .vk-orbit canvas { width: 104px; height: 104px; }
     }`;
 
   // ---------- state ----------

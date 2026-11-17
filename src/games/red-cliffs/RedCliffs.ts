@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { createSfx } from '../shared/sfx';
 import { createCoach } from '../shared/coach';
 import { clamp, createStage, gradientEnv, h, lerp, makeToast, mulberry, puffAtlas } from '../shared/stage';
@@ -559,6 +560,7 @@ export const mount: MountGame = (root, ctx) => {
     @media (max-width: 640px) {
       .rc-wind { right: 62px; padding: 4px 10px 4px 4px; } .rc-wind svg { width: 60px; height: 60px; } .rc-wind-label { font-size: 13px; min-width: 5em; }
       .rc-stats { top: auto; bottom: calc(max(22px, env(safe-area-inset-bottom)) + 66px); left: 12px; font-size: 12px; }
+      .rc-hud .g-coach { top: calc(max(14px, env(safe-area-inset-top)) + 84px); }
       .rc-bar { gap: 8px; } .rc-pip { width: 8px; height: 14px; } .rc-ships { padding: 8px; gap: 3px; }
     }`;
 
@@ -1228,6 +1230,50 @@ function plankTexture() {
 }
 
 /** A junk: tapered planked hull with sheer, deckhouse, masts with battened matting sails, banner. */
+const BATTENS = 6;
+const junkGeoCache = new Map<string, THREE.BufferGeometry>();
+/** Ship parts are identical across the fleet: build each geometry once and share it. */
+function junkPart(key: string, make: () => THREE.BufferGeometry) {
+  let geo = junkGeoCache.get(key);
+  if (!geo) junkGeoCache.set(key, (geo = make()));
+  return geo;
+}
+function foamTexture() {
+  const S = 256;
+  const c = document.createElement('canvas');
+  c.width = c.height = S;
+  const g = c.getContext('2d')!;
+  const r = mulberry(7);
+  // an oval ring of broken white water hugging the hull, frothier at the bow and in the wake
+  for (let i = 0; i < 1400; i++) {
+    const a = r() * Math.PI * 2;
+    const ring = 0.62 + (r() - 0.5) * 0.14 + Math.max(0, Math.cos(a)) * 0.08;
+    const x = S / 2 + Math.cos(a) * ring * S * 0.5 * 0.92;
+    const y = S / 2 + Math.sin(a) * ring * S * 0.5 * 0.8;
+    g.fillStyle = `rgba(255,255,255,${0.05 + r() * 0.12})`;
+    g.beginPath();
+    g.arc(x, y, 1.5 + r() * 5, 0, Math.PI * 2);
+    g.fill();
+  }
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  return t;
+}
+const JUNK_MATS = {
+  get mast() { return (this._mast ??= new THREE.MeshStandardMaterial({ color: 0x1f160f, roughness: 0.8 })); },
+  get trim() { return (this._trim ??= new THREE.MeshStandardMaterial({ color: 0x231710, roughness: 0.65 })); },
+  get wet() { return (this._wet ??= new THREE.MeshStandardMaterial({ color: 0x0d0a08, roughness: 0.25, metalness: 0.1, side: THREE.DoubleSide })); },
+  get batten() { return (this._batten ??= new THREE.MeshStandardMaterial({ color: 0x8a7048, roughness: 0.6, emissive: 0x1a1610 })); },
+  get rope() { return (this._rope ??= new THREE.LineBasicMaterial({ color: 0x15100b, transparent: true, opacity: 0.85 })); },
+  get foam() { return (this._foam ??= new THREE.MeshBasicMaterial({ map: foamTexture(), transparent: true, depthWrite: false, opacity: 0.55, color: 0x9fb4c8 })); },
+  _mast: undefined as THREE.MeshStandardMaterial | undefined,
+  _trim: undefined as THREE.MeshStandardMaterial | undefined,
+  _wet: undefined as THREE.MeshStandardMaterial | undefined,
+  _batten: undefined as THREE.MeshStandardMaterial | undefined,
+  _rope: undefined as THREE.LineBasicMaterial | undefined,
+  _foam: undefined as THREE.MeshBasicMaterial | undefined,
+};
+
 function buildJunk(o: { len: number; beam: number; color: number; wood: THREE.Texture; sail: THREE.Texture; flag: THREE.Texture; flags: THREE.Mesh[]; masts: number; cargo?: boolean; squareSail?: boolean }) {
   const g = new THREE.Group();
   const hullGeo = new THREE.BoxGeometry(o.len, 1.5, o.beam, 16, 3, 4);
@@ -1259,28 +1305,106 @@ function buildJunk(o: { len: number; beam: number; color: number; wood: THREE.Te
     cargo.scale.set(1, 1, o.beam * 0.4);
     g.add(cargo);
   }
-  const mastMat = new THREE.MeshStandardMaterial({ color: 0x1f160f, roughness: 0.8 });
-  const sailMat = new THREE.MeshStandardMaterial({ map: o.sail, side: THREE.DoubleSide, roughness: 1, envMapIntensity: 0.4 });
+  const mastMat = JUNK_MATS.mast;
+  // woven matting is thin: backlit by the moon it glows faintly through, so the weave and the
+  // battens read against the night instead of a black cut-out
+  const sailMat = new THREE.MeshStandardMaterial({ map: o.sail, side: THREE.DoubleSide, roughness: 1, envMapIntensity: 0.5, emissive: 0x4a5670, emissiveMap: o.sail, emissiveIntensity: 0.55 });
+  // rail along the sheer line, so the hull reads as planked boat, not a block
+  const rail = junkPart(`rail:${o.len}:${o.beam}`, () => {
+    const pts: THREE.Vector3[] = [];
+    for (const side of [1, -1]) {
+      for (let k = 0; k <= 16; k++) {
+        const u = -1 + (2 * k) / 16;
+        const x = (u * o.len) / 2;
+        pts.push(new THREE.Vector3(x, 1.15 + 0.4 + 0.55 * u * u + (u < 0 ? 0.35 * u * u : 0), side * (o.beam / 2) * (1 - 0.5 * u * u) * 1.02));
+      }
+    }
+    const geos: THREE.BufferGeometry[] = [];
+    for (const side of [0, 17]) geos.push(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts.slice(side, side + 17)), 24, 0.07, 4));
+    return mergeGeometries(geos)!;
+  });
+  g.add(new THREE.Mesh(rail, JUNK_MATS.trim));
+  // wet, darker band at the waterline
+  const band = new THREE.Mesh(
+    junkPart(`band:${o.len}:${o.beam}`, () => {
+      const geo = new THREE.CylinderGeometry(1, 1, 0.32, 28, 1, true);
+      geo.scale(o.len * 0.5, 1, o.beam * 0.5);
+      return geo;
+    }),
+    JUNK_MATS.wet,
+  );
+  band.position.y = 0.12;
+  g.add(band);
+  // foam where the hull meets the water
+  const foam = new THREE.Mesh(junkPart(`foam:${o.len}:${o.beam}`, () => new THREE.PlaneGeometry(o.len * 1.35, o.beam * 2.1).rotateX(-Math.PI / 2)), JUNK_MATS.foam);
+  foam.position.y = 0.06;
+  foam.renderOrder = 1;
+  g.add(foam);
+
+  const lines: number[] = [];
   for (let m = 0; m < o.masts; m++) {
     const mx = o.masts === 1 ? 0.1 * o.len : (m === 0 ? 0.18 : -0.12) * o.len;
     const hgt = m === 0 ? 7.5 : 6;
-    const mast = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.13, hgt, 6), mastMat);
+    const mast = new THREE.Mesh(junkPart(`mast:${hgt}`, () => new THREE.CylinderGeometry(0.09, 0.14, hgt, 7)), mastMat);
     mast.position.set(mx, 1.2 + hgt / 2, 0);
     g.add(mast);
     const sw = hgt * 0.62;
     const sh = hgt * 0.75;
-    const sail = new THREE.Mesh(new THREE.PlaneGeometry(sw, sh, 6, 6), sailMat);
-    // a little belly in the cloth
-    const sp = sail.geometry.attributes.position as THREE.BufferAttribute;
-    for (let i = 0; i < sp.count; i++) sp.setZ(i, Math.cos((sp.getX(i) / sw) * Math.PI) * 0.4 * (0.6 + 0.4 * Math.cos((sp.getY(i) / sh) * Math.PI)));
-    sail.geometry.computeVertexNormals();
+    // a junk lug sail: wider at the foot, the yard tilted up toward the bow, the leech fanned
+    // out in a curve, and the cloth bellying between bamboo battens
+    const shape = (x: number, y: number, out: THREE.Vector3) => {
+      const v = y / sh + 0.5; // 0 at the foot, 1 at the head
+      const u = x / sw + 0.5; // 0 at the leech (aft), 1 at the luff (by the mast)
+      const width = sw * (1.08 - 0.38 * v) * (1 + 0.1 * Math.sin(v * Math.PI));
+      const xx = (u - 0.5) * width + (1 - u) * -0.18 * sw * Math.sin(v * Math.PI);
+      const yy = (v - 0.5) * sh + u * v * 0.16 * sh;
+      const panel = Math.abs(Math.sin(v * BATTENS * Math.PI));
+      const z = Math.sin(u * Math.PI) * (0.3 + 0.22 * panel) * (0.7 + 0.3 * Math.sin(v * Math.PI));
+      return out.set(xx, yy, z);
+    };
+    const key = `sail:${hgt}`;
+    const sailGeo = junkPart(key, () => {
+      const geo = new THREE.PlaneGeometry(sw, sh, 10, BATTENS * 4);
+      const sp = geo.attributes.position as THREE.BufferAttribute;
+      const t = new THREE.Vector3();
+      for (let i = 0; i < sp.count; i++) {
+        shape(sp.getX(i), sp.getY(i), t);
+        sp.setXYZ(i, t.x, t.y, t.z);
+      }
+      geo.computeVertexNormals();
+      return geo;
+    });
+    const sail = new THREE.Group();
+    sail.add(new THREE.Mesh(sailGeo, sailMat));
+    const battenGeo = junkPart(`batten:${hgt}`, () => {
+      const geos: THREE.BufferGeometry[] = [];
+      for (let b = 0; b <= BATTENS; b++) {
+        const y = (b / BATTENS - 0.5) * sh;
+        const pts = Array.from({ length: 9 }, (_, k) => shape((k / 8 - 0.5) * sw, y, new THREE.Vector3()).add(new THREE.Vector3(0, 0, 0.03)));
+        geos.push(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 12, b === 0 || b === BATTENS ? 0.07 : 0.045, 4));
+      }
+      return mergeGeometries(geos)!;
+    });
+    sail.add(new THREE.Mesh(battenGeo, JUNK_MATS.batten));
     sail.position.set(mx + (o.squareSail ? 0 : -sw * 0.35), 1.6 + hgt * 0.52, 0);
     if (o.squareSail) sail.rotation.y = Math.PI / 2; // squared across the hull, running before the wind
     g.add(sail);
+    // the sheets: a fan of lines from each batten's aft end down to the deck aft of the mast
+    sail.updateMatrix();
+    const t = new THREE.Vector3();
+    const deck = new THREE.Vector3(o.squareSail ? mx - 1.6 : mx - sw * 0.95, 1.7, 0);
+    for (let b = 1; b <= BATTENS; b++) {
+      shape(-sw / 2, (b / BATTENS - 0.5) * sh, t).applyMatrix4(sail.matrix);
+      lines.push(t.x, t.y, t.z, deck.x, deck.y, deck.z);
+    }
+    // stays from the masthead to bow and stern
+    const top = new THREE.Vector3(mx, 1.2 + hgt, 0);
+    lines.push(top.x, top.y, top.z, o.len * 0.5, 1.9 + 0.55, 0);
+    lines.push(top.x, top.y, top.z, -o.len * 0.5, 2.4 + 0.35, 0);
     if (m === 0) {
       const flagPivot = new THREE.Group();
       flagPivot.position.set(mx, 1.2 + hgt + 0.2, 0);
-      const flag = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 1.2), new THREE.MeshStandardMaterial({ map: o.flag, side: THREE.DoubleSide, roughness: 1 }));
+      const flag = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 1.2, 6, 1), new THREE.MeshStandardMaterial({ map: o.flag, side: THREE.DoubleSide, roughness: 1 }));
       flag.position.x = 0.75;
       const fp = new THREE.Group();
       fp.add(flag);
@@ -1289,6 +1413,9 @@ function buildJunk(o: { len: number; beam: number; color: number; wood: THREE.Te
       o.flags.push(fp as unknown as THREE.Mesh);
     }
   }
+  const rig = new THREE.BufferGeometry();
+  rig.setAttribute('position', new THREE.Float32BufferAttribute(lines, 3));
+  g.add(new THREE.LineSegments(rig, JUNK_MATS.rope));
   return { g, hull };
 }
 
