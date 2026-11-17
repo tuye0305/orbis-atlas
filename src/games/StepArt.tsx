@@ -130,7 +130,91 @@ const ART: Record<string, () => React.ReactElement> = {
       </g>
     </svg>
   ),
+  // Brush Isles: a brush paints an island out of the water
+  'isle-land': () => (
+    <svg viewBox="0 0 160 100">
+      <rect x="0" y="0" width="160" height="100" fill="rgba(90,190,200,.10)" />
+      <g className="sa-grow" style={{ transformOrigin: '80px 58px' }}>
+        <path d="M30 60 Q40 40 70 42 Q100 36 124 52 Q134 66 112 72 Q80 80 46 74 Q26 70 30 60 Z" fill="#d9c79a" />
+        <path d="M38 60 Q46 46 70 47 Q98 42 118 55 Q124 64 108 68 Q80 74 50 70 Q34 67 38 60 Z" fill="#8fb35a" />
+      </g>
+      <g className="sa-brush">
+        <circle cx="0" cy="0" r="13" fill="none" stroke={A} strokeWidth="2" strokeDasharray="4 3" />
+        <path d="M6 -6 L22 -24" stroke={INK} strokeWidth="4" strokeLinecap="round" />
+        <path d="M2 -2 L7 -7" stroke={A} strokeWidth="6" strokeLinecap="round" />
+      </g>
+    </svg>
+  ),
+  // houses pop up on the painted ground, fields beside them
+  'isle-town': () => (
+    <svg viewBox="0 0 160 100">
+      <path d="M18 66 Q30 44 80 44 Q130 44 142 66 Q120 82 80 82 Q40 82 18 66 Z" fill="#8fb35a" />
+      {[0, 1, 2].map((i) => (
+        <rect key={`f${i}`} x={104 + i * 9} y="56" width="6" height="18" rx="1" fill="#c9cf6a" opacity=".85" />
+      ))}
+      {[
+        [34, 60],
+        [48, 54],
+        [62, 62],
+        [76, 52],
+        [90, 60],
+        [52, 68],
+      ].map(([x, y], i) => (
+        <g key={i} className="sa-pop" style={{ animationDelay: `${i * 0.28}s`, transformOrigin: `${x}px ${y}px` }}>
+          <rect x={x - 6} y={y - 8} width="12" height="9" fill="#efe6d2" />
+          <path d={`M${x - 8} ${y - 8} L${x} ${y - 15} L${x + 8} ${y - 8} Z`} fill={A} />
+        </g>
+      ))}
+    </svg>
+  ),
+  // tap the centre: the landmark rises
+  'isle-landmark': () => (
+    <svg viewBox="0 0 160 100">
+      <path d="M18 70 Q30 48 80 48 Q130 48 142 70 Q120 86 80 86 Q40 86 18 70 Z" fill="#8fb35a" />
+      {[30, 44, 112, 126].map((x) => (
+        <g key={x}>
+          <rect x={x - 5} y="60" width="10" height="8" fill="#efe6d2" />
+          <path d={`M${x - 7} 60 L${x} 54 L${x + 7} 60 Z`} fill="rgba(255,255,255,.4)" />
+        </g>
+      ))}
+      <g className="sa-rise" style={{ transformOrigin: '80px 70px' }}>
+        <path d="M58 70 L64 58 L96 58 L102 70 Z M64 58 L69 47 L91 47 L96 58 Z M69 47 L73 38 L87 38 L91 47 Z" fill={GOLD} opacity=".95" />
+        <rect x="74" y="30" width="12" height="8" fill={A} />
+      </g>
+      <circle className="sa-tap" cx="80" cy="66" r="10" fill="none" stroke={INK} strokeWidth="2" />
+    </svg>
+  ),
 };
+
+/** One hero per Brush Isles city: sky, water, and the skyline you will build. */
+function IsleHero({ sky, sea, land, children }: { sky: [string, string]; sea: string; land: string; children: React.ReactNode }) {
+  const id = sky.join('').replace(/#/g, '');
+  return (
+    <svg viewBox="0 0 680 210" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <linearGradient id={`ih-${id}`} x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor={sky[0]} />
+          <stop offset="1" stopColor={sky[1]} />
+        </linearGradient>
+      </defs>
+      <rect width="680" height="210" fill={`url(#ih-${id})`} />
+      <rect y="132" width="680" height="78" fill={sea} />
+      {[0, 1, 2, 3].map((i) => (
+        <path key={i} className="hr-flicker" style={{ animationDelay: `${i * 0.6}s` }} d={`M${60 + i * 160} ${150 + (i % 2) * 18} q20 -4 40 0`} stroke="rgba(255,255,255,.45)" strokeWidth="2" fill="none" />
+      ))}
+      <path d="M150 140 Q210 112 340 110 Q470 112 530 140 Q470 152 340 152 Q210 152 150 140 Z" fill={land} />
+      {children}
+    </svg>
+  );
+}
+
+const roofRow = (xs: number[], y: number, wall: string, roof: string, curved = false) =>
+  xs.map((x, i) => (
+    <g key={`${x}-${i}`}>
+      <rect x={x - 11} y={y - 12} width="22" height="13" fill={wall} />
+      {curved ? <path d={`M${x - 17} ${y - 11} Q${x} ${y - 20} ${x + 17} ${y - 11} Q${x} ${y - 16} ${x - 17} ${y - 11} Z M${x - 15} ${y - 12} L${x} ${y - 22} L${x + 15} ${y - 12} Z`} fill={roof} /> : <path d={`M${x - 13} ${y - 12} L${x} ${y - 22} L${x + 13} ${y - 12} Z`} fill={roof} />}
+    </g>
+  ));
 
 /** Wide scenic banners behind each intro's title. */
 const HERO: Record<string, () => React.ReactElement> = {
@@ -215,6 +299,71 @@ const HERO: Record<string, () => React.ReactElement> = {
         </g>
       </g>
     </svg>
+  ),
+  'isle-tenochtitlan': () => (
+    <IsleHero sky={['#3f7fcf', '#d7e7f0']} sea="#5fa79a" land="#d9cfb4">
+      <path d="M470 132 L540 70 L600 132 Z" fill="#8a9db2" />
+      <path d="M525 84 L540 70 L556 84 Z" fill="#f4f6f8" />
+      <path d="M560 132 L610 92 L680 132 Z" fill="#8799ae" />
+      <path d="M300 112 L312 86 L368 86 L380 112 Z M312 86 L320 70 L360 70 L368 86 Z" fill="#ece6d8" />
+      <rect x="322" y="56" width="14" height="14" fill="#3f7fb5" />
+      <rect x="344" y="56" width="14" height="14" fill="#b8322a" />
+      {roofRow([230, 258, 410, 440], 124, '#efe8d8', '#b4512f')}
+      {[200, 470].map((x) => (
+        <rect key={x} x={x - 30} y="140" width="60" height="6" fill="#6f9a3a" />
+      ))}
+    </IsleHero>
+  ),
+  'isle-kaifeng': () => (
+    <IsleHero sky={['#9fb3bf', '#ece9dd']} sea="#8fb1a0" land="#cdbf9c">
+      <path d="M0 132 Q120 96 240 120 Q340 92 460 116 Q580 96 680 120 V132 H0 Z" fill="#b5bfb6" opacity=".6" />
+      {Array.from({ length: 9 }, (_, i) => (
+        <g key={i}>
+          <rect x={482 - (18 - i * 1.2)} y={118 - i * 10} width={36 - i * 2.4} height="8" fill="#6a4a36" />
+          <path d={`M${482 - (24 - i * 1.4)} ${118 - i * 10} Q482 ${114 - i * 10} ${482 + (24 - i * 1.4)} ${118 - i * 10} L482 ${112 - i * 10} Z`} fill="#4b3426" />
+        </g>
+      ))}
+      {roofRow([220, 250, 280, 380, 410], 124, '#ece7da', '#5a6068', true)}
+      <path d="M300 132 Q340 100 380 132" stroke="#7b5434" strokeWidth="7" fill="none" />
+      <path d="M170 128 q10 -30 20 0 M180 98 q-14 20 -18 34 M180 98 q14 20 18 34" stroke="#9fbf6a" strokeWidth="4" fill="none" />
+    </IsleHero>
+  ),
+  'isle-raiatea': () => (
+    <IsleHero sky={['#2f7fd0', '#c7ecf2']} sea="#2fb8c4" land="#5f9a3c">
+      <path d="M220 132 Q300 40 360 52 Q420 60 470 132 Z" fill="#3f7a36" />
+      <path d="M40 120 L60 112 L80 120 Z" fill="#6f95ab" />
+      <rect y="150" width="680" height="4" fill="#f4fbf8" opacity=".7" />
+      {[180, 200, 500, 520].map((x, i) => (
+        <g key={x}>
+          <path d={`M${x} 140 Q${x + 4} 118 ${x + 10} 104`} stroke="#8a7356" strokeWidth="3" fill="none" />
+          <path d={`M${x + 10} 104 q-16 2 -22 10 M${x + 10} 104 q16 2 22 10 M${x + 10} 104 q-6 -10 -16 -12 M${x + 10} 104 q8 -10 18 -10`} stroke={i % 2 ? '#4f8a3a' : '#5f9a44'} strokeWidth="4" fill="none" />
+        </g>
+      ))}
+      {roofRow([270, 420], 134, '#c8ad78', '#b89455')}
+      <g className="hr-rocket">
+        <path d="M590 168 h40 l-4 5 h-32 Z" fill="#6a4628" />
+        <path d="M606 168 L590 132 L604 140 L612 130 Z" fill="#d9c28e" />
+      </g>
+    </IsleHero>
+  ),
+  'isle-amsterdam': () => (
+    <IsleHero sky={['#7f9fbe', '#f1dfc6']} sea="#6f8a86" land="#9c8f80">
+      <rect x="470" y="62" width="22" height="58" fill="#8a3a2a" />
+      <rect x="473" y="44" width="16" height="18" fill="#e4dccb" />
+      <path d="M472 44 L481 6 L490 44 Z" fill="#4d5b5a" />
+      {[200, 226, 252, 278, 304, 330, 356, 382].map((x, i) => (
+        <g key={x}>
+          <rect x={x - 12} y={128 - 34 - (i % 3) * 8} width="24" height={34 + (i % 3) * 8} fill={['#7c2f22', '#8e3b28', '#6d2a20', '#9a4a32'][i % 4]} />
+          <path d={`M${x - 12} ${94 - (i % 3) * 8} h4 v-5 h4 v-5 h8 v5 h4 v5 h4 Z`} fill={['#7c2f22', '#8e3b28', '#6d2a20', '#9a4a32'][i % 4]} />
+          <rect x={x - 6} y={104 - (i % 3) * 8} width="4" height="6" fill="#efe9dc" />
+          <rect x={x + 2} y={104 - (i % 3) * 8} width="4" height="6" fill="#efe9dc" />
+        </g>
+      ))}
+      <path d="M570 132 L576 88 L590 88 L596 132 Z" fill="#4f5a4a" />
+      <g className="sa-needle" style={{ transformOrigin: '583px 86px', animationDuration: '6s' }}>
+        <path d="M583 86 L583 50 M583 86 L619 86 M583 86 L583 122 M583 86 L547 86" stroke="#efe6d2" strokeWidth="5" />
+      </g>
+    </IsleHero>
   ),
 };
 
