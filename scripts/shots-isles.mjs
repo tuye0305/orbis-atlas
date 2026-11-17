@@ -65,13 +65,13 @@ for (const [style, prog] of Object.entries(PROGRAMS)) {
     page.on('pageerror', (e) => errors.push(String(e)));
     page.on('console', (m) => m.type() === 'error' && !/Failed to load resource/.test(m.text()) && errors.push(m.text()));
     await page.goto(`${BASE}/?game=isle-${style}&lang=${lang}`);
-    await page.locator('.intro .btn-ghost:not([disabled])').click({ timeout: 60000 });
-    await page.locator('.gp-primary').waitFor({ timeout: 30000 });
+    await page.locator('.intro .btn-ghost:not([disabled])').click({ timeout: 150000 });
+    await page.locator('.gp-primary').waitFor({ timeout: 150000 });
     await page.waitForTimeout(1200);
     const sfx = lang === 'en' ? '' : `-${lang}`;
     if (lang === 'en') await page.screenshot({ path: path.join(OUT, `${style}-intro.png`) });
     await page.locator('.gp-primary').click();
-    await page.waitForFunction(() => window.__isle, null, { timeout: 30000 });
+    await page.waitForFunction(() => window.__isle, null, { timeout: 150000 });
     await page.waitForTimeout(2500);
     if (lang === 'en') await page.screenshot({ path: path.join(OUT, `${style}-start.png`) });
     await page.evaluate(`(() => { const I = window.__isle; ${prog} })()`);
@@ -98,12 +98,12 @@ for (const [style, prog] of Object.entries(PROGRAMS)) {
 if (!only || only.includes('phone')) {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
   await page.goto(`${BASE}/?game=isle-tenochtitlan&lang=en`);
-  await page.locator('.intro .btn-ghost:not([disabled])').click({ timeout: 60000 });
-  await page.locator('.gp-primary').waitFor({ timeout: 30000 });
+  await page.locator('.intro .btn-ghost:not([disabled])').click({ timeout: 150000 });
+  await page.locator('.gp-primary').waitFor({ timeout: 150000 });
   await page.waitForTimeout(800);
   await page.screenshot({ path: path.join(OUT, 'phone-intro.png') });
   await page.locator('.gp-primary').click();
-  await page.waitForFunction(() => window.__isle, null, { timeout: 30000 });
+  await page.waitForFunction(() => window.__isle, null, { timeout: 150000 });
   await page.waitForTimeout(1500);
   await page.evaluate(`(() => { const I = window.__isle; ${PROGRAMS.tenochtitlan} })()`);
   await page.waitForTimeout(8000); // the camera glides in from far out; swiftshader is slow
