@@ -409,6 +409,39 @@ export const mount: MountGame = (root, ctx) => {
   // ---------- rocket ----------
   const R7 = buildR7();
   scene.add(R7.root);
+
+  // Real sun shadows round the pad: the stack, the arms and the masts throw long morning shadows
+  // across the concrete. The shadow camera is a small box (km) kept centred on the pad; once the
+  // rocket is well clear the map stops updating and it simply falls outside the box.
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  sunLight.castShadow = true;
+  sunLight.shadow.mapSize.set(2048, 2048);
+  Object.assign(sunLight.shadow.camera, { left: -0.16, right: 0.16, top: 0.16, bottom: -0.16, near: 0.05, far: 1.2 });
+  sunLight.shadow.camera.updateProjectionMatrix();
+  // The pad sits 6,371 km from the origin, where float32 world positions only resolve ~0.5 m,
+  // so the bias has to clear a couple of metres (depth runs 0..1 over the 1.15 km box).
+  sunLight.shadow.bias = -0.0018;
+  sunLight.shadow.normalBias = 0.0012;
+  sunLight.shadow.radius = 3;
+  scene.add(sunLight.target);
+  const caster = (o: THREE.Object3D, receive: boolean) =>
+    o.traverse((m) => {
+      if (!(m instanceof THREE.Mesh)) return;
+      const mat = m.material as THREE.Material;
+      if (mat.transparent) return; // frost, plumes, glows
+      m.castShadow = true;
+      m.receiveShadow = receive;
+    });
+  caster(padM, true);
+  caster(R7.root, true);
+  const padWorld = new THREE.Vector3();
+  const aimShadow = () => {
+    pad.getWorldPosition(padWorld);
+    sunLight.target.position.copy(padWorld);
+    sunLight.position.copy(padWorld).addScaledVector(SUN, 0.6);
+    sunLight.target.updateMatrixWorld();
+  };
   const plumeMat = plumeMaterial();
   const plumes: THREE.Mesh[] = [];
   const addPlume = (parent: THREE.Object3D, x: number, y: number, z: number, r: number) => {
@@ -716,6 +749,8 @@ export const mount: MountGame = (root, ctx) => {
     (window as unknown as Record<string, unknown>).__vostok = {
       state: () => ({ phase, t: s.t, stageIdx, peri: P.elements(s).peri, apo: P.elements(s).apo, windowState, d: predicted?.d ?? null }),
       setPitch: (p: number) => (pitch = p),
+      sunLight,
+      holdPad: () => (padT = 1e6),
       act,
     };
 
@@ -853,6 +888,9 @@ export const mount: MountGame = (root, ctx) => {
     }
 
     const altKm = Math.max(0, P.alt(s));
+    const nearPad = altKm < 4;
+    if (nearPad) aimShadow();
+    renderer.shadowMap.autoUpdate = nearPad;
     // engines & plumes: plumes swell as the air thins
     const thin = clamp(altKm / 60, 0, 1);
     const firing = phase === 'ascent' && engineOn;
@@ -870,6 +908,7 @@ export const mount: MountGame = (root, ctx) => {
       const n = perSec(altKm < 3 ? 180 : 110, dt);
       for (let i = 0; i < n; i++) smoke.emit(pos3, up3, dir3, altKm < 2 ? 0.03 : 0.012 + altKm * 0.001, altKm < 3 ? 9 : 16);
     }
+    smoke.setSun(SUN, camera);
     smoke.setScale((stage.size.h * renderer.getPixelRatio()) / (2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2))));
     // smoke hangs in the air, which turns with the (displayed) ground
     smoke.update(dt, deltaQ.copy(prevEarthQ).invert().premultiply(earth.quaternion));
@@ -1018,6 +1057,9 @@ export const mount: MountGame = (root, ctx) => {
   const camOff = new THREE.Vector3();
   const camLook = new THREE.Vector3();
   let camInit = false;
+  const sunH = new THREE.Vector3();
+  const side = new THREE.Vector3();
+  const SIDE_LIGHT = THREE.MathUtils.degToRad(68);
   function placeCamera(dt: number) {
     const altKm = Math.max(0, P.alt(s));
     let smooth = true;
@@ -1031,7 +1073,12 @@ export const mount: MountGame = (root, ctx) => {
       } else {
         // near the ground "behind the rocket" is underground: blend from a raised side view
         const low = 1 - smoothstep(0.2, 2, altKm);
-        tmp.copy(NRM).multiplyScalar(D).addScaledVector(dir3, -D * 0.25 * (1 - low)).addScaledVector(up3, lerpN(-D * 0.08, D * 0.18, low));
+        // On the pad, swing round so the morning Sun rakes in from the side: straight from behind
+        // the camera it flattens everything and hides every shadow behind its own mast.
+        sunH.copy(SUN).addScaledVector(up3, -SUN.dot(up3)).normalize();
+        const swing = SIDE_LIGHT * low * (hz3.dot(sunH) > 0 ? -1 : 1);
+        side.copy(NRM).multiplyScalar(Math.cos(swing)).addScaledVector(hz3, Math.sin(swing));
+        tmp.copy(side).multiplyScalar(D).addScaledVector(dir3, -D * 0.25 * (1 - low)).addScaledVector(up3, lerpN(-D * 0.08, D * 0.18, low));
       }
       // after lift-off, aim a little lower so the exhaust column and the launch cloud stay in shot
       const lift = phase === 'ascent' ? smoothstep(0, 0.05, altKm) * (1 - smoothstep(1, 4, altKm)) : 0;
@@ -1872,7 +1919,7 @@ class WorldPuffs {
     const mat = new THREE.ShaderMaterial({
       transparent: true,
       depthWrite: false,
-      uniforms: { uTex: { value: tex }, uScale: { value: 900 }, uSunSide: { value: 1 } },
+      uniforms: { uTex: { value: tex }, uScale: { value: 900 }, uSunSide: { value: 1 }, uSunV: { value: new THREE.Vector3(0, 1, 0) } },
       vertexShader: /* glsl */ `
         #include <common>
         #include <logdepthbuf_pars_vertex>
@@ -1885,7 +1932,7 @@ class WorldPuffs {
       fragmentShader: /* glsl */ `
         #include <common>
         #include <logdepthbuf_pars_fragment>
-        uniform sampler2D uTex; uniform float uSunSide; varying float vLife; varying float vSeed;
+        uniform sampler2D uTex; uniform float uSunSide; uniform vec3 uSunV; varying float vLife; varying float vSeed;
         void main(){
           #include <logdepthbuf_fragment>
           float r = vSeed * 1.7 + vLife * 0.6;
@@ -1894,9 +1941,18 @@ class WorldPuffs {
           if (pc.x < 0.0 || pc.y < 0.0 || pc.x > 1.0 || pc.y > 1.0) discard;
           vec2 uv = (pc + vec2(mod(vSeed, 2.0), floor(vSeed / 2.0))) * 0.5;
           float a = texture2D(uTex, uv).a;
-          // sunlit tops, shaded bellies; glowing orange while still in the exhaust
-          float shade = mix(0.62, 1.08, smoothstep(0.85, 0.15, pc.y));
-          vec3 c = mix(vec3(1.0, 0.68, 0.38) * 1.15, vec3(0.9, 0.9, 0.92) * shade, smoothstep(0.0, 0.05, vLife));
+          // Lit like a billow, not a flat card: a ball normal across the sprite, roughened by the
+          // slope of the puff's own density, then wrapped sunlight against blue skylight; denser
+          // cores self-shadow. Glowing orange while still in the exhaust.
+          const float e = 0.012;
+          vec2 gr = vec2(texture2D(uTex, uv - vec2(e, 0.0)).a - texture2D(uTex, uv + vec2(e, 0.0)).a,
+                         texture2D(uTex, uv + vec2(0.0, e)).a - texture2D(uTex, uv - vec2(0.0, e)).a);
+          gr = mat2(cos(r), sin(r), -sin(r), cos(r)) * gr; // back from the turned tile to the screen
+          vec2 sp = (gl_PointCoord - 0.5) * vec2(2.0, -2.0);
+          vec3 nrm = normalize(vec3(sp * 0.9 + gr * 2.2, sqrt(max(0.05, 1.0 - dot(sp, sp)))));
+          float lam = clamp(dot(nrm, uSunV) * 0.6 + 0.45, 0.0, 1.0);
+          vec3 lit = mix(vec3(0.42, 0.47, 0.56), vec3(1.06, 1.0, 0.92), lam) * mix(1.0, 0.78, a * (1.0 - lam));
+          vec3 c = mix(vec3(1.0, 0.68, 0.38) * 1.15, lit, smoothstep(0.0, 0.05, vLife));
           gl_FragColor = vec4(c, a * 0.8 * (1.0 - vLife) * smoothstep(0.0, 0.02, vLife));
         }`,
     });
@@ -1921,6 +1977,10 @@ class WorldPuffs {
   }
   setScale(px: number) {
     (this.points.material as THREE.ShaderMaterial).uniforms.uScale.value = px;
+  }
+  /** The Sun's direction in view space, for the billow lighting. */
+  setSun(sun: THREE.Vector3, cam: THREE.Camera) {
+    (this.points.material as THREE.ShaderMaterial).uniforms.uSunV.value.copy(sun).transformDirection(cam.matrixWorldInverse);
   }
   /** `turn`: how the Earth, and the air with it, rotated this frame. The flight runs in an
    *  inertial frame, so smoke left hanging there would be swept off the pad at the ground's
