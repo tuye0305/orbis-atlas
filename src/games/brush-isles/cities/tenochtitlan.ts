@@ -11,6 +11,11 @@ type C = THREE.ColorRepresentation;
 const STUCCO = ['#e4ddcc', '#e0d7c3', '#e8e1d1', '#dcd2bd', '#e2d9c6'];
 const ADOBE = ['#b89a72', '#c2a57e', '#ad8f68', '#bfa27a'];
 const LIME_ROOF = '#d6cdb9';
+/** Tinted lime washes, and the tamped-earth roofs and yards of the plain adobe houses. */
+const WASH = ['#e3c9a0', '#e8d2b4', '#dcbf98', '#e6c6b0', '#d9c6a4'];
+const EARTH_ROOF = ['#a88d66', '#9e8460', '#b09670', '#a08a68'];
+const YARD = ['#bca580', '#b39d78', '#c4ad86'];
+const OCHRE = '#c27a35';
 const RED = '#a8442c';
 const BLUE = '#4f9fb2';
 const YELLOW = '#d1a23e';
@@ -288,11 +293,17 @@ function ladder(k: Kit, f: F, lx: number, lz: number, h: number) {
 function garden(k: Kit, f: F, lx: number, y: number, lz: number, w: number, d: number, r: Rng) {
   fb(k, f, w, 0.03, d, lx, y, lz, jitter('#c9bfa6', r));
   fb(k, f, w - 0.02, 0.008, d - 0.02, lx, y + 0.03, lz, '#5e4632');
-  const n = 2 + Math.floor(r() * 3);
+  const n = Math.min(9, 3 + Math.floor(w * d * 90) + Math.floor(r() * 2));
   for (let i = 0; i < n; i++) {
     const [x, z] = at(f, lx + (r() - 0.5) * (w - 0.05), lz + (r() - 0.5) * (d - 0.05));
-    if (r() < 0.45) k.sphere(0.017 + r() * 0.008, x, f.y + y + 0.045, z, pick(r, MARIGOLD), 0.8, 0);
-    else k.sphere(0.024 + r() * 0.012, x, f.y + y + 0.05, z, jitter(pick(r, ['#5f8f46', '#6f9a48', '#7aa452']), r), 1.1, 0);
+    if (r() < 0.4) k.sphere(0.017 + r() * 0.008, x, f.y + y + 0.045, z, pick(r, MARIGOLD), 0.8, 0);
+    else k.sphere(0.026 + r() * 0.014, x, f.y + y + 0.052, z, jitter(pick(r, ['#5f8f46', '#6f9a48', '#7aa452', '#4f8040']), r), 1.1, 0);
+  }
+  // a squash vine spilling over the front edge
+  if (w > 0.14 && r() < 0.5) {
+    const [x, z] = at(f, lx + (r() - 0.5) * w * 0.5, lz + d / 2 + 0.01);
+    k.sphere(0.03, x, f.y + y + 0.02, z, '#6a9a48', 0.55, 0);
+    if (r() < 0.6) k.sphere(0.014, x + 0.02, f.y + y + 0.035, z, '#e0a030', 1, 0);
   }
 }
 
@@ -385,7 +396,7 @@ function jacal(k: Kit, r: Rng) {
   const side = r() < 0.5 ? -1 : 1;
   const mx = side * (0.44 - w / 2 - 0.06);
   const f = frame(mx, -0.37 + d / 2);
-  const wall = jitter(pick(r, r() < 0.5 ? ADOBE : STUCCO), r, 0.01, 0.04, 0.04);
+  const wall = jitter(pick(r, r() < 0.75 ? ADOBE : STUCCO), r, 0.01, 0.04, 0.04);
   room(k, f, { w, h, d, wall, doors: [{ x: (r() - 0.5) * 0.1, w: 0.11, h: 0.16 }], roof: null, dado: r() < 0.3 ? '#9a8262' : undefined });
   const th = jitter(pick(r, THATCH), r);
   k.hip(w + 0.16, d + 0.16, 0.3, { ridge: w * 0.35, k: 0.8, x: mx, y: h - 0.02, z: f.z }, th);
@@ -407,37 +418,61 @@ function jacal(k: Kit, r: Rng) {
 /** A commoner's calli: whitewashed adobe rooms round a yard, flat lime roofs, a yard wall or a canal landing. */
 function calli(k: Kit, r: Rng, nb: number, landing: boolean) {
   plinth(k, 0.92, 0.92, '#a39478');
-  k.box(0.88, 0.012, 0.88, 0, 0.02, 0, jitter('#d6c9ad', r, 0.01, 0.03, 0.03));
-  const whitewashed = r() < 0.82;
-  const wall = whitewashed ? jitter(pick(r, STUCCO), r, 0.01, 0.03, 0.03) : jitter(pick(r, ADOBE), r);
-  const roof = jitter(LIME_ROOF, r, 0.01, 0.03, 0.03);
-  const band = r() < 0.22 ? pick(r, [RED, RED, YELLOW, BLUE]) : undefined;
+  // only the better-off houses near the centre were lime-plastered and whitewashed; out toward the
+  // lake most were bare adobe under roofs of tamped earth, and some had a tinted wash
+  const finish = r();
+  const lime = finish < 0.22 + nb * 0.06;
+  const tinted = !lime && finish < 0.48 + nb * 0.05;
+  const wall = lime ? jitter(pick(r, STUCCO), r, 0.01, 0.03, 0.03) : tinted ? jitter(pick(r, WASH), r, 0.01, 0.03, 0.03) : jitter(pick(r, ADOBE), r);
+  const roof = lime || tinted ? jitter(LIME_ROOF, r, 0.01, 0.03, 0.04) : jitter(pick(r, EARTH_ROOF), r, 0.01, 0.04, 0.04);
+  k.box(0.88, 0.012, 0.88, 0, 0.02, 0, lime ? jitter('#d6c9ad', r, 0.01, 0.03, 0.03) : jitter(pick(r, YARD), r, 0.01, 0.03, 0.03));
+  const band = r() < (lime ? 0.5 : tinted ? 0.35 : 0.12) ? pick(r, [RED, RED, OCHRE, YELLOW, BLUE]) : undefined;
+  const dado = lime && r() < 0.45 ? pick(r, [RED, RED, TEZONTLE]) : !lime && r() < 0.25 ? '#8a6a4a' : undefined;
   const lintel = r() < 0.6 ? WOOD : STONE;
-  const curtain = r() < 0.4 ? pick(r, [COTTON, COTTON, '#d4bb80', '#c9b07a', '#b65a3c']) : undefined;
+  const curtain = r() < 0.5 ? pick(r, [COTTON, COTTON, '#d4bb80', '#c9b07a', '#b65a3c', '#3f8a9a', '#c8452f']) : undefined;
 
-  // the main room along the back
-  const w = 0.5 + r() * 0.18;
-  const d = 0.3 + r() * 0.07;
-  const h = 0.27 + r() * 0.07;
+  // the main room along the back: some long and low, some tall and narrow
+  const w = 0.46 + r() * 0.24;
+  const d = 0.28 + r() * 0.1;
+  const h = 0.23 + r() * 0.15;
   const mx = (r() - 0.5) * (0.84 - w);
   const mz = -0.43 + d / 2;
-  const doorX = (r() - 0.5) * 0.14;
-  room(k, frame(mx, mz), { w, h, d, wall, band, lintel, roof, curtain, doors: [{ x: doorX, w: 0.12, h: 0.18 }], drains: 1 + (r() < 0.5 ? 1 : 0) });
+  const doorX = (r() - 0.5) * (w - 0.2);
+  const doors: Door[] = [{ x: doorX, w: 0.1 + r() * 0.04, h: Math.min(h - 0.06, 0.15 + r() * 0.05) }];
+  if (w > 0.6 && r() < 0.5) doors.push({ x: doorX > 0 ? doorX - 0.22 : doorX + 0.22, w: 0.09, h: Math.min(h - 0.07, 0.15) });
+  room(k, frame(mx, mz), { w, h, d, wall, band, dado, lintel, roof, curtain, doors, drains: 1 + (r() < 0.5 ? 1 : 0) });
   // a hearth indoors breathes out at the doorway; a yard fire, if there is one, takes over below
   k.mark('smoke', mx + doorX, 0.2, mz + d / 2 + 0.03);
   let upper = false;
   const roofUse = r();
-  if (nb >= 4 && roofUse < 0.3) {
-    // a second room on the roof terrace, reached by a ladder
+  if (nb >= 3 && roofUse < 0.36) {
+    // a second room on the roof terrace, reached by a ladder, often with its own colour band; a
+    // shade or a planter on the open part of the terrace beside it
     upper = true;
-    const uw = w * 0.5;
-    const ux = mx - w * 0.22;
-    room(k, frame(ux, mz - d * 0.18, h), { w: uw, h: 0.2, d: d * 0.6, wall, band, lintel, roof, doors: [{ x: 0, w: 0.09, h: 0.13 }], drains: 1 });
-    ladder(k, frame(0, 0, 0.03), mx + w * 0.3, mz + d / 2 + 0.06, h);
-  } else if (roofUse < 0.55) {
-    garden(k, frame(mx, mz, h), w * 0.2, 0, -d * 0.05, w * 0.36, d * 0.5, r);
-    if (r() < 0.5) ladder(k, frame(0, 0, 0.03), mx + w * 0.32, mz + d / 2 + 0.06, h);
-  } else if (roofUse < 0.8) {
+    const uw = w * (0.42 + r() * 0.16);
+    const us = r() < 0.5 ? -1 : 1;
+    const ux = mx + us * (w - uw) * 0.5;
+    const ud = d * 0.62;
+    const uband = r() < 0.6 ? pick(r, [RED, OCHRE, BLUE, YELLOW]) : band;
+    room(k, frame(ux, mz - (d - ud) / 2, h), { w: uw, h: 0.17 + r() * 0.06, d: ud, wall, band: uband, lintel, roof, curtain: r() < 0.4 ? pick(r, [COTTON, '#b65a3c', '#3f8a9a']) : undefined, doors: [{ x: (r() - 0.5) * 0.06, w: 0.08, h: 0.12 }], drains: 1 });
+    const tx = mx - us * (uw * 0.5 + 0.02);
+    const tw = Math.min(0.18, (w - uw) * 0.7);
+    if (r() < 0.5) awning(k, frame(tx, mz + d * 0.12, h + 0.008), 0, 0, tw, 0.1, r);
+    else garden(k, frame(tx, mz + d * 0.12, h), 0, 0, 0, tw, 0.1, r);
+    ladder(k, frame(0, 0, 0.03), mx - us * w * 0.32, mz + d / 2 + 0.06, h);
+  } else if (roofUse < 0.62) {
+    // a roof garden: planters of herbs, flowers and squash, often beside a cotton shade
+    const gw = w * (0.36 + r() * 0.2);
+    const gx = (r() < 0.5 ? -1 : 1) * (w - gw - 0.06) * 0.5;
+    garden(k, frame(mx, mz, h), gx, 0, -d * 0.05, gw, d * 0.5, r);
+    if (r() < 0.55) {
+      const rf = frame(mx, mz, h + 0.008);
+      const ax = gx > 0 ? -w * 0.25 : w * 0.25;
+      awning(k, rf, ax, 0, 0.15, Math.min(0.15, d * 0.5), r);
+      if (r() < 0.6) fb(k, rf, 0.11, 0.005, 0.09, ax, 0, 0, jitter('#d4bb80', r));
+    }
+    if (r() < 0.6) ladder(k, frame(0, 0, 0.03), mx + w * 0.32, mz + d / 2 + 0.06, h);
+  } else if (roofUse < 0.84) {
     // maize cobs or chiles drying on a mat on the roof, a jar beside them
     const rf = frame(mx, mz, h + 0.008);
     fb(k, rf, w * 0.4, 0.005, d * 0.45, -w * 0.12, 0, 0, '#d4bb80');
@@ -1164,7 +1199,7 @@ export const tenochtitlan: Style = {
     { zone: 'shallows', kit: SCATTER.lily('#5f8f4a', '#f3dd6a'), density: 0.12, float: true },
     { zone: 'shallows', kit: MINI.reeds, density: 0.1, scale: [1, 1.6] },
   ],
-  paving: { kind: 'stucco', color: '#e2d9c4', joint: '#c4b89e' },
+  paving: { kind: 'stucco', color: '#d8cbae', joint: '#b9a989' },
   // mostly undyed cotton and maguey fibre; coloured mantles for the few
   people: { clothes: ['#efe9dc', '#e9e1cd', '#efe9dc', '#d8c9a6', '#e6dcc4', '#c8452f', '#2f8fa0', '#e0b23a'], skin: '#9a6a48' },
   clouds: { color: '#ffffff', shade: '#c9d6e6', shadow: 0.3 },
