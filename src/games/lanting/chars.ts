@@ -670,7 +670,7 @@ export const LEVELS: Level[] = [
     chars: '大',
     mode: 'trace',
     name: { zh: '舒展', en: 'Spread wide' },
-    poem: { text: '大漠孤烟直，长河落日圆。', by: { zh: '王维《使至塞上》', en: 'Wang Wei, On the Frontier' }, en: 'Over the vast desert a lone smoke rises straight; over the long river the setting sun is round.' },
+    poem: { text: '大漠孤烟直，长河落日圆。', by: { zh: '王维《使至塞上》', en: 'Wang Wei, Envoy to the Frontier' }, en: 'Over the vast desert a lone smoke rises straight; over the long river the setting sun is round.' },
   },
   {
     id: 'tian',

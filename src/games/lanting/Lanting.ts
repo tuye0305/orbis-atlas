@@ -524,6 +524,12 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     canvas.style.width = `${W}px`;
     canvas.style.height = `${H}px`;
     root.classList.toggle('lt-portrait', portrait);
+    // landscape side panel: anchored under the back button below 800px, compact below 600px
+    root.classList.toggle('lt-low', !portrait && H < 800);
+    root.classList.toggle('lt-short', !portrait && H < 600);
+    // landscape: Redo / Next sit under the grade in the side panel, clear of the paper
+    if (portrait) hud.insertBefore(actions, menu);
+    else side.insertBefore(actions, dotsEl);
     // background: desk, paper, grid, brush
     bg = mkCanvas(W * dpr, H * dpr);
     const bgc = bg.getContext('2d')!;
@@ -540,12 +546,14 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     ink = mkCanvas(S * (1 + 2 * M) * dpr, S * (1 + 2 * M) * dpr);
     ig = ink.getContext('2d')!;
     if (old.width > 1) ig.drawImage(old, 0, 0, ink.width, ink.height);
-    undo = mkCanvas(ink.width, ink.height);
-    if (charSnap) {
-      const snap = charSnap;
-      charSnap = mkCanvas(ink.width, ink.height);
-      charSnap.getContext('2d')!.drawImage(snap, 0, 0, ink.width, ink.height);
-    }
+    // the undo copy and the 之 snapshot must follow, or Redo after a resize wipes the character
+    const rescale = (c: HTMLCanvasElement) => {
+      const n = mkCanvas(ink.width, ink.height);
+      if (c.width > 1) n.getContext('2d')!.drawImage(c, 0, 0, n.width, n.height);
+      return n;
+    };
+    undo = rescale(undo);
+    if (charSnap) charSnap = rescale(charSnap);
     drawGuide();
     if (phase === 'final') buildSheet();
   }
@@ -565,6 +573,8 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   let undo = mkCanvas(1, 1);
   let graded = false;
   let autoNext = 0;
+  /** Clock of the teacher's demonstration stroke. */
+  let demoT = 0;
   let phaseT = 0;
   let introLen = 2;
   let finalSheet: HTMLCanvasElement | null = null;
@@ -809,11 +819,16 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     const rc = canvas.getBoundingClientRect();
     return { u: (e.clientX - rc.left - cellX()) / lay.S, v: (e.clientY - rc.top - cellY()) / lay.S };
   };
-  const accepting = () => (phase === 'write' && !graded) || phase === 'zhi';
+  /** A passing stroke that is not the character's last: the player may simply write the next one. */
+  const canWriteOn = () => phase === 'write' && graded && autoNext > 0 && idx < strokes.length - 1;
+  const accepting = () => (phase === 'write' && !graded) || phase === 'zhi' || canWriteOn();
   const onDown = (e: PointerEvent) => {
     if (!accepting() || brush.down) return;
     const p = evCell(e);
     if (p.u < -M || p.v < -M || p.u > 1 + M || p.v > 1 + M) return;
+    if (canWriteOn()) next();
+    // another drag on this 之: wait for it before moving on
+    if (phase === 'zhi') autoNext = 0;
     pointerId = e.pointerId;
     try {
       canvas.setPointerCapture(e.pointerId);
@@ -988,6 +1003,7 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     btnRedo.style.visibility = 'hidden';
     btnNext.style.visibility = 'hidden';
     dots.forEach((el, i) => el.classList.toggle('cur', i === idx));
+    demoT = 0;
   }
 
   function setZhiHud() {
@@ -1063,6 +1079,7 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   }
 
   function redo() {
+    if (brush.down) return;
     autoNext = 0;
     if (phase === 'write' && graded) {
       ig.clearRect(0, 0, ink.width, ink.height);
@@ -1099,6 +1116,7 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   }
 
   function next() {
+    if (brush.down) return;
     autoNext = 0;
     if (phase === 'write' && graded) {
       graded = false;
@@ -1179,7 +1197,7 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     // the result card takes the right side (landscape) or the bottom (portrait)
     const top = 54;
     const cardTop = result.classList.contains('show') ? result.offsetTop : lay.H * 0.5;
-    const area = lay.portrait ? { x: 0, y: top, w: lay.W, h: Math.max(lay.H * 0.3, cardTop - top - 10) } : { x: 0, y: 0, w: lay.W * 0.62, h: lay.H };
+    const area = lay.portrait ? { x: 0, y: top, w: lay.W, h: Math.max(lay.H * 0.3, cardTop - top - 10) } : { x: 0, y: 44, w: lay.W * 0.62, h: lay.H - 44 };
     const n = charInks.length;
     const rows = n === 4 ? 2 : n === 3 ? 3 : 1;
     const cols = Math.ceil(n / rows);
@@ -1394,8 +1412,10 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   const onKey = (e: KeyboardEvent) => {
     if (e.target instanceof HTMLButtonElement && (e.key === 'Enter' || e.key === ' ')) return; // let focused buttons click
     if (e.key === 'Enter' || e.key === ' ') {
-      if (btnNext.style.visibility === 'visible' && phase !== 'final' && phase !== 'menu') next();
-      e.preventDefault();
+      if (phase === 'final') {
+        if (resultShown) resultFocus?.click();
+      } else if (btnNext.style.visibility === 'visible' && phase !== 'menu') next();
+      if (phase !== 'menu') e.preventDefault();
     } else if (e.key === 'Backspace' || e.key.toLowerCase() === 'z') {
       if (btnRedo.style.visibility === 'visible') redo();
     }
@@ -1405,7 +1425,6 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   // ---------- frame ----------
   let raf = 0;
   let last = performance.now();
-  let demoT = 0;
   const frame = (now: number) => {
     raf = requestAnimationFrame(frame);
     const dt = Math.min(0.05, (now - last) / 1000);
@@ -1413,7 +1432,7 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     phaseT += dt;
     dwell(dt, now);
     for (const m of marks) m.t += dt;
-    if (autoNext > 0) {
+    if (autoNext > 0 && !brush.down) {
       autoNext -= dt;
       if (autoNext <= 0) next();
     }

@@ -241,6 +241,9 @@
   position: absolute; left: 50%; transform: translateX(-50%); bottom: max(22px, env(safe-area-inset-bottom)); display: flex; gap: 12px;
 }
 .lt-actions .g-btn { white-space: nowrap; }
+/* landscape: the buttons follow the grade in the side panel */
+.lt-side .lt-actions { position: static; transform: none; margin-top: 4px; gap: 10px; }
+.lt-side .lt-actions .g-btn { padding: 9px 18px; font-size: 14px; }
 .lt-portrait .lt-side { top: max(52px, calc(env(safe-area-inset-top) + 44px)); left: 16px; right: 16px; width: auto; transform: none;
   display: grid; grid-template-columns: auto 1fr; column-gap: 14px; align-items: start; }
 .lt-portrait .lt-step { grid-column: 1 / -1; margin-bottom: 8px; }
@@ -355,6 +358,50 @@
 .lt-portrait .lt-result h2 { font-size: 21px; }
 .lt-portrait .lt-result ul { font-size: 12.5px; }
 .lt-portrait .lt-result-poem span { display: block; }
+/* lower landscape screens: the side panel hangs from below the back button and tightens up */
+.lt-low .lt-side { top: calc(max(16px, env(safe-area-inset-top)) + 76px); transform: none; width: min(320px, 30vw); }
+.lt-low .lt-step { margin-bottom: 8px; }
+.lt-low .lt-big { font-size: clamp(52px, 6vw, 72px); }
+.lt-low .lt-big.long { font-size: clamp(40px, 4.6vw, 56px); }
+.lt-low .lt-modern { margin: 6px 0 10px; }
+.lt-low .lt-tip { font-size: 16px; }
+.lt-low .lt-how { margin-top: 8px; font-size: 13px; line-height: 1.6; }
+.lt-low .lt-grade { margin-top: 10px; min-height: 50px; }
+.lt-low .lt-grade b { font-size: 24px; }
+.lt-low .lt-grade span { font-size: 13px; line-height: 1.5; }
+.lt-low .lt-dots { margin-top: 10px; }
+.lt-low .lt-poem { margin-top: 12px; padding-top: 10px; }
+.lt-low .lt-side .lt-poem span { display: none; }
+/* short landscape (phone on its side): a compact side panel below the back button */
+.lt-short .g-title { display: none; }
+.lt-short .lt-back { top: calc(max(12px, env(safe-area-inset-top)) - 2px); left: max(14px, env(safe-area-inset-left)); }
+.lt-short .lt-side { top: 58px; transform: none; left: max(18px, env(safe-area-inset-left), 4vw); width: min(300px, 30vw); }
+.lt-short .lt-step { margin-bottom: 4px; font-size: 11px; letter-spacing: 0.1em; }
+.lt-short .lt-big, .lt-short .lt-big.long { font-size: 38px; }
+.lt-short .lt-modern { margin: 4px 0 6px; font-size: 12px; }
+.lt-short .lt-tip { font-size: 14px; line-height: 1.4; }
+.lt-short .lt-tip small { font-size: 11px; margin-top: 1px; }
+.lt-short .lt-how { display: none; }
+.lt-short .lt-grade { margin-top: 6px; min-height: 0; }
+.lt-short .lt-grade b { display: inline; font-size: 20px; margin-right: 8px; }
+.lt-short .lt-grade span { display: inline; font-size: 12px; line-height: 1.45; }
+.lt-short .lt-side .lt-actions { margin-top: 8px; }
+.lt-short .lt-side .lt-actions .g-btn { padding: 7px 14px; font-size: 13px; }
+.lt-short .lt-dots { margin-top: 8px; gap: 4px; }
+.lt-short .lt-dot { width: 24px; height: 24px; font-size: 11px; }
+.lt-short .lt-zhis { margin-top: 8px; }
+.lt-short .lt-slot, .lt-short .lt-thumb { width: 44px; height: 44px; font-size: 22px; }
+.lt-short .lt-poem { margin-top: 10px; padding-top: 8px; }
+.lt-short .lt-poem p { font-size: 13px; line-height: 1.5; }
+.lt-short .lt-poem small, .lt-short .lt-side .lt-poem span { display: none; }
+.lt-short .lt-result { padding: 14px 18px 10px; max-height: calc(100dvh - 24px); }
+.lt-short .lt-result .lt-stars { font-size: 24px; }
+.lt-short .lt-result h2 { font-size: 19px; }
+.lt-short .lt-score { margin: 2px 0 6px; }
+.lt-short .lt-score b { font-size: 22px; }
+.lt-short .lt-result ul { font-size: 12.5px; line-height: 1.5; }
+.lt-short .lt-result-actions { margin-top: 10px; }
+.lt-short .lt-result-actions .g-btn { padding: 7px 13px; font-size: 13px; }
 @media (max-width: 640px) {
   .lt-menu { padding: 18px 16px 14px; top: calc(50% + 20px); max-height: calc(100dvh - 110px); }
   .lt-menu-head h2 { font-size: 24px; }
