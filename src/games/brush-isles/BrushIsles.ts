@@ -403,8 +403,14 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   hTex.magFilter = THREE.LinearFilter;
   hTex.minFilter = THREE.LinearFilter;
 
+  const tNrm = tGeo.attributes.normal as THREE.BufferAttribute;
   let dirtyBox: [number, number, number, number] | null = null;
   const writeRegion = (x0: number, z0: number, x1: number, z1: number) => {
+    // one ring wider than the edited box: its edge vertices' slopes (normal, rock tint) changed too
+    x0 = Math.max(0, x0 - 1);
+    z0 = Math.max(0, z0 - 1);
+    x1 = Math.min(N - 1, x1 + 1);
+    z1 = Math.min(N - 1, z1 + 1);
     for (let iz = z0; iz <= z1; iz++)
       for (let ix = x0; ix <= x1; ix++) {
         const i = iz * N + ix;
@@ -412,13 +418,19 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         shade(i, tmpC);
         tCol.setXYZ(i, tmpC.r, tmpC.g, tmpC.b);
         hTexData[i] = Math.round(clamp((Hh[i] + 2) / 3, 0, 1) * 255);
+        // Normals straight from the height grid, only over this box: recomputing the whole 128²
+        // mesh every few frames of a stroke was the costliest part of painting.
+        const hx = (Hh[ix < N - 1 ? i + 1 : i] - Hh[ix > 0 ? i - 1 : i]) / ((ix < N - 1 ? 1 : 0) + (ix > 0 ? 1 : 0)) / CELL;
+        const hz = (Hh[iz < N - 1 ? i + N : i] - Hh[iz > 0 ? i - N : i]) / ((iz < N - 1 ? 1 : 0) + (iz > 0 ? 1 : 0)) / CELL;
+        const l = Math.hypot(hx, 1, hz);
+        tNrm.setXYZ(i, -hx / l, 1 / l, -hz / l);
       }
     tPos.needsUpdate = true;
     tCol.needsUpdate = true;
+    tNrm.needsUpdate = true;
     hTex.needsUpdate = true;
   };
   writeRegion(0, 0, N - 1, N - 1);
-  tGeo.computeVertexNormals();
   const terrain = new THREE.Mesh(tGeo, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.96, metalness: 0, envMapIntensity: 0.3 }));
   terrain.receiveShadow = true;
   terrain.castShadow = true;
@@ -516,7 +528,8 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   for (const name of treeNames) {
     const k = new Kit();
     st.treeKits[name](k);
-    const p = new Pool(k.build(), matB, 1600);
+    // room for every cell planted at full density with this one kind (Amsterdam's elms nearly are)
+    const p = new Pool(k.build(), matB, G * G * 3);
     treePools[name] = p;
     scene.add(p.mesh);
   }
@@ -901,12 +914,12 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   /* ---------- undo */
   const undoStack: Snapshot[] = [];
   const snapshot = (): Snapshot => ({ L: Lf.slice(), T: Tf.slice(), F: Ff.slice(), R: Rf.slice(), lm: lm && { cx: lm.cx, cz: lm.cz, ry: lm.ry }, prop: !!propObj });
-  const pushUndo = () => {
-    undoStack.push(snapshot());
+  const pushUndo = (snap = snapshot()) => {
+    undoStack.push(snap);
     if (undoStack.length > 30) undoStack.shift();
     undoBtn.disabled = false;
   };
-  const undo = () => {
+  const undo = (quiet = false) => {
     const s = undoStack.pop();
     undoBtn.disabled = undoStack.length === 0;
     if (!s) return;
@@ -917,7 +930,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     if ((s.lm?.cx ?? -1) !== (lm?.cx ?? -1) || (s.lm?.cz ?? -1) !== (lm?.cz ?? -1)) setLandmark(s.lm, false);
     if (s.prop) placeProp();
     touch(0, 0, N - 1, N - 1);
-    sfx.tone({ freq: 520, to: 340, dur: 0.18, type: 'sine', gain: 0.05 });
+    if (!quiet) sfx.tone({ freq: 520, to: 340, dur: 0.18, type: 'sine', gain: 0.05 });
   };
 
   /* ---------- camera */
@@ -1004,6 +1017,10 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     const z0 = Math.max(0, Math.floor((p.z - R + HALF) / CELL));
     const z1 = Math.min(N - 1, Math.ceil((p.z + R + HALF) / CELL));
     const rate = dt * 3.4;
+    // the landmark stands on its own levelled court: terrain brushes leave that ground alone
+    const lx = lm ? cxw(lm.cx) : 0;
+    const lz = lm ? cxw(lm.cz) : 0;
+    const onCourt = (i: number) => !!lm && Math.abs(wx(i % N) - lx) < 1.75 && Math.abs(wx((i / N) | 0) - lz) < 1.75;
     const mask = (up: Float32Array, i: number, w: number) => {
       up[i] = Math.min(1, up[i] + w * rate * 1.6);
       for (const o of [Tf, Ff, Rf]) if (o !== up) o[i] = Math.max(0, o[i] - w * rate * 1.6);
@@ -1019,13 +1036,13 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         const i = iz * N + ix;
         switch (tool) {
           case 'land':
-            if (Lf[i] < 1) Lf[i] = Math.min(1, Lf[i] + w * rate);
+            if (Lf[i] < 1 && !onCourt(i)) Lf[i] = Math.min(1, Lf[i] + w * rate);
             break;
           case 'hill':
-            Lf[i] = Math.min(3.4, Lf[i] + w * rate * (Lf[i] < 1 ? 1 : 0.32));
+            if (!onCourt(i)) Lf[i] = Math.min(3.4, Lf[i] + w * rate * (Lf[i] < 1 ? 1 : 0.32));
             break;
           case 'water':
-            if (Lf[i] > st.floorL) Lf[i] = Math.max(st.floorL, Lf[i] - w * rate * (Lf[i] > 1.2 ? 0.5 : 1));
+            if (Lf[i] > st.floorL && !onCourt(i)) Lf[i] = Math.max(st.floorL, Lf[i] - w * rate * (Lf[i] > 1.2 ? 0.5 : 1));
             break;
           case 'houses':
             mask(Tf, i, w);
@@ -1053,12 +1070,18 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   /* ---------- boats */
   const boats: Boat[] = [];
   const nav = (x: number, z: number) => Math.abs(x) < HALF - 1.2 && Math.abs(z) < HALF - 1.2 && heightAt(x, z) < -0.22;
+  /** Open water all the way from a to b, so a boat does not set course across an island. */
+  const clear = (ax: number, az: number, bx: number, bz: number) => {
+    const n = Math.ceil(Math.hypot(bx - ax, bz - az) / 0.45);
+    for (let i = 1; i <= n; i++) if (!nav(ax + ((bx - ax) * i) / n, az + ((bz - az) * i) / n)) return false;
+    return true;
+  };
   const boatRng = mulberry(4242);
   const newTarget = (b: Boat) => {
     for (let i = 0; i < 40; i++) {
       const x = b.x + (boatRng() - 0.5) * 18;
       const z = b.z + (boatRng() - 0.5) * 18;
-      if (nav(x, z)) {
+      if (nav(x, z) && (i > 30 || clear(b.x, b.z, x, z))) {
         b.tx = x;
         b.tz = z;
         return;
@@ -1117,7 +1140,8 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         boats.splice(i, 1);
         continue;
       }
-      if (!nav(b.x, b.z)) {
+      // (a boat already sinking away must not restart its shrink every frame, or it never goes)
+      if (!b.leaving && !nav(b.x, b.z)) {
         // land was painted under it
         b.leaving = true;
         animate({ obj: b.obj, grow: false, dur: 0.4, done: () => disposeObj(b.obj) });
@@ -1164,11 +1188,26 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     const b = h('button', 'bi-tool', toolsEl, `<svg viewBox="0 0 24 24" aria-hidden="true">${ICON[id]}</svg><span>${label}</span><kbd>${i + 1}</kbd>`);
     b.style.setProperty('--tc', CURSOR[id]);
     b.title = `${label} (${i + 1})`;
+    b.setAttribute('aria-keyshortcuts', String(i + 1));
     b.onclick = () => setTool(id);
     toolBtns[id] = b;
   });
+  // ARIA toolbar: one tab stop (the chosen brush), arrow keys move along the row
+  const onToolKey = (e: KeyboardEvent) => {
+    const i = TOOLS.findIndex((t) => toolBtns[t] === document.activeElement);
+    if (i < 0) return;
+    const j = e.key === 'ArrowRight' ? (i + 1) % TOOLS.length : e.key === 'ArrowLeft' ? (i + TOOLS.length - 1) % TOOLS.length : e.key === 'Home' ? 0 : e.key === 'End' ? TOOLS.length - 1 : -1;
+    if (j < 0) return;
+    e.preventDefault();
+    e.stopPropagation(); // not a camera pan
+    setTool(TOOLS[j]);
+    toolBtns[TOOLS[j]].focus();
+  };
+  toolsEl.addEventListener('keydown', onToolKey);
   const side = h('div', 'bi-side', bar);
   const sizes = h('div', 'bi-sizes', side);
+  sizes.setAttribute('role', 'group');
+  sizes.setAttribute('aria-label', lang === 'zh' ? '笔刷大小 ([ ])' : 'Brush size ([ ])');
   const sizeBtns = [0, 1, 2].map((s) => {
     const b = h('button', 'bi-size', sizes, `<i style="width:${6 + s * 5}px;height:${6 + s * 5}px"></i>`);
     b.setAttribute('aria-label', [lang === 'zh' ? '小笔刷' : 'Small brush', lang === 'zh' ? '中笔刷' : 'Medium brush', lang === 'zh' ? '大笔刷' : 'Large brush'][s]);
@@ -1179,7 +1218,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   undoBtn.setAttribute('aria-label', lang === 'zh' ? '撤销 (Z)' : 'Undo (Z)');
   undoBtn.title = undoBtn.getAttribute('aria-label')!;
   undoBtn.disabled = true;
-  undoBtn.onclick = undo;
+  undoBtn.onclick = () => undo();
   const rotL = h('button', 'bi-icon', side, '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 11-3-6.2M17 2v4h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
   rotL.setAttribute('aria-label', lang === 'zh' ? '向左转 (Q)' : 'Turn left (Q)');
   rotL.title = rotL.getAttribute('aria-label')!;
@@ -1196,6 +1235,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     for (const t of TOOLS) {
       toolBtns[t].classList.toggle('on', t === id);
       toolBtns[t].setAttribute('aria-pressed', String(t === id));
+      toolBtns[t].tabIndex = t === id ? 0 : -1;
     }
     ring.material.color.set(CURSOR[id]);
     ghost.visible = false;
@@ -1221,22 +1261,29 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   let hoverXY: { x: number; y: number } | null = null;
   let ended = false;
   let painting = false;
+  // The undo snapshot of the stroke in progress: pushed only once the brush first touches the
+  // map, so a click on the sky or a stray tap leaves no empty undo step.
+  let strokeSnap: Snapshot | null = null;
+  let strokeT0 = 0;
 
   const gestureState = () => {
     const [a, b] = [...ptrs.values()];
     return { d: Math.hypot(b.x - a.x, b.y - a.y) || 1, a: Math.atan2(b.y - a.y, b.x - a.x), mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2 };
   };
   const landmarkSpot = (p: THREE.Vector3) => {
-    const cx = clamp(Math.floor(p.x + HALF), 2, G - 3);
-    const cz = clamp(Math.floor(p.z + HALF), 2, G - 3);
+    // kept off the map's rim, where the ground falls away to the sea and flattening can't hold it
+    const cx = clamp(Math.floor(p.x + HALF), 4, G - 5);
+    const cz = clamp(Math.floor(p.z + HALF), 4, G - 5);
     const ry = Math.round(cam.yaw / (Math.PI / 2)) * (Math.PI / 2);
     return { cx, cz, ry };
   };
+  const timers: number[] = [];
   const placeLandmark = (p: THREE.Vector3) => {
     pushUndo();
     const first = !lm;
     setLandmark(landmarkSpot(p), true);
-    st.notes.slice(0, 3).forEach((f, i) => setTimeout(() => sfx.tone({ freq: f, dur: 1.4, type: 'triangle', gain: 0.05 }), i * 110));
+    // (tracked: a chime firing after dispose would open a fresh AudioContext that nothing closes)
+    st.notes.slice(0, 3).forEach((f, i) => timers.push(window.setTimeout(() => sfx.tone({ freq: f, dur: 1.4, type: 'triangle', gain: 0.05 }), i * 110)));
     if (first) toast(tx(st.landmark.name), tx(st.landmark.note), 4200);
   };
 
@@ -1246,7 +1293,13 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
     last = { x: e.clientX, y: e.clientY };
     if (ptrs.size === 2) {
-      if (painting) endStroke();
+      // The first finger of a pinch has already started a stroke: if it is that young, it was
+      // never meant as paint, so take it back.
+      if (painting) {
+        const pushed = !strokeSnap;
+        endStroke();
+        if (pushed && clock - strokeT0 < 0.4) undo(true);
+      }
       mode = 'gesture';
       gest = gestureState();
       return;
@@ -1269,7 +1322,8 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     }
     mode = 'paint';
     painting = true;
-    pushUndo();
+    strokeSnap = snapshot();
+    strokeT0 = clock;
   };
   const onMove = (e: PointerEvent) => {
     const p = ptrs.get(e.pointerId);
@@ -1300,6 +1354,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   };
   const endStroke = () => {
     painting = false;
+    strokeSnap = null;
     brushBed?.set(0);
   };
   const onUp = (e: PointerEvent) => {
@@ -1325,6 +1380,16 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   const onKey = (e: KeyboardEvent) => {
     if (e.target instanceof HTMLElement && /INPUT|TEXTAREA/.test(e.target.tagName)) return;
     const k = e.key.toLowerCase();
+    // After Finish the city is on show behind the result card: leave it as it was scored.
+    if (ended) return;
+    // Leave browser shortcuts (Cmd/Ctrl+1…8, +S, +W, +−) alone; Cmd/Ctrl+Z still undoes.
+    if (e.metaKey || e.ctrlKey || e.altKey) {
+      if (k === 'z' && !e.shiftKey && !e.altKey) {
+        undo();
+        e.preventDefault();
+      }
+      return;
+    }
     if (/^[1-8]$/.test(k)) setTool(TOOLS[Number(k) - 1]);
     else if (k === '[') setSize(size - 1);
     else if (k === ']') setSize(size + 1);
@@ -1452,6 +1517,10 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
 
     if (hoverXY && !ended) hover = pick(hoverXY.x, hoverXY.y);
     if (painting && hover) {
+      if (strokeSnap) {
+        pushUndo(strokeSnap);
+        strokeSnap = null;
+      }
       applyBrush(hover, dt);
       brushBed?.set(0.035, tool === 'water' ? 500 : tool === 'land' || tool === 'hill' ? 750 : 1300);
     } else brushBed?.set(0);
@@ -1460,7 +1529,6 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     normalsTimer -= dt;
     if (dirtyBox && normalsTimer <= 0) {
       writeRegion(...dirtyBox);
-      tGeo.computeVertexNormals();
       dirtyBox = null;
       normalsTimer = 0.06;
     }
@@ -1498,8 +1566,9 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   });
 
   // Dev hook for screenshots and smoke tests: paint a little town programmatically.
+  const devWin = window as unknown as { __isle?: unknown };
   if (import.meta.env.DEV)
-    (window as unknown as { __isle?: unknown }).__isle = {
+    devWin.__isle = {
       paint(toolId: ToolId, x: number, z: number, secs = 0.6, s = 1) {
         const prev = tool;
         const ps = size;
@@ -1529,6 +1598,8 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       el.removeEventListener('wheel', onWheel);
       el.removeEventListener('contextmenu', noMenu);
       window.removeEventListener('keydown', onKey);
+      for (const id of timers) clearTimeout(id);
+      if (import.meta.env.DEV) delete devWin.__isle;
       brushBed?.stop();
       waveBed?.stop();
       sfx.dispose();
