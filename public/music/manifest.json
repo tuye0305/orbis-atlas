@@ -137,6 +137,86 @@
     "model": "elevenlabs/music"
    }
   ],
+  "north-america": [
+   {
+    "file": "north-america-1.mp3",
+    "title": "Orbis · North America",
+    "duration": 147.86,
+    "crossfadeAt": 142.86,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "478048012c4c4df1a6d88355c5b9aec5"
+   },
+   {
+    "file": "north-america-2.mp3",
+    "title": "Orbis · North America",
+    "duration": 150.05,
+    "crossfadeAt": 145.05,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "7a9af2093e724c2a87c7ddb10888fa2b"
+   }
+  ],
+  "mesoamerica": [
+   {
+    "file": "mesoamerica-1.mp3",
+    "title": "Orbis · Mesoamerica",
+    "duration": 146.31,
+    "crossfadeAt": 141.31,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "1367a66379d14452a5509c768f038790"
+   },
+   {
+    "file": "mesoamerica-2.mp3",
+    "title": "Orbis · Mesoamerica",
+    "duration": 148.47,
+    "crossfadeAt": 143.47,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "fe84145460364127884ed9ef0021b666"
+   }
+  ],
+  "south-america": [
+   {
+    "file": "south-america-1.mp3",
+    "title": "Orbis · South America",
+    "duration": 136.23,
+    "crossfadeAt": 131.23,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "f8041cc2fae04dacbb631287260b848e"
+   },
+   {
+    "file": "south-america-2.mp3",
+    "title": "Orbis · South America",
+    "duration": 144.94,
+    "crossfadeAt": 139.94,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "b151c9d08b37485a80a4526413383de0"
+   }
+  ],
+  "oceania": [
+   {
+    "file": "oceania-1.mp3",
+    "title": "Orbis · Oceania",
+    "duration": 148.93,
+    "crossfadeAt": 143.93,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "c059fccdc18045f7918c9be5bac5b6ff"
+   },
+   {
+    "file": "oceania-2.mp3",
+    "title": "Orbis · Oceania",
+    "duration": 138.15,
+    "crossfadeAt": 133.15,
+    "fadeOut": 4,
+    "model": "elevenlabs/music",
+    "id": "03ee64526b9945e182f469678a8fc940"
+   }
+  ],
   "ocean": [
    {
     "file": "ocean-1.mp3",
