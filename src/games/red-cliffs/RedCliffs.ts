@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { createSfx } from '../shared/sfx';
 import { createCoach } from '../shared/coach';
 import { clamp, createStage, gradientEnv, h, lerp, makeToast, mulberry, puffAtlas } from '../shared/stage';
@@ -77,6 +78,7 @@ const L = (lang: GameCtx['lang'], zh: string, en: string) => (lang === 'zh' ? zh
  */
 const SKY_GLSL = /* glsl */ `
   uniform vec3 uTop, uMid, uHor, uWest, uMoonDir, uFireTint; uniform float uFire, uTime;
+  uniform sampler2D uMilky; uniform mat3 uStarRot;
   float hash12(vec2 p){ vec3 p3 = fract(vec3(p.xyx) * 0.1031); p3 += dot(p3, p3.yzx + 33.33); return fract((p3.x + p3.y) * p3.z); }
   float vnoise(vec2 p){ vec2 i = floor(p), f = fract(p); vec2 u = f * f * (3.0 - 2.0 * f);
     return mix(mix(hash12(i), hash12(i + vec2(1.0, 0.0)), u.x), mix(hash12(i + vec2(0.0, 1.0)), hash12(i + vec2(1.0, 1.0)), u.x), u.y); }
@@ -102,6 +104,12 @@ const SKY_GLSL = /* glsl */ `
     }
     c += uFireTint * uFire * smoothstep(0.3, 0.95, -d.z) * exp(-abs(y) * 8.0) * 0.55;
     if (stars > 0.0) {
+      // the real night sky: NASA's all-sky star map (Milky Way, dust lanes, the faint background),
+      // dimmed near the moon and the horizon haze, hidden by cloud
+      vec3 q = uStarRot * d;
+      vec2 suv = vec2(atan(q.z, q.x) / 6.2831853 + 0.5, asin(clamp(q.y, -1.0, 1.0)) / 3.1415927 + 0.5);
+      vec3 mw = texture2D(uMilky, suv).rgb;
+      c += mw * 0.9 * smoothstep(0.03, 0.4, y) * (1.0 - cov) * (1.0 - pow(md, 6.0) * 0.8);
       vec3 cell = floor(d * 300.0);
       float s = step(0.9972, hash12(cell.xy + cell.z * 7.13)) * smoothstep(0.06, 0.4, y) * (1.0 - cov);
       s *= 0.55 + 0.45 * sin(time * 2.0 + hash12(cell.yz) * 30.0);
@@ -117,19 +125,19 @@ export const mount: MountGame = (root, ctx) => {
     bloom: { strength: 0.95, radius: 0.55, threshold: 0.62 },
     fov: 42,
     // moonlit night: cool, slightly lifted blacks, warm highlights so the fire reads as the only heat
-    grade: { shadows: [0.0, 0.012, 0.03], highlights: [1.07, 0.98, 0.88], contrast: 1.1, saturation: 1.06, vignette: 0.45, grain: 0.035 },
+    grade: { shadows: [0.0, 0.02, 0.042], highlights: [1.09, 0.97, 0.84], contrast: 1.13, saturation: 1.14, vignette: 0.48, grain: 0.032 },
   });
   const { scene, camera, renderer } = stage;
-  renderer.toneMappingExposure = 1.3;
+  renderer.toneMappingExposure = 1.5;
   const sfx = createSfx();
 
   // ---------- palette: moonlit indigo river, molten fire ----------
-  const SKY_TOP = new THREE.Color('#02050c');
-  const SKY_MID = new THREE.Color('#0a1626');
-  const SKY_HOR = new THREE.Color('#233347');
-  const WEST = new THREE.Color('#5a3428');
-  const FIRE_TINT = new THREE.Color('#ff6a1f');
-  const FOG = new THREE.Color('#152233');
+  const SKY_TOP = new THREE.Color('#020711');
+  const SKY_MID = new THREE.Color('#0a1d36');
+  const SKY_HOR = new THREE.Color('#2c4a6c');
+  const WEST = new THREE.Color('#6e3a26');
+  const FIRE_TINT = new THREE.Color('#ff641a');
+  const FOG = new THREE.Color('#13263c');
   // the moon hangs low over Cao Cao's fleet, so the ships stand in silhouette against its path on the water
   const MOON = new THREE.Vector3(0.22, 0.2, -0.95).normalize();
   scene.fog = new THREE.Fog(FOG, 110, 520);
@@ -143,6 +151,9 @@ export const mount: MountGame = (root, ctx) => {
     uFireTint: { value: FIRE_TINT },
     uFire: fireGlow,
     uTime: { value: 0 },
+    // NASA/Goddard SVS Deep Star Maps 2020, tilted so the Milky Way arches up behind the fleet
+    uMilky: { value: (() => { const t = texLoader.load(`${BASE}textures/cc0/nasa_starmap_2020_1k.jpg`); t.colorSpace = THREE.SRGBColorSpace; return t; })() },
+    uStarRot: { value: new THREE.Matrix3().setFromMatrix4(new THREE.Matrix4().makeRotationFromEuler(new THREE.Euler(1.05, 0.6, 0.35))) },
   };
 
   const sky = new THREE.Mesh(
@@ -161,10 +172,10 @@ export const mount: MountGame = (root, ctx) => {
   );
   scene.add(sky);
 
-  scene.environment = gradientEnv(renderer, { top: '#08121f', horizon: '#2a3a50', ground: '#04070b', sun: { dir: MOON, color: '#9fb2d0', size: 0.02, power: 2.5 } });
+  scene.environment = gradientEnv(renderer, { top: '#081626', horizon: '#2c4664', ground: '#04080c', sun: { dir: MOON, color: '#9fb2d0', size: 0.02, power: 2.5 } });
   scene.environmentIntensity = 0.9;
-  scene.add(new THREE.HemisphereLight(0x4a6488, 0x16100a, 1.7));
-  const moonLight = new THREE.DirectionalLight(0xb4c6e6, 2.4);
+  scene.add(new THREE.HemisphereLight(0x5577aa, 0x16110c, 2.1));
+  const moonLight = new THREE.DirectionalLight(0xc4d6f4, 3.4);
   moonLight.position.copy(MOON).multiplyScalar(300);
   scene.add(moonLight);
   const afterglow = new THREE.DirectionalLight(0xff9a6a, 0.45);
@@ -191,6 +202,7 @@ export const mount: MountGame = (root, ctx) => {
       uBandZ: { value: FRONT_Z + TWO_LI },
       uBand: { value: 0 },
       uFogC: { value: FOG },
+      uRipple: { value: photoTex('waternormals', false) },
     },
     vertexShader: /* glsl */ `
       varying vec3 vW;
@@ -199,6 +211,8 @@ export const mount: MountGame = (root, ctx) => {
       ${SKY_GLSL}
       uniform vec3 uCam; uniform vec4 uFires[${MAX_FIRES}];
       uniform vec3 uFogC; uniform float uBandZ, uBand;
+      uniform sampler2D uRipple;
+      uniform sampler2D uRefl; uniform mat4 uReflMat;
       varying vec3 vW;
       vec2 wave(vec2 p, vec2 d, float f, float s, float a){ float ph = dot(p, d) * f + uTime * s; return d * cos(ph) * a * f; }
       void main(){
@@ -217,6 +231,11 @@ export const mount: MountGame = (root, ctx) => {
         float e = 0.35;
         float n0 = fbm(q), nx = fbm(q + vec2(e, 0.0)), nz = fbm(q + vec2(0.0, e));
         g += vec2(nx - n0, nz - n0) / e * 0.22 * fade;
+        // photographed capillary ripples at two scales drifting against each other: the small,
+        // sharp facets that break moonlight and firelight into glitter
+        vec2 r1 = texture2D(uRipple, p * 0.045 + uTime * vec2(0.011, 0.006)).rg * 2.0 - 1.0;
+        vec2 r2 = texture2D(uRipple, p * 0.13 - uTime * vec2(0.004, 0.017)).rg * 2.0 - 1.0;
+        g += (r1 * 0.07 + r2 * 0.05) * fade;
         vec3 n = normalize(vec3(-g.x, 1.0, -g.y));
         vec3 V = normalize(uCam - vW);
         float fres = 0.02 + 0.98 * pow(1.0 - max(dot(n, V), 0.0), 5.0);
@@ -225,7 +244,12 @@ export const mount: MountGame = (root, ctx) => {
         vec3 refl = skyColor(R, uTime, 1.0, 0.0);
         // a hard glint for each wavelet catching the moon: the glitter path
         refl += vec3(1.0, 0.96, 0.88) * pow(max(dot(R, uMoonDir), 0.0), 420.0) * 5.0;
-        vec3 deep = vec3(0.004, 0.018, 0.028) + vec3(0.0, 0.02, 0.025) * (1.0 - fade);
+        // the ships, the flames and the banks mirrored in the river (a planar reflection pass),
+        // shaken apart by the same ripples; sky shows through wherever nothing stands above it
+        vec4 tc = uReflMat * vec4(vW.x, 0.0, vW.z, 1.0);
+        vec4 obj = texture2D(uRefl, tc.xy / tc.w + n.xz * (0.07 * fade + 0.012));
+        refl = obj.rgb + refl * (1.0 - clamp(obj.a, 0.0, 1.0));
+        vec3 deep = vec3(0.002, 0.02, 0.032) + vec3(0.0, 0.024, 0.034) * (1.0 - fade);
         vec3 c = mix(deep, refl, clamp(fres, 0.0, 1.0));
         // shimmering columns of reflected firelight, stretched toward the camera
         float fireSum = 0.0;
@@ -259,6 +283,57 @@ export const mount: MountGame = (root, ctx) => {
   water.rotation.x = -Math.PI / 2;
   water.position.set(0, 0, -100);
   scene.add(water);
+
+  // Planar reflection: each frame the scene is drawn again at half resolution from the camera's
+  // mirror image under the water plane (obliquely clipped at the surface, so hulls below the
+  // waterline never show), and the water samples it projectively.
+  const reflRT = new THREE.WebGLRenderTarget(1, 1, { type: THREE.HalfFloatType });
+  const mirrorCam = new THREE.PerspectiveCamera();
+  const reflMat = new THREE.Matrix4();
+  waterMat.uniforms.uRefl = { value: reflRT.texture };
+  waterMat.uniforms.uReflMat = { value: reflMat };
+  const rv = { pos: new THREE.Vector3(), look: new THREE.Vector3(), rot: new THREE.Matrix4(), buf: new THREE.Vector2(), clear: new THREE.Color(), plane: new THREE.Plane(), clip: new THREE.Vector4(), q: new THREE.Vector4() };
+  const UP = new THREE.Vector3(0, 1, 0);
+  function renderReflection(hide: THREE.Object3D[], pointsAt: (k: number) => void) {
+    renderer.getDrawingBufferSize(rv.buf);
+    const w = Math.max(1, Math.round(rv.buf.x / 2));
+    const hh = Math.max(1, Math.round(rv.buf.y / 2));
+    if (reflRT.width !== w || reflRT.height !== hh) reflRT.setSize(w, hh);
+    camera.updateMatrixWorld();
+    rv.pos.setFromMatrixPosition(camera.matrixWorld);
+    rv.rot.extractRotation(camera.matrixWorld);
+    rv.look.set(0, 0, -1).applyMatrix4(rv.rot).add(rv.pos);
+    mirrorCam.position.set(rv.pos.x, -rv.pos.y, rv.pos.z);
+    mirrorCam.up.set(0, 1, 0).applyMatrix4(rv.rot).reflect(UP);
+    mirrorCam.lookAt(rv.look.x, -rv.look.y, rv.look.z);
+    mirrorCam.far = camera.far;
+    mirrorCam.updateMatrixWorld();
+    mirrorCam.projectionMatrix.copy(camera.projectionMatrix);
+    reflMat.set(0.5, 0, 0, 0.5, 0, 0.5, 0, 0.5, 0, 0, 0.5, 0.5, 0, 0, 0, 1).multiply(mirrorCam.projectionMatrix).multiply(mirrorCam.matrixWorldInverse);
+    // oblique near plane at the water surface (Lengyel), as in three's Reflector
+    rv.plane.setFromNormalAndCoplanarPoint(UP, rv.look.set(0, 0, 0)).applyMatrix4(mirrorCam.matrixWorldInverse);
+    rv.clip.set(rv.plane.normal.x, rv.plane.normal.y, rv.plane.normal.z, rv.plane.constant);
+    const pm = mirrorCam.projectionMatrix.elements;
+    rv.q.set((Math.sign(rv.clip.x) + pm[8]) / pm[0], (Math.sign(rv.clip.y) + pm[9]) / pm[5], -1, (1 + pm[10]) / pm[14]);
+    rv.clip.multiplyScalar(2 / rv.clip.dot(rv.q));
+    pm[2] = rv.clip.x;
+    pm[6] = rv.clip.y;
+    pm[10] = rv.clip.z + 1 - 0.003;
+    pm[14] = rv.clip.w;
+    const vis = hide.map((o) => o.visible);
+    hide.forEach((o) => (o.visible = false));
+    pointsAt(0.5);
+    renderer.getClearColor(rv.clear);
+    const alpha = renderer.getClearAlpha();
+    renderer.setRenderTarget(reflRT);
+    renderer.setClearColor(0x000000, 0);
+    renderer.clear();
+    renderer.render(scene, mirrorCam);
+    renderer.setRenderTarget(null);
+    renderer.setClearColor(rv.clear, alpha);
+    hide.forEach((o, i) => (o.visible = vis[i]));
+    pointsAt(1);
+  }
 
   // ---------- land: north bank (Wulin), south bank and the red cliffs ----------
   const noise = (x: number, z: number) => Math.sin(x * 0.07) * Math.cos(z * 0.09) + 0.5 * Math.sin(x * 0.19 + z * 0.13) + 0.25 * Math.sin(x * 0.41 - z * 0.37);
@@ -294,7 +369,11 @@ export const mount: MountGame = (root, ctx) => {
     g.computeVertexNormals();
     return g;
   };
-  const landMat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, envMapIntensity: 0.3 });
+  // the relief of photographed dry ground (Poly Haven, CC0), tiled ~15 m, so the moon rakes across
+  // ruts, stones and tussocks rather than a smooth plaster bank
+  const landNrm = photoTex('aerial_ground_rock_nor', false);
+  landNrm.repeat.set(60, 16);
+  const landMat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, envMapIntensity: 0.3, normalMap: landNrm, normalScale: new THREE.Vector2(1.2, 1.2) });
   const north = new THREE.Mesh(landGeo(900, 260, -196, northHeight), landMat);
   north.position.set(0, 0, -196);
   scene.add(north);
@@ -316,13 +395,52 @@ export const mount: MountGame = (root, ctx) => {
       if (!northSide && x < -30 && x > -100 && z < 80) continue; // and the cliff top
       pts.push([x, (northSide ? northHeight(x, z) : southHeight(x, z)) - 0.3, z, 0.7 + r() * 0.9]);
     }
-    const tree = new THREE.ConeGeometry(1.5, 5.5, 7);
-    tree.translate(0, 2.6, 0);
-    const trees = new THREE.InstancedMesh(tree, new THREE.MeshStandardMaterial({ color: 0x0b120d, roughness: 1, envMapIntensity: 0.2 }), pts.length);
+    // two kinds: tiered pines with ragged, drooping layers, and rounded broadleaf crowns. Every
+    // vertex is pushed by noise so no two outlines read as the same cone against the sky.
+    const ragged = (g: THREE.BufferGeometry, amt: number, seed: number) => {
+      const p = g.attributes.position as THREE.BufferAttribute;
+      const rr = mulberry(seed);
+      const jit = new Map<string, number>();
+      for (let i = 0; i < p.count; i++) {
+        const key = `${p.getX(i).toFixed(3)},${p.getY(i).toFixed(3)},${p.getZ(i).toFixed(3)}`;
+        let j = jit.get(key);
+        if (j === undefined) jit.set(key, (j = 1 + (rr() - 0.5) * amt));
+        p.setXYZ(i, p.getX(i) * j, p.getY(i) + (j - 1) * 0.6, p.getZ(i) * j);
+      }
+      g.computeVertexNormals();
+      return g;
+    };
+    const pine = mergeGeometries([
+      new THREE.CylinderGeometry(0.12, 0.2, 2.2, 5).translate(0, 1.1, 0),
+      ragged(new THREE.ConeGeometry(1.9, 2.4, 9, 2).translate(0, 2.0, 0), 0.5, 1),
+      ragged(new THREE.ConeGeometry(1.5, 2.2, 9, 2).translate(0.15, 3.2, 0.1), 0.5, 2),
+      ragged(new THREE.ConeGeometry(1.05, 2.0, 8, 2).translate(-0.1, 4.3, 0), 0.5, 3),
+      ragged(new THREE.ConeGeometry(0.6, 1.7, 7, 1).translate(0, 5.3, 0), 0.4, 4),
+    ].map((g) => g.toNonIndexed()))!;
+    const broad = mergeGeometries([
+      new THREE.CylinderGeometry(0.14, 0.24, 2.0, 5).translate(0, 1.0, 0).toNonIndexed(),
+      ragged(new THREE.IcosahedronGeometry(1.7, 1).scale(1.15, 0.85, 1.1).translate(0, 3.0, 0), 0.45, 5).toNonIndexed(),
+      ragged(new THREE.IcosahedronGeometry(1.1, 1).translate(0.9, 3.7, 0.4), 0.45, 6).toNonIndexed(),
+      ragged(new THREE.IcosahedronGeometry(1.0, 1).translate(-0.8, 3.5, -0.5), 0.45, 7).toNonIndexed(),
+    ])!;
+    const treeMat = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 1, envMapIntensity: 0.2, flatShading: true });
     const m = new THREE.Matrix4();
     const q = new THREE.Quaternion();
-    pts.forEach(([x, y, z, k], i) => trees.setMatrixAt(i, m.compose(new THREE.Vector3(x, y, z), q, new THREE.Vector3(k, k * (0.8 + (i % 5) * 0.12), k))));
-    scene.add(trees);
+    const tint = new THREE.Color();
+    for (const [geo, keep] of [
+      [pine, 0],
+      [broad, 1],
+    ] as const) {
+      const mine = pts.filter((_, i) => (i * 7919) % 5 < 3 === (keep === 0));
+      const trees = new THREE.InstancedMesh(geo, treeMat, mine.length);
+      mine.forEach(([x, y, z, k], i) => {
+        q.setFromAxisAngle(new THREE.Vector3(0, 1, 0), ((i * 2.399) % 6.283));
+        trees.setMatrixAt(i, m.compose(new THREE.Vector3(x, y, z), q, new THREE.Vector3(k, k * (0.8 + (i % 5) * 0.12), k)));
+        // deep blue-green to olive in moonlight, never quite the same twice
+        trees.setColorAt(i, tint.setRGB(0.035 + (i % 7) * 0.004, 0.06 + (i % 5) * 0.006, 0.045 + (i % 3) * 0.006));
+      });
+      scene.add(trees);
+    }
   }
 
   // Distant ridges, layered into the haze: each farther one paler, as in ink-wash landscapes.
@@ -409,7 +527,9 @@ export const mount: MountGame = (root, ctx) => {
   // ---------- ships ----------
   const sailTex = sailTexture('#5e4b34', '#2e2418');
   const sailTexFs = sailTexture('#a88d62', '#5c4428');
-  const woodTex = plankTexture();
+  // photographed weathered planking (Poly Haven, CC0): colour and a normal map so the moon and the
+  // fires rake across real seams and grain
+  const woodTex = { map: photoTex('brown_planks_03_diff', true), normal: photoTex('brown_planks_03_nor', false) };
   const flagCao = textTexture('曹', '#1a1410', 64, 64, 'bold 46px "Noto Serif SC", serif', '#b83a2a');
   const flagHuang = textTexture('黄', '#3a1a08', 64, 64, 'bold 46px "Noto Serif SC", serif', '#e3b341');
   const flags: THREE.Mesh[] = [];
@@ -419,7 +539,7 @@ export const mount: MountGame = (root, ctx) => {
     for (let c = 0; c < COLS; c++) {
       const x = -((COLS - 1) / 2) * COL_GAP + c * COL_GAP + (r % 2) * 2.2;
       const z = FRONT_Z - r * ROW_GAP;
-      const { g, hull } = buildJunk({ len: SHIP_LEN, beam: 2.8, color: 0x6a5240, wood: woodTex, sail: sailTex, flag: flagCao, flags, masts: 2 });
+      const { g, hull } = buildJunk({ len: SHIP_LEN, beam: 2.8, color: 0x8a6446, wood: woodTex, sail: sailTex, flag: flagCao, flags, masts: 2 });
       g.position.set(x, 0, z);
       g.rotation.y = (rnd() - 0.5) * 0.05;
       scene.add(g);
@@ -458,7 +578,7 @@ export const mount: MountGame = (root, ctx) => {
 
   const fireShips: FireShip[] = [];
   for (let i = 0; i < FIRE_SHIPS; i++) {
-    const { g, hull } = buildJunk({ len: 7, beam: 2.4, color: 0x8a6c50, wood: woodTex, sail: sailTexFs, flag: flagHuang, flags, masts: 1, cargo: true, squareSail: true });
+    const { g, hull } = buildJunk({ len: 7, beam: 2.4, color: 0xa8845c, wood: woodTex, sail: sailTexFs, flag: flagHuang, flags, masts: 1, cargo: true, squareSail: true });
     g.position.set(-4 + i * 6.2, 0, HOME_Z + (i % 2) * 1.5);
     g.rotation.y = Math.PI / 2; // bows pointing north
     const glow = new THREE.Mesh(
@@ -556,9 +676,11 @@ export const mount: MountGame = (root, ctx) => {
     .rc-light.g-pulse { animation-duration: .9s; }
     .rc-band-label { position: absolute; left: 0; top: 0; pointer-events: none; font-size: 12px; color: #ffe0a6; letter-spacing: .1em; white-space: nowrap; text-shadow: 0 1px 4px #000; opacity: 0; transition: opacity .6s; }
     .rc-band-label.show { opacity: .9; }
+    @media (max-width: 1100px) { .rc-hud .g-coach { top: calc(max(14px, env(safe-area-inset-top)) + 112px); } }
     @media (max-width: 640px) {
       .rc-wind { right: 62px; padding: 4px 10px 4px 4px; } .rc-wind svg { width: 60px; height: 60px; } .rc-wind-label { font-size: 13px; min-width: 5em; }
       .rc-stats { top: auto; bottom: calc(max(22px, env(safe-area-inset-bottom)) + 66px); left: 12px; font-size: 12px; }
+      .rc-hud .g-coach { top: calc(max(14px, env(safe-area-inset-top)) + 84px); }
       .rc-bar { gap: 8px; } .rc-pip { width: 8px; height: 14px; } .rc-ships { padding: 8px; gap: 3px; }
     }`;
 
@@ -955,7 +1077,7 @@ export const mount: MountGame = (root, ctx) => {
     fireBed.set(fireLevel * 0.5, 500 + fireLevel * 900);
     if (rnd() < dt * fireLevel * 8) sfx.noise({ dur: 0.08 + rnd() * 0.1, freq: 2000 + rnd() * 3000, q: 2, gain: 0.08 + fireLevel * 0.1 });
     firesNow.length = 0;
-    renderer.toneMappingExposure = 1.3 + fireLevel * 0.08;
+    renderer.toneMappingExposure = 1.5 - fireLevel * 0.12;
 
     // --- camera ---
     const k = intro > 0 ? clamp(time / intro, 0, 1) : 1;
@@ -968,6 +1090,10 @@ export const mount: MountGame = (root, ctx) => {
     if (!ctx.reduced && shake > 0) camera.position.add(new THREE.Vector3((rnd() - 0.5) * shake, (rnd() - 0.5) * shake, 0));
     const look = new THREE.Vector3().lerpVectors(new THREE.Vector3(0, 2, FRONT_Z - 6), camLook, e);
     camera.lookAt(look);
+    renderReflection([water, sky, mist], (k) => {
+      fire.setScale(focal * k);
+      smoke.setScale(focal * k);
+    });
 
     // --- flags stream with the wind ---
     const flagYaw = Math.atan2(-wind.y, wind.x);
@@ -1118,6 +1244,7 @@ export const mount: MountGame = (root, ctx) => {
       sfx.dispose();
       for (const b of boats) scene.remove(b.m);
       boatGeo.dispose();
+      reflRT.dispose();
       boatMat.dispose();
       stage.dispose();
       hud.remove();
@@ -1166,75 +1293,156 @@ function textTexture(text: string, color: string, w: number, hgt: number, font: 
 }
 
 function sailTexture(cloth: string, batten: string) {
-  // woven bamboo matting between battens, weathered toward the foot
+  // woven matting between battens, weathered toward the foot. The weave itself is a photo of rush
+  // matting (Poly Haven tatami_mat, CC0): its light and shade are laid over the cloth colour once
+  // it loads, so the sail keeps its own hue but gains real fibre.
+  const W = 256, H = 320;
   const c = document.createElement('canvas');
-  c.width = 128;
-  c.height = 160;
+  c.width = W;
+  c.height = H;
   const g = c.getContext('2d')!;
-  g.fillStyle = cloth;
-  g.fillRect(0, 0, 128, 160);
-  for (let y = 0; y < 160; y += 3)
-    for (let x = (y / 3) % 2 ? 0 : 3; x < 128; x += 6) {
-      g.fillStyle = `rgba(0,0,0,${0.05 + Math.random() * 0.08})`;
-      g.fillRect(x, y, 3, 2);
+  const rnd = mulberry(7);
+  const paint = (weave?: HTMLImageElement) => {
+    g.globalCompositeOperation = 'source-over';
+    g.globalAlpha = 1;
+    g.fillStyle = cloth;
+    g.fillRect(0, 0, W, H);
+    if (weave) {
+      // a strip of the mat between its cloth borders, tiled twice across and four times down
+      g.globalCompositeOperation = 'luminosity';
+      g.globalAlpha = 0.55;
+      const sy = weave.height * 0.13, sh = weave.height * 0.33;
+      for (let ty = 0; ty < 4; ty++) for (let tx = 0; tx < 2; tx++) g.drawImage(weave, 0, sy, weave.width, sh, (tx * W) / 2, (ty * H) / 4, W / 2, H / 4);
+      g.globalCompositeOperation = 'source-over';
+      g.globalAlpha = 1;
+    } else {
+      for (let y = 0; y < H; y += 6)
+        for (let x = (y / 6) % 2 ? 0 : 6; x < W; x += 12) {
+          g.fillStyle = `rgba(0,0,0,${0.05 + rnd() * 0.08})`;
+          g.fillRect(x, y, 6, 4);
+        }
     }
-  const grd = g.createLinearGradient(0, 0, 0, 160);
-  grd.addColorStop(0, 'rgba(255,240,210,.08)');
-  grd.addColorStop(1, 'rgba(0,0,0,.28)');
-  g.fillStyle = grd;
-  g.fillRect(0, 0, 128, 160);
-  for (let i = 0; i < 14; i++) {
-    g.fillStyle = `rgba(0,0,0,${0.08 + Math.random() * 0.1})`;
-    g.fillRect(Math.random() * 128, Math.random() * 160, 6 + Math.random() * 14, 2 + Math.random() * 5);
-  }
-  g.strokeStyle = batten;
-  g.lineWidth = 4;
-  for (let y = 10; y < 160; y += 21) {
-    g.beginPath();
-    g.moveTo(0, y);
-    g.lineTo(128, y + 4);
-    g.stroke();
-  }
+    const grd = g.createLinearGradient(0, 0, 0, H);
+    grd.addColorStop(0, 'rgba(255,240,210,.08)');
+    grd.addColorStop(1, 'rgba(0,0,0,.3)');
+    g.fillStyle = grd;
+    g.fillRect(0, 0, W, H);
+    // patches and water stains
+    for (let i = 0; i < 18; i++) {
+      g.fillStyle = `rgba(0,0,0,${0.06 + rnd() * 0.1})`;
+      g.fillRect(rnd() * W, rnd() * H, 12 + rnd() * 28, 4 + rnd() * 10);
+    }
+    g.strokeStyle = batten;
+    g.lineWidth = 8;
+    for (let y = 20; y < H; y += 42) {
+      g.beginPath();
+      g.moveTo(0, y);
+      g.lineTo(W, y + 8);
+      g.stroke();
+    }
+  };
+  paint();
   const tex = new THREE.CanvasTexture(c);
   tex.colorSpace = THREE.SRGBColorSpace;
+  tex.anisotropy = 4;
+  const img = new Image();
+  img.onload = () => {
+    paint(img);
+    tex.needsUpdate = true;
+  };
+  img.src = `${BASE}textures/cc0/tatami_mat_diff.jpg`;
   return tex;
 }
 
-/** Tarred planking for the hulls: strakes, seams and grain. */
-function plankTexture() {
-  const c = document.createElement('canvas');
-  c.width = 256;
-  c.height = 64;
-  const g = c.getContext('2d')!;
-  g.fillStyle = '#5a4634';
-  g.fillRect(0, 0, 256, 64);
-  for (let y = 0; y < 64; y += 8) {
-    const k = 0.75 + Math.random() * 0.35;
-    g.fillStyle = `rgba(${Math.round(90 * k)},${Math.round(70 * k)},${Math.round(52 * k)},1)`;
-    g.fillRect(0, y, 256, 7);
-    for (let i = 0; i < 60; i++) {
-      g.fillStyle = `rgba(0,0,0,${Math.random() * 0.12})`;
-      g.fillRect(Math.random() * 256, y + Math.random() * 7, 10 + Math.random() * 30, 1);
-    }
-    g.fillStyle = 'rgba(10,6,4,.9)';
-    g.fillRect(0, y + 7, 256, 1);
-    for (let x = Math.random() * 60; x < 256; x += 50 + Math.random() * 60) g.fillRect(x, y, 1, 7);
-  }
-  const tex = new THREE.CanvasTexture(c);
-  tex.colorSpace = THREE.SRGBColorSpace;
-  tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
-  tex.anisotropy = 4;
-  return tex;
+const BASE = import.meta.env.BASE_URL;
+const texLoader = new THREE.TextureLoader();
+/** A tiling CC0 photo texture from public/textures/cc0 (see CREDITS.md there). */
+function photoTex(name: string, color: boolean) {
+  const t = texLoader.load(`${BASE}textures/cc0/${name}.jpg`);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  t.anisotropy = 8;
+  if (color) t.colorSpace = THREE.SRGBColorSpace;
+  return t;
 }
 
 /** A junk: tapered planked hull with sheer, deckhouse, masts with battened matting sails, banner. */
-function buildJunk(o: { len: number; beam: number; color: number; wood: THREE.Texture; sail: THREE.Texture; flag: THREE.Texture; flags: THREE.Mesh[]; masts: number; cargo?: boolean; squareSail?: boolean }) {
+const BATTENS = 6;
+const junkGeoCache = new Map<string, THREE.BufferGeometry>();
+/** Ship parts are identical across the fleet: build each geometry once and share it. */
+function junkPart(key: string, make: () => THREE.BufferGeometry) {
+  let geo = junkGeoCache.get(key);
+  if (!geo) junkGeoCache.set(key, (geo = make()));
+  return geo;
+}
+function foamTexture() {
+  const S = 256;
+  const c = document.createElement('canvas');
+  c.width = c.height = S;
+  const g = c.getContext('2d')!;
+  const r = mulberry(7);
+  // an oval ring of broken white water hugging the hull, frothier at the bow and in the wake
+  for (let i = 0; i < 1400; i++) {
+    const a = r() * Math.PI * 2;
+    const ring = 0.62 + (r() - 0.5) * 0.14 + Math.max(0, Math.cos(a)) * 0.08;
+    const x = S / 2 + Math.cos(a) * ring * S * 0.5 * 0.92;
+    const y = S / 2 + Math.sin(a) * ring * S * 0.5 * 0.8;
+    g.fillStyle = `rgba(255,255,255,${0.05 + r() * 0.12})`;
+    g.beginPath();
+    g.arc(x, y, 1.5 + r() * 5, 0, Math.PI * 2);
+    g.fill();
+  }
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  return t;
+}
+const JUNK_MATS = {
+  get mast() { return (this._mast ??= new THREE.MeshStandardMaterial({ color: 0x1f160f, roughness: 0.8 })); },
+  get roof() { return (this._roof ??= new THREE.MeshStandardMaterial({ color: 0x15100c, roughness: 0.85, side: THREE.DoubleSide, flatShading: true })); },
+  get trim() { return (this._trim ??= new THREE.MeshStandardMaterial({ color: 0x231710, roughness: 0.65 })); },
+  get wet() { return (this._wet ??= new THREE.MeshStandardMaterial({ color: 0x0d0a08, roughness: 0.25, metalness: 0.1, side: THREE.DoubleSide })); },
+  get batten() { return (this._batten ??= new THREE.MeshStandardMaterial({ color: 0x8a7048, roughness: 0.6, emissive: 0x1a1610 })); },
+  get rope() { return (this._rope ??= new THREE.LineBasicMaterial({ color: 0x15100b, transparent: true, opacity: 0.85 })); },
+  get foam() { return (this._foam ??= new THREE.MeshBasicMaterial({ map: foamTexture(), transparent: true, depthWrite: false, opacity: 0.55, color: 0x9fb4c8 })); },
+  _mast: undefined as THREE.MeshStandardMaterial | undefined,
+  _trim: undefined as THREE.MeshStandardMaterial | undefined,
+  _roof: undefined as THREE.MeshStandardMaterial | undefined,
+  _wet: undefined as THREE.MeshStandardMaterial | undefined,
+  _batten: undefined as THREE.MeshStandardMaterial | undefined,
+  _rope: undefined as THREE.LineBasicMaterial | undefined,
+  _foam: undefined as THREE.MeshBasicMaterial | undefined,
+};
+
+/** A hipped roof w × d, h tall, whose eaves sweep up toward the corners by `curl`, as on a Han
+ *  pavilion. Built from a deformed grid so the eave line is a curve, not a straight edge. */
+function eaveRoof(w: number, d: number, hgt: number, curl: number) {
+  const g = new THREE.PlaneGeometry(2, 2, 12, 12).rotateX(-Math.PI / 2);
+  const p = g.attributes.position as THREE.BufferAttribute;
+  for (let i = 0; i < p.count; i++) {
+    const u = p.getX(i), v = p.getZ(i);
+    const au = Math.abs(u), av = Math.abs(v);
+    const m = Math.max(au, av);
+    // a short ridge along the length: the hip starts 30 % in from each end
+    const ridge = Math.max(au * 0.7, av);
+    const y = hgt * (1 - Math.min(1, ridge * 1.08)) + curl * Math.pow(m, 6) * (0.35 + 0.65 * Math.pow(Math.min(au, av) / Math.max(m, 1e-3), 2));
+    p.setXYZ(i, (u * w) / 2, y, (v * d) / 2);
+  }
+  g.computeVertexNormals();
+  return g;
+}
+
+function buildJunk(o: { len: number; beam: number; color: number; wood: { map: THREE.Texture; normal: THREE.Texture }; sail: THREE.Texture; flag: THREE.Texture; flags: THREE.Mesh[]; masts: number; cargo?: boolean; squareSail?: boolean }) {
   const g = new THREE.Group();
   const hullGeo = new THREE.BoxGeometry(o.len, 1.5, o.beam, 16, 3, 4);
   const pos = hullGeo.attributes.position as THREE.BufferAttribute;
+  const nrm = hullGeo.attributes.normal as THREE.BufferAttribute;
+  const uv = hullGeo.attributes.uv as THREE.BufferAttribute;
   for (let i = 0; i < pos.count; i++) {
     const x = pos.getX(i);
     const y = pos.getY(i);
+    // planks run stem to stern: the photo's vertical boards are laid on their side, ~0.3 m wide
+    // strakes up the topsides, deck boards across the beam
+    const across = Math.abs(nrm.getY(i)) > 0.5 ? pos.getZ(i) : y;
+    uv.setXY(i, across * 0.36 + (Math.abs(nrm.getY(i)) > 0.5 ? 0.5 : 0), x / 3.2);
     const u = x / (o.len / 2);
     let z = pos.getZ(i) * (1 - 0.5 * u * u);
     if (y < 0) z *= 0.5 + 0.25 * (y + 0.75);
@@ -1242,15 +1450,52 @@ function buildJunk(o: { len: number; beam: number; color: number; wood: THREE.Te
     pos.setXYZ(i, x, yy + 0.4, z);
   }
   hullGeo.computeVertexNormals();
-  const hull = new THREE.MeshStandardMaterial({ color: o.color, map: o.wood, roughness: 0.78, emissive: 0x000000, envMapIntensity: 0.8 });
+  const hull = new THREE.MeshStandardMaterial({ color: o.color, map: o.wood.map, normalMap: o.wood.normal, normalScale: new THREE.Vector2(1.1, 1.1), roughness: 0.82, emissive: 0x000000, envMapIntensity: 0.8 });
   g.add(new THREE.Mesh(hullGeo, hull));
   const trim = new THREE.MeshStandardMaterial({ color: 0x2a1c12, roughness: 0.7 });
-  const house = new THREE.Mesh(new THREE.BoxGeometry(o.len * 0.22, 1.1, o.beam * 0.7), trim);
-  house.position.set(-o.len * 0.32, 1.9, 0);
+  // the stern castle: a timber cabin under a hipped roof with upturned eaves; the big warships
+  // (Han "tower ships") stack a second, smaller storey on top
+  const hx = -o.len * 0.32;
+  const house = new THREE.Mesh(junkPart(`house:${o.len}:${o.beam}`, () => new THREE.BoxGeometry(o.len * 0.22, 1.1, o.beam * 0.7)), trim);
+  house.position.set(hx, 1.9, 0);
   g.add(house);
-  const roof = new THREE.Mesh(new THREE.BoxGeometry(o.len * 0.27, 0.16, o.beam * 0.86), new THREE.MeshStandardMaterial({ color: 0x1c140e, roughness: 0.9 }));
-  roof.position.set(-o.len * 0.32, 2.5, 0);
-  g.add(roof);
+  const roof1 = new THREE.Mesh(junkPart(`roof1:${o.len}:${o.beam}`, () => eaveRoof(o.len * 0.3, o.beam * 0.95, 0.55, 0.32)), JUNK_MATS.roof);
+  roof1.position.set(hx, 2.42, 0);
+  g.add(roof1);
+  if (o.masts > 1) {
+    const upper = new THREE.Mesh(junkPart(`house2:${o.len}:${o.beam}`, () => new THREE.BoxGeometry(o.len * 0.14, 0.8, o.beam * 0.46)), trim);
+    upper.position.set(hx, 2.95, 0);
+    g.add(upper);
+    const roof2 = new THREE.Mesh(junkPart(`roof2:${o.len}:${o.beam}`, () => eaveRoof(o.len * 0.2, o.beam * 0.66, 0.5, 0.26)), JUNK_MATS.roof);
+    roof2.position.set(hx, 3.32, 0);
+    g.add(roof2);
+    // a bank of sweeps along each side, blades dipped in the river
+    g.add(
+      new THREE.Mesh(
+        junkPart(`oars:${o.len}:${o.beam}`, () => {
+          const Yv = new THREE.Vector3(0, 1, 0);
+          const parts: THREE.BufferGeometry[] = [];
+          for (const side of [1, -1])
+            for (let k = 0; k < 7; k++) {
+              const x = -o.len * 0.12 + k * o.len * 0.075;
+              const u = x / (o.len / 2);
+              const inner = new THREE.Vector3(x, 1.55 + 0.55 * u * u, side * (o.beam / 2) * (1 - 0.5 * u * u) * 0.9);
+              const outer = new THREE.Vector3(x - 0.35, 0.02, side * ((o.beam / 2) * (1 - 0.5 * u * u) + 2.3));
+              const loom = new THREE.CylinderGeometry(0.035, 0.045, inner.distanceTo(outer), 4);
+              loom.applyMatrix4(new THREE.Matrix4().compose(inner.clone().add(outer).multiplyScalar(0.5), new THREE.Quaternion().setFromUnitVectors(Yv, outer.clone().sub(inner).normalize()), new THREE.Vector3(1, 1, 1)));
+              parts.push(loom);
+              parts.push(new THREE.BoxGeometry(0.5, 0.04, 0.16).translate(outer.x, outer.y + 0.04, outer.z));
+            }
+          return mergeGeometries(parts)!;
+        }),
+        JUNK_MATS.trim,
+      ),
+    );
+  }
+  // the great slung rudder below the stern transom
+  const rudder = new THREE.Mesh(junkPart(`rudder:${o.len}`, () => new THREE.BoxGeometry(0.9, 1.9, 0.12).translate(-0.3, -0.25, 0)), JUNK_MATS.trim);
+  rudder.position.set(-o.len / 2 - 0.05, 0.9, 0);
+  g.add(rudder);
   if (o.cargo) {
     // reeds and oil under curtains
     const cargo = new THREE.Mesh(new THREE.CylinderGeometry(0.9, 1.1, o.len * 0.5, 9, 1), new THREE.MeshStandardMaterial({ color: 0x8c7448, roughness: 1, map: o.sail }));
@@ -1259,28 +1504,106 @@ function buildJunk(o: { len: number; beam: number; color: number; wood: THREE.Te
     cargo.scale.set(1, 1, o.beam * 0.4);
     g.add(cargo);
   }
-  const mastMat = new THREE.MeshStandardMaterial({ color: 0x1f160f, roughness: 0.8 });
-  const sailMat = new THREE.MeshStandardMaterial({ map: o.sail, side: THREE.DoubleSide, roughness: 1, envMapIntensity: 0.4 });
+  const mastMat = JUNK_MATS.mast;
+  // woven matting is thin: backlit by the moon it glows faintly through, so the weave and the
+  // battens read against the night instead of a black cut-out
+  const sailMat = new THREE.MeshStandardMaterial({ map: o.sail, side: THREE.DoubleSide, roughness: 1, envMapIntensity: 0.5, emissive: 0x4a5670, emissiveMap: o.sail, emissiveIntensity: 0.55 });
+  // rail along the sheer line, so the hull reads as planked boat, not a block
+  const rail = junkPart(`rail:${o.len}:${o.beam}`, () => {
+    const pts: THREE.Vector3[] = [];
+    for (const side of [1, -1]) {
+      for (let k = 0; k <= 16; k++) {
+        const u = -1 + (2 * k) / 16;
+        const x = (u * o.len) / 2;
+        pts.push(new THREE.Vector3(x, 1.15 + 0.4 + 0.55 * u * u + (u < 0 ? 0.35 * u * u : 0), side * (o.beam / 2) * (1 - 0.5 * u * u) * 1.02));
+      }
+    }
+    const geos: THREE.BufferGeometry[] = [];
+    for (const side of [0, 17]) geos.push(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts.slice(side, side + 17)), 24, 0.07, 4));
+    return mergeGeometries(geos)!;
+  });
+  g.add(new THREE.Mesh(rail, JUNK_MATS.trim));
+  // wet, darker band at the waterline
+  const band = new THREE.Mesh(
+    junkPart(`band:${o.len}:${o.beam}`, () => {
+      const geo = new THREE.CylinderGeometry(1, 1, 0.32, 28, 1, true);
+      geo.scale(o.len * 0.5, 1, o.beam * 0.5);
+      return geo;
+    }),
+    JUNK_MATS.wet,
+  );
+  band.position.y = 0.12;
+  g.add(band);
+  // foam where the hull meets the water
+  const foam = new THREE.Mesh(junkPart(`foam:${o.len}:${o.beam}`, () => new THREE.PlaneGeometry(o.len * 1.35, o.beam * 2.1).rotateX(-Math.PI / 2)), JUNK_MATS.foam);
+  foam.position.y = 0.06;
+  foam.renderOrder = 1;
+  g.add(foam);
+
+  const lines: number[] = [];
   for (let m = 0; m < o.masts; m++) {
     const mx = o.masts === 1 ? 0.1 * o.len : (m === 0 ? 0.18 : -0.12) * o.len;
     const hgt = m === 0 ? 7.5 : 6;
-    const mast = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.13, hgt, 6), mastMat);
+    const mast = new THREE.Mesh(junkPart(`mast:${hgt}`, () => new THREE.CylinderGeometry(0.09, 0.14, hgt, 7)), mastMat);
     mast.position.set(mx, 1.2 + hgt / 2, 0);
     g.add(mast);
     const sw = hgt * 0.62;
     const sh = hgt * 0.75;
-    const sail = new THREE.Mesh(new THREE.PlaneGeometry(sw, sh, 6, 6), sailMat);
-    // a little belly in the cloth
-    const sp = sail.geometry.attributes.position as THREE.BufferAttribute;
-    for (let i = 0; i < sp.count; i++) sp.setZ(i, Math.cos((sp.getX(i) / sw) * Math.PI) * 0.4 * (0.6 + 0.4 * Math.cos((sp.getY(i) / sh) * Math.PI)));
-    sail.geometry.computeVertexNormals();
+    // a junk lug sail: wider at the foot, the yard tilted up toward the bow, the leech fanned
+    // out in a curve, and the cloth bellying between bamboo battens
+    const shape = (x: number, y: number, out: THREE.Vector3) => {
+      const v = y / sh + 0.5; // 0 at the foot, 1 at the head
+      const u = x / sw + 0.5; // 0 at the leech (aft), 1 at the luff (by the mast)
+      const width = sw * (1.08 - 0.38 * v) * (1 + 0.1 * Math.sin(v * Math.PI));
+      const xx = (u - 0.5) * width + (1 - u) * -0.18 * sw * Math.sin(v * Math.PI);
+      const yy = (v - 0.5) * sh + u * v * 0.16 * sh;
+      const panel = Math.abs(Math.sin(v * BATTENS * Math.PI));
+      const z = Math.sin(u * Math.PI) * (0.3 + 0.22 * panel) * (0.7 + 0.3 * Math.sin(v * Math.PI));
+      return out.set(xx, yy, z);
+    };
+    const key = `sail:${hgt}`;
+    const sailGeo = junkPart(key, () => {
+      const geo = new THREE.PlaneGeometry(sw, sh, 10, BATTENS * 4);
+      const sp = geo.attributes.position as THREE.BufferAttribute;
+      const t = new THREE.Vector3();
+      for (let i = 0; i < sp.count; i++) {
+        shape(sp.getX(i), sp.getY(i), t);
+        sp.setXYZ(i, t.x, t.y, t.z);
+      }
+      geo.computeVertexNormals();
+      return geo;
+    });
+    const sail = new THREE.Group();
+    sail.add(new THREE.Mesh(sailGeo, sailMat));
+    const battenGeo = junkPart(`batten:${hgt}`, () => {
+      const geos: THREE.BufferGeometry[] = [];
+      for (let b = 0; b <= BATTENS; b++) {
+        const y = (b / BATTENS - 0.5) * sh;
+        const pts = Array.from({ length: 9 }, (_, k) => shape((k / 8 - 0.5) * sw, y, new THREE.Vector3()).add(new THREE.Vector3(0, 0, 0.03)));
+        geos.push(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 12, b === 0 || b === BATTENS ? 0.07 : 0.045, 4));
+      }
+      return mergeGeometries(geos)!;
+    });
+    sail.add(new THREE.Mesh(battenGeo, JUNK_MATS.batten));
     sail.position.set(mx + (o.squareSail ? 0 : -sw * 0.35), 1.6 + hgt * 0.52, 0);
     if (o.squareSail) sail.rotation.y = Math.PI / 2; // squared across the hull, running before the wind
     g.add(sail);
+    // the sheets: a fan of lines from each batten's aft end down to the deck aft of the mast
+    sail.updateMatrix();
+    const t = new THREE.Vector3();
+    const deck = new THREE.Vector3(o.squareSail ? mx - 1.6 : mx - sw * 0.95, 1.7, 0);
+    for (let b = 1; b <= BATTENS; b++) {
+      shape(-sw / 2, (b / BATTENS - 0.5) * sh, t).applyMatrix4(sail.matrix);
+      lines.push(t.x, t.y, t.z, deck.x, deck.y, deck.z);
+    }
+    // stays from the masthead to bow and stern
+    const top = new THREE.Vector3(mx, 1.2 + hgt, 0);
+    lines.push(top.x, top.y, top.z, o.len * 0.5, 1.9 + 0.55, 0);
+    lines.push(top.x, top.y, top.z, -o.len * 0.5, 2.4 + 0.35, 0);
     if (m === 0) {
       const flagPivot = new THREE.Group();
       flagPivot.position.set(mx, 1.2 + hgt + 0.2, 0);
-      const flag = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 1.2), new THREE.MeshStandardMaterial({ map: o.flag, side: THREE.DoubleSide, roughness: 1 }));
+      const flag = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 1.2, 6, 1), new THREE.MeshStandardMaterial({ map: o.flag, side: THREE.DoubleSide, roughness: 1 }));
       flag.position.x = 0.75;
       const fp = new THREE.Group();
       fp.add(flag);
@@ -1289,6 +1612,9 @@ function buildJunk(o: { len: number; beam: number; color: number; wood: THREE.Te
       o.flags.push(fp as unknown as THREE.Mesh);
     }
   }
+  const rig = new THREE.BufferGeometry();
+  rig.setAttribute('position', new THREE.Float32BufferAttribute(lines, 3));
+  g.add(new THREE.LineSegments(rig, JUNK_MATS.rope));
   return { g, hull };
 }
 
@@ -1339,9 +1665,9 @@ class Particles {
       uniforms: { uTex: { value: tex }, uScale: { value: 420 }, uGlow: { value: 0 } },
       vertexShader: /* glsl */ `
         attribute float aLife; attribute float aSize; attribute float aKind; attribute float aRot; attribute float aSeed;
-        varying float vLife; varying float vKind; varying float vRot; varying float vSeed; uniform float uScale;
+        varying float vLife; varying float vKind; varying float vRot; varying float vSeed; varying float vY; uniform float uScale;
         void main(){
-          vLife = aLife; vKind = aKind; vRot = aRot; vSeed = aSeed;
+          vLife = aLife; vKind = aKind; vRot = aRot; vSeed = aSeed; vY = (modelMatrix * vec4(position, 1.0)).y;
           vec4 mv = modelViewMatrix * vec4(position, 1.0);
           float grow = ${additive ? 'aKind > 0.5 ? 1.0 : (0.6 + aLife * 1.2) * (1.0 - aLife * 0.75)' : '0.5 + aLife * 2.4'};
           gl_PointSize = aLife >= 1.0 ? 0.0 : min(600.0, aSize * grow * uScale / -mv.z);
@@ -1378,7 +1704,7 @@ class Particles {
           gl_FragColor = vec4(c * alpha * 0.95, alpha);
         }`
         : /* glsl */ `
-        uniform sampler2D uTex; uniform float uGlow; varying float vLife; varying float vRot; varying float vSeed;
+        uniform sampler2D uTex; uniform float uGlow; varying float vLife; varying float vRot; varying float vSeed; varying float vY;
         void main(){
           vec2 pc = gl_PointCoord - 0.5;
           float cs = cos(vRot), sn = sin(vRot);
@@ -1386,11 +1712,22 @@ class Particles {
           if (pc.x < 0.0 || pc.y < 0.0 || pc.x > 1.0 || pc.y > 1.0) discard;
           vec2 uv = (pc + vec2(mod(vSeed, 2.0), floor(vSeed / 2.0))) * 0.5;
           float a = texture2D(uTex, uv).a;
-          // lit from below by the fire while young and low; charcoal once it has risen and cooled
-          vec3 warm = vec3(0.62, 0.26, 0.08) * (0.6 + uGlow * 0.6);
-          vec3 c = mix(warm, vec3(0.055, 0.055, 0.065), smoothstep(0.0, 0.4, vLife));
-          c += vec3(0.05, 0.06, 0.08) * (1.0 - pc.y) * smoothstep(0.3, 1.0, vLife);
-          gl_FragColor = vec4(c, a * 0.6 * (1.0 - vLife) * smoothstep(0.0, 0.08, vLife));
+          // A billow, not a flat card: a ball normal across the sprite, roughened by the slope of
+          // the puff's own density. Bellies facing the fire glow orange, and the glow dies away
+          // with height, so the columns rise dark (charcoal, rimmed by the moon) over a lit base.
+          const float e = 0.012;
+          vec2 gr = vec2(texture2D(uTex, uv - vec2(e, 0.0)).a - texture2D(uTex, uv + vec2(e, 0.0)).a,
+                         texture2D(uTex, uv + vec2(0.0, e)).a - texture2D(uTex, uv - vec2(0.0, e)).a);
+          gr = mat2(cs, sn, -sn, cs) * gr;
+          vec2 sp = (gl_PointCoord - 0.5) * vec2(2.0, -2.0);
+          vec3 nrm = normalize(vec3(sp * 0.9 + gr * 2.4, sqrt(max(0.05, 1.0 - dot(sp, sp)))));
+          float below = clamp(-nrm.y * 0.65 + 0.4, 0.0, 1.0);
+          float heat = uGlow * exp(-max(0.0, vY - 3.0) / 7.0) * (1.0 - 0.6 * smoothstep(0.0, 0.6, vLife));
+          vec3 c = vec3(0.028, 0.026, 0.029) * (0.7 + 0.6 * clamp(nrm.y * 0.5 + 0.5, 0.0, 1.0));
+          c += vec3(0.03, 0.04, 0.058) * clamp(dot(nrm, normalize(vec3(-0.4, 0.8, 0.45))), 0.0, 1.0);
+          c += vec3(1.0, 0.38, 0.1) * heat * (0.06 + below * 0.7);
+          c *= mix(1.0, 0.72, a); // dense cores shade themselves
+          gl_FragColor = vec4(c, a * 0.78 * pow(1.0 - vLife, 0.7) * smoothstep(0.0, 0.08, vLife));
         }`,
     });
     this.points = new THREE.Points(geo, mat);

@@ -500,3 +500,8 @@
 @media (prefers-reduced-motion: reduce) {
   .sa-grow, .sa-brush, .sa-pop, .sa-rise, .sa-tap { animation: none !important; }
 }
+
+/* touch screens: hide keyboard shortcuts on buttons and coach tips; people tap the buttons */
+@media (pointer: coarse) {
+  .g-btn kbd, .g-coach kbd { display: none; }
+}
