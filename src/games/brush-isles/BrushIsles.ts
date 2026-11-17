@@ -1453,7 +1453,8 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     if (!NW) return;
     const cap = Math.min(NW, want);
     const active = walkers.reduce((n, w) => n + (w.leaving ? 0 : 1), 0);
-    if (active < cap && wRng() < dt * 4) spawnWalker();
+    // a few new faces each frame until the town is peopled (they fade in where they appear)
+    if (active < cap) for (let i = 0; i < Math.min(3, cap - active); i++) spawnWalker();
     else if (active > cap) {
       const w = walkers.find((v) => !v.leaving);
       if (w) w.leaving = true;
@@ -1989,6 +1990,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   /* ---------- frame loop */
   let coachTimer = 0;
   let normalsTimer = 0;
+  let statsTimer = 0;
   stage.onFrame((dt, t) => {
     clock = t;
     if (ended && !reduced) goal.yaw += dt * 0.06;
@@ -2014,6 +2016,12 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     processCells(painting ? 70 : 120);
     stepAnims(dt);
 
+    // (the coach can hold its message for seconds; the life of the town shouldn't wait for it)
+    statsTimer -= dt;
+    if (statsTimer <= 0) {
+      cur = stats();
+      statsTimer = 0.3;
+    }
     const s = cur;
     stepBoats(dt, t, Math.min(14, Math.floor(s.houses / 7) + Math.floor(s.chinampas / 6) + (st.id === 'raiatea' ? 3 : 1)));
     for (const sp of spinners) sp.rotation.z -= dt * (reduced ? 0.3 : 1.1);
@@ -2068,6 +2076,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       },
       stats,
       finish,
+      debug: () => ({ walkers: walkers.length, scatter: scatterPools.map((sp) => sp.p.items.length) }),
     };
 
   return {

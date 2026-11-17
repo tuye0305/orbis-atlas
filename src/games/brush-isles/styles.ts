@@ -176,16 +176,17 @@ export function mountains(k: Kit, rng: Rng, o: { count: number; r0: number; r1: 
 
 /** Ready-made scatter models; each city picks and tints its own. */
 export const SCATTER = {
-  /** A tuft of grass blades fanning out from one point. */
+  /** A tuft of grass: a dozen thin, flattened blades arching out from one point. */
   tuft: (a: string, b: string) => (k: Kit) => {
     const m = new THREE.Matrix4();
-    for (let i = 0; i < 7; i++) {
-      const ang = (i / 7) * Math.PI * 2;
-      const lean = 0.25 + (i % 3) * 0.12;
-      const hh = 0.1 + (i % 4) * 0.025;
-      const q = new THREE.Quaternion().setFromEuler(new THREE.Euler(Math.cos(ang) * lean, 0, Math.sin(ang) * lean));
-      m.compose(new THREE.Vector3(Math.sin(ang) * lean * hh * 0.5, hh / 2, -Math.cos(ang) * lean * hh * 0.5), q, new THREE.Vector3(1, 1, 1));
-      k.add(new THREE.ConeGeometry(0.012, hh, 3), i % 2 ? a : b, m);
+    for (let i = 0; i < 12; i++) {
+      const ang = i * 2.39996;
+      const lean = 0.18 + (i % 4) * 0.12;
+      const hh = 0.045 + ((i * 7) % 5) * 0.009;
+      const q = new THREE.Quaternion().setFromEuler(new THREE.Euler(Math.cos(ang) * lean, ang, Math.sin(ang) * lean, 'YXZ'));
+      const r = 0.012 + (i % 3) * 0.01;
+      m.compose(new THREE.Vector3(Math.cos(ang) * r, hh / 2, Math.sin(ang) * r), q, new THREE.Vector3(1, 1, 0.25));
+      k.add(new THREE.ConeGeometry(0.012, hh, 3), i % 3 ? a : b, m);
     }
   },
   /** A few stems with flower heads. */
