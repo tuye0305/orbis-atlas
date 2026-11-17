@@ -302,7 +302,11 @@ export const mount: MountGame = (root, ctx) => {
     g.computeVertexNormals();
     return g;
   };
-  const landMat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, envMapIntensity: 0.3 });
+  // the relief of photographed dry ground (Poly Haven, CC0), tiled ~15 m, so the moon rakes across
+  // ruts, stones and tussocks rather than a smooth plaster bank
+  const landNrm = photoTex('aerial_ground_rock_nor', false);
+  landNrm.repeat.set(60, 16);
+  const landMat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, envMapIntensity: 0.3, normalMap: landNrm, normalScale: new THREE.Vector2(1.2, 1.2) });
   const north = new THREE.Mesh(landGeo(900, 260, -196, northHeight), landMat);
   north.position.set(0, 0, -196);
   scene.add(north);
@@ -324,13 +328,52 @@ export const mount: MountGame = (root, ctx) => {
       if (!northSide && x < -30 && x > -100 && z < 80) continue; // and the cliff top
       pts.push([x, (northSide ? northHeight(x, z) : southHeight(x, z)) - 0.3, z, 0.7 + r() * 0.9]);
     }
-    const tree = new THREE.ConeGeometry(1.5, 5.5, 7);
-    tree.translate(0, 2.6, 0);
-    const trees = new THREE.InstancedMesh(tree, new THREE.MeshStandardMaterial({ color: 0x0b120d, roughness: 1, envMapIntensity: 0.2 }), pts.length);
+    // two kinds: tiered pines with ragged, drooping layers, and rounded broadleaf crowns. Every
+    // vertex is pushed by noise so no two outlines read as the same cone against the sky.
+    const ragged = (g: THREE.BufferGeometry, amt: number, seed: number) => {
+      const p = g.attributes.position as THREE.BufferAttribute;
+      const rr = mulberry(seed);
+      const jit = new Map<string, number>();
+      for (let i = 0; i < p.count; i++) {
+        const key = `${p.getX(i).toFixed(3)},${p.getY(i).toFixed(3)},${p.getZ(i).toFixed(3)}`;
+        let j = jit.get(key);
+        if (j === undefined) jit.set(key, (j = 1 + (rr() - 0.5) * amt));
+        p.setXYZ(i, p.getX(i) * j, p.getY(i) + (j - 1) * 0.6, p.getZ(i) * j);
+      }
+      g.computeVertexNormals();
+      return g;
+    };
+    const pine = mergeGeometries([
+      new THREE.CylinderGeometry(0.12, 0.2, 2.2, 5).translate(0, 1.1, 0),
+      ragged(new THREE.ConeGeometry(1.9, 2.4, 9, 2).translate(0, 2.0, 0), 0.5, 1),
+      ragged(new THREE.ConeGeometry(1.5, 2.2, 9, 2).translate(0.15, 3.2, 0.1), 0.5, 2),
+      ragged(new THREE.ConeGeometry(1.05, 2.0, 8, 2).translate(-0.1, 4.3, 0), 0.5, 3),
+      ragged(new THREE.ConeGeometry(0.6, 1.7, 7, 1).translate(0, 5.3, 0), 0.4, 4),
+    ].map((g) => g.toNonIndexed()))!;
+    const broad = mergeGeometries([
+      new THREE.CylinderGeometry(0.14, 0.24, 2.0, 5).translate(0, 1.0, 0).toNonIndexed(),
+      ragged(new THREE.IcosahedronGeometry(1.7, 1).scale(1.15, 0.85, 1.1).translate(0, 3.0, 0), 0.45, 5).toNonIndexed(),
+      ragged(new THREE.IcosahedronGeometry(1.1, 1).translate(0.9, 3.7, 0.4), 0.45, 6).toNonIndexed(),
+      ragged(new THREE.IcosahedronGeometry(1.0, 1).translate(-0.8, 3.5, -0.5), 0.45, 7).toNonIndexed(),
+    ])!;
+    const treeMat = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 1, envMapIntensity: 0.2, flatShading: true });
     const m = new THREE.Matrix4();
     const q = new THREE.Quaternion();
-    pts.forEach(([x, y, z, k], i) => trees.setMatrixAt(i, m.compose(new THREE.Vector3(x, y, z), q, new THREE.Vector3(k, k * (0.8 + (i % 5) * 0.12), k))));
-    scene.add(trees);
+    const tint = new THREE.Color();
+    for (const [geo, keep] of [
+      [pine, 0],
+      [broad, 1],
+    ] as const) {
+      const mine = pts.filter((_, i) => (i * 7919) % 5 < 3 === (keep === 0));
+      const trees = new THREE.InstancedMesh(geo, treeMat, mine.length);
+      mine.forEach(([x, y, z, k], i) => {
+        q.setFromAxisAngle(new THREE.Vector3(0, 1, 0), ((i * 2.399) % 6.283));
+        trees.setMatrixAt(i, m.compose(new THREE.Vector3(x, y, z), q, new THREE.Vector3(k, k * (0.8 + (i % 5) * 0.12), k)));
+        // deep blue-green to olive in moonlight, never quite the same twice
+        trees.setColorAt(i, tint.setRGB(0.035 + (i % 7) * 0.004, 0.06 + (i % 5) * 0.006, 0.045 + (i % 3) * 0.006));
+      });
+      scene.add(trees);
+    }
   }
 
   // Distant ridges, layered into the haze: each farther one paler, as in ink-wash landscapes.

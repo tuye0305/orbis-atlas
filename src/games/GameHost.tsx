@@ -40,6 +40,8 @@ const L = {
   goal: { en: 'Your goal', zh: '目标' },
 };
 const l = (k: keyof typeof L, lang: Lang) => L[k][lang];
+/** Phones and tablets: key names mean nothing there, the on-screen buttons do the work. */
+const touch = typeof window !== 'undefined' && window.matchMedia?.('(pointer: coarse)').matches;
 
 export default function GameHost({ id }: { id: string }) {
   const def = GAME_BY_ID[id];
@@ -153,7 +155,7 @@ export default function GameHost({ id }: { id: string }) {
                       <i>{i + 1}</i>
                       <b>{t(st.title, lang)}</b>
                     </div>
-                    {st.keys ? <kbd>{t(st.keys, lang)}</kbd> : <kbd className="gp-nokey">{lang === 'zh' ? '等待' : 'wait'}</kbd>}
+                    {st.keys ? <kbd>{touch ? (lang === 'zh' ? '点按' : 'tap') : t(st.keys, lang)}</kbd> : <kbd className="gp-nokey">{lang === 'zh' ? '等待' : 'wait'}</kbd>}
                     <span className="sr-only">{t(st.text, lang)}</span>
                   </li>
                 ))}

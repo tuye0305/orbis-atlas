@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { createSfx } from '../shared/sfx';
 import { GAME_BY_ID } from '../registry';
 import { createCoach } from '../shared/coach';
@@ -279,58 +280,105 @@ export const mount: MountGame = (root, ctx) => {
   const padM = new THREE.Group();
   padM.scale.setScalar(0.001); // build in metres
   pad.add(padM);
-  // painted slabs and scorch rings, with the relief of worn poured concrete (Poly Haven, CC0) tiled
-  // ~13 m across the 80 m deck
-  const concrete = new THREE.MeshStandardMaterial({ color: 0xa8a396, map: concreteTexture(), normalMap: photo('concrete_floor_worn_001_nor', false, 6), normalScale: new THREE.Vector2(1.4, 1.4), roughness: 0.95 });
+  // Gagarin's Start: a stepped concrete launch table on a wide apron, the flame-trench mouth open
+  // under the rocket, and steel lattice for every mast and arm. The table carries painted slabs and
+  // scorch rings, with the relief of worn poured concrete (Poly Haven, CC0).
+  const slabMap = concreteTexture();
+  slabMap.center.set(0.5, 0.5);
+  slabMap.rotation = Math.PI / 4; // the square frustum's cap is mapped as a diamond
+  const relief = (rep: number) => photo('concrete_floor_worn_001_nor', false, rep);
+  const concrete = new THREE.MeshStandardMaterial({ color: 0xa8a396, map: slabMap, normalMap: relief(5), normalScale: new THREE.Vector2(1.4, 1.4), roughness: 0.95 });
+  const apronMap = concreteTexture(false);
+  apronMap.center.set(0.5, 0.5);
+  apronMap.rotation = Math.PI / 4;
+  const apronMat = new THREE.MeshStandardMaterial({ color: 0x9a9488, map: apronMap, normalMap: relief(9), normalScale: new THREE.Vector2(1.2, 1.2), roughness: 0.97 });
   const steel = new THREE.MeshStandardMaterial({ color: 0x8a4a32, roughness: 0.55, metalness: 0.55 });
-  // deck top sits 0.6 m proud of the ground so the two never z-fight
-  const deck = new THREE.Mesh(new THREE.CylinderGeometry(40, 46, 4, 40), concrete);
-  deck.position.y = -1.4;
-  padM.add(deck);
-  const pit = new THREE.Mesh(new THREE.BoxGeometry(14, 4, 34), new THREE.MeshStandardMaterial({ color: 0x1c1b18 }));
-  pit.position.set(0, -1.3, 20);
+  const mastMat = new THREE.MeshStandardMaterial({ color: 0x9a9c98, roughness: 0.6, metalness: 0.5 });
+  // square frustums (4-sided cylinders turned 45°): sloped concrete skirts, tops proud of the ground
+  const SQ = Math.SQRT2;
+  const frustum = (top: number, bottom: number, hgt: number, y: number, mat: THREE.Material) => {
+    const m = new THREE.Mesh(new THREE.CylinderGeometry(top * SQ, bottom * SQ, hgt, 4, 1), mat);
+    m.rotation.y = Math.PI / 4;
+    m.position.y = y;
+    padM.add(m);
+    return m;
+  };
+  frustum(50, 56, 1.0, -0.3, apronMat); // apron, top 0.2 m
+  frustum(26, 29, 1.2, 0.0, concrete); // launch table, top 0.6 m
+  // the trench mouth: a dark well under the stack, running out to the table's edge, with a steel lip
+  const pitMat = new THREE.MeshStandardMaterial({ color: 0x0b0a09, roughness: 1 });
+  const pit = new THREE.Mesh(new THREE.BoxGeometry(15, 0.1, 34), pitMat);
+  pit.position.set(0, 0.62, 9);
   padM.add(pit);
-  // The four support arms ("tulip") that fall back at lift-off.
+  {
+    const lip: THREE.BufferGeometry[] = [];
+    for (const x of [-7.8, 7.8]) lip.push(new THREE.BoxGeometry(0.6, 0.5, 34.6).translate(x, 0.75, 9));
+    for (const z of [-8.3, 26.3]) lip.push(new THREE.BoxGeometry(16.2, 0.5, 0.6).translate(0, 0.75, z));
+    padM.add(new THREE.Mesh(mergeGeometries(lip)!, mastMat));
+  }
+  // The four support arms ("tulip") that fall back at lift-off: tapering lattice trusses.
+  const armGeo = lattice(1.1, 0.55, 26, 3.25, 0.32);
   const arms: THREE.Group[] = [];
   for (let i = 0; i < 4; i++) {
     const a = new THREE.Group();
-    const beam = new THREE.Mesh(new THREE.BoxGeometry(1.6, 26, 1.6), steel);
-    beam.position.y = 13;
-    a.add(beam);
+    a.add(new THREE.Mesh(armGeo, steel));
+    // counterweight at the foot that swings the arm clear
+    const cw = new THREE.Mesh(new THREE.BoxGeometry(3, 2.2, 3), steel);
+    cw.position.set(1.2, 0.9, 0);
+    a.add(cw);
     const ang = (i / 4) * Math.PI * 2 + Math.PI / 4;
-    a.position.set(Math.cos(ang) * 7.5, 0, Math.sin(ang) * 7.5);
+    a.position.set(Math.cos(ang) * 7.5, 0.6, Math.sin(ang) * 7.5);
     a.rotation.y = -ang;
     a.rotation.z = 0.08;
     padM.add(a);
     arms.push(a);
   }
 
-  // The two cable masts and the low service buildings around Gagarin's Start, for scale.
+  // The two cable masts, floodlight towers, the erector rail line and the low service buildings
+  // around Gagarin's Start, for scale.
   {
-    const mastMat = new THREE.MeshStandardMaterial({ color: 0x9a9c98, roughness: 0.6, metalness: 0.5 });
     for (const [x, z, hgt] of [
       [-22, -8, 52],
       [24, 6, 46],
     ] as const) {
       const g = new THREE.Group();
-      for (const [dx, dz] of [
-        [-1.2, -1.2],
-        [1.2, -1.2],
-        [-1.2, 1.2],
-        [1.2, 1.2],
-      ]) {
-        const leg = new THREE.Mesh(new THREE.BoxGeometry(0.35, hgt, 0.35), mastMat);
-        leg.position.set(dx, hgt / 2, dz);
-        g.add(leg);
-      }
-      for (let y = 4; y < hgt; y += 4) {
-        const ring = new THREE.Mesh(new THREE.BoxGeometry(2.8, 0.25, 2.8), mastMat);
-        ring.position.y = y;
-        g.add(ring);
-      }
-      g.position.set(x, 0, z);
+      g.add(new THREE.Mesh(lattice(1.3, 1.0, hgt, 4, 0.34), mastMat));
+      // cable boom and working platform at the top
+      const deckTop = new THREE.Mesh(new THREE.BoxGeometry(3.6, 0.3, 3.6), mastMat);
+      deckTop.position.y = hgt;
+      g.add(deckTop);
+      const boom = new THREE.Mesh(new THREE.BoxGeometry(Math.hypot(x, z) * 0.55, 0.5, 0.5), mastMat);
+      boom.position.set((-Math.sign(x) * Math.hypot(x, z) * 0.55) / 2, hgt - 6, 0);
+      g.add(boom);
+      g.position.set(x, 0.6, z);
       padM.add(g);
     }
+    // four floodlight towers at the apron corners
+    const floodGeo = lattice(1.1, 0.4, 62, 5, 0.26);
+    const lamp = new THREE.MeshStandardMaterial({ color: 0x6d6f6c, roughness: 0.5, metalness: 0.6, emissive: 0xfff2d8, emissiveIntensity: 0.15 });
+    for (let i = 0; i < 4; i++) {
+      const a = (i / 4) * Math.PI * 2 + Math.PI / 4;
+      const tw = new THREE.Group();
+      tw.add(new THREE.Mesh(floodGeo, mastMat));
+      const head = new THREE.Mesh(new THREE.BoxGeometry(4, 2.4, 1), lamp);
+      head.position.y = 62;
+      tw.add(head);
+      tw.position.set(Math.cos(a) * 95, 0, Math.sin(a) * 95);
+      tw.lookAt(0, 0, 0);
+      padM.add(tw);
+    }
+    // the rail line the rocket arrived on, lying flat on the erector, from the assembly hall
+    const railMat = new THREE.MeshStandardMaterial({ color: 0x5c5650, roughness: 0.45, metalness: 0.7 });
+    const railLen = 420;
+    const rails = mergeGeometries([-0.76, 0.76].map((x) => new THREE.BoxGeometry(0.12, 0.16, railLen).translate(x, 0.32, -56 - railLen / 2)))!;
+    padM.add(new THREE.Mesh(rails, railMat));
+    const sleepers = new THREE.InstancedMesh(new THREE.BoxGeometry(2.6, 0.2, 0.25), new THREE.MeshStandardMaterial({ color: 0x3e3730, roughness: 1 }), Math.floor(railLen / 0.8));
+    const sm = new THREE.Matrix4();
+    for (let i = 0; i < sleepers.count; i++) sleepers.setMatrixAt(i, sm.makeTranslation(0, 0.14, -56 - i * 0.8));
+    padM.add(sleepers);
+    const ballast = new THREE.Mesh(new THREE.BoxGeometry(4.2, 0.22, railLen), new THREE.MeshStandardMaterial({ color: 0x77706a, roughness: 1, normalMap: relief(1) }));
+    ballast.position.set(0, 0.04, -56 - railLen / 2);
+    padM.add(ballast);
     const shed = new THREE.MeshStandardMaterial({ color: 0xb9b3a4, roughness: 0.9 });
     for (let i = 0; i < 9; i++) {
       const b = new THREE.Mesh(new THREE.BoxGeometry(14 + (i % 3) * 8, 5 + (i % 4) * 2, 10 + (i % 2) * 6), shed);
@@ -340,6 +388,10 @@ export const mount: MountGame = (root, ctx) => {
       b.rotation.y = a;
       padM.add(b);
     }
+    // the assembly hall at the far end of the rail line
+    const hall = new THREE.Mesh(new THREE.BoxGeometry(60, 26, 110), shed);
+    hall.position.set(0, 13, -56 - railLen - 55);
+    padM.add(hall);
   }
   // the engines light the pad, the stack and the cloud for the first seconds
   const launchLight = new THREE.PointLight(0xffa04a, 0, 0.35, 1.2);
@@ -1551,8 +1603,41 @@ function panelTexture() {
   return t;
 }
 
+/** A square steel lattice tower in metres: four corner legs, a ring every bay and a cross-brace on
+ *  each face, tapering from half-width w0 at the foot to w1 at the top. One merged geometry. */
+function lattice(w0: number, w1: number, hgt: number, bay: number, t: number) {
+  const parts: THREE.BufferGeometry[] = [];
+  const Y = new THREE.Vector3(0, 1, 0);
+  const strut = (a: THREE.Vector3, b: THREE.Vector3, th: number) => {
+    const g = new THREE.BoxGeometry(th, a.distanceTo(b), th);
+    const q = new THREE.Quaternion().setFromUnitVectors(Y, b.clone().sub(a).normalize());
+    g.applyMatrix4(new THREE.Matrix4().compose(a.clone().add(b).multiplyScalar(0.5), q, new THREE.Vector3(1, 1, 1)));
+    parts.push(g);
+  };
+  const corner = (y: number, i: number) => {
+    const w = w0 + ((w1 - w0) * y) / hgt;
+    return new THREE.Vector3(i === 0 || i === 3 ? -w : w, y, i < 2 ? -w : w);
+  };
+  for (let i = 0; i < 4; i++) strut(corner(0, i), corner(hgt, i), t * 1.5);
+  const bays = Math.max(1, Math.round(hgt / bay));
+  for (let k = 0; k <= bays; k++) {
+    const y = (k / bays) * hgt;
+    for (let i = 0; i < 4; i++) {
+      strut(corner(y, i), corner(y, (i + 1) % 4), t);
+      if (k < bays) {
+        const y2 = ((k + 1) / bays) * hgt;
+        if (k % 2) strut(corner(y, i), corner(y2, (i + 1) % 4), t * 0.8);
+        else strut(corner(y, (i + 1) % 4), corner(y2, i), t * 0.8);
+      }
+    }
+  }
+  const g = mergeGeometries(parts)!;
+  for (const p of parts) p.dispose();
+  return g;
+}
+
 /** Poured slabs: expansion joints, stains and scorch rings round the flame pit. */
-function concreteTexture() {
+function concreteTexture(scorch = true) {
   const c = document.createElement('canvas');
   c.width = c.height = 512;
   const g = c.getContext('2d')!;
@@ -1572,12 +1657,35 @@ function concreteTexture() {
     g.lineTo(512, x);
     g.stroke();
   }
-  const r = g.createRadialGradient(256, 256, 20, 256, 256, 250);
-  r.addColorStop(0, 'rgba(20,16,12,.75)');
-  r.addColorStop(0.35, 'rgba(40,32,24,.35)');
-  r.addColorStop(1, 'rgba(0,0,0,0)');
-  g.fillStyle = r;
-  g.fillRect(0, 0, 512, 512);
+  // tide marks of rain, oil and blown dust, plus slabs poured on different days
+  for (let i = 0; i < 40; i++) {
+    const x = (i % 8) * 64, y = Math.floor(i / 8) * 64 + (scorch ? 0 : 192);
+    g.fillStyle = `rgba(${Math.random() < 0.5 ? '70,62,50' : '235,228,214'},${Math.random() * 0.12})`;
+    g.fillRect(x + 1, y % 512, 63, 63);
+  }
+  for (let i = 0; i < 26; i++) {
+    const x = Math.random() * 512, y = Math.random() * 512, rr = 10 + Math.random() * 46;
+    const st = g.createRadialGradient(x, y, 0, x, y, rr);
+    st.addColorStop(0, `rgba(48,40,30,${0.08 + Math.random() * 0.12})`);
+    st.addColorStop(1, 'rgba(48,40,30,0)');
+    g.fillStyle = st;
+    g.fillRect(x - rr, y - rr, rr * 2, rr * 2);
+  }
+  if (scorch) {
+    const r = g.createRadialGradient(256, 256, 20, 256, 256, 250);
+    r.addColorStop(0, 'rgba(20,16,12,.75)');
+    r.addColorStop(0.35, 'rgba(40,32,24,.35)');
+    r.addColorStop(1, 'rgba(0,0,0,0)');
+    g.fillStyle = r;
+    g.fillRect(0, 0, 512, 512);
+  } else {
+    // steppe dust drifted against the outer edge
+    const r = g.createRadialGradient(256, 256, 150, 256, 256, 365);
+    r.addColorStop(0, 'rgba(150,130,96,0)');
+    r.addColorStop(1, 'rgba(150,130,96,.55)');
+    g.fillStyle = r;
+    g.fillRect(0, 0, 512, 512);
+  }
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   t.anisotropy = 8;

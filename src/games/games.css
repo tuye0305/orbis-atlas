@@ -274,3 +274,8 @@
 @media (prefers-reduced-motion: reduce) {
   .game-host, .game-panel, .gp-stars span, .gp-steps li, .g-pulse, .g-say .g-say-ico, .gp-art *, .gp-hero * { animation: none !important; }
 }
+
+/* touch screens: hide keyboard shortcuts on buttons and coach tips; people tap the buttons */
+@media (pointer: coarse) {
+  .g-btn kbd, .g-coach kbd { display: none; }
+}
