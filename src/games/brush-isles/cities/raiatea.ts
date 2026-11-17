@@ -20,8 +20,12 @@ const LICHEN = ['#a8a77a', '#b39a62', '#8d957a', '#bdb48c', '#7f8a68'];
 const STAIN = '#3f3d38';
 const SKIN = '#8a5a3a';
 const PAEPAE = ['#6f6a60', '#7a746a', '#857e72', '#69645b'];
-const PAVE_DARK = ['#77726a', '#7e796f', '#706b63'];
-const PAVE_LIGHT = ['#a0967f', '#aa9f88', '#968c79', '#b2a68e'];
+const PAVE_DARK = ['#5f5b55', '#67625a', '#56534e', '#6e685f'];
+const PAVE_LIGHT = ['#aca188', '#b6ab91', '#a2977f', '#bcb299'];
+/** Weathered coral limestone, pale as bone: the great facing slabs of the ahu. */
+const CORAL_PALE = ['#d6ccb3', '#cdc2a8', '#ddd4bd', '#c6bba0', '#d2c7ab'];
+/** Moss and grass in the joints of the court. */
+const MOSS = ['#6f7a46', '#64703f', '#7a8350', '#5d6a3c'];
 
 /* ---------- small modelling helpers (local to this city) */
 
@@ -197,12 +201,12 @@ function thatch(k: Kit, ring: Ring, o: { A: number; B: number; rh: number; ridge
 
 /** An irregular flat paving stone: a prism on a jittered polygon, w × d across. */
 function flag(k: Kit, rng: Rng, x: number, z: number, w: number, d: number, h: number, y: number, color: THREE.ColorRepresentation) {
-  const n = 6 + Math.floor(rng() * 2);
+  const n = 5 + Math.floor(rng() * 3);
   const ph = rng() * 6.28;
   const rim: THREE.Vector3[] = [];
   for (let i = 0; i < n; i++) {
-    const a = ph - ((i + (rng() - 0.5) * 0.5) / n) * Math.PI * 2;
-    const r = 0.5 * (0.78 + rng() * 0.26);
+    const a = ph - ((i + (rng() - 0.5) * 0.7) / n) * Math.PI * 2;
+    const r = 0.5 * (0.68 + rng() * 0.36);
     rim.push(V(x + Math.cos(a) * r * w, y + h, z + Math.sin(a) * r * d));
   }
   const pos: number[] = [];
@@ -900,7 +904,7 @@ export const raiatea: Style = {
     })();
     // the terrace, its sides stone-faced
     plinth(k, 2.84, 2.84, '#5f5a50');
-    k.box(2.86, 0.03, 2.86, 0, 0, 0, '#a59c86');
+    k.box(2.86, 0.03, 2.86, 0, 0, 0, '#7c7a5a');
     // where the ground falls away (the shore, a slope) the terrace shows a retaining face of
     // slabs; they sit low, where the baked occlusion darkens most, so they start out pale
     {
@@ -922,10 +926,15 @@ export const raiatea: Style = {
       const dd = Math.min(zB - z, 0.15 + rng() * 0.1);
       let x = -1.3 + rng() * 0.06;
       while (x < 1.28) {
-        const ww = Math.min(1.3 - x, 0.13 + rng() * 0.2);
-        if (rng() > 0.06) {
-          const col = jitter(rng() < 0.4 ? pick(rng, PAVE_DARK) : pick(rng, PAVE_LIGHT), rng, 0.01, 0.04, 0.06);
-          flag(k, rng, x + ww / 2, z + dd / 2, ww * 1.1, dd * 1.1, 0.026 + rng() * 0.014, 0.02, col);
+        const ww = Math.min(1.3 - x, 0.12 + rng() * 0.24);
+        const gone = rng();
+        if (gone > 0.1) {
+          const t = rng();
+          const col = jitter(t < 0.45 ? pick(rng, PAVE_DARK) : t < 0.92 ? pick(rng, PAVE_LIGHT) : pick(rng, LICHEN), rng, 0.01, 0.04, 0.07);
+          flag(k, rng, x + ww / 2, z + dd / 2, ww * 1.04, dd * 1.04, 0.024 + rng() * 0.018, 0.02, col);
+        } else {
+          // a missing stone: grass has taken the hole
+          flag(k, rng, x + ww / 2, z + dd / 2, ww * 0.9, dd * 0.9, 0.012, 0.02, jitter(pick(rng, MOSS), rng, 0.01, 0.05, 0.05));
         }
         x += ww;
       }
@@ -947,7 +956,7 @@ export const raiatea: Style = {
     const az1 = -0.6;
     const ah = 0.34;
     k.box(ax * 2 - 0.04, ah - 0.02, az1 - az0 - 0.04, 0, 0.02, (az0 + az1) / 2, '#4a4843');
-    const face = { h: [ah - 0.02, ah + 0.07] as [number, number], w: [0.12, 0.26] as [number, number], t: 0.05, colors: CORAL, alt: BASALT, altP: 0.12, lean: 0.06, y: 0.02 };
+    const face = { h: [ah + 0.01, ah + 0.09] as [number, number], w: [0.12, 0.26] as [number, number], t: 0.055, colors: CORAL_PALE, alt: CORAL, altP: 0.25, lean: 0.05, y: 0.02 };
     slabRow(k, rng, [-ax, az1], [ax, az1], 0, face);
     slabRow(k, rng, [ax, az0], [-ax, az0], Math.PI, face);
     slabRow(k, rng, [ax, az1 - 0.03], [ax, az0 + 0.03], Math.PI / 2, face);
@@ -955,7 +964,10 @@ export const raiatea: Style = {
     // a footing of basalt boulders along the front
     for (let x = -ax + 0.05; x < ax; x += 0.08 + rng() * 0.06) blob(k, 0.035 + rng() * 0.02, x, 0.03, az1 + 0.05, pick(rng, BASALT), 0.7, 0.2, 0, x * 31);
     // rubble fill on top
-    for (let i = 0; i < 46; i++) blob(k, 0.035 + rng() * 0.035, (rng() - 0.5) * (ax * 2 - 0.14), ah + 0.0, lerp(az0 + 0.07, az1 - 0.07, rng()), pick(rng, BASALT), 0.55, 0.25, 0, i + 100);
+    for (let i = 0; i < 70; i++) {
+      const big = i < 18;
+      blob(k, big ? 0.06 + rng() * 0.03 : 0.03 + rng() * 0.03, (rng() - 0.5) * (ax * 2 - 0.14), ah + (big ? 0.01 : 0), lerp(az0 + 0.07, az1 - 0.07, rng()), jitter(rng() < 0.18 ? pick(rng, CORAL) : pick(rng, BASALT), rng, 0.01, 0.03, 0.08), big ? 0.65 : 0.55, 0.25, 0, i + 100);
+    }
     // carved wooden boards (unu) standing on the ahu: plain notched planks, no figures
     for (const [i, x] of [-0.7, -0.25, 0.2, 0.62].entries()) {
       const h = 0.28 + (i % 2) * 0.08;
@@ -964,16 +976,28 @@ export const raiatea: Style = {
       k.box(0.055, h, 0.022, x, by, zz, '#6a5a48');
       k.box(0.075, 0.02, 0.028, x, by + h * 0.55, zz, '#5e4430');
       k.box(0.085, 0.035, 0.026, x, by + h, zz, '#5e4430');
+      // a band of white bark cloth (tapa) bound round the foot of each board
+      k.box(0.066, 0.06, 0.032, x, by + 0.02, zz, '#eee6d2');
     }
 
     /* upright backrest stones in the court, for the chiefs and priests, and one tall stone */
+    // (each wedged upright by a few pale packing stones round its foot, so it reads from above)
+    const upright = (x: number, zz: number, w: number, h: number, t: number, ry: number, lean: number, col: THREE.ColorRepresentation) => {
+      slab(k, x, 0.03, zz, w, h, t, ry, lean, col, rng);
+      for (let j = 0; j < 3; j++) {
+        const a = ry + (j - 1) * 1.1 + (rng() - 0.5) * 0.4;
+        const d = w * 0.55 + 0.02;
+        blob(k, 0.022 + rng() * 0.012, x + Math.sin(a) * d, 0.05, zz + Math.cos(a) * d, pick(rng, j === 1 ? BASALT : CORAL_PALE), 0.6, 0.25, 0, x * 17 + j);
+      }
+    };
     for (let i = 0; i < 6; i++) {
       const x = -0.7 + i * 0.27 + (rng() - 0.5) * 0.05;
-      const h = 0.12 + rng() * 0.12;
-      slab(k, x, 0.03, -0.3 + (rng() - 0.5) * 0.06, 0.07 + rng() * 0.04, h, 0.04, (rng() - 0.5) * 0.2, -0.08 - rng() * 0.08, jitter(pick(rng, rng() < 0.6 ? BASALT : CORAL), rng), rng);
+      const pale = i % 2 === 1;
+      upright(x, -0.3 + (rng() - 0.5) * 0.06, 0.09 + rng() * 0.05, 0.2 + rng() * 0.13, 0.055, (rng() - 0.5) * 0.2, -0.08 - rng() * 0.08, jitter(pale ? pick(rng, CORAL_PALE) : pick(rng, BASALT), rng));
     }
-    for (const [x, zz] of [[-0.75, 0.55], [0.55, 0.3], [-0.2, 0.85]] as const) slab(k, x, 0.03, zz, 0.07, 0.13 + rng() * 0.06, 0.04, rng() * 3, -0.1, jitter(pick(rng, BASALT), rng), rng);
-    slab(k, -1.08, 0.03, 0.95, 0.12, 0.38, 0.07, 0.25, -0.03, '#6d685e', rng);
+    for (const [x, zz] of [[-0.75, 0.55], [0.55, 0.3], [-0.2, 0.85]] as const) upright(x, zz, 0.085, 0.18 + rng() * 0.08, 0.05, rng() * 3, -0.1, jitter(pick(rng, BASALT), rng));
+    // and the one tall stone near the entrance
+    upright(-1.08, 0.95, 0.13, 0.5, 0.075, 0.25, -0.03, '#6d685e');
 
     /* a wooden offering platform (fata) at the side of the ahu, with leaves and coconuts on it */
     {
@@ -984,6 +1008,9 @@ export const raiatea: Style = {
       k.box(0.2, 0.008, 0.14, fx, 0.32, fz, '#5f8a3a', 0.3);
       for (let i = 0; i < 3; i++) k.sphere(0.028, fx - 0.05 + i * 0.05, 0.345, fz + (i % 2) * 0.03, '#6a6a2a', 1, 0);
     }
+
+    // red and green ti planted in the corners of the court
+    for (const [x, zz, red, sc] of [[-1.25, 1.24, true, 1.5], [1.24, 1.25, true, 1.4], [-1.26, -0.42, false, 1.6], [-1.18, 1.26, false, 1.2], [1.26, 0.28, true, 1.3]] as const) tiPlant(placed(k, V(x, 0.03, zz), x * 3, 1), 0, 0, red, sc);
 
     /* modest thatched houses at the court's edge: one closed, one open-sided */
     farePotee(placed(k, V(0.92, 0.03, 0.78), Math.PI / 2 + 0.1, 0.9), rng, 0.82);
