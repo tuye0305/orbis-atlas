@@ -111,7 +111,7 @@ export interface Scatter {
   /** Mean copies per 1 × 1 cell of that zone. */
   density: number;
   scale?: [number, number];
-  /** Sits on the water surface rather than the lake bed (lily pads). */
+  /** Lies flat on the water (lily pads). Other shallows scatter stands rooted at the water line (reeds). */
   float?: boolean;
   /** Keep its shadow off (tiny things: cheaper and cleaner). Default false. */
   shadow?: boolean;

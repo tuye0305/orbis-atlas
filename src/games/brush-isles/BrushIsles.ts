@@ -219,6 +219,8 @@ interface Cell {
   sig: number;
   obj: THREE.Object3D | null;
   inst: Inst[];
+  /** Trees standing in the cell (its instances also hold undergrowth). */
+  trees: number;
   shoreTrees: number;
 }
 
@@ -534,12 +536,36 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         uFogN: { value: st.fog.near },
         uFogF: { value: st.fog.far },
         uSand: { value: new THREE.Color(st.ground.sand) },
+        // boats: x, z and heading (unit vector); count in uNB
+        uBoat: { value: Array.from({ length: 16 }, () => new THREE.Vector4()) },
+        uNB: { value: 0 },
         ...cloudU,
       },
       vertexShader: /* glsl */ `varying vec3 vW; void main(){ vec4 w = modelMatrix * vec4(position, 1.0); vW = w.xyz; gl_Position = projectionMatrix * viewMatrix * w; }`,
       fragmentShader: /* glsl */ `
         uniform sampler2D uH; uniform float uS, uN, uT, uOut, uFogN, uFogF;
         uniform vec3 uShallow, uDeep, uFoam, uSky, uSunDir, uSunC, uFogC, uSand;
+        uniform vec4 uBoat[16]; uniform int uNB;
+        // a V of broken foam trailing each boat, and a little bow wave
+        float wakes(vec2 p, float t){
+          float w = 0.0;
+          for (int i = 0; i < 16; i++) {
+            if (i >= uNB) break;
+            vec2 d = p - uBoat[i].xy;
+            if (dot(d, d) > 9.0) continue;
+            vec2 f = uBoat[i].zw;
+            float along = -dot(d, f);
+            float side = abs(d.x * f.y - d.y * f.x);
+            if (along > 0.0 && along < 2.4) {
+              float spread = 0.08 + along * 0.3;
+              float edge = smoothstep(spread * 0.55, spread, side) * smoothstep(spread * 1.35, spread, side);
+              float inner = smoothstep(0.1, 0.0, side) * 0.5;
+              w += (edge + inner) * (1.0 - along / 2.4) * (0.55 + 0.45 * sin(along * 16.0 - t * 5.0));
+            }
+            w += smoothstep(0.22, 0.08, length(d - f * 0.18)) * 0.35;
+          }
+          return clamp(w, 0.0, 1.0);
+        }
         varying vec3 vW;
         ${NOISE_GLSL}
         #define vnoise bi_noise
@@ -580,6 +606,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
           float shallow = smoothstep(0.3, 0.02, depth);
           float foamy = smoothstep(0.52, 0.78, vnoise(p * 2.4 + vec2(t * 0.5, -t * 0.3)) * 0.7 + 0.3 * sin(depth * 30.0 - t * 2.2));
           col = mix(col, uFoam, clamp(shore * 0.8 + shallow * foamy * 0.55, 0.0, 1.0));
+          col = mix(col, uFoam, wakes(p, t) * 0.5);
           float dist = length(cameraPosition - vW);
           col = mix(col, uFogC, smoothstep(uFogN, uFogF, dist));
           gl_FragColor = vec4(col, 1.0);
@@ -594,6 +621,9 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   /* ---------- materials, pools */
   const matB = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.82, metalness: 0, side: THREE.DoubleSide, envMapIntensity: 0.4 });
   patchClouds(matB, cloudU);
+  // trees, reeds and grass: the same surface, bending in the breeze
+  const matSway = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.85, metalness: 0, side: THREE.DoubleSide, envMapIntensity: 0.4 });
+  patchClouds(matSway, cloudU, reduced ? 0 : 0.045);
   const ghostMat = new THREE.MeshBasicMaterial({ vertexColors: true, transparent: true, opacity: 0.45, depthWrite: false, fog: false });
 
   const bedKit = new Kit();
@@ -606,7 +636,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     const k = new Kit();
     st.treeKits[name](k);
     // room for every cell planted at full density with this one kind (Amsterdam's elms nearly are)
-    const p = new Pool(k.build(), matB, G * G * 3);
+    const p = new Pool(k.build(), matSway, G * G * 3);
     treePools[name] = p;
     scene.add(p.mesh);
   }
@@ -616,7 +646,8 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   const scatterPools = (st.scatter ?? []).map((sc) => {
     const k = new Kit();
     sc.kit(k);
-    const p = new Pool(k.build({ ao: 0.5 }), matB, G * G * 4);
+    // (stones and lily pads sit still; anything taller than a pebble moves with the wind)
+    const p = new Pool(k.build({ ao: 0.5 }), sc.float ? matB : matSway, G * G * 4);
     p.mesh.castShadow = !!sc.shadow;
     scene.add(p.mesh);
     return { sc, p };
@@ -825,7 +856,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   };
 
   /* ---------- cells */
-  const cells: Cell[] = Array.from({ length: G * G }, () => ({ kind: K.None, sig: -1, obj: null, inst: [], shoreTrees: 0 }));
+  const cells: Cell[] = Array.from({ length: G * G }, () => ({ kind: K.None, sig: -1, obj: null, inst: [], trees: 0, shoreTrees: 0 }));
   const reserved = new Uint8Array(G * G);
   const dirty = new Set<number>();
   const cxw = (c: number) => -HALF + c + 0.5;
@@ -923,11 +954,39 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     for (const it of c.inst) animate({ inst: it, grow: false, dur: 0.22, done: () => it.pool.remove(it) });
     c.obj = null;
     c.inst = [];
+    c.trees = 0;
     c.shoreTrees = 0;
   };
 
   const spinners = new Set<THREE.Object3D>();
   const v3 = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
+
+  /** Strew a cell with its zone's scatter; `mul` thins it out (the undergrowth under trees). */
+  const scatterInto = (c: Cell, x: number, z: number, zone: string, rng: () => number, delay: number, mul: number) => {
+    for (const { sc, p } of scatterPools) {
+      if (sc.zone !== zone) continue;
+      const want = sc.density * mul * (0.5 + rng());
+      const n = Math.floor(want) + (rng() < want % 1 ? 1 : 0);
+      for (let j = 0; j < n; j++) {
+        const px = x + (rng() - 0.5) * 0.96;
+        const pz = z + (rng() - 0.5) * 0.96;
+        const hh = heightAt(px, pz);
+        // in the shallows everything stands at the water line (the bed is hidden under opaque
+        // water): lily pads float on it, reeds rise out of it
+        const wet = sc.float || zone === 'shallows';
+        if (wet ? hh > -0.06 : hh < (zone === 'shore' ? -0.02 : 0.04)) continue;
+        const [s0, s1] = sc.scale ?? [0.85, 1.15];
+        const sz = s0 + (s1 - s0) * rng();
+        const col = new THREE.Color(1, 1, 1).multiplyScalar(0.9 + rng() * 0.2);
+        const dy = sc.float ? 0.006 : wet ? -0.02 : -0.006;
+        const it = p.add(v3(px, wet ? dy : hh + dy, pz), rng() * 6.28, v3(sz, sz, sz), col, dy, wet);
+        if (it) {
+          c.inst.push(it);
+          animate({ inst: it, grow: true, dur: 0.35, delay: delay + j * 0.03 });
+        }
+      }
+    }
+  };
 
   const buildCell = (cx: number, cz: number, c: Cell, kind: K, sub: number) => {
     const x = cxw(cx);
@@ -1010,32 +1069,15 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         const it = treePools[name].add(v3(px, heightAt(px, pz) - 0.03, pz), rng() * 6.28, v3(s, s * (0.85 + rng() * 0.3), s), col, -0.03);
         if (it) {
           c.inst.push(it);
+          c.trees++;
           if (zone === 0) c.shoreTrees++;
           animate({ inst: it, grow: true, dur: 0.5, delay: delay + j * 0.08 });
         }
       }
+      // undergrowth, so a wooded slope isn't bare ground between the trunks
+      scatterInto(c, x, z, zone === 0 ? 'shore' : zone === 2 && hasHillScatter ? 'hill' : 'grass', rng, delay, 0.55);
     } else if (kind === K.None && sub) {
-      const zone = SCATTER_ZONES[sub];
-      for (const { sc, p } of scatterPools) {
-        if (sc.zone !== zone) continue;
-        const want = sc.density * (0.5 + rng());
-        const n = Math.floor(want) + (rng() < want % 1 ? 1 : 0);
-        for (let j = 0; j < n; j++) {
-          const px = x + (rng() - 0.5) * 0.96;
-          const pz = z + (rng() - 0.5) * 0.96;
-          const hh = heightAt(px, pz);
-          if (sc.float ? hh > -0.06 : hh < (zone === 'shore' ? -0.02 : 0.04)) continue;
-          const [s0, s1] = sc.scale ?? [0.85, 1.15];
-          const sz = s0 + (s1 - s0) * rng();
-          const col = new THREE.Color(1, 1, 1).multiplyScalar(0.9 + rng() * 0.2);
-          const dy = sc.float ? 0.006 : -0.006;
-          const it = p.add(v3(px, sc.float ? dy : hh + dy, pz), rng() * 6.28, v3(sz, sz, sz), col, dy, !!sc.float);
-          if (it) {
-            c.inst.push(it);
-            animate({ inst: it, grow: true, dur: 0.35, delay: delay + j * 0.03 });
-          }
-        }
-      }
+      scatterInto(c, x, z, SCATTER_ZONES[sub], rng, delay, 1);
     } else if (kind === K.Bridge && st.bridge) {
       const k = new Kit();
       st.bridge(k, sub & 3, (sub >> 2) & 3);
@@ -1908,7 +1950,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         if (lm && Math.max(Math.abs(cx - lm.cx), Math.abs(cz - lm.cz)) <= 4) s.landmarkTown++;
       } else if (cell.kind === K.Field) s.fields++;
       else if (cell.kind === K.Chinampa) s.chinampas++;
-      else if (cell.kind === K.Trees) s.trees += cell.inst.length;
+      else if (cell.kind === K.Trees) s.trees += cell.trees;
       else if (cell.kind === K.Bridge && (cell.sig & 3) === 0) s.bridges++;
       else if (cell.kind === K.Mill) s.windmills++;
       s.shoreTrees += cell.shoreTrees;
@@ -2024,6 +2066,15 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     }
     const s = cur;
     stepBoats(dt, t, Math.min(14, Math.floor(s.houses / 7) + Math.floor(s.chinampas / 6) + (st.id === 'raiatea' ? 3 : 1)));
+    {
+      const ub = waterU.uBoat.value as THREE.Vector4[];
+      let nb = 0;
+      for (const b of boats) {
+        if (nb >= ub.length || b.leaving) continue;
+        ub[nb++].set(b.x, b.z, Math.cos(b.head), -Math.sin(b.head));
+      }
+      waterU.uNB.value = nb;
+    }
     for (const sp of spinners) sp.rotation.z -= dt * (reduced ? 0.3 : 1.1);
     stepSmoke(dt);
     stepWalkers(dt, Math.floor(s.houses * 0.7));

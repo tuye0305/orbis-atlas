@@ -50,16 +50,35 @@ const FRAG_CLOUD = /* glsl */ `
   { float cs = cloudShade(vBiW); reflectedLight.directDiffuse *= cs; reflectedLight.directSpecular *= cs; }
 `;
 
-/** Cloud shadows on a standard / lambert material (buildings, trees, boats). */
-export function patchClouds(mat: THREE.Material, u: CloudUniforms) {
+/**
+ * Cloud shadows on a standard / lambert material (buildings, trees, boats). With `sway`, an
+ * instanced mesh also bends in the breeze: the higher a vertex sits in its model, the further it
+ * moves, each copy on its own phase (trees, reeds, grass).
+ */
+export function patchClouds(mat: THREE.Material, u: CloudUniforms, sway = 0) {
   mat.onBeforeCompile = (sh) => {
     Object.assign(sh.uniforms, u);
-    sh.vertexShader = sh.vertexShader.replace('#include <common>', '#include <common>\nvarying vec3 vBiW;').replace('#include <project_vertex>', '#include <project_vertex>\n' + VERT_WORLD);
+    const bend = sway
+      ? /* glsl */ `
+        #ifdef USE_INSTANCING
+        {
+          vec3 o = instanceMatrix[3].xyz;
+          float ph = uCloudT * 1.6 + o.x * 0.8 + o.z * 0.6;
+          float gust = 0.65 + 0.35 * sin(uCloudT * 0.37 + o.x * 0.11);
+          float k = ${sway.toFixed(3)} * transformed.y * transformed.y * gust;
+          transformed.xz += vec2(sin(ph), cos(ph * 0.83)) * k + uWind * 40.0 * k;
+        }
+        #endif`
+      : '';
+    sh.vertexShader = sh.vertexShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vBiW;\nuniform float uCloudT; uniform vec2 uWind;')
+      .replace('#include <begin_vertex>', '#include <begin_vertex>' + bend)
+      .replace('#include <project_vertex>', '#include <project_vertex>\n' + VERT_WORLD);
     sh.fragmentShader = sh.fragmentShader
       .replace('#include <common>', '#include <common>\nvarying vec3 vBiW;\n' + NOISE_GLSL)
       .replace('#include <lights_fragment_end>', FRAG_CLOUD);
   };
-  mat.customProgramCacheKey = () => 'bi-clouds';
+  mat.customProgramCacheKey = () => `bi-clouds-${sway}`;
 }
 
 const PAVE_KIND = { stucco: 0, brick: 1, flag: 2, earth: 3 } as const;
