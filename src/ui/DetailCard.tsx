@@ -5,6 +5,7 @@ import { gamesFor } from '../games/registry';
 import { formatYear, t, useStore } from '../state/store';
 import type { Details, ImageRef, Lang, Stop } from '../types';
 import { useModal } from './dialog';
+import { SheetHandle } from './SheetHandle';
 
 // Stories, sources, notes and Wikipedia links live in details.json, so first paint only waits for
 // atlas.json. The file is fetched once, on the first card that needs it.
@@ -298,6 +299,9 @@ export function DetailCard() {
   const set = useStore((st) => st.set);
   const setYear = useStore((st) => st.setYear);
   const flyTo = useStore((st) => st.flyTo);
+  // Phone bottom sheet: peek height or expanded (SheetHandle). Stays expanded while the reader moves
+  // between records; goes back to peek once the card has closed.
+  const [full, setFull] = useState(false);
 
   const pickStop = (stops: Stop[], i: number) => {
     set({ journeyStop: i });
@@ -502,9 +506,21 @@ export function DetailCard() {
   }, [atlas, sel, lang, year, journeyStop]);
 
   return (
-    <aside className={`card ${body ? 'open' : ''}`} aria-hidden={!body} aria-label={s('details', lang)}>
+    <aside
+      className={`card${body ? ' open' : ''}${full ? ' full' : ''}`}
+      aria-hidden={!body}
+      aria-label={s('details', lang)}
+      onTransitionEnd={(e) => {
+        // Slid out: forget the dragged height and the expanded state, so the next card opens at
+        // the peek height (framing.ts reads it to place the fly-to target above the sheet).
+        if (e.target !== e.currentTarget || e.propertyName !== 'transform' || body) return;
+        e.currentTarget.style.height = '';
+        setFull(false);
+      }}
+    >
       {body && (
         <>
+          <SheetHandle full={full} onFull={setFull} onClose={() => select(null)} label={s(full ? 'collapseCard' : 'expandCard', lang)} />
           <button className="card-close" onClick={() => select(null)} aria-label={s('close', lang)}>
             ×
           </button>

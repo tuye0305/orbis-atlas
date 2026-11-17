@@ -68,6 +68,9 @@ const STR = {
   details: { en: 'Details', zh: '详情' },
   prevStop: { en: 'Previous stop', zh: '上一站' },
   nextStop: { en: 'Next stop', zh: '下一站' },
+  expandCard: { en: 'Expand details', zh: '展开详情' },
+  collapseCard: { en: 'Collapse details', zh: '收起详情' },
+  cancel: { en: 'Cancel', zh: '取消' },
 } satisfies Record<string, { en: string; zh: string }>;
 
 export type StrKey = keyof typeof STR;

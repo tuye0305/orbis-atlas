@@ -338,6 +338,8 @@ kbd {
   box-shadow: var(--shadow); overflow: hidden;
 }
 .card.open { transform: none; opacity: 1; }
+/* Grab handle of the phone bottom sheet (SheetHandle.tsx); only shown there. */
+.card-handle { display: none; }
 .card-scroll { height: 100%; overflow: auto; padding: 0 18px 20px; scrollbar-width: thin; animation: cardin 0.45s ease both; }
 @keyframes cardin { from { opacity: 0; transform: translateY(8px); } }
 .card-close, .about .card-close {
@@ -460,12 +462,22 @@ kbd {
 .year-era { color: var(--gold); font-size: 12px; letter-spacing: 0.15em; }
 .tl-context { display: flex; gap: 10px; align-items: center; flex: 1; min-width: 0; font-size: 13px; color: var(--ink-2); }
 .tl-region { font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--ink); }
-.tl-ruler { display: flex; align-items: center; gap: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tl-ruler { display: flex; align-items: center; gap: 6px; min-width: 0; max-width: 100%; white-space: nowrap; overflow: hidden; }
+/* The ellipsis needs a box of its own: a flex container does not ellipsize its bare text. */
+.tl-ruler-text { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .tl-ruler i { width: 8px; height: 8px; border-radius: 2px; flex: none; }
 .speed { display: flex; align-items: center; gap: 2px; font-size: 11px; color: var(--muted); }
 .speed button { padding: 3px 7px; border-radius: 6px; font-size: 11.5px; color: var(--muted); }
 .speed button.on { color: var(--gold-2); background: rgba(217, 178, 106, 0.14); }
 .speed span { margin-left: 4px; }
+/* Phones: one button that cycles the speed (Timeline.tsx); shown where .speed is hidden. */
+.speed-cycle {
+  display: none; flex: none; min-width: 46px; height: 40px; padding: 0 6px; border-radius: 10px; line-height: 1;
+  place-items: center; align-content: center; gap: 3px; border: 1px solid var(--line-2); background: rgba(255, 255, 255, 0.03);
+}
+.speed-cycle b { font-size: 15px; font-weight: 600; color: var(--gold-2); font-variant-numeric: tabular-nums; }
+.speed-cycle small { font-size: 9.5px; color: var(--muted); white-space: nowrap; }
+.speed-cycle:active { border-color: var(--gold); }
 .tl-track { position: relative; padding: 2px 0 16px; cursor: ew-resize; user-select: none; touch-action: none; }
 .tl-lanes { position: relative; margin-bottom: 4px; transition: height 0.3s; }
 .tl-band {
@@ -484,7 +496,9 @@ kbd {
 /* ---------- search, about, misc ---------- */
 .search-backdrop { position: fixed; inset: 0; z-index: 60; background: rgba(3, 4, 8, 0.6); backdrop-filter: blur(6px); display: flex; justify-content: center; align-items: flex-start; padding-top: 12vh; animation: fadein 0.2s; }
 .search-box { width: min(620px, calc(100vw - 32px)); background: var(--panel-solid); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); overflow: hidden; animation: rise 0.3s; }
-.search-box input { width: 100%; padding: 18px 20px; font-size: 17px; border: 0; outline: 0; background: transparent; color: var(--ink); font-family: var(--sans); border-bottom: 1px solid var(--line-2); }
+.search-field { display: flex; align-items: stretch; border-bottom: 1px solid var(--line-2); }
+.search-box input { flex: 1; min-width: 0; width: 100%; padding: 18px 20px; font-size: 17px; border: 0; outline: 0; background: transparent; color: var(--ink); font-family: var(--sans); }
+.search-cancel { display: none; flex: none; padding: 0 16px; color: var(--gold-2); font-size: 15px; }
 .search-box ul { list-style: none; margin: 0; padding: 6px; max-height: 50vh; overflow: auto; }
 .search-box li { display: grid; grid-template-columns: 26px 1fr; grid-template-rows: auto auto; column-gap: 8px; padding: 8px 10px; border-radius: 10px; cursor: pointer; }
 .search-box li.on { background: rgba(217, 178, 106, 0.1); }
@@ -553,6 +567,7 @@ kbd {
   .tl-region { font-size: 16px; }
   .tl-ruler { max-width: 100%; font-size: 12px; }
   .speed { display: none; }
+  .speed-cycle { display: grid; }
   .disclaimer { display: none; }
 }
 @media (max-width: 600px) {
@@ -563,7 +578,6 @@ kbd {
   .music-btn { padding: 7px 10px; }
   .icon-btn .btn-icon { display: block; }
   .icon-btn .btn-label { display: none; }
-  .tl-axis span.minor { display: none; }
   .intro-kicker { letter-spacing: 0.18em; font-size: 11px; }
 }
 /* Small phones: brand, search and the five controls must share one row (寰宇时序 is wider than Orbis). */
@@ -595,6 +609,8 @@ kbd {
   .topbar { padding-top: 8px; padding-bottom: 8px; row-gap: 6px; }
   .region-chip { padding-top: 4px; padding-bottom: 4px; }
   .card-img { --img-max: clamp(110px, 30vh, 200px); --img-min: 90px; }
+  .speed-cycle { height: 32px; min-width: 42px; gap: 1px; }
+  .speed-cycle b { font-size: 13px; }
 }
 /* Phones held sideways: no room for a bottom sheet, so the card goes back to the side. */
 @media (max-width: 900px) and (max-height: 500px) {
@@ -606,9 +622,89 @@ kbd {
   .card h2 { font-size: 22px; }
   .drawer { width: min(280px, 40vw); }
 }
+/* Phone bottom sheet (portrait): drag the handle between the peek height and the full height
+   between the bars, or down to close (SheetHandle.tsx). framing.ts reads the resting height. */
+@media (max-width: 900px) and (min-height: 501px) {
+  .card {
+    display: flex; flex-direction: column;
+    transition: transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.3s, height 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .card.full { height: calc(100dvh - var(--panel-top) - var(--panel-bottom)); }
+  .card.dragging { transition: none; }
+  .card-handle {
+    display: grid; place-items: center; flex: none; width: 100%; height: 24px; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none;
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  .card-handle i { width: 40px; height: 4px; border-radius: 2px; background: rgba(242, 232, 213, 0.38); transition: background 0.2s, width 0.2s; }
+  .card-handle:hover i, .card.dragging .card-handle i { background: var(--gold-2); width: 52px; }
+  .card.dragging .card-handle { cursor: grabbing; }
+  .card-handle:focus-visible { outline-offset: -3px; border-radius: var(--radius) var(--radius) 6px 6px; }
+  .card-scroll { flex: 1; min-height: 0; height: auto; overscroll-behavior: contain; }
+  .card-close { top: 6px; }
+  /* Expanded, the sheet reaches the drawer's toggle: tuck the toggle away until it collapses. */
+  .app:has(.card.open.full) .drawer:not(.open) .drawer-toggle { opacity: 0; pointer-events: none; }
+}
+/* Windows 500 px tall or less: the region chips scroll inside the first row (TopBar.tsx never
+   stacks them here), so the bar is one row and the brand, search and buttons go compact. */
+@media (max-height: 500px) {
+  .topbar:not(.stacked) .regions-wrap { flex: 1 1 auto; margin: 0; }
+  .topbar:not(.stacked) .regions { flex: 1; }
+  .icon-btn .btn-icon { display: block; }
+  .icon-btn .btn-label { display: none; }
+  .search-trigger span, .search-trigger kbd { display: none; }
+  .search-trigger, .icon-btn, .music-btn { min-height: 34px; min-width: 34px; justify-content: center; }
+  .icon-btn, .music-btn { padding: 6px 9px; }
+  .app.en .brand-dot, .app.en .brand-han, .app.zh .brand-dot, .app.zh .brand-latin { display: none; }
+}
 @media (pointer: coarse) {
   .tl-track { padding-bottom: 20px; }
   .tl-head-line b { top: -8px; left: -8px; width: 18px; height: 18px; }
+  /* A drag that starts on a 7 px dynasty band should scrub the year, not miss it (the drawer lists
+     the dynasties as proper buttons). */
+  .tl-band { pointer-events: none; }
+  /* Touch targets: at least 40 px tall in the lists and menus, bigger round buttons. */
+  .polity-list button, .event-list button, .layers-menu label, .stops li button, .rulers li button { min-height: 40px; }
+  .stops li button, .rulers li button { align-items: center; }
+  .genealogy li button { min-height: 44px; justify-content: center; }
+  .games-item { min-height: 44px; align-content: center; }
+  .search-box li { min-height: 44px; align-content: center; }
+  .search-hints button { min-height: 36px; }
+  .search-cancel { display: block; }
+  .person-chip { min-height: 36px; }
+  .card-close, .about .card-close { width: 36px; height: 36px; }
+  .stop-nav button { width: 40px; height: 40px; }
+  .speed button { padding: 8px 10px; }
+  .drawer-toggle { width: 32px; height: 48px; right: -38px; }
+  .drawer:not(.open) .drawer-toggle { right: -48px; }
+}
+/* No pointer to follow: the border name would trail the finger during every globe drag. */
+@media (hover: none) { .hover-tip { display: none; } }
+
+/* Dialogs on phones: search and About become full-screen sheets sized to the visual viewport
+   (--vvh, dialog.ts), so the results stay above the on-screen keyboard. */
+@media (max-width: 600px) {
+  .search-backdrop { padding: 0; align-items: stretch; }
+  .search-box {
+    width: 100%; height: var(--vvh, 100dvh); margin-top: var(--vvt, 0px); display: flex; flex-direction: column;
+    border: 0; border-radius: 0; padding-top: env(safe-area-inset-top); animation: fadein 0.2s;
+  }
+  .search-box input { padding: 16px; font-size: 16px; }
+  .search-cancel { display: block; }
+  .search-box ul { flex: 0 1 auto; min-height: 0; max-height: none; overscroll-behavior: contain; padding-bottom: calc(6px + env(safe-area-inset-bottom)); }
+  .about {
+    width: 100%; height: var(--vvh, 100dvh); max-height: none; margin-top: var(--vvt, 0px); border: 0; border-radius: 0;
+    padding: calc(20px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom)); overscroll-behavior: contain;
+  }
+  /* The backdrop (fixed, with a backdrop-filter) is the containing block: the button stays put while the text scrolls. */
+  .about .card-close { position: fixed; top: calc(10px + env(safe-area-inset-top)); right: max(10px, env(safe-area-inset-right)); }
+  .about h2 { font-size: 26px; padding-right: 40px; }
+}
+/* Short windows (laptop split screens, phones held sideways): no 12vh gap above the dialogs, and the
+   list and About text fit the visible height. */
+@media (max-height: 560px) and (min-width: 601px) {
+  .search-backdrop { padding-top: calc(12px + var(--vvt, 0px)); }
+  .search-box ul { max-height: max(88px, calc(var(--vvh, 100dvh) - 120px)); }
+  .about { max-height: calc(var(--vvh, 100dvh) - 24px); padding: 18px 22px; }
 }
 
 /* ---------- reduced motion ---------- */
