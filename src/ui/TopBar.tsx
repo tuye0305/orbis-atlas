@@ -1,9 +1,47 @@
-import { useEffect, useId, useRef, useState } from 'react';
+import { useEffect, useId, useLayoutEffect, useRef, useState } from 'react';
 import { useNowPlaying } from '../audio/nowPlaying';
 import { GAMES } from '../games/registry';
 import { s } from '../i18n';
-import { REGION_BY_KEY, REGIONS } from '../regions';
+import { REGION_BY_KEY } from '../regions';
 import { type Layers, useStore } from '../state/store';
+import { useHeightVar } from './layout';
+import { RegionNav } from './RegionNav';
+
+/**
+ * Whether the region chips fit on the same row as the brand, search and controls. If not, the top
+ * bar stacks them on a second, centred row of their own (where they may still scroll sideways).
+ * Measured rather than guessed from a breakpoint: the answer depends on the language, the fonts and
+ * the music label, and it is the same in both layouts, so it cannot flip back and forth.
+ */
+function useStacked(bar: React.RefObject<HTMLElement | null>, lang: string) {
+  const [stacked, setStacked] = useState(true);
+  useLayoutEffect(() => {
+    const el = bar.current;
+    if (!el) return;
+    const measure = () => {
+      const nav = el.querySelector<HTMLElement>('.regions');
+      const wrap = el.querySelector<HTMLElement>('.regions-wrap');
+      if (!nav || !wrap) return;
+      const cs = getComputedStyle(el);
+      const gap = parseFloat(cs.columnGap) || 0;
+      const inner = el.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+      const wcs = getComputedStyle(wrap);
+      let need = nav.scrollWidth + parseFloat(wcs.paddingLeft) + parseFloat(wcs.paddingRight) + 2;
+      const others = [...el.children].filter((c) => c !== wrap) as HTMLElement[];
+      for (const c of others) need += c.offsetWidth + gap;
+      // The music button gives way first (its label ellipsizes), so count it at its minimum width.
+      const music = el.querySelector<HTMLElement>('.music-btn');
+      if (music) need -= music.offsetWidth - Math.min(music.offsetWidth, parseFloat(getComputedStyle(music).minWidth) || 0);
+      setStacked(need > inner);
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    void document.fonts?.ready.then(measure);
+    return () => ro.disconnect();
+  }, [bar, lang]);
+  return stacked;
+}
 
 export function TopBar() {
   const lang = useStore((st) => st.lang);
@@ -11,7 +49,6 @@ export function TopBar() {
   const musicOn = useStore((st) => st.musicOn);
   const layers = useStore((st) => st.layers);
   const set = useStore((st) => st.set);
-  const focus = useStore((st) => st.focus);
   const toggleLayer = useStore((st) => st.toggleLayer);
   const [layersOpen, setLayersOpen] = useState(false);
   const [gamesOpen, setGamesOpen] = useState(false);
@@ -21,6 +58,9 @@ export function TopBar() {
   const layersRef = useRef<HTMLDivElement>(null);
   const layersBtn = useRef<HTMLButtonElement>(null);
   const menuId = useId();
+  const bar = useRef<HTMLElement>(null);
+  useHeightVar(bar, '--topbar-h');
+  const stacked = useStacked(bar, lang);
   const cur = region ? REGION_BY_KEY[region] : null;
   // Name the music you hear, which can lag the camera (it settles first) or fall back to open sea.
   const playing = useNowPlaying();
@@ -75,7 +115,7 @@ export function TopBar() {
   };
 
   return (
-    <header className="topbar">
+    <header className={`topbar${stacked ? ' stacked' : ''}`} ref={bar}>
       <div className="brand">
         <div className="brand-mark" aria-hidden />
         <div>
@@ -95,19 +135,7 @@ export function TopBar() {
         <kbd aria-hidden>⌘K</kbd>
       </button>
 
-      <nav className="regions" aria-label={s('regionsNav', lang)}>
-        {REGIONS.map((r) => (
-          <button
-            key={r.key}
-            className={`region-chip ${region === r.key ? 'on' : ''}`}
-            style={{ ['--accent' as string]: r.accent }}
-            aria-current={region === r.key ? 'location' : undefined}
-            onClick={() => focus(r.key)}
-          >
-            {r.name[lang]}
-          </button>
-        ))}
-      </nav>
+      <RegionNav />
 
       <div className="controls">
         <button
@@ -133,8 +161,14 @@ export function TopBar() {
           </span>
         </button>
         <div className="layers-wrap" ref={gamesRef}>
-          <button ref={gamesBtn} className="icon-btn games-btn" onClick={() => setGamesOpen(!gamesOpen)} aria-expanded={gamesOpen} aria-controls={gamesId}>
-            {lang === 'zh' ? '小游戏' : 'Games'}
+          <button ref={gamesBtn} className="icon-btn games-btn" onClick={() => setGamesOpen(!gamesOpen)} aria-expanded={gamesOpen} aria-controls={gamesId} aria-label={lang === 'zh' ? '小游戏' : 'Games'}>
+            <svg className="btn-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden>
+              <rect x="2.5" y="7" width="19" height="11" rx="5.5" fill="none" stroke="currentColor" strokeWidth="1.8" />
+              <path d="M7.5 10.5v4M5.5 12.5h4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+              <circle cx="15.5" cy="11.5" r="1.2" fill="currentColor" />
+              <circle cx="17.8" cy="13.8" r="1.2" fill="currentColor" />
+            </svg>
+            <span className="btn-label" aria-hidden>{lang === 'zh' ? '小游戏' : 'Games'}</span>
           </button>
           {gamesOpen && (
             <div className="layers-menu games-menu" id={gamesId} role="group" aria-label={lang === 'zh' ? '小游戏' : 'Mini-games'}>
@@ -148,8 +182,12 @@ export function TopBar() {
           )}
         </div>
         <div className="layers-wrap" ref={layersRef}>
-          <button ref={layersBtn} className="icon-btn" onClick={() => setLayersOpen(!layersOpen)} aria-expanded={layersOpen} aria-controls={menuId}>
-            {s('layers', lang)}
+          <button ref={layersBtn} className="icon-btn" onClick={() => setLayersOpen(!layersOpen)} aria-expanded={layersOpen} aria-controls={menuId} aria-label={s('layers', lang)}>
+            <svg className="btn-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden>
+              <path d="M12 3l9 5-9 5-9-5z" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+              <path d="M3 12.5l9 5 9-5M3 16.5l9 5 9-5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+            </svg>
+            <span className="btn-label" aria-hidden>{s('layers', lang)}</span>
           </button>
           {layersOpen && (
             <div className="layers-menu" id={menuId} role="group" aria-label={s('layers', lang)}>
