@@ -373,9 +373,53 @@ export const mount: MountGame = (root, ctx) => {
   chute.visible = false;
   scene.add(chute);
   let chuteK = 0; // 0 → 1 as the canopy opens
-  const plasma = new THREE.Sprite(new THREE.SpriteMaterial({ map: dotTexture(0.3), color: 0xff8a3a, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, opacity: 0 }));
-  plasma.scale.setScalar(0.012);
-  scene.add(plasma);
+  // Re-entry: a white-hot shock cap ahead of the heat shield, a faint halo, and a long ionised
+  // wake streaming behind, flickering and cooling from yellow-white through orange to violet.
+  const plasma = new THREE.Sprite(new THREE.SpriteMaterial({ map: dotTexture(0.3), color: 0xffc08a, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, opacity: 0 }));
+  const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: dotTexture(0.5), color: 0xff6a2a, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, opacity: 0 }));
+  scene.add(plasma, halo);
+  const wakeU = { uK: { value: 0 }, uTime: { value: 0 } };
+  const wakeGeo = new THREE.CylinderGeometry(0.12, 1, 1, 24, 40, true).translate(0, 0.5, 0);
+  const wake = new THREE.Mesh(
+    wakeGeo,
+    new THREE.ShaderMaterial({
+      uniforms: wakeU,
+      transparent: true,
+      depthWrite: false,
+      side: THREE.DoubleSide,
+      blending: THREE.AdditiveBlending,
+      vertexShader: /* glsl */ `
+        #include <common>
+        #include <logdepthbuf_pars_vertex>
+        varying vec2 vUv; varying vec3 vN; varying vec3 vV;
+        void main(){ vUv = uv; vec4 mv = modelViewMatrix * vec4(position, 1.0); vN = normalize(normalMatrix * normal); vV = normalize(-mv.xyz);
+          gl_Position = projectionMatrix * mv;
+          #include <logdepthbuf_vertex>
+        }`,
+      fragmentShader: /* glsl */ `
+        #include <common>
+        #include <logdepthbuf_pars_fragment>
+        uniform float uK, uTime; varying vec2 vUv; varying vec3 vN; varying vec3 vV;
+        float h1(float n){ return fract(sin(n) * 43758.5453); }
+        void main(){
+          #include <logdepthbuf_fragment>
+          float along = vUv.y;
+          float rim = pow(abs(dot(normalize(vN), normalize(vV))), 1.4);   // soft edges, bright core
+          float ripple = 0.65 + 0.35 * sin(along * 46.0 - uTime * 38.0 + vUv.x * 18.0)
+                              * sin(along * 17.0 - uTime * 21.0);
+          float flick = 0.85 + 0.15 * h1(floor(uTime * 30.0));
+          float a = pow(1.0 - along, 3.0) * pow(rim, 2.0) * ripple * flick * uK;
+          vec3 c = mix(vec3(1.0, 0.92, 0.78), vec3(1.0, 0.5, 0.16), smoothstep(0.0, 0.3, along));
+          c = mix(c, vec3(0.62, 0.2, 0.42), smoothstep(0.35, 0.9, along));
+          gl_FragColor = vec4(c * a * 0.75, 1.0);
+        }`,
+    }),
+  );
+  wake.frustumCulled = false;
+  wake.visible = false;
+  scene.add(wake);
+  const ballMat = R7.ball.material as THREE.MeshStandardMaterial;
+  let shieldHeat = 0; // the heat shield keeps glowing a while after the plasma fades
 
   // ---------- HUD ----------
   const hud = h('div', 'g-hud vk-hud', root);
@@ -586,7 +630,8 @@ export const mount: MountGame = (root, ctx) => {
     // real time for the last seconds of the burn, when every second adds ~40 km of apogee
     if (phase === 'ascent') warp = s.t < 25 ? 3 : stageIdx === 2 && P.elements(s).peri > 30 ? 1 : 8;
     else if (phase === 'orbit') warp = zoomT < 5 ? 10 : windowState === 'in' ? 10 : 95;
-    else if (phase === 'reentry') warp = chuteK > 0 ? 45 : P.alt(s) > 110 ? 60 : P.alt(s) > 40 ? 16 : 12;
+    // the fireball (≈ 90 → 45 km) runs slow enough to watch
+    else if (phase === 'reentry') warp = chuteK > 0 ? 45 : P.alt(s) > 110 ? 60 : P.alt(s) > 92 ? 16 : P.alt(s) > 45 ? 5 : 12;
     if (phase === 'done') warp = 0;
 
     if (phase === 'pad') {
@@ -826,10 +871,25 @@ export const mount: MountGame = (root, ctx) => {
     trackNext.visible = phase === 'orbit';
     craftGlow.visible = phase === 'orbit' || (phase === 'reentry' && camera.position.distanceTo(pos3) > 50);
     craftGlow.position.copy(pos3);
-    const glowK = phase === 'reentry' && altKm < 100 && altKm > 15 ? clamp((P.speed(s) - 1.5) / 5, 0, 1) : 0;
-    plasma.position.copy(pos3).addScaledVector(dir3, -0.001);
-    (plasma.material as THREE.SpriteMaterial).opacity = glowK * (0.75 + Math.random() * 0.25);
-    plasma.scale.setScalar(0.004 + glowK * 0.007);
+    const glowK = phase === 'reentry' && altKm < 100 && altKm > 15 ? clamp((P.speed(s) - 1.5) / 5, 0, 1) * smoothstep(100, 78, altKm) : 0;
+    const fl = 0.8 + Math.random() * 0.2;
+    plasma.position.copy(pos3).addScaledVector(dir3, 0.0016);
+    (plasma.material as THREE.SpriteMaterial).opacity = glowK * fl;
+    plasma.scale.setScalar(0.0022 + glowK * 0.0026);
+    halo.position.copy(pos3);
+    (halo.material as THREE.SpriteMaterial).opacity = glowK * 0.3 * fl;
+    halo.scale.setScalar(0.005 + glowK * 0.008);
+    wake.visible = glowK > 0.01;
+    if (wake.visible) {
+      wake.position.copy(pos3).addScaledVector(dir3, 0.0008);
+      wake.quaternion.setFromUnitVectors(Y, tmp.copy(dir3).negate());
+      const r = 0.0011 + glowK * 0.0004;
+      wake.scale.set(r, 0.025 + glowK * 0.06, r);
+      wakeU.uK.value = glowK;
+      wakeU.uTime.value = t;
+    }
+    shieldHeat = Math.max(glowK, shieldHeat - dt * 0.12);
+    ballMat.emissive.setRGB(1.0, 0.38, 0.1).multiplyScalar(shieldHeat * 1.4);
     if (chuteK > 0) {
       chuteK = Math.min(1, chuteK + dt * 0.7);
       const open = 1 - Math.pow(1 - chuteK, 3);

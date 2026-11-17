@@ -118,19 +118,19 @@ export const mount: MountGame = (root, ctx) => {
     bloom: { strength: 0.95, radius: 0.55, threshold: 0.62 },
     fov: 42,
     // moonlit night: cool, slightly lifted blacks, warm highlights so the fire reads as the only heat
-    grade: { shadows: [0.0, 0.012, 0.03], highlights: [1.07, 0.98, 0.88], contrast: 1.1, saturation: 1.06, vignette: 0.45, grain: 0.035 },
+    grade: { shadows: [0.0, 0.02, 0.042], highlights: [1.09, 0.97, 0.84], contrast: 1.13, saturation: 1.14, vignette: 0.48, grain: 0.032 },
   });
   const { scene, camera, renderer } = stage;
   renderer.toneMappingExposure = 1.3;
   const sfx = createSfx();
 
   // ---------- palette: moonlit indigo river, molten fire ----------
-  const SKY_TOP = new THREE.Color('#02050c');
-  const SKY_MID = new THREE.Color('#0a1626');
-  const SKY_HOR = new THREE.Color('#233347');
-  const WEST = new THREE.Color('#5a3428');
-  const FIRE_TINT = new THREE.Color('#ff6a1f');
-  const FOG = new THREE.Color('#152233');
+  const SKY_TOP = new THREE.Color('#020711');
+  const SKY_MID = new THREE.Color('#0a1d36');
+  const SKY_HOR = new THREE.Color('#2c4a6c');
+  const WEST = new THREE.Color('#6e3a26');
+  const FIRE_TINT = new THREE.Color('#ff641a');
+  const FOG = new THREE.Color('#13263c');
   // the moon hangs low over Cao Cao's fleet, so the ships stand in silhouette against its path on the water
   const MOON = new THREE.Vector3(0.22, 0.2, -0.95).normalize();
   scene.fog = new THREE.Fog(FOG, 110, 520);
@@ -162,10 +162,10 @@ export const mount: MountGame = (root, ctx) => {
   );
   scene.add(sky);
 
-  scene.environment = gradientEnv(renderer, { top: '#08121f', horizon: '#2a3a50', ground: '#04070b', sun: { dir: MOON, color: '#9fb2d0', size: 0.02, power: 2.5 } });
+  scene.environment = gradientEnv(renderer, { top: '#081626', horizon: '#2c4664', ground: '#04080c', sun: { dir: MOON, color: '#9fb2d0', size: 0.02, power: 2.5 } });
   scene.environmentIntensity = 0.9;
-  scene.add(new THREE.HemisphereLight(0x4a6488, 0x16100a, 1.7));
-  const moonLight = new THREE.DirectionalLight(0xb4c6e6, 2.4);
+  scene.add(new THREE.HemisphereLight(0x4f6f9e, 0x140f0a, 1.7));
+  const moonLight = new THREE.DirectionalLight(0xbfd2f2, 2.6);
   moonLight.position.copy(MOON).multiplyScalar(300);
   scene.add(moonLight);
   const afterglow = new THREE.DirectionalLight(0xff9a6a, 0.45);
@@ -226,7 +226,7 @@ export const mount: MountGame = (root, ctx) => {
         vec3 refl = skyColor(R, uTime, 1.0, 0.0);
         // a hard glint for each wavelet catching the moon: the glitter path
         refl += vec3(1.0, 0.96, 0.88) * pow(max(dot(R, uMoonDir), 0.0), 420.0) * 5.0;
-        vec3 deep = vec3(0.004, 0.018, 0.028) + vec3(0.0, 0.02, 0.025) * (1.0 - fade);
+        vec3 deep = vec3(0.002, 0.02, 0.032) + vec3(0.0, 0.024, 0.034) * (1.0 - fade);
         vec3 c = mix(deep, refl, clamp(fres, 0.0, 1.0));
         // shimmering columns of reflected firelight, stretched toward the camera
         float fireSum = 0.0;
@@ -557,6 +557,7 @@ export const mount: MountGame = (root, ctx) => {
     .rc-light.g-pulse { animation-duration: .9s; }
     .rc-band-label { position: absolute; left: 0; top: 0; pointer-events: none; font-size: 12px; color: #ffe0a6; letter-spacing: .1em; white-space: nowrap; text-shadow: 0 1px 4px #000; opacity: 0; transition: opacity .6s; }
     .rc-band-label.show { opacity: .9; }
+    @media (max-width: 1100px) { .rc-hud .g-coach { top: calc(max(14px, env(safe-area-inset-top)) + 112px); } }
     @media (max-width: 640px) {
       .rc-wind { right: 62px; padding: 4px 10px 4px 4px; } .rc-wind svg { width: 60px; height: 60px; } .rc-wind-label { font-size: 13px; min-width: 5em; }
       .rc-stats { top: auto; bottom: calc(max(22px, env(safe-area-inset-bottom)) + 66px); left: 12px; font-size: 12px; }
