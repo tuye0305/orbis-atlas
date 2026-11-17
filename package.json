@@ -1,7 +1,7 @@
 {
   "name": "orbis-atlas",
   "description": "Orbis · 寰宇时序 — an interactive 3D historical atlas of the whole world over 2,000 years",
-  "license": "GPL-3.0-or-later",
+  "license": "UNLICENSED",
   "private": true,
   "version": "0.1.0",
   "type": "module",

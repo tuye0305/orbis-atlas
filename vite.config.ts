@@ -60,7 +60,7 @@ function preloadGlobe(): Plugin {
   }
 }
 
-// BASE lets the same build run at / locally and at /<repo>/ on GitHub Pages.
+// BASE lets the same build run under a sub-path (e.g. BASE=/atlas/); defaults to /.
 export default defineConfig({
   base: process.env.BASE ?? '/',
   plugins: [stubUnusedGlobeLayers(), react(), preloadGlobe()],

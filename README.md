@@ -6,7 +6,8 @@ dynasties rise and fall, wars march across the map, famous people travel their l
 names change with their rulers (Byzantion → Constantinople → Istanbul; 长安 → 西安). Each region
 has its own soundtrack, and the music crossfades as you turn the globe.
 
-**Live site: <https://tuye0305.github.io/orbis-atlas/>** (deployed from `main` by `.github/workflows/pages.yml`).
+> **Private repository.** Proprietary code; do not share or redistribute. The public site is deployed to
+> Railway from `main` (`Dockerfile` + `Caddyfile`, configured in `railway.json`).
 
 > A world companion to [江山时序 jiangshan-map](https://github.com/DeanChensj/jiangshan-map), whose
 > Chinese data this project adapts. Static site, no backend.
@@ -75,6 +76,7 @@ Curated data lives in `data/<dataset>/{events,people,places,polities}.json`; see
 
 ## License
 
-GPL-3.0 (it adapts GPL-3.0 data from historical-basemaps and jiangshan-map). When reusing maps
-or screenshots, credit Orbis, [jiangshan-map](https://github.com/DeanChensj/jiangshan-map) and
-[historical-basemaps](https://github.com/aourednik/historical-basemaps).
+Proprietary, all rights reserved: see [`LICENSE`](LICENSE). Third-party material keeps its own
+license: the border snapshots (historical-basemaps) and the China data (jiangshan-map) are
+GPL-3.0 and must stay credited and available under GPL-3.0 wherever they ship, the public site
+included. Details are in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).

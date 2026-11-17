@@ -54,7 +54,7 @@ export function cleanArtist(raw) {
 async function fetchSizes(files) {
   const todo = files.filter((f) => !sizes[f]);
   if (!todo.length || process.argv.includes('--offline')) return;
-  const UA = 'OrbisAtlas/0.1 (https://github.com/tuye0305/orbis-atlas; open-source historical atlas)';
+  const UA = 'OrbisAtlas/0.1 (historical atlas data build)';
   try {
     for (let i = 0; i < todo.length; i += 50) {
       const batch = todo.slice(i, i + 50);

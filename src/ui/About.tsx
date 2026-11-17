@@ -21,8 +21,8 @@ export default function About() {
         <h2 id={titleId}>Orbis · 寰宇时序</h2>
         <p>
           {zh
-            ? '一部开源的三维世界历史地图，涵盖欧、亚、非、美洲与大洋洲近两千年的疆域、朝代、战争、人物、故事与地名沿革。'
-            : 'An open-source 3D historical atlas of the whole world (Europe, Africa, Asia, the Americas and Oceania) across two thousand years: borders, dynasties, wars, people, stories and the genealogy of place names.'}
+            ? '一部三维世界历史地图，涵盖欧、亚、非、美洲与大洋洲近两千年的疆域、朝代、战争、人物、故事与地名沿革。'
+            : 'A 3D historical atlas of the whole world (Europe, Africa, Asia, the Americas and Oceania) across two thousand years: borders, dynasties, wars, people, stories and the genealogy of place names.'}
         </p>
         {atlas && (
           <p className="muted">
@@ -80,10 +80,7 @@ export default function About() {
           {zh
             ? '每个地区一首原创配乐，由 ElevenLabs Music（经 WaveSpeed）生成，转动地球时交叉淡入淡出。'
             : 'Each region has its own original score, generated with ElevenLabs Music (via WaveSpeed); it crossfades as you turn the globe.'}{' '}
-          <a href="https://github.com/tuye0305/orbis-atlas" target="_blank" rel="noreferrer">
-            GitHub
-          </a>{' '}
-          · GPL-3.0
+          {zh ? '© Orbis，保留所有权利；第三方数据沿用其原许可证。' : '© Orbis. All rights reserved; third-party data keeps its own license.'}
         </p>
       </div>
     </div>

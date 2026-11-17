@@ -7,7 +7,7 @@ place names (Byzantion → Constantinople → Istanbul; 长安 → 西安). The 
 [jiangshan-map](https://github.com/DeanChensj/jiangshan-map) (江山时序); the rest comes from
 open, citable sources.
 
-Static web app (no backend). Deployable to GitHub Pages.
+Static web app (no backend). Deployed to Railway (Docker + Caddy). Private repository.
 
 ## 1. Experience
 
@@ -72,7 +72,7 @@ src/
 4. **M3 – Audio**: seven region scores with crossfade.
 5. **M4 – Verification**: verifier agents resolve auto-diffs and spot-check records against
    second sources; reports committed.
-6. **M5 – Ship**: public GitHub repo, PR with screenshots, local Playwright smoke test.
+6. **M5 – Ship**: GitHub repo (private since 2026-11), PR with screenshots, local Playwright smoke test.
 7. **M6 – Review & improve**: reviewer agents (3D/motion, data accuracy, UX/a11y/perf) open
    follow-up PRs on top.
 
