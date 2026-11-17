@@ -775,10 +775,14 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     if (reduced) return;
     // the roof just behind the centre, found by dropping a ray onto the house's own geometry (its
     // bounding box would put the smoke at the top of a banner pole)
-    probe.geometry = o.geometry;
-    probeRay.ray.origin.set(0, 6, -0.08);
-    const hit = probeRay.intersectObject(probe, false)[0];
-    o.userData.chimney = new THREE.Vector3(0, (hit?.point.y ?? 0.5) - 0.03, -0.08);
+    const marked = (o.geometry.userData.anchors as Record<string, THREE.Vector3> | undefined)?.smoke;
+    if (marked) o.userData.chimney = marked.clone();
+    else {
+      probe.geometry = o.geometry;
+      probeRay.ray.origin.set(0, 6, -0.08);
+      const hit = probeRay.intersectObject(probe, false)[0];
+      o.userData.chimney = new THREE.Vector3(0, (hit?.point.y ?? 0.5) - 0.03, -0.08);
+    }
     o.userData.smokeT = hash(o.id, 1) * 2;
     smokers.add(o);
   };

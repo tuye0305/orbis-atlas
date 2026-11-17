@@ -66,7 +66,17 @@ export function loft(rings: THREE.Vector3[][], close = true) {
 
 export class Kit {
   private parts: THREE.BufferGeometry[] = [];
+  private anchors: Record<string, THREE.Vector3> = {};
   readonly m = new THREE.Matrix4();
+
+  /**
+   * Name a point of the model for the engine: `smoke` is where a hearth's smoke rises (a chimney,
+   * a cooking fire). It travels with the built geometry as `geometry.userData.anchors`.
+   */
+  mark(name: 'smoke', x: number, y: number, z: number) {
+    this.anchors[name] = new THREE.Vector3(x, y, z);
+    return this;
+  }
 
   add(g: THREE.BufferGeometry, color: THREE.ColorRepresentation, m?: THREE.Matrix4) {
     const geo = normalise(g);
@@ -208,6 +218,8 @@ export class Kit {
     const g = mergeGeometries(this.parts, false) ?? new THREE.BufferGeometry();
     for (const p of this.parts) p.dispose();
     this.parts = [];
+    g.userData.anchors = this.anchors;
+    this.anchors = {};
     const ao = o.ao ?? 1;
     const pos = g.attributes.position as THREE.BufferAttribute | undefined;
     const col = g.attributes.color as THREE.BufferAttribute | undefined;
