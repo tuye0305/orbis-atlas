@@ -75,12 +75,12 @@ for (const [style, prog] of Object.entries(PROGRAMS)) {
     await page.waitForTimeout(2500);
     if (lang === 'en') await page.screenshot({ path: path.join(OUT, `${style}-start.png`) });
     await page.evaluate(`(() => { const I = window.__isle; ${prog} })()`);
-    await page.evaluate(([v]) => window.__isle.view(...v), [VIEWS[style].wide]);
+    await page.evaluate(([v]) => window.__isle.view(...v, true), [VIEWS[style].wide]);
     await page.waitForTimeout(9000);
     const stats = await page.evaluate(() => window.__isle.stats());
     await page.screenshot({ path: path.join(OUT, `${style}-built${sfx}.png`) });
     if (lang === 'en') {
-      await page.evaluate(([v]) => window.__isle.view(...v), [VIEWS[style].close]);
+      await page.evaluate(([v]) => window.__isle.view(...v, true), [VIEWS[style].close]);
       await page.keyboard.press('h');
       await page.waitForTimeout(2500);
       await page.screenshot({ path: path.join(OUT, `${style}-close.png`) });

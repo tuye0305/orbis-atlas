@@ -198,11 +198,29 @@ export class Kit {
     return this.add(g, color);
   }
 
-  /** Merge into one geometry. The kit is empty afterwards. */
-  build() {
+  /**
+   * Merge into one geometry. The kit is empty afterwards. `ao` (0–1) bakes a cheap ambient
+   * occlusion into the vertex colours: walls darken toward the ground they stand on (y = 0) and
+   * faces turned down (eave soffits, deck undersides) sit in shade, which is most of what makes
+   * small boxes read as solid buildings rather than floating cut-outs.
+   */
+  build(o: { ao?: number } = {}) {
     const g = mergeGeometries(this.parts, false) ?? new THREE.BufferGeometry();
     for (const p of this.parts) p.dispose();
     this.parts = [];
+    const ao = o.ao ?? 1;
+    const pos = g.attributes.position as THREE.BufferAttribute | undefined;
+    const col = g.attributes.color as THREE.BufferAttribute | undefined;
+    const nrm = g.attributes.normal as THREE.BufferAttribute | undefined;
+    if (ao > 0 && pos && col && nrm)
+      for (let i = 0; i < pos.count; i++) {
+        const t = THREE.MathUtils.smoothstep(pos.getY(i), -0.06, 0.42);
+        let f = 0.58 + 0.42 * t;
+        const ny = nrm.getY(i);
+        if (ny < -0.3) f *= 0.72 + 0.28 * (1 + ny);
+        f = 1 - (1 - f) * ao;
+        col.setXYZ(i, col.getX(i) * f, col.getY(i) * f, col.getZ(i) * f);
+      }
     g.computeBoundingSphere();
     return g;
   }
