@@ -10,6 +10,8 @@ Every region has its own soundtrack.
 
 It runs in any modern browser, on desktop or phone, in English or 简体中文.
 
+**Open source** under the [GPL-3.0](LICENSE): you're free to use, study, change and share it under the same license. Issues and pull requests are welcome.
+
 [![Europe in 1066: the globe, the region panel, and the timeline](docs/readme/hero-europe-1066.jpg)](https://atlas.anyloop.ai/?year=1066)
 
 ## See it in motion
@@ -255,9 +257,8 @@ from `main` by hand:
 railway up
 ```
 
-GitHub Pages is switched off, because this repository is private and Pages for private repositories
-needs a paid plan. `.github/workflows/pages.yml` still builds a Pages-ready site, but only when run
-by hand.
+`.github/workflows/pages.yml` can also build a GitHub Pages copy of the site, but only when run by
+hand.
 
 ## Credits
 
@@ -271,11 +272,14 @@ Thanks also to:
 - NASA for the Blue Marble textures;
 - [three-globe](https://github.com/vasturiano/three-globe) for the globe.
 
+## Author
+
+Made by **Iris**: [X @iris_ye_tu](https://x.com/iris_ye_tu) · [adant.ai](https://adant.ai)
+
 ## License
 
-GPL-3.0, because Orbis adapts GPL-3.0 data from historical-basemaps and 江山时序 jiangshan-map.
-This repository is private, but the public site serves that GPL-3.0 material. The GPL lets anyone
-who receives it ask for the corresponding source, so keep a way to provide it.
+Open source under GPL-3.0; the full text is in [`LICENSE`](LICENSE). The project is GPL-3.0
+because it adapts GPL-3.0 data from historical-basemaps and 江山时序 jiangshan-map.
 
 When you reuse maps or screenshots, credit Orbis, [江山时序 jiangshan-map](https://github.com/DeanChensj/jiangshan-map)
 and [historical-basemaps](https://github.com/aourednik/historical-basemaps).
