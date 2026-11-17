@@ -1268,7 +1268,7 @@ export const kaifeng: Style = {
   },
   notes: [523.25, 587.33, 659.25, 783.99, 880, 1046.5],
   bonus: { label: { en: 'Bridges over the Bian', zh: '汴河上的桥' }, test: (s) => s.bridges >= 2 },
-  bird: '#3a3632',
+  bird: '#6b6259',
   smoke: 0.18,
   scatter: [
     { zone: 'grass', kit: SCATTER.tuft('#8fae66', '#a6bd78'), density: 1.4, scale: [0.8, 1.3] },

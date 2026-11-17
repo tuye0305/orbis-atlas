@@ -301,9 +301,16 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       vertexShader: /* glsl */ `varying vec3 vD; void main(){ vD = normalize(position); gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`,
       fragmentShader: /* glsl */ `
         uniform vec3 uTop, uHor, uFog, uSun, uSunC; varying vec3 vD;
+        float sh(vec2 p){ p = fract(p * vec2(123.34, 456.21)); p += dot(p, p + 45.32); return fract(p.x * p.y); }
+        float sn(vec2 p){ vec2 i = floor(p), f = fract(p); f = f * f * (3.0 - 2.0 * f);
+          return mix(mix(sh(i), sh(i + vec2(1, 0)), f.x), mix(sh(i + vec2(0, 1)), sh(i + vec2(1, 1)), f.x), f.y); }
         void main(){
           float y = max(vD.y, 0.0);
           vec3 c = mix(uHor, uTop, pow(y, 0.6));
+          // high, thin streaks of cirrus, stretched along one direction and fading to the horizon
+          vec2 q = vD.xz / max(vD.y, 0.08) * vec2(0.9, 2.6);
+          float ci = sn(q) * 0.6 + sn(q * 2.3 + 4.0) * 0.3 + sn(q * 5.1 - 2.0) * 0.1;
+          c = mix(c, vec3(1.0), smoothstep(0.55, 0.85, ci) * 0.35 * smoothstep(0.04, 0.3, vD.y));
           c = mix(uFog, c, smoothstep(-0.02, 0.12, vD.y));
           float d = max(dot(normalize(vD), uSun), 0.0);
           c += uSunC * (pow(d, 600.0) * 3.0 + pow(d, 12.0) * 0.18);
@@ -852,7 +859,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       const vz = Math.cos(a) * dir;
       bq.setFromAxisAngle(bY, Math.atan2(-vz, vx));
       const beat = Math.sin(t * 0.7 + i * 1.9) > -0.2 ? Math.sin(t * 10 + i * 2.3) : 0.3;
-      bs.set(1, 0.35 + beat * 1.1, 1);
+      bs.set(0.8, (0.35 + beat * 1.1) * 0.8, 0.8);
       bm.compose(bp, bq, bs);
       birds.setMatrixAt(i, bm);
     }
