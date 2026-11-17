@@ -2138,7 +2138,8 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       },
       stats,
       finish,
-      debug: () => ({ walkers: walkers.length, scatter: scatterPools.map((sp) => sp.p.items.length) }),
+      scene,
+      debug: () => ({ walkers: walkers.length, boats: boats.length, scatter: scatterPools.map((sp) => sp.p.items.length) }),
     };
 
   return {

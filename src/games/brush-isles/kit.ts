@@ -41,6 +41,34 @@ function normalise(g: THREE.BufferGeometry) {
   return geo;
 }
 
+/**
+ * Remove zero-area triangles (collinear points in an outline, a cone's collapsed tip). Their
+ * normal is a zero vector, and `normalize(vec3(0))` in the shader is NaN: one such fragment is
+ * enough for the bloom pass to smear NaN across the whole frame, which renders black.
+ */
+function dropDegenerate(g: THREE.BufferGeometry) {
+  const nrm = g.attributes.normal as THREE.BufferAttribute | undefined;
+  if (!nrm || g.index) return g;
+  const tris = nrm.count / 3;
+  const keep: number[] = [];
+  for (let t = 0; t < tris; t++) {
+    let ok = true;
+    for (let v = t * 3; v < t * 3 + 3; v++) if (!(nrm.getX(v) ** 2 + nrm.getY(v) ** 2 + nrm.getZ(v) ** 2 > 0.25)) ok = false;
+    if (ok) keep.push(t);
+  }
+  if (keep.length === tris) return g;
+  const out = new THREE.BufferGeometry();
+  for (const [name, attr] of Object.entries(g.attributes) as [string, THREE.BufferAttribute][]) {
+    const n = attr.itemSize;
+    const src = attr.array as Float32Array;
+    const dst = new Float32Array(keep.length * 3 * n);
+    keep.forEach((t, k) => dst.set(src.subarray(t * 3 * n, t * 3 * n + 3 * n), k * 3 * n));
+    out.setAttribute(name, new THREE.BufferAttribute(dst, n));
+  }
+  g.dispose();
+  return out;
+}
+
 /** Quads between consecutive closed rings of points (all rings the same length). */
 export function loft(rings: THREE.Vector3[][], close = true) {
   const pos: number[] = [];
@@ -215,9 +243,10 @@ export class Kit {
    * small boxes read as solid buildings rather than floating cut-outs.
    */
   build(o: { ao?: number } = {}) {
-    const g = mergeGeometries(this.parts, false) ?? new THREE.BufferGeometry();
+    let g = mergeGeometries(this.parts, false) ?? new THREE.BufferGeometry();
     for (const p of this.parts) p.dispose();
     this.parts = [];
+    g = dropDegenerate(g);
     g.userData.anchors = this.anchors;
     this.anchors = {};
     const ao = o.ao ?? 1;
