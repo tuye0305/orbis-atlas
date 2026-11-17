@@ -212,6 +212,7 @@ export const mount: MountGame = (root, ctx) => {
       uniform vec3 uCam; uniform vec4 uFires[${MAX_FIRES}];
       uniform vec3 uFogC; uniform float uBandZ, uBand;
       uniform sampler2D uRipple;
+      uniform sampler2D uRefl; uniform mat4 uReflMat;
       varying vec3 vW;
       vec2 wave(vec2 p, vec2 d, float f, float s, float a){ float ph = dot(p, d) * f + uTime * s; return d * cos(ph) * a * f; }
       void main(){
@@ -243,6 +244,11 @@ export const mount: MountGame = (root, ctx) => {
         vec3 refl = skyColor(R, uTime, 1.0, 0.0);
         // a hard glint for each wavelet catching the moon: the glitter path
         refl += vec3(1.0, 0.96, 0.88) * pow(max(dot(R, uMoonDir), 0.0), 420.0) * 5.0;
+        // the ships, the flames and the banks mirrored in the river (a planar reflection pass),
+        // shaken apart by the same ripples; sky shows through wherever nothing stands above it
+        vec4 tc = uReflMat * vec4(vW.x, 0.0, vW.z, 1.0);
+        vec4 obj = texture2D(uRefl, tc.xy / tc.w + n.xz * (0.07 * fade + 0.012));
+        refl = obj.rgb + refl * (1.0 - clamp(obj.a, 0.0, 1.0));
         vec3 deep = vec3(0.002, 0.02, 0.032) + vec3(0.0, 0.024, 0.034) * (1.0 - fade);
         vec3 c = mix(deep, refl, clamp(fres, 0.0, 1.0));
         // shimmering columns of reflected firelight, stretched toward the camera
@@ -277,6 +283,57 @@ export const mount: MountGame = (root, ctx) => {
   water.rotation.x = -Math.PI / 2;
   water.position.set(0, 0, -100);
   scene.add(water);
+
+  // Planar reflection: each frame the scene is drawn again at half resolution from the camera's
+  // mirror image under the water plane (obliquely clipped at the surface, so hulls below the
+  // waterline never show), and the water samples it projectively.
+  const reflRT = new THREE.WebGLRenderTarget(1, 1, { type: THREE.HalfFloatType });
+  const mirrorCam = new THREE.PerspectiveCamera();
+  const reflMat = new THREE.Matrix4();
+  waterMat.uniforms.uRefl = { value: reflRT.texture };
+  waterMat.uniforms.uReflMat = { value: reflMat };
+  const rv = { pos: new THREE.Vector3(), look: new THREE.Vector3(), rot: new THREE.Matrix4(), buf: new THREE.Vector2(), clear: new THREE.Color(), plane: new THREE.Plane(), clip: new THREE.Vector4(), q: new THREE.Vector4() };
+  const UP = new THREE.Vector3(0, 1, 0);
+  function renderReflection(hide: THREE.Object3D[], pointsAt: (k: number) => void) {
+    renderer.getDrawingBufferSize(rv.buf);
+    const w = Math.max(1, Math.round(rv.buf.x / 2));
+    const hh = Math.max(1, Math.round(rv.buf.y / 2));
+    if (reflRT.width !== w || reflRT.height !== hh) reflRT.setSize(w, hh);
+    camera.updateMatrixWorld();
+    rv.pos.setFromMatrixPosition(camera.matrixWorld);
+    rv.rot.extractRotation(camera.matrixWorld);
+    rv.look.set(0, 0, -1).applyMatrix4(rv.rot).add(rv.pos);
+    mirrorCam.position.set(rv.pos.x, -rv.pos.y, rv.pos.z);
+    mirrorCam.up.set(0, 1, 0).applyMatrix4(rv.rot).reflect(UP);
+    mirrorCam.lookAt(rv.look.x, -rv.look.y, rv.look.z);
+    mirrorCam.far = camera.far;
+    mirrorCam.updateMatrixWorld();
+    mirrorCam.projectionMatrix.copy(camera.projectionMatrix);
+    reflMat.set(0.5, 0, 0, 0.5, 0, 0.5, 0, 0.5, 0, 0, 0.5, 0.5, 0, 0, 0, 1).multiply(mirrorCam.projectionMatrix).multiply(mirrorCam.matrixWorldInverse);
+    // oblique near plane at the water surface (Lengyel), as in three's Reflector
+    rv.plane.setFromNormalAndCoplanarPoint(UP, rv.look.set(0, 0, 0)).applyMatrix4(mirrorCam.matrixWorldInverse);
+    rv.clip.set(rv.plane.normal.x, rv.plane.normal.y, rv.plane.normal.z, rv.plane.constant);
+    const pm = mirrorCam.projectionMatrix.elements;
+    rv.q.set((Math.sign(rv.clip.x) + pm[8]) / pm[0], (Math.sign(rv.clip.y) + pm[9]) / pm[5], -1, (1 + pm[10]) / pm[14]);
+    rv.clip.multiplyScalar(2 / rv.clip.dot(rv.q));
+    pm[2] = rv.clip.x;
+    pm[6] = rv.clip.y;
+    pm[10] = rv.clip.z + 1 - 0.003;
+    pm[14] = rv.clip.w;
+    const vis = hide.map((o) => o.visible);
+    hide.forEach((o) => (o.visible = false));
+    pointsAt(0.5);
+    renderer.getClearColor(rv.clear);
+    const alpha = renderer.getClearAlpha();
+    renderer.setRenderTarget(reflRT);
+    renderer.setClearColor(0x000000, 0);
+    renderer.clear();
+    renderer.render(scene, mirrorCam);
+    renderer.setRenderTarget(null);
+    renderer.setClearColor(rv.clear, alpha);
+    hide.forEach((o, i) => (o.visible = vis[i]));
+    pointsAt(1);
+  }
 
   // ---------- land: north bank (Wulin), south bank and the red cliffs ----------
   const noise = (x: number, z: number) => Math.sin(x * 0.07) * Math.cos(z * 0.09) + 0.5 * Math.sin(x * 0.19 + z * 0.13) + 0.25 * Math.sin(x * 0.41 - z * 0.37);
@@ -1033,6 +1090,10 @@ export const mount: MountGame = (root, ctx) => {
     if (!ctx.reduced && shake > 0) camera.position.add(new THREE.Vector3((rnd() - 0.5) * shake, (rnd() - 0.5) * shake, 0));
     const look = new THREE.Vector3().lerpVectors(new THREE.Vector3(0, 2, FRONT_Z - 6), camLook, e);
     camera.lookAt(look);
+    renderReflection([water, sky, mist], (k) => {
+      fire.setScale(focal * k);
+      smoke.setScale(focal * k);
+    });
 
     // --- flags stream with the wind ---
     const flagYaw = Math.atan2(-wind.y, wind.x);
@@ -1183,6 +1244,7 @@ export const mount: MountGame = (root, ctx) => {
       sfx.dispose();
       for (const b of boats) scene.remove(b.m);
       boatGeo.dispose();
+      reflRT.dispose();
       boatMat.dispose();
       stage.dispose();
       hud.remove();
