@@ -6,7 +6,8 @@ import { createSfx } from '../shared/sfx';
 import { clamp, createStage, gradientEnv, h, makeToast, mulberry } from '../shared/stage';
 import type { GameCtx, GameInstance, GameResult, MountGame } from '../types';
 import { Kit } from './kit';
-import { STYLES, type Stats, type Style, type StyleId } from './styles';
+import { STYLES } from './cities';
+import type { Stats, Style, StyleId } from './styles';
 
 /**
  * Brush Isles: paint land out of the water and a historical city grows on it. You never place a
