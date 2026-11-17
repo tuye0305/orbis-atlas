@@ -6,7 +6,9 @@ import { createSfx } from '../shared/sfx';
 import { clamp, createStage, gradientEnv, h, makeToast, mulberry } from '../shared/stage';
 import type { GameCtx, GameInstance, GameResult, MountGame } from '../types';
 import { Kit } from './kit';
-import { STYLES, type Stats, type Style, type StyleId } from './styles';
+import { NOISE_GLSL, cloudUniforms, patchClouds, patchTerrain } from './shading';
+import { STYLES } from './cities';
+import type { Stats, Style, StyleId } from './styles';
 
 /**
  * Brush Isles: paint land out of the water and a historical city grows on it. You never place a
@@ -217,6 +219,8 @@ interface Cell {
   sig: number;
   obj: THREE.Object3D | null;
   inst: Inst[];
+  /** Trees standing in the cell (its instances also hold undergrowth). */
+  trees: number;
   shoreTrees: number;
 }
 
@@ -259,6 +263,9 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
 
   /* ---------- light and sky */
   const sunDir = new THREE.Vector3(...st.sun.dir).normalize();
+  // the breeze blows across the sun line; smoke, cloud shadows and the horizon clouds share it
+  const wind = new THREE.Vector3(sunDir.z, 0, -sunDir.x).normalize().multiplyScalar(0.55);
+  const cloudU = cloudUniforms(reduced ? 0 : (st.clouds?.shadow ?? 0.25), wind);
   const sun = new THREE.DirectionalLight(st.sun.color, st.sun.intensity);
   sun.position.copy(sunDir).multiplyScalar(60);
   sun.castShadow = true;
@@ -294,9 +301,16 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       vertexShader: /* glsl */ `varying vec3 vD; void main(){ vD = normalize(position); gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`,
       fragmentShader: /* glsl */ `
         uniform vec3 uTop, uHor, uFog, uSun, uSunC; varying vec3 vD;
+        float sh(vec2 p){ p = fract(p * vec2(123.34, 456.21)); p += dot(p, p + 45.32); return fract(p.x * p.y); }
+        float sn(vec2 p){ vec2 i = floor(p), f = fract(p); f = f * f * (3.0 - 2.0 * f);
+          return mix(mix(sh(i), sh(i + vec2(1, 0)), f.x), mix(sh(i + vec2(0, 1)), sh(i + vec2(1, 1)), f.x), f.y); }
         void main(){
           float y = max(vD.y, 0.0);
           vec3 c = mix(uHor, uTop, pow(y, 0.6));
+          // high, thin streaks of cirrus, stretched along one direction and fading to the horizon
+          vec2 q = vD.xz / max(vD.y, 0.08) * vec2(0.9, 2.6);
+          float ci = sn(q) * 0.6 + sn(q * 2.3 + 4.0) * 0.3 + sn(q * 5.1 - 2.0) * 0.1;
+          c = mix(c, vec3(1.0), smoothstep(0.55, 0.85, ci) * 0.35 * smoothstep(0.04, 0.3, vD.y));
           c = mix(uFog, c, smoothstep(-0.02, 0.12, vD.y));
           float d = max(dot(normalize(vD), uSun), 0.0);
           c += uSunC * (pow(d, 600.0) * 3.0 + pow(d, 12.0) * 0.18);
@@ -307,6 +321,46 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   sky.renderOrder = -1;
   scene.add(sky);
 
+  // cumulus banks around the horizon, lit on top and shaded beneath, drifting slowly downwind
+  const cloudRing = new THREE.Group();
+  {
+    const cc = st.clouds ?? { color: '#ffffff', shade: st.fog.color };
+    const top = new THREE.Color(cc.color);
+    const under = new THREE.Color(cc.shade);
+    const rng = mulberry(st.id.length * 977 + 3);
+    const k = new Kit();
+    for (let c = 0; c < 16; c++) {
+      const a = (c / 16) * Math.PI * 2 + rng() * 0.3;
+      const r = 70 + rng() * 60;
+      const cx = Math.cos(a) * r;
+      const cz = Math.sin(a) * r;
+      const cy = 9 + rng() * 10;
+      const w = 7 + rng() * 9;
+      const puffs = 5 + Math.floor(rng() * 5);
+      for (let i = 0; i < puffs; i++) {
+        const u = (i / (puffs - 1) - 0.5) * 2;
+        const pr = w * (0.22 + 0.2 * (1 - u * u)) * (0.8 + rng() * 0.4);
+        // along the tangent of the ring, so each bank is a long, low cloud seen side-on
+        k.sphere(pr, cx - Math.sin(a) * u * w * 0.8 + (rng() - 0.5) * 2, cy + pr * 0.35 * (1 - u * u), cz + Math.cos(a) * u * w * 0.8 + (rng() - 0.5) * 2, '#ffffff', 0.62, 1);
+      }
+    }
+    const g = k.build({ ao: 0 });
+    // flat-bottomed and lit from above: colour by normal, squash everything below the base
+    const pos = g.attributes.position as THREE.BufferAttribute;
+    const nrm = g.attributes.normal as THREE.BufferAttribute;
+    const col = g.attributes.color as THREE.BufferAttribute;
+    const cTmp = new THREE.Color();
+    for (let i = 0; i < pos.count; i++) {
+      const ny = nrm.getY(i);
+      cTmp.copy(under).lerp(top, THREE.MathUtils.smoothstep(ny, -0.4, 0.7));
+      col.setXYZ(i, cTmp.r, cTmp.g, cTmp.b);
+    }
+    const m = new THREE.Mesh(g, new THREE.MeshBasicMaterial({ vertexColors: true, fog: true, transparent: true, opacity: 0.92, depthWrite: false }));
+    m.renderOrder = -0.5;
+    cloudRing.add(m);
+  }
+  scene.add(cloudRing);
+
   /* ---------- fields */
   const noise = makeNoise(st.id.length * 131 + 7);
   const Lf = new Float32Array(N * N);
@@ -316,6 +370,8 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   const Hh = new Float32Array(N * N);
   const NZ = new Float32Array(N * N);
   const CAP = new Float32Array(N * N);
+  /** Ridged noise: sharp crests and gullies carved into the high ground. */
+  const RZ = new Float32Array(N * N);
   const wx = (ix: number) => -HALF + ix * CELL;
   for (let iz = 0; iz < N; iz++)
     for (let ix = 0; ix < N; ix++) {
@@ -328,6 +384,9 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       Ff[i] = c.field ?? 0;
       Rf[i] = c.tree ?? 0;
       NZ[i] = noise(x * 0.55 + 40, z * 0.55 + 40) - 0.5;
+      const rA = 1 - Math.abs(noise(x * 0.32 + 9, z * 0.32 - 3) * 2 - 1);
+      const rB = 1 - Math.abs(noise(x * 0.7 - 21, z * 0.7 + 14) * 2 - 1);
+      RZ[i] = rA * rA * 0.65 + rB * rB * 0.35 - 0.45;
       const e = Math.min(ix, iz, N - 1 - ix, N - 1 - iz);
       const s = clamp((e - 3) / 9, 0, 1);
       CAP[i] = 0.2 + 3.8 * s * s * (3 - 2 * s);
@@ -352,7 +411,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     const L = Math.min(Lf[i], CAP[i]);
     if (L < 0.5) return -1.25 * (1 - L / 0.5);
     const s = clamp((L - 0.5) / 0.42, 0, 1);
-    return 0.34 * (1 - (1 - s) * (1 - s)) + Math.max(0, L - 1.08) * 1.55 + NZ[i] * 0.06 * s + (L > 1.1 ? NZ[i] * 0.5 * (L - 1.1) : 0);
+    return 0.34 * (1 - (1 - s) * (1 - s)) + Math.max(0, L - 1.08) * 1.55 + NZ[i] * 0.06 * s + (L > 1.1 ? NZ[i] * 0.5 * (L - 1.1) + RZ[i] * 0.85 * Math.min(1.6, L - 1.1) : 0);
   };
   for (let i = 0; i < N * N; i++) Hh[i] = heightOf(i);
 
@@ -375,6 +434,12 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   const tPos = tGeo.attributes.position as THREE.BufferAttribute;
   const tCol = new THREE.BufferAttribute(new Float32Array(N * N * 3), 3);
   tGeo.setAttribute('color', tCol);
+  const tTown = new THREE.BufferAttribute(new Float32Array(N * N), 1);
+  const tOcc = new THREE.BufferAttribute(new Float32Array(N * N), 1);
+  tGeo.setAttribute('aTown', tTown);
+  tGeo.setAttribute('aOcc', tOcc);
+  /** How close a wall stands to each fine vertex (0–1), for the contact shade at building feet. */
+  const OCC = new Float32Array(N * N);
   const GC = Object.fromEntries(Object.entries(st.ground).map(([k, v]) => [k, new THREE.Color(v)])) as Record<keyof Style['ground'], THREE.Color>;
   const tmpC = new THREE.Color();
   const shade = (i: number, out: THREE.Color) => {
@@ -417,6 +482,8 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         tPos.setY(i, Hh[i]);
         shade(i, tmpC);
         tCol.setXYZ(i, tmpC.r, tmpC.g, tmpC.b);
+        tTown.setX(i, Tf[i]);
+        tOcc.setX(i, OCC[i]);
         hTexData[i] = Math.round(clamp((Hh[i] + 2) / 3, 0, 1) * 255);
         // Normals straight from the height grid, only over this box: recomputing the whole 128²
         // mesh every few frames of a stroke was the costliest part of painting.
@@ -427,11 +494,15 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       }
     tPos.needsUpdate = true;
     tCol.needsUpdate = true;
+    tTown.needsUpdate = true;
+    tOcc.needsUpdate = true;
     tNrm.needsUpdate = true;
     hTex.needsUpdate = true;
   };
   writeRegion(0, 0, N - 1, N - 1);
-  const terrain = new THREE.Mesh(tGeo, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.96, metalness: 0, envMapIntensity: 0.3 }));
+  const tMat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.96, metalness: 0, envMapIntensity: 0.3 });
+  patchTerrain(tMat, cloudU, st);
+  const terrain = new THREE.Mesh(tGeo, tMat);
   terrain.receiveShadow = true;
   terrain.castShadow = true;
   scene.add(terrain);
@@ -471,15 +542,46 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         uFogC: { value: new THREE.Color(st.fog.color) },
         uFogN: { value: st.fog.near },
         uFogF: { value: st.fog.far },
+        uSand: { value: new THREE.Color(st.ground.sand) },
+        // boats: x, z and heading (unit vector); count in uNB
+        uBoat: { value: Array.from({ length: 16 }, () => new THREE.Vector4()) },
+        uNB: { value: 0 },
+        ...cloudU,
       },
       vertexShader: /* glsl */ `varying vec3 vW; void main(){ vec4 w = modelMatrix * vec4(position, 1.0); vW = w.xyz; gl_Position = projectionMatrix * viewMatrix * w; }`,
       fragmentShader: /* glsl */ `
         uniform sampler2D uH; uniform float uS, uN, uT, uOut, uFogN, uFogF;
-        uniform vec3 uShallow, uDeep, uFoam, uSky, uSunDir, uSunC, uFogC;
+        uniform vec3 uShallow, uDeep, uFoam, uSky, uSunDir, uSunC, uFogC, uSand;
+        uniform vec4 uBoat[16]; uniform int uNB;
+        // a V of broken foam trailing each boat, and a little bow wave
+        float wakes(vec2 p, float t){
+          float w = 0.0;
+          for (int i = 0; i < 16; i++) {
+            if (i >= uNB) break;
+            vec2 d = p - uBoat[i].xy;
+            if (dot(d, d) > 9.0) continue;
+            vec2 f = uBoat[i].zw;
+            float along = -dot(d, f);
+            float side = abs(d.x * f.y - d.y * f.x);
+            if (along > 0.0 && along < 2.4) {
+              float spread = 0.08 + along * 0.3;
+              float edge = smoothstep(spread * 0.55, spread, side) * smoothstep(spread * 1.35, spread, side);
+              float inner = smoothstep(0.1, 0.0, side) * 0.5;
+              w += (edge + inner) * (1.0 - along / 2.4) * (0.55 + 0.45 * sin(along * 16.0 - t * 5.0));
+            }
+            w += smoothstep(0.22, 0.08, length(d - f * 0.18)) * 0.35;
+          }
+          return clamp(w, 0.0, 1.0);
+        }
         varying vec3 vW;
-        float hash(vec2 p){ p = fract(p * vec2(123.34, 456.21)); p += dot(p, p + 45.32); return fract(p.x * p.y); }
-        float vnoise(vec2 p){ vec2 i = floor(p), f = fract(p); f = f * f * (3.0 - 2.0 * f);
-          return mix(mix(hash(i), hash(i + vec2(1, 0)), f.x), mix(hash(i + vec2(0, 1)), hash(i + vec2(1, 1)), f.x), f.y); }
+        ${NOISE_GLSL}
+        #define vnoise bi_noise
+        // light focused by the ripples into a moving web on the shallow bed
+        float caustic(vec2 p, float t){
+          float a = bi_noise(p * 3.4 + vec2(t * 0.31, t * 0.17));
+          float b = bi_noise(p * 3.4 * 1.13 + vec2(-t * 0.23, t * 0.29) + 5.2);
+          return pow(1.0 - abs(a - b), 6.0);
+        }
         void main(){
           vec2 g = (vW.xz + uS * 0.5) / uS * (uN - 1.0);
           vec2 uv = (g + 0.5) / uN;
@@ -488,9 +590,16 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
           float edge = smoothstep(0.0, 0.09, min(e2.x, e2.y));
           float hgt = inside ? mix(uOut, texture2D(uH, uv).r * 3.0 - 2.0, edge) : uOut;
           float depth = clamp(-hgt, 0.0, 3.0);
-          vec3 col = mix(uShallow, uDeep, smoothstep(0.02, 1.5, depth));
           vec2 p = vW.xz;
           float t = uT;
+          vec3 col = mix(uShallow, uDeep, smoothstep(0.02, 1.5, depth));
+          // the bed shows through the shallowest water, lit by caustics
+          float clear = smoothstep(0.35, 0.0, depth);
+          col = mix(col, mix(uShallow, uSand, 0.55), clear * 0.6);
+          float cs = cloudShade(vW);
+          float camD = length(cameraPosition - vW);
+          col += uSunC * caustic(p, t) * smoothstep(0.55, 0.05, depth) * smoothstep(0.0, 0.04, depth) * smoothstep(42.0, 12.0, camD) * 0.075 * cs;
+          col *= mix(0.86, 1.0, cs);
           float n1 = vnoise(p * 1.6 + vec2(t * 0.35, t * 0.2));
           float n2 = vnoise(p * 3.1 - vec2(t * 0.25, -t * 0.3));
           vec3 nrm = normalize(vec3((n1 - 0.5) * 0.22 + sin(p.x * 1.2 + t) * 0.03, 1.0, (n2 - 0.5) * 0.22 + cos(p.y * 1.05 - t * 0.8) * 0.03));
@@ -498,12 +607,13 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
           float fres = pow(1.0 - max(dot(nrm, V), 0.0), 3.0);
           col = mix(col, uSky, fres * 0.55);
           vec3 R = reflect(-uSunDir, nrm);
-          col += uSunC * pow(max(dot(R, V), 0.0), 220.0) * 1.6;
+          col += uSunC * pow(max(dot(R, V), 0.0), 220.0) * 1.6 * cs;
           // foam: a bright line at the shore, broken patches over the shallows and reefs
           float shore = smoothstep(0.07, 0.0, depth);
           float shallow = smoothstep(0.3, 0.02, depth);
           float foamy = smoothstep(0.52, 0.78, vnoise(p * 2.4 + vec2(t * 0.5, -t * 0.3)) * 0.7 + 0.3 * sin(depth * 30.0 - t * 2.2));
           col = mix(col, uFoam, clamp(shore * 0.8 + shallow * foamy * 0.55, 0.0, 1.0));
+          col = mix(col, uFoam, wakes(p, t) * 0.5);
           float dist = length(cameraPosition - vW);
           col = mix(col, uFogC, smoothstep(uFogN, uFogF, dist));
           gl_FragColor = vec4(col, 1.0);
@@ -517,6 +627,10 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
 
   /* ---------- materials, pools */
   const matB = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.82, metalness: 0, side: THREE.DoubleSide, envMapIntensity: 0.4 });
+  patchClouds(matB, cloudU);
+  // trees, reeds and grass: the same surface, bending in the breeze
+  const matSway = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.85, metalness: 0, side: THREE.DoubleSide, envMapIntensity: 0.4 });
+  patchClouds(matSway, cloudU, reduced ? 0 : 0.045);
   const ghostMat = new THREE.MeshBasicMaterial({ vertexColors: true, transparent: true, opacity: 0.45, depthWrite: false, fog: false });
 
   const bedKit = new Kit();
@@ -529,10 +643,23 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     const k = new Kit();
     st.treeKits[name](k);
     // room for every cell planted at full density with this one kind (Amsterdam's elms nearly are)
-    const p = new Pool(k.build(), matB, G * G * 3);
+    const p = new Pool(k.build(), matSway, G * G * 3);
     treePools[name] = p;
     scene.add(p.mesh);
   }
+
+  // ground scatter: one instanced pool per kind of small thing (tufts, flowers, stones, lily pads)
+  const SCATTER_ZONES = ['', 'grass', 'shore', 'hill', 'shallows'] as const;
+  const scatterPools = (st.scatter ?? []).map((sc) => {
+    const k = new Kit();
+    sc.kit(k);
+    // (stones and lily pads sit still; anything taller than a pebble moves with the wind)
+    const p = new Pool(k.build({ ao: 0.5 }), sc.float ? matB : matSway, G * G * 4);
+    p.mesh.castShadow = !!sc.shadow;
+    scene.add(p.mesh);
+    return { sc, p };
+  });
+  const hasHillScatter = scatterPools.some((s) => s.sc.zone === 'hill');
 
   // far scenery
   {
@@ -644,7 +771,6 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   const pAge = new Float32Array(MAXP).fill(99);
   const pLife = new Float32Array(MAXP).fill(1);
   let pNext = 0;
-  const wind = new THREE.Vector3(sunDir.z, 0, -sunDir.x).normalize().multiplyScalar(0.55);
   const chimney = new THREE.Vector3();
   const sm = new THREE.Matrix4();
   const smQ = new THREE.Quaternion();
@@ -656,10 +782,14 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     if (reduced) return;
     // the roof just behind the centre, found by dropping a ray onto the house's own geometry (its
     // bounding box would put the smoke at the top of a banner pole)
-    probe.geometry = o.geometry;
-    probeRay.ray.origin.set(0, 6, -0.08);
-    const hit = probeRay.intersectObject(probe, false)[0];
-    o.userData.chimney = new THREE.Vector3(0, (hit?.point.y ?? 0.5) - 0.03, -0.08);
+    const marked = (o.geometry.userData.anchors as Record<string, THREE.Vector3> | undefined)?.smoke;
+    if (marked) o.userData.chimney = marked.clone();
+    else {
+      probe.geometry = o.geometry;
+      probeRay.ray.origin.set(0, 6, -0.08);
+      const hit = probeRay.intersectObject(probe, false)[0];
+      o.userData.chimney = new THREE.Vector3(0, (hit?.point.y ?? 0.5) - 0.03, -0.08);
+    }
     o.userData.smokeT = hash(o.id, 1) * 2;
     smokers.add(o);
   };
@@ -729,7 +859,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       const vz = Math.cos(a) * dir;
       bq.setFromAxisAngle(bY, Math.atan2(-vz, vx));
       const beat = Math.sin(t * 0.7 + i * 1.9) > -0.2 ? Math.sin(t * 10 + i * 2.3) : 0.3;
-      bs.set(1, 0.35 + beat * 1.1, 1);
+      bs.set(0.8, (0.35 + beat * 1.1) * 0.8, 0.8);
       bm.compose(bp, bq, bs);
       birds.setMatrixAt(i, bm);
     }
@@ -737,7 +867,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   };
 
   /* ---------- cells */
-  const cells: Cell[] = Array.from({ length: G * G }, () => ({ kind: K.None, sig: -1, obj: null, inst: [], shoreTrees: 0 }));
+  const cells: Cell[] = Array.from({ length: G * G }, () => ({ kind: K.None, sig: -1, obj: null, inst: [], trees: 0, shoreTrees: 0 }));
   const reserved = new Uint8Array(G * G);
   const dirty = new Set<number>();
   const cxw = (c: number) => -HALF + c + 0.5;
@@ -792,6 +922,14 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         if (n <= 3 && isTown(cx - (back + 1) * dx, cz - (back + 1) * dz) && isTown(cx + (fwd + 1) * dx, cz + (fwd + 1) * dz)) return [K.Bridge, ax * 16 + n * 4 + back];
       }
     }
+    // empty ground still gets its scatter: which kind depends on where the cell lies
+    if (!scatterPools.length) return [K.None, 0];
+    if (land) {
+      if (h0 > 0.75) return [K.None, hasHillScatter ? 3 : 1];
+      if (h0 < 0.2 || isWater(cx + 1, cz) || isWater(cx - 1, cz) || isWater(cx, cz + 1) || isWater(cx, cz - 1)) return [K.None, 2];
+      return [K.None, 1];
+    }
+    if (h0 < -0.08 && h0 > -0.75) return [K.None, 4];
     return [K.None, 0];
   };
 
@@ -827,11 +965,39 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     for (const it of c.inst) animate({ inst: it, grow: false, dur: 0.22, done: () => it.pool.remove(it) });
     c.obj = null;
     c.inst = [];
+    c.trees = 0;
     c.shoreTrees = 0;
   };
 
   const spinners = new Set<THREE.Object3D>();
   const v3 = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
+
+  /** Strew a cell with its zone's scatter; `mul` thins it out (the undergrowth under trees). */
+  const scatterInto = (c: Cell, x: number, z: number, zone: string, rng: () => number, delay: number, mul: number) => {
+    for (const { sc, p } of scatterPools) {
+      if (sc.zone !== zone) continue;
+      const want = sc.density * mul * (0.5 + rng());
+      const n = Math.floor(want) + (rng() < want % 1 ? 1 : 0);
+      for (let j = 0; j < n; j++) {
+        const px = x + (rng() - 0.5) * 0.96;
+        const pz = z + (rng() - 0.5) * 0.96;
+        const hh = heightAt(px, pz);
+        // in the shallows everything stands at the water line (the bed is hidden under opaque
+        // water): lily pads float on it, reeds rise out of it
+        const wet = sc.float || zone === 'shallows';
+        if (wet ? hh > -0.06 : hh < (zone === 'shore' ? -0.02 : 0.04)) continue;
+        const [s0, s1] = sc.scale ?? [0.85, 1.15];
+        const sz = s0 + (s1 - s0) * rng();
+        const col = new THREE.Color(1, 1, 1).multiplyScalar(0.9 + rng() * 0.2);
+        const dy = sc.float ? 0.006 : wet ? -0.02 : -0.006;
+        const it = p.add(v3(px, wet ? dy : hh + dy, pz), rng() * 6.28, v3(sz, sz, sz), col, dy, wet);
+        if (it) {
+          c.inst.push(it);
+          animate({ inst: it, grow: true, dur: 0.35, delay: delay + j * 0.03 });
+        }
+      }
+    }
+  };
 
   const buildCell = (cx: number, cz: number, c: Cell, kind: K, sub: number) => {
     const x = cxw(cx);
@@ -914,10 +1080,15 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         const it = treePools[name].add(v3(px, heightAt(px, pz) - 0.03, pz), rng() * 6.28, v3(s, s * (0.85 + rng() * 0.3), s), col, -0.03);
         if (it) {
           c.inst.push(it);
+          c.trees++;
           if (zone === 0) c.shoreTrees++;
           animate({ inst: it, grow: true, dur: 0.5, delay: delay + j * 0.08 });
         }
       }
+      // undergrowth, so a wooded slope isn't bare ground between the trunks
+      scatterInto(c, x, z, zone === 0 ? 'shore' : zone === 2 && hasHillScatter ? 'hill' : 'grass', rng, delay, 0.55);
+    } else if (kind === K.None && sub) {
+      scatterInto(c, x, z, SCATTER_ZONES[sub], rng, delay, 1);
     } else if (kind === K.Bridge && st.bridge) {
       const k = new Kit();
       st.bridge(k, sub & 3, (sub >> 2) & 3);
@@ -943,6 +1114,36 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     }
   };
 
+  /* ---------- contact shade: darken the ground at the foot of walls (and in narrow alleys) */
+  const walled = (cx: number, cz: number) => {
+    if (!inG(cx, cz)) return false;
+    const k = cells[cz * G + cx].kind;
+    return k === K.House || k === K.Mill || k === K.Reserved;
+  };
+  const restampOcc = (cx: number, cz: number) => {
+    const x0 = Math.max(0, Math.floor((cxw(cx) - 1.6 + HALF) / CELL));
+    const x1 = Math.min(N - 1, Math.ceil((cxw(cx) + 1.6 + HALF) / CELL));
+    const z0 = Math.max(0, Math.floor((cxw(cz) - 1.6 + HALF) / CELL));
+    const z1 = Math.min(N - 1, Math.ceil((cxw(cz) + 1.6 + HALF) / CELL));
+    for (let iz = z0; iz <= z1; iz++)
+      for (let ix = x0; ix <= x1; ix++) {
+        const x = wx(ix);
+        const z = wx(iz);
+        const ccx = Math.floor(x + HALF);
+        const ccz = Math.floor(z + HALF);
+        let o = 0;
+        for (let dz = -1; dz <= 1; dz++)
+          for (let dx = -1; dx <= 1; dx++) {
+            if (!walled(ccx + dx, ccz + dz)) continue;
+            const d = Math.max(Math.abs(x - cxw(ccx + dx)), Math.abs(z - cxw(ccz + dz)));
+            const v = clamp((0.95 - d) / 0.5, 0, 1);
+            o = Math.max(o, v * v * (3 - 2 * v));
+          }
+        OCC[iz * N + ix] = o;
+      }
+    dirtyBox = dirtyBox ? [Math.min(dirtyBox[0], x0), Math.min(dirtyBox[1], z0), Math.max(dirtyBox[2], x1), Math.max(dirtyBox[3], z1)] : [x0, z0, x1, z1];
+  };
+
   const processCells = (max: number) => {
     let n = 0;
     for (const ci of dirty) {
@@ -955,10 +1156,12 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       if (c.sig === sig) resettle(cx, cz, c);
       else {
         const wasHouse = c.kind === K.House;
+        const wasWalled = walled(cx, cz);
         clearCell(c);
         c.kind = K.None;
         c.sig = sig;
         buildCell(cx, cz, c, kind, sub);
+        if (wasWalled !== walled(cx, cz)) restampOcc(cx, cz);
         // neighbours may now face this house, or a bridge may now span to it
         if (wasHouse !== (kind === K.House) && st.bridge)
           for (let dz = -4; dz <= 4; dz++) for (let dx = -4; dx <= 4; dx++) if ((dx || dz) && inG(cx + dx, cz + dz) && (dx === 0 || dz === 0)) dirty.add((cz + dz) * G + cx + dx);
@@ -1178,6 +1381,178 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     if (tool === 'houses' && hgt < 0.05) hint({ en: 'Houses need dry, flat land: paint <b>Land</b> here first.', zh: '房屋要建在干燥平坦的陆地上：先在这里画<b>陆地</b>。' });
     else if (tool === 'houses' && hgt > 1.3) hint({ en: 'Too steep for houses. Plant <b>Trees</b> on the hills.', zh: '山坡太陡，建不了房屋。山上可以种<b>树木</b>。' });
     else if (tool === 'fields' && hgt < 0.03 && !st.chinampas) hint({ en: 'Fields need land: paint <b>Land</b> first.', zh: '田地要在陆地上：先画<b>陆地</b>。' });
+  };
+
+  /* ---------- townsfolk: little figures walking the lanes between the houses */
+  // They walk the grid lines between cells (the alleys, quays and yards), node to node, and
+  // linger now and then; they keep to dry, gentle ground and to the town and its edges.
+  interface Walker {
+    x: number;
+    z: number;
+    nx: number;
+    nz: number;
+    px: number;
+    pz: number;
+    speed: number;
+    wait: number;
+    phase: number;
+    k: number;
+    leaving: boolean;
+    color: THREE.Color;
+  }
+  const NW = reduced ? 0 : 90;
+  const people = st.people ?? { clothes: ['#d9cfb8', '#7a5a3a', '#3b4a63'], skin: '#c89a74' };
+  const figure = (() => {
+    const kb = new Kit();
+    kb.cyl(0.02, 0.03, 0.075, 6, 0, 0.035, 0, '#ffffff');
+    kb.cyl(0.012, 0.02, 0.016, 6, 0, 0.11, 0, '#ffffff');
+    const body = kb.build({ ao: 0.4 });
+    const kh = new Kit();
+    kh.sphere(0.02, 0, 0.135, 0, people.skin, 1, 1);
+    kh.box(0.014, 0.038, 0.014, -0.011, 0, 0, '#4a3a30');
+    kh.box(0.014, 0.038, 0.014, 0.011, 0, 0, '#4a3a30');
+    return { body, rest: kh.build({ ao: 0.3 }) };
+  })();
+  const bodies = new THREE.InstancedMesh(figure.body, matB, Math.max(1, NW));
+  const heads = new THREE.InstancedMesh(figure.rest, matB, Math.max(1, NW));
+  for (const m of [bodies, heads]) {
+    m.count = 0;
+    m.castShadow = true;
+    m.frustumCulled = false;
+    m.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+    m.setColorAt(0, new THREE.Color(1, 1, 1));
+    scene.add(m);
+  }
+  const walkers: Walker[] = [];
+  const wRng = mulberry(777);
+  const nodeW = (i: number) => -HALF + i;
+  /** A grid node (the corner shared by four cells) people can stand on. */
+  const walkable = (i: number, j: number) => {
+    if (i < 1 || j < 1 || i >= G || j >= G) return false;
+    const hh = heightAt(nodeW(i), nodeW(j));
+    if (hh < 0.05 || hh > 1.25) return false;
+    // not inside the landmark's court, nor across a field
+    let r = 0;
+    let fieldCells = 0;
+    for (const [dx, dz] of [[-1, -1], [0, -1], [-1, 0], [0, 0]]) {
+      const ci = (j + dz) * G + i + dx;
+      if (reserved[ci]) r++;
+      const k = cells[ci].kind;
+      if (k === K.Field || k === K.Mill) fieldCells++;
+    }
+    return r < 4 && fieldCells < 3;
+  };
+  const townNear = (i: number, j: number) => {
+    let n = 0;
+    for (const [dx, dz] of [[-1, -1], [0, -1], [-1, 0], [0, 0]]) if (inG(i + dx, j + dz) && cells[(j + dz) * G + i + dx].kind === K.House) n++;
+    return n;
+  };
+  const nextNode = (w: Walker) => {
+    const opts: [number, number, number][] = [];
+    let total = 0;
+    for (const [dx, dz] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+      const i = w.nx + dx;
+      const j = w.nz + dz;
+      if (!walkable(i, j)) continue;
+      // keep going rather than turning back, and keep to the town
+      const back = i === w.px && j === w.pz;
+      const wgt = (back ? 0.15 : 1) * (0.25 + townNear(i, j));
+      opts.push([i, j, wgt]);
+      total += wgt;
+    }
+    if (!opts.length) return false;
+    let r = wRng() * total;
+    for (const [i, j, wgt] of opts) {
+      if ((r -= wgt) <= 0) {
+        w.px = w.nx;
+        w.pz = w.nz;
+        w.nx = i;
+        w.nz = j;
+        return true;
+      }
+    }
+    return false;
+  };
+  const spawnWalker = () => {
+    for (let tries = 0; tries < 30; tries++) {
+      const i = 1 + Math.floor(wRng() * (G - 1));
+      const j = 1 + Math.floor(wRng() * (G - 1));
+      if (!walkable(i, j) || !townNear(i, j)) continue;
+      const w: Walker = {
+        x: nodeW(i),
+        z: nodeW(j),
+        nx: i,
+        nz: j,
+        px: i,
+        pz: j,
+        speed: 0.22 + wRng() * 0.16,
+        wait: wRng() * 2,
+        phase: wRng() * 6,
+        k: 0,
+        leaving: false,
+        color: new THREE.Color(people.clothes[Math.floor(wRng() * people.clothes.length)]).multiplyScalar(0.9 + wRng() * 0.2),
+      };
+      walkers.push(w);
+      return;
+    }
+  };
+  const wm = new THREE.Matrix4();
+  const wq = new THREE.Quaternion();
+  const ws = new THREE.Vector3();
+  const wp = new THREE.Vector3();
+  const wY = new THREE.Vector3(0, 1, 0);
+  const wWhite = new THREE.Color(1, 1, 1);
+  const stepWalkers = (dt: number, want: number) => {
+    if (!NW) return;
+    const cap = Math.min(NW, want);
+    const active = walkers.reduce((n, w) => n + (w.leaving ? 0 : 1), 0);
+    // a few new faces each frame until the town is peopled (they fade in where they appear)
+    if (active < cap) for (let i = 0; i < Math.min(3, cap - active); i++) spawnWalker();
+    else if (active > cap) {
+      const w = walkers.find((v) => !v.leaving);
+      if (w) w.leaving = true;
+    }
+    let n = 0;
+    for (let i = walkers.length - 1; i >= 0; i--) {
+      const w = walkers[i];
+      w.k = clamp(w.k + (w.leaving ? -dt * 2.5 : dt * 2.5), 0, 1);
+      if (w.leaving && w.k <= 0) {
+        walkers.splice(i, 1);
+        continue;
+      }
+      // the ground under them was flooded or built over: fade out
+      if (!walkable(w.nx, w.nz)) w.leaving = true;
+      const dx = nodeW(w.nx) - w.x;
+      const dz = nodeW(w.nz) - w.z;
+      const d = Math.hypot(dx, dz);
+      let moving = false;
+      if (w.wait > 0) w.wait -= dt;
+      else if (d < 0.01) {
+        if (!nextNode(w)) w.wait = 1;
+        else if (wRng() < 0.08) w.wait = 1 + wRng() * 3; // stop for a chat
+      } else {
+        const step = Math.min(d, w.speed * dt);
+        w.x += (dx / d) * step;
+        w.z += (dz / d) * step;
+        w.phase += dt * w.speed * 55;
+        moving = true;
+      }
+      const hdx = w.nx - w.px;
+      const hdz = w.nz - w.pz;
+      wq.setFromAxisAngle(wY, hdx || hdz ? Math.atan2(hdx, hdz) : 0);
+      wp.set(w.x, heightAt(w.x, w.z) + (moving ? Math.abs(Math.sin(w.phase)) * 0.008 : 0), w.z);
+      ws.setScalar(Math.max(1e-4, w.k));
+      wm.compose(wp, wq, ws);
+      bodies.setMatrixAt(n, wm);
+      heads.setMatrixAt(n, wm);
+      bodies.setColorAt(n, w.color);
+      heads.setColorAt(n, wWhite);
+      n++;
+    }
+    bodies.count = heads.count = n;
+    bodies.instanceMatrix.needsUpdate = heads.instanceMatrix.needsUpdate = true;
+    if (bodies.instanceColor) bodies.instanceColor.needsUpdate = true;
+    if (heads.instanceColor) heads.instanceColor.needsUpdate = true;
   };
 
   /* ---------- boats */
@@ -1586,7 +1961,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
         if (lm && Math.max(Math.abs(cx - lm.cx), Math.abs(cz - lm.cz)) <= 4) s.landmarkTown++;
       } else if (cell.kind === K.Field) s.fields++;
       else if (cell.kind === K.Chinampa) s.chinampas++;
-      else if (cell.kind === K.Trees) s.trees += cell.inst.length;
+      else if (cell.kind === K.Trees) s.trees += cell.trees;
       else if (cell.kind === K.Bridge && (cell.sig & 3) === 0) s.bridges++;
       else if (cell.kind === K.Mill) s.windmills++;
       s.shoreTrees += cell.shoreTrees;
@@ -1668,6 +2043,7 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
   /* ---------- frame loop */
   let coachTimer = 0;
   let normalsTimer = 0;
+  let statsTimer = 0;
   stage.onFrame((dt, t) => {
     clock = t;
     if (ended && !reduced) goal.yaw += dt * 0.06;
@@ -1693,12 +2069,30 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
     processCells(painting ? 70 : 120);
     stepAnims(dt);
 
+    // (the coach can hold its message for seconds; the life of the town shouldn't wait for it)
+    statsTimer -= dt;
+    if (statsTimer <= 0) {
+      cur = stats();
+      statsTimer = 0.3;
+    }
     const s = cur;
     stepBoats(dt, t, Math.min(14, Math.floor(s.houses / 7) + Math.floor(s.chinampas / 6) + (st.id === 'raiatea' ? 3 : 1)));
+    {
+      const ub = waterU.uBoat.value as THREE.Vector4[];
+      let nb = 0;
+      for (const b of boats) {
+        if (nb >= ub.length || b.leaving) continue;
+        ub[nb++].set(b.x, b.z, Math.cos(b.head), -Math.sin(b.head));
+      }
+      waterU.uNB.value = nb;
+    }
     for (const sp of spinners) sp.rotation.z -= dt * (reduced ? 0.3 : 1.1);
     stepSmoke(dt);
+    stepWalkers(dt, Math.floor(s.houses * 0.7));
     if (NB) stepBirds(t);
     waterU.uT.value = t;
+    cloudU.uCloudT.value = t;
+    if (!reduced) cloudRing.rotation.y = t * 0.0015 * Math.sign(wind.x || 1);
 
     // brush cursor / landmark ghost
     if (hover && !ended && tool !== 'landmark') {
@@ -1738,11 +2132,14 @@ function mount(root: HTMLElement, ctx: GameCtx, st: Style): GameInstance {
       landmark(x: number, z: number) {
         placeLandmark(new THREE.Vector3(x, 0, z));
       },
-      view(yaw: number, pitch: number, dist: number, txx = 0, tz = 0) {
+      view(yaw: number, pitch: number, dist: number, txx = 0, tz = 0, snap = false) {
         Object.assign(goal, { yaw, pitch, dist, tx: txx, tz });
+        if (snap) Object.assign(cam, goal);
       },
       stats,
       finish,
+      scene,
+      debug: () => ({ walkers: walkers.length, boats: boats.length, scatter: scatterPools.map((sp) => sp.p.items.length) }),
     };
 
   return {

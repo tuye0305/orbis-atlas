@@ -41,6 +41,34 @@ function normalise(g: THREE.BufferGeometry) {
   return geo;
 }
 
+/**
+ * Remove zero-area triangles (collinear points in an outline, a cone's collapsed tip). Their
+ * normal is a zero vector, and `normalize(vec3(0))` in the shader is NaN: one such fragment is
+ * enough for the bloom pass to smear NaN across the whole frame, which renders black.
+ */
+function dropDegenerate(g: THREE.BufferGeometry) {
+  const nrm = g.attributes.normal as THREE.BufferAttribute | undefined;
+  if (!nrm || g.index) return g;
+  const tris = nrm.count / 3;
+  const keep: number[] = [];
+  for (let t = 0; t < tris; t++) {
+    let ok = true;
+    for (let v = t * 3; v < t * 3 + 3; v++) if (!(nrm.getX(v) ** 2 + nrm.getY(v) ** 2 + nrm.getZ(v) ** 2 > 0.25)) ok = false;
+    if (ok) keep.push(t);
+  }
+  if (keep.length === tris) return g;
+  const out = new THREE.BufferGeometry();
+  for (const [name, attr] of Object.entries(g.attributes) as [string, THREE.BufferAttribute][]) {
+    const n = attr.itemSize;
+    const src = attr.array as Float32Array;
+    const dst = new Float32Array(keep.length * 3 * n);
+    keep.forEach((t, k) => dst.set(src.subarray(t * 3 * n, t * 3 * n + 3 * n), k * 3 * n));
+    out.setAttribute(name, new THREE.BufferAttribute(dst, n));
+  }
+  g.dispose();
+  return out;
+}
+
 /** Quads between consecutive closed rings of points (all rings the same length). */
 export function loft(rings: THREE.Vector3[][], close = true) {
   const pos: number[] = [];
@@ -66,7 +94,17 @@ export function loft(rings: THREE.Vector3[][], close = true) {
 
 export class Kit {
   private parts: THREE.BufferGeometry[] = [];
+  private anchors: Record<string, THREE.Vector3> = {};
   readonly m = new THREE.Matrix4();
+
+  /**
+   * Name a point of the model for the engine: `smoke` is where a hearth's smoke rises (a chimney,
+   * a cooking fire). It travels with the built geometry as `geometry.userData.anchors`.
+   */
+  mark(name: 'smoke', x: number, y: number, z: number) {
+    this.anchors[name] = new THREE.Vector3(x, y, z);
+    return this;
+  }
 
   add(g: THREE.BufferGeometry, color: THREE.ColorRepresentation, m?: THREE.Matrix4) {
     const geo = normalise(g);
@@ -198,11 +236,32 @@ export class Kit {
     return this.add(g, color);
   }
 
-  /** Merge into one geometry. The kit is empty afterwards. */
-  build() {
-    const g = mergeGeometries(this.parts, false) ?? new THREE.BufferGeometry();
+  /**
+   * Merge into one geometry. The kit is empty afterwards. `ao` (0–1) bakes a cheap ambient
+   * occlusion into the vertex colours: walls darken toward the ground they stand on (y = 0) and
+   * faces turned down (eave soffits, deck undersides) sit in shade, which is most of what makes
+   * small boxes read as solid buildings rather than floating cut-outs.
+   */
+  build(o: { ao?: number } = {}) {
+    let g = mergeGeometries(this.parts, false) ?? new THREE.BufferGeometry();
     for (const p of this.parts) p.dispose();
     this.parts = [];
+    g = dropDegenerate(g);
+    g.userData.anchors = this.anchors;
+    this.anchors = {};
+    const ao = o.ao ?? 1;
+    const pos = g.attributes.position as THREE.BufferAttribute | undefined;
+    const col = g.attributes.color as THREE.BufferAttribute | undefined;
+    const nrm = g.attributes.normal as THREE.BufferAttribute | undefined;
+    if (ao > 0 && pos && col && nrm)
+      for (let i = 0; i < pos.count; i++) {
+        const t = THREE.MathUtils.smoothstep(pos.getY(i), -0.06, 0.42);
+        let f = 0.58 + 0.42 * t;
+        const ny = nrm.getY(i);
+        if (ny < -0.3) f *= 0.72 + 0.28 * (1 + ny);
+        f = 1 - (1 - f) * ao;
+        col.setXYZ(i, col.getX(i) * f, col.getY(i) * f, col.getZ(i) * f);
+      }
     g.computeBoundingSphere();
     return g;
   }

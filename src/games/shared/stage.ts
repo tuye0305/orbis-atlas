@@ -139,7 +139,9 @@ export function createStage(root: HTMLElement, opts: { bloom?: { strength: numbe
   const timer = new THREE.Timer();
   renderer.setAnimationLoop((ts) => {
     timer.update(ts);
-    const dt = Math.min(0.05, timer.getDelta());
+    // Clamped at both ends: after the main thread was blocked (a long task, a background tab) the
+    // timer can report a negative delta, which would run every animation and timer backwards.
+    const dt = Math.min(0.05, Math.max(0, timer.getDelta()));
     frame?.(dt, timer.getElapsed());
     grade.uniforms.uTime.value = timer.getElapsed();
     composer.render();
