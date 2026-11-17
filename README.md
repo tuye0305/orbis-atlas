@@ -10,6 +10,8 @@ Every region has its own soundtrack.
 
 It runs in any modern browser, on desktop or phone, in English or 简体中文.
 
+**Open source** under the [GPL-3.0](LICENSE): you're free to use, study, change and share it under the same license. Issues and pull requests are welcome.
+
 [![Europe in 1066: the globe, the region panel, and the timeline](docs/readme/hero-europe-1066.jpg)](https://atlas.anyloop.ai/?year=1066)
 
 ## See it in motion
@@ -135,7 +137,18 @@ really happened.
 | Red Cliffs · The East Wind (208) | Vostok 1 · Into Orbit (1961) | Orchid Pavilion · The Brush (353) |
 | --- | --- | --- |
 | ![Red Cliffs: fire ships waiting for the south-east wind](docs/readme/game-red-cliffs.jpg) | ![Vostok 1 lifting off](docs/readme/game-vostok.jpg) | ![The Orchid Pavilion: writing 永 stroke by stroke](docs/readme/game-orchid-pavilion.jpg) |
-| Wait for the south-east wind, sail Huang Gai's fire ships at Cao Cao's fleet and light them about two li out. | Fly Gagarin's R-7 into orbit: pitch it over, then cut the engine at the right moment to reach the target orbit. | Learn the eight basic strokes of 永. Drag slowly for heavy, wet ink, or fast for a thin, dry brush. |
+| Wait for the south-east wind, sail Huang Gai's fire ships at Cao Cao's fleet and light them about two li out. | Fly Gagarin's R-7 into orbit: pitch it over, then cut the engine at the right moment to reach the target orbit. | Pick any of 14 levels in a copybook: basic strokes, the eight principles of 永, 之 three ways, and lines of poetry. Drag slowly for heavy, wet ink, or fast for a thin, dry brush. |
+
+**Brush Isles** is an island-building game in four places and periods. You never place a house:
+you paint land out of the water, then paint where the town, fields and trees should go, and the
+city grows in that place's own style. It has houses that turn to face the canals, bridges over
+narrow water, chinampas or polder windmills, and one landmark to crown it. The fourth city is
+Tenochtitlan (1325), grown out of Lake Texcoco on chinampas around the Templo Mayor.
+
+| Bianjing (c. 1100) | Raʻiatea (c. 1000) | Amsterdam (1600s) |
+| --- | --- | --- |
+| ![Bianjing: Song houses and rainbow bridges along the Bian river, the Iron Pagoda behind](docs/readme/game-isles-kaifeng.jpg) | ![Raʻiatea: thatched fare round a green peak, the marae on the shore, palms on the motu](docs/readme/game-isles-raiatea.jpg) | ![Amsterdam: gabled canal houses, brick bridges and the Zuiderkerk](docs/readme/game-isles-amsterdam.jpg) |
+| Build the Song capital along the river of the Qingming scroll: tiled roofs, willows, rainbow bridges and the Iron Pagoda. | Shape a high island and its reef lagoon, with fare houses, taro and the marae of Taputapuātea. | Dam and dig a Golden Age canal city with stepped gables, polders and windmills. |
 
 ### Two languages
 
@@ -255,9 +268,8 @@ from `main` by hand:
 railway up
 ```
 
-GitHub Pages is switched off, because this repository is private and Pages for private repositories
-needs a paid plan. `.github/workflows/pages.yml` still builds a Pages-ready site, but only when run
-by hand.
+`.github/workflows/pages.yml` can also build a GitHub Pages copy of the site, but only when run by
+hand.
 
 ## Credits
 
@@ -271,11 +283,14 @@ Thanks also to:
 - NASA for the Blue Marble textures;
 - [three-globe](https://github.com/vasturiano/three-globe) for the globe.
 
+## Author
+
+Made by **Iris**: [X @iris_ye_tu](https://x.com/iris_ye_tu) · [adant.ai](https://adant.ai)
+
 ## License
 
-GPL-3.0, because Orbis adapts GPL-3.0 data from historical-basemaps and 江山时序 jiangshan-map.
-This repository is private, but the public site serves that GPL-3.0 material. The GPL lets anyone
-who receives it ask for the corresponding source, so keep a way to provide it.
+Open source under GPL-3.0; the full text is in [`LICENSE`](LICENSE). The project is GPL-3.0
+because it adapts GPL-3.0 data from historical-basemaps and 江山时序 jiangshan-map.
 
 When you reuse maps or screenshots, credit Orbis, [江山时序 jiangshan-map](https://github.com/DeanChensj/jiangshan-map)
 and [historical-basemaps](https://github.com/aourednik/historical-basemaps).
