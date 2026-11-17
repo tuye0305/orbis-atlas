@@ -29,9 +29,13 @@ export interface GameDef {
   kicker: L10n;
   /** Events / people whose card offers this game. The first event is where the game "happens". */
   targets: string[];
-  /** Intro screen: the situation, 2–3 short paragraphs. */
+  /** Intro screen: the situation, 2–3 short paragraphs (shown folded when `steps` is given). */
   story: L10n[];
-  /** Controls, one line each. */
+  /** One sentence: what winning means. */
+  goal?: L10n;
+  /** The few things the player does, in order: the intro shows them as numbered cards and the in-game coach walks through them. */
+  steps?: { title: L10n; text: L10n; keys?: L10n; art?: string }[];
+  /** Controls, one line each (games without `steps`). */
   controls: L10n[];
   /** What really happened, shown on the result screen. */
   history: L10n[];

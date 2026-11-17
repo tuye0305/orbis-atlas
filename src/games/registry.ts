@@ -11,7 +11,30 @@ export const GAMES: GameDef[] = [
     title: { en: 'Red Cliffs · The East Wind', zh: '赤壁 · 东风' },
     kicker: { en: 'Yangtze River, winter 208', zh: '建安十三年冬 · 长江赤壁' },
     targets: ['ev-battle-of-red-cliffs', 'person-zhuge-liang', 'person-sun-quan', 'person-cao-cao'],
-    accent: '#ff7a3d',
+    accent: '#ff8a3d',
+    goal: {
+      en: 'Burn the enemy fleet. Bring your crews home.',
+      zh: '火烧曹军战船，让士卒平安撤回。',
+    },
+    steps: [
+      {
+        title: { en: 'Wait for the wind', zh: '等东风' },
+        art: 'wind',
+        text: { en: 'The north wind would blow you back. Wait until the compass says south-east.', zh: '北风会把火船吹回来。等罗盘显示“东南风”。' },
+      },
+      {
+        title: { en: 'Set sail', zh: '扬帆' },
+        art: 'sail',
+        text: { en: 'Send all ten fire ships out together.', zh: '十艘火船一齐出发。' },
+        keys: { en: 'Space', zh: '空格' },
+      },
+      {
+        title: { en: 'Fire at the gold line', zh: '金线齐发火' },
+        art: 'fire',
+        text: { en: 'When the ships reach the gold line, set them all alight at once.', zh: '火船驶到金线时，同时点火。' },
+        keys: { en: 'F', zh: 'F' },
+      },
+    ],
     story: [
       {
         en: "Cao Cao's great fleet lies on the north bank at Wulin, its warships moored bow to stern. The allies of Sun Quan and Liu Bei are badly outnumbered.",
@@ -52,7 +75,31 @@ export const GAMES: GameDef[] = [
     title: { en: 'Vostok 1 · Into Orbit', zh: '东方一号 · 入轨' },
     kicker: { en: 'Baikonur, 12 April 1961', zh: '1961年4月12日 · 拜科努尔' },
     targets: ['ev-vostok-1', 'ev-sputnik-1'],
-    accent: '#7fb4ff',
+    accent: '#8cc4ff',
+    goal: {
+      en: 'Reach orbit. Land near Saratov.',
+      zh: '送加加林入轨，再降落在萨拉托夫。',
+    },
+    steps: [
+      {
+        title: { en: 'Follow the gold', zh: '跟住金线' },
+        art: 'lean',
+        text: { en: 'After lift-off, keep the white needle on the gold guide needle.', zh: '升空后，让白色指针始终贴住金色参考指针。' },
+        keys: { en: 'Hold ← / →', zh: '按住 ← / →' },
+      },
+      {
+        title: { en: 'Cut when green', zh: '变绿即关机' },
+        art: 'cut',
+        text: { en: 'In the last stage, cut the engine as soon as the orbit turns green.', zh: '末级工作时，轨道一变绿就立刻关机。' },
+        keys: { en: 'Space', zh: '空格' },
+      },
+      {
+        title: { en: 'Come home', zh: '制动返回' },
+        art: 'retro',
+        text: { en: 'Over Africa, fire the retro-rocket when the red mark reaches the gold target.', zh: '飞到非洲上空时，在红色落点移到金色目标上时点火制动。' },
+        keys: { en: 'Space', zh: '空格' },
+      },
+    ],
     story: [
       {
         en: 'Yuri Gagarin sits in the Vostok capsule on top of an R-7 rocket on the Kazakh steppe. No human has ever flown in space.',

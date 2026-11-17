@@ -20,7 +20,7 @@ export function Intro({ dataReady, globeReady, error, onEnter, onRetry }: Props)
   return (
     <div className="intro">
       <div className="intro-inner">
-        <div className="intro-kicker">{lang === 'zh' ? '亚欧非 · 美洲 · 大洋洲 · 公元 1 — 2025' : 'Afro-Eurasia · Americas · Oceania · 1 — 2025 CE'}</div>
+        <div className="intro-kicker">{lang === 'zh' ? '全球 · 公元 1 — 2025' : 'The world · 1 — 2025 CE'}</div>
         <h1 className="intro-title">
           <span className="latin" lang="la">
             Orbis
@@ -34,12 +34,12 @@ export function Intro({ dataReady, globeReady, error, onEnter, onRetry }: Props)
         </h1>
         <p className="intro-sub">
           {lang === 'zh'
-            ? '转动地球，穿越两千年：疆域消长、王朝更迭、战争与名人，以及每一座城市的名字如何随时代改变。'
-            : 'Turn the globe and travel two thousand years: shifting borders, rising and falling dynasties, wars and famous lives, and how every city’s name changed with its rulers.'}
+            ? '一颗地球，两千年的疆域、王朝、战争与人物，还有几段可以亲手玩的历史。'
+            : 'Two thousand years of borders, rulers, battles and lives on one globe, with moments you can play.'}
         </p>
         <div className="intro-actions">
           <button className="btn-primary" disabled={!ready} onClick={() => onEnter(true)}>
-            {lang === 'zh' ? '进入地图 · 开启音乐' : 'Enter with music'}
+            {lang === 'zh' ? '有声进入' : 'Enter with music'}
           </button>
           <button className="btn-ghost" disabled={!ready} onClick={() => onEnter(false)}>
             {lang === 'zh' ? '静音进入' : 'Enter silently'}

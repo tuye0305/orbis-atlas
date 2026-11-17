@@ -3,6 +3,7 @@ import { prefersReducedMotion, t, useStore } from '../state/store';
 import type { Lang } from '../types';
 import './games.css';
 import { GAME_BY_ID } from './registry';
+import StepArt, { HeroArt } from './StepArt';
 import type { GameInstance, GameResult, MountGame } from './types';
 
 type Phase = 'intro' | 'loading' | 'play' | 'result';
@@ -35,6 +36,8 @@ const L = {
   loading: { en: 'Setting the scene…', zh: '布景中……' },
   failed: { en: 'The game could not be loaded.', zh: '游戏载入失败。' },
   score: { en: 'Score', zh: '得分' },
+  story: { en: 'The story', zh: '背景故事' },
+  goal: { en: 'Your goal', zh: '目标' },
 };
 const l = (k: keyof typeof L, lang: Lang) => L[k][lang];
 
@@ -130,24 +133,51 @@ export default function GameHost({ id }: { id: string }) {
       </button>
 
       {phase === 'intro' && (
-        <div className="game-panel game-intro">
+        <div className={`game-panel game-intro ${def.steps ? 'has-steps' : ''}`}>
+          {def.steps && <HeroArt id={def.id} />}
           <div className="gp-kicker">{t(def.kicker, lang)}</div>
           <h2 className="gp-title">{t(def.title, lang)}</h2>
-          <div className="gp-story">
-            {def.story.map((p, i) => (
-              <p key={i}>{t(p, lang)}</p>
-            ))}
-          </div>
-          <h3>{l('controls', lang)}</h3>
-          <ul className="gp-controls">
-            {def.controls.map((c, i) => (
-              <li key={i}>{t(c, lang)}</li>
-            ))}
-          </ul>
+          {def.steps ? (
+            <>
+              {def.goal && (
+                <p className="gp-goal">
+                  <span>{l('goal', lang)}</span>
+                  {t(def.goal, lang)}
+                </p>
+              )}
+              <ol className="gp-steps">
+                {def.steps.map((st, i) => (
+                  <li key={i} style={{ animationDelay: `${0.15 + i * 0.12}s` }} title={t(st.text, lang)}>
+                    <StepArt art={st.art} />
+                    <div className="gp-step-cap">
+                      <i>{i + 1}</i>
+                      <b>{t(st.title, lang)}</b>
+                    </div>
+                    {st.keys ? <kbd>{t(st.keys, lang)}</kbd> : <kbd className="gp-nokey">{lang === 'zh' ? '等待' : 'wait'}</kbd>}
+                    <span className="sr-only">{t(st.text, lang)}</span>
+                  </li>
+                ))}
+              </ol>
+            </>
+          ) : (
+            <>
+              <div className="gp-story">
+                {def.story.map((p, i) => (
+                  <p key={i}>{t(p, lang)}</p>
+                ))}
+              </div>
+              <h3>{l('controls', lang)}</h3>
+              <ul className="gp-controls">
+                {def.controls.map((c, i) => (
+                  <li key={i}>{t(c, lang)}</li>
+                ))}
+              </ul>
+            </>
+          )}
           {error && <p className="gp-error">{l('failed', lang)}</p>}
           <div className="gp-actions">
             <button ref={startBtn} className="gp-primary" onClick={start} disabled={error}>
-              {l('start', lang)}
+              {l('start', lang)} <span aria-hidden="true">→</span>
             </button>
             {best != null && (
               <span className="gp-best">
@@ -155,6 +185,14 @@ export default function GameHost({ id }: { id: string }) {
               </span>
             )}
           </div>
+          {def.steps && (
+            <details className="gp-history gp-story-fold">
+              <summary>{l('story', lang)}</summary>
+              {def.story.map((p, i) => (
+                <p key={i}>{t(p, lang)}</p>
+              ))}
+            </details>
+          )}
         </div>
       )}
 
