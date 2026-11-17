@@ -291,7 +291,7 @@ const tenochtitlan: Style = {
   landmark: {
     name: { en: 'Templo Mayor', zh: '大神庙' },
     short: { en: 'Temple', zh: '大神庙' },
-    note: { en: 'Twin shrines to Tlaloc (rain) and Huitzilopochtli (sun and war), where the eagle was seen.', zh: '双神庙：左祀雨神特拉洛克，右祀太阳与战神维齐洛波奇特利——相传就建在鹰落仙人掌之处。' },
+    note: { en: 'Twin shrines to Tlaloc (rain) and Huitzilopochtli (sun and war), said to stand where the eagle was seen.', zh: '双神庙：左祀雨神特拉洛克，右祀太阳与战神维齐洛波奇特利——相传就建在鹰落仙人掌之处。' },
   },
   sky: { top: '#3f7fcf', horizon: '#d7e7f0', sun: '#fff4dc' },
   fog: { color: '#cfe1ea', near: 55, far: 190 },
@@ -564,7 +564,7 @@ const raiatea: Style = {
   id: 'raiatea',
   name: { en: 'Raʻiatea', zh: '赖阿特阿岛' },
   landmark: {
-    name: { en: 'Marae Taputapuātea', zh: '塔普塔普阿特阿会堂（马拉埃）' },
+    name: { en: 'Marae Taputapuātea', zh: '塔普塔普阿特阿马拉埃' },
     short: { en: 'Marae', zh: '马拉埃' },
     note: { en: 'A paved sacred court with its stepped ahu of coral and basalt, where voyagers gathered.', zh: '以珊瑚与玄武岩砌成的神圣广场与阶梯石台“阿胡”，远航者在此聚会。' },
   },

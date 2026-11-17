@@ -194,8 +194,8 @@ export const GAMES: GameDef[] = [
         zh: '据墨西加传说，神曾许诺：看到雄鹰立于仙人掌之处，便是安身之地。1325 年，他们在特斯科科湖的沼泽小岛上找到了它。',
       },
       {
-        en: 'There was little dry ground, so they made it: beds of lake mud and reeds piled up in the shallows (chinampas), held in place by willows, with canals between.',
-        zh: '岛上干地很少，他们就自己造地：在浅水中堆起湖泥与芦苇，筑成一条条“浮田”（奇南帕），以柳树固定，田间留出水道。',
+        en: 'There was little dry ground, so they made it: beds of lake mud and reeds piled up in the shallows (chinampas), held in place by willows, with canals between. They are often called floating gardens, but they were built on the lake bed and did not float.',
+        zh: '岛上干地很少，他们就自己造地：在浅水中堆起湖泥与芦苇，筑成一条条“浮田”（奇南帕），以柳树固定，田间留出水道。“浮田”只是俗称：它们筑在湖底之上，并不漂浮。',
       },
     ],
     controls: [
@@ -257,8 +257,8 @@ export const GAMES: GameDef[] = [
         zh: '开封“铁塔”建于 1049 年，其实并非铁铸，而是外砌褐色琉璃砖，色如铁锈。塔至今犹存，高约 55 米。',
       },
       {
-        en: 'In 1127 Jurchen Jin armies took Kaifeng and carried off two emperors; the Song court fled south to Hangzhou.',
-        zh: '1127 年金军攻破开封，掳走徽、钦二帝（靖康之变），宋室南迁临安（杭州）。',
+        en: 'In 1127 Jurchen Jin armies took Kaifeng and carried off two emperors. The Song court re-formed in the south and in time settled at Hangzhou.',
+        zh: '1127 年金军攻破开封，掳走徽、钦二帝（靖康之变）。宋室在南方重建，后来定都临安（杭州）。',
       },
     ],
     load: () => import('./brush-isles/BrushIsles').then((m) => ({ mount: m.mountStyle('kaifeng') })),
@@ -271,7 +271,7 @@ export const GAMES: GameDef[] = [
     accent: '#47d1c4',
     goal: {
       en: 'Shape a high island and its lagoon, with fare houses, taro, palms and the marae of Taputapuātea.',
-      zh: '塑造火山岛与泻湖：茅屋、芋田、椰林，以及塔普塔普阿特阿会堂。',
+      zh: '塑造火山岛与泻湖：茅屋、芋田、椰林，以及塔普塔普阿特阿马拉埃。',
     },
     steps: [
       { title: { en: 'Shape the island', zh: '塑岛' }, art: 'isle-land', text: { en: 'Paint beaches and motu, raise the mountain, widen the lagoon.', zh: '画海滩与环礁小岛，堆高火山，拓宽泻湖。' }, keys: { en: 'Land · Hills', zh: '陆地 · 山丘' } },
@@ -281,7 +281,7 @@ export const GAMES: GameDef[] = [
     story: [
       {
         en: 'Raʻiatea, once called Havaiʻi, lies at the centre of the Society Islands. Voyagers in double-hulled canoes sailed from here across thousands of kilometres of open Pacific.',
-        zh: '赖阿特阿古称“哈瓦伊基”，位于社会群岛中心。远航者从这里驾双体独木舟出发，横渡数千公里的太平洋。',
+        zh: '赖阿特阿古称“哈瓦伊”（Havaiʻi），位于社会群岛中心。远航者从这里驾双体独木舟出发，横渡数千公里的太平洋。',
       },
       {
         en: 'At Opoa they built Taputapuātea, a marae: an open paved court with a raised stone platform (ahu) at one end, where chiefs, priests and voyagers met.',
@@ -325,8 +325,8 @@ export const GAMES: GameDef[] = [
     ],
     story: [
       {
-        en: 'Amsterdam grew up around a dam in the river Amstel. In 1602 the Dutch East India Company was founded, and the city became the richest port in Europe.',
-        zh: '阿姆斯特丹因阿姆斯特尔河上的一道水坝而得名。1602 年荷兰东印度公司成立，这座城市成了欧洲最富庶的港口。',
+        en: 'Amsterdam grew up around a dam in the river Amstel. In 1602 the Dutch East India Company was founded, with its largest chamber here, and within decades the city was the richest port in Europe.',
+        zh: '阿姆斯特丹因阿姆斯特尔河上的一道水坝而得名。1602 年荷兰东印度公司成立，其最大的分部就设在这里；数十年间，这座城市成了欧洲最富庶的港口。',
       },
       {
         en: 'Merchants built tall, narrow brick houses on the canals, with stepped and neck gables and hoist beams to lift goods to the attic. Around the city, windmills pumped the polders dry.',
