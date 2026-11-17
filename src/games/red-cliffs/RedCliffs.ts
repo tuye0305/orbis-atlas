@@ -121,7 +121,7 @@ export const mount: MountGame = (root, ctx) => {
     grade: { shadows: [0.0, 0.02, 0.042], highlights: [1.09, 0.97, 0.84], contrast: 1.13, saturation: 1.14, vignette: 0.48, grain: 0.032 },
   });
   const { scene, camera, renderer } = stage;
-  renderer.toneMappingExposure = 1.3;
+  renderer.toneMappingExposure = 1.5;
   const sfx = createSfx();
 
   // ---------- palette: moonlit indigo river, molten fire ----------
@@ -164,8 +164,8 @@ export const mount: MountGame = (root, ctx) => {
 
   scene.environment = gradientEnv(renderer, { top: '#081626', horizon: '#2c4664', ground: '#04080c', sun: { dir: MOON, color: '#9fb2d0', size: 0.02, power: 2.5 } });
   scene.environmentIntensity = 0.9;
-  scene.add(new THREE.HemisphereLight(0x4f6f9e, 0x140f0a, 1.7));
-  const moonLight = new THREE.DirectionalLight(0xbfd2f2, 2.6);
+  scene.add(new THREE.HemisphereLight(0x5577aa, 0x16110c, 2.1));
+  const moonLight = new THREE.DirectionalLight(0xc4d6f4, 3.4);
   moonLight.position.copy(MOON).multiplyScalar(300);
   scene.add(moonLight);
   const afterglow = new THREE.DirectionalLight(0xff9a6a, 0.45);
@@ -1010,7 +1010,7 @@ export const mount: MountGame = (root, ctx) => {
     fireBed.set(fireLevel * 0.5, 500 + fireLevel * 900);
     if (rnd() < dt * fireLevel * 8) sfx.noise({ dur: 0.08 + rnd() * 0.1, freq: 2000 + rnd() * 3000, q: 2, gain: 0.08 + fireLevel * 0.1 });
     firesNow.length = 0;
-    renderer.toneMappingExposure = 1.3 + fireLevel * 0.08;
+    renderer.toneMappingExposure = 1.5 - fireLevel * 0.12;
 
     // --- camera ---
     const k = intro > 0 ? clamp(time / intro, 0, 1) : 1;
@@ -1325,6 +1325,7 @@ function foamTexture() {
 }
 const JUNK_MATS = {
   get mast() { return (this._mast ??= new THREE.MeshStandardMaterial({ color: 0x1f160f, roughness: 0.8 })); },
+  get roof() { return (this._roof ??= new THREE.MeshStandardMaterial({ color: 0x15100c, roughness: 0.85, side: THREE.DoubleSide, flatShading: true })); },
   get trim() { return (this._trim ??= new THREE.MeshStandardMaterial({ color: 0x231710, roughness: 0.65 })); },
   get wet() { return (this._wet ??= new THREE.MeshStandardMaterial({ color: 0x0d0a08, roughness: 0.25, metalness: 0.1, side: THREE.DoubleSide })); },
   get batten() { return (this._batten ??= new THREE.MeshStandardMaterial({ color: 0x8a7048, roughness: 0.6, emissive: 0x1a1610 })); },
@@ -1332,11 +1333,30 @@ const JUNK_MATS = {
   get foam() { return (this._foam ??= new THREE.MeshBasicMaterial({ map: foamTexture(), transparent: true, depthWrite: false, opacity: 0.55, color: 0x9fb4c8 })); },
   _mast: undefined as THREE.MeshStandardMaterial | undefined,
   _trim: undefined as THREE.MeshStandardMaterial | undefined,
+  _roof: undefined as THREE.MeshStandardMaterial | undefined,
   _wet: undefined as THREE.MeshStandardMaterial | undefined,
   _batten: undefined as THREE.MeshStandardMaterial | undefined,
   _rope: undefined as THREE.LineBasicMaterial | undefined,
   _foam: undefined as THREE.MeshBasicMaterial | undefined,
 };
+
+/** A hipped roof w × d, h tall, whose eaves sweep up toward the corners by `curl`, as on a Han
+ *  pavilion. Built from a deformed grid so the eave line is a curve, not a straight edge. */
+function eaveRoof(w: number, d: number, hgt: number, curl: number) {
+  const g = new THREE.PlaneGeometry(2, 2, 12, 12).rotateX(-Math.PI / 2);
+  const p = g.attributes.position as THREE.BufferAttribute;
+  for (let i = 0; i < p.count; i++) {
+    const u = p.getX(i), v = p.getZ(i);
+    const au = Math.abs(u), av = Math.abs(v);
+    const m = Math.max(au, av);
+    // a short ridge along the length: the hip starts 30 % in from each end
+    const ridge = Math.max(au * 0.7, av);
+    const y = hgt * (1 - Math.min(1, ridge * 1.08)) + curl * Math.pow(m, 6) * (0.35 + 0.65 * Math.pow(Math.min(au, av) / Math.max(m, 1e-3), 2));
+    p.setXYZ(i, (u * w) / 2, y, (v * d) / 2);
+  }
+  g.computeVertexNormals();
+  return g;
+}
 
 function buildJunk(o: { len: number; beam: number; color: number; wood: { map: THREE.Texture; normal: THREE.Texture }; sail: THREE.Texture; flag: THREE.Texture; flags: THREE.Mesh[]; masts: number; cargo?: boolean; squareSail?: boolean }) {
   const g = new THREE.Group();
@@ -1361,12 +1381,49 @@ function buildJunk(o: { len: number; beam: number; color: number; wood: { map: T
   const hull = new THREE.MeshStandardMaterial({ color: o.color, map: o.wood.map, normalMap: o.wood.normal, normalScale: new THREE.Vector2(1.1, 1.1), roughness: 0.82, emissive: 0x000000, envMapIntensity: 0.8 });
   g.add(new THREE.Mesh(hullGeo, hull));
   const trim = new THREE.MeshStandardMaterial({ color: 0x2a1c12, roughness: 0.7 });
-  const house = new THREE.Mesh(new THREE.BoxGeometry(o.len * 0.22, 1.1, o.beam * 0.7), trim);
-  house.position.set(-o.len * 0.32, 1.9, 0);
+  // the stern castle: a timber cabin under a hipped roof with upturned eaves; the big warships
+  // (Han "tower ships") stack a second, smaller storey on top
+  const hx = -o.len * 0.32;
+  const house = new THREE.Mesh(junkPart(`house:${o.len}:${o.beam}`, () => new THREE.BoxGeometry(o.len * 0.22, 1.1, o.beam * 0.7)), trim);
+  house.position.set(hx, 1.9, 0);
   g.add(house);
-  const roof = new THREE.Mesh(new THREE.BoxGeometry(o.len * 0.27, 0.16, o.beam * 0.86), new THREE.MeshStandardMaterial({ color: 0x1c140e, roughness: 0.9 }));
-  roof.position.set(-o.len * 0.32, 2.5, 0);
-  g.add(roof);
+  const roof1 = new THREE.Mesh(junkPart(`roof1:${o.len}:${o.beam}`, () => eaveRoof(o.len * 0.3, o.beam * 0.95, 0.55, 0.32)), JUNK_MATS.roof);
+  roof1.position.set(hx, 2.42, 0);
+  g.add(roof1);
+  if (o.masts > 1) {
+    const upper = new THREE.Mesh(junkPart(`house2:${o.len}:${o.beam}`, () => new THREE.BoxGeometry(o.len * 0.14, 0.8, o.beam * 0.46)), trim);
+    upper.position.set(hx, 2.95, 0);
+    g.add(upper);
+    const roof2 = new THREE.Mesh(junkPart(`roof2:${o.len}:${o.beam}`, () => eaveRoof(o.len * 0.2, o.beam * 0.66, 0.5, 0.26)), JUNK_MATS.roof);
+    roof2.position.set(hx, 3.32, 0);
+    g.add(roof2);
+    // a bank of sweeps along each side, blades dipped in the river
+    g.add(
+      new THREE.Mesh(
+        junkPart(`oars:${o.len}:${o.beam}`, () => {
+          const Yv = new THREE.Vector3(0, 1, 0);
+          const parts: THREE.BufferGeometry[] = [];
+          for (const side of [1, -1])
+            for (let k = 0; k < 7; k++) {
+              const x = -o.len * 0.12 + k * o.len * 0.075;
+              const u = x / (o.len / 2);
+              const inner = new THREE.Vector3(x, 1.55 + 0.55 * u * u, side * (o.beam / 2) * (1 - 0.5 * u * u) * 0.9);
+              const outer = new THREE.Vector3(x - 0.35, 0.02, side * ((o.beam / 2) * (1 - 0.5 * u * u) + 2.3));
+              const loom = new THREE.CylinderGeometry(0.035, 0.045, inner.distanceTo(outer), 4);
+              loom.applyMatrix4(new THREE.Matrix4().compose(inner.clone().add(outer).multiplyScalar(0.5), new THREE.Quaternion().setFromUnitVectors(Yv, outer.clone().sub(inner).normalize()), new THREE.Vector3(1, 1, 1)));
+              parts.push(loom);
+              parts.push(new THREE.BoxGeometry(0.5, 0.04, 0.16).translate(outer.x, outer.y + 0.04, outer.z));
+            }
+          return mergeGeometries(parts)!;
+        }),
+        JUNK_MATS.trim,
+      ),
+    );
+  }
+  // the great slung rudder below the stern transom
+  const rudder = new THREE.Mesh(junkPart(`rudder:${o.len}`, () => new THREE.BoxGeometry(0.9, 1.9, 0.12).translate(-0.3, -0.25, 0)), JUNK_MATS.trim);
+  rudder.position.set(-o.len / 2 - 0.05, 0.9, 0);
+  g.add(rudder);
   if (o.cargo) {
     // reeds and oil under curtains
     const cargo = new THREE.Mesh(new THREE.CylinderGeometry(0.9, 1.1, o.len * 0.5, 9, 1), new THREE.MeshStandardMaterial({ color: 0x8c7448, roughness: 1, map: o.sail }));

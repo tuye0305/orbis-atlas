@@ -833,6 +833,9 @@ export const mount: MountGame = (root, ctx) => {
     if (phase === 'pad') pos3.copy(up3).multiplyScalar(P.RE);
     R7.root.position.copy(pos3);
     R7.root.quaternion.setFromUnitVectors(Y, dir3);
+    // the rime sheds in the first minute of flight, from vibration and the slipstream
+    R7.frost.opacity = 0.85 * (1 - THREE.MathUtils.smoothstep(Math.max(0, P.alt(s)), 0.3, 9));
+    R7.frost.visible = R7.frost.opacity > 0.01;
     if (insertion) {
       // once only the capsule is left, centre it (not the old stack's base) on the craft position
       R7.root.updateMatrixWorld();
@@ -1502,23 +1505,78 @@ function buildR7() {
   const dark = new THREE.MeshStandardMaterial({ color: 0x1e1f20, roughness: 0.35, metalness: 0.8 });
   const lathe = (pts: [number, number][], mat: THREE.Material) => new THREE.Mesh(new THREE.LatheGeometry(pts.map(([r, y]) => new THREE.Vector2(r, y)), 32), mat);
 
+  // rocket-engine bells: a throat flaring to the exit, open, with a hot-dark inside
+  const bellGeo = (r: number, len: number) =>
+    new THREE.LatheGeometry(
+      [[r * 0.42, 0], [r * 0.38, -len * 0.12], [r * 0.55, -len * 0.4], [r * 0.82, -len * 0.75], [r, -len]].map(([a, b]) => new THREE.Vector2(a, b)),
+      20,
+    );
+  const bellMat = new THREE.MeshStandardMaterial({ color: 0x2a2826, roughness: 0.4, metalness: 0.85, side: THREE.DoubleSide });
+  const bigBell = bellGeo(0.42, 1.05);
+  const vernier = bellGeo(0.2, 0.55);
+  // engine block: four main chambers in a square, two (booster) or four (core) gimballed verniers
+  const engines = (g: THREE.Object3D, mainR: number, verniers: [number, number][]) => {
+    const plate = new THREE.Mesh(new THREE.CylinderGeometry(1.0, 1.05, 0.22, 24), dark);
+    plate.position.y = 0.02;
+    g.add(plate);
+    for (let k = 0; k < 4; k++) {
+      const n = new THREE.Mesh(bigBell, bellMat);
+      const a = (k * Math.PI) / 2 + Math.PI / 4;
+      n.position.set(Math.cos(a) * mainR, -0.05, Math.sin(a) * mainR);
+      g.add(n);
+    }
+    for (const [x, z] of verniers) {
+      const n = new THREE.Mesh(vernier, bellMat);
+      n.position.set(x, -0.05, z);
+      g.add(n);
+    }
+  };
+  // liquid-oxygen frost on the tanks while the rocket stands fuelled: white rime in bands, shed
+  // as it climbs (opacity is driven from the flight loop)
+  const frostMat = new THREE.MeshStandardMaterial({ color: 0xf4f7fa, roughness: 0.9, transparent: true, opacity: 0.85, alphaMap: frostTexture(), depthWrite: false });
+
   // core (Block A): narrow at the base, widest just above the boosters' tips
   const core = new THREE.Group();
-  core.add(lathe([[0.9, 0], [1.0, 2], [1.2, 9], [1.47, 19], [1.47, 27.5], [1.3, 28.2]], white));
+  const coreProfile: [number, number][] = [[0.95, 0], [1.0, 1.2], [1.2, 9], [1.47, 19], [1.47, 27.5], [1.3, 28.2]];
+  core.add(lathe(coreProfile, white));
   const band = lathe([[1.48, 20], [1.48, 21.2]], grey);
   core.add(band);
+  // the LOX tank is the upper half of the core: that is where the rime collects
+  const coreFrost = lathe([[1.215, 9.5], [1.475, 19.2], [1.478, 26.8]], frostMat);
+  core.add(coreFrost);
+  engines(core, 0.5, [[0, 0.98], [0, -0.98], [0.98, 0], [-0.98, 0]]);
   m.add(core);
-  // upper stage (Block E) on its truss, then the payload and the fairing
+  // upper stage (Block E) on its open lattice interstage — the exhaust of its engine had to
+  // escape sideways when it lit while still attached — then the payload and the fairing
   const upper = new THREE.Group();
-  upper.position.y = 28.2;
+  const GAP = 1.5;
+  upper.position.y = 28.2 + GAP;
   upper.add(lathe([[0.9, 0], [1.3, 0.6], [1.3, 3.2], [1.25, 3.4]], grey));
-  // the truss
-  for (let i = 0; i < 8; i++) {
-    const a = (i / 8) * Math.PI * 2;
-    const bar = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.04, 1.2, 4), dark);
-    bar.position.set(Math.cos(a) * 1.1, -0.4, Math.sin(a) * 1.1);
-    bar.rotation.z = 0.3 * Math.cos(a);
-    upper.add(bar);
+  {
+    const bars: THREE.BufferGeometry[] = [];
+    const Yv = new THREE.Vector3(0, 1, 0);
+    const N = 16;
+    for (let i = 0; i < N; i++) {
+      const a0 = (i / N) * Math.PI * 2, a1 = ((i + 1) / N) * Math.PI * 2;
+      const lo = new THREE.Vector3(Math.cos(a0) * 1.28, -GAP, Math.sin(a0) * 1.28);
+      const hi = new THREE.Vector3(Math.cos(a1) * 0.92, 0, Math.sin(a1) * 0.92);
+      const lo2 = new THREE.Vector3(Math.cos(a1) * 1.28, -GAP, Math.sin(a1) * 1.28);
+      for (const [a, b] of [
+        [lo, hi],
+        [lo2, hi],
+      ]) {
+        const g = new THREE.CylinderGeometry(0.035, 0.035, a.distanceTo(b), 4);
+        g.applyMatrix4(new THREE.Matrix4().compose(a.clone().add(b).multiplyScalar(0.5), new THREE.Quaternion().setFromUnitVectors(Yv, b.clone().sub(a).normalize()), new THREE.Vector3(1, 1, 1)));
+        bars.push(g);
+      }
+    }
+    bars.push(new THREE.TorusGeometry(1.28, 0.05, 4, 32).rotateX(Math.PI / 2).translate(0, -GAP, 0));
+    bars.push(new THREE.TorusGeometry(0.92, 0.05, 4, 32).rotateX(Math.PI / 2));
+    upper.add(new THREE.Mesh(mergeGeometries(bars)!, dark));
+    // Block E's single engine, seen through the truss
+    const e = new THREE.Mesh(bellGeo(0.38, 0.9), bellMat);
+    e.position.y = 0.05;
+    upper.add(e);
   }
   const capsule = new THREE.Group();
   capsule.position.y = 3.4;
@@ -1544,37 +1602,77 @@ function buildR7() {
     upper.add(half);
     fairing.push(half);
   }
+  // a slender aerial on the nose, jettisoned with the fairing
+  const aerial = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.04, 1.4, 5), dark);
+  aerial.position.y = 7.9 + 0.65;
+  fairing[0].add(aerial);
   m.add(upper);
 
-  // four boosters: cones leaning on the core, nozzles at the base
+  // four boosters: oblique cones whose inner edge runs up the core, so their pointed noses rest
+  // against it; each with an air rudder and two verniers on the outboard side
   const boosters: THREE.Object3D[] = [];
+  const boosterProfile: [number, number][] = [[1.34, 0], [1.34, 0.6], [1.3, 3], [1.12, 8], [0.85, 13], [0.45, 17.5], [0.12, 19.6]];
   for (let i = 0; i < 4; i++) {
     const a = (i / 4) * Math.PI * 2;
+    const out = new THREE.Vector3(Math.cos(a), 0, Math.sin(a));
     const b = new THREE.Group();
-    b.position.set(Math.cos(a) * 2.2, 0, Math.sin(a) * 2.2);
-    const body = lathe([[1.34, 0], [1.3, 3], [0.95, 12], [0.4, 18], [0.1, 19.6]], white);
-    b.add(body);
-    const fin = new THREE.Mesh(new THREE.BoxGeometry(0.08, 2.2, 1.4), grey);
-    fin.position.set(Math.cos(a) * 1.3, 1.1, Math.sin(a) * 1.3);
+    b.position.copy(out).multiplyScalar(2.4);
+    const geo = new THREE.LatheGeometry(boosterProfile.map(([r, y]) => new THREE.Vector2(r, y)), 32);
+    // lean the cone inward: the nose ends up just outside the core's skin
+    const pos = geo.attributes.position as THREE.BufferAttribute;
+    for (let k = 0; k < pos.count; k++) {
+      const y = pos.getY(k);
+      const lean = (2.4 - 1.62) * Math.pow(y / 19.6, 1.35);
+      pos.setXYZ(k, pos.getX(k) - out.x * lean, y, pos.getZ(k) - out.z * lean);
+    }
+    geo.computeVertexNormals();
+    b.add(new THREE.Mesh(geo, white));
+    const frost = new THREE.Mesh(geo.clone().scale(1.004, 1, 1.004), frostMat);
+    frost.position.y = 0.02;
+    b.add(frost);
+    // triangular air rudder at the base, outboard
+    const fs = new THREE.Shape();
+    fs.moveTo(0, 0);
+    fs.lineTo(1.3, 0);
+    fs.lineTo(0, 2.4);
+    const fin = new THREE.Mesh(new THREE.ExtrudeGeometry(fs, { depth: 0.08, bevelEnabled: false }).translate(0, 0, -0.04), grey);
+    fin.position.copy(out).multiplyScalar(1.32);
+    fin.position.y = 0.2;
     fin.rotation.y = -a;
     b.add(fin);
-    for (let k = 0; k < 4; k++) {
-      const noz = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.42, 0.9, 12, 1, true), dark);
-      noz.position.set(Math.cos((k * Math.PI) / 2) * 0.55, -0.4, Math.sin((k * Math.PI) / 2) * 0.55);
-      b.add(noz);
-    }
+    const side = new THREE.Vector3(-out.z, 0, out.x);
+    engines(b, 0.55, [
+      [out.x * 1.05 + side.x * 0.55, out.z * 1.05 + side.z * 0.55],
+      [out.x * 1.05 - side.x * 0.55, out.z * 1.05 - side.z * 0.55],
+    ]);
     m.add(b);
     boosters.push(b);
   }
-  for (let k = 0; k < 4; k++) {
-    const noz = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.42, 0.9, 12, 1, true), dark);
-    noz.position.set(Math.cos((k * Math.PI) / 2) * 0.5, -0.4, Math.sin((k * Math.PI) / 2) * 0.5);
-    core.add(noz);
-  }
-  return { root, core, upper, boosters, fairing, capsule, ball, instrument };
+  return { root, core, upper, boosters, fairing, capsule, ball, instrument, frost: frostMat };
 }
 
 /** Sheet-metal panels: ring seams along the stage, stringers around it, faint weathering. */
+/** Alpha for the LOX rime: horizontal bands with ragged, flaking edges. */
+function frostTexture() {
+  const c = document.createElement('canvas');
+  c.width = 256;
+  c.height = 512;
+  const g = c.getContext('2d')!;
+  g.fillStyle = '#000';
+  g.fillRect(0, 0, 256, 512);
+  for (let y = 0; y < 512; y += 4) {
+    const k = 0.35 + 0.65 * Math.abs(Math.sin(y * 0.031) * Math.sin(y * 0.007 + 1.3));
+    for (let x = 0; x < 256; x += 4) {
+      const v = Math.max(0, k - Math.random() * 0.75);
+      g.fillStyle = `rgba(255,255,255,${v})`;
+      g.fillRect(x, y, 4 + Math.random() * 6, 3 + Math.random() * 3);
+    }
+  }
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  return t;
+}
+
 function panelTexture() {
   const c = document.createElement('canvas');
   c.width = 512;
