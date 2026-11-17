@@ -7,7 +7,7 @@ place names (Byzantion → Constantinople → Istanbul; 长安 → 西安). The 
 [jiangshan-map](https://github.com/DeanChensj/jiangshan-map) (江山时序); the rest comes from
 open, citable sources.
 
-Static web app (no backend). Deployable to GitHub Pages.
+Static web app (no backend), served from a Docker/Caddy container on Railway at https://atlas.anyloop.ai.
 
 ## 1. Experience
 

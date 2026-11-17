@@ -1,7 +1,8 @@
 name: Deploy to GitHub Pages
+# Manual only: the repository is private, and GitHub Pages for private repositories needs a paid
+# plan. The live site is https://atlas.anyloop.ai (Railway). To bring Pages back, enable it in the
+# repository settings and restore the trigger:  push: { branches: [main] }
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

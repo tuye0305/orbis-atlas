@@ -132,7 +132,7 @@ function CardImage({ img, alt, lang }: { img: SizedImage; alt: string; lang: Lan
           src={img.thumb}
           srcSet={set}
           // The painted width: the card's, or less once the height cap applies to a tall picture.
-          sizes={set && `(max-width: 900px) min(calc(100vw - 18px), calc(${r.toFixed(3)} * clamp(130px, 24vh, 230px))), min(378px, calc(${r.toFixed(3)} * clamp(170px, 38vh, 380px)))`}
+          sizes={set && `(max-width: 900px) and (min-height: 501px) min(calc(100vw - 18px), calc(${r.toFixed(3)} * clamp(130px, 24vh, 230px))), min(378px, calc(${r.toFixed(3)} * clamp(170px, 38vh, 380px)))`}
           width={img.w}
           height={img.h}
           alt={alt}
