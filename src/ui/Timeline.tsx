@@ -3,6 +3,7 @@ import { EVENT_COLOR, s } from '../i18n';
 import { REGION_BY_KEY } from '../regions';
 import { formatYear, t, useStore, YEAR_MAX, YEAR_MIN } from '../state/store';
 import type { Polity } from '../types';
+import { useHeightVar } from './layout';
 
 const SPAN = YEAR_MAX - YEAR_MIN;
 const pct = (y: number) => ((Math.min(YEAR_MAX, Math.max(YEAR_MIN, y)) - YEAR_MIN) / SPAN) * 100;
@@ -35,6 +36,8 @@ export function Timeline() {
   const setYear = useStore((st) => st.setYear);
   const select = useStore((st) => st.select);
   const track = useRef<HTMLDivElement>(null);
+  const root = useRef<HTMLElement>(null);
+  useHeightVar(root, '--timeline-h');
 
   const regionPolities = useMemo(() => {
     if (!atlas || !region) return { items: [], count: 1 };
@@ -78,7 +81,7 @@ export function Timeline() {
     .flatMap((p) => (p.rulers ?? []).filter((r) => year >= r.from && year <= r.to).map((r) => ({ r, p })))[0];
 
   return (
-    <footer className="timeline" aria-label={s('timeline', lang)}>
+    <footer className="timeline" ref={root} aria-label={s('timeline', lang)}>
       <div className="tl-head">
         <button className="play" onClick={togglePlay} aria-label={playing ? s('pause', lang) : s('play', lang)}>
           {playing ? (
