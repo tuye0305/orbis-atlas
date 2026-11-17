@@ -920,9 +920,11 @@ export const mount: MountGame = (root, ctx) => {
     const thin = clamp(altKm / 60, 0, 1);
     const firing = phase === 'ascent' && engineOn;
     const flick = 0.92 + Math.sin(t * 60) * 0.05 + Math.random() * 0.05;
-    for (const p of boosterPlumes) setPlume(p, firing && !boostersGone, (14 + thin * 30) * flick, 1 + thin * 2.4, t);
-    setPlume(corePlume, firing && !coreGone, (14 + thin * 34) * flick, 1 + thin * 2.6, t);
-    setPlume(upperPlume, firing && coreGone, (8 + 14 * thin) * flick, 1.6 + thin * 2, t);
+    // thick air keeps the kerosene flame long, opaque and orange; it balloons and fades as it thins
+    const air = 1 - smoothstep(0, 25, altKm);
+    for (const p of boosterPlumes) setPlume(p, firing && !boostersGone, (14 + thin * 30 + air * 10) * flick, 1 + thin * 2.4 + air * 0.3, t, air);
+    setPlume(corePlume, firing && !coreGone, (14 + thin * 34 + air * 11) * flick, 1 + thin * 2.6 + air * 0.3, t, air);
+    setPlume(upperPlume, firing && coreGone, (8 + 14 * thin) * flick, 1.6 + thin * 2, t, 0);
     if (phase === 'pad' && padT < 1.4) {
       for (const p of [...boosterPlumes, corePlume]) setPlume(p, true, 6 + Math.random() * 3, 1.2, t);
       // ignition: exhaust slams into the flame trench and billows out sideways round the pad
@@ -1877,7 +1879,7 @@ function plumeMaterial() {
     depthWrite: false,
     blending: THREE.AdditiveBlending,
     side: THREE.DoubleSide,
-    uniforms: { uTime: { value: 0 }, uK: { value: 1 } },
+    uniforms: { uTime: { value: 0 }, uK: { value: 1 }, uAir: { value: 1 } },
     vertexShader: /* glsl */ `
       #include <common>
       #include <logdepthbuf_pars_vertex>
@@ -1888,29 +1890,34 @@ function plumeMaterial() {
     fragmentShader: /* glsl */ `
       #include <common>
       #include <logdepthbuf_pars_fragment>
-      uniform float uTime; uniform float uK; varying vec2 vUv; varying vec3 vN; varying vec3 vV;
+      uniform float uTime; uniform float uK; uniform float uAir; varying vec2 vUv; varying vec3 vN; varying vec3 vV;
       void main(){
         #include <logdepthbuf_fragment>
         float along = 1.0 - vUv.y;            // 0 at the nozzle … 1 at the tip
         float facing = abs(dot(normalize(vN), normalize(vV)));
-        float core = pow(facing, 4.0);        // the hot central jet
-        float env = pow(facing, 0.8);         // the cooler, wider envelope
-        float shock = 0.7 + 0.3 * smoothstep(0.2, 0.9, sin(along * 46.0 - uTime * 30.0)) * (1.0 - along);
+        float core = pow(facing, 5.0);        // the hot central jet
+        float env = pow(facing, 0.6);         // the cooler, wider envelope
+        // shock diamonds show once the air thins; at sea level the kerosene flame is a turbulent,
+        // nearly opaque yellow-orange body with a white-hot root
+        float shock = mix(0.7 + 0.3 * smoothstep(0.2, 0.9, sin(along * 46.0 - uTime * 30.0)) * (1.0 - along), 1.0, uAir * 0.8);
         float flick = 0.9 + 0.1 * sin(uTime * 53.0 + along * 9.0);
-        float a = (core * 1.0 + env * 0.3) * pow(1.0 - along, 1.6) * shock * flick * uK;
-        vec3 c = mix(vec3(1.0, 0.97, 0.88), vec3(1.0, 0.62, 0.22), smoothstep(0.0, 0.35, along));
-        c = mix(c, vec3(0.9, 0.3, 0.08), smoothstep(0.35, 0.9, along));
+        float turb = mix(1.0, 0.72 + 0.28 * sin(along * 23.0 - uTime * 41.0 + facing * 6.0) * sin(along * 9.0 + uTime * 17.0), uAir);
+        float body = core + env * mix(0.3, 0.9, uAir);
+        float a = body * pow(1.0 - along, mix(1.6, 0.95, uAir)) * shock * flick * turb * uK;
+        vec3 c = mix(vec3(1.0, 0.96, 0.84), mix(vec3(1.0, 0.62, 0.22), vec3(1.0, 0.5, 0.1), uAir), smoothstep(0.0, mix(0.35, 0.16, uAir), along));
+        c = mix(c, vec3(0.88, 0.26, 0.05), smoothstep(0.35, 0.95, along));
         gl_FragColor = vec4(c * a * 2.0, a);
       }`,
   });
 }
 
-function setPlume(m: THREE.Mesh, on: boolean, len: number, widen: number, t: number) {
+function setPlume(m: THREE.Mesh, on: boolean, len: number, widen: number, t: number, air = 1) {
   m.visible = on;
   if (!on) return;
   m.scale.set(widen, len, widen);
   const u = (m.material as THREE.ShaderMaterial).uniforms;
   u.uTime.value = t;
+  u.uAir.value = air;
 }
 
 /** Smoke puffs that stay where they were emitted (the contrail and the launch cloud). */
