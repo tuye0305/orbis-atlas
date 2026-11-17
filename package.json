@@ -1,6 +1,6 @@
 {
   "name": "orbis-atlas",
-  "description": "Orbis · 寰宇时序 — an interactive 3D historical atlas of the whole world over 2,000 years",
+  "description": "Orbis · 寰宇时序 — 2,000 years of world history on an interactive 3D globe",
   "license": "GPL-3.0-or-later",
   "private": true,
   "version": "0.1.0",
@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "data": "node scripts/validate-data.mjs && node scripts/wd.mjs enrich && node scripts/build-data.mjs",
     "shots": "node scripts/shots.mjs",
+    "og": "node scripts/og-image.mjs",
     "predev": "node scripts/build-data.mjs"
   },
   "dependencies": {
