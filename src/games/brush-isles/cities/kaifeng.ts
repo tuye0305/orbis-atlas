@@ -1039,6 +1039,153 @@ const ducks = (k: Kit) => {
   }
 };
 
+
+/* ---------------------------------------------------------------- the countryside of the scroll */
+
+// The scroll opens outside the walls: a donkey train coming in with charcoal, ox carts, farmsteads
+// behind rammed-earth walls, threshing floors and straw stacks, a well with its sweep. These are
+// strewn (sparsely) over the open ground, one small model each, instanced.
+
+/** A fixed little random stream, so a scatter kit built once still has its irregularity. */
+const seq = (seed: number): Rng => {
+  let s = seed >>> 0;
+  return () => {
+    s = (s * 1664525 + 1013904223) >>> 0;
+    return s / 4294967296;
+  };
+};
+
+function wheel(p: Pen, r: number, x: number, y: number, z: number, c: Col) {
+  const g = new THREE.CylinderGeometry(r, r, 0.016, 9);
+  g.rotateX(PI / 2);
+  g.translate(x, y, z);
+  p.add(g, c);
+  p.cyl(0.012, 0.012, 0.03, 5, x, y - 0.015, z, '#3a2a20');
+}
+
+function ox(p: Pen, x: number, z: number, c: Col) {
+  p.sphere(0.07, x, 0.11, z, c, 0.62, 1);
+  p.box(0.15, 0.05, 0.075, x, 0.075, z, c);
+  for (const [dx, dz] of [[-0.05, -0.025], [-0.05, 0.025], [0.05, -0.025], [0.05, 0.025]]) p.box(0.018, 0.08, 0.018, x + dx, 0, z + dz, shade(c, 0.8));
+  p.sphere(0.032, x + 0.1, 0.1, z, c, 1.1, 0);
+  p.box(0.006, 0.008, 0.07, x + 0.1, 0.135, z, '#d8ccb0');
+}
+
+function donkey(p: Pen, x: number, z: number, c: Col) {
+  p.sphere(0.05, x, 0.09, z, c, 0.7, 0);
+  for (const [dx, dz] of [[-0.035, -0.018], [-0.035, 0.018], [0.035, -0.018], [0.035, 0.018]]) p.box(0.012, 0.065, 0.012, x + dx, 0, z + dz, shade(c, 0.75));
+  p.beam(V(x + 0.04, 0.1, z), V(x + 0.075, 0.15, z), 0.022, c);
+  p.sphere(0.022, x + 0.085, 0.145, z, c, 1.3, 0);
+  for (const s of [-1, 1]) p.box(0.008, 0.035, 0.008, x + 0.075, 0.165, z + s * 0.01, c);
+}
+
+const countryside = {
+  /** A threshing floor (场院): a disc of beaten earth, its stone roller, a heap of straw and a winnower. */
+  threshing(k: Kit) {
+    const p = new Pen(k);
+    p.cyl(0.25, 0.27, 0.03, 12, 0, -0.016, 0, '#c4ae84');
+    p.cyl(0.17, 0.17, 0.004, 10, 0.02, 0.014, -0.01, '#d3bf96');
+    const g = new THREE.CylinderGeometry(0.032, 0.032, 0.09, 7);
+    g.rotateX(PI / 2);
+    g.translate(0.1, 0.046, 0.06);
+    p.add(g, '#9a958a');
+    p.box(0.012, 0.01, 0.12, 0.1, 0.07, 0.06, '#5a3d2a');
+    p.sphere(0.09, -0.11, 0.0, 0.07, '#d6be78', 0.6, 1);
+    p.sphere(0.05, -0.04, 0.0, 0.13, '#cdb46c', 0.45, 0);
+    figure(p, -0.02, 0.014, -0.12, '#5e6a78', true);
+    p.beam(V(0.0, 0.05, -0.12), V(0.06, 0.16, -0.16), 0.006, POLE);
+  },
+  /** Straw stacks (麦秸垛): round ricks with a domed, roped top, one or two together. */
+  stacks(k: Kit) {
+    const p = new Pen(k);
+    for (const [x, z, s] of [[0, 0, 1], [0.17, 0.08, 0.75]] as const) {
+      p.cyl(0.085 * s, 0.075 * s, 0.11 * s, 8, x, 0, z, '#c9b06a');
+      p.sphere(0.09 * s, x, 0.11 * s, z, '#d4bc78', 0.75, 1);
+      p.cyl(0.087 * s, 0.087 * s, 0.01, 8, x, 0.09 * s, z, '#a88c52');
+      p.cyl(0.004, 0.012, 0.05 * s, 4, x, 0.17 * s, z, '#a88c52');
+    }
+  },
+  /** A heavy two-wheeled ox cart (太平车) with sacks of grain, its carter walking beside. */
+  oxCart(k: Kit) {
+    const p = new Pen(k);
+    const r = seq(7);
+    for (const s of [-1, 1]) wheel(p, 0.065, -0.03, 0.065, s * 0.075, '#4a3628');
+    p.box(0.3, 0.025, 0.13, -0.04, 0.075, 0, '#7a5a3c');
+    for (const s of [-1, 1]) p.box(0.3, 0.045, 0.01, -0.04, 0.1, s * 0.065, '#6a4a30');
+    for (const s of [-1, 1]) p.beam(V(0.1, 0.09, s * 0.04), V(0.3, 0.12, s * 0.035), 0.012, '#6a4a30');
+    for (let i = 0; i < 5; i++) p.sphere(0.04, -0.12 + (i % 3) * 0.07, 0.12 + Math.floor(i / 3) * 0.04, (i % 2 ? 0.025 : -0.025), jitter('#cdb98e', r, 0.01, 0.06, 0.08), 0.7, 0);
+    p.box(0.12, 0.012, 0.135, -0.06, 0.18, 0, '#b8a67a');
+    ox(p, 0.38, 0, '#6a5240');
+    figure(p, 0.22, 0, 0.12, '#3b4a63', true);
+  },
+  /** A donkey train bringing charcoal or grain to the city, a driver behind with his switch. */
+  donkeys(k: Kit) {
+    const p = new Pen(k);
+    const loads = ['#3a3430', '#cdb98e', '#3a3430'];
+    for (let i = 0; i < 3; i++) {
+      const x = i * 0.17;
+      const z = (i % 2) * 0.03;
+      const c = i === 1 ? '#7a6a5a' : '#5e544a';
+      donkey(p, x, z, c);
+      for (const s of [-1, 1]) p.box(0.06, 0.045, 0.026, x, 0.085, z + s * 0.045, loads[i]);
+      p.box(0.05, 0.012, 0.07, x, 0.13, z, '#8a6a4a');
+    }
+    figure(p, -0.13, 0, 0.02, '#7a5a3a', true);
+  },
+  /** A farmstead's corner: rammed-earth walls under a tiled coping, a gate, a stack inside. */
+  farmWall(k: Kit) {
+    const p = new Pen(k);
+    const wall = '#c8b08a';
+    const tile = '#6a6e70';
+    wallRun(p, -0.3, -0.3, 0.3, -0.3, 0.16, wall, tile, 0.05);
+    wallRun(p, -0.3, -0.3, -0.3, 0.04, 0.16, wall, tile, 0.05);
+    wallRun(p, -0.3, 0.16, -0.3, 0.3, 0.16, wall, tile, 0.05);
+    for (const z of [0.04, 0.16]) p.box(0.05, 0.2, 0.03, -0.3, 0, z, '#6a4a30');
+    cap(p, 0.08, 0.18, 0.04, -0.3, 0.2, 0.1, tile, PI / 2);
+    p.cyl(0.06, 0.055, 0.08, 7, -0.12, 0, -0.14, '#c9b06a');
+    p.sphere(0.063, -0.12, 0.08, -0.14, '#d4bc78', 0.7, 0);
+    p.box(0.06, 0.04, 0.04, 0.12, 0, -0.22, '#8a7a5a');
+  },
+  /** A well with its sweep (桔槔): a stone kerb, a post, a long pole with a stone counterweight. */
+  well(k: Kit) {
+    const p = new Pen(k);
+    p.cyl(0.06, 0.065, 0.05, 8, 0, 0, 0, STONE2);
+    p.cyl(0.042, 0.042, 0.004, 8, 0, 0.048, 0, '#2c3a3a');
+    p.cyl(0.012, 0.014, 0.2, 5, -0.12, 0, 0.02, POLE);
+    p.beam(V(0.02, 0.29, 0.0), V(-0.34, 0.1, 0.04), 0.012, '#7a5a3c');
+    p.sphere(0.028, -0.32, 0.1, 0.04, '#8f8a7f', 1, 0);
+    p.beam(V(0.02, 0.29, 0.0), V(0.02, 0.09, 0.0), 0.004, '#3a2a20');
+    p.cyl(0.02, 0.016, 0.03, 6, 0.02, 0.06, 0.0, '#6a4a30');
+    p.box(0.1, 0.04, 0.05, 0.06, 0, -0.1, STONE2);
+  },
+  /** A roadside tea shed: a mat awning on poles, a bench, a stove and a few customers. */
+  teaShed(k: Kit) {
+    const p = new Pen(k);
+    const r = seq(11);
+    for (const x of [-0.13, 0.13]) for (const z of [-0.08, 0.08]) p.cyl(0.006, 0.006, 0.2 + (z < 0 ? 0.02 : 0), 3, x, 0, z, POLE);
+    p.obox(0.32, 0.01, 0.22, 0, 0.215, 0, '#b8a67a', -0.1);
+    p.box(0.2, 0.05, 0.06, 0, 0, -0.03, '#7a5a3c');
+    p.box(0.22, 0.03, 0.04, 0, 0, 0.07, '#6a4a30');
+    p.cyl(0.03, 0.035, 0.06, 6, 0.1, 0, -0.03, '#6a645c');
+    for (let i = 0; i < 3; i++) p.sphere(0.014, -0.06 + i * 0.04, 0.06, -0.03, pick(r, ['#e8dcc0', '#4f4034', '#d9a23a']), 1, 0);
+    figure(p, -0.05, 0.02, 0.08, '#e8e2d2');
+    figure(p, 0.05, 0.02, 0.08, '#9a3a2e', true);
+    parasol(p, 0.24, 0, 0.1, 0.22, 0.1, '#ece4d0', 0.15);
+    lantern(p, -0.13, 0.2, 0.09);
+  },
+  /** A wayside shrine to the earth god (土地庙): a tiny tiled hall, a censer, a red lantern. */
+  shrine(k: Kit) {
+    const p = new Pen(k);
+    p.box(0.2, 0.03, 0.16, 0, 0, 0, STONE2);
+    p.box(0.14, 0.12, 0.1, 0, 0.03, -0.01, '#d9cfb8');
+    p.box(0.06, 0.08, 0.004, 0, 0.04, 0.041, '#5a2a22');
+    cap(p, 0.2, 0.16, 0.06, 0, 0.15, -0.01, '#555b63');
+    p.cyl(0.02, 0.016, 0.03, 6, 0, 0.03, 0.06, '#4a463c');
+    lantern(p, 0.08, 0.16, 0.05);
+    for (const s of [-1, 1]) p.box(0.03, 0.045, 0.004, s * 0.05, 0.05, 0.042, '#b8402e');
+  },
+};
+
 /* ---------------------------------------------------------------- the style */
 
 export const kaifeng: Style = {
@@ -1098,7 +1245,20 @@ export const kaifeng: Style = {
     } else cottage(p, r);
   },
   field(rng) {
-    return [-0.31, 0, 0.31].map((z) => ({ x: 0, z, w: 0.92, d: 0.26, h: 0.05, color: jitter(pick(rng, ['#8fb050', '#a6bc5c', '#7fa048', '#b9b76a']), rng) }));
+    // a patchwork round the city in early spring: deep winter wheat, young millet, beans, a field
+    // freshly ploughed, now and then the yellow of rape in flower; ridged rows over the furrows
+    const crop = pick(rng, [
+      ['#6f9a40', '#7ea64a'],
+      ['#6f9a40', '#628f3a'],
+      ['#9fb468', '#adbd72'],
+      ['#86a656', '#93b05e'],
+      ['#a08a62', '#957f58'],
+      ['#d9c24a', '#cfb840'],
+    ] as const);
+    const earth = jitter('#a8916a', rng, 0.01, 0.04, 0.05);
+    const beds = [{ x: 0, z: 0, w: 0.94, d: 0.94, h: 0.025, color: earth }];
+    for (const z of [-0.345, -0.115, 0.115, 0.345]) beds.push({ x: 0, z, w: 0.9, d: 0.17, h: 0.05, color: jitter(pick(rng, crop), rng, 0.01, 0.04, 0.04) });
+    return beds;
   },
   trees: { shore: ['willow', 'willow', 'willow', 'peach'], land: ['willow', 'elm', 'peach', 'elm'], hill: ['pine', 'pine', 'elm'] },
   treeKits: { ...TREES, willow, peach },
@@ -1273,6 +1433,14 @@ export const kaifeng: Style = {
   scatter: [
     { zone: 'grass', kit: SCATTER.tuft('#8fae66', '#a6bd78'), density: 1.4, scale: [0.8, 1.3] },
     { zone: 'grass', kit: SCATTER.flowers('#6f8a4a', ['#f4f0e6', '#e9c8d6', '#f2d65a']), density: 0.25 },
+    { zone: 'grass', kit: countryside.threshing, density: 0.05, scale: [0.9, 1.15], shadow: true },
+    { zone: 'grass', kit: countryside.stacks, density: 0.06, scale: [0.85, 1.25], shadow: true },
+    { zone: 'grass', kit: countryside.oxCart, density: 0.02, shadow: true },
+    { zone: 'grass', kit: countryside.donkeys, density: 0.025, shadow: true },
+    { zone: 'grass', kit: countryside.farmWall, density: 0.03, shadow: true },
+    { zone: 'grass', kit: countryside.well, density: 0.018, shadow: true },
+    { zone: 'grass', kit: countryside.teaShed, density: 0.02, shadow: true },
+    { zone: 'grass', kit: countryside.shrine, density: 0.012, shadow: true },
     { zone: 'shore', kit: reeds, density: 0.9, scale: [0.8, 1.25] },
     { zone: 'shore', kit: SCATTER.stones('#a39a88', '#867e70'), density: 0.2 },
     { zone: 'shallows', kit: lotus, density: 0.35, scale: [0.8, 1.3] },
