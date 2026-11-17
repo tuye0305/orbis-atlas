@@ -137,7 +137,7 @@ really happened.
 | Red Cliffs · The East Wind (208) | Vostok 1 · Into Orbit (1961) | Orchid Pavilion · The Brush (353) |
 | --- | --- | --- |
 | ![Red Cliffs: fire ships waiting for the south-east wind](docs/readme/game-red-cliffs.jpg) | ![Vostok 1 lifting off](docs/readme/game-vostok.jpg) | ![The Orchid Pavilion: writing 永 stroke by stroke](docs/readme/game-orchid-pavilion.jpg) |
-| Wait for the south-east wind, sail Huang Gai's fire ships at Cao Cao's fleet and light them about two li out. | Fly Gagarin's R-7 into orbit: pitch it over, then cut the engine at the right moment to reach the target orbit. | Learn the eight basic strokes of 永. Drag slowly for heavy, wet ink, or fast for a thin, dry brush. |
+| Wait for the south-east wind, sail Huang Gai's fire ships at Cao Cao's fleet and light them about two li out. | Fly Gagarin's R-7 into orbit: pitch it over, then cut the engine at the right moment to reach the target orbit. | Pick any of 14 levels in a copybook: basic strokes, the eight principles of 永, 之 three ways, and lines of poetry. Drag slowly for heavy, wet ink, or fast for a thin, dry brush. |
 
 ### Two languages
 

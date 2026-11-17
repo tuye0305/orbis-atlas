@@ -1,14 +1,19 @@
-import type { L10n } from '../../types';
 import { createSfx } from '../shared/sfx';
 import { clamp, h, lerp, makeToast } from '../shared/stage';
 import type { GameCtx, GameResult, MountGame } from '../types';
+import { CHARS, GROUPS, LEVELS, ZHI, type Level, type Pt, type StrokeDef } from './chars';
 
 /*
- * 兰亭 · 永字 — the brush.
+ * 兰亭 · 习字 — the brush.
  *
- * A 2-D canvas game. Everything on the paper lives in "cell space": the writing square (米字格)
- * is 0..1 on both axes, y down. Stroke templates are Catmull-Rom splines through [x, y, r]
- * control points, r being the brush radius as a fraction of the cell.
+ * A 2-D canvas game. The player picks a level from a copybook (字帖): single characters that
+ * teach the basic strokes, 永 and its eight principles, 之 written three ways, and lines of poetry
+ * written one character per square. Each level ends on a finished sheet with the poem line as the
+ * inscription and a seal.
+ *
+ * Everything on the paper lives in "cell space": the writing square (米字格) is 0..1 on both axes,
+ * y down. Stroke templates (see chars.ts) are Catmull-Rom splines through [x, y, r] control points,
+ * r being the brush radius as a fraction of the cell.
  *
  * The brush is a round brush of ~40 bristles. Each step draws an opaque core (shrinking as the
  * brush dries) and one short line per bristle, so a drying brush breaks into streaks parallel to
@@ -17,111 +22,6 @@ import type { GameCtx, GameResult, MountGame } from '../types';
  */
 
 const L = (lang: GameCtx['lang'], zh: string, en: string) => (lang === 'zh' ? zh : en);
-type Pt = [number, number, number];
-
-interface StrokeDef {
-  key: string;
-  name: L10n;
-  modern: L10n;
-  tip: L10n;
-  how: L10n;
-  pts: Pt[];
-  /** Ideal mean speed, cells per second. */
-  speed: number;
-  end: 'sharp' | 'round';
-}
-
-const BZT = { zh: '《笔阵图》', en: 'Bizhen Tu' };
-
-const YONG: StrokeDef[] = [
-  {
-    key: '侧',
-    name: { zh: '侧', en: 'Cè' },
-    modern: { zh: '点', en: 'dot' },
-    tip: { zh: '点如高峰坠石', en: 'A dot like a rock falling from a high peak' },
-    how: { zh: '侧锋落笔，由轻到重，稍顿后收住。', en: 'Touch down at a slant, press from light to heavy, pause, and lift.' },
-    pts: [[0.445, 0.07, 0.01], [0.475, 0.098, 0.032], [0.51, 0.138, 0.042], [0.52, 0.158, 0.028]],
-    speed: 0.3,
-    end: 'round',
-  },
-  {
-    key: '勒',
-    name: { zh: '勒', en: 'Lè' },
-    modern: { zh: '横', en: 'horizontal' },
-    tip: { zh: '横如千里阵云', en: 'A horizontal like clouds stretched over a thousand li' },
-    how: { zh: '起笔稍重，平稳右行，微微上斜，收笔一顿。', en: 'Start firmly, move steadily right with a slight rise, pause at the end.' },
-    pts: [[0.33, 0.282, 0.026], [0.36, 0.274, 0.03], [0.45, 0.264, 0.025], [0.53, 0.254, 0.028], [0.556, 0.256, 0.035]],
-    speed: 0.6,
-    end: 'round',
-  },
-  {
-    key: '努',
-    name: { zh: '努', en: 'Nǔ' },
-    modern: { zh: '竖', en: 'vertical' },
-    tip: { zh: '竖如万岁枯藤', en: 'A vertical like an ancient, dry vine' },
-    how: { zh: '竖不宜太直，沉稳下行，力透纸背，蓄力待钩。', en: 'Not ruler-straight: move down slowly and strongly, saving strength for the hook.' },
-    pts: [[0.556, 0.262, 0.035], [0.562, 0.4, 0.031], [0.567, 0.6, 0.031], [0.561, 0.78, 0.033], [0.556, 0.86, 0.037]],
-    speed: 0.45,
-    end: 'round',
-  },
-  {
-    key: '趯',
-    name: { zh: '趯', en: 'Tì' },
-    modern: { zh: '钩', en: 'hook' },
-    tip: { zh: '如劲弩筋节', en: 'Like the sinews of a strong crossbow' },
-    how: { zh: '在竖的末端顿笔，蓄势后向左上快速踢出，锋尖收尽。', en: 'Press at the foot of the vertical, then flick up-left fast, to a sharp point.' },
-    pts: [[0.556, 0.862, 0.037], [0.53, 0.848, 0.026], [0.495, 0.82, 0.012], [0.468, 0.8, 0.002]],
-    speed: 1.6,
-    end: 'sharp',
-  },
-  {
-    key: '策',
-    name: { zh: '策', en: 'Cè' },
-    modern: { zh: '提', en: 'rising stroke' },
-    tip: { zh: '策须仰策而收', en: 'Like flicking a riding whip upward' },
-    how: { zh: '由左下向右上斜挑，快而有力，越行越轻。', en: 'Lift up and to the right, quick and firm, lightening as you go.' },
-    pts: [[0.2, 0.478, 0.03], [0.27, 0.463, 0.026], [0.34, 0.447, 0.021], [0.4, 0.432, 0.016]],
-    speed: 1.1,
-    end: 'sharp',
-  },
-  {
-    key: '掠',
-    name: { zh: '掠', en: 'Lüè' },
-    modern: { zh: '长撇', en: 'long sweep' },
-    tip: { zh: '撇如陆断犀象', en: 'A sweep like cutting through rhino horn and ivory' },
-    how: { zh: '起笔稍重，向左下行笔，渐行渐快，出锋要利。', en: 'Start a little heavy, sweep down-left, speed up, and end in a sharp point.' },
-    pts: [[0.405, 0.432, 0.03], [0.37, 0.52, 0.029], [0.3, 0.63, 0.023], [0.21, 0.725, 0.013], [0.125, 0.79, 0.002]],
-    speed: 0.95,
-    end: 'sharp',
-  },
-  {
-    key: '啄',
-    name: { zh: '啄', en: 'Zhuó' },
-    modern: { zh: '短撇', en: 'short sweep' },
-    tip: { zh: '啄如鸟之啄物', en: 'Like a bird pecking' },
-    how: { zh: '短而快，落笔即撇，锐利果断。', en: 'Short and fast: touch down and flick, crisp and decisive.' },
-    pts: [[0.8, 0.33, 0.033], [0.755, 0.378, 0.029], [0.695, 0.435, 0.017], [0.625, 0.49, 0.003]],
-    speed: 1.7,
-    end: 'sharp',
-  },
-  {
-    key: '磔',
-    name: { zh: '磔', en: 'Zhé' },
-    modern: { zh: '捺', en: 'falling stroke' },
-    tip: { zh: '捺如崩浪雷奔', en: 'Like a crashing wave, like rolling thunder' },
-    how: { zh: '轻入渐重，至捺脚顿笔，再向右平平送出。', en: 'Enter light, grow heavier, press at the foot, then ease out flat to the right.' },
-    pts: [[0.62, 0.47, 0.007], [0.68, 0.56, 0.019], [0.76, 0.67, 0.033], [0.84, 0.768, 0.045], [0.89, 0.808, 0.042], [0.93, 0.824, 0.02], [0.972, 0.83, 0.002]],
-    speed: 0.5,
-    end: 'sharp',
-  },
-];
-
-/** A running-script 之: dot, folded sweep, flat falling stroke. */
-const ZHI: Pt[][] = [
-  [[0.46, 0.1, 0.012], [0.5, 0.142, 0.033], [0.538, 0.19, 0.04], [0.545, 0.212, 0.026]],
-  [[0.27, 0.405, 0.02], [0.4, 0.388, 0.026], [0.6, 0.362, 0.03], [0.655, 0.372, 0.033], [0.56, 0.468, 0.026], [0.43, 0.578, 0.02], [0.3, 0.68, 0.013]],
-  [[0.3, 0.682, 0.013], [0.4, 0.73, 0.021], [0.55, 0.77, 0.031], [0.72, 0.8, 0.041], [0.84, 0.814, 0.036], [0.93, 0.81, 0.012], [0.98, 0.8, 0.002]],
-];
 
 const GRADES = [
   { min: 0.85, zh: '神品', en: 'Divine', color: '#e0412f' },
@@ -523,9 +423,53 @@ function features(strokes: Written[]) {
   return { meanR, speed, aspect: bw / Math.max(0.05, bh), drags: strokes.length };
 }
 
+// ---------- progress ----------
+
+const PROGRESS_KEY = 'orbis.lanting.progress';
+type Progress = Record<string, { stars: number; score: number }>;
+function readProgress(): Progress {
+  try {
+    return JSON.parse(localStorage.getItem(PROGRESS_KEY) ?? '{}') ?? {};
+  } catch {
+    return {};
+  }
+}
+function saveProgress(id: string, stars: number, score: number) {
+  try {
+    const all = readProgress();
+    const old = all[id];
+    all[id] = { stars: Math.max(stars, old?.stars ?? 0), score: Math.max(score, old?.score ?? 0) };
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(all));
+  } catch {
+    /* private mode: progress just isn't kept */
+  }
+}
+
+const starRow = (n: number) => [0, 1, 2].map((k) => `<span class="${k < n ? 'on' : ''}">★</span>`).join('');
+const PUNCT = /[，。；、！？：“”《》·\s]/g;
+/** "李白《静夜思》" → 李白, "《诗经·王风·采葛》" → 诗经. */
+const authorOf = (by: string) => (by.startsWith('《') ? by.slice(1).split(/[·》]/)[0] : by.split('《')[0]);
+
+interface Mark {
+  cx: number;
+  cy: number;
+  rx: number;
+  ry: number;
+  rings: number;
+  seed: number;
+  t: number;
+}
+
+interface Outcome {
+  score: number;
+  stars: GameResult['stars'];
+  headline: { zh: string; en: string };
+  lines: { zh: string; en: string }[];
+}
+
 // ---------- the game ----------
 
-type Phase = 'intro' | 'yong' | 'yong-done' | 'zhi-intro' | 'zhi' | 'final';
+type Phase = 'menu' | 'intro' | 'write' | 'char-done' | 'zhi' | 'final';
 
 export const mount: MountGame = (root, ctx: GameCtx) => {
   const { lang } = ctx;
@@ -535,7 +479,8 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   const canvas = h('canvas', 'lt-canvas', root);
   const g = canvas.getContext('2d')!;
   const hud = h('div', 'g-hud lt-hud', root);
-  h('div', 'g-title', hud, L(lang, '兰亭 · 永字', 'Orchid Pavilion · The Brush'));
+  h('div', 'g-title', hud, L(lang, '兰亭 · 习字', 'Orchid Pavilion · The Brush'));
+  const btnMenu = h('button', 'g-btn ghost lt-back', hud, L(lang, '‹ 字帖', '‹ Copybook'));
   const side = h('div', 'lt-side', hud);
   const stepEl = h('div', 'lt-step', side);
   const bigEl = h('div', 'lt-big', side);
@@ -544,13 +489,17 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   const howEl = h('div', 'lt-how', side);
   const gradeEl = h('div', 'lt-grade', side);
   const dotsEl = h('div', 'lt-dots', side);
-  const zhisEl = h('div', 'lt-zhis', side);
+  const charsEl = h('div', 'lt-zhis', side);
+  const poemEl = h('div', 'lt-poem', side);
   const actions = h('div', 'lt-actions', hud);
   const btnRedo = h('button', 'g-btn ghost', actions, L(lang, '重写', 'Redo'));
   const btnNext = h('button', 'g-btn', actions, L(lang, '下一笔', 'Next'));
   btnRedo.style.visibility = btnNext.style.visibility = 'hidden';
+  const menu = h('div', 'lt-menu', hud);
+  const result = h('div', 'lt-result', hud);
   const toast = makeToast(hud);
-  const dots = YONG.map((d) => h('span', 'lt-dot', dotsEl, d.key));
+  let dots: HTMLElement[] = [];
+  let slots: HTMLElement[] = [];
 
   // ---------- layout ----------
   const dpr = Math.min(2, window.devicePixelRatio || 1);
@@ -575,6 +524,12 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     canvas.style.width = `${W}px`;
     canvas.style.height = `${H}px`;
     root.classList.toggle('lt-portrait', portrait);
+    // landscape side panel: anchored under the back button below 800px, compact below 600px
+    root.classList.toggle('lt-low', !portrait && H < 800);
+    root.classList.toggle('lt-short', !portrait && H < 600);
+    // landscape: Redo / Next sit under the grade in the side panel, clear of the paper
+    if (portrait) hud.insertBefore(actions, menu);
+    else side.insertBefore(actions, dotsEl);
     // background: desk, paper, grid, brush
     bg = mkCanvas(W * dpr, H * dpr);
     const bgc = bg.getContext('2d')!;
@@ -591,46 +546,68 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     ink = mkCanvas(S * (1 + 2 * M) * dpr, S * (1 + 2 * M) * dpr);
     ig = ink.getContext('2d')!;
     if (old.width > 1) ig.drawImage(old, 0, 0, ink.width, ink.height);
-    undo = mkCanvas(ink.width, ink.height);
+    // the undo copy and the 之 snapshot must follow, or Redo after a resize wipes the character
+    const rescale = (c: HTMLCanvasElement) => {
+      const n = mkCanvas(ink.width, ink.height);
+      if (c.width > 1) n.getContext('2d')!.drawImage(c, 0, 0, n.width, n.height);
+      return n;
+    };
+    undo = rescale(undo);
+    if (charSnap) charSnap = rescale(charSnap);
     drawGuide();
+    if (phase === 'final') buildSheet();
   }
 
   // ---------- state ----------
-  let phase: Phase = 'intro';
-  let idx = 0; // stroke (yong) or character (zhi)
-  const yongScores: (StrokeScore | null)[] = YONG.map(() => null);
-  const yongWritten: (Written | null)[] = YONG.map(() => null);
-  const zhiWritten: Written[][] = [[], [], []];
-  const zhiThumbs: HTMLCanvasElement[] = [];
-  let yongInk: HTMLCanvasElement | null = null;
+  let phase: Phase = 'menu';
+  let level: Level = LEVELS[0];
+  let ci = 0; // character within the level
+  let idx = 0; // stroke within the character (trace) or which 之 (variety)
+  let strokes: StrokeDef[] = [];
+  let scores: (StrokeScore | null)[][] = [];
+  let written: (Written | null)[][] = [];
+  let zhiWritten: Written[][] = [[], [], []];
+  /** Each finished character at full resolution, with its teacher's circles. */
+  let charInks: HTMLCanvasElement[] = [];
+  let charMarks: Mark[][] = [];
   let undo = mkCanvas(1, 1);
   let graded = false;
   let autoNext = 0;
+  /** Clock of the teacher's demonstration stroke. */
+  let demoT = 0;
   let phaseT = 0;
+  let introLen = 2;
   let finalSheet: HTMLCanvasElement | null = null;
+  let finalAt: [number, number] = [0, 0];
   let finalT = 0;
   let sealed = false;
+  let resultShown = false;
+  let resultFocus: HTMLButtonElement | null = null;
+  let resultStars = 0;
   /** Teacher's red circles (朱批) around good strokes, in cell space. */
-  const marks: { cx: number; cy: number; rx: number; ry: number; rings: number; seed: number; t: number }[] = [];
-  let marksYong: typeof marks = [];
+  let marks: Mark[] = [];
   let finalSeal: HTMLCanvasElement | null = null;
   let finalSealAt: [number, number] = [0, 0];
   let charSnap: HTMLCanvasElement | null = null;
+  const session: { level: Level; score: number; stars: number }[] = [];
+
+  const levelNo = () => LEVELS.indexOf(level) + 1;
+  const curChar = () => level.chars[ci];
 
   function drawGuide() {
     guide = mkCanvas(ink.width, ink.height);
     const gg = guide.getContext('2d')!;
     const S = lay.S * dpr;
     const o = M * S;
-    if (phase === 'yong' || phase === 'intro') {
-      YONG.forEach((d, i) => {
-        if (i < idx && phase !== 'intro') return;
-        gg.fillStyle = i === idx && phase === 'yong' ? 'rgba(214,64,48,0.26)' : 'rgba(214,64,48,0.1)';
+    if (phase === 'write' || phase === 'intro') {
+      strokes.forEach((d, i) => {
+        if (i < idx && phase === 'write') return;
+        gg.fillStyle = i === idx && phase === 'write' ? 'rgba(214,64,48,0.26)' : 'rgba(214,64,48,0.1)';
         fillShape(gg, dense(d.pts), S, o, o);
       });
     } else if (phase === 'zhi' && idx === 0) {
       gg.fillStyle = 'rgba(214,64,48,0.13)';
-      for (const s of ZHI) fillShape(gg, dense(s), S, o, o);
+      for (const st of ZHI) fillShape(gg, dense(st), S, o, o);
     }
   }
 
@@ -842,11 +819,16 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     const rc = canvas.getBoundingClientRect();
     return { u: (e.clientX - rc.left - cellX()) / lay.S, v: (e.clientY - rc.top - cellY()) / lay.S };
   };
-  const accepting = () => (phase === 'yong' && !graded) || phase === 'zhi';
+  /** A passing stroke that is not the character's last: the player may simply write the next one. */
+  const canWriteOn = () => phase === 'write' && graded && autoNext > 0 && idx < strokes.length - 1;
+  const accepting = () => (phase === 'write' && !graded) || phase === 'zhi' || canWriteOn();
   const onDown = (e: PointerEvent) => {
     if (!accepting() || brush.down) return;
     const p = evCell(e);
     if (p.u < -M || p.v < -M || p.u > 1 + M || p.v > 1 + M) return;
+    if (canWriteOn()) next();
+    // another drag on this 之: wait for it before moving on
+    if (phase === 'zhi') autoNext = 0;
     pointerId = e.pointerId;
     try {
       canvas.setPointerCapture(e.pointerId);
@@ -876,28 +858,158 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   canvas.addEventListener('pointerup', onUp);
   canvas.addEventListener('pointercancel', onUp);
 
+  // ---------- the copybook (level select) ----------
+  function showMenu() {
+    phase = 'menu';
+    autoNext = 0;
+    brush.down = false;
+    scratch.set(0);
+    ig.clearRect(0, 0, ink.width, ink.height);
+    marks = [];
+    finalSheet = null;
+    side.style.display = 'none';
+    actions.style.display = 'none';
+    btnMenu.style.display = 'none';
+    result.classList.remove('show', 'wait');
+    renderMenu();
+    menu.classList.add('show');
+    menu.scrollTop = 0;
+  }
+
+  function renderMenu() {
+    const prog = readProgress();
+    const total = LEVELS.reduce((a, lv) => a + (prog[lv.id]?.stars ?? 0), 0);
+    const nextId = LEVELS.find((lv) => !prog[lv.id])?.id;
+    menu.innerHTML = '';
+    const head = h('div', 'lt-menu-head', menu);
+    h('h2', '', head, L(lang, '字帖', 'Copybook'));
+    h('p', '', head, L(lang, '任选一个字开始写。每一关都配有一句诗，写完题在纸上。', 'Pick any character to start. Each comes with a line of poetry, written on the finished sheet.'));
+    h('span', 'lt-total', head, `★ ${total} / ${LEVELS.length * 3}`);
+    GROUPS.forEach((gr, gi) => {
+      const sec = h('section', 'lt-group', menu);
+      h('h3', '', sec, `${lang === 'zh' ? gr.name.zh : `${gr.name.en} <i>${gr.name.zh}</i>`}<small>${gr.desc[lang]}</small>`);
+      const grid = h('div', 'lt-cards', sec);
+      for (const lv of LEVELS.filter((x) => x.group === gi)) {
+        const n = LEVELS.indexOf(lv) + 1;
+        const multi = lv.mode === 'trace' && lv.chars.length > 1;
+        const b = h('button', `lt-card${multi ? ' multi' : ''}${lv.id === nextId ? ' next' : ''}`, grid);
+        const st = prog[lv.id]?.stars ?? 0;
+        b.innerHTML = `<span class="lt-card-ch">${lv.mode === 'variety' ? '之' : lv.chars}</span><b>${lv.name[lang]}</b><em>${starRow(st)}</em>`;
+        b.title = `${lv.poem.text} — ${lv.poem.by[lang]}`;
+        b.setAttribute('aria-label', `${n}. ${lv.chars} · ${lv.name[lang]} · ${st}/3 ★`);
+        b.addEventListener('click', () => {
+          sfx.tone({ freq: 659, to: 656, dur: 0.5, type: 'triangle', gain: 0.05 });
+          startLevel(lv);
+        });
+      }
+    });
+  }
+
   // ---------- flow ----------
+  function startLevel(lv: Level) {
+    level = lv;
+    ci = 0;
+    idx = 0;
+    autoNext = 0;
+    graded = false;
+    resultShown = false;
+    finalSheet = null;
+    sealed = false;
+    charInks = [];
+    charMarks = [];
+    marks = [];
+    charSnap = null;
+    zhiWritten = [[], [], []];
+    scores = [...lv.chars].map((ch) => (lv.mode === 'trace' ? CHARS[ch].strokes.map(() => null) : []));
+    written = scores.map((r) => r.map(() => null));
+    ig.clearRect(0, 0, ink.width, ink.height);
+    menu.classList.remove('show');
+    result.classList.remove('show', 'wait');
+    side.style.display = '';
+    side.classList.remove('fade');
+    actions.style.display = '';
+    btnMenu.style.display = '';
+    poemEl.innerHTML = poemHtml(lv, true);
+    // slots for the characters of a poem line, or the three 之
+    charsEl.innerHTML = '';
+    slots = lv.chars.length > 1 ? [...lv.chars].map((ch) => h('div', 'lt-zhi', charsEl, `<div class="lt-slot">${ch}</div><span></span>`)) : [];
+    const sub = lv.mode === 'variety' ? lv.poem.text : `${lv.poem.text}<small>${lv.poem.by.zh}</small>`;
+    toast(lv.mode === 'variety' ? L(lang, '之 · 三变', 'Three 之') : lv.chars, lang === 'zh' ? sub : lv.poem.en, 3000);
+    beginChar(2);
+  }
+
+  function beginChar(intro: number) {
+    graded = false;
+    btnRedo.style.visibility = btnNext.style.visibility = 'hidden';
+    gradeEl.innerHTML = '';
+    slots.forEach((el, i) => el.classList.toggle('cur', i === ci));
+    if (level.mode === 'variety') {
+      phase = 'zhi';
+      dotsEl.style.display = 'none';
+      setZhiHud();
+      drawGuide();
+      return;
+    }
+    strokes = CHARS[curChar()].strokes;
+    idx = 0;
+    phase = 'intro';
+    phaseT = 0;
+    introLen = intro;
+    dotsEl.style.display = '';
+    dotsEl.innerHTML = '';
+    dots = strokes.map((d) => h('span', 'lt-dot', dotsEl, d.key));
+    stepEl.textContent = levelLabel();
+    bigEl.textContent = curChar();
+    bigEl.classList.remove('long');
+    modernEl.textContent = L(lang, `共 ${strokes.length} 笔`, `${strokes.length} stroke${strokes.length > 1 ? 's' : ''}`);
+    tipEl.innerHTML = '';
+    howEl.textContent = level.id === 'yong' ? L(lang, '八笔包含楷书的基本笔法。', 'Eight strokes hold every basic brush movement.') : '';
+    drawGuide();
+  }
+
+  function levelLabel() {
+    const multi = level.chars.length > 1 && level.mode === 'trace';
+    const zh = `第 ${levelNo()} 关 · ${multi ? `「${level.chars}」第 ${ci + 1} 字` : level.name.zh}`;
+    const en = `Level ${levelNo()} · ${multi ? `${level.chars} · ${ci + 1} of ${level.chars.length}` : level.name.en}`;
+    return L(lang, zh, en);
+  }
+
+  /** The poem line with the level's characters picked out. */
+  function poemHtml(lv: Level, withEn: boolean) {
+    const want = new Set(lv.chars);
+    const line = [...lv.poem.text].map((c) => (want.has(c) ? `<em>${c}</em>` : c)).join('');
+    return `<p>${line}</p><small>— ${lv.poem.by[lang]}</small>${withEn && lang === 'en' ? `<span>${lv.poem.en}</span>` : ''}`;
+  }
+
   function snapshotChar() {
     charSnap = mkCanvas(ink.width, ink.height);
     charSnap.getContext('2d')!.drawImage(ink, 0, 0);
   }
 
-  function setYongHud() {
-    const d = YONG[idx];
-    stepEl.textContent = L(lang, `第一课 · 永字八法　${idx + 1} / 8`, `Lesson 1 · Eight principles of 永　${idx + 1} / 8`);
+  function setStrokeHud() {
+    const d = strokes[idx];
+    stepEl.textContent = `${levelLabel()}　${idx + 1} / ${strokes.length}`;
     bigEl.textContent = d.name.zh;
-    modernEl.textContent = lang === 'zh' ? `“${d.key}” 即 ${d.modern.zh}` : `${d.name.en} · ${d.modern.en}`;
-    tipEl.innerHTML = `“${d.tip[lang]}”<small>— ${d.key === '策' || d.key === '啄' ? L(lang, '永字八法诀', 'the Eight Principles') : BZT[lang]}</small>`;
+    bigEl.classList.toggle('long', d.name.zh.length > 1);
+    modernEl.textContent =
+      lang === 'zh'
+        ? level.id === 'yong'
+          ? `“${d.key}” 即 ${d.modern.zh}`
+          : `“${curChar()}”字第 ${idx + 1} 笔${d.modern.zh !== d.name.zh ? ` · ${d.modern.zh}` : ''}`
+        : `${d.name.en} · ${d.modern.en}`;
+    tipEl.innerHTML = `“${d.tip[lang]}”${d.src ? `<small>— ${d.src[lang]}</small>` : ''}`;
     howEl.textContent = d.how[lang];
     gradeEl.innerHTML = '';
     btnRedo.style.visibility = 'hidden';
     btnNext.style.visibility = 'hidden';
     dots.forEach((el, i) => el.classList.toggle('cur', i === idx));
+    demoT = 0;
   }
 
   function setZhiHud() {
-    stepEl.textContent = L(lang, `第二课 · 之字三变　${idx + 1} / 3`, `Lesson 2 · Three ways to write 之　${idx + 1} / 3`);
+    stepEl.textContent = L(lang, `第 ${levelNo()} 关 · 之字三变　${idx + 1} / 3`, `Level ${levelNo()} · Three ways to write 之　${idx + 1} / 3`);
     bigEl.textContent = '之';
+    bigEl.classList.remove('long');
     modernEl.textContent = L(lang, ['第一个：照着描红写', '第二个：换一种写法', '第三个：再变一次'][idx], ['First: follow the red guide', 'Second: write it differently', 'Third: change it once more'][idx]);
     tipEl.innerHTML = idx === 0 ? L(lang, '“变转悉异，遂无同者”<small>— 何延之《兰亭记》</small>', '“Each one transformed; no two alike”<small>— He Yanzhi, Record of the Orchid Pavilion</small>') : '';
     howEl.textContent =
@@ -912,11 +1024,11 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   }
 
   function finishStroke(w: Written) {
-    if (phase === 'yong') {
-      const def = YONG[idx];
+    if (phase === 'write') {
+      const def = strokes[idx];
       const sc = scoreStroke(w, def);
-      yongScores[idx] = sc;
-      yongWritten[idx] = w;
+      scores[ci][idx] = sc;
+      written[ci][idx] = w;
       graded = true;
       const gr = gradeOf(sc.total);
       gradeEl.innerHTML = `<b style="color:${gr.color}">${lang === 'zh' ? gr.zh : gr.en}</b><span>${advice(sc, def, w, lang)}</span>`;
@@ -946,8 +1058,14 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
         setTimeout(() => sfx.tone({ freq: 1175, to: 1170, dur: 1.1, type: 'triangle', gain: 0.05 }), 120);
       } else if (sc.total >= 0.5) sfx.tone({ freq: 587, to: 584, dur: 0.8, type: 'triangle', gain: 0.07 });
       else sfx.tone({ freq: 220, to: 200, dur: 0.4, type: 'sine', gain: 0.06 });
+      const lastStroke = idx === strokes.length - 1;
+      const lastChar = ci === level.chars.length - 1;
       btnRedo.textContent = L(lang, '重写', 'Redo');
-      btnNext.textContent = idx === YONG.length - 1 ? L(lang, '完成永字', 'Finish 永') : L(lang, '下一笔', 'Next stroke');
+      btnNext.textContent = !lastStroke
+        ? L(lang, '下一笔', 'Next stroke')
+        : !lastChar
+          ? L(lang, `下一字「${level.chars[ci + 1]}」`, `Next: ${level.chars[ci + 1]}`)
+          : L(lang, `完成「${curChar()}」`, `Finish ${curChar()}`);
       btnRedo.style.visibility = btnNext.style.visibility = 'visible';
       btnNext.classList.toggle('ghost', sc.total < 0.5);
       btnRedo.classList.toggle('ghost', sc.total >= 0.5);
@@ -961,16 +1079,17 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   }
 
   function redo() {
+    if (brush.down) return;
     autoNext = 0;
-    if (phase === 'yong' && graded) {
+    if (phase === 'write' && graded) {
       ig.clearRect(0, 0, ink.width, ink.height);
       ig.drawImage(undo, 0, 0);
-      if (yongScores[idx] && yongScores[idx]!.total >= 0.7) marks.pop();
-      yongScores[idx] = null;
-      yongWritten[idx] = null;
+      if (scores[ci][idx] && scores[ci][idx]!.total >= 0.7) marks.pop();
+      scores[ci][idx] = null;
+      written[ci][idx] = null;
       dots[idx].classList.remove('done');
       graded = false;
-      setYongHud();
+      setStrokeHud();
     } else if (phase === 'zhi' && charSnap) {
       ig.clearRect(0, 0, ink.width, ink.height);
       ig.drawImage(charSnap, 0, 0);
@@ -979,43 +1098,43 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     }
   }
 
+  /** Copy of the ink canvas, and a small thumbnail of it in the character's slot. */
+  function keepChar(n: number, label: string) {
+    const full = mkCanvas(ink.width, ink.height);
+    full.getContext('2d')!.drawImage(ink, 0, 0);
+    charInks[n] = full;
+    charMarks[n] = marks.map((m) => ({ ...m, t: 1 }));
+    const slot = slots[n];
+    if (!slot) return;
+    const S = lay.S * dpr;
+    const th = mkCanvas(132, 132);
+    th.className = 'lt-thumb';
+    th.getContext('2d')!.drawImage(ink, M * S * 0.6, M * S * 0.6, S * (1 + M * 0.8), S * (1 + M * 0.8), 0, 0, 132, 132);
+    slot.querySelector('.lt-slot')?.replaceWith(th);
+    slot.querySelector('span')!.textContent = label;
+    slot.classList.add('done');
+  }
+
   function next() {
+    if (brush.down) return;
     autoNext = 0;
-    if (phase === 'yong' && graded) {
+    if (phase === 'write' && graded) {
       graded = false;
-      if (idx < YONG.length - 1) {
+      if (idx < strokes.length - 1) {
         idx++;
-        setYongHud();
+        setStrokeHud();
         drawGuide();
-      } else {
-        phase = 'yong-done';
-        phaseT = 0;
-        drawGuide();
-        btnRedo.style.visibility = btnNext.style.visibility = 'hidden';
-        dots.forEach((el) => el.classList.remove('cur'));
-        const avg = yongScores.reduce((a, s) => a + (s?.total ?? 0), 0) / YONG.length;
-        const gr = gradeOf(avg);
-        toast(L(lang, `永 · ${gr.zh}`, `永 · ${gr.en}`), L(lang, '八法俱备，一字立成', 'All eight principles in a single character'), 2600);
-        sfx.tone({ freq: 523, to: 520, dur: 1.4, type: 'triangle', gain: 0.07 });
-        setTimeout(() => sfx.tone({ freq: 784, to: 780, dur: 1.6, type: 'triangle', gain: 0.05 }), 180);
-      }
+      } else charDone();
     } else if (phase === 'zhi' && zhiWritten[idx].length > 0) {
-      // keep a thumbnail, clear the cell for the next one
-      const S = lay.S * dpr;
-      const th = mkCanvas(132, 132);
-      const tg = th.getContext('2d')!;
-      tg.drawImage(ink, M * S * 0.6, M * S * 0.6, S * (1 + M * 0.8), S * (1 + M * 0.8), 0, 0, 132, 132);
-      th.className = 'lt-thumb';
-      zhiThumbs.push(th);
-      const wrap = h('div', 'lt-zhi', zhisEl);
-      wrap.appendChild(th);
       const n = idx;
       const rec = recognise(zhiWritten[n]);
-      h('span', '', wrap, rec >= 0.45 ? L(lang, ['之一', '之二', '之三'][n], ['first', 'second', 'third'][n]) : L(lang, '不像“之”', 'not quite 之'));
+      keepChar(n, rec >= 0.45 ? L(lang, ['之一', '之二', '之三'][n], ['first', 'second', 'third'][n]) : L(lang, '不像“之”', 'not quite 之'));
       sfx.tone({ freq: [523, 587, 659][n], to: [520, 584, 656][n], dur: 0.8, type: 'triangle', gain: 0.06 });
       ig.clearRect(0, 0, ink.width, ink.height);
       if (idx < 2) {
         idx++;
+        ci = idx;
+        slots.forEach((el, i) => el.classList.toggle('cur', i === idx));
         setZhiHud();
         drawGuide();
       } else startFinal();
@@ -1023,65 +1142,114 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   }
   btnRedo.addEventListener('click', redo);
   btnNext.addEventListener('click', next);
-  const onKey = (e: KeyboardEvent) => {
-    if (e.key === 'Enter' || e.key === ' ') {
-      if (btnNext.style.visibility === 'visible') next();
-      e.preventDefault();
-    } else if (e.key === 'Backspace' || e.key.toLowerCase() === 'z') {
-      if (btnRedo.style.visibility === 'visible') redo();
-    }
-  };
-  window.addEventListener('keydown', onKey);
+  btnMenu.addEventListener('click', showMenu);
 
-  function startZhi() {
-    yongInk = mkCanvas(ink.width, ink.height);
-    yongInk.getContext('2d')!.drawImage(ink, 0, 0);
-    ig.clearRect(0, 0, ink.width, ink.height);
-    marksYong = marks.splice(0);
-    phase = 'zhi';
-    idx = 0;
-    dotsEl.style.display = 'none';
-    setZhiHud();
+  function charDone() {
+    phase = 'char-done';
+    phaseT = 0;
     drawGuide();
-    toast(L(lang, '之 · 三变', 'Three 之'), L(lang, '《兰亭集序》中二十余个“之”字，写法各不相同', 'The Preface has some twenty 之, each written differently'), 3400);
+    btnRedo.style.visibility = btnNext.style.visibility = 'hidden';
+    dots.forEach((el) => el.classList.remove('cur'));
+    const row = scores[ci];
+    const avg = row.reduce((a, s) => a + (s?.total ?? 0), 0) / row.length;
+    const gr = gradeOf(avg);
+    keepChar(ci, lang === 'zh' ? gr.zh : gr.en);
+    const sub =
+      level.id === 'yong'
+        ? L(lang, '八法俱备，一字立成', 'All eight principles in a single character')
+        : ci < level.chars.length - 1
+          ? L(lang, `下一字：「${level.chars[ci + 1]}」`, `Next: ${level.chars[ci + 1]}`)
+          : '';
+    toast(`${curChar()} · ${lang === 'zh' ? gr.zh : gr.en}`, sub, 2000);
+    sfx.tone({ freq: 523, to: 520, dur: 1.4, type: 'triangle', gain: 0.07 });
+    setTimeout(() => sfx.tone({ freq: 784, to: 780, dur: 1.6, type: 'triangle', gain: 0.05 }), 180);
+  }
+
+  function afterChar() {
+    if (ci < level.chars.length - 1) {
+      ci++;
+      ig.clearRect(0, 0, ink.width, ink.height);
+      marks = [];
+      beginChar(0.9);
+    } else startFinal();
   }
 
   // ---------- final sheet ----------
   function startFinal() {
     phase = 'final';
     finalT = 0;
+    sealed = false;
+    resultShown = false;
     btnRedo.style.visibility = btnNext.style.visibility = 'hidden';
     side.classList.add('fade');
-    const S = lay.S * dpr;
-    const sheetW = Math.min(lay.W * 0.92, lay.H * 1.25) * dpr;
-    const sheetH = Math.min(lay.H * 0.8, sheetW * 0.74);
-    const c = mkCanvas(sheetW, sheetH);
-    const sg = c.getContext('2d')!;
-    paintPaper(sg, 0, 0, sheetW, sheetH, dpr);
-    // vertical layout, read right to left: 永, then the three 之, then the inscription and seal
-    const big = sheetH * 0.8;
-    const src = [M * S * 0.5, M * S * 0.5, S * (1 + M), S * (1 + M)] as const;
-    if (yongInk) {
-      sg.drawImage(yongInk, ...src, sheetW - big - sheetH * 0.08, (sheetH - big) / 2, big, big);
-      // the teacher's circles go with it
-      drawMarks(sg, marksYong, sheetW - big - sheetH * 0.08 + (big * M * 0.5) / (1 + M), (sheetH - big) / 2 + (big * M * 0.5) / (1 + M), big / (1 + M), 1);
-    }
-    const small = sheetH * 0.3;
-    const colX = sheetW - big - sheetH * 0.08 - small - sheetH * 0.02;
-    zhiThumbs.forEach((th, i) => sg.drawImage(th, colX, sheetH * 0.05 + i * small, small, small));
-    sg.fillStyle = 'rgba(30,24,20,0.82)';
-    const fs = sheetH * 0.045;
-    sg.font = `500 ${fs}px 'Noto Serif SC', 'Songti SC', serif`;
-    sg.textAlign = 'center';
-    const ins = '永和九年暮春之初';
-    const ix = colX - fs * 1.4;
-    for (let i = 0; i < ins.length; i++) sg.fillText(ins[i], ix, sheetH * 0.12 + i * fs * 1.25);
-    finalSheet = c;
-    finalSeal = makeSeal(Math.round(fs * 2.4), ['兰', '亭']);
-    finalSealAt = [ix - fs * 1.2, sheetH * 0.12 + ins.length * fs * 1.25 + fs * 0.4];
+    // the card is laid out (hidden) now, so the sheet can be sized to the space it leaves
+    prepareResult();
+    buildSheet();
   }
 
-  function drawMarks(c: CanvasRenderingContext2D, list: typeof marks, ox: number, oy: number, S: number, k: number) {
+  /**
+   * The finished sheet, read right to left in columns: the characters (one big square for a single
+   * character, two columns for a four-character line, one tall column for the three 之), then the
+   * poem line as the inscription, the author and the seal.
+   */
+  function buildSheet() {
+    const D = dpr;
+    // the result card takes the right side (landscape) or the bottom (portrait)
+    const top = 54;
+    const cardTop = result.classList.contains('show') ? result.offsetTop : lay.H * 0.5;
+    const area = lay.portrait ? { x: 0, y: top, w: lay.W, h: Math.max(lay.H * 0.3, cardTop - top - 10) } : { x: 0, y: 44, w: lay.W * 0.62, h: lay.H - 44 };
+    const n = charInks.length;
+    const rows = n === 4 ? 2 : n === 3 ? 3 : 1;
+    const cols = Math.ceil(n / rows);
+    const ins = level.poem.text.replace(PUNCT, '');
+    const sign = `录${authorOf(level.poem.by.zh)}句`;
+    let sheetH = Math.min(area.h * 0.86, 720) * D;
+    let geo = { pad: 0, cell: 0, fs: 0, perCol: 1, insCols: 1, sheetW: 0 };
+    for (let k = 0; k < 4; k++) {
+      const pad = sheetH * 0.07;
+      const cell = (sheetH - 2 * pad) / rows;
+      const fs = sheetH * 0.048;
+      const perCol = Math.max(4, Math.floor((sheetH - 2 * pad) / (fs * 1.22)));
+      const insCols = Math.ceil(ins.length / perCol);
+      const sheetW = pad * 2 + cols * cell + fs * 1.4 + insCols * fs * 1.5 + fs * 1.9;
+      geo = { pad, cell, fs, perCol, insCols, sheetW };
+      if (sheetW <= area.w * 0.94 * D) break;
+      sheetH *= (area.w * 0.94 * D) / sheetW;
+    }
+    const { pad, cell, fs, perCol, insCols, sheetW } = geo;
+    const c = mkCanvas(sheetW, sheetH);
+    const sg = c.getContext('2d')!;
+    paintPaper(sg, 0, 0, c.width, c.height, D);
+    charInks.forEach((src, i) => {
+      const col = Math.floor(i / rows);
+      const row = i % rows;
+      const x = c.width - pad - (col + 1) * cell;
+      const y = pad + row * cell;
+      const Sc = src.width / (1 + 2 * M);
+      sg.drawImage(src, M * Sc * 0.5, M * Sc * 0.5, Sc * (1 + M), Sc * (1 + M), x, y, cell, cell);
+      const k = cell / (1 + M);
+      drawMarks(sg, charMarks[i] ?? [], x + (k * M) / 2, y + (k * M) / 2, k, 1);
+    });
+    sg.fillStyle = 'rgba(30,24,20,0.82)';
+    sg.font = `500 ${fs}px 'Noto Serif SC', 'Songti SC', serif`;
+    sg.textAlign = 'center';
+    sg.textBaseline = 'top';
+    const x0 = c.width - pad - cols * cell - fs * 1.4 - fs * 0.75;
+    for (let j = 0; j < ins.length; j++) sg.fillText(ins[j], x0 - Math.floor(j / perCol) * fs * 1.5, pad + (j % perCol) * fs * 1.22);
+    // signature column: smaller, lower, then the seal
+    const sx = x0 - insCols * fs * 1.5 - fs * 0.35;
+    const sfs = fs * 0.78;
+    sg.fillStyle = 'rgba(30,24,20,0.7)';
+    sg.font = `500 ${sfs}px 'Noto Serif SC', 'Songti SC', serif`;
+    const sy = pad + fs * 1.5;
+    for (let j = 0; j < sign.length; j++) sg.fillText(sign[j], sx, sy + j * sfs * 1.22);
+    finalSheet = c;
+    finalAt = [area.x * D + (area.w * D - c.width) / 2, area.y * D + (area.h * D - c.height) / 2];
+    finalSeal = makeSeal(Math.round(fs * 1.55), level.seal ?? ['兰', '亭']);
+    finalSealAt = [sx, Math.min(c.height - pad - fs * 1.6, sy + sign.length * sfs * 1.22 + fs * 0.4)];
+  }
+
+  function drawMarks(c: CanvasRenderingContext2D, list: Mark[], ox: number, oy: number, S: number, k: number) {
     c.save();
     c.lineCap = 'round';
     for (const m of list) {
@@ -1107,8 +1275,49 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     c.restore();
   }
 
-  function finish() {
-    const yongAvg = yongScores.reduce((a, s) => a + (s?.total ?? 0), 0) / YONG.length;
+  // ---------- scoring a level ----------
+  function headlineOf(stars: number) {
+    return stars === 3
+      ? { zh: '笔走龙蛇', en: 'The brush moves like a dragon' }
+      : stars === 2
+        ? { zh: '颇得笔意', en: 'You have the feel of the brush' }
+        : stars === 1
+          ? { zh: '初窥门径', en: 'A first step through the gate' }
+          : { zh: '墨犹未干', en: 'The ink is still wet' };
+  }
+
+  function scoreTrace(): Outcome {
+    const all: { sc: StrokeScore; d: StrokeDef; ch: string; w: Written | null }[] = [];
+    scores.forEach((row, i) => row.forEach((sc, j) => sc && all.push({ sc, d: CHARS[level.chars[i]].strokes[j], ch: level.chars[i], w: written[i][j] })));
+    const total = scores.reduce((a, r) => a + r.length, 0);
+    const avg = all.reduce((a, x) => a + x.sc.total, 0) / Math.max(1, total);
+    const score = Math.round(clamp(avg * 100, 0, 100));
+    // a faithful copy of the template scores ~0.8; most first attempts land at 0.5–0.7
+    const stars = (avg >= 0.74 ? 3 : avg >= 0.6 ? 2 : avg >= 0.42 ? 1 : 0) as GameResult['stars'];
+    const counts = { 神品: 0, 妙品: 0, 能品: 0 } as Record<string, number>;
+    for (const x of all) if (x.sc.total >= 0.5) counts[gradeOf(x.sc.total).zh]++;
+    const best = all.reduce((a, x) => (x.sc.total > a.sc.total ? x : a), all[0]);
+    const lines = [
+      { zh: `${total} 笔：神品 ${counts['神品']} · 妙品 ${counts['妙品']} · 能品 ${counts['能品']}`, en: `${total} strokes: ${counts['神品']} divine · ${counts['妙品']} wonderful · ${counts['能品']} capable` },
+    ];
+    if (best) {
+      const bg = gradeOf(best.sc.total);
+      lines.push(
+        level.id === 'yong'
+          ? { zh: `最佳一笔：${best.d.key}（${best.d.modern.zh}）· ${bg.zh}`, en: `Best stroke: ${best.d.name.en} (${best.d.modern.en}) · ${bg.en}` }
+          : { zh: `最佳一笔：“${best.ch}”字的${best.d.name.zh} · ${bg.zh}`, en: `Best stroke: the ${best.d.modern.en} in ${best.ch} · ${bg.en}` },
+      );
+    }
+    if (level.chars.length > 1) {
+      const per = scores.map((r, i) => `${level.chars[i]} ${gradeOf(r.reduce((a, s) => a + (s?.total ?? 0), 0) / r.length)[lang]}`);
+      lines.push({ zh: per.join(' · '), en: per.join(' · ') });
+    }
+    const dry = all.filter((x) => x.w && x.w.speed > 1.1).length;
+    if (dry) lines.push({ zh: `快笔见飞白：${dry} 笔`, en: `Dry-brush streaks (飞白) in ${dry} fast stroke${dry > 1 ? 's' : ''}` });
+    return { score, stars, headline: headlineOf(stars), lines };
+  }
+
+  function scoreVariety(): Outcome {
     const recs = zhiWritten.map((z) => recognise(z));
     const masks = zhiWritten.map((z) => rasterize(z));
     const ious = [iou(masks[0], masks[1]), iou(masks[0], masks[2]), iou(masks[1], masks[2])];
@@ -1128,40 +1337,94 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     const recMean = (recs[0] + recs[1] + recs[2]) / 3;
     const variety = (0.6 * rasterVar + 0.4 * fd) * smoothstep(0.25, 0.55, Math.min(...recs));
     const zhiScore = 0.45 * recMean + 0.55 * variety;
-    const score = Math.round(clamp(yongAvg * 60 + zhiScore * 40, 0, 100));
-    const stars = (score >= 82 ? 3 : score >= 64 ? 2 : score >= 40 ? 1 : 0) as GameResult['stars'];
-    const counts = { 神品: 0, 妙品: 0, 能品: 0 } as Record<string, number>;
-    for (const s of yongScores) if (s && s.total >= 0.5) counts[gradeOf(s.total).zh]++;
-    let bestI = 0;
-    yongScores.forEach((s, i) => ((s?.total ?? 0) > (yongScores[bestI]?.total ?? 0) ? (bestI = i) : 0));
-    const best = YONG[bestI];
-    const bestG = gradeOf(yongScores[bestI]?.total ?? 0);
-    const dryCount = yongWritten.filter((w) => w && w.speed > 1.1).length;
+    const score = Math.round(clamp(zhiScore * 100, 0, 100));
+    const stars = (zhiScore >= 0.75 ? 3 : zhiScore >= 0.55 ? 2 : zhiScore >= 0.35 ? 1 : 0) as GameResult['stars'];
     const lines = [
-      { zh: `永字八法：神品 ${counts['神品']} · 妙品 ${counts['妙品']} · 能品 ${counts['能品']}`, en: `Eight principles: ${counts['神品']} divine · ${counts['妙品']} wonderful · ${counts['能品']} capable` },
-      { zh: `最佳一笔：${best.key}（${best.modern.zh}）· ${bestG.zh}`, en: `Best stroke: ${best.name.en} (${best.modern.en}) · ${bestG.en}` },
       {
         zh: `三个“之”：${variety > 0.6 ? '各具姿态，颇得变化之妙' : variety > 0.3 ? '略有变化，还可以更大胆' : '彼此太像了，王羲之可是“无一雷同”'}（相似度 ${Math.round(meanIou * 100)}%）`,
         en: `The three 之: ${variety > 0.6 ? 'each with its own character' : variety > 0.3 ? 'some variety — be bolder' : 'too alike; Wang never repeated himself'} (overlap ${Math.round(meanIou * 100)}%)`,
       },
+      { zh: `像不像“之”：${Math.round(recMean * 100)}%`, en: `How much they read as 之: ${Math.round(recMean * 100)}%` },
     ];
-    if (dryCount) lines.push({ zh: `快笔见飞白：${dryCount} 笔`, en: `Dry-brush streaks (飞白) in ${dryCount} fast strokes` });
-    const headline =
-      stars === 3
-        ? { zh: '笔走龙蛇', en: 'The brush moves like a dragon' }
-        : stars === 2
-          ? { zh: '颇得笔意', en: 'You have the feel of the brush' }
-          : stars === 1
-            ? { zh: '初窥门径', en: 'A first step through the gate' }
-            : { zh: '墨犹未干', en: 'The ink is still wet' };
-    ctx.end({ score, stars, headline, lines });
+    return { score, stars, headline: headlineOf(stars), lines };
   }
+
+  /** Score the level, record it, and lay out the result card, still hidden. */
+  function prepareResult() {
+    const out = level.mode === 'variety' ? scoreVariety() : scoreTrace();
+    const before = readProgress()[level.id]?.stars ?? 0;
+    saveProgress(level.id, out.stars, out.score);
+    session.push({ level, score: out.score, stars: out.stars });
+    const i = LEVELS.indexOf(level);
+    const nxt = LEVELS[i + 1];
+    result.innerHTML = '';
+    h('div', 'gp-stars lt-stars', result, [0, 1, 2].map((k) => `<span class="${k < out.stars ? 'on' : ''}" style="animation-delay:${0.15 + k * 0.2}s">★</span>`).join(''));
+    h('h2', '', result, out.headline[lang]);
+    h('div', 'lt-score', result, `${L(lang, '得分', 'Score')} <b>${out.score}</b>${out.stars > before && before > 0 ? `<em>${L(lang, '新纪录', 'New best')}</em>` : ''}`);
+    const ul = h('ul', '', result);
+    for (const ln of out.lines) h('li', '', ul, ln[lang]);
+    h('div', 'lt-poem lt-result-poem', result, poemHtml(level, true));
+    const row = h('div', 'lt-result-actions', result);
+    const bNext = nxt ? h('button', 'g-btn', row, L(lang, `下一关「${nxt.mode === 'variety' ? '之' : nxt.chars}」→`, `Next: ${nxt.mode === 'variety' ? '之' : nxt.chars} →`)) : null;
+    const bAgain = h('button', `g-btn${nxt ? ' ghost' : ''}`, row, L(lang, '再写一次', 'Write it again'));
+    const bMenu = h('button', 'g-btn ghost', row, L(lang, '换个字', 'Pick another'));
+    const bEnd = h('button', 'lt-finish', result, L(lang, '收笔 · 看今日成绩', 'Put down the brush · see today’s scores'));
+    bNext?.addEventListener('click', () => startLevel(nxt!));
+    bAgain.addEventListener('click', () => startLevel(level));
+    bMenu.addEventListener('click', showMenu);
+    bEnd.addEventListener('click', finishSession);
+    result.classList.add('show', 'wait');
+    resultFocus = bNext ?? bAgain;
+    resultStars = out.stars;
+  }
+
+  function showResult() {
+    resultShown = true;
+    result.classList.remove('wait');
+    resultFocus?.focus({ preventScroll: true });
+    if (resultStars >= 2) {
+      sfx.tone({ freq: 659, to: 656, dur: 1.2, type: 'triangle', gain: 0.06 });
+      setTimeout(() => sfx.tone({ freq: 988, to: 985, dur: 1.4, type: 'triangle', gain: 0.045 }), 160);
+    }
+  }
+
+  /** Hand the session to the host's result screen. */
+  function finishSession() {
+    const n = session.length;
+    const prog = readProgress();
+    const total = LEVELS.reduce((a, lv) => a + (prog[lv.id]?.stars ?? 0), 0);
+    const score = n ? Math.round(session.reduce((a, x) => a + x.score, 0) / n) : 0;
+    const stars = (n ? clamp(Math.round(session.reduce((a, x) => a + x.stars, 0) / n), 0, 3) : 0) as GameResult['stars'];
+    const lines = session.slice(-6).map((x) => {
+      const ch = x.level.mode === 'variety' ? '之 ×3' : x.level.chars;
+      const st = '★'.repeat(x.stars) + '☆'.repeat(3 - x.stars);
+      return { zh: `${ch}　${st}　${x.score} 分`, en: `${ch}　${st}　${x.score}` };
+    });
+    lines.push({ zh: `字帖进度：★ ${total} / ${LEVELS.length * 3}`, en: `Copybook: ★ ${total} / ${LEVELS.length * 3}` });
+    ctx.end({
+      score,
+      stars,
+      headline: { zh: `今日习字 ${n} 关`, en: `${n} level${n === 1 ? '' : 's'} written today` },
+      lines,
+    });
+  }
+
+  const onKey = (e: KeyboardEvent) => {
+    if (e.target instanceof HTMLButtonElement && (e.key === 'Enter' || e.key === ' ')) return; // let focused buttons click
+    if (e.key === 'Enter' || e.key === ' ') {
+      if (phase === 'final') {
+        if (resultShown) resultFocus?.click();
+      } else if (btnNext.style.visibility === 'visible' && phase !== 'menu') next();
+      if (phase !== 'menu') e.preventDefault();
+    } else if (e.key === 'Backspace' || e.key.toLowerCase() === 'z') {
+      if (btnRedo.style.visibility === 'visible') redo();
+    }
+  };
+  window.addEventListener('keydown', onKey);
 
   // ---------- frame ----------
   let raf = 0;
   let last = performance.now();
-  let demoT = 0;
-  let ended = false;
   const frame = (now: number) => {
     raf = requestAnimationFrame(frame);
     const dt = Math.min(0.05, (now - last) / 1000);
@@ -1169,30 +1432,31 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
     phaseT += dt;
     dwell(dt, now);
     for (const m of marks) m.t += dt;
-    if (autoNext > 0) {
+    if (autoNext > 0 && !brush.down) {
       autoNext -= dt;
       if (autoNext <= 0) next();
     }
-    if (phase === 'intro' && phaseT > 2.2) {
-      phase = 'yong';
-      setYongHud();
+    if (phase === 'intro' && phaseT > introLen) {
+      phase = 'write';
+      setStrokeHud();
       drawGuide();
     }
-    if (phase === 'yong-done' && phaseT > 3.2) startZhi();
+    if (phase === 'char-done' && phaseT > (level.chars.length > 1 ? 1.6 : 2.4)) afterChar();
     if (phase === 'final') {
       finalT += dt;
       if (!sealed && finalT > 1.3) {
         sealed = true;
         sfx.noise({ dur: 0.3, freq: 140, type: 'lowpass', gain: 0.7, attack: 0.005 });
       }
-      if (!ended && finalT > 5) {
-        ended = true;
-        finish();
-      }
+      if (!resultShown && finalT > 2.2) showResult();
     }
 
     const D = dpr;
     g.setTransform(1, 0, 0, 1, 0, 0);
+    if (phase === 'menu') {
+      g.drawImage(desk, 0, 0);
+      return;
+    }
     g.drawImage(bg, 0, 0);
     if (phase === 'final') {
       g.globalAlpha = smoothstep(0, 0.8, finalT);
@@ -1209,13 +1473,12 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
       g.globalAlpha = 1;
     }
     // the teacher's demonstration of the current stroke
-    const def = phase === 'yong' && !graded && !brush.down ? YONG[idx].pts : null;
-    if (def) drawDemo(def, YONG[idx].speed, dt);
+    if (phase === 'write' && !graded && !brush.down) drawDemo(strokes[idx].pts, strokes[idx].speed, dt);
     if (phase === 'final' && finalSheet) {
       const k = smoothstep(0.4, 1.3, finalT);
       g.globalAlpha = k;
-      const x = (lay.W * D - finalSheet.width) / 2;
-      const y = (lay.H * D - finalSheet.height) / 2 + (1 - k) * 20 * D;
+      const x = finalAt[0];
+      const y = finalAt[1] + (1 - k) * 20 * D;
       g.save();
       g.shadowColor = 'rgba(0,0,0,0.6)';
       g.shadowBlur = 40 * D;
@@ -1277,22 +1540,22 @@ export const mount: MountGame = (root, ctx: GameCtx) => {
   ro.observe(root);
   layout();
   raf = requestAnimationFrame(frame);
-  stepEl.textContent = L(lang, '第一课 · 永字八法', 'Lesson 1 · The eight principles of 永');
-  bigEl.textContent = '永';
-  modernEl.textContent = L(lang, '八笔包含楷书的基本笔法', 'Eight strokes hold every basic brush movement');
-  toast(L(lang, '永字八法', 'The Eight Principles of 永'), L(lang, '侧 · 勒 · 努 · 趯 · 策 · 掠 · 啄 · 磔', 'dot · horizontal · vertical · hook · rise · long sweep · short sweep · falling stroke'), 2400);
+  showMenu();
 
   // Dev-only hook so scripted runs can write with the template strokes.
   if (import.meta.env.DEV)
     (window as unknown as Record<string, unknown>).__lanting = {
-      state: () => ({ phase, idx, graded, scores: yongScores.map((s) => s && +s.total.toFixed(2)), zhi: zhiWritten.map((z) => z.length) }),
+      state: () => ({ phase, level: level.id, ci, idx, graded, scores: scores.map((r) => r.map((s) => s && +s.total.toFixed(2))), zhi: zhiWritten.map((z) => z.length) }),
       cell: () => {
         const rc = canvas.getBoundingClientRect();
         return { x: rc.left + cellX(), y: rc.top + cellY(), S: lay.S };
       },
-      yong: (i: number) => resample(catmull(YONG[i].pts), 60).map((p) => [p[0], p[1]]),
+      stroke: (i: number) => resample(catmull(strokes[i].pts), 60).map((p) => [p[0], p[1]]),
+      speed: (i: number) => strokes[i].speed,
       zhi: (i: number) => resample(catmull(ZHI[i]), 60).map((p) => [p[0], p[1]]),
-      speed: (i: number) => YONG[i].speed,
+      level: (id: string) => startLevel(LEVELS.find((lv) => lv.id === id)!),
+      levels: () => LEVELS.map((lv) => lv.id),
+      menu: showMenu,
       next,
     };
 
