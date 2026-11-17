@@ -8,6 +8,8 @@ has its own soundtrack, and the music crossfades as you turn the globe.
 
 **Live site: <https://tuye0305.github.io/orbis-atlas/>** (deployed from `main` by `.github/workflows/pages.yml`).
 
+**Open source** under the [GPL-3.0](LICENSE): you're free to use, study, change and share it under the same license. Issues and pull requests are welcome.
+
 > A world companion to [江山时序 jiangshan-map](https://github.com/DeanChensj/jiangshan-map), whose
 > Chinese data this project adapts. Static site, no backend.
 
@@ -75,6 +77,6 @@ Curated data lives in `data/<dataset>/{events,people,places,polities}.json`; see
 
 ## License
 
-GPL-3.0 (it adapts GPL-3.0 data from historical-basemaps and jiangshan-map). When reusing maps
+Open source under GPL-3.0; the full text is in [`LICENSE`](LICENSE). The project is GPL-3.0 because it adapts GPL-3.0 data from historical-basemaps and jiangshan-map. When reusing maps
 or screenshots, credit Orbis, [jiangshan-map](https://github.com/DeanChensj/jiangshan-map) and
 [historical-basemaps](https://github.com/aourednik/historical-basemaps).
