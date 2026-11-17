@@ -139,6 +139,17 @@ really happened.
 | ![Red Cliffs: fire ships waiting for the south-east wind](docs/readme/game-red-cliffs.jpg) | ![Vostok 1 lifting off](docs/readme/game-vostok.jpg) | ![The Orchid Pavilion: writing 永 stroke by stroke](docs/readme/game-orchid-pavilion.jpg) |
 | Wait for the south-east wind, sail Huang Gai's fire ships at Cao Cao's fleet and light them about two li out. | Fly Gagarin's R-7 into orbit: pitch it over, then cut the engine at the right moment to reach the target orbit. | Learn the eight basic strokes of 永. Drag slowly for heavy, wet ink, or fast for a thin, dry brush. |
 
+**Brush Isles** is an island-building game in four places and periods. You never place a house:
+you paint land out of the water, then paint where the town, fields and trees should go, and the
+city grows in that place's own style. It has houses that turn to face the canals, bridges over
+narrow water, chinampas or polder windmills, and one landmark to crown it. The fourth city is
+Tenochtitlan (1325), grown out of Lake Texcoco on chinampas around the Templo Mayor.
+
+| Bianjing (c. 1100) | Raʻiatea (c. 1000) | Amsterdam (1600s) |
+| --- | --- | --- |
+| ![Bianjing: Song houses and rainbow bridges along the Bian river, the Iron Pagoda behind](docs/readme/game-isles-kaifeng.jpg) | ![Raʻiatea: thatched fare round a green peak, the marae on the shore, palms on the motu](docs/readme/game-isles-raiatea.jpg) | ![Amsterdam: gabled canal houses, brick bridges and the Zuiderkerk](docs/readme/game-isles-amsterdam.jpg) |
+| Build the Song capital along the river of the Qingming scroll: tiled roofs, willows, rainbow bridges and the Iron Pagoda. | Shape a high island and its reef lagoon, with fare houses, taro and the marae of Taputapuātea. | Dam and dig a Golden Age canal city with stepped gables, polders and windmills. |
+
 ### Two languages
 
 The whole interface, and every record, is in English and 简体中文. The atlas follows your browser's
