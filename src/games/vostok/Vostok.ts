@@ -775,7 +775,7 @@ export const mount: MountGame = (root, ctx) => {
       state: () => ({ phase, t: s.t, stageIdx, peri: P.elements(s).peri, apo: P.elements(s).apo, windowState, d: predicted?.d ?? null }),
       setPitch: (p: number) => (pitch = p),
       sunLight,
-      holdPad: () => (padT = 1e6),
+      holdPad: (v = 1e6) => (padT = v),
       act,
     };
 
@@ -1957,7 +1957,12 @@ class WorldPuffs {
         #include <logdepthbuf_pars_vertex>
         attribute float aLife; attribute float aSize; attribute float aSeed; varying float vLife; varying float vSeed; uniform float uScale;
         void main(){ vLife = aLife; vSeed = aSeed; vec4 mv = modelViewMatrix * vec4(position,1.0);
-          gl_PointSize = aLife >= 1.0 ? 0.0 : min(900.0, aSize * (0.5 + aLife * 2.5) * uScale / -mv.z);
+          float rad = aSize * (0.5 + aLife * 2.5);
+          gl_PointSize = aLife >= 1.0 ? 0.0 : min(900.0, rad * uScale / -mv.z);
+          // A flat sprite that dips into the ground is cut along a hard straight line. Test its
+          // depth a whole puff nearer the camera, so the cloud billows over the ground and the
+          // launch table rather than being sliced by their edges.
+          mv.xyz *= max(0.1, 1.0 - rad / max(1e-6, -mv.z));
           gl_Position = projectionMatrix * mv;
           #include <logdepthbuf_vertex>
         }`,
